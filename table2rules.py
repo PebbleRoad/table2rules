@@ -869,29 +869,39 @@ def build_tree_based_col_context_map(grid: List[List[Dict]], col_tree: Dict, num
 
 
 def clean_text(text: str) -> str:
+    """
+    Universal text cleaning that preserves compound terms and technical language.
+    Handles HTML entities and normalizes spacing without breaking meaningful word boundaries.
+    """
     if not text:
         return ""
     
-    # Handle HTML line breaks before general whitespace normalization
-    text = re.sub(r'<br\s*/?>', ' ', text, flags=re.IGNORECASE)
-    # Ensure proper spacing around common text boundaries
-    text = re.sub(r'([a-z])([A-Z])', r'\1 \2', text)  # Add space between lowercase-uppercase
-    text = re.sub(r'([a-z])(\()', r'\1 \2', text)     # Add space before opening parenthesis
+    # Handle HTML entities first  
+    text = text.replace('&nbsp;', ' ')
+    text = text.replace('&amp;', '&')
+    text = text.replace('&lt;', '<')
+    text = text.replace('&gt;', '>')
+    text = text.replace('&quot;', '"')
+    
+    # Handle the specific pattern: Day 1<br><small>Mon, 12 May</small>
+    # This ensures proper spacing between "Day 1" and "Mon, 12 May"
+    text = re.sub(r'(\w+\s+\d+)<br\s*/?><small>([^<]+)</small>', r'\1 \2', text, flags=re.IGNORECASE)
+    
+    # Remove all remaining HTML tags and replace with space
+    text = re.sub(r'<[^>]+>', ' ', text)
     
     # Normalize whitespace
     text = re.sub(r'\s+', ' ', text)
     text = text.strip()
     
-    # Fix spacing issues in compound headers
-    # Pattern: "Day 1Mon, 12 May" -> "Day 1 Mon, 12 May"
-    text = re.sub(r'(\d)([A-Z][a-z]+)', r'\1 \2', text)
+    # Fix spacing around common separators (but preserve compound terms)
+    text = re.sub(r'\s*&\s*', ' & ', text)
     
-    # Fix spacing around common separators
+    # Fix spacing around em dashes and hyphens (preserve meaning)
     text = re.sub(r'\s*—\s*', ' — ', text)  # Em dash
-    text = re.sub(r'\s*-\s*', ' - ', text)   # Hyphen
-    text = re.sub(r'\s*&\s*', ' & ', text)   # Ampersand
+    text = re.sub(r'(?<=\w)\s*-\s*(?=\w)', '-', text)  # Hyphen in compound words (no spaces)
     
-    # Remove excessive spaces that might have been introduced
+    # Final whitespace cleanup
     text = re.sub(r'\s+', ' ', text)
     text = text.strip()
     
@@ -916,7 +926,7 @@ def parse_and_unmerge_table_bulletproof(table) -> List[List[Dict]]:
             rowspan = int(cell.get('rowspan', 1))
             colspan = int(cell.get('colspan', 1))
             cell_data = {
-                'text': clean_text(cell.get_text()),
+                'text': clean_text(cell.get_text(separator=' ')),
                 'type': cell.name,
                 'rowspan': rowspan,
                 'colspan': colspan,
