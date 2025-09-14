@@ -112,6 +112,7 @@ class LogicRule:
     conditions: List[str]
     outcome: str
     position: Tuple[int, int]
+    is_summary: bool = False
     
     def to_rule_string(self) -> str:
         if not self.conditions:
@@ -119,7 +120,11 @@ class LogicRule:
     
         condition_parts = [f'"{c}"' for c in self.conditions]
         conditions_str = " AND ".join(condition_parts)
-        return f"IF {conditions_str} THEN the value is '{self.outcome}'"
+        
+        if self.is_summary:
+            return f"SUMMARY: IF {conditions_str} THEN the value is '{self.outcome}'"
+        else:
+            return f"IF {conditions_str} THEN the value is '{self.outcome}'"
 
 
 def _get_cell_type(cell: Dict) -> str:
@@ -768,7 +773,8 @@ def extract_rules(grid: List[List[Dict]], structure: TableStructure) -> List[Log
                             rule = LogicRule(
                                 conditions=unique_conditions,
                                 outcome=outcome_text,
-                                position=(r, current_col_idx)
+                                position=(r, current_col_idx),
+                                is_summary=cell.get('is_footer', False)
                             )
                             rules.append(rule)
                 else:
@@ -799,7 +805,8 @@ def extract_rules(grid: List[List[Dict]], structure: TableStructure) -> List[Log
                                 rule = LogicRule(
                                     conditions=unique_conditions,
                                     outcome=outcome_text,
-                                    position=(r, current_col_idx)
+                                    position=(r, current_col_idx),
+                                    is_summary=cell.get('is_footer', False)
                                 )
                                 rules.append(rule)
                         
@@ -912,8 +919,21 @@ def clean_text(text: str) -> str:
 def parse_and_unmerge_table_bulletproof(table) -> List[List[Dict]]:
     """
     Step 1: Bulletproof unmerging - create perfect 2D grid.
-    This corrected version robustly finds <tr> elements in any table structure.
+    This corrected version robustly finds <tr> elements in any table structure
+    and preserves semantic context from HTML structure.
     """
+    # STEP 1: Map footer rows before processing
+    footer_row_indices = set()
+    tfoot = table.find('tfoot')
+    if tfoot:
+        all_trs = table.find_all('tr')
+        tfoot_trs = tfoot.find_all('tr')
+        for tfoot_tr in tfoot_trs:
+            try:
+                footer_row_indices.add(all_trs.index(tfoot_tr))
+            except ValueError:
+                continue
+    
     # This is the simplified and corrected row-finding logic
     actual_rows = table.find_all('tr')
     if not actual_rows:
@@ -931,7 +951,8 @@ def parse_and_unmerge_table_bulletproof(table) -> List[List[Dict]]:
                 'type': cell.name,
                 'rowspan': rowspan,
                 'colspan': colspan,
-                'row': row_idx
+                'row': row_idx,
+                'is_footer': row_idx in footer_row_indices  # STEP 2: Tag cells with footer context
             }
             row_cells.append(cell_data)
         parsed_cells.append(row_cells)
@@ -950,7 +971,7 @@ def parse_and_unmerge_table_bulletproof(table) -> List[List[Dict]]:
             col_idx += cell['colspan']
     
     max_rows = len(actual_rows)
-    grid = [[{'text': '', 'type': 'td', 'original_cell': False} for _ in range(max_cols)] for _ in range(max_rows)]
+    grid = [[{'text': '', 'type': 'td', 'original_cell': False, 'is_footer': False} for _ in range(max_cols)] for _ in range(max_rows)]
     occupied_positions.clear()
 
     for row_idx, row_cells in enumerate(parsed_cells):
@@ -969,7 +990,8 @@ def parse_and_unmerge_table_bulletproof(table) -> List[List[Dict]]:
                             'original_rowspan': cell['rowspan'] if (r == 0 and c == 0) else 1,
                             'original_colspan': cell['colspan'] if (r == 0 and c == 0) else 1,
                             'rowspan': 1,  # For compatibility
-                            'colspan': 1   # For compatibility
+                            'colspan': 1,  # For compatibility
+                            'is_footer': cell['is_footer']  # STEP 3: Preserve footer context in grid
                         }
                         occupied_positions.add((target_row, target_col))
             col_idx += cell['colspan']
