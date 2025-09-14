@@ -210,7 +210,6 @@ def is_placeholder_content(text: str, is_spanning: bool = False) -> bool:
     
     # Common placeholder patterns across all domains
     placeholder_patterns = [
-        '—', '-', '–', '―',  # Various dash types
         'N/A', 'n/a', 'NA', 'na',
         'TBD', 'tbd', 'TBA', 'tba',
         '...', '…',
@@ -712,6 +711,8 @@ def extract_rules(grid: List[List[Dict]], structure: TableStructure) -> List[Log
     row_tree = analyzer._build_row_header_tree(grid, num_rows, num_cols)
     row_context_map = build_tree_based_row_context_map(grid, row_tree, num_rows, num_cols)
     col_context_map = build_tree_based_col_context_map(grid, col_tree, num_rows, num_cols)
+    # Enable debugging for the insurance table
+    debug_context_maps(grid, row_context_map, col_context_map, structure)
 
     rules = []
     
@@ -807,21 +808,22 @@ def extract_rules(grid: List[List[Dict]], structure: TableStructure) -> List[Log
 def build_tree_based_row_context_map(grid: List[List[Dict]], row_tree: Dict, num_rows: int, num_cols: int) -> Dict[int, List[str]]:
     """
     Build row context using hierarchical tree traversal to capture full header paths.
-    For each data row, traverse across the tree to get the complete hierarchical context.
+    For each row in the entire grid, traverse across the tree to get the complete hierarchical context.
+    UNIVERSAL FIX: Process ALL rows, not just detected data region.
     """
     context_map = {}
     
     if not row_tree['tree_levels']:
         return context_map
     
-    # For each row in the entire grid, find which header nodes cover it
+    # Process EVERY row in the grid, not just a subset
     for row_idx in range(num_rows):
         hierarchical_path = []
         
         # Traverse each level of the row header tree to build complete path
         for level_idx, level_nodes in enumerate(row_tree['tree_levels']):
             for node in level_nodes:
-                # Use the actual grid row position, not the node's internal positioning
+                # Use the actual grid row position and check spanning coverage
                 node_start_row = node['row']
                 node_end_row = node['row'] + node['rowspan']
                 
@@ -829,11 +831,10 @@ def build_tree_based_row_context_map(grid: List[List[Dict]], row_tree: Dict, num
                 if node_start_row <= row_idx < node_end_row:
                     hierarchical_path.append(node['text'])
                     break  # Found the covering node for this level
-                    
         
+        # Only add to context map if we found actual context
         if hierarchical_path:
             context_map[row_idx] = hierarchical_path
-            
     
     return context_map
 
