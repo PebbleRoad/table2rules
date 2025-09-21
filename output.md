@@ -1,25 +1,72 @@
-<!-- TABLE_CHUNK_START -->
-<!-- CHUNK_TYPE: table_rules -->
-<!-- SOURCE_TYPE: structured_table_data -->
-<!-- RULE_COUNT: 15 -->
-<!-- KEEP_TOGETHER: true -->
-
-For North, Quarterly Sales (in millions), Q1, the value is 10
-For North, Quarterly Sales (in millions), Q2, the value is 12
-For North, Quarterly Sales (in millions), Q3, the value is 15
-For North, Quarterly Sales (in millions), Q4, the value is 18
-For North, Total Annual Sales, the value is 55
-<!-- CHUNK_BOUNDARY_SOFT -->
-For South, Quarterly Sales (in millions), Q1, the value is 8
-For South, Quarterly Sales (in millions), Q2, the value is 10
-For South, Quarterly Sales (in millions), Q3, the value is 11
-For South, Quarterly Sales (in millions), Q4, the value is 14
-For South, Total Annual Sales, the value is 43
-<!-- CHUNK_BOUNDARY_SOFT -->
-For Grand Total, Quarterly Sales (in millions), Q1, the value is 18
-For Grand Total, Quarterly Sales (in millions), Q2, the value is 22
-For Grand Total, Quarterly Sales (in millions), Q3, the value is 26
-For Grand Total, Quarterly Sales (in millions), Q4, the value is 32
-For Grand Total, Total Annual Sales, the value is 98
-
-<!-- TABLE_CHUNK_END -->
+IF "Program Atlas" AND "Aquila" AND "Phase Gates" AND "Discovery" AND "Plan" THEN the value is 'Jan'
+IF "Program Atlas" AND "Aquila" AND "Phase Gates" AND "Discovery" AND "Actual" THEN the value is 'Jan'
+IF "Program Atlas" AND "Aquila" AND "Phase Gates" AND "Build" AND "Plan" THEN the value is 'Mar'
+IF "Program Atlas" AND "Aquila" AND "Phase Gates" AND "Build" AND "Actual" THEN the value is 'Apr'
+IF "Program Atlas" AND "Aquila" AND "Phase Gates" AND "Launch" AND "Plan" THEN the value is 'Jun'
+IF "Program Atlas" AND "Aquila" AND "Phase Gates" AND "Launch" AND "Actual" THEN the value is 'Jun'
+IF "Program Atlas" AND "Aquila" AND "Budget (USD M)" AND "CapEx" THEN the value is '5.2'
+IF "Program Atlas" AND "Aquila" AND "Budget (USD M)" AND "OpEx" THEN the value is '1.1'
+IF "Program Atlas" AND "Aquila" AND "FY Total" THEN the value is '6.3'
+IF "Program Atlas" AND "Aquila" AND "Status" THEN the value is 'On Track'
+IF "Program Atlas" AND "Aquila" AND "Notes" THEN the value is 'Launch locked with GA window.'
+IF "Program Atlas" AND "Borealis" AND "Phase Gates" AND "Discovery" AND "Plan" THEN the value is 'Feb'
+IF "Program Atlas" AND "Borealis" AND "Phase Gates" AND "Discovery" AND "Actual" THEN the value is 'Mar'
+IF "Program Atlas" AND "Borealis" AND "Phase Gates" AND "Build" AND "Plan" THEN the value is 'May'
+IF "Program Atlas" AND "Borealis" AND "Phase Gates" AND "Build" AND "Actual" THEN the value is 'Jun'
+IF "Program Atlas" AND "Borealis" AND "Phase Gates" AND "Launch" AND "Plan" THEN the value is 'Aug'
+IF "Program Atlas" AND "Borealis" AND "Phase Gates" AND "Launch" AND "Actual" THEN the value is 'Sep'
+IF "Program Atlas" AND "Borealis" AND "Budget (USD M)" AND "CapEx" THEN the value is '3.0'
+IF "Program Atlas" AND "Borealis" AND "Budget (USD M)" AND "OpEx" THEN the value is '0.8'
+IF "Program Atlas" AND "Borealis" AND "FY Total" THEN the value is '3.8'
+IF "Program Atlas" AND "Borealis" AND "Status" THEN the value is 'Slight Delay'
+IF "Program Atlas" AND "Borealis" AND "Notes" THEN the value is 'Vendor dependency pushed build by 2 weeks.'
+IF "Program Atlas" AND "Carina" AND "Phase Gates" AND "Discovery" AND "Plan" THEN the value is 'Paused — phases deferred to FY2026 †'
+IF "Program Atlas" AND "Carina" AND "Phase Gates" AND "Discovery" AND "Actual" THEN the value is 'Paused — phases deferred to FY2026 †'
+IF "Program Atlas" AND "Carina" AND "Phase Gates" AND "Build" AND "Plan" THEN the value is 'Paused — phases deferred to FY2026 †'
+IF "Program Atlas" AND "Carina" AND "Phase Gates" AND "Build" AND "Actual" THEN the value is 'Paused — phases deferred to FY2026 †'
+IF "Program Atlas" AND "Carina" AND "Phase Gates" AND "Launch" AND "Plan" THEN the value is 'Paused — phases deferred to FY2026 †'
+IF "Program Atlas" AND "Carina" AND "Phase Gates" AND "Launch" AND "Actual" THEN the value is 'Paused — phases deferred to FY2026 †'
+IF "Program Atlas" AND "Carina" AND "Budget (USD M)" AND "CapEx" THEN the value is '0.0'
+IF "Program Atlas" AND "Carina" AND "Budget (USD M)" AND "OpEx" THEN the value is '0.1'
+IF "Program Atlas" AND "Carina" AND "FY Total" THEN the value is '0.1'
+IF "Program Atlas" AND "Carina" AND "Status" THEN the value is 'Paused'
+IF "Program Atlas" AND "Carina" AND "Notes" THEN the value is 'Board deferral pending market conditions.'
+IF "Program Atlas" AND "Program Atlas — Subtotal" AND "FY Total" THEN the value is '10.2'
+IF "Program Atlas" AND "Program Atlas — Subtotal" AND "Status" THEN the value is '—'
+IF "Program Atlas" AND "Program Atlas — Subtotal" AND "Notes" THEN the value is 'Includes contingency in Aquila.'
+IF "Program Nimbus" AND "Daedalus" AND "Phase Gates" AND "Discovery" AND "Plan" THEN the value is 'Jan'
+IF "Program Nimbus" AND "Daedalus" AND "Phase Gates" AND "Discovery" AND "Actual" THEN the value is 'Jan'
+IF "Program Nimbus" AND "Daedalus" AND "Phase Gates" AND "Build" AND "Plan" THEN the value is 'Feb'
+IF "Program Nimbus" AND "Daedalus" AND "Phase Gates" AND "Build" AND "Actual" THEN the value is 'Feb'
+IF "Program Nimbus" AND "Daedalus" AND "Phase Gates" AND "Launch" AND "Plan" THEN the value is 'Apr'
+IF "Program Nimbus" AND "Daedalus" AND "Phase Gates" AND "Launch" AND "Actual" THEN the value is 'Apr'
+IF "Program Nimbus" AND "Daedalus" AND "Budget (USD M)" AND "CapEx" THEN the value is '4.5'
+IF "Program Nimbus" AND "Icarus" AND "Budget (USD M)" AND "CapEx" THEN the value is '4.5'
+IF "Program Nimbus" AND "Daedalus" AND "Budget (USD M)" AND "OpEx" THEN the value is '0.6'
+IF "Program Nimbus" AND "Daedalus" AND "FY Total" THEN the value is '5.1'
+IF "Program Nimbus" AND "Daedalus" AND "Status" THEN the value is 'On Track'
+IF "Program Nimbus" AND "Daedalus" AND "Notes" THEN the value is 'CapEx shared with sibling project.'
+IF "Program Nimbus" AND "Icarus" AND "Phase Gates" AND "Discovery" AND "Plan" THEN the value is '—'
+IF "Program Nimbus" AND "Icarus" AND "Phase Gates" AND "Discovery" AND "Actual" THEN the value is '—'
+IF "Program Nimbus" AND "Icarus" AND "Phase Gates" AND "Build" AND "Plan" THEN the value is 'Mar'
+IF "Program Nimbus" AND "Icarus" AND "Phase Gates" AND "Build" AND "Actual" THEN the value is 'Mar'
+IF "Program Nimbus" AND "Icarus" AND "Phase Gates" AND "Launch" AND "Plan" THEN the value is 'May'
+IF "Program Nimbus" AND "Icarus" AND "Phase Gates" AND "Launch" AND "Actual" THEN the value is 'Jun'
+IF "Program Nimbus" AND "Icarus" AND "Budget (USD M)" AND "OpEx" THEN the value is '0.9'
+IF "Program Nimbus" AND "Icarus" AND "FY Total" THEN the value is '5.4'
+IF "Program Nimbus" AND "Icarus" AND "Status" THEN the value is 'Risk Watch'
+IF "Program Nimbus" AND "Icarus" AND "Notes" THEN the value is 'Launch dependency on Daedalus testbed.'
+IF "Program Nimbus" AND "Orion Suite" AND "Phase Gates" AND "Discovery" AND "Plan" THEN the value is 'Consolidated Pilot (Disc+Build)'
+IF "Program Nimbus" AND "Orion Suite" AND "Phase Gates" AND "Discovery" AND "Actual" THEN the value is 'Consolidated Pilot (Disc+Build)'
+IF "Program Nimbus" AND "Orion Suite" AND "Phase Gates" AND "Build" AND "Plan" THEN the value is 'Consolidated Pilot (Disc+Build)'
+IF "Program Nimbus" AND "Orion Suite" AND "Phase Gates" AND "Build" AND "Actual" THEN the value is 'Consolidated Pilot (Disc+Build)'
+IF "Program Nimbus" AND "Orion Suite" AND "Phase Gates" AND "Launch" AND "Plan" THEN the value is 'Oct'
+IF "Program Nimbus" AND "Orion Suite" AND "Phase Gates" AND "Launch" AND "Actual" THEN the value is '—'
+IF "Program Nimbus" AND "Orion Suite" AND "Budget (USD M)" AND "CapEx" THEN the value is '2.4'
+IF "Program Nimbus" AND "Orion Suite" AND "Budget (USD M)" AND "OpEx" THEN the value is '0.7'
+IF "Program Nimbus" AND "Orion Suite" AND "FY Total" THEN the value is '3.1'
+IF "Program Nimbus" AND "Orion Suite" AND "Status" THEN the value is 'Planned'
+IF "Program Nimbus" AND "Orion Suite" AND "Notes" THEN the value is 'Pilot feedback gates launch.'
+IF "Program Nimbus" AND "Program Nimbus — Subtotal" AND "FY Total" THEN the value is '13.6'
+IF "Program Nimbus" AND "Program Nimbus — Subtotal" AND "Status" THEN the value is '—'
+IF "Program Nimbus" AND "Program Nimbus — Subtotal" AND "Notes" THEN the value is 'Shared CapEx counted once.'

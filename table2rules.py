@@ -663,14 +663,24 @@ class HierarchicalTableAnalyzer:
     def _build_row_header_tree(self, grid: List[List[Dict]], num_rows: int, num_cols: int) -> Dict[str, Any]:
         """
         Build hierarchical tree structure for row headers by analyzing rowspan/colspan patterns.
-        Each node represents a header cell with its spanning information and children.
+        FIXED: Includes row headers from data region (like section identifiers A, B, C).
         """
         # Find where row headers likely end by looking for transition to data-heavy columns
         header_col_end = self._find_row_header_boundary(grid, num_rows, num_cols)
-    
+        
+        # Simple header row detection for column headers
+        header_row_end = num_rows  # Default to all rows if no clear boundary
+        for row_idx in range(min(4, num_rows)):
+            th_count = sum(1 for c in range(num_cols) if grid[row_idx][c].get('type') == 'th')
+            td_count = sum(1 for c in range(num_cols) if grid[row_idx][c].get('type') == 'td')
+            
+            if td_count > th_count and td_count >= num_cols * 0.6:
+                header_row_end = row_idx
+                break
+
         # Build tree structure from left to right, level by level
         tree_levels = []
-    
+
         for col_idx in range(header_col_end):
             level_nodes = []
             row_position = 0
@@ -678,12 +688,31 @@ class HierarchicalTableAnalyzer:
             for row_idx in range(num_rows):
                 cell = grid[row_idx][col_idx]
             
-                # Skip if this position is already covered by a previous spanning cell
                 if not cell.get('original_cell', False):
                     continue
                 
                 text = cell.get('text', '').strip()
                 if not text:
+                    row_position += 1
+                    continue
+                
+                # NEW: Include row headers from data region if they're in header columns
+                # Skip only if in column header region AND the cell looks like data
+                skip_cell = False
+                if row_idx < header_row_end:
+                    # In column header region - use existing logic
+                    skip_cell = False
+                else:
+                    # In data region - only include if this looks like a row header
+                    is_row_header = (
+                        col_idx == 0 or  # First column is typically row headers
+                        len(text) <= 3 or  # Short identifiers like "A", "B", "C"
+                        not any(char in text for char in ['$', '%', ',']) or  # Not monetary/percentage
+                        cell.get('original_rowspan', 1) > 1  # Spanning cells are often headers
+                    )
+                    skip_cell = not is_row_header
+                
+                if skip_cell:
                     row_position += 1
                     continue
                 
@@ -704,7 +733,7 @@ class HierarchicalTableAnalyzer:
                 row_position += cell.get('rowspan', 1)
         
             tree_levels.append(level_nodes)
-    
+
         # Connect parent-child relationships based on row coverage
         for level_idx in range(len(tree_levels) - 1):
             current_level = tree_levels[level_idx]
@@ -712,16 +741,14 @@ class HierarchicalTableAnalyzer:
         
             for parent in current_level:
                 for child in next_level:
-                    # Child is under parent if its row range is within parent's range
                     if (child['start_row'] >= parent['start_row'] and 
                         child['end_row'] <= parent['end_row']):
                         parent['children'].append(child)
                         child['parent'] = parent
-    
-        # Calculate tree metrics
+
         max_depth = len(tree_levels)
         confidence = self._calculate_tree_confidence(tree_levels, header_col_end)
-    
+
         return {
             'tree_levels': tree_levels,
             'max_depth': max_depth,
@@ -829,7 +856,7 @@ def extract_rules(grid: List[List[Dict]], structure: TableStructure) -> List[Log
             if cell.get('original_cell', False):
                 
                 # Skip cells that are clearly headers and not data
-                if c < row_header_depth or r < structure.data_start_row:
+                if c < structure.data_start_col or r < structure.data_start_row:
                     continue
 
                 outcome_text = cell.get('text', '').strip()
@@ -909,31 +936,189 @@ def extract_rules(grid: List[List[Dict]], structure: TableStructure) -> List[Log
                         
     return rules
 
+def extract_form_table_content(grid: List[List[Dict]], table_element) -> List[LogicRule]:
+    """
+    Extract form field information from form tables.
+    Creates rules that describe form structure and field relationships.
+    """
+    rules = []
+    
+    # Process grid to find label-value pairs typical in forms
+    for r in range(len(grid)):
+        for c in range(len(grid[0])):
+            cell = grid[r][c]
+            
+            if not cell.get('original_cell', False):
+                continue
+                
+            cell_text = cell.get('text', '').strip()
+            if not cell_text:
+                continue
+            
+            # Look for form field labels (ending with colon or containing field-like words)
+            if (cell_text.endswith(':') or 
+                any(field_word in cell_text.lower() for field_word in ['name', 'email', 'phone', 'address', 'password'])):
+                
+                # Clean the label
+                clean_label = cell_text.replace(':', '').strip()
+                
+                # Look for input elements or values in adjacent cells
+                found_value = False
+                
+                # Check right adjacent cell first (most common pattern)
+                if c + 1 < len(grid[0]):
+                    adj_cell = grid[r][c + 1]
+                    adj_text = adj_cell.get('text', '').strip()
+                    
+                    # If adjacent cell has content that's not another label, use it
+                    if (adj_text and not adj_text.endswith(':') and 
+                        not any(field_word in adj_text.lower() for field_word in ['name', 'email', 'phone'])):
+                        
+                        rule = LogicRule(
+                            conditions=[f"form_field"],
+                            outcome=f"{clean_label}: {adj_text}",
+                            position=(r, c)
+                        )
+                        rules.append(rule)
+                        found_value = True
+                
+                # If no adjacent value found, create rule for just the field
+                if not found_value:
+                    rule = LogicRule(
+                        conditions=[f"form_field"],
+                        outcome=clean_label,
+                        position=(r, c)
+                    )
+                    rules.append(rule)
+    
+    # If no form-specific rules found, extract all meaningful content
+    if not rules:
+        for r in range(len(grid)):
+            for c in range(len(grid[0])):
+                cell = grid[r][c]
+                if cell.get('original_cell', False):
+                    text = cell.get('text', '').strip()
+                    if text and len(text) > 1:
+                        rule = LogicRule(
+                            conditions=['form_content'],
+                            outcome=text,
+                            position=(r, c)
+                        )
+                        rules.append(rule)
+    
+    return rules
+
+
+def extract_layout_table_content(grid: List[List[Dict]]) -> List[LogicRule]:
+    """
+    Extract linearized content from layout tables.
+    Creates rules that preserve content without imposing false logical structure.
+    """
+    rules = []
+    
+    # Collect all non-empty content in reading order
+    content_items = []
+    for r in range(len(grid)):
+        for c in range(len(grid[0])):
+            cell = grid[r][c]
+            if cell.get('original_cell', False):
+                text = cell.get('text', '').strip()
+                if text and len(text) > 1:  # Skip single characters that are likely spacers
+                    content_items.append({
+                        'text': text,
+                        'position': (r, c),
+                        'is_navigation': any(nav_word in text.lower() 
+                                           for nav_word in ['home', 'about', 'contact', 'menu', 'nav'])
+                    })
+    
+    # Group content logically
+    navigation_items = [item for item in content_items if item['is_navigation']]
+    content_items = [item for item in content_items if not item['is_navigation']]
+    
+    # Create rules for navigation items
+    for item in navigation_items:
+        rule = LogicRule(
+            conditions=['layout_navigation'],
+            outcome=item['text'],
+            position=item['position']
+        )
+        rules.append(rule)
+    
+    # Create rules for content items
+    for item in content_items:
+        # Determine content type based on characteristics
+        text = item['text']
+        if len(text) > 100:
+            content_type = 'layout_main_content'
+        elif len(text.split()) <= 3:
+            content_type = 'layout_label'
+        else:
+            content_type = 'layout_content'
+        
+        rule = LogicRule(
+            conditions=[content_type],
+            outcome=text,
+            position=item['position']
+        )
+        rules.append(rule)
+    
+    return rules
+
+
 def build_tree_based_row_context_map(grid: List[List[Dict]], row_tree: Dict, num_rows: int, num_cols: int) -> Dict[int, List[str]]:
     """
     Build row context using hierarchical tree traversal to capture full header paths.
-    For each row in the entire grid, traverse across the tree to get the complete hierarchical context.
-    UNIVERSAL FIX: Process ALL rows, not just detected data region.
+    REFINED: Properly distinguishes between legitimate headers (A, B, C) and data values ($100,000).
     """
     context_map = {}
     
     if not row_tree['tree_levels']:
         return context_map
     
-    # Process EVERY row in the grid, not just a subset
+    # Get the boundary where headers end and data begins
+    header_col_end = row_tree.get('header_col_end', 1)
+    
+    # Process EVERY row in the grid
     for row_idx in range(num_rows):
         hierarchical_path = []
         
         # Traverse each level of the row header tree to build complete path
         for level_idx, level_nodes in enumerate(row_tree['tree_levels']):
             for node in level_nodes:
-                # Use the actual grid row position and check spanning coverage
+                # Only consider nodes that are in the header region (before data columns)
+                if node['col'] >= header_col_end:
+                    continue
+                
+                # Check if this header node covers the current row via rowspan
                 node_start_row = node['row']
                 node_end_row = node['row'] + node['rowspan']
                 
-                # Check if this header node covers the current row
+                # Include this node if it spans to cover the current row
                 if node_start_row <= row_idx < node_end_row:
-                    hierarchical_path.append(node['text'])
+                    node_text = node['text']
+                    
+                    # Refined filtering: exclude obvious data values but keep legitimate headers
+                    is_data_value = (
+                        # Currency values with $ symbols
+                        '$' in node_text or
+                        # Pure numeric values (but not single letters/short codes)
+                        (node_text.replace(',', '').replace('.', '').isdigit() and len(node_text) > 2) or
+                        # Percentage values
+                        '%' in node_text or
+                        # Very long descriptive text that's clearly content, not headers
+                        (len(node_text.split()) > 10 and any(word in node_text.lower() for word in ['the', 'and', 'or', 'of', 'to', 'for']))
+                    )
+                    
+                    # Special case: preserve single character section identifiers (A, B, C, D, E)
+                    is_section_identifier = (
+                        len(node_text.strip()) == 1 and 
+                        node_text.strip().isalpha() and
+                        node['col'] == 0  # Section identifiers are typically in first column
+                    )
+                    
+                    # Include if it's a section identifier OR not a data value
+                    if is_section_identifier or not is_data_value:
+                        hierarchical_path.append(node_text)
                     break  # Found the covering node for this level
         
         # Only add to context map if we found actual context
@@ -1116,13 +1301,41 @@ def process_table(table_html: str) -> List[LogicRule]:
     grid = parse_and_unmerge_table_bulletproof(table)
     logger.info(f"Step 1 - Unmerged grid: {len(grid)} rows x {len(grid[0]) if grid else 0} columns")
 
-    analyzer = HierarchicalTableAnalyzer()
-    structure = analyzer.analyze_table_structure({"grid": grid})
-
-    rules = extract_rules(grid, structure)
-    logger.info(f"Step 2 - Generated {len(rules)} logic rules")
-
-    return rules
+    # Classify table type before processing
+    classifier = TableClassifier()
+    classification = classifier.classify_table(table, grid)
+    
+    logger.info(f"Table classified as: {classification['type'].value} (confidence: {classification['confidence']:.2f})")
+    
+    # Route to appropriate extraction strategy based on classification
+    if classification['type'] == TableType.DATA_TABLE:
+        # Use existing logic rule extraction for data tables
+        analyzer = HierarchicalTableAnalyzer()
+        structure = analyzer.analyze_table_structure({"grid": grid})
+        rules = extract_rules(grid, structure)
+        logger.info(f"Step 2 - Generated {len(rules)} logic rules from data table")
+        return rules
+        
+    elif classification['type'] == TableType.FORM_TABLE:
+        # Extract form content (different approach)
+        form_content = extract_form_table_content(grid, table)
+        logger.info(f"Step 2 - Extracted form content with {len(form_content)} fields")
+        return form_content
+        
+    elif classification['type'] == TableType.LAYOUT_TABLE:
+        # Extract linearized layout content
+        layout_content = extract_layout_table_content(grid)
+        logger.info(f"Step 2 - Extracted layout content with {len(layout_content)} items")
+        return layout_content
+        
+    else:
+        # Unknown type - use conservative data table approach with warning
+        logger.warning(f"Unknown table type, applying data table extraction conservatively")
+        analyzer = HierarchicalTableAnalyzer()
+        structure = analyzer.analyze_table_structure({"grid": grid})
+        rules = extract_rules(grid, structure)
+        logger.info(f"Step 2 - Generated {len(rules)} logic rules (unknown table type)")
+        return rules
 
 
 def main():
