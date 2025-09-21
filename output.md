@@ -1,12 +1,11 @@
-For Alpha, Q1, Jan, the value is 12
-For Alpha, Q1, Feb, the value is 15
-For Alpha, Q2, Apr, the value is 18
-For Alpha, Q2, May, the value is 21
-For Beta, Q1, Jan, the value is 9
-For Beta, Q1, Feb, the value is 11
-For Beta, Q2, Apr, the value is 13
-For Beta, Q2, May, the value is 14
-For Gamma, Q1, Jan, the value is 7
-For Gamma, Q1, Feb, the value is 8
-For Gamma, Q2, Apr, the value is 9
-For Gamma, Q2, May, the value is 10
+For AI, Opening Keynote, Day 1, 14:00, the value is Deploying at Scale
+For AI, Opening Keynote, Day 2, 09:00, the value is Prompt Design
+For AI, Opening Keynote, Day 2, 14:00, the value is Evaluation
+For AI, Vision 101, Day 1, 14:00, the value is —
+For AI, Vision 101, Day 2, 14:00, the value is Monitoring
+For Data, Ingestion, Day 1, 14:00, the value is dbt Patterns
+For Data, Ingestion, Day 2, 09:00, the value is Delta Lake
+For Data, Ingestion, Day 2, 14:00, the value is Streaming 101
+For Data, Warehouse Tuning, Day 1, 14:00, the value is Note: Bring your own laptop for the hands-on lab.
+For Data, Warehouse Tuning, Day 2, 09:00, the value is —
+For Data, Warehouse Tuning, Day 2, 14:00, the value is Cost Controls

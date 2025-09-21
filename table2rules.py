@@ -564,54 +564,49 @@ class HierarchicalTableAnalyzer:
         
     def _find_first_non_title_row(self, grid: List[List[Dict]], num_rows: int, num_cols: int) -> int:
         """
-        Adaptively find the first row with actual headers.
-        Different logic for different table types.
+        Adaptively find the first row with actual headers, filtering out table titles.
+        Enhanced to detect full-width spanning title rows more reliably.
         """
-        # Check if this looks like a scheduling table (has th elements in multiple rows)
-        th_rows = 0
-        for row_idx in range(min(4, num_rows)):
-            row = grid[row_idx]
-            th_count = sum(1 for c in range(num_cols) if row[c].get('type') == 'th')
-            if th_count > 0:
-                th_rows += 1
-    
-        # If multiple rows have th elements, this is likely a schedule table - don't skip anything
-        if th_rows >= 2:
-            logger.debug(f" Detected multiplicative spanning pattern ({th_rows} header rows) - starting from row 0")
-            return 0
-    
-        # Otherwise, use the original title detection for contextual spanning tables
         for row_idx in range(min(3, num_rows)):
             row = grid[row_idx]
-        
+            
             wide_spanning_cells = 0
             total_original_cells = 0
             non_empty_cells = 0
-        
+            
             for col_idx in range(num_cols):
                 cell = row[col_idx]
                 if cell.get('original_cell', False):
                     total_original_cells += 1
                     original_colspan = cell.get('original_colspan', 1)
-                
+                    
                     if cell.get('text', '').strip():
                         non_empty_cells += 1
-                    
-                        if original_colspan >= num_cols * 0.6:
-                            wide_spanning_cells += 1
-        
+                        
+                        # Enhanced title detection: check for full or near-full width spanning
+                        if original_colspan >= num_cols * 0.8:  # 80% or more of table width
+                            text = cell.get('text', '').strip()
+                            # Additional check: does this look like a title?
+                            is_title_like = (
+                                len(text.split()) >= 3 or  # Multi-word titles
+                                '—' in text or '-' in text or  # Title separators
+                                any(word in text.lower() for word in ['schedule', 'report', 'summary', 'overview'])
+                            )
+                            if is_title_like:
+                                wide_spanning_cells += 1
+            
             # Skip if this is an empty row
             if non_empty_cells == 0:
                 continue
-        
-            # Skip if this row has only wide-spanning cells (title row)
+            
+            # Skip if this row has only wide-spanning title-like cells
             if total_original_cells > 0 and wide_spanning_cells == total_original_cells:
-                logger.debug(f" Skipping title row {row_idx}")
+                print(f"DEBUG: Skipping title row {row_idx}: wide spanning title detected")
                 continue
             else:
-                logger.debug(f" Found first header row: {row_idx}")
+                print(f"DEBUG: Found first header row: {row_idx}")
                 return row_idx
-    
+        
         return 0
 
     def _find_column_header_boundary(self, grid: List[List[Dict]], num_rows: int, num_cols: int) -> int:
@@ -756,20 +751,285 @@ class HierarchicalTableAnalyzer:
             'confidence': confidence
         }
 
-    def _find_row_header_boundary(self, grid: List[List[Dict]], num_rows: int, num_cols: int) -> int:
-        """Find where row headers end using HTML structure and content analysis."""
+    def _is_footer_content(self, cell: Dict, row_idx: int, num_rows: int, num_cols: int) -> bool:
+        """
+        Detect if a cell contains footer content that should be excluded from rule generation.
+        Uses structural analysis: wide-spanning cells in bottom region with metadata-like content.
+        """
+        # Check if cell is marked as footer from HTML structure
+        if cell.get('is_footer', False):
+            return True
+        
+        # Check if this is in the bottom region of the table
+        bottom_region_threshold = max(1, num_rows - 2)  # Last 2 rows
+        if row_idx < bottom_region_threshold:
+            return False
+        
+        # Check if cell spans wide (typically footer behavior)
+        original_colspan = cell.get('original_colspan', 1)
+        if original_colspan >= num_cols * 0.6:  # Spans 60% or more of columns
+            text = cell.get('text', '').strip().lower()
+            
+            # Footer-like content patterns (structural, not domain-specific)
+            footer_indicators = [
+                'reference' in text and 'only' in text,
+                'total' in text and len(text.split()) <= 3,
+                'note' in text or 'notes' in text,
+                text.startswith('*') or text.startswith('('),
+                len(text.split()) >= 3 and any(word in text for word in ['see', 'refer', 'contact', 'more'])
+            ]
+            
+            if any(footer_indicators):
+                return True
+        
+        return False
     
-        # Look for transition from header-heavy to data-heavy columns
+    def _is_title_content(self, text: str, row_idx: int, colspan: int, num_cols: int) -> bool:
+        """
+        Detect if content is a table title that should be excluded from context.
+        Uses structural analysis: wide spanning + title-like content patterns.
+        """
+        if not text or row_idx > 2:  # Titles are typically in first few rows
+            return False
+        
+        # Check for wide spanning (80%+ of table width)
+        if colspan < num_cols * 0.8:
+            return False
+        
+        text_lower = text.lower().strip()
+        
+        # Title content patterns (structural, not domain-specific)
+        title_indicators = [
+            len(text.split()) >= 3,  # Multi-word titles
+            '—' in text or '-' in text or '–' in text,  # Title separators  
+            any(word in text_lower for word in ['schedule', 'report', 'summary', 'overview', 'table', 'data']),
+            text.isupper() and len(text.split()) >= 2,  # ALL CAPS titles
+            any(char.isdigit() for char in text) and len(text.split()) >= 2,  # Titles with years/numbers
+        ]
+        
+        return any(title_indicators)
+
+    def _find_row_header_boundary(self, grid: List[List[Dict]], num_rows: int, num_cols: int) -> int:
+        """
+        Find where row headers end using structural analysis of content types and HTML semantics.
+        Enhanced to detect multi-level row hierarchies using quantitative thresholds.
+        """
+        
+        print(f"DEBUG: _find_row_header_boundary called with {num_rows}x{num_cols} grid")
+        
+        # Enhanced HTML semantic analysis - require BOTH td dominance AND quantitative content
         for col_idx in range(1, min(num_cols, 5)):
             th_count = sum(1 for r in range(num_rows) if grid[r][col_idx].get('type') == 'th')
             td_count = sum(1 for r in range(num_rows) if grid[r][col_idx].get('type') == 'td')
-        
-            # If this column has significantly more data cells, headers likely end here
+            
+            print(f"DEBUG: Col {col_idx} - th_count: {th_count}, td_count: {td_count}")
+            
+            # First check: HTML structure suggests data column
             if td_count > th_count and td_count >= num_rows * 0.6:
-                return col_idx
+                
+                # Second check: Verify the td content is actually quantitative, not categorical
+                quantitative_td_count = 0
+                total_td_checked = 0
+                
+                for row_idx in range(num_rows):
+                    cell = grid[row_idx][col_idx]
+                    if cell.get('type') == 'td' and cell.get('original_cell', False):
+                        text = cell.get('text', '').strip()
+                        if text:  # Only check non-empty cells
+                            total_td_checked += 1
+                            if self._is_quantitative_content(text):
+                                quantitative_td_count += 1
+                                print(f"DEBUG: Found quantitative td content: '{text}'")
+                            else:
+                                print(f"DEBUG: Found categorical td content: '{text}'")
+                
+                if total_td_checked > 0:
+                    quantitative_ratio = quantitative_td_count / total_td_checked
+                    print(f"DEBUG: Col {col_idx} td cells: {quantitative_ratio:.2f} quantitative ratio")
+                    
+                    # Check for meaningful content (either quantitative OR meaningful categorical)
+                    meaningful_content_count = quantitative_td_count
+                    for row_idx in range(num_rows):
+                        cell = grid[row_idx][col_idx]
+                        if cell.get('type') == 'td' and cell.get('original_cell', False):
+                            text = cell.get('text', '').strip()
+                            if text and not self._is_quantitative_content(text):
+                                if self._is_meaningful_categorical_content(text):
+                                    meaningful_content_count += 1
+                                    print(f"DEBUG: Found meaningful categorical td content: '{text}'")
+
+                    if total_td_checked > 0:
+                        meaningful_ratio = meaningful_content_count / total_td_checked
+                        print(f"DEBUG: Col {col_idx} td cells: {meaningful_ratio:.2f} meaningful content ratio")
+                        
+                        # Accept as data column if majority of td content is meaningful (quantitative OR categorical)
+                        if meaningful_ratio >= 0.6:  # 60% of td cells must be meaningful
+                            # Additional check: Is this column acting as row identifiers vs actual data?
+                            is_row_identifier_column = self._is_row_identifier_column(grid, col_idx, num_rows)
+                            print(f"DEBUG: Col {col_idx} row identifier check: {is_row_identifier_column}")
+                            
+                            if is_row_identifier_column:
+                                print(f"DEBUG: Col {col_idx} contains row identifiers, continuing to find data columns")
+                                continue
+                            else:
+                                print(f"DEBUG: Row header boundary at col {col_idx} (HTML semantic + meaningful content)")
+                                return col_idx
+                        else:
+                            print(f"DEBUG: Col {col_idx} has td elements but non-meaningful content, continuing")
     
-        # Fallback: assume headers are in first few columns
-        return min(2, num_cols)
+        # Enhanced content-based analysis with stricter thresholds
+        for col_idx in range(1, min(num_cols, 4)):  # Check fewer columns to be conservative
+            
+            # Analyze content characteristics of this column
+            numeric_content = 0
+            categorical_content = 0
+            empty_content = 0
+            total_cells = 0
+            
+            # Skip header rows when analyzing content
+            start_analysis_row = min(3, num_rows // 3)  # Skip top portion that's likely headers
+            
+            print(f"DEBUG: Analyzing col {col_idx} content from row {start_analysis_row}")
+            
+            for row_idx in range(start_analysis_row, num_rows):
+                cell = grid[row_idx][col_idx]
+                if not cell.get('original_cell', False):
+                    continue
+                    
+                total_cells += 1
+                text = cell.get('text', '').strip()
+                
+                if not text:
+                    empty_content += 1
+                elif self._is_quantitative_content(text):
+                    numeric_content += 1
+                    print(f"DEBUG: Found quantitative content: '{text}'")
+                else:
+                    categorical_content += 1
+                    print(f"DEBUG: Found categorical content: '{text}'")
+            
+            if total_cells == 0:
+                print(f"DEBUG: Col {col_idx} has no cells to analyze")
+                continue
+                
+            # Calculate ratios for decision making
+            quantitative_ratio = numeric_content / total_cells
+            categorical_ratio = categorical_content / total_cells
+            
+            print(f"DEBUG: Col {col_idx}: {quantitative_ratio:.2f} quantitative, {categorical_ratio:.2f} categorical")
+            
+            # Enhanced threshold: require strong evidence of quantitative data
+            if quantitative_ratio >= 0.7 and numeric_content >= 3:  # At least 70% numeric with minimum count
+                print(f"DEBUG: Row header boundary at col {col_idx} (quantitative content detected)")
+                return col_idx
+            
+            # If this column is heavily categorical, it's likely still headers
+            if categorical_ratio >= 0.8:
+                print(f"DEBUG: Col {col_idx} appears to be categorical headers, continuing")
+                continue
+        
+        # Conservative fallback: assume first 2 columns are headers for complex tables
+        fallback_boundary = min(2, num_cols - 1)
+        print(f"DEBUG: Using conservative fallback boundary: {fallback_boundary}")
+        return fallback_boundary
+
+    def _is_quantitative_content(self, text: str) -> bool:
+        """
+        Determine if text content represents quantitative data using structural analysis.
+        Returns True for numeric values, currency, percentages, measurements.
+        """
+        if not text:
+            return False
+        
+        # Remove common formatting characters
+        cleaned = re.sub(r'[$,\s%()-]', '', text)
+        
+        # Check if remaining content is primarily numeric
+        if cleaned.replace('.', '', 1).isdigit():
+            return True
+        
+        # Check for decimal numbers
+        if re.match(r'^\d+\.\d+$', cleaned):
+            return True
+        
+        # Check for currency patterns (even without $ symbol)
+        if re.match(r'^\d{1,3}(,\d{3})*(\.\d{2})?$', text.replace('$', '')):
+            return True
+        
+        return False
+    
+    def _is_meaningful_categorical_content(self, text: str) -> bool:
+        """
+        Determine if text represents meaningful categorical data (like session names, products, etc.)
+        rather than structural labels (like 'Track', 'Day', 'Time').
+        """
+        if not text or len(text.strip()) < 2:
+            return False
+        
+        text = text.strip()
+        
+        # Skip obvious placeholders
+        if text.lower() in ['—', 'tbd', 'n/a', 'na', 'null', 'none']:
+            return False
+        
+        # Skip obvious structural labels (typically short, single words)
+        if len(text.split()) == 1 and len(text) <= 8 and text.lower() in [
+            'track', 'day', 'time', 'date', 'type', 'category', 'group', 'section'
+        ]:
+            return False
+        
+        # Skip time patterns (09:00, 14:00, etc.)
+        if re.match(r'^\d{1,2}:\d{2}$', text):
+            return False
+        
+        # If it's descriptive content (multiple words), it's likely meaningful data
+        if len(text.split()) >= 2:
+            return True
+        
+        # Single meaningful words that aren't structural
+        if len(text) > 8 or any(char.islower() for char in text):
+            return True
+        
+        return False
+    
+    def _is_row_identifier_column(self, grid: List[List[Dict]], col_idx: int, num_rows: int) -> bool:
+        """
+        Determine if a column contains row identifiers rather than data content.
+        More conservative approach: only flag columns with very obvious identifier patterns.
+        """
+        texts = []
+        for row_idx in range(num_rows):
+            cell = grid[row_idx][col_idx]
+            if cell.get('original_cell', False) and cell.get('type') == 'td':
+                text = cell.get('text', '').strip()
+                if text:
+                    texts.append(text)
+        
+        if len(texts) < 2:
+            return False
+        
+        # Very conservative check: only flag obvious identifier patterns
+        # 1. Very short labels (1-2 words max)
+        # 2. All unique AND very similar length/structure
+        # 3. Look like codes, categories, or simple labels
+        
+        avg_word_count = sum(len(text.split()) for text in texts) / len(texts)
+        unique_ratio = len(set(texts)) / len(texts)
+        
+        # Only flag as identifiers if ALL conditions met:
+        # - Very short (avg 1-2 words)
+        # - All unique 
+        # - Look like simple category labels
+        if avg_word_count <= 2.0 and unique_ratio == 1.0:
+            # Additional check: do they look like simple category labels?
+            simple_labels = all(
+                len(text.split()) <= 2 and 
+                not any(word in text.lower() for word in ['at', 'for', 'with', 'and', 'or']) 
+                for text in texts
+            )
+            return simple_labels
+        
+        return False
     
     def _calculate_tree_confidence(self, tree_levels: List[List[Dict]], boundary: int) -> float:
         """Calculate confidence score based on tree structure quality."""
@@ -839,7 +1099,7 @@ def extract_rules(grid: List[List[Dict]], structure: TableStructure) -> List[Log
     col_tree = analyzer._build_column_header_tree(grid, num_rows, num_cols)
     row_tree = analyzer._build_row_header_tree(grid, num_rows, num_cols)
     row_context_map = build_tree_based_row_context_map(grid, row_tree, num_rows, num_cols)
-    col_context_map = build_tree_based_col_context_map(grid, col_tree, num_rows, num_cols)
+    col_context_map = build_tree_based_col_context_map(grid, col_tree, num_rows, num_cols, analyzer)
     # Enable debugging for the insurance table
     debug_context_maps(grid, row_context_map, col_context_map, structure)
 
@@ -862,7 +1122,12 @@ def extract_rules(grid: List[List[Dict]], structure: TableStructure) -> List[Log
                 outcome_text = cell.get('text', '').strip()
                 if not outcome_text:
                     continue
-                
+
+                # Skip footer content before processing
+                if analyzer._is_footer_content(cell, r, num_rows, num_cols):
+                    print(f"DEBUG: Skipping footer content at ({r},{c}): '{outcome_text}'")
+                    continue
+
                 # Skip placeholder content using our new detection function
                 original_colspan = cell.get('original_colspan', 1)
                 original_rowspan = cell.get('original_rowspan', 1)
@@ -1163,7 +1428,7 @@ def build_tree_based_row_context_map(grid: List[List[Dict]], row_tree: Dict, num
     
     return context_map
 
-def build_tree_based_col_context_map(grid: List[List[Dict]], col_tree: Dict, num_rows: int, num_cols: int) -> Dict[int, List[str]]:
+def build_tree_based_col_context_map(grid: List[List[Dict]], col_tree: Dict, num_rows: int, num_cols: int, analyzer) -> Dict[int, List[str]]:
     """
     Build column context using hierarchical tree traversal to capture full header paths.
     For each data column, traverse down the tree to get the complete hierarchical context.
@@ -1185,7 +1450,14 @@ def build_tree_based_col_context_map(grid: List[List[Dict]], col_tree: Dict, num
                 node_end_col = node['col'] + node['colspan']
                                 
                 if node_start_col <= col_idx < node_end_col:
-                    hierarchical_path.append(node['text'])
+                    if node_start_col <= col_idx < node_end_col:
+                        # Filter out title content from context
+                        if not analyzer._is_title_content(node['text'], node['row'], node['colspan'], num_cols):
+                            hierarchical_path.append(node['text'])
+                            print(f"DEBUG: Adding column context: '{node['text']}'")
+                        else:
+                            print(f"DEBUG: Filtering out title content: '{node['text']}'")
+                        break  # Found the covering node for this level
                     break  # Found the covering node for this level
         
         if hierarchical_path:
