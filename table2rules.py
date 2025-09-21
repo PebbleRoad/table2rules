@@ -9,6 +9,8 @@ from typing import Dict, List, Any, Optional, Tuple
 from dataclasses import dataclass
 from enum import Enum
 import logging
+import argparse
+from table_classifier import TableClassifier, TableType
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -115,6 +117,7 @@ class LogicRule:
     is_summary: bool = False
     
     def to_rule_string(self) -> str:
+        """Original structured format for backward compatibility"""
         if not self.conditions:
             return f"FACT: The value is '{self.outcome}'"
     
@@ -125,6 +128,100 @@ class LogicRule:
             return f"SUMMARY: IF {conditions_str} THEN the value is '{self.outcome}'"
         else:
             return f"IF {conditions_str} THEN the value is '{self.outcome}'"
+    
+    def to_natural_formats(self) -> Dict[str, str]:
+        """Generate multiple natural language formats for RAG optimization"""
+        return {
+            'conversational': self._to_conversational(),
+            'question_answer': self._to_qa_format(),
+            'descriptive': self._to_descriptive(),
+            'searchable': self._to_searchable(),
+            'structured': self.to_rule_string()  # Keep original for exact matching
+        }
+    
+    def _to_conversational(self) -> str:
+        """Natural language format optimized for vector similarity"""
+        if not self.conditions:
+            return f"The value is {self.outcome}"
+        
+        # Clean and join conditions naturally
+        clean_conditions = [c.strip('"\'') for c in self.conditions]
+        context = ", ".join(clean_conditions)
+        
+        return f"For {context}, the value is {self.outcome}"
+    
+    def _to_qa_format(self) -> str:
+        """Question-answer format for query matching"""
+        if not self.conditions:
+            return f"What is the value? {self.outcome}"
+        
+        clean_conditions = [c.strip('"\'') for c in self.conditions]
+        context = " ".join(clean_conditions)
+        
+        return f"What is the value for {context}? The answer is {self.outcome}"
+    
+    def _to_descriptive(self) -> str:
+        """Rich semantic description with category extraction"""
+        if not self.conditions:
+            return f"The value is {self.outcome}"
+        
+        categories = self._extract_categories()
+        
+        if categories.get('plan') and categories.get('benefit_type'):
+            return f"Under {categories['plan']}, the {categories['benefit_type']} benefit provides {self.outcome}"
+        elif categories.get('time') and categories.get('location'):
+            return f"At {categories['time']} in {categories['location']}, the content is {self.outcome}"
+        else:
+            # Generic descriptive format
+            clean_conditions = [c.strip('"\'') for c in self.conditions]
+            context = " ".join(clean_conditions)
+            return f"The {context} value is {self.outcome}"
+    
+    def _to_searchable(self) -> str:
+        """Keyword-optimized format for search engines"""
+        if not self.conditions:
+            return f"value amount data {self.outcome}"
+        
+        clean_conditions = [c.strip('"\'') for c in self.conditions]
+        
+        # Add relevant keywords based on content
+        keywords = []
+        for condition in clean_conditions:
+            if any(word in condition.lower() for word in ['plan', 'coverage', 'benefit']):
+                keywords.extend(['insurance', 'coverage', 'benefit', 'plan'])
+            elif any(word in condition.lower() for word in ['day', 'time', 'session']):
+                keywords.extend(['schedule', 'time', 'session', 'event'])
+            elif '$' in self.outcome or any(word in self.outcome.lower() for word in ['cost', 'price']):
+                keywords.extend(['cost', 'price', 'amount', 'value'])
+        
+        unique_keywords = list(dict.fromkeys(keywords))  # Remove duplicates while preserving order
+        keyword_str = " ".join(unique_keywords)
+        
+        context = " ".join(clean_conditions)
+        return f"{context} {keyword_str} value amount {self.outcome}"
+    
+    def _extract_categories(self) -> Dict[str, str]:
+        """Extract semantic categories from conditions for better natural language"""
+        categories = {}
+        
+        for condition in self.conditions:
+            clean = condition.strip('"\'').lower()
+            
+            # Plan/type detection
+            if clean in ['a', 'b', 'c'] or 'plan' in clean:
+                categories['plan'] = condition.strip('"\'')
+            elif clean in ['basic', 'classic', 'premium', 'standard']:
+                categories['benefit_type'] = condition.strip('"\'')
+            elif 'benefit' in clean or 'coverage' in clean:
+                categories['coverage_area'] = condition.strip('"\'')
+            
+            # Time/location detection
+            elif 'day' in clean or clean.startswith('q') or ':' in clean:
+                categories['time'] = condition.strip('"\'')
+            elif 'hall' in clean or 'room' in clean or 'track' in clean:
+                categories['location'] = condition.strip('"\'')
+                
+        return categories
 
 
 def _get_cell_type(cell: Dict) -> str:
@@ -1029,15 +1126,29 @@ def process_table(table_html: str) -> List[LogicRule]:
 
 
 def main():
+    parser = argparse.ArgumentParser(description='table2rules - Universal Table to Logic Rules')
+    parser.add_argument('--format', choices=['structured', 'conversational', 'qa', 'descriptive', 'searchable', 'all'], 
+                       default='structured', help='Output format (default: structured)')
+    parser.add_argument('--output', choices=['markdown', 'json', 'both'], default='markdown',
+                       help='Output type (default: markdown)')
+    parser.add_argument('--chunking', action='store_true', help='Add chunking metadata for RAG systems')
+    parser.add_argument('--input', default='input.md', help='Input file (default: input.md)')
+    parser.add_argument('--verbose', action='store_true', help='Enable verbose logging')
+    
+    args = parser.parse_args()
+    
+    if args.verbose:
+        logging.getLogger().setLevel(logging.DEBUG)
+    
     try:
-        with open('input.md', 'r', encoding='utf-8') as f:
+        with open(args.input, 'r', encoding='utf-8') as f:
             content = f.read()
         
         table_pattern = r'<table[^>]*>.*?</table>'
         tables = re.findall(table_pattern, content, re.DOTALL)
         
         if not tables:
-            logger.warning("No tables found in input.md")
+            logger.warning(f"No tables found in {args.input}")
             return
         
         all_rules = []
@@ -1047,20 +1158,108 @@ def main():
             rules = process_table(table_html)
             all_rules.extend(rules)
         
-        with open('output.md', 'w', encoding='utf-8') as f:
-            f.write("# table2rules Output\n\n")
-            for rule in all_rules:
-                rule_string = rule.to_rule_string()
-                f.write(f"- {rule_string}\n")
+        # Generate output based on selected format
+        if args.output in ['markdown', 'both']:
+            _write_markdown_output(all_rules, args.format, args.chunking)
         
-        logger.info(f"Generated {len(all_rules)} logic rules in output.md")
+        if args.output in ['json', 'both']:
+            _write_json_output(all_rules, args.format)
+        
+        logger.info(f"Generated {len(all_rules)} logic rules in {args.format} format")
         
     except FileNotFoundError:
-        logger.error("Error: input.md not found")
+        logger.error(f"Error: {args.input} not found")
     except Exception as e:
         logger.error(f"An unexpected error occurred: {e}")
         import traceback
         traceback.print_exc()
+
+
+def _write_markdown_output(rules: List[LogicRule], format_type: str, include_chunking_metadata: bool = False):
+    """Write markdown output based on selected format"""
+    with open('output.md', 'w', encoding='utf-8') as f:
+        # Add chunking metadata if requested
+        if include_chunking_metadata:
+            f.write("<!-- TABLE_CHUNK_START -->\n")
+            f.write("<!-- CHUNK_TYPE: table_rules -->\n")
+            f.write("<!-- SOURCE_TYPE: structured_table_data -->\n")
+            f.write(f"<!-- RULE_COUNT: {len(rules)} -->\n")
+            f.write("<!-- KEEP_TOGETHER: true -->\n\n")
+        
+        if format_type == 'all':
+            format_configs = [
+                ('structured', 'Structured Format'),
+                ('conversational', 'Conversational Format'),
+                ('qa', 'Question-Answer Format'),
+                ('descriptive', 'Descriptive Format'),
+                ('searchable', 'Searchable Format')
+            ]
+            
+            for fmt_key, fmt_title in format_configs:
+                f.write(f"## {fmt_title}\n\n")
+                
+                for rule in rules:
+                    if fmt_key == 'structured':
+                        f.write(f"- {rule.to_rule_string()}\n")
+                    else:
+                        formats = rule.to_natural_formats()
+                        f.write(f"- {formats[fmt_key]}\n")
+                f.write("\n")
+        else:
+            # Single format output - no header
+            for i, rule in enumerate(rules):
+                if format_type == 'structured':
+                    content = rule.to_rule_string()
+                else:
+                    formats = rule.to_natural_formats()
+                    content = formats[format_type]
+                
+                f.write(f"{content}\n")
+                
+                # Add soft boundary markers for chunking guidance
+                if include_chunking_metadata and (i + 1) % 5 == 0 and i < len(rules) - 1:
+                    f.write("<!-- CHUNK_BOUNDARY_SOFT -->\n")
+        
+        if include_chunking_metadata:
+            f.write("\n<!-- TABLE_CHUNK_END -->\n")
+
+
+def _write_json_output(rules: List[LogicRule], format_type: str):
+    """Write JSON output based on selected format"""
+    import json
+    
+    if format_type == 'all':
+        # Include all formats in JSON
+        json_output = []
+        for rule in rules:
+            formats = rule.to_natural_formats()
+            json_output.append({
+                'position': rule.position,
+                'is_summary': rule.is_summary,
+                'formats': formats,
+                'conditions': rule.conditions,
+                'outcome': rule.outcome
+            })
+    else:
+        # Single format in JSON
+        json_output = []
+        for rule in rules:
+            if format_type == 'structured':
+                content = rule.to_rule_string()
+            else:
+                formats = rule.to_natural_formats()
+                content = formats[format_type]
+            
+            json_output.append({
+                'content': content,
+                'position': rule.position,
+                'is_summary': rule.is_summary,
+                'conditions': rule.conditions,
+                'outcome': rule.outcome
+            })
+    
+    with open('output.json', 'w', encoding='utf-8') as f:
+        json.dump(json_output, f, indent=2, ensure_ascii=False)
 
 if __name__ == "__main__":
     main()

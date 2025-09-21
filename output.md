@@ -1,17 +1,25 @@
-# table2rules Output
+<!-- TABLE_CHUNK_START -->
+<!-- CHUNK_TYPE: table_rules -->
+<!-- SOURCE_TYPE: structured_table_data -->
+<!-- RULE_COUNT: 15 -->
+<!-- KEEP_TOGETHER: true -->
 
-- IF "North" AND "Quarterly Sales (in millions)" AND "Q1" THEN the value is '10'
-- IF "North" AND "Quarterly Sales (in millions)" AND "Q2" THEN the value is '12'
-- IF "North" AND "Quarterly Sales (in millions)" AND "Q3" THEN the value is '15'
-- IF "North" AND "Quarterly Sales (in millions)" AND "Q4" THEN the value is '18'
-- IF "North" AND "Total Annual Sales" THEN the value is '55'
-- IF "South" AND "Quarterly Sales (in millions)" AND "Q1" THEN the value is '8'
-- IF "South" AND "Quarterly Sales (in millions)" AND "Q2" THEN the value is '10'
-- IF "South" AND "Quarterly Sales (in millions)" AND "Q3" THEN the value is '11'
-- IF "South" AND "Quarterly Sales (in millions)" AND "Q4" THEN the value is '14'
-- IF "South" AND "Total Annual Sales" THEN the value is '43'
-- SUMMARY: IF "Grand Total" AND "Quarterly Sales (in millions)" AND "Q1" THEN the value is '18'
-- SUMMARY: IF "Grand Total" AND "Quarterly Sales (in millions)" AND "Q2" THEN the value is '22'
-- SUMMARY: IF "Grand Total" AND "Quarterly Sales (in millions)" AND "Q3" THEN the value is '26'
-- SUMMARY: IF "Grand Total" AND "Quarterly Sales (in millions)" AND "Q4" THEN the value is '32'
-- SUMMARY: IF "Grand Total" AND "Total Annual Sales" THEN the value is '98'
+For North, Quarterly Sales (in millions), Q1, the value is 10
+For North, Quarterly Sales (in millions), Q2, the value is 12
+For North, Quarterly Sales (in millions), Q3, the value is 15
+For North, Quarterly Sales (in millions), Q4, the value is 18
+For North, Total Annual Sales, the value is 55
+<!-- CHUNK_BOUNDARY_SOFT -->
+For South, Quarterly Sales (in millions), Q1, the value is 8
+For South, Quarterly Sales (in millions), Q2, the value is 10
+For South, Quarterly Sales (in millions), Q3, the value is 11
+For South, Quarterly Sales (in millions), Q4, the value is 14
+For South, Total Annual Sales, the value is 43
+<!-- CHUNK_BOUNDARY_SOFT -->
+For Grand Total, Quarterly Sales (in millions), Q1, the value is 18
+For Grand Total, Quarterly Sales (in millions), Q2, the value is 22
+For Grand Total, Quarterly Sales (in millions), Q3, the value is 26
+For Grand Total, Quarterly Sales (in millions), Q4, the value is 32
+For Grand Total, Total Annual Sales, the value is 98
+
+<!-- TABLE_CHUNK_END -->

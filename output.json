@@ -1,0 +1,299 @@
+[
+  {
+    "position": [
+      2,
+      1
+    ],
+    "is_summary": false,
+    "formats": {
+      "conversational": "For North, Quarterly Sales (in millions), Q1, the value is 10",
+      "question_answer": "What is the value for North Quarterly Sales (in millions) Q1? The answer is 10",
+      "descriptive": "The North Quarterly Sales (in millions) Q1 value is 10",
+      "searchable": "North Quarterly Sales (in millions) Q1  value amount 10",
+      "structured": "IF \"North\" AND \"Quarterly Sales (in millions)\" AND \"Q1\" THEN the value is '10'"
+    },
+    "conditions": [
+      "North",
+      "Quarterly Sales (in millions)",
+      "Q1"
+    ],
+    "outcome": "10"
+  },
+  {
+    "position": [
+      2,
+      2
+    ],
+    "is_summary": false,
+    "formats": {
+      "conversational": "For North, Quarterly Sales (in millions), Q2, the value is 12",
+      "question_answer": "What is the value for North Quarterly Sales (in millions) Q2? The answer is 12",
+      "descriptive": "The North Quarterly Sales (in millions) Q2 value is 12",
+      "searchable": "North Quarterly Sales (in millions) Q2  value amount 12",
+      "structured": "IF \"North\" AND \"Quarterly Sales (in millions)\" AND \"Q2\" THEN the value is '12'"
+    },
+    "conditions": [
+      "North",
+      "Quarterly Sales (in millions)",
+      "Q2"
+    ],
+    "outcome": "12"
+  },
+  {
+    "position": [
+      2,
+      3
+    ],
+    "is_summary": false,
+    "formats": {
+      "conversational": "For North, Quarterly Sales (in millions), Q3, the value is 15",
+      "question_answer": "What is the value for North Quarterly Sales (in millions) Q3? The answer is 15",
+      "descriptive": "The North Quarterly Sales (in millions) Q3 value is 15",
+      "searchable": "North Quarterly Sales (in millions) Q3  value amount 15",
+      "structured": "IF \"North\" AND \"Quarterly Sales (in millions)\" AND \"Q3\" THEN the value is '15'"
+    },
+    "conditions": [
+      "North",
+      "Quarterly Sales (in millions)",
+      "Q3"
+    ],
+    "outcome": "15"
+  },
+  {
+    "position": [
+      2,
+      4
+    ],
+    "is_summary": false,
+    "formats": {
+      "conversational": "For North, Quarterly Sales (in millions), Q4, the value is 18",
+      "question_answer": "What is the value for North Quarterly Sales (in millions) Q4? The answer is 18",
+      "descriptive": "The North Quarterly Sales (in millions) Q4 value is 18",
+      "searchable": "North Quarterly Sales (in millions) Q4  value amount 18",
+      "structured": "IF \"North\" AND \"Quarterly Sales (in millions)\" AND \"Q4\" THEN the value is '18'"
+    },
+    "conditions": [
+      "North",
+      "Quarterly Sales (in millions)",
+      "Q4"
+    ],
+    "outcome": "18"
+  },
+  {
+    "position": [
+      2,
+      5
+    ],
+    "is_summary": false,
+    "formats": {
+      "conversational": "For North, Total Annual Sales, the value is 55",
+      "question_answer": "What is the value for North Total Annual Sales? The answer is 55",
+      "descriptive": "The North Total Annual Sales value is 55",
+      "searchable": "North Total Annual Sales  value amount 55",
+      "structured": "IF \"North\" AND \"Total Annual Sales\" THEN the value is '55'"
+    },
+    "conditions": [
+      "North",
+      "Total Annual Sales"
+    ],
+    "outcome": "55"
+  },
+  {
+    "position": [
+      3,
+      1
+    ],
+    "is_summary": false,
+    "formats": {
+      "conversational": "For South, Quarterly Sales (in millions), Q1, the value is 8",
+      "question_answer": "What is the value for South Quarterly Sales (in millions) Q1? The answer is 8",
+      "descriptive": "The South Quarterly Sales (in millions) Q1 value is 8",
+      "searchable": "South Quarterly Sales (in millions) Q1  value amount 8",
+      "structured": "IF \"South\" AND \"Quarterly Sales (in millions)\" AND \"Q1\" THEN the value is '8'"
+    },
+    "conditions": [
+      "South",
+      "Quarterly Sales (in millions)",
+      "Q1"
+    ],
+    "outcome": "8"
+  },
+  {
+    "position": [
+      3,
+      2
+    ],
+    "is_summary": false,
+    "formats": {
+      "conversational": "For South, Quarterly Sales (in millions), Q2, the value is 10",
+      "question_answer": "What is the value for South Quarterly Sales (in millions) Q2? The answer is 10",
+      "descriptive": "The South Quarterly Sales (in millions) Q2 value is 10",
+      "searchable": "South Quarterly Sales (in millions) Q2  value amount 10",
+      "structured": "IF \"South\" AND \"Quarterly Sales (in millions)\" AND \"Q2\" THEN the value is '10'"
+    },
+    "conditions": [
+      "South",
+      "Quarterly Sales (in millions)",
+      "Q2"
+    ],
+    "outcome": "10"
+  },
+  {
+    "position": [
+      3,
+      3
+    ],
+    "is_summary": false,
+    "formats": {
+      "conversational": "For South, Quarterly Sales (in millions), Q3, the value is 11",
+      "question_answer": "What is the value for South Quarterly Sales (in millions) Q3? The answer is 11",
+      "descriptive": "The South Quarterly Sales (in millions) Q3 value is 11",
+      "searchable": "South Quarterly Sales (in millions) Q3  value amount 11",
+      "structured": "IF \"South\" AND \"Quarterly Sales (in millions)\" AND \"Q3\" THEN the value is '11'"
+    },
+    "conditions": [
+      "South",
+      "Quarterly Sales (in millions)",
+      "Q3"
+    ],
+    "outcome": "11"
+  },
+  {
+    "position": [
+      3,
+      4
+    ],
+    "is_summary": false,
+    "formats": {
+      "conversational": "For South, Quarterly Sales (in millions), Q4, the value is 14",
+      "question_answer": "What is the value for South Quarterly Sales (in millions) Q4? The answer is 14",
+      "descriptive": "The South Quarterly Sales (in millions) Q4 value is 14",
+      "searchable": "South Quarterly Sales (in millions) Q4  value amount 14",
+      "structured": "IF \"South\" AND \"Quarterly Sales (in millions)\" AND \"Q4\" THEN the value is '14'"
+    },
+    "conditions": [
+      "South",
+      "Quarterly Sales (in millions)",
+      "Q4"
+    ],
+    "outcome": "14"
+  },
+  {
+    "position": [
+      3,
+      5
+    ],
+    "is_summary": false,
+    "formats": {
+      "conversational": "For South, Total Annual Sales, the value is 43",
+      "question_answer": "What is the value for South Total Annual Sales? The answer is 43",
+      "descriptive": "The South Total Annual Sales value is 43",
+      "searchable": "South Total Annual Sales  value amount 43",
+      "structured": "IF \"South\" AND \"Total Annual Sales\" THEN the value is '43'"
+    },
+    "conditions": [
+      "South",
+      "Total Annual Sales"
+    ],
+    "outcome": "43"
+  },
+  {
+    "position": [
+      4,
+      1
+    ],
+    "is_summary": true,
+    "formats": {
+      "conversational": "For Grand Total, Quarterly Sales (in millions), Q1, the value is 18",
+      "question_answer": "What is the value for Grand Total Quarterly Sales (in millions) Q1? The answer is 18",
+      "descriptive": "The Grand Total Quarterly Sales (in millions) Q1 value is 18",
+      "searchable": "Grand Total Quarterly Sales (in millions) Q1  value amount 18",
+      "structured": "SUMMARY: IF \"Grand Total\" AND \"Quarterly Sales (in millions)\" AND \"Q1\" THEN the value is '18'"
+    },
+    "conditions": [
+      "Grand Total",
+      "Quarterly Sales (in millions)",
+      "Q1"
+    ],
+    "outcome": "18"
+  },
+  {
+    "position": [
+      4,
+      2
+    ],
+    "is_summary": true,
+    "formats": {
+      "conversational": "For Grand Total, Quarterly Sales (in millions), Q2, the value is 22",
+      "question_answer": "What is the value for Grand Total Quarterly Sales (in millions) Q2? The answer is 22",
+      "descriptive": "The Grand Total Quarterly Sales (in millions) Q2 value is 22",
+      "searchable": "Grand Total Quarterly Sales (in millions) Q2  value amount 22",
+      "structured": "SUMMARY: IF \"Grand Total\" AND \"Quarterly Sales (in millions)\" AND \"Q2\" THEN the value is '22'"
+    },
+    "conditions": [
+      "Grand Total",
+      "Quarterly Sales (in millions)",
+      "Q2"
+    ],
+    "outcome": "22"
+  },
+  {
+    "position": [
+      4,
+      3
+    ],
+    "is_summary": true,
+    "formats": {
+      "conversational": "For Grand Total, Quarterly Sales (in millions), Q3, the value is 26",
+      "question_answer": "What is the value for Grand Total Quarterly Sales (in millions) Q3? The answer is 26",
+      "descriptive": "The Grand Total Quarterly Sales (in millions) Q3 value is 26",
+      "searchable": "Grand Total Quarterly Sales (in millions) Q3  value amount 26",
+      "structured": "SUMMARY: IF \"Grand Total\" AND \"Quarterly Sales (in millions)\" AND \"Q3\" THEN the value is '26'"
+    },
+    "conditions": [
+      "Grand Total",
+      "Quarterly Sales (in millions)",
+      "Q3"
+    ],
+    "outcome": "26"
+  },
+  {
+    "position": [
+      4,
+      4
+    ],
+    "is_summary": true,
+    "formats": {
+      "conversational": "For Grand Total, Quarterly Sales (in millions), Q4, the value is 32",
+      "question_answer": "What is the value for Grand Total Quarterly Sales (in millions) Q4? The answer is 32",
+      "descriptive": "The Grand Total Quarterly Sales (in millions) Q4 value is 32",
+      "searchable": "Grand Total Quarterly Sales (in millions) Q4  value amount 32",
+      "structured": "SUMMARY: IF \"Grand Total\" AND \"Quarterly Sales (in millions)\" AND \"Q4\" THEN the value is '32'"
+    },
+    "conditions": [
+      "Grand Total",
+      "Quarterly Sales (in millions)",
+      "Q4"
+    ],
+    "outcome": "32"
+  },
+  {
+    "position": [
+      4,
+      5
+    ],
+    "is_summary": true,
+    "formats": {
+      "conversational": "For Grand Total, Total Annual Sales, the value is 98",
+      "question_answer": "What is the value for Grand Total Total Annual Sales? The answer is 98",
+      "descriptive": "The Grand Total Total Annual Sales value is 98",
+      "searchable": "Grand Total Total Annual Sales  value amount 98",
+      "structured": "SUMMARY: IF \"Grand Total\" AND \"Total Annual Sales\" THEN the value is '98'"
+    },
+    "conditions": [
+      "Grand Total",
+      "Total Annual Sales"
+    ],
+    "outcome": "98"
+  }
+]
