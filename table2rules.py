@@ -936,77 +936,113 @@ def extract_rules(grid: List[List[Dict]], structure: TableStructure) -> List[Log
                         
     return rules
 
+
+def format_form_fact(label: str, value: str, section: str | None = None, entity: str | None = None) -> str:
+    """
+    Universal formatter for form facts using structural disambiguation principles.
+    """
+    label = (label or "").strip()
+    value = (value or "").strip()
+    section = (section or "").strip() or None
+    entity = (entity or "").strip() or None
+    
+    # Universal heuristic: Very short, generic words are ambiguous
+    label_lower = label.lower()
+    
+    # Only the most generic single words need disambiguation
+    truly_generic_labels = {'name', 'id', 'date', 'number', 'contact', 'type', 'code'}
+    
+    needs_section = section and label_lower in truly_generic_labels
+    
+    parts = []
+    if needs_section:
+        parts.append(section)
+    if entity and not needs_section:
+        parts.append(entity)
+    
+    if parts:
+        ctx = " | ".join(parts)
+        return f"{ctx} | {label}: {value}"
+    else:
+        return f"{label}: {value}"
+
+
 def extract_form_table_content(grid: List[List[Dict]], table_element) -> List[LogicRule]:
     """
     Extract form field information from form tables.
     Creates rules that describe form structure and field relationships.
     """
+    
     rules = []
+    current_section = None
     
-    # Process grid to find label-value pairs typical in forms
-    for r in range(len(grid)):
-        for c in range(len(grid[0])):
+    num_rows = len(grid)
+    num_cols = len(grid[0]) if grid else 0
+    
+    for r in range(num_rows):
+        # Get all original cells in this row
+        original_cells = []
+        for c in range(num_cols):
             cell = grid[r][c]
+            if cell.get('original_cell', False):
+                text = cell.get('text', '').strip()
+                colspan = cell.get('original_colspan', 1)
+                if text:
+                    original_cells.append((text, c, colspan))
+        
+        if not original_cells:
+            continue
+        
+        # Check for section headers (full-width spanning)
+        if len(original_cells) == 1 and original_cells[0][2] >= num_cols:
+            current_section = original_cells[0][0]
+            rule = LogicRule(
+                conditions=['form_section'],
+                outcome=original_cells[0][0],
+                position=(r, original_cells[0][1])
+            )
+            rules.append(rule)
+            continue
+        
+        # Process label-value pairs in this row
+        i = 0
+        while i + 1 < len(original_cells):
+            label_text, label_col, _ = original_cells[i]
+            value_text, value_col, _ = original_cells[i + 1]
             
-            if not cell.get('original_cell', False):
-                continue
-                
-            cell_text = cell.get('text', '').strip()
-            if not cell_text:
-                continue
+            if not is_placeholder_value(value_text):
+                clean_label = label_text.rstrip(':').strip()
+                field_output = format_form_fact(clean_label, value_text, current_section)
+                rule = LogicRule(
+                    conditions=['form_field'],
+                    outcome=field_output,
+                    position=(r, label_col)
+                )
+                rules.append(rule)
             
-            # Look for form field labels (ending with colon or containing field-like words)
-            if (cell_text.endswith(':') or 
-                any(field_word in cell_text.lower() for field_word in ['name', 'email', 'phone', 'address', 'password'])):
-                
-                # Clean the label
-                clean_label = cell_text.replace(':', '').strip()
-                
-                # Look for input elements or values in adjacent cells
-                found_value = False
-                
-                # Check right adjacent cell first (most common pattern)
-                if c + 1 < len(grid[0]):
-                    adj_cell = grid[r][c + 1]
-                    adj_text = adj_cell.get('text', '').strip()
-                    
-                    # If adjacent cell has content that's not another label, use it
-                    if (adj_text and not adj_text.endswith(':') and 
-                        not any(field_word in adj_text.lower() for field_word in ['name', 'email', 'phone'])):
-                        
-                        rule = LogicRule(
-                            conditions=[f"form_field"],
-                            outcome=f"{clean_label}: {adj_text}",
-                            position=(r, c)
-                        )
-                        rules.append(rule)
-                        found_value = True
-                
-                # If no adjacent value found, create rule for just the field
-                if not found_value:
-                    rule = LogicRule(
-                        conditions=[f"form_field"],
-                        outcome=clean_label,
-                        position=(r, c)
-                    )
-                    rules.append(rule)
-    
-    # If no form-specific rules found, extract all meaningful content
-    if not rules:
-        for r in range(len(grid)):
-            for c in range(len(grid[0])):
-                cell = grid[r][c]
-                if cell.get('original_cell', False):
-                    text = cell.get('text', '').strip()
-                    if text and len(text) > 1:
-                        rule = LogicRule(
-                            conditions=['form_content'],
-                            outcome=text,
-                            position=(r, c)
-                        )
-                        rules.append(rule)
+            i += 2  # Skip to next pair
     
     return rules
+
+
+
+def is_placeholder_value(value: str) -> bool:
+    """
+    Universal detection for placeholder values that don't add meaningful information.
+    """
+    if not value or not value.strip():
+        return True
+    
+    value_clean = value.strip().lower()
+    
+    # Common placeholder patterns across all domains
+    placeholders = {
+        'n/a', 'na', 'none', 'null', 'nil', 'empty', 
+        'tbd', 'tba', 'pending', 'unknown', 'not applicable',
+        '...', '—', '-', 'xxx', 'n.a.', 'not available'
+    }
+    
+    return value_clean in placeholders
 
 
 def extract_layout_table_content(grid: List[List[Dict]]) -> List[LogicRule]:
