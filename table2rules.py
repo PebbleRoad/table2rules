@@ -812,7 +812,7 @@ class HierarchicalTableAnalyzer:
     def _find_row_header_boundary(self, grid: List[List[Dict]], num_rows: int, num_cols: int) -> int:
         """
         Find where row headers end using structural analysis of content types and HTML semantics.
-        Enhanced to detect multi-level row hierarchies using quantitative thresholds.
+        UNIVERSAL FIX: Adapts to different table patterns without hardcoded assumptions.
         """
         
         print(f"DEBUG: _find_row_header_boundary called with {num_rows}x{num_cols} grid")
@@ -829,6 +829,7 @@ class HierarchicalTableAnalyzer:
                 
                 # Second check: Verify the td content is actually quantitative, not categorical
                 quantitative_td_count = 0
+                categorical_td_count = 0
                 total_td_checked = 0
                 
                 for row_idx in range(num_rows):
@@ -841,43 +842,30 @@ class HierarchicalTableAnalyzer:
                                 quantitative_td_count += 1
                                 print(f"DEBUG: Found quantitative td content: '{text}'")
                             else:
+                                categorical_td_count += 1
                                 print(f"DEBUG: Found categorical td content: '{text}'")
                 
                 if total_td_checked > 0:
                     quantitative_ratio = quantitative_td_count / total_td_checked
-                    print(f"DEBUG: Col {col_idx} td cells: {quantitative_ratio:.2f} quantitative ratio")
+                    categorical_ratio = categorical_td_count / total_td_checked
+                    print(f"DEBUG: Col {col_idx} - {quantitative_ratio:.2f} quantitative, {categorical_ratio:.2f} categorical")
                     
-                    # Check for meaningful content (either quantitative OR meaningful categorical)
-                    meaningful_content_count = quantitative_td_count
-                    for row_idx in range(num_rows):
-                        cell = grid[row_idx][col_idx]
-                        if cell.get('type') == 'td' and cell.get('original_cell', False):
-                            text = cell.get('text', '').strip()
-                            if text and not self._is_quantitative_content(text):
-                                if self._is_meaningful_categorical_content(text):
-                                    meaningful_content_count += 1
-                                    print(f"DEBUG: Found meaningful categorical td content: '{text}'")
-
-                    if total_td_checked > 0:
-                        meaningful_ratio = meaningful_content_count / total_td_checked
-                        print(f"DEBUG: Col {col_idx} td cells: {meaningful_ratio:.2f} meaningful content ratio")
-                        
-                        # Accept as data column if majority of td content is meaningful (quantitative OR categorical)
-                        if meaningful_ratio >= 0.6:  # 60% of td cells must be meaningful
-                            # Additional check: Is this column acting as row identifiers vs actual data?
-                            is_row_identifier_column = self._is_row_identifier_column(grid, col_idx, num_rows)
-                            print(f"DEBUG: Col {col_idx} row identifier check: {is_row_identifier_column}")
-                            
-                            if is_row_identifier_column:
-                                print(f"DEBUG: Col {col_idx} contains row identifiers, continuing to find data columns")
-                                continue
-                            else:
-                                print(f"DEBUG: Row header boundary at col {col_idx} (HTML semantic + meaningful content)")
-                                return col_idx
-                        else:
-                            print(f"DEBUG: Col {col_idx} has td elements but non-meaningful content, continuing")
-    
-        # Enhanced content-based analysis with stricter thresholds
+                    # UNIVERSAL LOGIC: Consider both content type AND minimum threshold
+                    # Only exclude column if it's BOTH heavily categorical AND has meaningful categorical data
+                    if categorical_ratio >= 0.8 and categorical_td_count >= 3:  # Strong categorical evidence
+                        print(f"DEBUG: Col {col_idx} appears to be categorical row headers, continuing")
+                        continue
+                    
+                    # Accept as data column if either:
+                    # 1. Strong quantitative evidence (60%+ quantitative)
+                    # 2. Mixed content but not strongly categorical
+                    if quantitative_ratio >= 0.6 or categorical_ratio < 0.8:
+                        print(f"DEBUG: Row header boundary at col {col_idx} (quantitative or mixed content detected)")
+                        return col_idx
+                    else:
+                        print(f"DEBUG: Col {col_idx} has ambiguous content, continuing analysis")
+        
+        # Enhanced content-based analysis with flexible thresholds
         for col_idx in range(1, min(num_cols, 4)):  # Check fewer columns to be conservative
             
             # Analyze content characteristics of this column
@@ -918,18 +906,18 @@ class HierarchicalTableAnalyzer:
             
             print(f"DEBUG: Col {col_idx}: {quantitative_ratio:.2f} quantitative, {categorical_ratio:.2f} categorical")
             
-            # Enhanced threshold: require strong evidence of quantitative data
-            if quantitative_ratio >= 0.7 and numeric_content >= 3:  # At least 70% numeric with minimum count
-                print(f"DEBUG: Row header boundary at col {col_idx} (quantitative content detected)")
+            # FLEXIBLE LOGIC: Lower threshold for quantitative, but require some evidence
+            if quantitative_ratio >= 0.4 and numeric_content >= 2:  # Reduced from 0.7 to 0.4
+                print(f"DEBUG: Row header boundary at col {col_idx} (sufficient quantitative evidence)")
                 return col_idx
             
-            # If this column is heavily categorical, it's likely still headers
-            if categorical_ratio >= 0.8:
+            # If this column is heavily categorical with enough samples, it's likely headers
+            if categorical_ratio >= 0.8 and categorical_content >= 3:
                 print(f"DEBUG: Col {col_idx} appears to be categorical headers, continuing")
                 continue
         
-        # Conservative fallback: assume first 2 columns are headers for complex tables
-        fallback_boundary = min(2, num_cols - 1)
+        # Conservative fallback: assume first column is header for simple tables
+        fallback_boundary = min(1, num_cols - 1)
         print(f"DEBUG: Using conservative fallback boundary: {fallback_boundary}")
         return fallback_boundary
 
@@ -1369,7 +1357,7 @@ def extract_layout_table_content(grid: List[List[Dict]]) -> List[LogicRule]:
 def build_tree_based_row_context_map(grid: List[List[Dict]], row_tree: Dict, num_rows: int, num_cols: int) -> Dict[int, List[str]]:
     """
     Build row context using hierarchical tree traversal to capture full header paths.
-    REFINED: Properly distinguishes between legitimate headers (A, B, C) and data values ($100,000).
+    UNIVERSAL FIX: Handles both standard rowspan sections AND rowspan with multiple logical data rows.
     """
     context_map = {}
     
@@ -1383,85 +1371,119 @@ def build_tree_based_row_context_map(grid: List[List[Dict]], row_tree: Dict, num
     for row_idx in range(num_rows):
         hierarchical_path = []
         
-        # Traverse each level of the row header tree to build complete path
-        for level_idx, level_nodes in enumerate(row_tree['tree_levels']):
-            for node in level_nodes:
-                # Only consider nodes that are in the header region (before data columns)
-                if node['col'] >= header_col_end:
-                    continue
-                
-                # Check if this header node covers the current row via rowspan
-                node_start_row = node['row']
-                node_end_row = node['row'] + node['rowspan']
-                
-                # Include this node if it spans to cover the current row
-                if node_start_row <= row_idx < node_end_row:
-                    node_text = node['text']
+        # For each header column (left to right), find the header that covers this row
+        for col_idx in range(header_col_end):
+            # Look through all tree levels to find nodes in this column
+            for level_nodes in row_tree['tree_levels']:
+                for node in level_nodes:
+                    # Check if this node is in the current column
+                    if node['col'] != col_idx:
+                        continue
                     
-                    # Refined filtering: exclude obvious data values but keep legitimate headers
-                    is_data_value = (
-                        # Currency values with $ symbols
-                        '$' in node_text or
-                        # Pure numeric values (but not single letters/short codes)
-                        (node_text.replace(',', '').replace('.', '').isdigit() and len(node_text) > 2) or
-                        # Percentage values
-                        '%' in node_text or
-                        # Very long descriptive text that's clearly content, not headers
-                        (len(node_text.split()) > 10 and any(word in node_text.lower() for word in ['the', 'and', 'or', 'of', 'to', 'for']))
-                    )
+                    # Check if this header node covers the current row via rowspan
+                    node_start_row = node['row']
+                    node_end_row = node['row'] + node['rowspan']
                     
-                    # Special case: preserve single character section identifiers (A, B, C, D, E)
-                    is_section_identifier = (
-                        len(node_text.strip()) == 1 and 
-                        node_text.strip().isalpha() and
-                        node['col'] == 0  # Section identifiers are typically in first column
-                    )
-                    
-                    # Include if it's a section identifier OR not a data value
-                    if is_section_identifier or not is_data_value:
-                        hierarchical_path.append(node_text)
-                    break  # Found the covering node for this level
+                    # Include this node if it spans to cover the current row
+                    if node_start_row <= row_idx < node_end_row:
+                        node_text = node['text']
+                        
+                        # Filter out obvious data values but keep legitimate headers
+                        is_data_value = (
+                            # Currency values with $ symbols
+                            '$' in node_text or
+                            # Pure numeric values (but not single letters/short codes)
+                            (node_text.replace(',', '').replace('.', '').isdigit() and len(node_text) > 2) or
+                            # Percentage values
+                            '%' in node_text or
+                            # Very long descriptive text that's clearly content, not headers
+                            (len(node_text.split()) > 10)
+                        )
+                        
+                        # Special case: preserve single character section identifiers (A, B, C, D, E)
+                        is_section_identifier = (
+                            len(node_text.strip()) <= 3 and 
+                            node_text.strip().replace(' ', '').isalnum()
+                        )
+                        
+                        # Include if it's a section identifier OR not a data value
+                        if is_section_identifier or not is_data_value:
+                            hierarchical_path.append(node_text)
+                        break  # Found the covering node for this column
         
-        # Only add to context map if we found actual context
+        # UNIVERSAL ENHANCEMENT: Detect if this row needs logical sub-row differentiation
+        # This handles cases where rowspan creates multiple logical data rows
         if hierarchical_path:
-            context_map[row_idx] = hierarchical_path
+            # Check if this row has multiple data cells that suggest it's a sub-row
+            data_cell_count = 0
+            for c in range(header_col_end, num_cols):
+                if row_idx < len(grid) and c < len(grid[row_idx]):
+                    cell = grid[row_idx][c]
+                    if cell.get('original_cell') and cell.get('text', '').strip():
+                        data_cell_count += 1
+            
+            # If this row has significant data AND we already have context for a previous row
+            # with the same hierarchical path, this might be a logical sub-row
+            if data_cell_count >= 2:  # Has meaningful data content
+                # Check if there's already a row with identical context
+                duplicate_context_rows = [r for r, ctx in context_map.items() if ctx == hierarchical_path]
+                
+                if duplicate_context_rows:
+                    # This is likely a logical sub-row within a rowspan
+                    # Add a sub-row indicator to distinguish it
+                    sub_row_number = len(duplicate_context_rows) + 1
+                    hierarchical_path_with_subrow = hierarchical_path + [f"row_{sub_row_number}"]
+                    context_map[row_idx] = hierarchical_path_with_subrow
+                else:
+                    # First occurrence of this context
+                    context_map[row_idx] = hierarchical_path
+            else:
+                # Low data content - likely a header or continuation row
+                context_map[row_idx] = hierarchical_path
     
     return context_map
 
 def build_tree_based_col_context_map(grid: List[List[Dict]], col_tree: Dict, num_rows: int, num_cols: int, analyzer) -> Dict[int, List[str]]:
     """
     Build column context using hierarchical tree traversal to capture full header paths.
-    For each data column, traverse down the tree to get the complete hierarchical context.
+    FIXED: Properly builds hierarchical paths like "2025 > Q1 > Jan" for complex headers.
     """
     context_map = {}
     
     if not col_tree['tree_levels']:
         return context_map
     
-    # For each column in the entire grid, find which header nodes cover it
+    # For each column in the entire grid, build the hierarchical path
     for col_idx in range(num_cols):
         hierarchical_path = []
         
-        # Traverse each level of the column header tree to build complete path
+        # Traverse each level of the column header tree from top to bottom
         for level_idx, level_nodes in enumerate(col_tree['tree_levels']):
+            found_covering_node = False
+            
             for node in level_nodes:
-                # Use the actual grid column position, not the node's internal positioning
+                # Check if this node covers the current column
                 node_start_col = node['col']
                 node_end_col = node['col'] + node['colspan']
-                                
+                
                 if node_start_col <= col_idx < node_end_col:
-                    if node_start_col <= col_idx < node_end_col:
-                        # Filter out title content from context
-                        if not analyzer._is_title_content(node['text'], node['row'], node['colspan'], num_cols):
-                            hierarchical_path.append(node['text'])
-                            print(f"DEBUG: Adding column context: '{node['text']}'")
-                        else:
-                            print(f"DEBUG: Filtering out title content: '{node['text']}'")
-                        break  # Found the covering node for this level
+                    # Filter out title content from context
+                    if not analyzer._is_title_content(node['text'], node['row'], node['colspan'], num_cols):
+                        # Also filter out empty cells and meaningless text
+                        node_text = node['text'].strip()
+                        if node_text and len(node_text) > 0:
+                            hierarchical_path.append(node_text)
+                    
+                    found_covering_node = True
                     break  # Found the covering node for this level
+            
+            # If no node covers this column at this level, we can't build a complete path
+            if not found_covering_node:
+                break
         
+        # Only add to context map if we found a meaningful hierarchical path
         if hierarchical_path:
-            context_map[col_idx] = hierarchical_path            
+            context_map[col_idx] = hierarchical_path
     
     return context_map
 

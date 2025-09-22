@@ -1,11 +1,15 @@
-For AI, Opening Keynote, Day 1, 14:00, the value is Deploying at Scale
-For AI, Opening Keynote, Day 2, 09:00, the value is Prompt Design
-For AI, Opening Keynote, Day 2, 14:00, the value is Evaluation
-For AI, Vision 101, Day 1, 14:00, the value is —
-For AI, Vision 101, Day 2, 14:00, the value is Monitoring
-For Data, Ingestion, Day 1, 14:00, the value is dbt Patterns
-For Data, Ingestion, Day 2, 09:00, the value is Delta Lake
-For Data, Ingestion, Day 2, 14:00, the value is Streaming 101
-For Data, Warehouse Tuning, Day 1, 14:00, the value is Note: Bring your own laptop for the hands-on lab.
-For Data, Warehouse Tuning, Day 2, 09:00, the value is —
-For Data, Warehouse Tuning, Day 2, 14:00, the value is Cost Controls
+IF "AI" AND "Day 1" AND "09:00" THEN the value is 'Opening Keynote'
+IF "AI" AND "Day 1" AND "14:00" THEN the value is 'Deploying at Scale'
+IF "AI" AND "Day 2" AND "09:00" THEN the value is 'Prompt Design'
+IF "AI" AND "Day 2" AND "14:00" THEN the value is 'Evaluation'
+IF "AI" AND "row_2" AND "Day 1" AND "09:00" THEN the value is 'Vision 101'
+IF "AI" AND "row_2" AND "Day 1" AND "14:00" THEN the value is '—'
+IF "AI" AND "row_2" AND "Day 2" AND "14:00" THEN the value is 'Monitoring'
+IF "Data" AND "Day 1" AND "09:00" THEN the value is 'Ingestion'
+IF "Data" AND "Day 1" AND "14:00" THEN the value is 'dbt Patterns'
+IF "Data" AND "Day 2" AND "09:00" THEN the value is 'Delta Lake'
+IF "Data" AND "Day 2" AND "14:00" THEN the value is 'Streaming 101'
+IF "Data" AND "row_2" AND "Day 1" AND "09:00" THEN the value is 'Warehouse Tuning'
+IF "Data" AND "row_2" AND "Day 1" AND "14:00" THEN the value is 'Note: Bring your own laptop for the hands-on lab.'
+IF "Data" AND "row_2" AND "Day 2" AND "09:00" THEN the value is '—'
+IF "Data" AND "row_2" AND "Day 2" AND "14:00" THEN the value is 'Cost Controls'
