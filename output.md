@@ -1,46 +1,60 @@
-At Day 1 Mon, 12 May in A — Main Hall, the content is Opening Keynote: Systems at Planet Scale — Dr. R. Ibarra Simulcast to all rooms
-The Day 1 Mon, 12 May 09:00 Notes is Live captions available
-The Notes is —
-The Notes is —
-At Day 1 Mon, 12 May in A — Main Hall, the content is Breakout: Reliable Systems
-At Day 1 Mon, 12 May in B — Data, the content is Workshop: Data Pipelines in Practice 1 Hands-on; BYO laptop
-At Day 1 Mon, 12 May in C — AI, the content is Talk: Small Models, Big Impact
-At Day 1 Mon, 12 May in D — Design, the content is Design Clinic: Research to Wireframes
-The Day 1 Mon, 12 May 10:30 Notes is Track B limited seats Track D requires sample app
-At Day 1 Mon, 12 May in A — Main Hall, the content is Breakout: Modern Networking
-At Day 1 Mon, 12 May in D — Design, the content is UX Patterns for Complex Flows
-The Day 1 Mon, 12 May 11:00 Notes is —
-At Day 1 Mon, 12 May in A — Main Hall, the content is Office Hours: Architecture
-At Day 1 Mon, 12 May in C — AI, the content is Panel: Vector Databases in RAG 2
-The Day 1 Mon, 12 May 11:30 Notes is Panel seats limited
-At Day 1 Mon, 12 May in A — Main Hall, the content is Lunch & Expo (sponsored) 3
-The Day 1 Mon, 12 May 12:30 Notes is Vegetarian options available
-At Day 1 Mon, 12 May in A — Main Hall, the content is Keynote Fireside: Lessons from Outages
-At Day 1 Mon, 12 May in B — Data, the content is Joint Session: MLOps in Production
-At Day 1 Mon, 12 May in D — Design, the content is Sketching Workshop
-The Day 1 Mon, 12 May 14:00 Notes is —
-At Day 1 Mon, 12 May in A — Main Hall, the content is Lightning Talks: eBPF Debugging Tracing Tricks CI Failures 101
-The Day 1 Mon, 12 May 14:30 Notes is —
-At Day 1 Mon, 12 May in A — Main Hall, the content is Closing & Announcements — Day 1
-The Day 1 Mon, 12 May 15:00 Notes is Slides posted by 18:00
-At Day 2 Tue, 13 May in A — Main Hall, the content is Community Circle & Demos
-The Day 2 Tue, 13 May 09:00 Notes is Open mic
-At Day 2 Tue, 13 May in A — Main Hall, the content is Lecture: Consistency Models
-At Day 2 Tue, 13 May in B — Data, the content is Tutorial: SQL for Analysts
-At Day 2 Tue, 13 May in C — AI, the content is Hands-on Lab: Prompt Injection Safety
-At Day 2 Tue, 13 May in D — Design, the content is Design Sprint: Onboarding Flow
-The Day 2 Tue, 13 May 09:30 Notes is Bring credentials
-At Day 2 Tue, 13 May in B — Data, the content is Case Study: Data Contracts
-The Day 2 Tue, 13 May 10:00 Notes is —
-At Day 2 Tue, 13 May in A — Main Hall, the content is Hackathon Kickoff — Cross-Track Teams 4
-The Day 2 Tue, 13 May 11:00 Notes is Team formation
-The Notes is Continues
-At Day 2 Tue, 13 May in A — Main Hall, the content is Workshop: Incident Drills
-At Day 2 Tue, 13 May in B — Data, the content is Workshop: Feature Stores
-At Day 2 Tue, 13 May in C — AI, the content is Workshop: Evaluation Harnesses
-At Day 2 Tue, 13 May in D — Design, the content is Workshop: Design Tokens
-The Day 2 Tue, 13 May 14:00 Notes is Pick one
-At Day 2 Tue, 13 May in A — Main Hall, the content is Wrap-up & Awards
-At Day 2 Tue, 13 May in C — AI, the content is Office Hours: Research
-At Day 2 Tue, 13 May in D — Design, the content is —
-The Day 2 Tue, 13 May 15:00 Notes is Feedback survey
+Americas Alpha Quarter Q1 Actual, the content is 3.2
+Americas Alpha Quarter Q1 Target, the content is 3.0
+Americas Alpha Quarter Q2 Actual, the content is 3.8
+Americas Alpha Quarter Q2 Target, the content is 3.5
+Americas Alpha H1 (Q1 + Q2) Actual, the content is 7.0
+Americas Alpha H1 (Q1 + Q2) Target, the content is 6.5
+Americas Alpha Variance, the content is +0.5
+Americas Alpha Notes, the content is Beat targets due to Q2 promo.
+Americas Beta Quarter Q1 Actual, the content is 2.1
+Americas Beta Quarter Q1 Target, the content is 2.4
+Americas Beta Quarter Q2 Actual, the content is 2.6
+Americas Beta Quarter Q2 Target, the content is 2.8
+Americas Beta H1 (Q1 + Q2) Actual, the content is 4.7
+Americas Beta H1 (Q1 + Q2) Target, the content is 5.2
+Americas Beta Variance, the content is −0.5
+Americas Beta Notes, the content is Supply constraint in Q1.
+Americas Gamma Quarter Q1 Actual, the content is 1.4
+Americas Gamma Quarter Q1 Target, the content is 1.2
+Americas Gamma Quarter Q2 Actual, the content is 1.9
+Americas Gamma Quarter Q2 Target, the content is 1.6
+Americas Gamma H1 (Q1 + Q2) Actual, the content is 3.3
+Americas Gamma H1 (Q1 + Q2) Target, the content is 2.8
+Americas Gamma Variance, the content is +0.5
+Americas Gamma Notes, the content is New channel launched mid-Q2.
+EMEA Alpha Quarter Q1 Actual, the content is 2.8
+EMEA Alpha Quarter Q1 Target, the content is 2.9
+EMEA Alpha Quarter Q2 Actual, the content is 3.0
+EMEA Alpha Quarter Q2 Target, the content is 3.1
+EMEA Alpha H1 (Q1 + Q2) Actual, the content is 5.8
+EMEA Alpha H1 (Q1 + Q2) Target, the content is 6.0
+EMEA Alpha Variance, the content is −0.2
+EMEA Alpha Notes, the content is Currency headwinds.
+EMEA Beta Quarter Q1 Actual, the content is 1.9
+EMEA Beta Quarter Q1 Target, the content is 1.7
+EMEA Beta Quarter Q2 Actual, the content is 2.2
+EMEA Beta Quarter Q2 Target, the content is 2.0
+EMEA Beta H1 (Q1 + Q2) Actual, the content is 4.1
+EMEA Beta H1 (Q1 + Q2) Target, the content is 3.7
+EMEA Beta Variance, the content is +0.4
+EMEA Beta Notes, the content is Enterprise deal closed in Q2.
+APAC Alpha Quarter Q1 Actual, the content is 3.5
+APAC Alpha Quarter Q1 Target, the content is 3.2
+APAC Alpha Quarter Q2 Actual, the content is 3.9
+APAC Alpha Quarter Q2 Target, the content is 3.6
+APAC Alpha H1 (Q1 + Q2) Actual, the content is 7.4
+APAC Alpha H1 (Q1 + Q2) Target, the content is 6.8
+APAC Alpha Variance, the content is +0.6
+APAC Alpha Notes, the content is Seasonal lift.
+APAC Beta Quarter Q1 Actual, the content is 2.3
+APAC Beta Quarter Q1 Target, the content is 2.5
+APAC Beta Quarter Q2 Actual, the content is 2.7
+APAC Beta Quarter Q2 Target, the content is 2.9
+APAC Beta H1 (Q1 + Q2) Actual, the content is 5.0
+APAC Beta H1 (Q1 + Q2) Target, the content is 5.4
+APAC Beta Variance, the content is −0.4
+APAC Beta Notes, the content is Marketing pullback.
+APAC APAC Subtotal (Alpha + Beta) H1 (Q1 + Q2) Actual, the content is 12.4
+APAC APAC Subtotal (Alpha + Beta) H1 (Q1 + Q2) Target, the content is 12.2
+APAC APAC Subtotal (Alpha + Beta) Variance, the content is +0.2
+APAC APAC Subtotal (Alpha + Beta) Notes, the content is Subtotal row merges cells.

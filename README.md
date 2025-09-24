@@ -1,182 +1,270 @@
 # table2rules
 
-A universal system that transforms any HTML table into queryable rules of different types using adaptive structural classification and intelligent table type detection.
+A universal system that transforms well-formed HTML tables into queryable IF-THEN rules using factory-based processor architecture and HTML semantic analysis.
 
 ## Core Philosophy
 
-**Tables are conditional logic structures.** Every data cell represents a logical conclusion derived from a specific set of row and column conditions. This system parses that inherent logic and expresses it in machine-readable format suitable for knowledge bases, RAG systems, and automated reasoning.
+**Tables encode conditional logic through HTML structure.** Every data cell represents a logical conclusion derived from its row and column header context. This system extracts that inherent logic using HTML table semantics and expresses it in machine-readable formats optimized for RAG systems, knowledge bases, and automated reasoning.
 
-## Architecture: Universal Table Classification + Adaptive Processing
+## Architecture: Factory-Based Universal Processing
 
-The system uses a two-stage approach:
+The system uses HTML table standards to achieve universal processing:
 
-1. **Table Classification**: Automatically identifies whether a table is a data table, form table, or layout table
-2. **Adaptive Processing**: Applies the optimal extraction strategy based on table type and structural patterns
+1. **HTML Semantic Parsing**: Converts tables to normalized grid format with proper span handling
+2. **Factory-Based Routing**: Automatically selects optimal processor based on table structure
+3. **HTML Standards Compliance**: Leverages `th`/`td` semantics for reliable structure vs content detection
+4. **Multi-Format Output**: Generates RAG-optimized rules in multiple natural language formats
 
-This enables the system to handle any HTML table appropriately, from complex business reports to simple contact forms.
+This enables reliable processing of any properly structured HTML table without content-specific configuration.
 
 ## Key Features
 
-### Universal Table Support
-* **Data Tables**: Complex hierarchical business tables with multi-level headers
-* **Form Tables**: Input forms with field extraction and label-value pairing  
-* **Layout Tables**: Spatial layouts with content linearization
+### Universal HTML Table Support
+* **Hierarchical Tables**: Complex business data with spanning row/column headers
+* **Conference Schedules**: Multi-day, multi-track event programming
+* **Financial Reports**: Sales performance, budgets, enterprise program tracking
+* **Form Tables**: Input forms with label-value pair extraction
+* **Layout Tables**: Spatial content arrangements with linearization
 
-### Advanced Data Table Processing
-* **Adaptive Structural Classification**: Detects table architecture patterns automatically
-* **Multi-Level Hierarchy Support**: Captures 3+ levels of nested headers (Region → Product → Quarter → Metric)
-* **Complex Spanning Patterns**: Handles rowspan/colspan combinations in any configuration
-* **Section Identifier Handling**: Preserves business logic markers (A, B, C sections)
+### Advanced Hierarchical Processing
+* **Multi-Level Headers**: Handles 3+ level hierarchies (Program → Project → Phase → Metric)
+* **Complex Spanning**: Processes any rowspan/colspan combination correctly
+* **Shared Resources**: Handles cells spanning multiple logical entities
+* **HTML Semantic Compliance**: Requires proper `th` for headers, `td` for data
 
-### RAG Optimization
-* **Multiple Output Formats**: Structured, conversational, Q&A, descriptive, and searchable formats
-* **Natural Language Generation**: Converts logic rules into embedding-friendly text
-* **Semantic Category Extraction**: Identifies plan types, benefit categories, time periods
-* **Vector Database Ready**: Optimized for modern RAG pipelines
+### RAG System Integration
+* **Complete Context Preservation**: "Americas Alpha Quarter Q1 Actual, the content is 3.2"
+* **Multiple Output Formats**: Descriptive, conversational, searchable, structured formats
+* **Vector Database Ready**: Embedding-optimized natural language generation
+* **Full Semantic Context**: Every rule contains complete hierarchical context
 
 ## Usage
 
 ### Basic Usage
 ```bash
-python3 table2rules.py
+python3 table2rules.py --format descriptive
 ```
 
 ### Advanced Options
 ```bash
-# Generate all natural language formats
-python3 table2rules.py --format all --output both
-
-# Conversational format for RAG
+# Different output formats
 python3 table2rules.py --format conversational
+python3 table2rules.py --format structured  
+python3 table2rules.py --format searchable
 
-# With chunking metadata
-python3 table2rules.py --format descriptive --chunking
+# Verbose processor selection debugging
+python3 table2rules.py --format descriptive --verbose
 ```
 
 ## Example Transformations
 
-### Complex Business Table
+### Conference Schedule
 **Input:**
 ```html
 <table>
-  <tr>
-    <th rowspan="2">Region</th>
-    <th colspan="2">Q1 Performance</th>
-  </tr>
-  <tr>
-    <th>Sales</th>
-    <th>Growth</th>
-  </tr>
-  <tr>
-    <td>Americas</td>
-    <td>$5.2M</td>
-    <td>+10%</td>
-  </tr>
-</table>
-```
-
-**Structured Output:**
-```
-IF "Americas" AND "Q1 Performance" AND "Sales" THEN the value is '$5.2M'
-IF "Americas" AND "Q1 Performance" AND "Growth" THEN the value is '+10%'
-```
-
-**Conversational Output:**
-```
-For Americas, Q1 Performance, Sales, the value is $5.2M
-For Americas, Q1 Performance, Growth, the value is +10%
-```
-
-### Form Table
-**Input:**
-```html
-<table>
-  <tr><td>Name:</td><td><input type="text"/></td></tr>
-  <tr><td>Email:</td><td><input type="email"/></td></tr>
+  <thead>
+    <tr><th></th><th colspan="2">Day 1</th></tr>
+    <tr><th>Track</th><th>09:00</th><th>14:00</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">AI</td><td>Opening Keynote</td><td>Deploying at Scale</td></tr>
+    <tr><td>Vision 101</td><td>Monitoring</td></tr>
+  </tbody>
 </table>
 ```
 
 **Output:**
 ```
-IF "form_field" THEN the value is 'Name'
-IF "form_field" THEN the value is 'Email'
+AI Day 1 09:00, the content is Opening Keynote
+AI Day 1 14:00, the content is Deploying at Scale
+AI Day 1 09:00, the content is Vision 101
+AI Day 1 14:00, the content is Monitoring
 ```
 
-### Layout Table
+### Financial Performance Report
 **Input:**
 ```html
-<table role="presentation">
-  <tr><td>Header: Company Site</td></tr>
-  <tr><td>Main content about our services</td></tr>
+<table>
+  <thead>
+    <tr>
+      <th rowspan="3">Region</th>
+      <th rowspan="3">Product</th>
+      <th colspan="4">Quarter</th>
+    </tr>
+    <tr>
+      <th colspan="2">Q1</th>
+      <th colspan="2">Q2</th>
+    </tr>
+    <tr>
+      <th>Actual</th><th>Target</th>
+      <th>Actual</th><th>Target</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th rowspan="2">Americas</th>
+      <th>Alpha</th>
+      <td>3.2</td><td>3.0</td><td>3.8</td><td>3.5</td>
+    </tr>
+  </tbody>
 </table>
 ```
 
 **Output:**
 ```
-IF "layout_navigation" THEN the value is 'Header: Company Site'
-IF "layout_content" THEN the value is 'Main content about our services'
+Americas Alpha Quarter Q1 Actual, the content is 3.2
+Americas Alpha Quarter Q1 Target, the content is 3.0  
+Americas Alpha Quarter Q2 Actual, the content is 3.8
+Americas Alpha Quarter Q2 Target, the content is 3.5
 ```
 
-## Supported Table Complexities
+### Enterprise Program Tracking
+**Input:**
+```html
+<table>
+  <thead>
+    <tr>
+      <th rowspan="3">Program</th>
+      <th rowspan="3">Project</th>
+      <th colspan="6">Phase Gates</th>
+    </tr>
+    <tr>
+      <th colspan="2">Discovery</th>
+      <th colspan="2">Build</th>
+      <th colspan="2">Launch</th>
+    </tr>
+    <tr>
+      <th>Plan</th><th>Actual</th>
+      <th>Plan</th><th>Actual</th>
+      <th>Plan</th><th>Actual</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th rowspan="2">Program Atlas</th>
+      <th>Aquila</th>
+      <td>Jan</td><td>Jan</td><td>Mar</td><td>Apr</td><td>Jun</td><td>Jun</td>
+    </tr>
+  </tbody>
+</table>
+```
 
-### Data Tables
-- **Insurance benefit tables** with section hierarchies (A, B, C)
-- **Conference schedules** with day/time/track matrices  
-- **Sales reports** with region/product/quarter breakdowns
-- **Enterprise program tables** with shared resources and subtotals
+**Output:**
+```
+Program Atlas Aquila Phase Gates Discovery Plan, the content is Jan
+Program Atlas Aquila Phase Gates Discovery Actual, the content is Jan
+Program Atlas Aquila Phase Gates Build Plan, the content is Mar
+Program Atlas Aquila Phase Gates Build Actual, the content is Apr
+Program Atlas Aquila Phase Gates Launch Plan, the content is Jun
+Program Atlas Aquila Phase Gates Launch Actual, the content is Jun
+```
 
-### Form Tables
-- Contact forms with input field extraction
-- Registration forms with label-value pairing
-- Survey forms with option enumeration
+## Supported Table Patterns
 
-### Layout Tables  
-- Website navigation structures
-- Content positioning layouts
-- Multi-column page designs
+### Successfully Processed
+- **Multi-level hierarchies** with complex spanning patterns
+- **Conference schedules** with day/time/track matrices
+- **Financial reports** with region/product/metric breakdowns
+- **Enterprise tracking** with program/project/phase structures
+- **Any properly structured business table** using HTML semantics
 
-## RAG Integration
+### HTML Compliance Requirements
+- **Headers must use `<th>` elements** (not `<td>`)
+- **Data content must use `<td>` elements** 
+- **Proper spanning via `rowspan`/`colspan` attributes**
+- **Semantic structure** with `<thead>`, `<tbody>`, optional `<tfoot>`
 
-The system generates multiple formats optimized for different RAG use cases:
+### Known Limitations
+- **Malformed HTML tables** using `<td>` for structural headers will fail gracefully
+- **Tables without proper semantic structure** cannot be reliably processed
+- **Layout abuse** (tables used purely for visual positioning) not supported
 
-- **Structured**: Precise IF-THEN logic for exact matching
-- **Conversational**: Natural language for vector similarity search
-- **Question-Answer**: Q&A pairs for query matching
-- **Descriptive**: Rich semantic descriptions with context
-- **Searchable**: Keyword-optimized text for search engines
+## Output Formats
+
+### Descriptive (RAG Optimized)
+Complete semantic context for vector similarity search:
+```
+Americas Alpha Quarter Q1 Actual, the content is 3.2
+```
+
+### Conversational  
+Natural language for chat interfaces:
+```
+For Americas Alpha Quarter Q1 Actual, the value is 3.2
+```
+
+### Structured
+Formal IF-THEN logic rules:
+```
+IF "Americas" AND "Alpha" AND "Quarter Q1 Actual" THEN the value is '3.2'
+```
+
+### Searchable
+Keyword-optimized for search systems:
+```
+Americas Alpha Quarter Q1 Actual value amount 3.2
+```
 
 ## Technical Architecture
 
 ```
-HTML Table → Classification → Adaptive Processing → Multi-Format Output
-     ↓              ↓               ↓                    ↓
-  Validation   Table Type    Structural Analysis   Natural Language
-               Detection     + Tree Building       Generation
+HTML Input → Parse & Normalize → Factory Router → Specialized Processor → Multi-Format Output
+     ↓              ↓                ↓                    ↓                     ↓
+HTML Validation  Grid Creation   Confidence Scoring   Context Assembly   Natural Language
+                                                                         Generation
 ```
 
+### Processor Types
+- **HierarchicalRowTableProcessor**: Complex spanning row structures (primary)
+- **DataTableProcessor**: Standard business data tables (fallback)
+- **FormTableProcessor**: Label-value pair extraction
+- **LayoutTableProcessor**: Content linearization
+
 ### Core Components
-- **TableClassifier**: Distinguishes data/form/layout tables
-- **HierarchicalTableAnalyzer**: Processes complex data table structures  
-- **LogicRule**: Unified rule representation with format conversion
-- **Adaptive Processing**: Routes tables to appropriate extraction strategies
+- **Factory-based routing** with confidence scoring
+- **HTML semantic analysis** using `th`/`td` distinction
+- **Multi-level context assembly** from spanning headers
+- **RAG-optimized natural language generation**
 
-## Production Deployment
+## Production Characteristics
 
-- **Performance**: Processes complex tables in <1 second
-- **Reliability**: 100% accuracy on tested table patterns
-- **Scalability**: Handles tables with 100+ rows and complex hierarchies
-- **Error Handling**: Graceful failure with diagnostic feedback
+### Performance
+- **Processing Speed**: Complex tables processed in <1 second
+- **Memory Usage**: Single-pass processing with minimal state
+- **Scalability**: Handles 100+ row tables with deep hierarchies
+
+### Reliability
+- **HTML Standards Compliance**: Predictable behavior for well-formed tables
+- **Graceful Failure**: Clear error messages for malformed input
+- **Test Coverage**: Validated on conference, financial, and enterprise table patterns
+
+### Integration
+- **Simple CLI**: Single command processing with format selection
+- **API Ready**: Clean processor interfaces for embedding in larger systems
+- **Batch Processing**: Factory architecture enables parallel processing
 
 ## Use Cases
 
-### Knowledge Bases
-Transform document archives containing tables into searchable rule databases for customer support and compliance systems.
+### RAG Systems
+Transform structured business data into embedding-friendly rules for semantic search, question-answering, and knowledge retrieval systems.
 
-### Business Intelligence  
-Convert spreadsheets and reports into logical rules for automated reasoning, process automation, and decision support systems.
+### Knowledge Extraction
+Convert document archives containing tables into queryable knowledge bases for compliance, customer support, and decision support systems.
 
-### RAG Applications
-Generate embedding-optimized content from structured data for improved semantic search and question-answering systems.
+### Business Intelligence
+Extract conditional logic from spreadsheets and reports for automated reasoning, process automation, and business rule engines.
 
-### Data Migration
-Extract business logic from legacy documents and convert to modern knowledge representation formats.
+### Document Processing
+Integrate into larger document analysis pipelines for comprehensive structured data extraction from mixed content types.
+
+## Architecture Benefits
+
+The factory-based approach with HTML semantic processing provides:
+
+- **Universal Coverage**: Handles any well-formed HTML table structure
+- **No Configuration Required**: Automatic table type detection and processing
+- **Reliable Extraction**: HTML standards provide predictable semantic patterns
+- **RAG Optimization**: Output formats designed for modern retrieval systems
+- **Production Ready**: Clean error handling and diagnostic feedback
+
+This architecture demonstrates that HTML table standards provide sufficient structure for universal table processing without requiring content-specific pattern matching or domain-specific rules.
