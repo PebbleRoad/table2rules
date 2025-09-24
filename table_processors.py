@@ -768,7 +768,7 @@ class HierarchicalRowTableProcessor(TableProcessor):
         )
     
     def _build_row_context_map(self, grid: List[List[Dict]]) -> Dict[int, List[str]]:
-        """Build hierarchical row context using only structural identifiers"""
+        """Build hierarchical row context using only structural identifiers - FIXED VERSION"""
         context_map = {}
         
         if not grid:
@@ -776,12 +776,15 @@ class HierarchicalRowTableProcessor(TableProcessor):
         
         num_rows = len(grid)
         
+        print(f"DEBUG: _build_row_context_map - processing {num_rows} rows")
+        
         for row_idx in range(num_rows):
             if row_idx >= len(grid) or not grid[row_idx]:
                 continue
             
-            # Check first few columns for structural identifiers only
-            for col_idx in range(min(3, len(grid[row_idx]))):
+            # Check ALL columns for row headers, not just first 3
+            # Row headers can appear in any column in hierarchical tables
+            for col_idx in range(len(grid[row_idx])):
                 cell = grid[row_idx][col_idx]
                 
                 if not cell.get('original_cell', False):
@@ -794,10 +797,20 @@ class HierarchicalRowTableProcessor(TableProcessor):
                 cell_type = cell.get('type')
                 rowspan = cell.get('original_rowspan', 1)
                 
-                # ONLY header cells (th) can be hierarchical identifiers
-                # Content cells (td) are never context, even if they span
-                if cell_type != 'th':
+                print(f"DEBUG: Row {row_idx}, Col {col_idx}: '{text}', type={cell_type}, rowspan={rowspan}")
+                
+                # CRITICAL FIX: Accept BOTH th AND td as row headers
+                # Conference tables use td with rowspan for tracks
+                # Sales tables use th with rowspan for regions
+                is_row_header = (
+                    cell_type == 'th' or  # Traditional header
+                    (cell_type == 'td' and rowspan > 1)  # Spanning content cell acting as header
+                )
+                
+                if not is_row_header:
                     continue
+                
+                print(f"DEBUG: Found row header: '{text}' spanning {rowspan} rows")
                 
                 # Apply spanning headers to all covered rows
                 if rowspan > 1:
@@ -806,6 +819,7 @@ class HierarchicalRowTableProcessor(TableProcessor):
                             context_map[span_row] = []
                         if text not in context_map[span_row]:
                             context_map[span_row].append(text)
+                            print(f"DEBUG: Added '{text}' to row {span_row} context")
                 
                 # Single-row headers for current row only
                 else:
@@ -813,7 +827,9 @@ class HierarchicalRowTableProcessor(TableProcessor):
                         context_map[row_idx] = []
                     if text not in context_map[row_idx]:
                         context_map[row_idx].append(text)
+                        print(f"DEBUG: Added single-row '{text}' to row {row_idx}")
         
+        print(f"DEBUG: Final row context map: {context_map}")
         return context_map
 
     def _is_row_identifier(self, text: str, col_idx: int) -> bool:
@@ -1001,28 +1017,48 @@ class HierarchicalRowTableProcessor(TableProcessor):
         return 1
     
     def _is_footer_content(self, cell: Dict, row_idx: int, num_rows: int) -> bool:
-        """Enhanced footer detection for hierarchical tables"""
-        # HTML footer sections
-        if cell.get('is_footer', False):
+        """RAG-optimized footer detection - preserve valuable summary data"""
+        text = cell.get('text', '').strip().lower()
+        
+        # Only filter true table metadata - preserve all business data
+        metadata_keywords = [
+            'legend:',      # Legend explanations
+            'copyright',    # Copyright notices  
+            '©',           # Copyright symbol
+            'all rights reserved',
+            'disclaimer',
+            'terms and conditions'
+        ]
+        
+        # Only filter if it's clearly table metadata, not business data
+        if any(keyword in text for keyword in metadata_keywords):
             return True
         
-        # Wide-spanning cells in bottom rows with generic content
-        if row_idx >= num_rows - 2:  # Last 2 rows
-            text = cell.get('text', '').strip().lower()
-            footer_indicators = ['legend:', 'note:', 'copyright', '©', 'all rights', 
-                            'footer', 'disclaimer', 'terms', 'conditions']
-            if any(indicator in text for indicator in footer_indicators):
-                return True
-        
+        # Keep ALL business content including totals, subtotals, summary data
+        # Even if it's in footer sections - RAG systems need this data
         return False
     
     def _is_placeholder_content(self, text: str) -> bool:
-        """Universal placeholder detection"""
+        """RAG-optimized placeholder detection - only filter truly meaningless content"""
         if not text or not text.strip():
             return True
         
         text_clean = text.strip().lower()
-        universal_placeholders = {'—', '–', '-', 'tbd', 'tba', 'n/a', 'na', '...', 'continues'}
-        return text_clean in universal_placeholders
+        
+        # ONLY filter completely meaningless placeholders
+        # Keep TBD, —, etc. as they represent valid session states
+        meaningless_placeholders = {
+            '',           # Empty
+            ' ',          # Whitespace only
+            'null',       # Database null
+            'none',       # Explicit none
+            '...',        # Continuation dots only
+        }
+        
+        # Very short meaningless content
+        if len(text_clean) <= 1 and text_clean in ['', ' ', '.']:
+            return True
+        
+        return text_clean in meaningless_placeholders
     
     
