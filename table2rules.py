@@ -373,10 +373,11 @@ class HierarchicalTableAnalyzer:
     Builds separate trees for column and row headers to handle complex spanning structures.
     """
     
-    def analyze_table_structure(self, table_data: Dict[str, Any]) -> TableStructure:
+    def analyze_table_structure(self, table_data: Dict[str, Any]) -> Tuple[TableStructure, Dict, Dict]:
         grid = table_data.get("grid", [])
         if not grid or not grid[0]:
-            return TableStructure(orientation=TableOrientation.UNKNOWN, confidence=0.0, data_start_row=0, data_start_col=0, analysis={})
+            empty_structure = TableStructure(orientation=TableOrientation.UNKNOWN, confidence=0.0, data_start_row=0, data_start_col=0, analysis={})
+            return empty_structure, {}, {}
 
         num_rows = len(grid)
         num_cols = len(grid[0])
@@ -402,13 +403,15 @@ class HierarchicalTableAnalyzer:
         
         logger.info(f"Table analysis: {orientation.value} (Data region starts at row {data_boundaries['row_start']}, col {data_boundaries['col_start']}, col_tree_depth: {column_header_tree['max_depth']}, row_tree_depth: {row_header_tree['max_depth']})")
 
-        return TableStructure(
+        structure = TableStructure(
             orientation=orientation,
             confidence=confidence,
             data_start_row=data_boundaries['row_start'],
             data_start_col=data_boundaries['col_start'],
             analysis=analysis
         )
+        
+        return structure, column_header_tree, row_header_tree
     
     def _classify_processing_approach(self, grid: List[List[Dict]], num_rows: int, num_cols: int) -> str:
         """
@@ -1075,19 +1078,17 @@ class HierarchicalTableAnalyzer:
         else:
             return TableOrientation.UNKNOWN
 
-def extract_rules(grid: List[List[Dict]], structure: TableStructure) -> List[LogicRule]:
+def extract_rules(grid: List[List[Dict]], structure: TableStructure, col_tree: Dict, row_tree: Dict, analyzer: 'HierarchicalTableAnalyzer') -> List[LogicRule]:
     if not grid or not grid[0]:
         return []
     
     num_rows = len(grid)
     num_cols = len(grid[0])
     
-    # Re-build the context maps which are essential for getting header info
-    analyzer = HierarchicalTableAnalyzer()
-    col_tree = analyzer._build_column_header_tree(grid, num_rows, num_cols)
-    row_tree = analyzer._build_row_header_tree(grid, num_rows, num_cols)
+    # RE-USE the pre-built context maps instead of re-building them
     row_context_map = build_tree_based_row_context_map(grid, row_tree, num_rows, num_cols)
     col_context_map = build_tree_based_col_context_map(grid, col_tree, num_rows, num_cols, analyzer)
+    
     # Enable debugging for the insurance table
     debug_context_maps(grid, row_context_map, col_context_map, structure)
 
@@ -1629,6 +1630,9 @@ def process_table(table_html: str) -> List[LogicRule]:
     table = soup.find('table')
 
     grid = parse_and_unmerge_table_bulletproof(table)
+    if not grid:
+        logger.warning("Table parsing resulted in an empty grid. Skipping.")
+        return []
     logger.info(f"Step 1 - Unmerged grid: {len(grid)} rows x {len(grid[0]) if grid else 0} columns")
 
     # Classify table type before processing
@@ -1641,8 +1645,10 @@ def process_table(table_html: str) -> List[LogicRule]:
     if classification['type'] == TableType.DATA_TABLE:
         # Use existing logic rule extraction for data tables
         analyzer = HierarchicalTableAnalyzer()
-        structure = analyzer.analyze_table_structure({"grid": grid})
-        rules = extract_rules(grid, structure)
+        # Capture the structure and the pre-built trees
+        structure, col_tree, row_tree = analyzer.analyze_table_structure({"grid": grid})
+        # Pass everything to the extraction function
+        rules = extract_rules(grid, structure, col_tree, row_tree, analyzer)
         logger.info(f"Step 2 - Generated {len(rules)} logic rules from data table")
         return rules
         
@@ -1662,8 +1668,8 @@ def process_table(table_html: str) -> List[LogicRule]:
         # Unknown type - use conservative data table approach with warning
         logger.warning(f"Unknown table type, applying data table extraction conservatively")
         analyzer = HierarchicalTableAnalyzer()
-        structure = analyzer.analyze_table_structure({"grid": grid})
-        rules = extract_rules(grid, structure)
+        structure, col_tree, row_tree = analyzer.analyze_table_structure({"grid": grid})
+        rules = extract_rules(grid, structure, col_tree, row_tree, analyzer)
         logger.info(f"Step 2 - Generated {len(rules)} logic rules (unknown table type)")
         return rules
 

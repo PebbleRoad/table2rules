@@ -1,6 +1,6 @@
 # table2rules
 
-A universal system that transforms any HTML table into queryable IF-THEN rules using adaptive structural classification and intelligent table type detection.
+A universal system that transforms any HTML table into queryable rules of different types using adaptive structural classification and intelligent table type detection.
 
 ## Core Philosophy
 
