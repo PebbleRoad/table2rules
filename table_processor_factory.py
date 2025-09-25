@@ -13,13 +13,14 @@ class TableProcessorFactory:
     """Factory that routes tables to the most appropriate processor"""
     
     def __init__(self):
+        # Order processors by specificity - most specific first
         self.processors = [
-            HierarchicalRowTableProcessor(), 
-            FormTableProcessor(),
-            DataTableProcessor(),
-            LayoutTableProcessor()
+            HierarchicalRowTableProcessor(),  # Most specific - complex hierarchical tables
+            FormTableProcessor(),             # Specific - form-like structures  
+            DataTableProcessor(),             # General - standard data tables
+            LayoutTableProcessor()            # Fallback - basic content extraction
         ]
-        self.min_confidence_threshold = 0.3
+        self.min_confidence_threshold = 0.5  # Raised from 0.3 for better quality
     
     def process_table(self, grid: List[List[Dict]], table_element) -> ProcessingResult:
         """Route table to best processor and return results"""
@@ -32,7 +33,7 @@ class TableProcessorFactory:
             try:
                 confidence = processor.can_process(grid, table_element)
                 processor_scores.append((processor, confidence))
-                logger.debug(f"{processor.__class__.__name__}: {confidence:.3f}")
+                logger.info(f"{processor.__class__.__name__}: {confidence:.3f}")
             except Exception as e:
                 logger.warning(f"Error in {processor.__class__.__name__}.can_process: {e}")
                 processor_scores.append((processor, 0.0))

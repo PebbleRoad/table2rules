@@ -8,6 +8,7 @@ from typing import List, Dict, Any, Tuple
 from dataclasses import dataclass
 import logging
 import re
+from models import LogicRule
 
 logger = logging.getLogger(__name__)
 
@@ -15,7 +16,7 @@ logger = logging.getLogger(__name__)
 @dataclass
 class ProcessingResult:
     """Result from processing a table"""
-    rules: List[Any]  # Using Any to avoid circular import
+    rules: List[LogicRule]  # Now we can use the proper type
     confidence: float
     metadata: Dict[str, Any]
     processor_type: str
@@ -86,8 +87,7 @@ class DataTableProcessor(TableProcessor):
     
     def process(self, grid: List[List[Dict]], table_element) -> ProcessingResult:
         """Process data table using hierarchical logic"""
-        # Import here to avoid circular dependency
-        from table2rules import LogicRule
+        
         
         # Build context maps
         row_context_map = self._build_row_context_map(grid)
@@ -232,9 +232,9 @@ class DataTableProcessor(TableProcessor):
         return any(title_indicators)
     
     def _extract_data_rules(self, grid: List[List[Dict]], row_context_map: Dict[int, List[str]], 
-                       col_context_map: Dict[int, List[str]]) -> List[Any]:
-        """Extract rules with simplified, predictable context assembly"""
-        from table2rules import LogicRule
+                   col_context_map: Dict[int, List[str]]) -> List[LogicRule]:
+        """Extract rules with simplified, predictable context assembly - FOOTER ENABLED"""
+        
         
         rules = []
         
@@ -255,10 +255,11 @@ class DataTableProcessor(TableProcessor):
         if num_cols == 0:
             return rules
         
-        # Simple data region boundaries
+        # CRITICAL FIX: Process ALL rows including footer, not just data region
         data_start_row = self._find_data_start_row(grid)
         data_start_col = self._find_data_start_col(grid)
         
+        # Process all rows from data start to end (including footer)
         for r in range(data_start_row, num_rows):
             # Safety check for row
             if r >= len(grid) or not grid[r]:
@@ -275,12 +276,12 @@ class DataTableProcessor(TableProcessor):
                 if not outcome_text:
                     continue
                 
-                # Universal filtering
+                # Universal filtering - but keep footer business data
                 if self._is_placeholder_content(outcome_text):
                     continue
                 
-                if self._is_footer_content(cell, r, num_rows, num_cols):
-                    continue
+                # REMOVE footer filtering - let all business data through
+                # Footer totals are valuable for RAG systems
                 
                 # Simple, predictable context assembly
                 conditions = []
@@ -299,9 +300,6 @@ class DataTableProcessor(TableProcessor):
                 # Filter out outcome from conditions (avoid circular logic)
                 unique_conditions = [cond for cond in unique_conditions if cond != outcome_text]
                 
-                # DEBUG: Show what context we're extracting
-                print(f"DEBUG: Row {r}, Col {c}: outcome='{outcome_text}', row_ctx={row_context}, col_ctx={col_context}, final={unique_conditions}")
-                
                 # Generate rule if valid
                 if self._is_valid_rule(unique_conditions, outcome_text):
                     rule = LogicRule(
@@ -313,6 +311,7 @@ class DataTableProcessor(TableProcessor):
                     rules.append(rule)
         
         return rules
+    
     def _is_valid_rule(self, conditions: List[str], outcome: str) -> bool:
         """Simple validation for rule generation"""
         # Must have at least one condition
@@ -332,8 +331,6 @@ class DataTableProcessor(TableProcessor):
             return False
         
         return True
-        
-        return rules
     
     def _find_data_start_row(self, grid: List[List[Dict]]) -> int:
         """Simple data region detection: skip likely header rows"""
@@ -439,7 +436,7 @@ class FormTableProcessor(TableProcessor):
     
     def process(self, grid: List[List[Dict]], table_element) -> ProcessingResult:
         """Process form table"""
-        from table2rules import LogicRule
+        
         
         rules = []
         current_section = None
@@ -492,7 +489,6 @@ class FormTableProcessor(TableProcessor):
         """Get original cell texts in a row"""
         if row_idx >= len(grid):
             return []
-        
         cells = []
         num_cols = len(grid[0]) if grid else 0
         
@@ -508,7 +504,6 @@ class FormTableProcessor(TableProcessor):
     def _get_original_cells_with_info(self, grid: List[List[Dict]], row_idx: int, num_cols: int) -> List[Tuple[str, int, int]]:
         """Get original cells with position and span info"""
         cells = []
-        
         for c in range(num_cols):
             cell = grid[row_idx][c]
             if cell.get('original_cell', False):
@@ -530,7 +525,6 @@ class FormTableProcessor(TableProcessor):
         """Check if value is a placeholder"""
         if not value:
             return True
-        
         value_clean = value.strip().lower()
         placeholders = {'n/a', 'na', 'none', 'null', 'tbd', 'tba', 'pending', 'unknown'}
         return value_clean in placeholders
@@ -582,7 +576,6 @@ class LayoutTableProcessor(TableProcessor):
     
     def process(self, grid: List[List[Dict]], table_element) -> ProcessingResult:
         """Process layout table"""
-        from table2rules import LogicRule
         
         rules = []
         content_items = self._collect_content_items(grid)
@@ -648,17 +641,14 @@ class HierarchicalRowTableProcessor(TableProcessor):
     """Processes tables with hierarchical row headers that span multiple data rows"""
     
     def can_process(self, grid: List[List[Dict]], table_element) -> float:
-        """Detect hierarchical row structure using structural patterns only - WITH DEBUG"""
+        """Detect hierarchical row structure using structural patterns only"""
         if not grid or not grid[0]:
             return 0.0
         
         score = 0.0
         num_rows = len(grid)
         
-        print(f"DEBUG: HierarchicalRowTableProcessor analyzing grid: {num_rows} rows")
-        
         # Pattern 1: Multiple elements with rowspan > 1 (hierarchical structure)
-        # Look for BOTH th and td elements - row headers can be either type
         spanning_headers = 0
         for r in range(min(10, num_rows)):
             if r >= len(grid) or not grid[r]:
@@ -671,37 +661,20 @@ class HierarchicalRowTableProcessor(TableProcessor):
                     cell.get('original_rowspan', 1) > 1 and
                     self._looks_like_structural_header(cell, c)):
                     spanning_headers += 1
-                    print(f"DEBUG: Found spanning header: '{cell.get('text', '')}' with rowspan {cell.get('original_rowspan', 1)}")
-
-        print(f"DEBUG: Total spanning headers found: {spanning_headers}")
 
         if spanning_headers >= 2:
             score += 0.5
-            print("DEBUG: +0.5 for >= 2 spanning headers")
         elif spanning_headers >= 1:
             score += 0.3
-            print("DEBUG: +0.3 for >= 1 spanning header")
-        
-        print(f"DEBUG: Total spanning headers found: {spanning_headers}")
-        
-        if spanning_headers >= 2:
-            score += 0.5
-            print("DEBUG: +0.5 for >= 2 spanning headers")
-        elif spanning_headers >= 1:
-            score += 0.3
-            print("DEBUG: +0.3 for >= 1 spanning header")
         
         # Pattern 2: HTML semantic structure with row scope
         th_elements = table_element.find_all('th')
         row_scoped_headers = sum(1 for th in th_elements if th.get('scope') == 'row')
-        print(f"DEBUG: Row-scoped headers in HTML: {row_scoped_headers}")
         
         if row_scoped_headers >= 3:
             score += 0.4
-            print("DEBUG: +0.4 for >= 3 row-scoped headers")
         elif row_scoped_headers >= 2:
             score += 0.2
-            print("DEBUG: +0.2 for >= 2 row-scoped headers")
         
         # Pattern 3: Mixed th/td structure suggesting hierarchy
         mixed_structure_rows = 0
@@ -710,23 +683,15 @@ class HierarchicalRowTableProcessor(TableProcessor):
                 continue
             th_count = sum(1 for cell in grid[r] if cell.get('type') == 'th')
             td_count = sum(1 for cell in grid[r] if cell.get('type') == 'td')
-            print(f"DEBUG: Row {r}: {th_count} th, {td_count} td")
             if th_count >= 1 and td_count >= 1:
                 mixed_structure_rows += 1
         
-        print(f"DEBUG: Mixed structure rows: {mixed_structure_rows}")
-        
         if mixed_structure_rows >= 4:
             score += 0.3
-            print("DEBUG: +0.3 for >= 4 mixed rows")
         elif mixed_structure_rows >= 2:
             score += 0.2
-            print("DEBUG: +0.2 for >= 2 mixed rows")
         
-        final_score = min(1.0, score)
-        print(f"DEBUG: HierarchicalRowTableProcessor final score: {final_score}")
-        
-        return final_score
+        return min(1.0, score)
     
     def _looks_like_structural_header(self, cell: Dict, col_idx: int) -> bool:
         """Detect structural headers regardless of th/td type"""
@@ -748,7 +713,7 @@ class HierarchicalRowTableProcessor(TableProcessor):
     
     def process(self, grid: List[List[Dict]], table_element) -> ProcessingResult:
         """Process hierarchical row table using structural awareness"""
-        from table2rules import LogicRule
+        
         
         # Build context maps using universal patterns
         row_context_map = self._build_row_context_map(grid)
@@ -768,7 +733,7 @@ class HierarchicalRowTableProcessor(TableProcessor):
         )
     
     def _build_row_context_map(self, grid: List[List[Dict]]) -> Dict[int, List[str]]:
-        """Build hierarchical row context using only structural identifiers - FIXED VERSION"""
+        """Build hierarchical row context using only HTML semantics"""
         context_map = {}
         
         if not grid:
@@ -776,60 +741,26 @@ class HierarchicalRowTableProcessor(TableProcessor):
         
         num_rows = len(grid)
         
-        print(f"DEBUG: _build_row_context_map - processing {num_rows} rows")
-        
+        # Universal: Only th elements are structural headers per HTML standards
         for row_idx in range(num_rows):
             if row_idx >= len(grid) or not grid[row_idx]:
                 continue
             
-            # Check ALL columns for row headers, not just first 3
-            # Row headers can appear in any column in hierarchical tables
             for col_idx in range(len(grid[row_idx])):
                 cell = grid[row_idx][col_idx]
                 
                 if not cell.get('original_cell', False):
                     continue
                 
-                text = cell.get('text', '').strip()
-                if not text:
-                    continue
-                
-                cell_type = cell.get('type')
-                rowspan = cell.get('original_rowspan', 1)
-                
-                print(f"DEBUG: Row {row_idx}, Col {col_idx}: '{text}', type={cell_type}, rowspan={rowspan}")
-                
-                # CRITICAL FIX: Accept BOTH th AND td as row headers
-                # Conference tables use td with rowspan for tracks
-                # Sales tables use th with rowspan for regions
-                is_row_header = (
-                    cell_type == 'th' or  # Traditional header
-                    (cell_type == 'td' and rowspan > 1)  # Spanning content cell acting as header
-                )
-                
-                if not is_row_header:
-                    continue
-                
-                print(f"DEBUG: Found row header: '{text}' spanning {rowspan} rows")
-                
-                # Apply spanning headers to all covered rows
-                if rowspan > 1:
-                    for span_row in range(row_idx, min(row_idx + rowspan, num_rows)):
-                        if span_row not in context_map:
-                            context_map[span_row] = []
-                        if text not in context_map[span_row]:
-                            context_map[span_row].append(text)
-                            print(f"DEBUG: Added '{text}' to row {span_row} context")
-                
-                # Single-row headers for current row only
-                else:
-                    if row_idx not in context_map:
-                        context_map[row_idx] = []
-                    if text not in context_map[row_idx]:
-                        context_map[row_idx].append(text)
-                        print(f"DEBUG: Added single-row '{text}' to row {row_idx}")
+                # Universal HTML rule: only th elements are headers
+                if cell.get('type') == 'th':
+                    text = cell.get('text', '').strip()
+                    if text:
+                        if row_idx not in context_map:
+                            context_map[row_idx] = []
+                        if text not in context_map[row_idx]:
+                            context_map[row_idx].append(text)
         
-        print(f"DEBUG: Final row context map: {context_map}")
         return context_map
 
     def _is_row_identifier(self, text: str, col_idx: int) -> bool:
@@ -856,7 +787,7 @@ class HierarchicalRowTableProcessor(TableProcessor):
         return False
     
     def _build_column_context_map(self, grid: List[List[Dict]]) -> Dict[int, List[str]]:
-        """Universal column header detection with proper spanning support - WITH DEBUG"""
+        """Build column context with post-repair grid structure"""
         context_map = {}
         
         if not grid:
@@ -866,11 +797,8 @@ class HierarchicalRowTableProcessor(TableProcessor):
         num_cols = len(grid[0]) if grid else 0
         header_rows = min(4, num_rows)
         
-        print(f"DEBUG: Building column context - {num_cols} columns, {header_rows} header rows")
-        
         # Process each column to build complete context
         for col_idx in range(num_cols):
-            print(f"DEBUG: Processing column {col_idx}")
             col_headers = []
             
             # Collect all headers that apply to this column
@@ -880,43 +808,31 @@ class HierarchicalRowTableProcessor(TableProcessor):
                 
                 cell = grid[row_idx][col_idx]
                 
-                is_original = cell.get('original_cell', False)
-                cell_type = cell.get('type')
-                text = cell.get('text', '').strip()
-                colspan = cell.get('original_colspan', 1)
-                
-                print(f"DEBUG: Col {col_idx}, Row {row_idx}: text='{text}', type={cell_type}, original={is_original}, colspan={colspan}")
-                
                 # Only process original header cells
-                if not is_original or cell_type != 'th':
-                    continue
-                
-                if not text:
-                    continue
-                
-                # Skip title-spanning headers (span most/all columns)
-                if colspan >= num_cols * 0.8:
-                    print(f"DEBUG: Skipping title header: '{text}' (colspan={colspan})")
-                    continue
-                
-                print(f"DEBUG: Adding header '{text}' to columns {col_idx}-{col_idx + colspan - 1}")
-                
-                # Add this header to all columns it spans
-                for span_col in range(col_idx, min(col_idx + colspan, num_cols)):
-                    if span_col not in context_map:
-                        context_map[span_col] = []
-                    if text not in context_map[span_col]:
-                        context_map[span_col].append(text)
-                        print(f"DEBUG: Added '{text}' to column {span_col}")
+                if (cell.get('original_cell', False) and 
+                    cell.get('type') == 'th' and 
+                    cell.get('text', '').strip()):
+                    
+                    text = cell.get('text', '').strip()
+                    
+                    # Skip title-spanning headers
+                    original_colspan = cell.get('original_colspan', 1)
+                    if original_colspan >= num_cols * 0.8:
+                        continue
+                    
+                    # Add this header
+                    if text not in col_headers:
+                        col_headers.append(text)
+            
+            # Store headers for this column
+            if col_headers:
+                context_map[col_idx] = col_headers
         
-        print(f"DEBUG: Final column context map: {context_map}")
         return context_map
     
     def _extract_rules(self, grid: List[List[Dict]], row_context_map: Dict[int, List[str]], 
-                  column_context_map: Dict[int, List[str]]) -> List[Any]:
-        """Extract rules using universal content detection - WITH DEBUG"""
-        from table2rules import LogicRule
-        
+              column_context_map: Dict[int, List[str]]) -> List[LogicRule]:
+        """Extract rules using universal content detection"""
         rules = []
         
         if not grid:
@@ -925,15 +841,9 @@ class HierarchicalRowTableProcessor(TableProcessor):
         num_rows = len(grid)
         num_cols = max(len(row) for row in grid if row) if grid else 0
         
-        print(f"DEBUG: _extract_rules - Grid: {num_rows}x{num_cols}")
-        print(f"DEBUG: Row context map: {row_context_map}")
-        print(f"DEBUG: Column context map: {column_context_map}")
-        
         # Find content region using universal heuristics
         content_start_row = self._find_content_start_row(grid)
         content_start_col = self._find_content_start_col(grid)
-        
-        print(f"DEBUG: Content region starts at row {content_start_row}, col {content_start_col}")
         
         for r in range(content_start_row, num_rows):
             if r >= len(grid) or not grid[r]:
@@ -950,16 +860,12 @@ class HierarchicalRowTableProcessor(TableProcessor):
                 
                 outcome_text = cell.get('text', '').strip()
                 
-                print(f"DEBUG: Processing cell [{r},{c}]: '{outcome_text}'")
-                
                 # Universal placeholder filtering
                 if self._is_placeholder_content(outcome_text):
-                    print(f"DEBUG: Skipping placeholder: '{outcome_text}'")
                     continue
 
                 # Skip footer content
                 if self._is_footer_content(cell, r, num_rows):
-                    print(f"DEBUG: Skipping footer content: '{outcome_text}'")
                     continue
                 
                 # Build complete context
@@ -967,19 +873,15 @@ class HierarchicalRowTableProcessor(TableProcessor):
                 
                 # Add row context (hierarchical)
                 row_context = row_context_map.get(r, [])
-                print(f"DEBUG: Row {r} context: {row_context}")
                 conditions.extend(row_context)
                 
                 # Add column context
                 column_context = column_context_map.get(c, [])
-                print(f"DEBUG: Col {c} context: {column_context}")
                 conditions.extend(column_context)
                 
                 # Remove duplicates and circular references
                 unique_conditions = list(dict.fromkeys(conditions))
                 unique_conditions = [cond for cond in unique_conditions if cond != outcome_text]
-                
-                print(f"DEBUG: Final conditions for '{outcome_text}': {unique_conditions}")
                 
                 if unique_conditions:
                     rule = LogicRule(
@@ -989,11 +891,7 @@ class HierarchicalRowTableProcessor(TableProcessor):
                         is_summary=False
                     )
                     rules.append(rule)
-                    print(f"DEBUG: Created rule: {unique_conditions} -> '{outcome_text}'")
-                else:
-                    print(f"DEBUG: No conditions for '{outcome_text}', skipping")
         
-        print(f"DEBUG: Total rules created: {len(rules)}")
         return rules
     
     def _find_content_start_row(self, grid: List[List[Dict]]) -> int:

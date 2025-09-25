@@ -7,83 +7,15 @@ Core file with parsing and CLI only
 import re
 from bs4 import BeautifulSoup
 from typing import Dict, List, Any, Tuple
-from dataclasses import dataclass
 import logging
 import argparse
+from models import LogicRule
 from table_processor_factory import TableProcessorFactory
+from table_repair import needs_universal_repair, universal_table_repair
+
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
-
-
-@dataclass
-class LogicRule:
-    conditions: List[str]
-    outcome: str
-    position: Tuple[int, int]
-    is_summary: bool = False
-    
-    def to_rule_string(self) -> str:
-        """Original structured format"""
-        if not self.conditions:
-            return f"FACT: The value is '{self.outcome}'"
-        
-        condition_parts = [f'"{c}"' for c in self.conditions]
-        conditions_str = " AND ".join(condition_parts)
-        
-        if self.is_summary:
-            return f"SUMMARY: IF {conditions_str} THEN the value is '{self.outcome}'"
-        else:
-            return f"IF {conditions_str} THEN the value is '{self.outcome}'"
-    
-    def to_natural_formats(self) -> Dict[str, str]:
-        """Generate multiple natural language formats"""
-        return {
-            'conversational': self._to_conversational(),
-            'question_answer': self._to_qa_format(),
-            'descriptive': self._to_descriptive(),
-            'searchable': self._to_searchable(),
-            'structured': self.to_rule_string()
-        }
-    
-    def _to_conversational(self) -> str:
-        if not self.conditions:
-            return f"The value is {self.outcome}"
-        context = ", ".join(self.conditions)
-        return f"For {context}, the value is {self.outcome}"
-    
-    def _to_qa_format(self) -> str:
-        if not self.conditions:
-            return f"What is the value? {self.outcome}"
-        context = " ".join(self.conditions)
-        return f"What is the value for {context}? The answer is {self.outcome}"
-    
-    def _to_descriptive(self) -> str:
-        """Rich semantic description that preserves all context."""
-        if not self.conditions:
-            return f"The value is {self.outcome}"
-        
-        # Build complete context string
-        all_context = " ".join(self.conditions)
-        return f"{all_context}, the content is {self.outcome}"
-    
-    def _to_searchable(self) -> str:
-        if not self.conditions:
-            return f"value amount data {self.outcome}"
-        context = " ".join(self.conditions)
-        return f"{context} value amount {self.outcome}"
-    
-    def _extract_categories(self) -> Dict[str, str]:
-        categories = {}
-        for condition in self.conditions:
-            clean = condition.lower()
-            if 'day' in clean:
-                categories['day'] = condition
-            elif re.search(r'\d{1,2}:\d{2}', clean):
-                categories['time'] = condition
-            elif any(word in clean for word in ['hall', 'room', 'track']):
-                categories['location'] = condition
-        return categories
 
 
 def clean_text(text: str) -> str:
@@ -117,7 +49,7 @@ def clean_text(text: str) -> str:
 
 
 def parse_and_unmerge_table_bulletproof(table) -> List[List[Dict]]:
-    """Parse table into grid format"""
+    """Parse table into grid format - handles post-repair structure"""
     # Find footer rows
     footer_row_indices = set()
     tfoot = table.find('tfoot')
@@ -135,12 +67,13 @@ def parse_and_unmerge_table_bulletproof(table) -> List[List[Dict]]:
     if not actual_rows:
         return []
     
-    # Parse cells
+    # Parse cells - CRITICAL FIX: Don't assume spans exist after repair
     parsed_cells = []
     for row_idx, row in enumerate(actual_rows):
         cells = row.find_all(['td', 'th'])
         row_cells = []
         for cell in cells:
+            # After repair, all spans should be 1, but check anyway
             rowspan = int(cell.get('rowspan', 1))
             colspan = int(cell.get('colspan', 1))
             cell_data = {
@@ -154,33 +87,25 @@ def parse_and_unmerge_table_bulletproof(table) -> List[List[Dict]]:
             row_cells.append(cell_data)
         parsed_cells.append(row_cells)
     
-    # Build grid
-    occupied_positions = set()
+    # Calculate grid dimensions more robustly
     max_cols = 0
-    
-    # Calculate grid size
-    for row_idx, row_cells in enumerate(parsed_cells):
-        col_idx = 0
+    for row_cells in parsed_cells:
+        col_count = 0
         for cell in row_cells:
-            while (row_idx, col_idx) in occupied_positions:
-                col_idx += 1
-            for r in range(cell['rowspan']):
-                for c in range(cell['colspan']):
-                    occupied_positions.add((row_idx + r, col_idx + c))
-            max_cols = max(max_cols, col_idx + cell['colspan'])
-            col_idx += cell['colspan']
+            col_count += cell['colspan']
+        max_cols = max(max_cols, col_count)
     
     max_rows = len(actual_rows)
+    
+    # Initialize grid
     grid = [[{'text': '', 'type': 'td', 'original_cell': False, 'is_footer': False} 
              for _ in range(max_cols)] for _ in range(max_rows)]
-    occupied_positions.clear()
     
-    # Fill grid
+    # Fill grid - simpler logic since repair removed all multi-spans
     for row_idx, row_cells in enumerate(parsed_cells):
         col_idx = 0
         for cell in row_cells:
-            while (row_idx, col_idx) in occupied_positions:
-                col_idx += 1
+            # Fill the cell and any spans it covers
             for r in range(cell['rowspan']):
                 for c in range(cell['colspan']):
                     target_row, target_col = row_idx + r, col_idx + c
@@ -195,14 +120,46 @@ def parse_and_unmerge_table_bulletproof(table) -> List[List[Dict]]:
                             'colspan': 1,
                             'is_footer': cell['is_footer']
                         }
-                        occupied_positions.add((target_row, target_col))
             col_idx += cell['colspan']
     
     return grid
 
+def needs_repair(html_content: str) -> bool:
+    """Enhanced malformation detection"""
+    soup = BeautifulSoup(html_content, 'html.parser')
+    table = soup.find('table')
+    
+    if not table:
+        return False
+    
+    # Pattern 1: ANY td elements with rowspan > 1 (shared resource cells)
+    malformed_rowspan = table.find_all('td', {'rowspan': True})
+    for cell in malformed_rowspan:
+        if int(cell.get('rowspan', 1)) > 1:
+            text = cell.get_text(strip=True)
+            logger.info(f"Malformation detected: td with rowspan={cell.get('rowspan')} ('{text}')")
+            return True
+    
+    # Pattern 2: ANY td elements with colspan > 1 (consolidated cells) 
+    malformed_colspan = table.find_all('td', {'colspan': True})
+    for cell in malformed_colspan:
+        if int(cell.get('colspan', 1)) > 1:  # Changed from > 2
+            text = cell.get_text(strip=True)
+            logger.info(f"Malformation detected: td with colspan={cell.get('colspan')} ('{text}')")
+            return True
+    
+    return False
+
 
 def process_table(table_html: str) -> List[LogicRule]:
-    """Main table processing function"""
+    """Main table processing function with systematic repair"""
+    
+    # Step 1: Use your original systematic repair (not the grid reconstruction)
+    if needs_universal_repair(table_html):
+        table_html = universal_table_repair(table_html)
+        logger.info("Applied universal structure repair")
+    
+    # Step 2: Your existing universal processing (unchanged)
     soup = BeautifulSoup(table_html, 'html.parser')
     table = soup.find('table')
     
@@ -213,13 +170,15 @@ def process_table(table_html: str) -> List[LogicRule]:
     
     logger.info(f"Parsed grid: {len(grid)} rows x {len(grid[0]) if grid else 0} columns")
     
-    # Use factory to process
+    # Step 3: Factory processing (unchanged)
     factory = TableProcessorFactory()
     result = factory.process_table(grid, table)
     
     logger.info(f"Processed with {result.processor_type}: {len(result.rules)} rules")
     
     return result.rules
+
+
 
 
 def main():
