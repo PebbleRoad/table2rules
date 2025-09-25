@@ -1,11 +1,15 @@
 #!/usr/bin/env python3
 """
-Table Processor System - Final, Unified Version with Geometric Partitioning
+Table Processor System - Professional Logging Implementation
 """
 from abc import ABC, abstractmethod
 from typing import List, Dict, Any, Tuple, Optional
 from models import LogicRule, ProcessingResult
 import re
+import logging
+
+# Set up module-level logger
+logger = logging.getLogger(__name__)
 
 def _is_meaningful_text(s: Optional[str]) -> bool:
     return s is not None and bool(str(s).strip())
@@ -34,6 +38,7 @@ class TableProcessor(ABC):
     def can_process(self, grid: List[List[Dict]], table_element) -> float: pass
     @abstractmethod  
     def process(self, grid: List[List[Dict]], table_element) -> ProcessingResult: pass
+    
     def _is_placeholder(self, text: str) -> bool:
         """
         Determine if a cell contains only placeholder content that should be skipped.
@@ -57,7 +62,8 @@ class TableProcessor(ABC):
         return False
 
 class UniversalProcessor(TableProcessor):
-    def can_process(self, grid: List[List[Dict]], table_element) -> float: return 1.0
+    def can_process(self, grid: List[List[Dict]], table_element) -> float: 
+        return 1.0
 
     def _analyze_table_geometry(self, grid: List[List[Dict]]) -> Dict[str, Any]:
         """
@@ -65,9 +71,11 @@ class UniversalProcessor(TableProcessor):
         Returns regions: header, row_context, column_context, data
         """
         if not grid or not grid[0]:
+            logger.debug("Empty grid provided to geometry analysis")
             return {'header_end_row': 0, 'context_end_col': 1, 'data_region': (0, 1, 0, 0)}
         
         num_rows, num_cols = len(grid), len(grid[0])
+        logger.debug(f"Analyzing geometry of {num_rows}x{num_cols} table")
         
         # Step 1: Find header boundary (top rows with mostly th elements)
         header_end_row = self._find_header_boundary(grid)
@@ -75,10 +83,8 @@ class UniversalProcessor(TableProcessor):
         # Step 2: Find context boundary (left columns with categorical content)  
         context_end_col = self._find_context_boundary(grid, header_end_row)
         
-        print(f"DEBUG GEOMETRY: {num_rows}x{num_cols} table")
-        print(f"  Header region: rows 0-{header_end_row}")  
-        print(f"  Context region: cols 0-{context_end_col}")
-        print(f"  Data region: rows {header_end_row}+ cols {context_end_col}+")
+        logger.info(f"Geometric analysis complete: header_rows={header_end_row}, context_cols={context_end_col}")
+        logger.debug(f"Data region starts at row {header_end_row}, column {context_end_col}")
         
         return {
             'header_end_row': header_end_row,
@@ -89,6 +95,7 @@ class UniversalProcessor(TableProcessor):
     def _find_header_boundary(self, grid: List[List[Dict]]) -> int:
         """Find where header section ends and data begins"""
         max_scan_rows = min(len(grid), 5)  # Don't scan too deep
+        logger.debug(f"Scanning first {max_scan_rows} rows for header boundary")
         
         for r_idx in range(max_scan_rows):
             row = grid[r_idx]
@@ -98,22 +105,27 @@ class UniversalProcessor(TableProcessor):
             td_count = sum(1 for cell in row if cell.get('type') == 'td' and cell.get('text', '').strip())
             total_content = th_count + td_count
             
-            print(f"DEBUG HEADER: Row {r_idx} - {th_count} th, {td_count} td")
+            logger.debug(f"Row {r_idx}: {th_count} th cells, {td_count} td cells")
             
             # If this row has mostly data cells, header section has ended
             if total_content > 0 and td_count > th_count:
+                logger.debug(f"Header boundary found at row {r_idx} (more td than th)")
                 return r_idx
         
         # Default: assume first row or two are headers
-        return min(2, len(grid))
+        default_boundary = min(2, len(grid))
+        logger.debug(f"Using default header boundary: {default_boundary}")
+        return default_boundary
 
     def _find_context_boundary(self, grid: List[List[Dict]], header_end_row: int) -> int:
         """Find where row context ends and data values begin"""
         if header_end_row >= len(grid):
+            logger.debug("Header extends beyond table, using default context boundary")
             return 1
         
         num_cols = len(grid[0])
         max_scan_cols = min(num_cols, 3)  # Typically context is in first few columns
+        logger.debug(f"Scanning first {max_scan_cols} columns for context boundary")
         
         for c_idx in range(max_scan_cols):
             # Sample data cells from this column (skip header rows)
@@ -126,17 +138,20 @@ class UniversalProcessor(TableProcessor):
                         column_cells.append(text)
             
             if not column_cells:
+                logger.debug(f"Column {c_idx}: no content found")
                 continue
                 
             # Test: Is this column quantitative (data) or categorical (context)?
             quantitative_ratio = self._calculate_quantitative_ratio(column_cells)
-            print(f"DEBUG CONTEXT: Col {c_idx} - {len(column_cells)} cells, {quantitative_ratio:.2f} quantitative")
+            logger.debug(f"Column {c_idx}: {len(column_cells)} cells, {quantitative_ratio:.2f} quantitative ratio")
             
             # If more than half the cells are quantitative, this is data region
             if quantitative_ratio > 0.5:
+                logger.debug(f"Context boundary found at column {c_idx} (quantitative content)")
                 return c_idx
         
         # Default: assume first column is context
+        logger.debug("Using default context boundary: column 1")
         return 1
 
     def _calculate_quantitative_ratio(self, texts: List[str]) -> float:
@@ -144,12 +159,11 @@ class UniversalProcessor(TableProcessor):
         if not texts:
             return 0.0
         
-        quantitative_count = 0
-        for text in texts:
-            if self._is_quantitative_content(text):
-                quantitative_count += 1
+        quantitative_count = sum(1 for text in texts if self._is_quantitative_content(text))
+        ratio = quantitative_count / len(texts)
         
-        return quantitative_count / len(texts)
+        logger.debug(f"Quantitative analysis: {quantitative_count}/{len(texts)} = {ratio:.3f}")
+        return ratio
 
     def _is_quantitative_content(self, text: str) -> bool:
         """Determine if text represents quantitative data"""
@@ -184,6 +198,7 @@ class UniversalProcessor(TableProcessor):
 
     def _build_row_context_map(self, grid: List[List[Dict]]) -> Dict[int, List[str]]:
         """Mathematical span-based context propagation"""
+        logger.debug("Building row context map with span-aware propagation")
         context_map: Dict[int, List[str]] = {}
         if not grid: 
             return context_map
@@ -209,10 +224,12 @@ class UniversalProcessor(TableProcessor):
                     if r_idx <= end_row:
                         # We're still within the active span
                         row_contexts.append(context_text)
+                        logger.debug(f"Row {r_idx}, col {c_idx}: inherited span context '{context_text}'")
                         
                         # Clean up if this is the last row of the span
                         if r_idx == end_row:
                             del active_contexts[c_idx]
+                            logger.debug(f"Span context '{context_text}' completed at row {r_idx}")
                         
                         continue  # Don't process the current cell, use inherited context
                     else:
@@ -228,19 +245,23 @@ class UniversalProcessor(TableProcessor):
                         end_row = r_idx + rowspan - 1
                         active_contexts[c_idx] = (cell_text, end_row)
                         row_contexts.append(cell_text)
-                        print(f"DEBUG: Setting up span context - '{cell_text}' from row {r_idx} to {end_row}")
+                        logger.debug(f"New span context: '{cell_text}' from row {r_idx} to {end_row}")
                     
                     elif cell.get('type') == 'th':
                         # Regular header cell (non-spanning)
                         row_contexts.append(cell_text)
+                        logger.debug(f"Row {r_idx}, col {c_idx}: regular header '{cell_text}'")
             
             context_map[r_idx] = row_contexts
-            print(f"DEBUG: Row {r_idx} context: {row_contexts}")
+            if row_contexts:
+                logger.debug(f"Row {r_idx} context: {row_contexts}")
         
+        logger.info(f"Row context map built: {len([r for r, c in context_map.items() if c])} rows with context")
         return context_map
 
     def _build_column_context_map(self, grid: List[List[Dict]]) -> Dict[int, List[str]]:
         """Build proper multi-level column context with full hierarchy preservation"""
+        logger.debug("Building column context map with hierarchy preservation")
         context_map: Dict[int, List[str]] = {}
         if not grid or not grid[0]: 
             return context_map
@@ -257,7 +278,7 @@ class UniversalProcessor(TableProcessor):
             td_count = sum(1 for c in row if c.get('type') == 'td' and c.get('text', '').strip())
             total_content = th_count + td_count
             
-            print(f"DEBUG: Row {r_idx}: {th_count} th, {td_count} td, total content: {total_content}")
+            logger.debug(f"Header detection row {r_idx}: {th_count} th, {td_count} td, total: {total_content}")
             
             # If this row has substantial content and it's mostly headers, include it
             if total_content > 0 and th_count >= td_count:
@@ -266,7 +287,7 @@ class UniversalProcessor(TableProcessor):
                 # This row has more data than headers, we've reached body
                 break
         
-        print(f"DEBUG: Header section ends at row {header_end_row}")
+        logger.debug(f"Header section ends at row {header_end_row}")
         
         # Build shadow grid that expands all spans
         shadow_grid = [['' for _ in range(num_cols)] for _ in range(header_end_row)]
@@ -310,35 +331,38 @@ class UniversalProcessor(TableProcessor):
             
             if stack:
                 context_map[c] = stack
-                print(f"DEBUG: Column {c} context: {stack}")
+                logger.debug(f"Column {c} context hierarchy: {stack}")
         
+        logger.info(f"Column context map built: {len(context_map)} columns with context")
         return context_map
 
     def process(self, grid: List[List[Dict]], table_element) -> ProcessingResult:
+        logger.info("Starting UniversalProcessor processing")
         rules: List[LogicRule] = []
-        if not grid: return ProcessingResult(rules=rules)
+        if not grid: 
+            logger.warning("Empty grid provided")
+            return ProcessingResult(rules=rules)
         
-        # NEW: Geometric analysis first
+        # Geometric analysis first
         geometry = self._analyze_table_geometry(grid)
         
-        # Existing context building (unchanged)
-        row_map, col_map = self._build_row_context_map(grid), self._build_column_context_map(grid)
+        # Build context maps
+        logger.debug("Building context maps")
+        row_map = self._build_row_context_map(grid)
+        col_map = self._build_column_context_map(grid)
         
-        print(f"\nDEBUG: Processing grid with geometric partitioning")
-        print(f"Row context map: {row_map}")
-        print(f"Column context map: {col_map}")
-        print(f"Geometry: {geometry}")
-        
-        # NEW: Process only the data region using geometric boundaries
+        # Process only the data region using geometric boundaries
         data_start_row = geometry['header_end_row']
         context_end_col = geometry['context_end_col'] 
         
+        logger.info(f"Processing data region: rows {data_start_row}+ cols {context_end_col}+")
+        
+        rules_created = 0
         for r_idx in range(data_start_row, len(grid)):
             row = grid[r_idx]
             if any(cell.get('is_footer', False) for cell in row): 
+                logger.debug(f"Skipping footer row {r_idx}")
                 continue
-            
-            print(f"\n--- Processing data row {r_idx} ---")
             
             # Extract row context from context columns (0 to context_end_col-1)
             row_context = []
@@ -352,29 +376,22 @@ class UniversalProcessor(TableProcessor):
             if not row_context:
                 row_context = row_map.get(r_idx, [])
             
-            print(f"  Row context: {row_context}")
-            
             # Process data cells (from context_end_col onwards)
             for c_idx in range(context_end_col, len(row)):
                 cell = row[c_idx]
                 cell_text = cell.get('text', '').strip()
                 
-                print(f"  Cell[{c_idx}]: '{cell_text}'")
-                
                 # Only process cells with meaningful content
                 if not cell_text or self._is_placeholder(cell_text):
-                    print(f"    -> Skipped (empty/placeholder)")
                     continue
                 
                 # Build complete context: row + column
                 col_context = col_map.get(c_idx, [])
                 complete_context = row_context + col_context
                 
-                print(f"    -> Complete context: {complete_context}")
-                
                 # Avoid redundant rules (if outcome already in context)
                 if cell_text in complete_context and len(complete_context) > 1:
-                    print(f"    -> Skipped (redundant)")
+                    logger.debug(f"Skipping redundant rule at ({r_idx},{c_idx}): '{cell_text}'")
                     continue
                 
                 # Create semantic rule
@@ -384,21 +401,26 @@ class UniversalProcessor(TableProcessor):
                     position=(r_idx, c_idx)
                 )
                 rules.append(rule)
-                print(f"    -> RULE: {' / '.join(complete_context)} = {cell_text}")
+                rules_created += 1
+                
+                logger.debug(f"Rule {rules_created}: {' / '.join(complete_context)} = {cell_text}")
         
-        print(f"\nTotal rules generated: {len(rules)}")
+        logger.info(f"UniversalProcessor completed: {len(rules)} rules generated")
         return ProcessingResult(rules=rules, confidence=1.0, processor_type="UniversalProcessor")
 
 # --- All other processors are now just placeholders ---
 class DataTableProcessor(TableProcessor):
     def can_process(self, grid, e): return 0.1
     def process(self, grid, e): return ProcessingResult(rules=[])
+
 class HierarchicalRowTableProcessor(TableProcessor):
     def can_process(self, grid, e): return 0.1
     def process(self, grid, e): return ProcessingResult(rules=[])
+
 class FormTableProcessor(TableProcessor):
     def can_process(self, grid, e): return 0.0
     def process(self, grid, e): return ProcessingResult(rules=[])
+
 class LayoutTableProcessor(TableProcessor):
     def can_process(self, grid, e): return 0.0
     def process(self, grid, e): return ProcessingResult(rules=[])

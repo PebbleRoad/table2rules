@@ -1,10 +1,3 @@
-Product is easy to use / Strongly Agree = 45%
-Product is easy to use / Agree = 35%
-Product is easy to use / Neutral = 15%
-Product is easy to use / Disagree = 5%
-Product is easy to use / N/A = None
-Support is responsive / Strongly Agree = 30%
-Support is responsive / Agree = 40%
-Support is responsive / Neutral = 20%
-Support is responsive / Disagree = 5%
-Support is responsive / N/A = 5%
+PrimaryDB / Status = Online
+MAINTENANCE MODE: Services will be offline for 2 hours. = MAINTENANCE MODE: Services will be offline for 2 hours.
+Cache-01 / Status = Online

@@ -57,6 +57,7 @@ def parse_and_unmerge_table_bulletproof(table) -> List[List[Dict]]:
     # Get all rows
     actual_rows = table.find_all('tr')
     if not actual_rows:
+        logger.debug("No table rows found")
         return []
     
     # Phase 1: Calculate the true grid dimensions
@@ -67,7 +68,7 @@ def parse_and_unmerge_table_bulletproof(table) -> List[List[Dict]]:
         row_width = sum(int(cell.get('colspan', 1)) for cell in cells)
         max_cols = max(max_cols, row_width)
     
-    print(f"DEBUG: True grid dimensions: {len(actual_rows)} rows x {max_cols} columns")
+    logger.debug(f"Calculated grid dimensions: {len(actual_rows)} rows x {max_cols} columns")
     
     # Phase 2: Build the logical grid
     # Create empty grid filled with None
@@ -100,6 +101,9 @@ def parse_and_unmerge_table_bulletproof(table) -> List[List[Dict]]:
                 'is_footer': False  # We'll handle footer detection separately
             }
             
+            logger.debug(f"Processing cell at ({row_idx},{logical_col}): '{cell_data['text'][:30]}...' "
+                        f"spans={rowspan}x{colspan}")
+            
             # Fill all positions this cell spans
             for r_offset in range(rowspan):
                 for c_offset in range(colspan):
@@ -123,7 +127,7 @@ def parse_and_unmerge_table_bulletproof(table) -> List[List[Dict]]:
                                 'original_rowspan': cell_data['original_rowspan'],  # Preserve original span info
                                 'original_colspan': cell_data['original_colspan'],
                                 'is_footer': cell_data['is_footer'],
-                                'span_origin': (row_idx, logical_col)  # NEW: Track where this span originated
+                                'span_origin': (row_idx, logical_col)  # Track where this span originated
                             }
                             logical_grid[target_row][target_col] = span_cell
             
@@ -131,6 +135,7 @@ def parse_and_unmerge_table_bulletproof(table) -> List[List[Dict]]:
     
     # Phase 4: Convert logical grid to the expected format
     # Fill any remaining None positions with empty cells
+    empty_cells_filled = 0
     for row_idx in range(len(logical_grid)):
         for col_idx in range(len(logical_grid[row_idx])):
             if logical_grid[row_idx][col_idx] is None:
@@ -144,9 +149,14 @@ def parse_and_unmerge_table_bulletproof(table) -> List[List[Dict]]:
                     'original_colspan': 1,
                     'is_footer': False
                 }
+                empty_cells_filled += 1
         
-        print(f"Row {row_idx}: {len(logical_grid[row_idx])} columns")
+        logger.debug(f"Row {row_idx}: {len(logical_grid[row_idx])} columns")
     
+    if empty_cells_filled > 0:
+        logger.debug(f"Filled {empty_cells_filled} empty cell positions")
+    
+    logger.info(f"Grid parsing complete: {len(logical_grid)} x {max_cols} logical grid created")
     return logical_grid
 
 def needs_repair(html_content: str) -> bool:
@@ -188,6 +198,20 @@ def process_table(table_html: str, apply_rag_fix: bool = True) -> List[LogicRule
     grid = parse_and_unmerge_table_bulletproof(table)
     if not grid:
         logger.warning("Table parsing resulted in empty grid")
+        return []
+    
+    # Check if table is empty (no meaningful text content)
+    has_content = False
+    for row in grid:
+        for cell in row:
+            if cell.get('text', '').strip():
+                has_content = True
+                break
+        if has_content:
+            break
+    
+    if not has_content:
+        logger.warning("Table contains no text content - skipping empty table")
         return []
     
     logger.info(f"Parsed grid: {len(grid)} rows x {len(grid[0]) if grid else 0} columns")

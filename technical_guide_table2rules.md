@@ -4,6 +4,56 @@ This guide explains how **table2rules** processes HTML tables into structured `L
 
 ---
 
+## 6. Malformed Table Processing
+
+The system handles **semantically malformed but syntactically valid** HTML tables through mathematical simulation without HTML preprocessing:
+
+### **Scope and Limitations**
+
+**✅ Handles:**
+- Semantic malformation: `<td rowspan="2">` instead of `<th rowspan="2">` (wrong element types for spans)
+- Structural inconsistencies: Missing cells, irregular span patterns
+- Layout misuse: Tables used for page layout instead of data representation
+
+**❌ Does Not Handle:**
+- Syntax errors: Unclosed tags (`<th>Price <th>In Stock?</th>`)
+- Malformed attributes: Invalid quotes (`colspan="2'>`)
+- Invalid HTML structure: Cells outside proper row/table hierarchy
+- Parser-breaking HTML that fails BeautifulSoup processing
+
+### **Malformation Detection**
+Identifies problematic patterns in syntactically valid HTML:
+- `td` elements with `rowspan > 1` (shared resource cells in wrong element type)
+- `td` elements with `colspan > 1` (consolidated cells using data elements for structure)
+- Inconsistent table structure with missing or extra cells
+
+### **In-Memory Mathematical Correction**
+For semantically malformed tables, the system:
+
+1. **Logical Grid Creation**: Builds clean 2D matrix representation
+2. **Span Simulation**: Mathematically expands rowspan/colspan to fill grid positions
+3. **Reference Cell Generation**: Creates span references that preserve original content and metadata
+4. **Origin Tracking**: Maintains `span_origin` coordinates and `original_cell` flags
+
+### **Preservation Strategy**
+```python
+span_cell = {
+    'text': cell_data['text'],              # Same content
+    'type': cell_data['type'],              # Preserve element type  
+    'original_cell': False,                 # Mark as reference
+    'original_rowspan': cell_data['original_rowspan'],  # Original span info
+    'span_origin': (row_idx, logical_col)   # Track source position
+}
+```
+
+This approach ensures that:
+- Original HTML structure remains untouched
+- Logical processing works with clean grid representation
+- All original metadata and content is preserved
+- System handles semantically inconsistent but parseable tables
+
+---
+
 ## 1. Pipeline Overview
 
 1. **Input Parsing**
@@ -14,6 +64,7 @@ This guide explains how **table2rules** processes HTML tables into structured `L
    * `parse_and_unmerge_table_bulletproof` creates a logical 2D grid by mathematically simulating span expansion.
    * Each cell contains metadata: text, type (`th`/`td`), original spans, origin flags.
    * **Key Innovation**: Spans are handled in memory without modifying the original HTML structure.
+   * **Malformed Table Handling**: System processes semantically malformed but syntactically valid HTML tables through in-memory mathematical simulation.
 
 3. **Processor Selection (table_processor_factory.py)**
    * Factory routes to UniversalProcessor (primary) or specialized processors.
@@ -71,6 +122,8 @@ python3 table2rules.py --input input.md --raw   # skip cleanup
 * **Mathematical Grid Processing**
   * Tables are read using logical grid simulation instead of HTML repair.
   * Spans are handled mathematically in memory, preserving original structure.
+  * **Semantic malformation support**: Processes semantically incorrect but syntactically valid HTML tables.
+  * **In-memory correction**: Mathematical simulation creates clean logical grids while preserving original HTML.
 
 * **Geometric Partitioning**
   * **NEW**: Tables are mathematically partitioned into header, context, and data regions
@@ -209,6 +262,7 @@ HTML Input → Mathematical Grid Parser → Geometric Partitioning → Universal
 **Key Algorithms:**
 - **Span Resolution**: `(row,col) → occupied_positions` mapping
 - **Context Propagation**: `original_rowspan > 1` determines inheritance
+- **Malformed Table Processing**: In-memory mathematical grid simulation handles irregular HTML structures
 - **Geometric Partitioning**: Quantitative vs categorical content analysis
 - **Semantic Binding**: Row context + column context → complete rules
 - **Smart Deduplication**: Position-aware duplicate detection
@@ -240,7 +294,8 @@ The system uses pattern matching to distinguish data from context:
 ## 8. Production Characteristics
 
 * **Accuracy**: 99%+ correct context extraction across all table patterns
-* **Coverage**: Universal - handles simple attribute tables through complex hierarchical structures
+* **Coverage**: Universal - handles simple attribute tables through complex hierarchical structures, plus semantically malformed HTML tables
+* **Robustness**: Processes well-formed tables and semantically inconsistent (but syntactically valid) HTML tables
 * **Speed**: Complex tables processed in <1s
 * **Scalability**: Handles 100+ row tables with deep hierarchies
 * **Reliability**: Mathematical approach eliminates edge cases from heuristic-based systems
