@@ -113,9 +113,18 @@ def parse_and_unmerge_table_bulletproof(table) -> List[List[Dict]]:
                             # This is the original cell position
                             logical_grid[target_row][target_col] = cell_data
                         else:
-                            # This is a spanned position - create a reference
-                            span_cell = cell_data.copy()
-                            span_cell['original_cell'] = False
+                            # This is a spanned position - create a reference that preserves key info
+                            span_cell = {
+                                'text': cell_data['text'],  # Same text content
+                                'type': cell_data['type'],  # Same cell type
+                                'rowspan': 1,  # Individual cell properties
+                                'colspan': 1,
+                                'original_cell': False,  # This is a reference
+                                'original_rowspan': cell_data['original_rowspan'],  # Preserve original span info
+                                'original_colspan': cell_data['original_colspan'],
+                                'is_footer': cell_data['is_footer'],
+                                'span_origin': (row_idx, logical_col)  # NEW: Track where this span originated
+                            }
                             logical_grid[target_row][target_col] = span_cell
             
             logical_col += colspan

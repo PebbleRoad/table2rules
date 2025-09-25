@@ -88,18 +88,15 @@ def _is_placeholder_like(text: str) -> bool:
 
 def apply_rag_fixes(result: ProcessingResult) -> ProcessingResult:
     """
-    Apply RAG cleanups to a ProcessingResult:
-    1. Smart deduplicate - preserve context-establishing duplicates
-    2. Collapse placeholder-like outcomes across multiple columns.
-    3. Normalise placeholders (N/A).
-    4. Filter legend/footer rules.
+    Apply RAG cleanups with better deduplication logic
     """
     if not result or not result.rules:
         return result
 
     cleaned: List[LogicRule] = []
-    seen: Set[Tuple[Tuple[str, ...], str, Tuple[int, int]]] = set()  # Include position
-    placeholder_seen: Dict[Tuple[str, ...], str] = {}
+    seen_exact: Set[Tuple[Tuple[str, ...], str]] = set()
+    
+    # REMOVED: placeholder_seen logic - let each unique context keep its placeholder
 
     for rule in result.rules:
         outcome = _normalise_placeholder(rule.outcome)
@@ -110,33 +107,17 @@ def apply_rag_fixes(result: ProcessingResult) -> ProcessingResult:
 
         conditions_tuple = tuple(rule.conditions)
 
-        # Collapse repeated placeholders: only keep one per row-context
-        if _is_placeholder_like(outcome):
-            row_ctx = tuple(rule.conditions[:1]) if rule.conditions else ()
-            if row_ctx in placeholder_seen:
-                continue
-            placeholder_seen[row_ctx] = outcome
+        # REMOVED: Placeholder collapse logic - preserve all meaningful placeholders
+        # Each unique context should keep its own placeholder value
 
-        # Smart deduplication: Include position to preserve meaningful duplicates
-        # This allows "Track = AI" to appear multiple times for different sessions
-        key = (conditions_tuple, outcome, rule.position)
-        if key in seen:
-            continue
-        seen.add(key)
-
-        # However, we still want to deduplicate EXACT same rules at same position
-        # Check for true duplicates (same content, same position)
-        exact_key = (conditions_tuple, outcome, rule.position)
-        duplicate_found = False
-        for existing_rule in cleaned:
-            existing_key = (tuple(existing_rule.conditions), existing_rule.outcome, existing_rule.position)
-            if existing_key == exact_key:
-                duplicate_found = True
-                break
+        # Only deduplicate TRUE duplicates (same context AND outcome)
+        exact_key = (conditions_tuple, outcome)
         
-        if duplicate_found:
+        if exact_key in seen_exact:
             continue
-
+            
+        seen_exact.add(exact_key)
+        
         cleaned.append(
             LogicRule(
                 conditions=rule.conditions,

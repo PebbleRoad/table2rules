@@ -34,45 +34,84 @@ class TableProcessor(ABC):
     @abstractmethod  
     def process(self, grid: List[List[Dict]], table_element) -> ProcessingResult: pass
     def _is_placeholder(self, text: str) -> bool:
-        if not text: return True
-        return text.strip().lower() in {'', '-', '—', '–', 'n/a', 'na', 'tbd'}
+        """
+        Determine if a cell contains only placeholder content that should be skipped.
+        
+        IMPORTANT: This should only skip truly empty cells. Let RAG fix handle 
+        normalization of meaningful placeholders like "—", "TBD", "N/A" etc.
+        
+        The goal is to capture all meaningful content (including placeholders) 
+        as rules, then let the RAG layer normalize them appropriately.
+        """
+        if not text:
+            return True
+        
+        # Only skip completely empty or whitespace-only cells
+        stripped = text.strip()
+        if not stripped:
+            return True
+        
+        # Don't skip meaningful placeholders - let them become rules
+        # The RAG fix layer will normalize these to "None" or "TBD" appropriately
+        return False
 
 class UniversalProcessor(TableProcessor):
     def can_process(self, grid: List[List[Dict]], table_element) -> float: return 1.0
 
     def _build_row_context_map(self, grid: List[List[Dict]]) -> Dict[int, List[str]]:
-        """Simple rule: only spanning headers propagate (th OR td)"""
+        """Mathematical span-based context propagation"""
         context_map: Dict[int, List[str]] = {}
-        if not grid: return context_map
+        if not grid: 
+            return context_map
         
-        header_cols = [0, 1]
-        active_contexts = ['', '']
+        # Track active contexts by column position
+        active_contexts: Dict[int, Tuple[str, int]] = {}  # col_idx -> (text, end_row_inclusive)
         
-        for r in range(len(grid)):
+        for r_idx in range(len(grid)):
             row_contexts = []
             
-            for i, c in enumerate(header_cols):
-                if c >= len(grid[r]): continue
-                
-                cell = grid[r][c]
+            # Check first few columns for row headers (typically columns 0, 1)
+            for c_idx in [0, 1]:
+                if c_idx >= len(grid[r_idx]):
+                    continue
+                    
+                cell = grid[r_idx][c_idx]
                 cell_text = cell.get('text', '').strip()
                 
-                # Check for headers in EITHER th OR td cells
-                if (cell_text and cell.get('original_cell', False)):
+                # First, check if there's an active span context for this column
+                if c_idx in active_contexts:
+                    context_text, end_row = active_contexts[c_idx]
                     
-                    # Only propagate if this cell originally spanned multiple rows
-                    if cell.get('original_rowspan', 1) > 1:
-                        active_contexts[i] = cell_text
-                        row_contexts.append(active_contexts[i])
-                    elif cell.get('type') == 'th':
-                        # Non-spanning th cells still count as headers
+                    if r_idx <= end_row:
+                        # We're still within the active span
+                        row_contexts.append(context_text)
+                        
+                        # Clean up if this is the last row of the span
+                        if r_idx == end_row:
+                            del active_contexts[c_idx]
+                        
+                        continue  # Don't process the current cell, use inherited context
+                    else:
+                        # Span has ended, remove it
+                        del active_contexts[c_idx]
+                
+                # Process current cell if it has content and is original
+                if cell_text and cell.get('original_cell', False):
+                    rowspan = cell.get('original_rowspan', 1)
+                    
+                    if rowspan > 1:
+                        # This cell spans multiple rows - set up active context
+                        end_row = r_idx + rowspan - 1
+                        active_contexts[c_idx] = (cell_text, end_row)
                         row_contexts.append(cell_text)
-                else:
-                    # Inherit spanning context
-                    if active_contexts[i]:
-                        row_contexts.append(active_contexts[i])
+                        print(f"DEBUG: Setting up span context - '{cell_text}' from row {r_idx} to {end_row}")
+                    
+                    elif cell.get('type') == 'th':
+                        # Regular header cell (non-spanning)
+                        row_contexts.append(cell_text)
             
-            context_map[r] = row_contexts
+            context_map[r_idx] = row_contexts
+            print(f"DEBUG: Row {r_idx} context: {row_contexts}")
         
         return context_map
 
@@ -166,6 +205,7 @@ class UniversalProcessor(TableProcessor):
             if any(cell.get('is_footer', False) for cell in row): continue
             
             print(f"\n--- Processing row {r_idx} ---")
+            
             for c_idx, cell in enumerate(row):
                 cell_text = cell.get('text', '').strip()
                 cell_type = cell.get('type')
@@ -173,8 +213,16 @@ class UniversalProcessor(TableProcessor):
                 
                 print(f"  Cell[{c_idx}]: '{cell_text}' (type={cell_type}, original={is_original})")
                 
-                if cell.get('type') != 'td' or not cell.get('original_cell', False): 
-                    print(f"    -> Skipped (not original td)")
+                # CRITICAL FIX: Process both original cells AND spanning reference cells for data
+                # Skip only if it's not a td cell at all
+                if cell.get('type') != 'td': 
+                    print(f"    -> Skipped (not td)")
+                    continue
+                
+                # NEW LOGIC: For data cells, process both original AND span references
+                # Only skip if it's an empty span reference with no meaningful content
+                if not is_original and not cell_text.strip():
+                    print(f"    -> Skipped (empty span reference)")
                     continue
                 
                 outcome = cell.get('text','').strip()

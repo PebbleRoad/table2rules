@@ -1,165 +1,149 @@
 <table>
-  <caption>Enterprise Programs FY2025 — Phase-Gate &amp; Budget Overview</caption>
+  <caption>FY2025 Sales Performance — Regional & Product Breakdown (H1)</caption>
 
+  <!-- Column sizing is optional but helpful when testing layout -->
   <colgroup>
-    <col span="1" style="width: 12rem;">  <!-- Program -->
-    <col span="1" style="width: 14rem;">  <!-- Project -->
-    <col span="6" style="width: 7rem;">   <!-- Phase gates (6 cols) -->
-    <col span="2" style="width: 8rem;">   <!-- Budget -->
-    <col span="1" style="width: 8rem;">   <!-- FY Total -->
-    <col span="1" style="width: 10rem;">  <!-- Status -->
-    <col span="1" style="width: 18rem;">  <!-- Notes -->
+    <col span="1" style="width: 12rem;">   <!-- Region -->
+    <col span="1" style="width: 12rem;">   <!-- Product -->
+    <col span="4" style="width: 7rem;">    <!-- Q1/Q2 Actual/Target -->
+    <col span="2" style="width: 7rem;">    <!-- H1 Actual/Target -->
+    <col span="1" style="width: 8rem;">    <!-- Variance -->
+    <col span="1" style="width: 18rem;">   <!-- Notes -->
   </colgroup>
 
   <thead>
     <tr>
-      <th id="h-prog" scope="col" rowspan="3">Program</th>
-      <th id="h-proj" scope="col" rowspan="3">Project</th>
+      <th id="h-region" scope="col" rowspan="3">Region</th>
+      <th id="h-product" scope="col" rowspan="3">Product</th>
 
-      <th id="h-phase" scope="colgroup" colspan="6">Phase Gates</th>
-      <th id="h-budget" scope="colgroup" colspan="2" rowspan="2">Budget (USD&nbsp;M)</th>
-
-      <th id="h-fy" scope="col" rowspan="3">FY Total</th>
-      <th id="h-status" scope="col" rowspan="3">Status</th>
+      <!-- Top-level grouped headers -->
+      <th id="h-quarter" scope="colgroup" colspan="4">Quarter</th>
+      <th id="h-h1" scope="colgroup" colspan="2">H1 (Q1 + Q2)</th>
+      <th id="h-var" scope="col" rowspan="3">Variance</th>
       <th id="h-notes" scope="col" rowspan="3">Notes</th>
     </tr>
     <tr>
-      <th id="h-disc" scope="colgroup" colspan="2">Discovery</th>
-      <th id="h-build" scope="colgroup" colspan="2">Build</th>
-      <th id="h-launch" scope="colgroup" colspan="2">Launch</th>
+      <!-- Second header row: split Quarter into Q1 and Q2 -->
+      <th id="h-q1" scope="colgroup" colspan="2">Q1</th>
+      <th id="h-q2" scope="colgroup" colspan="2">Q2</th>
+      <th id="h-h1a" scope="col">Actual</th>
+      <th id="h-h1t" scope="col">Target</th>
     </tr>
     <tr>
-      <th id="h-disc-plan" scope="col">Plan</th>
-      <th id="h-disc-act" scope="col">Actual</th>
-      <th id="h-build-plan" scope="col">Plan</th>
-      <th id="h-build-act" scope="col">Actual</th>
-      <th id="h-launch-plan" scope="col">Plan</th>
-      <th id="h-launch-act" scope="col">Actual</th>
-
-      <th id="h-capex" scope="col">CapEx</th>
-      <th id="h-opex" scope="col">OpEx</th>
+      <!-- Third header row: atomic columns -->
+      <th id="h-q1a" scope="col">Actual</th>
+      <th id="h-q1t" scope="col">Target</th>
+      <th id="h-q2a" scope="col">Actual</th>
+      <th id="h-q2t" scope="col">Target</th>
+      <!-- H1 Actual/Target already defined above -->
     </tr>
   </thead>
 
   <tbody>
-    <!-- ===================== PROGRAM: ATLAS ===================== -->
+    <!-- AMERICAS group (rowgroup header spans 3 product rows) -->
     <tr>
-      <th scope="rowgroup" rowspan="4" headers="h-prog">Program Atlas</th>
-      <th scope="row" headers="h-proj">Aquila</th>
-      <td headers="h-disc h-disc-plan">Jan</td>
-      <td headers="h-disc h-disc-act">Jan</td>
-      <td headers="h-build h-build-plan">Mar</td>
-      <td headers="h-build h-build-act">Apr</td>
-      <td headers="h-launch h-launch-plan">Jun</td>
-      <td headers="h-launch h-launch-act">Jun</td>
-      <td headers="h-budget h-capex">5.2</td>
-      <td headers="h-budget h-opex">1.1</td>
-      <td headers="h-fy">6.3</td>
-      <td headers="h-status">On Track</td>
-      <td headers="h-notes">Launch locked with <abbr title="General Availability">GA</abbr> window.</td>
+      <th scope="rowgroup" rowspan="3" headers="h-region">Americas</th>
+      <th scope="row" headers="h-product">Alpha</th>
+      <td headers="h-quarter h-q1 h-q1a">3.2</td>
+      <td headers="h-quarter h-q1 h-q1t">3.0</td>
+      <td headers="h-quarter h-q2 h-q2a">3.8</td>
+      <td headers="h-quarter h-q2 h-q2t">3.5</td>
+      <td headers="h-h1 h-h1a">7.0</td>
+      <td headers="h-h1 h-h1t">6.5</td>
+      <td headers="h-var">+0.5</td>
+      <td headers="h-notes">Beat targets due to Q2 promo.</td>
+    </tr>
+    <tr>
+      <th scope="row" headers="h-product">Beta</th>
+      <td headers="h-quarter h-q1 h-q1a">2.1</td>
+      <td headers="h-quarter h-q1 h-q1t">2.4</td>
+      <td headers="h-quarter h-q2 h-q2a">2.6</td>
+      <td headers="h-quarter h-q2 h-q2t">2.8</td>
+      <td headers="h-h1 h-h1a">4.7</td>
+      <td headers="h-h1 h-h1t">5.2</td>
+      <td headers="h-var">−0.5</td>
+      <td headers="h-notes">Supply constraint in Q1.</td>
+    </tr>
+    <tr>
+      <th scope="row" headers="h-product">Gamma</th>
+      <td headers="h-quarter h-q1 h-q1a">1.4</td>
+      <td headers="h-quarter h-q1 h-q1t">1.2</td>
+      <td headers="h-quarter h-q2 h-q2a">1.9</td>
+      <td headers="h-quarter h-q2 h-q2t">1.6</td>
+      <td headers="h-h1 h-h1a">3.3</td>
+      <td headers="h-h1 h-h1t">2.8</td>
+      <td headers="h-var">+0.5</td>
+      <td headers="h-notes">New channel launched mid-Q2.</td>
     </tr>
 
+    <!-- EMEA group (rowgroup header spans 2 product rows; includes a cell with colspan to test mixed merging) -->
     <tr>
-      <th scope="row" headers="h-proj">Borealis</th>
-      <td headers="h-disc h-disc-plan">Feb</td>
-      <td headers="h-disc h-disc-act">Mar</td>
-      <td headers="h-build h-build-plan">May</td>
-      <td headers="h-build h-build-act">Jun</td>
-      <td headers="h-launch h-launch-plan">Aug</td>
-      <td headers="h-launch h-launch-act">Sep</td>
-      <td headers="h-budget h-capex">3.0</td>
-      <td headers="h-budget h-opex">0.8</td>
-      <td headers="h-fy">3.8</td>
-      <td headers="h-status">Slight Delay</td>
-      <td headers="h-notes">Vendor dependency pushed build by 2&nbsp;weeks.</td>
+      <th scope="rowgroup" rowspan="2" headers="h-region">EMEA</th>
+      <th scope="row" headers="h-product">Alpha</th>
+      <td headers="h-quarter h-q1 h-q1a">2.8</td>
+      <td headers="h-quarter h-q1 h-q1t">2.9</td>
+      <td headers="h-quarter h-q2 h-q2a">3.0</td>
+      <td headers="h-quarter h-q2 h-q2t">3.1</td>
+      <td headers="h-h1 h-h1a">5.8</td>
+      <td headers="h-h1 h-h1t">6.0</td>
+      <td headers="h-var">−0.2</td>
+      <td headers="h-notes">Currency headwinds.</td>
+    </tr>
+    <tr>
+      <th scope="row" headers="h-product">Beta</th>
+      <td headers="h-quarter h-q1 h-q1a">1.9</td>
+      <td headers="h-quarter h-q1 h-q1t">1.7</td>
+      <td headers="h-quarter h-q2 h-q2a">2.2</td>
+      <td headers="h-quarter h-q2 h-q2t">2.0</td>
+      <td headers="h-h1 h-h1a">4.1</td>
+      <td headers="h-h1 h-h1t">3.7</td>
+      <td headers="h-var">+0.4</td>
+      <td headers="h-notes">Enterprise deal closed in Q2.</td>
     </tr>
 
+    <!-- APAC group (rowgroup with a sub-total row that uses colspan) -->
     <tr>
-      <th scope="row" headers="h-proj">Carina</th>
-      <!-- Phases merged: paused -->
-      <td colspan="6">Paused — phases deferred to FY2026<sup>†</sup></td>
-      <td headers="h-budget h-capex">0.0</td>
-      <td headers="h-budget h-opex">0.1</td>
-      <td headers="h-fy">0.1</td>
-      <td headers="h-status">Paused</td>
-      <td headers="h-notes">Board deferral pending market conditions.</td>
+      <th scope="rowgroup" rowspan="3" headers="h-region">APAC</th>
+      <th scope="row" headers="h-product">Alpha</th>
+      <td headers="h-quarter h-q1 h-q1a">3.5</td>
+      <td headers="h-quarter h-q1 h-q1t">3.2</td>
+      <td headers="h-quarter h-q2 h-q2a">3.9</td>
+      <td headers="h-quarter h-q2 h-q2t">3.6</td>
+      <td headers="h-h1 h-h1a">7.4</td>
+      <td headers="h-h1 h-h1t">6.8</td>
+      <td headers="h-var">+0.6</td>
+      <td headers="h-notes">Seasonal lift.</td>
     </tr>
-
-    <!-- Subtotal row (merges Project + Phases + Budget into a label) -->
     <tr>
-      <th scope="row" colspan="9">Program Atlas — Subtotal</th>
-      <td headers="h-fy"><strong>10.2</strong></td>
-      <td headers="h-status">—</td>
-      <td headers="h-notes">Includes contingency in Aquila.</td>
+      <th scope="row" headers="h-product">Beta</th>
+      <td headers="h-quarter h-q1 h-q1a">2.3</td>
+      <td headers="h-quarter h-q1 h-q1t">2.5</td>
+      <td headers="h-quarter h-q2 h-q2a">2.7</td>
+      <td headers="h-quarter h-q2 h-q2t">2.9</td>
+      <td headers="h-h1 h-h1a">5.0</td>
+      <td headers="h-h1 h-h1t">5.4</td>
+      <td headers="h-var">−0.4</td>
+      <td headers="h-notes">Marketing pullback.</td>
     </tr>
-
-    <!-- ===================== PROGRAM: NIMBUS ===================== -->
     <tr>
-      <th scope="rowgroup" rowspan="4" headers="h-prog">Program Nimbus</th>
-      <th scope="row" headers="h-proj">Daedalus</th>
-      <td headers="h-disc h-disc-plan">Jan</td>
-      <td headers="h-disc h-disc-act">Jan</td>
-      <td headers="h-build h-build-plan">Feb</td>
-      <td headers="h-build h-build-act">Feb</td>
-      <td headers="h-launch h-launch-plan">Apr</td>
-      <td headers="h-launch h-launch-act">Apr</td>
-
-      <!-- Shared CapEx across Daedalus + Icarus (rowspan=2) -->
-      <td headers="h-budget h-capex" rowspan="2">4.5</td>
-      <td headers="h-budget h-opex">0.6</td>
-      <td headers="h-fy">5.1</td>
-      <td headers="h-status">On Track</td>
-      <td headers="h-notes">CapEx shared with sibling project.</td>
-    </tr>
-
-    <tr>
-      <th scope="row" headers="h-proj">Icarus</th>
-      <td headers="h-disc h-disc-plan">—</td>
-      <td headers="h-disc h-disc-act">—</td>
-      <td headers="h-build h-build-plan">Mar</td>
-      <td headers="h-build h-build-act">Mar</td>
-      <td headers="h-launch h-launch-plan">May</td>
-      <td headers="h-launch h-launch-act">Jun</td>
-      <!-- CapEx cell omitted due to rowspan above -->
-      <td headers="h-budget h-opex">0.9</td>
-      <td headers="h-fy">5.4</td>
-      <td headers="h-status">Risk Watch</td>
-      <td headers="h-notes">Launch dependency on Daedalus testbed.</td>
-    </tr>
-
-    <tr>
-      <th scope="row" headers="h-proj">Orion Suite</th>
-      <!-- Consolidated pilot spans Discovery+Build -->
-      <td colspan="4">Consolidated Pilot (Disc+Build)</td>
-      <td headers="h-launch h-launch-plan">Oct</td>
-      <td headers="h-launch h-launch-act">—</td>
-      <td headers="h-budget h-capex">2.4</td>
-      <td headers="h-budget h-opex">0.7</td>
-      <td headers="h-fy">3.1</td>
-      <td headers="h-status">Planned</td>
-      <td headers="h-notes">Pilot feedback gates launch.</td>
-    </tr>
-
-    <!-- Subtotal row -->
-    <tr>
-      <th scope="row" colspan="9">Program Nimbus — Subtotal</th>
-      <td headers="h-fy"><strong>13.6</strong></td>
-      <td headers="h-status">—</td>
-      <td headers="h-notes">Shared CapEx counted once.</td>
+      <!-- APAC subtotal row uses colspan to merge the Product + Q1/Q2 cells into a label -->
+      <th scope="row" colspan="5">APAC Subtotal (Alpha + Beta)</th>
+      <td headers="h-h1 h-h1a">12.4</td>
+      <td headers="h-h1 h-h1t">12.2</td>
+      <td headers="h-var">+0.2</td>
+      <td headers="h-notes">Subtotal row merges cells.</td>
     </tr>
   </tbody>
 
   <tfoot>
     <tr>
-      <th scope="row" colspan="13">Notes &amp; Legend</th>
-    </tr>
-    <tr>
-      <td colspan="13">
-        <small>
-          Months indicate target/actual milestone months for each gate. “—” means not applicable or not yet set.
-          <br><sup>†</sup> Carina paused per board decision on 14&nbsp;Mar&nbsp;2025; minimal OpEx covers compliance &amp; caretaking.
-        </small>
-      </td>
+      <!-- Footer total merges Region + Product into one label cell -->
+      <th scope="row" colspan="2">Grand Total</th>
+      <td colspan="4">—</td>
+      <td headers="h-h1 h-h1a"><strong>29.3</strong></td>
+      <td headers="h-h1 h-h1t"><strong>28.6</strong></td>
+      <td headers="h-var"><strong>+0.7</strong></td>
+      <td headers="h-notes">Footer with merged label cells.</td>
     </tr>
   </tfoot>
 </table>
