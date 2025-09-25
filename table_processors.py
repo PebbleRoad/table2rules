@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """
-Table Processor System - Final, Unified Version
+Table Processor System - Final, Unified Version with Geometric Partitioning
 """
 from abc import ABC, abstractmethod
 from typing import List, Dict, Any, Tuple, Optional
 from models import LogicRule, ProcessingResult
+import re
 
 def _is_meaningful_text(s: Optional[str]) -> bool:
     return s is not None and bool(str(s).strip())
@@ -57,6 +58,129 @@ class TableProcessor(ABC):
 
 class UniversalProcessor(TableProcessor):
     def can_process(self, grid: List[List[Dict]], table_element) -> float: return 1.0
+
+    def _analyze_table_geometry(self, grid: List[List[Dict]]) -> Dict[str, Any]:
+        """
+        Mathematical analysis of table structure using geometric partitioning.
+        Returns regions: header, row_context, column_context, data
+        """
+        if not grid or not grid[0]:
+            return {'header_end_row': 0, 'context_end_col': 1, 'data_region': (0, 1, 0, 0)}
+        
+        num_rows, num_cols = len(grid), len(grid[0])
+        
+        # Step 1: Find header boundary (top rows with mostly th elements)
+        header_end_row = self._find_header_boundary(grid)
+        
+        # Step 2: Find context boundary (left columns with categorical content)  
+        context_end_col = self._find_context_boundary(grid, header_end_row)
+        
+        print(f"DEBUG GEOMETRY: {num_rows}x{num_cols} table")
+        print(f"  Header region: rows 0-{header_end_row}")  
+        print(f"  Context region: cols 0-{context_end_col}")
+        print(f"  Data region: rows {header_end_row}+ cols {context_end_col}+")
+        
+        return {
+            'header_end_row': header_end_row,
+            'context_end_col': context_end_col,
+            'data_region': (header_end_row, context_end_col, num_rows, num_cols)
+        }
+
+    def _find_header_boundary(self, grid: List[List[Dict]]) -> int:
+        """Find where header section ends and data begins"""
+        max_scan_rows = min(len(grid), 5)  # Don't scan too deep
+        
+        for r_idx in range(max_scan_rows):
+            row = grid[r_idx]
+            
+            # Count th vs td elements with content
+            th_count = sum(1 for cell in row if cell.get('type') == 'th' and cell.get('text', '').strip())
+            td_count = sum(1 for cell in row if cell.get('type') == 'td' and cell.get('text', '').strip())
+            total_content = th_count + td_count
+            
+            print(f"DEBUG HEADER: Row {r_idx} - {th_count} th, {td_count} td")
+            
+            # If this row has mostly data cells, header section has ended
+            if total_content > 0 and td_count > th_count:
+                return r_idx
+        
+        # Default: assume first row or two are headers
+        return min(2, len(grid))
+
+    def _find_context_boundary(self, grid: List[List[Dict]], header_end_row: int) -> int:
+        """Find where row context ends and data values begin"""
+        if header_end_row >= len(grid):
+            return 1
+        
+        num_cols = len(grid[0])
+        max_scan_cols = min(num_cols, 3)  # Typically context is in first few columns
+        
+        for c_idx in range(max_scan_cols):
+            # Sample data cells from this column (skip header rows)
+            column_cells = []
+            for r_idx in range(header_end_row, len(grid)):
+                if c_idx < len(grid[r_idx]):
+                    cell = grid[r_idx][c_idx]
+                    text = cell.get('text', '').strip()
+                    if text and not self._is_placeholder(text):
+                        column_cells.append(text)
+            
+            if not column_cells:
+                continue
+                
+            # Test: Is this column quantitative (data) or categorical (context)?
+            quantitative_ratio = self._calculate_quantitative_ratio(column_cells)
+            print(f"DEBUG CONTEXT: Col {c_idx} - {len(column_cells)} cells, {quantitative_ratio:.2f} quantitative")
+            
+            # If more than half the cells are quantitative, this is data region
+            if quantitative_ratio > 0.5:
+                return c_idx
+        
+        # Default: assume first column is context
+        return 1
+
+    def _calculate_quantitative_ratio(self, texts: List[str]) -> float:
+        """Calculate what fraction of texts are quantitative (numbers, measurements)"""
+        if not texts:
+            return 0.0
+        
+        quantitative_count = 0
+        for text in texts:
+            if self._is_quantitative_content(text):
+                quantitative_count += 1
+        
+        return quantitative_count / len(texts)
+
+    def _is_quantitative_content(self, text: str) -> bool:
+        """Determine if text represents quantitative data"""
+        if not text:
+            return False
+        
+        text = text.strip()
+        
+        # Pattern 1: Pure numbers (with optional formatting)
+        number_patterns = [
+            r'^\d+$',                           # 123
+            r'^\d+\.\d+$',                      # 123.45  
+            r'^\$\d+(?:,\d{3})*(?:\.\d{2})?$',  # $1,234.56
+            r'^\d+(?:,\d{3})*$',                # 1,234
+            r'^\d+%$',                          # 25%
+            r'^-?\d+(?:\.\d+)?$'                # -123.45
+        ]
+        
+        for pattern in number_patterns:
+            if re.match(pattern, text):
+                return True
+        
+        # Pattern 2: Measurements with units
+        if re.search(r'\d+\s*(?:GB|MB|KB|°C|°F|cm|mm|kg|lbs|hrs?|mins?|days?|%)', text):
+            return True
+            
+        # Pattern 3: Ranges and comparisons  
+        if re.search(r'\d+\s*[-–—]\s*\d+', text) or 'vs' in text.lower():
+            return True
+        
+        return False
 
     def _build_row_context_map(self, grid: List[List[Dict]]) -> Dict[int, List[str]]:
         """Mathematical span-based context propagation"""
@@ -194,58 +318,73 @@ class UniversalProcessor(TableProcessor):
         rules: List[LogicRule] = []
         if not grid: return ProcessingResult(rules=rules)
         
-        row_map, col_map = self._build_row_context_map(grid), self._build_column_context_map(grid)
-        header_band_width = infer_row_header_band_width(grid)
+        # NEW: Geometric analysis first
+        geometry = self._analyze_table_geometry(grid)
         
-        print(f"\nDEBUG: Processing grid with {len(grid)} rows, header_band_width = {header_band_width}")
+        # Existing context building (unchanged)
+        row_map, col_map = self._build_row_context_map(grid), self._build_column_context_map(grid)
+        
+        print(f"\nDEBUG: Processing grid with geometric partitioning")
         print(f"Row context map: {row_map}")
         print(f"Column context map: {col_map}")
+        print(f"Geometry: {geometry}")
         
-        for r_idx, row in enumerate(grid):
-            if any(cell.get('is_footer', False) for cell in row): continue
+        # NEW: Process only the data region using geometric boundaries
+        data_start_row = geometry['header_end_row']
+        context_end_col = geometry['context_end_col'] 
+        
+        for r_idx in range(data_start_row, len(grid)):
+            row = grid[r_idx]
+            if any(cell.get('is_footer', False) for cell in row): 
+                continue
             
-            print(f"\n--- Processing row {r_idx} ---")
+            print(f"\n--- Processing data row {r_idx} ---")
             
-            for c_idx, cell in enumerate(row):
+            # Extract row context from context columns (0 to context_end_col-1)
+            row_context = []
+            for c_idx in range(min(context_end_col, len(row))):
+                cell = row[c_idx]
+                text = cell.get('text', '').strip()
+                if text and not self._is_placeholder(text):
+                    row_context.append(text)
+            
+            # If no explicit row context found, use row_map
+            if not row_context:
+                row_context = row_map.get(r_idx, [])
+            
+            print(f"  Row context: {row_context}")
+            
+            # Process data cells (from context_end_col onwards)
+            for c_idx in range(context_end_col, len(row)):
+                cell = row[c_idx]
                 cell_text = cell.get('text', '').strip()
-                cell_type = cell.get('type')
-                is_original = cell.get('original_cell', False)
                 
-                print(f"  Cell[{c_idx}]: '{cell_text}' (type={cell_type}, original={is_original})")
+                print(f"  Cell[{c_idx}]: '{cell_text}'")
                 
-                # CRITICAL FIX: Process both original cells AND spanning reference cells for data
-                # Skip only if it's not a td cell at all
-                if cell.get('type') != 'td': 
-                    print(f"    -> Skipped (not td)")
+                # Only process cells with meaningful content
+                if not cell_text or self._is_placeholder(cell_text):
+                    print(f"    -> Skipped (empty/placeholder)")
                     continue
                 
-                # NEW LOGIC: For data cells, process both original AND span references
-                # Only skip if it's an empty span reference with no meaningful content
-                if not is_original and not cell_text.strip():
-                    print(f"    -> Skipped (empty span reference)")
+                # Build complete context: row + column
+                col_context = col_map.get(c_idx, [])
+                complete_context = row_context + col_context
+                
+                print(f"    -> Complete context: {complete_context}")
+                
+                # Avoid redundant rules (if outcome already in context)
+                if cell_text in complete_context and len(complete_context) > 1:
+                    print(f"    -> Skipped (redundant)")
                     continue
                 
-                outcome = cell.get('text','').strip()
-                if self._is_placeholder(outcome): 
-                    print(f"    -> Skipped (placeholder)")
-                    continue
-                
-                row_ctx = row_map.get(r_idx, [])
-                col_ctx = col_map.get(c_idx, [])
-                all_context = row_ctx + col_ctx
-                
-                print(f"    -> Row context: {row_ctx}")
-                print(f"    -> Col context: {col_ctx}")
-                print(f"    -> Combined: {all_context}")
-                
-                # Only skip if this cell is purely redundant 
-                if outcome in all_context and len(all_context) > 1:
-                    print(f"    -> Skipped (redundant: '{outcome}' in context)")
-                    continue
-                
-                rule = LogicRule(conditions=all_context, outcome=outcome, position=(r_idx, c_idx))
+                # Create semantic rule
+                rule = LogicRule(
+                    conditions=complete_context, 
+                    outcome=cell_text, 
+                    position=(r_idx, c_idx)
+                )
                 rules.append(rule)
-                print(f"    -> RULE CREATED: {' / '.join(all_context)} = {outcome}")
+                print(f"    -> RULE: {' / '.join(complete_context)} = {cell_text}")
         
         print(f"\nTotal rules generated: {len(rules)}")
         return ProcessingResult(rules=rules, confidence=1.0, processor_type="UniversalProcessor")
