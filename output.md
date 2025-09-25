@@ -1,83 +1,58 @@
-Program Atlas Aquila Phase Gates Build Plan, the content is Jan
-Program Atlas Aquila Actual, the content is Jan
-Program Atlas Aquila Launch Plan, the content is Mar
-Program Atlas Aquila Actual, the content is Apr
-Program Atlas Aquila CapEx, the content is Jun
-Program Atlas Aquila OpEx, the content is Jun
-Program Atlas Aquila Budget (USD M), the content is 5.2
-Program Atlas Aquila, the content is 1.1
-Program Atlas Aquila FY Total, the content is 6.3
-Program Atlas Aquila Status, the content is On Track
-Program Atlas Aquila Notes, the content is Launch locked with GA window.
-Borealis Project Actual Aquila, the content is Feb
-Borealis Phase Gates Build Plan, the content is Mar
-Borealis Actual, the content is May
-Borealis Launch Plan, the content is Jun
-Borealis Actual, the content is Aug
-Borealis CapEx, the content is Sep
-Borealis OpEx, the content is 3.0
-Borealis Budget (USD M), the content is 0.8
-Borealis, the content is 3.8
-Borealis FY Total, the content is Slight Delay
-Borealis Status, the content is Vendor dependency pushed build by 2 weeks.
-Carina Project Actual Aquila, the content is Paused — phases deferred to FY2026 †
-Carina Phase Gates Build Plan, the content is Paused — phases deferred to FY2026†
-Carina Actual, the content is Paused — phases deferred to FY2026†
-Carina Launch Plan, the content is Paused — phases deferred to FY2026†
-Carina Actual, the content is Paused — phases deferred to FY2026†
-Carina CapEx, the content is Paused — phases deferred to FY2026†
-Carina OpEx, the content is 0.0
-Carina Budget (USD M), the content is 0.1
-Carina, the content is 0.1
-Carina FY Total, the content is Paused
-Carina Status, the content is Board deferral pending market conditions.
-Program Atlas — Subtotal, the content is 10.2
-Program Atlas — Subtotal FY Total, the content is —
-Program Atlas — Subtotal Status, the content is Includes contingency in Aquila.
-Program Nimbus Daedalus Phase Gates Build Plan, the content is Jan
-Program Nimbus Daedalus Actual, the content is Jan
-Program Nimbus Daedalus Launch Plan, the content is Feb
-Program Nimbus Daedalus Actual, the content is Feb
-Program Nimbus Daedalus CapEx, the content is Apr
-Program Nimbus Daedalus OpEx, the content is Apr
-Program Nimbus Daedalus Budget (USD M), the content is 4.5
-Program Nimbus Daedalus, the content is 0.6
-Program Nimbus Daedalus FY Total, the content is 5.1
-Program Nimbus Daedalus Status, the content is On Track
-Program Nimbus Daedalus Notes, the content is CapEx shared with sibling project.
-Icarus Project Actual Aquila, the content is —
-Icarus Phase Gates Build Plan, the content is —
-Icarus Actual, the content is Mar
-Icarus Launch Plan, the content is Mar
-Icarus Actual, the content is May
-Icarus CapEx, the content is Jun
-Icarus OpEx, the content is 0.9
-Icarus Budget (USD M), the content is 4.5
-Icarus, the content is 5.4
-Icarus FY Total, the content is Risk Watch
-Icarus Status, the content is Launch dependency on Daedalus testbed.
-Orion Suite Project Actual Aquila, the content is Consolidated Pilot (Disc+Build)
-Orion Suite Phase Gates Build Plan, the content is Consolidated Pilot (Disc+Build)
-Orion Suite Actual, the content is Consolidated Pilot (Disc+Build)
-Orion Suite Launch Plan, the content is Consolidated Pilot (Disc+Build)
-Orion Suite Actual, the content is Oct
-Orion Suite CapEx, the content is —
-Orion Suite OpEx, the content is 2.4
-Orion Suite Budget (USD M), the content is 0.7
-Orion Suite, the content is 3.1
-Orion Suite FY Total, the content is Planned
-Orion Suite Status, the content is Pilot feedback gates launch.
-Program Nimbus — Subtotal, the content is 13.6
-Program Nimbus — Subtotal FY Total, the content is —
-Program Nimbus — Subtotal Status, the content is Shared CapEx counted once.
-Project Actual Aquila, the content is Months indicate target/actual milestone months for each gate. “—” means not applicable or not yet set.†Carina paused per board decision on 14 Mar 2025; minimal OpEx covers compliance & caretaking.
-Phase Gates Build Plan, the content is Months indicate target/actual milestone months for each gate. “—” means not applicable or not yet set.†Carina paused per board decision on 14 Mar 2025; minimal OpEx covers compliance & caretaking.
-Actual, the content is Months indicate target/actual milestone months for each gate. “—” means not applicable or not yet set.†Carina paused per board decision on 14 Mar 2025; minimal OpEx covers compliance & caretaking.
-Launch Plan, the content is Months indicate target/actual milestone months for each gate. “—” means not applicable or not yet set.†Carina paused per board decision on 14 Mar 2025; minimal OpEx covers compliance & caretaking.
-Actual, the content is Months indicate target/actual milestone months for each gate. “—” means not applicable or not yet set.†Carina paused per board decision on 14 Mar 2025; minimal OpEx covers compliance & caretaking.
-CapEx, the content is Months indicate target/actual milestone months for each gate. “—” means not applicable or not yet set.†Carina paused per board decision on 14 Mar 2025; minimal OpEx covers compliance & caretaking.
-OpEx, the content is Months indicate target/actual milestone months for each gate. “—” means not applicable or not yet set.†Carina paused per board decision on 14 Mar 2025; minimal OpEx covers compliance & caretaking.
-Budget (USD M), the content is Months indicate target/actual milestone months for each gate. “—” means not applicable or not yet set.†Carina paused per board decision on 14 Mar 2025; minimal OpEx covers compliance & caretaking.
-FY Total, the content is Months indicate target/actual milestone months for each gate. “—” means not applicable or not yet set.†Carina paused per board decision on 14 Mar 2025; minimal OpEx covers compliance & caretaking.
-Status, the content is Months indicate target/actual milestone months for each gate. “—” means not applicable or not yet set.†Carina paused per board decision on 14 Mar 2025; minimal OpEx covers compliance & caretaking.
-Notes, the content is Months indicate target/actual milestone months for each gate. “—” means not applicable or not yet set.†Carina paused per board decision on 14 Mar 2025; minimal OpEx covers compliance & caretaking.
+Program Atlas / Aquila / Phase Gates / Discovery / Plan = Jan
+Program Atlas / Aquila / Phase Gates / Discovery / Actual = Jan
+Program Atlas / Aquila / Phase Gates / Build / Plan = Mar
+Program Atlas / Aquila / Phase Gates / Build / Actual = Apr
+Program Atlas / Aquila / Phase Gates / Launch / Plan = Jun
+Program Atlas / Aquila / Phase Gates / Launch / Actual = Jun
+Program Atlas / Aquila / Budget (USD M) / CapEx = 5.2
+Program Atlas / Aquila / Budget (USD M) / OpEx = 1.1
+Program Atlas / Aquila / FY Total = 6.3
+Program Atlas / Aquila / Status = On Track
+Program Atlas / Aquila / Notes = Launch locked with GA window.
+Program Atlas / Borealis / Phase Gates / Discovery / Plan = Feb
+Program Atlas / Borealis / Phase Gates / Discovery / Actual = Mar
+Program Atlas / Borealis / Phase Gates / Build / Plan = May
+Program Atlas / Borealis / Phase Gates / Build / Actual = Jun
+Program Atlas / Borealis / Phase Gates / Launch / Plan = Aug
+Program Atlas / Borealis / Phase Gates / Launch / Actual = Sep
+Program Atlas / Borealis / Budget (USD M) / CapEx = 3.0
+Program Atlas / Borealis / Budget (USD M) / OpEx = 0.8
+Program Atlas / Borealis / FY Total = 3.8
+Program Atlas / Borealis / Status = Slight Delay
+Program Atlas / Borealis / Notes = Vendor dependency pushed build by 2 weeks.
+Program Atlas / Carina / Phase Gates / Discovery / Plan = Paused — phases deferred to FY2026 †
+Program Atlas / Carina / Budget (USD M) / CapEx = 0.0
+Program Atlas / Carina / Budget (USD M) / OpEx = 0.1
+Program Atlas / Carina / FY Total = 0.1
+Program Atlas / Carina / Status = Paused
+Program Atlas / Carina / Notes = Board deferral pending market conditions.
+Program Atlas / Program Atlas — Subtotal / FY Total = 10.2
+Program Atlas / Program Atlas — Subtotal / Notes = Includes contingency in Aquila.
+Program Nimbus / Daedalus / Phase Gates / Discovery / Plan = Jan
+Program Nimbus / Daedalus / Phase Gates / Discovery / Actual = Jan
+Program Nimbus / Daedalus / Phase Gates / Build / Plan = Feb
+Program Nimbus / Daedalus / Phase Gates / Build / Actual = Feb
+Program Nimbus / Daedalus / Phase Gates / Launch / Plan = Apr
+Program Nimbus / Daedalus / Phase Gates / Launch / Actual = Apr
+Program Nimbus / Daedalus / Budget (USD M) / CapEx = 4.5
+Program Nimbus / Daedalus / Budget (USD M) / OpEx = 0.6
+Program Nimbus / Daedalus / FY Total = 5.1
+Program Nimbus / Daedalus / Status = On Track
+Program Nimbus / Daedalus / Notes = CapEx shared with sibling project.
+Program Nimbus / Icarus / Phase Gates / Build / Plan = Mar
+Program Nimbus / Icarus / Phase Gates / Build / Actual = Mar
+Program Nimbus / Icarus / Phase Gates / Launch / Plan = May
+Program Nimbus / Icarus / Phase Gates / Launch / Actual = Jun
+Program Nimbus / Icarus / Budget (USD M) / OpEx = 0.9
+Program Nimbus / Icarus / FY Total = 5.4
+Program Nimbus / Icarus / Status = Risk Watch
+Program Nimbus / Icarus / Notes = Launch dependency on Daedalus testbed.
+Program Nimbus / Orion Suite / Phase Gates / Discovery / Plan = Consolidated Pilot (Disc+Build)
+Program Nimbus / Orion Suite / Phase Gates / Launch / Plan = Oct
+Program Nimbus / Orion Suite / Budget (USD M) / CapEx = 2.4
+Program Nimbus / Orion Suite / Budget (USD M) / OpEx = 0.7
+Program Nimbus / Orion Suite / FY Total = 3.1
+Program Nimbus / Orion Suite / Status = Planned
+Program Nimbus / Orion Suite / Notes = Pilot feedback gates launch.
+Program Nimbus / Program Nimbus — Subtotal / FY Total = 13.6
+Program Nimbus / Program Nimbus — Subtotal / Notes = Shared CapEx counted once.

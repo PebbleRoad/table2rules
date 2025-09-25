@@ -77,3 +77,22 @@ class LogicRule:
                 categories['location'] = condition
         return categories
 
+@dataclass
+class ProcessingResult:
+    """
+    Container for the outcome of a table processor run.
+
+    - `rules`: the emitted LogicRule objects (may be empty on low-confidence or structural failure).
+    - `confidence`: processor's confidence score in [0, 1].
+    - `processor_type`: the processor's type/name (e.g., "HierarchicalRowTableProcessor").
+    - `metadata`: arbitrary diagnostics (routing scores, timing, reasons for fallback, flags like is_subtotal, etc.)
+    """
+    rules: List['LogicRule']
+    confidence: float = 1.0
+    processor_type: str = ""
+    metadata: Dict[str, Any] = field(default_factory=dict)
+
+    def add_meta(self, **kwargs) -> 'ProcessingResult':
+        """Fluent helper to append metadata and return self."""
+        self.metadata.update(kwargs)
+        return self

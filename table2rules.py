@@ -11,7 +11,8 @@ import logging
 import argparse
 from models import LogicRule
 from table_processor_factory import TableProcessorFactory
-from table_repair import needs_universal_repair, universal_table_repair
+from rag_fix import apply_rag_fixes
+
 
 
 logging.basicConfig(level=logging.INFO)
@@ -19,110 +20,125 @@ logger = logging.getLogger(__name__)
 
 
 def clean_text(text: str) -> str:
-    """Clean HTML text and fix encoding issues"""
+    """Clean HTML text, fix common encoding issues, and normalize whitespace."""
     if not text:
         return ""
     
-    # Handle HTML entities
-    text = text.replace('&nbsp;', ' ')
+    # 1. Fix known bad encoding characters first.
+    # UTF-8 characters that were misread as Windows-1252.
+    replacements = {
+        'â€”': '—',  # Em dash
+        'â€': '”',  # Right double quote or superscript dagger
+        'â€™': '’',  # Right single quote
+        'Â': ' ',    # Non-breaking space often becomes this
+        '&nbsp;': ' ' # Handle HTML non-breaking space
+    }
+    for bad, good in replacements.items():
+        text = text.replace(bad, good)
+
+    # 2. Handle standard HTML entities.
     text = text.replace('&amp;', '&')
     text = text.replace('&lt;', '<')
     text = text.replace('&gt;', '>')
     text = text.replace('&quot;', '"')
     
-    # Fix common encoding issues
-    text = text.replace('â€"', '—')  # Em dash
-    text = text.replace('â€œ', '"')  # Left double quote
-    text = text.replace('â€', '"')   # Right double quote
-    text = text.replace('â€™', "'")  # Right single quote
-    
-    # Handle specific HTML patterns
-    text = re.sub(r'(\w+\s+\d+)<br\s*/?><small>([^<]+)</small>', r'\1 \2', text, flags=re.IGNORECASE)
-    
-    # Remove HTML tags
+    # 3. Remove any remaining HTML tags.
     text = re.sub(r'<[^>]+>', ' ', text)
     
-    # Normalize whitespace
+    # 4. Normalize all whitespace (spaces, tabs, newlines) to a single space.
     text = re.sub(r'\s+', ' ', text).strip()
     
     return text
 
 
 def parse_and_unmerge_table_bulletproof(table) -> List[List[Dict]]:
-    """Parse table into grid format - handles post-repair structure"""
-    # Find footer rows
-    footer_row_indices = set()
-    tfoot = table.find('tfoot')
-    if tfoot:
-        all_trs = table.find_all('tr')
-        tfoot_trs = tfoot.find_all('tr')
-        for tfoot_tr in tfoot_trs:
-            try:
-                footer_row_indices.add(all_trs.index(tfoot_tr))
-            except ValueError:
-                continue
+    """Universal grid parser - handles spans mathematically without repair"""
     
     # Get all rows
     actual_rows = table.find_all('tr')
     if not actual_rows:
         return []
     
-    # Parse cells - CRITICAL FIX: Don't assume spans exist after repair
-    parsed_cells = []
+    # Phase 1: Calculate the true grid dimensions
+    # We need to simulate span expansion to find the real column count
+    max_cols = 0
+    for row in actual_rows:
+        cells = row.find_all(['td', 'th'])
+        row_width = sum(int(cell.get('colspan', 1)) for cell in cells)
+        max_cols = max(max_cols, row_width)
+    
+    print(f"DEBUG: True grid dimensions: {len(actual_rows)} rows x {max_cols} columns")
+    
+    # Phase 2: Build the logical grid
+    # Create empty grid filled with None
+    logical_grid = [[None for _ in range(max_cols)] for _ in range(len(actual_rows))]
+    
+    # Phase 3: Fill the logical grid by processing each physical cell
     for row_idx, row in enumerate(actual_rows):
         cells = row.find_all(['td', 'th'])
-        row_cells = []
+        logical_col = 0
+        
         for cell in cells:
-            # After repair, all spans should be 1, but check anyway
+            # Skip positions already occupied by spanning cells
+            while (logical_col < max_cols and 
+                   logical_grid[row_idx][logical_col] is not None):
+                logical_col += 1
+            
+            # Get span dimensions
             rowspan = int(cell.get('rowspan', 1))
             colspan = int(cell.get('colspan', 1))
+            
+            # Create cell data
             cell_data = {
                 'text': clean_text(cell.get_text(separator=' ')),
                 'type': cell.name,
                 'rowspan': rowspan,
                 'colspan': colspan,
-                'row': row_idx,
-                'is_footer': row_idx in footer_row_indices
+                'original_cell': True,
+                'original_rowspan': rowspan,
+                'original_colspan': colspan,
+                'is_footer': False  # We'll handle footer detection separately
             }
-            row_cells.append(cell_data)
-        parsed_cells.append(row_cells)
+            
+            # Fill all positions this cell spans
+            for r_offset in range(rowspan):
+                for c_offset in range(colspan):
+                    target_row = row_idx + r_offset
+                    target_col = logical_col + c_offset
+                    
+                    if (target_row < len(logical_grid) and 
+                        target_col < max_cols):
+                        
+                        if r_offset == 0 and c_offset == 0:
+                            # This is the original cell position
+                            logical_grid[target_row][target_col] = cell_data
+                        else:
+                            # This is a spanned position - create a reference
+                            span_cell = cell_data.copy()
+                            span_cell['original_cell'] = False
+                            logical_grid[target_row][target_col] = span_cell
+            
+            logical_col += colspan
     
-    # Calculate grid dimensions more robustly
-    max_cols = 0
-    for row_cells in parsed_cells:
-        col_count = 0
-        for cell in row_cells:
-            col_count += cell['colspan']
-        max_cols = max(max_cols, col_count)
+    # Phase 4: Convert logical grid to the expected format
+    # Fill any remaining None positions with empty cells
+    for row_idx in range(len(logical_grid)):
+        for col_idx in range(len(logical_grid[row_idx])):
+            if logical_grid[row_idx][col_idx] is None:
+                logical_grid[row_idx][col_idx] = {
+                    'text': '',
+                    'type': 'td',
+                    'rowspan': 1,
+                    'colspan': 1,
+                    'original_cell': False,
+                    'original_rowspan': 1,
+                    'original_colspan': 1,
+                    'is_footer': False
+                }
+        
+        print(f"Row {row_idx}: {len(logical_grid[row_idx])} columns")
     
-    max_rows = len(actual_rows)
-    
-    # Initialize grid
-    grid = [[{'text': '', 'type': 'td', 'original_cell': False, 'is_footer': False} 
-             for _ in range(max_cols)] for _ in range(max_rows)]
-    
-    # Fill grid - simpler logic since repair removed all multi-spans
-    for row_idx, row_cells in enumerate(parsed_cells):
-        col_idx = 0
-        for cell in row_cells:
-            # Fill the cell and any spans it covers
-            for r in range(cell['rowspan']):
-                for c in range(cell['colspan']):
-                    target_row, target_col = row_idx + r, col_idx + c
-                    if target_row < max_rows and target_col < max_cols:
-                        grid[target_row][target_col] = {
-                            'text': cell['text'],
-                            'type': cell['type'],
-                            'original_cell': (r == 0 and c == 0),
-                            'original_rowspan': cell['rowspan'] if (r == 0 and c == 0) else 1,
-                            'original_colspan': cell['colspan'] if (r == 0 and c == 0) else 1,
-                            'rowspan': 1,
-                            'colspan': 1,
-                            'is_footer': cell['is_footer']
-                        }
-            col_idx += cell['colspan']
-    
-    return grid
+    return logical_grid
 
 def needs_repair(html_content: str) -> bool:
     """Enhanced malformation detection"""
@@ -151,15 +167,12 @@ def needs_repair(html_content: str) -> bool:
     return False
 
 
-def process_table(table_html: str) -> List[LogicRule]:
-    """Main table processing function with systematic repair"""
+def process_table(table_html: str, apply_rag_fix: bool = True) -> List[LogicRule]:
+    """Main table processing function - skip repair, read original table directly"""
     
-    # Step 1: Use your original systematic repair (not the grid reconstruction)
-    if needs_universal_repair(table_html):
-        table_html = universal_table_repair(table_html)
-        logger.info("Applied universal structure repair")
+    # Skip all repair - work with original table
+    logger.info("Processing original table structure directly")
     
-    # Step 2: Your existing universal processing (unchanged)
     soup = BeautifulSoup(table_html, 'html.parser')
     table = soup.find('table')
     
@@ -170,13 +183,21 @@ def process_table(table_html: str) -> List[LogicRule]:
     
     logger.info(f"Parsed grid: {len(grid)} rows x {len(grid[0]) if grid else 0} columns")
     
-    # Step 3: Factory processing (unchanged)
+    # Factory processing
     factory = TableProcessorFactory()
     result = factory.process_table(grid, table)
     
     logger.info(f"Processed with {result.processor_type}: {len(result.rules)} rules")
-    
-    return result.rules
+
+    # Apply RAG cleanup if requested
+    if apply_rag_fix:
+        fixed_result = apply_rag_fixes(result)
+        logger.info(f"After RAG fix: {len(fixed_result.rules)} rules")
+        return fixed_result.rules
+    else:
+        logger.info("Skipping RAG fixes - returning raw rules")
+        return result.rules
+
 
 
 
@@ -188,8 +209,14 @@ def main():
                        default='structured', help='Output format')
     parser.add_argument('--input', default='input.md', help='Input file')
     parser.add_argument('--verbose', action='store_true', help='Verbose logging')
+    parser.add_argument('--rag', action='store_true', default=True, help='Apply RAG fixes (default)')
+    parser.add_argument('--raw', action='store_true', help='Skip RAG fixes, emit raw rules')
     
     args = parser.parse_args()
+    
+    # Handle conflicting flags
+    if args.raw:
+        args.rag = False
     
     if args.verbose:
         logging.getLogger().setLevel(logging.DEBUG)
@@ -208,17 +235,14 @@ def main():
         all_rules = []
         for i, table_html in enumerate(tables):
             logger.info(f"Processing table {i+1}...")
-            rules = process_table(table_html)
+            rules = process_table(table_html, apply_rag_fix=args.rag)
             all_rules.extend(rules)
         
-        # Write output
+        # Output writer (you already fixed this part)
         with open('output.md', 'w', encoding='utf-8') as f:
             for rule in all_rules:
-                if args.format == 'structured':
-                    content = rule.to_rule_string()
-                else:
-                    formats = rule.to_natural_formats()
-                    content = formats[args.format]
+                subject = " / ".join(rule.conditions) if rule.conditions else "(no context)"
+                content = f"{subject} = {rule.outcome}"
                 f.write(f"{content}\n")
         
         logger.info(f"Generated {len(all_rules)} rules")
