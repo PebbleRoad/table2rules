@@ -29,26 +29,15 @@ class LogicRule:
             return f"IF {conditions_str} THEN the value is '{self.outcome}'"
     
     def to_natural_formats(self) -> Dict[str, str]:
-        """Generate multiple natural language formats"""
+        """Generate two core formats"""
         return {
-            'conversational': self._to_conversational(),
-            'question_answer': self._to_qa_format(),
             'descriptive': self._to_descriptive(),
-            'searchable': self._to_searchable(),
             'structured': self.to_rule_string()
         }
-    
-    def _to_conversational(self) -> str:
-        if not self.conditions:
-            return f"The value is {self.outcome}"
-        context = ", ".join(self.conditions)
-        return f"For {context}, the value is {self.outcome}"
-    
-    def _to_qa_format(self) -> str:
-        if not self.conditions:
-            return f"What is the value? {self.outcome}"
-        context = " ".join(self.conditions)
-        return f"What is the value for {context}? The answer is {self.outcome}"
+
+        # Build complete context string
+        all_context = " ".join(self.conditions)
+        return f"{all_context}, the content is {self.outcome}"
     
     def _to_descriptive(self) -> str:
         """Rich semantic description that preserves all context."""
@@ -58,12 +47,6 @@ class LogicRule:
         # Build complete context string
         all_context = " ".join(self.conditions)
         return f"{all_context}, the content is {self.outcome}"
-    
-    def _to_searchable(self) -> str:
-        if not self.conditions:
-            return f"value amount data {self.outcome}"
-        context = " ".join(self.conditions)
-        return f"{context} value amount {self.outcome}"
     
     def _extract_categories(self) -> Dict[str, str]:
         categories = {}

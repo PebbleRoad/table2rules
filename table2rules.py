@@ -187,13 +187,25 @@ def needs_repair(html_content: str) -> bool:
 
 
 def process_table(table_html: str, apply_rag_fix: bool = True) -> List[LogicRule]:
-    """Main table processing function - skip repair, read original table directly"""
+    """Main table processing function with semantic diagnostics"""
     
-    # Skip all repair - work with original table
     logger.info("Processing original table structure directly")
     
     soup = BeautifulSoup(table_html, 'html.parser')
     table = soup.find('table')
+    
+    # Check for semantic structure issues
+    th_cells = table.find_all('th')
+    td_cells = table.find_all('td')
+    total_cells = len(th_cells) + len(td_cells)
+    
+    if len(th_cells) == 0 and total_cells > 0:
+        logger.warning("Table uses only <td> elements - no <th> header elements found")
+        logger.info("This may reduce semantic precision of extracted rules")
+        logger.info("Consider using <th> tags for headers to improve processing")
+    elif len(th_cells) < total_cells * 0.1:  # Less than 10% headers
+        logger.warning(f"Table has very few header elements: {len(th_cells)} <th> vs {len(td_cells)} <td>")
+        logger.info("Consider marking header cells with <th> tags for better rule context")
     
     grid = parse_and_unmerge_table_bulletproof(table)
     if not grid:
@@ -216,13 +228,12 @@ def process_table(table_html: str, apply_rag_fix: bool = True) -> List[LogicRule
     
     logger.info(f"Parsed grid: {len(grid)} rows x {len(grid[0]) if grid else 0} columns")
     
-    # Factory processing
+    # Rest of processing...
     factory = TableProcessorFactory()
     result = factory.process_table(grid, table)
     
     logger.info(f"Processed with {result.processor_type}: {len(result.rules)} rules")
 
-    # Apply RAG cleanup if requested
     if apply_rag_fix:
         fixed_result = apply_rag_fixes(result)
         logger.info(f"After RAG fix: {len(fixed_result.rules)} rules")
@@ -231,25 +242,19 @@ def process_table(table_html: str, apply_rag_fix: bool = True) -> List[LogicRule
         logger.info("Skipping RAG fixes - returning raw rules")
         return result.rules
 
-
-
-
-
 def main():
     """CLI entry point"""
     parser = argparse.ArgumentParser(description='table2rules - Universal Table to Logic Rules')
-    parser.add_argument('--format', choices=['structured', 'conversational', 'qa', 'descriptive', 'searchable', 'all'], 
-                       default='structured', help='Output format')
+    parser.add_argument('--format', choices=['descriptive', 'structured'], 
+                   default='descriptive', help='Output format')
     parser.add_argument('--input', default='input.md', help='Input file')
     parser.add_argument('--verbose', action='store_true', help='Verbose logging')
-    parser.add_argument('--rag', action='store_true', default=True, help='Apply RAG fixes (default)')
     parser.add_argument('--raw', action='store_true', help='Skip RAG fixes, emit raw rules')
     
     args = parser.parse_args()
     
-    # Handle conflicting flags
-    if args.raw:
-        args.rag = False
+    # Determine if RAG fixes should be applied
+    apply_rag_fix = not args.raw
     
     if args.verbose:
         logging.getLogger().setLevel(logging.DEBUG)
@@ -268,15 +273,39 @@ def main():
         all_rules = []
         for i, table_html in enumerate(tables):
             logger.info(f"Processing table {i+1}...")
-            rules = process_table(table_html, apply_rag_fix=args.rag)
+            rules = process_table(table_html, apply_rag_fix=apply_rag_fix)
             all_rules.extend(rules)
         
-        # Output writer (you already fixed this part)
+        # Format-aware output writer with soft chunking for large tables
+        SOFT_CHUNK_SIZE = 50  # Rules per soft chunk
+
         with open('output.md', 'w', encoding='utf-8') as f:
-            for rule in all_rules:
-                subject = " / ".join(rule.conditions) if rule.conditions else "(no context)"
-                content = f"{subject} = {rule.outcome}"
-                f.write(f"{content}\n")
+            if all_rules:
+                # Add main table start marker
+                f.write(f"<!-- TABLE_START: {len(all_rules)} rules -->\n")
+                f.write(f"<!-- SOURCE: {args.input} -->\n\n")
+                
+                for i, rule in enumerate(all_rules):
+                    # Add soft chunk markers for large tables
+                    if i > 0 and i % SOFT_CHUNK_SIZE == 0:
+                        f.write(f"\n<!-- SOFT_CHUNK: Rules {i-SOFT_CHUNK_SIZE+1}-{i} -->\n\n")
+                    
+                    if args.format == 'structured':
+                        content = rule.to_rule_string()
+                    else:
+                        formats = rule.to_natural_formats()
+                        content = formats.get(args.format, rule.to_rule_string())
+                    
+                    f.write(f"{content}\n")
+                
+                # Add final soft chunk marker if needed
+                if len(all_rules) > SOFT_CHUNK_SIZE:
+                    remaining_start = (len(all_rules) // SOFT_CHUNK_SIZE) * SOFT_CHUNK_SIZE + 1
+                    f.write(f"\n<!-- SOFT_CHUNK: Rules {remaining_start}-{len(all_rules)} -->\n")
+                
+                # Add table end marker
+                f.write(f"\n<!-- TABLE_END -->\n")
+
         
         logger.info(f"Generated {len(all_rules)} rules")
         
