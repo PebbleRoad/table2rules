@@ -1,74 +1,8 @@
 <table>
-        <caption>Q1 Performance Review</caption>
-        <thead>
-            <tr>
-                <th rowspan="2">Month</th>
-                <th colspan="4">Team Alpha</th>
-                <th colspan="4">Team Bravo</th>
-            </tr>
-            <tr>
-                <th colspan="2">Sales Data</th>
-                <th colspan="2">Client Metrics</th>
-                <th colspan="2">Sales Data</th>
-                <th colspan="2">Client Metrics</th>
-            </tr>
-            <tr>
-                <th>&nbsp;</th> <th>Units Sold</th>
-                <th>Revenue</th>
-                <th>Satisfaction (%)</th>
-                <th>New Leads</th>
-                <th>Units Sold</th>
-                <th>Revenue</th>
-                <th>Satisfaction (%)</th>
-                <th>New Leads</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th>January</th>
-                <td>150</td>
-                <td>$30,000</td>
-                <td>92%</td>
-                <td>45</td>
-                <td>120</td>
-                <td>$25,000</td>
-                <td>95%</td>
-                <td>55</td>
-            </tr>
-            <tr>
-                <th>February</th>
-                <td>180</td>
-                <td>$36,000</td>
-                <td>94%</td>
-                <td>52</td>
-                <td>135</td>
-                <td>$28,000</td>
-                <td>96%</td>
-                <td>61</td>
-            </tr>
-            <tr>
-                <th>March</th>
-                <td>210</td>
-                <td>$42,000</td>
-                <td>93%</td>
-                <td>48</td>
-                <td>150</td>
-                <td>$31,000</td>
-                <td>94%</td>
-                <td>58</td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <th>Q1 Total</th>
-                <td>540</td>
-                <td>$108,000</td>
-                <td>93% (Avg)</td>
-                <td>145</td>
-                <td>405</td>
-                <td>$84,000</td>
-                <td>95% (Avg)</td>
-                <td>174</td>
-            </tr>
-        </tfoot>
-    </table>
+<tbody>
+<tr><td rowspan="2"></td><th rowspan="2">Claim event(s)</th><th rowspan="2">Disability payout</th><th colspan="3">Amount payable (S$)</th></tr>
+<tr><th>Basic</th><th>Classic</th><th>Elite</th></tr>
+<tr><td rowspan="3">A</td><td rowspan="3">Accidental Death (includes food poisoning)</td><td rowspan="3">Sum Assured</td><td>200,000</td><td>500,000</td><td>1,000,000</td></tr>
+<tr><th colspan="3">With Benefit Booster 4</th></tr>
+<tr><td>300,000</td><td>750,000</td><td>1,500,000</td></tr>
+<tr><td rowspan="6">B</td><td rowspan="3">Accidental Major Permanent Disablement 3 (I) Total &amp; Permanent Disability, Loss of Both Arms/Legs, One Arm &amp; One Leg, Sight in Both Eyes, One Arm/Leg &amp; Sight in One Eye, Complete spinal traction loss including sensory and motor dysfunction from navel downwards</td><td rowspan="3">300% ofSum Assured</td><td>600,000</td><td>1,500,000</td><td>3,000 ,000</td></tr><tr><th colspan="3">With Benefit Booster 4</th></tr><tr><td>900,000</td><td>2,250 ,000</td><td>4,500 ,000</td></tr><tr><td rowspan="3">Accidental Major Permanent Disablement 3 (II) Loss of One Arm/Leg, Loss of Sight in One Eye, Unilateral loss of motor function of One side of body</td><td rowspan="3">150% ofSum Assured</td><td>300,000</td><td>750,000</td><td>1,500 ,000</td></tr><tr><td colspan="3">With Benefit Booster 4</td></tr><tr><td>450,000</td><td>1,125 ,000</td><td>2,250 ,000</td></tr><tr><td rowspan="12">C</td><td rowspan="3">Accidental Other Permanent Disablement 3 (I) Loss of All Hearing in Both Ears, Thumb &amp; Four Fingers in One Hand, Four Fingers in One Hand, Lens in One Eye</td><td rowspan="3">50% ofSum Assured</td><td>100,000</td><td>250,000</td><td>500 ,000</td></tr><tr><td colspan="3">With Benefit Booster 4</td></tr><tr><td>150,000</td><td>375 ,000</td><td>750 ,000</td></tr><tr><td rowspan="3">Accidental Other Permanent Disablement 3 (II) Loss of Speech, all Hearing in One Ear, Thumb (both phalanges), All Toes in One Foot</td><td rowspan="3">25% ofSum Assured</td><td>50,000</td><td>125,000</td><td>250 ,000</td></tr><tr><td colspan="3">With Benefit Booster 4</td></tr><tr><td>75,000</td><td>187,5 00</td><td>375 ,000</td></tr><tr><td rowspan="3">Accidental Other Permanent 3 Disablement (III) Loss of Thumb (One phalanx), Big Toe, Index Finger (3/2/1 phalanges per hand)</td><td rowspan="3">7.5% ofSum Assured</td><td>15,000</td><td>37,500</td><td>75 ,000</td></tr><tr><td colspan="3">With Benefit Booster 4</td></tr><tr><td>22,500</td><td>56,250</td><td>112,5 00</td></tr><tr><td rowspan="3">Accidental Other Permanent Disablement 3 (IV) Loss of Any Other Finger (3/2/1 phalanges per hand), Any other Toe</td><td rowspan="3">2.5% ofSum Assured</td><td>5,000</td><td>12,500</td><td>25 ,000</td></tr><tr><td colspan="3">With Benefit Booster 4</td></tr><tr><td>7,500</td><td>18,750</td><td>37,500</td></tr></tbody></table>

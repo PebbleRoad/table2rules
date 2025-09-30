@@ -260,80 +260,87 @@ class UniversalProcessor(TableProcessor):
         return context_map
 
     def _build_column_context_map(self, grid: List[List[Dict]]) -> Dict[int, List[str]]:
-        """Build proper multi-level column context with full hierarchy preservation"""
-        logger.debug("Building column context map with hierarchy preservation")
+        """
+        Build column context hierarchy from logical grid.
+        
+        Strategy:
+        1. Identify header rows (rows with mostly th cells)
+        2. For each column, read down through header rows collecting unique text
+        3. Build hierarchical context from parent to child headers
+        """
+        logger.debug("Building column context map from logical grid")
         context_map: Dict[int, List[str]] = {}
-        if not grid or not grid[0]: 
+        
+        if not grid or not grid[0]:
             return context_map
         
+        num_rows = len(grid)
         num_cols = len(grid[0])
         
-        # Better header detection: look for transition from mostly-th to mostly-td rows
-        header_end_row = 0
-        for r_idx, row in enumerate(grid):
-            if r_idx >= 8: break  # Safety limit
+        # Step 1: Identify which rows are headers
+        # A header row has more th cells with content than td cells with content
+        header_rows = []
+        
+        for r_idx in range(min(num_rows, 8)):  # Don't scan too deep
+            row = grid[r_idx]
             
-            # Count non-empty th cells vs non-empty td cells
-            th_count = sum(1 for c in row if c.get('type') == 'th' and c.get('text', '').strip())
-            td_count = sum(1 for c in row if c.get('type') == 'td' and c.get('text', '').strip())
-            total_content = th_count + td_count
+            # Count cells with actual content by type
+            th_with_content = sum(
+                1 for cell in row 
+                if cell.get('type') == 'th' and cell.get('text', '').strip()
+            )
+            td_with_content = sum(
+                1 for cell in row 
+                if cell.get('type') == 'td' and cell.get('text', '').strip()
+            )
             
-            logger.debug(f"Header detection row {r_idx}: {th_count} th, {td_count} td, total: {total_content}")
+            total_content = th_with_content + td_with_content
             
-            # If this row has substantial content and it's mostly headers, include it
-            if total_content > 0 and th_count >= td_count:
-                header_end_row = r_idx + 1
+            logger.debug(f"Row {r_idx}: {th_with_content} th, {td_with_content} td (total: {total_content})")
+            
+            # If this row has content and more headers than data, it's a header row
+            if total_content > 0 and th_with_content >= td_with_content:
+                header_rows.append(r_idx)
+                logger.debug(f"Row {r_idx} identified as header row")
+            elif th_with_content > 0:
+                # Even if td > th, if there are SOME headers, might be a mixed header row
+                # Include it if we already have header rows (it's a continuation)
+                if header_rows:
+                    header_rows.append(r_idx)
+                    logger.debug(f"Row {r_idx} identified as continuation header row")
             elif total_content > 0:
-                # This row has more data than headers, we've reached body
+                # This row has content but it's mostly data - we've left the header region
                 break
         
-        logger.debug(f"Header section ends at row {header_end_row}")
+        if not header_rows:
+            logger.warning("No header rows identified")
+            return context_map
         
-        # Build shadow grid that expands all spans
-        shadow_grid = [['' for _ in range(num_cols)] for _ in range(header_end_row)]
+        logger.info(f"Identified {len(header_rows)} header rows: {header_rows}")
         
-        for r in range(header_end_row):
-            current_col = 0
-            for cell in grid[r]:
-                if not cell.get('original_cell', False):
-                    continue
-                    
-                # Skip positions already filled by previous spans
-                while (current_col < num_cols and 
-                    shadow_grid[r][current_col] != ''):
-                    current_col += 1
-                
-                text = cell.get('text', '').strip()
-                if not text:
-                    current_col += 1
-                    continue
-                    
-                # Get span dimensions
-                rowspan = cell.get('original_rowspan', 1)
-                colspan = cell.get('original_colspan', 1)
-                
-                # Fill shadow grid
-                for row_offset in range(rowspan):
-                    for col_offset in range(colspan):
-                        if (r + row_offset < header_end_row and 
-                            current_col + col_offset < num_cols):
-                            shadow_grid[r + row_offset][current_col + col_offset] = text
-                
-                current_col += colspan
-        
-        # Build column contexts from shadow grid
-        for c in range(num_cols):
-            stack = []
-            for r in range(header_end_row):
-                text = shadow_grid[r][c]
-                if text and text not in stack:  # Avoid duplicates in hierarchy
-                    stack.append(text)
+        # Step 2: For each column, build context hierarchy from header rows
+        for c_idx in range(num_cols):
+            context_stack = []
             
-            if stack:
-                context_map[c] = stack
-                logger.debug(f"Column {c} context hierarchy: {stack}")
+            for r_idx in header_rows:
+                if c_idx >= len(grid[r_idx]):
+                    continue
+                
+                cell = grid[r_idx][c_idx]
+                text = cell.get('text', '').strip()
+                
+                # Add to hierarchy if:
+                # 1. Text is not empty
+                # 2. Text is not already in the stack (avoid duplicates from spans)
+                if text and text not in context_stack:
+                    context_stack.append(text)
+                    logger.debug(f"Column {c_idx}, row {r_idx}: added '{text}' to hierarchy")
+            
+            if context_stack:
+                context_map[c_idx] = context_stack
+                logger.debug(f"Column {c_idx} context: {' > '.join(context_stack)}")
         
-        logger.info(f"Column context map built: {len(context_map)} columns with context")
+        logger.info(f"Column context map built for {len(context_map)} columns")
         return context_map
 
     def process(self, grid: List[List[Dict]], table_element) -> ProcessingResult:
@@ -357,6 +364,9 @@ class UniversalProcessor(TableProcessor):
         
         logger.info(f"Processing data region: rows {data_start_row}+ cols {context_end_col}+")
         
+        # Track active sub-context from spanning header rows within data region
+        active_subcontext = []
+        
         rules_created = 0
         for r_idx in range(data_start_row, len(grid)):
             row = grid[r_idx]
@@ -364,17 +374,38 @@ class UniversalProcessor(TableProcessor):
                 logger.debug(f"Skipping footer row {r_idx}")
                 continue
             
-            # Extract row context from context columns (0 to context_end_col-1)
-            row_context = []
+            # CHECK #1: Is this a context modifier row? (Do this FIRST)
+            is_context_row = self._is_context_modifier_row(row, context_end_col)
+            
+            if is_context_row:
+                new_context = self._extract_context_from_row(row, context_end_col)
+                if new_context:
+                    active_subcontext = [new_context]
+                    logger.info(f"Row {r_idx} is context modifier: '{new_context}'")
+                continue  # Don't process as data row
+            
+            # Now extract row context (only if not a context modifier row)
+            current_row_context = []
             for c_idx in range(min(context_end_col, len(row))):
                 cell = row[c_idx]
                 text = cell.get('text', '').strip()
                 if text and not self._is_placeholder(text):
-                    row_context.append(text)
+                    current_row_context.append(text)
             
-            # If no explicit row context found, use row_map
-            if not row_context:
-                row_context = row_map.get(r_idx, [])
+            # If no explicit row context, use row_map
+            if not current_row_context:
+                current_row_context = row_map.get(r_idx, [])
+            
+            # If the first element of row context changed, clear subcontext
+            # (this means we moved to a new major group like A->B or B->C)
+            if (current_row_context and 
+                hasattr(self, '_last_major_context') and 
+                self._last_major_context and
+                current_row_context[0] != self._last_major_context[0]):
+                active_subcontext = []
+                logger.debug(f"Major context changed, clearing subcontext")
+            
+            self._last_major_context = current_row_context
             
             # Process data cells (from context_end_col onwards)
             for c_idx in range(context_end_col, len(row)):
@@ -385,9 +416,9 @@ class UniversalProcessor(TableProcessor):
                 if not cell_text or self._is_placeholder(cell_text):
                     continue
                 
-                # Build complete context: row + column
+                # Build complete context: row + active_subcontext + column
                 col_context = col_map.get(c_idx, [])
-                complete_context = row_context + col_context
+                complete_context = current_row_context + active_subcontext + col_context
                 
                 # Avoid redundant rules (if outcome already in context)
                 if cell_text in complete_context and len(complete_context) > 1:
@@ -403,10 +434,70 @@ class UniversalProcessor(TableProcessor):
                 rules.append(rule)
                 rules_created += 1
                 
-                logger.debug(f"Rule {rules_created}: {' / '.join(complete_context)} = {cell_text}")
+                if rules_created <= 10:  # Only log first 10 for brevity
+                    logger.debug(f"Rule {rules_created}: {' / '.join(complete_context)} = {cell_text}")
         
         logger.info(f"UniversalProcessor completed: {len(rules)} rules generated")
         return ProcessingResult(rules=rules, confidence=1.0, processor_type="UniversalProcessor")
+    
+    def _is_context_modifier_row(self, row: List[Dict], context_end_col: int) -> bool:
+        """
+        Detect if a row is a context modifier rather than a data row.
+        
+        Context modifier characteristics:
+        - Contains a cell (th OR td) with colspan > 1 in the data region
+        - That cell contains non-numeric descriptive text
+        """
+        # Look at cells in the data region (from context_end_col onwards)
+        for c_idx in range(context_end_col, len(row)):
+            cell = row[c_idx]
+            
+            # Check if this is an original cell (not a span reference)
+            if not cell.get('original_cell', False):
+                continue
+            
+            text = cell.get('text', '').strip()
+            colspan = cell.get('original_colspan', 1)
+            
+            # Debug: Log all cells we're checking
+            logger.debug(f"  Checking cell at col {c_idx}: text='{text[:50]}', "
+                        f"colspan={colspan}, original_cell={cell.get('original_cell')}")
+            
+            # Must have colspan > 1
+            if colspan <= 1:
+                continue
+            
+            if not text:
+                continue
+            
+            # Check if text is descriptive (not purely numeric)
+            is_descriptive = not self._is_quantitative_content(text)
+            
+            if is_descriptive:
+                logger.info(f"Detected context modifier cell: '{text}' "
+                        f"(type={cell.get('type')}, colspan={colspan})")
+                return True
+        
+        return False
+
+    def _extract_context_from_row(self, row: List[Dict], context_end_col: int) -> str:
+        """
+        Extract the context text from a context modifier row.
+        Returns the text from the spanning cell (th or td).
+        """
+        for c_idx in range(context_end_col, len(row)):
+            cell = row[c_idx]
+            
+            if not cell.get('original_cell', False):
+                continue
+            
+            # Look for any spanning cell with descriptive content (not just th)
+            if cell.get('original_colspan', 1) > 1:
+                text = cell.get('text', '').strip()
+                if text and not self._is_quantitative_content(text):
+                    return text
+        
+        return ""
 
 # --- All other processors are now just placeholders ---
 class DataTableProcessor(TableProcessor):
