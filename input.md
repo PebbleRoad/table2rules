@@ -1,8 +1,165 @@
 <table>
-<tbody>
-<tr><td rowspan="2"></td><th rowspan="2">Claim event(s)</th><th rowspan="2">Disability payout</th><th colspan="3">Amount payable (S$)</th></tr>
-<tr><th>Basic</th><th>Classic</th><th>Elite</th></tr>
-<tr><td rowspan="3">A</td><td rowspan="3">Accidental Death (includes food poisoning)</td><td rowspan="3">Sum Assured</td><td>200,000</td><td>500,000</td><td>1,000,000</td></tr>
-<tr><th colspan="3">With Benefit Booster 4</th></tr>
-<tr><td>300,000</td><td>750,000</td><td>1,500,000</td></tr>
-<tr><td rowspan="6">B</td><td rowspan="3">Accidental Major Permanent Disablement 3 (I) Total &amp; Permanent Disability, Loss of Both Arms/Legs, One Arm &amp; One Leg, Sight in Both Eyes, One Arm/Leg &amp; Sight in One Eye, Complete spinal traction loss including sensory and motor dysfunction from navel downwards</td><td rowspan="3">300% ofSum Assured</td><td>600,000</td><td>1,500,000</td><td>3,000 ,000</td></tr><tr><th colspan="3">With Benefit Booster 4</th></tr><tr><td>900,000</td><td>2,250 ,000</td><td>4,500 ,000</td></tr><tr><td rowspan="3">Accidental Major Permanent Disablement 3 (II) Loss of One Arm/Leg, Loss of Sight in One Eye, Unilateral loss of motor function of One side of body</td><td rowspan="3">150% ofSum Assured</td><td>300,000</td><td>750,000</td><td>1,500 ,000</td></tr><tr><td colspan="3">With Benefit Booster 4</td></tr><tr><td>450,000</td><td>1,125 ,000</td><td>2,250 ,000</td></tr><tr><td rowspan="12">C</td><td rowspan="3">Accidental Other Permanent Disablement 3 (I) Loss of All Hearing in Both Ears, Thumb &amp; Four Fingers in One Hand, Four Fingers in One Hand, Lens in One Eye</td><td rowspan="3">50% ofSum Assured</td><td>100,000</td><td>250,000</td><td>500 ,000</td></tr><tr><td colspan="3">With Benefit Booster 4</td></tr><tr><td>150,000</td><td>375 ,000</td><td>750 ,000</td></tr><tr><td rowspan="3">Accidental Other Permanent Disablement 3 (II) Loss of Speech, all Hearing in One Ear, Thumb (both phalanges), All Toes in One Foot</td><td rowspan="3">25% ofSum Assured</td><td>50,000</td><td>125,000</td><td>250 ,000</td></tr><tr><td colspan="3">With Benefit Booster 4</td></tr><tr><td>75,000</td><td>187,5 00</td><td>375 ,000</td></tr><tr><td rowspan="3">Accidental Other Permanent 3 Disablement (III) Loss of Thumb (One phalanx), Big Toe, Index Finger (3/2/1 phalanges per hand)</td><td rowspan="3">7.5% ofSum Assured</td><td>15,000</td><td>37,500</td><td>75 ,000</td></tr><tr><td colspan="3">With Benefit Booster 4</td></tr><tr><td>22,500</td><td>56,250</td><td>112,5 00</td></tr><tr><td rowspan="3">Accidental Other Permanent Disablement 3 (IV) Loss of Any Other Finger (3/2/1 phalanges per hand), Any other Toe</td><td rowspan="3">2.5% ofSum Assured</td><td>5,000</td><td>12,500</td><td>25 ,000</td></tr><tr><td colspan="3">With Benefit Booster 4</td></tr><tr><td>7,500</td><td>18,750</td><td>37,500</td></tr></tbody></table>
+  <caption>Enterprise Programs FY2025 — Phase-Gate &amp; Budget Overview</caption>
+
+  <colgroup>
+    <col span="1" style="width: 12rem;">  <!-- Program -->
+    <col span="1" style="width: 14rem;">  <!-- Project -->
+    <col span="6" style="width: 7rem;">   <!-- Phase gates (6 cols) -->
+    <col span="2" style="width: 8rem;">   <!-- Budget -->
+    <col span="1" style="width: 8rem;">   <!-- FY Total -->
+    <col span="1" style="width: 10rem;">  <!-- Status -->
+    <col span="1" style="width: 18rem;">  <!-- Notes -->
+  </colgroup>
+
+  <thead>
+    <tr>
+      <th id="h-prog" scope="col" rowspan="3">Program</th>
+      <th id="h-proj" scope="col" rowspan="3">Project</th>
+
+      <th id="h-phase" scope="colgroup" colspan="6">Phase Gates</th>
+      <th id="h-budget" scope="colgroup" colspan="2" rowspan="2">Budget (USD&nbsp;M)</th>
+
+      <th id="h-fy" scope="col" rowspan="3">FY Total</th>
+      <th id="h-status" scope="col" rowspan="3">Status</th>
+      <th id="h-notes" scope="col" rowspan="3">Notes</th>
+    </tr>
+    <tr>
+      <th id="h-disc" scope="colgroup" colspan="2">Discovery</th>
+      <th id="h-build" scope="colgroup" colspan="2">Build</th>
+      <th id="h-launch" scope="colgroup" colspan="2">Launch</th>
+    </tr>
+    <tr>
+      <th id="h-disc-plan" scope="col">Plan</th>
+      <th id="h-disc-act" scope="col">Actual</th>
+      <th id="h-build-plan" scope="col">Plan</th>
+      <th id="h-build-act" scope="col">Actual</th>
+      <th id="h-launch-plan" scope="col">Plan</th>
+      <th id="h-launch-act" scope="col">Actual</th>
+
+      <th id="h-capex" scope="col">CapEx</th>
+      <th id="h-opex" scope="col">OpEx</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <!-- ===================== PROGRAM: ATLAS ===================== -->
+    <tr>
+      <th scope="rowgroup" rowspan="4" headers="h-prog">Program Atlas</th>
+      <th scope="row" headers="h-proj">Aquila</th>
+      <td headers="h-disc h-disc-plan">Jan</td>
+      <td headers="h-disc h-disc-act">Jan</td>
+      <td headers="h-build h-build-plan">Mar</td>
+      <td headers="h-build h-build-act">Apr</td>
+      <td headers="h-launch h-launch-plan">Jun</td>
+      <td headers="h-launch h-launch-act">Jun</td>
+      <td headers="h-budget h-capex">5.2</td>
+      <td headers="h-budget h-opex">1.1</td>
+      <td headers="h-fy">6.3</td>
+      <td headers="h-status">On Track</td>
+      <td headers="h-notes">Launch locked with <abbr title="General Availability">GA</abbr> window.</td>
+    </tr>
+
+    <tr>
+      <th scope="row" headers="h-proj">Borealis</th>
+      <td headers="h-disc h-disc-plan">Feb</td>
+      <td headers="h-disc h-disc-act">Mar</td>
+      <td headers="h-build h-build-plan">May</td>
+      <td headers="h-build h-build-act">Jun</td>
+      <td headers="h-launch h-launch-plan">Aug</td>
+      <td headers="h-launch h-launch-act">Sep</td>
+      <td headers="h-budget h-capex">3.0</td>
+      <td headers="h-budget h-opex">0.8</td>
+      <td headers="h-fy">3.8</td>
+      <td headers="h-status">Slight Delay</td>
+      <td headers="h-notes">Vendor dependency pushed build by 2&nbsp;weeks.</td>
+    </tr>
+
+    <tr>
+      <th scope="row" headers="h-proj">Carina</th>
+      <!-- Phases merged: paused -->
+      <td colspan="6">Paused — phases deferred to FY2026<sup>†</sup></td>
+      <td headers="h-budget h-capex">0.0</td>
+      <td headers="h-budget h-opex">0.1</td>
+      <td headers="h-fy">0.1</td>
+      <td headers="h-status">Paused</td>
+      <td headers="h-notes">Board deferral pending market conditions.</td>
+    </tr>
+
+    <!-- Subtotal row (merges Project + Phases + Budget into a label) -->
+    <tr>
+      <th scope="row" colspan="9">Program Atlas — Subtotal</th>
+      <td headers="h-fy"><strong>10.2</strong></td>
+      <td headers="h-status">—</td>
+      <td headers="h-notes">Includes contingency in Aquila.</td>
+    </tr>
+
+    <!-- ===================== PROGRAM: NIMBUS ===================== -->
+    <tr>
+      <th scope="rowgroup" rowspan="4" headers="h-prog">Program Nimbus</th>
+      <th scope="row" headers="h-proj">Daedalus</th>
+      <td headers="h-disc h-disc-plan">Jan</td>
+      <td headers="h-disc h-disc-act">Jan</td>
+      <td headers="h-build h-build-plan">Feb</td>
+      <td headers="h-build h-build-act">Feb</td>
+      <td headers="h-launch h-launch-plan">Apr</td>
+      <td headers="h-launch h-launch-act">Apr</td>
+
+      <!-- Shared CapEx across Daedalus + Icarus (rowspan=2) -->
+      <td headers="h-budget h-capex" rowspan="2">4.5</td>
+      <td headers="h-budget h-opex">0.6</td>
+      <td headers="h-fy">5.1</td>
+      <td headers="h-status">On Track</td>
+      <td headers="h-notes">CapEx shared with sibling project.</td>
+    </tr>
+
+    <tr>
+      <th scope="row" headers="h-proj">Icarus</th>
+      <td headers="h-disc h-disc-plan">—</td>
+      <td headers="h-disc h-disc-act">—</td>
+      <td headers="h-build h-build-plan">Mar</td>
+      <td headers="h-build h-build-act">Mar</td>
+      <td headers="h-launch h-launch-plan">May</td>
+      <td headers="h-launch h-launch-act">Jun</td>
+      <!-- CapEx cell omitted due to rowspan above -->
+      <td headers="h-budget h-opex">0.9</td>
+      <td headers="h-fy">5.4</td>
+      <td headers="h-status">Risk Watch</td>
+      <td headers="h-notes">Launch dependency on Daedalus testbed.</td>
+    </tr>
+
+    <tr>
+      <th scope="row" headers="h-proj">Orion Suite</th>
+      <!-- Consolidated pilot spans Discovery+Build -->
+      <td colspan="4">Consolidated Pilot (Disc+Build)</td>
+      <td headers="h-launch h-launch-plan">Oct</td>
+      <td headers="h-launch h-launch-act">—</td>
+      <td headers="h-budget h-capex">2.4</td>
+      <td headers="h-budget h-opex">0.7</td>
+      <td headers="h-fy">3.1</td>
+      <td headers="h-status">Planned</td>
+      <td headers="h-notes">Pilot feedback gates launch.</td>
+    </tr>
+
+    <!-- Subtotal row -->
+    <tr>
+      <th scope="row" colspan="9">Program Nimbus — Subtotal</th>
+      <td headers="h-fy"><strong>13.6</strong></td>
+      <td headers="h-status">—</td>
+      <td headers="h-notes">Shared CapEx counted once.</td>
+    </tr>
+  </tbody>
+
+  <tfoot>
+    <tr>
+      <th scope="row" colspan="13">Notes &amp; Legend</th>
+    </tr>
+    <tr>
+      <td colspan="13">
+        <small>
+          Months indicate target/actual milestone months for each gate. “—” means not applicable or not yet set.
+          <br><sup>†</sup> Carina paused per board decision on 14&nbsp;Mar&nbsp;2025; minimal OpEx covers compliance &amp; caretaking.
+        </small>
+      </td>
+    </tr>
+  </tfoot>
+</table>
