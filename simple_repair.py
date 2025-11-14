@@ -10,8 +10,6 @@ def get_top_level_rows(table):
     top_level_rows = []
     
     for row in all_rows_in_dom:
-        # Find the *closest* table parent.
-        # If that parent is our main 'table' object, keep it.
         if row.find_parent('table') is table:
             top_level_rows.append(row)
             
@@ -30,26 +28,38 @@ def simple_repair(html: str) -> str:
     if not table:
         return html
     
-    # Use our robust helper to get the *correct* list of rows
     actual_rows = get_top_level_rows(table)
     if not actual_rows:
         return html
 
-    # --- Fix 1: Move title row to caption ---
-    first_row = actual_rows[0]
-    cells = first_row.find_all(['td', 'th'], recursive=False)
-    if len(cells) == 1 and int(cells[0].get('colspan', 1)) >= 4:
-        title_text = cells[0].get_text(strip=True)
+    # --- Fix 1: Move title row to caption (NOW MORE ROBUST) ---
+    first_meaningful_row = None
+    first_meaningful_row_index = 0
+    for idx, row in enumerate(actual_rows):
+        cells = row.find_all(['td', 'th'], recursive=False)
+        if cells:
+            first_meaningful_row = row
+            first_meaningful_row_index = idx
+            break
+            
+    if first_meaningful_row:
+        cells = first_meaningful_row.find_all(['td', 'th'], recursive=False)
+        if len(cells) == 1 and int(cells[0].get('colspan', 1)) >= 4:
+            title_text = cells[0].get_text(strip=True)
+            
+            caption = table.find('caption')
+            if caption:
+                caption.string = title_text
+            else:
+                new_caption = soup.new_tag('caption')
+                new_caption.string = title_text
+                table.insert(0, new_caption)
+            
+            # Decompose the title row and any empty rows before it
+            for i in range(first_meaningful_row_index + 1):
+                actual_rows[i].decompose()
         
-        caption = table.find('caption')
-        if caption:
-            caption.string = title_text
-        else:
-            new_caption = soup.new_tag('caption')
-            new_caption.string = title_text
-            table.insert(0, new_caption)
-        
-        # We must re-fetch rows after deleting one
+        # We must re-fetch rows after deleting
         actual_rows = get_top_level_rows(table)
 
 

@@ -16,6 +16,10 @@ def find_headers_for_cell(grid: List[List[Dict]], row: int, col: int) -> List[st
     col_headers = []
     seen_origins = set()
     
+    # Get table properties from the first cell
+    # (We assume grid is not empty)
+    has_thead = grid[0][0].get('has_thead', False)
+    
     # Walk LEFT on same row
     for c in range(col - 1, -1, -1):
         cell = grid[row][c]
@@ -43,10 +47,16 @@ def find_headers_for_cell(grid: List[List[Dict]], row: int, col: int) -> List[st
             continue
         
         if cell['type'] == 'th':
+            
+            # --- NEW UNIVERSAL "Walk UP" LOGIC ---
+            # If a <thead> exists, only accept headers from it.
+            # If no <thead> exists, accept any <th> we find above.
+            if has_thead and not cell.get('is_thead', False):
+                continue
+            # --- END NEW LOGIC ---
+
             # Skip row-scoped headers (they don't apply to columns below)
             scope = cell.get('scope', '')
-            if not cell.get('is_thead', False):
-                continue
             if scope in ('row', 'rowgroup'):
                 continue
             
