@@ -7,9 +7,23 @@ def clean_text(text: str) -> str:
     if not text:
         return ""
     
+    # Basic HTML entity cleanup
     text = text.replace('&nbsp;', ' ')
     text = text.replace('&amp;', '&')
+
+    # Strip residual HTML tags if any slipped through
     text = re.sub(r'<[^>]+>', ' ', text)
+
+    # 1) Fix double dollar patterns like "$$200,000" or "S$$3,000"
+    #    Turn them into "$200,000" or "S$3,000"
+    text = re.sub(r'\bS\$\$(\d)', r'S$\1', text)
+    text = re.sub(r'\$\$(\d)', r'$\1', text)
+
+    # 2) Remove a trailing standalone "$" after a word/number
+    #    e.g. "per Sickness$" -> "per Sickness"
+    text = re.sub(r'(\w)\$(\s|$)', r'\1\2', text)
+
+    # Collapse whitespace
     text = re.sub(r'\s+', ' ', text).strip()
     
     return text
@@ -25,7 +39,7 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
     if not actual_rows:
         return []
 
-    # --- NEW "UNIVERSAL" HEADER LOGIC ---
+    # --- UNIVERSAL HEADER LOGIC ---
     
     num_row_headers = 1
     data_start_row_idx = 0
@@ -38,61 +52,107 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
         first_thead_row = thead.find('tr', recursive=False)
         
         if first_thead_row:
-            num_row_headers = 0 # Reset to count
+            num_row_headers = 0  # Reset to count
             header_cells = first_thead_row.find_all(['th', 'td'], recursive=False)
             for cell in header_cells:
                 if int(cell.get('rowspan', 1)) > 1:
                     num_row_headers += 1
                 else:
-                    break # Stop when rowspans end
+                    break  # Stop when rowspans end
         
         if num_row_headers == 0:
-            num_row_headers = 1 # Default to 1 if no rowspans
-            
+            num_row_headers = 1  # Default to 1 if no rowspans
+
     else:
         # --- Logic for "Headless" tables (NO <thead>) ---
-        
-        # 1. Find the "main header row" (the one that defines row headers)
-        # Heuristic: It's the first row with a rowspan > 1 in its first cell.
-        main_header_row_idx = 0
-        header_row_span = 1
-        found_header_row = False
-        
+
+        # Step 1: Prefer an explicit header row that uses <th>
+        header_row_idx = None
         for idx, row in enumerate(actual_rows):
             cells = row.find_all(['th', 'td'], recursive=False)
-            if not cells or len(cells) == 1: # Skip empty or title rows
+            if not cells or len(cells) == 1:
+                # Skip empty or title rows
                 continue
-            
-            first_cell_rowspan = int(cells[0].get('rowspan', 1))
-            if first_cell_rowspan > 1:
-                main_header_row_idx = idx
-                header_row_span = first_cell_rowspan
-                found_header_row = True
-                
-                # 2. Learn num_row_headers from this row
+
+            has_th = any(cell.name == 'th' for cell in cells)
+            all_th_or_empty = all(
+                (cell.name == 'th') or not cell.get_text(strip=True)
+                for cell in cells
+            )
+
+            if has_th and all_th_or_empty:
+                header_row_idx = idx
+                break
+
+        if header_row_idx is not None:
+            # We have a clear header row made of <th>
+            main_header_row_idx = header_row_idx
+
+            # If some cells in this header row span multiple body rows,
+            # use the maximum rowspan to determine how many header rows exist.
+            cells = actual_rows[main_header_row_idx].find_all(['th', 'td'], recursive=False)
+            header_row_span = max(int(cell.get('rowspan', 1)) for cell in cells) or 1
+
+            # Learn num_row_headers:
+            # If there is vertical structure (rowspan > 1), treat all leading cells
+            # with that rowspan as row-header columns (like Section / Claim event(s)).
+            # Otherwise, default to a single row-header column.
+            if header_row_span > 1:
                 num_row_headers = 0
                 for cell in cells:
                     if int(cell.get('rowspan', 1)) == header_row_span:
                         num_row_headers += 1
                     else:
-                        break # Stop when rowspans don't match
-                break
-        
-        # 3. Define the header/data boundaries
-        if found_header_row:
-            # Data starts *after* this row's rowspan block
+                        break
+                if num_row_headers == 0:
+                    num_row_headers = 1
+            else:
+                num_row_headers = 1
+
+            # Data starts after the header row span
             data_start_row_idx = main_header_row_idx + header_row_span
+
         else:
-            # Fallback: Find first non-title, non-empty row
+            # Step 2: Fallback – no explicit <th> header row.
+            # Re-use the original rowspan-based heuristic on the first cell.
+            main_header_row_idx = 0
+            header_row_span = 1
+            found_header_row = False
+
             for idx, row in enumerate(actual_rows):
                 cells = row.find_all(['th', 'td'], recursive=False)
-                if len(cells) > 1:
-                    data_start_row_idx = idx + 1
-                    num_row_headers = 1
+                if not cells or len(cells) == 1:
+                    continue
+
+                first_cell_rowspan = int(cells[0].get('rowspan', 1))
+                if first_cell_rowspan > 1:
+                    main_header_row_idx = idx
+                    header_row_span = first_cell_rowspan
+                    found_header_row = True
+
+                    num_row_headers = 0
+                    for cell in cells:
+                        if int(cell.get('rowspan', 1)) == header_row_span:
+                            num_row_headers += 1
+                        else:
+                            break
                     break
-            if data_start_row_idx == 0: data_start_row_idx = 1
-            
-    # --- END NEW HEURISTIC ---
+
+            if found_header_row:
+                data_start_row_idx = main_header_row_idx + header_row_span
+            else:
+                # Last-resort fallback: first non-title, non-empty row,
+                # with a single row-header column.
+                for idx, row in enumerate(actual_rows):
+                    cells = row.find_all(['th', 'td'], recursive=False)
+                    if len(cells) > 1:
+                        data_start_row_idx = idx + 1
+                        num_row_headers = 1
+                        break
+                if data_start_row_idx == 0:
+                    data_start_row_idx = 1
+
+    # --- END HEADER HEURISTIC ---
 
     # Phase 1: Calculate dimensions
     max_cols = 0
@@ -115,6 +175,10 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
     
     if max_cols == 0:
         return []
+    
+    # Clamp inferred structure to valid ranges
+    num_row_headers = max(0, min(num_row_headers, max_cols))
+    data_start_row_idx = max(0, min(data_start_row_idx, len(actual_rows)))
 
     # Phase 2: Create empty grid
     grid = [[None for _ in range(max_cols)] for _ in range(len(actual_rows))]
@@ -124,7 +188,7 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
         cells = row.find_all(['td', 'th'], recursive=False)
         logical_col = 0
         
-        # A row is a "header row" if it's before the data start
+        # A row is a "header row" if it's before the data start (headless only)
         is_header_row = (row_idx < data_start_row_idx) and not has_thead
         
         for cell in cells:
@@ -136,20 +200,21 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
             rowspan = int(cell.get('rowspan', 1))
             colspan = int(cell.get('colspan', 1))
             
-            # --- Universal `cell_type` logic ---
+            # Universal cell_type logic
             cell_type = cell.name
             is_body_row = not (cell.find_parent('thead') or cell.find_parent('tfoot'))
             
-            # Heuristic 1: It's a header if it's in a "header row" (for headless)
+            # Heuristic 1: header row (for headless)
             if is_header_row and cell.name == 'td':
                 cell_type = 'th'
             
-            # Heuristic 2: It's a row header if it's in the first N columns
-            if (is_body_row and 
+            # Heuristic 2: row header in first N columns
+            if (
+                is_body_row and 
                 cell.name == 'td' and 
-                logical_col < num_row_headers):
+                logical_col < num_row_headers
+            ):
                 cell_type = 'th'
-            # --- END ---
 
             is_footer = cell.find_parent('tfoot') is not None
             is_thead = cell.find_parent('thead') is not None
@@ -162,7 +227,7 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
                 'scope': cell.get('scope'),
                 'is_footer': is_footer,
                 'is_thead': is_thead,
-                'has_thead': has_thead 
+                'has_thead': has_thead,
             }
             
             for r_offset in range(rowspan):
@@ -183,7 +248,7 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
                                 'is_thead': cell_data['is_thead'],
                                 'has_thead': cell_data['has_thead'],
                                 'is_span_copy': True,
-                                'origin': (row_idx, logical_col)
+                                'origin': (row_idx, logical_col),
                             }
                             grid[target_row][target_col] = span_ref
             logical_col += colspan
@@ -192,6 +257,12 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
     for r in range(len(grid)):
         for c in range(max_cols):
             if grid[r][c] is None:
-                grid[r][c] = {'text': '', 'type': 'td', 'rowspan': 1, 'colspan': 1, 'has_thead': has_thead}
+                grid[r][c] = {
+                    'text': '',
+                    'type': 'td',
+                    'rowspan': 1,
+                    'colspan': 1,
+                    'has_thead': has_thead,
+                }
     
     return grid
