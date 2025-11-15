@@ -228,6 +228,8 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
                 'is_footer': is_footer,
                 'is_thead': is_thead,
                 'has_thead': has_thead,
+                'is_header_row': is_header_row
+                
             }
             
             for r_offset in range(rowspan):
@@ -247,6 +249,7 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
                                 'is_footer': cell_data['is_footer'],
                                 'is_thead': cell_data['is_thead'],
                                 'has_thead': cell_data['has_thead'],
+                                'is_header_row': cell_data['is_header_row'],
                                 'is_span_copy': True,
                                 'origin': (row_idx, logical_col),
                             }

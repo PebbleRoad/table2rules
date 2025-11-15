@@ -1,36 +1,18 @@
-<table>
-  <!-- Header row (no thead on purpose) -->
-  <tr>
-    <th>Client</th>
-    <th>Metric</th>
-    <th>FY 2024</th>
-    <th>FY 2025</th>
-  </tr>
-
-  <!-- First client uses rowspan for the name -->
-  <tr>
-    <td rowspan="2">Acme Corp</td>
-    <td>Revenue (USD M)</td>
-    <td>1.2</td>
-    <td>1.4</td>
+<table border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; width: 100%;">
+  <tr style="background: #d9d9d9; font-weight: bold;">
+    <th>S/No.</th>
+    <th>Period</th>
+    <th>Scheduled Operation Time (SOT)</th>
+    <th>System Downtime (SD)</th>
+    <th>System Availability*</th>
+    <th>Remarks</th>
   </tr>
   <tr>
-    <td>Profit (USD M)</td>
-    <td>0.3</td>
-    <td>0.4</td>
-  </tr>
-
-  <!-- Second client WITHOUT rowspan -->
-  <tr>
-    <td>Globex Ltd</td>
-    <td>Revenue (USD M)</td>
-    <td>0.8</td>
-    <td>1.1</td>
-  </tr>
-  <tr>
-    <td>Globex Ltd</td>
-    <td>Profit (USD M)</td>
-    <td>0.2</td>
-    <td>0.25</td>
+    <td>35</td>
+    <td>January 2025</td>
+    <td>744</td>
+    <td>0%</td>
+    <td><u>100%</u></td>
+    <td></td>
   </tr>
 </table>

@@ -26,16 +26,26 @@ def process_table(table_html: str) -> List[LogicRule]:
         for col_idx in range(len(grid[0])):
             cell = grid[row_idx][col_idx]
             
-            # Only process data cells
-            if cell['type'] != 'td':
+            # --- THIS IS THE NEW LOGIC ---
+            # Define what a "data cell" is.
+            # A cell is data if:
+            # 1. It's a <td>
+            # 2. OR it's a <th> that is NOT in the <thead>
+            #    AND NOT in a "headless" header row.
+            is_data = False
+            if cell['type'] == 'td':
+                is_data = True
+            elif cell['type'] == 'th':
+                if not cell.get('is_thead', False) and not cell.get('is_header_row', False):
+                    is_data = True
+            
+            if not is_data:
                 continue
+            # --- END NEW LOGIC ---
             
             # Skip empty cells
             if not cell.get('text', '').strip():
                 continue
-            
-            # Process ALL positions this cell occupies (including span copies)
-            # This ensures multi-row/multi-column sessions appear at each time/track
             
             # If this is a span copy, skip it (we'll process it from origin)
             if cell.get('is_span_copy', False):
@@ -57,7 +67,6 @@ def process_table(table_html: str) -> List[LogicRule]:
                     # Find headers from THIS position (not the origin)
                     headers = find_headers_for_cell(grid, target_row, target_col)
                     
-                    # Create rule with the actual data position for debugging
                     rule = LogicRule(
                         conditions=headers,
                         outcome=cell['text'],

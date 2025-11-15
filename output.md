@@ -1,12 +1,5 @@
-Acme Corp Metric: Revenue (USD M)
-Acme Corp FY 2024: 1.2
-Acme Corp FY 2025: 1.4
-Acme Corp Metric: Profit (USD M)
-Acme Corp FY 2024: 0.3
-Acme Corp FY 2025: 0.4
-Globex Ltd Metric: Revenue (USD M)
-Globex Ltd FY 2024: 0.8
-Globex Ltd FY 2025: 1.1
-Globex Ltd Metric: Profit (USD M)
-Globex Ltd FY 2024: 0.2
-Globex Ltd FY 2025: 0.25
+S/No.: 35
+35 Period: January 2025
+35 Scheduled Operation Time (SOT): 744
+35 System Downtime (SD): 0%
+35 System Availability*: 100%
