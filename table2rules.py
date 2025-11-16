@@ -26,22 +26,10 @@ def process_table(table_html: str) -> List[LogicRule]:
         for col_idx in range(len(grid[0])):
             cell = grid[row_idx][col_idx]
             
-            # --- THIS IS THE NEW LOGIC ---
-            # Define what a "data cell" is.
-            # A cell is data if:
-            # 1. It's a <td>
-            # 2. OR it's a <th> that is NOT in the <thead>
-            #    AND NOT in a "headless" header row.
-            is_data = False
-            if cell['type'] == 'td':
-                is_data = True
-            elif cell['type'] == 'th':
-                if not cell.get('is_thead', False) and not cell.get('is_header_row', False):
-                    is_data = True
-            
-            if not is_data:
+            # Only <td> cells are data cells
+            # <th> cells are always headers (either column or row headers)
+            if cell['type'] != 'td':
                 continue
-            # --- END NEW LOGIC ---
             
             # Skip empty cells
             if not cell.get('text', '').strip():
@@ -100,7 +88,6 @@ def main():
     with open('input.md', 'r', encoding='utf-8') as f:
         content = f.read()
 
-    # --- THIS IS THE NEW, CORRECT LOGIC ---
     
     soup = BeautifulSoup(content, 'html.parser')
     
@@ -124,7 +111,6 @@ def main():
         rules = process_table(table_html)
         all_rules.extend(rules)
 
-    # --- END OF NEW LOGIC ---
 
     with open('output.md', 'w', encoding='utf-8') as f:
         for rule in all_rules:

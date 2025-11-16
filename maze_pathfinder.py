@@ -7,7 +7,8 @@ def find_headers_for_cell(grid: List[List[Dict]], row: int, col: int) -> List[st
     
     Rules:
     1. Walk LEFT on same row - collect all <th> cells
-    2. Walk UP - collect all <th> cells whose origin is in our column
+    2. Walk UP from data cell's column - collect all <th> cells
+    3. Walk UP from each row header's column - collect their column headers
     """
     if not grid or not grid[0]:
         return []
@@ -15,6 +16,7 @@ def find_headers_for_cell(grid: List[List[Dict]], row: int, col: int) -> List[st
     row_headers = []
     col_headers = []
     seen_origins = set()
+    row_header_columns = []  # Track which columns have row headers
     
     # Get table properties from the first cell
     # (We assume grid is not empty)
@@ -36,8 +38,10 @@ def find_headers_for_cell(grid: List[List[Dict]], row: int, col: int) -> List[st
             if origin not in seen_origins:
                 seen_origins.add(origin)
                 row_headers.append(cell['text'])
+                row_header_columns.append(c)  # Remember this column
     
     row_headers.reverse()
+    row_header_columns.reverse()
     
     # Walk UP - collect headers that apply to our column
     for r in range(row - 1, -1, -1):
@@ -87,5 +91,36 @@ def find_headers_for_cell(grid: List[List[Dict]], row: int, col: int) -> List[st
                     col_headers.append(cell['text'])
     
     col_headers.reverse()
+    
+    # NEW: Walk UP from each row header column to find their column headers
+    # This ONLY applies to headless tables where row headers need their column headers
+    # In tables with <thead>, row headers don't need this (they have scope attributes)
+    if not has_thead:
+        for header_col in row_header_columns:
+            for r in range(row - 1, -1, -1):
+                cell = grid[r][header_col]
+                
+                if not cell or not cell.get('text', '').strip():
+                    continue
+                
+                if cell['type'] == 'th':
+                    # Apply same filtering as main Walk UP
+                    if has_thead and not cell.get('is_thead', False):
+                        continue
+                    
+                    scope = cell.get('scope', '')
+                    if scope in ('row', 'rowgroup'):
+                        continue
+                    
+                    if cell.get('is_span_copy', False):
+                        origin = cell.get('origin', (r, header_col))
+                    else:
+                        origin = (r, header_col)
+                    
+                    if origin not in seen_origins:
+                        seen_origins.add(origin)
+                        # Insert at the beginning of row_headers to maintain proper order
+                        # Column header for row header comes before the row header itself
+                        row_headers.insert(row_header_columns.index(header_col), cell['text'])
     
     return row_headers + col_headers
