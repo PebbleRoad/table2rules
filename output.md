@@ -1,32 +1,5 @@
-January Team Alpha Sales Data Units Sold: 150
-January Team Alpha Sales Data Revenue: $30,000
-January Team Alpha Client Metrics Satisfaction (%): 92%
-January Team Alpha Client Metrics New Leads: 45
-January Team Bravo Sales Data Units Sold: 120
-January Team Bravo Sales Data Revenue: $25,000
-January Team Bravo Client Metrics Satisfaction (%): 95%
-January Team Bravo Client Metrics New Leads: 55
-February Team Alpha Sales Data Units Sold: 180
-February Team Alpha Sales Data Revenue: $36,000
-February Team Alpha Client Metrics Satisfaction (%): 94%
-February Team Alpha Client Metrics New Leads: 52
-February Team Bravo Sales Data Units Sold: 135
-February Team Bravo Sales Data Revenue: $28,000
-February Team Bravo Client Metrics Satisfaction (%): 96%
-February Team Bravo Client Metrics New Leads: 61
-March Team Alpha Sales Data Units Sold: 210
-March Team Alpha Sales Data Revenue: $42,000
-March Team Alpha Client Metrics Satisfaction (%): 93%
-March Team Alpha Client Metrics New Leads: 48
-March Team Bravo Sales Data Units Sold: 150
-March Team Bravo Sales Data Revenue: $31,000
-March Team Bravo Client Metrics Satisfaction (%): 94%
-March Team Bravo Client Metrics New Leads: 58
-Q1 Total Team Alpha Sales Data Units Sold: 540
-Q1 Total Team Alpha Sales Data Revenue: $108,000
-Q1 Total Team Alpha Client Metrics Satisfaction (%): 93% (Avg)
-Q1 Total Team Alpha Client Metrics New Leads: 145
-Q1 Total Team Bravo Sales Data Units Sold: 405
-Q1 Total Team Bravo Sales Data Revenue: $84,000
-Q1 Total Team Bravo Client Metrics Satisfaction (%): 95% (Avg)
-Q1 Total Team Bravo Client Metrics New Leads: 174
+Reporting period: Project name: 1 January 2025 to 31 January 2025: CTOaaSApplication Maintenance
+Reporting period: Project name: Project stage: 1 January 2025 to 31 January 2025: Maintenance
+Reporting period: Project name: Project stage: Prepared by: 1 January 2025 to 31 January 2025: MaximeBaracco
+Reporting period: Project name: Project stage: Prepared by: Reviewed by: 1 January 2025 to 31 January 2025: Vasu Kolla
+Reporting period: Project name: Project stage: Prepared by: Reviewed by: Date of Submission: 1 January 2025 to 31 January 2025: 6 February 2025

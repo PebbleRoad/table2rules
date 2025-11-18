@@ -154,6 +154,35 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
 
     # --- END HEADER HEURISTIC ---
 
+    # --- KEY-VALUE TABLE DETECTION ---
+    # Detect simple key-value tables (no thead, 2 columns, th+td pattern)
+    # This prevents row headers from being treated as column headers
+    is_key_value_table = False
+    if not has_thead:
+        # Check if ALL rows follow the key-value pattern
+        is_key_value_table = True
+        for row in actual_rows:
+            cells = row.find_all(['th', 'td'], recursive=False)
+            # Skip empty rows
+            if not cells:
+                continue
+            # Must have exactly 2 cells
+            if len(cells) != 2:
+                is_key_value_table = False
+                break
+            # First must be th, second must be td
+            if cells[0].name != 'th' or cells[1].name != 'td':
+                is_key_value_table = False
+                break
+            # No colspan/rowspan (keep it simple)
+            if int(cells[0].get('colspan', 1)) > 1 or int(cells[0].get('rowspan', 1)) > 1:
+                is_key_value_table = False
+                break
+            if int(cells[1].get('colspan', 1)) > 1 or int(cells[1].get('rowspan', 1)) > 1:
+                is_key_value_table = False
+                break
+    # --- END KEY-VALUE DETECTION ---
+
     # Phase 1: Calculate dimensions
     max_cols = 0
     occupied = {}
@@ -205,26 +234,34 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
             is_body_row = not (cell.find_parent('thead') or cell.find_parent('tfoot'))
             
             # Heuristic 1: header row (for headless)
-            if is_header_row and cell.name == 'td':
+            # Skip this for key-value tables - they don't have header rows
+            if is_header_row and cell.name == 'td' and not is_key_value_table:
                 cell_type = 'th'
             
             # Heuristic 2: row header in first N columns
+            # Skip this for key-value tables - already handled by scope setting
             if (
                 is_body_row and 
                 cell.name == 'td' and 
-                logical_col < num_row_headers
+                logical_col < num_row_headers and
+                not is_key_value_table
             ):
                 cell_type = 'th'
 
             is_footer = cell.find_parent('tfoot') is not None
             is_thead = cell.find_parent('thead') is not None
 
+            # Override scope for key-value tables
+            cell_scope = cell.get('scope')
+            if is_key_value_table and logical_col == 0 and cell_type == 'th':
+                cell_scope = 'row'
+
             cell_data = {
                 'text': clean_text(cell.get_text(separator=' ')),
                 'type': cell_type,
                 'rowspan': rowspan,
                 'colspan': colspan,
-                'scope': cell.get('scope'),
+                'scope': cell_scope,
                 'is_footer': is_footer,
                 'is_thead': is_thead,
                 'has_thead': has_thead,
