@@ -53,13 +53,15 @@ def process_table(table_html: str) -> List[LogicRule]:
                         continue
                     
                     # Find headers from THIS position (not the origin)
-                    headers = find_headers_for_cell(grid, target_row, target_col)
+                    row_headers, col_headers = find_headers_for_cell(grid, target_row, target_col)
                     
                     rule = LogicRule(
-                        conditions=headers,
+                        conditions=row_headers + col_headers,  # Keep for backward compatibility
                         outcome=cell['text'],
                         position=(target_row, target_col),
-                        is_footer=cell.get('is_footer', False)
+                        is_footer=cell.get('is_footer', False),
+                        row_headers=row_headers,
+                        col_headers=col_headers
                     )
                     
                     rules.append(rule)
@@ -71,23 +73,10 @@ def process_table(table_html: str) -> List[LogicRule]:
 
 
 def main():
-    import argparse
-    from bs4 import BeautifulSoup # <-- Import BeautifulSoup here
-    
-    parser = argparse.ArgumentParser(
-        description='Table2Rules - Convert HTML tables to rules'
-    )
-    parser.add_argument(
-        '--format',
-        choices=['descriptive', 'keyvalue'],
-        default='descriptive',
-        help='Output format: descriptive (default, RAG-optimized) or keyvalue (compact)'
-    )
-    args = parser.parse_args()
+    from bs4 import BeautifulSoup
     
     with open('input.md', 'r', encoding='utf-8') as f:
         content = f.read()
-
     
     soup = BeautifulSoup(content, 'html.parser')
     
@@ -111,13 +100,9 @@ def main():
         rules = process_table(table_html)
         all_rules.extend(rules)
 
-
     with open('output.md', 'w', encoding='utf-8') as f:
         for rule in all_rules:
-            if args.format == 'keyvalue':
-                f.write(rule.to_keyvalue() + '\n')
-            else:
-                f.write(rule.to_string() + '\n')
+            f.write(rule.to_string() + '\n')
     
     print(f"Generated {len(all_rules)} rules → output.md")
 

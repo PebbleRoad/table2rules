@@ -4,34 +4,42 @@ from dataclasses import dataclass
 
 @dataclass
 class LogicRule:
-    conditions: List[str]
+    conditions: List[str]          # Kept for backward compatibility
     outcome: str
     position: Tuple[int, int]
     is_footer: bool = False
+    row_headers: List[str] = None  # Entity/subject dimension
+    col_headers: List[str] = None  # Attribute/measurement dimension
+    
+    def __post_init__(self):
+        # Initialize as empty lists if None
+        if self.row_headers is None:
+            self.row_headers = []
+        if self.col_headers is None:
+            self.col_headers = []
     
     def to_string(self) -> str:
         """Default descriptive format for Graph-RAG"""
+        # Use separated row/col headers if available, otherwise fall back to conditions
+        if self.row_headers or self.col_headers:
+            parts = []
+            if self.row_headers:
+                parts.append(" | ".join(self.row_headers))
+            if self.col_headers:
+                parts.append(" | ".join(self.col_headers))
+            
+            if len(parts) == 2:
+                context = f"{parts[0]} → {parts[1]}"
+            elif len(parts) == 1:
+                context = parts[0]
+            else:
+                return f"value: {self.outcome}"
+            
+            return f"{context}: {self.outcome}"
+        
+        # Fallback to old format
         if not self.conditions:
             return f"value: {self.outcome}"
         
-        context = " ".join(self.conditions)
+        context = " | ".join(self.conditions)
         return f"{context}: {self.outcome}"
-    
-    def to_keyvalue(self) -> str:
-        """Compact key-value format: attr1=val1 attr2=val2 ... value=outcome"""
-        if not self.conditions:
-            return f"value={self.outcome}"
-        
-        # Create key-value pairs from conditions
-        pairs = []
-        for i, condition in enumerate(self.conditions):
-            # Use generic keys: attr0, attr1, attr2, etc.
-            key = f"attr{i}"
-            # Clean the value (remove spaces for compactness)
-            value = condition.replace(" ", "_")
-            pairs.append(f"{key}={value}")
-        
-        # Add the outcome
-        pairs.append(f"value={self.outcome}")
-        
-        return " ".join(pairs)

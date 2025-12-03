@@ -26,12 +26,16 @@ def clean_rules(rules: List[LogicRule]) -> List[LogicRule]:
                 continue
 
         cleaned_conditions = deduplicate_headers(rule.conditions)
+        cleaned_row_headers = deduplicate_headers(rule.row_headers)
+        cleaned_col_headers = deduplicate_headers(rule.col_headers)
         
         cleaned.append(LogicRule(
             conditions=cleaned_conditions,
             outcome=rule.outcome,
             position=rule.position,
-            is_footer=rule.is_footer
+            is_footer=rule.is_footer,
+            row_headers=cleaned_row_headers,
+            col_headers=cleaned_col_headers
         ))
     
     return cleaned

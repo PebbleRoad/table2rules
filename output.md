@@ -1,5 +1,18 @@
-Reporting period: Project name: 1 January 2025 to 31 January 2025: CTOaaSApplication Maintenance
-Reporting period: Project name: Project stage: 1 January 2025 to 31 January 2025: Maintenance
-Reporting period: Project name: Project stage: Prepared by: 1 January 2025 to 31 January 2025: MaximeBaracco
-Reporting period: Project name: Project stage: Prepared by: Reviewed by: 1 January 2025 to 31 January 2025: Vasu Kolla
-Reporting period: Project name: Project stage: Prepared by: Reviewed by: Date of Submission: 1 January 2025 to 31 January 2025: 6 February 2025
+Severity Level | Very Severe → Number of requests: 0
+Severity Level | Very Severe → SLA Met | Yes: 0
+Severity Level | Very Severe → SLA Met | No: 0
+Severity Level | Severe → Number of requests: 0
+Severity Level | Severe → SLA Met | Yes: 0
+Severity Level | Severe → SLA Met | No: 0
+Severity Level | High → Number of requests: 0
+Severity Level | High → SLA Met | Yes: 0
+Severity Level | High → SLA Met | No: 0
+Severity Level | Medium → Number of requests: 0
+Severity Level | Medium → SLA Met | Yes: 0
+Severity Level | Medium → SLA Met | No: 0
+Severity Level | Low → Number of requests: 0
+Severity Level | Low → SLA Met | Yes: 0
+Severity Level | Low → SLA Met | No: 0
+Severity Level | Total → Number of requests: 0
+Severity Level | Total → SLA Met | Yes: 0
+Severity Level | Total → SLA Met | No: 0

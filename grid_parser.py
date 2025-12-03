@@ -49,19 +49,10 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
         # --- Logic for tables WITH <thead> ---
         thead = table.find('thead')
         data_start_row_idx = len(thead.find_all('tr', recursive=False))
-        first_thead_row = thead.find('tr', recursive=False)
         
-        if first_thead_row:
-            num_row_headers = 0  # Reset to count
-            header_cells = first_thead_row.find_all(['th', 'td'], recursive=False)
-            for cell in header_cells:
-                if int(cell.get('rowspan', 1)) > 1:
-                    num_row_headers += 1
-                else:
-                    break  # Stop when rowspans end
-        
-        if num_row_headers == 0:
-            num_row_headers = 1  # Default to 1 if no rowspans
+        # For tables with <thead>, default to 1 row header column
+        # This is the safest assumption - most tables have a single identifier column
+        num_row_headers = 1
 
     else:
         # --- Logic for "Headless" tables (NO <thead>) ---

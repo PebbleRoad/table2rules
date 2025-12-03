@@ -1,9 +1,11 @@
 from typing import List, Dict, Tuple, Set
 
 
-def find_headers_for_cell(grid: List[List[Dict]], row: int, col: int) -> List[str]:
+def find_headers_for_cell(grid: List[List[Dict]], row: int, col: int) -> Tuple[List[str], List[str]]:
     """
     Navigate the maze from this cell to find all headers.
+    
+    Returns row_headers and col_headers separately.
     
     Rules:
     1. Walk LEFT on same row - collect all <th> cells
@@ -92,35 +94,33 @@ def find_headers_for_cell(grid: List[List[Dict]], row: int, col: int) -> List[st
     
     col_headers.reverse()
     
-    # NEW: Walk UP from each row header column to find their column headers
-    # This ONLY applies to headless tables where row headers need their column headers
-    # In tables with <thead>, row headers don't need this (they have scope attributes)
-    if not has_thead:
-        for header_col in row_header_columns:
-            for r in range(row - 1, -1, -1):
-                cell = grid[r][header_col]
-                
-                if not cell or not cell.get('text', '').strip():
+    # Walk UP from each row header column to find their column headers
+    # This applies to ALL tables - the row header column needs its header too
+    for header_col in row_header_columns:
+        for r in range(row - 1, -1, -1):
+            cell = grid[r][header_col]
+            
+            if not cell or not cell.get('text', '').strip():
+                continue
+            
+            if cell['type'] == 'th':
+                # Apply same filtering as main Walk UP
+                if has_thead and not cell.get('is_thead', False):
                     continue
                 
-                if cell['type'] == 'th':
-                    # Apply same filtering as main Walk UP
-                    if has_thead and not cell.get('is_thead', False):
-                        continue
-                    
-                    scope = cell.get('scope', '')
-                    if scope in ('row', 'rowgroup'):
-                        continue
-                    
-                    if cell.get('is_span_copy', False):
-                        origin = cell.get('origin', (r, header_col))
-                    else:
-                        origin = (r, header_col)
-                    
-                    if origin not in seen_origins:
-                        seen_origins.add(origin)
-                        # Insert at the beginning of row_headers to maintain proper order
-                        # Column header for row header comes before the row header itself
-                        row_headers.insert(row_header_columns.index(header_col), cell['text'])
+                scope = cell.get('scope', '')
+                if scope in ('row', 'rowgroup'):
+                    continue
+                
+                if cell.get('is_span_copy', False):
+                    origin = cell.get('origin', (r, header_col))
+                else:
+                    origin = (r, header_col)
+                
+                if origin not in seen_origins:
+                    seen_origins.add(origin)
+                    # Insert at the beginning of row_headers to maintain proper order
+                    # Column header for row header comes before the row header itself
+                    row_headers.insert(row_header_columns.index(header_col), cell['text'])
     
-    return row_headers + col_headers
+    return row_headers, col_headers
