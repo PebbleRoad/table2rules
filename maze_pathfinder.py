@@ -104,9 +104,19 @@ def find_headers_for_cell(grid: List[List[Dict]], row: int, col: int) -> Tuple[L
                 continue
             
             if cell['type'] == 'th':
-                # Apply same filtering as main Walk UP
-                if has_thead and not cell.get('is_thead', False):
+                # --- FIX: STRICT HEADER CHECK ---
+                # When looking for the *Label* of a row header (e.g. finding "Date" for "15/11"),
+                # we must strictly only accept cells that are structurally defined as headers.
+                # If we accept a body-row 'th' (like "15/11"), it becomes a parent of "18/11",
+                # causing incorrect vertical accumulation.
+                
+                is_structural_header = cell.get('is_thead', False) or cell.get('is_header_row', False)
+                
+                if not is_structural_header:
+                    # If we hit a 'th' that isn't a structural header, it's a sibling data row.
+                    # Stop looking up to prevent pollution.
                     continue
+                # --------------------------------
                 
                 scope = cell.get('scope', '')
                 if scope in ('row', 'rowgroup'):
@@ -120,7 +130,6 @@ def find_headers_for_cell(grid: List[List[Dict]], row: int, col: int) -> Tuple[L
                 if origin not in seen_origins:
                     seen_origins.add(origin)
                     # Insert at the beginning of row_headers to maintain proper order
-                    # Column header for row header comes before the row header itself
                     row_headers.insert(row_header_columns.index(header_col), cell['text'])
     
     return row_headers, col_headers
