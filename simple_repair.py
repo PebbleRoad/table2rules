@@ -1,5 +1,5 @@
 from bs4 import BeautifulSoup
-
+import re
 
 def get_top_level_rows(table):
     """
@@ -24,6 +24,7 @@ def simple_repair(html: str) -> str:
     3. Move footer legends to tfoot
     4. Convert first data row to proper header row (<th> tags)
     5. Promote summary labels (Total, Subtotal) in <tbody> to <th>
+    6. Merge "hanging" description rows (e.g. Dates below items)
     """
     soup = BeautifulSoup(html, 'html.parser')
     table = soup.find('table')
@@ -59,7 +60,63 @@ def simple_repair(html: str) -> str:
                 actual_rows[i].decompose()
         actual_rows = get_top_level_rows(table)
 
-    # --- Fix 2, 3, 5: Iterate rows ---
+
+    # --- Fix 6: Merge "Hanging" Description Rows (NEW) ---
+    # Detect rows that contain only text in the first cell (and empty elsewhere),
+    # and follow a fully-populated data row. These are likely wrapped descriptions.
+    # We do this BEFORE converting types to ensure we catch them while they are still just structure.
+    
+    i = 0
+    while i < len(actual_rows):
+        row = actual_rows[i]
+        cells = row.find_all(['td', 'th'], recursive=False)
+        
+        # Condition 1: Current row is "Sparse" (Text in 1st cell, others empty)
+        is_sparse = False
+        if cells:
+            first_cell_text = cells[0].get_text(strip=True)
+            # Check if all other cells are empty
+            other_cells_empty = all(not c.get_text(strip=True) for c in cells[1:])
+            
+            # Additional check: Don't merge if it looks like a Summary Row
+            # (We want Subtotal to stay its own row)
+            summary_keywords = ['total', 'subtotal', 'amount due', 'amount payable', 'balance', 'tax', 'vat', 'gst']
+            is_summary = any(first_cell_text.lower().startswith(kw) for kw in summary_keywords)
+            
+            if first_cell_text and other_cells_empty and not is_summary:
+                is_sparse = True
+        
+        # Condition 2: Previous row has data
+        if is_sparse and i > 0:
+            prev_row = actual_rows[i-1]
+            prev_cells = prev_row.find_all(['td', 'th'], recursive=False)
+            
+            # Check if previous row has data in columns 1+
+            # (This prevents merging two section headers together)
+            has_data = False
+            if len(prev_cells) > 1:
+                has_data = any(c.get_text(strip=True) for c in prev_cells[1:])
+            
+            if has_data:
+                # MERGE LOGIC:
+                # Append current text to previous row's first cell
+                separator = " "  # Use space or newline
+                prev_cells[0].string = prev_cells[0].get_text(strip=True) + separator + cells[0].get_text(strip=True)
+                
+                # Delete the hanging row
+                row.decompose()
+                actual_rows.pop(i)
+                # Do NOT increment i, because the next row is now at index i
+                continue
+        
+        i += 1
+
+
+    # --- Fix 2, 3, 5: Iterate remaining rows ---
+    # Re-fetch rows just in case, though pop() should keep list valid
+    # (Safe to use existing list references if we were careful, but let's be safe)
+    actual_rows = get_top_level_rows(table)
+    
     summary_keywords = ['total', 'subtotal', 'amount due', 'amount payable', 'balance', 'tax', 'vat', 'gst']
 
     for idx, row in enumerate(actual_rows):
@@ -88,8 +145,7 @@ def simple_repair(html: str) -> str:
                         tfoot.append(row)
                         continue 
 
-        # --- Fix 5: Promote Summary Labels (Modified) ---
-        # Skip the first row (idx > 0) to protect column headers like "Tax"
+        # --- Fix 5: Promote Summary Labels ---
         if idx > 0: 
             for cell in cells:
                 if cell.name == 'td':
