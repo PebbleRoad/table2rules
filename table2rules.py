@@ -6,8 +6,8 @@ from maze_pathfinder import find_headers_for_cell
 from cleanup import clean_rules
 from simple_repair import simple_repair
 
-
 def process_table(table_html: str) -> List[LogicRule]:
+    """Process a single table and return rules (one per cell)."""
     # Step 1: Apply simple repairs
     table_html = simple_repair(table_html)
     soup = BeautifulSoup(table_html, 'html.parser')
@@ -72,39 +72,105 @@ def process_table(table_html: str) -> List[LogicRule]:
     return rules
 
 
-def main():
-    from bs4 import BeautifulSoup
+def group_rules_by_row(rules: List[LogicRule]) -> List[str]:
+    """
+    Groups rules by row position and serializes each row as a single line.
+    Includes BOTH row headers and column data.
+    """
+    from collections import defaultdict
     
-    with open('input.md', 'r', encoding='utf-8') as f:
-        content = f.read()
+    # Group rules by row index
+    rows_dict = defaultdict(list)
+    for rule in rules:
+        row_idx = rule.position[0]
+        rows_dict[row_idx].append(rule)
     
-    soup = BeautifulSoup(content, 'html.parser')
+    serialized_rows = []
     
-    # 1. Find ALL tables
+    for row_idx in sorted(rows_dict.keys()):
+        row_rules = rows_dict[row_idx]
+        
+        # Sort by column position
+        row_rules.sort(key=lambda r: r.position[1])
+        
+        # Collect row headers (appears once per row)
+        row_header_parts = []
+        if row_rules[0].row_headers:
+            row_header_parts = row_rules[0].row_headers
+        
+        # Collect column data: "header: value"
+        column_parts = []
+        for rule in row_rules:
+            # Get column header
+            if rule.col_headers:
+                header = rule.col_headers[0]
+            else:
+                header = f"Col{rule.position[1]}"
+            
+            value = rule.outcome.strip()
+            column_parts.append(f"{header}: {value}")
+        
+        # Combine: "RowHeader | Col1: Val1 | Col2: Val2"
+        if row_header_parts:
+            row_line = " | ".join(row_header_parts) + " | " + " | ".join(column_parts)
+        else:
+            row_line = " | ".join(column_parts)
+        
+        serialized_rows.append(row_line)
+    
+    return serialized_rows
+
+
+def process_tables_to_text(html_content: str) -> str:
+    """
+    SINGLE ENTRY POINT: HTML → Formatted text.
+    
+    Takes HTML content, returns formatted text with one line per table row.
+    This is the main function that should be called by external code.
+    """
+    soup = BeautifulSoup(html_content, 'html.parser')
     all_tables = soup.find_all('table')
     
     if not all_tables:
-        print("No tables found")
-        return
-
+        return ""
+    
     all_rules = []
     
-    # 2. Process ONLY top-level tables
+    # Process only top-level tables (skip nested)
     for table in all_tables:
-        # If a table's parent is *another* table, it's nested. Skip it.
         if table.find_parent('table'):
             continue
-            
-        # 3. Pass the full, correct HTML string of this table
+        
         table_html = str(table)
         rules = process_table(table_html)
         all_rules.extend(rules)
+    
+    if not all_rules:
+        return ""
+    
+    # Group by row and serialize
+    serialized_rows = group_rules_by_row(all_rules)
+    
+    # Format output
+    output_lines = ["\n"]
+    output_lines.extend(serialized_rows)
+    output_lines.append("\n\n")
+    
+    return '\n'.join(output_lines)
+
+
+def main():
+    """Standalone testing entry point."""
+    with open('input.md', 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    # Use the single entry point
+    result = process_tables_to_text(content)
 
     with open('output.md', 'w', encoding='utf-8') as f:
-        for rule in all_rules:
-            f.write(rule.to_string() + '\n')
+        f.write(result)
     
-    print(f"Generated {len(all_rules)} rules → output.md")
+    print(f"Generated table output → output.md")
 
 
 if __name__ == "__main__":

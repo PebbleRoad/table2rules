@@ -22,6 +22,8 @@ def simple_repair(html: str) -> str:
     1. Move title rows (full-width th) to caption
     2. Fix <td> headers in <tfoot> (for totals)
     3. Move footer legends to tfoot
+    4. Convert first data row to proper header row (<th> tags)
+    5. Promote summary labels (Total, Subtotal) in <tbody> to <th>
     """
     soup = BeautifulSoup(html, 'html.parser')
     table = soup.find('table')
@@ -32,7 +34,7 @@ def simple_repair(html: str) -> str:
     if not actual_rows:
         return html
 
-    # --- Fix 1: Move title row to caption (NOW MORE ROBUST) ---
+    # --- Fix 1: Move title row to caption ---
     first_meaningful_row = None
     first_meaningful_row_index = 0
     for idx, row in enumerate(actual_rows):
@@ -46,7 +48,6 @@ def simple_repair(html: str) -> str:
         cells = first_meaningful_row.find_all(['td', 'th'], recursive=False)
         if len(cells) == 1 and int(cells[0].get('colspan', 1)) >= 4:
             title_text = cells[0].get_text(strip=True)
-            
             caption = table.find('caption')
             if caption:
                 caption.string = title_text
@@ -54,22 +55,19 @@ def simple_repair(html: str) -> str:
                 new_caption = soup.new_tag('caption')
                 new_caption.string = title_text
                 table.insert(0, new_caption)
-            
-            # Decompose the title row and any empty rows before it
             for i in range(first_meaningful_row_index + 1):
                 actual_rows[i].decompose()
-        
-        # We must re-fetch rows after deleting
         actual_rows = get_top_level_rows(table)
 
+    # --- Fix 2, 3, 5: Iterate rows ---
+    summary_keywords = ['total', 'subtotal', 'amount due', 'amount payable', 'balance', 'tax', 'vat', 'gst']
 
-    # --- Fix 2 & 3: Iterate rows ONCE for final repairs ---
-    for row in actual_rows:
+    for idx, row in enumerate(actual_rows):
         cells = row.find_all(['td', 'th'], recursive=False)
         if not cells:
             continue
             
-        # --- Fix 2: Fix <tfoot> row headers (the "Total Revenue" fix) ---
+        # --- Fix 2: Fix <tfoot> row headers ---
         if row.find_parent('tfoot') and cells[0].name == 'td':
             if int(cells[0].get('colspan', 1)) > 1:
                 cells[0].name = 'th'
@@ -88,5 +86,37 @@ def simple_repair(html: str) -> str:
                             table.append(tfoot)
                         row.extract()
                         tfoot.append(row)
+                        continue 
+
+        # --- Fix 5: Promote Summary Labels (Modified) ---
+        # Skip the first row (idx > 0) to protect column headers like "Tax"
+        if idx > 0: 
+            for cell in cells:
+                if cell.name == 'td':
+                    txt = cell.get_text(strip=True).lower()
+                    if any(txt.startswith(kw) for kw in summary_keywords):
+                        cell.name = 'th'
+                        cell['scope'] = 'row'
+
+    
+    # --- Fix 4: Convert first data row to header row ---
+    actual_rows = get_top_level_rows(table) 
+    
+    if actual_rows:
+        first_data_row = actual_rows[0]
+        if not first_data_row.find_parent('tfoot'):
+            cells = first_data_row.find_all(['td', 'th'], recursive=False)
+            if cells and any(cell.name == 'td' for cell in cells):
+                first_cell_colspan = int(cells[0].get('colspan', 1))
+                first_cell_text = cells[0].get_text(strip=True).lower()
+                is_section_header = (
+                    first_cell_colspan == 1 and 
+                    len(cells) > 1 and 
+                    all(not cell.get_text(strip=True) for cell in cells[1:])
+                )
+                if first_cell_colspan == 1 and not is_section_header:
+                    for cell in cells:
+                        if cell.name == 'td':
+                            cell.name = 'th'
     
     return str(soup)

@@ -11,6 +11,7 @@ def find_headers_for_cell(grid: List[List[Dict]], row: int, col: int) -> Tuple[L
     1. Walk LEFT on same row - collect all <th> cells
     2. Walk UP from data cell's column - collect all <th> cells
     3. Walk UP from each row header's column - collect their column headers
+       (EXCEPTION: Summary rows like "Total" do not inherit column headers)
     """
     if not grid or not grid[0]:
         return []
@@ -21,10 +22,9 @@ def find_headers_for_cell(grid: List[List[Dict]], row: int, col: int) -> Tuple[L
     row_header_columns = []  # Track which columns have row headers
     
     # Get table properties from the first cell
-    # (We assume grid is not empty)
     has_thead = grid[0][0].get('has_thead', False)
     
-    # Walk LEFT on same row
+    # --- 1. Walk LEFT on same row ---
     for c in range(col - 1, -1, -1):
         cell = grid[row][c]
         
@@ -45,7 +45,7 @@ def find_headers_for_cell(grid: List[List[Dict]], row: int, col: int) -> Tuple[L
     row_headers.reverse()
     row_header_columns.reverse()
     
-    # Walk UP - collect headers that apply to our column
+    # --- 2. Walk UP - collect headers for the data cell itself ---
     for r in range(row - 1, -1, -1):
         cell = grid[r][col]
         
@@ -53,15 +53,12 @@ def find_headers_for_cell(grid: List[List[Dict]], row: int, col: int) -> Tuple[L
             continue
         
         if cell['type'] == 'th':
-            
-            # --- NEW UNIVERSAL "Walk UP" LOGIC ---
+            # Universal "Walk UP" Logic:
             # If a <thead> exists, only accept headers from it.
-            # If no <thead> exists, accept any <th> we find above.
             if has_thead and not cell.get('is_thead', False):
                 continue
-            # --- END NEW LOGIC ---
 
-            # Skip row-scoped headers (they don't apply to columns below)
+            # Skip row-scoped headers
             scope = cell.get('scope', '')
             if scope in ('row', 'rowgroup'):
                 continue
@@ -69,24 +66,18 @@ def find_headers_for_cell(grid: List[List[Dict]], row: int, col: int) -> Tuple[L
             if cell.get('is_span_copy', False):
                 origin = cell.get('origin', (r, col))
                 origin_row, origin_col = origin
-                
-                # Get the original cell to check its colspan and scope
                 origin_cell = grid[origin_row][origin_col]
                 origin_scope = origin_cell.get('scope', '')
                 
-                # Skip if origin has row scope
                 if origin_scope in ('row', 'rowgroup'):
                     continue
                 
                 colspan = origin_cell.get('colspan', 1)
-                
-                # Check if this header spans over our column
                 if origin_col <= col < origin_col + colspan:
                     if origin not in seen_origins:
                         seen_origins.add(origin)
                         col_headers.append(cell['text'])
             else:
-                # Origin cell at our column
                 origin = (r, col)
                 if origin not in seen_origins:
                     seen_origins.add(origin)
@@ -94,9 +85,24 @@ def find_headers_for_cell(grid: List[List[Dict]], row: int, col: int) -> Tuple[L
     
     col_headers.reverse()
     
-    # Walk UP from each row header column to find their column headers
-    # This applies to ALL tables - the row header column needs its header too
+    # --- 3. Walk UP from each row header column ---
+    # This finds context for the row headers (e.g. "Region" for "North")
     for header_col in row_header_columns:
+        
+        # === FIX: SUMMARY ROW SUPPRESSION ===
+        # If the row header is a "Total" or "Subtotal", it defines the row entirely.
+        # It should NOT inherit the column header (e.g. "Qty") of the column it sits in.
+        # This prevents "Qty | Subtotal".
+        idx = row_header_columns.index(header_col)
+        header_text = row_headers[idx].lower()
+        
+        summary_keywords = ['total', 'subtotal', 'amount due', 'amount payable', 'balance', 'tax', 'vat', 'gst']
+        
+        # Check if the row header starts with any summary keyword
+        if any(header_text.startswith(kw) for kw in summary_keywords):
+            continue
+        # ====================================
+
         for r in range(row - 1, -1, -1):
             cell = grid[r][header_col]
             
@@ -104,19 +110,11 @@ def find_headers_for_cell(grid: List[List[Dict]], row: int, col: int) -> Tuple[L
                 continue
             
             if cell['type'] == 'th':
-                # --- FIX: STRICT HEADER CHECK ---
-                # When looking for the *Label* of a row header (e.g. finding "Date" for "15/11"),
-                # we must strictly only accept cells that are structurally defined as headers.
-                # If we accept a body-row 'th' (like "15/11"), it becomes a parent of "18/11",
-                # causing incorrect vertical accumulation.
-                
+                # STRICT HEADER CHECK:
+                # Only accept structural headers (thead or explicit header rows) as parents.
                 is_structural_header = cell.get('is_thead', False) or cell.get('is_header_row', False)
-                
                 if not is_structural_header:
-                    # If we hit a 'th' that isn't a structural header, it's a sibling data row.
-                    # Stop looking up to prevent pollution.
                     continue
-                # --------------------------------
                 
                 scope = cell.get('scope', '')
                 if scope in ('row', 'rowgroup'):
@@ -129,7 +127,7 @@ def find_headers_for_cell(grid: List[List[Dict]], row: int, col: int) -> Tuple[L
                 
                 if origin not in seen_origins:
                     seen_origins.add(origin)
-                    # Insert at the beginning of row_headers to maintain proper order
+                    # Insert at the beginning to maintain hierarchy
                     row_headers.insert(row_header_columns.index(header_col), cell['text'])
     
     return row_headers, col_headers
