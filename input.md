@@ -1,1 +1,6 @@
-<table><tbody><tr><td>Description</td><td>Qty</td><td>Unit price</td><td>Tax</td><td>Amount</td></tr><tr><td>Claude Pro</td><td>1</td><td>S$27.52</td><td>9%</td><td>S$27.52</td></tr><tr><th>Aug 27 - Sep 27, 2025</th><td></td><td></td><td></td><td></td></tr><tr><td></td><td>Subtotal</td><td></td><td></td><td>S$27.52</td></tr><tr><td></td><td>Total excluding tax</td><td></td><td></td><td>S$27.52</td></tr><tr><td></td><td>Tax9% on S$27.52</td><td></td><td></td><td>S$2.48</td></tr><tr><td></td><td>Total</td><td></td><td></td><td>S$30.00</td></tr><tr><td></td><td>Amount due</td><td></td><td></td><td>S$30.00</td></tr></tbody></table>
+<table>
+  <tr>
+    <td>Total in words: one hundred and sev- en point four eight Bank Name Central Bank of England Branch Name Raf CAMP Bank Account Number 12308351 Bank Swift Code SBININBB250</td>
+    <td>SUB_TOTAL:106.84EUR DISCOUNT(3.18%):(-）3.4 TAX:VAT(3.25%):3.47EUR TOTAL:107.48EUR</td>
+  </tr>
+</table>

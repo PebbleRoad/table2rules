@@ -98,6 +98,10 @@ The same algorithm handles:
   * Headless tables with implicit headers.
   * Key-value tables (2 columns, th+td pattern).
 
+### Graceful Degradation
+
+When a table cannot be parsed (too small, ill-structured, or missing headers), the pipeline passes through the raw HTML instead of failing silently. This ensures no data is lost—downstream LLMs can still process the original table markup.
+
 ### Mathematically Correct
 
 The core "Maze Pathfinder" logic isn't guessing. It's following the logical grid structure that `grid_parser` builds.
