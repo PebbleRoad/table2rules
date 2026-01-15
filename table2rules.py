@@ -101,18 +101,20 @@ def group_rules_by_row(rules: List[LogicRule]) -> List[str]:
         # Collect column data: "header: value"
         column_parts = []
         for rule in row_rules:
-            # Get column header
+            # Get full column header hierarchy (joined with |)
             if rule.col_headers:
-                header = rule.col_headers[0]
+                header = " | ".join(rule.col_headers)
+                column_parts.append(f"{header}: {rule.outcome.strip()}")
             else:
-                header = f"Col{rule.position[1]}"
-            
-            value = rule.outcome.strip()
-            column_parts.append(f"{header}: {value}")
+                # No column header (e.g., key-value table) — just output value
+                column_parts.append(rule.outcome.strip())
         
         # Combine: "RowHeader | Col1: Val1 | Col2: Val2"
         if row_header_parts:
-            row_line = " | ".join(row_header_parts) + " | " + " | ".join(column_parts)
+            if column_parts:
+                row_line = " | ".join(row_header_parts) + ": " + " | ".join(column_parts)
+            else:
+                row_line = " | ".join(row_header_parts)
         else:
             row_line = " | ".join(column_parts)
         

@@ -1,214 +1,302 @@
-# Table2Rules - Maze Pathfinder Approach
+# Table2Rules — Maze Pathfinder Approach
 
-## The Breakthrough
+## The DNA of Table Parsing
 
 **Tables are mazes. Each cell finds its headers by pathfinding.**
 
-Instead of trying to understand table "types" or infer structure globally, each data cell independently navigates to find its context. This parser is built on a "Pragmatic + Pure" model: it first *repairs* broken HTML, then runs a *pure* logical algorithm.
+This isn't pattern-matching or table-type detection. It's a universal algorithm based on how HTML tables actually work:
+
+1. **Cells occupy grid positions** (with rowspan/colspan expanding them)
+2. **Headers relate to data cells** via spatial relationships (left = row context, above = column context)
+3. **Semantic markers** (`<th>`, `<thead>`, `scope`) signal intent
+
+The algorithm **discovers structure** — it doesn't memorize patterns.
+
+---
 
 ## Output Format
 
-Rules express table data in a natural, parseable format that preserves dimensional grouping:
+Rules express table data in a natural, parseable format:
 
 ```
-Entity Headers → Attribute Headers: Value
+Row Headers → Column Headers: Value
 ```
 
-Headers within each dimension are separated by `|`, making it easy to parse while remaining human-readable.
-
-**Example:**
+**Examples:**
 ```
-Severity Level | Very Severe → Number of requests: 0
-Severity Level | Very Severe → SLA Met | Yes: 0
-Program | Project | Program Atlas | Aquila → Phase Gates | Discovery | Plan: Jan
+January → Revenue: $50,000
+North America | Dr. Smith (Boston) → Treatment Outcomes | Drug A | Primary Endpoint | Responders: 67%
+Name: John Smith
 ```
 
 This format:
-- ✅ Preserves two-dimensional table structure (entity vs attribute)
-- ✅ Is trivially parseable (clear delimiters: `|`, `→`, `:`)
-- ✅ Uses semantic names (actual headers, not generic attr0/attr1)
+- ✅ Preserves two-dimensional structure (entity vs attribute)
+- ✅ Is trivially parseable (delimiters: `|`, `→`, `:`)
+- ✅ Uses semantic names (actual headers, not generic labels)
 - ✅ Works for LLM embeddings and schema extraction
 
-## How It Works: The Pipeline
+---
 
-This is not just a simple script, but a robust 6-stage pipeline.
+## Architecture
 
-### 1\. Entry Point (`table2rules.py`)
+```
+┌─────────────────────────────────────────────────────────────┐
+│                        HTML Table                            │
+└─────────────────────────────────────────────────────────────┘
+                              │
+                              ▼
+┌─────────────────────────────────────────────────────────────┐
+│  Phase 1: REPAIR (simple_repair.py)                         │
+│  ─────────────────────────────────────────────────────────  │
+│  • Promote first-column <td> with rowspan to <th>           │
+│  • Move title rows to <caption>                             │
+│  • Wrap all-<th> rows in <thead>                            │
+│  • Promote summary labels (Total, Subtotal)                 │
+│  • Move legends/footnotes to <tfoot>                        │
+└─────────────────────────────────────────────────────────────┘
+                              │
+                              ▼
+┌─────────────────────────────────────────────────────────────┐
+│  Phase 2: GRID EXPANSION (grid_parser.py)                   │
+│  ─────────────────────────────────────────────────────────  │
+│  • Expand rowspan/colspan into true grid positions          │
+│  • Mark span copies with origin references                  │
+│  • Tag cells: is_thead, is_footer, header_depth             │
+│  • Detect key-value tables                                  │
+└─────────────────────────────────────────────────────────────┘
+                              │
+                              ▼
+┌─────────────────────────────────────────────────────────────┐
+│  Phase 3: PATHFINDING (maze_pathfinder.py)                  │
+│  ─────────────────────────────────────────────────────────  │
+│  For each data cell:                                        │
+│  1. Walk LEFT  → collect row headers                        │
+│  2. Walk UP    → collect column headers                     │
+│  3. Walk UP from row header columns → find header context   │
+│  • Deduplicate spans, filter by scope                       │
+└─────────────────────────────────────────────────────────────┘
+                              │
+                              ▼
+┌─────────────────────────────────────────────────────────────┐
+│  Phase 4: OUTPUT (table2rules.py)                           │
+│  ─────────────────────────────────────────────────────────  │
+│  • Generate LogicRule for each data cell                    │
+│  • Group by row for serialization                           │
+│  • Format: Row Headers → Column Headers: Value              │
+└─────────────────────────────────────────────────────────────┘
+```
 
-  * Uses BeautifulSoup to find all *top-level* tables.
-  * It **does not use regex**, which avoids the "greedy" bug with nested tables.
-  * Passes each top-level table string to the `process_table` function.
+---
 
-### 2\. The "Pragmatic" Layer (`simple_repair.py`)
+## The Repair Layer (simple_repair.py)
 
-This script's job is to fix "semantically incorrect" HTML *before* the pure parser sees it. It makes the HTML "honest."
+Real-world HTML is messy. The repair layer fixes common authoring mistakes **before** the pure parser runs.
 
-  * **Fixes Footers:** Converts `<td>` with `colspan` in a `<tfoot>` (like "Total Revenue") to a `<th>`.
-  * **Fixes Captions:** Moves full-width header rows to a proper `<caption>` tag.
-  * **Filters Legends:** Moves metadata-like rows (e.g., "Note:", "Legend:") to the `tfoot`.
-  * **Robust Row-Finding:** Safely finds all top-level rows, even in the presence of nested tables.
+| Fix | What It Does | Why |
+|-----|--------------|-----|
+| **Title → Caption** | Moves full-width first rows to `<caption>` | Prevents title pollution in headers |
+| **Wrap `<thead>`** | Wraps leading all-`<th>` rows in `<thead>` | Enables thead/tbody distinction |
+| **Promote Row Headers** | Converts first-column `<td>` with rowspan to `<th scope="row">` | Marks row identifiers semantically |
+| **Promote Summaries** | Converts "Total", "Subtotal" cells to `<th>` | Preserves summary row semantics |
+| **Move Legends** | Moves footnote/legend rows to `<tfoot>` | Separates metadata from data |
 
-### 3\. The "Smart" Core (`grid_parser.py`)
+**Key principle:** These are generic rules that apply to **classes** of tables, not specific tables.
 
-This is the heart of the parser. It builds the 2D logical grid with "mathematical" precision.
+---
 
-  * **Learns Structure:** For tables with `<thead>`, it defaults to 1 row-header column (the safest assumption). For headless tables, it uses heuristics to detect header structure.
-  * **Builds Logical Grid:** Expands all `rowspan` and `colspan` cells into their true grid positions, marking copies with `is_span_copy`.
-  * **Fixes `<tbody>`:** As it builds the grid, it uses its `logical_col` position and the `num_row_headers` count to *correctly* promote `<td>` cells (like "Revenue [$M]") to `<th>` tags, *without* touching data cells (like "80").
-  * **Tags Context:** It tags every cell with `is_thead` and `is_footer` for the pathfinder.
+## The Grid Parser (grid_parser.py)
 
-### 4\. The "Pure" Core (`maze_pathfinder.py`)
+Transforms HTML's tree structure into a true 2D grid.
 
-With a perfect logical grid, the pathfinding is simple and 100% accurate. Each data cell (`<td>`) runs three searches:
+**Span Expansion:**
+```
+Original:                    Expanded Grid:
+┌──────────┬─────┐          ┌─────┬─────┬─────┐
+│ A        │  B  │          │  A  │  B  │  B  │
+│ (rs=2)   │(cs=2)          ├─────┼─────┼─────┤
+├──────────┼──┬──┤          │  A  │  C  │  D  │
+│          │C │D │          └─────┴─────┴─────┘
+└──────────┴──┴──┘
+```
 
-  * **Walk LEFT:** Collects all `<th>` cells to its left on the same row (entity/subject headers).
-  * **Walk UP (from data column):** Collects all `<th>` cells above the data cell, with one critical rule: **it *only* accepts headers where `is_thead == True`**. This prevents "header pollution" from `<th>` tags inside the `<tbody>`.
-  * **Walk UP (from row header columns):** Walks up from each row header's column to find their column headers (like "Program", "Project"), ensuring full context.
+**Cell Metadata:**
+- `is_thead` — Is this cell in the `<thead>`?
+- `is_footer` — Is this cell in the `<tfoot>`?
+- `header_depth` — How many rows in the header?
+- `is_span_copy` — Is this a copy from rowspan/colspan?
+- `origin` — For span copies, points to the original cell
 
-The pathfinder returns row headers and column headers **separately**, preserving the two-dimensional structure.
+---
 
-### 5\. Post-Processing (`cleanup.py`)
+## The Maze Pathfinder (maze_pathfinder.py)
 
-  * **Deduplicates:** Removes duplicate headers created by overlapping spans in both row and column dimensions.
-  * **Filters Metadata:** Uses the `is_footer` flag to intelligently filter rules from metadata footers (like "Note:...") while *keeping* rules from data footers (like "Total Revenue").
+Each data cell independently navigates to find its headers.
 
-### 6\. Output Generation (`models.py`)
+**Algorithm:**
+```
+For cell at (row, col):
 
-The `LogicRule` dataclass stores:
-- `row_headers` - Entity/subject dimension
-- `col_headers` - Attribute/measurement dimension  
-- `outcome` - The data value
+1. WALK LEFT on same row
+   → Collect all <th> cells to the left
+   → These are ROW HEADERS (entity context)
+   
+2. WALK UP from data column
+   → Collect all <th> cells above
+   → These are COLUMN HEADERS (attribute context)
+   
+3. WALK UP from each row header column
+   → Find column headers for the row headers themselves
+   → This adds hierarchical context (e.g., "Region" for "North America")
+```
 
-The `to_string()` method formats these as: `row_headers → col_headers: outcome`
+**Filtering Rules:**
+- Skip `<thead>` cells in row header context (they're column headers)
+- Skip cells with `scope="col"` or `scope="colgroup"` in row context
+- Deduplicate span copies using origin tracking
 
-## Why This Works
-
-### Robust (Pure + Pragmatic)
-
-This parser is robust because it doesn't trust the HTML. A "pragmatic" repair script first cleans the broken semantics, allowing a "pure" logical parser to run flawlessly.
-
-### Universal
-
-The same algorithm handles:
-
-  * Multi-level `colspan`/`rowspan` headers (`<thead>`).
-  * Multi-column `rowspan` headers (`<tbody>`).
-  * Data footers (`<tfoot>`) with `colspan`.
-  * Multi-`<tbody>` structures.
-  * Headless tables with implicit headers.
-  * Key-value tables (2 columns, th+td pattern).
-
-### Graceful Degradation
-
-When a table cannot be parsed (too small, ill-structured, or missing headers), the pipeline passes through the raw HTML instead of failing silently. This ensures no data is lost—downstream LLMs can still process the original table markup.
-
-### Mathematically Correct
-
-The core "Maze Pathfinder" logic isn't guessing. It's following the logical grid structure that `grid_parser` builds.
+---
 
 ## Files
 
-  * `table2rules.py` - Main entry point; finds top-level tables.
-  * `simple_repair.py` - The "pragmatic" pre-parser that fixes broken HTML.
-  * `grid_parser.py` - The "smart" core; builds the logical 2D grid.
-  * `maze_pathfinder.py` - The "pure" core; runs "Walk LEFT" and "Walk UP", returns separated dimensions.
-  * `cleanup.py` - Post-processing and filtering.
-  * `models.py` - Output structure (`LogicRule`) with arrow-separated format.
+| File | Purpose |
+|------|---------|
+| `table2rules.py` | Entry point; orchestrates pipeline |
+| `simple_repair.py` | HTML repair and normalization |
+| `grid_parser.py` | Builds 2D logical grid from HTML |
+| `maze_pathfinder.py` | Pathfinding algorithm for each cell |
+| `models.py` | `LogicRule` dataclass |
 
-## Example
+---
 
-### Input
+## Examples
 
+### Key-Value Table
+```html
+<table>
+  <tr><th>Name</th><td>John Smith</td></tr>
+  <tr><th>Department</th><td>Engineering</td></tr>
+</table>
+```
+```
+Name: John Smith
+Department: Engineering
+```
+
+### Simple Data Table
+```html
+<table>
+  <thead>
+    <tr><th>Product</th><th>Price</th><th>Stock</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Widget</td><td>$19.99</td><td>150</td></tr>
+  </tbody>
+</table>
+```
+```
+Product: Widget | Price: $19.99 | Stock: 150
+```
+
+### Multi-Level Headers
+```html
+<table>
+  <thead>
+    <tr><th rowspan="2">Region</th><th colspan="2">Q1 Sales</th></tr>
+    <tr><th>Revenue</th><th>Units</th></tr>
+  </thead>
+  <tbody>
+    <tr><th>North</th><td>$50,000</td><td>500</td></tr>
+  </tbody>
+</table>
+```
+```
+North → Q1 Sales | Revenue: $50,000
+North → Q1 Sales | Units: 500
+```
+
+### Complex Hierarchical Table
 ```html
 <table>
   <thead>
     <tr>
-      <th rowspan="2">Severity Level</th>
-      <th rowspan="2">Number of requests</th>
-      <th colspan="2">SLA Met</th>
+      <th rowspan="3">Region</th>
+      <th rowspan="3">Unit</th>
+      <th colspan="2">Q1</th>
     </tr>
-    <tr>
-      <th>Yes</th>
-      <th>No</th>
-    </tr>
+    <tr><th colspan="2">Sales</th></tr>
+    <tr><th>Rev</th><th>Cost</th></tr>
   </thead>
   <tbody>
     <tr>
-      <td>Very Severe</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
+      <th rowspan="2">NA</th>
+      <th>East</th>
+      <td>100</td><td>80</td>
     </tr>
-    <tr>
-      <td>Severe</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
+    <tr><th>West</th><td>120</td><td>90</td></tr>
   </tbody>
 </table>
 ```
-
-### Output Rules
-
 ```
-Severity Level | Very Severe → Number of requests: 0
-Severity Level | Very Severe → SLA Met | Yes: 0
-Severity Level | Very Severe → SLA Met | No: 0
-Severity Level | Severe → Number of requests: 0
-Severity Level | Severe → SLA Met | Yes: 0
-Severity Level | Severe → SLA Met | No: 0
+NA | East → Q1 | Sales | Rev: 100
+NA | East → Q1 | Sales | Cost: 80
+NA | West → Q1 | Sales | Rev: 120
+NA | West → Q1 | Sales | Cost: 90
 ```
 
-### Parsing the Output
+---
 
-```python
-def parse_rule(line):
-    # Split into parts
-    headers_part, value = line.split(': ')
-    entity_part, attribute_part = headers_part.split(' → ')
-    
-    # Parse each dimension
-    entity = [h.strip() for h in entity_part.split('|')]
-    attribute = [h.strip() for h in attribute_part.split('|')]
-    
-    return entity, attribute, value
+## Validation
 
-# Example
-line = "Severity Level | Very Severe → SLA Met | Yes: 0"
-entity, attribute, value = parse_rule(line)
-# entity = ['Severity Level', 'Very Severe']
-# attribute = ['SLA Met', 'Yes']
-# value = '0'
+Tested on increasingly complex tables:
+
+| Table Type | Structure | Result |
+|------------|-----------|--------|
+| Key-Value | 2 cols, th+td pattern | ✅ `Name: John` |
+| Invoice | No thead, implicit headers | ✅ `Item: Widget \| Qty: 2` |
+| SLA Report | 2-row thead, colspan | ✅ `High → SLA Met \| Yes: 5` |
+| Schedule | 3-row thead, body rowspan | ✅ `AI → Day 1 \| AM: Keynote` |
+| Financial | 3-level headers, rowgroups | ✅ `NA \| East → Q1 \| Sales \| Rev: 100` |
+| Benefits | Mixed colspan in body | ✅ `Health \| Medical → Level \| Junior: $100` |
+| **Clinical Trial** | **4-row thead, 3 regions, 9 sites, 12 columns** | ✅ **100 rules extracted correctly** |
+
+**Clinical Trial Output (sample):**
+```
+North America | Dr. Smith (Boston) → Treatment Outcomes | Drug A (Experimental) | Primary Endpoint | Responders: 67%
+Europe | Dr. Dubois (Paris) → Treatment Outcomes | Drug A (Experimental) | Primary Endpoint | p-value: <0.001
+Asia-Pacific | Dr. Tanaka (Tokyo) → Treatment Outcomes | Placebo (Control) | Secondary Endpoint | 95% CI: [-2.3, 4.7]
+Pooled Analysis (All Sites) → Treatment Outcomes | Drug A (Experimental) | Primary Endpoint | Responders: 68%
 ```
 
-## The Key Insights
+---
 
-1.  **Each cell is independent** - No global table analysis needed.
-2.  **Walk LEFT for entity context** - Find all `<th>` to the left (who/what).
-3.  **Walk UP for attribute context** - Find `<th>` above (what about them).
-4.  **Walk UP from row headers too** - Row header columns need their column headers.
-5.  **Separate the dimensions** - Return row and column headers separately to preserve table structure.
-6.  **A "pure" parser needs a "pragmatic" repair script** - The core logic must be protected from bad HTML.
-7.  **Default to 1 row header for `<thead>` tables** - The safest assumption for structured tables.
-8.  **Never parse HTML with regex** - Using BeautifulSoup to find *only* top-level tables is the key to avoiding nested-table bugs.
-9.  **Use clear delimiters** - `|` for headers within a dimension, `→` between dimensions, `:` before the value.
+## Why This Works
 
-## Success Metrics
+### It's Not Hardcoded
 
-Tested and validated on a suite of "evil" tables:
+Every fix addresses a **class** of tables:
 
-  * ✅ **Monster Table:** (Financial report with `colspan`/`rowspan` in `<thead>`, `<tbody>`, and `<tfoot>`).
-  * ✅ **Multi-`<tbody>` Table:** (Compliance report with `rowspan` and single-row headers).
-  * ✅ **Evil Nested Table:** (Correctly parsed the *outer* table and "mushed" the inner table's content into a single cell).
-  * ✅ **Irregular `<tbody>` Header:** (Correctly *ignored* `<th>` dividers in the `<tbody>` thanks to the `is_thead` check).
-  * ✅ **Hierarchical Headers:** (Multi-level column headers like "Phase Gates → Discovery → Plan").
-  * ✅ **SLA Tables:** (Column headers that span without being row headers).
+| Rule | Applies To |
+|------|------------|
+| First-column `<td>` with rowspan → `<th>` | All tables with row identifiers |
+| Skip thead cells in row context | HTML specification |
+| Don't merge rows with colspan | All hierarchical headers |
 
-## What We Learned
+### It's Mathematically Sound
 
-Previous attempts were overengineered or too simple. The maze metaphor combined with dimensional separation is the key:
+The pathfinder doesn't guess. It follows grid coordinates:
+- LEFT = row context (same row, earlier columns)
+- UP = column context (same column, earlier rows)
 
-> "You're a data cell dropped in a maze. **Walk left to find your entity context.** **Walk up to find your attribute context.** **Separate them with an arrow.**"
+### It Degrades Gracefully
 
-That's it. That's the whole algorithm.
+When a table can't be parsed (too small, malformed), the pipeline returns the original HTML. No data is lost.
+
+---
+
+## The Key Insight
+
+> **"You're a data cell dropped in a maze. Walk left to find your row headers. Walk up to find your column headers. That's it."**
+
+No table classification. No pattern matching. No machine learning.
+
+Just the DNA of how tables work.

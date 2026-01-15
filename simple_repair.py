@@ -61,6 +61,90 @@ def simple_repair(html: str) -> str:
         actual_rows = get_top_level_rows(table)
 
 
+    # --- Fix 7: Wrap header rows in <thead> ---
+    # If table lacks <thead>, detect contiguous leading rows that are "header-like"
+    # (all <th> cells, or all <th>/empty cells) and wrap them in <thead>.
+    # This ensures downstream logic can rely on is_thead to identify column headers.
+    if not table.find('thead') and actual_rows:
+        header_rows = []
+        
+        for row in actual_rows:
+            cells = row.find_all(['td', 'th'], recursive=False)
+            
+            # Skip empty rows at the top
+            if not cells:
+                header_rows.append(row)
+                continue
+            
+            # A row is "header-like" if all cells are <th> or empty
+            is_header_like = all(
+                cell.name == 'th' or not cell.get_text(strip=True)
+                for cell in cells
+            )
+            
+            if is_header_like:
+                header_rows.append(row)
+            else:
+                # Stop at first non-header row
+                break
+        
+        # Only wrap if we found header rows (and they're not ALL the rows)
+        if header_rows and len(header_rows) < len(actual_rows):
+            thead = soup.new_tag('thead')
+            
+            # Insert thead at the beginning of the table
+            # (after caption if present)
+            caption = table.find('caption')
+            if caption:
+                caption.insert_after(thead)
+            else:
+                table.insert(0, thead)
+            
+            # Move header rows into thead
+            for row in header_rows:
+                row.extract()
+                thead.append(row)
+            
+            actual_rows = get_top_level_rows(table)
+
+
+    # --- Fix 8: Promote row headers based on <thead> structure ---
+    # If <thead> has multi-row structure (hierarchical column headers), the first
+    # column typically contains row identifiers. Promote first-column <td> cells 
+    # in <tbody> to <th scope="row">.
+    # 
+    # We only promote cells that:
+    # 1. Are the first cell in their DOM row, AND
+    # 2. Either have rowspan > 1 (explicit row group identifier), OR
+    # 3. Are not "covered" by a rowspan from a previous row
+    thead = table.find('thead')
+    if thead:
+        thead_rows = thead.find_all('tr', recursive=False)
+        header_depth = len(thead_rows)
+        
+        if header_depth > 1:
+            # Multi-row header structure suggests dimensional table
+            tbody = table.find('tbody')
+            if tbody:
+                active_rowspan = 0  # Track if a rowspan from above covers first column
+                
+                for row in tbody.find_all('tr', recursive=False):
+                    cells = row.find_all(['td', 'th'], recursive=False)
+                    
+                    if active_rowspan > 0:
+                        # First column is covered by rowspan from above
+                        # Don't promote the first DOM cell (it's in column 1+)
+                        active_rowspan -= 1
+                    elif cells and cells[0].name == 'td':
+                        # This cell is truly in the first column
+                        cells[0].name = 'th'
+                        cells[0]['scope'] = 'row'
+                        # Track rowspan for subsequent rows
+                        rowspan = int(cells[0].get('rowspan', 1))
+                        if rowspan > 1:
+                            active_rowspan = rowspan - 1
+
+
     # --- Fix 6: Merge "Hanging" Description Rows (NEW) ---
     # Detect rows that contain only text in the first cell (and empty elsewhere),
     # and follow a fully-populated data row. These are likely wrapped descriptions.
@@ -75,15 +159,23 @@ def simple_repair(html: str) -> str:
         is_sparse = False
         if cells:
             first_cell_text = cells[0].get_text(strip=True)
+            first_cell_colspan = int(cells[0].get('colspan', 1))
+            
             # Check if all other cells are empty
             other_cells_empty = all(not c.get_text(strip=True) for c in cells[1:])
             
             # Additional check: Don't merge if it looks like a Summary Row
-            # (We want Subtotal to stay its own row)
             summary_keywords = ['total', 'subtotal', 'amount due', 'amount payable', 'balance', 'tax', 'vat', 'gst']
             is_summary = any(first_cell_text.lower().startswith(kw) for kw in summary_keywords)
             
-            if first_cell_text and other_cells_empty and not is_summary:
+            # Don't merge if first cell has colspan > 1 (intentional spanning row)
+            # This prevents merging header rows, footer legends, section headers, etc.
+            has_colspan = first_cell_colspan > 1
+            
+            # Also don't merge if it's the only cell in the row (single-cell rows are intentional)
+            is_single_cell_row = len(cells) == 1
+            
+            if first_cell_text and other_cells_empty and not is_summary and not has_colspan and not is_single_cell_row:
                 is_sparse = True
         
         # Condition 2: Previous row has data
@@ -156,15 +248,19 @@ def simple_repair(html: str) -> str:
 
     
     # --- Fix 4: Convert first data row to header row ---
+    # Only applies to tables without thead where first row looks like headers
+    # Skip if row already has <th> cells (key-value table pattern)
     actual_rows = get_top_level_rows(table) 
     
-    if actual_rows:
+    if actual_rows and not table.find('thead'):
         first_data_row = actual_rows[0]
         if not first_data_row.find_parent('tfoot'):
             cells = first_data_row.find_all(['td', 'th'], recursive=False)
-            if cells and any(cell.name == 'td' for cell in cells):
+            # Only convert if ALL cells are <td> (no <th> present)
+            # This preserves key-value tables where first cell is <th>
+            all_td = cells and all(cell.name == 'td' for cell in cells)
+            if all_td:
                 first_cell_colspan = int(cells[0].get('colspan', 1))
-                first_cell_text = cells[0].get_text(strip=True).lower()
                 is_section_header = (
                     first_cell_colspan == 1 and 
                     len(cells) > 1 and 
@@ -172,7 +268,6 @@ def simple_repair(html: str) -> str:
                 )
                 if first_cell_colspan == 1 and not is_section_header:
                     for cell in cells:
-                        if cell.name == 'td':
-                            cell.name = 'th'
+                        cell.name = 'th'
     
     return str(soup)

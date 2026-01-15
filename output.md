@@ -1,10 +1,8 @@
 
 
-<table>
-<tr>
-<td>Total in words: one hundred and sev- en point four eight Bank Name Central Bank of England Branch Name Raf CAMP Bank Account Number 12308351 Bank Swift Code SBININBB250</td>
-<td>SUB_TOTAL:106.84EUR DISCOUNT(3.18%):(-）3.4 TAX:VAT(3.25%):3.47EUR TOTAL:107.48EUR</td>
-</tr>
-</table>
+January | Team Alpha | Sales Data | Units Sold: 150 | Team Alpha | Sales Data | Revenue: $30,000 | Team Alpha | Client Metrics | Satisfaction (%): 92% | Team Alpha | Client Metrics | New Leads: 45 | Team Bravo | Sales Data | Units Sold: 120 | Team Bravo | Sales Data | Revenue: $25,000 | Team Bravo | Client Metrics | Satisfaction (%): 95% | Team Bravo | Client Metrics | New Leads: 55
+February | Team Alpha | Sales Data | Units Sold: 180 | Team Alpha | Sales Data | Revenue: $36,000 | Team Alpha | Client Metrics | Satisfaction (%): 94% | Team Alpha | Client Metrics | New Leads: 52 | Team Bravo | Sales Data | Units Sold: 135 | Team Bravo | Sales Data | Revenue: $28,000 | Team Bravo | Client Metrics | Satisfaction (%): 96% | Team Bravo | Client Metrics | New Leads: 61
+March | Team Alpha | Sales Data | Units Sold: 210 | Team Alpha | Sales Data | Revenue: $42,000 | Team Alpha | Client Metrics | Satisfaction (%): 93% | Team Alpha | Client Metrics | New Leads: 48 | Team Bravo | Sales Data | Units Sold: 150 | Team Bravo | Sales Data | Revenue: $31,000 | Team Bravo | Client Metrics | Satisfaction (%): 94% | Team Bravo | Client Metrics | New Leads: 58
+Q1 Total | Team Alpha | Sales Data | Units Sold: 540 | Team Alpha | Sales Data | Revenue: $108,000 | Team Alpha | Client Metrics | Satisfaction (%): 93% (Avg) | Team Alpha | Client Metrics | New Leads: 145 | Team Bravo | Sales Data | Units Sold: 405 | Team Bravo | Sales Data | Revenue: $84,000 | Team Bravo | Client Metrics | Satisfaction (%): 95% (Avg) | Team Bravo | Client Metrics | New Leads: 174
 
 

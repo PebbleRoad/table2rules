@@ -110,14 +110,25 @@ def find_headers_for_cell(grid: List[List[Dict]], row: int, col: int) -> Tuple[L
                 continue
             
             if cell['type'] == 'th':
-                # STRICT HEADER CHECK:
-                # Only accept structural headers (thead or explicit header rows) as parents.
-                is_structural_header = cell.get('is_thead', False) or cell.get('is_header_row', False)
-                if not is_structural_header:
+                # Never include <thead> cells in row header context
+                # Thead cells are column headers, not row header hierarchy
+                # Row header context should come from tbody cells only
+                if cell.get('is_thead', False):
+                    continue
+                
+                # For non-thead cells, only accept explicit header rows (headless tables)
+                is_header_row = cell.get('is_header_row', False)
+                if not is_header_row:
                     continue
                 
                 scope = cell.get('scope', '')
+                
+                # Skip row-scoped headers (they're peer row headers, not parents)
                 if scope in ('row', 'rowgroup'):
+                    continue
+                
+                # Skip column-scoped headers — they name the column, not the row value
+                if scope in ('col', 'colgroup'):
                     continue
                 
                 if cell.get('is_span_copy', False):

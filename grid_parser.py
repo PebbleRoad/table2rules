@@ -228,16 +228,6 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
             # Skip this for key-value tables - they don't have header rows
             if is_header_row and cell.name == 'td' and not is_key_value_table:
                 cell_type = 'th'
-            
-            # Heuristic 2: row header in first N columns
-            # Skip this for key-value tables - already handled by scope setting
-            if (
-                is_body_row and 
-                cell.name == 'td' and 
-                logical_col < num_row_headers and
-                not is_key_value_table
-            ):
-                cell_type = 'th'
 
             is_footer = cell.find_parent('tfoot') is not None
             is_thead = cell.find_parent('thead') is not None
@@ -256,8 +246,8 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
                 'is_footer': is_footer,
                 'is_thead': is_thead,
                 'has_thead': has_thead,
-                'is_header_row': is_header_row
-                
+                'is_header_row': is_header_row,
+                'header_depth': data_start_row_idx if has_thead else 0
             }
             
             for r_offset in range(rowspan):
@@ -280,6 +270,7 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
                                 'is_header_row': cell_data['is_header_row'],
                                 'is_span_copy': True,
                                 'origin': (row_idx, logical_col),
+                                'header_depth': cell_data.get('header_depth', 0),
                             }
                             grid[target_row][target_col] = span_ref
             logical_col += colspan
