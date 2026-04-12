@@ -1,0 +1,7 @@
+
+
+A: Revenue: 100 | Revenue | Feb: 120 | Cost | Jan: 70 | Cost: 80
+A | 240: Cost | Jan: 90 | Cost: 95
+B: Revenue: 200 | Revenue | Feb: 210 | Cost | Jan: 150 | Cost: 150
+
+

@@ -12,6 +12,10 @@ This isn't pattern-matching or table-type detection. It's a universal algorithm 
 
 The algorithm **discovers structure** — it doesn't memorize patterns.
 
+### Why This Approach
+
+Table2Rules is built as a structural transformer, not a table-type classifier. It converts HTML tables into a logical grid, resolves header relationships by spatial pathfinding, and emits deterministic rules for downstream systems. When markup is ambiguous or hostile, it fails open and preserves raw HTML instead of inventing structure. This makes outputs more trustworthy for enterprise pipelines and LLM workflows where correctness and traceability matter more than aggressive guessing.
+
 ---
 
 ## Output Format
@@ -265,6 +269,14 @@ Tested on increasingly complex tables:
 
 Use the benchmark runner to compare all test tables against committed expected outputs.
 
+Test corpus is organized by intent:
+
+- `test tables/smoke/` — minimal sanity checks
+- `test tables/hierarchical/` — multi-level header patterns
+- `test tables/real-world/` — realistic enterprise-style tables
+- `test tables/regression/` — targeted bug/regression cases
+- `test tables/evil/` — adversarial and hostile markup cases
+
 ```bash
 python3 benchmark_tables.py --allow-missing-gold
 ```
@@ -279,6 +291,32 @@ Compare with unified diffs:
 
 ```bash
 python3 benchmark_tables.py --show-diff
+```
+
+## CLI Usage
+
+Install dependencies:
+
+```bash
+python3 -m pip install -r requirements.txt
+```
+
+Run the module on `input.md` and write `output.md`:
+
+```bash
+python3 table2rules.py
+```
+
+Run benchmark regression checks:
+
+```bash
+python3 benchmark_tables.py --show-diff
+```
+
+Run adversarial fuzz checks:
+
+```bash
+python3 fuzz_tables.py --cases 500 --seed 42
 ```
 
 ## Safety Contract
@@ -296,6 +334,14 @@ Run randomized adversarial table fuzzing:
 ```bash
 python3 fuzz_tables.py --cases 500 --seed 42
 ```
+
+## Limitations
+
+- Output format is deterministic but not guaranteed to match every downstream schema; separators and grouping are optimized for parseability.
+- The repair stage is bounded and generic; it does not attempt arbitrary HTML surgery.
+- Extremely malformed or ambiguous tables may be passed through as raw HTML by design (fail-open safety).
+- Semantic interpretation is intentionally conservative: the system transforms structure, it does not infer business meaning beyond table topology and header scopes.
+- Benchmark coverage improves confidence but cannot prove correctness for all possible HTML table encodings.
 
 **Clinical Trial Output (sample):**
 ```
