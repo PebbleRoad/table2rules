@@ -140,36 +140,29 @@ def process_tables_to_text(html_content: str) -> str:
     if not all_tables:
         return ""
     
-    all_rules = []
-    passthrough_tables = []
+    output_chunks = []
 
     # Process only top-level tables (skip nested)
     for table in all_tables:
         if table.find_parent('table'):
             continue
-        
+
         table_html = str(table)
         rules = process_table(table_html)
-        
-        if rules:
-            all_rules.extend(rules)
-        else:
-            passthrough_tables.append(table_html)
-    
-    if not all_rules and not passthrough_tables:
-        return ""
 
-    # Group by row and serialize
-    serialized_rows = group_rules_by_row(all_rules) if all_rules else []
+        if rules:
+            # Group rows per table to avoid row-index collisions across tables
+            output_chunks.extend(group_rules_by_row(rules))
+        else:
+            # Preserve unparseable table content in-place
+            output_chunks.append(table_html)
+
+    if not output_chunks:
+        return ""
     
     # Format output
     output_lines = ["\n"]
-    output_lines.extend(serialized_rows)
-
-    # Add passthrough tables (unparseable tables as raw HTML)
-    for html in passthrough_tables:
-        output_lines.append(html)
-
+    output_lines.extend(output_chunks)
     output_lines.append("\n\n")
     
     return '\n'.join(output_lines)

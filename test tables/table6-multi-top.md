@@ -1,0 +1,19 @@
+<table>
+  <thead>
+    <tr><th>Item</th><th>Qty</th></tr>
+  </thead>
+  <tbody>
+    <tr><th>Apples</th><td>10</td></tr>
+    <tr><th>Oranges</th><td>7</td></tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr><th>Region</th><th>Revenue</th></tr>
+  </thead>
+  <tbody>
+    <tr><th>North</th><td>$1000</td></tr>
+    <tr><th>South</th><td>$900</td></tr>
+  </tbody>
+</table>
