@@ -213,6 +213,9 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
             if int(cells[1].get('colspan', 1)) > 1 or int(cells[1].get('rowspan', 1)) > 1:
                 is_key_value_table = False
                 break
+    # Key-value tables have no header rows — every row is data.
+    if is_key_value_table:
+        data_start_row_idx = 0
     # --- END KEY-VALUE DETECTION ---
 
     # Phase 1: Calculate dimensions
