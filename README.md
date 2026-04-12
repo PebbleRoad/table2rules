@@ -281,6 +281,22 @@ Compare with unified diffs:
 python3 benchmark_tables.py --show-diff
 ```
 
+## Safety Contract
+
+This module is designed to be fail-open on hostile table markup:
+
+- Parse and transform well-formed tables deterministically.
+- Apply bounded generic repair for common breakage.
+- If invariants/confidence fail, passthrough the original table HTML instead of emitting low-confidence rules.
+
+### Fuzz Testing
+
+Run randomized adversarial table fuzzing:
+
+```bash
+python3 fuzz_tables.py --cases 500 --seed 42
+```
+
 **Clinical Trial Output (sample):**
 ```
 North America | Dr. Smith (Boston) → Treatment Outcomes | Drug A (Experimental) | Primary Endpoint | Responders: 67%

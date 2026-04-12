@@ -5,75 +5,85 @@ from grid_parser import parse_table_to_grid
 from maze_pathfinder import find_headers_for_cell
 from cleanup import clean_rules
 from simple_repair import simple_repair
+from quality_gate import assess_confidence
 
 def process_table(table_html: str) -> List[LogicRule]:
     """Process a single table and return rules (one per cell)."""
-    # Step 1: Apply simple repairs
-    table_html = simple_repair(table_html)
-    soup = BeautifulSoup(table_html, 'html.parser')
-    table = soup.find('table')
-    
-    if not table:
-        return []
-    
-    grid = parse_table_to_grid(table)
-    if not grid:
-        return []
-    
-    rules = []
-    
-    for row_idx in range(len(grid)):
-        for col_idx in range(len(grid[0])):
-            cell = grid[row_idx][col_idx]
-            
-            # Only <td> cells are data cells
-            # <th> cells are always headers (either column or row headers)
-            if cell['type'] != 'td':
-                continue
+    try:
+        # Step 1: Apply simple repairs
+        table_html = simple_repair(table_html)
+        soup = BeautifulSoup(table_html, 'html.parser')
+        table = soup.find('table')
 
-            # Defensive guard: never emit rules from explicit/implicit header rows
-            if cell.get('is_thead', False) or cell.get('is_header_row', False):
-                continue
-            
-            # Skip empty cells
-            if not cell.get('text', '').strip():
-                continue
-            
-            # If this is a span copy, skip it (we'll process it from origin)
-            if cell.get('is_span_copy', False):
-                continue
-            
-            # Get the span dimensions
-            rowspan = cell.get('rowspan', 1)
-            colspan = cell.get('colspan', 1)
-            
-            # Generate a rule for each position this cell occupies
-            for r_offset in range(rowspan):
-                for c_offset in range(colspan):
-                    target_row = row_idx + r_offset
-                    target_col = col_idx + c_offset
-                    
-                    if target_row >= len(grid) or target_col >= len(grid[0]):
-                        continue
-                    
-                    # Find headers from THIS position (not the origin)
-                    row_headers, col_headers = find_headers_for_cell(grid, target_row, target_col)
-                    
-                    rule = LogicRule(
-                        conditions=row_headers + col_headers,  # Keep for backward compatibility
-                        outcome=cell['text'],
-                        position=(target_row, target_col),
-                        is_footer=cell.get('is_footer', False),
-                        row_headers=row_headers,
-                        col_headers=col_headers
-                    )
-                    
-                    rules.append(rule)
-    
-    # Post-processing cleanup
-    rules = clean_rules(rules)
-    
-    return rules
+        if not table:
+            return []
+
+        grid = parse_table_to_grid(table)
+        if not grid:
+            return []
+
+        rules = []
+
+        for row_idx in range(len(grid)):
+            for col_idx in range(len(grid[0])):
+                cell = grid[row_idx][col_idx]
+
+                # Only <td> cells are data cells
+                # <th> cells are always headers (either column or row headers)
+                if cell['type'] != 'td':
+                    continue
+
+                # Defensive guard: never emit rules from explicit/implicit header rows
+                if cell.get('is_thead', False) or cell.get('is_header_row', False):
+                    continue
+
+                # Skip empty cells
+                if not cell.get('text', '').strip():
+                    continue
+
+                # If this is a span copy, skip it (we'll process it from origin)
+                if cell.get('is_span_copy', False):
+                    continue
+
+                # Get the span dimensions
+                rowspan = cell.get('rowspan', 1)
+                colspan = cell.get('colspan', 1)
+
+                # Generate a rule for each position this cell occupies
+                for r_offset in range(rowspan):
+                    for c_offset in range(colspan):
+                        target_row = row_idx + r_offset
+                        target_col = col_idx + c_offset
+
+                        if target_row >= len(grid) or target_col >= len(grid[0]):
+                            continue
+
+                        # Find headers from THIS position (not the origin)
+                        row_headers, col_headers = find_headers_for_cell(grid, target_row, target_col)
+
+                        rule = LogicRule(
+                            conditions=row_headers + col_headers,  # Keep for backward compatibility
+                            outcome=cell['text'],
+                            position=(target_row, target_col),
+                            is_footer=cell.get('is_footer', False),
+                            row_headers=row_headers,
+                            col_headers=col_headers
+                        )
+
+                        rules.append(rule)
+
+        # Post-processing cleanup
+        rules = clean_rules(rules)
+
+        # Confidence gate: if parse quality is weak, fail open to passthrough HTML.
+        gate = assess_confidence(grid, rules)
+        if not gate.ok:
+            return []
+
+        return rules
+    except Exception:
+        # Fail open for hostile / pathological table markup
+        return []
 
 
 def group_rules_by_row(rules: List[LogicRule]) -> List[str]:
