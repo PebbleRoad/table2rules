@@ -14,7 +14,7 @@ def find_headers_for_cell(grid: List[List[Dict]], row: int, col: int) -> Tuple[L
        (EXCEPTION: Summary rows like "Total" do not inherit column headers)
     """
     if not grid or not grid[0]:
-        return []
+        return [], []
     
     row_headers = []
     col_headers = []

@@ -1,3 +1,28 @@
 .DS_Store
 # VS Code specific settings
 /.vscode
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Tool caches and test artifacts
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# macOS / editor noise
+.idea/
+
+# Local benchmark outputs (gold should be versioned)
+benchmarks/current/

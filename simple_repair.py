@@ -67,21 +67,27 @@ def simple_repair(html: str) -> str:
     # This ensures downstream logic can rely on is_thead to identify column headers.
     if not table.find('thead') and actual_rows:
         header_rows = []
-        
+        seen_non_empty = False
+
         for row in actual_rows:
             cells = row.find_all(['td', 'th'], recursive=False)
-            
-            # Skip empty rows at the top
-            if not cells:
-                header_rows.append(row)
+
+            # Ignore leading empty rows; do not treat them as headers
+            if not cells and not seen_non_empty:
                 continue
-            
+
+            if not cells and seen_non_empty:
+                # Empty row after header block means header detection ends
+                break
+
+            seen_non_empty = True
+
             # A row is "header-like" if all cells are <th> or empty
             is_header_like = all(
                 cell.name == 'th' or not cell.get_text(strip=True)
                 for cell in cells
             )
-            
+
             if is_header_like:
                 header_rows.append(row)
             else:

@@ -1,0 +1,8 @@
+
+
+AI: Day 1 | 09:00: Opening Keynote | Day 1 | 14:00: Deploying at Scale | Day 2 | 09:00: Prompt Design | Day 2 | 14:00: Evaluation
+AI: Day 1 | 09:00: Vision 101 | Day 1 | 14:00: — | Day 2 | 09:00: TBD | Day 2 | 14:00: Monitoring
+Data: Day 1 | 09:00: Ingestion | Day 1 | 14:00: dbt Patterns | Day 2 | 09:00: Delta Lake | Day 2 | 14:00: Streaming 101
+Data: Day 1 | 09:00: Warehouse Tuning | Day 1 | 14:00: Note: Bring your own laptop for the hands-on lab. | Day 2 | 09:00: — | Day 2 | 14:00: Cost Controls
+
+

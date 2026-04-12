@@ -30,6 +30,10 @@ def process_table(table_html: str) -> List[LogicRule]:
             # <th> cells are always headers (either column or row headers)
             if cell['type'] != 'td':
                 continue
+
+            # Defensive guard: never emit rules from explicit/implicit header rows
+            if cell.get('is_thead', False) or cell.get('is_header_row', False):
+                continue
             
             # Skip empty cells
             if not cell.get('text', '').strip():

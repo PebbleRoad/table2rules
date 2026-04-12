@@ -1,5 +1,5 @@
 from typing import List, Dict
-from bs4 import BeautifulSoup
+from bs4 import NavigableString
 import re
 
 
@@ -27,6 +27,47 @@ def clean_text(text: str) -> str:
     text = re.sub(r'\s+', ' ', text).strip()
     
     return text
+
+
+def get_row_cells(row, table) -> List:
+    """
+    Return logical cells for a row, including malformed sibling cells that may
+    be nested due to broken closing tags, while excluding nested-table cells.
+    """
+    cells = row.find_all(['td', 'th'])
+    return [
+        cell for cell in cells
+        if cell.find_parent('tr') is row and cell.find_parent('table') is table
+    ]
+
+
+def extract_cell_text(cell) -> str:
+    """
+    Extract text from a logical cell while excluding text from malformed nested
+    sibling cells that can appear after HTML recovery.
+    """
+    parts: List[str] = []
+    for node in cell.descendants:
+        if not isinstance(node, NavigableString):
+            continue
+
+        text = str(node).strip()
+        if not text:
+            continue
+
+        parent = node.parent
+        if parent is None:
+            continue
+
+        if parent.name in ('td', 'th'):
+            nearest_cell = parent
+        else:
+            nearest_cell = parent.find_parent(['td', 'th'])
+
+        if nearest_cell is cell:
+            parts.append(text)
+
+    return clean_text(" ".join(parts))
 
 
 def parse_table_to_grid(table) -> List[List[Dict]]:
@@ -60,7 +101,7 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
         # Step 1: Prefer an explicit header row that uses <th>
         header_row_idx = None
         for idx, row in enumerate(actual_rows):
-            cells = row.find_all(['th', 'td'], recursive=False)
+            cells = get_row_cells(row, table)
             if not cells or len(cells) == 1:
                 # Skip empty or title rows
                 continue
@@ -81,7 +122,7 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
 
             # If some cells in this header row span multiple body rows,
             # use the maximum rowspan to determine how many header rows exist.
-            cells = actual_rows[main_header_row_idx].find_all(['th', 'td'], recursive=False)
+            cells = get_row_cells(actual_rows[main_header_row_idx], table)
             header_row_span = max(int(cell.get('rowspan', 1)) for cell in cells) or 1
 
             # Learn num_row_headers:
@@ -111,7 +152,7 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
             found_header_row = False
 
             for idx, row in enumerate(actual_rows):
-                cells = row.find_all(['th', 'td'], recursive=False)
+                cells = get_row_cells(row, table)
                 if not cells or len(cells) == 1:
                     continue
 
@@ -135,7 +176,7 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
                 # Last-resort fallback: first non-title, non-empty row,
                 # with a single row-header column.
                 for idx, row in enumerate(actual_rows):
-                    cells = row.find_all(['th', 'td'], recursive=False)
+                    cells = get_row_cells(row, table)
                     if len(cells) > 1:
                         data_start_row_idx = idx + 1
                         num_row_headers = 1
@@ -153,7 +194,7 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
         # Check if ALL rows follow the key-value pattern
         is_key_value_table = True
         for row in actual_rows:
-            cells = row.find_all(['th', 'td'], recursive=False)
+            cells = get_row_cells(row, table)
             # Skip empty rows
             if not cells:
                 continue
@@ -179,7 +220,7 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
     occupied = {}
     
     for row_idx, row in enumerate(actual_rows):
-        cells = row.find_all(['td', 'th'], recursive=False)
+        cells = get_row_cells(row, table)
         logical_col = 0
         
         for cell in cells:
@@ -205,7 +246,7 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
     
     # Phase 3: Fill grid
     for row_idx, row in enumerate(actual_rows):
-        cells = row.find_all(['td', 'th'], recursive=False)
+        cells = get_row_cells(row, table)
         logical_col = 0
         
         # A row is a "header row" if it's before the data start (headless only)
@@ -238,7 +279,7 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
                 cell_scope = 'row'
 
             cell_data = {
-                'text': clean_text(cell.get_text(separator=' ')),
+                'text': extract_cell_text(cell),
                 'type': cell_type,
                 'rowspan': rowspan,
                 'colspan': colspan,

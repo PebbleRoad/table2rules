@@ -1,0 +1,13 @@
+
+
+Americas | Alpha: Quarter | Q1 | Actual: 3.2 | Quarter | Q1 | Target: 3.0 | Quarter | Q2 | Actual: 3.8 | Quarter | Q2 | Target: 3.5 | H1 (Q1 + Q2) | Actual: 7.0 | H1 (Q1 + Q2) | Target: 6.5 | Variance: +0.5 | Notes: Beat targets due to Q2 promo.
+Americas | Beta: Quarter | Q1 | Actual: 2.1 | Quarter | Q1 | Target: 2.4 | Quarter | Q2 | Actual: 2.6 | Quarter | Q2 | Target: 2.8 | H1 (Q1 + Q2) | Actual: 4.7 | H1 (Q1 + Q2) | Target: 5.2 | Variance: −0.5 | Notes: Supply constraint in Q1.
+Americas | Gamma: Quarter | Q1 | Actual: 1.4 | Quarter | Q1 | Target: 1.2 | Quarter | Q2 | Actual: 1.9 | Quarter | Q2 | Target: 1.6 | H1 (Q1 + Q2) | Actual: 3.3 | H1 (Q1 + Q2) | Target: 2.8 | Variance: +0.5 | Notes: New channel launched mid-Q2.
+EMEA | Alpha: Quarter | Q1 | Actual: 2.8 | Quarter | Q1 | Target: 2.9 | Quarter | Q2 | Actual: 3.0 | Quarter | Q2 | Target: 3.1 | H1 (Q1 + Q2) | Actual: 5.8 | H1 (Q1 + Q2) | Target: 6.0 | Variance: −0.2 | Notes: Currency headwinds.
+EMEA | Beta: Quarter | Q1 | Actual: 1.9 | Quarter | Q1 | Target: 1.7 | Quarter | Q2 | Actual: 2.2 | Quarter | Q2 | Target: 2.0 | H1 (Q1 + Q2) | Actual: 4.1 | H1 (Q1 + Q2) | Target: 3.7 | Variance: +0.4 | Notes: Enterprise deal closed in Q2.
+APAC | Alpha: Quarter | Q1 | Actual: 3.5 | Quarter | Q1 | Target: 3.2 | Quarter | Q2 | Actual: 3.9 | Quarter | Q2 | Target: 3.6 | H1 (Q1 + Q2) | Actual: 7.4 | H1 (Q1 + Q2) | Target: 6.8 | Variance: +0.6 | Notes: Seasonal lift.
+APAC | Beta: Quarter | Q1 | Actual: 2.3 | Quarter | Q1 | Target: 2.5 | Quarter | Q2 | Actual: 2.7 | Quarter | Q2 | Target: 2.9 | H1 (Q1 + Q2) | Actual: 5.0 | H1 (Q1 + Q2) | Target: 5.4 | Variance: −0.4 | Notes: Marketing pullback.
+APAC | APAC Subtotal (Alpha + Beta): H1 (Q1 + Q2) | Actual: 12.4 | H1 (Q1 + Q2) | Target: 12.2 | Variance: +0.2
+Grand Total: Quarter | Q1 | Actual: — | Quarter | Q1 | Target: — | Quarter | Q2 | Actual: — | Quarter | Q2 | Target: — | H1 (Q1 + Q2) | Actual: 29.3 | H1 (Q1 + Q2) | Target: 28.6 | Variance: +0.7 | Notes: Footer with merged label cells.
+
+

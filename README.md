@@ -259,6 +259,28 @@ Tested on increasingly complex tables:
 | Benefits | Mixed colspan in body | ✅ `Health \| Medical → Level \| Junior: $100` |
 | **Clinical Trial** | **4-row thead, 3 regions, 9 sites, 12 columns** | ✅ **100 rules extracted correctly** |
 
+---
+
+## Benchmarking
+
+Use the benchmark runner to compare all test tables against committed expected outputs.
+
+```bash
+python3 benchmark_tables.py --allow-missing-gold
+```
+
+Create or refresh expected outputs:
+
+```bash
+python3 benchmark_tables.py --update-gold
+```
+
+Compare with unified diffs:
+
+```bash
+python3 benchmark_tables.py --show-diff
+```
+
 **Clinical Trial Output (sample):**
 ```
 North America | Dr. Smith (Boston) → Treatment Outcomes | Drug A (Experimental) | Primary Endpoint | Responders: 67%
