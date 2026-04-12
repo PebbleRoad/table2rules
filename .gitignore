@@ -24,5 +24,14 @@ htmlcov/
 # macOS / editor noise
 .idea/
 
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Environment files
+.env
+.env.*
+
 # Local benchmark outputs (gold should be versioned)
 benchmarks/current/

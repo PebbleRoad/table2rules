@@ -316,6 +316,35 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
                             grid[target_row][target_col] = span_ref
             logical_col += colspan
     
+    # Phase 3.5: Promote leading dimensional body columns to row headers
+    # For tables with <thead>, detect leading body columns that contain
+    # cells with rowspan > 1.  These are grouping/dimensional columns
+    # whose values serve as row identifiers, not data.
+    # Only promote when at least 2 leading columns have rowspan patterns —
+    # a single column with rowspan is typically just a grouped value that
+    # should keep its column header label.
+    if has_thead and data_start_row_idx < len(grid):
+        dimensional_cols = []
+        for c in range(max_cols):
+            col_has_rowspan = False
+            for r in range(data_start_row_idx, len(grid)):
+                cell = grid[r][c]
+                if (cell and not cell.get('is_span_copy')
+                        and cell.get('rowspan', 1) > 1):
+                    col_has_rowspan = True
+                    break
+            if col_has_rowspan:
+                dimensional_cols.append(c)
+            else:
+                break  # Stop at first non-dimensional column
+
+        if len(dimensional_cols) >= 2:
+            for c in dimensional_cols:
+                for r in range(data_start_row_idx, len(grid)):
+                    cell = grid[r][c]
+                    if cell and cell['type'] == 'td':
+                        cell['type'] = 'th'
+
     # Phase 4: Fill gaps
     for r in range(len(grid)):
         for c in range(max_cols):
@@ -327,5 +356,5 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
                     'colspan': 1,
                     'has_thead': has_thead,
                 }
-    
+
     return grid

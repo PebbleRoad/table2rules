@@ -1,5 +1,6 @@
+import re
 from typing import List
-from models import LogicRule
+from .models import LogicRule
 
 
 def clean_rules(rules: List[LogicRule]) -> List[LogicRule]:
@@ -21,8 +22,7 @@ def clean_rules(rules: List[LogicRule]) -> List[LogicRule]:
             if text.startswith('note:') or text.startswith('footnote') or 'legend:' in text or 'months indicate' in text:
                 continue
             
-            import re
-            if re.search(r'^\d+\s+\w+.*\d+\s+\w+', text):
+            if re.search(r'^\d+\s+\w+.*?\d+\s+\w+', text):
                 continue
 
         cleaned_conditions = deduplicate_headers(rule.conditions)

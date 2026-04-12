@@ -41,6 +41,48 @@ This format:
 
 ---
 
+## Installation
+
+```bash
+pip install table2rules
+```
+
+Or install from source:
+
+```bash
+pip install -e .
+```
+
+## Usage
+
+### Python API
+
+```python
+from table2rules import process_tables_to_text
+
+html = open("page.html").read()
+rules = process_tables_to_text(html)
+print(rules)
+```
+
+### CLI
+
+```bash
+# File in, stdout out
+table2rules report.html
+
+# File in, file out
+table2rules report.html -o rules.txt
+
+# Pipe
+cat report.html | table2rules
+
+# Module form
+python3 -m table2rules report.html
+```
+
+---
+
 ## Architecture
 
 ```
@@ -82,7 +124,7 @@ This format:
                               │
                               ▼
 ┌─────────────────────────────────────────────────────────────┐
-│  Phase 4: OUTPUT (table2rules.py)                           │
+│  Phase 4: OUTPUT (_core.py)                                  │
 │  ─────────────────────────────────────────────────────────  │
 │  • Generate LogicRule for each data cell                    │
 │  • Group by row for serialization                           │
@@ -98,10 +140,11 @@ Real-world HTML is messy. The repair layer fixes common authoring mistakes **bef
 
 | Fix | What It Does | Why |
 |-----|--------------|-----|
+| **Fix Tags** | Normalizes `<td>...</th>` mismatches to `<td>...</td>` | Prevents cell nesting from broken closers |
 | **Title → Caption** | Moves full-width first rows to `<caption>` | Prevents title pollution in headers |
 | **Wrap `<thead>`** | Wraps leading all-`<th>` rows in `<thead>` | Enables thead/tbody distinction |
 | **Promote Row Headers** | Converts first-column `<td>` with rowspan to `<th scope="row">` | Marks row identifiers semantically |
-| **Promote Summaries** | Converts "Total", "Subtotal" cells to `<th>` | Preserves summary row semantics |
+| **Promote Summaries** | Converts "Total", "Subtotal", "Sub Total" cells to `<th>` | Preserves summary row semantics |
 | **Move Legends** | Moves footnote/legend rows to `<tfoot>` | Separates metadata from data |
 
 **Key principle:** These are generic rules that apply to **classes** of tables, not specific tables.
@@ -162,13 +205,18 @@ For cell at (row, col):
 
 ## Files
 
+All core modules live in `src/table2rules/`.
+
 | File | Purpose |
 |------|---------|
-| `table2rules.py` | Entry point; orchestrates pipeline |
+| `_core.py` | Pipeline orchestration; `process_tables_to_text()` entry point |
 | `simple_repair.py` | HTML repair and normalization |
 | `grid_parser.py` | Builds 2D logical grid from HTML |
 | `maze_pathfinder.py` | Pathfinding algorithm for each cell |
+| `quality_gate.py` | Confidence scoring; fail-open gate |
+| `cleanup.py` | Post-processing deduplication and filtering |
 | `models.py` | `LogicRule` dataclass |
+| `__main__.py` | CLI entry point |
 
 ---
 
@@ -293,47 +341,13 @@ Compare with unified diffs:
 python3 benchmark_tables.py --show-diff
 ```
 
-## CLI Usage
-
-Install dependencies:
-
-```bash
-python3 -m pip install -r requirements.txt
-```
-
-Run the module on `input.md` and write `output.md`:
-
-```bash
-python3 table2rules.py
-```
-
-Run benchmark regression checks:
-
-```bash
-python3 benchmark_tables.py --show-diff
-```
-
-Run adversarial fuzz checks:
-
-```bash
-python3 fuzz_tables.py --cases 500 --seed 42
-```
-
 ## Safety Contract
 
 This module is designed to be fail-open on hostile table markup:
 
 - Parse and transform well-formed tables deterministically.
-- Apply bounded generic repair for common breakage.
+- Apply bounded generic repair for common breakage (mismatched tags, missing `<thead>`, summary rows).
 - If invariants/confidence fail, passthrough the original table HTML instead of emitting low-confidence rules.
-
-### Fuzz Testing
-
-Run randomized adversarial table fuzzing:
-
-```bash
-python3 fuzz_tables.py --cases 500 --seed 42
-```
 
 ## Limitations
 

@@ -1,15 +1,15 @@
 
 
-Firm: XYZ | Org: CST | Lob: CT ADS 1 10
-Firm: XYZ | Org: CST | Lob: CT ADS 1 10 | Sub Lob: BTO 2 15
-Firm: XYZ | Org: CST | Lob: CT ADS 1 10 | Sub Lob: CSI 3 6
-Firm: XYZ | Org: CST | Lob: VCT ADS 4 10
-Firm: XYZ | Org: CST | Lob: VCT ADS 4 10 | Sub Lob: BTO 5 15
-Firm: XYZ | Org: Sub Total 6 15 | Lob: Sub Total 6 15 | Sub Lob: Sub Total 6 15
-Firm: XYZ | Org: CST | Lob: CT ADS 7 10
-Firm: XYZ | Org: CST | Lob: CT ADS 7 10 | Sub Lob: BTO 8 15
-Firm: XYZ | Org: CST | Lob: CT ADS 7 10 | Sub Lob: CSI 9 6
-Firm: XYZ | Org: CST | Lob: VCT ADS 10 10
-Firm: XYZ | Org: Sub Total 11 15 | Lob: Sub Total 11 15 | Sub Lob: Sub Total 11 15
+XYZ | CST | CT: Sub Lob: ADS | Business Plans: 1 | Business Components: 10
+XYZ | CST | CT: Sub Lob: BTO | Business Plans: 2 | Business Components: 15
+XYZ | CST | CT: Sub Lob: CSI | Business Plans: 3 | Business Components: 6
+XYZ | CST | VCT: Sub Lob: ADS | Business Plans: 4 | Business Components: 10
+XYZ | CST | VCT: Sub Lob: BTO | Business Plans: 5 | Business Components: 15
+XYZ | Sub Total: Business Plans: 6 | Business Components: 15
+XYZ | CST | CT: Sub Lob: ADS | Business Plans: 7 | Business Components: 10
+XYZ | CST | CT: Sub Lob: BTO | Business Plans: 8 | Business Components: 15
+XYZ | CST | CT: Sub Lob: CSI | Business Plans: 9 | Business Components: 6
+XYZ | CST | VCT: Sub Lob: ADS | Business Plans: 10 | Business Components: 10
+XYZ | Sub Total: Business Plans: 11 | Business Components: 15
 
 

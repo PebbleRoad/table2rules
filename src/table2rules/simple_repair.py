@@ -19,6 +19,7 @@ def get_top_level_rows(table):
 def simple_repair(html: str) -> str:
     """
     Simple targeted repairs for common issues:
+    0. Fix mismatched opening/closing tags (<td>...</th> and vice versa)
     1. Move title rows (full-width th) to caption
     2. Fix <td> headers in <tfoot> (for totals)
     3. Move footer legends to tfoot
@@ -26,6 +27,14 @@ def simple_repair(html: str) -> str:
     5. Promote summary labels (Total, Subtotal) in <tbody> to <th>
     6. Merge "hanging" description rows (e.g. Dates below items)
     """
+    # --- Fix 0: Repair mismatched opening/closing tags ---
+    # <td ...>text</th> and <th ...>text</td> cause html.parser to nest
+    # subsequent sibling cells inside the unclosed element.
+    # Fix by normalising closing tags to match their opener.
+    # [^<]* restricts to plain-text content so we never span across tags.
+    html = re.sub(r'(<td\b[^>]*>)([^<]*)</th>', r'\1\2</td>', html)
+    html = re.sub(r'(<th\b[^>]*>)([^<]*)</td>', r'\1\2</th>', html)
+
     soup = BeautifulSoup(html, 'html.parser')
     table = soup.find('table')
     if not table:
@@ -171,7 +180,7 @@ def simple_repair(html: str) -> str:
             other_cells_empty = all(not c.get_text(strip=True) for c in cells[1:])
             
             # Additional check: Don't merge if it looks like a Summary Row
-            summary_keywords = ['total', 'subtotal', 'amount due', 'amount payable', 'balance', 'tax', 'vat', 'gst']
+            summary_keywords = ['total', 'subtotal', 'sub total', 'amount due', 'amount payable', 'balance', 'tax', 'vat', 'gst']
             is_summary = any(first_cell_text.lower().startswith(kw) for kw in summary_keywords)
             
             # Don't merge if first cell has colspan > 1 (intentional spanning row)
@@ -215,7 +224,7 @@ def simple_repair(html: str) -> str:
     # (Safe to use existing list references if we were careful, but let's be safe)
     actual_rows = get_top_level_rows(table)
     
-    summary_keywords = ['total', 'subtotal', 'amount due', 'amount payable', 'balance', 'tax', 'vat', 'gst']
+    summary_keywords = ['total', 'subtotal', 'sub total', 'amount due', 'amount payable', 'balance', 'tax', 'vat', 'gst']
 
     for idx, row in enumerate(actual_rows):
         cells = row.find_all(['td', 'th'], recursive=False)

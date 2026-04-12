@@ -1,4 +1,4 @@
-from typing import List, Dict, Tuple, Set
+from typing import List, Dict, Tuple
 
 
 def find_headers_for_cell(grid: List[List[Dict]], row: int, col: int) -> Tuple[List[str], List[str]]:
@@ -96,7 +96,7 @@ def find_headers_for_cell(grid: List[List[Dict]], row: int, col: int) -> Tuple[L
         idx = row_header_columns.index(header_col)
         header_text = row_headers[idx].lower()
         
-        summary_keywords = ['total', 'subtotal', 'amount due', 'amount payable', 'balance', 'tax', 'vat', 'gst']
+        summary_keywords = ['total', 'subtotal', 'sub total', 'amount due', 'amount payable', 'balance', 'tax', 'vat', 'gst']
         
         # Check if the row header starts with any summary keyword
         if any(header_text.startswith(kw) for kw in summary_keywords):

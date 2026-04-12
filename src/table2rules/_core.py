@@ -1,11 +1,13 @@
+from collections import defaultdict
 from typing import List
 from bs4 import BeautifulSoup
-from models import LogicRule
-from grid_parser import parse_table_to_grid
-from maze_pathfinder import find_headers_for_cell
-from cleanup import clean_rules
-from simple_repair import simple_repair
-from quality_gate import assess_confidence
+from .models import LogicRule
+from .grid_parser import parse_table_to_grid
+from .maze_pathfinder import find_headers_for_cell
+from .cleanup import clean_rules
+from .simple_repair import simple_repair
+from .quality_gate import assess_confidence
+
 
 def process_table(table_html: str) -> List[LogicRule]:
     """Process a single table and return rules (one per cell)."""
@@ -91,27 +93,25 @@ def group_rules_by_row(rules: List[LogicRule]) -> List[str]:
     Groups rules by row position and serializes each row as a single line.
     Includes BOTH row headers and column data.
     """
-    from collections import defaultdict
-    
     # Group rules by row index
     rows_dict = defaultdict(list)
     for rule in rules:
         row_idx = rule.position[0]
         rows_dict[row_idx].append(rule)
-    
+
     serialized_rows = []
-    
+
     for row_idx in sorted(rows_dict.keys()):
         row_rules = rows_dict[row_idx]
-        
+
         # Sort by column position
         row_rules.sort(key=lambda r: r.position[1])
-        
+
         # Collect row headers (appears once per row)
         row_header_parts = []
         if row_rules[0].row_headers:
             row_header_parts = row_rules[0].row_headers
-        
+
         # Collect column data: "header: value"
         column_parts = []
         for rule in row_rules:
@@ -122,7 +122,7 @@ def group_rules_by_row(rules: List[LogicRule]) -> List[str]:
             else:
                 # No column header (e.g., key-value table) — just output value
                 column_parts.append(rule.outcome.strip())
-        
+
         # Combine: "RowHeader | Col1: Val1 | Col2: Val2"
         if row_header_parts:
             if column_parts:
@@ -131,25 +131,27 @@ def group_rules_by_row(rules: List[LogicRule]) -> List[str]:
                 row_line = " | ".join(row_header_parts)
         else:
             row_line = " | ".join(column_parts)
-        
+
         serialized_rows.append(row_line)
-    
+
     return serialized_rows
 
 
 def process_tables_to_text(html_content: str) -> str:
     """
-    SINGLE ENTRY POINT: HTML → Formatted text.
-    
+    SINGLE ENTRY POINT: HTML -> Formatted text.
+
     Takes HTML content, returns formatted text with one line per table row.
     This is the main function that should be called by external code.
     """
+    if not html_content:
+        return ""
     soup = BeautifulSoup(html_content, 'html.parser')
     all_tables = soup.find_all('table')
-    
+
     if not all_tables:
         return ""
-    
+
     output_chunks = []
 
     # Process only top-level tables (skip nested)
@@ -169,28 +171,10 @@ def process_tables_to_text(html_content: str) -> str:
 
     if not output_chunks:
         return ""
-    
+
     # Format output
     output_lines = ["\n"]
     output_lines.extend(output_chunks)
     output_lines.append("\n\n")
-    
+
     return '\n'.join(output_lines)
-
-
-def main():
-    """Standalone testing entry point."""
-    with open('input.md', 'r', encoding='utf-8') as f:
-        content = f.read()
-    
-    # Use the single entry point
-    result = process_tables_to_text(content)
-
-    with open('output.md', 'w', encoding='utf-8') as f:
-        f.write(result)
-    
-    print(f"Generated table output → output.md")
-
-
-if __name__ == "__main__":
-    main()
