@@ -9,6 +9,31 @@ from .simple_repair import simple_repair
 from .quality_gate import assess_confidence
 
 
+def flatten_table(table_html: str) -> List[str]:
+    """Flat fallback for tables that fail the confidence gate.
+
+    Returns one line per row: cell texts joined with ' | ', skipping empty rows.
+    No header attribution — just readable text for the LLM.
+    """
+    try:
+        soup = BeautifulSoup(table_html, 'html.parser')
+        table = soup.find('table')
+        if not table:
+            return []
+        rows = [r for r in table.find_all('tr') if r.find_parent('table') is table]
+        lines = []
+        for row in rows:
+            cells = row.find_all(['td', 'th'], recursive=False)
+            texts = [c.get_text(strip=True) for c in cells]
+            # Skip completely empty rows
+            if not any(texts):
+                continue
+            lines.append(" | ".join(texts))
+        return lines
+    except Exception:
+        return []
+
+
 def process_table(table_html: str) -> List[LogicRule]:
     """Process a single table and return rules (one per cell)."""
     try:
@@ -166,8 +191,13 @@ def process_tables_to_text(html_content: str) -> str:
             # Group rows per table to avoid row-index collisions across tables
             output_chunks.extend(group_rules_by_row(rules))
         else:
-            # Preserve unparseable table content in-place
-            output_chunks.append(table_html)
+            # Confidence gate failed — emit flat rows (cell text joined with |)
+            # so the LLM gets readable text instead of raw HTML.
+            flat = flatten_table(table_html)
+            if flat:
+                output_chunks.extend(flat)
+            else:
+                output_chunks.append(table_html)
 
     if not output_chunks:
         return ""
