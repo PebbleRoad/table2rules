@@ -98,6 +98,20 @@ def assess_confidence(grid: List[List[Dict]], rules: List[LogicRule]) -> GateRes
             self_echo += 1
     echo_ratio = self_echo / max(1, len(rules))
 
+    # Penalize numeric column headers — real headers are text labels, not values.
+    # A column header like "25.000" or "· 12,000" signals the first row was
+    # data, not a header.  Strip common currency/bullet noise before checking.
+    import re
+    numeric_headers = 0
+    total_col_headers = 0
+    for rule in rules:
+        for h in rule.col_headers:
+            total_col_headers += 1
+            stripped = re.sub(r'[\s\$€£¥·•\-\+,.]', '', h.strip())
+            if stripped.isdigit() and stripped:
+                numeric_headers += 1
+    numeric_header_ratio = numeric_headers / max(1, total_col_headers)
+
     score = (
         (0.45 * coverage)
         + (0.30 * header_ratio)
@@ -117,6 +131,8 @@ def assess_confidence(grid: List[List[Dict]], rules: List[LogicRule]) -> GateRes
         reasons.append("high_duplicate_positions")
     if conflict_ratio > 0.15:
         reasons.append("high_position_conflict")
+    if numeric_header_ratio > 0.30:
+        reasons.append("numeric_column_headers")
 
     # Keep threshold modest so we only fail on clearly weak parses.
     gate_ok = score >= 0.45 and not reasons
