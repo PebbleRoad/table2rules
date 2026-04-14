@@ -1,0 +1,11 @@
+<table>
+    <thead><tr><th>Region</th><th>Sales</th></tr></thead>
+    <tbody>
+        <tr><td>North</td><td>100</td></tr>
+        <tr><td>South</td><td>200</td></tr>
+    </tbody>
+    <tbody>
+        <tr><td>East</td><td>150</td></tr>
+        <tr><td>West</td><td>180</td></tr>
+    </tbody>
+</table>

@@ -1,0 +1,10 @@
+<table>
+    <thead><tr><th>Item</th><th>Qty</th></tr></thead>
+    <tbody>
+        <tr><td></td><td></td></tr>
+        <tr><td>Widget</td><td>10</td></tr>
+        <tr><td></td><td></td></tr>
+        <tr><td></td><td></td></tr>
+        <tr><td>Gadget</td><td>20</td></tr>
+    </tbody>
+</table>

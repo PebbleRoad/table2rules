@@ -9,6 +9,70 @@ from .simple_repair import simple_repair
 from .quality_gate import assess_confidence
 
 
+def _split_compound_tables(soup) -> None:
+    """Split tables with mid-body header resets into separate tables.
+
+    Detects all-<th> rows in the body that redefine column names (e.g. OCR
+    page-break repeats where "Sales" becomes "Returns").  Each section gets
+    its own <table> so it is parsed with the correct headers.
+
+    Operates on the raw soup BEFORE simple_repair to avoid false positives
+    from summary rows promoted to <th>.
+    """
+    for table in list(soup.find_all('table')):
+        rows = [r for r in table.find_all('tr') if r.find_parent('table') is table]
+        if len(rows) < 3:
+            continue
+
+        # Find all-th rows in source markup, but only treat them as
+        # split points when data rows appear in between.  Consecutive
+        # all-th rows at the top are a multi-row header, not a reset.
+        header_indices = []
+        seen_data_row = False
+        for idx, row in enumerate(rows):
+            cells = row.find_all(['td', 'th'], recursive=False)
+            if not cells:
+                continue
+            all_th = len(cells) >= 2 and all(c.name == 'th' for c in cells)
+            if all_th:
+                non_empty = sum(1 for c in cells if c.get_text(strip=True))
+                if non_empty >= len(cells) // 2:
+                    if not seen_data_row:
+                        # Part of the initial header block
+                        if not header_indices:
+                            header_indices.append(idx)
+                    else:
+                        # Data rows seen before this — genuine reset
+                        header_indices.append(idx)
+            elif len(cells) >= 2:
+                # Only multi-cell non-th rows count as data.
+                # Single-cell rows (titles, captions) don't flip the flag.
+                seen_data_row = True
+
+        # Need at least 2 header positions to indicate a reset
+        if len(header_indices) < 2:
+            continue
+
+        # Verify the headers actually differ (same headers = just a repeat,
+        # different = column redefinition — both worth splitting)
+        boundaries = header_indices + [len(rows)]
+        sections_html = []
+        for i in range(len(header_indices)):
+            start = boundaries[i]
+            end = boundaries[i + 1]
+            section_rows = rows[start:end]
+            new_table = soup.new_tag('table')
+            for row in section_rows:
+                row.extract()
+                new_table.append(row)
+            sections_html.append(new_table)
+
+        # Replace original table with the split sections
+        for section in reversed(sections_html):
+            table.insert_after(section)
+        table.decompose()
+
+
 def flatten_table(table_html: str) -> List[str]:
     """Flat fallback for tables that fail the confidence gate.
 
@@ -185,6 +249,13 @@ def process_tables_to_text(html_content: str) -> str:
         return ""
 
     output_chunks = []
+
+    # Pre-process: split compound tables that have mid-body header resets
+    # (all-<th> rows appearing after the first header row with different
+    # column names).  Must happen BEFORE repair to avoid false positives
+    # from summary rows that Fix 5 promotes to <th>.
+    _split_compound_tables(soup)
+    all_tables = soup.find_all('table')
 
     # Process only top-level tables (skip nested)
     for table in all_tables:

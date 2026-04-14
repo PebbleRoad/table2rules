@@ -103,6 +103,7 @@ def assess_confidence(grid: List[List[Dict]], rules: List[LogicRule]) -> GateRes
     # data, not a header.  Strip common currency/bullet noise before checking.
     import re
     numeric_headers = 0
+    placeholder_headers = 0
     total_col_headers = 0
     for rule in rules:
         for h in rule.col_headers:
@@ -110,7 +111,11 @@ def assess_confidence(grid: List[List[Dict]], rules: List[LogicRule]) -> GateRes
             stripped = re.sub(r'[\s\$€£¥·•\-\+,.]', '', h.strip())
             if stripped.isdigit() and stripped:
                 numeric_headers += 1
+            # Placeholder check: only underscores, dashes, dots, or spaces
+            if re.match(r'^[_\-.\s]+$', h.strip()):
+                placeholder_headers += 1
     numeric_header_ratio = numeric_headers / max(1, total_col_headers)
+    placeholder_header_ratio = placeholder_headers / max(1, total_col_headers)
 
     score = (
         (0.45 * coverage)
@@ -133,6 +138,8 @@ def assess_confidence(grid: List[List[Dict]], rules: List[LogicRule]) -> GateRes
         reasons.append("high_position_conflict")
     if numeric_header_ratio > 0.30:
         reasons.append("numeric_column_headers")
+    if placeholder_header_ratio > 0.30:
+        reasons.append("placeholder_column_headers")
 
     # Keep threshold modest so we only fail on clearly weak parses.
     gate_ok = score >= 0.45 and not reasons

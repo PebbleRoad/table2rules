@@ -1,0 +1,8 @@
+
+
+Dept: Electronics | Month: Jan | Sales: 300
+Dept: Electronics | Month: Feb | Sales: 320
+Dept: Electronics | Month: Jan | Returns: 11
+Dept: Electronics | Month: Feb | Returns: 14
+
+

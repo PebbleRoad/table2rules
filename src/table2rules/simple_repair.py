@@ -40,6 +40,19 @@ def simple_repair(html: str) -> str:
     if not table:
         return html
     
+    # --- Fix 9: Inline nested tables ---
+    # Replace <table> elements inside cells with their flattened text
+    # so the outer grid parser sees clean content instead of nested markup.
+    for nested in table.find_all('table'):
+        rows = nested.find_all('tr')
+        lines = []
+        for row in rows:
+            cells = row.find_all(['td', 'th'], recursive=False)
+            texts = [c.get_text(strip=True) for c in cells]
+            if any(texts):
+                lines.append(", ".join(t for t in texts if t))
+        nested.replace_with("; ".join(lines))
+
     actual_rows = get_top_level_rows(table)
     if not actual_rows:
         return html

@@ -1,6 +1,6 @@
 
 
-A-001: Status: Open | Comment: Parent row has nested summary:
+A-001: Status: Open | Comment: Parent row has nested summary: k, v; x, 1
 A-002: Status: Closed | Comment: Normal row
 Total Open: Value: 1
 Total Closed: Value: 1

@@ -319,26 +319,26 @@ Use the benchmark runner to compare all test tables against committed expected o
 
 Test corpus is organized by intent:
 
-- `test tables/smoke/` — minimal sanity checks
-- `test tables/hierarchical/` — multi-level header patterns
-- `test tables/real-world/` — realistic enterprise-style tables
-- `test tables/regression/` — targeted bug/regression cases
-- `test tables/evil/` — adversarial and hostile markup cases
+- `tests/smoke/` — minimal sanity checks
+- `tests/structured/` — proper headers, hierarchical, real-world enterprise tables
+- `tests/adversarial/` — hostile markup, tag mismatches, OCR artifacts, deep nesting
+- `tests/headerless/` — receipts, OCR dumps — flat fallback (no parseable headers)
+- `tests/regression/` — targeted bug fixes
 
 ```bash
-python3 benchmark_tables.py --allow-missing-gold
+python3 tests/benchmark_tables.py --allow-missing-gold
 ```
 
 Create or refresh expected outputs:
 
 ```bash
-python3 benchmark_tables.py --update-gold
+python3 tests/benchmark_tables.py --update-gold
 ```
 
 Compare with unified diffs:
 
 ```bash
-python3 benchmark_tables.py --show-diff
+python3 tests/benchmark_tables.py --show-diff
 ```
 
 ## Safety Contract

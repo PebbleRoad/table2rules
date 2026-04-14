@@ -10,8 +10,8 @@ from typing import List
 from table2rules import process_tables_to_text
 
 
-ROOT = Path(__file__).resolve().parent
-TEST_DIR = ROOT / "test tables"
+ROOT = Path(__file__).resolve().parent.parent
+TEST_DIR = ROOT / "tests"
 BENCH_DIR = ROOT / "benchmarks"
 CURRENT_DIR = BENCH_DIR / "current"
 GOLD_DIR = BENCH_DIR / "gold"

@@ -1,8 +1,0 @@
-
-
-Apples: Qty: 10
-Oranges: Qty: 7
-North: Revenue: $1000
-South: Revenue: $900
-
-

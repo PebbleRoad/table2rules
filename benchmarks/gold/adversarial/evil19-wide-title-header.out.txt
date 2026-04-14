@@ -1,0 +1,6 @@
+
+
+Region: APAC | Rev: 1.2M | Cost: 0.8M | Profit: 0.4M | Margin: 33% | YoY: +12%
+Region: EMEA | Rev: 2.1M | Cost: 1.4M | Profit: 0.7M | Margin: 33% | YoY: +8%
+
+

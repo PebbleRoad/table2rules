@@ -1,0 +1,6 @@
+
+
+Name: أحمد | City: القاهرة | Amount: 1,500
+Name: Alice | City: NYC | Amount: 2,000
+
+

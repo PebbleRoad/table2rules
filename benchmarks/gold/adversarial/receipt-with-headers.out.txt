@@ -1,0 +1,12 @@
+
+
+Item: BASO TAHU | Qty: 1 | Unit Price: 43.636 | Amount: 43.636
+Item: NASI PUTIH | Qty: 1 | Unit Price: 6.000 | Amount: 6.000
+TOTAL: Amount: 49.636
+Item: DPP | Amount: 49.636
+TAX 10.00 %: Amount: 4.964
+Item: GRAND TOTAL | Amount: 54.600
+Item: TUNAI | Amount: 60.100
+Item: KEMBALI | Amount: 5.500
+
+
