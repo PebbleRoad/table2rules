@@ -159,7 +159,14 @@ def group_rules_by_row(rules: List[LogicRule]) -> List[str]:
 
         serialized_rows.append(row_line)
 
-    return serialized_rows
+    # Drop identical rows (e.g. from rowspan copies producing the same rule)
+    seen = set()
+    unique = []
+    for row in serialized_rows:
+        if row not in seen:
+            seen.add(row)
+            unique.append(row)
+    return unique
 
 
 def process_tables_to_text(html_content: str) -> str:

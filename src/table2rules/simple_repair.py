@@ -193,18 +193,25 @@ def simple_repair(html: str) -> str:
             if first_cell_text and other_cells_empty and not is_summary and not has_colspan and not is_single_cell_row:
                 is_sparse = True
         
-        # Condition 2: Previous row has data
+        # Condition 2: Previous row has data and no active rowspan
         if is_sparse and i > 0:
             prev_row = actual_rows[i-1]
             prev_cells = prev_row.find_all(['td', 'th'], recursive=False)
-            
+
             # Check if previous row has data in columns 1+
             # (This prevents merging two section headers together)
             has_data = False
             if len(prev_cells) > 1:
                 has_data = any(c.get_text(strip=True) for c in prev_cells[1:])
-            
-            if has_data:
+
+            # Don't merge if the previous row has a rowspan that covers
+            # the current row — the sparse row is a sub-item within a
+            # rowspan group, not a wrapped description.
+            has_active_rowspan = any(
+                int(c.get('rowspan', 1)) > 1 for c in prev_cells
+            )
+
+            if has_data and not has_active_rowspan:
                 # MERGE LOGIC:
                 # Append current text to previous row's first cell
                 separator = " "  # Use space or newline

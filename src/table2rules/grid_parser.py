@@ -323,11 +323,18 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
     # For tables with <thead>, detect leading body columns that contain
     # cells with rowspan > 1.  These are grouping/dimensional columns
     # whose values serve as row identifiers, not data.
-    # Only promote when at least 2 leading columns have rowspan patterns —
-    # a single column with rowspan is typically just a grouped value that
-    # should keep its column header label.
+    #
+    # Two signals (intersected):
+    #   A) Body signal: leading columns where at least one cell has rowspan > 1.
+    #   B) Header signal (multi-row thead only): in the first header row,
+    #      columns whose cell spans the full header depth (rowspan == depth)
+    #      are row-identifier columns.  Columns with sub-headers below them
+    #      are data columns.  This caps how many columns can be promoted.
+    #
+    # Only promote when at least 2 columns qualify.
     if has_thead and data_start_row_idx < len(grid):
-        dimensional_cols = []
+        # --- Signal A: body rowspan patterns ---
+        body_dimensional = []
         for c in range(max_cols):
             col_has_rowspan = False
             for r in range(data_start_row_idx, len(grid)):
@@ -337,12 +344,26 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
                     col_has_rowspan = True
                     break
             if col_has_rowspan:
-                dimensional_cols.append(c)
+                body_dimensional.append(c)
             else:
                 break  # Stop at first non-dimensional column
 
-        if len(dimensional_cols) >= 2:
-            for c in dimensional_cols:
+        # --- Signal B: full-depth header columns (multi-row headers) ---
+        if data_start_row_idx >= 2:
+            full_depth_count = 0
+            for c in range(max_cols):
+                cell = grid[0][c]
+                if (cell and cell.get('is_thead')
+                        and not cell.get('is_span_copy')
+                        and cell.get('rowspan', 1) == data_start_row_idx):
+                    full_depth_count += 1
+                else:
+                    break  # Stop at first non-full-depth header
+            # Cap body signal at the header-derived count
+            body_dimensional = body_dimensional[:full_depth_count]
+
+        if len(body_dimensional) >= 2:
+            for c in body_dimensional:
                 for r in range(data_start_row_idx, len(grid)):
                     cell = grid[r][c]
                     if cell and cell['type'] == 'td':
