@@ -25,6 +25,14 @@ def clean_rules(rules: List[LogicRule]) -> List[LogicRule]:
             if re.search(r'^\d+\s+\w+.*?\d+\s+\w+', text):
                 continue
 
+        # Drop self-echo rules: value identical to its column header.
+        # These come from body rows that repeat the header text (OCR artifacts,
+        # page-break header repeats).  They carry zero information.
+        if rule.col_headers and rule.outcome.strip().lower() in (
+            h.strip().lower() for h in rule.col_headers
+        ):
+            continue
+
         cleaned_conditions = deduplicate_headers(rule.conditions)
         cleaned_row_headers = deduplicate_headers(rule.row_headers)
         cleaned_col_headers = deduplicate_headers(rule.col_headers)
