@@ -1,0 +1,15 @@
+
+
+Section | Metric | Value
+North | Revenue | $120
+Cost | USD80
+North | Notes | line 1line 2*
+Section | Metric | Value
+South | Revenue | 130
+South | Cost | 90
+South | Cost | 91
+South |  | 
+Total |  | 220
+Legend: * includes one-off adjustment
+
+

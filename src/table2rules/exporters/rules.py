@@ -23,14 +23,26 @@ class RulesExporter:
     name = "rules"
 
     def export_rules(self, rules: List[LogicRule]) -> List[str]:
+        # Sort by (row, col) so output follows reading order.
+        #
+        # Dedup is *origin-aware*: a single source cell expanded across
+        # multiple positions via rowspan/colspan can produce identical
+        # lines, which we collapse. But two different source cells that
+        # happen to render identically (e.g. two rows each with Qty: 1)
+        # are kept — dropping either would silently lose data.
         ordered = sorted(rules, key=lambda r: r.position)
         lines: List[str] = []
-        seen = set()
+        seen_by_origin: dict = {}
         for rule in ordered:
             line = self._format_rule(rule)
-            if line and line not in seen:
-                seen.add(line)
-                lines.append(line)
+            if not line:
+                continue
+            origin = rule.origin
+            if origin is not None and seen_by_origin.get(origin) == line:
+                continue
+            if origin is not None:
+                seen_by_origin[origin] = line
+            lines.append(line)
         return lines
 
     def export_flat(self, cell_rows: List[List[str]]) -> List[str]:

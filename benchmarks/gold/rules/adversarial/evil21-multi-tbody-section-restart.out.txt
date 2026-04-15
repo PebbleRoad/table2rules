@@ -1,0 +1,16 @@
+
+
+Dept: Sales
+Metric: Revenue
+Value: 120
+Dept: Sales
+Metric: Profit
+Value: 35
+Dept: Support
+Metric: Tickets
+Value: 89
+Dept: Support
+Metric: CSAT
+Value: 4.7
+
+

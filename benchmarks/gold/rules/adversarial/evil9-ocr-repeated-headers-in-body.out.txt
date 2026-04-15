@@ -10,6 +10,13 @@ B | Disability payout: 300% of Sum Assured
 B | Amount payable (S$) > Basic: 600,000
 B | Classic: 1,500,000
 B | Elite: 3,000,000
+B | Claim event(s): Accidental Major Permanent Disablement 3 (I) Total & Permanent Disability, Loss of Both Arms/Legs, One Arm & One Leg, Sight in Both Eyes, One Arm/Leg & Sight in One Eye, Complete spinal traction loss including sensory and motor dysfunction from navel downwards
+B | Disability payout: 300% of Sum Assured
+B | Amount payable (S$) > Basic: 600,000
+B | Classic: 1,500,000
+B | Elite: 3,000,000
+B | Claim event(s): Accidental Major Permanent Disablement 3 (I) Total & Permanent Disability, Loss of Both Arms/Legs, One Arm & One Leg, Sight in Both Eyes, One Arm/Leg & Sight in One Eye, Complete spinal traction loss including sensory and motor dysfunction from navel downwards
+B | Disability payout: 300% of Sum Assured
 B | Amount payable (S$) > Basic: 900,000
 B | Classic: 2,250,000
 B | Elite: 4,500,000
@@ -34,6 +41,7 @@ Accidental Other Permanent Disablement 3 (II) Loss of Speech, all Hearing in One
 Accidental Other Permanent Disablement 3 (II) Loss of Speech, all Hearing in One Ear, Thumb (both phalanges), All Toes in One Foot | Amount payable (S$) > Basic: 50,000
 Accidental Other Permanent Disablement 3 (II) Loss of Speech, all Hearing in One Ear, Thumb (both phalanges), All Toes in One Foot | Classic: 125,000
 Accidental Other Permanent Disablement 3 (II) Loss of Speech, all Hearing in One Ear, Thumb (both phalanges), All Toes in One Foot | Elite: 250,000
+With Benefit Booster 4 | Claim event(s): C
 With Benefit Booster 4 | Classic: 75,000
 With Benefit Booster 4 | Elite: 187,500
 Accidental Other Permanent Disablement 3 (III) Loss of Thumb (One phalanx), Big Toe, Index Finger (3/2/1 phalanges per hand) | Claim event(s): C
@@ -41,6 +49,7 @@ Accidental Other Permanent Disablement 3 (III) Loss of Thumb (One phalanx), Big 
 Accidental Other Permanent Disablement 3 (III) Loss of Thumb (One phalanx), Big Toe, Index Finger (3/2/1 phalanges per hand) | Amount payable (S$) > Basic: 15,000
 Accidental Other Permanent Disablement 3 (III) Loss of Thumb (One phalanx), Big Toe, Index Finger (3/2/1 phalanges per hand) | Classic: 37,500
 Accidental Other Permanent Disablement 3 (III) Loss of Thumb (One phalanx), Big Toe, Index Finger (3/2/1 phalanges per hand) | Elite: 75,000
+With Benefit Booster 4 | Claim event(s): C
 With Benefit Booster 4 | Classic: 22,500
 With Benefit Booster 4 | Elite: 56,250
 Accidental Other Permanent Disablement 3 (IV) Loss of Any Other Finger (3/2/1 phalanges per hand), Any other Toe | Claim event(s): 2.5% of Sum Assured

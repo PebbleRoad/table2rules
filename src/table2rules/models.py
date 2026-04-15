@@ -6,10 +6,13 @@ from dataclasses import dataclass
 class LogicRule:
     conditions: List[str]          # Kept for backward compatibility
     outcome: str
-    position: Tuple[int, int]
+    position: Tuple[int, int]      # Expanded grid position (post-span)
     is_footer: bool = False
     row_headers: List[str] = None  # Entity/subject dimension
     col_headers: List[str] = None  # Attribute/measurement dimension
+    origin: Tuple[int, int] = None # Source cell position (pre-span); used to
+                                   # collapse span-expanded duplicates without
+                                   # eating legitimate cross-row duplicates
     
     def __post_init__(self):
         # Initialize as empty lists if None

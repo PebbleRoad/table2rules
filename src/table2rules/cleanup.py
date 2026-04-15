@@ -43,7 +43,8 @@ def clean_rules(rules: List[LogicRule]) -> List[LogicRule]:
             position=rule.position,
             is_footer=rule.is_footer,
             row_headers=cleaned_row_headers,
-            col_headers=cleaned_col_headers
+            col_headers=cleaned_col_headers,
+            origin=rule.origin,
         ))
     
     return cleaned

@@ -1,0 +1,9 @@
+
+
+North | Q1 > Revenue: 100
+North | Q1 > Cost: 60
+North > 110 | Q1 > Cost: 62
+South | Q1 > Revenue: 90
+South | Q1 > Cost: 55
+
+

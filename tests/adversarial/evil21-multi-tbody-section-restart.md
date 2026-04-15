@@ -1,0 +1,14 @@
+<table>
+  <thead>
+    <tr><th>Dept</th><th>Metric</th><th>Value</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Sales</td><td>Revenue</td><td>120</td></tr>
+    <tr><td>Sales</td><td>Profit</td><td>35</td></tr>
+  </tbody>
+  <tbody>
+    <tr><th>Dept</th><th>Metric</th><th>Value</th></tr>
+    <tr><td>Support</td><td>Tickets</td><td>89</td></tr>
+    <tr><td>Support</td><td>CSAT</td><td>4.7</td></tr>
+  </tbody>
+</table>

@@ -82,7 +82,6 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
 
     # --- UNIVERSAL HEADER LOGIC ---
     
-    num_row_headers = 1
     data_start_row_idx = 0
     has_thead = table.find('thead') is not None
 
@@ -90,10 +89,6 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
         # --- Logic for tables WITH <thead> ---
         thead = table.find('thead')
         data_start_row_idx = len(thead.find_all('tr', recursive=False))
-        
-        # For tables with <thead>, default to 1 row header column
-        # This is the safest assumption - most tables have a single identifier column
-        num_row_headers = 1
 
     else:
         # --- Logic for "Headless" tables (NO <thead>) ---
@@ -125,22 +120,6 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
             cells = get_row_cells(actual_rows[main_header_row_idx], table)
             header_row_span = max(int(cell.get('rowspan', 1)) for cell in cells) or 1
 
-            # Learn num_row_headers:
-            # If there is vertical structure (rowspan > 1), treat all leading cells
-            # with that rowspan as row-header columns (like Section / Claim event(s)).
-            # Otherwise, default to a single row-header column.
-            if header_row_span > 1:
-                num_row_headers = 0
-                for cell in cells:
-                    if int(cell.get('rowspan', 1)) == header_row_span:
-                        num_row_headers += 1
-                    else:
-                        break
-                if num_row_headers == 0:
-                    num_row_headers = 1
-            else:
-                num_row_headers = 1
-
             # Data starts after the header row span
             data_start_row_idx = main_header_row_idx + header_row_span
 
@@ -161,13 +140,6 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
                     main_header_row_idx = idx
                     header_row_span = first_cell_rowspan
                     found_header_row = True
-
-                    num_row_headers = 0
-                    for cell in cells:
-                        if int(cell.get('rowspan', 1)) == header_row_span:
-                            num_row_headers += 1
-                        else:
-                            break
                     break
 
             if found_header_row:
@@ -179,7 +151,6 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
                     cells = get_row_cells(row, table)
                     if len(cells) > 1:
                         data_start_row_idx = idx + 1
-                        num_row_headers = 1
                         break
                 if data_start_row_idx == 0:
                     data_start_row_idx = 1
@@ -241,7 +212,6 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
         return []
     
     # Clamp inferred structure to valid ranges
-    num_row_headers = max(0, min(num_row_headers, max_cols))
     data_start_row_idx = max(0, min(data_start_row_idx, len(actual_rows)))
 
     # Phase 2: Create empty grid

@@ -69,7 +69,20 @@ def simple_repair(html: str) -> str:
             
     if first_meaningful_row:
         cells = first_meaningful_row.find_all(['td', 'th'], recursive=False)
-        if len(cells) == 1 and int(cells[0].get('colspan', 1)) >= 4:
+        # Treat the first row as a title iff it is a single cell whose colspan
+        # covers the full width of the remaining rows (width >= 2). This
+        # captures 2-col and 3-col tables correctly without over-promoting.
+        later_widths = [
+            len(r.find_all(['td', 'th'], recursive=False))
+            for r in actual_rows[first_meaningful_row_index + 1:]
+        ]
+        max_later_width = max(later_widths, default=0)
+        first_cell_span = int(cells[0].get('colspan', 1))
+        if (
+            len(cells) == 1
+            and max_later_width >= 2
+            and first_cell_span >= max_later_width
+        ):
             title_text = cells[0].get_text(strip=True)
             caption = table.find('caption')
             if caption:

@@ -26,51 +26,76 @@ def _split_compound_tables(soup) -> None:
 
         # Find all-th rows in source markup, but only treat them as
         # split points when data rows appear in between.  Consecutive
-        # all-th rows at the top are a multi-row header, not a reset.
+        # all-th rows (top or post-data) form a single multi-row header,
+        # not separate boundaries.  Summary rows that simple_repair later
+        # promotes to <th> (e.g. "Total", "Subtotal") must not be treated
+        # as boundaries either.
+        SUMMARY_LABELS = {"total", "subtotal", "sub total", "grand total"}
         header_indices = []
         seen_data_row = False
+        prev_was_header_row = False
         for idx, row in enumerate(rows):
             cells = row.find_all(['td', 'th'], recursive=False)
             if not cells:
                 continue
             all_th = len(cells) >= 2 and all(c.name == 'th' for c in cells)
-            if all_th:
+            looks_like_summary = any(
+                c.get_text(strip=True).lower() in SUMMARY_LABELS for c in cells
+            )
+            if all_th and not looks_like_summary:
                 non_empty = sum(1 for c in cells if c.get_text(strip=True))
                 if non_empty >= len(cells) // 2:
                     if not seen_data_row:
                         # Part of the initial header block
                         if not header_indices:
                             header_indices.append(idx)
-                    else:
-                        # Data rows seen before this — genuine reset
+                    elif not prev_was_header_row:
+                        # Genuine reset (previous content row was data, not
+                        # another header row continuing a multi-row header)
                         header_indices.append(idx)
+                prev_was_header_row = True
             elif len(cells) >= 2:
                 # Only multi-cell non-th rows count as data.
                 # Single-cell rows (titles, captions) don't flip the flag.
                 seen_data_row = True
+                prev_was_header_row = False
+            else:
+                prev_was_header_row = False
 
         # Need at least 2 header positions to indicate a reset
         if len(header_indices) < 2:
             continue
 
         # Verify the headers actually differ (same headers = just a repeat,
-        # different = column redefinition — both worth splitting)
+        # different = column redefinition — both worth splitting).
+        # Also require every proposed section to contain at least one
+        # multi-cell data row; header-only sections are never useful and
+        # indicate a bogus boundary.
         boundaries = header_indices + [len(rows)]
-        sections_html = []
         for i in range(len(header_indices)):
-            start = boundaries[i]
-            end = boundaries[i + 1]
-            section_rows = rows[start:end]
-            new_table = soup.new_tag('table')
-            for row in section_rows:
-                row.extract()
-                new_table.append(row)
-            sections_html.append(new_table)
-
-        # Replace original table with the split sections
-        for section in reversed(sections_html):
-            table.insert_after(section)
-        table.decompose()
+            section_rows = rows[boundaries[i]:boundaries[i + 1]]
+            has_data = any(
+                len(r.find_all(['td', 'th'], recursive=False)) >= 2
+                and any(c.name == 'td' for c in r.find_all(['td', 'th'], recursive=False))
+                for r in section_rows
+            )
+            if not has_data:
+                break
+        else:
+            # Every section has data — proceed with split.
+            sections_html = []
+            for i in range(len(header_indices)):
+                start = boundaries[i]
+                end = boundaries[i + 1]
+                section_rows = rows[start:end]
+                new_table = soup.new_tag('table')
+                for row in section_rows:
+                    row.extract()
+                    new_table.append(row)
+                sections_html.append(new_table)
+            for section in reversed(sections_html):
+                table.insert_after(section)
+            table.decompose()
 
 
 def _extract_cell_rows(table_html: str) -> List[List[str]]:
@@ -154,7 +179,8 @@ def process_table(table_html: str) -> List[LogicRule]:
                             position=(target_row, target_col),
                             is_footer=cell.get('is_footer', False),
                             row_headers=row_headers,
-                            col_headers=col_headers
+                            col_headers=col_headers,
+                            origin=(row_idx, col_idx),
                         )
 
                         rules.append(rule)
