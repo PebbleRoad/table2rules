@@ -145,15 +145,34 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
             if found_header_row:
                 data_start_row_idx = main_header_row_idx + header_row_span
             else:
-                # Last-resort fallback: first non-title, non-empty row,
-                # with a single row-header column.
+                # Last-resort fallback: promote row 0 to header only if it
+                # LOOKS like a header row (all cells non-empty, no numeric
+                # values). Otherwise leave data_start_row_idx = 0 so every
+                # row is treated as data; the confidence gate will then
+                # reject the parse for low header attachment and the flat
+                # exporter will emit readable pipe-joined rows instead of
+                # smearing a bogus header across real data.
+                first_multi_cell_idx = None
                 for idx, row in enumerate(actual_rows):
                     cells = get_row_cells(row, table)
                     if len(cells) > 1:
-                        data_start_row_idx = idx + 1
+                        first_multi_cell_idx = idx
                         break
-                if data_start_row_idx == 0:
-                    data_start_row_idx = 1
+
+                # Only treat row 0 as a header if every cell is non-empty.
+                # Empty cells in row 0 signal a header-less table (receipts
+                # where columns shift between rows); smearing such a row
+                # across every data cell produces garbage.
+                def _looks_like_header_row(cells) -> bool:
+                    texts = [c.get_text(strip=True) for c in cells]
+                    return bool(texts) and all(t for t in texts)
+
+                if first_multi_cell_idx is not None and _looks_like_header_row(
+                    get_row_cells(actual_rows[first_multi_cell_idx], table)
+                ):
+                    data_start_row_idx = first_multi_cell_idx + 1
+                else:
+                    data_start_row_idx = 0
 
     # --- END HEADER HEURISTIC ---
 

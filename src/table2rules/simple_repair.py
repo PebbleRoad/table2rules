@@ -310,11 +310,18 @@ def simple_repair(html: str) -> str:
             if all_td:
                 first_cell_colspan = int(cells[0].get('colspan', 1))
                 is_section_header = (
-                    first_cell_colspan == 1 and 
-                    len(cells) > 1 and 
+                    first_cell_colspan == 1 and
+                    len(cells) > 1 and
                     all(not cell.get_text(strip=True) for cell in cells[1:])
                 )
-                if first_cell_colspan == 1 and not is_section_header:
+                # Only promote to headers if every cell is non-empty. Real
+                # header rows don't have blanks — if row 0 has empty cells,
+                # it's data (typical of receipts where amount columns shift
+                # between rows). Numeric cells are allowed here; the
+                # confidence gate catches numeric column headers later.
+                texts = [c.get_text(strip=True) for c in cells]
+                looks_header_like = bool(texts) and all(t for t in texts)
+                if first_cell_colspan == 1 and not is_section_header and looks_header_like:
                     for cell in cells:
                         cell.name = 'th'
     
