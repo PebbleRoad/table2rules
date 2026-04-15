@@ -4,6 +4,7 @@ import argparse
 import sys
 
 from ._core import process_tables_to_text
+from .exporters import DEFAULT_FORMAT, available_exporters
 
 
 def main() -> None:
@@ -22,6 +23,12 @@ def main() -> None:
         default="-",
         help="Output file (default: stdout)",
     )
+    parser.add_argument(
+        "-f", "--format",
+        default=DEFAULT_FORMAT,
+        choices=available_exporters(),
+        help=f"Output exporter (default: {DEFAULT_FORMAT})",
+    )
     args = parser.parse_args()
 
     # Read input
@@ -38,7 +45,7 @@ def main() -> None:
             print(f"error: is a directory: {args.input}", file=sys.stderr)
             sys.exit(1)
 
-    result = process_tables_to_text(html)
+    result = process_tables_to_text(html, format=args.format)
 
     # Write output
     if args.output == "-":

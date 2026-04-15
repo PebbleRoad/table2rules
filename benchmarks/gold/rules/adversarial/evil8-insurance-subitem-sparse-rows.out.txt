@@ -1,0 +1,18 @@
+
+
+D | Claim event(s): Accidental Medical Expenses Reimbursement
+D | Disability payout: Limit Insured per accident (up to)
+D | Amount payable (S$) > Basic: 3,000
+D | Classic: 4,000
+D | Elite: 5,000
+D | Claim event(s): With Benefit Booster 4
+D | Disability payout: 4,500
+D | Amount payable (S$) > Basic: 6,000
+D | Classic: 7,500
+D | Claim event(s): For claim under Complementary Medicine Practitioner and/or Allied Health Professional
+D | Disability payout: Sub-limit 6 per accident
+D | Classic: 1,000
+D | Claim event(s): For claim under Sickness 5
+D | Amount payable (S$) > Basic: 500
+
+

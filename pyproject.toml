@@ -23,6 +23,11 @@ classifiers = [
     "Topic :: Text Processing :: Markup :: HTML",
 ]
 
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+]
+
 [project.scripts]
 table2rules = "table2rules.__main__:main"
 
@@ -31,3 +36,7 @@ Repository = "https://github.com/pebbleroad/table2rules"
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+

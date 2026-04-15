@@ -1,0 +1,9 @@
+
+
+Total | Amount: 300
+Item: Widget
+Amount: 100
+Item: Gadget
+Amount: 200
+
+

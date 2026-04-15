@@ -1,0 +1,15 @@
+
+
+Region: North
+Product: Widget A revamp urgent
+Q1: 120
+Q2: 150
+Product: Widget B note: delayed
+Q1: 98
+Q2: 101
+Region: South
+Product: Widget C
+Q1: 111
+Q2: 109
+
+

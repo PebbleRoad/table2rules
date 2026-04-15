@@ -1,0 +1,76 @@
+
+
+Program Atlas > Aquila | Phase Gates > Discovery > Plan: Jan
+Program Atlas > Aquila | Phase Gates > Discovery > Actual: Jan
+Program Atlas > Aquila | Phase Gates > Build > Plan: Mar
+Program Atlas > Aquila | Phase Gates > Build > Actual: Apr
+Program Atlas > Aquila | Phase Gates > Launch > Plan: Jun
+Program Atlas > Aquila | Phase Gates > Launch > Actual: Jun
+Program Atlas > Aquila | Budget (USD M) > CapEx: 5.2
+Program Atlas > Aquila | Budget (USD M) > OpEx: 1.1
+Program Atlas > Aquila | FY Total: 6.3
+Program Atlas > Aquila | Status: On Track
+Program Atlas > Aquila | Notes: Launch locked with GA window.
+Program Atlas > Borealis | Phase Gates > Discovery > Plan: Feb
+Program Atlas > Borealis | Phase Gates > Discovery > Actual: Mar
+Program Atlas > Borealis | Phase Gates > Build > Plan: May
+Program Atlas > Borealis | Phase Gates > Build > Actual: Jun
+Program Atlas > Borealis | Phase Gates > Launch > Plan: Aug
+Program Atlas > Borealis | Phase Gates > Launch > Actual: Sep
+Program Atlas > Borealis | Budget (USD M) > CapEx: 3.0
+Program Atlas > Borealis | Budget (USD M) > OpEx: 0.8
+Program Atlas > Borealis | FY Total: 3.8
+Program Atlas > Borealis | Status: Slight Delay
+Program Atlas > Borealis | Notes: Vendor dependency pushed build by 2 weeks.
+Program Atlas > Carina | Phase Gates > Discovery > Plan: Paused — phases deferred to FY2026 †
+Program Atlas > Carina | Phase Gates > Discovery > Actual: Paused — phases deferred to FY2026 †
+Program Atlas > Carina | Phase Gates > Build > Plan: Paused — phases deferred to FY2026 †
+Program Atlas > Carina | Phase Gates > Build > Actual: Paused — phases deferred to FY2026 †
+Program Atlas > Carina | Phase Gates > Launch > Plan: Paused — phases deferred to FY2026 †
+Program Atlas > Carina | Phase Gates > Launch > Actual: Paused — phases deferred to FY2026 †
+Program Atlas > Carina | Budget (USD M) > CapEx: 0.0
+Program Atlas > Carina | Budget (USD M) > OpEx: 0.1
+Program Atlas > Carina | FY Total: 0.1
+Program Atlas > Carina | Status: Paused
+Program Atlas > Carina | Notes: Board deferral pending market conditions.
+Program Atlas > Program Atlas — Subtotal | FY Total: 10.2
+Program Atlas > Program Atlas — Subtotal | Status: —
+Program Atlas > Program Atlas — Subtotal | Notes: Includes contingency in Aquila.
+Program Nimbus > Daedalus | Phase Gates > Discovery > Plan: Jan
+Program Nimbus > Daedalus | Phase Gates > Discovery > Actual: Jan
+Program Nimbus > Daedalus | Phase Gates > Build > Plan: Feb
+Program Nimbus > Daedalus | Phase Gates > Build > Actual: Feb
+Program Nimbus > Daedalus | Phase Gates > Launch > Plan: Apr
+Program Nimbus > Daedalus | Phase Gates > Launch > Actual: Apr
+Program Nimbus > Daedalus | Budget (USD M) > CapEx: 4.5
+Program Nimbus > Daedalus | Budget (USD M) > OpEx: 0.6
+Program Nimbus > Daedalus | FY Total: 5.1
+Program Nimbus > Daedalus | Status: On Track
+Program Nimbus > Daedalus | Notes: CapEx shared with sibling project.
+Program Nimbus > Icarus | Phase Gates > Discovery > Plan: —
+Program Nimbus > Icarus | Phase Gates > Discovery > Actual: —
+Program Nimbus > Icarus | Phase Gates > Build > Plan: Mar
+Program Nimbus > Icarus | Phase Gates > Build > Actual: Mar
+Program Nimbus > Icarus | Phase Gates > Launch > Plan: May
+Program Nimbus > Icarus | Phase Gates > Launch > Actual: Jun
+Program Nimbus > Icarus | Budget (USD M) > CapEx: 4.5
+Program Nimbus > Icarus | Budget (USD M) > OpEx: 0.9
+Program Nimbus > Icarus | FY Total: 5.4
+Program Nimbus > Icarus | Status: Risk Watch
+Program Nimbus > Icarus | Notes: Launch dependency on Daedalus testbed.
+Program Nimbus > Orion Suite | Phase Gates > Discovery > Plan: Consolidated Pilot (Disc+Build)
+Program Nimbus > Orion Suite | Phase Gates > Discovery > Actual: Consolidated Pilot (Disc+Build)
+Program Nimbus > Orion Suite | Phase Gates > Build > Plan: Consolidated Pilot (Disc+Build)
+Program Nimbus > Orion Suite | Phase Gates > Build > Actual: Consolidated Pilot (Disc+Build)
+Program Nimbus > Orion Suite | Phase Gates > Launch > Plan: Oct
+Program Nimbus > Orion Suite | Phase Gates > Launch > Actual: —
+Program Nimbus > Orion Suite | Budget (USD M) > CapEx: 2.4
+Program Nimbus > Orion Suite | Budget (USD M) > OpEx: 0.7
+Program Nimbus > Orion Suite | FY Total: 3.1
+Program Nimbus > Orion Suite | Status: Planned
+Program Nimbus > Orion Suite | Notes: Pilot feedback gates launch.
+Program Nimbus > Program Nimbus — Subtotal | FY Total: 13.6
+Program Nimbus > Program Nimbus — Subtotal | Status: —
+Program Nimbus > Program Nimbus — Subtotal | Notes: Shared CapEx counted once.
+
+

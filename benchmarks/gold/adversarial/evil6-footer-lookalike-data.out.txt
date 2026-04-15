@@ -1,7 +1,0 @@
-
-
-Widget A: Qty: 10 | Remark: Normal
-Widget B: Qty: 20 | Remark: Priority
-Total Exposure: Qty: 30 | Remark: Real business label, not a legend
-
-

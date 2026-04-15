@@ -20,24 +20,29 @@ Table2Rules is built as a structural transformer, not a table-type classifier. I
 
 ## Output Format
 
-Rules express table data in a natural, parseable format:
+The default `rules` exporter emits **one self-contained rule per line** — every line carries the full row-header path and full column-header path, so an LLM never loses context across rows:
 
 ```
-Row Headers → Column Headers: Value
+<row-path> | <col-path>: <value>
 ```
+
+- `>` joins nested header levels (e.g. `Q1 > Sales > Rev`)
+- `|` separates the row-header path from the column-header path
+- `:` precedes the value
 
 **Examples:**
 ```
-January → Revenue: $50,000
-North America | Dr. Smith (Boston) → Treatment Outcomes | Drug A | Primary Endpoint | Responders: 67%
 Name: John Smith
+January | Revenue: $50,000
+North | Q1 Sales > Revenue: $50,000
+NA > East | Q1 > Sales > Rev: 100
 ```
 
 This format:
-- ✅ Preserves two-dimensional structure (entity vs attribute)
-- ✅ Is trivially parseable (delimiters: `|`, `→`, `:`)
-- ✅ Uses semantic names (actual headers, not generic labels)
-- ✅ Works for LLM embeddings and schema extraction
+- Preserves two-dimensional hierarchy without losing span/nesting structure (unlike Markdown or CSV, which cannot represent complex tables)
+- Is trivially parseable (delimiters: `>`, `|`, `:`)
+- Is **chunk-safe** — every line is self-contained, so RAG splitters can break anywhere without orphaning rows from their headers
+- Is backed by the table-understanding literature (TIDE, ICLR 2025; ASTRA, 2025), which found that full-header-path fact lines beat flat/delimited formats for LLM comprehension on hierarchical tables
 
 ---
 
@@ -61,7 +66,7 @@ pip install -e .
 from table2rules import process_tables_to_text
 
 html = open("page.html").read()
-rules = process_tables_to_text(html)
+rules = process_tables_to_text(html)           # default: format="rules"
 print(rules)
 ```
 
@@ -77,8 +82,47 @@ table2rules report.html -o rules.txt
 # Pipe
 cat report.html | table2rules
 
+# Pick an exporter
+table2rules report.html --format rules
+
 # Module form
 python3 -m table2rules report.html
+```
+
+### Exporters (pluggable output formats)
+
+Output formatting is pluggable. Built-in: `rules` (default, one fact per line).
+Third parties can add custom exporters without forking:
+
+```python
+from table2rules import Exporter, register_exporter, process_tables_to_text
+
+class JsonlExporter:
+    name = "jsonl"
+
+    def export_rules(self, rules):
+        import json
+        return [
+            json.dumps({
+                "row": " > ".join(r.row_headers),
+                "col": " > ".join(r.col_headers),
+                "value": r.outcome.strip(),
+            })
+            for r in rules
+        ]
+
+    def export_flat(self, cell_rows):
+        return [" | ".join(r) for r in cell_rows if any(r)]
+
+register_exporter(JsonlExporter())
+print(process_tables_to_text(html, format="jsonl"))
+```
+
+List available exporters:
+
+```python
+from table2rules import available_exporters
+available_exporters()   # -> ['rules']
 ```
 
 ---
@@ -124,11 +168,11 @@ python3 -m table2rules report.html
                               │
                               ▼
 ┌─────────────────────────────────────────────────────────────┐
-│  Phase 4: OUTPUT (_core.py)                                  │
+│  Phase 4: OUTPUT (_core.py + exporters/)                     │
 │  ─────────────────────────────────────────────────────────  │
 │  • Generate LogicRule for each data cell                    │
-│  • Group by row for serialization                           │
-│  • Format: Row Headers → Column Headers: Value              │
+│  • Pluggable exporter turns rules into text lines           │
+│  • Default: <row-path> | <col-path>: <value>                │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -216,6 +260,7 @@ All core modules live in `src/table2rules/`.
 | `quality_gate.py` | Confidence scoring; fail-open gate |
 | `cleanup.py` | Post-processing deduplication and filtering |
 | `models.py` | `LogicRule` dataclass |
+| `exporters/` | Pluggable output exporters (protocol + registry + built-ins) |
 | `__main__.py` | CLI entry point |
 
 ---
@@ -246,7 +291,9 @@ Department: Engineering
 </table>
 ```
 ```
-Product: Widget | Price: $19.99 | Stock: 150
+Product: Widget
+Price: $19.99
+Stock: 150
 ```
 
 ### Multi-Level Headers
@@ -262,8 +309,8 @@ Product: Widget | Price: $19.99 | Stock: 150
 </table>
 ```
 ```
-North → Q1 Sales | Revenue: $50,000
-North → Q1 Sales | Units: 500
+North | Q1 Sales > Revenue: $50,000
+North | Q1 Sales > Units: 500
 ```
 
 ### Complex Hierarchical Table
@@ -289,10 +336,10 @@ North → Q1 Sales | Units: 500
 </table>
 ```
 ```
-NA | East → Q1 | Sales | Rev: 100
-NA | East → Q1 | Sales | Cost: 80
-NA | West → Q1 | Sales | Rev: 120
-NA | West → Q1 | Sales | Cost: 90
+NA > East | Q1 > Sales > Rev: 100
+NA > East | Q1 > Sales > Cost: 80
+NA > West | Q1 > Sales > Rev: 120
+NA > West | Q1 > Sales > Cost: 90
 ```
 
 ---
@@ -304,20 +351,18 @@ Tested on increasingly complex tables:
 | Table Type | Structure | Result |
 |------------|-----------|--------|
 | Key-Value | 2 cols, th+td pattern | ✅ `Name: John` |
-| Invoice | No thead, implicit headers | ✅ `Item: Widget \| Qty: 2` |
-| SLA Report | 2-row thead, colspan | ✅ `High → SLA Met \| Yes: 5` |
-| Schedule | 3-row thead, body rowspan | ✅ `AI → Day 1 \| AM: Keynote` |
-| Financial | 3-level headers, rowgroups | ✅ `NA \| East → Q1 \| Sales \| Rev: 100` |
-| Benefits | Mixed colspan in body | ✅ `Health \| Medical → Level \| Junior: $100` |
+| Invoice | No thead, implicit headers | ✅ `Widget \| Qty: 2` |
+| SLA Report | 2-row thead, colspan | ✅ `High \| SLA Met > Yes: 5` |
+| Schedule | 3-row thead, body rowspan | ✅ `AI \| Day 1 > AM: Keynote` |
+| Financial | 3-level headers, rowgroups | ✅ `NA > East \| Q1 > Sales > Rev: 100` |
+| Benefits | Mixed colspan in body | ✅ `Health > Medical \| Level > Junior: $100` |
 | **Clinical Trial** | **4-row thead, 3 regions, 9 sites, 12 columns** | ✅ **100 rules extracted correctly** |
 
 ---
 
 ## Benchmarking
 
-Use the benchmark runner to compare all test tables against committed expected outputs.
-
-Test corpus is organized by intent:
+The test corpus is organized by intent:
 
 - `tests/smoke/` — minimal sanity checks
 - `tests/structured/` — proper headers, hierarchical, real-world enterprise tables
@@ -325,21 +370,31 @@ Test corpus is organized by intent:
 - `tests/headerless/` — receipts, OCR dumps — flat fallback (no parseable headers)
 - `tests/regression/` — targeted bug fixes
 
-```bash
-python3 tests/benchmark_tables.py --allow-missing-gold
-```
-
-Create or refresh expected outputs:
+### Run the test suite
 
 ```bash
-python3 tests/benchmark_tables.py --update-gold
+pip install -e '.[dev]'
+pytest
 ```
 
-Compare with unified diffs:
+Every fixture under `tests/` is run via [tests/test_corpus.py](tests/test_corpus.py) and compared to the committed gold output under `benchmarks/gold/rules/`.
+
+### Maintenance scripts
+
+`scripts/benchmark.py` is a richer harness for diffing and refreshing gold:
 
 ```bash
-python3 tests/benchmark_tables.py --show-diff
+# Run and diff current output vs gold
+python3 scripts/benchmark.py --show-diff
+
+# Refresh expected outputs after an intentional format change
+python3 scripts/benchmark.py --update-gold
+
+# Pick an exporter (default: rules)
+python3 scripts/benchmark.py --format rules
 ```
+
+`scripts/fuzz.py` generates randomized hostile inputs for the parser.
 
 ## Safety Contract
 
@@ -359,10 +414,10 @@ This module is designed to be fail-open on hostile table markup:
 
 **Clinical Trial Output (sample):**
 ```
-North America | Dr. Smith (Boston) → Treatment Outcomes | Drug A (Experimental) | Primary Endpoint | Responders: 67%
-Europe | Dr. Dubois (Paris) → Treatment Outcomes | Drug A (Experimental) | Primary Endpoint | p-value: <0.001
-Asia-Pacific | Dr. Tanaka (Tokyo) → Treatment Outcomes | Placebo (Control) | Secondary Endpoint | 95% CI: [-2.3, 4.7]
-Pooled Analysis (All Sites) → Treatment Outcomes | Drug A (Experimental) | Primary Endpoint | Responders: 68%
+North America > Dr. Smith (Boston) | Treatment Outcomes > Drug A (Experimental) > Primary Endpoint > Responders: 67%
+Europe > Dr. Dubois (Paris) | Treatment Outcomes > Drug A (Experimental) > Primary Endpoint > p-value: <0.001
+Asia-Pacific > Dr. Tanaka (Tokyo) | Treatment Outcomes > Placebo (Control) > Secondary Endpoint > 95% CI: [-2.3, 4.7]
+Pooled Analysis (All Sites) | Treatment Outcomes > Drug A (Experimental) > Primary Endpoint > Responders: 68%
 ```
 
 ---

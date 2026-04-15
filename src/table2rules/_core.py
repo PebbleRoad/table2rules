@@ -1,5 +1,4 @@
-from collections import defaultdict
-from typing import List
+from typing import List, Union
 from bs4 import BeautifulSoup
 from .models import LogicRule
 from .grid_parser import parse_table_to_grid
@@ -7,6 +6,7 @@ from .maze_pathfinder import find_headers_for_cell
 from .cleanup import clean_rules
 from .simple_repair import simple_repair
 from .quality_gate import assess_confidence
+from .exporters import DEFAULT_FORMAT, Exporter, get_exporter
 
 
 def _split_compound_tables(soup) -> None:
@@ -73,29 +73,25 @@ def _split_compound_tables(soup) -> None:
         table.decompose()
 
 
-def flatten_table(table_html: str) -> List[str]:
-    """Flat fallback for tables that fail the confidence gate.
-
-    Returns one line per row: cell texts joined with ' | ', skipping empty rows.
-    No header attribution — just readable text for the LLM.
-    """
+def _extract_cell_rows(table_html: str) -> List[List[str]]:
+    """Return raw cell text for each row (header-free). Used as gate-fail fallback."""
     try:
         soup = BeautifulSoup(table_html, 'html.parser')
         table = soup.find('table')
         if not table:
             return []
         rows = [r for r in table.find_all('tr') if r.find_parent('table') is table]
-        lines = []
+        out: List[List[str]] = []
         for row in rows:
             cells = row.find_all(['td', 'th'], recursive=False)
             texts = [c.get_text(strip=True) for c in cells]
-            # Skip completely empty rows
-            if not any(texts):
-                continue
-            lines.append(" | ".join(texts))
-        return lines
+            if any(texts):
+                out.append(texts)
+        return out
     except Exception:
         return []
+
+
 
 
 def process_table(table_html: str) -> List[LogicRule]:
@@ -177,69 +173,19 @@ def process_table(table_html: str) -> List[LogicRule]:
         return []
 
 
-def group_rules_by_row(rules: List[LogicRule]) -> List[str]:
-    """
-    Groups rules by row position and serializes each row as a single line.
-    Includes BOTH row headers and column data.
-    """
-    # Group rules by row index
-    rows_dict = defaultdict(list)
-    for rule in rules:
-        row_idx = rule.position[0]
-        rows_dict[row_idx].append(rule)
-
-    serialized_rows = []
-
-    for row_idx in sorted(rows_dict.keys()):
-        row_rules = rows_dict[row_idx]
-
-        # Sort by column position
-        row_rules.sort(key=lambda r: r.position[1])
-
-        # Collect row headers (appears once per row)
-        row_header_parts = []
-        if row_rules[0].row_headers:
-            row_header_parts = row_rules[0].row_headers
-
-        # Collect column data: "header: value"
-        column_parts = []
-        for rule in row_rules:
-            # Get full column header hierarchy (joined with |)
-            if rule.col_headers:
-                header = " | ".join(rule.col_headers)
-                column_parts.append(f"{header}: {rule.outcome.strip()}")
-            else:
-                # No column header (e.g., key-value table) — just output value
-                column_parts.append(rule.outcome.strip())
-
-        # Combine: "RowHeader | Col1: Val1 | Col2: Val2"
-        if row_header_parts:
-            if column_parts:
-                row_line = " | ".join(row_header_parts) + ": " + " | ".join(column_parts)
-            else:
-                row_line = " | ".join(row_header_parts)
-        else:
-            row_line = " | ".join(column_parts)
-
-        serialized_rows.append(row_line)
-
-    # Drop identical rows (e.g. from rowspan copies producing the same rule)
-    seen = set()
-    unique = []
-    for row in serialized_rows:
-        if row not in seen:
-            seen.add(row)
-            unique.append(row)
-    return unique
-
-
-def process_tables_to_text(html_content: str) -> str:
+def process_tables_to_text(
+    html_content: str,
+    format: Union[str, Exporter] = DEFAULT_FORMAT,
+) -> str:
     """
     SINGLE ENTRY POINT: HTML -> Formatted text.
 
-    Takes HTML content, returns formatted text with one line per table row.
-    This is the main function that should be called by external code.
+    Args:
+        html_content: raw HTML containing one or more <table> elements.
+        format: exporter name (e.g. "rules") or an Exporter instance.
+                Defaults to "rules" (one rule per line, full header paths).
     """
+    exporter = get_exporter(format)
     if not html_content:
         return ""
     soup = BeautifulSoup(html_content, 'html.parser')
@@ -266,12 +212,11 @@ def process_tables_to_text(html_content: str) -> str:
         rules = process_table(table_html)
 
         if rules:
-            # Group rows per table to avoid row-index collisions across tables
-            output_chunks.extend(group_rules_by_row(rules))
+            output_chunks.extend(exporter.export_rules(rules))
         else:
-            # Confidence gate failed — emit flat rows (cell text joined with |)
-            # so the LLM gets readable text instead of raw HTML.
-            flat = flatten_table(table_html)
+            # Confidence gate failed — fall back to header-free cell rows.
+            cell_rows = _extract_cell_rows(table_html)
+            flat = exporter.export_flat(cell_rows) if cell_rows else []
             if flat:
                 output_chunks.extend(flat)
             else:

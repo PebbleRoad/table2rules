@@ -1,0 +1,13 @@
+
+
+US > East | Latency (ms) > P50: 12
+US > East | Latency (ms) > P95: 30
+US > East | Latency (ms) > P99: 70
+US > Central | Latency (ms) > P95: 41
+US > West | Latency (ms) > P50: degraded
+US > West | Latency (ms) > P95: degraded
+US > West | Latency (ms) > P99: 120
+EU > Paris | Latency (ms) > P50: 15
+EU > Paris | Latency (ms) > P99: 90
+
+
