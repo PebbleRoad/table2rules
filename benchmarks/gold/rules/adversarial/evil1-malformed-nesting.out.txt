@@ -1,5 +1,3 @@
-
-
 Region: North
 Product: Widget A revamp urgent
 Q1: 120
@@ -11,5 +9,3 @@ Region: South
 Product: Widget C
 Q1: 111
 Q2: 109
-
-

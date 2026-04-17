@@ -1,6 +1,2 @@
-
-
 Item: Pen
 Qty: 2
-
-

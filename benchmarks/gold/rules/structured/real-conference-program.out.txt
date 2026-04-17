@@ -1,5 +1,3 @@
-
-
 Day 1 Mon, 12 May > 09:00 | Tracks > A — Main Hall: Opening Keynote: Systems at Planet Scale — Dr. R. Ibarra Simulcast to all rooms
 Day 1 Mon, 12 May > 09:00 | Tracks > B — Data: Opening Keynote: Systems at Planet Scale — Dr. R. Ibarra Simulcast to all rooms
 Day 1 Mon, 12 May > 09:00 | Tracks > C — AI: Opening Keynote: Systems at Planet Scale — Dr. R. Ibarra Simulcast to all rooms
@@ -86,5 +84,3 @@ Day 2 Tue, 13 May > 15:00 | Tracks > B — Data: Wrap-up & Awards
 Day 2 Tue, 13 May > 15:00 | Tracks > C — AI: Office Hours: Research
 Day 2 Tue, 13 May > 15:00 | Tracks > D — Design: —
 Day 2 Tue, 13 May > 15:00 | Notes: Feedback survey
-
-

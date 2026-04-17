@@ -1,8 +1,4 @@
-
-
 Item: Widget
 Qty: 10
 Item: Gadget
 Qty: 20
-
-

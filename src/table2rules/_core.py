@@ -1,3 +1,4 @@
+import logging
 from typing import List, Union
 from bs4 import BeautifulSoup
 from .models import LogicRule
@@ -196,6 +197,7 @@ def process_table(table_html: str) -> List[LogicRule]:
         return rules
     except Exception:
         # Fail open for hostile / pathological table markup
+        logging.debug("process_table failed on input, returning empty", exc_info=True)
         return []
 
 
@@ -251,9 +253,4 @@ def process_tables_to_text(
     if not output_chunks:
         return ""
 
-    # Format output
-    output_lines = ["\n"]
-    output_lines.extend(output_chunks)
-    output_lines.append("\n\n")
-
-    return '\n'.join(output_lines)
+    return '\n'.join(output_chunks)

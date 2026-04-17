@@ -1,5 +1,3 @@
-
-
 Dept: Sales
 Metric: Revenue
 Value: 120
@@ -12,5 +10,3 @@ Value: 89
 Dept: Support
 Metric: CSAT
 Value: 4.7
-
-

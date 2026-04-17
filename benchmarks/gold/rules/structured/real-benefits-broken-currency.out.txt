@@ -1,5 +1,3 @@
-
-
 Section: A
 Claim event(s): Accidental Death (includes death from food poisoning)
 Benefits payable: Sum Assured
@@ -38,5 +36,3 @@ Benefits payable: Disability Payout
 Benefits payable > Basic: 150% of Benefits payable under Section A, B, C or D'
 Benefits payable > Classic: 150% of Benefits payable under Section A, B, C or D'
 Benefits payable > Elite: 150% of Benefits payable under Section A, B, C or D'
-
-

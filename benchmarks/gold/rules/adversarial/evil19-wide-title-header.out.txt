@@ -1,5 +1,3 @@
-
-
 Region: APAC
 Rev: 1.2M
 Cost: 0.8M
@@ -12,5 +10,3 @@ Cost: 1.4M
 Profit: 0.7M
 Margin: 33%
 YoY: +8%
-
-

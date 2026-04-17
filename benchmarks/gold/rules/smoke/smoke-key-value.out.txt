@@ -1,6 +1,2 @@
-
-
 Name: John Smith
 Department: Engineering
-
-

@@ -1,5 +1,3 @@
-
-
 AI | Day 1 > 09:00: Opening Keynote
 AI | Day 1 > 14:00: Deploying at Scale
 AI | Day 2 > 09:00: Prompt Design
@@ -16,5 +14,3 @@ Data | Day 1 > 09:00: Warehouse Tuning
 Data | Day 1 > 14:00: Note: Bring your own laptop for the hands-on lab.
 Data | Day 2 > 09:00: —
 Data | Day 2 > 14:00: Cost Controls
-
-

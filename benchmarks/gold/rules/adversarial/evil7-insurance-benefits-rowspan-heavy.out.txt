@@ -1,5 +1,3 @@
-
-
 A > Accidental Death (includes food poisoning) > Sum Assured | Amount payable (S$) > Basic: 200,000
 A > Accidental Death (includes food poisoning) > Sum Assured | Classic: 500,000
 A > Accidental Death (includes food poisoning) > Sum Assured | Elite: 1,000,000
@@ -33,5 +31,3 @@ Accidental Other Permanent Disablement 3 (IV) Loss of Any Other Finger (3/2/1 ph
 With Benefit Booster 4 | Amount payable (S$) > Basic: 7,500
 With Benefit Booster 4 | Classic: 18,750
 With Benefit Booster 4 | Elite: 37,500
-
-

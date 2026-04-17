@@ -1,5 +1,3 @@
-
-
 Section | Metric | Value
 North | Revenue | $120
 Cost | USD80
@@ -11,5 +9,3 @@ South | Cost | 91
 South |  | 
 Total |  | 220
 Legend: * includes one-off adjustment
-
-

@@ -1,5 +1,3 @@
-
-
 A | Claim event(s): Accidental Death (includes food poisoning)
 A | Disability payout: Sum Assured
 A | Amount payable (S$) > Basic: 200,000
@@ -73,5 +71,3 @@ D | Disability payout: Sub-limit 6 per accident
 D | Classic: 1,000
 D | Claim event(s): For claim under Sickness 5
 D | Amount payable (S$) > Basic: 500
-
-

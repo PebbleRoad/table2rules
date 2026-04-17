@@ -1,8 +1,4 @@
-
-
 Feature: Auth
 Description: Supports: OAuth 2.0 SAML API keys See docs for details.
 Feature: Storage
 Description: S3-compatible
-
-

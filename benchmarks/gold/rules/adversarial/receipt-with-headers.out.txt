@@ -1,5 +1,3 @@
-
-
 Item: BASO TAHU
 Qty: 1
 Unit Price: 43.636
@@ -18,5 +16,3 @@ Item: TUNAI
 Amount: 60.100
 Item: KEMBALI
 Amount: 5.500
-
-

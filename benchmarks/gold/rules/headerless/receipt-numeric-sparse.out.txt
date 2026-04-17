@@ -1,5 +1,3 @@
-
-
 JUMLAH: |  | 185.900
 DIBAYAR |  | 200.000
 KEMBALI: |  | 14.100
@@ -13,5 +11,3 @@ SATE PADANG | 30.000 |
 NASI GORENG | 60.000 | 
 SUBTL | 169.000 | 
 TAX 10% | 16.900 | 
-
-

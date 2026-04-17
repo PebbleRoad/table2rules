@@ -1,5 +1,3 @@
-
-
 Program Atlas > Aquila | Phase Gates > Discovery > Plan: Jan
 Program Atlas > Aquila | Phase Gates > Discovery > Actual: Jan
 Program Atlas > Aquila | Phase Gates > Build > Plan: Mar
@@ -72,5 +70,3 @@ Program Nimbus > Orion Suite | Notes: Pilot feedback gates launch.
 Program Nimbus > Program Nimbus — Subtotal | FY Total: 13.6
 Program Nimbus > Program Nimbus — Subtotal | Status: —
 Program Nimbus > Program Nimbus — Subtotal | Notes: Shared CapEx counted once.
-
-

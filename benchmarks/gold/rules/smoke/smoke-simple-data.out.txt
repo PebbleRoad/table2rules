@@ -1,6 +1,2 @@
-
-
 Widget | Price: $19.99
 Widget | Stock: 150
-
-

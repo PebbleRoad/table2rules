@@ -1,5 +1,3 @@
-
-
 D | Claim event(s): Accidental Medical Expenses Reimbursement
 D | Disability payout: Limit Insured per accident (up to)
 D | Amount payable (S$) > Basic: 3,000
@@ -14,5 +12,3 @@ D | Disability payout: Sub-limit 6 per accident
 D | Classic: 1,000
 D | Claim event(s): For claim under Sickness 5
 D | Amount payable (S$) > Basic: 500
-
-
