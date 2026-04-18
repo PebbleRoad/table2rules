@@ -101,21 +101,33 @@ def assess_confidence(grid: List[List[Dict]], rules: List[LogicRule]) -> GateRes
     # Penalize numeric column headers — real headers are text labels, not values.
     # A column header like "25.000" or "· 12,000" signals the first row was
     # data, not a header.  Strip common currency/bullet noise before checking.
+    #
+    # Flag a RULE only when the ENTIRE column-header stack is numeric. Multi-
+    # level headers where the bottom level is numeric (e.g. a year label
+    # '2018' under a text group 'Year Ended December 31,') are legitimate
+    # financial / statistical / sports tables and must not trigger the guard.
     import re
-    numeric_headers = 0
-    placeholder_headers = 0
-    total_col_headers = 0
+
+    def _is_numeric_token(h: str) -> bool:
+        stripped = re.sub(r'[\s\$€£¥·•\-\+,.]', '', h.strip())
+        return bool(stripped) and stripped.isdigit()
+
+    def _is_placeholder_token(h: str) -> bool:
+        return bool(re.match(r'^[_\-.\s]+$', h.strip()))
+
+    rules_all_numeric_col = 0
+    rules_all_placeholder_col = 0
+    rules_with_col_headers = 0
     for rule in rules:
-        for h in rule.col_headers:
-            total_col_headers += 1
-            stripped = re.sub(r'[\s\$€£¥·•\-\+,.]', '', h.strip())
-            if stripped.isdigit() and stripped:
-                numeric_headers += 1
-            # Placeholder check: only underscores, dashes, dots, or spaces
-            if re.match(r'^[_\-.\s]+$', h.strip()):
-                placeholder_headers += 1
-    numeric_header_ratio = numeric_headers / max(1, total_col_headers)
-    placeholder_header_ratio = placeholder_headers / max(1, total_col_headers)
+        if not rule.col_headers:
+            continue
+        rules_with_col_headers += 1
+        if all(_is_numeric_token(h) for h in rule.col_headers):
+            rules_all_numeric_col += 1
+        if all(_is_placeholder_token(h) for h in rule.col_headers):
+            rules_all_placeholder_col += 1
+    numeric_header_ratio = rules_all_numeric_col / max(1, rules_with_col_headers)
+    placeholder_header_ratio = rules_all_placeholder_col / max(1, rules_with_col_headers)
 
     score = (
         (0.45 * coverage)

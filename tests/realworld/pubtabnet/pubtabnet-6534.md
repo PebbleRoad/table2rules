@@ -1,0 +1,616 @@
+<!-- source: PubTabNet imgid=6534 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+<b>
+       Rater
+      </b>
+</td>
+<td>
+<b>
+       Quality of outcome
+      </b>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+<b>
+       Relative importance of outcome
+      </b>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+<b>
+       Overall quality
+      </b>
+</td>
+<td>
+<b>
+       Balance benefits vs harm
+      </b>
+</td>
+<td>
+<b>
+       Recommendation
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+</td>
+<td>
+      Depression severity
+     </td>
+<td>
+      Transient side effects
+     </td>
+<td>
+      Poisining fatalities
+     </td>
+<td>
+      Depression severity
+     </td>
+<td>
+      Transient side effects
+     </td>
+<td>
+      Poisining fatalities
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      1
+     </td>
+<td>
+      H
+     </td>
+<td>
+      H
+     </td>
+<td>
+      Vl
+     </td>
+<td>
+      7
+     </td>
+<td>
+      9
+     </td>
+<td>
+      9
+     </td>
+<td>
+      H or Vl
+     </td>
+<td>
+      Uncertain net benefit
+     </td>
+<td>
+      Don't do it
+     </td>
+</tr>
+<tr>
+<td>
+      2
+     </td>
+<td>
+      M
+     </td>
+<td>
+      M
+     </td>
+<td>
+      Vl
+     </td>
+<td>
+      9
+     </td>
+<td>
+      6
+     </td>
+<td>
+      7
+     </td>
+<td>
+      Vl
+     </td>
+<td>
+      Net benefit
+     </td>
+<td>
+      Probably do it
+     </td>
+</tr>
+<tr>
+<td>
+      3
+     </td>
+<td>
+      H
+     </td>
+<td>
+      H
+     </td>
+<td>
+      M
+     </td>
+<td>
+      8
+     </td>
+<td>
+      7
+     </td>
+<td>
+      9
+     </td>
+<td>
+      H
+     </td>
+<td>
+      Uncertain net benefit
+     </td>
+<td>
+      Toss up
+     </td>
+</tr>
+<tr>
+<td>
+      4
+     </td>
+<td>
+      H
+     </td>
+<td>
+      H
+     </td>
+<td>
+      L
+     </td>
+<td>
+      6
+     </td>
+<td>
+      5
+     </td>
+<td>
+      6
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      5
+     </td>
+<td>
+      M
+     </td>
+<td>
+      M
+     </td>
+<td>
+      M
+     </td>
+<td>
+      9
+     </td>
+<td>
+      6
+     </td>
+<td>
+      8
+     </td>
+<td>
+      M
+     </td>
+<td>
+      Net benefit
+     </td>
+<td>
+      Do it
+     </td>
+</tr>
+<tr>
+<td>
+      6
+     </td>
+<td>
+      M
+     </td>
+<td>
+      M
+     </td>
+<td>
+      Vl
+     </td>
+<td>
+      9
+     </td>
+<td>
+      6
+     </td>
+<td>
+      9
+     </td>
+<td>
+      Vl
+     </td>
+<td>
+      Net benefit
+     </td>
+<td>
+      Do it
+     </td>
+</tr>
+<tr>
+<td>
+      7
+     </td>
+<td>
+      M
+     </td>
+<td>
+      M
+     </td>
+<td>
+      L
+     </td>
+<td>
+      8
+     </td>
+<td>
+      7
+     </td>
+<td>
+      8
+     </td>
+<td>
+      L
+     </td>
+<td>
+      Net benefit
+     </td>
+<td>
+      Do it
+     </td>
+</tr>
+<tr>
+<td>
+      8
+     </td>
+<td>
+      H
+     </td>
+<td>
+      H
+     </td>
+<td>
+      Vl
+     </td>
+<td>
+      9
+     </td>
+<td>
+      5
+     </td>
+<td>
+      3
+     </td>
+<td>
+      H
+     </td>
+<td>
+      Net benefit
+     </td>
+<td>
+      Probably do it
+     </td>
+</tr>
+<tr>
+<td>
+      9
+     </td>
+<td>
+      M
+     </td>
+<td>
+      M
+     </td>
+<td>
+      L
+     </td>
+<td>
+      9
+     </td>
+<td>
+      6
+     </td>
+<td>
+      8
+     </td>
+<td>
+      L
+     </td>
+<td>
+      Net benefit
+     </td>
+<td>
+      Probably do it
+     </td>
+</tr>
+<tr>
+<td>
+      10
+     </td>
+<td>
+      M
+     </td>
+<td>
+      M
+     </td>
+<td>
+      L
+     </td>
+<td>
+      9
+     </td>
+<td>
+      7
+     </td>
+<td>
+      8
+     </td>
+<td>
+      L
+     </td>
+<td>
+      Net benefit
+     </td>
+<td>
+      Probably do it
+     </td>
+</tr>
+<tr>
+<td>
+      11
+     </td>
+<td>
+      H
+     </td>
+<td>
+      H
+     </td>
+<td>
+      L
+     </td>
+<td>
+      8
+     </td>
+<td>
+      5
+     </td>
+<td>
+      7
+     </td>
+<td>
+      L
+     </td>
+<td>
+      Trade offs
+     </td>
+<td>
+      Probably do it
+     </td>
+</tr>
+<tr>
+<td>
+      12
+     </td>
+<td>
+      H
+     </td>
+<td>
+      H
+     </td>
+<td>
+      L
+     </td>
+<td>
+      8
+     </td>
+<td>
+      5
+     </td>
+<td>
+      7
+     </td>
+<td>
+      L
+     </td>
+<td>
+      Trade offs
+     </td>
+<td>
+      Probably do it
+     </td>
+</tr>
+<tr>
+<td>
+      13
+     </td>
+<td>
+      M
+     </td>
+<td>
+      H
+     </td>
+<td>
+      M
+     </td>
+<td>
+      9
+     </td>
+<td>
+      7
+     </td>
+<td>
+      9
+     </td>
+<td>
+      M
+     </td>
+<td>
+      Net benefit
+     </td>
+<td>
+      Do it
+     </td>
+</tr>
+<tr>
+<td>
+      14
+     </td>
+<td>
+      M
+     </td>
+<td>
+      M
+     </td>
+<td>
+      L
+     </td>
+<td>
+      9
+     </td>
+<td>
+      9
+     </td>
+<td>
+      5 OR 9
+     </td>
+<td>
+      M
+     </td>
+<td>
+      Net benefit
+     </td>
+<td>
+      Probably do it
+     </td>
+</tr>
+<tr>
+<td>
+      15
+     </td>
+<td>
+      M
+     </td>
+<td>
+      M
+     </td>
+<td>
+      Vl
+     </td>
+<td>
+      9
+     </td>
+<td>
+      6
+     </td>
+<td>
+      8
+     </td>
+<td>
+      Vl
+     </td>
+<td>
+      Uncertain net benefit
+     </td>
+<td>
+      Toss up
+     </td>
+</tr>
+<tr>
+<td>
+      16
+     </td>
+<td>
+      M
+     </td>
+<td>
+      M
+     </td>
+<td>
+      Vl
+     </td>
+<td>
+      9
+     </td>
+<td>
+      5
+     </td>
+<td>
+      9
+     </td>
+<td>
+      Vl
+     </td>
+<td>
+      Not net benefit
+     </td>
+<td>
+      Don't do it
+     </td>
+</tr>
+<tr>
+<td>
+      17
+     </td>
+<td>
+      M
+     </td>
+<td>
+      M
+     </td>
+<td>
+      M
+     </td>
+<td>
+      9
+     </td>
+<td>
+      9
+     </td>
+<td>
+      9
+     </td>
+<td>
+      M
+     </td>
+<td>
+      Net benefit
+     </td>
+<td>
+      Toss up
+     </td>
+</tr>
+</tbody>
+</table>

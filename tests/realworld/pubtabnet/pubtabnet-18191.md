@@ -1,0 +1,317 @@
+<!-- source: PubTabNet imgid=18191 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+<b>
+       GenBank accession no.
+      </b>
+</td>
+<td>
+<b>
+       Mic.sat. clone name
+      </b>
+</td>
+<td>
+<b>
+       No. of clones observed in secondary hybridisation
+      </b>
+</td>
+<td>
+<b>
+       Verified by PCR
+      </b>
+</td>
+<td>
+<b>
+       Positive PCR product on unassigned clones
+      </b>
+</td>
+<td>
+<b>
+       Total no. of clones verified by PCR
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      AF256671
+     </td>
+<td>
+      BHMS-175
+     </td>
+<td>
+      28
+     </td>
+<td>
+      28
+     </td>
+<td>
+      7
+     </td>
+<td>
+      35
+     </td>
+</tr>
+<tr>
+<td>
+      AF256676
+     </td>
+<td>
+      BHMS-189
+     </td>
+<td>
+      24
+     </td>
+<td>
+      21
+     </td>
+<td>
+      5
+     </td>
+<td>
+      26
+     </td>
+</tr>
+<tr>
+<td>
+      AF256678
+     </td>
+<td>
+      BHMS-201
+     </td>
+<td>
+      9
+     </td>
+<td>
+      9
+     </td>
+<td>
+      4
+     </td>
+<td>
+      13
+     </td>
+</tr>
+<tr>
+<td>
+      AF256741
+     </td>
+<td>
+      BHMS-289
+     </td>
+<td>
+      19
+     </td>
+<td>
+      18
+     </td>
+<td>
+      5
+     </td>
+<td>
+      23
+     </td>
+</tr>
+<tr>
+<td>
+      AF256698
+     </td>
+<td>
+      BHMS-304
+     </td>
+<td>
+      19
+     </td>
+<td>
+      18
+     </td>
+<td>
+      6
+     </td>
+<td>
+      24
+     </td>
+</tr>
+<tr>
+<td>
+      AF256748
+     </td>
+<td>
+      BHMS-330
+     </td>
+<td>
+      12
+     </td>
+<td>
+      12
+     </td>
+<td>
+      1
+     </td>
+<td>
+      13
+     </td>
+</tr>
+<tr>
+<td>
+      AF256746
+     </td>
+<td>
+      BHMS-349
+     </td>
+<td>
+      23
+     </td>
+<td>
+      23
+     </td>
+<td>
+      4
+     </td>
+<td>
+      27
+     </td>
+</tr>
+<tr>
+<td>
+      AF256719
+     </td>
+<td>
+      BHMS-429
+     </td>
+<td>
+      42
+     </td>
+<td>
+      42
+     </td>
+<td>
+      29
+     </td>
+<td>
+      71
+     </td>
+</tr>
+<tr>
+<td>
+      AF256693
+     </td>
+<td>
+      BHMS-278
+     </td>
+<td>
+      8
+     </td>
+<td>
+      *
+     </td>
+<td>
+      *
+     </td>
+<td>
+      *
+     </td>
+</tr>
+<tr>
+<td>
+      AF256848
+     </td>
+<td>
+      BHMS-255
+     </td>
+<td>
+      24
+     </td>
+<td>
+      #
+     </td>
+<td>
+      #
+     </td>
+<td>
+      #
+     </td>
+</tr>
+<tr>
+<td>
+      AF256750
+     </td>
+<td>
+      BHMS-337
+     </td>
+<td>
+      21
+     </td>
+<td>
+      5
+     </td>
+<td>
+      29
+     </td>
+<td>
+      34
+     </td>
+</tr>
+<tr>
+<td>
+      AF256714
+     </td>
+<td>
+      BHMS-396
+     </td>
+<td>
+      4
+     </td>
+<td>
+      3
+     </td>
+<td>
+      1
+     </td>
+<td>
+      4
+     </td>
+</tr>
+<tr>
+<td>
+      Total number of clones:
+     </td>
+<td>
+</td>
+<td>
+      233
+     </td>
+<td>
+      179
+     </td>
+<td>
+      91
+     </td>
+<td>
+      270
+     </td>
+</tr>
+<tr>
+<td>
+      Average
+     </td>
+<td>
+</td>
+<td>
+      19.4
+     </td>
+<td>
+      19.9
+     </td>
+<td>
+      9.1
+     </td>
+<td>
+      27.0
+     </td>
+</tr>
+</tbody>
+</table>

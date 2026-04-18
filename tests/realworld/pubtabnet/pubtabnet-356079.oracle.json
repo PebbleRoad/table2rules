@@ -1,0 +1,784 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "100",
+    "117",
+    "130",
+    "133",
+    "145",
+    "176",
+    "181",
+    "202",
+    "206",
+    "210",
+    "218",
+    "23",
+    "238",
+    "251",
+    "26.2",
+    "263",
+    "265",
+    "27",
+    "288",
+    "291",
+    "324",
+    "33.6",
+    "333",
+    "339",
+    "35.5",
+    "352",
+    "368",
+    "37.0",
+    "381",
+    "383",
+    "39.3",
+    "40.2",
+    "41.0",
+    "41.1",
+    "41.2",
+    "41.3",
+    "42.3",
+    "42.5",
+    "44.4",
+    "446",
+    "45.4",
+    "46",
+    "46.2",
+    "50.0",
+    "52.4",
+    "57.0",
+    "57.7",
+    "58.6",
+    "59.0",
+    "60.3",
+    "62.4",
+    "62.6",
+    "62.9",
+    "63.6",
+    "64.9",
+    "65.1",
+    "66.7",
+    "86",
+    "87.0",
+    "88",
+    "<0.0001",
+    "<0.0005",
+    "<0.001",
+    "<0.005",
+    "Back pain",
+    "Chest pain",
+    "Constipation, loose bowels, or diarrhoea",
+    "Dizziness",
+    "Fainting spells",
+    "Feeling tired or having low energy",
+    "Headaches",
+    "Menstrual cramps",
+    "NS",
+    "Nausea, gas, or indigestion",
+    "No",
+    "Number*",
+    "P-value",
+    "PPH %",
+    "Pain in arms, legs & joints",
+    "Pain or problems during sexual intercourse",
+    "Palpitations",
+    "Shortness of breath",
+    "Stomach pain",
+    "Symptoms",
+    "Trouble sleeping",
+    "Yes"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Symptoms"
+      ],
+      "value": "Stomach pain"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "Yes"
+      ],
+      "value": "130"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "No"
+      ],
+      "value": "339"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "Yes"
+      ],
+      "value": "60.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "No"
+      ],
+      "value": "41.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "P-value"
+      ],
+      "value": "<0.0005"
+    },
+    {
+      "row": [],
+      "col": [
+        "Symptoms"
+      ],
+      "value": "Back pain"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "Yes"
+      ],
+      "value": "218"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "No"
+      ],
+      "value": "251"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "Yes"
+      ],
+      "value": "59.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "No"
+      ],
+      "value": "35.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "P-value"
+      ],
+      "value": "<0.0001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Symptoms"
+      ],
+      "value": "Pain in arms, legs & joints"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "Yes"
+      ],
+      "value": "288"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "No"
+      ],
+      "value": "181"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "Yes"
+      ],
+      "value": "52.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "No"
+      ],
+      "value": "37.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "P-value"
+      ],
+      "value": "<0.005"
+    },
+    {
+      "row": [],
+      "col": [
+        "Symptoms"
+      ],
+      "value": "Menstrual cramps"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "Yes"
+      ],
+      "value": "46"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "No"
+      ],
+      "value": "210"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "Yes"
+      ],
+      "value": "50.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "No"
+      ],
+      "value": "46.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "P-value"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Symptoms"
+      ],
+      "value": "Headaches"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "Yes"
+      ],
+      "value": "176"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "No"
+      ],
+      "value": "291"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "Yes"
+      ],
+      "value": "57.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "No"
+      ],
+      "value": "40.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "P-value"
+      ],
+      "value": "<0.001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Symptoms"
+      ],
+      "value": "Chest pain"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "Yes"
+      ],
+      "value": "100"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "No"
+      ],
+      "value": "368"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "Yes"
+      ],
+      "value": "66.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "No"
+      ],
+      "value": "41.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "P-value"
+      ],
+      "value": "<0.0001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Symptoms"
+      ],
+      "value": "Dizziness"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "Yes"
+      ],
+      "value": "133"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "No"
+      ],
+      "value": "333"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "Yes"
+      ],
+      "value": "64.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "No"
+      ],
+      "value": "39.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "P-value"
+      ],
+      "value": "<0.0001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Symptoms"
+      ],
+      "value": "Fainting spells"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "Yes"
+      ],
+      "value": "23"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "No"
+      ],
+      "value": "446"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "Yes"
+      ],
+      "value": "87.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "No"
+      ],
+      "value": "44.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "P-value"
+      ],
+      "value": "<0.0001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Symptoms"
+      ],
+      "value": "Palpitations"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "Yes"
+      ],
+      "value": "88"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "No"
+      ],
+      "value": "381"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "Yes"
+      ],
+      "value": "63.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "No"
+      ],
+      "value": "42.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "P-value"
+      ],
+      "value": "<0.001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Symptoms"
+      ],
+      "value": "Shortness of breath"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "Yes"
+      ],
+      "value": "86"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "No"
+      ],
+      "value": "383"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "Yes"
+      ],
+      "value": "65.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "No"
+      ],
+      "value": "42.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "P-value"
+      ],
+      "value": "<0.0005"
+    },
+    {
+      "row": [],
+      "col": [
+        "Symptoms"
+      ],
+      "value": "Pain or problems during sexual intercourse"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "Yes"
+      ],
+      "value": "27"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "No"
+      ],
+      "value": "238"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "Yes"
+      ],
+      "value": "57.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "No"
+      ],
+      "value": "45.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "P-value"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Symptoms"
+      ],
+      "value": "Constipation, loose bowels, or diarrhoea"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "Yes"
+      ],
+      "value": "117"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "No"
+      ],
+      "value": "352"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "Yes"
+      ],
+      "value": "62.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "No"
+      ],
+      "value": "41.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "P-value"
+      ],
+      "value": "<0.0001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Symptoms"
+      ],
+      "value": "Nausea, gas, or indigestion"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "Yes"
+      ],
+      "value": "145"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "No"
+      ],
+      "value": "324"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "Yes"
+      ],
+      "value": "58.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "No"
+      ],
+      "value": "41.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "P-value"
+      ],
+      "value": "<0.001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Symptoms"
+      ],
+      "value": "Feeling tired or having low energy"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "Yes"
+      ],
+      "value": "263"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "No"
+      ],
+      "value": "206"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "Yes"
+      ],
+      "value": "62.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "No"
+      ],
+      "value": "26.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "P-value"
+      ],
+      "value": "<0.0001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Symptoms"
+      ],
+      "value": "Trouble sleeping"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "Yes"
+      ],
+      "value": "202"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "No"
+      ],
+      "value": "265"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "Yes"
+      ],
+      "value": "62.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "No"
+      ],
+      "value": "33.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "P-value"
+      ],
+      "value": "<0.0001"
+    }
+  ]
+}

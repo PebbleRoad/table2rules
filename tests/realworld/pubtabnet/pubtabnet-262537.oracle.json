@@ -1,0 +1,568 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0.89 \u00b1 0.38",
+    "0.90 \u00b1 0.34",
+    "0.90 \u00b1 0.45",
+    "0.90 \u00b1 0.62",
+    "0.91 \u00b1 0.36",
+    "0.91 \u00b1 0.38",
+    "0.92 \u00b1 0.28",
+    "0.93 \u00b1 0.33",
+    "1.01 \u00b1 0.91",
+    "1.08 \u00b1 0.7",
+    "1.1 \u00b1 0.65",
+    "1.1 \u00b1 0.8",
+    "1.13 \u00b1 0.96",
+    "1.15 \u00b1 0.85",
+    "1.2 \u00b1 0.3",
+    "1.28 \u00b1 0.8",
+    "13.5 \u00b1 6.6",
+    "14 \u00b1 8.3",
+    "14.7 \u00b1 4.7",
+    "14.8 \u00b1 7.4",
+    "15.7 \u00b1 6.7",
+    "15.8 \u00b1 8.3",
+    "15.9 \u00b1 6.2",
+    "16.0 \u00b1 7.8",
+    "178.1 \u00b1 15.4",
+    "182.9 \u00b1 15.6",
+    "188.5 \u00b1 14.4",
+    "188.7 \u00b1 13.3",
+    "190.5 \u00b1 16.7",
+    "190.8 \u00b1 15.1",
+    "192.9 \u00b1 16.5",
+    "193.5 \u00b1 15.0",
+    "24",
+    "25.0 \u00b1 3.9",
+    "25.2 \u00b1 4.1",
+    "25.9 \u00b1 5.2",
+    "26.2 \u00b1 3.7",
+    "26.3 \u00b1 3.8",
+    "26.7 \u00b1 2.9",
+    "26.9 \u00b1 4.8",
+    "27.0 \u00b1 3.1",
+    "35.1 \u00b1 8.6",
+    "35.4 \u00b1 5.5",
+    "35.4 \u00b1 7.4",
+    "35.5 \u00b1 5.2",
+    "36.0 \u00b1 10.8",
+    "36.2 \u00b1 6.0",
+    "36.7 \u00b1 8.4",
+    "37.4 \u00b1 4.9",
+    "48",
+    "72",
+    "Alanine aminotransferase (IU/l)",
+    "Baseline",
+    "Bilirubin (mg/dl)",
+    "Creatinine (mg/dl)",
+    "Hours after the start of infusion",
+    "Lactate (mg/dl)",
+    "Leucocytes (\u00d710 9 /l)",
+    "Lornoxicam",
+    "Parameter",
+    "Placebo",
+    "Platelets (\u00d710 9 /l)"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "Lactate (mg/dl)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "Lornoxicam"
+    },
+    {
+      "row": [],
+      "col": [
+        "Baseline"
+      ],
+      "value": "25.2 \u00b1 4.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hours after the start of infusion",
+        "24"
+      ],
+      "value": "25.0 \u00b1 3.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hours after the start of infusion",
+        "48"
+      ],
+      "value": "25.9 \u00b1 5.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hours after the start of infusion",
+        "72"
+      ],
+      "value": "26.2 \u00b1 3.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "Placebo"
+    },
+    {
+      "row": [],
+      "col": [
+        "Baseline"
+      ],
+      "value": "26.3 \u00b1 3.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hours after the start of infusion",
+        "24"
+      ],
+      "value": "26.7 \u00b1 2.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hours after the start of infusion",
+        "48"
+      ],
+      "value": "27.0 \u00b1 3.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hours after the start of infusion",
+        "72"
+      ],
+      "value": "26.9 \u00b1 4.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "Platelets (\u00d710 9 /l)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "Lornoxicam"
+    },
+    {
+      "row": [],
+      "col": [
+        "Baseline"
+      ],
+      "value": "192.9 \u00b1 16.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hours after the start of infusion",
+        "24"
+      ],
+      "value": "193.5 \u00b1 15.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hours after the start of infusion",
+        "48"
+      ],
+      "value": "178.1 \u00b1 15.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hours after the start of infusion",
+        "72"
+      ],
+      "value": "182.9 \u00b1 15.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "Placebo"
+    },
+    {
+      "row": [],
+      "col": [
+        "Baseline"
+      ],
+      "value": "188.5 \u00b1 14.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hours after the start of infusion",
+        "24"
+      ],
+      "value": "190.8 \u00b1 15.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hours after the start of infusion",
+        "48"
+      ],
+      "value": "188.7 \u00b1 13.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hours after the start of infusion",
+        "72"
+      ],
+      "value": "190.5 \u00b1 16.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "Leucocytes (\u00d710 9 /l)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "Lornoxicam"
+    },
+    {
+      "row": [],
+      "col": [
+        "Baseline"
+      ],
+      "value": "14 \u00b1 8.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hours after the start of infusion",
+        "24"
+      ],
+      "value": "15.8 \u00b1 8.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hours after the start of infusion",
+        "48"
+      ],
+      "value": "16.0 \u00b1 7.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hours after the start of infusion",
+        "72"
+      ],
+      "value": "15.9 \u00b1 6.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "Placebo"
+    },
+    {
+      "row": [],
+      "col": [
+        "Baseline"
+      ],
+      "value": "13.5 \u00b1 6.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hours after the start of infusion",
+        "24"
+      ],
+      "value": "14.7 \u00b1 4.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hours after the start of infusion",
+        "48"
+      ],
+      "value": "15.7 \u00b1 6.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hours after the start of infusion",
+        "72"
+      ],
+      "value": "14.8 \u00b1 7.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "Bilirubin (mg/dl)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "Lornoxicam"
+    },
+    {
+      "row": [],
+      "col": [
+        "Baseline"
+      ],
+      "value": "0.89 \u00b1 0.38"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hours after the start of infusion",
+        "24"
+      ],
+      "value": "0.90 \u00b1 0.45"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hours after the start of infusion",
+        "48"
+      ],
+      "value": "0.93 \u00b1 0.33"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hours after the start of infusion",
+        "72"
+      ],
+      "value": "0.90 \u00b1 0.34"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "Placebo"
+    },
+    {
+      "row": [],
+      "col": [
+        "Baseline"
+      ],
+      "value": "0.90 \u00b1 0.62"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hours after the start of infusion",
+        "24"
+      ],
+      "value": "0.91 \u00b1 0.38"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hours after the start of infusion",
+        "48"
+      ],
+      "value": "0.92 \u00b1 0.28"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hours after the start of infusion",
+        "72"
+      ],
+      "value": "0.91 \u00b1 0.36"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "Alanine aminotransferase (IU/l)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "Lornoxicam"
+    },
+    {
+      "row": [],
+      "col": [
+        "Baseline"
+      ],
+      "value": "35.4 \u00b1 5.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hours after the start of infusion",
+        "24"
+      ],
+      "value": "36.0 \u00b1 10.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hours after the start of infusion",
+        "48"
+      ],
+      "value": "35.1 \u00b1 8.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hours after the start of infusion",
+        "72"
+      ],
+      "value": "36.7 \u00b1 8.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "Placebo"
+    },
+    {
+      "row": [],
+      "col": [
+        "Baseline"
+      ],
+      "value": "35.4 \u00b1 7.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hours after the start of infusion",
+        "24"
+      ],
+      "value": "35.5 \u00b1 5.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hours after the start of infusion",
+        "48"
+      ],
+      "value": "36.2 \u00b1 6.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hours after the start of infusion",
+        "72"
+      ],
+      "value": "37.4 \u00b1 4.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "Creatinine (mg/dl)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "Lornoxicam"
+    },
+    {
+      "row": [],
+      "col": [
+        "Baseline"
+      ],
+      "value": "1.13 \u00b1 0.96"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hours after the start of infusion",
+        "24"
+      ],
+      "value": "1.15 \u00b1 0.85"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hours after the start of infusion",
+        "48"
+      ],
+      "value": "1.2 \u00b1 0.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hours after the start of infusion",
+        "72"
+      ],
+      "value": "1.28 \u00b1 0.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "Placebo"
+    },
+    {
+      "row": [],
+      "col": [
+        "Baseline"
+      ],
+      "value": "1.01 \u00b1 0.91"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hours after the start of infusion",
+        "24"
+      ],
+      "value": "1.1 \u00b1 0.65"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hours after the start of infusion",
+        "48"
+      ],
+      "value": "1.08 \u00b1 0.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hours after the start of infusion",
+        "72"
+      ],
+      "value": "1.1 \u00b1 0.8"
+    }
+  ]
+}

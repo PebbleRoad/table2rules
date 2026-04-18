@@ -1,0 +1,589 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "(0.3763, 2.3324)",
+    "(0.4216, 1.1169)",
+    "(0.4293, 1.3355)",
+    "(0.4610, 1.2551)",
+    "(0.4957, 1.9416)",
+    "(0.5055, 2.5974)",
+    "(0.5222, 1.1851)",
+    "(0.5832, 1.8040)",
+    "(0.6066, 1.5479)",
+    "(0.6360, 1.9911)",
+    "(0.6492, 2.7865)",
+    "(0.7166, 1.7451)",
+    "(0.7945, 2.4001)",
+    "(0.8564, 3.3049)",
+    "0.1254",
+    "0.1265",
+    "0.2444",
+    "0.2460",
+    "0.2773",
+    "0.3293",
+    "0.4177",
+    "0.6166",
+    "0.6797",
+    "0.6862",
+    "0.7401",
+    "0.7572",
+    "0.7606",
+    "0.7866",
+    "0.8864",
+    "0.8934",
+    "0.9286",
+    "0.9368",
+    "0.9554",
+    "0.9690",
+    "0.9811",
+    "1 ($100)",
+    "1.0257",
+    "1.1183",
+    "1.1254",
+    "1.1458",
+    "1.3450",
+    "1.3809",
+    "1.6824",
+    "18\u201334",
+    "2 ($200)",
+    "3 ($25)",
+    "35\u201349",
+    "4 binary variables, one for each initial bid",
+    "50\u201364",
+    "95 % CI",
+    "Age 3",
+    "Baseline 2",
+    "Binary",
+    "Binary (0 v. 1 or more)",
+    "Constant",
+    "Dependent variables:",
+    "Education: Some college or less",
+    "Female",
+    "Health (Worse than average)",
+    "Impact on WTP",
+    "Income (less than 3X poverty level)",
+    "Independent variables:",
+    "No children under 18 in household",
+    "Not married",
+    "Number of disease experienced: None",
+    "P value",
+    "Type of variable",
+    "Variable",
+    "Version (initial bid) 4",
+    "WTP amounts 1"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Variable"
+      ],
+      "value": "Independent variables:"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variable"
+      ],
+      "value": "WTP amounts 1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variable"
+      ],
+      "value": "Dependent variables:"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variable"
+      ],
+      "value": "Baseline 2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Type of variable"
+      ],
+      "value": "Constant"
+    },
+    {
+      "row": [],
+      "col": [
+        "Impact on WTP"
+      ],
+      "value": "0.9368"
+    },
+    {
+      "row": [],
+      "col": [
+        "95 % CI"
+      ],
+      "value": "(0.3763, 2.3324)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P value"
+      ],
+      "value": "0.8864"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variable"
+      ],
+      "value": "Age 3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variable"
+      ],
+      "value": "18\u201334"
+    },
+    {
+      "row": [],
+      "col": [
+        "Type of variable"
+      ],
+      "value": "Binary"
+    },
+    {
+      "row": [],
+      "col": [
+        "Impact on WTP"
+      ],
+      "value": "1.1458"
+    },
+    {
+      "row": [],
+      "col": [
+        "95 % CI"
+      ],
+      "value": "(0.5055, 2.5974)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P value"
+      ],
+      "value": "0.7401"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variable"
+      ],
+      "value": "35\u201349"
+    },
+    {
+      "row": [],
+      "col": [
+        "Type of variable"
+      ],
+      "value": "Binary"
+    },
+    {
+      "row": [],
+      "col": [
+        "Impact on WTP"
+      ],
+      "value": "1.6824"
+    },
+    {
+      "row": [],
+      "col": [
+        "95 % CI"
+      ],
+      "value": "(0.8564, 3.3049)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P value"
+      ],
+      "value": "0.1265"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variable"
+      ],
+      "value": "50\u201364"
+    },
+    {
+      "row": [],
+      "col": [
+        "Type of variable"
+      ],
+      "value": "Binary"
+    },
+    {
+      "row": [],
+      "col": [
+        "Impact on WTP"
+      ],
+      "value": "1.3450"
+    },
+    {
+      "row": [],
+      "col": [
+        "95 % CI"
+      ],
+      "value": "(0.6492, 2.7865)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P value"
+      ],
+      "value": "0.4177"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variable"
+      ],
+      "value": "Female"
+    },
+    {
+      "row": [],
+      "col": [
+        "Type of variable"
+      ],
+      "value": "Binary"
+    },
+    {
+      "row": [],
+      "col": [
+        "Impact on WTP"
+      ],
+      "value": "0.7866"
+    },
+    {
+      "row": [],
+      "col": [
+        "95 % CI"
+      ],
+      "value": "(0.5222, 1.1851)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P value"
+      ],
+      "value": "0.2444"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variable"
+      ],
+      "value": "Education: Some college or less"
+    },
+    {
+      "row": [],
+      "col": [
+        "Type of variable"
+      ],
+      "value": "Binary"
+    },
+    {
+      "row": [],
+      "col": [
+        "Impact on WTP"
+      ],
+      "value": "0.9690"
+    },
+    {
+      "row": [],
+      "col": [
+        "95 % CI"
+      ],
+      "value": "(0.6066, 1.5479)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P value"
+      ],
+      "value": "0.8934"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variable"
+      ],
+      "value": "Not married"
+    },
+    {
+      "row": [],
+      "col": [
+        "Type of variable"
+      ],
+      "value": "Binary"
+    },
+    {
+      "row": [],
+      "col": [
+        "Impact on WTP"
+      ],
+      "value": "0.7606"
+    },
+    {
+      "row": [],
+      "col": [
+        "95 % CI"
+      ],
+      "value": "(0.4610, 1.2551)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P value"
+      ],
+      "value": "0.2773"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variable"
+      ],
+      "value": "Health (Worse than average)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Type of variable"
+      ],
+      "value": "Binary"
+    },
+    {
+      "row": [],
+      "col": [
+        "Impact on WTP"
+      ],
+      "value": "1.1183"
+    },
+    {
+      "row": [],
+      "col": [
+        "95 % CI"
+      ],
+      "value": "(0.7166, 1.7451)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P value"
+      ],
+      "value": "0.6166"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variable"
+      ],
+      "value": "No children under 18 in household"
+    },
+    {
+      "row": [],
+      "col": [
+        "Type of variable"
+      ],
+      "value": "Binary"
+    },
+    {
+      "row": [],
+      "col": [
+        "Impact on WTP"
+      ],
+      "value": "1.1254"
+    },
+    {
+      "row": [],
+      "col": [
+        "95 % CI"
+      ],
+      "value": "(0.6360, 1.9911)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P value"
+      ],
+      "value": "0.6797"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variable"
+      ],
+      "value": "Version (initial bid) 4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variable"
+      ],
+      "value": "1 ($100)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Type of variable"
+      ],
+      "value": "4 binary variables, one for each initial bid"
+    },
+    {
+      "row": [],
+      "col": [
+        "Impact on WTP"
+      ],
+      "value": "1.3809"
+    },
+    {
+      "row": [],
+      "col": [
+        "95 % CI"
+      ],
+      "value": "(0.7945, 2.4001)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P value"
+      ],
+      "value": "0.2460"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variable"
+      ],
+      "value": "2 ($200)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Impact on WTP"
+      ],
+      "value": "1.0257"
+    },
+    {
+      "row": [],
+      "col": [
+        "95 % CI"
+      ],
+      "value": "(0.5832, 1.8040)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P value"
+      ],
+      "value": "0.9286"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variable"
+      ],
+      "value": "3 ($25)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Impact on WTP"
+      ],
+      "value": "0.7572"
+    },
+    {
+      "row": [],
+      "col": [
+        "95 % CI"
+      ],
+      "value": "(0.4293, 1.3355)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P value"
+      ],
+      "value": "0.3293"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variable"
+      ],
+      "value": "Income (less than 3X poverty level)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Type of variable"
+      ],
+      "value": "Binary"
+    },
+    {
+      "row": [],
+      "col": [
+        "Impact on WTP"
+      ],
+      "value": "0.9811"
+    },
+    {
+      "row": [],
+      "col": [
+        "95 % CI"
+      ],
+      "value": "(0.4957, 1.9416)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P value"
+      ],
+      "value": "0.9554"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variable"
+      ],
+      "value": "Number of disease experienced: None"
+    },
+    {
+      "row": [],
+      "col": [
+        "Type of variable"
+      ],
+      "value": "Binary (0 v. 1 or more)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Impact on WTP"
+      ],
+      "value": "0.6862"
+    },
+    {
+      "row": [],
+      "col": [
+        "95 % CI"
+      ],
+      "value": "(0.4216, 1.1169)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P value"
+      ],
+      "value": "0.1254"
+    }
+  ]
+}

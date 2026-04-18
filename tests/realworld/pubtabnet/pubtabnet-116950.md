@@ -1,0 +1,251 @@
+<!-- source: PubTabNet imgid=116950 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+<b>
+       Group
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Male
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Female
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<b>
+       M
+      </b>
+</td>
+<td>
+<b>
+       T
+      </b>
+</td>
+<td>
+<b>
+       M
+      </b>
+</td>
+<td>
+<b>
+       T
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<b>
+       Hypertensives
+      </b>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Malay
+     </td>
+<td>
+      28
+     </td>
+<td>
+      14
+     </td>
+<td>
+      36
+     </td>
+<td>
+      26
+     </td>
+</tr>
+<tr>
+<td>
+      Chinese
+     </td>
+<td>
+      10
+     </td>
+<td>
+      10
+     </td>
+<td>
+      28
+     </td>
+<td>
+      20
+     </td>
+</tr>
+<tr>
+<td>
+      Indian
+     </td>
+<td>
+      1
+     </td>
+<td>
+      3
+     </td>
+<td>
+      9
+     </td>
+<td>
+      17
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       Total
+      </b>
+</td>
+<td>
+      39
+     </td>
+<td>
+      27
+     </td>
+<td>
+      73
+     </td>
+<td>
+      63
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       Normotensives
+      </b>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Malay
+     </td>
+<td>
+      25
+     </td>
+<td>
+      5
+     </td>
+<td>
+      48
+     </td>
+<td>
+      12
+     </td>
+</tr>
+<tr>
+<td>
+      Chinese
+     </td>
+<td>
+      4
+     </td>
+<td>
+      4
+     </td>
+<td>
+      28
+     </td>
+<td>
+      8
+     </td>
+</tr>
+<tr>
+<td>
+      Indian
+     </td>
+<td>
+      7
+     </td>
+<td>
+      1
+     </td>
+<td>
+      24
+     </td>
+<td>
+      8
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       Total
+      </b>
+</td>
+<td>
+      36
+     </td>
+<td>
+      10
+     </td>
+<td>
+      100
+     </td>
+<td>
+      28
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       χ
+       <sup>
+        2
+       </sup>
+       value
+      </b>
+</td>
+<td colspan="2">
+      3.836
+     </td>
+<td colspan="2">
+      20.828
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+<i>
+        P
+       </i>
+       * value
+      </b>
+</td>
+<td colspan="2">
+      0.140
+     </td>
+<td colspan="2">
+      0.001
+     </td>
+</tr>
+</tbody>
+</table>

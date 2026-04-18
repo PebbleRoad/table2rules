@@ -1,0 +1,181 @@
+<!-- source: PubTabNet imgid=283146 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+<b>
+       Registration
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Priority 1
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Priority 2
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Priority 3
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<b>
+       period
+      </b>
+</td>
+<td>
+<b>
+       N
+      </b>
+</td>
+<td>
+<b>
+       (%)
+      </b>
+</td>
+<td>
+<b>
+       N
+      </b>
+</td>
+<td>
+<b>
+       (%)
+      </b>
+</td>
+<td>
+<b>
+       N
+      </b>
+</td>
+<td>
+<b>
+       (%)
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+      1991–1992
+     </td>
+<td>
+      116
+     </td>
+<td>
+      (6.7)
+     </td>
+<td>
+      1221
+     </td>
+<td>
+      (70.8)
+     </td>
+<td>
+      334
+     </td>
+<td>
+      (19.4)
+     </td>
+</tr>
+<tr>
+<td>
+      1993–1994
+     </td>
+<td>
+      110
+     </td>
+<td>
+      (5.8)
+     </td>
+<td>
+      1381
+     </td>
+<td>
+      (73.1)
+     </td>
+<td>
+      388
+     </td>
+<td>
+      (20.5)
+     </td>
+</tr>
+<tr>
+<td>
+      1995–1996
+     </td>
+<td>
+      249
+     </td>
+<td>
+      (12.4)
+     </td>
+<td>
+      1363
+     </td>
+<td>
+      (67.8)
+     </td>
+<td>
+      374
+     </td>
+<td>
+      (18.6)
+     </td>
+</tr>
+<tr>
+<td>
+      1997–1998
+     </td>
+<td>
+      117
+     </td>
+<td>
+      (6.2)
+     </td>
+<td>
+      1327
+     </td>
+<td>
+      (70.3)
+     </td>
+<td>
+      428
+     </td>
+<td>
+      (22.7)
+     </td>
+</tr>
+<tr>
+<td>
+      1999–2000
+     </td>
+<td>
+      67
+     </td>
+<td>
+      (3.9)
+     </td>
+<td>
+      1204
+     </td>
+<td>
+      (70.0)
+     </td>
+<td>
+      439
+     </td>
+<td>
+      (25.5)
+     </td>
+</tr>
+</tbody>
+</table>

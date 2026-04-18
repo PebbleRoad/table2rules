@@ -1,0 +1,654 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "(56.0)",
+    "(72.0)",
+    "106:30 (77.9)",
+    "10:12 (45.5)",
+    "11:6 (64.7)",
+    "13:10 (56.5)",
+    "171 (65.9)",
+    "18:12 (60.0)",
+    "20:30 (40.)",
+    "21:29 (42.0)",
+    "25:17 (59.5)",
+    "25:5 (83.3)",
+    "26:20 (56.5)",
+    "28.5",
+    "28.9",
+    "29.4 (4.9)",
+    "29.5",
+    "29.7 (4.8)",
+    "30.1",
+    "40.0 (30\u201361)",
+    "43.0 (32\u201359)",
+    "44.0 (26\u201361)",
+    "46:26 (63.9)",
+    "46:3 (57.5)",
+    "47.0 (26\u201361)",
+    "47:3 (58.0)",
+    "49.0 (31\u201363)",
+    "49.6 (20\u201379)",
+    "50.4 (10.3, 26\u201369)",
+    "51.0 (31\u201358)",
+    "51.7 (25\u201376)",
+    "52.2 (12.8)",
+    "52.5 (30\u201373)",
+    "52.9 (10.8)",
+    "53.0 (9.7, 31\u201372)",
+    "53.1 (10.8)",
+    "54.0",
+    "54.2 (12.0)",
+    "55.0",
+    "55.6 (45\u201368)",
+    "56.5",
+    "57.4",
+    "5:10 (33.3)",
+    "61:14 (81.3)",
+    "6:9 (40)",
+    "98:37 (72.6)",
+    "9:6 (60)",
+    "Abt et al [21]",
+    "Age mean (SD and/or range) years",
+    "Author",
+    "Buch et al [27]",
+    "Buchbinder et al [10]",
+    "Control group",
+    "Cosentino et al [33]",
+    "Female:male (% female)",
+    "Haake et al [11]",
+    "Krischek et al [22]",
+    "Mean BMI (SD)",
+    "N/a",
+    "Ogden et al [28]",
+    "Rompe et al [30]",
+    "Rompe et al [31]",
+    "Rompe et al [32]",
+    "Speed et al [12]",
+    "Treatment group"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Age mean (SD and/or range) years"
+      ],
+      "value": "Treatment group"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age mean (SD and/or range) years"
+      ],
+      "value": "Control group"
+    },
+    {
+      "row": [],
+      "col": [
+        "Female:male (% female)"
+      ],
+      "value": "Treatment group"
+    },
+    {
+      "row": [],
+      "col": [
+        "Female:male (% female)"
+      ],
+      "value": "Control group"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean BMI (SD)"
+      ],
+      "value": "Treatment group"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean BMI (SD)"
+      ],
+      "value": "Control group"
+    },
+    {
+      "row": [],
+      "col": [
+        "Author"
+      ],
+      "value": "Abt et al [21]"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age mean (SD and/or range) years"
+      ],
+      "value": "56.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age mean (SD and/or range) years"
+      ],
+      "value": "57.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Female:male (% female)"
+      ],
+      "value": "11:6 (64.7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Female:male (% female)"
+      ],
+      "value": "9:6 (60)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean BMI (SD)"
+      ],
+      "value": "30.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean BMI (SD)"
+      ],
+      "value": "28.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Author"
+      ],
+      "value": "Buch et al [27]"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age mean (SD and/or range) years"
+      ],
+      "value": "50.4 (10.3, 26\u201369)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age mean (SD and/or range) years"
+      ],
+      "value": "53.0 (9.7, 31\u201372)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Female:male (% female)"
+      ],
+      "value": "61:14 (81.3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Female:male (% female)"
+      ],
+      "value": "46:26 (63.9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean BMI (SD)"
+      ],
+      "value": "28.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean BMI (SD)"
+      ],
+      "value": "28.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Author"
+      ],
+      "value": "Buchbinder et al [10]"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age mean (SD and/or range) years"
+      ],
+      "value": "52.2 (12.8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age mean (SD and/or range) years"
+      ],
+      "value": "54.2 (12.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Female:male (% female)"
+      ],
+      "value": "46:3 (57.5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Female:male (% female)"
+      ],
+      "value": "47:3 (58.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean BMI (SD)"
+      ],
+      "value": "29.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean BMI (SD)"
+      ],
+      "value": "28.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Author"
+      ],
+      "value": "Cosentino et al [33]"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age mean (SD and/or range) years"
+      ],
+      "value": "55.6 (45\u201368)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age mean (SD and/or range) years"
+      ],
+      "value": "55.6 (45\u201368)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Female:male (% female)"
+      ],
+      "value": "18:12 (60.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Female:male (% female)"
+      ],
+      "value": "25:5 (83.3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean BMI (SD)"
+      ],
+      "value": "N/a"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean BMI (SD)"
+      ],
+      "value": "N/a"
+    },
+    {
+      "row": [],
+      "col": [
+        "Author"
+      ],
+      "value": "Haake et al [11]"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age mean (SD and/or range) years"
+      ],
+      "value": "53.1 (10.8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age mean (SD and/or range) years"
+      ],
+      "value": "52.9 (10.8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Female:male (% female)"
+      ],
+      "value": "98:37 (72.6)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Female:male (% female)"
+      ],
+      "value": "106:30 (77.9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean BMI (SD)"
+      ],
+      "value": "29.4 (4.9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean BMI (SD)"
+      ],
+      "value": "29.7 (4.8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Author"
+      ],
+      "value": "Krischek et al [22]"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age mean (SD and/or range) years"
+      ],
+      "value": "54.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age mean (SD and/or range) years"
+      ],
+      "value": "55.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Female:male (% female)"
+      ],
+      "value": "(56.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Female:male (% female)"
+      ],
+      "value": "(72.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean BMI (SD)"
+      ],
+      "value": "N/a"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean BMI (SD)"
+      ],
+      "value": "N/a"
+    },
+    {
+      "row": [],
+      "col": [
+        "Author"
+      ],
+      "value": "Ogden et al [28]"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age mean (SD and/or range) years"
+      ],
+      "value": "49.6 (20\u201379)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age mean (SD and/or range) years"
+      ],
+      "value": "49.6 (20\u201379)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Female:male (% female)"
+      ],
+      "value": "171 (65.9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Female:male (% female)"
+      ],
+      "value": "171 (65.9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean BMI (SD)"
+      ],
+      "value": "N/a"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean BMI (SD)"
+      ],
+      "value": "N/a"
+    },
+    {
+      "row": [],
+      "col": [
+        "Author"
+      ],
+      "value": "Rompe et al [32]"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age mean (SD and/or range) years"
+      ],
+      "value": "44.0 (26\u201361)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age mean (SD and/or range) years"
+      ],
+      "value": "49.0 (31\u201363)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Female:male (% female)"
+      ],
+      "value": "21:29 (42.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Female:male (% female)"
+      ],
+      "value": "20:30 (40.)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean BMI (SD)"
+      ],
+      "value": "N/a"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean BMI (SD)"
+      ],
+      "value": "N/a"
+    },
+    {
+      "row": [],
+      "col": [
+        "Author"
+      ],
+      "value": "Rompe et al [30]"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age mean (SD and/or range) years"
+      ],
+      "value": "47.0 (26\u201361)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age mean (SD and/or range) years"
+      ],
+      "value": "51.0 (31\u201358)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Female:male (% female)"
+      ],
+      "value": "5:10 (33.3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Female:male (% female)"
+      ],
+      "value": "6:9 (40)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean BMI (SD)"
+      ],
+      "value": "N/a"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean BMI (SD)"
+      ],
+      "value": "N/a"
+    },
+    {
+      "row": [],
+      "col": [
+        "Author"
+      ],
+      "value": "Rompe et al [31]"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age mean (SD and/or range) years"
+      ],
+      "value": "43.0 (32\u201359)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age mean (SD and/or range) years"
+      ],
+      "value": "40.0 (30\u201361)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Female:male (% female)"
+      ],
+      "value": "10:12 (45.5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Female:male (% female)"
+      ],
+      "value": "13:10 (56.5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean BMI (SD)"
+      ],
+      "value": "N/a"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean BMI (SD)"
+      ],
+      "value": "N/a"
+    },
+    {
+      "row": [],
+      "col": [
+        "Author"
+      ],
+      "value": "Speed et al [12]"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age mean (SD and/or range) years"
+      ],
+      "value": "51.7 (25\u201376)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age mean (SD and/or range) years"
+      ],
+      "value": "52.5 (30\u201373)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Female:male (% female)"
+      ],
+      "value": "26:20 (56.5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Female:male (% female)"
+      ],
+      "value": "25:17 (59.5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean BMI (SD)"
+      ],
+      "value": "N/a"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean BMI (SD)"
+      ],
+      "value": "N/a"
+    }
+  ]
+}

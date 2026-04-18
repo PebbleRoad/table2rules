@@ -1,0 +1,881 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "112",
+    "120",
+    "13",
+    "15",
+    "18",
+    "212",
+    "25",
+    "255",
+    "28.5",
+    "347",
+    "354",
+    "355",
+    "36.3",
+    "378",
+    "38",
+    "38.5",
+    "39",
+    "39.4",
+    "394",
+    "40",
+    "402",
+    "406",
+    "408",
+    "41.5",
+    "42.4",
+    "422",
+    "427",
+    "429",
+    "43.6",
+    "44",
+    "44.4",
+    "441",
+    "448",
+    "45.1",
+    "45.5",
+    "45.6",
+    "45.7",
+    "45.8",
+    "452",
+    "454",
+    "46.1",
+    "46.8",
+    "46.9",
+    "49.6",
+    "50.3",
+    "52.6",
+    "53.8",
+    "54.5",
+    "55.3",
+    "55.9",
+    "59",
+    "59.2",
+    "65",
+    "65.1",
+    "67.8",
+    "68.0",
+    "68.5",
+    "73.3",
+    "76",
+    "80.0",
+    "84",
+    "89",
+    "<0.0001",
+    "<0.0005",
+    "<0.005",
+    "<0.01",
+    "<0.05",
+    "Angina",
+    "Asthma",
+    "Blood pressure",
+    "Cancer",
+    "Chronic disease",
+    "Chronic obstructive disease",
+    "Diabetes",
+    "Disease or condition",
+    "Ear disease",
+    "Eye disease",
+    "Gastrointestinal disorders",
+    "Heart failure",
+    "Joint disease",
+    "Musculoskeletal disease",
+    "NS",
+    "Neurological disease",
+    "No",
+    "Number*",
+    "P-value",
+    "PPH %",
+    "Pain syndrome",
+    "Psychiatric disorder",
+    "Urinary tract disease",
+    "Yes"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Disease or condition"
+      ],
+      "value": "Chronic disease"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "Yes"
+      ],
+      "value": "394"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "No"
+      ],
+      "value": "76"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "Yes"
+      ],
+      "value": "50.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "No"
+      ],
+      "value": "28.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "P-value"
+      ],
+      "value": "<0.005"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease or condition"
+      ],
+      "value": "Blood pressure"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "Yes"
+      ],
+      "value": "84"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "No"
+      ],
+      "value": "354"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "Yes"
+      ],
+      "value": "49.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "No"
+      ],
+      "value": "45.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "P-value"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease or condition"
+      ],
+      "value": "Angina"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "Yes"
+      ],
+      "value": "38"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "No"
+      ],
+      "value": "429"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "Yes"
+      ],
+      "value": "52.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "No"
+      ],
+      "value": "46.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "P-value"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease or condition"
+      ],
+      "value": "Heart failure"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "Yes"
+      ],
+      "value": "15"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "No"
+      ],
+      "value": "452"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "Yes"
+      ],
+      "value": "73.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "No"
+      ],
+      "value": "45.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "P-value"
+      ],
+      "value": "<0.01"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease or condition"
+      ],
+      "value": "Diabetes"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "Yes"
+      ],
+      "value": "44"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "No"
+      ],
+      "value": "422"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "Yes"
+      ],
+      "value": "54.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "No"
+      ],
+      "value": "45.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "P-value"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease or condition"
+      ],
+      "value": "Asthma"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "Yes"
+      ],
+      "value": "59"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "No"
+      ],
+      "value": "408"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "Yes"
+      ],
+      "value": "67.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "No"
+      ],
+      "value": "43.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "P-value"
+      ],
+      "value": "<0.005"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease or condition"
+      ],
+      "value": "Chronic obstructive disease"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "Yes"
+      ],
+      "value": "13"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "No"
+      ],
+      "value": "454"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "Yes"
+      ],
+      "value": "38.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "No"
+      ],
+      "value": "46.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "P-value"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease or condition"
+      ],
+      "value": "Neurological disease"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "Yes"
+      ],
+      "value": "25"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "No"
+      ],
+      "value": "441"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "Yes"
+      ],
+      "value": "68.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "No"
+      ],
+      "value": "45.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "P-value"
+      ],
+      "value": "<0.0005"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease or condition"
+      ],
+      "value": "Musculoskeletal disease"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "Yes"
+      ],
+      "value": "89"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "No"
+      ],
+      "value": "378"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "Yes"
+      ],
+      "value": "68.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "No"
+      ],
+      "value": "41.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "P-value"
+      ],
+      "value": "<0.0001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease or condition"
+      ],
+      "value": "Joint disease"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "Yes"
+      ],
+      "value": "255"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "No"
+      ],
+      "value": "212"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "Yes"
+      ],
+      "value": "55.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "No"
+      ],
+      "value": "36.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "P-value"
+      ],
+      "value": "<0.0005"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease or condition"
+      ],
+      "value": "Pain syndrome"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "Yes"
+      ],
+      "value": "112"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "No"
+      ],
+      "value": "355"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "Yes"
+      ],
+      "value": "65.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "No"
+      ],
+      "value": "39.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "P-value"
+      ],
+      "value": "<0.0001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease or condition"
+      ],
+      "value": "Cancer"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "Yes"
+      ],
+      "value": "18"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "No"
+      ],
+      "value": "448"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "Yes"
+      ],
+      "value": "44.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "No"
+      ],
+      "value": "46.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "P-value"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease or condition"
+      ],
+      "value": "Psychiatric disorder"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "Yes"
+      ],
+      "value": "40"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "No"
+      ],
+      "value": "427"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "Yes"
+      ],
+      "value": "80.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "No"
+      ],
+      "value": "43.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "P-value"
+      ],
+      "value": "<0.0001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease or condition"
+      ],
+      "value": "Eye disease"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "Yes"
+      ],
+      "value": "65"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "No"
+      ],
+      "value": "402"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "Yes"
+      ],
+      "value": "53.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "No"
+      ],
+      "value": "45.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "P-value"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease or condition"
+      ],
+      "value": "Ear disease"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "Yes"
+      ],
+      "value": "39"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "No"
+      ],
+      "value": "427"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "Yes"
+      ],
+      "value": "46.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "No"
+      ],
+      "value": "46.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "P-value"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease or condition"
+      ],
+      "value": "Gastrointestinal disorders"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "Yes"
+      ],
+      "value": "120"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "No"
+      ],
+      "value": "347"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "Yes"
+      ],
+      "value": "59.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "No"
+      ],
+      "value": "42.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "P-value"
+      ],
+      "value": "<0.0005"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease or condition"
+      ],
+      "value": "Urinary tract disease"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "Yes"
+      ],
+      "value": "59"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number*",
+        "No"
+      ],
+      "value": "406"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "Yes"
+      ],
+      "value": "55.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "PPH %",
+        "No"
+      ],
+      "value": "45.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "P-value"
+      ],
+      "value": "<0.05"
+    }
+  ]
+}

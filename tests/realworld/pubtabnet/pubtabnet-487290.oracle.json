@@ -1,0 +1,479 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "(SE)",
+    "-0.022",
+    "-0.028",
+    "-0.044",
+    "-0.083",
+    "0.005",
+    "0.024",
+    "0.027",
+    "0.031",
+    "0.034",
+    "0.036",
+    "0.037",
+    "0.043",
+    "0.044",
+    "0.050",
+    "0.053",
+    "0.065",
+    "0.075",
+    "0.112",
+    "0.146",
+    "0.149",
+    "0.163",
+    "0.377",
+    "0.436",
+    "0.441",
+    "0.451",
+    "0.520",
+    "0.579",
+    "0.608",
+    "0.618",
+    "0.643",
+    "0.718",
+    "0.769",
+    "0.823",
+    "0.926",
+    "1",
+    "10",
+    "11",
+    "12",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "Example",
+    "Kappa",
+    "No of outcomes",
+    "P"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Example"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "No of outcomes"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.436"
+    },
+    {
+      "row": [],
+      "col": [
+        "Kappa"
+      ],
+      "value": "0.149"
+    },
+    {
+      "row": [],
+      "col": [
+        "(SE)"
+      ],
+      "value": "0.031"
+    },
+    {
+      "row": [],
+      "col": [
+        "Example"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "No of outcomes"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.769"
+    },
+    {
+      "row": [],
+      "col": [
+        "Kappa"
+      ],
+      "value": "0.075"
+    },
+    {
+      "row": [],
+      "col": [
+        "(SE)"
+      ],
+      "value": "0.053"
+    },
+    {
+      "row": [],
+      "col": [
+        "Example"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "No of outcomes"
+      ],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.643"
+    },
+    {
+      "row": [],
+      "col": [
+        "Kappa"
+      ],
+      "value": "0.441"
+    },
+    {
+      "row": [],
+      "col": [
+        "(SE)"
+      ],
+      "value": "0.024"
+    },
+    {
+      "row": [],
+      "col": [
+        "Example"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "No of outcomes"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.926"
+    },
+    {
+      "row": [],
+      "col": [
+        "Kappa"
+      ],
+      "value": "0.823"
+    },
+    {
+      "row": [],
+      "col": [
+        "(SE)"
+      ],
+      "value": "0.050"
+    },
+    {
+      "row": [],
+      "col": [
+        "Example"
+      ],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [
+        "No of outcomes"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.608"
+    },
+    {
+      "row": [],
+      "col": [
+        "Kappa"
+      ],
+      "value": "-0.044"
+    },
+    {
+      "row": [],
+      "col": [
+        "(SE)"
+      ],
+      "value": "0.065"
+    },
+    {
+      "row": [],
+      "col": [
+        "Example"
+      ],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [
+        "No of outcomes"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.618"
+    },
+    {
+      "row": [],
+      "col": [
+        "Kappa"
+      ],
+      "value": "0.163"
+    },
+    {
+      "row": [],
+      "col": [
+        "(SE)"
+      ],
+      "value": "0.050"
+    },
+    {
+      "row": [],
+      "col": [
+        "Example"
+      ],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [
+        "No of outcomes"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.520"
+    },
+    {
+      "row": [],
+      "col": [
+        "Kappa"
+      ],
+      "value": "-0.028"
+    },
+    {
+      "row": [],
+      "col": [
+        "(SE)"
+      ],
+      "value": "0.044"
+    },
+    {
+      "row": [],
+      "col": [
+        "Example"
+      ],
+      "value": "8"
+    },
+    {
+      "row": [],
+      "col": [
+        "No of outcomes"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.451"
+    },
+    {
+      "row": [],
+      "col": [
+        "Kappa"
+      ],
+      "value": "0.146"
+    },
+    {
+      "row": [],
+      "col": [
+        "(SE)"
+      ],
+      "value": "0.036"
+    },
+    {
+      "row": [],
+      "col": [
+        "Example"
+      ],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [
+        "No of outcomes"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.441"
+    },
+    {
+      "row": [],
+      "col": [
+        "Kappa"
+      ],
+      "value": "-0.022"
+    },
+    {
+      "row": [],
+      "col": [
+        "(SE)"
+      ],
+      "value": "0.037"
+    },
+    {
+      "row": [],
+      "col": [
+        "Example"
+      ],
+      "value": "10"
+    },
+    {
+      "row": [],
+      "col": [
+        "No of outcomes"
+      ],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.579"
+    },
+    {
+      "row": [],
+      "col": [
+        "Kappa"
+      ],
+      "value": "0.005"
+    },
+    {
+      "row": [],
+      "col": [
+        "(SE)"
+      ],
+      "value": "0.034"
+    },
+    {
+      "row": [],
+      "col": [
+        "Example"
+      ],
+      "value": "11"
+    },
+    {
+      "row": [],
+      "col": [
+        "No of outcomes"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.377"
+    },
+    {
+      "row": [],
+      "col": [
+        "Kappa"
+      ],
+      "value": "0.112"
+    },
+    {
+      "row": [],
+      "col": [
+        "(SE)"
+      ],
+      "value": "0.027"
+    },
+    {
+      "row": [],
+      "col": [
+        "Example"
+      ],
+      "value": "12"
+    },
+    {
+      "row": [],
+      "col": [
+        "No of outcomes"
+      ],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.718"
+    },
+    {
+      "row": [],
+      "col": [
+        "Kappa"
+      ],
+      "value": "-0.083"
+    },
+    {
+      "row": [],
+      "col": [
+        "(SE)"
+      ],
+      "value": "0.043"
+    }
+  ]
+}

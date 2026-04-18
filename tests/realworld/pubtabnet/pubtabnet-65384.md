@@ -1,0 +1,278 @@
+<!-- source: PubTabNet imgid=65384 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td colspan="3">
+<b>
+       Nonfounder statistic
+      </b>
+</td>
+<td colspan="3">
+<b>
+       Founder statistic
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+<b>
+       Variant allele(s)
+      </b>
+</td>
+<td>
+<b>
+       Estimated allele frequency (%)
+      </b>
+</td>
+<td>
+<b>
+       Recessive model
+      </b>
+</td>
+<td>
+<b>
+       Dominant model
+      </b>
+</td>
+<td>
+<b>
+       Additive model
+      </b>
+</td>
+<td>
+<b>
+       Recessive model
+      </b>
+</td>
+<td>
+<b>
+       Dominant model
+      </b>
+</td>
+<td>
+<b>
+       Additive model
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<i>
+       CYP17
+      </i>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      C
+     </td>
+<td>
+      42.46
+     </td>
+<td>
+      - 1.01
+     </td>
+<td>
+      - 1.52
+     </td>
+<td>
+      - 1.85
+     </td>
+<td>
+      0.40
+     </td>
+<td>
+      1.08
+     </td>
+<td>
+      1.01
+     </td>
+</tr>
+<tr>
+<td>
+<i>
+       P
+      </i>
+</td>
+<td>
+</td>
+<td>
+      0.16
+     </td>
+<td>
+      0.06
+     </td>
+<td>
+      0.03
+     </td>
+<td>
+      0.34
+     </td>
+<td>
+      0.14
+     </td>
+<td>
+      0.16
+     </td>
+</tr>
+<tr>
+<td>
+<i>
+       CYP19
+      </i>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      (TTTA)
+      <sub>
+       ≥10
+      </sub>
+</td>
+<td>
+      33.71
+     </td>
+<td>
+      - 1.24
+     </td>
+<td>
+      1.26
+     </td>
+<td>
+      0.32
+     </td>
+<td>
+      - 0.32
+     </td>
+<td>
+<b>
+       1.66
+      </b>
+</td>
+<td>
+      1.13
+     </td>
+</tr>
+<tr>
+<td>
+<i>
+       P
+      </i>
+</td>
+<td>
+</td>
+<td>
+      0.11
+     </td>
+<td>
+      0.10
+     </td>
+<td>
+      0.38
+     </td>
+<td>
+      0.37
+     </td>
+<td>
+      0.05
+     </td>
+<td>
+      0.13
+     </td>
+</tr>
+<tr>
+<td>
+      (TTTA)
+      <sub>
+       11
+      </sub>
+</td>
+<td>
+      28.78
+     </td>
+<td>
+      - 1.09
+     </td>
+<td>
+<b>
+       1.83
+      </b>
+</td>
+<td>
+      0.97
+     </td>
+<td>
+      - 1.50
+     </td>
+<td>
+<b>
+       1.96
+      </b>
+</td>
+<td>
+      0.89
+     </td>
+</tr>
+<tr>
+<td>
+<i>
+       P
+      </i>
+</td>
+<td>
+</td>
+<td>
+      0.14
+     </td>
+<td>
+      0.03
+     </td>
+<td>
+      0.17
+     </td>
+<td>
+      0.07
+     </td>
+<td>
+      0.03
+     </td>
+<td>
+      0.19
+     </td>
+</tr>
+</tbody>
+</table>

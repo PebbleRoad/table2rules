@@ -1,0 +1,576 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0.007",
+    "0.034",
+    "0.06",
+    "0.20",
+    "0.25",
+    "0.41",
+    "0.47",
+    "0.50",
+    "0.58",
+    "0.59",
+    "0.75",
+    "0.78",
+    "0.92",
+    "10 (29.4%)",
+    "12 (54.5%)",
+    "12 (5\u201331)",
+    "13 (59.1%)",
+    "14 (41.2%)",
+    "14 (5\u201333)",
+    "14 (6\u201335)",
+    "16 (4\u201346)",
+    "16 (72.7%)",
+    "17 (50%)",
+    "19 (55.9%)",
+    "19 \u00b1 8.9",
+    "20 (17\u201331)",
+    "22 \u00b1 12.1",
+    "29 (15\u201358)",
+    "3 (8.8%)",
+    "4 (2\u20138)",
+    "44 (30\u2013107)",
+    "5 (22.7%)",
+    "5 (3\u20139)",
+    "5.8 \u00b1 1.80",
+    "54 \u00b1 14.8",
+    "56 \u00b1 12.8",
+    "6.2 \u00b1 2.46",
+    "8 (36.4%)",
+    "87 (54\u2013106)",
+    "88 (60\u2013106)",
+    "9 (40.9%)",
+    "<0.001",
+    "APACHE II score (mean \u00b1 SD)",
+    "Age, years (mean \u00b1 SD)",
+    "Deteriorating clinical condition",
+    "Documented infection of pancreatic necrosis",
+    "Early surgery a ( n = 22)",
+    "Indications for surgery",
+    "Interval from diagnosis to surgery, days (median and IQR)",
+    "LOS in ICU in hospital survivors, days (median and IQR) b",
+    "LOS in ICU, days (median and IQR)",
+    "LOS in hospital in hospital survivors, days (median and IQR) b",
+    "LOS in hospital, days (median and IQR)",
+    "Late surgery a ( n = 34)",
+    "Male sex",
+    "Mortality",
+    "Outcome",
+    "P",
+    "Parameter",
+    "Patient characteristics",
+    "Ranson score (mean \u00b1 SD)",
+    "SOFA score at surgical intervention (median and IQR)",
+    "Sterile necrosis at first surgical intervention",
+    "Unresolving pancreatitis or suspected infection of pancreatic necrosis"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "Patient characteristics"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early surgery a ( n = 22)"
+      ],
+      "value": "Patient characteristics"
+    },
+    {
+      "row": [],
+      "col": [
+        "Late surgery a ( n = 34)"
+      ],
+      "value": "Patient characteristics"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "Patient characteristics"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "Age, years (mean \u00b1 SD)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early surgery a ( n = 22)"
+      ],
+      "value": "54 \u00b1 14.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Late surgery a ( n = 34)"
+      ],
+      "value": "56 \u00b1 12.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.58"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "Male sex"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early surgery a ( n = 22)"
+      ],
+      "value": "16 (72.7%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Late surgery a ( n = 34)"
+      ],
+      "value": "19 (55.9%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.20"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "APACHE II score (mean \u00b1 SD)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early surgery a ( n = 22)"
+      ],
+      "value": "22 \u00b1 12.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Late surgery a ( n = 34)"
+      ],
+      "value": "19 \u00b1 8.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.47"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "Ranson score (mean \u00b1 SD)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early surgery a ( n = 22)"
+      ],
+      "value": "6.2 \u00b1 2.46"
+    },
+    {
+      "row": [],
+      "col": [
+        "Late surgery a ( n = 34)"
+      ],
+      "value": "5.8 \u00b1 1.80"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.59"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "Sterile necrosis at first surgical intervention"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early surgery a ( n = 22)"
+      ],
+      "value": "13 (59.1%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Late surgery a ( n = 34)"
+      ],
+      "value": "17 (50%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.50"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "Interval from diagnosis to surgery, days (median and IQR)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early surgery a ( n = 22)"
+      ],
+      "value": "5 (3\u20139)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Late surgery a ( n = 34)"
+      ],
+      "value": "20 (17\u201331)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "<0.001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "SOFA score at surgical intervention (median and IQR)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early surgery a ( n = 22)"
+      ],
+      "value": "4 (2\u20138)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Late surgery a ( n = 34)"
+      ],
+      "value": "4 (2\u20138)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.78"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "Indications for surgery"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early surgery a ( n = 22)"
+      ],
+      "value": "Indications for surgery"
+    },
+    {
+      "row": [],
+      "col": [
+        "Late surgery a ( n = 34)"
+      ],
+      "value": "Indications for surgery"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "Indications for surgery"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "Documented infection of pancreatic necrosis"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early surgery a ( n = 22)"
+      ],
+      "value": "5 (22.7%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Late surgery a ( n = 34)"
+      ],
+      "value": "14 (41.2%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.25"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "Deteriorating clinical condition"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early surgery a ( n = 22)"
+      ],
+      "value": "9 (40.9%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Late surgery a ( n = 34)"
+      ],
+      "value": "3 (8.8%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.007"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "Unresolving pancreatitis or suspected infection of pancreatic necrosis"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early surgery a ( n = 22)"
+      ],
+      "value": "8 (36.4%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Late surgery a ( n = 34)"
+      ],
+      "value": "17 (50%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.41"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "Outcome"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early surgery a ( n = 22)"
+      ],
+      "value": "Outcome"
+    },
+    {
+      "row": [],
+      "col": [
+        "Late surgery a ( n = 34)"
+      ],
+      "value": "Outcome"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "Outcome"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "LOS in ICU, days (median and IQR)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early surgery a ( n = 22)"
+      ],
+      "value": "14 (5\u201333)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Late surgery a ( n = 34)"
+      ],
+      "value": "14 (6\u201335)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.75"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "LOS in hospital, days (median and IQR)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early surgery a ( n = 22)"
+      ],
+      "value": "29 (15\u201358)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Late surgery a ( n = 34)"
+      ],
+      "value": "87 (54\u2013106)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "<0.001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "LOS in ICU in hospital survivors, days (median and IQR) b"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early surgery a ( n = 22)"
+      ],
+      "value": "16 (4\u201346)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Late surgery a ( n = 34)"
+      ],
+      "value": "12 (5\u201331)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.92"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "LOS in hospital in hospital survivors, days (median and IQR) b"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early surgery a ( n = 22)"
+      ],
+      "value": "44 (30\u2013107)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Late surgery a ( n = 34)"
+      ],
+      "value": "88 (60\u2013106)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.034"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "Mortality"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early surgery a ( n = 22)"
+      ],
+      "value": "12 (54.5%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Late surgery a ( n = 34)"
+      ],
+      "value": "10 (29.4%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.06"
+    }
+  ]
+}

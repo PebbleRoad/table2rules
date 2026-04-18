@@ -1,0 +1,597 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "%",
+    "(%)",
+    "0",
+    "0 \u2013 20",
+    "0\u201310",
+    "1",
+    "1, 0",
+    "10",
+    "10,5",
+    "13",
+    "13, 9",
+    "13,7",
+    "137",
+    "14,3",
+    "19",
+    "2",
+    "2,0",
+    "21",
+    "21,1",
+    "21\u201330",
+    "21\u201340",
+    "22, 8",
+    "23,7",
+    "25, 0",
+    "25,0",
+    "27",
+    "29",
+    "3",
+    "31\u201340",
+    "38",
+    "38675",
+    "4",
+    "41\u201360",
+    "5",
+    "50, 0",
+    "51",
+    "57",
+    "6",
+    "7",
+    "7,8",
+    "71\u2013100",
+    "72",
+    "75,0",
+    "8",
+    "8, 8",
+    "9",
+    "> 40",
+    "Observed morbidity and death outcome = 3+4",
+    "Possum Mortality Risk (R1)",
+    "expected death",
+    "high risk",
+    "low risk",
+    "med risk",
+    "n",
+    "observed death outcome = 4",
+    "patients",
+    "total"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Possum Mortality Risk (R1)",
+        "(%)"
+      ],
+      "value": "0\u201310"
+    },
+    {
+      "row": [],
+      "col": [
+        "patients",
+        "n"
+      ],
+      "value": "21"
+    },
+    {
+      "row": [],
+      "col": [
+        "expected death",
+        "n"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "observed death outcome = 4",
+        "n"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "observed death outcome = 4",
+        "%"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Observed morbidity and death outcome = 3+4",
+        "n"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Observed morbidity and death outcome = 3+4",
+        "%"
+      ],
+      "value": "14,3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Possum Mortality Risk (R1)",
+        "(%)"
+      ],
+      "value": "38675"
+    },
+    {
+      "row": [],
+      "col": [
+        "patients",
+        "n"
+      ],
+      "value": "51"
+    },
+    {
+      "row": [],
+      "col": [
+        "expected death",
+        "n"
+      ],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [
+        "observed death outcome = 4",
+        "n"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "observed death outcome = 4",
+        "%"
+      ],
+      "value": "2,0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Observed morbidity and death outcome = 3+4",
+        "n"
+      ],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Observed morbidity and death outcome = 3+4",
+        "%"
+      ],
+      "value": "13,7"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "low risk"
+    },
+    {
+      "row": [],
+      "col": [
+        "Possum Mortality Risk (R1)",
+        "(%)"
+      ],
+      "value": "0 \u2013 20"
+    },
+    {
+      "row": [],
+      "col": [
+        "patients",
+        "n"
+      ],
+      "value": "72"
+    },
+    {
+      "row": [],
+      "col": [
+        "observed death outcome = 4",
+        "n"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "observed death outcome = 4",
+        "%"
+      ],
+      "value": "1, 0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Observed morbidity and death outcome = 3+4",
+        "n"
+      ],
+      "value": "10"
+    },
+    {
+      "row": [],
+      "col": [
+        "Observed morbidity and death outcome = 3+4",
+        "%"
+      ],
+      "value": "13, 9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Possum Mortality Risk (R1)",
+        "(%)"
+      ],
+      "value": "21\u201330"
+    },
+    {
+      "row": [],
+      "col": [
+        "patients",
+        "n"
+      ],
+      "value": "38"
+    },
+    {
+      "row": [],
+      "col": [
+        "expected death",
+        "n"
+      ],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [
+        "observed death outcome = 4",
+        "n"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "observed death outcome = 4",
+        "%"
+      ],
+      "value": "7,8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Observed morbidity and death outcome = 3+4",
+        "n"
+      ],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Observed morbidity and death outcome = 3+4",
+        "%"
+      ],
+      "value": "23,7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Possum Mortality Risk (R1)",
+        "(%)"
+      ],
+      "value": "31\u201340"
+    },
+    {
+      "row": [],
+      "col": [
+        "patients",
+        "n"
+      ],
+      "value": "19"
+    },
+    {
+      "row": [],
+      "col": [
+        "expected death",
+        "n"
+      ],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [
+        "observed death outcome = 4",
+        "n"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "observed death outcome = 4",
+        "%"
+      ],
+      "value": "10,5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Observed morbidity and death outcome = 3+4",
+        "n"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Observed morbidity and death outcome = 3+4",
+        "%"
+      ],
+      "value": "21,1"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "med risk"
+    },
+    {
+      "row": [],
+      "col": [
+        "Possum Mortality Risk (R1)",
+        "(%)"
+      ],
+      "value": "21\u201340"
+    },
+    {
+      "row": [],
+      "col": [
+        "patients",
+        "n"
+      ],
+      "value": "57"
+    },
+    {
+      "row": [],
+      "col": [
+        "observed death outcome = 4",
+        "n"
+      ],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [
+        "observed death outcome = 4",
+        "%"
+      ],
+      "value": "8, 8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Observed morbidity and death outcome = 3+4",
+        "n"
+      ],
+      "value": "13"
+    },
+    {
+      "row": [],
+      "col": [
+        "Observed morbidity and death outcome = 3+4",
+        "%"
+      ],
+      "value": "22, 8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Possum Mortality Risk (R1)",
+        "(%)"
+      ],
+      "value": "41\u201360"
+    },
+    {
+      "row": [],
+      "col": [
+        "patients",
+        "n"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "expected death",
+        "n"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "observed death outcome = 4",
+        "n"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "observed death outcome = 4",
+        "%"
+      ],
+      "value": "25,0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Observed morbidity and death outcome = 3+4",
+        "n"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Observed morbidity and death outcome = 3+4",
+        "%"
+      ],
+      "value": "25,0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Possum Mortality Risk (R1)",
+        "(%)"
+      ],
+      "value": "71\u2013100"
+    },
+    {
+      "row": [],
+      "col": [
+        "patients",
+        "n"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "expected death",
+        "n"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "observed death outcome = 4",
+        "n"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "observed death outcome = 4",
+        "%"
+      ],
+      "value": "25,0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Observed morbidity and death outcome = 3+4",
+        "n"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Observed morbidity and death outcome = 3+4",
+        "%"
+      ],
+      "value": "75,0"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "high risk"
+    },
+    {
+      "row": [],
+      "col": [
+        "Possum Mortality Risk (R1)",
+        "(%)"
+      ],
+      "value": "> 40"
+    },
+    {
+      "row": [],
+      "col": [
+        "patients",
+        "n"
+      ],
+      "value": "8"
+    },
+    {
+      "row": [],
+      "col": [
+        "observed death outcome = 4",
+        "n"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "observed death outcome = 4",
+        "%"
+      ],
+      "value": "25, 0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Observed morbidity and death outcome = 3+4",
+        "n"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Observed morbidity and death outcome = 3+4",
+        "%"
+      ],
+      "value": "50, 0"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "total"
+    },
+    {
+      "row": [],
+      "col": [
+        "patients",
+        "n"
+      ],
+      "value": "137"
+    },
+    {
+      "row": [],
+      "col": [
+        "expected death",
+        "n"
+      ],
+      "value": "29"
+    },
+    {
+      "row": [],
+      "col": [
+        "observed death outcome = 4",
+        "n"
+      ],
+      "value": "8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Observed morbidity and death outcome = 3+4",
+        "n"
+      ],
+      "value": "27"
+    }
+  ]
+}

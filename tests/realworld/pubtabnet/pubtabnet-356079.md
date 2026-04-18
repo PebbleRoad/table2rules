@@ -1,0 +1,381 @@
+<!-- source: PubTabNet imgid=356079 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+</td>
+<td colspan="2">
+<b>
+       Number*
+      </b>
+</td>
+<td colspan="2">
+<b>
+       PPH %
+      </b>
+</td>
+<td>
+<b>
+       P-value
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+<b>
+       Symptoms
+      </b>
+</td>
+<td>
+<b>
+       Yes
+      </b>
+</td>
+<td>
+<b>
+       No
+      </b>
+</td>
+<td>
+<b>
+       Yes
+      </b>
+</td>
+<td>
+<b>
+       No
+      </b>
+</td>
+<td>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      Stomach pain
+     </td>
+<td>
+      130
+     </td>
+<td>
+      339
+     </td>
+<td>
+      60.3
+     </td>
+<td>
+      41.3
+     </td>
+<td>
+<b>
+       &lt;0.0005
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+      Back pain
+     </td>
+<td>
+      218
+     </td>
+<td>
+      251
+     </td>
+<td>
+      59.0
+     </td>
+<td>
+      35.5
+     </td>
+<td>
+<b>
+       &lt;0.0001
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+      Pain in arms, legs &amp; joints
+     </td>
+<td>
+      288
+     </td>
+<td>
+      181
+     </td>
+<td>
+      52.4
+     </td>
+<td>
+      37.0
+     </td>
+<td>
+<b>
+       &lt;0.005
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+      Menstrual cramps
+     </td>
+<td>
+      46
+     </td>
+<td>
+      210
+     </td>
+<td>
+      50.0
+     </td>
+<td>
+      46.2
+     </td>
+<td>
+      NS
+     </td>
+</tr>
+<tr>
+<td>
+      Headaches
+     </td>
+<td>
+      176
+     </td>
+<td>
+      291
+     </td>
+<td>
+      57.0
+     </td>
+<td>
+      40.2
+     </td>
+<td>
+<b>
+       &lt;0.001
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+      Chest pain
+     </td>
+<td>
+      100
+     </td>
+<td>
+      368
+     </td>
+<td>
+      66.7
+     </td>
+<td>
+      41.0
+     </td>
+<td>
+<b>
+       &lt;0.0001
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+      Dizziness
+     </td>
+<td>
+      133
+     </td>
+<td>
+      333
+     </td>
+<td>
+      64.9
+     </td>
+<td>
+      39.3
+     </td>
+<td>
+<b>
+       &lt;0.0001
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+      Fainting spells
+     </td>
+<td>
+      23
+     </td>
+<td>
+      446
+     </td>
+<td>
+      87.0
+     </td>
+<td>
+      44.4
+     </td>
+<td>
+<b>
+       &lt;0.0001
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+      Palpitations
+     </td>
+<td>
+      88
+     </td>
+<td>
+      381
+     </td>
+<td>
+      63.6
+     </td>
+<td>
+      42.5
+     </td>
+<td>
+<b>
+       &lt;0.001
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+      Shortness of breath
+     </td>
+<td>
+      86
+     </td>
+<td>
+      383
+     </td>
+<td>
+      65.1
+     </td>
+<td>
+      42.3
+     </td>
+<td>
+<b>
+       &lt;0.0005
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+      Pain or problems during sexual intercourse
+     </td>
+<td>
+      27
+     </td>
+<td>
+      238
+     </td>
+<td>
+      57.7
+     </td>
+<td>
+      45.4
+     </td>
+<td>
+      NS
+     </td>
+</tr>
+<tr>
+<td>
+      Constipation, loose bowels, or diarrhoea
+     </td>
+<td>
+      117
+     </td>
+<td>
+      352
+     </td>
+<td>
+      62.4
+     </td>
+<td>
+      41.2
+     </td>
+<td>
+<b>
+       &lt;0.0001
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+      Nausea, gas, or indigestion
+     </td>
+<td>
+      145
+     </td>
+<td>
+      324
+     </td>
+<td>
+      58.6
+     </td>
+<td>
+      41.1
+     </td>
+<td>
+<b>
+       &lt;0.001
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+      Feeling tired or having low energy
+     </td>
+<td>
+      263
+     </td>
+<td>
+      206
+     </td>
+<td>
+      62.6
+     </td>
+<td>
+      26.2
+     </td>
+<td>
+<b>
+       &lt;0.0001
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+      Trouble sleeping
+     </td>
+<td>
+      202
+     </td>
+<td>
+      265
+     </td>
+<td>
+      62.9
+     </td>
+<td>
+      33.6
+     </td>
+<td>
+<b>
+       &lt;0.0001
+      </b>
+</td>
+</tr>
+</tbody>
+</table>

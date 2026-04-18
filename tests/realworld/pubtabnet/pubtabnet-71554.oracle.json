@@ -1,0 +1,523 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "1:100",
+    "1:2000",
+    "1:500",
+    "1:5000",
+    "Accurate Chemicals (New York, USA)",
+    "Astrocytes",
+    "BrdU",
+    "Chemicon (Temecula, USA)",
+    "Dakko (Glostrup, Denmark)",
+    "EBA",
+    "GFAP",
+    "Goat IgG",
+    "Hybridoma Bank (Iowa city, USA)",
+    "Lectin from bandeirae",
+    "Magnocellular neurons",
+    "Marker",
+    "Microglia and endothelial cells",
+    "Molecular Probes (Eugene, USA)",
+    "Mouse IGM",
+    "Mouse IgG",
+    "NG2",
+    "Nestin",
+    "Novo Castra (Newcastle, UK)",
+    "OT",
+    "Oligodendrocyte progenitors",
+    "Produced by G. Alonso",
+    "Proliferation",
+    "Rabbit IgG",
+    "Rat IgG",
+    "Rat IgG-Alexa 488 conjugated",
+    "Sigma",
+    "Simplifolia (IsoB4)",
+    "Species",
+    "Sternberger Monoclonals (Lutherville, USA)",
+    "VP",
+    "Vendor or productor",
+    "Vessels",
+    "Vimentin",
+    "Working dilution"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Marker"
+      ],
+      "value": "Proliferation"
+    },
+    {
+      "row": [],
+      "col": [
+        "Species"
+      ],
+      "value": "Proliferation"
+    },
+    {
+      "row": [],
+      "col": [
+        "Working dilution"
+      ],
+      "value": "Proliferation"
+    },
+    {
+      "row": [],
+      "col": [
+        "Vendor or productor"
+      ],
+      "value": "Proliferation"
+    },
+    {
+      "row": [],
+      "col": [
+        "Marker"
+      ],
+      "value": "BrdU"
+    },
+    {
+      "row": [],
+      "col": [
+        "Species"
+      ],
+      "value": "Mouse IgG"
+    },
+    {
+      "row": [],
+      "col": [
+        "Working dilution"
+      ],
+      "value": "1:500"
+    },
+    {
+      "row": [],
+      "col": [
+        "Vendor or productor"
+      ],
+      "value": "Novo Castra (Newcastle, UK)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Marker"
+      ],
+      "value": "BrdU"
+    },
+    {
+      "row": [],
+      "col": [
+        "Species"
+      ],
+      "value": "Rat IgG"
+    },
+    {
+      "row": [],
+      "col": [
+        "Working dilution"
+      ],
+      "value": "1:500"
+    },
+    {
+      "row": [],
+      "col": [
+        "Vendor or productor"
+      ],
+      "value": "Accurate Chemicals (New York, USA)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Marker"
+      ],
+      "value": "Magnocellular neurons"
+    },
+    {
+      "row": [],
+      "col": [
+        "Species"
+      ],
+      "value": "Magnocellular neurons"
+    },
+    {
+      "row": [],
+      "col": [
+        "Working dilution"
+      ],
+      "value": "Magnocellular neurons"
+    },
+    {
+      "row": [],
+      "col": [
+        "Vendor or productor"
+      ],
+      "value": "Magnocellular neurons"
+    },
+    {
+      "row": [],
+      "col": [
+        "Marker"
+      ],
+      "value": "OT"
+    },
+    {
+      "row": [],
+      "col": [
+        "Species"
+      ],
+      "value": "Rabbit IgG"
+    },
+    {
+      "row": [],
+      "col": [
+        "Working dilution"
+      ],
+      "value": "1:2000"
+    },
+    {
+      "row": [],
+      "col": [
+        "Vendor or productor"
+      ],
+      "value": "Produced by G. Alonso"
+    },
+    {
+      "row": [],
+      "col": [
+        "Marker"
+      ],
+      "value": "VP"
+    },
+    {
+      "row": [],
+      "col": [
+        "Species"
+      ],
+      "value": "Rabbit IgG"
+    },
+    {
+      "row": [],
+      "col": [
+        "Working dilution"
+      ],
+      "value": "1:2000"
+    },
+    {
+      "row": [],
+      "col": [
+        "Vendor or productor"
+      ],
+      "value": "Produced by G. Alonso"
+    },
+    {
+      "row": [],
+      "col": [
+        "Marker"
+      ],
+      "value": "Astrocytes"
+    },
+    {
+      "row": [],
+      "col": [
+        "Species"
+      ],
+      "value": "Astrocytes"
+    },
+    {
+      "row": [],
+      "col": [
+        "Working dilution"
+      ],
+      "value": "Astrocytes"
+    },
+    {
+      "row": [],
+      "col": [
+        "Vendor or productor"
+      ],
+      "value": "Astrocytes"
+    },
+    {
+      "row": [],
+      "col": [
+        "Marker"
+      ],
+      "value": "GFAP"
+    },
+    {
+      "row": [],
+      "col": [
+        "Species"
+      ],
+      "value": "Rabbit IgG"
+    },
+    {
+      "row": [],
+      "col": [
+        "Working dilution"
+      ],
+      "value": "1:5000"
+    },
+    {
+      "row": [],
+      "col": [
+        "Vendor or productor"
+      ],
+      "value": "Dakko (Glostrup, Denmark)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Marker"
+      ],
+      "value": "Microglia and endothelial cells"
+    },
+    {
+      "row": [],
+      "col": [
+        "Species"
+      ],
+      "value": "Microglia and endothelial cells"
+    },
+    {
+      "row": [],
+      "col": [
+        "Working dilution"
+      ],
+      "value": "Microglia and endothelial cells"
+    },
+    {
+      "row": [],
+      "col": [
+        "Vendor or productor"
+      ],
+      "value": "Microglia and endothelial cells"
+    },
+    {
+      "row": [],
+      "col": [
+        "Marker"
+      ],
+      "value": "Lectin from bandeirae"
+    },
+    {
+      "row": [],
+      "col": [
+        "Working dilution"
+      ],
+      "value": "1:2000"
+    },
+    {
+      "row": [],
+      "col": [
+        "Vendor or productor"
+      ],
+      "value": "Sigma"
+    },
+    {
+      "row": [],
+      "col": [
+        "Marker"
+      ],
+      "value": "Simplifolia (IsoB4)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Marker"
+      ],
+      "value": "Oligodendrocyte progenitors"
+    },
+    {
+      "row": [],
+      "col": [
+        "Species"
+      ],
+      "value": "Oligodendrocyte progenitors"
+    },
+    {
+      "row": [],
+      "col": [
+        "Working dilution"
+      ],
+      "value": "Oligodendrocyte progenitors"
+    },
+    {
+      "row": [],
+      "col": [
+        "Vendor or productor"
+      ],
+      "value": "Oligodendrocyte progenitors"
+    },
+    {
+      "row": [],
+      "col": [
+        "Marker"
+      ],
+      "value": "NG2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Species"
+      ],
+      "value": "Rabbit IgG"
+    },
+    {
+      "row": [],
+      "col": [
+        "Working dilution"
+      ],
+      "value": "1:500"
+    },
+    {
+      "row": [],
+      "col": [
+        "Vendor or productor"
+      ],
+      "value": "Chemicon (Temecula, USA)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Marker"
+      ],
+      "value": "Vessels"
+    },
+    {
+      "row": [],
+      "col": [
+        "Species"
+      ],
+      "value": "Vessels"
+    },
+    {
+      "row": [],
+      "col": [
+        "Working dilution"
+      ],
+      "value": "Vessels"
+    },
+    {
+      "row": [],
+      "col": [
+        "Vendor or productor"
+      ],
+      "value": "Vessels"
+    },
+    {
+      "row": [],
+      "col": [
+        "Marker"
+      ],
+      "value": "Rat IgG-Alexa 488 conjugated"
+    },
+    {
+      "row": [],
+      "col": [
+        "Species"
+      ],
+      "value": "Goat IgG"
+    },
+    {
+      "row": [],
+      "col": [
+        "Working dilution"
+      ],
+      "value": "1:2000"
+    },
+    {
+      "row": [],
+      "col": [
+        "Vendor or productor"
+      ],
+      "value": "Molecular Probes (Eugene, USA)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Marker"
+      ],
+      "value": "EBA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Species"
+      ],
+      "value": "Mouse IGM"
+    },
+    {
+      "row": [],
+      "col": [
+        "Working dilution"
+      ],
+      "value": "1:5000"
+    },
+    {
+      "row": [],
+      "col": [
+        "Vendor or productor"
+      ],
+      "value": "Sternberger Monoclonals (Lutherville, USA)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Marker"
+      ],
+      "value": "Nestin"
+    },
+    {
+      "row": [],
+      "col": [
+        "Species"
+      ],
+      "value": "Mouse IgG"
+    },
+    {
+      "row": [],
+      "col": [
+        "Working dilution"
+      ],
+      "value": "1:100"
+    },
+    {
+      "row": [],
+      "col": [
+        "Vendor or productor"
+      ],
+      "value": "Hybridoma Bank (Iowa city, USA)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Marker"
+      ],
+      "value": "Vimentin"
+    },
+    {
+      "row": [],
+      "col": [
+        "Species"
+      ],
+      "value": "Mouse IgG"
+    },
+    {
+      "row": [],
+      "col": [
+        "Working dilution"
+      ],
+      "value": "1:5000"
+    },
+    {
+      "row": [],
+      "col": [
+        "Vendor or productor"
+      ],
+      "value": "Sigma"
+    }
+  ]
+}

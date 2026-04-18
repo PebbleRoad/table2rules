@@ -1,0 +1,429 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0.118 a",
+    "0.129 f",
+    "0.292 e",
+    "0.434 b",
+    "0.521 c",
+    "0.997 d",
+    "1.47 \u00b1 1.38 (2)",
+    "2.08 \u00b1 1.28 (8)",
+    "2.32 \u00b1 1.45 (9)",
+    "2.50 \u00b1 1.24 (64)",
+    "2.54 \u00b1 1.24 (44)",
+    "2.56 \u00b1 1.47 (7)",
+    "2.57 \u00b1 1.32 (87)",
+    "2.65 \u00b1 1.24 (12)",
+    "2.76 \u00b1 1.57 (23)",
+    "2.77 \u00b1 1.69 (15)",
+    "2.77 \u00b1 1.96 (64)",
+    "3.16 \u00b1 1.29 (6)",
+    "3.19 \u00b1 1.93 (28)",
+    "3.21 \u00b1 2.09 (56)",
+    "3.21 \u00b1 2.14 (188)",
+    "3.21 \u00b1 2.17 (132)",
+    "3.29 \u00b1 2.97 (20)",
+    "3.52 \u00b1 2.35 (33)",
+    "3.61 \u00b1 2.31 (45)",
+    "3.63 \u00b1 2.31 (23)",
+    "3.65 \u00b1 2.49 (19)",
+    "3.68 \u00b1 2.14 (13)",
+    "3.75 \u00b1 2.53 (101)",
+    "3.87 \u00b1 2.62 (68)",
+    "3.88 \u00b1 2.90 (13)",
+    "3.95 \u00b1 2.51 (33)",
+    "4.45 \u00b1 2.34 (15)",
+    "<0.001 g",
+    "Female",
+    "Genotypes",
+    "Hypertensives",
+    "MM",
+    "MT",
+    "Male",
+    "Normotensives",
+    "TT",
+    "Total",
+    "p *",
+    "p \u00a7"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Genotypes"
+      ],
+      "value": "MM"
+    },
+    {
+      "row": [],
+      "col": [
+        "Normotensives",
+        "Male"
+      ],
+      "value": "2.77 \u00b1 1.69 (15)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Normotensives",
+        "Female"
+      ],
+      "value": "2.54 \u00b1 1.24 (44)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hypertensives",
+        "Male"
+      ],
+      "value": "3.68 \u00b1 2.14 (13)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hypertensives",
+        "Female"
+      ],
+      "value": "3.29 \u00b1 2.97 (20)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "Male"
+      ],
+      "value": "3.19 \u00b1 1.93 (28)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "Female"
+      ],
+      "value": "2.77 \u00b1 1.96 (64)"
+    },
+    {
+      "row": [],
+      "col": [
+        "p *"
+      ],
+      "value": "0.118 a"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotypes"
+      ],
+      "value": "MT"
+    },
+    {
+      "row": [],
+      "col": [
+        "Normotensives",
+        "Male"
+      ],
+      "value": "3.16 \u00b1 1.29 (6)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Normotensives",
+        "Female"
+      ],
+      "value": "2.65 \u00b1 1.24 (12)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hypertensives",
+        "Male"
+      ],
+      "value": "3.88 \u00b1 2.90 (13)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hypertensives",
+        "Female"
+      ],
+      "value": "3.95 \u00b1 2.51 (33)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "Male"
+      ],
+      "value": "3.65 \u00b1 2.49 (19)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "Female"
+      ],
+      "value": "3.61 \u00b1 2.31 (45)"
+    },
+    {
+      "row": [],
+      "col": [
+        "p *"
+      ],
+      "value": "0.292 e"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotypes"
+      ],
+      "value": "TT"
+    },
+    {
+      "row": [],
+      "col": [
+        "Normotensives",
+        "Male"
+      ],
+      "value": "1.47 \u00b1 1.38 (2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Normotensives",
+        "Female"
+      ],
+      "value": "2.08 \u00b1 1.28 (8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hypertensives",
+        "Male"
+      ],
+      "value": "2.56 \u00b1 1.47 (7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hypertensives",
+        "Female"
+      ],
+      "value": "4.45 \u00b1 2.34 (15)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "Male"
+      ],
+      "value": "2.32 \u00b1 1.45 (9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "Female"
+      ],
+      "value": "3.63 \u00b1 2.31 (23)"
+    },
+    {
+      "row": [],
+      "col": [
+        "p *"
+      ],
+      "value": "0.129 f"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotypes"
+      ],
+      "value": "Total"
+    },
+    {
+      "row": [],
+      "col": [
+        "Normotensives",
+        "Male"
+      ],
+      "value": "2.76 \u00b1 1.57 (23)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Normotensives",
+        "Female"
+      ],
+      "value": "2.50 \u00b1 1.24 (64)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hypertensives",
+        "Male"
+      ],
+      "value": "3.52 \u00b1 2.35 (33)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hypertensives",
+        "Female"
+      ],
+      "value": "3.87 \u00b1 2.62 (68)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "Male"
+      ],
+      "value": "3.21 \u00b1 2.09 (56)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "Female"
+      ],
+      "value": "3.21 \u00b1 2.17 (132)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Normotensives",
+        "Male"
+      ],
+      "value": "2.57 \u00b1 1.32 (87)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Normotensives",
+        "Female"
+      ],
+      "value": "2.57 \u00b1 1.32 (87)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hypertensives",
+        "Male"
+      ],
+      "value": "3.75 \u00b1 2.53 (101)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hypertensives",
+        "Female"
+      ],
+      "value": "3.75 \u00b1 2.53 (101)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "Male"
+      ],
+      "value": "3.21 \u00b1 2.14 (188)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "Female"
+      ],
+      "value": "3.21 \u00b1 2.14 (188)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotypes"
+      ],
+      "value": "p \u00a7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Normotensives",
+        "Male"
+      ],
+      "value": "0.434 b"
+    },
+    {
+      "row": [],
+      "col": [
+        "Normotensives",
+        "Female"
+      ],
+      "value": "0.434 b"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hypertensives",
+        "Male"
+      ],
+      "value": "0.521 c"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hypertensives",
+        "Female"
+      ],
+      "value": "0.521 c"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "Male"
+      ],
+      "value": "0.997 d"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "Female"
+      ],
+      "value": "0.997 d"
+    },
+    {
+      "row": [],
+      "col": [
+        "Normotensives",
+        "Male"
+      ],
+      "value": "<0.001 g"
+    },
+    {
+      "row": [],
+      "col": [
+        "Normotensives",
+        "Female"
+      ],
+      "value": "<0.001 g"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hypertensives",
+        "Male"
+      ],
+      "value": "<0.001 g"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hypertensives",
+        "Female"
+      ],
+      "value": "<0.001 g"
+    }
+  ]
+}

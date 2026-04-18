@@ -1,0 +1,263 @@
+<!-- source: PubTabNet imgid=53881 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td colspan="2">
+<b>
+       Method
+      </b>
+</td>
+<td colspan="3">
+<b>
+       Top 50
+      </b>
+</td>
+<td colspan="3">
+<b>
+       Top 100
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td>
+<b>
+       control
+      </b>
+</td>
+<td>
+<b>
+       A
+      </b>
+</td>
+<td>
+<b>
+       B
+      </b>
+</td>
+<td>
+<b>
+       control
+      </b>
+</td>
+<td>
+<b>
+       A
+      </b>
+</td>
+<td>
+<b>
+       B
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      Rank – based
+     </td>
+<td>
+      RP
+     </td>
+<td>
+      13
+     </td>
+<td>
+      46
+     </td>
+<td>
+      31
+     </td>
+<td>
+      15
+     </td>
+<td>
+      69
+     </td>
+<td>
+      43
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      MR
+     </td>
+<td>
+      13
+     </td>
+<td>
+      45
+     </td>
+<td>
+      32
+     </td>
+<td>
+      15
+     </td>
+<td>
+      70
+     </td>
+<td>
+      47
+     </td>
+</tr>
+<tr>
+<td>
+      Global Normalization
+     </td>
+<td>
+      Mean
+     </td>
+<td>
+      20
+     </td>
+<td>
+      37
+     </td>
+<td>
+      20
+     </td>
+<td>
+      23
+     </td>
+<td>
+      65
+     </td>
+<td>
+      29
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      SAM
+     </td>
+<td>
+      20
+     </td>
+<td>
+      38
+     </td>
+<td>
+      24
+     </td>
+<td>
+      23
+     </td>
+<td>
+      65
+     </td>
+<td>
+      29
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      t
+     </td>
+<td>
+      20
+     </td>
+<td>
+      38
+     </td>
+<td>
+      24
+     </td>
+<td>
+      23
+     </td>
+<td>
+      65
+     </td>
+<td>
+      31
+     </td>
+</tr>
+<tr>
+<td>
+      Scale Normalization
+     </td>
+<td>
+      Mean
+     </td>
+<td>
+      20
+     </td>
+<td>
+      44
+     </td>
+<td>
+      21
+     </td>
+<td>
+      23
+     </td>
+<td>
+      65
+     </td>
+<td>
+      23
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      SAM
+     </td>
+<td>
+      20
+     </td>
+<td>
+      40
+     </td>
+<td>
+      22
+     </td>
+<td>
+      23
+     </td>
+<td>
+      63
+     </td>
+<td>
+      29
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      t
+     </td>
+<td>
+      20
+     </td>
+<td>
+      16
+     </td>
+<td>
+      24
+     </td>
+<td>
+      23
+     </td>
+<td>
+      30
+     </td>
+<td>
+      31
+     </td>
+</tr>
+</tbody>
+</table>

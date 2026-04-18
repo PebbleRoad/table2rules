@@ -1,0 +1,630 @@
+<!-- source: PubTabNet imgid=198436 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td colspan="7">
+<b>
+       No. of BAC clones in each contig
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+<b>
+       GenBank accession no.
+      </b>
+</td>
+<td>
+<b>
+       Putative gene
+      </b>
+</td>
+<td>
+<b>
+       No. of positive BACs identified
+      </b>
+</td>
+<td>
+<b>
+       Singletons
+      </b>
+</td>
+<td>
+<b>
+       No. of contigs
+      </b>
+</td>
+<td>
+<b>
+       1
+      </b>
+</td>
+<td>
+<b>
+       2
+      </b>
+</td>
+<td>
+<b>
+       3
+      </b>
+</td>
+<td>
+<b>
+       4
+      </b>
+</td>
+<td>
+<b>
+       5
+      </b>
+</td>
+<td>
+<b>
+       6
+      </b>
+</td>
+<td>
+<b>
+       7
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      BG 934178
+     </td>
+<td>
+      Elongation factor 2
+     </td>
+<td>
+      79
+     </td>
+<td>
+      19
+     </td>
+<td>
+      3
+     </td>
+<td>
+      28
+     </td>
+<td>
+      18
+     </td>
+<td>
+      14
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      BG934439
+     </td>
+<td>
+      Eukaryotic translation initiation factor 5
+     </td>
+<td>
+      91
+     </td>
+<td>
+      3
+     </td>
+<td>
+      2
+     </td>
+<td>
+      78
+     </td>
+<td>
+      10
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      BG935804
+     </td>
+<td>
+      Ubiquitin
+     </td>
+<td>
+      69
+     </td>
+<td>
+      8
+     </td>
+<td>
+      2
+     </td>
+<td>
+      54
+     </td>
+<td>
+      3
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      BG934353
+     </td>
+<td>
+      Phosphate transfer protein
+     </td>
+<td>
+      108
+     </td>
+<td>
+      14
+     </td>
+<td>
+      4
+     </td>
+<td>
+      47
+     </td>
+<td>
+      31
+     </td>
+<td>
+      8
+     </td>
+<td>
+      4
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      BG935917
+     </td>
+<td>
+      cyclin L ania-6a
+     </td>
+<td>
+      6
+     </td>
+<td>
+      6
+     </td>
+<td>
+      0
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      AF201470
+     </td>
+<td>
+      Retinal rod opsin
+     </td>
+<td>
+      100
+     </td>
+<td>
+      16
+     </td>
+<td>
+      3
+     </td>
+<td>
+      64
+     </td>
+<td>
+      17
+     </td>
+<td>
+      3
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      AJ344158
+     </td>
+<td>
+      Myostatin, isoform II
+     </td>
+<td>
+      104
+     </td>
+<td>
+      10
+     </td>
+<td>
+      4
+     </td>
+<td>
+      42
+     </td>
+<td>
+      22
+     </td>
+<td>
+      17
+     </td>
+<td>
+      10
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      BG936489
+     </td>
+<td>
+      Actin related protein (P16arc)
+     </td>
+<td>
+      122
+     </td>
+<td>
+      10
+     </td>
+<td>
+      3
+     </td>
+<td>
+      51
+     </td>
+<td>
+      39
+     </td>
+<td>
+      20
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      BG933799
+     </td>
+<td>
+      AMP deaminase
+     </td>
+<td>
+      76
+     </td>
+<td>
+      12
+     </td>
+<td>
+      5
+     </td>
+<td>
+      38
+     </td>
+<td>
+      7
+     </td>
+<td>
+      7
+     </td>
+<td>
+      4
+     </td>
+<td>
+      3
+     </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      BG933794
+     </td>
+<td>
+      TAR DNA-binding protein
+     </td>
+<td>
+      69
+     </td>
+<td>
+      11
+     </td>
+<td>
+      2
+     </td>
+<td>
+      35
+     </td>
+<td>
+      22
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      BG934675
+     </td>
+<td>
+      Helicase
+     </td>
+<td>
+      142
+     </td>
+<td>
+      25
+     </td>
+<td>
+      7
+     </td>
+<td>
+      35
+     </td>
+<td>
+      25
+     </td>
+<td>
+      22
+     </td>
+<td>
+      16
+     </td>
+<td>
+      9
+     </td>
+<td>
+      5
+     </td>
+<td>
+      4
+     </td>
+</tr>
+<tr>
+<td>
+      BE518514
+     </td>
+<td>
+      Translation initiation factor 3
+     </td>
+<td>
+      17
+     </td>
+<td>
+      0
+     </td>
+<td>
+      2
+     </td>
+<td>
+      13
+     </td>
+<td>
+      4
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      X14305
+     </td>
+<td>
+      Growth hormone
+     </td>
+<td>
+      74
+     </td>
+<td>
+      8
+     </td>
+<td>
+      3
+     </td>
+<td>
+      42
+     </td>
+<td>
+      20
+     </td>
+<td>
+      3
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      BG935839
+     </td>
+<td>
+      Collagen type I
+     </td>
+<td>
+      97
+     </td>
+<td>
+      7
+     </td>
+<td>
+      6
+     </td>
+<td>
+      37
+     </td>
+<td>
+      28
+     </td>
+<td>
+      12
+     </td>
+<td>
+      4
+     </td>
+<td>
+      4
+     </td>
+<td>
+      3
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      BG935084
+     </td>
+<td>
+      Transducin alpha subunit
+     </td>
+<td>
+      49
+     </td>
+<td>
+      11
+     </td>
+<td>
+      3
+     </td>
+<td>
+      15
+     </td>
+<td>
+      12
+     </td>
+<td>
+      9
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Average:
+     </td>
+<td>
+</td>
+<td>
+      80.2
+     </td>
+<td>
+      10.7
+     </td>
+<td>
+      3.3
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+</tbody>
+</table>

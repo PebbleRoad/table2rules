@@ -1,0 +1,414 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "1.1\u20134.2",
+    "1.2\u20136.5",
+    "1.3\u201314",
+    "1.9\u20132.9",
+    "1.9\u20134.5",
+    "10\u201331",
+    "110\u2013170",
+    "13",
+    "134",
+    "14\u201325",
+    "170\u2013220",
+    "19",
+    "190\u2013290",
+    "2.2\u20136.6",
+    "2.3",
+    "2.4",
+    "2.5",
+    "2.8\u20137.8",
+    "205",
+    "20\u201335",
+    "210",
+    "21\u201334",
+    "21\u201338",
+    "23",
+    "24",
+    "2\u2013-7.1",
+    "3.0",
+    "4.0",
+    "4.1",
+    "43\u201377",
+    "4400\u20136600",
+    "52",
+    "5300",
+    "60\u2013124",
+    "72",
+    "7500\u201312600",
+    "9700",
+    "Ade + \u00d7 10 -8",
+    "Can r \u00d7 10 -7",
+    "His + \u00d7 10 -8",
+    "Mutation rates*",
+    "Plasmid",
+    "Strain",
+    "Trp + \u00d7 10 -8",
+    "Ura+ \u00d7 10 -8",
+    "hAIDSc",
+    "ung1::hygB",
+    "vector",
+    "wild-type"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Mutation rates*"
+      ],
+      "value": "Can r \u00d7 10 -7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mutation rates*"
+      ],
+      "value": "Ade + \u00d7 10 -8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mutation rates*"
+      ],
+      "value": "Trp + \u00d7 10 -8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mutation rates*"
+      ],
+      "value": "Ura+ \u00d7 10 -8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mutation rates*"
+      ],
+      "value": "His + \u00d7 10 -8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Strain"
+      ],
+      "value": "wild-type"
+    },
+    {
+      "row": [],
+      "col": [
+        "Plasmid"
+      ],
+      "value": "vector"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mutation rates*"
+      ],
+      "value": "2.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mutation rates*"
+      ],
+      "value": "24"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mutation rates*"
+      ],
+      "value": "4.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mutation rates*"
+      ],
+      "value": "4.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mutation rates*"
+      ],
+      "value": "2.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mutation rates*"
+      ],
+      "value": "1.2\u20136.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mutation rates*"
+      ],
+      "value": "21\u201334"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mutation rates*"
+      ],
+      "value": "1.3\u201314"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mutation rates*"
+      ],
+      "value": "2.2\u20136.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mutation rates*"
+      ],
+      "value": "1.9\u20132.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Plasmid"
+      ],
+      "value": "hAIDSc"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mutation rates*"
+      ],
+      "value": "19"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mutation rates*"
+      ],
+      "value": "72"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mutation rates*"
+      ],
+      "value": "24"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mutation rates*"
+      ],
+      "value": "4.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mutation rates*"
+      ],
+      "value": "2.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mutation rates*"
+      ],
+      "value": "14\u201325"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mutation rates*"
+      ],
+      "value": "60\u2013124"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mutation rates*"
+      ],
+      "value": "21\u201338"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mutation rates*"
+      ],
+      "value": "2.8\u20137.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mutation rates*"
+      ],
+      "value": "1.1\u20134.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Strain"
+      ],
+      "value": "ung1::hygB"
+    },
+    {
+      "row": [],
+      "col": [
+        "Plasmid"
+      ],
+      "value": "vector"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mutation rates*"
+      ],
+      "value": "13"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mutation rates*"
+      ],
+      "value": "210"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mutation rates*"
+      ],
+      "value": "134"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mutation rates*"
+      ],
+      "value": "23"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mutation rates*"
+      ],
+      "value": "3.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mutation rates*"
+      ],
+      "value": "10\u201331"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mutation rates*"
+      ],
+      "value": "190\u2013290"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mutation rates*"
+      ],
+      "value": "110\u2013170"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mutation rates*"
+      ],
+      "value": "20\u201335"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mutation rates*"
+      ],
+      "value": "1.9\u20134.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Plasmid"
+      ],
+      "value": "hAIDSc"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mutation rates*"
+      ],
+      "value": "205"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mutation rates*"
+      ],
+      "value": "9700"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mutation rates*"
+      ],
+      "value": "5300"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mutation rates*"
+      ],
+      "value": "52"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mutation rates*"
+      ],
+      "value": "4.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mutation rates*"
+      ],
+      "value": "170\u2013220"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mutation rates*"
+      ],
+      "value": "7500\u201312600"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mutation rates*"
+      ],
+      "value": "4400\u20136600"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mutation rates*"
+      ],
+      "value": "43\u201377"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mutation rates*"
+      ],
+      "value": "2\u2013-7.1"
+    }
+  ]
+}

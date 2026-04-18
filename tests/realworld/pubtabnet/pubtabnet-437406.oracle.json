@@ -1,0 +1,414 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "+",
+    "-",
+    "0.046",
+    "0.181",
+    "0.243",
+    "0.632",
+    "0.817",
+    "0.947",
+    "15.6",
+    "23",
+    "31.6",
+    "35.3",
+    "36.4",
+    "38.7",
+    "39",
+    "40",
+    "40.6",
+    "40.9",
+    "41.7",
+    "43.8",
+    "45.5",
+    "5.3",
+    "54.5",
+    "58.3",
+    "59.1",
+    "60",
+    "61",
+    "61.3",
+    "63.2",
+    "63.6",
+    "64.7",
+    "77",
+    "ER",
+    "HG",
+    "I",
+    "II",
+    "III",
+    "No",
+    "Nodal status",
+    "Non-polysomy (%)",
+    "P",
+    "Parameter",
+    "PgR",
+    "Polysomy (%)",
+    "Relapse",
+    "Yes",
+    "p53",
+    "pN+",
+    "pN-"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "HG"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "I"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-polysomy (%)"
+      ],
+      "value": "15.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Polysomy (%)"
+      ],
+      "value": "5.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "II"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-polysomy (%)"
+      ],
+      "value": "43.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Polysomy (%)"
+      ],
+      "value": "63.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.243"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "III"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-polysomy (%)"
+      ],
+      "value": "40.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Polysomy (%)"
+      ],
+      "value": "31.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "Nodal status"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "pN-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-polysomy (%)"
+      ],
+      "value": "61.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Polysomy (%)"
+      ],
+      "value": "35.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.046"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "pN+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-polysomy (%)"
+      ],
+      "value": "38.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Polysomy (%)"
+      ],
+      "value": "64.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "ER"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-polysomy (%)"
+      ],
+      "value": "41.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Polysomy (%)"
+      ],
+      "value": "40.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.947"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-polysomy (%)"
+      ],
+      "value": "58.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Polysomy (%)"
+      ],
+      "value": "59.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "PgR"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-polysomy (%)"
+      ],
+      "value": "60"
+    },
+    {
+      "row": [],
+      "col": [
+        "Polysomy (%)"
+      ],
+      "value": "54.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.632"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-polysomy (%)"
+      ],
+      "value": "40"
+    },
+    {
+      "row": [],
+      "col": [
+        "Polysomy (%)"
+      ],
+      "value": "45.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "p53"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-polysomy (%)"
+      ],
+      "value": "61"
+    },
+    {
+      "row": [],
+      "col": [
+        "Polysomy (%)"
+      ],
+      "value": "63.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.817"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-polysomy (%)"
+      ],
+      "value": "39"
+    },
+    {
+      "row": [],
+      "col": [
+        "Polysomy (%)"
+      ],
+      "value": "36.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "Relapse"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "No"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-polysomy (%)"
+      ],
+      "value": "77"
+    },
+    {
+      "row": [],
+      "col": [
+        "Polysomy (%)"
+      ],
+      "value": "63.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.181"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "Yes"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-polysomy (%)"
+      ],
+      "value": "23"
+    },
+    {
+      "row": [],
+      "col": [
+        "Polysomy (%)"
+      ],
+      "value": "36.4"
+    }
+  ]
+}

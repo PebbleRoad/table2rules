@@ -1,0 +1,544 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0.2",
+    "0.3",
+    "0.4",
+    "0.6",
+    "0.7",
+    "0.8",
+    "0.9",
+    "1.4",
+    "1.5",
+    "1.6",
+    "1.8",
+    "134",
+    "166",
+    "18",
+    "2.2",
+    "2.3",
+    "2.4",
+    "2.5",
+    "2.6",
+    "2.8",
+    "2.9",
+    "27",
+    "3.1",
+    "3.4",
+    "3.8",
+    "4.0",
+    "4.1",
+    "4.4",
+    "4.6",
+    "4.7",
+    "50",
+    "52",
+    "6.4",
+    "DMF",
+    "High-risk",
+    "I+DMFS",
+    "Intermediate",
+    "Low-risk",
+    "Mean",
+    "Prevention group",
+    "Risk category at 2 yrs",
+    "Risk-based N = 245",
+    "Routine N = 202",
+    "S.D.",
+    "Sealants",
+    "n"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Prevention group",
+        "Risk category at 2 yrs"
+      ],
+      "value": "Risk-based N = 245"
+    },
+    {
+      "row": [],
+      "col": [
+        "DMF",
+        "Mean"
+      ],
+      "value": "0.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "DMF",
+        "S.D."
+      ],
+      "value": "0.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "I+DMFS",
+        "Mean"
+      ],
+      "value": "2.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "I+DMFS",
+        "S.D."
+      ],
+      "value": "4.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sealants",
+        "Mean"
+      ],
+      "value": "2.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sealants",
+        "S.D."
+      ],
+      "value": "2.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prevention group",
+        "Risk category at 2 yrs"
+      ],
+      "value": "Low-risk"
+    },
+    {
+      "row": [],
+      "col": [
+        "n"
+      ],
+      "value": "166"
+    },
+    {
+      "row": [],
+      "col": [
+        "DMF",
+        "Mean"
+      ],
+      "value": "0.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "DMF",
+        "S.D."
+      ],
+      "value": "0.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "I+DMFS",
+        "Mean"
+      ],
+      "value": "2.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "I+DMFS",
+        "S.D."
+      ],
+      "value": "3.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sealants",
+        "Mean"
+      ],
+      "value": "2.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sealants",
+        "S.D."
+      ],
+      "value": "2.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prevention group",
+        "Risk category at 2 yrs"
+      ],
+      "value": "Intermediate"
+    },
+    {
+      "row": [],
+      "col": [
+        "n"
+      ],
+      "value": "52"
+    },
+    {
+      "row": [],
+      "col": [
+        "DMF",
+        "Mean"
+      ],
+      "value": "0.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "DMF",
+        "S.D."
+      ],
+      "value": "0.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "I+DMFS",
+        "Mean"
+      ],
+      "value": "3.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "I+DMFS",
+        "S.D."
+      ],
+      "value": "4.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sealants",
+        "Mean"
+      ],
+      "value": "2.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sealants",
+        "S.D."
+      ],
+      "value": "2.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prevention group",
+        "Risk category at 2 yrs"
+      ],
+      "value": "High-risk"
+    },
+    {
+      "row": [],
+      "col": [
+        "n"
+      ],
+      "value": "27"
+    },
+    {
+      "row": [],
+      "col": [
+        "DMF",
+        "Mean"
+      ],
+      "value": "0.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "DMF",
+        "S.D."
+      ],
+      "value": "0.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "I+DMFS",
+        "Mean"
+      ],
+      "value": "4.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "I+DMFS",
+        "S.D."
+      ],
+      "value": "6.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sealants",
+        "Mean"
+      ],
+      "value": "3.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sealants",
+        "S.D."
+      ],
+      "value": "2.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prevention group",
+        "Risk category at 2 yrs"
+      ],
+      "value": "Routine N = 202"
+    },
+    {
+      "row": [],
+      "col": [
+        "DMF",
+        "Mean"
+      ],
+      "value": "0.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "DMF",
+        "S.D."
+      ],
+      "value": "0.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "I+DMFS",
+        "Mean"
+      ],
+      "value": "2.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "I+DMFS",
+        "S.D."
+      ],
+      "value": "4.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sealants",
+        "Mean"
+      ],
+      "value": "1.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sealants",
+        "S.D."
+      ],
+      "value": "1.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prevention group",
+        "Risk category at 2 yrs"
+      ],
+      "value": "Low-risk"
+    },
+    {
+      "row": [],
+      "col": [
+        "n"
+      ],
+      "value": "134"
+    },
+    {
+      "row": [],
+      "col": [
+        "DMF",
+        "Mean"
+      ],
+      "value": "0.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "DMF",
+        "S.D."
+      ],
+      "value": "0.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "I+DMFS",
+        "Mean"
+      ],
+      "value": "2.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "I+DMFS",
+        "S.D."
+      ],
+      "value": "3.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sealants",
+        "Mean"
+      ],
+      "value": "1.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sealants",
+        "S.D."
+      ],
+      "value": "1.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prevention group",
+        "Risk category at 2 yrs"
+      ],
+      "value": "Intermediate"
+    },
+    {
+      "row": [],
+      "col": [
+        "n"
+      ],
+      "value": "50"
+    },
+    {
+      "row": [],
+      "col": [
+        "DMF",
+        "Mean"
+      ],
+      "value": "0.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "DMF",
+        "S.D."
+      ],
+      "value": "0.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "I+DMFS",
+        "Mean"
+      ],
+      "value": "4.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "I+DMFS",
+        "S.D."
+      ],
+      "value": "3.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sealants",
+        "Mean"
+      ],
+      "value": "1.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sealants",
+        "S.D."
+      ],
+      "value": "1.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prevention group",
+        "Risk category at 2 yrs"
+      ],
+      "value": "High-risk"
+    },
+    {
+      "row": [],
+      "col": [
+        "n"
+      ],
+      "value": "18"
+    },
+    {
+      "row": [],
+      "col": [
+        "DMF",
+        "Mean"
+      ],
+      "value": "0.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "DMF",
+        "S.D."
+      ],
+      "value": "1.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "I+DMFS",
+        "Mean"
+      ],
+      "value": "4.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "I+DMFS",
+        "S.D."
+      ],
+      "value": "4.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sealants",
+        "Mean"
+      ],
+      "value": "2.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sealants",
+        "S.D."
+      ],
+      "value": "2.9"
+    }
+  ]
+}

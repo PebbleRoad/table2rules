@@ -1,0 +1,911 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "100177",
+    "101805",
+    "105248",
+    "105339",
+    "11643",
+    "16.1",
+    "19",
+    "19161",
+    "2",
+    "20",
+    "20598",
+    "21080",
+    "23838",
+    "261446",
+    "2857",
+    "29379",
+    "308068",
+    "308433",
+    "31061",
+    "31142",
+    "314537",
+    "331422",
+    "3373",
+    "35042",
+    "35282",
+    "354980",
+    "3601",
+    "364554",
+    "36783",
+    "37325",
+    "37391",
+    "388434",
+    "3953",
+    "400100",
+    "400363",
+    "41834",
+    "4421",
+    "445",
+    "4473",
+    "47215",
+    "49333",
+    "53628",
+    "6",
+    "62.9",
+    "64",
+    "64.1",
+    "67.6",
+    "6875",
+    "7015",
+    "72.4",
+    "74.4",
+    "74472",
+    "78782",
+    "79.3",
+    "79642",
+    "80.4",
+    "80.6",
+    "80617",
+    "80772",
+    "81.6",
+    "81.7",
+    "86.9",
+    "87.5",
+    "88.1",
+    "90.8",
+    "91.0",
+    "91.5",
+    "91.7",
+    "92.2",
+    "92.8",
+    "93.0",
+    "93.7",
+    "93601",
+    "94.7",
+    "95.9",
+    "9755",
+    "98276",
+    "99636",
+    "K",
+    "SPC",
+    "TRIBE-MCL",
+    "a posteriori sensitivity",
+    "a priori sensitivity",
+    "all NN",
+    "cases",
+    "clusters",
+    "false negative",
+    "false positive",
+    "gSPC",
+    "specificity",
+    "true positive"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "K"
+      ],
+      "value": "SPC"
+    },
+    {
+      "row": [],
+      "col": [
+        "cases"
+      ],
+      "value": "SPC"
+    },
+    {
+      "row": [],
+      "col": [
+        "clusters"
+      ],
+      "value": "SPC"
+    },
+    {
+      "row": [],
+      "col": [
+        "true positive"
+      ],
+      "value": "SPC"
+    },
+    {
+      "row": [],
+      "col": [
+        "false positive"
+      ],
+      "value": "SPC"
+    },
+    {
+      "row": [],
+      "col": [
+        "false negative"
+      ],
+      "value": "SPC"
+    },
+    {
+      "row": [],
+      "col": [
+        "specificity"
+      ],
+      "value": "SPC"
+    },
+    {
+      "row": [],
+      "col": [
+        "a posteriori sensitivity"
+      ],
+      "value": "SPC"
+    },
+    {
+      "row": [],
+      "col": [
+        "a priori sensitivity"
+      ],
+      "value": "SPC"
+    },
+    {
+      "row": [],
+      "col": [
+        "K"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "cases"
+      ],
+      "value": "19161"
+    },
+    {
+      "row": [],
+      "col": [
+        "clusters"
+      ],
+      "value": "4473"
+    },
+    {
+      "row": [],
+      "col": [
+        "true positive"
+      ],
+      "value": "78782"
+    },
+    {
+      "row": [],
+      "col": [
+        "false positive"
+      ],
+      "value": "4421"
+    },
+    {
+      "row": [],
+      "col": [
+        "false negative"
+      ],
+      "value": "3373"
+    },
+    {
+      "row": [],
+      "col": [
+        "specificity"
+      ],
+      "value": "94.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "a posteriori sensitivity"
+      ],
+      "value": "95.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "a priori sensitivity"
+      ],
+      "value": "16.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "K"
+      ],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [
+        "cases"
+      ],
+      "value": "79642"
+    },
+    {
+      "row": [],
+      "col": [
+        "clusters"
+      ],
+      "value": "11643"
+    },
+    {
+      "row": [],
+      "col": [
+        "true positive"
+      ],
+      "value": "308068"
+    },
+    {
+      "row": [],
+      "col": [
+        "false positive"
+      ],
+      "value": "20598"
+    },
+    {
+      "row": [],
+      "col": [
+        "false negative"
+      ],
+      "value": "261446"
+    },
+    {
+      "row": [],
+      "col": [
+        "specificity"
+      ],
+      "value": "93.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "a posteriori sensitivity"
+      ],
+      "value": "92.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "a priori sensitivity"
+      ],
+      "value": "62.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "K"
+      ],
+      "value": "20"
+    },
+    {
+      "row": [],
+      "col": [
+        "cases"
+      ],
+      "value": "98276"
+    },
+    {
+      "row": [],
+      "col": [
+        "clusters"
+      ],
+      "value": "6875"
+    },
+    {
+      "row": [],
+      "col": [
+        "true positive"
+      ],
+      "value": "354980"
+    },
+    {
+      "row": [],
+      "col": [
+        "false positive"
+      ],
+      "value": "35282"
+    },
+    {
+      "row": [],
+      "col": [
+        "false negative"
+      ],
+      "value": "53628"
+    },
+    {
+      "row": [],
+      "col": [
+        "specificity"
+      ],
+      "value": "91.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "a posteriori sensitivity"
+      ],
+      "value": "86.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "a priori sensitivity"
+      ],
+      "value": "72.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "K"
+      ],
+      "value": "64"
+    },
+    {
+      "row": [],
+      "col": [
+        "cases"
+      ],
+      "value": "100177"
+    },
+    {
+      "row": [],
+      "col": [
+        "clusters"
+      ],
+      "value": "3953"
+    },
+    {
+      "row": [],
+      "col": [
+        "true positive"
+      ],
+      "value": "331422"
+    },
+    {
+      "row": [],
+      "col": [
+        "false positive"
+      ],
+      "value": "47215"
+    },
+    {
+      "row": [],
+      "col": [
+        "false negative"
+      ],
+      "value": "80772"
+    },
+    {
+      "row": [],
+      "col": [
+        "specificity"
+      ],
+      "value": "87.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "a posteriori sensitivity"
+      ],
+      "value": "80.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "a priori sensitivity"
+      ],
+      "value": "67.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "K"
+      ],
+      "value": "all NN"
+    },
+    {
+      "row": [],
+      "col": [
+        "cases"
+      ],
+      "value": "93601"
+    },
+    {
+      "row": [],
+      "col": [
+        "clusters"
+      ],
+      "value": "3601"
+    },
+    {
+      "row": [],
+      "col": [
+        "true positive"
+      ],
+      "value": "308433"
+    },
+    {
+      "row": [],
+      "col": [
+        "false positive"
+      ],
+      "value": "41834"
+    },
+    {
+      "row": [],
+      "col": [
+        "false negative"
+      ],
+      "value": "74472"
+    },
+    {
+      "row": [],
+      "col": [
+        "specificity"
+      ],
+      "value": "88.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "a posteriori sensitivity"
+      ],
+      "value": "80.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "a priori sensitivity"
+      ],
+      "value": "62.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "K"
+      ],
+      "value": "TRIBE-MCL"
+    },
+    {
+      "row": [],
+      "col": [
+        "cases"
+      ],
+      "value": "TRIBE-MCL"
+    },
+    {
+      "row": [],
+      "col": [
+        "clusters"
+      ],
+      "value": "TRIBE-MCL"
+    },
+    {
+      "row": [],
+      "col": [
+        "true positive"
+      ],
+      "value": "TRIBE-MCL"
+    },
+    {
+      "row": [],
+      "col": [
+        "false positive"
+      ],
+      "value": "TRIBE-MCL"
+    },
+    {
+      "row": [],
+      "col": [
+        "false negative"
+      ],
+      "value": "TRIBE-MCL"
+    },
+    {
+      "row": [],
+      "col": [
+        "specificity"
+      ],
+      "value": "TRIBE-MCL"
+    },
+    {
+      "row": [],
+      "col": [
+        "a posteriori sensitivity"
+      ],
+      "value": "TRIBE-MCL"
+    },
+    {
+      "row": [],
+      "col": [
+        "a priori sensitivity"
+      ],
+      "value": "TRIBE-MCL"
+    },
+    {
+      "row": [],
+      "col": [
+        "cases"
+      ],
+      "value": "99636"
+    },
+    {
+      "row": [],
+      "col": [
+        "clusters"
+      ],
+      "value": "7015"
+    },
+    {
+      "row": [],
+      "col": [
+        "true positive"
+      ],
+      "value": "364554"
+    },
+    {
+      "row": [],
+      "col": [
+        "false positive"
+      ],
+      "value": "36783"
+    },
+    {
+      "row": [],
+      "col": [
+        "false negative"
+      ],
+      "value": "49333"
+    },
+    {
+      "row": [],
+      "col": [
+        "specificity"
+      ],
+      "value": "90.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "a posteriori sensitivity"
+      ],
+      "value": "88.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "a priori sensitivity"
+      ],
+      "value": "74.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "K"
+      ],
+      "value": "gSPC"
+    },
+    {
+      "row": [],
+      "col": [
+        "cases"
+      ],
+      "value": "gSPC"
+    },
+    {
+      "row": [],
+      "col": [
+        "clusters"
+      ],
+      "value": "gSPC"
+    },
+    {
+      "row": [],
+      "col": [
+        "true positive"
+      ],
+      "value": "gSPC"
+    },
+    {
+      "row": [],
+      "col": [
+        "false positive"
+      ],
+      "value": "gSPC"
+    },
+    {
+      "row": [],
+      "col": [
+        "false negative"
+      ],
+      "value": "gSPC"
+    },
+    {
+      "row": [],
+      "col": [
+        "specificity"
+      ],
+      "value": "gSPC"
+    },
+    {
+      "row": [],
+      "col": [
+        "a posteriori sensitivity"
+      ],
+      "value": "gSPC"
+    },
+    {
+      "row": [],
+      "col": [
+        "a priori sensitivity"
+      ],
+      "value": "gSPC"
+    },
+    {
+      "row": [],
+      "col": [
+        "K"
+      ],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [
+        "cases"
+      ],
+      "value": "80617"
+    },
+    {
+      "row": [],
+      "col": [
+        "clusters"
+      ],
+      "value": "9755"
+    },
+    {
+      "row": [],
+      "col": [
+        "true positive"
+      ],
+      "value": "314537"
+    },
+    {
+      "row": [],
+      "col": [
+        "false positive"
+      ],
+      "value": "21080"
+    },
+    {
+      "row": [],
+      "col": [
+        "false negative"
+      ],
+      "value": "23838"
+    },
+    {
+      "row": [],
+      "col": [
+        "specificity"
+      ],
+      "value": "93.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "a posteriori sensitivity"
+      ],
+      "value": "93.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "a priori sensitivity"
+      ],
+      "value": "64.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "K"
+      ],
+      "value": "20"
+    },
+    {
+      "row": [],
+      "col": [
+        "cases"
+      ],
+      "value": "101805"
+    },
+    {
+      "row": [],
+      "col": [
+        "clusters"
+      ],
+      "value": "2857"
+    },
+    {
+      "row": [],
+      "col": [
+        "true positive"
+      ],
+      "value": "388434"
+    },
+    {
+      "row": [],
+      "col": [
+        "false positive"
+      ],
+      "value": "29379"
+    },
+    {
+      "row": [],
+      "col": [
+        "false negative"
+      ],
+      "value": "35042"
+    },
+    {
+      "row": [],
+      "col": [
+        "specificity"
+      ],
+      "value": "93.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "a posteriori sensitivity"
+      ],
+      "value": "91.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "a priori sensitivity"
+      ],
+      "value": "79.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "K"
+      ],
+      "value": "64"
+    },
+    {
+      "row": [],
+      "col": [
+        "cases"
+      ],
+      "value": "105248"
+    },
+    {
+      "row": [],
+      "col": [
+        "clusters"
+      ],
+      "value": "445"
+    },
+    {
+      "row": [],
+      "col": [
+        "true positive"
+      ],
+      "value": "400100"
+    },
+    {
+      "row": [],
+      "col": [
+        "false positive"
+      ],
+      "value": "31061"
+    },
+    {
+      "row": [],
+      "col": [
+        "false negative"
+      ],
+      "value": "37325"
+    },
+    {
+      "row": [],
+      "col": [
+        "specificity"
+      ],
+      "value": "92.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "a posteriori sensitivity"
+      ],
+      "value": "91.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "a priori sensitivity"
+      ],
+      "value": "81.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "K"
+      ],
+      "value": "all NN"
+    },
+    {
+      "row": [],
+      "col": [
+        "cases"
+      ],
+      "value": "105339"
+    },
+    {
+      "row": [],
+      "col": [
+        "clusters"
+      ],
+      "value": "19"
+    },
+    {
+      "row": [],
+      "col": [
+        "true positive"
+      ],
+      "value": "400363"
+    },
+    {
+      "row": [],
+      "col": [
+        "false positive"
+      ],
+      "value": "31142"
+    },
+    {
+      "row": [],
+      "col": [
+        "false negative"
+      ],
+      "value": "37391"
+    },
+    {
+      "row": [],
+      "col": [
+        "specificity"
+      ],
+      "value": "92.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "a posteriori sensitivity"
+      ],
+      "value": "91.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "a priori sensitivity"
+      ],
+      "value": "81.7"
+    }
+  ]
+}

@@ -1,0 +1,616 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0 (0%)",
+    "1",
+    "1 (1 / 3)",
+    "1 (100%)",
+    "1 (11.1%)",
+    "1 (12.5%)",
+    "1 (14.3%)",
+    "1 (20%)",
+    "10 (14.7%)",
+    "151 (83.3%)",
+    "18 (26.5%)",
+    "18 (9.1%)",
+    "198",
+    "2",
+    "2 (1 / 3)",
+    "2 (100%)",
+    "29",
+    "29 (100%)",
+    "3 (1 / 3)",
+    "3 (1 / 4)",
+    "3 (2 / 5)",
+    "3 (2 / 6)",
+    "3 (42.9%)",
+    "33 (16.7%)",
+    "4",
+    "4 (100%)",
+    "4 (3 / 4)",
+    "4 (3 / 6)",
+    "4 (57.1%)",
+    "4 (6.8%)",
+    "4 (80%)",
+    "5",
+    "50 (73.5%)",
+    "51 (86.4%)",
+    "59",
+    "6 (5 / 8)",
+    "68",
+    "7",
+    "7 (87.5%)",
+    "8",
+    "8 (13.6%)",
+    "8 (88.9%)",
+    "9",
+    "Anterior sciatic (proximal)",
+    "Axillary plexus",
+    "Colonized and local infectious signs; n (%)",
+    "Colonized n (%)",
+    "Distal sciatic (popliteal)",
+    "Duration of catheter use (days)",
+    "Epidural catheter (C6/7 - T2/3)",
+    "Epidural catheter (L1/2 - L4/5)",
+    "Epidural catheter (T3/4 - T 12/L1)",
+    "Femoral nerve",
+    "Infraclavicular plexus",
+    "Interscalene plexus",
+    "Localization",
+    "Not colonized n (%)",
+    "Paravertebral catheter (level T3 - T8)",
+    "Posterior sciatic (gluteal)",
+    "Psoas compartment",
+    "Total",
+    "Total number of catheters"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Localization"
+      ],
+      "value": "Epidural catheter (C6/7 - T2/3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total number of catheters"
+      ],
+      "value": "29"
+    },
+    {
+      "row": [],
+      "col": [
+        "Duration of catheter use (days)"
+      ],
+      "value": "6 (5 / 8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Not colonized n (%)"
+      ],
+      "value": "29 (100%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Colonized n (%)"
+      ],
+      "value": "0 (0%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Colonized and local infectious signs; n (%)"
+      ],
+      "value": "0 (0%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Localization"
+      ],
+      "value": "Epidural catheter (T3/4 - T 12/L1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total number of catheters"
+      ],
+      "value": "59"
+    },
+    {
+      "row": [],
+      "col": [
+        "Duration of catheter use (days)"
+      ],
+      "value": "4 (3 / 6)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Not colonized n (%)"
+      ],
+      "value": "51 (86.4%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Colonized n (%)"
+      ],
+      "value": "8 (13.6%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Colonized and local infectious signs; n (%)"
+      ],
+      "value": "4 (6.8%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Localization"
+      ],
+      "value": "Epidural catheter (L1/2 - L4/5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total number of catheters"
+      ],
+      "value": "8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Duration of catheter use (days)"
+      ],
+      "value": "4 (3 / 6)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Not colonized n (%)"
+      ],
+      "value": "7 (87.5%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Colonized n (%)"
+      ],
+      "value": "1 (12.5%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Colonized and local infectious signs; n (%)"
+      ],
+      "value": "0 (0%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Localization"
+      ],
+      "value": "Paravertebral catheter (level T3 - T8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total number of catheters"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Duration of catheter use (days)"
+      ],
+      "value": "1 (1 / 3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Not colonized n (%)"
+      ],
+      "value": "4 (100%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Colonized n (%)"
+      ],
+      "value": "0 (0%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Colonized and local infectious signs; n (%)"
+      ],
+      "value": "0 (0%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Localization"
+      ],
+      "value": "Psoas compartment"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total number of catheters"
+      ],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Duration of catheter use (days)"
+      ],
+      "value": "4 (3 / 4)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Not colonized n (%)"
+      ],
+      "value": "4 (80%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Colonized n (%)"
+      ],
+      "value": "1 (20%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Colonized and local infectious signs; n (%)"
+      ],
+      "value": "1 (20%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Localization"
+      ],
+      "value": "Posterior sciatic (gluteal)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total number of catheters"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Duration of catheter use (days)"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Not colonized n (%)"
+      ],
+      "value": "1 (100%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Colonized n (%)"
+      ],
+      "value": "0 (0%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Colonized and local infectious signs; n (%)"
+      ],
+      "value": "0 (0%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Localization"
+      ],
+      "value": "Distal sciatic (popliteal)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total number of catheters"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Duration of catheter use (days)"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Not colonized n (%)"
+      ],
+      "value": "1 (100%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Colonized n (%)"
+      ],
+      "value": "0 (0%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Colonized and local infectious signs; n (%)"
+      ],
+      "value": "0 (0%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Localization"
+      ],
+      "value": "Anterior sciatic (proximal)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total number of catheters"
+      ],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Duration of catheter use (days)"
+      ],
+      "value": "2 (1 / 3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Not colonized n (%)"
+      ],
+      "value": "4 (57.1%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Colonized n (%)"
+      ],
+      "value": "3 (42.9%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Colonized and local infectious signs; n (%)"
+      ],
+      "value": "1 (14.3%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Localization"
+      ],
+      "value": "Femoral nerve"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total number of catheters"
+      ],
+      "value": "68"
+    },
+    {
+      "row": [],
+      "col": [
+        "Duration of catheter use (days)"
+      ],
+      "value": "3 (1 / 3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Not colonized n (%)"
+      ],
+      "value": "50 (73.5%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Colonized n (%)"
+      ],
+      "value": "18 (26.5%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Colonized and local infectious signs; n (%)"
+      ],
+      "value": "10 (14.7%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Localization"
+      ],
+      "value": "Interscalene plexus"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total number of catheters"
+      ],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Duration of catheter use (days)"
+      ],
+      "value": "2 (1 / 3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Not colonized n (%)"
+      ],
+      "value": "8 (88.9%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Colonized n (%)"
+      ],
+      "value": "1 (11.1%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Colonized and local infectious signs; n (%)"
+      ],
+      "value": "1 (11.1%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Localization"
+      ],
+      "value": "Infraclavicular plexus"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total number of catheters"
+      ],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Duration of catheter use (days)"
+      ],
+      "value": "3 (2 / 6)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Not colonized n (%)"
+      ],
+      "value": "4 (80%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Colonized n (%)"
+      ],
+      "value": "1 (20%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Colonized and local infectious signs; n (%)"
+      ],
+      "value": "1 (20%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Localization"
+      ],
+      "value": "Axillary plexus"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total number of catheters"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Duration of catheter use (days)"
+      ],
+      "value": "3 (1 / 4)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Not colonized n (%)"
+      ],
+      "value": "2 (100%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Colonized n (%)"
+      ],
+      "value": "0 (0%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Colonized and local infectious signs; n (%)"
+      ],
+      "value": "0 (0%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Localization"
+      ],
+      "value": "Total"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total number of catheters"
+      ],
+      "value": "198"
+    },
+    {
+      "row": [],
+      "col": [
+        "Duration of catheter use (days)"
+      ],
+      "value": "3 (2 / 5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Not colonized n (%)"
+      ],
+      "value": "151 (83.3%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Colonized n (%)"
+      ],
+      "value": "33 (16.7%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Colonized and local infectious signs; n (%)"
+      ],
+      "value": "18 (9.1%)"
+    }
+  ]
+}

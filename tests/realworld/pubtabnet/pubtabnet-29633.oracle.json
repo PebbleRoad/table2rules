@@ -1,0 +1,488 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "-305",
+    "-318.5",
+    "-331",
+    "-49.43 <.0001",
+    "0.000215",
+    "0.00034",
+    "0.00042",
+    "0.000763",
+    "0.00120",
+    "0.0047",
+    "0.0054",
+    "0.0070",
+    "0.0094",
+    "0.0158",
+    "0.01665",
+    "0.0174",
+    "0.064",
+    "0.07484",
+    "0.085",
+    "0.102",
+    "0.1161",
+    "0.130",
+    "0.132",
+    "0.1508",
+    "0.169",
+    "0.176",
+    "0.226",
+    "0.2350",
+    "0.244",
+    "13.89 <.0001",
+    "16.09 <.0001",
+    "16.62 <.0001",
+    "203",
+    "209.9",
+    "217",
+    "2nd birth",
+    "3.54 0.0004",
+    "3.66",
+    "32.30 <.0001",
+    "3rd birth",
+    "40.28 <.0001",
+    "4th and subsequent birth",
+    "5.34",
+    "5.684",
+    "50.08 <.0001",
+    "57.31 <.0001",
+    "6.03",
+    "6.44",
+    "95% confidence limits",
+    "Adjusted R 2 for this model is 0.322",
+    "GA# \u00d7 Maternal height",
+    "Independent Variable",
+    "Intercept",
+    "Male infant",
+    "Maternal height c#",
+    "Parameter Estimate",
+    "Scaled gestational age cubed*",
+    "Scaled gestational age squared*",
+    "Standard Error",
+    "t value Pr >|t|"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Independent Variable"
+      ],
+      "value": "Intercept"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter Estimate"
+      ],
+      "value": "5.684"
+    },
+    {
+      "row": [],
+      "col": [
+        "Standard Error"
+      ],
+      "value": "0.176"
+    },
+    {
+      "row": [],
+      "col": [
+        "t value Pr >|t|"
+      ],
+      "value": "32.30 <.0001"
+    },
+    {
+      "row": [],
+      "col": [
+        "95% confidence limits"
+      ],
+      "value": "5.34"
+    },
+    {
+      "row": [],
+      "col": [
+        "95% confidence limits"
+      ],
+      "value": "6.03"
+    },
+    {
+      "row": [],
+      "col": [
+        "Independent Variable"
+      ],
+      "value": "Scaled gestational age squared*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter Estimate"
+      ],
+      "value": "209.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Standard Error"
+      ],
+      "value": "3.66"
+    },
+    {
+      "row": [],
+      "col": [
+        "t value Pr >|t|"
+      ],
+      "value": "57.31 <.0001"
+    },
+    {
+      "row": [],
+      "col": [
+        "95% confidence limits"
+      ],
+      "value": "203"
+    },
+    {
+      "row": [],
+      "col": [
+        "95% confidence limits"
+      ],
+      "value": "217"
+    },
+    {
+      "row": [],
+      "col": [
+        "Independent Variable"
+      ],
+      "value": "Scaled gestational age cubed*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter Estimate"
+      ],
+      "value": "-318.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Standard Error"
+      ],
+      "value": "6.44"
+    },
+    {
+      "row": [],
+      "col": [
+        "t value Pr >|t|"
+      ],
+      "value": "-49.43 <.0001"
+    },
+    {
+      "row": [],
+      "col": [
+        "95% confidence limits"
+      ],
+      "value": "-331"
+    },
+    {
+      "row": [],
+      "col": [
+        "95% confidence limits"
+      ],
+      "value": "-305"
+    },
+    {
+      "row": [],
+      "col": [
+        "Independent Variable"
+      ],
+      "value": "Male infant"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter Estimate"
+      ],
+      "value": "0.2350"
+    },
+    {
+      "row": [],
+      "col": [
+        "Standard Error"
+      ],
+      "value": "0.0047"
+    },
+    {
+      "row": [],
+      "col": [
+        "t value Pr >|t|"
+      ],
+      "value": "50.08 <.0001"
+    },
+    {
+      "row": [],
+      "col": [
+        "95% confidence limits"
+      ],
+      "value": "0.226"
+    },
+    {
+      "row": [],
+      "col": [
+        "95% confidence limits"
+      ],
+      "value": "0.244"
+    },
+    {
+      "row": [],
+      "col": [
+        "Independent Variable"
+      ],
+      "value": "Maternal height c#"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter Estimate"
+      ],
+      "value": "0.01665"
+    },
+    {
+      "row": [],
+      "col": [
+        "Standard Error"
+      ],
+      "value": "0.00042"
+    },
+    {
+      "row": [],
+      "col": [
+        "t value Pr >|t|"
+      ],
+      "value": "40.28 <.0001"
+    },
+    {
+      "row": [],
+      "col": [
+        "95% confidence limits"
+      ],
+      "value": "0.0158"
+    },
+    {
+      "row": [],
+      "col": [
+        "95% confidence limits"
+      ],
+      "value": "0.0174"
+    },
+    {
+      "row": [],
+      "col": [
+        "Independent Variable"
+      ],
+      "value": "2nd birth"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter Estimate"
+      ],
+      "value": "0.07484"
+    },
+    {
+      "row": [],
+      "col": [
+        "Standard Error"
+      ],
+      "value": "0.0054"
+    },
+    {
+      "row": [],
+      "col": [
+        "t value Pr >|t|"
+      ],
+      "value": "13.89 <.0001"
+    },
+    {
+      "row": [],
+      "col": [
+        "95% confidence limits"
+      ],
+      "value": "0.064"
+    },
+    {
+      "row": [],
+      "col": [
+        "95% confidence limits"
+      ],
+      "value": "0.085"
+    },
+    {
+      "row": [],
+      "col": [
+        "Independent Variable"
+      ],
+      "value": "3rd birth"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter Estimate"
+      ],
+      "value": "0.1161"
+    },
+    {
+      "row": [],
+      "col": [
+        "Standard Error"
+      ],
+      "value": "0.0070"
+    },
+    {
+      "row": [],
+      "col": [
+        "t value Pr >|t|"
+      ],
+      "value": "16.62 <.0001"
+    },
+    {
+      "row": [],
+      "col": [
+        "95% confidence limits"
+      ],
+      "value": "0.102"
+    },
+    {
+      "row": [],
+      "col": [
+        "95% confidence limits"
+      ],
+      "value": "0.130"
+    },
+    {
+      "row": [],
+      "col": [
+        "Independent Variable"
+      ],
+      "value": "4th and subsequent birth"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter Estimate"
+      ],
+      "value": "0.1508"
+    },
+    {
+      "row": [],
+      "col": [
+        "Standard Error"
+      ],
+      "value": "0.0094"
+    },
+    {
+      "row": [],
+      "col": [
+        "t value Pr >|t|"
+      ],
+      "value": "16.09 <.0001"
+    },
+    {
+      "row": [],
+      "col": [
+        "95% confidence limits"
+      ],
+      "value": "0.132"
+    },
+    {
+      "row": [],
+      "col": [
+        "95% confidence limits"
+      ],
+      "value": "0.169"
+    },
+    {
+      "row": [],
+      "col": [
+        "Independent Variable"
+      ],
+      "value": "GA# \u00d7 Maternal height"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter Estimate"
+      ],
+      "value": "0.000763"
+    },
+    {
+      "row": [],
+      "col": [
+        "Standard Error"
+      ],
+      "value": "0.000215"
+    },
+    {
+      "row": [],
+      "col": [
+        "t value Pr >|t|"
+      ],
+      "value": "3.54 0.0004"
+    },
+    {
+      "row": [],
+      "col": [
+        "95% confidence limits"
+      ],
+      "value": "0.00034"
+    },
+    {
+      "row": [],
+      "col": [
+        "95% confidence limits"
+      ],
+      "value": "0.00120"
+    },
+    {
+      "row": [],
+      "col": [
+        "Independent Variable"
+      ],
+      "value": "Adjusted R 2 for this model is 0.322"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter Estimate"
+      ],
+      "value": "Adjusted R 2 for this model is 0.322"
+    },
+    {
+      "row": [],
+      "col": [
+        "Standard Error"
+      ],
+      "value": "Adjusted R 2 for this model is 0.322"
+    },
+    {
+      "row": [],
+      "col": [
+        "t value Pr >|t|"
+      ],
+      "value": "Adjusted R 2 for this model is 0.322"
+    },
+    {
+      "row": [],
+      "col": [
+        "95% confidence limits"
+      ],
+      "value": "Adjusted R 2 for this model is 0.322"
+    },
+    {
+      "row": [],
+      "col": [
+        "95% confidence limits"
+      ],
+      "value": "Adjusted R 2 for this model is 0.322"
+    }
+  ]
+}

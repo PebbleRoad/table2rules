@@ -1,0 +1,478 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "%",
+    "0",
+    "1",
+    "11%",
+    "18%",
+    "2",
+    "27%",
+    "3",
+    "33%",
+    "36%",
+    "4",
+    "44%",
+    "5",
+    "55.5%",
+    "6",
+    "63%",
+    "67%",
+    "7",
+    "78%",
+    "9%",
+    "Imprisonment",
+    "Life-threatening Illness",
+    "Military combat/war zone",
+    "NO PTSD N = 11",
+    "Natural disaster",
+    "No.",
+    "Non-sexual assault \u2013 family member or someone known",
+    "Non-sexual assault \u2013 stranger",
+    "Other type of event",
+    "PTSD N = 9",
+    "Serious Accident, fire or explosion",
+    "Sexual assault \u2013 family member or someone known",
+    "Sexual assault \u2013 stranger",
+    "Sexual contact under 18 years with someone 5 or more years older",
+    "TRAUMATIC EVENT",
+    "Torture"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "PTSD N = 9"
+      ],
+      "value": "No."
+    },
+    {
+      "row": [],
+      "col": [
+        "PTSD N = 9"
+      ],
+      "value": "%"
+    },
+    {
+      "row": [],
+      "col": [
+        "NO PTSD N = 11"
+      ],
+      "value": "No."
+    },
+    {
+      "row": [],
+      "col": [
+        "NO PTSD N = 11"
+      ],
+      "value": "%"
+    },
+    {
+      "row": [],
+      "col": [
+        "TRAUMATIC EVENT"
+      ],
+      "value": "Serious Accident, fire or explosion"
+    },
+    {
+      "row": [],
+      "col": [
+        "PTSD N = 9"
+      ],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [
+        "PTSD N = 9"
+      ],
+      "value": "78%"
+    },
+    {
+      "row": [],
+      "col": [
+        "NO PTSD N = 11"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "NO PTSD N = 11"
+      ],
+      "value": "36%"
+    },
+    {
+      "row": [],
+      "col": [
+        "TRAUMATIC EVENT"
+      ],
+      "value": "Natural disaster"
+    },
+    {
+      "row": [],
+      "col": [
+        "PTSD N = 9"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "PTSD N = 9"
+      ],
+      "value": "11%"
+    },
+    {
+      "row": [],
+      "col": [
+        "NO PTSD N = 11"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "TRAUMATIC EVENT"
+      ],
+      "value": "Non-sexual assault \u2013 family member or someone known"
+    },
+    {
+      "row": [],
+      "col": [
+        "PTSD N = 9"
+      ],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [
+        "PTSD N = 9"
+      ],
+      "value": "67%"
+    },
+    {
+      "row": [],
+      "col": [
+        "NO PTSD N = 11"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "NO PTSD N = 11"
+      ],
+      "value": "36%"
+    },
+    {
+      "row": [],
+      "col": [
+        "TRAUMATIC EVENT"
+      ],
+      "value": "Non-sexual assault \u2013 stranger"
+    },
+    {
+      "row": [],
+      "col": [
+        "PTSD N = 9"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "PTSD N = 9"
+      ],
+      "value": "33%"
+    },
+    {
+      "row": [],
+      "col": [
+        "NO PTSD N = 11"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "NO PTSD N = 11"
+      ],
+      "value": "27%"
+    },
+    {
+      "row": [],
+      "col": [
+        "TRAUMATIC EVENT"
+      ],
+      "value": "Sexual assault \u2013 family member or someone known"
+    },
+    {
+      "row": [],
+      "col": [
+        "PTSD N = 9"
+      ],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [
+        "PTSD N = 9"
+      ],
+      "value": "55.5%"
+    },
+    {
+      "row": [],
+      "col": [
+        "NO PTSD N = 11"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "NO PTSD N = 11"
+      ],
+      "value": "27%"
+    },
+    {
+      "row": [],
+      "col": [
+        "TRAUMATIC EVENT"
+      ],
+      "value": "Sexual assault \u2013 stranger"
+    },
+    {
+      "row": [],
+      "col": [
+        "PTSD N = 9"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "PTSD N = 9"
+      ],
+      "value": "33%"
+    },
+    {
+      "row": [],
+      "col": [
+        "NO PTSD N = 11"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "NO PTSD N = 11"
+      ],
+      "value": "18%"
+    },
+    {
+      "row": [],
+      "col": [
+        "TRAUMATIC EVENT"
+      ],
+      "value": "Military combat/war zone"
+    },
+    {
+      "row": [],
+      "col": [
+        "PTSD N = 9"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "PTSD N = 9"
+      ],
+      "value": "11%"
+    },
+    {
+      "row": [],
+      "col": [
+        "NO PTSD N = 11"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "NO PTSD N = 11"
+      ],
+      "value": "9%"
+    },
+    {
+      "row": [],
+      "col": [
+        "TRAUMATIC EVENT"
+      ],
+      "value": "Sexual contact under 18 years with someone 5 or more years older"
+    },
+    {
+      "row": [],
+      "col": [
+        "PTSD N = 9"
+      ],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [
+        "PTSD N = 9"
+      ],
+      "value": "78%"
+    },
+    {
+      "row": [],
+      "col": [
+        "NO PTSD N = 11"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "NO PTSD N = 11"
+      ],
+      "value": "36%"
+    },
+    {
+      "row": [],
+      "col": [
+        "TRAUMATIC EVENT"
+      ],
+      "value": "Imprisonment"
+    },
+    {
+      "row": [],
+      "col": [
+        "PTSD N = 9"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "PTSD N = 9"
+      ],
+      "value": "33%"
+    },
+    {
+      "row": [],
+      "col": [
+        "NO PTSD N = 11"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "NO PTSD N = 11"
+      ],
+      "value": "18%"
+    },
+    {
+      "row": [],
+      "col": [
+        "TRAUMATIC EVENT"
+      ],
+      "value": "Torture"
+    },
+    {
+      "row": [],
+      "col": [
+        "PTSD N = 9"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "PTSD N = 9"
+      ],
+      "value": "11%"
+    },
+    {
+      "row": [],
+      "col": [
+        "NO PTSD N = 11"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "TRAUMATIC EVENT"
+      ],
+      "value": "Life-threatening Illness"
+    },
+    {
+      "row": [],
+      "col": [
+        "PTSD N = 9"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "PTSD N = 9"
+      ],
+      "value": "44%"
+    },
+    {
+      "row": [],
+      "col": [
+        "NO PTSD N = 11"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "NO PTSD N = 11"
+      ],
+      "value": "18%"
+    },
+    {
+      "row": [],
+      "col": [
+        "TRAUMATIC EVENT"
+      ],
+      "value": "Other type of event"
+    },
+    {
+      "row": [],
+      "col": [
+        "PTSD N = 9"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "PTSD N = 9"
+      ],
+      "value": "44%"
+    },
+    {
+      "row": [],
+      "col": [
+        "NO PTSD N = 11"
+      ],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [
+        "NO PTSD N = 11"
+      ],
+      "value": "63%"
+    }
+  ]
+}

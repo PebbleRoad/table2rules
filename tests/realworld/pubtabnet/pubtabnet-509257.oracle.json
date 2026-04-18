@@ -1,0 +1,1060 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0.0001",
+    "0.0005",
+    "0.001",
+    "0.005",
+    "0.007",
+    "0.01 \u2021",
+    "0.02",
+    "0.08",
+    "0.10",
+    "0.12",
+    "0.13",
+    "0.14 \u2021",
+    "0.15",
+    "0.19",
+    "0.21",
+    "0.28",
+    "0.32",
+    "0.47",
+    "0.72",
+    "0.73",
+    "0.75",
+    "0.86",
+    "0.90",
+    "0.91",
+    "0.92",
+    "0.96",
+    "1 (2.7)",
+    "10 (14.3)",
+    "10 (17.5)",
+    "10 (29.4)",
+    "10.8 \u00b1 2.1",
+    "11 (29.7)",
+    "11 (32.4)",
+    "12 (32.4)",
+    "12 (35.3)",
+    "12.5 \u00b1 1.0",
+    "12.6 \u00b1 0.2",
+    "12.7 \u00b1 0.2",
+    "12.7 \u00b1 0.3",
+    "12.8 \u00b1 0.3",
+    "13 (18.6)",
+    "13 (35.1)",
+    "13 (38.2)",
+    "13.3 \u00b1 0.3",
+    "13.3 \u00b1 2.3",
+    "14 (41.2)",
+    "15 (44.1)",
+    "15.1 \u00b1 1.4",
+    "15.9 \u00b1 1.4",
+    "17.8 \u00b1 2.3",
+    "18.6 \u00b1 1.6",
+    "19.5 \u00b1 1.9",
+    "2 (5.4)",
+    "2.3 \u00b1 0.2",
+    "2.4 \u00b1 0.2",
+    "20 (35.1)",
+    "20 (54.1)",
+    "21 (61.8)",
+    "22.3 \u00b1 1.9",
+    "27 (38.6)",
+    "28.7 \u00b1 0.7",
+    "29 (50.9)",
+    "3 (8.8)",
+    "3.6 \u00b1 0.4",
+    "30.2 \u00b1 1.1",
+    "30.8 \u00b1 1.0",
+    "31.4 \u00b1 1.0",
+    "33 (48.6)",
+    "34 (59.7)",
+    "36 (63.2)",
+    "4 (10.8)",
+    "4 (11.8)",
+    "4.1 \u00b1 0.5",
+    "4.5 \u00b1 0.6",
+    "40 (57.1)",
+    "42 (60.0)",
+    "5 (14.7)",
+    "6 (10.5)",
+    "6 (16.2)",
+    "6 (17.7)",
+    "6 (8.6)",
+    "60.2 \u00b1 0.8",
+    "61.8 \u00b1 1.2",
+    "62.3 \u00b1 1.0",
+    "64.1 \u00b1 1.1",
+    "64.7 \u00b1 1.0",
+    "7 (10.0)",
+    "7 (12.3)",
+    "7 (20.6)",
+    "7.9 \u00b1 1.8",
+    "8 (14.0)",
+    "8 (23.5)",
+    "9 (12.9)",
+    "9 (15.8)",
+    "9 (26.5)",
+    "Age at baseline mammogram, years (mean \u00b1 SEM)",
+    "Age at menarche, years (mean \u00b1 SEM)",
+    "Asian or Pacific Islander",
+    "BMI, kg/m 2 (mean \u00b1 SEM)",
+    "Bachelor's degree or more",
+    "Black, non-latina",
+    "Characteristic",
+    "EPAT ( n = 127)",
+    "EPT ( n = 34)",
+    "ET ( n = 34)",
+    "ET ( n = 70)",
+    "Education, n (%)",
+    "Ever used postmenopausal hormones, n (%)",
+    "Family history of breast cancer (first-degree relative), n (%)",
+    "High school graduate or less",
+    "Latina",
+    "Mammographic density at baseline, % (mean \u00b1 SEM)",
+    "Number of deliveries (live and stillbirths) (mean \u00b1 SEM)",
+    "P",
+    "P *",
+    "P \u2020",
+    "Placebo ( n = 37)",
+    "Placebo ( n = 57)",
+    "Race, n (%)",
+    "Trade or business school/some college",
+    "WELL-HART ( n = 105)",
+    "White, non-latina",
+    "Years since menopause at baseline (mean \u00b1 SEM)"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Age at baseline mammogram, years (mean \u00b1 SEM)"
+    },
+    {
+      "row": [],
+      "col": [
+        "EPAT ( n = 127)",
+        "Placebo ( n = 57)"
+      ],
+      "value": "62.3 \u00b1 1.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "EPAT ( n = 127)",
+        "ET ( n = 70)"
+      ],
+      "value": "60.2 \u00b1 0.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.10"
+    },
+    {
+      "row": [],
+      "col": [
+        "WELL-HART ( n = 105)",
+        "Placebo ( n = 37)"
+      ],
+      "value": "64.7 \u00b1 1.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "WELL-HART ( n = 105)",
+        "ET ( n = 34)"
+      ],
+      "value": "61.8 \u00b1 1.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "WELL-HART ( n = 105)",
+        "EPT ( n = 34)"
+      ],
+      "value": "64.1 \u00b1 1.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "P *"
+      ],
+      "value": "0.15"
+    },
+    {
+      "row": [],
+      "col": [
+        "P \u2020"
+      ],
+      "value": "0.005"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Years since menopause at baseline (mean \u00b1 SEM)"
+    },
+    {
+      "row": [],
+      "col": [
+        "EPAT ( n = 127)",
+        "Placebo ( n = 57)"
+      ],
+      "value": "15.1 \u00b1 1.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "EPAT ( n = 127)",
+        "ET ( n = 70)"
+      ],
+      "value": "12.5 \u00b1 1.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.12"
+    },
+    {
+      "row": [],
+      "col": [
+        "WELL-HART ( n = 105)",
+        "Placebo ( n = 37)"
+      ],
+      "value": "18.6 \u00b1 1.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "WELL-HART ( n = 105)",
+        "ET ( n = 34)"
+      ],
+      "value": "15.9 \u00b1 1.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "WELL-HART ( n = 105)",
+        "EPT ( n = 34)"
+      ],
+      "value": "19.5 \u00b1 1.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "P *"
+      ],
+      "value": "0.28"
+    },
+    {
+      "row": [],
+      "col": [
+        "P \u2020"
+      ],
+      "value": "0.001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Number of deliveries (live and stillbirths) (mean \u00b1 SEM)"
+    },
+    {
+      "row": [],
+      "col": [
+        "EPAT ( n = 127)",
+        "Placebo ( n = 57)"
+      ],
+      "value": "2.4 \u00b1 0.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "EPAT ( n = 127)",
+        "ET ( n = 70)"
+      ],
+      "value": "2.3 \u00b1 0.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.75"
+    },
+    {
+      "row": [],
+      "col": [
+        "WELL-HART ( n = 105)",
+        "Placebo ( n = 37)"
+      ],
+      "value": "4.5 \u00b1 0.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "WELL-HART ( n = 105)",
+        "ET ( n = 34)"
+      ],
+      "value": "3.6 \u00b1 0.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "WELL-HART ( n = 105)",
+        "EPT ( n = 34)"
+      ],
+      "value": "4.1 \u00b1 0.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "P *"
+      ],
+      "value": "0.47"
+    },
+    {
+      "row": [],
+      "col": [
+        "P \u2020"
+      ],
+      "value": "0.0001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Race, n (%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "White, non-latina"
+    },
+    {
+      "row": [],
+      "col": [
+        "EPAT ( n = 127)",
+        "Placebo ( n = 57)"
+      ],
+      "value": "34 (59.7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "EPAT ( n = 127)",
+        "ET ( n = 70)"
+      ],
+      "value": "40 (57.1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "WELL-HART ( n = 105)",
+        "Placebo ( n = 37)"
+      ],
+      "value": "12 (32.4)"
+    },
+    {
+      "row": [],
+      "col": [
+        "WELL-HART ( n = 105)",
+        "ET ( n = 34)"
+      ],
+      "value": "7 (20.6)"
+    },
+    {
+      "row": [],
+      "col": [
+        "WELL-HART ( n = 105)",
+        "EPT ( n = 34)"
+      ],
+      "value": "14 (41.2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Black, non-latina"
+    },
+    {
+      "row": [],
+      "col": [
+        "EPAT ( n = 127)",
+        "Placebo ( n = 57)"
+      ],
+      "value": "6 (10.5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "EPAT ( n = 127)",
+        "ET ( n = 70)"
+      ],
+      "value": "10 (14.3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "WELL-HART ( n = 105)",
+        "Placebo ( n = 37)"
+      ],
+      "value": "4 (10.8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "WELL-HART ( n = 105)",
+        "ET ( n = 34)"
+      ],
+      "value": "10 (29.4)"
+    },
+    {
+      "row": [],
+      "col": [
+        "WELL-HART ( n = 105)",
+        "EPT ( n = 34)"
+      ],
+      "value": "5 (14.7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Latina"
+    },
+    {
+      "row": [],
+      "col": [
+        "EPAT ( n = 127)",
+        "Placebo ( n = 57)"
+      ],
+      "value": "10 (17.5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "EPAT ( n = 127)",
+        "ET ( n = 70)"
+      ],
+      "value": "13 (18.6)"
+    },
+    {
+      "row": [],
+      "col": [
+        "WELL-HART ( n = 105)",
+        "Placebo ( n = 37)"
+      ],
+      "value": "20 (54.1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "WELL-HART ( n = 105)",
+        "ET ( n = 34)"
+      ],
+      "value": "9 (26.5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "WELL-HART ( n = 105)",
+        "EPT ( n = 34)"
+      ],
+      "value": "11 (32.4)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Asian or Pacific Islander"
+    },
+    {
+      "row": [],
+      "col": [
+        "EPAT ( n = 127)",
+        "Placebo ( n = 57)"
+      ],
+      "value": "7 (12.3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "EPAT ( n = 127)",
+        "ET ( n = 70)"
+      ],
+      "value": "7 (10.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.91"
+    },
+    {
+      "row": [],
+      "col": [
+        "WELL-HART ( n = 105)",
+        "Placebo ( n = 37)"
+      ],
+      "value": "1 (2.7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "WELL-HART ( n = 105)",
+        "ET ( n = 34)"
+      ],
+      "value": "8 (23.5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "WELL-HART ( n = 105)",
+        "EPT ( n = 34)"
+      ],
+      "value": "4 (11.8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P *"
+      ],
+      "value": "0.01 \u2021"
+    },
+    {
+      "row": [],
+      "col": [
+        "P \u2020"
+      ],
+      "value": "0.0005"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Education, n (%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "High school graduate or less"
+    },
+    {
+      "row": [],
+      "col": [
+        "EPAT ( n = 127)",
+        "Placebo ( n = 57)"
+      ],
+      "value": "8 (14.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "EPAT ( n = 127)",
+        "ET ( n = 70)"
+      ],
+      "value": "9 (12.9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "WELL-HART ( n = 105)",
+        "Placebo ( n = 37)"
+      ],
+      "value": "20 (54.1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "WELL-HART ( n = 105)",
+        "ET ( n = 34)"
+      ],
+      "value": "15 (44.1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "WELL-HART ( n = 105)",
+        "EPT ( n = 34)"
+      ],
+      "value": "15 (44.1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Trade or business school/some college"
+    },
+    {
+      "row": [],
+      "col": [
+        "EPAT ( n = 127)",
+        "Placebo ( n = 57)"
+      ],
+      "value": "29 (50.9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "EPAT ( n = 127)",
+        "ET ( n = 70)"
+      ],
+      "value": "33 (48.6)"
+    },
+    {
+      "row": [],
+      "col": [
+        "WELL-HART ( n = 105)",
+        "Placebo ( n = 37)"
+      ],
+      "value": "11 (29.7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "WELL-HART ( n = 105)",
+        "ET ( n = 34)"
+      ],
+      "value": "12 (35.3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "WELL-HART ( n = 105)",
+        "EPT ( n = 34)"
+      ],
+      "value": "13 (38.2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Bachelor's degree or more"
+    },
+    {
+      "row": [],
+      "col": [
+        "EPAT ( n = 127)",
+        "Placebo ( n = 57)"
+      ],
+      "value": "20 (35.1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "EPAT ( n = 127)",
+        "ET ( n = 70)"
+      ],
+      "value": "27 (38.6)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.92"
+    },
+    {
+      "row": [],
+      "col": [
+        "WELL-HART ( n = 105)",
+        "Placebo ( n = 37)"
+      ],
+      "value": "6 (16.2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "WELL-HART ( n = 105)",
+        "ET ( n = 34)"
+      ],
+      "value": "7 (20.6)"
+    },
+    {
+      "row": [],
+      "col": [
+        "WELL-HART ( n = 105)",
+        "EPT ( n = 34)"
+      ],
+      "value": "6 (17.7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P *"
+      ],
+      "value": "0.90"
+    },
+    {
+      "row": [],
+      "col": [
+        "P \u2020"
+      ],
+      "value": "0.0001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Family history of breast cancer (first-degree relative), n (%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "EPAT ( n = 127)",
+        "Placebo ( n = 57)"
+      ],
+      "value": "9 (15.8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "EPAT ( n = 127)",
+        "ET ( n = 70)"
+      ],
+      "value": "6 (8.6)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.21"
+    },
+    {
+      "row": [],
+      "col": [
+        "WELL-HART ( n = 105)",
+        "Placebo ( n = 37)"
+      ],
+      "value": "2 (5.4)"
+    },
+    {
+      "row": [],
+      "col": [
+        "WELL-HART ( n = 105)",
+        "ET ( n = 34)"
+      ],
+      "value": "7 (20.6)"
+    },
+    {
+      "row": [],
+      "col": [
+        "WELL-HART ( n = 105)",
+        "EPT ( n = 34)"
+      ],
+      "value": "3 (8.8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P *"
+      ],
+      "value": "0.14 \u2021"
+    },
+    {
+      "row": [],
+      "col": [
+        "P \u2020"
+      ],
+      "value": "0.91"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Age at menarche, years (mean \u00b1 SEM)"
+    },
+    {
+      "row": [],
+      "col": [
+        "EPAT ( n = 127)",
+        "Placebo ( n = 57)"
+      ],
+      "value": "12.7 \u00b1 0.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "EPAT ( n = 127)",
+        "ET ( n = 70)"
+      ],
+      "value": "12.6 \u00b1 0.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.86"
+    },
+    {
+      "row": [],
+      "col": [
+        "WELL-HART ( n = 105)",
+        "Placebo ( n = 37)"
+      ],
+      "value": "12.7 \u00b1 0.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "WELL-HART ( n = 105)",
+        "ET ( n = 34)"
+      ],
+      "value": "12.8 \u00b1 0.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "WELL-HART ( n = 105)",
+        "EPT ( n = 34)"
+      ],
+      "value": "13.3 \u00b1 0.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "P *"
+      ],
+      "value": "0.32"
+    },
+    {
+      "row": [],
+      "col": [
+        "P \u2020"
+      ],
+      "value": "0.21"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Ever used postmenopausal hormones, n (%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "EPAT ( n = 127)",
+        "Placebo ( n = 57)"
+      ],
+      "value": "36 (63.2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "EPAT ( n = 127)",
+        "ET ( n = 70)"
+      ],
+      "value": "42 (60.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.72"
+    },
+    {
+      "row": [],
+      "col": [
+        "WELL-HART ( n = 105)",
+        "Placebo ( n = 37)"
+      ],
+      "value": "13 (35.1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "WELL-HART ( n = 105)",
+        "ET ( n = 34)"
+      ],
+      "value": "15 (44.1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "WELL-HART ( n = 105)",
+        "EPT ( n = 34)"
+      ],
+      "value": "21 (61.8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P *"
+      ],
+      "value": "0.08"
+    },
+    {
+      "row": [],
+      "col": [
+        "P \u2020"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "BMI, kg/m 2 (mean \u00b1 SEM)"
+    },
+    {
+      "row": [],
+      "col": [
+        "EPAT ( n = 127)",
+        "Placebo ( n = 57)"
+      ],
+      "value": "28.7 \u00b1 0.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "EPAT ( n = 127)",
+        "ET ( n = 70)"
+      ],
+      "value": "28.7 \u00b1 0.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.96"
+    },
+    {
+      "row": [],
+      "col": [
+        "WELL-HART ( n = 105)",
+        "Placebo ( n = 37)"
+      ],
+      "value": "30.8 \u00b1 1.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "WELL-HART ( n = 105)",
+        "ET ( n = 34)"
+      ],
+      "value": "31.4 \u00b1 1.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "WELL-HART ( n = 105)",
+        "EPT ( n = 34)"
+      ],
+      "value": "30.2 \u00b1 1.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "P *"
+      ],
+      "value": "0.73"
+    },
+    {
+      "row": [],
+      "col": [
+        "P \u2020"
+      ],
+      "value": "0.007"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Mammographic density at baseline, % (mean \u00b1 SEM)"
+    },
+    {
+      "row": [],
+      "col": [
+        "EPAT ( n = 127)",
+        "Placebo ( n = 57)"
+      ],
+      "value": "17.8 \u00b1 2.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "EPAT ( n = 127)",
+        "ET ( n = 70)"
+      ],
+      "value": "22.3 \u00b1 1.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.13"
+    },
+    {
+      "row": [],
+      "col": [
+        "WELL-HART ( n = 105)",
+        "Placebo ( n = 37)"
+      ],
+      "value": "7.9 \u00b1 1.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "WELL-HART ( n = 105)",
+        "ET ( n = 34)"
+      ],
+      "value": "10.8 \u00b1 2.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "WELL-HART ( n = 105)",
+        "EPT ( n = 34)"
+      ],
+      "value": "13.3 \u00b1 2.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "P *"
+      ],
+      "value": "0.19"
+    },
+    {
+      "row": [],
+      "col": [
+        "P \u2020"
+      ],
+      "value": "0.0001"
+    }
+  ]
+}

@@ -1,0 +1,294 @@
+<!-- source: PubTabNet imgid=180362 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+<b>
+       Cytokine
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Early RA versus all other early synovitis
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Early RA versus established RA
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<b>
+<i>
+        P
+       </i>
+</b>
+</td>
+<td>
+<b>
+<i>
+        Q
+       </i>
+</b>
+</td>
+<td>
+<b>
+<i>
+        P
+       </i>
+</b>
+</td>
+<td>
+<b>
+<i>
+        Q
+       </i>
+</b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      IL-13
+     </td>
+<td>
+      &lt;0.00001
+     </td>
+<td>
+      0.00002
+     </td>
+<td>
+      0.00008
+     </td>
+<td>
+      0.0004
+     </td>
+</tr>
+<tr>
+<td>
+      EGF
+     </td>
+<td>
+      &lt;0.00001
+     </td>
+<td>
+      0.00002
+     </td>
+<td>
+      0.002
+     </td>
+<td>
+      0.007
+     </td>
+</tr>
+<tr>
+<td>
+      bFGF
+     </td>
+<td>
+      &lt;0.00001
+     </td>
+<td>
+      0.00002
+     </td>
+<td>
+      0.002
+     </td>
+<td>
+      0.007
+     </td>
+</tr>
+<tr>
+<td>
+      IL-4
+     </td>
+<td>
+      &lt;0.00001
+     </td>
+<td>
+      0.00002
+     </td>
+<td>
+      0.004
+     </td>
+<td>
+      0.0097
+     </td>
+</tr>
+<tr>
+<td>
+      IL-2
+     </td>
+<td>
+      &lt;0.00001
+     </td>
+<td>
+      0.00002
+     </td>
+<td>
+      0.004
+     </td>
+<td>
+      0.0097
+     </td>
+</tr>
+<tr>
+<td>
+      Eotaxin
+     </td>
+<td>
+      0.00003
+     </td>
+<td>
+      0.0002
+     </td>
+<td>
+      NS
+     </td>
+<td>
+      NS
+     </td>
+</tr>
+<tr>
+<td>
+      IL-1
+     </td>
+<td>
+      0.00003
+     </td>
+<td>
+      0.0002
+     </td>
+<td>
+      NS
+     </td>
+<td>
+      NS
+     </td>
+</tr>
+<tr>
+<td>
+      IL-17
+     </td>
+<td>
+      0.00005
+     </td>
+<td>
+      0.0003
+     </td>
+<td>
+      0.002
+     </td>
+<td>
+      0.007
+     </td>
+</tr>
+<tr>
+<td>
+      IL-15
+     </td>
+<td>
+      0.0001
+     </td>
+<td>
+      0.0005
+     </td>
+<td>
+      NS
+     </td>
+<td>
+      NS
+     </td>
+</tr>
+<tr>
+<td>
+      MIP-1β
+     </td>
+<td>
+      0.0005
+     </td>
+<td>
+      0.002
+     </td>
+<td>
+      NS
+     </td>
+<td>
+      NS
+     </td>
+</tr>
+<tr>
+<td>
+      MIP-1α
+     </td>
+<td>
+      0.0006
+     </td>
+<td>
+      0.002
+     </td>
+<td>
+      NS
+     </td>
+<td>
+      NS
+     </td>
+</tr>
+<tr>
+<td>
+      IL-12
+     </td>
+<td>
+      0.002
+     </td>
+<td>
+      0.006
+     </td>
+<td>
+      NS
+     </td>
+<td>
+      NS
+     </td>
+</tr>
+<tr>
+<td>
+      GM-CSF
+     </td>
+<td>
+      0.002
+     </td>
+<td>
+      0.006
+     </td>
+<td>
+      NS
+     </td>
+<td>
+      NS
+     </td>
+</tr>
+<tr>
+<td>
+      G-CSF
+     </td>
+<td>
+      0.004
+     </td>
+<td>
+      0.0097
+     </td>
+<td>
+      NS
+     </td>
+<td>
+      NS
+     </td>
+</tr>
+</tbody>
+</table>

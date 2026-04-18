@@ -1,0 +1,344 @@
+<!-- source: PubTabNet imgid=255910 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+<b>
+       Validation
+      </b>
+</td>
+<td colspan="3">
+<b>
+       Validation slide
+      </b>
+</td>
+<td colspan="2">
+<b>
+       5 % low spot filter
+      </b>
+</td>
+<td>
+<b>
+       40 % low spot filter
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+</td>
+<td>
+      1
+     </td>
+<td>
+      2
+     </td>
+<td>
+      3
+     </td>
+<td>
+      CV (%)
+     </td>
+<td>
+      Spots (%)
+     </td>
+<td>
+      CV (%)
+     </td>
+</tr>
+<tr>
+<td>
+      A-I
+     </td>
+<td>
+      x
+     </td>
+<td>
+      x
+     </td>
+<td>
+      x
+     </td>
+<td>
+      27.3
+     </td>
+<td>
+      89.5
+     </td>
+<td>
+      17.4
+     </td>
+</tr>
+<tr>
+<td>
+      A-I
+     </td>
+<td>
+      x
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+      21.6
+     </td>
+<td>
+      88.7
+     </td>
+<td>
+      13.4
+     </td>
+</tr>
+<tr>
+<td>
+      A-I
+     </td>
+<td>
+</td>
+<td>
+      x
+     </td>
+<td>
+</td>
+<td>
+      26.1
+     </td>
+<td>
+      88.9
+     </td>
+<td>
+      17.3
+     </td>
+</tr>
+<tr>
+<td>
+      A-I
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+      x
+     </td>
+<td>
+      24.6
+     </td>
+<td>
+      91.1
+     </td>
+<td>
+      16.5
+     </td>
+</tr>
+<tr>
+<td>
+      A
+     </td>
+<td>
+      x
+     </td>
+<td>
+      x
+     </td>
+<td>
+      x
+     </td>
+<td>
+      16.4
+     </td>
+<td>
+      86
+     </td>
+<td>
+      12.5
+     </td>
+</tr>
+<tr>
+<td>
+      B
+     </td>
+<td>
+      x
+     </td>
+<td>
+      x
+     </td>
+<td>
+      x
+     </td>
+<td>
+      13
+     </td>
+<td>
+      84.3
+     </td>
+<td>
+      9.4
+     </td>
+</tr>
+<tr>
+<td>
+      C
+     </td>
+<td>
+      x
+     </td>
+<td>
+      x
+     </td>
+<td>
+      x
+     </td>
+<td>
+      14
+     </td>
+<td>
+      94.5
+     </td>
+<td>
+      8.6
+     </td>
+</tr>
+<tr>
+<td>
+      D
+     </td>
+<td>
+      x
+     </td>
+<td>
+      x
+     </td>
+<td>
+      x
+     </td>
+<td>
+      16.7
+     </td>
+<td>
+      92.1
+     </td>
+<td>
+      11.1
+     </td>
+</tr>
+<tr>
+<td>
+      E
+     </td>
+<td>
+      x
+     </td>
+<td>
+      x
+     </td>
+<td>
+      x
+     </td>
+<td>
+      9.2
+     </td>
+<td>
+      90.4
+     </td>
+<td>
+      6.7
+     </td>
+</tr>
+<tr>
+<td>
+      F
+     </td>
+<td>
+      x
+     </td>
+<td>
+      x
+     </td>
+<td>
+      x
+     </td>
+<td>
+      27.5
+     </td>
+<td>
+      87.3
+     </td>
+<td>
+      20.2
+     </td>
+</tr>
+<tr>
+<td>
+      G
+     </td>
+<td>
+      x
+     </td>
+<td>
+      x
+     </td>
+<td>
+      x
+     </td>
+<td>
+      16.5
+     </td>
+<td>
+      88.5
+     </td>
+<td>
+      10.3
+     </td>
+</tr>
+<tr>
+<td>
+      H
+     </td>
+<td>
+      x
+     </td>
+<td>
+      x
+     </td>
+<td>
+      x
+     </td>
+<td>
+      23.8
+     </td>
+<td>
+      91
+     </td>
+<td>
+      15.1
+     </td>
+</tr>
+<tr>
+<td>
+      I
+     </td>
+<td>
+      x
+     </td>
+<td>
+      x
+     </td>
+<td>
+      x
+     </td>
+<td>
+      18.1
+     </td>
+<td>
+      92.2
+     </td>
+<td>
+      12.4
+     </td>
+</tr>
+</tbody>
+</table>

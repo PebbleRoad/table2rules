@@ -1,0 +1,225 @@
+<!-- source: PubTabNet imgid=272998 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+<b>
+       Tissues
+      </b>
+</td>
+<td>
+<b>
+       Lymphocytic infiltration
+      </b>
+</td>
+<td>
+<b>
+       MECA-79
+      </b>
+</td>
+<td>
+<b>
+       GlcNAc6ST-2
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      RA1
+     </td>
+<td>
+      Follicular
+     </td>
+<td>
+      +
+     </td>
+<td>
+      +
+     </td>
+</tr>
+<tr>
+<td>
+      RA2
+     </td>
+<td>
+      Follicular
+     </td>
+<td>
+      +
+     </td>
+<td>
+      +
+     </td>
+</tr>
+<tr>
+<td>
+      RA3
+     </td>
+<td>
+      Follicular
+     </td>
+<td>
+      +
+     </td>
+<td>
+      +
+     </td>
+</tr>
+<tr>
+<td>
+      RA4
+     </td>
+<td>
+      Follicular
+     </td>
+<td>
+      +
+     </td>
+<td>
+      +
+     </td>
+</tr>
+<tr>
+<td>
+      RA5
+     </td>
+<td>
+      Diffuse
+     </td>
+<td>
+      +
+     </td>
+<td>
+      +
+     </td>
+</tr>
+<tr>
+<td>
+      RA6
+     </td>
+<td>
+      Negative
+     </td>
+<td>
+      +
+     </td>
+<td>
+      +
+     </td>
+</tr>
+<tr>
+<td>
+      RA7
+     </td>
+<td>
+      Negative
+     </td>
+<td>
+      +
+     </td>
+<td>
+      +
+     </td>
+</tr>
+<tr>
+<td>
+      RA8
+     </td>
+<td>
+      Follicular
+     </td>
+<td>
+      -
+     </td>
+<td>
+      +
+     </td>
+</tr>
+<tr>
+<td>
+      RA9
+     </td>
+<td>
+      Diffuse
+     </td>
+<td>
+      -
+     </td>
+<td>
+      +
+     </td>
+</tr>
+<tr>
+<td>
+      RA10
+     </td>
+<td>
+      Negative
+     </td>
+<td>
+      -
+     </td>
+<td>
+      +
+     </td>
+</tr>
+<tr>
+<td>
+      RA11
+     </td>
+<td>
+      Diffuse
+     </td>
+<td>
+      -
+     </td>
+<td>
+      -
+     </td>
+</tr>
+<tr>
+<td>
+      RA12
+     </td>
+<td>
+      Negative
+     </td>
+<td>
+      -
+     </td>
+<td>
+      -
+     </td>
+</tr>
+<tr>
+<td>
+      RA13
+     </td>
+<td>
+      Negative
+     </td>
+<td>
+      -
+     </td>
+<td>
+      -
+     </td>
+</tr>
+<tr>
+<td>
+      RA14
+     </td>
+<td>
+      Negative
+     </td>
+<td>
+      -
+     </td>
+<td>
+      -
+     </td>
+</tr>
+</tbody>
+</table>

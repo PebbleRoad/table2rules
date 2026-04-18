@@ -1,0 +1,493 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "-",
+    "0",
+    "0.02,0.04,0.06",
+    "0.1,0.2,...,2",
+    "0.2,0.4,0.6",
+    "0.4",
+    "0.63",
+    "0.64",
+    "0.66",
+    "0.8",
+    "0.81",
+    "0.84",
+    "1,2,...,20",
+    "1,2,3",
+    "1.00",
+    "10",
+    "100",
+    "1000",
+    "2",
+    "20",
+    "3",
+    "30",
+    "300",
+    "Correlation (\u03c1)",
+    "Each factor",
+    "Effect size",
+    "Factors clearly identified",
+    "N",
+    "Noise",
+    "Number of factors",
+    "Number of genes",
+    "Number of genotypes",
+    "Proportion correct",
+    "Y"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Number of genotypes"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of factors"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of genes",
+        "Noise"
+      ],
+      "value": "100"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of genes",
+        "Each factor"
+      ],
+      "value": "30"
+    },
+    {
+      "row": [],
+      "col": [
+        "Correlation (\u03c1)"
+      ],
+      "value": "0.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Effect size"
+      ],
+      "value": "0.2,0.4,0.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Factors clearly identified"
+      ],
+      "value": "Y"
+    },
+    {
+      "row": [],
+      "col": [
+        "Proportion correct"
+      ],
+      "value": "1.00"
+    },
+    {
+      "row": [],
+      "col": [
+        "Effect size"
+      ],
+      "value": "0.02,0.04,0.06"
+    },
+    {
+      "row": [],
+      "col": [
+        "Factors clearly identified"
+      ],
+      "value": "Y"
+    },
+    {
+      "row": [],
+      "col": [
+        "Proportion correct"
+      ],
+      "value": "1.00"
+    },
+    {
+      "row": [],
+      "col": [
+        "Correlation (\u03c1)"
+      ],
+      "value": "0.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Effect size"
+      ],
+      "value": "0.2,0.4,0.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Factors clearly identified"
+      ],
+      "value": "Y"
+    },
+    {
+      "row": [],
+      "col": [
+        "Proportion correct"
+      ],
+      "value": "0.84"
+    },
+    {
+      "row": [],
+      "col": [
+        "Effect size"
+      ],
+      "value": "0.02,0.04,0.06"
+    },
+    {
+      "row": [],
+      "col": [
+        "Factors clearly identified"
+      ],
+      "value": "Y"
+    },
+    {
+      "row": [],
+      "col": [
+        "Proportion correct"
+      ],
+      "value": "0.66"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of genotypes"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of factors"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of genes",
+        "Noise"
+      ],
+      "value": "1000"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of genes",
+        "Each factor"
+      ],
+      "value": "300"
+    },
+    {
+      "row": [],
+      "col": [
+        "Correlation (\u03c1)"
+      ],
+      "value": "0.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Effect size"
+      ],
+      "value": "0.2,0.4,0.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Factors clearly identified"
+      ],
+      "value": "Y"
+    },
+    {
+      "row": [],
+      "col": [
+        "Proportion correct"
+      ],
+      "value": "1.00"
+    },
+    {
+      "row": [],
+      "col": [
+        "Correlation (\u03c1)"
+      ],
+      "value": "0.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Effect size"
+      ],
+      "value": "0.2,0.4,0.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Factors clearly identified"
+      ],
+      "value": "Y"
+    },
+    {
+      "row": [],
+      "col": [
+        "Proportion correct"
+      ],
+      "value": "0.66"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of genotypes"
+      ],
+      "value": "10"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of factors"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of genes",
+        "Noise"
+      ],
+      "value": "100"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of genes",
+        "Each factor"
+      ],
+      "value": "30"
+    },
+    {
+      "row": [],
+      "col": [
+        "Correlation (\u03c1)"
+      ],
+      "value": "0.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Effect size"
+      ],
+      "value": "1,2,3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Factors clearly identified"
+      ],
+      "value": "N"
+    },
+    {
+      "row": [],
+      "col": [
+        "Proportion correct"
+      ],
+      "value": "0.81"
+    },
+    {
+      "row": [],
+      "col": [
+        "Correlation (\u03c1)"
+      ],
+      "value": "0.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Effect size"
+      ],
+      "value": "1,2,3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Factors clearly identified"
+      ],
+      "value": "N"
+    },
+    {
+      "row": [],
+      "col": [
+        "Proportion correct"
+      ],
+      "value": "0.64"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of genes",
+        "Noise"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of genes",
+        "Each factor"
+      ],
+      "value": "30"
+    },
+    {
+      "row": [],
+      "col": [
+        "Correlation (\u03c1)"
+      ],
+      "value": "0.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Effect size"
+      ],
+      "value": "1,2,3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Factors clearly identified"
+      ],
+      "value": "Y"
+    },
+    {
+      "row": [],
+      "col": [
+        "Proportion correct"
+      ],
+      "value": "1.00"
+    },
+    {
+      "row": [],
+      "col": [
+        "Correlation (\u03c1)"
+      ],
+      "value": "0.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Effect size"
+      ],
+      "value": "1,2,3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Factors clearly identified"
+      ],
+      "value": "N"
+    },
+    {
+      "row": [],
+      "col": [
+        "Proportion correct"
+      ],
+      "value": "0.63"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of genotypes"
+      ],
+      "value": "10"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of factors"
+      ],
+      "value": "20"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of genes",
+        "Noise"
+      ],
+      "value": "100"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of genes",
+        "Each factor"
+      ],
+      "value": "30"
+    },
+    {
+      "row": [],
+      "col": [
+        "Correlation (\u03c1)"
+      ],
+      "value": "0.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Effect size"
+      ],
+      "value": "1,2,...,20"
+    },
+    {
+      "row": [],
+      "col": [
+        "Factors clearly identified"
+      ],
+      "value": "N"
+    },
+    {
+      "row": [],
+      "col": [
+        "Proportion correct"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Effect size"
+      ],
+      "value": "0.1,0.2,...,2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Factors clearly identified"
+      ],
+      "value": "N"
+    },
+    {
+      "row": [],
+      "col": [
+        "Proportion correct"
+      ],
+      "value": "-"
+    }
+  ]
+}

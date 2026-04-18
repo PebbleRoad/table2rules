@@ -1,0 +1,704 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "# Clades",
+    "# Genes",
+    "1",
+    "1*",
+    "1. (Borr, Trep) (Chlor, Bac) (Campy, Bruc)",
+    "10. (Chlor, Bac) (Mycop, Strep, Clost) (Mycob, Bifid)",
+    "108",
+    "112",
+    "12",
+    "129*",
+    "13",
+    "15*",
+    "17",
+    "18*",
+    "19",
+    "2",
+    "2*",
+    "2. (Neiss, Rals) (Xyl, Haem) (Rick, Meso)",
+    "207",
+    "21*",
+    "235",
+    "24*",
+    "245",
+    "247",
+    "255",
+    "26*",
+    "27*",
+    "283",
+    "294",
+    "297",
+    "299",
+    "3",
+    "3*",
+    "3. (Clost, Lacto) (Mycob, Bifid) (Campy, Rick)",
+    "30*",
+    "300",
+    "31*",
+    "32",
+    "37*",
+    "398",
+    "4",
+    "4*",
+    "4. (Buch, Rick) (Mycob, Bifid) (Staph, Mycop)",
+    "400",
+    "472",
+    "481",
+    "5",
+    "5*",
+    "5. (Urea, Mycop) (Strep, Lacto) (Staph, List)",
+    "512",
+    "554",
+    "6",
+    "6*",
+    "6. (Syn, Pro) (Rick, Buch) (Chlor, Bac) (Staph, Strep) (Borr, Trep)",
+    "7*",
+    "7. ((Rick, Bruc) ((Vib, Esch, Haem), Neiss) (Heli, Campy)) (Syn, Pro) (Clost, Staph) (Borr, Trep)",
+    "741",
+    "762",
+    "8",
+    "8*",
+    "8. ((Caul, Meso), Esch) (Chlor, Bac) (Pro, Nos)",
+    "9. ((Geo, Desulf), (Wol, Campy), (Caul, Rick)) (Borr, Lep) (Chlor, Bac)",
+    "Concatenation",
+    "Consensus",
+    "Organisms",
+    "Trees"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Organisms"
+      ],
+      "value": "1. (Borr, Trep) (Chlor, Bac) (Campy, Bruc)"
+    },
+    {
+      "row": [],
+      "col": [
+        "# Clades"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "# Genes"
+      ],
+      "value": "8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Trees"
+      ],
+      "value": "8*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Trees"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Consensus"
+      ],
+      "value": "24*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Consensus"
+      ],
+      "value": "12"
+    },
+    {
+      "row": [],
+      "col": [
+        "Concatenation"
+      ],
+      "value": "299"
+    },
+    {
+      "row": [],
+      "col": [
+        "Concatenation"
+      ],
+      "value": "112"
+    },
+    {
+      "row": [],
+      "col": [
+        "Organisms"
+      ],
+      "value": "2. (Neiss, Rals) (Xyl, Haem) (Rick, Meso)"
+    },
+    {
+      "row": [],
+      "col": [
+        "# Clades"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "# Genes"
+      ],
+      "value": "8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Trees"
+      ],
+      "value": "5*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Trees"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Consensus"
+      ],
+      "value": "21*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Consensus"
+      ],
+      "value": "19"
+    },
+    {
+      "row": [],
+      "col": [
+        "Concatenation"
+      ],
+      "value": "247"
+    },
+    {
+      "row": [],
+      "col": [
+        "Concatenation"
+      ],
+      "value": "207"
+    },
+    {
+      "row": [],
+      "col": [
+        "Organisms"
+      ],
+      "value": "3. (Clost, Lacto) (Mycob, Bifid) (Campy, Rick)"
+    },
+    {
+      "row": [],
+      "col": [
+        "# Clades"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "# Genes"
+      ],
+      "value": "8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Trees"
+      ],
+      "value": "6*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Trees"
+      ],
+      "value": "4*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Consensus"
+      ],
+      "value": "18*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Consensus"
+      ],
+      "value": "18*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Concatenation"
+      ],
+      "value": "294"
+    },
+    {
+      "row": [],
+      "col": [
+        "Concatenation"
+      ],
+      "value": "283"
+    },
+    {
+      "row": [],
+      "col": [
+        "Organisms"
+      ],
+      "value": "4. (Buch, Rick) (Mycob, Bifid) (Staph, Mycop)"
+    },
+    {
+      "row": [],
+      "col": [
+        "# Clades"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "# Genes"
+      ],
+      "value": "8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Trees"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Trees"
+      ],
+      "value": "1*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Consensus"
+      ],
+      "value": "13"
+    },
+    {
+      "row": [],
+      "col": [
+        "Consensus"
+      ],
+      "value": "15*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Concatenation"
+      ],
+      "value": "235"
+    },
+    {
+      "row": [],
+      "col": [
+        "Concatenation"
+      ],
+      "value": "297"
+    },
+    {
+      "row": [],
+      "col": [
+        "Organisms"
+      ],
+      "value": "5. (Urea, Mycop) (Strep, Lacto) (Staph, List)"
+    },
+    {
+      "row": [],
+      "col": [
+        "# Clades"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "# Genes"
+      ],
+      "value": "8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Trees"
+      ],
+      "value": "8*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Trees"
+      ],
+      "value": "5*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Consensus"
+      ],
+      "value": "24*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Consensus"
+      ],
+      "value": "21*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Concatenation"
+      ],
+      "value": "300"
+    },
+    {
+      "row": [],
+      "col": [
+        "Concatenation"
+      ],
+      "value": "300"
+    },
+    {
+      "row": [],
+      "col": [
+        "Organisms"
+      ],
+      "value": "6. (Syn, Pro) (Rick, Buch) (Chlor, Bac) (Staph, Strep) (Borr, Trep)"
+    },
+    {
+      "row": [],
+      "col": [
+        "# Clades"
+      ],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [
+        "# Genes"
+      ],
+      "value": "8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Trees"
+      ],
+      "value": "7*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Trees"
+      ],
+      "value": "2*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Consensus"
+      ],
+      "value": "37*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Consensus"
+      ],
+      "value": "26*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Concatenation"
+      ],
+      "value": "481"
+    },
+    {
+      "row": [],
+      "col": [
+        "Concatenation"
+      ],
+      "value": "472"
+    },
+    {
+      "row": [],
+      "col": [
+        "Organisms"
+      ],
+      "value": "7. ((Rick, Bruc) ((Vib, Esch, Haem), Neiss) (Heli, Campy)) (Syn, Pro) (Clost, Staph) (Borr, Trep)"
+    },
+    {
+      "row": [],
+      "col": [
+        "# Clades"
+      ],
+      "value": "8"
+    },
+    {
+      "row": [],
+      "col": [
+        "# Genes"
+      ],
+      "value": "17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Trees"
+      ],
+      "value": "3*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Trees"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Consensus"
+      ],
+      "value": "129*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Consensus"
+      ],
+      "value": "108"
+    },
+    {
+      "row": [],
+      "col": [
+        "Concatenation"
+      ],
+      "value": "762"
+    },
+    {
+      "row": [],
+      "col": [
+        "Concatenation"
+      ],
+      "value": "741"
+    },
+    {
+      "row": [],
+      "col": [
+        "Organisms"
+      ],
+      "value": "8. ((Caul, Meso), Esch) (Chlor, Bac) (Pro, Nos)"
+    },
+    {
+      "row": [],
+      "col": [
+        "# Clades"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "# Genes"
+      ],
+      "value": "8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Trees"
+      ],
+      "value": "7*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Trees"
+      ],
+      "value": "3*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Consensus"
+      ],
+      "value": "30*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Consensus"
+      ],
+      "value": "27*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Concatenation"
+      ],
+      "value": "400"
+    },
+    {
+      "row": [],
+      "col": [
+        "Concatenation"
+      ],
+      "value": "398"
+    },
+    {
+      "row": [],
+      "col": [
+        "Organisms"
+      ],
+      "value": "9. ((Geo, Desulf), (Wol, Campy), (Caul, Rick)) (Borr, Lep) (Chlor, Bac)"
+    },
+    {
+      "row": [],
+      "col": [
+        "# Clades"
+      ],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [
+        "# Genes"
+      ],
+      "value": "8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Trees"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Trees"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Consensus"
+      ],
+      "value": "31*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Consensus"
+      ],
+      "value": "32"
+    },
+    {
+      "row": [],
+      "col": [
+        "Concatenation"
+      ],
+      "value": "554"
+    },
+    {
+      "row": [],
+      "col": [
+        "Concatenation"
+      ],
+      "value": "512"
+    },
+    {
+      "row": [],
+      "col": [
+        "Organisms"
+      ],
+      "value": "10. (Chlor, Bac) (Mycop, Strep, Clost) (Mycob, Bifid)"
+    },
+    {
+      "row": [],
+      "col": [
+        "# Clades"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "# Genes"
+      ],
+      "value": "8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Trees"
+      ],
+      "value": "1*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Trees"
+      ],
+      "value": "2*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Consensus"
+      ],
+      "value": "15*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Consensus"
+      ],
+      "value": "13"
+    },
+    {
+      "row": [],
+      "col": [
+        "Concatenation"
+      ],
+      "value": "255"
+    },
+    {
+      "row": [],
+      "col": [
+        "Concatenation"
+      ],
+      "value": "245"
+    }
+  ]
+}

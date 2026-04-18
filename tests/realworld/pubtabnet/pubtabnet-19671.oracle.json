@@ -1,0 +1,601 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0.08",
+    "0.17",
+    "0.21",
+    "0.27",
+    "0.42",
+    "0.49",
+    "1.00",
+    "14%",
+    "19%",
+    "20%",
+    "22%",
+    "24%",
+    "25%",
+    "28%",
+    "29%",
+    "33%",
+    "35%",
+    "38%",
+    "39%",
+    "41%",
+    "43%",
+    "44%",
+    "47%",
+    "53%",
+    "56%",
+    "57%",
+    "59%",
+    "61%",
+    "62%",
+    "65%",
+    "67%",
+    "71%",
+    "72%",
+    "75%",
+    "76%",
+    "78%",
+    "8%",
+    "80%",
+    "81%",
+    "86%",
+    "92%",
+    "<0.0001",
+    ">60 and < 65, RT ( n = 36 )",
+    ">60 and < 65, no RT ( n = 64 )",
+    ">60 and <65 years ( n = 100 )",
+    "Age",
+    "Age and radiotherapy",
+    "Any",
+    "G0-2",
+    "G3-4",
+    "Haematologic",
+    "No ( n = 114 )",
+    "Other",
+    "Radiotherapy",
+    "Subgroup",
+    "Yes ( n = 66 )",
+    "p*",
+    "\u2265 65 years ( n = 80 )",
+    "\u2265 65, RT ( n = 30 )",
+    "\u2265 65, no RT ( n = 50 )"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Subgroup"
+      ],
+      "value": "Age"
+    },
+    {
+      "row": [],
+      "col": [
+        "Haematologic",
+        "p*"
+      ],
+      "value": "0.17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other",
+        "p*"
+      ],
+      "value": "0.49"
+    },
+    {
+      "row": [],
+      "col": [
+        "Any",
+        "p*"
+      ],
+      "value": "1.00"
+    },
+    {
+      "row": [],
+      "col": [
+        "Subgroup"
+      ],
+      "value": ">60 and <65 years ( n = 100 )"
+    },
+    {
+      "row": [],
+      "col": [
+        "Haematologic",
+        "G0-2"
+      ],
+      "value": "86%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Haematologic",
+        "G3-4"
+      ],
+      "value": "14%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other",
+        "G0-2"
+      ],
+      "value": "72%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other",
+        "G3-4"
+      ],
+      "value": "28%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Any",
+        "G0-2"
+      ],
+      "value": "62%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Any",
+        "G3-4"
+      ],
+      "value": "38%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Subgroup"
+      ],
+      "value": "\u2265 65 years ( n = 80 )"
+    },
+    {
+      "row": [],
+      "col": [
+        "Haematologic",
+        "G0-2"
+      ],
+      "value": "78%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Haematologic",
+        "G3-4"
+      ],
+      "value": "22%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other",
+        "G0-2"
+      ],
+      "value": "78%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other",
+        "G3-4"
+      ],
+      "value": "22%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Any",
+        "G0-2"
+      ],
+      "value": "61%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Any",
+        "G3-4"
+      ],
+      "value": "39%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Subgroup"
+      ],
+      "value": "Radiotherapy"
+    },
+    {
+      "row": [],
+      "col": [
+        "Haematologic",
+        "p*"
+      ],
+      "value": "<0.0001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other",
+        "p*"
+      ],
+      "value": "0.21"
+    },
+    {
+      "row": [],
+      "col": [
+        "Any",
+        "p*"
+      ],
+      "value": "0.27"
+    },
+    {
+      "row": [],
+      "col": [
+        "Subgroup"
+      ],
+      "value": "No ( n = 114 )"
+    },
+    {
+      "row": [],
+      "col": [
+        "Haematologic",
+        "G0-2"
+      ],
+      "value": "92%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Haematologic",
+        "G3-4"
+      ],
+      "value": "8%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other",
+        "G0-2"
+      ],
+      "value": "71%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other",
+        "G3-4"
+      ],
+      "value": "29%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Any",
+        "G0-2"
+      ],
+      "value": "65%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Any",
+        "G3-4"
+      ],
+      "value": "35%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Subgroup"
+      ],
+      "value": "Yes ( n = 66 )"
+    },
+    {
+      "row": [],
+      "col": [
+        "Haematologic",
+        "G0-2"
+      ],
+      "value": "65%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Haematologic",
+        "G3-4"
+      ],
+      "value": "35%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other",
+        "G0-2"
+      ],
+      "value": "80%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other",
+        "G3-4"
+      ],
+      "value": "20%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Any",
+        "G0-2"
+      ],
+      "value": "56%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Any",
+        "G3-4"
+      ],
+      "value": "44%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Subgroup"
+      ],
+      "value": "Age and radiotherapy"
+    },
+    {
+      "row": [],
+      "col": [
+        "Haematologic",
+        "p*"
+      ],
+      "value": "<0.0001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other",
+        "p*"
+      ],
+      "value": "0.42"
+    },
+    {
+      "row": [],
+      "col": [
+        "Any",
+        "p*"
+      ],
+      "value": "0.08"
+    },
+    {
+      "row": [],
+      "col": [
+        "Subgroup"
+      ],
+      "value": ">60 and < 65, no RT ( n = 64 )"
+    },
+    {
+      "row": [],
+      "col": [
+        "Haematologic",
+        "G0-2"
+      ],
+      "value": "92%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Haematologic",
+        "G3-4"
+      ],
+      "value": "8%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other",
+        "G0-2"
+      ],
+      "value": "67%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other",
+        "G3-4"
+      ],
+      "value": "33%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Any",
+        "G0-2"
+      ],
+      "value": "59%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Any",
+        "G3-4"
+      ],
+      "value": "41%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Subgroup"
+      ],
+      "value": "\u2265 65, no RT ( n = 50 )"
+    },
+    {
+      "row": [],
+      "col": [
+        "Haematologic",
+        "G0-2"
+      ],
+      "value": "92%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Haematologic",
+        "G3-4"
+      ],
+      "value": "8%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other",
+        "G0-2"
+      ],
+      "value": "76%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other",
+        "G3-4"
+      ],
+      "value": "24%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Any",
+        "G0-2"
+      ],
+      "value": "72%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Any",
+        "G3-4"
+      ],
+      "value": "28%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Subgroup"
+      ],
+      "value": ">60 and < 65, RT ( n = 36 )"
+    },
+    {
+      "row": [],
+      "col": [
+        "Haematologic",
+        "G0-2"
+      ],
+      "value": "75%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Haematologic",
+        "G3-4"
+      ],
+      "value": "25%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other",
+        "G0-2"
+      ],
+      "value": "81%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other",
+        "G3-4"
+      ],
+      "value": "19%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Any",
+        "G0-2"
+      ],
+      "value": "67%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Any",
+        "G3-4"
+      ],
+      "value": "33%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Subgroup"
+      ],
+      "value": "\u2265 65, RT ( n = 30 )"
+    },
+    {
+      "row": [],
+      "col": [
+        "Haematologic",
+        "G0-2"
+      ],
+      "value": "53%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Haematologic",
+        "G3-4"
+      ],
+      "value": "47%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other",
+        "G0-2"
+      ],
+      "value": "80%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other",
+        "G3-4"
+      ],
+      "value": "20%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Any",
+        "G0-2"
+      ],
+      "value": "43%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Any",
+        "G3-4"
+      ],
+      "value": "57%"
+    }
+  ]
+}

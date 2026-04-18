@@ -1,0 +1,942 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0.002 (S)",
+    "0.030 (S)",
+    "0.060 (S)",
+    "0.120",
+    "0.120 (S)",
+    "0.250",
+    "0.250 (I)",
+    "0.250 (S)",
+    "0.500",
+    "0.500 (I)",
+    "0.500 (S)",
+    "1",
+    "1.000",
+    "1.000 (S)",
+    "2",
+    "2.000 (R)",
+    "2.000 (S)",
+    "3",
+    "4",
+    "4.000",
+    "4.000 (R)",
+    "5",
+    "6",
+    "7",
+    "8",
+    "8.000 (R)",
+    "9",
+    "Bacteriologic Outcome \u2020",
+    "Clinical Outcome",
+    "Cure",
+    "Eradication",
+    "Ery A",
+    "H influenzae",
+    "Isolate (Source)",
+    "M catarrhalis",
+    "MIC Susceptibility* (\u03bcg/mL)",
+    "ND",
+    "Pen G",
+    "Presumed eradication",
+    "S aureus",
+    "S pneumoniae (blood)",
+    "S pneumoniae (sputum)",
+    "Subject No.",
+    "Subjects with multiple-pathogen S pneumoniae isolate",
+    "Subjects with single-pathogen S pneumoniae isolate",
+    "TEL",
+    "b>8.000 (R)"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Subject No."
+      ],
+      "value": "Subjects with single-pathogen S pneumoniae isolate"
+    },
+    {
+      "row": [],
+      "col": [
+        "Isolate (Source)"
+      ],
+      "value": "Subjects with single-pathogen S pneumoniae isolate"
+    },
+    {
+      "row": [],
+      "col": [
+        "MIC Susceptibility* (\u03bcg/mL)",
+        "TEL"
+      ],
+      "value": "Subjects with single-pathogen S pneumoniae isolate"
+    },
+    {
+      "row": [],
+      "col": [
+        "MIC Susceptibility* (\u03bcg/mL)",
+        "Pen G"
+      ],
+      "value": "Subjects with single-pathogen S pneumoniae isolate"
+    },
+    {
+      "row": [],
+      "col": [
+        "MIC Susceptibility* (\u03bcg/mL)",
+        "Ery A"
+      ],
+      "value": "Subjects with single-pathogen S pneumoniae isolate"
+    },
+    {
+      "row": [],
+      "col": [
+        "Bacteriologic Outcome \u2020"
+      ],
+      "value": "Subjects with single-pathogen S pneumoniae isolate"
+    },
+    {
+      "row": [],
+      "col": [
+        "Clinical Outcome"
+      ],
+      "value": "Subjects with single-pathogen S pneumoniae isolate"
+    },
+    {
+      "row": [],
+      "col": [
+        "Subject No."
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Isolate (Source)"
+      ],
+      "value": "S pneumoniae (sputum)"
+    },
+    {
+      "row": [],
+      "col": [
+        "MIC Susceptibility* (\u03bcg/mL)",
+        "TEL"
+      ],
+      "value": "0.030 (S)"
+    },
+    {
+      "row": [],
+      "col": [
+        "MIC Susceptibility* (\u03bcg/mL)",
+        "Pen G"
+      ],
+      "value": "0.030 (S)"
+    },
+    {
+      "row": [],
+      "col": [
+        "MIC Susceptibility* (\u03bcg/mL)",
+        "Ery A"
+      ],
+      "value": "b>8.000 (R)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Bacteriologic Outcome \u2020"
+      ],
+      "value": "Eradication"
+    },
+    {
+      "row": [],
+      "col": [
+        "Clinical Outcome"
+      ],
+      "value": "Cure"
+    },
+    {
+      "row": [],
+      "col": [
+        "Subject No."
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Isolate (Source)"
+      ],
+      "value": "S pneumoniae (sputum)"
+    },
+    {
+      "row": [],
+      "col": [
+        "MIC Susceptibility* (\u03bcg/mL)",
+        "TEL"
+      ],
+      "value": "0.030 (S)"
+    },
+    {
+      "row": [],
+      "col": [
+        "MIC Susceptibility* (\u03bcg/mL)",
+        "Pen G"
+      ],
+      "value": "2.000 (R)"
+    },
+    {
+      "row": [],
+      "col": [
+        "MIC Susceptibility* (\u03bcg/mL)",
+        "Ery A"
+      ],
+      "value": "0.250 (S)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Bacteriologic Outcome \u2020"
+      ],
+      "value": "Presumed eradication"
+    },
+    {
+      "row": [],
+      "col": [
+        "Clinical Outcome"
+      ],
+      "value": "Cure"
+    },
+    {
+      "row": [],
+      "col": [
+        "Subject No."
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Isolate (Source)"
+      ],
+      "value": "S pneumoniae (sputum)"
+    },
+    {
+      "row": [],
+      "col": [
+        "MIC Susceptibility* (\u03bcg/mL)",
+        "TEL"
+      ],
+      "value": "0.500 (S)"
+    },
+    {
+      "row": [],
+      "col": [
+        "MIC Susceptibility* (\u03bcg/mL)",
+        "Pen G"
+      ],
+      "value": "2.000 (R)"
+    },
+    {
+      "row": [],
+      "col": [
+        "MIC Susceptibility* (\u03bcg/mL)",
+        "Ery A"
+      ],
+      "value": "8.000 (R)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Bacteriologic Outcome \u2020"
+      ],
+      "value": "Presumed eradication"
+    },
+    {
+      "row": [],
+      "col": [
+        "Clinical Outcome"
+      ],
+      "value": "Cure"
+    },
+    {
+      "row": [],
+      "col": [
+        "Subject No."
+      ],
+      "value": "Subjects with multiple-pathogen S pneumoniae isolate"
+    },
+    {
+      "row": [],
+      "col": [
+        "Isolate (Source)"
+      ],
+      "value": "Subjects with multiple-pathogen S pneumoniae isolate"
+    },
+    {
+      "row": [],
+      "col": [
+        "MIC Susceptibility* (\u03bcg/mL)",
+        "TEL"
+      ],
+      "value": "Subjects with multiple-pathogen S pneumoniae isolate"
+    },
+    {
+      "row": [],
+      "col": [
+        "MIC Susceptibility* (\u03bcg/mL)",
+        "Pen G"
+      ],
+      "value": "Subjects with multiple-pathogen S pneumoniae isolate"
+    },
+    {
+      "row": [],
+      "col": [
+        "MIC Susceptibility* (\u03bcg/mL)",
+        "Ery A"
+      ],
+      "value": "Subjects with multiple-pathogen S pneumoniae isolate"
+    },
+    {
+      "row": [],
+      "col": [
+        "Bacteriologic Outcome \u2020"
+      ],
+      "value": "Subjects with multiple-pathogen S pneumoniae isolate"
+    },
+    {
+      "row": [],
+      "col": [
+        "Clinical Outcome"
+      ],
+      "value": "Subjects with multiple-pathogen S pneumoniae isolate"
+    },
+    {
+      "row": [],
+      "col": [
+        "Subject No."
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Isolate (Source)"
+      ],
+      "value": "S pneumoniae (sputum)"
+    },
+    {
+      "row": [],
+      "col": [
+        "MIC Susceptibility* (\u03bcg/mL)",
+        "TEL"
+      ],
+      "value": "0.060 (S)"
+    },
+    {
+      "row": [],
+      "col": [
+        "MIC Susceptibility* (\u03bcg/mL)",
+        "Pen G"
+      ],
+      "value": "2.000 (R)"
+    },
+    {
+      "row": [],
+      "col": [
+        "MIC Susceptibility* (\u03bcg/mL)",
+        "Ery A"
+      ],
+      "value": "4.000 (R)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Bacteriologic Outcome \u2020"
+      ],
+      "value": "Presumed eradication"
+    },
+    {
+      "row": [],
+      "col": [
+        "Clinical Outcome"
+      ],
+      "value": "Cure"
+    },
+    {
+      "row": [],
+      "col": [
+        "Isolate (Source)"
+      ],
+      "value": "M catarrhalis"
+    },
+    {
+      "row": [],
+      "col": [
+        "MIC Susceptibility* (\u03bcg/mL)",
+        "TEL"
+      ],
+      "value": "0.120 (S)"
+    },
+    {
+      "row": [],
+      "col": [
+        "MIC Susceptibility* (\u03bcg/mL)",
+        "Pen G"
+      ],
+      "value": "ND"
+    },
+    {
+      "row": [],
+      "col": [
+        "MIC Susceptibility* (\u03bcg/mL)",
+        "Ery A"
+      ],
+      "value": "0.120"
+    },
+    {
+      "row": [],
+      "col": [
+        "Bacteriologic Outcome \u2020"
+      ],
+      "value": "Presumed eradication"
+    },
+    {
+      "row": [],
+      "col": [
+        "Clinical Outcome"
+      ],
+      "value": "Cure"
+    },
+    {
+      "row": [],
+      "col": [
+        "Subject No."
+      ],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Isolate (Source)"
+      ],
+      "value": "S pneumoniae (sputum)"
+    },
+    {
+      "row": [],
+      "col": [
+        "MIC Susceptibility* (\u03bcg/mL)",
+        "TEL"
+      ],
+      "value": "0.250 (S)"
+    },
+    {
+      "row": [],
+      "col": [
+        "MIC Susceptibility* (\u03bcg/mL)",
+        "Pen G"
+      ],
+      "value": "2.000 (R)"
+    },
+    {
+      "row": [],
+      "col": [
+        "MIC Susceptibility* (\u03bcg/mL)",
+        "Ery A"
+      ],
+      "value": "8.000 (R)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Bacteriologic Outcome \u2020"
+      ],
+      "value": "Presumed eradication"
+    },
+    {
+      "row": [],
+      "col": [
+        "Clinical Outcome"
+      ],
+      "value": "Cure"
+    },
+    {
+      "row": [],
+      "col": [
+        "Subject No."
+      ],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Isolate (Source)"
+      ],
+      "value": "S pneumoniae (sputum)"
+    },
+    {
+      "row": [],
+      "col": [
+        "MIC Susceptibility* (\u03bcg/mL)",
+        "TEL"
+      ],
+      "value": "0.030 (S)"
+    },
+    {
+      "row": [],
+      "col": [
+        "MIC Susceptibility* (\u03bcg/mL)",
+        "Pen G"
+      ],
+      "value": "2.000 (R)"
+    },
+    {
+      "row": [],
+      "col": [
+        "MIC Susceptibility* (\u03bcg/mL)",
+        "Ery A"
+      ],
+      "value": "0.060 (S)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Bacteriologic Outcome \u2020"
+      ],
+      "value": "Presumed eradication"
+    },
+    {
+      "row": [],
+      "col": [
+        "Clinical Outcome"
+      ],
+      "value": "Cure"
+    },
+    {
+      "row": [],
+      "col": [
+        "Isolate (Source)"
+      ],
+      "value": "H influenzae"
+    },
+    {
+      "row": [],
+      "col": [
+        "MIC Susceptibility* (\u03bcg/mL)",
+        "TEL"
+      ],
+      "value": "0.002 (S)"
+    },
+    {
+      "row": [],
+      "col": [
+        "MIC Susceptibility* (\u03bcg/mL)",
+        "Pen G"
+      ],
+      "value": "ND"
+    },
+    {
+      "row": [],
+      "col": [
+        "MIC Susceptibility* (\u03bcg/mL)",
+        "Ery A"
+      ],
+      "value": "1.000"
+    },
+    {
+      "row": [],
+      "col": [
+        "Bacteriologic Outcome \u2020"
+      ],
+      "value": "Presumed eradication"
+    },
+    {
+      "row": [],
+      "col": [
+        "Clinical Outcome"
+      ],
+      "value": "Cure"
+    },
+    {
+      "row": [],
+      "col": [
+        "Isolate (Source)"
+      ],
+      "value": "M catarrhalis"
+    },
+    {
+      "row": [],
+      "col": [
+        "MIC Susceptibility* (\u03bcg/mL)",
+        "TEL"
+      ],
+      "value": "0.120 (S)"
+    },
+    {
+      "row": [],
+      "col": [
+        "MIC Susceptibility* (\u03bcg/mL)",
+        "Pen G"
+      ],
+      "value": "ND"
+    },
+    {
+      "row": [],
+      "col": [
+        "MIC Susceptibility* (\u03bcg/mL)",
+        "Ery A"
+      ],
+      "value": "0.250"
+    },
+    {
+      "row": [],
+      "col": [
+        "Bacteriologic Outcome \u2020"
+      ],
+      "value": "Presumed eradication"
+    },
+    {
+      "row": [],
+      "col": [
+        "Clinical Outcome"
+      ],
+      "value": "Cure"
+    },
+    {
+      "row": [],
+      "col": [
+        "Subject No."
+      ],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Isolate (Source)"
+      ],
+      "value": "S pneumoniae (sputum)"
+    },
+    {
+      "row": [],
+      "col": [
+        "MIC Susceptibility* (\u03bcg/mL)",
+        "TEL"
+      ],
+      "value": "0.500 (S)"
+    },
+    {
+      "row": [],
+      "col": [
+        "MIC Susceptibility* (\u03bcg/mL)",
+        "Pen G"
+      ],
+      "value": "2.000 (R)"
+    },
+    {
+      "row": [],
+      "col": [
+        "MIC Susceptibility* (\u03bcg/mL)",
+        "Ery A"
+      ],
+      "value": "8.000 (R)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Bacteriologic Outcome \u2020"
+      ],
+      "value": "Presumed eradication"
+    },
+    {
+      "row": [],
+      "col": [
+        "Clinical Outcome"
+      ],
+      "value": "Cure"
+    },
+    {
+      "row": [],
+      "col": [
+        "Isolate (Source)"
+      ],
+      "value": "H influenzae"
+    },
+    {
+      "row": [],
+      "col": [
+        "MIC Susceptibility* (\u03bcg/mL)",
+        "TEL"
+      ],
+      "value": "2.000 (S)"
+    },
+    {
+      "row": [],
+      "col": [
+        "MIC Susceptibility* (\u03bcg/mL)",
+        "Pen G"
+      ],
+      "value": "ND"
+    },
+    {
+      "row": [],
+      "col": [
+        "MIC Susceptibility* (\u03bcg/mL)",
+        "Ery A"
+      ],
+      "value": "4.000"
+    },
+    {
+      "row": [],
+      "col": [
+        "Bacteriologic Outcome \u2020"
+      ],
+      "value": "Presumed eradication"
+    },
+    {
+      "row": [],
+      "col": [
+        "Clinical Outcome"
+      ],
+      "value": "Cure"
+    },
+    {
+      "row": [],
+      "col": [
+        "Subject No."
+      ],
+      "value": "8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Isolate (Source)"
+      ],
+      "value": "S pneumoniae (blood)"
+    },
+    {
+      "row": [],
+      "col": [
+        "MIC Susceptibility* (\u03bcg/mL)",
+        "TEL"
+      ],
+      "value": "1.000 (S)"
+    },
+    {
+      "row": [],
+      "col": [
+        "MIC Susceptibility* (\u03bcg/mL)",
+        "Pen G"
+      ],
+      "value": "0.250 (I)"
+    },
+    {
+      "row": [],
+      "col": [
+        "MIC Susceptibility* (\u03bcg/mL)",
+        "Ery A"
+      ],
+      "value": "8.000 (R)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Bacteriologic Outcome \u2020"
+      ],
+      "value": "Presumed eradication"
+    },
+    {
+      "row": [],
+      "col": [
+        "Clinical Outcome"
+      ],
+      "value": "Cure"
+    },
+    {
+      "row": [],
+      "col": [
+        "Isolate (Source)"
+      ],
+      "value": "H influenzae"
+    },
+    {
+      "row": [],
+      "col": [
+        "MIC Susceptibility* (\u03bcg/mL)",
+        "TEL"
+      ],
+      "value": "1.000 (S)"
+    },
+    {
+      "row": [],
+      "col": [
+        "MIC Susceptibility* (\u03bcg/mL)",
+        "Pen G"
+      ],
+      "value": "ND"
+    },
+    {
+      "row": [],
+      "col": [
+        "MIC Susceptibility* (\u03bcg/mL)",
+        "Ery A"
+      ],
+      "value": "4.000"
+    },
+    {
+      "row": [],
+      "col": [
+        "Bacteriologic Outcome \u2020"
+      ],
+      "value": "Presumed eradication"
+    },
+    {
+      "row": [],
+      "col": [
+        "Clinical Outcome"
+      ],
+      "value": "Cure"
+    },
+    {
+      "row": [],
+      "col": [
+        "Subject No."
+      ],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Isolate (Source)"
+      ],
+      "value": "S pneumoniae (blood)"
+    },
+    {
+      "row": [],
+      "col": [
+        "MIC Susceptibility* (\u03bcg/mL)",
+        "TEL"
+      ],
+      "value": "1.000 (S)"
+    },
+    {
+      "row": [],
+      "col": [
+        "MIC Susceptibility* (\u03bcg/mL)",
+        "Pen G"
+      ],
+      "value": "0.500 (I)"
+    },
+    {
+      "row": [],
+      "col": [
+        "MIC Susceptibility* (\u03bcg/mL)",
+        "Ery A"
+      ],
+      "value": "8.000 (R)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Bacteriologic Outcome \u2020"
+      ],
+      "value": "Presumed eradication"
+    },
+    {
+      "row": [],
+      "col": [
+        "Clinical Outcome"
+      ],
+      "value": "Cure"
+    },
+    {
+      "row": [],
+      "col": [
+        "Isolate (Source)"
+      ],
+      "value": "H influenzae"
+    },
+    {
+      "row": [],
+      "col": [
+        "MIC Susceptibility* (\u03bcg/mL)",
+        "TEL"
+      ],
+      "value": "8.000 (R)"
+    },
+    {
+      "row": [],
+      "col": [
+        "MIC Susceptibility* (\u03bcg/mL)",
+        "Pen G"
+      ],
+      "value": "ND"
+    },
+    {
+      "row": [],
+      "col": [
+        "MIC Susceptibility* (\u03bcg/mL)",
+        "Ery A"
+      ],
+      "value": "4.000"
+    },
+    {
+      "row": [],
+      "col": [
+        "Bacteriologic Outcome \u2020"
+      ],
+      "value": "Presumed eradication"
+    },
+    {
+      "row": [],
+      "col": [
+        "Clinical Outcome"
+      ],
+      "value": "Cure"
+    },
+    {
+      "row": [],
+      "col": [
+        "Isolate (Source)"
+      ],
+      "value": "S aureus"
+    },
+    {
+      "row": [],
+      "col": [
+        "MIC Susceptibility* (\u03bcg/mL)",
+        "TEL"
+      ],
+      "value": "0.120 (S)"
+    },
+    {
+      "row": [],
+      "col": [
+        "MIC Susceptibility* (\u03bcg/mL)",
+        "Pen G"
+      ],
+      "value": "ND"
+    },
+    {
+      "row": [],
+      "col": [
+        "MIC Susceptibility* (\u03bcg/mL)",
+        "Ery A"
+      ],
+      "value": "0.500"
+    },
+    {
+      "row": [],
+      "col": [
+        "Bacteriologic Outcome \u2020"
+      ],
+      "value": "Presumed eradication"
+    },
+    {
+      "row": [],
+      "col": [
+        "Clinical Outcome"
+      ],
+      "value": "Cure"
+    }
+  ]
+}

@@ -1,0 +1,481 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "-",
+    "0.001",
+    "0.002",
+    "0.004",
+    "0.009",
+    "0.032",
+    "13 (76)",
+    "17",
+    "17 (30)",
+    "18 (75)",
+    "22 (70)",
+    "24",
+    "3.5 (1.5\u20138.3)",
+    "30 (37)",
+    "31",
+    "34 (39)",
+    "35 (63)",
+    "39 (41)",
+    "4.0 (1.1\u201314.5)",
+    "4.9 (1.6\u201314.6)",
+    "55",
+    "79",
+    "86",
+    "93",
+    "Factor",
+    "Multivariate analysis",
+    "No",
+    "Number of patients ( n = 110)",
+    "Number of patients with MV duration \u2265 14 days (%)",
+    "OR (95% CI)",
+    "P",
+    "Renal failure on ICU admission",
+    "Tracheostomy",
+    "Univariate analysis",
+    "VAT",
+    "VAT related to multidrug-resistant bacteria",
+    "Yes"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Factor"
+      ],
+      "value": "Renal failure on ICU admission"
+    },
+    {
+      "row": [],
+      "col": [
+        "Univariate analysis",
+        "Number of patients ( n = 110)"
+      ],
+      "value": "Renal failure on ICU admission"
+    },
+    {
+      "row": [],
+      "col": [
+        "Univariate analysis",
+        "Number of patients with MV duration \u2265 14 days (%)"
+      ],
+      "value": "Renal failure on ICU admission"
+    },
+    {
+      "row": [],
+      "col": [
+        "Univariate analysis",
+        "P"
+      ],
+      "value": "Renal failure on ICU admission"
+    },
+    {
+      "row": [],
+      "col": [
+        "Multivariate analysis",
+        "OR (95% CI)"
+      ],
+      "value": "Renal failure on ICU admission"
+    },
+    {
+      "row": [],
+      "col": [
+        "Multivariate analysis",
+        "P"
+      ],
+      "value": "Renal failure on ICU admission"
+    },
+    {
+      "row": [],
+      "col": [
+        "Factor"
+      ],
+      "value": "Yes"
+    },
+    {
+      "row": [],
+      "col": [
+        "Univariate analysis",
+        "Number of patients ( n = 110)"
+      ],
+      "value": "24"
+    },
+    {
+      "row": [],
+      "col": [
+        "Univariate analysis",
+        "Number of patients with MV duration \u2265 14 days (%)"
+      ],
+      "value": "18 (75)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Univariate analysis",
+        "P"
+      ],
+      "value": "0.002"
+    },
+    {
+      "row": [],
+      "col": [
+        "Multivariate analysis",
+        "OR (95% CI)"
+      ],
+      "value": "4.9 (1.6\u201314.6)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Multivariate analysis",
+        "P"
+      ],
+      "value": "0.004"
+    },
+    {
+      "row": [],
+      "col": [
+        "Factor"
+      ],
+      "value": "No"
+    },
+    {
+      "row": [],
+      "col": [
+        "Univariate analysis",
+        "Number of patients ( n = 110)"
+      ],
+      "value": "86"
+    },
+    {
+      "row": [],
+      "col": [
+        "Univariate analysis",
+        "Number of patients with MV duration \u2265 14 days (%)"
+      ],
+      "value": "34 (39)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Factor"
+      ],
+      "value": "Tracheostomy"
+    },
+    {
+      "row": [],
+      "col": [
+        "Univariate analysis",
+        "Number of patients ( n = 110)"
+      ],
+      "value": "Tracheostomy"
+    },
+    {
+      "row": [],
+      "col": [
+        "Univariate analysis",
+        "Number of patients with MV duration \u2265 14 days (%)"
+      ],
+      "value": "Tracheostomy"
+    },
+    {
+      "row": [],
+      "col": [
+        "Univariate analysis",
+        "P"
+      ],
+      "value": "Tracheostomy"
+    },
+    {
+      "row": [],
+      "col": [
+        "Multivariate analysis",
+        "OR (95% CI)"
+      ],
+      "value": "Tracheostomy"
+    },
+    {
+      "row": [],
+      "col": [
+        "Multivariate analysis",
+        "P"
+      ],
+      "value": "Tracheostomy"
+    },
+    {
+      "row": [],
+      "col": [
+        "Factor"
+      ],
+      "value": "Yes"
+    },
+    {
+      "row": [],
+      "col": [
+        "Univariate analysis",
+        "Number of patients ( n = 110)"
+      ],
+      "value": "17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Univariate analysis",
+        "Number of patients with MV duration \u2265 14 days (%)"
+      ],
+      "value": "13 (76)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Univariate analysis",
+        "P"
+      ],
+      "value": "0.009"
+    },
+    {
+      "row": [],
+      "col": [
+        "Multivariate analysis",
+        "OR (95% CI)"
+      ],
+      "value": "4.0 (1.1\u201314.5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Multivariate analysis",
+        "P"
+      ],
+      "value": "0.032"
+    },
+    {
+      "row": [],
+      "col": [
+        "Factor"
+      ],
+      "value": "No"
+    },
+    {
+      "row": [],
+      "col": [
+        "Univariate analysis",
+        "Number of patients ( n = 110)"
+      ],
+      "value": "93"
+    },
+    {
+      "row": [],
+      "col": [
+        "Univariate analysis",
+        "Number of patients with MV duration \u2265 14 days (%)"
+      ],
+      "value": "39 (41)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Factor"
+      ],
+      "value": "VAT related to multidrug-resistant bacteria"
+    },
+    {
+      "row": [],
+      "col": [
+        "Univariate analysis",
+        "Number of patients ( n = 110)"
+      ],
+      "value": "VAT related to multidrug-resistant bacteria"
+    },
+    {
+      "row": [],
+      "col": [
+        "Univariate analysis",
+        "Number of patients with MV duration \u2265 14 days (%)"
+      ],
+      "value": "VAT related to multidrug-resistant bacteria"
+    },
+    {
+      "row": [],
+      "col": [
+        "Univariate analysis",
+        "P"
+      ],
+      "value": "VAT related to multidrug-resistant bacteria"
+    },
+    {
+      "row": [],
+      "col": [
+        "Multivariate analysis",
+        "OR (95% CI)"
+      ],
+      "value": "VAT related to multidrug-resistant bacteria"
+    },
+    {
+      "row": [],
+      "col": [
+        "Multivariate analysis",
+        "P"
+      ],
+      "value": "VAT related to multidrug-resistant bacteria"
+    },
+    {
+      "row": [],
+      "col": [
+        "Factor"
+      ],
+      "value": "Yes"
+    },
+    {
+      "row": [],
+      "col": [
+        "Univariate analysis",
+        "Number of patients ( n = 110)"
+      ],
+      "value": "31"
+    },
+    {
+      "row": [],
+      "col": [
+        "Univariate analysis",
+        "Number of patients with MV duration \u2265 14 days (%)"
+      ],
+      "value": "22 (70)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Univariate analysis",
+        "P"
+      ],
+      "value": "0.002"
+    },
+    {
+      "row": [],
+      "col": [
+        "Multivariate analysis",
+        "OR (95% CI)"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Multivariate analysis",
+        "P"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Factor"
+      ],
+      "value": "No"
+    },
+    {
+      "row": [],
+      "col": [
+        "Univariate analysis",
+        "Number of patients ( n = 110)"
+      ],
+      "value": "79"
+    },
+    {
+      "row": [],
+      "col": [
+        "Univariate analysis",
+        "Number of patients with MV duration \u2265 14 days (%)"
+      ],
+      "value": "30 (37)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Factor"
+      ],
+      "value": "VAT"
+    },
+    {
+      "row": [],
+      "col": [
+        "Univariate analysis",
+        "Number of patients ( n = 110)"
+      ],
+      "value": "VAT"
+    },
+    {
+      "row": [],
+      "col": [
+        "Factor"
+      ],
+      "value": "Yes"
+    },
+    {
+      "row": [],
+      "col": [
+        "Univariate analysis",
+        "Number of patients ( n = 110)"
+      ],
+      "value": "55"
+    },
+    {
+      "row": [],
+      "col": [
+        "Univariate analysis",
+        "Number of patients with MV duration \u2265 14 days (%)"
+      ],
+      "value": "35 (63)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Univariate analysis",
+        "P"
+      ],
+      "value": "0.001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Multivariate analysis",
+        "OR (95% CI)"
+      ],
+      "value": "3.5 (1.5\u20138.3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Multivariate analysis",
+        "P"
+      ],
+      "value": "0.004"
+    },
+    {
+      "row": [],
+      "col": [
+        "Factor"
+      ],
+      "value": "No"
+    },
+    {
+      "row": [],
+      "col": [
+        "Univariate analysis",
+        "Number of patients ( n = 110)"
+      ],
+      "value": "55"
+    },
+    {
+      "row": [],
+      "col": [
+        "Univariate analysis",
+        "Number of patients with MV duration \u2265 14 days (%)"
+      ],
+      "value": "17 (30)"
+    }
+  ]
+}

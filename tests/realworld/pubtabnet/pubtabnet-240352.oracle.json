@@ -1,0 +1,419 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "+",
+    "-",
+    "0.01",
+    "0.02",
+    "0.03",
+    "0.04",
+    "0.05",
+    "0.405",
+    "0.511",
+    "0.527",
+    "0.829",
+    "0.886",
+    "0\u20136",
+    "1.000",
+    "25",
+    "28",
+    "3",
+    "4",
+    "6",
+    "<0.001",
+    "Correlation a",
+    "Cytokine",
+    "Day(s)",
+    "IL-10",
+    "IL-1\u03b2",
+    "IL-5",
+    "IL-6",
+    "Inguinal lymph node",
+    "P a",
+    "Spleen",
+    "Synovial membrane",
+    "n",
+    "\u03c1 a"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Cytokine"
+      ],
+      "value": "Synovial membrane"
+    },
+    {
+      "row": [],
+      "col": [
+        "Day(s)"
+      ],
+      "value": "Synovial membrane"
+    },
+    {
+      "row": [],
+      "col": [
+        "Correlation a"
+      ],
+      "value": "Synovial membrane"
+    },
+    {
+      "row": [],
+      "col": [
+        "P a"
+      ],
+      "value": "Synovial membrane"
+    },
+    {
+      "row": [],
+      "col": [
+        "\u03c1 a"
+      ],
+      "value": "Synovial membrane"
+    },
+    {
+      "row": [],
+      "col": [
+        "n"
+      ],
+      "value": "Synovial membrane"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cytokine"
+      ],
+      "value": "IL-1\u03b2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Day(s)"
+      ],
+      "value": "0\u20136"
+    },
+    {
+      "row": [],
+      "col": [
+        "Correlation a"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "P a"
+      ],
+      "value": "0.05"
+    },
+    {
+      "row": [],
+      "col": [
+        "\u03c1 a"
+      ],
+      "value": "0.527"
+    },
+    {
+      "row": [],
+      "col": [
+        "n"
+      ],
+      "value": "25"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cytokine"
+      ],
+      "value": "IL-6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Day(s)"
+      ],
+      "value": "0\u20136"
+    },
+    {
+      "row": [],
+      "col": [
+        "Correlation a"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "P a"
+      ],
+      "value": "0.03"
+    },
+    {
+      "row": [],
+      "col": [
+        "\u03c1 a"
+      ],
+      "value": "0.405"
+    },
+    {
+      "row": [],
+      "col": [
+        "n"
+      ],
+      "value": "28"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cytokine"
+      ],
+      "value": "Inguinal lymph node"
+    },
+    {
+      "row": [],
+      "col": [
+        "Day(s)"
+      ],
+      "value": "Inguinal lymph node"
+    },
+    {
+      "row": [],
+      "col": [
+        "Correlation a"
+      ],
+      "value": "Inguinal lymph node"
+    },
+    {
+      "row": [],
+      "col": [
+        "P a"
+      ],
+      "value": "Inguinal lymph node"
+    },
+    {
+      "row": [],
+      "col": [
+        "\u03c1 a"
+      ],
+      "value": "Inguinal lymph node"
+    },
+    {
+      "row": [],
+      "col": [
+        "n"
+      ],
+      "value": "Inguinal lymph node"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cytokine"
+      ],
+      "value": "IL-6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Day(s)"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Correlation a"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "P a"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "\u03c1 a"
+      ],
+      "value": "0.886"
+    },
+    {
+      "row": [],
+      "col": [
+        "n"
+      ],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cytokine"
+      ],
+      "value": "Spleen"
+    },
+    {
+      "row": [],
+      "col": [
+        "Day(s)"
+      ],
+      "value": "Spleen"
+    },
+    {
+      "row": [],
+      "col": [
+        "Correlation a"
+      ],
+      "value": "Spleen"
+    },
+    {
+      "row": [],
+      "col": [
+        "P a"
+      ],
+      "value": "Spleen"
+    },
+    {
+      "row": [],
+      "col": [
+        "\u03c1 a"
+      ],
+      "value": "Spleen"
+    },
+    {
+      "row": [],
+      "col": [
+        "n"
+      ],
+      "value": "Spleen"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cytokine"
+      ],
+      "value": "IL-6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Day(s)"
+      ],
+      "value": "0\u20136"
+    },
+    {
+      "row": [],
+      "col": [
+        "Correlation a"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "P a"
+      ],
+      "value": "0.01"
+    },
+    {
+      "row": [],
+      "col": [
+        "\u03c1 a"
+      ],
+      "value": "0.511"
+    },
+    {
+      "row": [],
+      "col": [
+        "n"
+      ],
+      "value": "25"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cytokine"
+      ],
+      "value": "IL-5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Day(s)"
+      ],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Correlation a"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "P a"
+      ],
+      "value": "<0.001"
+    },
+    {
+      "row": [],
+      "col": [
+        "\u03c1 a"
+      ],
+      "value": "1.000"
+    },
+    {
+      "row": [],
+      "col": [
+        "n"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cytokine"
+      ],
+      "value": "IL-10"
+    },
+    {
+      "row": [],
+      "col": [
+        "Day(s)"
+      ],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Correlation a"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "P a"
+      ],
+      "value": "0.04"
+    },
+    {
+      "row": [],
+      "col": [
+        "\u03c1 a"
+      ],
+      "value": "0.829"
+    },
+    {
+      "row": [],
+      "col": [
+        "n"
+      ],
+      "value": "6"
+    }
+  ]
+}

@@ -1,0 +1,437 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "/",
+    "1 (16.7%)",
+    "1 (50%)",
+    "119 (73.5%)",
+    "13 (15.1%)",
+    "13 (8%)",
+    "14 (34.1%)",
+    "18 (78.3%)",
+    "2 (8.7%)",
+    "21 (21.6%)",
+    "24 (58.5%)",
+    "27 (22.5%)",
+    "28 (80%)",
+    "3 (13%)",
+    "3 (37.5%)",
+    "3 (7.3%)",
+    "3 (8.6%)",
+    "30 (18.5%)",
+    "4 (11.4%)",
+    "49 (77.8%)",
+    "5 (100%)",
+    "5 (4.1%)",
+    "5 (62.5%)",
+    "5 (7.9%)",
+    "5 (88.3%)",
+    "6 (7%)",
+    "67 (77.9%)",
+    "69 (71.1%)",
+    "7 (7.2%)",
+    "88 (72.7%)",
+    "9 (14.3%)",
+    "Focal adhesion kinase expression",
+    "Histological grade",
+    "Intermediate",
+    "Invasive ductal",
+    "Invasive lobular",
+    "Moderately differentiated",
+    "Mucinous",
+    "Negative",
+    "Not significant",
+    "Others",
+    "P = 0.038*",
+    "P value*",
+    "Poorly differentiated",
+    "Strong",
+    "Total adenocarcinoma",
+    "Tubulo/tubulo-lobular",
+    "Tumor size",
+    "Tumor type",
+    "Well differentiated",
+    "pT1(a,b,c)",
+    "pT2",
+    "pT3 and pT4"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Total adenocarcinoma"
+    },
+    {
+      "row": [],
+      "col": [
+        "Focal adhesion kinase expression",
+        "Negative"
+      ],
+      "value": "13 (8%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Focal adhesion kinase expression",
+        "Strong"
+      ],
+      "value": "30 (18.5%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Focal adhesion kinase expression",
+        "Intermediate"
+      ],
+      "value": "119 (73.5%)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Tumor type"
+    },
+    {
+      "row": [],
+      "col": [
+        "P value*"
+      ],
+      "value": "Not significant"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Invasive ductal"
+    },
+    {
+      "row": [],
+      "col": [
+        "Focal adhesion kinase expression",
+        "Negative"
+      ],
+      "value": "5 (4.1%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Focal adhesion kinase expression",
+        "Strong"
+      ],
+      "value": "27 (22.5%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Focal adhesion kinase expression",
+        "Intermediate"
+      ],
+      "value": "88 (72.7%)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Invasive lobular"
+    },
+    {
+      "row": [],
+      "col": [
+        "Focal adhesion kinase expression",
+        "Negative"
+      ],
+      "value": "3 (13%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Focal adhesion kinase expression",
+        "Strong"
+      ],
+      "value": "2 (8.7%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Focal adhesion kinase expression",
+        "Intermediate"
+      ],
+      "value": "18 (78.3%)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Mucinous"
+    },
+    {
+      "row": [],
+      "col": [
+        "Focal adhesion kinase expression",
+        "Negative"
+      ],
+      "value": "5 (62.5%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Focal adhesion kinase expression",
+        "Strong"
+      ],
+      "value": "/"
+    },
+    {
+      "row": [],
+      "col": [
+        "Focal adhesion kinase expression",
+        "Intermediate"
+      ],
+      "value": "3 (37.5%)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Tubulo/tubulo-lobular"
+    },
+    {
+      "row": [],
+      "col": [
+        "Focal adhesion kinase expression",
+        "Negative"
+      ],
+      "value": "/"
+    },
+    {
+      "row": [],
+      "col": [
+        "Focal adhesion kinase expression",
+        "Strong"
+      ],
+      "value": "/"
+    },
+    {
+      "row": [],
+      "col": [
+        "Focal adhesion kinase expression",
+        "Intermediate"
+      ],
+      "value": "5 (100%)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Others"
+    },
+    {
+      "row": [],
+      "col": [
+        "Focal adhesion kinase expression",
+        "Negative"
+      ],
+      "value": "/"
+    },
+    {
+      "row": [],
+      "col": [
+        "Focal adhesion kinase expression",
+        "Strong"
+      ],
+      "value": "1 (16.7%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Focal adhesion kinase expression",
+        "Intermediate"
+      ],
+      "value": "5 (88.3%)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Histological grade"
+    },
+    {
+      "row": [],
+      "col": [
+        "P value*"
+      ],
+      "value": "P = 0.038*"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Well differentiated"
+    },
+    {
+      "row": [],
+      "col": [
+        "Focal adhesion kinase expression",
+        "Negative"
+      ],
+      "value": "4 (11.4%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Focal adhesion kinase expression",
+        "Strong"
+      ],
+      "value": "3 (8.6%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Focal adhesion kinase expression",
+        "Intermediate"
+      ],
+      "value": "28 (80%)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Moderately differentiated"
+    },
+    {
+      "row": [],
+      "col": [
+        "Focal adhesion kinase expression",
+        "Negative"
+      ],
+      "value": "6 (7%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Focal adhesion kinase expression",
+        "Strong"
+      ],
+      "value": "13 (15.1%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Focal adhesion kinase expression",
+        "Intermediate"
+      ],
+      "value": "67 (77.9%)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Poorly differentiated"
+    },
+    {
+      "row": [],
+      "col": [
+        "Focal adhesion kinase expression",
+        "Negative"
+      ],
+      "value": "3 (7.3%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Focal adhesion kinase expression",
+        "Strong"
+      ],
+      "value": "14 (34.1%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Focal adhesion kinase expression",
+        "Intermediate"
+      ],
+      "value": "24 (58.5%)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Tumor size"
+    },
+    {
+      "row": [],
+      "col": [
+        "P value*"
+      ],
+      "value": "Not significant"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "pT1(a,b,c)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Focal adhesion kinase expression",
+        "Negative"
+      ],
+      "value": "7 (7.2%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Focal adhesion kinase expression",
+        "Strong"
+      ],
+      "value": "21 (21.6%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Focal adhesion kinase expression",
+        "Intermediate"
+      ],
+      "value": "69 (71.1%)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "pT2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Focal adhesion kinase expression",
+        "Negative"
+      ],
+      "value": "5 (7.9%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Focal adhesion kinase expression",
+        "Strong"
+      ],
+      "value": "9 (14.3%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Focal adhesion kinase expression",
+        "Intermediate"
+      ],
+      "value": "49 (77.8%)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "pT3 and pT4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Focal adhesion kinase expression",
+        "Negative"
+      ],
+      "value": "1 (50%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Focal adhesion kinase expression",
+        "Intermediate"
+      ],
+      "value": "1 (50%)"
+    }
+  ]
+}

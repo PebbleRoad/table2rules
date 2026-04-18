@@ -1,0 +1,453 @@
+<!-- source: PubTabNet imgid=180919 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+<b>
+       Exon
+      </b>
+</td>
+<td>
+<b>
+       Nucleotide change
+      </b>
+</td>
+<td>
+<b>
+       Effect on protein
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Carrier frequency
+      </b>
+</td>
+<td>
+<b>
+<i>
+        P
+       </i>
+</b>
+</td>
+<td>
+<b>
+       Status
+       <sup>
+        a
+       </sup>
+</b>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+<b>
+       Familial cases
+      </b>
+</td>
+<td>
+<b>
+       Controls
+      </b>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      3
+     </td>
+<td>
+      268C&gt;T
+     </td>
+<td>
+      His90Tyr
+     </td>
+<td>
+      12.7% (16/126)
+     </td>
+<td>
+      10.3% (31/300)
+     </td>
+<td>
+      0.50
+     </td>
+<td>
+      Novel
+     </td>
+</tr>
+<tr>
+<td>
+      4
+     </td>
+<td>
+      632T&gt;C
+     </td>
+<td>
+      Met211Thr
+     </td>
+<td>
+      54.0% (68/126)
+     </td>
+<td>
+      47.3% (142/300)
+     </td>
+<td>
+      0.20
+     </td>
+<td>
+      Reported
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      761A&gt;G
+     </td>
+<td>
+      Glu254Gly
+     </td>
+<td>
+      0.8% (1/126)
+     </td>
+<td>
+      - (0/300)
+     </td>
+<td>
+      0.30
+     </td>
+<td>
+      Novel
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      891G&gt;C
+     </td>
+<td>
+      Lys297Asn
+     </td>
+<td>
+      1.6% (2/126)
+     </td>
+<td>
+      2.3% (7/300)
+     </td>
+<td>
+      1.00
+     </td>
+<td>
+      Reported
+     </td>
+</tr>
+<tr>
+<td>
+      8
+     </td>
+<td>
+      1776T&gt;A
+     </td>
+<td>
+      Gly592Gly
+     </td>
+<td>
+      50.8% (64/126)
+     </td>
+<td>
+      41.0% (41/100)
+     </td>
+<td>
+      0.18
+     </td>
+<td>
+      Reported
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      1815T&gt;C
+     </td>
+<td>
+      Asp605Asp
+     </td>
+<td>
+      46.8% (59/126)
+     </td>
+<td>
+      49.0% (49/100)
+     </td>
+<td>
+      0.79
+     </td>
+<td>
+      Reported
+     </td>
+</tr>
+<tr>
+<td>
+      14
+     </td>
+<td>
+      2946C&gt;T
+     </td>
+<td>
+      Phe982Phe
+     </td>
+<td>
+      0.8% (1/126)
+     </td>
+<td>
+      2.0% (6/300)
+     </td>
+<td>
+      0.68
+     </td>
+<td>
+      Novel
+     </td>
+</tr>
+<tr>
+<td>
+      17
+     </td>
+<td>
+      3424A&gt;G
+     </td>
+<td>
+      Ser1142Gly
+     </td>
+<td>
+      1.6% (2/126)
+     </td>
+<td>
+      - (0/300)
+     </td>
+<td>
+      0.09
+     </td>
+<td>
+      Novel
+     </td>
+</tr>
+<tr>
+<td>
+      21
+     </td>
+<td>
+      3893A&gt;T
+     </td>
+<td>
+      Asp1297Val
+     </td>
+<td>
+      0.8% (1/126)
+     </td>
+<td>
+      1.0% (3/300)
+     </td>
+<td>
+      1.00
+     </td>
+<td>
+      Novel
+     </td>
+</tr>
+<tr>
+<td>
+      26
+     </td>
+<td>
+      4576A&gt;G
+     </td>
+<td>
+      Ile1526Val
+     </td>
+<td>
+      4.0% (5/126)
+     </td>
+<td>
+      2.0% (6/300)
+     </td>
+<td>
+      0.31
+     </td>
+<td>
+      Novel
+     </td>
+</tr>
+<tr>
+<td>
+      30
+     </td>
+<td>
+      5208T&gt;C
+     </td>
+<td>
+      Tyr1736Tyr
+     </td>
+<td>
+      23.8% (30/126)
+     </td>
+<td>
+      37.0% (37/100)
+     </td>
+<td>
+      0.03
+     </td>
+<td>
+      Reported
+     </td>
+</tr>
+<tr>
+<td>
+      32
+     </td>
+<td>
+      5459T&gt;C
+     </td>
+<td>
+      Tyr1820Tyr
+     </td>
+<td>
+      26.2% (33/126)
+     </td>
+<td>
+      31.0% (31/100)
+     </td>
+<td>
+      0.43
+     </td>
+<td>
+      Reported
+     </td>
+</tr>
+<tr>
+<td>
+      35
+     </td>
+<td>
+      6023G&gt;T
+     </td>
+<td>
+      Arg2008Leu
+     </td>
+<td>
+      0.8% (1/ 126)
+     </td>
+<td>
+      0.3% (1/300)
+     </td>
+<td>
+      0.51
+     </td>
+<td>
+      Novel
+     </td>
+</tr>
+<tr>
+<td>
+      38
+     </td>
+<td>
+      6394T&gt;G
+     </td>
+<td>
+      Tyr2132Asp
+     </td>
+<td>
+      0.8% (1/126)
+     </td>
+<td>
+      0.3% (1/300)
+     </td>
+<td>
+      0.51
+     </td>
+<td>
+      Novel
+     </td>
+</tr>
+<tr>
+<td>
+      43
+     </td>
+<td>
+      7274G&gt;A
+     </td>
+<td>
+      Arg2425Gln
+     </td>
+<td>
+      27.8% (35/126)
+     </td>
+<td>
+      24.0% (72/300)
+     </td>
+<td>
+      0.46
+     </td>
+<td>
+      Reported
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      7303A&gt;G
+     </td>
+<td>
+      Ile2435Val
+     </td>
+<td>
+      0.8% (1/126)
+     </td>
+<td>
+      0.3% (1/300)
+     </td>
+<td>
+      0.51
+     </td>
+<td>
+      Novel
+     </td>
+</tr>
+<tr>
+<td>
+      47
+     </td>
+<td>
+      7875A&gt;G
+     </td>
+<td>
+      Gln2625Gln
+     </td>
+<td>
+      27.0% (34/126)
+     </td>
+<td>
+      35.0% (35/100)
+     </td>
+<td>
+      0.19
+     </td>
+<td>
+      Reported
+     </td>
+</tr>
+</tbody>
+</table>

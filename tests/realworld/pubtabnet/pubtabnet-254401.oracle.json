@@ -1,0 +1,571 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "---",
+    "1 (0.4)",
+    "10 (1.9)",
+    "10 (3.9)",
+    "11 (4.2)",
+    "12 (4.7)",
+    "124 (25.4)",
+    "130 (25.2)",
+    "14 (5.5)",
+    "149 (58.7)",
+    "164 (62.8)",
+    "17 (6.5)",
+    "17 (6.7)",
+    "18 (6.9)",
+    "19 (7.3)",
+    "19 (7.5)",
+    "21 (8.1)",
+    "21 (8.3)",
+    "254 (100.0)",
+    "26 (10.2)",
+    "261(100.0)",
+    "27 (5.2)",
+    "28 (11.0)",
+    "28 (5.4)",
+    "29 (11.1)",
+    "3 (1.1)",
+    "3 (1.2)",
+    "313 (60.8)",
+    "32 (12.3)",
+    "32 (6.2)",
+    "33 (6.4)",
+    "36 (14.2)",
+    "36 (7.0)",
+    "38 (7.4)",
+    "4 (1.6)",
+    "50 (9.7)",
+    "515(100.0)",
+    "54 (21.2)",
+    "57 (11.1)",
+    "58 (11.3)",
+    "6 (2.3)",
+    "63 (24.8)",
+    "67 (25.7)",
+    "7 (1.4)",
+    "78 (26.8)",
+    "9 (1.7)",
+    "9 (3.4)",
+    "Acute Febrile illnesses",
+    "Acute abdomen conditions",
+    "All forms of tuberculosis",
+    "Cardio-vascular diseases",
+    "Chronic obstructive lung diseases",
+    "Diarrheal diseases",
+    "Females",
+    "HIV/ AIDS",
+    "I. Communicable Diseases",
+    "II. Non-communicable Diseases",
+    "III. Maternal causes",
+    "IV. Injuries",
+    "Liver diseases",
+    "Males",
+    "Meningitis",
+    "Number (%)",
+    "Pneumonia",
+    "Possible cause",
+    "Total",
+    "Undetermined"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Possible cause"
+      ],
+      "value": "I. Communicable Diseases"
+    },
+    {
+      "row": [],
+      "col": [
+        "Females",
+        "Number (%)"
+      ],
+      "value": "149 (58.7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Males",
+        "Number (%)"
+      ],
+      "value": "164 (62.8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "Number (%)"
+      ],
+      "value": "313 (60.8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Possible cause"
+      ],
+      "value": "Acute Febrile illnesses"
+    },
+    {
+      "row": [],
+      "col": [
+        "Females",
+        "Number (%)"
+      ],
+      "value": "63 (24.8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Males",
+        "Number (%)"
+      ],
+      "value": "67 (25.7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "Number (%)"
+      ],
+      "value": "130 (25.2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Possible cause"
+      ],
+      "value": "Diarrheal diseases"
+    },
+    {
+      "row": [],
+      "col": [
+        "Females",
+        "Number (%)"
+      ],
+      "value": "28 (11.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Males",
+        "Number (%)"
+      ],
+      "value": "29 (11.1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "Number (%)"
+      ],
+      "value": "57 (11.1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Possible cause"
+      ],
+      "value": "All forms of tuberculosis"
+    },
+    {
+      "row": [],
+      "col": [
+        "Females",
+        "Number (%)"
+      ],
+      "value": "21 (8.3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Males",
+        "Number (%)"
+      ],
+      "value": "29 (11.1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "Number (%)"
+      ],
+      "value": "50 (9.7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Possible cause"
+      ],
+      "value": "HIV/ AIDS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Females",
+        "Number (%)"
+      ],
+      "value": "19 (7.5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Males",
+        "Number (%)"
+      ],
+      "value": "19 (7.3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "Number (%)"
+      ],
+      "value": "38 (7.4)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Possible cause"
+      ],
+      "value": "Pneumonia"
+    },
+    {
+      "row": [],
+      "col": [
+        "Females",
+        "Number (%)"
+      ],
+      "value": "17 (6.7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Males",
+        "Number (%)"
+      ],
+      "value": "11 (4.2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "Number (%)"
+      ],
+      "value": "28 (5.4)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Possible cause"
+      ],
+      "value": "Meningitis"
+    },
+    {
+      "row": [],
+      "col": [
+        "Females",
+        "Number (%)"
+      ],
+      "value": "1 (0.4)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Males",
+        "Number (%)"
+      ],
+      "value": "9 (3.4)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "Number (%)"
+      ],
+      "value": "10 (1.9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Possible cause"
+      ],
+      "value": "II. Non-communicable Diseases"
+    },
+    {
+      "row": [],
+      "col": [
+        "Females",
+        "Number (%)"
+      ],
+      "value": "54 (21.2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Males",
+        "Number (%)"
+      ],
+      "value": "78 (26.8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "Number (%)"
+      ],
+      "value": "124 (25.4)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Possible cause"
+      ],
+      "value": "Liver diseases"
+    },
+    {
+      "row": [],
+      "col": [
+        "Females",
+        "Number (%)"
+      ],
+      "value": "26 (10.2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Males",
+        "Number (%)"
+      ],
+      "value": "32 (12.3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "Number (%)"
+      ],
+      "value": "58 (11.3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Possible cause"
+      ],
+      "value": "Cardio-vascular diseases"
+    },
+    {
+      "row": [],
+      "col": [
+        "Females",
+        "Number (%)"
+      ],
+      "value": "14 (5.5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Males",
+        "Number (%)"
+      ],
+      "value": "18 (6.9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "Number (%)"
+      ],
+      "value": "32 (6.2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Possible cause"
+      ],
+      "value": "Chronic obstructive lung diseases"
+    },
+    {
+      "row": [],
+      "col": [
+        "Females",
+        "Number (%)"
+      ],
+      "value": "10 (3.9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Males",
+        "Number (%)"
+      ],
+      "value": "17 (6.5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "Number (%)"
+      ],
+      "value": "27 (5.2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Possible cause"
+      ],
+      "value": "Acute abdomen conditions"
+    },
+    {
+      "row": [],
+      "col": [
+        "Females",
+        "Number (%)"
+      ],
+      "value": "4 (1.6)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Males",
+        "Number (%)"
+      ],
+      "value": "3 (1.1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "Number (%)"
+      ],
+      "value": "7 (1.4)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Possible cause"
+      ],
+      "value": "III. Maternal causes"
+    },
+    {
+      "row": [],
+      "col": [
+        "Females",
+        "Number (%)"
+      ],
+      "value": "36 (14.2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Males",
+        "Number (%)"
+      ],
+      "value": "---"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "Number (%)"
+      ],
+      "value": "36 (7.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Possible cause"
+      ],
+      "value": "IV. Injuries"
+    },
+    {
+      "row": [],
+      "col": [
+        "Females",
+        "Number (%)"
+      ],
+      "value": "3 (1.2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Males",
+        "Number (%)"
+      ],
+      "value": "6 (2.3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "Number (%)"
+      ],
+      "value": "9 (1.7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Possible cause"
+      ],
+      "value": "Undetermined"
+    },
+    {
+      "row": [],
+      "col": [
+        "Females",
+        "Number (%)"
+      ],
+      "value": "12 (4.7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Males",
+        "Number (%)"
+      ],
+      "value": "21 (8.1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "Number (%)"
+      ],
+      "value": "33 (6.4)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Possible cause"
+      ],
+      "value": "Total"
+    },
+    {
+      "row": [],
+      "col": [
+        "Females",
+        "Number (%)"
+      ],
+      "value": "254 (100.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Males",
+        "Number (%)"
+      ],
+      "value": "261(100.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "Number (%)"
+      ],
+      "value": "515(100.0)"
+    }
+  ]
+}

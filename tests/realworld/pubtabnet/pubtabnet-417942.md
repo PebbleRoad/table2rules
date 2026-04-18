@@ -1,0 +1,454 @@
+<!-- source: PubTabNet imgid=417942 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+</td>
+<td>
+<b>
+       N
+      </b>
+</td>
+<td colspan="3">
+<b>
+       FRANCE 903
+      </b>
+</td>
+<td colspan="3">
+<b>
+       EUROPE, other 5907
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<b>
+       Item Nr.
+      </b>
+</td>
+<td>
+<b>
+       Psych
+      </b>
+</td>
+<td>
+<b>
+       Somat
+      </b>
+</td>
+<td>
+<b>
+       Sex
+      </b>
+</td>
+<td>
+<b>
+       Psych
+      </b>
+</td>
+<td>
+<b>
+       Somat
+      </b>
+</td>
+<td>
+<b>
+       Sex
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      Burned out
+     </td>
+<td>
+      13
+     </td>
+<td>
+      0.3
+     </td>
+<td>
+<i>
+       0.6
+      </i>
+</td>
+<td>
+</td>
+<td>
+      0.7
+     </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Depressive, more
+     </td>
+<td>
+      11
+     </td>
+<td>
+      0.5
+     </td>
+<td>
+<i>
+       0.6
+      </i>
+</td>
+<td>
+</td>
+<td>
+      0.8
+     </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Irritability, increased
+     </td>
+<td>
+      6
+     </td>
+<td>
+      0.7
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+      0.6
+     </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Anxious, more
+     </td>
+<td>
+      8
+     </td>
+<td>
+      0.6
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+      0.7
+     </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Nervousness, more
+     </td>
+<td>
+      7
+     </td>
+<td>
+      0.7
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+      0.6
+     </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Joint complaints, more
+     </td>
+<td>
+      2
+     </td>
+<td>
+</td>
+<td>
+      0.6
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+      0.7
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Sweating, increased
+     </td>
+<td>
+      3
+     </td>
+<td>
+<i>
+       0.5
+      </i>
+</td>
+<td>
+      0.4
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+      0.5
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Sleep, need for more
+     </td>
+<td>
+      5
+     </td>
+<td>
+</td>
+<td>
+      0.7
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+      0.6
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Well-being, impaired
+     </td>
+<td>
+      1
+     </td>
+<td>
+</td>
+<td>
+      0.7
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+      0.7
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Sleep disturbances, more
+     </td>
+<td>
+      4
+     </td>
+<td>
+</td>
+<td>
+      0.6
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+      0.6
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Muscular weakness
+     </td>
+<td>
+      10
+     </td>
+<td>
+</td>
+<td>
+      0.6
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+      0.6
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Physical exhaustion
+     </td>
+<td>
+      9
+     </td>
+<td>
+</td>
+<td>
+      0.6
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+      0.6
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Sexual potency, impaired
+     </td>
+<td>
+      15
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+      0.8
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+      0.9
+     </td>
+</tr>
+<tr>
+<td>
+      Morning erections, less
+     </td>
+<td>
+      16
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+      0.8
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+      0.9
+     </td>
+</tr>
+<tr>
+<td>
+      Libido, disturbed
+     </td>
+<td>
+      17
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+      0.8
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+      0.8
+     </td>
+</tr>
+<tr>
+<td>
+      Passed peak
+     </td>
+<td>
+      12
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+      0.5
+     </td>
+<td>
+<i>
+       0.5
+      </i>
+</td>
+<td>
+</td>
+<td>
+      0.4
+     </td>
+</tr>
+<tr>
+<td>
+      Decrease of beard growth
+     </td>
+<td>
+      14
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+      0.2
+     </td>
+<td>
+<i>
+       0.4
+      </i>
+</td>
+<td>
+</td>
+<td>
+      0.3
+     </td>
+</tr>
+</tbody>
+</table>

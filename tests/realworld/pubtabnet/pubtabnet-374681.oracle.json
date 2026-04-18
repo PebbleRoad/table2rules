@@ -1,0 +1,294 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "-0.13",
+    "-0.16",
+    "-0.19",
+    "-0.20",
+    "-0.23",
+    "-0.26",
+    "-0.31",
+    "-0.33",
+    "-0.85",
+    "0.02",
+    "0.03",
+    "0.049",
+    "0.07",
+    "Appetite",
+    "Cough",
+    "Dyspnea",
+    "Fatigue",
+    "Global symptom score",
+    "Hemoptysis",
+    "N.S",
+    "N.S.",
+    "Observer scale",
+    "Pain",
+    "Patient scale",
+    "Spearman's rho",
+    "p-value",
+    "p-value *"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Appetite"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient scale",
+        "Spearman's rho"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient scale",
+        "p-value *"
+      ],
+      "value": "N.S"
+    },
+    {
+      "row": [],
+      "col": [
+        "Observer scale",
+        "Spearman's rho"
+      ],
+      "value": "-0.20"
+    },
+    {
+      "row": [],
+      "col": [
+        "Observer scale",
+        "p-value"
+      ],
+      "value": "N.S."
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Fatigue"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient scale",
+        "Spearman's rho"
+      ],
+      "value": "-0.23"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient scale",
+        "p-value *"
+      ],
+      "value": "N.S"
+    },
+    {
+      "row": [],
+      "col": [
+        "Observer scale",
+        "Spearman's rho"
+      ],
+      "value": "-0.19"
+    },
+    {
+      "row": [],
+      "col": [
+        "Observer scale",
+        "p-value"
+      ],
+      "value": "N.S."
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Cough"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient scale",
+        "Spearman's rho"
+      ],
+      "value": "-0.16"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient scale",
+        "p-value *"
+      ],
+      "value": "N.S"
+    },
+    {
+      "row": [],
+      "col": [
+        "Observer scale",
+        "Spearman's rho"
+      ],
+      "value": "-0.33"
+    },
+    {
+      "row": [],
+      "col": [
+        "Observer scale",
+        "p-value"
+      ],
+      "value": "0.03"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Dyspnea"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient scale",
+        "Spearman's rho"
+      ],
+      "value": "0.07"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient scale",
+        "p-value *"
+      ],
+      "value": "N.S"
+    },
+    {
+      "row": [],
+      "col": [
+        "Observer scale",
+        "Spearman's rho"
+      ],
+      "value": "-0.26"
+    },
+    {
+      "row": [],
+      "col": [
+        "Observer scale",
+        "p-value"
+      ],
+      "value": "N.S."
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Pain"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient scale",
+        "Spearman's rho"
+      ],
+      "value": "-0.13"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient scale",
+        "p-value *"
+      ],
+      "value": "N.S"
+    },
+    {
+      "row": [],
+      "col": [
+        "Observer scale",
+        "Spearman's rho"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "Observer scale",
+        "p-value"
+      ],
+      "value": "N.S."
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Hemoptysis"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient scale",
+        "Spearman's rho"
+      ],
+      "value": "-0.85"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient scale",
+        "p-value *"
+      ],
+      "value": "N.S"
+    },
+    {
+      "row": [],
+      "col": [
+        "Observer scale",
+        "Spearman's rho"
+      ],
+      "value": "-0.20"
+    },
+    {
+      "row": [],
+      "col": [
+        "Observer scale",
+        "p-value"
+      ],
+      "value": "N.S."
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Global symptom score"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient scale",
+        "Spearman's rho"
+      ],
+      "value": "-0.23"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient scale",
+        "p-value *"
+      ],
+      "value": "N.S."
+    },
+    {
+      "row": [],
+      "col": [
+        "Observer scale",
+        "Spearman's rho"
+      ],
+      "value": "-0.31"
+    },
+    {
+      "row": [],
+      "col": [
+        "Observer scale",
+        "p-value"
+      ],
+      "value": "0.049"
+    }
+  ]
+}

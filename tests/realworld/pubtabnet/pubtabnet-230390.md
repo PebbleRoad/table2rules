@@ -1,0 +1,256 @@
+<!-- source: PubTabNet imgid=230390 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+<b>
+       Strain
+      </b>
+</td>
+<td>
+<b>
+       Plasmid
+      </b>
+</td>
+<td colspan="5">
+<b>
+       Mutation rates*
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td>
+      Can
+      <sup>
+       r
+      </sup>
+      × 10
+      <sup>
+       -7
+      </sup>
+</td>
+<td>
+      Ade
+      <sup>
+       +
+      </sup>
+      × 10
+      <sup>
+       -8
+      </sup>
+</td>
+<td>
+      Trp
+      <sup>
+       +
+      </sup>
+      × 10
+      <sup>
+       -8
+      </sup>
+</td>
+<td>
+      Ura+ × 10
+      <sup>
+       -8
+      </sup>
+</td>
+<td>
+      His
+      <sup>
+       +
+      </sup>
+      × 10
+      <sup>
+       -8
+      </sup>
+</td>
+</tr>
+<tr>
+<td>
+      wild-type
+     </td>
+<td>
+      vector
+     </td>
+<td>
+      2.5
+     </td>
+<td>
+      24
+     </td>
+<td>
+      4.1
+     </td>
+<td>
+      4.0
+     </td>
+<td>
+      2.4
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td>
+      1.2–6.5
+     </td>
+<td>
+      21–34
+     </td>
+<td>
+      1.3–14
+     </td>
+<td>
+      2.2–6.6
+     </td>
+<td>
+      1.9–2.9
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<i>
+       hAIDSc
+      </i>
+</td>
+<td>
+      19
+     </td>
+<td>
+      72
+     </td>
+<td>
+      24
+     </td>
+<td>
+      4.0
+     </td>
+<td>
+      2.3
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td>
+      14–25
+     </td>
+<td>
+      60–124
+     </td>
+<td>
+      21–38
+     </td>
+<td>
+      2.8–7.8
+     </td>
+<td>
+      1.1–4.2
+     </td>
+</tr>
+<tr>
+<td>
+<i>
+       ung1::hygB
+      </i>
+</td>
+<td>
+      vector
+     </td>
+<td>
+      13
+     </td>
+<td>
+      210
+     </td>
+<td>
+      134
+     </td>
+<td>
+      23
+     </td>
+<td>
+      3.0
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td>
+      10–31
+     </td>
+<td>
+      190–290
+     </td>
+<td>
+      110–170
+     </td>
+<td>
+      20–35
+     </td>
+<td>
+      1.9–4.5
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<i>
+       hAIDSc
+      </i>
+</td>
+<td>
+      205
+     </td>
+<td>
+      9700
+     </td>
+<td>
+      5300
+     </td>
+<td>
+      52
+     </td>
+<td>
+      4.0
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td>
+      170–220
+     </td>
+<td>
+      7500–12600
+     </td>
+<td>
+      4400–6600
+     </td>
+<td>
+      43–77
+     </td>
+<td>
+      2–-7.1
+     </td>
+</tr>
+</tbody>
+</table>

@@ -1,0 +1,466 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0",
+    "1",
+    "14",
+    "15",
+    "17",
+    "18",
+    "2",
+    "3",
+    "4",
+    "5",
+    "Direct sequencing",
+    "Negative",
+    "Positive",
+    "Primerset 11/12",
+    "Primerset 13/14",
+    "Primerset 3/4",
+    "Primerset 5/6",
+    "Primerset 7/8",
+    "Primerset 9/10",
+    "SSCP"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Primerset 3/4"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Primerset 3/4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Direct sequencing",
+        "Positive"
+      ],
+      "value": "Primerset 3/4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Direct sequencing",
+        "Negative"
+      ],
+      "value": "Primerset 3/4"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "SSCP"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Positive"
+    },
+    {
+      "row": [],
+      "col": [
+        "Direct sequencing",
+        "Positive"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Direct sequencing",
+        "Negative"
+      ],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Negative"
+    },
+    {
+      "row": [],
+      "col": [
+        "Direct sequencing",
+        "Positive"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Direct sequencing",
+        "Negative"
+      ],
+      "value": "15"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Primerset 5/6"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Primerset 5/6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Direct sequencing",
+        "Positive"
+      ],
+      "value": "Primerset 5/6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Direct sequencing",
+        "Negative"
+      ],
+      "value": "Primerset 5/6"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "SSCP"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Positive"
+    },
+    {
+      "row": [],
+      "col": [
+        "Direct sequencing",
+        "Positive"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Direct sequencing",
+        "Negative"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Negative"
+    },
+    {
+      "row": [],
+      "col": [
+        "Direct sequencing",
+        "Positive"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Direct sequencing",
+        "Negative"
+      ],
+      "value": "18"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Primerset 7/8"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Primerset 7/8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Direct sequencing",
+        "Positive"
+      ],
+      "value": "Primerset 7/8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Direct sequencing",
+        "Negative"
+      ],
+      "value": "Primerset 7/8"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "SSCP"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Positive"
+    },
+    {
+      "row": [],
+      "col": [
+        "Direct sequencing",
+        "Positive"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Direct sequencing",
+        "Negative"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Negative"
+    },
+    {
+      "row": [],
+      "col": [
+        "Direct sequencing",
+        "Positive"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Direct sequencing",
+        "Negative"
+      ],
+      "value": "14"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Primerset 9/10"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Primerset 9/10"
+    },
+    {
+      "row": [],
+      "col": [
+        "Direct sequencing",
+        "Positive"
+      ],
+      "value": "Primerset 9/10"
+    },
+    {
+      "row": [],
+      "col": [
+        "Direct sequencing",
+        "Negative"
+      ],
+      "value": "Primerset 9/10"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "SSCP"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Positive"
+    },
+    {
+      "row": [],
+      "col": [
+        "Direct sequencing",
+        "Positive"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Direct sequencing",
+        "Negative"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Negative"
+    },
+    {
+      "row": [],
+      "col": [
+        "Direct sequencing",
+        "Positive"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Direct sequencing",
+        "Negative"
+      ],
+      "value": "17"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Primerset 11/12"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Primerset 11/12"
+    },
+    {
+      "row": [],
+      "col": [
+        "Direct sequencing",
+        "Positive"
+      ],
+      "value": "Primerset 11/12"
+    },
+    {
+      "row": [],
+      "col": [
+        "Direct sequencing",
+        "Negative"
+      ],
+      "value": "Primerset 11/12"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "SSCP"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Positive"
+    },
+    {
+      "row": [],
+      "col": [
+        "Direct sequencing",
+        "Positive"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Direct sequencing",
+        "Negative"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Negative"
+    },
+    {
+      "row": [],
+      "col": [
+        "Direct sequencing",
+        "Positive"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Direct sequencing",
+        "Negative"
+      ],
+      "value": "15"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Primerset 13/14"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Primerset 13/14"
+    },
+    {
+      "row": [],
+      "col": [
+        "Direct sequencing",
+        "Positive"
+      ],
+      "value": "Primerset 13/14"
+    },
+    {
+      "row": [],
+      "col": [
+        "Direct sequencing",
+        "Negative"
+      ],
+      "value": "Primerset 13/14"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "SSCP"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Positive"
+    },
+    {
+      "row": [],
+      "col": [
+        "Direct sequencing",
+        "Positive"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Direct sequencing",
+        "Negative"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Negative"
+    },
+    {
+      "row": [],
+      "col": [
+        "Direct sequencing",
+        "Positive"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Direct sequencing",
+        "Negative"
+      ],
+      "value": "18"
+    }
+  ]
+}

@@ -1,0 +1,516 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "-0.11",
+    "-0.19",
+    "-0.22",
+    "-0.24",
+    "-0.31",
+    "-0.39",
+    "-0.44",
+    "-0.46",
+    "-0.54",
+    "-0.79",
+    "0.001",
+    "0.002",
+    "0.007",
+    "0.02",
+    "0.027",
+    "0.029",
+    "0.043",
+    "0.046",
+    "0.057",
+    "0.09",
+    "0.095",
+    "0.15",
+    "0.18",
+    "0.21",
+    "0.33",
+    "0.35",
+    "0.41",
+    "0.44",
+    "0.46",
+    "0.48",
+    "0.53",
+    "0.69",
+    "AA1 biopsy, %pos. area",
+    "Asymptomatic smokers (n = 26)",
+    "CD68 biopsy, % pos. area",
+    "CD68 biopsy, %pos. area",
+    "COPD GOLD I-III (n = 19)",
+    "Cigarettes/day",
+    "EG2 biopsy, % pos. area",
+    "Eosinophils sputum, %",
+    "Eosinophils sputum, 10 6 /ml",
+    "FEV 1 post BD, %pred .",
+    "IL-8 sputum, ng/ml",
+    "Macrophages sputum, %",
+    "NS",
+    "Neutrophils sputum, %",
+    "Pack-years smoking",
+    "p-value",
+    "rho"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Cigarettes/day"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Neutrophils sputum, %"
+    },
+    {
+      "row": [],
+      "col": [
+        "COPD GOLD I-III (n = 19)",
+        "rho"
+      ],
+      "value": "-0.46"
+    },
+    {
+      "row": [],
+      "col": [
+        "COPD GOLD I-III (n = 19)",
+        "p-value"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asymptomatic smokers (n = 26)",
+        "rho"
+      ],
+      "value": "-0.24"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asymptomatic smokers (n = 26)",
+        "p-value"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Macrophages sputum, %"
+    },
+    {
+      "row": [],
+      "col": [
+        "COPD GOLD I-III (n = 19)",
+        "rho"
+      ],
+      "value": "0.44"
+    },
+    {
+      "row": [],
+      "col": [
+        "COPD GOLD I-III (n = 19)",
+        "p-value"
+      ],
+      "value": "0.027"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asymptomatic smokers (n = 26)",
+        "rho"
+      ],
+      "value": "0.35"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asymptomatic smokers (n = 26)",
+        "p-value"
+      ],
+      "value": "0.095"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Eosinophils sputum, %"
+    },
+    {
+      "row": [],
+      "col": [
+        "COPD GOLD I-III (n = 19)",
+        "rho"
+      ],
+      "value": "-0.19"
+    },
+    {
+      "row": [],
+      "col": [
+        "COPD GOLD I-III (n = 19)",
+        "p-value"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asymptomatic smokers (n = 26)",
+        "rho"
+      ],
+      "value": "-0.39"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asymptomatic smokers (n = 26)",
+        "p-value"
+      ],
+      "value": "0.057"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Eosinophils sputum, 10 6 /ml"
+    },
+    {
+      "row": [],
+      "col": [
+        "COPD GOLD I-III (n = 19)",
+        "rho"
+      ],
+      "value": "-0.11"
+    },
+    {
+      "row": [],
+      "col": [
+        "COPD GOLD I-III (n = 19)",
+        "p-value"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asymptomatic smokers (n = 26)",
+        "rho"
+      ],
+      "value": "-0.44"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asymptomatic smokers (n = 26)",
+        "p-value"
+      ],
+      "value": "0.029"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "CD68 biopsy, % pos. area"
+    },
+    {
+      "row": [],
+      "col": [
+        "COPD GOLD I-III (n = 19)",
+        "rho"
+      ],
+      "value": "0.69"
+    },
+    {
+      "row": [],
+      "col": [
+        "COPD GOLD I-III (n = 19)",
+        "p-value"
+      ],
+      "value": "0.002"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asymptomatic smokers (n = 26)",
+        "rho"
+      ],
+      "value": "0.46"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asymptomatic smokers (n = 26)",
+        "p-value"
+      ],
+      "value": "0.029"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "EG2 biopsy, % pos. area"
+    },
+    {
+      "row": [],
+      "col": [
+        "COPD GOLD I-III (n = 19)",
+        "rho"
+      ],
+      "value": "-0.79"
+    },
+    {
+      "row": [],
+      "col": [
+        "COPD GOLD I-III (n = 19)",
+        "p-value"
+      ],
+      "value": "0.001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asymptomatic smokers (n = 26)",
+        "rho"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asymptomatic smokers (n = 26)",
+        "p-value"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Pack-years smoking"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "CD68 biopsy, %pos. area"
+    },
+    {
+      "row": [],
+      "col": [
+        "COPD GOLD I-III (n = 19)",
+        "rho"
+      ],
+      "value": "0.48"
+    },
+    {
+      "row": [],
+      "col": [
+        "COPD GOLD I-III (n = 19)",
+        "p-value"
+      ],
+      "value": "0.043"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asymptomatic smokers (n = 26)",
+        "rho"
+      ],
+      "value": "0.21"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asymptomatic smokers (n = 26)",
+        "p-value"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "FEV 1 post BD, %pred ."
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Neutrophils sputum, %"
+    },
+    {
+      "row": [],
+      "col": [
+        "COPD GOLD I-III (n = 19)",
+        "rho"
+      ],
+      "value": "-0.31"
+    },
+    {
+      "row": [],
+      "col": [
+        "COPD GOLD I-III (n = 19)",
+        "p-value"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asymptomatic smokers (n = 26)",
+        "rho"
+      ],
+      "value": "0.15"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asymptomatic smokers (n = 26)",
+        "p-value"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Macrophages sputum, %"
+    },
+    {
+      "row": [],
+      "col": [
+        "COPD GOLD I-III (n = 19)",
+        "rho"
+      ],
+      "value": "0.41"
+    },
+    {
+      "row": [],
+      "col": [
+        "COPD GOLD I-III (n = 19)",
+        "p-value"
+      ],
+      "value": "0.046"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asymptomatic smokers (n = 26)",
+        "rho"
+      ],
+      "value": "-0.22"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asymptomatic smokers (n = 26)",
+        "p-value"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "IL-8 sputum, ng/ml"
+    },
+    {
+      "row": [],
+      "col": [
+        "COPD GOLD I-III (n = 19)",
+        "rho"
+      ],
+      "value": "-0.54"
+    },
+    {
+      "row": [],
+      "col": [
+        "COPD GOLD I-III (n = 19)",
+        "p-value"
+      ],
+      "value": "0.007"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asymptomatic smokers (n = 26)",
+        "rho"
+      ],
+      "value": "0.15"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asymptomatic smokers (n = 26)",
+        "p-value"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "CD68 biopsy, %pos. area"
+    },
+    {
+      "row": [],
+      "col": [
+        "COPD GOLD I-III (n = 19)",
+        "rho"
+      ],
+      "value": "0.33"
+    },
+    {
+      "row": [],
+      "col": [
+        "COPD GOLD I-III (n = 19)",
+        "p-value"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asymptomatic smokers (n = 26)",
+        "rho"
+      ],
+      "value": "0.18"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asymptomatic smokers (n = 26)",
+        "p-value"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "AA1 biopsy, %pos. area"
+    },
+    {
+      "row": [],
+      "col": [
+        "COPD GOLD I-III (n = 19)",
+        "rho"
+      ],
+      "value": "0.53"
+    },
+    {
+      "row": [],
+      "col": [
+        "COPD GOLD I-III (n = 19)",
+        "p-value"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asymptomatic smokers (n = 26)",
+        "rho"
+      ],
+      "value": "0.09"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asymptomatic smokers (n = 26)",
+        "p-value"
+      ],
+      "value": "NS"
+    }
+  ]
+}

@@ -1,0 +1,615 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0",
+    "0 (0)",
+    "0 < FS < 1",
+    "0 M/15 F",
+    "1 (9)",
+    "1 M/10 F",
+    "1 \u2264 FS < 2",
+    "10 (27)",
+    "11",
+    "12.9 \u00b1 6.4",
+    "13 (86)",
+    "14 (93)",
+    "15",
+    "15 (100)",
+    "17.1 \u00b1 15.1",
+    "18 (31)",
+    "18 (51)",
+    "21.8 \u00b1 9.3",
+    "22.6 \u00b1 12.7",
+    "24 (42)",
+    "25 (67)",
+    "27 (47)",
+    "29 (51)",
+    "3 (20)",
+    "3 (27)",
+    "3 (5)",
+    "3 M/34 F",
+    "30 (53)",
+    "31 (83)",
+    "33 (89)",
+    "34 (91)",
+    "34 (92)",
+    "35 (94)",
+    "37",
+    "4 (36)",
+    "4.7 \u00b1 2.6",
+    "45 (79)",
+    "46 \u00b1 11",
+    "46 \u00b1 12",
+    "49 (86)",
+    "5 (45)",
+    "54 \u00b1 14",
+    "56 \u00b1 13",
+    "57",
+    "6 (40)",
+    "6.1 \u00b1 5.6",
+    "7 (12)",
+    "7 (46)",
+    "7 (63)",
+    "8 (53)",
+    "8 (73)",
+    "8.3 \u00b1 2.8",
+    "8.6 \u00b1 4.3",
+    "9 (60)",
+    "9 (81)",
+    "9M/48F",
+    "Age (years)",
+    "Antinuclear antibodies",
+    "Baseline biopsy area (mm 2 )",
+    "Clinical and laboratory parameters",
+    "Cumulative area of three biopsies (mm 2 )",
+    "Dry eyes",
+    "FS a = 0",
+    "FS \u2265 2",
+    "Findings [No. (%)]",
+    "La/SS-B",
+    "No. of patients",
+    "Positive Schirmer's test",
+    "Reduced salivary flow rate",
+    "Rheumatoid factor",
+    "Ro/SS-A",
+    "SS according to AECG criteria [No. (%)]",
+    "SS according to clinical re-evaluation [No. (%)]",
+    "Sex",
+    "Xerostomia"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Clinical and laboratory parameters"
+      ],
+      "value": "No. of patients"
+    },
+    {
+      "row": [],
+      "col": [
+        "FS a = 0"
+      ],
+      "value": "57"
+    },
+    {
+      "row": [],
+      "col": [
+        "0 < FS < 1"
+      ],
+      "value": "11"
+    },
+    {
+      "row": [],
+      "col": [
+        "1 \u2264 FS < 2"
+      ],
+      "value": "15"
+    },
+    {
+      "row": [],
+      "col": [
+        "FS \u2265 2"
+      ],
+      "value": "37"
+    },
+    {
+      "row": [],
+      "col": [
+        "Clinical and laboratory parameters"
+      ],
+      "value": "Sex"
+    },
+    {
+      "row": [],
+      "col": [
+        "FS a = 0"
+      ],
+      "value": "9M/48F"
+    },
+    {
+      "row": [],
+      "col": [
+        "0 < FS < 1"
+      ],
+      "value": "1 M/10 F"
+    },
+    {
+      "row": [],
+      "col": [
+        "1 \u2264 FS < 2"
+      ],
+      "value": "0 M/15 F"
+    },
+    {
+      "row": [],
+      "col": [
+        "FS \u2265 2"
+      ],
+      "value": "3 M/34 F"
+    },
+    {
+      "row": [],
+      "col": [
+        "Clinical and laboratory parameters"
+      ],
+      "value": "Age (years)"
+    },
+    {
+      "row": [],
+      "col": [
+        "FS a = 0"
+      ],
+      "value": "46 \u00b1 12"
+    },
+    {
+      "row": [],
+      "col": [
+        "0 < FS < 1"
+      ],
+      "value": "46 \u00b1 11"
+    },
+    {
+      "row": [],
+      "col": [
+        "1 \u2264 FS < 2"
+      ],
+      "value": "54 \u00b1 14"
+    },
+    {
+      "row": [],
+      "col": [
+        "FS \u2265 2"
+      ],
+      "value": "56 \u00b1 13"
+    },
+    {
+      "row": [],
+      "col": [
+        "Clinical and laboratory parameters"
+      ],
+      "value": "Baseline biopsy area (mm 2 )"
+    },
+    {
+      "row": [],
+      "col": [
+        "FS a = 0"
+      ],
+      "value": "6.1 \u00b1 5.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "0 < FS < 1"
+      ],
+      "value": "8.3 \u00b1 2.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "1 \u2264 FS < 2"
+      ],
+      "value": "8.6 \u00b1 4.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "FS \u2265 2"
+      ],
+      "value": "4.7 \u00b1 2.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Clinical and laboratory parameters"
+      ],
+      "value": "Cumulative area of three biopsies (mm 2 )"
+    },
+    {
+      "row": [],
+      "col": [
+        "FS a = 0"
+      ],
+      "value": "17.1 \u00b1 15.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "0 < FS < 1"
+      ],
+      "value": "21.8 \u00b1 9.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "1 \u2264 FS < 2"
+      ],
+      "value": "22.6 \u00b1 12.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "FS \u2265 2"
+      ],
+      "value": "12.9 \u00b1 6.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Clinical and laboratory parameters"
+      ],
+      "value": "Findings [No. (%)]"
+    },
+    {
+      "row": [],
+      "col": [
+        "Clinical and laboratory parameters"
+      ],
+      "value": "Dry eyes"
+    },
+    {
+      "row": [],
+      "col": [
+        "FS a = 0"
+      ],
+      "value": "49 (86)"
+    },
+    {
+      "row": [],
+      "col": [
+        "0 < FS < 1"
+      ],
+      "value": "9 (81)"
+    },
+    {
+      "row": [],
+      "col": [
+        "1 \u2264 FS < 2"
+      ],
+      "value": "14 (93)"
+    },
+    {
+      "row": [],
+      "col": [
+        "FS \u2265 2"
+      ],
+      "value": "33 (89)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Clinical and laboratory parameters"
+      ],
+      "value": "Xerostomia"
+    },
+    {
+      "row": [],
+      "col": [
+        "FS a = 0"
+      ],
+      "value": "45 (79)"
+    },
+    {
+      "row": [],
+      "col": [
+        "0 < FS < 1"
+      ],
+      "value": "7 (63)"
+    },
+    {
+      "row": [],
+      "col": [
+        "1 \u2264 FS < 2"
+      ],
+      "value": "14 (93)"
+    },
+    {
+      "row": [],
+      "col": [
+        "FS \u2265 2"
+      ],
+      "value": "35 (94)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Clinical and laboratory parameters"
+      ],
+      "value": "Positive Schirmer's test"
+    },
+    {
+      "row": [],
+      "col": [
+        "FS a = 0"
+      ],
+      "value": "24 (42)"
+    },
+    {
+      "row": [],
+      "col": [
+        "0 < FS < 1"
+      ],
+      "value": "4 (36)"
+    },
+    {
+      "row": [],
+      "col": [
+        "1 \u2264 FS < 2"
+      ],
+      "value": "9 (60)"
+    },
+    {
+      "row": [],
+      "col": [
+        "FS \u2265 2"
+      ],
+      "value": "18 (51)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Clinical and laboratory parameters"
+      ],
+      "value": "Reduced salivary flow rate"
+    },
+    {
+      "row": [],
+      "col": [
+        "FS a = 0"
+      ],
+      "value": "30 (53)"
+    },
+    {
+      "row": [],
+      "col": [
+        "0 < FS < 1"
+      ],
+      "value": "7 (63)"
+    },
+    {
+      "row": [],
+      "col": [
+        "1 \u2264 FS < 2"
+      ],
+      "value": "13 (86)"
+    },
+    {
+      "row": [],
+      "col": [
+        "FS \u2265 2"
+      ],
+      "value": "34 (91)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Clinical and laboratory parameters"
+      ],
+      "value": "Antinuclear antibodies"
+    },
+    {
+      "row": [],
+      "col": [
+        "FS a = 0"
+      ],
+      "value": "29 (51)"
+    },
+    {
+      "row": [],
+      "col": [
+        "0 < FS < 1"
+      ],
+      "value": "8 (73)"
+    },
+    {
+      "row": [],
+      "col": [
+        "1 \u2264 FS < 2"
+      ],
+      "value": "8 (53)"
+    },
+    {
+      "row": [],
+      "col": [
+        "FS \u2265 2"
+      ],
+      "value": "31 (83)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Clinical and laboratory parameters"
+      ],
+      "value": "Ro/SS-A"
+    },
+    {
+      "row": [],
+      "col": [
+        "FS a = 0"
+      ],
+      "value": "18 (31)"
+    },
+    {
+      "row": [],
+      "col": [
+        "0 < FS < 1"
+      ],
+      "value": "3 (27)"
+    },
+    {
+      "row": [],
+      "col": [
+        "1 \u2264 FS < 2"
+      ],
+      "value": "6 (40)"
+    },
+    {
+      "row": [],
+      "col": [
+        "FS \u2265 2"
+      ],
+      "value": "25 (67)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Clinical and laboratory parameters"
+      ],
+      "value": "La/SS-B"
+    },
+    {
+      "row": [],
+      "col": [
+        "FS a = 0"
+      ],
+      "value": "3 (5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "0 < FS < 1"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "1 \u2264 FS < 2"
+      ],
+      "value": "3 (20)"
+    },
+    {
+      "row": [],
+      "col": [
+        "FS \u2265 2"
+      ],
+      "value": "10 (27)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Clinical and laboratory parameters"
+      ],
+      "value": "Rheumatoid factor"
+    },
+    {
+      "row": [],
+      "col": [
+        "FS a = 0"
+      ],
+      "value": "27 (47)"
+    },
+    {
+      "row": [],
+      "col": [
+        "0 < FS < 1"
+      ],
+      "value": "5 (45)"
+    },
+    {
+      "row": [],
+      "col": [
+        "1 \u2264 FS < 2"
+      ],
+      "value": "7 (46)"
+    },
+    {
+      "row": [],
+      "col": [
+        "FS \u2265 2"
+      ],
+      "value": "33 (89)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Clinical and laboratory parameters"
+      ],
+      "value": "SS according to AECG criteria [No. (%)]"
+    },
+    {
+      "row": [],
+      "col": [
+        "FS a = 0"
+      ],
+      "value": "7 (12)"
+    },
+    {
+      "row": [],
+      "col": [
+        "0 < FS < 1"
+      ],
+      "value": "1 (9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "1 \u2264 FS < 2"
+      ],
+      "value": "15 (100)"
+    },
+    {
+      "row": [],
+      "col": [
+        "FS \u2265 2"
+      ],
+      "value": "34 (92)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Clinical and laboratory parameters"
+      ],
+      "value": "SS according to clinical re-evaluation [No. (%)]"
+    },
+    {
+      "row": [],
+      "col": [
+        "FS a = 0"
+      ],
+      "value": "7 (12)"
+    },
+    {
+      "row": [],
+      "col": [
+        "0 < FS < 1"
+      ],
+      "value": "0 (0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "1 \u2264 FS < 2"
+      ],
+      "value": "8 (53)"
+    },
+    {
+      "row": [],
+      "col": [
+        "FS \u2265 2"
+      ],
+      "value": "34 (92)"
+    }
+  ]
+}

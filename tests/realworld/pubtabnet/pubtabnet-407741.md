@@ -1,0 +1,491 @@
+<!-- source: PubTabNet imgid=407741 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+</td>
+<td colspan="2">
+<b>
+       1998
+      </b>
+</td>
+<td colspan="2">
+<b>
+       1999
+      </b>
+</td>
+<td colspan="2">
+<b>
+       2000
+      </b>
+</td>
+<td colspan="2">
+<b>
+       2001
+      </b>
+</td>
+<td colspan="2">
+<b>
+       2002
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<b>
+       BO
+      </b>
+</td>
+<td>
+<b>
+       ER
+      </b>
+</td>
+<td>
+<b>
+       BO
+      </b>
+</td>
+<td>
+<b>
+       ER
+      </b>
+</td>
+<td>
+<b>
+       BO
+      </b>
+</td>
+<td>
+<b>
+       ER
+      </b>
+</td>
+<td>
+<b>
+       BO
+      </b>
+</td>
+<td>
+<b>
+       ER
+      </b>
+</td>
+<td>
+<b>
+       BO
+      </b>
+</td>
+<td>
+<b>
+       ER
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<b>
+       %
+      </b>
+</td>
+<td>
+<b>
+       %
+      </b>
+</td>
+<td>
+<b>
+       %
+      </b>
+</td>
+<td>
+<b>
+       %
+      </b>
+</td>
+<td>
+<b>
+       %
+      </b>
+</td>
+<td>
+<b>
+       %
+      </b>
+</td>
+<td>
+<b>
+       %
+      </b>
+</td>
+<td>
+<b>
+       %
+      </b>
+</td>
+<td>
+<b>
+       %
+      </b>
+</td>
+<td>
+<b>
+       %
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      24 months
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      vaccine against
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      pertussis
+     </td>
+<td>
+      95.7
+     </td>
+<td>
+      96.8
+     </td>
+<td>
+      94.2
+     </td>
+<td>
+      96.1
+     </td>
+<td>
+      95.1
+     </td>
+<td>
+      96.7
+     </td>
+<td>
+      94.9
+     </td>
+<td>
+      96.8
+     </td>
+<td>
+      94.8
+     </td>
+<td>
+      96.8
+     </td>
+</tr>
+<tr>
+<td>
+<i>
+       H. influenzae
+      </i>
+</td>
+<td>
+      41.8
+     </td>
+<td>
+      50.6
+     </td>
+<td>
+      45.0
+     </td>
+<td>
+      66.8
+     </td>
+<td>
+      65.9
+     </td>
+<td>
+      81.0
+     </td>
+<td>
+      86.9
+     </td>
+<td>
+      90.6
+     </td>
+<td>
+      93.3
+     </td>
+<td>
+      95.2
+     </td>
+</tr>
+<tr>
+<td>
+      measles
+     </td>
+<td>
+      79.3
+     </td>
+<td>
+      88.2
+     </td>
+<td>
+      82.4
+     </td>
+<td>
+      89.1
+     </td>
+<td>
+      83.5
+     </td>
+<td>
+      90.4
+     </td>
+<td>
+      86.4
+     </td>
+<td>
+      90.7
+     </td>
+<td>
+      90.2
+     </td>
+<td>
+      92.3
+     </td>
+</tr>
+<tr>
+<td>
+      mumps
+     </td>
+<td>
+      -
+     </td>
+<td>
+      -
+     </td>
+<td>
+      78.8
+     </td>
+<td>
+      84.2
+     </td>
+<td>
+      83.3
+     </td>
+<td>
+      89.4
+     </td>
+<td>
+      85.1
+     </td>
+<td>
+      90.1
+     </td>
+<td>
+      88.8
+     </td>
+<td>
+      91.7
+     </td>
+</tr>
+<tr>
+<td>
+      rubella
+     </td>
+<td>
+      77.2*
+     </td>
+<td>
+      85.2*
+     </td>
+<td>
+      78.6
+     </td>
+<td>
+      88.0
+     </td>
+<td>
+      83.4
+     </td>
+<td>
+      89.4
+     </td>
+<td>
+      85.6
+     </td>
+<td>
+      90.1
+     </td>
+<td>
+      88.8
+     </td>
+<td>
+      91.7
+     </td>
+</tr>
+<tr>
+<td>
+      13 years
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      vaccine against
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      measles
+     </td>
+<td>
+      75.1
+     </td>
+<td>
+      83.8
+     </td>
+<td>
+      72.5
+     </td>
+<td>
+      89.1
+     </td>
+<td>
+      85.8
+     </td>
+<td>
+      84.9
+     </td>
+<td>
+      90.1
+     </td>
+<td>
+      87.4
+     </td>
+<td>
+      92.6
+     </td>
+<td>
+      91.3
+     </td>
+</tr>
+<tr>
+<td>
+      rubella
+     </td>
+<td>
+      84.7*
+     </td>
+<td>
+      85.2*
+     </td>
+<td>
+      49.9
+     </td>
+<td>
+      60.8
+     </td>
+<td>
+      72.6
+     </td>
+<td>
+      66.3
+     </td>
+<td>
+      76.1
+     </td>
+<td>
+      73.4
+     </td>
+<td>
+      84.2
+     </td>
+<td>
+      80.6
+     </td>
+</tr>
+</tbody>
+</table>

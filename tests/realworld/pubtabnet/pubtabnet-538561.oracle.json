@@ -1,0 +1,539 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0.009",
+    "0.03",
+    "0.17",
+    "0.19",
+    "0.5 (0.0\u20131.3)",
+    "0.8 \u00b1 0.7",
+    "0.9 \u00b1 0.6",
+    "1.0 (0.5\u20131.5)",
+    "1/6 (17%)",
+    "148.0 \u00b1 95.1",
+    "1504 \u00b1 1550",
+    "2.4 \u00b1 1.4",
+    "2/8 (25%)",
+    "20.3 (16.0\u201326.7)",
+    "215.7 \u00b1 116.7",
+    "22.4 \u00b1 6.1",
+    "26.5 \u00b1 7.7",
+    "27.0 \u00b1 6.7",
+    "28-Day mortality ( n [%])",
+    "28.7 \u00b1 9.3",
+    "3.2 \u00b1 0.5",
+    "3.5 (2.5\u20134.0)",
+    "3/5 (60%)",
+    "369.7 \u00b1 140.8",
+    "4.0 (2.5\u20134.0)",
+    "4/10 (40%)",
+    "4/8 (50%)",
+    "4703 \u00b1 3310",
+    "4758 \u00b1 3240",
+    "5/5 (100%)",
+    "6.5 (4.8\u20138.8)",
+    "6004 \u00b1 6064",
+    "614.2 \u00b1 197.9",
+    "681.7 \u00b1 81.6",
+    "7.0 (5.0\u20138.0)",
+    "7/10 (70%)",
+    "714.7 \u00b1 149.7",
+    "750.3 \u00b1 142.7",
+    "9.5 (7.1\u201315.4)",
+    "96.7 \u00b1 21.7",
+    "APACHE II score",
+    "ARDS",
+    "CXR score",
+    "Chronic alcohol abuse ( n = 8)",
+    "EVLW (ml/kg)",
+    "Fluid balance (prior 24 hours; ml)",
+    "GEDV index (ml/m 2 )",
+    "LIS",
+    "NS",
+    "Non-ARDS",
+    "Nonalcoholic ( n = 6)",
+    "P",
+    "PaO 2 /FiO 2 index (mmHg)",
+    "Source ( n [% pulmonary])"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "EVLW (ml/kg)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-ARDS",
+        "Chronic alcohol abuse ( n = 8)"
+      ],
+      "value": "7.0 (5.0\u20138.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-ARDS",
+        "Nonalcoholic ( n = 6)"
+      ],
+      "value": "6.5 (4.8\u20138.8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-ARDS",
+        "P"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "ARDS",
+        "Chronic alcohol abuse ( n = 8)"
+      ],
+      "value": "20.3 (16.0\u201326.7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "ARDS",
+        "Nonalcoholic ( n = 6)"
+      ],
+      "value": "9.5 (7.1\u201315.4)"
+    },
+    {
+      "row": [],
+      "col": [
+        "ARDS",
+        "P"
+      ],
+      "value": "0.009"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Source ( n [% pulmonary])"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-ARDS",
+        "Chronic alcohol abuse ( n = 8)"
+      ],
+      "value": "2/8 (25%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-ARDS",
+        "Nonalcoholic ( n = 6)"
+      ],
+      "value": "1/6 (17%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-ARDS",
+        "P"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "ARDS",
+        "Chronic alcohol abuse ( n = 8)"
+      ],
+      "value": "5/5 (100%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "ARDS",
+        "Nonalcoholic ( n = 6)"
+      ],
+      "value": "7/10 (70%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "ARDS",
+        "P"
+      ],
+      "value": "0.17"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "APACHE II score"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-ARDS",
+        "Chronic alcohol abuse ( n = 8)"
+      ],
+      "value": "28.7 \u00b1 9.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-ARDS",
+        "Nonalcoholic ( n = 6)"
+      ],
+      "value": "26.5 \u00b1 7.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-ARDS",
+        "P"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "ARDS",
+        "Chronic alcohol abuse ( n = 8)"
+      ],
+      "value": "27.0 \u00b1 6.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "ARDS",
+        "Nonalcoholic ( n = 6)"
+      ],
+      "value": "22.4 \u00b1 6.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "ARDS",
+        "P"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "PaO 2 /FiO 2 index (mmHg)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-ARDS",
+        "Chronic alcohol abuse ( n = 8)"
+      ],
+      "value": "369.7 \u00b1 140.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-ARDS",
+        "Nonalcoholic ( n = 6)"
+      ],
+      "value": "215.7 \u00b1 116.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-ARDS",
+        "P"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "ARDS",
+        "Chronic alcohol abuse ( n = 8)"
+      ],
+      "value": "96.7 \u00b1 21.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "ARDS",
+        "Nonalcoholic ( n = 6)"
+      ],
+      "value": "148.0 \u00b1 95.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "ARDS",
+        "P"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "LIS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-ARDS",
+        "Chronic alcohol abuse ( n = 8)"
+      ],
+      "value": "0.9 \u00b1 0.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-ARDS",
+        "Nonalcoholic ( n = 6)"
+      ],
+      "value": "0.8 \u00b1 0.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-ARDS",
+        "P"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "ARDS",
+        "Chronic alcohol abuse ( n = 8)"
+      ],
+      "value": "3.2 \u00b1 0.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "ARDS",
+        "Nonalcoholic ( n = 6)"
+      ],
+      "value": "2.4 \u00b1 1.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "ARDS",
+        "P"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "CXR score"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-ARDS",
+        "Chronic alcohol abuse ( n = 8)"
+      ],
+      "value": "0.5 (0.0\u20131.3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-ARDS",
+        "Nonalcoholic ( n = 6)"
+      ],
+      "value": "1.0 (0.5\u20131.5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-ARDS",
+        "P"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "ARDS",
+        "Chronic alcohol abuse ( n = 8)"
+      ],
+      "value": "4.0 (2.5\u20134.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "ARDS",
+        "Nonalcoholic ( n = 6)"
+      ],
+      "value": "3.5 (2.5\u20134.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "ARDS",
+        "P"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "GEDV index (ml/m 2 )"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-ARDS",
+        "Chronic alcohol abuse ( n = 8)"
+      ],
+      "value": "750.3 \u00b1 142.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-ARDS",
+        "Nonalcoholic ( n = 6)"
+      ],
+      "value": "681.7 \u00b1 81.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-ARDS",
+        "P"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "ARDS",
+        "Chronic alcohol abuse ( n = 8)"
+      ],
+      "value": "714.7 \u00b1 149.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "ARDS",
+        "Nonalcoholic ( n = 6)"
+      ],
+      "value": "614.2 \u00b1 197.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "ARDS",
+        "P"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Fluid balance (prior 24 hours; ml)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-ARDS",
+        "Chronic alcohol abuse ( n = 8)"
+      ],
+      "value": "4703 \u00b1 3310"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-ARDS",
+        "Nonalcoholic ( n = 6)"
+      ],
+      "value": "6004 \u00b1 6064"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-ARDS",
+        "P"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "ARDS",
+        "Chronic alcohol abuse ( n = 8)"
+      ],
+      "value": "4758 \u00b1 3240"
+    },
+    {
+      "row": [],
+      "col": [
+        "ARDS",
+        "Nonalcoholic ( n = 6)"
+      ],
+      "value": "1504 \u00b1 1550"
+    },
+    {
+      "row": [],
+      "col": [
+        "ARDS",
+        "P"
+      ],
+      "value": "0.03"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "28-Day mortality ( n [%])"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-ARDS",
+        "Chronic alcohol abuse ( n = 8)"
+      ],
+      "value": "4/8 (50%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-ARDS",
+        "Nonalcoholic ( n = 6)"
+      ],
+      "value": "1/6 (17%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-ARDS",
+        "P"
+      ],
+      "value": "0.19"
+    },
+    {
+      "row": [],
+      "col": [
+        "ARDS",
+        "Chronic alcohol abuse ( n = 8)"
+      ],
+      "value": "3/5 (60%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "ARDS",
+        "Nonalcoholic ( n = 6)"
+      ],
+      "value": "4/10 (40%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "ARDS",
+        "P"
+      ],
+      "value": "NS"
+    }
+  ]
+}

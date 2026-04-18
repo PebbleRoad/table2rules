@@ -1,0 +1,325 @@
+<!-- source: PubTabNet imgid=1312 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+<b>
+       Patient
+      </b>
+</td>
+<td colspan="3">
+<b>
+       Before anti-TNF alpha treatment
+      </b>
+</td>
+<td>
+</td>
+<td colspan="3">
+<b>
+       During onset of symptoms
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<b>
+       Disease
+      </b>
+</td>
+<td>
+<b>
+       Autoantibody
+      </b>
+</td>
+<td>
+<b>
+       Clinical signs of lupus
+      </b>
+</td>
+<td>
+<b>
+       Treatment
+      </b>
+</td>
+<td>
+<b>
+       Duration of treatment (months)
+      </b>
+</td>
+<td>
+<b>
+       Clinical signs of lupus
+      </b>
+</td>
+<td>
+<b>
+       Biological signs of lupus
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      1
+     </td>
+<td>
+      RA, erosive
+     </td>
+<td>
+      RF+
+     </td>
+<td>
+      None
+     </td>
+<td>
+      ETA
+     </td>
+<td>
+      36
+     </td>
+<td>
+      Skin
+     </td>
+<td>
+      ANA+, dsDNA+
+     </td>
+</tr>
+<tr>
+<td>
+      2
+     </td>
+<td>
+      RA, erosive
+     </td>
+<td>
+      RF+
+     </td>
+<td>
+      None
+     </td>
+<td>
+      INF
+     </td>
+<td>
+      6
+     </td>
+<td>
+      Skin
+     </td>
+<td>
+      ANA+, dsDNA+
+     </td>
+</tr>
+<tr>
+<td>
+      3
+     </td>
+<td>
+      RA, erosive
+     </td>
+<td>
+      RF+, ANA+ 1:160°
+     </td>
+<td>
+      None
+     </td>
+<td>
+      INF
+     </td>
+<td>
+      18
+     </td>
+<td>
+      Skin
+     </td>
+<td>
+      ANA+, dsDNA+
+     </td>
+</tr>
+<tr>
+<td>
+      4
+     </td>
+<td>
+      RA, erosive
+     </td>
+<td>
+      RF-
+     </td>
+<td>
+      None
+     </td>
+<td>
+      ETA
+     </td>
+<td>
+      5
+     </td>
+<td>
+      Skin
+     </td>
+<td>
+      ANA+, dsDNA+
+     </td>
+</tr>
+<tr>
+<td>
+      5
+     </td>
+<td>
+      RA, erosive
+     </td>
+<td>
+      RF+
+     </td>
+<td>
+      None
+     </td>
+<td>
+      INF
+     </td>
+<td>
+      7
+     </td>
+<td>
+      Skin
+     </td>
+<td>
+      ANA+, dsDNA+
+     </td>
+</tr>
+<tr>
+<td>
+      6
+     </td>
+<td>
+      RA erosive
+     </td>
+<td>
+      RF+
+     </td>
+<td>
+      None
+     </td>
+<td>
+      ETA
+     </td>
+<td>
+      5
+     </td>
+<td>
+      Skin
+     </td>
+<td>
+      ANA+, dsDNA+
+     </td>
+</tr>
+<tr>
+<td>
+      7
+     </td>
+<td>
+      RA, erosive
+     </td>
+<td>
+      RF+
+     </td>
+<td>
+      None
+     </td>
+<td>
+      INF
+     </td>
+<td>
+      11
+     </td>
+<td>
+      Skin
+     </td>
+<td>
+      ANA+, dsDNA+
+     </td>
+</tr>
+<tr>
+<td>
+      8
+     </td>
+<td>
+      RA, erosive
+     </td>
+<td>
+      RF+
+     </td>
+<td>
+      None
+     </td>
+<td>
+      INF
+     </td>
+<td>
+      3
+     </td>
+<td>
+      Skin
+     </td>
+<td>
+      ANA+, dsDNA+
+     </td>
+</tr>
+<tr>
+<td>
+      9
+     </td>
+<td>
+      RA, erosive
+     </td>
+<td>
+      RF+
+     </td>
+<td>
+      None
+     </td>
+<td>
+      ETA
+     </td>
+<td>
+      12
+     </td>
+<td>
+      Skin
+     </td>
+<td>
+      ANA+, dsDNA+
+     </td>
+</tr>
+<tr>
+<td>
+      10
+     </td>
+<td>
+      RA, erosive
+     </td>
+<td>
+      RF+
+     </td>
+<td>
+      None
+     </td>
+<td>
+      INF
+     </td>
+<td>
+      13
+     </td>
+<td>
+      Skin
+     </td>
+<td>
+      ANA+, dsDNA+
+     </td>
+</tr>
+</tbody>
+</table>

@@ -1,0 +1,181 @@
+<!-- source: PubTabNet imgid=38355 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+</td>
+<td colspan="2">
+<b>
+       Number
+      </b>
+</td>
+<td colspan="2">
+<b>
+       % PPH
+      </b>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<b>
+       Diagnose
+      </b>
+</td>
+<td>
+<b>
+       Yes
+      </b>
+</td>
+<td>
+<b>
+       No
+      </b>
+</td>
+<td>
+<b>
+       Yes
+      </b>
+</td>
+<td>
+<b>
+       No
+      </b>
+</td>
+<td>
+<b>
+       P-value
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      Depressive disorders
+     </td>
+<td>
+      216
+     </td>
+<td>
+      249
+     </td>
+<td>
+      73.8
+     </td>
+<td>
+      34.6
+     </td>
+<td>
+<b>
+       &lt;0.0001
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+      Anxiety
+     </td>
+<td>
+      216
+     </td>
+<td>
+      380
+     </td>
+<td>
+      76.5
+     </td>
+<td>
+      39.7
+     </td>
+<td>
+<b>
+       &lt;0.0001
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+      Compulsive disorders
+     </td>
+<td>
+      23
+     </td>
+<td>
+      441
+     </td>
+<td>
+      76.5
+     </td>
+<td>
+      44.4
+     </td>
+<td>
+<b>
+       0.0001
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+      Social phobia
+     </td>
+<td>
+      10
+     </td>
+<td>
+      455
+     </td>
+<td>
+      60.0
+     </td>
+<td>
+      46.2
+     </td>
+<td>
+      NS
+     </td>
+</tr>
+<tr>
+<td>
+      Probable alcohol abuse/dependent
+     </td>
+<td>
+      32
+     </td>
+<td>
+      433
+     </td>
+<td>
+      46.9
+     </td>
+<td>
+      46.4
+     </td>
+<td>
+      NS
+     </td>
+</tr>
+<tr>
+<td>
+      Eating disorders
+     </td>
+<td>
+      11
+     </td>
+<td>
+      454
+     </td>
+<td>
+      54.5
+     </td>
+<td>
+      46.3
+     </td>
+<td>
+      NS
+     </td>
+</tr>
+</tbody>
+</table>

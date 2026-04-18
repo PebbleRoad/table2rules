@@ -1,0 +1,218 @@
+<!-- source: PubTabNet imgid=327973 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+<b>
+       structure
+      </b>
+</td>
+<td colspan="2">
+<b>
+       trans Pro
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Cis Pro
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<b>
+       absolute
+      </b>
+</td>
+<td>
+<b>
+       relative(%)
+      </b>
+</td>
+<td>
+<b>
+       absolute
+      </b>
+</td>
+<td>
+<b>
+       relative(%)
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      ccccc
+     </td>
+<td>
+      1311
+     </td>
+<td>
+      9.1118
+     </td>
+<td>
+      23
+     </td>
+<td>
+      1.6547
+     </td>
+</tr>
+<tr>
+<td>
+      cchhh
+     </td>
+<td>
+      524
+     </td>
+<td>
+      3.6419
+     </td>
+<td>
+      0
+     </td>
+<td>
+      0
+     </td>
+</tr>
+<tr>
+<td>
+      hhhhh
+     </td>
+<td>
+      398
+     </td>
+<td>
+      2.7662
+     </td>
+<td>
+      0
+     </td>
+<td>
+      0
+     </td>
+</tr>
+<tr>
+<td>
+      tthhh
+     </td>
+<td>
+      291
+     </td>
+<td>
+      2.0225
+     </td>
+<td>
+      0
+     </td>
+<td>
+      0
+     </td>
+</tr>
+<tr>
+<td>
+      ccttc
+     </td>
+<td>
+      251
+     </td>
+<td>
+      1.7445
+     </td>
+<td>
+      1
+     </td>
+<td>
+      0.0719
+     </td>
+</tr>
+<tr>
+<td>
+      cccss
+     </td>
+<td>
+      241
+     </td>
+<td>
+      1.675
+     </td>
+<td>
+      9
+     </td>
+<td>
+      0.6475
+     </td>
+</tr>
+<tr>
+<td>
+      bbccc
+     </td>
+<td>
+      221
+     </td>
+<td>
+      1.536
+     </td>
+<td>
+      5
+     </td>
+<td>
+      0.3597
+     </td>
+</tr>
+<tr>
+<td>
+      hthhh
+     </td>
+<td>
+      218
+     </td>
+<td>
+      1.5152
+     </td>
+<td>
+      0
+     </td>
+<td>
+      0
+     </td>
+</tr>
+<tr>
+<td>
+      ccchh
+     </td>
+<td>
+      213
+     </td>
+<td>
+      1.4804
+     </td>
+<td>
+      3
+     </td>
+<td>
+      0.2158
+     </td>
+</tr>
+<tr>
+<td>
+      ccttt
+     </td>
+<td>
+      210
+     </td>
+<td>
+      1.4595
+     </td>
+<td>
+      2
+     </td>
+<td>
+      0.1439
+     </td>
+</tr>
+</tbody>
+</table>

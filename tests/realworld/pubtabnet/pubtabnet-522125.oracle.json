@@ -1,0 +1,759 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "+",
+    "++",
+    "+++",
+    "++++",
+    "+++++",
+    "-",
+    "30\u00b0C",
+    "37\u00b0C",
+    "Galactose",
+    "Glucose",
+    "RT",
+    "Raffinose",
+    "Sucrose",
+    "YL03-47",
+    "YL09-01",
+    "YL10-01",
+    "YL10-02",
+    "YL10-03",
+    "YPH499"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "YPH499"
+    },
+    {
+      "row": [],
+      "col": [
+        "Glucose",
+        "RT"
+      ],
+      "value": "+++++"
+    },
+    {
+      "row": [],
+      "col": [
+        "Glucose",
+        "30\u00b0C"
+      ],
+      "value": "++++"
+    },
+    {
+      "row": [],
+      "col": [
+        "Glucose",
+        "37\u00b0C"
+      ],
+      "value": "+++++"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sucrose",
+        "RT"
+      ],
+      "value": "++++"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sucrose",
+        "30\u00b0C"
+      ],
+      "value": "+++++"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sucrose",
+        "37\u00b0C"
+      ],
+      "value": "+++++"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "YL09-01"
+    },
+    {
+      "row": [],
+      "col": [
+        "Glucose",
+        "RT"
+      ],
+      "value": "+++++"
+    },
+    {
+      "row": [],
+      "col": [
+        "Glucose",
+        "30\u00b0C"
+      ],
+      "value": "++++"
+    },
+    {
+      "row": [],
+      "col": [
+        "Glucose",
+        "37\u00b0C"
+      ],
+      "value": "+++++"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sucrose",
+        "RT"
+      ],
+      "value": "++++"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sucrose",
+        "30\u00b0C"
+      ],
+      "value": "+++++"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sucrose",
+        "37\u00b0C"
+      ],
+      "value": "+++++"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "YL10-01"
+    },
+    {
+      "row": [],
+      "col": [
+        "Glucose",
+        "RT"
+      ],
+      "value": "+++++"
+    },
+    {
+      "row": [],
+      "col": [
+        "Glucose",
+        "30\u00b0C"
+      ],
+      "value": "+++"
+    },
+    {
+      "row": [],
+      "col": [
+        "Glucose",
+        "37\u00b0C"
+      ],
+      "value": "+++"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sucrose",
+        "RT"
+      ],
+      "value": "++"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sucrose",
+        "30\u00b0C"
+      ],
+      "value": "++++"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sucrose",
+        "37\u00b0C"
+      ],
+      "value": "++"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "YL10-02"
+    },
+    {
+      "row": [],
+      "col": [
+        "Glucose",
+        "RT"
+      ],
+      "value": "+++++"
+    },
+    {
+      "row": [],
+      "col": [
+        "Glucose",
+        "30\u00b0C"
+      ],
+      "value": "+++"
+    },
+    {
+      "row": [],
+      "col": [
+        "Glucose",
+        "37\u00b0C"
+      ],
+      "value": "+++"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sucrose",
+        "RT"
+      ],
+      "value": "++"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sucrose",
+        "30\u00b0C"
+      ],
+      "value": "++++"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sucrose",
+        "37\u00b0C"
+      ],
+      "value": "++"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "YL10-03"
+    },
+    {
+      "row": [],
+      "col": [
+        "Glucose",
+        "RT"
+      ],
+      "value": "+++++"
+    },
+    {
+      "row": [],
+      "col": [
+        "Glucose",
+        "30\u00b0C"
+      ],
+      "value": "++++"
+    },
+    {
+      "row": [],
+      "col": [
+        "Glucose",
+        "37\u00b0C"
+      ],
+      "value": "+++++"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sucrose",
+        "RT"
+      ],
+      "value": "++++"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sucrose",
+        "30\u00b0C"
+      ],
+      "value": "+++++"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sucrose",
+        "37\u00b0C"
+      ],
+      "value": "+++++"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "YL03-47"
+    },
+    {
+      "row": [],
+      "col": [
+        "Glucose",
+        "RT"
+      ],
+      "value": "+++++"
+    },
+    {
+      "row": [],
+      "col": [
+        "Glucose",
+        "30\u00b0C"
+      ],
+      "value": "++++"
+    },
+    {
+      "row": [],
+      "col": [
+        "Glucose",
+        "37\u00b0C"
+      ],
+      "value": "+++++"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sucrose",
+        "RT"
+      ],
+      "value": "++++"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sucrose",
+        "30\u00b0C"
+      ],
+      "value": "+++++"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sucrose",
+        "37\u00b0C"
+      ],
+      "value": "+++++"
+    },
+    {
+      "row": [],
+      "col": [
+        "Glucose",
+        "RT"
+      ],
+      "value": "Raffinose"
+    },
+    {
+      "row": [],
+      "col": [
+        "Glucose",
+        "30\u00b0C"
+      ],
+      "value": "Raffinose"
+    },
+    {
+      "row": [],
+      "col": [
+        "Glucose",
+        "37\u00b0C"
+      ],
+      "value": "Raffinose"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sucrose",
+        "RT"
+      ],
+      "value": "Galactose"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sucrose",
+        "30\u00b0C"
+      ],
+      "value": "Galactose"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sucrose",
+        "37\u00b0C"
+      ],
+      "value": "Galactose"
+    },
+    {
+      "row": [],
+      "col": [
+        "Glucose",
+        "RT"
+      ],
+      "value": "RT"
+    },
+    {
+      "row": [],
+      "col": [
+        "Glucose",
+        "30\u00b0C"
+      ],
+      "value": "30\u00b0C"
+    },
+    {
+      "row": [],
+      "col": [
+        "Glucose",
+        "37\u00b0C"
+      ],
+      "value": "37\u00b0C"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sucrose",
+        "RT"
+      ],
+      "value": "RT"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sucrose",
+        "30\u00b0C"
+      ],
+      "value": "30\u00b0C"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sucrose",
+        "37\u00b0C"
+      ],
+      "value": "37\u00b0C"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "YPH499"
+    },
+    {
+      "row": [],
+      "col": [
+        "Glucose",
+        "RT"
+      ],
+      "value": "+++"
+    },
+    {
+      "row": [],
+      "col": [
+        "Glucose",
+        "30\u00b0C"
+      ],
+      "value": "+++++"
+    },
+    {
+      "row": [],
+      "col": [
+        "Glucose",
+        "37\u00b0C"
+      ],
+      "value": "+++"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sucrose",
+        "RT"
+      ],
+      "value": "++"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sucrose",
+        "30\u00b0C"
+      ],
+      "value": "+++++"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sucrose",
+        "37\u00b0C"
+      ],
+      "value": "++"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "YL09-01"
+    },
+    {
+      "row": [],
+      "col": [
+        "Glucose",
+        "RT"
+      ],
+      "value": "+++"
+    },
+    {
+      "row": [],
+      "col": [
+        "Glucose",
+        "30\u00b0C"
+      ],
+      "value": "+++++"
+    },
+    {
+      "row": [],
+      "col": [
+        "Glucose",
+        "37\u00b0C"
+      ],
+      "value": "+++"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sucrose",
+        "RT"
+      ],
+      "value": "++"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sucrose",
+        "30\u00b0C"
+      ],
+      "value": "+++++"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sucrose",
+        "37\u00b0C"
+      ],
+      "value": "++"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "YL10-01"
+    },
+    {
+      "row": [],
+      "col": [
+        "Glucose",
+        "RT"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Glucose",
+        "30\u00b0C"
+      ],
+      "value": "++"
+    },
+    {
+      "row": [],
+      "col": [
+        "Glucose",
+        "37\u00b0C"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sucrose",
+        "RT"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sucrose",
+        "30\u00b0C"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sucrose",
+        "37\u00b0C"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "YL10-02"
+    },
+    {
+      "row": [],
+      "col": [
+        "Glucose",
+        "RT"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Glucose",
+        "30\u00b0C"
+      ],
+      "value": "++"
+    },
+    {
+      "row": [],
+      "col": [
+        "Glucose",
+        "37\u00b0C"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sucrose",
+        "RT"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sucrose",
+        "30\u00b0C"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sucrose",
+        "37\u00b0C"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "YL10-03"
+    },
+    {
+      "row": [],
+      "col": [
+        "Glucose",
+        "RT"
+      ],
+      "value": "+++"
+    },
+    {
+      "row": [],
+      "col": [
+        "Glucose",
+        "30\u00b0C"
+      ],
+      "value": "+++++"
+    },
+    {
+      "row": [],
+      "col": [
+        "Glucose",
+        "37\u00b0C"
+      ],
+      "value": "+++"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sucrose",
+        "RT"
+      ],
+      "value": "++"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sucrose",
+        "30\u00b0C"
+      ],
+      "value": "+++++"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sucrose",
+        "37\u00b0C"
+      ],
+      "value": "++"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "YL03-47"
+    },
+    {
+      "row": [],
+      "col": [
+        "Glucose",
+        "RT"
+      ],
+      "value": "+++"
+    },
+    {
+      "row": [],
+      "col": [
+        "Glucose",
+        "30\u00b0C"
+      ],
+      "value": "+++++"
+    },
+    {
+      "row": [],
+      "col": [
+        "Glucose",
+        "37\u00b0C"
+      ],
+      "value": "+++"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sucrose",
+        "RT"
+      ],
+      "value": "++"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sucrose",
+        "30\u00b0C"
+      ],
+      "value": "+++++"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sucrose",
+        "37\u00b0C"
+      ],
+      "value": "++"
+    }
+  ]
+}

@@ -1,0 +1,803 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0 (0)",
+    "1 (0.1)",
+    "1 (0.2)",
+    "1 (0.3)",
+    "1 (0.34",
+    "1 (0.36)",
+    "1 (9.0)",
+    "10 (8.6)",
+    "106 (24.5)",
+    "11",
+    "110 (13.3)",
+    "114 (29.0)",
+    "116 (29.5)",
+    "117",
+    "12 (10.3)",
+    "120 (14.6)",
+    "14",
+    "14 (1.7)",
+    "160 (37.0)",
+    "2 (0.2)",
+    "2 (0.5)",
+    "2 (0.50)",
+    "2 (0.7)",
+    "2 (14.3)",
+    "2 (18.2)",
+    "220 (26.7)",
+    "24 (8.7)",
+    "26/26",
+    "26/28",
+    "26/29",
+    "27/28",
+    "27/29",
+    "276",
+    "276 (33.5)",
+    "28/28",
+    "28/29",
+    "28/30",
+    "29/29",
+    "29/30",
+    "29/31",
+    "3 (0.4)",
+    "3 (21.4)",
+    "3 (27.3)",
+    "34 (8.7)",
+    "35 (29.9)",
+    "39 (9.0)",
+    "393",
+    "4 (0.5)",
+    "4 (1.5)",
+    "4 (28.6) a",
+    "40 (14.5)",
+    "43 (36.8)",
+    "432",
+    "5 (1.2)",
+    "5 (35.7)",
+    "5 (4.3)",
+    "5 (45.5) a",
+    "52 (13.2)",
+    "52 (18.8)",
+    "56 (13.0)",
+    "58 (13.4)",
+    "64 (16.3)",
+    "71 (25.7)",
+    "73 (8.9)",
+    "81 (29.4)",
+    "825",
+    "9 (2.3)",
+    "BRCA1 mutation carriers",
+    "BRCA2 mutation carriers",
+    "Cases",
+    "Controls",
+    "Number of repeats in AIB1",
+    "Total",
+    "With family history",
+    "Without family history"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Number of repeats in AIB1"
+      ],
+      "value": "26/26"
+    },
+    {
+      "row": [],
+      "col": [
+        "Controls"
+      ],
+      "value": "5 (1.2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases"
+      ],
+      "value": "9 (2.3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "14 (1.7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases",
+        "Without family history"
+      ],
+      "value": "4 (1.5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases",
+        "With family history"
+      ],
+      "value": "5 (4.3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases",
+        "BRCA1 mutation carriers"
+      ],
+      "value": "0 (0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases",
+        "BRCA2 mutation carriers"
+      ],
+      "value": "0 (0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of repeats in AIB1"
+      ],
+      "value": "26/28"
+    },
+    {
+      "row": [],
+      "col": [
+        "Controls"
+      ],
+      "value": "39 (9.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases"
+      ],
+      "value": "34 (8.7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "73 (8.9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases",
+        "Without family history"
+      ],
+      "value": "24 (8.7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases",
+        "With family history"
+      ],
+      "value": "10 (8.6)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases",
+        "BRCA1 mutation carriers"
+      ],
+      "value": "2 (14.3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases",
+        "BRCA2 mutation carriers"
+      ],
+      "value": "0 (0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of repeats in AIB1"
+      ],
+      "value": "26/29"
+    },
+    {
+      "row": [],
+      "col": [
+        "Controls"
+      ],
+      "value": "58 (13.4)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases"
+      ],
+      "value": "52 (13.2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "110 (13.3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases",
+        "Without family history"
+      ],
+      "value": "40 (14.5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases",
+        "With family history"
+      ],
+      "value": "12 (10.3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases",
+        "BRCA1 mutation carriers"
+      ],
+      "value": "0 (0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases",
+        "BRCA2 mutation carriers"
+      ],
+      "value": "1 (9.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of repeats in AIB1"
+      ],
+      "value": "27/28"
+    },
+    {
+      "row": [],
+      "col": [
+        "Controls"
+      ],
+      "value": "1 (0.2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases"
+      ],
+      "value": "0 (0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "1 (0.1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases",
+        "Without family history"
+      ],
+      "value": "0 (0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases",
+        "With family history"
+      ],
+      "value": "0 (0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases",
+        "BRCA1 mutation carriers"
+      ],
+      "value": "0 (0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases",
+        "BRCA2 mutation carriers"
+      ],
+      "value": "0 (0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of repeats in AIB1"
+      ],
+      "value": "27/29"
+    },
+    {
+      "row": [],
+      "col": [
+        "Controls"
+      ],
+      "value": "1 (0.2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases"
+      ],
+      "value": "1 (0.3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "2 (0.2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases",
+        "Without family history"
+      ],
+      "value": "1 (0.36)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases",
+        "With family history"
+      ],
+      "value": "0 (0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases",
+        "BRCA1 mutation carriers"
+      ],
+      "value": "0 (0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases",
+        "BRCA2 mutation carriers"
+      ],
+      "value": "0 (0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of repeats in AIB1"
+      ],
+      "value": "28/28"
+    },
+    {
+      "row": [],
+      "col": [
+        "Controls"
+      ],
+      "value": "56 (13.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases"
+      ],
+      "value": "64 (16.3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "120 (14.6)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases",
+        "Without family history"
+      ],
+      "value": "52 (18.8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases",
+        "With family history"
+      ],
+      "value": "12 (10.3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases",
+        "BRCA1 mutation carriers"
+      ],
+      "value": "5 (35.7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases",
+        "BRCA2 mutation carriers"
+      ],
+      "value": "2 (18.2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of repeats in AIB1"
+      ],
+      "value": "28/29"
+    },
+    {
+      "row": [],
+      "col": [
+        "Controls"
+      ],
+      "value": "160 (37.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases"
+      ],
+      "value": "116 (29.5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "276 (33.5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases",
+        "Without family history"
+      ],
+      "value": "81 (29.4)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases",
+        "With family history"
+      ],
+      "value": "35 (29.9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases",
+        "BRCA1 mutation carriers"
+      ],
+      "value": "3 (21.4)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases",
+        "BRCA2 mutation carriers"
+      ],
+      "value": "3 (27.3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of repeats in AIB1"
+      ],
+      "value": "28/30"
+    },
+    {
+      "row": [],
+      "col": [
+        "Controls"
+      ],
+      "value": "2 (0.5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases"
+      ],
+      "value": "1 (0.3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "3 (0.4)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases",
+        "Without family history"
+      ],
+      "value": "1 (0.34"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases",
+        "With family history"
+      ],
+      "value": "0 (0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases",
+        "BRCA1 mutation carriers"
+      ],
+      "value": "0 (0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases",
+        "BRCA2 mutation carriers"
+      ],
+      "value": "0 (0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of repeats in AIB1"
+      ],
+      "value": "29/29"
+    },
+    {
+      "row": [],
+      "col": [
+        "Controls"
+      ],
+      "value": "106 (24.5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases"
+      ],
+      "value": "114 (29.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "220 (26.7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases",
+        "Without family history"
+      ],
+      "value": "71 (25.7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases",
+        "With family history"
+      ],
+      "value": "43 (36.8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases",
+        "BRCA1 mutation carriers"
+      ],
+      "value": "4 (28.6) a"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases",
+        "BRCA2 mutation carriers"
+      ],
+      "value": "5 (45.5) a"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of repeats in AIB1"
+      ],
+      "value": "29/30"
+    },
+    {
+      "row": [],
+      "col": [
+        "Controls"
+      ],
+      "value": "2 (0.5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases"
+      ],
+      "value": "2 (0.5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "4 (0.5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases",
+        "Without family history"
+      ],
+      "value": "2 (0.7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases",
+        "With family history"
+      ],
+      "value": "0 (0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases",
+        "BRCA1 mutation carriers"
+      ],
+      "value": "0 (0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases",
+        "BRCA2 mutation carriers"
+      ],
+      "value": "0 (0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of repeats in AIB1"
+      ],
+      "value": "29/31"
+    },
+    {
+      "row": [],
+      "col": [
+        "Controls"
+      ],
+      "value": "2 (0.50)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases"
+      ],
+      "value": "0 (0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "2 (0.2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases",
+        "Without family history"
+      ],
+      "value": "0 (0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases",
+        "With family history"
+      ],
+      "value": "0 (0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases",
+        "BRCA1 mutation carriers"
+      ],
+      "value": "0 (0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases",
+        "BRCA2 mutation carriers"
+      ],
+      "value": "0 (0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of repeats in AIB1"
+      ],
+      "value": "Total"
+    },
+    {
+      "row": [],
+      "col": [
+        "Controls"
+      ],
+      "value": "432"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases"
+      ],
+      "value": "393"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "825"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases",
+        "Without family history"
+      ],
+      "value": "276"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases",
+        "With family history"
+      ],
+      "value": "117"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases",
+        "BRCA1 mutation carriers"
+      ],
+      "value": "14"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases",
+        "BRCA2 mutation carriers"
+      ],
+      "value": "11"
+    }
+  ]
+}

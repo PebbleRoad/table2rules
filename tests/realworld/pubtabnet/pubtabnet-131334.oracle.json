@@ -1,0 +1,964 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "10 \u00b1 6.5",
+    "10.6 \u00b1 6.0",
+    "11.1 \u00b1 6.2",
+    "11.2 \u00b1 6.0",
+    "11.5 \u00b1 7.3",
+    "1100 \u00b1 535",
+    "1140 \u00b1 475",
+    "1165 \u00b1 435",
+    "12.2 \u00b1 3.0",
+    "12.5 \u00b1 5.0",
+    "13 \u00b1 5.0",
+    "13.1 \u00b1 5",
+    "13.5 \u00b1 5.0",
+    "13.7 \u00b1 4",
+    "142 \u00b1 63",
+    "143 \u00b1 44",
+    "15.7 \u00b1 4.0*",
+    "15.8 \u00b1 4.0*",
+    "15.9 \u00b1 4.0*",
+    "16.7 \u00b1 4.0*",
+    "178 \u00b1 73",
+    "18 \u00b1 3",
+    "18 \u00b1 3.5",
+    "18.2 \u00b1 3",
+    "18.4 \u00b1 4",
+    "19 \u00b1 4",
+    "206 \u00b1 127*",
+    "217 \u00b1 69*",
+    "243 \u00b1 80*",
+    "27 \u00b1 4",
+    "30 \u00b1 6",
+    "31 \u00b1 7",
+    "32 \u00b1 7",
+    "34 \u00b1 10*",
+    "35 \u00b1 9*",
+    "35.4 \u00b1 8*",
+    "35.8 \u00b1 8*",
+    "36 \u00b1 10",
+    "37 \u00b1 8",
+    "37 \u00b1 9",
+    "37.1 \u00b1 9",
+    "38.4 \u00b1 10",
+    "38.6 \u00b1 11",
+    "4 \u00b1 0.9",
+    "4.1 \u00b1 0.9",
+    "4.1 \u00b1 1.3",
+    "4.3 \u00b1 1.1",
+    "4.3 \u00b1 1.2",
+    "4.5 \u00b1 0.9",
+    "44 \u00b1 1 0",
+    "44 \u00b1 11",
+    "44 \u00b1 9",
+    "45 \u00b1 6",
+    "45 \u00b1 9",
+    "46 \u00b1 10",
+    "9.4 \u00b1 6",
+    "9.5 \u00b1 6.2",
+    "9.6 \u00b1 4.1",
+    "942 \u00b1 330",
+    "972 \u00b1 205",
+    "985 \u00b1 225",
+    "ANOVA",
+    "Baseline",
+    "CI (l/min per m 2 )",
+    "CVP (mmHg)",
+    "Cst (ml/cmH 2 O)",
+    "EVLWI (ml/kg per m 2 )",
+    "Foam mattress",
+    "Group",
+    "ITBV (ml)",
+    "Interaction",
+    "MPAP (mmHg)",
+    "NS",
+    "P < 0.001",
+    "P < 0.05",
+    "P = 0.007",
+    "P = 0.02",
+    "PAOP (mmHg)",
+    "PP, 1 h",
+    "PP, 6 h",
+    "PaO 2 (mmHg)",
+    "PaO 2 /FiO 2",
+    "Parameter",
+    "Paw (cmH 2 O)",
+    "Q VA /Q T (%)",
+    "Specialist mattress",
+    "Time"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "PaO 2 /FiO 2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Foam mattress",
+        "Baseline"
+      ],
+      "value": "142 \u00b1 63"
+    },
+    {
+      "row": [],
+      "col": [
+        "Foam mattress",
+        "PP, 1 h"
+      ],
+      "value": "178 \u00b1 73"
+    },
+    {
+      "row": [],
+      "col": [
+        "Foam mattress",
+        "PP, 6 h"
+      ],
+      "value": "217 \u00b1 69*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist mattress",
+        "Baseline"
+      ],
+      "value": "143 \u00b1 44"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist mattress",
+        "PP, 1 h"
+      ],
+      "value": "206 \u00b1 127*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist mattress",
+        "PP, 6 h"
+      ],
+      "value": "243 \u00b1 80*"
+    },
+    {
+      "row": [],
+      "col": [
+        "ANOVA",
+        "Time"
+      ],
+      "value": "P < 0.001"
+    },
+    {
+      "row": [],
+      "col": [
+        "ANOVA",
+        "Group"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "ANOVA",
+        "Interaction"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "PaO 2 (mmHg)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Foam mattress",
+        "Baseline"
+      ],
+      "value": "45 \u00b1 9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Foam mattress",
+        "PP, 1 h"
+      ],
+      "value": "44 \u00b1 9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Foam mattress",
+        "PP, 6 h"
+      ],
+      "value": "44 \u00b1 1 0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist mattress",
+        "Baseline"
+      ],
+      "value": "45 \u00b1 6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist mattress",
+        "PP, 1 h"
+      ],
+      "value": "46 \u00b1 10"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist mattress",
+        "PP, 6 h"
+      ],
+      "value": "44 \u00b1 11"
+    },
+    {
+      "row": [],
+      "col": [
+        "ANOVA",
+        "Time"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "ANOVA",
+        "Group"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "ANOVA",
+        "Interaction"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "Q VA /Q T (%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Foam mattress",
+        "Baseline"
+      ],
+      "value": "37 \u00b1 8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Foam mattress",
+        "PP, 1 h"
+      ],
+      "value": "37 \u00b1 9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Foam mattress",
+        "PP, 6 h"
+      ],
+      "value": "35 \u00b1 9*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist mattress",
+        "Baseline"
+      ],
+      "value": "37 \u00b1 8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist mattress",
+        "PP, 1 h"
+      ],
+      "value": "36 \u00b1 10"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist mattress",
+        "PP, 6 h"
+      ],
+      "value": "34 \u00b1 10*"
+    },
+    {
+      "row": [],
+      "col": [
+        "ANOVA",
+        "Time"
+      ],
+      "value": "P < 0.05"
+    },
+    {
+      "row": [],
+      "col": [
+        "ANOVA",
+        "Group"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "ANOVA",
+        "Interaction"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "Paw (cmH 2 O)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Foam mattress",
+        "Baseline"
+      ],
+      "value": "18 \u00b1 3.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Foam mattress",
+        "PP, 1 h"
+      ],
+      "value": "18.2 \u00b1 3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Foam mattress",
+        "PP, 6 h"
+      ],
+      "value": "18 \u00b1 3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist mattress",
+        "Baseline"
+      ],
+      "value": "19 \u00b1 4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist mattress",
+        "PP, 1 h"
+      ],
+      "value": "19 \u00b1 4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist mattress",
+        "PP, 6 h"
+      ],
+      "value": "18.4 \u00b1 4"
+    },
+    {
+      "row": [],
+      "col": [
+        "ANOVA",
+        "Time"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "ANOVA",
+        "Group"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "ANOVA",
+        "Interaction"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "Cst (ml/cmH 2 O)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Foam mattress",
+        "Baseline"
+      ],
+      "value": "38.4 \u00b1 10"
+    },
+    {
+      "row": [],
+      "col": [
+        "Foam mattress",
+        "PP, 1 h"
+      ],
+      "value": "35.4 \u00b1 8*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Foam mattress",
+        "PP, 6 h"
+      ],
+      "value": "37.1 \u00b1 9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist mattress",
+        "Baseline"
+      ],
+      "value": "38.6 \u00b1 11"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist mattress",
+        "PP, 1 h"
+      ],
+      "value": "35.8 \u00b1 8*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist mattress",
+        "PP, 6 h"
+      ],
+      "value": "37 \u00b1 8"
+    },
+    {
+      "row": [],
+      "col": [
+        "ANOVA",
+        "Time"
+      ],
+      "value": "P = 0.007"
+    },
+    {
+      "row": [],
+      "col": [
+        "ANOVA",
+        "Group"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "ANOVA",
+        "Interaction"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "MPAP (mmHg)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Foam mattress",
+        "Baseline"
+      ],
+      "value": "27 \u00b1 4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Foam mattress",
+        "PP, 1 h"
+      ],
+      "value": "32 \u00b1 7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Foam mattress",
+        "PP, 6 h"
+      ],
+      "value": "30 \u00b1 6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist mattress",
+        "Baseline"
+      ],
+      "value": "27 \u00b1 4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist mattress",
+        "PP, 1 h"
+      ],
+      "value": "31 \u00b1 7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist mattress",
+        "PP, 6 h"
+      ],
+      "value": "32 \u00b1 7"
+    },
+    {
+      "row": [],
+      "col": [
+        "ANOVA",
+        "Time"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "ANOVA",
+        "Group"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "ANOVA",
+        "Interaction"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "PAOP (mmHg)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Foam mattress",
+        "Baseline"
+      ],
+      "value": "12.2 \u00b1 3.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Foam mattress",
+        "PP, 1 h"
+      ],
+      "value": "16.7 \u00b1 4.0*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Foam mattress",
+        "PP, 6 h"
+      ],
+      "value": "15.7 \u00b1 4.0*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist mattress",
+        "Baseline"
+      ],
+      "value": "12.5 \u00b1 5.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist mattress",
+        "PP, 1 h"
+      ],
+      "value": "15.8 \u00b1 4.0*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist mattress",
+        "PP, 6 h"
+      ],
+      "value": "15.9 \u00b1 4.0*"
+    },
+    {
+      "row": [],
+      "col": [
+        "ANOVA",
+        "Time"
+      ],
+      "value": "P = 0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "ANOVA",
+        "Group"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "ANOVA",
+        "Interaction"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "CVP (mmHg)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Foam mattress",
+        "Baseline"
+      ],
+      "value": "9.6 \u00b1 4.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Foam mattress",
+        "PP, 1 h"
+      ],
+      "value": "13.7 \u00b1 4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Foam mattress",
+        "PP, 6 h"
+      ],
+      "value": "13.1 \u00b1 5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist mattress",
+        "Baseline"
+      ],
+      "value": "9.4 \u00b1 6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist mattress",
+        "PP, 1 h"
+      ],
+      "value": "13 \u00b1 5.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist mattress",
+        "PP, 6 h"
+      ],
+      "value": "13.5 \u00b1 5.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "ANOVA",
+        "Time"
+      ],
+      "value": "P = 0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "ANOVA",
+        "Group"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "ANOVA",
+        "Interaction"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "CI (l/min per m 2 )"
+    },
+    {
+      "row": [],
+      "col": [
+        "Foam mattress",
+        "Baseline"
+      ],
+      "value": "4.3 \u00b1 1.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Foam mattress",
+        "PP, 1 h"
+      ],
+      "value": "4.3 \u00b1 1.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Foam mattress",
+        "PP, 6 h"
+      ],
+      "value": "4 \u00b1 0.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist mattress",
+        "Baseline"
+      ],
+      "value": "4.5 \u00b1 0.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist mattress",
+        "PP, 1 h"
+      ],
+      "value": "4.1 \u00b1 1.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist mattress",
+        "PP, 6 h"
+      ],
+      "value": "4.1 \u00b1 0.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "ANOVA",
+        "Time"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "ANOVA",
+        "Group"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "ANOVA",
+        "Interaction"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "EVLWI (ml/kg per m 2 )"
+    },
+    {
+      "row": [],
+      "col": [
+        "Foam mattress",
+        "Baseline"
+      ],
+      "value": "11.2 \u00b1 6.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Foam mattress",
+        "PP, 1 h"
+      ],
+      "value": "11.1 \u00b1 6.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Foam mattress",
+        "PP, 6 h"
+      ],
+      "value": "10 \u00b1 6.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist mattress",
+        "Baseline"
+      ],
+      "value": "11.5 \u00b1 7.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist mattress",
+        "PP, 1 h"
+      ],
+      "value": "9.5 \u00b1 6.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist mattress",
+        "PP, 6 h"
+      ],
+      "value": "10.6 \u00b1 6.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "ANOVA",
+        "Time"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "ANOVA",
+        "Group"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "ANOVA",
+        "Interaction"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "ITBV (ml)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Foam mattress",
+        "Baseline"
+      ],
+      "value": "1140 \u00b1 475"
+    },
+    {
+      "row": [],
+      "col": [
+        "Foam mattress",
+        "PP, 1 h"
+      ],
+      "value": "1100 \u00b1 535"
+    },
+    {
+      "row": [],
+      "col": [
+        "Foam mattress",
+        "PP, 6 h"
+      ],
+      "value": "942 \u00b1 330"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist mattress",
+        "Baseline"
+      ],
+      "value": "1165 \u00b1 435"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist mattress",
+        "PP, 1 h"
+      ],
+      "value": "972 \u00b1 205"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist mattress",
+        "PP, 6 h"
+      ],
+      "value": "985 \u00b1 225"
+    },
+    {
+      "row": [],
+      "col": [
+        "ANOVA",
+        "Time"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "ANOVA",
+        "Group"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "ANOVA",
+        "Interaction"
+      ],
+      "value": "NS"
+    }
+  ]
+}

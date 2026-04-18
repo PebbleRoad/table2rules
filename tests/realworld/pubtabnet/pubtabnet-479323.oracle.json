@@ -1,0 +1,674 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0",
+    "0.224 b",
+    "0.273 a",
+    "0.281 a",
+    "0.307 b",
+    "0.380 b",
+    "0.385 b",
+    "0.577 a",
+    "0.614 a",
+    "0.652 a",
+    "0.748 a",
+    "0.799 a",
+    "0.954 a",
+    "0.985 b",
+    "1",
+    "10 (20%)",
+    "12 (13)",
+    "14.4 (1.22)",
+    "15 (27%)",
+    "15 mg/day ( n = 90)",
+    "16 (16)",
+    "16.5 (1.57)",
+    "164.3 (0.90)",
+    "165.1 (0.93)",
+    "165.3 (0.97)",
+    "17.4 (1.42)",
+    "18 (28%)",
+    "2",
+    "2.95 (0.05)",
+    "22 (23)",
+    "29.0 (0.40)",
+    "29.2 (0.38)",
+    "29.2 (0.42)",
+    "3.01 (0.06)",
+    "3.03 (0.05)",
+    "312.5 (19.9)",
+    "328.9 (29.7)",
+    "34 (35%)",
+    "340.1 (24.0)",
+    "38.6 (2.2)",
+    "40 (42%)",
+    "40.3 (2.8)",
+    "41 (46%)",
+    "42.3 (4.5)",
+    "43 (88%)",
+    "46.1 (2.0)",
+    "49 (54%)",
+    "49 (88%)",
+    "49.4 (2.4)",
+    "5 mg/day ( n = 96)",
+    "50.3 (2.0)",
+    "54 (84%)",
+    "56 (58%)",
+    "62.9 (0.90)",
+    "63.2 (0.82)",
+    "63.8 (0.88)",
+    "64 (65%)",
+    "88",
+    "96",
+    "Age (years)",
+    "Asian Indian",
+    "Asian Oriental",
+    "Body mass index (kg/m 2 )",
+    "Caucasian",
+    "Characteristic",
+    "Female",
+    "Height (cm)",
+    "Joint-space width (mm)",
+    "Male",
+    "Oestrogen or SERM use (no. (%))",
+    "P",
+    "Placebo ( n = 98)",
+    "Post-menopausal (no. (%))",
+    "Race (no.)",
+    "Risedronate",
+    "Sex (no. (%))",
+    "Use of walking aids (no. (%))",
+    "WOMAC \u2013 weighted total score",
+    "Years since menopause",
+    "uCTX-II (ng/mmol creatinine)",
+    "uNTX-I (nmol/mmol creatinine)"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Age (years)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Placebo ( n = 98)"
+      ],
+      "value": "63.2 (0.82)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risedronate",
+        "5 mg/day ( n = 96)"
+      ],
+      "value": "62.9 (0.90)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risedronate",
+        "15 mg/day ( n = 90)"
+      ],
+      "value": "63.8 (0.88)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.652 a"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Height (cm)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Placebo ( n = 98)"
+      ],
+      "value": "164.3 (0.90)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risedronate",
+        "5 mg/day ( n = 96)"
+      ],
+      "value": "165.3 (0.97)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risedronate",
+        "15 mg/day ( n = 90)"
+      ],
+      "value": "165.1 (0.93)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.614 a"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Body mass index (kg/m 2 )"
+    },
+    {
+      "row": [],
+      "col": [
+        "Placebo ( n = 98)"
+      ],
+      "value": "29.2 (0.38)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risedronate",
+        "5 mg/day ( n = 96)"
+      ],
+      "value": "29.0 (0.40)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risedronate",
+        "15 mg/day ( n = 90)"
+      ],
+      "value": "29.2 (0.42)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.799 a"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Sex (no. (%))"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.307 b"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Male"
+    },
+    {
+      "row": [],
+      "col": [
+        "Placebo ( n = 98)"
+      ],
+      "value": "34 (35%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risedronate",
+        "5 mg/day ( n = 96)"
+      ],
+      "value": "40 (42%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risedronate",
+        "15 mg/day ( n = 90)"
+      ],
+      "value": "41 (46%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Female"
+    },
+    {
+      "row": [],
+      "col": [
+        "Placebo ( n = 98)"
+      ],
+      "value": "64 (65%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risedronate",
+        "5 mg/day ( n = 96)"
+      ],
+      "value": "56 (58%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risedronate",
+        "15 mg/day ( n = 90)"
+      ],
+      "value": "49 (54%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Post-menopausal (no. (%))"
+    },
+    {
+      "row": [],
+      "col": [
+        "Placebo ( n = 98)"
+      ],
+      "value": "54 (84%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risedronate",
+        "5 mg/day ( n = 96)"
+      ],
+      "value": "49 (88%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risedronate",
+        "15 mg/day ( n = 90)"
+      ],
+      "value": "43 (88%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.985 b"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Years since menopause"
+    },
+    {
+      "row": [],
+      "col": [
+        "Placebo ( n = 98)"
+      ],
+      "value": "14.4 (1.22)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risedronate",
+        "5 mg/day ( n = 96)"
+      ],
+      "value": "16.5 (1.57)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risedronate",
+        "15 mg/day ( n = 90)"
+      ],
+      "value": "17.4 (1.42)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.273 a"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Oestrogen or SERM use (no. (%))"
+    },
+    {
+      "row": [],
+      "col": [
+        "Placebo ( n = 98)"
+      ],
+      "value": "18 (28%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risedronate",
+        "5 mg/day ( n = 96)"
+      ],
+      "value": "15 (27%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risedronate",
+        "15 mg/day ( n = 90)"
+      ],
+      "value": "10 (20%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.380 b"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Race (no.)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.385 b"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Asian Oriental"
+    },
+    {
+      "row": [],
+      "col": [
+        "Placebo ( n = 98)"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risedronate",
+        "5 mg/day ( n = 96)"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risedronate",
+        "15 mg/day ( n = 90)"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Asian Indian"
+    },
+    {
+      "row": [],
+      "col": [
+        "Placebo ( n = 98)"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risedronate",
+        "5 mg/day ( n = 96)"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risedronate",
+        "15 mg/day ( n = 90)"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Caucasian"
+    },
+    {
+      "row": [],
+      "col": [
+        "Placebo ( n = 98)"
+      ],
+      "value": "96"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risedronate",
+        "5 mg/day ( n = 96)"
+      ],
+      "value": "96"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risedronate",
+        "15 mg/day ( n = 90)"
+      ],
+      "value": "88"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Joint-space width (mm)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Placebo ( n = 98)"
+      ],
+      "value": "3.03 (0.05)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risedronate",
+        "5 mg/day ( n = 96)"
+      ],
+      "value": "2.95 (0.05)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risedronate",
+        "15 mg/day ( n = 90)"
+      ],
+      "value": "3.01 (0.06)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.577 a"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "WOMAC \u2013 weighted total score"
+    },
+    {
+      "row": [],
+      "col": [
+        "Placebo ( n = 98)"
+      ],
+      "value": "50.3 (2.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risedronate",
+        "5 mg/day ( n = 96)"
+      ],
+      "value": "46.1 (2.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risedronate",
+        "15 mg/day ( n = 90)"
+      ],
+      "value": "49.4 (2.4)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.281 a"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Use of walking aids (no. (%))"
+    },
+    {
+      "row": [],
+      "col": [
+        "Placebo ( n = 98)"
+      ],
+      "value": "16 (16)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risedronate",
+        "5 mg/day ( n = 96)"
+      ],
+      "value": "22 (23)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risedronate",
+        "15 mg/day ( n = 90)"
+      ],
+      "value": "12 (13)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.224 b"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "uCTX-II (ng/mmol creatinine)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Placebo ( n = 98)"
+      ],
+      "value": "312.5 (19.9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risedronate",
+        "5 mg/day ( n = 96)"
+      ],
+      "value": "328.9 (29.7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risedronate",
+        "15 mg/day ( n = 90)"
+      ],
+      "value": "340.1 (24.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.748 a"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "uNTX-I (nmol/mmol creatinine)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Placebo ( n = 98)"
+      ],
+      "value": "40.3 (2.8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risedronate",
+        "5 mg/day ( n = 96)"
+      ],
+      "value": "42.3 (4.5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risedronate",
+        "15 mg/day ( n = 90)"
+      ],
+      "value": "38.6 (2.2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.954 a"
+    }
+  ]
+}

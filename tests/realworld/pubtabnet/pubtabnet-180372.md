@@ -1,0 +1,474 @@
+<!-- source: PubTabNet imgid=180372 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td>
+<b>
+       resident population
+      </b>
+</td>
+<td>
+<b>
+       living abroad
+      </b>
+</td>
+<td>
+<b>
+       no fixed abode
+      </b>
+</td>
+<td>
+<b>
+       refusals objectors
+      </b>
+</td>
+<td>
+<b>
+       immigrated
+      </b>
+</td>
+<td>
+<b>
+       delays
+      </b>
+</td>
+<td>
+<b>
+       other*
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td>
+<b>
+       N.
+      </b>
+</td>
+<td>
+<b>
+       %
+      </b>
+</td>
+<td>
+<b>
+       %
+      </b>
+</td>
+<td>
+<b>
+       %
+      </b>
+</td>
+<td>
+<b>
+       %
+      </b>
+</td>
+<td>
+<b>
+       %
+      </b>
+</td>
+<td>
+<b>
+       %
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      1998
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      Municipality of Bologna
+     </td>
+<td>
+      2398
+     </td>
+<td>
+      0.71
+     </td>
+<td>
+      0.12
+     </td>
+<td>
+      1.00
+     </td>
+<td>
+      0.25
+     </td>
+<td>
+      2.04
+     </td>
+<td>
+      1.54
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      Emilia Romagna
+     </td>
+<td>
+      29662
+     </td>
+<td>
+      0.24
+     </td>
+<td>
+      0.09
+     </td>
+<td>
+      0.29
+     </td>
+<td>
+      0.22
+     </td>
+<td>
+      0.51
+     </td>
+<td>
+      0.22
+     </td>
+</tr>
+<tr>
+<td>
+      1999
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      Municipality of Bologna
+     </td>
+<td>
+      2560
+     </td>
+<td>
+      1.09
+     </td>
+<td>
+      0.43
+     </td>
+<td>
+      0.47
+     </td>
+<td>
+      0.78
+     </td>
+<td>
+      1.05
+     </td>
+<td>
+      0.27
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      Emilia Romagna
+     </td>
+<td>
+      30916
+     </td>
+<td>
+      0.27
+     </td>
+<td>
+      0.07
+     </td>
+<td>
+      0.35
+     </td>
+<td>
+      0.22
+     </td>
+<td>
+      0.37
+     </td>
+<td>
+      0.11
+     </td>
+</tr>
+<tr>
+<td>
+      2000
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      Municipality of Bologna
+     </td>
+<td>
+      2429
+     </td>
+<td>
+      0,00
+     </td>
+<td>
+      0.08
+     </td>
+<td>
+      0.54
+     </td>
+<td>
+      1.19
+     </td>
+<td>
+      0.86
+     </td>
+<td>
+      0.70
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      Emilia Romagna
+     </td>
+<td>
+      31727
+     </td>
+<td>
+      0.20
+     </td>
+<td>
+      0.00
+     </td>
+<td>
+      0.20
+     </td>
+<td>
+      0.40
+     </td>
+<td>
+      0.50
+     </td>
+<td>
+      0.2
+     </td>
+</tr>
+<tr>
+<td>
+      2001
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      Municipality of Bologna
+     </td>
+<td>
+      2619
+     </td>
+<td>
+      0.04
+     </td>
+<td>
+      0.19
+     </td>
+<td>
+      1.26
+     </td>
+<td>
+      0.38
+     </td>
+<td>
+      1.07
+     </td>
+<td>
+      0.53
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      Emilia Romagna
+     </td>
+<td>
+      32866
+     </td>
+<td>
+      0.25
+     </td>
+<td>
+      0.05
+     </td>
+<td>
+      0.60
+     </td>
+<td>
+      0.26
+     </td>
+<td>
+      0.58
+     </td>
+<td>
+      0.25
+     </td>
+</tr>
+<tr>
+<td>
+      2002
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      Municipality of Bologna
+     </td>
+<td>
+      2706
+     </td>
+<td>
+      0.00
+     </td>
+<td>
+      0.04
+     </td>
+<td>
+      1.55
+     </td>
+<td>
+      0.59
+     </td>
+<td>
+      1.07
+     </td>
+<td>
+      0.74
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      Emilia Romagna
+     </td>
+<td>
+      34950
+     </td>
+<td>
+      0.21
+     </td>
+<td>
+      0.04
+     </td>
+<td>
+      1.00
+     </td>
+<td>
+      0.23
+     </td>
+<td>
+      0.69
+     </td>
+<td>
+      0.38
+     </td>
+</tr>
+</tbody>
+</table>

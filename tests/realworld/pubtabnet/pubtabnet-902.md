@@ -1,0 +1,320 @@
+<!-- source: PubTabNet imgid=902 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+<b>
+       Example
+      </b>
+</td>
+<td>
+<b>
+       Do it
+      </b>
+</td>
+<td>
+<b>
+       Probably do it
+      </b>
+</td>
+<td>
+<b>
+       Toss up
+      </b>
+</td>
+<td>
+<b>
+       Probably don't do it
+      </b>
+</td>
+<td>
+<b>
+       Don't do it
+      </b>
+</td>
+<td>
+<b>
+       Consensus
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      1
+     </td>
+<td>
+      4/16
+     </td>
+<td>
+      7/16
+     </td>
+<td>
+      3/16
+     </td>
+<td>
+      -
+     </td>
+<td>
+      2/16
+     </td>
+<td>
+      Probably do it
+     </td>
+</tr>
+<tr>
+<td>
+      2
+     </td>
+<td>
+      6/16
+     </td>
+<td>
+      8/16
+     </td>
+<td>
+      2/16
+     </td>
+<td>
+      -
+     </td>
+<td>
+      -
+     </td>
+<td>
+      Do it
+     </td>
+</tr>
+<tr>
+<td>
+      3
+     </td>
+<td>
+      -
+     </td>
+<td>
+      6/15
+     </td>
+<td>
+      7/15
+     </td>
+<td>
+      2/15
+     </td>
+<td>
+      -
+     </td>
+<td>
+      Need more information
+     </td>
+</tr>
+<tr>
+<td>
+      4
+     </td>
+<td>
+      13/15
+     </td>
+<td>
+      2/15
+     </td>
+<td>
+      -
+     </td>
+<td>
+      -
+     </td>
+<td>
+      -
+     </td>
+<td>
+      Do it
+     </td>
+</tr>
+<tr>
+<td>
+      5
+     </td>
+<td>
+      11/16
+     </td>
+<td>
+      5/16
+     </td>
+<td>
+      -
+     </td>
+<td>
+      -
+     </td>
+<td>
+      -
+     </td>
+<td>
+      Do it
+     </td>
+</tr>
+<tr>
+<td>
+      6
+     </td>
+<td>
+      11/17
+     </td>
+<td>
+      5/17
+     </td>
+<td>
+      1/17
+     </td>
+<td>
+      -
+     </td>
+<td>
+      -
+     </td>
+<td>
+      Do it
+     </td>
+</tr>
+<tr>
+<td>
+      7
+     </td>
+<td>
+      1/17
+     </td>
+<td>
+      7/17
+     </td>
+<td>
+      2/17
+     </td>
+<td>
+      6/17
+     </td>
+<td>
+      1/17
+     </td>
+<td>
+      Probably do it
+     </td>
+</tr>
+<tr>
+<td>
+      8
+     </td>
+<td>
+      2/15
+     </td>
+<td>
+      7/15
+     </td>
+<td>
+      4/15
+     </td>
+<td>
+      2/15
+     </td>
+<td>
+      -
+     </td>
+<td>
+      Do it
+     </td>
+</tr>
+<tr>
+<td>
+      9
+     </td>
+<td>
+      1/17
+     </td>
+<td>
+      4/17
+     </td>
+<td>
+      8/17
+     </td>
+<td>
+      4/17
+     </td>
+<td>
+      -
+     </td>
+<td>
+      Probably don't do it/Tossup
+     </td>
+</tr>
+<tr>
+<td>
+      10
+     </td>
+<td>
+      -
+     </td>
+<td>
+      2/17
+     </td>
+<td>
+      6/17
+     </td>
+<td>
+      7/17
+     </td>
+<td>
+      2/17
+     </td>
+<td>
+      No consensus
+     </td>
+</tr>
+<tr>
+<td>
+      11
+     </td>
+<td>
+      7/17
+     </td>
+<td>
+      8/17
+     </td>
+<td>
+      2/17
+     </td>
+<td>
+      -
+     </td>
+<td>
+      -
+     </td>
+<td>
+      Do it
+     </td>
+</tr>
+<tr>
+<td>
+      12
+     </td>
+<td>
+      -
+     </td>
+<td>
+      -
+     </td>
+<td>
+      -
+     </td>
+<td>
+      4/13
+     </td>
+<td>
+      9/13
+     </td>
+<td>
+      No consensus
+     </td>
+</tr>
+</tbody>
+</table>

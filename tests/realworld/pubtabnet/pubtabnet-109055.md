@@ -1,0 +1,222 @@
+<!-- source: PubTabNet imgid=109055 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td colspan="3">
+<b>
+       Infant growth 28 days postpartum
+      </b>
+</td>
+<td colspan="3">
+<b>
+       Infant growth 42 days postpartum
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<b>
+       Mean birth weight (g)
+      </b>
+</td>
+<td>
+<b>
+       SD†
+      </b>
+</td>
+<td>
+<b>
+       Infant weight (g)
+      </b>
+</td>
+<td>
+<b>
+       SD
+      </b>
+</td>
+<td>
+<b>
+       Infant growth percent
+       <sup>
+        1
+       </sup>
+       (%)
+      </b>
+</td>
+<td>
+<b>
+       Infant weight (g)
+      </b>
+</td>
+<td>
+<b>
+       SD
+      </b>
+</td>
+<td>
+<b>
+       Infant growth percent
+       <sup>
+        2
+       </sup>
+       (%)
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      Normotensive (N=10,669)
+     </td>
+<td>
+      3252.4 (Referent)
+     </td>
+<td>
+      416,1
+     </td>
+<td>
+      4088.8 (Referent)
+     </td>
+<td>
+      496.2
+     </td>
+<td>
+      25.7
+     </td>
+<td>
+      4869.1 (Referent)
+     </td>
+<td>
+      609.9
+     </td>
+<td>
+      49.7
+     </td>
+</tr>
+<tr>
+<td>
+      GH# (N=782)
+     </td>
+<td>
+      3288.8
+     </td>
+<td>
+      448.9
+     </td>
+<td>
+      4084.1
+     </td>
+<td>
+      540.4
+     </td>
+<td>
+      24.2
+     </td>
+<td>
+      4878.6
+     </td>
+<td>
+      696.2
+     </td>
+<td>
+      48.3
+     </td>
+</tr>
+<tr>
+<td>
+      PE¶ (N=365)
+     </td>
+<td>
+      3224.9
+     </td>
+<td>
+      465.8
+     </td>
+<td>
+      4018.6*
+     </td>
+<td>
+      513.7
+     </td>
+<td>
+      24.6
+     </td>
+<td>
+      4763.8**
+     </td>
+<td>
+      631.8
+     </td>
+<td>
+      47.7
+     </td>
+</tr>
+<tr>
+<td>
+      Severe PE (N=105)
+     </td>
+<td>
+      3170.9
+     </td>
+<td>
+      502.9
+     </td>
+<td>
+      3941.9*
+     </td>
+<td>
+      564.9
+     </td>
+<td>
+      24.3
+     </td>
+<td>
+      4679.9**
+     </td>
+<td>
+      727.3
+     </td>
+<td>
+      47.6
+     </td>
+</tr>
+<tr>
+<td>
+      Total (N=11,921)
+     </td>
+<td>
+      3253.2
+     </td>
+<td>
+      420.9
+     </td>
+<td>
+      4085.0
+     </td>
+<td>
+      500.7
+     </td>
+<td>
+      25.6
+     </td>
+<td>
+      4864.8
+     </td>
+<td>
+      618.2
+     </td>
+<td>
+      49.5
+     </td>
+</tr>
+</tbody>
+</table>

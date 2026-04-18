@@ -1,8 +1,13 @@
-"""Pytest regression suite driven by the fixture corpus under tests/.
+"""Regression layer — byte-for-byte gold matching on hand-authored fixtures.
 
-Each .md file beneath tests/<category>/ is a fixture containing HTML table
-markup. For every fixture we run process_tables_to_text and assert the
-output matches the committed gold file under benchmarks/gold/<format>/.
+Each .md file beneath tests/{adversarial,structured,headerless,smoke,
+regression}/ is a fixture containing HTML table markup. For every fixture
+we run process_tables_to_text and assert the output matches the committed
+gold file under benchmarks/gold/<format>/.
+
+This is the strictest of the three test layers — catches any output drift.
+See tests/README.md for the relationship to the correctness and robustness
+suites.
 
 Refresh gold outputs by running:  python scripts/benchmark.py --update-gold
 """
@@ -22,7 +27,16 @@ GOLD_DIR = ROOT / "benchmarks" / "gold" / DEFAULT_FORMAT
 
 
 def _discover_cases() -> list[Path]:
-    return sorted(TESTS_DIR.rglob("*.md"))
+    # Real-world fixtures (tests/realworld/) are checked against per-fixture
+    # oracle triples, not frozen gold text — see test_correctness_oracle.py.
+    # Top-level docs like README.md are not fixtures.
+    skip_prefixes = {"realworld"}
+    return [
+        p
+        for p in sorted(TESTS_DIR.rglob("*.md"))
+        if not (skip_prefixes & set(p.relative_to(TESTS_DIR).parts))
+        and p.parent != TESTS_DIR  # exclude tests/README.md etc.
+    ]
 
 
 def _case_id(path: Path) -> str:

@@ -1,0 +1,393 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "% Weight",
+    "-0.37 [-37.17, 36.44]",
+    "0.0%",
+    "0.00",
+    "0.04",
+    "0.08",
+    "0.41 [-30.92, 31.73]",
+    "0.975",
+    "1",
+    "1.000",
+    "100.00",
+    "19",
+    "42.00",
+    "58.00",
+    "9",
+    "Actual Sample",
+    "Estimate",
+    "Heterogeneity statistic",
+    "I-squared",
+    "Our Estimate",
+    "Overall",
+    "Overall Test for heterogeneity between sub-groups",
+    "Overall pooled WMD",
+    "P",
+    "Pooled WMD",
+    "Sample",
+    "Significance test(s) of WMD = 0",
+    "WMD [95% CI]",
+    "degrees of freedom",
+    "p = 0.980",
+    "p = 0.984",
+    "p = 0.995",
+    "z = 0.01",
+    "z = 0.02",
+    "z = 0.03"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Actual Sample"
+      ],
+      "value": "WMD [95% CI]"
+    },
+    {
+      "row": [],
+      "col": [
+        "Actual Sample"
+      ],
+      "value": "% Weight"
+    },
+    {
+      "row": [],
+      "col": [
+        "Our Estimate"
+      ],
+      "value": "WMD [95% CI]"
+    },
+    {
+      "row": [],
+      "col": [
+        "Our Estimate"
+      ],
+      "value": "% Weight"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Pooled WMD"
+    },
+    {
+      "row": [],
+      "col": [
+        "Actual Sample"
+      ],
+      "value": "-0.37 [-37.17, 36.44]"
+    },
+    {
+      "row": [],
+      "col": [
+        "Actual Sample"
+      ],
+      "value": "42.00"
+    },
+    {
+      "row": [],
+      "col": [
+        "Our Estimate"
+      ],
+      "value": "0.41 [-30.92, 31.73]"
+    },
+    {
+      "row": [],
+      "col": [
+        "Our Estimate"
+      ],
+      "value": "58.00"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Overall pooled WMD"
+    },
+    {
+      "row": [],
+      "col": [
+        "Actual Sample"
+      ],
+      "value": "Overall pooled WMD"
+    },
+    {
+      "row": [],
+      "col": [
+        "Actual Sample"
+      ],
+      "value": "0.08"
+    },
+    {
+      "row": [],
+      "col": [
+        "Our Estimate"
+      ],
+      "value": "0.08"
+    },
+    {
+      "row": [],
+      "col": [
+        "Our Estimate"
+      ],
+      "value": "100.00"
+    },
+    {
+      "row": [],
+      "col": [
+        "Actual Sample"
+      ],
+      "value": "Heterogeneity statistic"
+    },
+    {
+      "row": [],
+      "col": [
+        "Actual Sample"
+      ],
+      "value": "degrees of freedom"
+    },
+    {
+      "row": [],
+      "col": [
+        "Our Estimate"
+      ],
+      "value": "P"
+    },
+    {
+      "row": [],
+      "col": [
+        "Our Estimate"
+      ],
+      "value": "I-squared"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Sample"
+    },
+    {
+      "row": [],
+      "col": [
+        "Actual Sample"
+      ],
+      "value": "0.04"
+    },
+    {
+      "row": [],
+      "col": [
+        "Actual Sample"
+      ],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Our Estimate"
+      ],
+      "value": "1.000"
+    },
+    {
+      "row": [],
+      "col": [
+        "Our Estimate"
+      ],
+      "value": "0.0%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Estimate"
+    },
+    {
+      "row": [],
+      "col": [
+        "Actual Sample"
+      ],
+      "value": "0.04"
+    },
+    {
+      "row": [],
+      "col": [
+        "Actual Sample"
+      ],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Our Estimate"
+      ],
+      "value": "1.000"
+    },
+    {
+      "row": [],
+      "col": [
+        "Our Estimate"
+      ],
+      "value": "0.0%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Overall"
+    },
+    {
+      "row": [],
+      "col": [
+        "Actual Sample"
+      ],
+      "value": "0.08"
+    },
+    {
+      "row": [],
+      "col": [
+        "Actual Sample"
+      ],
+      "value": "19"
+    },
+    {
+      "row": [],
+      "col": [
+        "Our Estimate"
+      ],
+      "value": "1.000"
+    },
+    {
+      "row": [],
+      "col": [
+        "Our Estimate"
+      ],
+      "value": "0.0%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Overall Test for heterogeneity between sub-groups"
+    },
+    {
+      "row": [],
+      "col": [
+        "Actual Sample"
+      ],
+      "value": "Overall Test for heterogeneity between sub-groups"
+    },
+    {
+      "row": [],
+      "col": [
+        "Actual Sample"
+      ],
+      "value": "Overall Test for heterogeneity between sub-groups"
+    },
+    {
+      "row": [],
+      "col": [
+        "Our Estimate"
+      ],
+      "value": "Overall Test for heterogeneity between sub-groups"
+    },
+    {
+      "row": [],
+      "col": [
+        "Our Estimate"
+      ],
+      "value": "Overall Test for heterogeneity between sub-groups"
+    },
+    {
+      "row": [],
+      "col": [
+        "Actual Sample"
+      ],
+      "value": "0.00"
+    },
+    {
+      "row": [],
+      "col": [
+        "Actual Sample"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Our Estimate"
+      ],
+      "value": "0.975"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Significance test(s) of WMD = 0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Actual Sample"
+      ],
+      "value": "Significance test(s) of WMD = 0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Actual Sample"
+      ],
+      "value": "Sample"
+    },
+    {
+      "row": [],
+      "col": [
+        "Our Estimate"
+      ],
+      "value": "z = 0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "Our Estimate"
+      ],
+      "value": "p = 0.984"
+    },
+    {
+      "row": [],
+      "col": [
+        "Actual Sample"
+      ],
+      "value": "Estimate"
+    },
+    {
+      "row": [],
+      "col": [
+        "Our Estimate"
+      ],
+      "value": "z = 0.03"
+    },
+    {
+      "row": [],
+      "col": [
+        "Our Estimate"
+      ],
+      "value": "p = 0.980"
+    },
+    {
+      "row": [],
+      "col": [
+        "Actual Sample"
+      ],
+      "value": "Overall"
+    },
+    {
+      "row": [],
+      "col": [
+        "Our Estimate"
+      ],
+      "value": "z = 0.01"
+    },
+    {
+      "row": [],
+      "col": [
+        "Our Estimate"
+      ],
+      "value": "p = 0.995"
+    }
+  ]
+}

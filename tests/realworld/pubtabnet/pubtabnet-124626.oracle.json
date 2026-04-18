@@ -1,0 +1,582 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "% Correlation",
+    "% Discrepance",
+    "0",
+    "1.9",
+    "100",
+    "11.5",
+    "13.4",
+    "17.3",
+    "19.2",
+    "23.1",
+    "32.7",
+    "34.6",
+    "38.5",
+    "5.8",
+    "59.6",
+    "61.5",
+    "63.5",
+    "75.0",
+    "76.9",
+    "78.9",
+    "80.8",
+    "88.5",
+    "Agar-E-test",
+    "Agar-disc",
+    "Cefepime",
+    "Ceftazidime",
+    "Ciprofloxacin",
+    "Major Error",
+    "Minor Error",
+    "N = 52",
+    "PTZ",
+    "Piperacillin",
+    "SXT",
+    "TLc",
+    "Very Major"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "N = 52"
+      ],
+      "value": "Ceftazidime"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Discrepance",
+        "Very Major",
+        "Agar-disc"
+      ],
+      "value": "5.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Discrepance",
+        "Very Major",
+        "Agar-E-test"
+      ],
+      "value": "5.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Discrepance",
+        "Major Error",
+        "Agar-disc"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Discrepance",
+        "Major Error",
+        "Agar-E-test"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Discrepance",
+        "Minor Error",
+        "Agar-disc"
+      ],
+      "value": "17.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Discrepance",
+        "Minor Error",
+        "Agar-E-test"
+      ],
+      "value": "13.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Correlation",
+        "Agar-disc"
+      ],
+      "value": "76.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Correlation",
+        "Agar-E-test"
+      ],
+      "value": "80.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "N = 52"
+      ],
+      "value": "Cefepime"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Discrepance",
+        "Very Major",
+        "Agar-disc"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Discrepance",
+        "Very Major",
+        "Agar-E-test"
+      ],
+      "value": "1.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Discrepance",
+        "Major Error",
+        "Agar-disc"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Discrepance",
+        "Major Error",
+        "Agar-E-test"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Discrepance",
+        "Minor Error",
+        "Agar-disc"
+      ],
+      "value": "11.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Discrepance",
+        "Minor Error",
+        "Agar-E-test"
+      ],
+      "value": "23.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Correlation",
+        "Agar-disc"
+      ],
+      "value": "88.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Correlation",
+        "Agar-E-test"
+      ],
+      "value": "75.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "N = 52"
+      ],
+      "value": "Piperacillin"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Discrepance",
+        "Very Major",
+        "Agar-disc"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Discrepance",
+        "Very Major",
+        "Agar-E-test"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Discrepance",
+        "Major Error",
+        "Agar-disc"
+      ],
+      "value": "1.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Discrepance",
+        "Major Error",
+        "Agar-E-test"
+      ],
+      "value": "1.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Discrepance",
+        "Minor Error",
+        "Agar-disc"
+      ],
+      "value": "38.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Discrepance",
+        "Minor Error",
+        "Agar-E-test"
+      ],
+      "value": "38.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Correlation",
+        "Agar-disc"
+      ],
+      "value": "59.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Correlation",
+        "Agar-E-test"
+      ],
+      "value": "59.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "N = 52"
+      ],
+      "value": "PTZ"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Discrepance",
+        "Very Major",
+        "Agar-disc"
+      ],
+      "value": "1.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Discrepance",
+        "Very Major",
+        "Agar-E-test"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Discrepance",
+        "Major Error",
+        "Agar-disc"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Discrepance",
+        "Major Error",
+        "Agar-E-test"
+      ],
+      "value": "1.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Discrepance",
+        "Minor Error",
+        "Agar-disc"
+      ],
+      "value": "34.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Discrepance",
+        "Minor Error",
+        "Agar-E-test"
+      ],
+      "value": "23.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Correlation",
+        "Agar-disc"
+      ],
+      "value": "63.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Correlation",
+        "Agar-E-test"
+      ],
+      "value": "75.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "N = 52"
+      ],
+      "value": "TLc"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Discrepance",
+        "Very Major",
+        "Agar-disc"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Discrepance",
+        "Very Major",
+        "Agar-E-test"
+      ],
+      "value": "1.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Discrepance",
+        "Major Error",
+        "Agar-disc"
+      ],
+      "value": "1.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Discrepance",
+        "Major Error",
+        "Agar-E-test"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Discrepance",
+        "Minor Error",
+        "Agar-disc"
+      ],
+      "value": "17.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Discrepance",
+        "Minor Error",
+        "Agar-E-test"
+      ],
+      "value": "19.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Correlation",
+        "Agar-disc"
+      ],
+      "value": "80.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Correlation",
+        "Agar-E-test"
+      ],
+      "value": "78.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "N = 52"
+      ],
+      "value": "Ciprofloxacin"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Discrepance",
+        "Very Major",
+        "Agar-disc"
+      ],
+      "value": "5.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Discrepance",
+        "Very Major",
+        "Agar-E-test"
+      ],
+      "value": "5.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Discrepance",
+        "Major Error",
+        "Agar-disc"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Discrepance",
+        "Major Error",
+        "Agar-E-test"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Discrepance",
+        "Minor Error",
+        "Agar-disc"
+      ],
+      "value": "32.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Discrepance",
+        "Minor Error",
+        "Agar-E-test"
+      ],
+      "value": "32.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Correlation",
+        "Agar-disc"
+      ],
+      "value": "61.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Correlation",
+        "Agar-E-test"
+      ],
+      "value": "61.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "N = 52"
+      ],
+      "value": "SXT"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Discrepance",
+        "Very Major",
+        "Agar-disc"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Discrepance",
+        "Very Major",
+        "Agar-E-test"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Discrepance",
+        "Major Error",
+        "Agar-disc"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Discrepance",
+        "Major Error",
+        "Agar-E-test"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Discrepance",
+        "Minor Error",
+        "Agar-disc"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Discrepance",
+        "Minor Error",
+        "Agar-E-test"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Correlation",
+        "Agar-disc"
+      ],
+      "value": "100"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Correlation",
+        "Agar-E-test"
+      ],
+      "value": "100"
+    }
+  ]
+}

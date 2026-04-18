@@ -1,0 +1,352 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0/2",
+    "0/5",
+    "1.5 (0 .1 \u2013 4.7)",
+    "1.8 (0 .1\u20136)",
+    "1.95(0.3\u20133.6)",
+    "10(6.4\u201318)",
+    "11(4\u201327)",
+    "114.5(113\u2013116)",
+    "120(112\u2013133)",
+    "122.3(48 \u2013 231)",
+    "123.7 (96\u2013180)",
+    "124 (93\u2013161)",
+    "137(123\u2013152)",
+    "141 (62 \u2013 461)",
+    "15.7 (4\u201332)",
+    "168 (41 \u2013 892)",
+    "2(0.1\u20137)",
+    "23 (11\u201335)",
+    "24.4 (3.3 \u2013 98)",
+    "25.5(22\u201329)",
+    "28.5(10 \u2013 47)",
+    "3/5",
+    "3/7",
+    "30.4 (14\u201349)",
+    "30.5(28\u201333)",
+    "32 (12\u201359)",
+    "32.6 (18\u201347)",
+    "4.5(2\u20137)",
+    "63 (14 \u2013 432)",
+    "8.26 (3.8 \u2013 14)",
+    "8.7 (4.3\u201314.5)",
+    "9.7(9.6\u20139.8)",
+    "AST<40 U/L",
+    "Alkaline Phosphatase30\u2013130 u/L",
+    "Definite/probable(N = 11)",
+    "Definite/probable(N = 9)",
+    "ELISA(positives/ number tested)",
+    "ESR0\u201320 mm/hr",
+    "Eosinophilia>= 0.1 \u00d7 10 3 /L",
+    "Hemoglobin135 \u2013 175 g/L",
+    "Hepatic",
+    "Laboratory test Normal values",
+    "Possible(N = 16)",
+    "Possible(N = 2)",
+    "Pulmonary",
+    "Total Bilirubin3.4\u201317.1 umol/l",
+    "White blood cell count4\u201311 \u00d7 10 9 /L"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Laboratory test Normal values"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pulmonary"
+      ],
+      "value": "Definite/probable(N = 9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pulmonary"
+      ],
+      "value": "Possible(N = 2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hepatic"
+      ],
+      "value": "Definite/probable(N = 11)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hepatic"
+      ],
+      "value": "Possible(N = 16)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Hemoglobin135 \u2013 175 g/L"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pulmonary"
+      ],
+      "value": "120(112\u2013133)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pulmonary"
+      ],
+      "value": "114.5(113\u2013116)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hepatic"
+      ],
+      "value": "123.7 (96\u2013180)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hepatic"
+      ],
+      "value": "124 (93\u2013161)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "White blood cell count4\u201311 \u00d7 10 9 /L"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pulmonary"
+      ],
+      "value": "10(6.4\u201318)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pulmonary"
+      ],
+      "value": "9.7(9.6\u20139.8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hepatic"
+      ],
+      "value": "8.7 (4.3\u201314.5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hepatic"
+      ],
+      "value": "8.26 (3.8 \u2013 14)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Eosinophilia>= 0.1 \u00d7 10 3 /L"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pulmonary"
+      ],
+      "value": "2(0.1\u20137)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pulmonary"
+      ],
+      "value": "1.95(0.3\u20133.6)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hepatic"
+      ],
+      "value": "1.8 (0 .1\u20136)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hepatic"
+      ],
+      "value": "1.5 (0 .1 \u2013 4.7)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "ESR0\u201320 mm/hr"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pulmonary"
+      ],
+      "value": "28.5(10 \u2013 47)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pulmonary"
+      ],
+      "value": "30.5(28\u201333)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hepatic"
+      ],
+      "value": "32.6 (18\u201347)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hepatic"
+      ],
+      "value": "23 (11\u201335)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "AST<40 U/L"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pulmonary"
+      ],
+      "value": "30.4 (14\u201349)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pulmonary"
+      ],
+      "value": "25.5(22\u201329)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hepatic"
+      ],
+      "value": "32 (12\u201359)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hepatic"
+      ],
+      "value": "63 (14 \u2013 432)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Alkaline Phosphatase30\u2013130 u/L"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pulmonary"
+      ],
+      "value": "122.3(48 \u2013 231)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pulmonary"
+      ],
+      "value": "137(123\u2013152)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hepatic"
+      ],
+      "value": "141 (62 \u2013 461)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hepatic"
+      ],
+      "value": "168 (41 \u2013 892)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total Bilirubin3.4\u201317.1 umol/l"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pulmonary"
+      ],
+      "value": "11(4\u201327)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pulmonary"
+      ],
+      "value": "4.5(2\u20137)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hepatic"
+      ],
+      "value": "15.7 (4\u201332)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hepatic"
+      ],
+      "value": "24.4 (3.3 \u2013 98)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "ELISA(positives/ number tested)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pulmonary"
+      ],
+      "value": "3/7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pulmonary"
+      ],
+      "value": "0/2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hepatic"
+      ],
+      "value": "3/5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hepatic"
+      ],
+      "value": "0/5"
+    }
+  ]
+}

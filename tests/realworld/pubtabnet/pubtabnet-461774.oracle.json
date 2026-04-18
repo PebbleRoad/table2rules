@@ -1,0 +1,818 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "-",
+    "0.1 U UNG",
+    "0.17",
+    "0.25 U UNG",
+    "0.5 U UNG",
+    "0.53",
+    "0.59 d",
+    "0.61",
+    "1.0 U UNG",
+    "1.04",
+    "1.06",
+    "1.16",
+    "1.32",
+    "1.42 d",
+    "1.48",
+    "1.53",
+    "1.65",
+    "1.70",
+    "1.70 d",
+    "1.78",
+    "1.83",
+    "1.90 d",
+    "13.51",
+    "13.66",
+    "13.81",
+    "2.05",
+    "2.60",
+    "21.26",
+    "21.53",
+    "22.30",
+    "22.79",
+    "23.09",
+    "23.86",
+    "24.53",
+    "26.25",
+    "26.56",
+    "26.86",
+    "27.31",
+    "27.57",
+    "27.95",
+    "28.01",
+    "30.24",
+    "30.82",
+    "31.99",
+    "32.52",
+    "33.15",
+    "33.38",
+    "33.47",
+    "34.04",
+    "35.04",
+    "35.08",
+    "35.25",
+    "36.44",
+    "36.73",
+    "36.86",
+    "38.34",
+    "5.03",
+    "5.37",
+    "5.43",
+    "5.62",
+    "5.71",
+    "Analyte (dil.)",
+    "C T",
+    "Control c",
+    "DNA (1:10 10 )",
+    "DNA (1:10 7 ) b",
+    "DNA (1:10 8 )",
+    "DNA (1:10 9 )",
+    "Mean C T increase for DNA",
+    "Mean C T increase for RNA",
+    "N/A",
+    "No Ct",
+    "No Ct e",
+    "RNA (1:10)",
+    "RNA (1:100)",
+    "RNA (1:1000)",
+    "RNA (undil.) b",
+    "incr."
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Analyte (dil.)"
+      ],
+      "value": "RNA (undil.) b"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control c"
+      ],
+      "value": "21.26"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.1 U UNG",
+        "C T"
+      ],
+      "value": "22.30"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.1 U UNG",
+        "incr."
+      ],
+      "value": "1.04"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.25 U UNG",
+        "C T"
+      ],
+      "value": "22.79"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.25 U UNG",
+        "incr."
+      ],
+      "value": "1.53"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.5 U UNG",
+        "C T"
+      ],
+      "value": "23.09"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.5 U UNG",
+        "incr."
+      ],
+      "value": "1.83"
+    },
+    {
+      "row": [],
+      "col": [
+        "1.0 U UNG",
+        "C T"
+      ],
+      "value": "23.86"
+    },
+    {
+      "row": [],
+      "col": [
+        "1.0 U UNG",
+        "incr."
+      ],
+      "value": "2.60"
+    },
+    {
+      "row": [],
+      "col": [
+        "Analyte (dil.)"
+      ],
+      "value": "RNA (1:10)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control c"
+      ],
+      "value": "26.25"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.1 U UNG",
+        "C T"
+      ],
+      "value": "26.86"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.1 U UNG",
+        "incr."
+      ],
+      "value": "0.61"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.25 U UNG",
+        "C T"
+      ],
+      "value": "27.57"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.25 U UNG",
+        "incr."
+      ],
+      "value": "1.32"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.5 U UNG",
+        "C T"
+      ],
+      "value": "27.95"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.5 U UNG",
+        "incr."
+      ],
+      "value": "1.70"
+    },
+    {
+      "row": [],
+      "col": [
+        "1.0 U UNG",
+        "C T"
+      ],
+      "value": "27.31"
+    },
+    {
+      "row": [],
+      "col": [
+        "1.0 U UNG",
+        "incr."
+      ],
+      "value": "1.06"
+    },
+    {
+      "row": [],
+      "col": [
+        "Analyte (dil.)"
+      ],
+      "value": "RNA (1:100)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control c"
+      ],
+      "value": "31.99"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.1 U UNG",
+        "C T"
+      ],
+      "value": "32.52"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.1 U UNG",
+        "incr."
+      ],
+      "value": "0.53"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.25 U UNG",
+        "C T"
+      ],
+      "value": "33.15"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.25 U UNG",
+        "incr."
+      ],
+      "value": "1.16"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.5 U UNG",
+        "C T"
+      ],
+      "value": "33.47"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.5 U UNG",
+        "incr."
+      ],
+      "value": "1.48"
+    },
+    {
+      "row": [],
+      "col": [
+        "1.0 U UNG",
+        "C T"
+      ],
+      "value": "34.04"
+    },
+    {
+      "row": [],
+      "col": [
+        "1.0 U UNG",
+        "incr."
+      ],
+      "value": "2.05"
+    },
+    {
+      "row": [],
+      "col": [
+        "Analyte (dil.)"
+      ],
+      "value": "RNA (1:1000)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control c"
+      ],
+      "value": "35.08"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.1 U UNG",
+        "C T"
+      ],
+      "value": "35.25"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.1 U UNG",
+        "incr."
+      ],
+      "value": "0.17"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.25 U UNG",
+        "C T"
+      ],
+      "value": "36.73"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.25 U UNG",
+        "incr."
+      ],
+      "value": "1.65"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.5 U UNG",
+        "C T"
+      ],
+      "value": "36.86"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.5 U UNG",
+        "incr."
+      ],
+      "value": "1.78"
+    },
+    {
+      "row": [],
+      "col": [
+        "1.0 U UNG",
+        "C T"
+      ],
+      "value": "No Ct"
+    },
+    {
+      "row": [],
+      "col": [
+        "1.0 U UNG",
+        "incr."
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Analyte (dil.)"
+      ],
+      "value": "DNA (1:10 7 ) b"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control c"
+      ],
+      "value": "21.53"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.1 U UNG",
+        "C T"
+      ],
+      "value": "26.56"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.1 U UNG",
+        "incr."
+      ],
+      "value": "5.03"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.25 U UNG",
+        "C T"
+      ],
+      "value": "35.04"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.25 U UNG",
+        "incr."
+      ],
+      "value": "13.51"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.5 U UNG",
+        "C T"
+      ],
+      "value": "No Ct"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.5 U UNG",
+        "incr."
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "1.0 U UNG",
+        "C T"
+      ],
+      "value": "No Ct"
+    },
+    {
+      "row": [],
+      "col": [
+        "1.0 U UNG",
+        "incr."
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Analyte (dil.)"
+      ],
+      "value": "DNA (1:10 8 )"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control c"
+      ],
+      "value": "24.53"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.1 U UNG",
+        "C T"
+      ],
+      "value": "30.24"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.1 U UNG",
+        "incr."
+      ],
+      "value": "5.71"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.25 U UNG",
+        "C T"
+      ],
+      "value": "38.34"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.25 U UNG",
+        "incr."
+      ],
+      "value": "13.81"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.5 U UNG",
+        "C T"
+      ],
+      "value": "No Ct"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.5 U UNG",
+        "incr."
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "1.0 U UNG",
+        "C T"
+      ],
+      "value": "No Ct"
+    },
+    {
+      "row": [],
+      "col": [
+        "1.0 U UNG",
+        "incr."
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Analyte (dil.)"
+      ],
+      "value": "DNA (1:10 9 )"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control c"
+      ],
+      "value": "28.01"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.1 U UNG",
+        "C T"
+      ],
+      "value": "33.38"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.1 U UNG",
+        "incr."
+      ],
+      "value": "5.37"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.25 U UNG",
+        "C T"
+      ],
+      "value": "No Ct e"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.25 U UNG",
+        "incr."
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.5 U UNG",
+        "C T"
+      ],
+      "value": "No Ct"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.5 U UNG",
+        "incr."
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "1.0 U UNG",
+        "C T"
+      ],
+      "value": "No Ct"
+    },
+    {
+      "row": [],
+      "col": [
+        "1.0 U UNG",
+        "incr."
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Analyte (dil.)"
+      ],
+      "value": "DNA (1:10 10 )"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control c"
+      ],
+      "value": "30.82"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.1 U UNG",
+        "C T"
+      ],
+      "value": "36.44"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.1 U UNG",
+        "incr."
+      ],
+      "value": "5.62"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.25 U UNG",
+        "C T"
+      ],
+      "value": "No Ct"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.25 U UNG",
+        "incr."
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.5 U UNG",
+        "C T"
+      ],
+      "value": "No Ct"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.5 U UNG",
+        "incr."
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "1.0 U UNG",
+        "C T"
+      ],
+      "value": "No Ct"
+    },
+    {
+      "row": [],
+      "col": [
+        "1.0 U UNG",
+        "incr."
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Analyte (dil.)"
+      ],
+      "value": "Mean C T increase for RNA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control c"
+      ],
+      "value": "Mean C T increase for RNA"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.1 U UNG",
+        "C T"
+      ],
+      "value": "Mean C T increase for RNA"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.1 U UNG",
+        "incr."
+      ],
+      "value": "0.59 d"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.25 U UNG",
+        "incr."
+      ],
+      "value": "1.42 d"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.5 U UNG",
+        "incr."
+      ],
+      "value": "1.70 d"
+    },
+    {
+      "row": [],
+      "col": [
+        "1.0 U UNG",
+        "incr."
+      ],
+      "value": "1.90 d"
+    },
+    {
+      "row": [],
+      "col": [
+        "Analyte (dil.)"
+      ],
+      "value": "Mean C T increase for DNA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control c"
+      ],
+      "value": "Mean C T increase for DNA"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.1 U UNG",
+        "C T"
+      ],
+      "value": "Mean C T increase for DNA"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.1 U UNG",
+        "incr."
+      ],
+      "value": "5.43"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.25 U UNG",
+        "incr."
+      ],
+      "value": "13.66"
+    },
+    {
+      "row": [],
+      "col": [
+        "0.5 U UNG",
+        "incr."
+      ],
+      "value": "N/A"
+    },
+    {
+      "row": [],
+      "col": [
+        "1.0 U UNG",
+        "incr."
+      ],
+      "value": "N/A"
+    }
+  ]
+}

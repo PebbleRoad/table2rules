@@ -1,0 +1,642 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "-",
+    "1",
+    "1/17",
+    "10",
+    "11",
+    "11/16",
+    "11/17",
+    "12",
+    "13/15",
+    "2",
+    "2/15",
+    "2/16",
+    "2/17",
+    "3",
+    "3/16",
+    "4",
+    "4/13",
+    "4/15",
+    "4/16",
+    "4/17",
+    "5",
+    "5/16",
+    "5/17",
+    "6",
+    "6/15",
+    "6/16",
+    "6/17",
+    "7",
+    "7/15",
+    "7/16",
+    "7/17",
+    "8",
+    "8/16",
+    "8/17",
+    "9",
+    "9/13",
+    "Consensus",
+    "Do it",
+    "Don't do it",
+    "Example",
+    "Need more information",
+    "No consensus",
+    "Probably do it",
+    "Probably don't do it",
+    "Probably don't do it/Tossup",
+    "Toss up"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Example"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Do it"
+      ],
+      "value": "4/16"
+    },
+    {
+      "row": [],
+      "col": [
+        "Probably do it"
+      ],
+      "value": "7/16"
+    },
+    {
+      "row": [],
+      "col": [
+        "Toss up"
+      ],
+      "value": "3/16"
+    },
+    {
+      "row": [],
+      "col": [
+        "Probably don't do it"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Don't do it"
+      ],
+      "value": "2/16"
+    },
+    {
+      "row": [],
+      "col": [
+        "Consensus"
+      ],
+      "value": "Probably do it"
+    },
+    {
+      "row": [],
+      "col": [
+        "Example"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Do it"
+      ],
+      "value": "6/16"
+    },
+    {
+      "row": [],
+      "col": [
+        "Probably do it"
+      ],
+      "value": "8/16"
+    },
+    {
+      "row": [],
+      "col": [
+        "Toss up"
+      ],
+      "value": "2/16"
+    },
+    {
+      "row": [],
+      "col": [
+        "Probably don't do it"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Don't do it"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Consensus"
+      ],
+      "value": "Do it"
+    },
+    {
+      "row": [],
+      "col": [
+        "Example"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Do it"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Probably do it"
+      ],
+      "value": "6/15"
+    },
+    {
+      "row": [],
+      "col": [
+        "Toss up"
+      ],
+      "value": "7/15"
+    },
+    {
+      "row": [],
+      "col": [
+        "Probably don't do it"
+      ],
+      "value": "2/15"
+    },
+    {
+      "row": [],
+      "col": [
+        "Don't do it"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Consensus"
+      ],
+      "value": "Need more information"
+    },
+    {
+      "row": [],
+      "col": [
+        "Example"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Do it"
+      ],
+      "value": "13/15"
+    },
+    {
+      "row": [],
+      "col": [
+        "Probably do it"
+      ],
+      "value": "2/15"
+    },
+    {
+      "row": [],
+      "col": [
+        "Toss up"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Probably don't do it"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Don't do it"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Consensus"
+      ],
+      "value": "Do it"
+    },
+    {
+      "row": [],
+      "col": [
+        "Example"
+      ],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Do it"
+      ],
+      "value": "11/16"
+    },
+    {
+      "row": [],
+      "col": [
+        "Probably do it"
+      ],
+      "value": "5/16"
+    },
+    {
+      "row": [],
+      "col": [
+        "Toss up"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Probably don't do it"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Don't do it"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Consensus"
+      ],
+      "value": "Do it"
+    },
+    {
+      "row": [],
+      "col": [
+        "Example"
+      ],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Do it"
+      ],
+      "value": "11/17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Probably do it"
+      ],
+      "value": "5/17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Toss up"
+      ],
+      "value": "1/17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Probably don't do it"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Don't do it"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Consensus"
+      ],
+      "value": "Do it"
+    },
+    {
+      "row": [],
+      "col": [
+        "Example"
+      ],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Do it"
+      ],
+      "value": "1/17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Probably do it"
+      ],
+      "value": "7/17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Toss up"
+      ],
+      "value": "2/17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Probably don't do it"
+      ],
+      "value": "6/17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Don't do it"
+      ],
+      "value": "1/17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Consensus"
+      ],
+      "value": "Probably do it"
+    },
+    {
+      "row": [],
+      "col": [
+        "Example"
+      ],
+      "value": "8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Do it"
+      ],
+      "value": "2/15"
+    },
+    {
+      "row": [],
+      "col": [
+        "Probably do it"
+      ],
+      "value": "7/15"
+    },
+    {
+      "row": [],
+      "col": [
+        "Toss up"
+      ],
+      "value": "4/15"
+    },
+    {
+      "row": [],
+      "col": [
+        "Probably don't do it"
+      ],
+      "value": "2/15"
+    },
+    {
+      "row": [],
+      "col": [
+        "Don't do it"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Consensus"
+      ],
+      "value": "Do it"
+    },
+    {
+      "row": [],
+      "col": [
+        "Example"
+      ],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Do it"
+      ],
+      "value": "1/17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Probably do it"
+      ],
+      "value": "4/17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Toss up"
+      ],
+      "value": "8/17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Probably don't do it"
+      ],
+      "value": "4/17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Don't do it"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Consensus"
+      ],
+      "value": "Probably don't do it/Tossup"
+    },
+    {
+      "row": [],
+      "col": [
+        "Example"
+      ],
+      "value": "10"
+    },
+    {
+      "row": [],
+      "col": [
+        "Do it"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Probably do it"
+      ],
+      "value": "2/17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Toss up"
+      ],
+      "value": "6/17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Probably don't do it"
+      ],
+      "value": "7/17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Don't do it"
+      ],
+      "value": "2/17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Consensus"
+      ],
+      "value": "No consensus"
+    },
+    {
+      "row": [],
+      "col": [
+        "Example"
+      ],
+      "value": "11"
+    },
+    {
+      "row": [],
+      "col": [
+        "Do it"
+      ],
+      "value": "7/17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Probably do it"
+      ],
+      "value": "8/17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Toss up"
+      ],
+      "value": "2/17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Probably don't do it"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Don't do it"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Consensus"
+      ],
+      "value": "Do it"
+    },
+    {
+      "row": [],
+      "col": [
+        "Example"
+      ],
+      "value": "12"
+    },
+    {
+      "row": [],
+      "col": [
+        "Do it"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Probably do it"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Toss up"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Probably don't do it"
+      ],
+      "value": "4/13"
+    },
+    {
+      "row": [],
+      "col": [
+        "Don't do it"
+      ],
+      "value": "9/13"
+    },
+    {
+      "row": [],
+      "col": [
+        "Consensus"
+      ],
+      "value": "No consensus"
+    }
+  ]
+}

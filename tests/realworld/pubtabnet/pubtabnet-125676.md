@@ -1,0 +1,297 @@
+<!-- source: PubTabNet imgid=125676 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+<b>
+       Taxon
+      </b>
+</td>
+<td>
+<b>
+       n
+      </b>
+</td>
+<td>
+<b>
+       CV-CV' average
+      </b>
+</td>
+<td>
+<b>
+       CV-CV' first quartile
+      </b>
+</td>
+<td>
+<b>
+       Charge average
+      </b>
+</td>
+<td>
+<b>
+       Turn average
+      </b>
+</td>
+<td>
+<b>
+       Length average
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      arthropoda
+     </td>
+<td>
+      98
+     </td>
+<td>
+      0.75
+     </td>
+<td>
+      0.51
+     </td>
+<td>
+      -0.048
+     </td>
+<td>
+      0.251
+     </td>
+<td>
+      606
+     </td>
+</tr>
+<tr>
+<td>
+      metazoa
+     </td>
+<td>
+      262
+     </td>
+<td>
+      0.85
+     </td>
+<td>
+      0.56
+     </td>
+<td>
+      -0.046
+     </td>
+<td>
+      0.254
+     </td>
+<td>
+      649
+     </td>
+</tr>
+<tr>
+<td>
+      eukaryota
+     </td>
+<td>
+      279
+     </td>
+<td>
+      0.88
+     </td>
+<td>
+      0.58
+     </td>
+<td>
+      -0.045
+     </td>
+<td>
+      0.255
+     </td>
+<td>
+      644
+     </td>
+</tr>
+<tr>
+<td>
+      mammalia
+     </td>
+<td>
+      95
+     </td>
+<td>
+      0.88
+     </td>
+<td>
+      0.56
+     </td>
+<td>
+      -0.046
+     </td>
+<td>
+      0.256
+     </td>
+<td>
+      720
+     </td>
+</tr>
+<tr>
+<td>
+      chordata
+     </td>
+<td>
+      108
+     </td>
+<td>
+      0.90
+     </td>
+<td>
+      0.58
+     </td>
+<td>
+      -0.046
+     </td>
+<td>
+      0.257
+     </td>
+<td>
+      705
+     </td>
+</tr>
+<tr>
+<td>
+      enterobacteria
+     </td>
+<td>
+      8
+     </td>
+<td>
+      0.99
+     </td>
+<td>
+      0.74
+     </td>
+<td>
+      -0.054
+     </td>
+<td>
+      0.279
+     </td>
+<td>
+      633
+     </td>
+</tr>
+<tr>
+<td>
+      eubacteria
+     </td>
+<td>
+      49
+     </td>
+<td>
+      1.12
+     </td>
+<td>
+      0.76
+     </td>
+<td>
+      -0.047
+     </td>
+<td>
+      0.276
+     </td>
+<td>
+      654
+     </td>
+</tr>
+<tr>
+<td>
+      g-proteobacteria
+     </td>
+<td>
+      32
+     </td>
+<td>
+      1.17
+     </td>
+<td>
+      0.79
+     </td>
+<td>
+      -0.049
+     </td>
+<td>
+      0.285
+     </td>
+<td>
+      643
+     </td>
+</tr>
+<tr>
+<td>
+      ascomycetes
+     </td>
+<td>
+      13
+     </td>
+<td>
+      1.21
+     </td>
+<td>
+      0.88
+     </td>
+<td>
+      -0.046
+     </td>
+<td>
+      0.278
+     </td>
+<td>
+      552
+     </td>
+</tr>
+<tr>
+<td>
+      proteobacteria
+     </td>
+<td>
+      35
+     </td>
+<td>
+      1.22
+     </td>
+<td>
+      0.79
+     </td>
+<td>
+      -0.048
+     </td>
+<td>
+      0.286
+     </td>
+<td>
+      638
+     </td>
+</tr>
+<tr>
+<td>
+      fungi
+     </td>
+<td>
+      14
+     </td>
+<td>
+      1.25
+     </td>
+<td>
+      0.88
+     </td>
+<td>
+      -0.045
+     </td>
+<td>
+      0.279
+     </td>
+<td>
+      553
+     </td>
+</tr>
+</tbody>
+</table>

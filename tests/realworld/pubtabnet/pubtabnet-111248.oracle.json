@@ -1,0 +1,495 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0.07",
+    "0.09",
+    "0.1",
+    "0.2",
+    "0.3",
+    "0.4",
+    "0.8",
+    "1 (0.01%)",
+    "1.0",
+    "12 (15.4%)",
+    "12 (7.4%)",
+    "13 (15.3%)",
+    "14 (17.9%)",
+    "15 (19.2%)",
+    "16 (20.5%)",
+    "17 (20.0%)",
+    "19 (24.4%)",
+    "19.6 \u00b1 7.1",
+    "20 (23.5%)",
+    "20.0 \u00b1 7.2",
+    "21.3 \u00b1 7.6",
+    "22 (25.9%)",
+    "23 (27.1%)",
+    "25 (15.3%)",
+    "27 (34.6%)",
+    "29 (34.1%)",
+    "32 (19.6%)",
+    "34 (20.9%)",
+    "34 (43.6%)",
+    "44/41",
+    "49/29",
+    "5 (6.4%)",
+    "50 (30.7%)",
+    "63 (38.7%)",
+    "68.6 \u00b1 15.4",
+    "7 (4.5%)",
+    "7 (8.2%)",
+    "70.3 \u00b1 15.1",
+    "71.8 \u00b1 14.8",
+    "8 (4.9%)",
+    "9 (10.6%)",
+    "93/70",
+    "APACHE II score",
+    "Age",
+    "Autoimmune disease",
+    "COPD",
+    "Cancer metastatic to lung",
+    "Characteristics",
+    "Comorbid conditions",
+    "Congestive heart failure",
+    "Diabetes mellitus",
+    "Failure to wean ( n = 85)",
+    "Hypertension",
+    "Malignancy",
+    "P",
+    "Renal insufficiency",
+    "Sex (male/female)",
+    "Stroke",
+    "Successful weaning ( n = 78)",
+    "Total ( n = 163)"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Characteristics"
+      ],
+      "value": "Age"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total ( n = 163)"
+      ],
+      "value": "70.3 \u00b1 15.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successful weaning ( n = 78)"
+      ],
+      "value": "68.6 \u00b1 15.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Failure to wean ( n = 85)"
+      ],
+      "value": "71.8 \u00b1 14.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristics"
+      ],
+      "value": "Sex (male/female)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total ( n = 163)"
+      ],
+      "value": "93/70"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successful weaning ( n = 78)"
+      ],
+      "value": "49/29"
+    },
+    {
+      "row": [],
+      "col": [
+        "Failure to wean ( n = 85)"
+      ],
+      "value": "44/41"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristics"
+      ],
+      "value": "APACHE II score"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total ( n = 163)"
+      ],
+      "value": "20.0 \u00b1 7.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successful weaning ( n = 78)"
+      ],
+      "value": "19.6 \u00b1 7.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Failure to wean ( n = 85)"
+      ],
+      "value": "21.3 \u00b1 7.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristics"
+      ],
+      "value": "Comorbid conditions"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristics"
+      ],
+      "value": "Hypertension"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total ( n = 163)"
+      ],
+      "value": "63 (38.7%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successful weaning ( n = 78)"
+      ],
+      "value": "34 (43.6%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Failure to wean ( n = 85)"
+      ],
+      "value": "29 (34.1%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristics"
+      ],
+      "value": "Diabetes mellitus"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total ( n = 163)"
+      ],
+      "value": "50 (30.7%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successful weaning ( n = 78)"
+      ],
+      "value": "27 (34.6%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Failure to wean ( n = 85)"
+      ],
+      "value": "23 (27.1%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristics"
+      ],
+      "value": "COPD"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total ( n = 163)"
+      ],
+      "value": "34 (20.9%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successful weaning ( n = 78)"
+      ],
+      "value": "12 (15.4%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Failure to wean ( n = 85)"
+      ],
+      "value": "22 (25.9%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristics"
+      ],
+      "value": "Malignancy"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total ( n = 163)"
+      ],
+      "value": "34 (20.9%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successful weaning ( n = 78)"
+      ],
+      "value": "14 (17.9%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Failure to wean ( n = 85)"
+      ],
+      "value": "20 (23.5%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristics"
+      ],
+      "value": "Congestive heart failure"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total ( n = 163)"
+      ],
+      "value": "32 (19.6%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successful weaning ( n = 78)"
+      ],
+      "value": "19 (24.4%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Failure to wean ( n = 85)"
+      ],
+      "value": "13 (15.3%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristics"
+      ],
+      "value": "Renal insufficiency"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total ( n = 163)"
+      ],
+      "value": "32 (19.6%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successful weaning ( n = 78)"
+      ],
+      "value": "15 (19.2%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Failure to wean ( n = 85)"
+      ],
+      "value": "17 (20.0%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "1.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristics"
+      ],
+      "value": "Stroke"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total ( n = 163)"
+      ],
+      "value": "25 (15.3%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successful weaning ( n = 78)"
+      ],
+      "value": "16 (20.5%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Failure to wean ( n = 85)"
+      ],
+      "value": "9 (10.6%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.09"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristics"
+      ],
+      "value": "Autoimmune disease"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total ( n = 163)"
+      ],
+      "value": "12 (7.4%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successful weaning ( n = 78)"
+      ],
+      "value": "5 (6.4%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Failure to wean ( n = 85)"
+      ],
+      "value": "7 (8.2%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristics"
+      ],
+      "value": "Cancer metastatic to lung"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total ( n = 163)"
+      ],
+      "value": "8 (4.9%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successful weaning ( n = 78)"
+      ],
+      "value": "1 (0.01%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Failure to wean ( n = 85)"
+      ],
+      "value": "7 (4.5%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.07"
+    }
+  ]
+}

@@ -1,6 +1,8 @@
-Account: Cash Cash
+Account: Cash
 Jan: 100
 Feb: 120
-Account: AR AR
+Account: Cash
+Account: AR
 Jan: 80
 Feb: 70
+Account: AR

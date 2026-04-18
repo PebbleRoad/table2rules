@@ -1,0 +1,398 @@
+<!-- source: PubTabNet imgid=62724 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+</td>
+<td>
+<b>
+       VPS
+      </b>
+</td>
+<td colspan="7">
+<b>
+       ReplaySuite use
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<b>
+       User
+      </b>
+</td>
+<td>
+      Examinations performed
+     </td>
+<td>
+      Total examinations replayed
+     </td>
+<td>
+      Own examinations replayed
+     </td>
+<td>
+      Other participants examinations replayed
+     </td>
+<td>
+      Diagnostic concordance graphs viewed
+     </td>
+<td>
+      Examination lists viewed
+     </td>
+<td>
+<b>
+       Total number of functions performed
+      </b>
+</td>
+<td>
+      Survey Submitted
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       10
+      </b>
+</td>
+<td>
+      10
+     </td>
+<td>
+      13
+     </td>
+<td>
+      7
+     </td>
+<td>
+      6
+     </td>
+<td>
+      3
+     </td>
+<td>
+      19
+     </td>
+<td>
+<b>
+       35
+      </b>
+</td>
+<td>
+      Y
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       74
+      </b>
+</td>
+<td>
+      10
+     </td>
+<td>
+      12
+     </td>
+<td>
+      4
+     </td>
+<td>
+      8
+     </td>
+<td>
+      11
+     </td>
+<td>
+      35
+     </td>
+<td>
+<b>
+       58
+      </b>
+</td>
+<td>
+      Y
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       55
+      </b>
+</td>
+<td>
+      10
+     </td>
+<td>
+      11
+     </td>
+<td>
+      10
+     </td>
+<td>
+      1
+     </td>
+<td>
+      28
+     </td>
+<td>
+      69
+     </td>
+<td>
+<b>
+       108
+      </b>
+</td>
+<td>
+      Y
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       7
+      </b>
+</td>
+<td>
+      10
+     </td>
+<td>
+      3
+     </td>
+<td>
+      2
+     </td>
+<td>
+      1
+     </td>
+<td>
+      4
+     </td>
+<td>
+      12
+     </td>
+<td>
+<b>
+       19
+      </b>
+</td>
+<td>
+      Y
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       36
+      </b>
+</td>
+<td>
+      10
+     </td>
+<td>
+      2
+     </td>
+<td>
+      1
+     </td>
+<td>
+      1
+     </td>
+<td>
+      0
+     </td>
+<td>
+      4
+     </td>
+<td>
+<b>
+       6
+      </b>
+</td>
+<td>
+      Y
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       39
+      </b>
+</td>
+<td>
+      10
+     </td>
+<td>
+      2
+     </td>
+<td>
+      2
+     </td>
+<td>
+      0
+     </td>
+<td>
+      13
+     </td>
+<td>
+      9
+     </td>
+<td>
+<b>
+       24
+      </b>
+</td>
+<td>
+      Y
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       102
+      </b>
+</td>
+<td>
+      10
+     </td>
+<td>
+      1
+     </td>
+<td>
+      0
+     </td>
+<td>
+      1
+     </td>
+<td>
+      0
+     </td>
+<td>
+      4
+     </td>
+<td>
+<b>
+       5
+      </b>
+</td>
+<td>
+      Y
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       57
+      </b>
+</td>
+<td>
+      10
+     </td>
+<td>
+      0
+     </td>
+<td>
+      0
+     </td>
+<td>
+      0
+     </td>
+<td>
+      9
+     </td>
+<td>
+      4
+     </td>
+<td>
+<b>
+       13
+      </b>
+</td>
+<td>
+      Y
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       60
+      </b>
+</td>
+<td>
+      2
+     </td>
+<td>
+      0
+     </td>
+<td>
+      0
+     </td>
+<td>
+      0
+     </td>
+<td>
+      0
+     </td>
+<td>
+      1
+     </td>
+<td>
+<b>
+       1
+      </b>
+</td>
+<td>
+      Y
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       Total
+      </b>
+</td>
+<td>
+<b>
+       92
+      </b>
+</td>
+<td>
+<b>
+       44
+      </b>
+</td>
+<td>
+<b>
+       26
+      </b>
+</td>
+<td>
+<b>
+       18
+      </b>
+</td>
+<td>
+<b>
+       68
+      </b>
+</td>
+<td>
+<b>
+       157
+      </b>
+</td>
+<td>
+<b>
+       269
+      </b>
+</td>
+<td>
+<b>
+       9
+      </b>
+</td>
+</tr>
+</tbody>
+</table>

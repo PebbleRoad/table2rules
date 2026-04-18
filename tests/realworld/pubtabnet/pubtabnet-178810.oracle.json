@@ -1,0 +1,395 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0",
+    "0.02 \u00a7",
+    "1 (10)",
+    "1 (14)",
+    "1 (8)",
+    "11 (85)",
+    "12 (92)",
+    "2 (15)",
+    "2 (20)",
+    "3 (30)",
+    "3 (43)",
+    "4 (57)",
+    "40.5 (9.6)",
+    "45.1 (11.1)",
+    "46.5 (15.0)",
+    "5 (50)",
+    "6 (46)",
+    "6 (86)",
+    "7 (54)",
+    "75.0 (13.4)",
+    "83.9 (23.1)",
+    "86.0 (25.0)",
+    "9 (90)",
+    "Age [mean (S.D.)]",
+    "Black",
+    "CAD [number (%)]",
+    "Caucasian",
+    "Controls (n = 10)",
+    "Diabetes and Renal Dysfunction (n = 7)",
+    "Female",
+    "Group I",
+    "Group II",
+    "Group III",
+    "Male",
+    "NS",
+    "No",
+    "Other",
+    "P-value",
+    "Parameter",
+    "Race [number (%)]",
+    "Renal Dysfunction (n = 13)",
+    "Sex [number (%)]",
+    "Weight",
+    "Yes",
+    "[mean kg (S.D.)]"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "Age [mean (S.D.)]"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group I",
+        "Controls (n = 10)"
+      ],
+      "value": "40.5 (9.6)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group II",
+        "Renal Dysfunction (n = 13)"
+      ],
+      "value": "46.5 (15.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group III",
+        "Diabetes and Renal Dysfunction (n = 7)"
+      ],
+      "value": "45.1 (11.1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P-value"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "Race [number (%)]"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "Caucasian"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group I",
+        "Controls (n = 10)"
+      ],
+      "value": "5 (50)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group II",
+        "Renal Dysfunction (n = 13)"
+      ],
+      "value": "1 (8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group III",
+        "Diabetes and Renal Dysfunction (n = 7)"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "Black"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group I",
+        "Controls (n = 10)"
+      ],
+      "value": "3 (30)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group II",
+        "Renal Dysfunction (n = 13)"
+      ],
+      "value": "12 (92)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group III",
+        "Diabetes and Renal Dysfunction (n = 7)"
+      ],
+      "value": "6 (86)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P-value"
+      ],
+      "value": "0.02 \u00a7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "Other"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group I",
+        "Controls (n = 10)"
+      ],
+      "value": "2 (20)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group II",
+        "Renal Dysfunction (n = 13)"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group III",
+        "Diabetes and Renal Dysfunction (n = 7)"
+      ],
+      "value": "1 (14)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "Sex [number (%)]"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "Male"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group I",
+        "Controls (n = 10)"
+      ],
+      "value": "5 (50)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group II",
+        "Renal Dysfunction (n = 13)"
+      ],
+      "value": "7 (54)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group III",
+        "Diabetes and Renal Dysfunction (n = 7)"
+      ],
+      "value": "3 (43)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P-value"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "Female"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group I",
+        "Controls (n = 10)"
+      ],
+      "value": "5 (50)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group II",
+        "Renal Dysfunction (n = 13)"
+      ],
+      "value": "6 (46)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group III",
+        "Diabetes and Renal Dysfunction (n = 7)"
+      ],
+      "value": "4 (57)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "Weight"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "[mean kg (S.D.)]"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group I",
+        "Controls (n = 10)"
+      ],
+      "value": "75.0 (13.4)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group II",
+        "Renal Dysfunction (n = 13)"
+      ],
+      "value": "83.9 (23.1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group III",
+        "Diabetes and Renal Dysfunction (n = 7)"
+      ],
+      "value": "86.0 (25.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P-value"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "CAD [number (%)]"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "Yes"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group I",
+        "Controls (n = 10)"
+      ],
+      "value": "1 (10)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group II",
+        "Renal Dysfunction (n = 13)"
+      ],
+      "value": "2 (15)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group III",
+        "Diabetes and Renal Dysfunction (n = 7)"
+      ],
+      "value": "3 (43)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P-value"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "No"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group I",
+        "Controls (n = 10)"
+      ],
+      "value": "9 (90)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group II",
+        "Renal Dysfunction (n = 13)"
+      ],
+      "value": "11 (85)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group III",
+        "Diabetes and Renal Dysfunction (n = 7)"
+      ],
+      "value": "4 (57)"
+    }
+  ]
+}

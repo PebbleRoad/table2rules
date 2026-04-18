@@ -1,0 +1,379 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0 (n = 62)",
+    "0.75",
+    "1 (n = 58)",
+    "1.06",
+    "1.09",
+    "1.59",
+    "1.64",
+    "1.75",
+    "2 (n = 40)",
+    "2.00",
+    "2.04",
+    "2.09",
+    "2.60",
+    "2.65",
+    "2.73",
+    "2.75",
+    "3 (n = 22)",
+    "3.13",
+    "3.18",
+    "3.23",
+    "3.68",
+    "3.70",
+    "4 (n = 9)",
+    "4.00",
+    "4.13",
+    "4.2",
+    "4.23",
+    "4.27",
+    "4.5",
+    "5 (n = 9)",
+    "5.06",
+    "6",
+    "6.4",
+    "7.35",
+    "8.29",
+    "Hospital Day (Number of children in hospital for that duration)",
+    "Racemic epinephrine",
+    "Retractions",
+    "Salbutamol",
+    "Total RDAI score",
+    "Total Wheezing score"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Hospital Day (Number of children in hospital for that duration)"
+      ],
+      "value": "0 (n = 62)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total Wheezing score",
+        "Racemic epinephrine"
+      ],
+      "value": "4.23"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total Wheezing score",
+        "Salbutamol"
+      ],
+      "value": "5.06"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retractions",
+        "Racemic epinephrine"
+      ],
+      "value": "3.13"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retractions",
+        "Salbutamol"
+      ],
+      "value": "3.23"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total RDAI score",
+        "Racemic epinephrine"
+      ],
+      "value": "7.35"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total RDAI score",
+        "Salbutamol"
+      ],
+      "value": "8.29"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hospital Day (Number of children in hospital for that duration)"
+      ],
+      "value": "1 (n = 58)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total Wheezing score",
+        "Racemic epinephrine"
+      ],
+      "value": "2.04"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total Wheezing score",
+        "Salbutamol"
+      ],
+      "value": "3.70"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retractions",
+        "Racemic epinephrine"
+      ],
+      "value": "1.64"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retractions",
+        "Salbutamol"
+      ],
+      "value": "1.64"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total RDAI score",
+        "Racemic epinephrine"
+      ],
+      "value": "3.68"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total RDAI score",
+        "Salbutamol"
+      ],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hospital Day (Number of children in hospital for that duration)"
+      ],
+      "value": "2 (n = 40)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total Wheezing score",
+        "Racemic epinephrine"
+      ],
+      "value": "1.59"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total Wheezing score",
+        "Salbutamol"
+      ],
+      "value": "2.65"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retractions",
+        "Racemic epinephrine"
+      ],
+      "value": "1.06"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retractions",
+        "Salbutamol"
+      ],
+      "value": "1.06"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total RDAI score",
+        "Racemic epinephrine"
+      ],
+      "value": "2.65"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total RDAI score",
+        "Salbutamol"
+      ],
+      "value": "4.13"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hospital Day (Number of children in hospital for that duration)"
+      ],
+      "value": "3 (n = 22)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total Wheezing score",
+        "Racemic epinephrine"
+      ],
+      "value": "2.09"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total Wheezing score",
+        "Salbutamol"
+      ],
+      "value": "2.73"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retractions",
+        "Racemic epinephrine"
+      ],
+      "value": "1.09"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retractions",
+        "Salbutamol"
+      ],
+      "value": "1.09"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total RDAI score",
+        "Racemic epinephrine"
+      ],
+      "value": "3.18"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total RDAI score",
+        "Salbutamol"
+      ],
+      "value": "4.27"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hospital Day (Number of children in hospital for that duration)"
+      ],
+      "value": "4 (n = 9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total Wheezing score",
+        "Racemic epinephrine"
+      ],
+      "value": "2.75"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total Wheezing score",
+        "Salbutamol"
+      ],
+      "value": "4.00"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retractions",
+        "Racemic epinephrine"
+      ],
+      "value": "1.75"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retractions",
+        "Salbutamol"
+      ],
+      "value": "1.75"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total RDAI score",
+        "Racemic epinephrine"
+      ],
+      "value": "4.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total RDAI score",
+        "Salbutamol"
+      ],
+      "value": "6.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hospital Day (Number of children in hospital for that duration)"
+      ],
+      "value": "5 (n = 9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total Wheezing score",
+        "Racemic epinephrine"
+      ],
+      "value": "2.00"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total Wheezing score",
+        "Salbutamol"
+      ],
+      "value": "2.60"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retractions",
+        "Racemic epinephrine"
+      ],
+      "value": "0.75"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retractions",
+        "Salbutamol"
+      ],
+      "value": "0.75"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total RDAI score",
+        "Racemic epinephrine"
+      ],
+      "value": "2.75"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total RDAI score",
+        "Salbutamol"
+      ],
+      "value": "4.2"
+    }
+  ]
+}

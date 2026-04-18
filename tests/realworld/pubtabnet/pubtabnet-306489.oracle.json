@@ -1,0 +1,289 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0.0005",
+    "0.0018",
+    "0.0074",
+    "0.0572",
+    "1 050",
+    "1 300",
+    "1.3",
+    "1.4",
+    "11.4 %",
+    "11.7 \u00b1 5.9",
+    "120",
+    "168.4 \u00b1 20.1",
+    "17.7 %",
+    "180",
+    "2.0",
+    "21.9 \u00b1 8.1",
+    "230",
+    "3.1",
+    "3.4 %",
+    "36",
+    "44",
+    "5 722",
+    "52",
+    "741",
+    "94.2 \u00b1 15.6",
+    "Adult testis somatic cells (ATSC)",
+    "Gene counts in randomized genomes (mean \u00b1 std. dev.)",
+    "Observed gene counts",
+    "Permutations yielding > = observed gene counts",
+    "Proportion of preferentially expressed genes",
+    "Ratio observed/mean in randomized genomes",
+    "Total testis (TT 1+2)",
+    "in loose clusters",
+    "in tight clusters",
+    "p-value (one tailed)"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Observed gene counts"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total testis (TT 1+2)",
+        "1 300",
+        "in tight clusters"
+      ],
+      "value": "44"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total testis (TT 1+2)",
+        "1 300",
+        "in loose clusters"
+      ],
+      "value": "230"
+    },
+    {
+      "row": [],
+      "col": [
+        "Adult testis somatic cells (ATSC)",
+        "1 050",
+        "in tight clusters"
+      ],
+      "value": "36"
+    },
+    {
+      "row": [],
+      "col": [
+        "Adult testis somatic cells (ATSC)",
+        "1 050",
+        "in loose clusters"
+      ],
+      "value": "120"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Proportion of preferentially expressed genes"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total testis (TT 1+2)",
+        "1 300",
+        "in tight clusters"
+      ],
+      "value": "3.4 %"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total testis (TT 1+2)",
+        "1 300",
+        "in loose clusters"
+      ],
+      "value": "17.7 %"
+    },
+    {
+      "row": [],
+      "col": [
+        "Adult testis somatic cells (ATSC)",
+        "1 050",
+        "in tight clusters"
+      ],
+      "value": "3.4 %"
+    },
+    {
+      "row": [],
+      "col": [
+        "Adult testis somatic cells (ATSC)",
+        "1 050",
+        "in loose clusters"
+      ],
+      "value": "11.4 %"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Gene counts in randomized genomes (mean \u00b1 std. dev.)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total testis (TT 1+2)",
+        "1 300",
+        "in tight clusters"
+      ],
+      "value": "21.9 \u00b1 8.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total testis (TT 1+2)",
+        "1 300",
+        "in loose clusters"
+      ],
+      "value": "168.4 \u00b1 20.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Adult testis somatic cells (ATSC)",
+        "1 050",
+        "in tight clusters"
+      ],
+      "value": "11.7 \u00b1 5.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Adult testis somatic cells (ATSC)",
+        "1 050",
+        "in loose clusters"
+      ],
+      "value": "94.2 \u00b1 15.6"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Ratio observed/mean in randomized genomes"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total testis (TT 1+2)",
+        "1 300",
+        "in tight clusters"
+      ],
+      "value": "2.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total testis (TT 1+2)",
+        "1 300",
+        "in loose clusters"
+      ],
+      "value": "1.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Adult testis somatic cells (ATSC)",
+        "1 050",
+        "in tight clusters"
+      ],
+      "value": "3.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Adult testis somatic cells (ATSC)",
+        "1 050",
+        "in loose clusters"
+      ],
+      "value": "1.3"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Permutations yielding > = observed gene counts"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total testis (TT 1+2)",
+        "1 300",
+        "in tight clusters"
+      ],
+      "value": "741"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total testis (TT 1+2)",
+        "1 300",
+        "in loose clusters"
+      ],
+      "value": "180"
+    },
+    {
+      "row": [],
+      "col": [
+        "Adult testis somatic cells (ATSC)",
+        "1 050",
+        "in tight clusters"
+      ],
+      "value": "52"
+    },
+    {
+      "row": [],
+      "col": [
+        "Adult testis somatic cells (ATSC)",
+        "1 050",
+        "in loose clusters"
+      ],
+      "value": "5 722"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "p-value (one tailed)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total testis (TT 1+2)",
+        "1 300",
+        "in tight clusters"
+      ],
+      "value": "0.0074"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total testis (TT 1+2)",
+        "1 300",
+        "in loose clusters"
+      ],
+      "value": "0.0018"
+    },
+    {
+      "row": [],
+      "col": [
+        "Adult testis somatic cells (ATSC)",
+        "1 050",
+        "in tight clusters"
+      ],
+      "value": "0.0005"
+    },
+    {
+      "row": [],
+      "col": [
+        "Adult testis somatic cells (ATSC)",
+        "1 050",
+        "in loose clusters"
+      ],
+      "value": "0.0572"
+    }
+  ]
+}

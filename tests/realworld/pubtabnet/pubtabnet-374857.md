@@ -1,0 +1,277 @@
+<!-- source: PubTabNet imgid=374857 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td colspan="3">
+<b>
+       12 months
+      </b>
+</td>
+<td colspan="3">
+<b>
+       24 months
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td>
+<b>
+       DPT
+      </b>
+</td>
+<td>
+<b>
+       Polio
+      </b>
+</td>
+<td>
+<b>
+       Hepatitis B
+      </b>
+</td>
+<td>
+<b>
+       DPT
+      </b>
+</td>
+<td>
+<b>
+       Polio
+      </b>
+</td>
+<td>
+<b>
+       Hepatitis B
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td>
+<b>
+       %
+      </b>
+</td>
+<td>
+<b>
+       %
+      </b>
+</td>
+<td>
+<b>
+       %
+      </b>
+</td>
+<td>
+<b>
+       %
+      </b>
+</td>
+<td>
+<b>
+       %
+      </b>
+</td>
+<td>
+<b>
+       %
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      2001
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      Municipality of Bologna
+     </td>
+<td>
+      98.7
+     </td>
+<td>
+      98.5
+     </td>
+<td>
+      97.1
+     </td>
+<td>
+      98.3
+     </td>
+<td>
+      97.9
+     </td>
+<td>
+      96.5
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      Emilia Romagna
+     </td>
+<td>
+      98.5
+     </td>
+<td>
+      98.4
+     </td>
+<td>
+      98.1
+     </td>
+<td>
+      98.5
+     </td>
+<td>
+      98.4
+     </td>
+<td>
+      98.0
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      Italy
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+      96.1
+     </td>
+<td>
+      96.0
+     </td>
+<td>
+      94.7
+     </td>
+</tr>
+<tr>
+<td>
+      2002
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      Municipality of Bologna
+     </td>
+<td>
+      96.7
+     </td>
+<td>
+      96.7
+     </td>
+<td>
+      95.9
+     </td>
+<td>
+      97.5
+     </td>
+<td>
+      97.4
+     </td>
+<td>
+      96.0
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      Emilia Romagna
+     </td>
+<td>
+      98.2
+     </td>
+<td>
+      98.2
+     </td>
+<td>
+      97.7
+     </td>
+<td>
+      98.1
+     </td>
+<td>
+      98.0
+     </td>
+<td>
+      97.5
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      Italy*
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+      96.9
+     </td>
+<td>
+      96.7
+     </td>
+<td>
+      95.7
+     </td>
+</tr>
+</tbody>
+</table>

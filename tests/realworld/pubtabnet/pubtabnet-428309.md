@@ -1,0 +1,327 @@
+<!-- source: PubTabNet imgid=428309 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td colspan="2">
+<b>
+       Pre-treat
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Post-treat
+      </b>
+</td>
+<td>
+<b>
+       Re-expression
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      Gene
+     </td>
+<td>
+      dose level
+     </td>
+<td>
+      M
+     </td>
+<td>
+      U
+     </td>
+<td>
+      M
+     </td>
+<td>
+      U
+     </td>
+<td>
+      Yes/No
+     </td>
+</tr>
+<tr>
+<td>
+      DAPK
+     </td>
+<td>
+      50
+     </td>
+<td>
+      +
+     </td>
+<td>
+      -
+     </td>
+<td>
+      +
+     </td>
+<td>
+      -
+     </td>
+<td>
+      No
+     </td>
+</tr>
+<tr>
+<td>
+      DAPK
+     </td>
+<td>
+      50
+     </td>
+<td>
+      +
+     </td>
+<td>
+      -
+     </td>
+<td>
+      +
+     </td>
+<td>
+      -
+     </td>
+<td>
+      No
+     </td>
+</tr>
+<tr>
+<td>
+      GSTp1
+     </td>
+<td>
+      50
+     </td>
+<td>
+      +
+     </td>
+<td>
+      -
+     </td>
+<td>
+      +
+     </td>
+<td>
+      -
+     </td>
+<td>
+      No
+     </td>
+</tr>
+<tr>
+<td>
+      FHIT
+     </td>
+<td>
+      100
+     </td>
+<td>
+      +
+     </td>
+<td>
+      -
+     </td>
+<td>
+      +
+     </td>
+<td>
+      +
+     </td>
+<td>
+      Yes
+     </td>
+</tr>
+<tr>
+<td>
+      FHIT
+     </td>
+<td>
+      150
+     </td>
+<td>
+      +
+     </td>
+<td>
+      -
+     </td>
+<td>
+      +
+     </td>
+<td>
+      +
+     </td>
+<td>
+      Yes
+     </td>
+</tr>
+<tr>
+<td>
+      MGMT
+     </td>
+<td>
+      75
+     </td>
+<td>
+      +
+     </td>
+<td>
+      -
+     </td>
+<td>
+      +
+     </td>
+<td>
+      +
+     </td>
+<td>
+      Yes
+     </td>
+</tr>
+<tr>
+<td>
+      MGMT
+     </td>
+<td>
+      150
+     </td>
+<td>
+      +
+     </td>
+<td>
+      -
+     </td>
+<td>
+      +
+     </td>
+<td>
+      +
+     </td>
+<td>
+      Yes
+     </td>
+</tr>
+<tr>
+<td>
+      GSTp1
+     </td>
+<td>
+      50
+     </td>
+<td>
+      +
+     </td>
+<td>
+      -
+     </td>
+<td>
+      +
+     </td>
+<td>
+      +
+     </td>
+<td>
+      Yes
+     </td>
+</tr>
+<tr>
+<td>
+      DAPK
+     </td>
+<td>
+      75
+     </td>
+<td>
+      +
+     </td>
+<td>
+      -
+     </td>
+<td>
+      -
+     </td>
+<td>
+      +
+     </td>
+<td>
+      Yes
+     </td>
+</tr>
+<tr>
+<td>
+      ER
+     </td>
+<td>
+      75
+     </td>
+<td>
+      +
+     </td>
+<td>
+      -
+     </td>
+<td>
+      -
+     </td>
+<td>
+      +
+     </td>
+<td>
+      Yes
+     </td>
+</tr>
+<tr>
+<td>
+      GSTp1
+     </td>
+<td>
+      150
+     </td>
+<td>
+      +
+     </td>
+<td>
+      -
+     </td>
+<td>
+      -
+     </td>
+<td>
+      +
+     </td>
+<td>
+      Yes
+     </td>
+</tr>
+<tr>
+<td>
+      GSTp1
+     </td>
+<td>
+      75
+     </td>
+<td>
+      +
+     </td>
+<td>
+      +
+     </td>
+<td>
+      -
+     </td>
+<td>
+      +
+     </td>
+<td>
+      Yes
+     </td>
+</tr>
+</tbody>
+</table>

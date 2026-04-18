@@ -1,0 +1,453 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0.0040",
+    "0.0101",
+    "0.0279",
+    "0.0376",
+    "0.0543",
+    "0.1121",
+    "0.1320",
+    "0.1353",
+    "0.1797",
+    "0.1905",
+    "0.2093",
+    "0.2200",
+    "0.2560",
+    "0.2670",
+    "0.2856",
+    "0.4761",
+    "0.5915",
+    "1.43345",
+    "1.51",
+    "10.3394",
+    "100",
+    "11.1581",
+    "11.31",
+    "1136.49",
+    "2.69865",
+    "20.8404",
+    "23.5032",
+    "24.96",
+    "298.818",
+    "3.33283",
+    "30.27",
+    "304.66",
+    "32",
+    "38.7233",
+    "49.3335",
+    "54.77",
+    "62.89",
+    "677.607",
+    "< 0.0001",
+    "Age (years)",
+    "C-reactive protein (mg/l)",
+    "Cathepsin K",
+    "Coeffficient",
+    "Disease activity score",
+    "Erythrocyte sedimentation rate (mm/hour)",
+    "Larsen score",
+    "Mean",
+    "Morning stiffness (min)",
+    "Probability > | r |",
+    "Proximal interphalangeal score",
+    "Rheumatoid factor (U/l)",
+    "Ritchie score",
+    "Standard deviation",
+    "Variable 1",
+    "Variable 2",
+    "n"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Variable 1"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Cathepsin K"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean"
+      ],
+      "value": "304.66"
+    },
+    {
+      "row": [],
+      "col": [
+        "Standard deviation"
+      ],
+      "value": "677.607"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Variable 2"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Age (years)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean"
+      ],
+      "value": "62.89"
+    },
+    {
+      "row": [],
+      "col": [
+        "Standard deviation"
+      ],
+      "value": "11.1581"
+    },
+    {
+      "row": [],
+      "col": [
+        "n"
+      ],
+      "value": "100"
+    },
+    {
+      "row": [],
+      "col": [
+        "Coeffficient"
+      ],
+      "value": "0.0543"
+    },
+    {
+      "row": [],
+      "col": [
+        "Probability > | r |"
+      ],
+      "value": "0.5915"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Rheumatoid factor (U/l)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean"
+      ],
+      "value": "298.818"
+    },
+    {
+      "row": [],
+      "col": [
+        "Standard deviation"
+      ],
+      "value": "1136.49"
+    },
+    {
+      "row": [],
+      "col": [
+        "n"
+      ],
+      "value": "100"
+    },
+    {
+      "row": [],
+      "col": [
+        "Coeffficient"
+      ],
+      "value": "0.4761"
+    },
+    {
+      "row": [],
+      "col": [
+        "Probability > | r |"
+      ],
+      "value": "< 0.0001"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Morning stiffness (min)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean"
+      ],
+      "value": "32"
+    },
+    {
+      "row": [],
+      "col": [
+        "Standard deviation"
+      ],
+      "value": "38.7233"
+    },
+    {
+      "row": [],
+      "col": [
+        "n"
+      ],
+      "value": "100"
+    },
+    {
+      "row": [],
+      "col": [
+        "Coeffficient"
+      ],
+      "value": "0.1320"
+    },
+    {
+      "row": [],
+      "col": [
+        "Probability > | r |"
+      ],
+      "value": "0.1905"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Erythrocyte sedimentation rate (mm/hour)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean"
+      ],
+      "value": "30.27"
+    },
+    {
+      "row": [],
+      "col": [
+        "Standard deviation"
+      ],
+      "value": "20.8404"
+    },
+    {
+      "row": [],
+      "col": [
+        "n"
+      ],
+      "value": "100"
+    },
+    {
+      "row": [],
+      "col": [
+        "Coeffficient"
+      ],
+      "value": "0.2200"
+    },
+    {
+      "row": [],
+      "col": [
+        "Probability > | r |"
+      ],
+      "value": "0.0279"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "C-reactive protein (mg/l)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean"
+      ],
+      "value": "24.96"
+    },
+    {
+      "row": [],
+      "col": [
+        "Standard deviation"
+      ],
+      "value": "23.5032"
+    },
+    {
+      "row": [],
+      "col": [
+        "n"
+      ],
+      "value": "100"
+    },
+    {
+      "row": [],
+      "col": [
+        "Coeffficient"
+      ],
+      "value": "0.1121"
+    },
+    {
+      "row": [],
+      "col": [
+        "Probability > | r |"
+      ],
+      "value": "0.2670"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Ritchie score"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean"
+      ],
+      "value": "11.31"
+    },
+    {
+      "row": [],
+      "col": [
+        "Standard deviation"
+      ],
+      "value": "10.3394"
+    },
+    {
+      "row": [],
+      "col": [
+        "n"
+      ],
+      "value": "100"
+    },
+    {
+      "row": [],
+      "col": [
+        "Coeffficient"
+      ],
+      "value": "0.1353"
+    },
+    {
+      "row": [],
+      "col": [
+        "Probability > | r |"
+      ],
+      "value": "0.1797"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Proximal interphalangeal score"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean"
+      ],
+      "value": "1.51"
+    },
+    {
+      "row": [],
+      "col": [
+        "Standard deviation"
+      ],
+      "value": "2.69865"
+    },
+    {
+      "row": [],
+      "col": [
+        "n"
+      ],
+      "value": "100"
+    },
+    {
+      "row": [],
+      "col": [
+        "Coeffficient"
+      ],
+      "value": "0.2560"
+    },
+    {
+      "row": [],
+      "col": [
+        "Probability > | r |"
+      ],
+      "value": "0.0101"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Disease activity score"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean"
+      ],
+      "value": "3.33283"
+    },
+    {
+      "row": [],
+      "col": [
+        "Standard deviation"
+      ],
+      "value": "1.43345"
+    },
+    {
+      "row": [],
+      "col": [
+        "n"
+      ],
+      "value": "100"
+    },
+    {
+      "row": [],
+      "col": [
+        "Coeffficient"
+      ],
+      "value": "0.2093"
+    },
+    {
+      "row": [],
+      "col": [
+        "Probability > | r |"
+      ],
+      "value": "0.0376"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Larsen score"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean"
+      ],
+      "value": "54.77"
+    },
+    {
+      "row": [],
+      "col": [
+        "Standard deviation"
+      ],
+      "value": "49.3335"
+    },
+    {
+      "row": [],
+      "col": [
+        "n"
+      ],
+      "value": "100"
+    },
+    {
+      "row": [],
+      "col": [
+        "Coeffficient"
+      ],
+      "value": "0.2856"
+    },
+    {
+      "row": [],
+      "col": [
+        "Probability > | r |"
+      ],
+      "value": "0.0040"
+    }
+  ]
+}

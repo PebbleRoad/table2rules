@@ -1,0 +1,1204 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "-0.08",
+    "-0.10",
+    "-0.11",
+    "-0.17",
+    "-0.28",
+    "-0.40",
+    "-0.67",
+    "-1.34",
+    "-2.88",
+    "-3.20",
+    "0.01",
+    "0.11",
+    "0.12",
+    "0.17",
+    "0.22",
+    "0.26",
+    "0.27",
+    "0.28",
+    "0.29",
+    "0.30",
+    "0.31",
+    "0.32",
+    "0.33",
+    "0.34",
+    "0.35",
+    "0.46",
+    "0.54",
+    "0.56",
+    "0.57",
+    "0.60",
+    "0.61",
+    "0.62",
+    "0.64",
+    "0.65",
+    "0.73",
+    "0.76",
+    "0.82",
+    "0.83",
+    "0.85",
+    "0.96",
+    "1.19",
+    "1.20",
+    "1.46",
+    "1.47",
+    "10.21",
+    "10.29",
+    "10.56",
+    "11.87",
+    "13",
+    "19",
+    "201456_s_at",
+    "202405_at",
+    "202922_at",
+    "203607_at",
+    "204127_at",
+    "206853_s_at",
+    "209175_at",
+    "210365_at",
+    "210742_at",
+    "213702_x_at",
+    "215111_s_at",
+    "218090_s_at",
+    "218420_s_at",
+    "218723_s_at",
+    "219024_at",
+    "219067_s_at",
+    "22",
+    "220408_x_at",
+    "5.77",
+    "6.61",
+    "6.65",
+    "6.68",
+    "6.71",
+    "6.95",
+    "6.99",
+    "7.35",
+    "7.36",
+    "7.64",
+    "7.86",
+    "7.96",
+    "8.10",
+    "8.11",
+    "8.18",
+    "8.30",
+    "8.35",
+    "8.41",
+    "8.43",
+    "8.50",
+    "8.54",
+    "8.72",
+    "8.86",
+    "9.04",
+    "9.20",
+    "9.24",
+    "9.55",
+    "9.70",
+    "9.77",
+    "AFFY ID",
+    "ASAH1",
+    "BUB3",
+    "CDC14A",
+    "CORRELATION",
+    "EXPRESSION",
+    "FLJ12661",
+    "FLJ20003",
+    "GCLC",
+    "GENE",
+    "MAP3K7",
+    "MAS 5.0",
+    "MAS-qRT-PCR",
+    "NAME",
+    "P125",
+    "P38IP",
+    "PLEKHA1",
+    "RFC3",
+    "RGC32",
+    "RMA",
+    "RMA-qRT-PCR",
+    "RUNX1",
+    "SAC2",
+    "TIAL1",
+    "TSC22",
+    "WDR11",
+    "n",
+    "qRT-PCR"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "GENE",
+        "NAME"
+      ],
+      "value": "CDC14A"
+    },
+    {
+      "row": [],
+      "col": [
+        "GENE",
+        "AFFY ID"
+      ],
+      "value": "210742_at"
+    },
+    {
+      "row": [],
+      "col": [
+        "n"
+      ],
+      "value": "13"
+    },
+    {
+      "row": [],
+      "col": [
+        "EXPRESSION",
+        "RMA"
+      ],
+      "value": "5.77"
+    },
+    {
+      "row": [],
+      "col": [
+        "EXPRESSION",
+        "MAS 5.0"
+      ],
+      "value": "7.64"
+    },
+    {
+      "row": [],
+      "col": [
+        "EXPRESSION",
+        "qRT-PCR"
+      ],
+      "value": "-0.67"
+    },
+    {
+      "row": [],
+      "col": [
+        "CORRELATION",
+        "RMA-qRT-PCR"
+      ],
+      "value": "0.31"
+    },
+    {
+      "row": [],
+      "col": [
+        "CORRELATION",
+        "MAS-qRT-PCR"
+      ],
+      "value": "0.26"
+    },
+    {
+      "row": [],
+      "col": [
+        "GENE",
+        "NAME"
+      ],
+      "value": "P125"
+    },
+    {
+      "row": [],
+      "col": [
+        "GENE",
+        "AFFY ID"
+      ],
+      "value": "209175_at"
+    },
+    {
+      "row": [],
+      "col": [
+        "n"
+      ],
+      "value": "19"
+    },
+    {
+      "row": [],
+      "col": [
+        "EXPRESSION",
+        "RMA"
+      ],
+      "value": "6.61"
+    },
+    {
+      "row": [],
+      "col": [
+        "EXPRESSION",
+        "MAS 5.0"
+      ],
+      "value": "8.43"
+    },
+    {
+      "row": [],
+      "col": [
+        "EXPRESSION",
+        "qRT-PCR"
+      ],
+      "value": "0.54"
+    },
+    {
+      "row": [],
+      "col": [
+        "CORRELATION",
+        "RMA-qRT-PCR"
+      ],
+      "value": "0.11"
+    },
+    {
+      "row": [],
+      "col": [
+        "CORRELATION",
+        "MAS-qRT-PCR"
+      ],
+      "value": "-0.11"
+    },
+    {
+      "row": [],
+      "col": [
+        "GENE",
+        "NAME"
+      ],
+      "value": "GCLC"
+    },
+    {
+      "row": [],
+      "col": [
+        "GENE",
+        "AFFY ID"
+      ],
+      "value": "202922_at"
+    },
+    {
+      "row": [],
+      "col": [
+        "n"
+      ],
+      "value": "13"
+    },
+    {
+      "row": [],
+      "col": [
+        "EXPRESSION",
+        "RMA"
+      ],
+      "value": "6.65"
+    },
+    {
+      "row": [],
+      "col": [
+        "EXPRESSION",
+        "MAS 5.0"
+      ],
+      "value": "9.20"
+    },
+    {
+      "row": [],
+      "col": [
+        "EXPRESSION",
+        "qRT-PCR"
+      ],
+      "value": "0.33"
+    },
+    {
+      "row": [],
+      "col": [
+        "CORRELATION",
+        "RMA-qRT-PCR"
+      ],
+      "value": "0.46"
+    },
+    {
+      "row": [],
+      "col": [
+        "CORRELATION",
+        "MAS-qRT-PCR"
+      ],
+      "value": "0.56"
+    },
+    {
+      "row": [],
+      "col": [
+        "GENE",
+        "NAME"
+      ],
+      "value": "MAP3K7"
+    },
+    {
+      "row": [],
+      "col": [
+        "GENE",
+        "AFFY ID"
+      ],
+      "value": "206853_s_at"
+    },
+    {
+      "row": [],
+      "col": [
+        "n"
+      ],
+      "value": "13"
+    },
+    {
+      "row": [],
+      "col": [
+        "EXPRESSION",
+        "RMA"
+      ],
+      "value": "6.65"
+    },
+    {
+      "row": [],
+      "col": [
+        "EXPRESSION",
+        "MAS 5.0"
+      ],
+      "value": "8.72"
+    },
+    {
+      "row": [],
+      "col": [
+        "EXPRESSION",
+        "qRT-PCR"
+      ],
+      "value": "1.19"
+    },
+    {
+      "row": [],
+      "col": [
+        "CORRELATION",
+        "RMA-qRT-PCR"
+      ],
+      "value": "0.11"
+    },
+    {
+      "row": [],
+      "col": [
+        "CORRELATION",
+        "MAS-qRT-PCR"
+      ],
+      "value": "-0.10"
+    },
+    {
+      "row": [],
+      "col": [
+        "GENE",
+        "NAME"
+      ],
+      "value": "TIAL1"
+    },
+    {
+      "row": [],
+      "col": [
+        "GENE",
+        "AFFY ID"
+      ],
+      "value": "202405_at"
+    },
+    {
+      "row": [],
+      "col": [
+        "n"
+      ],
+      "value": "19"
+    },
+    {
+      "row": [],
+      "col": [
+        "EXPRESSION",
+        "RMA"
+      ],
+      "value": "6.68"
+    },
+    {
+      "row": [],
+      "col": [
+        "EXPRESSION",
+        "MAS 5.0"
+      ],
+      "value": "7.86"
+    },
+    {
+      "row": [],
+      "col": [
+        "EXPRESSION",
+        "qRT-PCR"
+      ],
+      "value": "0.30"
+    },
+    {
+      "row": [],
+      "col": [
+        "CORRELATION",
+        "RMA-qRT-PCR"
+      ],
+      "value": "0.32"
+    },
+    {
+      "row": [],
+      "col": [
+        "CORRELATION",
+        "MAS-qRT-PCR"
+      ],
+      "value": "0.17"
+    },
+    {
+      "row": [],
+      "col": [
+        "GENE",
+        "NAME"
+      ],
+      "value": "FLJ20003"
+    },
+    {
+      "row": [],
+      "col": [
+        "GENE",
+        "AFFY ID"
+      ],
+      "value": "219067_s_at"
+    },
+    {
+      "row": [],
+      "col": [
+        "n"
+      ],
+      "value": "19"
+    },
+    {
+      "row": [],
+      "col": [
+        "EXPRESSION",
+        "RMA"
+      ],
+      "value": "6.71"
+    },
+    {
+      "row": [],
+      "col": [
+        "EXPRESSION",
+        "MAS 5.0"
+      ],
+      "value": "8.54"
+    },
+    {
+      "row": [],
+      "col": [
+        "EXPRESSION",
+        "qRT-PCR"
+      ],
+      "value": "0.64"
+    },
+    {
+      "row": [],
+      "col": [
+        "CORRELATION",
+        "RMA-qRT-PCR"
+      ],
+      "value": "0.64"
+    },
+    {
+      "row": [],
+      "col": [
+        "CORRELATION",
+        "MAS-qRT-PCR"
+      ],
+      "value": "0.34"
+    },
+    {
+      "row": [],
+      "col": [
+        "GENE",
+        "NAME"
+      ],
+      "value": "RUNX1"
+    },
+    {
+      "row": [],
+      "col": [
+        "GENE",
+        "AFFY ID"
+      ],
+      "value": "210365_at"
+    },
+    {
+      "row": [],
+      "col": [
+        "n"
+      ],
+      "value": "13"
+    },
+    {
+      "row": [],
+      "col": [
+        "EXPRESSION",
+        "RMA"
+      ],
+      "value": "6.95"
+    },
+    {
+      "row": [],
+      "col": [
+        "EXPRESSION",
+        "MAS 5.0"
+      ],
+      "value": "9.24"
+    },
+    {
+      "row": [],
+      "col": [
+        "EXPRESSION",
+        "qRT-PCR"
+      ],
+      "value": "1.47"
+    },
+    {
+      "row": [],
+      "col": [
+        "CORRELATION",
+        "RMA-qRT-PCR"
+      ],
+      "value": "0.29"
+    },
+    {
+      "row": [],
+      "col": [
+        "CORRELATION",
+        "MAS-qRT-PCR"
+      ],
+      "value": "0.28"
+    },
+    {
+      "row": [],
+      "col": [
+        "GENE",
+        "NAME"
+      ],
+      "value": "PLEKHA1"
+    },
+    {
+      "row": [],
+      "col": [
+        "GENE",
+        "AFFY ID"
+      ],
+      "value": "219024_at"
+    },
+    {
+      "row": [],
+      "col": [
+        "n"
+      ],
+      "value": "19"
+    },
+    {
+      "row": [],
+      "col": [
+        "EXPRESSION",
+        "RMA"
+      ],
+      "value": "6.99"
+    },
+    {
+      "row": [],
+      "col": [
+        "EXPRESSION",
+        "MAS 5.0"
+      ],
+      "value": "8.18"
+    },
+    {
+      "row": [],
+      "col": [
+        "EXPRESSION",
+        "qRT-PCR"
+      ],
+      "value": "-2.88"
+    },
+    {
+      "row": [],
+      "col": [
+        "CORRELATION",
+        "RMA-qRT-PCR"
+      ],
+      "value": "-0.40"
+    },
+    {
+      "row": [],
+      "col": [
+        "CORRELATION",
+        "MAS-qRT-PCR"
+      ],
+      "value": "-0.28"
+    },
+    {
+      "row": [],
+      "col": [
+        "GENE",
+        "NAME"
+      ],
+      "value": "FLJ12661"
+    },
+    {
+      "row": [],
+      "col": [
+        "GENE",
+        "AFFY ID"
+      ],
+      "value": "218420_s_at"
+    },
+    {
+      "row": [],
+      "col": [
+        "n"
+      ],
+      "value": "19"
+    },
+    {
+      "row": [],
+      "col": [
+        "EXPRESSION",
+        "RMA"
+      ],
+      "value": "7.35"
+    },
+    {
+      "row": [],
+      "col": [
+        "EXPRESSION",
+        "MAS 5.0"
+      ],
+      "value": "8.50"
+    },
+    {
+      "row": [],
+      "col": [
+        "EXPRESSION",
+        "qRT-PCR"
+      ],
+      "value": "0.57"
+    },
+    {
+      "row": [],
+      "col": [
+        "CORRELATION",
+        "RMA-qRT-PCR"
+      ],
+      "value": "-0.08"
+    },
+    {
+      "row": [],
+      "col": [
+        "CORRELATION",
+        "MAS-qRT-PCR"
+      ],
+      "value": "-0.17"
+    },
+    {
+      "row": [],
+      "col": [
+        "GENE",
+        "NAME"
+      ],
+      "value": "RGC32"
+    },
+    {
+      "row": [],
+      "col": [
+        "GENE",
+        "AFFY ID"
+      ],
+      "value": "218723_s_at"
+    },
+    {
+      "row": [],
+      "col": [
+        "n"
+      ],
+      "value": "19"
+    },
+    {
+      "row": [],
+      "col": [
+        "EXPRESSION",
+        "RMA"
+      ],
+      "value": "7.36"
+    },
+    {
+      "row": [],
+      "col": [
+        "EXPRESSION",
+        "MAS 5.0"
+      ],
+      "value": "8.11"
+    },
+    {
+      "row": [],
+      "col": [
+        "EXPRESSION",
+        "qRT-PCR"
+      ],
+      "value": "-3.20"
+    },
+    {
+      "row": [],
+      "col": [
+        "CORRELATION",
+        "RMA-qRT-PCR"
+      ],
+      "value": "0.85"
+    },
+    {
+      "row": [],
+      "col": [
+        "CORRELATION",
+        "MAS-qRT-PCR"
+      ],
+      "value": "0.96"
+    },
+    {
+      "row": [],
+      "col": [
+        "GENE",
+        "NAME"
+      ],
+      "value": "WDR11"
+    },
+    {
+      "row": [],
+      "col": [
+        "GENE",
+        "AFFY ID"
+      ],
+      "value": "218090_s_at"
+    },
+    {
+      "row": [],
+      "col": [
+        "n"
+      ],
+      "value": "19"
+    },
+    {
+      "row": [],
+      "col": [
+        "EXPRESSION",
+        "RMA"
+      ],
+      "value": "7.96"
+    },
+    {
+      "row": [],
+      "col": [
+        "EXPRESSION",
+        "MAS 5.0"
+      ],
+      "value": "9.04"
+    },
+    {
+      "row": [],
+      "col": [
+        "EXPRESSION",
+        "qRT-PCR"
+      ],
+      "value": "0.60"
+    },
+    {
+      "row": [],
+      "col": [
+        "CORRELATION",
+        "RMA-qRT-PCR"
+      ],
+      "value": "0.12"
+    },
+    {
+      "row": [],
+      "col": [
+        "CORRELATION",
+        "MAS-qRT-PCR"
+      ],
+      "value": "0.01"
+    },
+    {
+      "row": [],
+      "col": [
+        "GENE",
+        "NAME"
+      ],
+      "value": "RFC3"
+    },
+    {
+      "row": [],
+      "col": [
+        "GENE",
+        "AFFY ID"
+      ],
+      "value": "204127_at"
+    },
+    {
+      "row": [],
+      "col": [
+        "n"
+      ],
+      "value": "19"
+    },
+    {
+      "row": [],
+      "col": [
+        "EXPRESSION",
+        "RMA"
+      ],
+      "value": "8.10"
+    },
+    {
+      "row": [],
+      "col": [
+        "EXPRESSION",
+        "MAS 5.0"
+      ],
+      "value": "9.77"
+    },
+    {
+      "row": [],
+      "col": [
+        "EXPRESSION",
+        "qRT-PCR"
+      ],
+      "value": "1.20"
+    },
+    {
+      "row": [],
+      "col": [
+        "CORRELATION",
+        "RMA-qRT-PCR"
+      ],
+      "value": "0.62"
+    },
+    {
+      "row": [],
+      "col": [
+        "CORRELATION",
+        "MAS-qRT-PCR"
+      ],
+      "value": "0.64"
+    },
+    {
+      "row": [],
+      "col": [
+        "GENE",
+        "NAME"
+      ],
+      "value": "ASAH1"
+    },
+    {
+      "row": [],
+      "col": [
+        "GENE",
+        "AFFY ID"
+      ],
+      "value": "213702_x_at"
+    },
+    {
+      "row": [],
+      "col": [
+        "n"
+      ],
+      "value": "22"
+    },
+    {
+      "row": [],
+      "col": [
+        "EXPRESSION",
+        "RMA"
+      ],
+      "value": "8.30"
+    },
+    {
+      "row": [],
+      "col": [
+        "EXPRESSION",
+        "MAS 5.0"
+      ],
+      "value": "10.29"
+    },
+    {
+      "row": [],
+      "col": [
+        "EXPRESSION",
+        "qRT-PCR"
+      ],
+      "value": "1.46"
+    },
+    {
+      "row": [],
+      "col": [
+        "CORRELATION",
+        "RMA-qRT-PCR"
+      ],
+      "value": "0.29"
+    },
+    {
+      "row": [],
+      "col": [
+        "CORRELATION",
+        "MAS-qRT-PCR"
+      ],
+      "value": "0.27"
+    },
+    {
+      "row": [],
+      "col": [
+        "GENE",
+        "NAME"
+      ],
+      "value": "P38IP"
+    },
+    {
+      "row": [],
+      "col": [
+        "GENE",
+        "AFFY ID"
+      ],
+      "value": "220408_x_at"
+    },
+    {
+      "row": [],
+      "col": [
+        "n"
+      ],
+      "value": "19"
+    },
+    {
+      "row": [],
+      "col": [
+        "EXPRESSION",
+        "RMA"
+      ],
+      "value": "8.35"
+    },
+    {
+      "row": [],
+      "col": [
+        "EXPRESSION",
+        "MAS 5.0"
+      ],
+      "value": "9.55"
+    },
+    {
+      "row": [],
+      "col": [
+        "EXPRESSION",
+        "qRT-PCR"
+      ],
+      "value": "0.76"
+    },
+    {
+      "row": [],
+      "col": [
+        "CORRELATION",
+        "RMA-qRT-PCR"
+      ],
+      "value": "0.73"
+    },
+    {
+      "row": [],
+      "col": [
+        "CORRELATION",
+        "MAS-qRT-PCR"
+      ],
+      "value": "0.65"
+    },
+    {
+      "row": [],
+      "col": [
+        "GENE",
+        "NAME"
+      ],
+      "value": "BUB3"
+    },
+    {
+      "row": [],
+      "col": [
+        "GENE",
+        "AFFY ID"
+      ],
+      "value": "201456_s_at"
+    },
+    {
+      "row": [],
+      "col": [
+        "n"
+      ],
+      "value": "19"
+    },
+    {
+      "row": [],
+      "col": [
+        "EXPRESSION",
+        "RMA"
+      ],
+      "value": "8.41"
+    },
+    {
+      "row": [],
+      "col": [
+        "EXPRESSION",
+        "MAS 5.0"
+      ],
+      "value": "9.70"
+    },
+    {
+      "row": [],
+      "col": [
+        "EXPRESSION",
+        "qRT-PCR"
+      ],
+      "value": "0.60"
+    },
+    {
+      "row": [],
+      "col": [
+        "CORRELATION",
+        "RMA-qRT-PCR"
+      ],
+      "value": "0.64"
+    },
+    {
+      "row": [],
+      "col": [
+        "CORRELATION",
+        "MAS-qRT-PCR"
+      ],
+      "value": "0.61"
+    },
+    {
+      "row": [],
+      "col": [
+        "GENE",
+        "NAME"
+      ],
+      "value": "SAC2"
+    },
+    {
+      "row": [],
+      "col": [
+        "GENE",
+        "AFFY ID"
+      ],
+      "value": "203607_at"
+    },
+    {
+      "row": [],
+      "col": [
+        "n"
+      ],
+      "value": "19"
+    },
+    {
+      "row": [],
+      "col": [
+        "EXPRESSION",
+        "RMA"
+      ],
+      "value": "8.86"
+    },
+    {
+      "row": [],
+      "col": [
+        "EXPRESSION",
+        "MAS 5.0"
+      ],
+      "value": "10.21"
+    },
+    {
+      "row": [],
+      "col": [
+        "EXPRESSION",
+        "qRT-PCR"
+      ],
+      "value": "0.35"
+    },
+    {
+      "row": [],
+      "col": [
+        "CORRELATION",
+        "RMA-qRT-PCR"
+      ],
+      "value": "0.22"
+    },
+    {
+      "row": [],
+      "col": [
+        "CORRELATION",
+        "MAS-qRT-PCR"
+      ],
+      "value": "0.12"
+    },
+    {
+      "row": [],
+      "col": [
+        "GENE",
+        "NAME"
+      ],
+      "value": "TSC22"
+    },
+    {
+      "row": [],
+      "col": [
+        "GENE",
+        "AFFY ID"
+      ],
+      "value": "215111_s_at"
+    },
+    {
+      "row": [],
+      "col": [
+        "n"
+      ],
+      "value": "19"
+    },
+    {
+      "row": [],
+      "col": [
+        "EXPRESSION",
+        "RMA"
+      ],
+      "value": "10.56"
+    },
+    {
+      "row": [],
+      "col": [
+        "EXPRESSION",
+        "MAS 5.0"
+      ],
+      "value": "11.87"
+    },
+    {
+      "row": [],
+      "col": [
+        "EXPRESSION",
+        "qRT-PCR"
+      ],
+      "value": "-1.34"
+    },
+    {
+      "row": [],
+      "col": [
+        "CORRELATION",
+        "RMA-qRT-PCR"
+      ],
+      "value": "0.83"
+    },
+    {
+      "row": [],
+      "col": [
+        "CORRELATION",
+        "MAS-qRT-PCR"
+      ],
+      "value": "0.82"
+    }
+  ]
+}

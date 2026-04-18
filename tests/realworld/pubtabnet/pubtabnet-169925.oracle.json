@@ -1,0 +1,467 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "-15.5",
+    "-19.2",
+    "-27.9",
+    "-29.0",
+    "-3.7 (-9.5, 2.2)",
+    "-33.6",
+    "-35.0",
+    "-35.3",
+    "-35.4",
+    "-35.8",
+    "-35.9",
+    "-38.5 a",
+    "-39.5",
+    "-42.6",
+    "-42.9",
+    "-43.9",
+    "-44.4",
+    "-47.6",
+    "-49.3",
+    "-5.7 (-7.4, -4.0)",
+    "-6.7 (-8.7, -4.8)",
+    "-7.6 (-9.6, -5.7)",
+    "-7.6 (-9.7, -5.6)",
+    "-8.5 (-10.6, -6.4)",
+    "-8.5 (-10.8, -6.2)",
+    "-9.1 (-11.4, -6.7)",
+    "-9.8 (-12.2, -7.4)",
+    "0.05",
+    "0.8",
+    "1.8 (-0.5, 4.0)",
+    "1.8 (0, 3.5)",
+    "2.6",
+    "4.4",
+    "< 0.0001",
+    "Apo A-I",
+    "Apo B",
+    "Apo B/apo A-I ratio",
+    "Atorvastatin 10 mg (n = 231)",
+    "Difference (95% CI)",
+    "HDL-C",
+    "LDL-C",
+    "LDL-C/HDL-C ratio",
+    "Least-squares mean percentage change from baseline to 4 weeks",
+    "NS",
+    "Non-HDL-C",
+    "Non-HDL-C/HDL-C ratio",
+    "Rosuvastatin 10 mg (n = 232)",
+    "TC",
+    "TC/HDL-C ratio",
+    "TG",
+    "Variable",
+    "p-value"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Variable"
+      ],
+      "value": "LDL-C"
+    },
+    {
+      "row": [],
+      "col": [
+        "Least-squares mean percentage change from baseline to 4 weeks",
+        "Rosuvastatin 10 mg (n = 232)"
+      ],
+      "value": "-47.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Least-squares mean percentage change from baseline to 4 weeks",
+        "Atorvastatin 10 mg (n = 231)"
+      ],
+      "value": "-38.5 a"
+    },
+    {
+      "row": [],
+      "col": [
+        "Difference (95% CI)"
+      ],
+      "value": "-9.1 (-11.4, -6.7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "p-value"
+      ],
+      "value": "< 0.0001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variable"
+      ],
+      "value": "TC"
+    },
+    {
+      "row": [],
+      "col": [
+        "Least-squares mean percentage change from baseline to 4 weeks",
+        "Rosuvastatin 10 mg (n = 232)"
+      ],
+      "value": "-33.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Least-squares mean percentage change from baseline to 4 weeks",
+        "Atorvastatin 10 mg (n = 231)"
+      ],
+      "value": "-27.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Difference (95% CI)"
+      ],
+      "value": "-5.7 (-7.4, -4.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "p-value"
+      ],
+      "value": "< 0.0001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variable"
+      ],
+      "value": "HDL-C"
+    },
+    {
+      "row": [],
+      "col": [
+        "Least-squares mean percentage change from baseline to 4 weeks",
+        "Rosuvastatin 10 mg (n = 232)"
+      ],
+      "value": "4.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Least-squares mean percentage change from baseline to 4 weeks",
+        "Atorvastatin 10 mg (n = 231)"
+      ],
+      "value": "2.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Difference (95% CI)"
+      ],
+      "value": "1.8 (-0.5, 4.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "p-value"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variable"
+      ],
+      "value": "TG"
+    },
+    {
+      "row": [],
+      "col": [
+        "Least-squares mean percentage change from baseline to 4 weeks",
+        "Rosuvastatin 10 mg (n = 232)"
+      ],
+      "value": "-19.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Least-squares mean percentage change from baseline to 4 weeks",
+        "Atorvastatin 10 mg (n = 231)"
+      ],
+      "value": "-15.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Difference (95% CI)"
+      ],
+      "value": "-3.7 (-9.5, 2.2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "p-value"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variable"
+      ],
+      "value": "Non-HDL-C"
+    },
+    {
+      "row": [],
+      "col": [
+        "Least-squares mean percentage change from baseline to 4 weeks",
+        "Rosuvastatin 10 mg (n = 232)"
+      ],
+      "value": "-42.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Least-squares mean percentage change from baseline to 4 weeks",
+        "Atorvastatin 10 mg (n = 231)"
+      ],
+      "value": "-35.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Difference (95% CI)"
+      ],
+      "value": "-7.6 (-9.6, -5.7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "p-value"
+      ],
+      "value": "< 0.0001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variable"
+      ],
+      "value": "LDL-C/HDL-C ratio"
+    },
+    {
+      "row": [],
+      "col": [
+        "Least-squares mean percentage change from baseline to 4 weeks",
+        "Rosuvastatin 10 mg (n = 232)"
+      ],
+      "value": "-49.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Least-squares mean percentage change from baseline to 4 weeks",
+        "Atorvastatin 10 mg (n = 231)"
+      ],
+      "value": "-39.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Difference (95% CI)"
+      ],
+      "value": "-9.8 (-12.2, -7.4)"
+    },
+    {
+      "row": [],
+      "col": [
+        "p-value"
+      ],
+      "value": "< 0.0001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variable"
+      ],
+      "value": "Non-HDL-C/HDL-C ratio"
+    },
+    {
+      "row": [],
+      "col": [
+        "Least-squares mean percentage change from baseline to 4 weeks",
+        "Rosuvastatin 10 mg (n = 232)"
+      ],
+      "value": "-44.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Least-squares mean percentage change from baseline to 4 weeks",
+        "Atorvastatin 10 mg (n = 231)"
+      ],
+      "value": "-35.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Difference (95% CI)"
+      ],
+      "value": "-8.5 (-10.8, -6.2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "p-value"
+      ],
+      "value": "< 0.0001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variable"
+      ],
+      "value": "TC/HDL-C ratio"
+    },
+    {
+      "row": [],
+      "col": [
+        "Least-squares mean percentage change from baseline to 4 weeks",
+        "Rosuvastatin 10 mg (n = 232)"
+      ],
+      "value": "-35.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Least-squares mean percentage change from baseline to 4 weeks",
+        "Atorvastatin 10 mg (n = 231)"
+      ],
+      "value": "-29.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Difference (95% CI)"
+      ],
+      "value": "-6.7 (-8.7, -4.8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "p-value"
+      ],
+      "value": "< 0.0001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variable"
+      ],
+      "value": "Apo B"
+    },
+    {
+      "row": [],
+      "col": [
+        "Least-squares mean percentage change from baseline to 4 weeks",
+        "Rosuvastatin 10 mg (n = 232)"
+      ],
+      "value": "-42.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Least-squares mean percentage change from baseline to 4 weeks",
+        "Atorvastatin 10 mg (n = 231)"
+      ],
+      "value": "-35.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Difference (95% CI)"
+      ],
+      "value": "-7.6 (-9.7, -5.6)"
+    },
+    {
+      "row": [],
+      "col": [
+        "p-value"
+      ],
+      "value": "< 0.0001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variable"
+      ],
+      "value": "Apo A-I"
+    },
+    {
+      "row": [],
+      "col": [
+        "Least-squares mean percentage change from baseline to 4 weeks",
+        "Rosuvastatin 10 mg (n = 232)"
+      ],
+      "value": "2.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Least-squares mean percentage change from baseline to 4 weeks",
+        "Atorvastatin 10 mg (n = 231)"
+      ],
+      "value": "0.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Difference (95% CI)"
+      ],
+      "value": "1.8 (0, 3.5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "p-value"
+      ],
+      "value": "0.05"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variable"
+      ],
+      "value": "Apo B/apo A-I ratio"
+    },
+    {
+      "row": [],
+      "col": [
+        "Least-squares mean percentage change from baseline to 4 weeks",
+        "Rosuvastatin 10 mg (n = 232)"
+      ],
+      "value": "-43.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Least-squares mean percentage change from baseline to 4 weeks",
+        "Atorvastatin 10 mg (n = 231)"
+      ],
+      "value": "-35.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Difference (95% CI)"
+      ],
+      "value": "-8.5 (-10.6, -6.4)"
+    },
+    {
+      "row": [],
+      "col": [
+        "p-value"
+      ],
+      "value": "< 0.0001"
+    }
+  ]
+}

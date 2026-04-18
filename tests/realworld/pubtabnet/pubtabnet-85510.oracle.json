@@ -1,0 +1,428 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "1996",
+    "1997",
+    "1998",
+    "1999",
+    "2000",
+    "2001",
+    "2002",
+    "45",
+    "47",
+    "49",
+    "50",
+    "51",
+    "53",
+    "55",
+    "6 054",
+    "6 200",
+    "6 819",
+    "6 820",
+    "7 064",
+    "7 331",
+    "7 456",
+    "7 501",
+    "7 655",
+    "7 746",
+    "7 858",
+    "7 962",
+    "7248",
+    "8 631",
+    "Incoming students",
+    "Men",
+    "Percentage of total attrition",
+    "Percentage of total graduate students",
+    "Women",
+    "Year",
+    "n/a"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Year"
+      ],
+      "value": "1996"
+    },
+    {
+      "row": [],
+      "col": [
+        "Incoming students",
+        "Men"
+      ],
+      "value": "6 200"
+    },
+    {
+      "row": [],
+      "col": [
+        "Incoming students",
+        "Women"
+      ],
+      "value": "6 054"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of total attrition",
+        "Men"
+      ],
+      "value": "47"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of total attrition",
+        "Women"
+      ],
+      "value": "53"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of total graduate students",
+        "Men"
+      ],
+      "value": "51"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of total graduate students",
+        "Women"
+      ],
+      "value": "49"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year"
+      ],
+      "value": "1997"
+    },
+    {
+      "row": [],
+      "col": [
+        "Incoming students",
+        "Men"
+      ],
+      "value": "6 819"
+    },
+    {
+      "row": [],
+      "col": [
+        "Incoming students",
+        "Women"
+      ],
+      "value": "6 820"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of total attrition",
+        "Men"
+      ],
+      "value": "49"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of total attrition",
+        "Women"
+      ],
+      "value": "51"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of total graduate students",
+        "Men"
+      ],
+      "value": "51"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of total graduate students",
+        "Women"
+      ],
+      "value": "49"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year"
+      ],
+      "value": "1998"
+    },
+    {
+      "row": [],
+      "col": [
+        "Incoming students",
+        "Men"
+      ],
+      "value": "7 456"
+    },
+    {
+      "row": [],
+      "col": [
+        "Incoming students",
+        "Women"
+      ],
+      "value": "7 064"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of total attrition",
+        "Men"
+      ],
+      "value": "53"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of total attrition",
+        "Women"
+      ],
+      "value": "47"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of total graduate students",
+        "Men"
+      ],
+      "value": "50"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of total graduate students",
+        "Women"
+      ],
+      "value": "50"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year"
+      ],
+      "value": "1999"
+    },
+    {
+      "row": [],
+      "col": [
+        "Incoming students",
+        "Men"
+      ],
+      "value": "7 331"
+    },
+    {
+      "row": [],
+      "col": [
+        "Incoming students",
+        "Women"
+      ],
+      "value": "7248"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of total attrition",
+        "Men"
+      ],
+      "value": "51"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of total attrition",
+        "Women"
+      ],
+      "value": "49"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of total graduate students",
+        "Men"
+      ],
+      "value": "50"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of total graduate students",
+        "Women"
+      ],
+      "value": "50"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year"
+      ],
+      "value": "2000"
+    },
+    {
+      "row": [],
+      "col": [
+        "Incoming students",
+        "Men"
+      ],
+      "value": "7 655"
+    },
+    {
+      "row": [],
+      "col": [
+        "Incoming students",
+        "Women"
+      ],
+      "value": "7 858"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of total attrition",
+        "Men"
+      ],
+      "value": "51"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of total attrition",
+        "Women"
+      ],
+      "value": "49"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of total graduate students",
+        "Men"
+      ],
+      "value": "49"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of total graduate students",
+        "Women"
+      ],
+      "value": "51"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year"
+      ],
+      "value": "2001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Incoming students",
+        "Men"
+      ],
+      "value": "7 501"
+    },
+    {
+      "row": [],
+      "col": [
+        "Incoming students",
+        "Women"
+      ],
+      "value": "7 962"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of total attrition",
+        "Men"
+      ],
+      "value": "45"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of total attrition",
+        "Women"
+      ],
+      "value": "55"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of total graduate students",
+        "Men"
+      ],
+      "value": "51"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of total graduate students",
+        "Women"
+      ],
+      "value": "49"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year"
+      ],
+      "value": "2002"
+    },
+    {
+      "row": [],
+      "col": [
+        "Incoming students",
+        "Men"
+      ],
+      "value": "7 746"
+    },
+    {
+      "row": [],
+      "col": [
+        "Incoming students",
+        "Women"
+      ],
+      "value": "8 631"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of total attrition",
+        "Men"
+      ],
+      "value": "n/a"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of total attrition",
+        "Women"
+      ],
+      "value": "n/a"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of total graduate students",
+        "Men"
+      ],
+      "value": "n/a"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of total graduate students",
+        "Women"
+      ],
+      "value": "n/a"
+    }
+  ]
+}

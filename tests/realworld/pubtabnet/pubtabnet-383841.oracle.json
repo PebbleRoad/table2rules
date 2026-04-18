@@ -1,0 +1,661 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0.02 \u2013 0.38",
+    "0.02 \u2013 0.66",
+    "0.03 \u2013 0.39",
+    "0.05",
+    "0.05 & 0.17",
+    "0.07 (0.01, 0.83)",
+    "0.07 \u2013 0.86",
+    "0.12",
+    "0.12 \u2013 0.86",
+    "0.19",
+    "0.20 (0.16, 0.26)",
+    "0.26 (0.18, 0.36)",
+    "0.28",
+    "0.37 (0.26, 0.52)",
+    "0.50",
+    "0.51 (0.43, 0.60)",
+    "0.78 & 0.96",
+    "0.84",
+    "1",
+    "1.3",
+    "1.7 & 1.8",
+    "1.9",
+    "14",
+    "15",
+    "15.9 (10.7, 23.7)",
+    "17.4",
+    "2",
+    "2.3",
+    "2.5 \u2013 439.6",
+    "2.6 \u2013 32.2",
+    "2.7",
+    "23",
+    "25.2 \u2013 156.1",
+    "28.2 (17.3\u201346.0)",
+    "3.0 \u2013 32.2",
+    "3.1 & 69.2",
+    "3.5",
+    "4",
+    "5.5 (4.1, 7.3)",
+    "6.1 (4.3, 8.6)",
+    "6.3 \u2013 197.1",
+    "66.3 (20.0, 219.6)",
+    "8.0",
+    "9",
+    "Blood",
+    "Dipstick positive for:",
+    "Glucose",
+    "LE",
+    "LE and protein",
+    "Nitite, blood and LE",
+    "Nitrite",
+    "Nitrite and LE",
+    "Nitrite or LE",
+    "Nitrite, LE and protein",
+    "Nitrite, LE, or protein",
+    "Nitrite, LE, protein, or blood",
+    "Nitrite, blood, or LE",
+    "Nitrite, blood, or protein",
+    "Number of studies",
+    "Pooled LR+ (95 % CI)*",
+    "Pooled LR- (95 % CI)*",
+    "Protein",
+    "Range in LR+",
+    "Range in LR-",
+    "na"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Dipstick positive for:"
+      ],
+      "value": "Nitrite"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of studies"
+      ],
+      "value": "23"
+    },
+    {
+      "row": [],
+      "col": [
+        "Range in LR+"
+      ],
+      "value": "2.5 \u2013 439.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pooled LR+ (95 % CI)*"
+      ],
+      "value": "15.9 (10.7, 23.7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Range in LR-"
+      ],
+      "value": "0.12 \u2013 0.86"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pooled LR- (95 % CI)*"
+      ],
+      "value": "0.51 (0.43, 0.60)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Dipstick positive for:"
+      ],
+      "value": "LE"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of studies"
+      ],
+      "value": "14"
+    },
+    {
+      "row": [],
+      "col": [
+        "Range in LR+"
+      ],
+      "value": "2.6 \u2013 32.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pooled LR+ (95 % CI)*"
+      ],
+      "value": "5.5 (4.1, 7.3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Range in LR-"
+      ],
+      "value": "0.02 \u2013 0.66"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pooled LR- (95 % CI)*"
+      ],
+      "value": "0.26 (0.18, 0.36)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Dipstick positive for:"
+      ],
+      "value": "Nitrite or LE"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of studies"
+      ],
+      "value": "15"
+    },
+    {
+      "row": [],
+      "col": [
+        "Range in LR+"
+      ],
+      "value": "3.0 \u2013 32.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pooled LR+ (95 % CI)*"
+      ],
+      "value": "6.1 (4.3, 8.6)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Range in LR-"
+      ],
+      "value": "0.03 \u2013 0.39"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pooled LR- (95 % CI)*"
+      ],
+      "value": "0.20 (0.16, 0.26)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Dipstick positive for:"
+      ],
+      "value": "Nitrite and LE"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of studies"
+      ],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Range in LR+"
+      ],
+      "value": "6.3 \u2013 197.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pooled LR+ (95 % CI)*"
+      ],
+      "value": "28.2 (17.3\u201346.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Range in LR-"
+      ],
+      "value": "0.07 \u2013 0.86"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pooled LR- (95 % CI)*"
+      ],
+      "value": "0.37 (0.26, 0.52)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Dipstick positive for:"
+      ],
+      "value": "Glucose"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of studies"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Range in LR+"
+      ],
+      "value": "25.2 \u2013 156.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pooled LR+ (95 % CI)*"
+      ],
+      "value": "66.3 (20.0, 219.6)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Range in LR-"
+      ],
+      "value": "0.02 \u2013 0.38"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pooled LR- (95 % CI)*"
+      ],
+      "value": "0.07 (0.01, 0.83)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Dipstick positive for:"
+      ],
+      "value": "Protein"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of studies"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Range in LR+"
+      ],
+      "value": "1.7 & 1.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pooled LR+ (95 % CI)*"
+      ],
+      "value": "na"
+    },
+    {
+      "row": [],
+      "col": [
+        "Range in LR-"
+      ],
+      "value": "0.78 & 0.96"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pooled LR- (95 % CI)*"
+      ],
+      "value": "na"
+    },
+    {
+      "row": [],
+      "col": [
+        "Dipstick positive for:"
+      ],
+      "value": "Blood"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of studies"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Range in LR+"
+      ],
+      "value": "2.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pooled LR+ (95 % CI)*"
+      ],
+      "value": "na"
+    },
+    {
+      "row": [],
+      "col": [
+        "Range in LR-"
+      ],
+      "value": "0.84"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pooled LR- (95 % CI)*"
+      ],
+      "value": "na"
+    },
+    {
+      "row": [],
+      "col": [
+        "Dipstick positive for:"
+      ],
+      "value": "LE and protein"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of studies"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Range in LR+"
+      ],
+      "value": "17.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pooled LR+ (95 % CI)*"
+      ],
+      "value": "na"
+    },
+    {
+      "row": [],
+      "col": [
+        "Range in LR-"
+      ],
+      "value": "0.12"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pooled LR- (95 % CI)*"
+      ],
+      "value": "na"
+    },
+    {
+      "row": [],
+      "col": [
+        "Dipstick positive for:"
+      ],
+      "value": "Nitrite, blood, or protein"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of studies"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Range in LR+"
+      ],
+      "value": "2.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pooled LR+ (95 % CI)*"
+      ],
+      "value": "na"
+    },
+    {
+      "row": [],
+      "col": [
+        "Range in LR-"
+      ],
+      "value": "0.28"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pooled LR- (95 % CI)*"
+      ],
+      "value": "na"
+    },
+    {
+      "row": [],
+      "col": [
+        "Dipstick positive for:"
+      ],
+      "value": "Nitrite, blood, or LE"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of studies"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Range in LR+"
+      ],
+      "value": "1.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pooled LR+ (95 % CI)*"
+      ],
+      "value": "na"
+    },
+    {
+      "row": [],
+      "col": [
+        "Range in LR-"
+      ],
+      "value": "0.50"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pooled LR- (95 % CI)*"
+      ],
+      "value": "na"
+    },
+    {
+      "row": [],
+      "col": [
+        "Dipstick positive for:"
+      ],
+      "value": "Nitite, blood and LE"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of studies"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Range in LR+"
+      ],
+      "value": "3.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pooled LR+ (95 % CI)*"
+      ],
+      "value": "na"
+    },
+    {
+      "row": [],
+      "col": [
+        "Range in LR-"
+      ],
+      "value": "0.19"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pooled LR- (95 % CI)*"
+      ],
+      "value": "na"
+    },
+    {
+      "row": [],
+      "col": [
+        "Dipstick positive for:"
+      ],
+      "value": "Nitrite, LE and protein"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of studies"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Range in LR+"
+      ],
+      "value": "3.1 & 69.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pooled LR+ (95 % CI)*"
+      ],
+      "value": "na"
+    },
+    {
+      "row": [],
+      "col": [
+        "Range in LR-"
+      ],
+      "value": "0.05 & 0.17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pooled LR- (95 % CI)*"
+      ],
+      "value": "na"
+    },
+    {
+      "row": [],
+      "col": [
+        "Dipstick positive for:"
+      ],
+      "value": "Nitrite, LE, or protein"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of studies"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Range in LR+"
+      ],
+      "value": "1.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pooled LR+ (95 % CI)*"
+      ],
+      "value": "na"
+    },
+    {
+      "row": [],
+      "col": [
+        "Range in LR-"
+      ],
+      "value": "0.05"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pooled LR- (95 % CI)*"
+      ],
+      "value": "na"
+    },
+    {
+      "row": [],
+      "col": [
+        "Dipstick positive for:"
+      ],
+      "value": "Nitrite, LE, protein, or blood"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of studies"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Range in LR+"
+      ],
+      "value": "8.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pooled LR+ (95 % CI)*"
+      ],
+      "value": "na"
+    },
+    {
+      "row": [],
+      "col": [
+        "Range in LR-"
+      ],
+      "value": "0.19"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pooled LR- (95 % CI)*"
+      ],
+      "value": "na"
+    }
+  ]
+}

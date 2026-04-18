@@ -1,0 +1,571 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "1.7/1.9/5.7",
+    "10q12",
+    "10q26",
+    "12p13-p12",
+    "12p13.2-p12.3",
+    "14q24",
+    "16p12.1",
+    "17q11.2-q21.1",
+    "18.8/6.6/48.2",
+    "19q13.3",
+    "1q22",
+    "1q36",
+    "2.6/3.3/6.2",
+    "3.1/2.7/6.6",
+    "3p21.31",
+    "3q21",
+    "4q42",
+    "5.8/4.6/4.8",
+    "5q33.1",
+    "6.7/Nd/Nd",
+    "6q31",
+    "8.3/2.8/3.7",
+    "8q32",
+    "AMIGO3",
+    "Accession no.",
+    "Allergic rhinitis",
+    "Asthma",
+    "Asthma, SLE, MS, SD",
+    "Atopic dermatitis, asthma, psoriasis",
+    "Blau syndrome, asthma",
+    "CORO1A",
+    "Cia13, Cia24, Pia7, Pia23, Oia2, Oia7, Oia8, Ciaa4",
+    "Cia16, Cia21, Cia22, Cia23, Oia4, Ciaa2",
+    "Cia16, Pia15",
+    "Cia19",
+    "Cia6",
+    "Delta",
+    "GYK",
+    "Gene",
+    "Human CL",
+    "Human QTLs",
+    "KDAP",
+    "LCP2",
+    "LTBP2",
+    "Ly-49.9",
+    "MATR1",
+    "NM_021586",
+    "NM_022667",
+    "NM_024381",
+    "NM_031670",
+    "NM_053687",
+    "NM_130411",
+    "NM_133306",
+    "NM_178144",
+    "NM_198746",
+    "NM_569105",
+    "Nd/2.0/5.6",
+    "Nd/Nd/5.9",
+    "Nd/Nd/6.5",
+    "OLR1",
+    "Pia11",
+    "Pia3, Pia24",
+    "RA, PDB, asthma, IBD, psoriasis, ATD",
+    "RA, allergic rhinitis, hypophosphataemic rickets",
+    "RA, hypophosphataemic rickets, allergic rhinitis",
+    "Rat CL",
+    "Rat QTLs",
+    "SLE, MODY3",
+    "SLE, MS",
+    "SLFN4",
+    "Xp21.3",
+    "Xq22",
+    "_"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Accession no."
+      ],
+      "value": "NM_178144"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gene"
+      ],
+      "value": "AMIGO3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Delta"
+      ],
+      "value": "Nd/Nd/5.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rat CL"
+      ],
+      "value": "8q32"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rat QTLs"
+      ],
+      "value": "Cia6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Human CL"
+      ],
+      "value": "3p21.31"
+    },
+    {
+      "row": [],
+      "col": [
+        "Human QTLs"
+      ],
+      "value": "Asthma"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accession no."
+      ],
+      "value": "NM_130411"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gene"
+      ],
+      "value": "CORO1A"
+    },
+    {
+      "row": [],
+      "col": [
+        "Delta"
+      ],
+      "value": "3.1/2.7/6.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rat CL"
+      ],
+      "value": "1q36"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rat QTLs"
+      ],
+      "value": "Pia11"
+    },
+    {
+      "row": [],
+      "col": [
+        "Human CL"
+      ],
+      "value": "16p12.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Human QTLs"
+      ],
+      "value": "Blau syndrome, asthma"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accession no."
+      ],
+      "value": "NM_024381"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gene"
+      ],
+      "value": "GYK"
+    },
+    {
+      "row": [],
+      "col": [
+        "Delta"
+      ],
+      "value": "6.7/Nd/Nd"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rat CL"
+      ],
+      "value": "Xq22"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rat QTLs"
+      ],
+      "value": "Cia19"
+    },
+    {
+      "row": [],
+      "col": [
+        "Human CL"
+      ],
+      "value": "Xp21.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Human QTLs"
+      ],
+      "value": "Allergic rhinitis"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accession no."
+      ],
+      "value": "NM_031670"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gene"
+      ],
+      "value": "KDAP"
+    },
+    {
+      "row": [],
+      "col": [
+        "Delta"
+      ],
+      "value": "18.8/6.6/48.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rat CL"
+      ],
+      "value": "1q22"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rat QTLs"
+      ],
+      "value": "_"
+    },
+    {
+      "row": [],
+      "col": [
+        "Human CL"
+      ],
+      "value": "19q13.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Human QTLs"
+      ],
+      "value": "Asthma, SLE, MS, SD"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accession no."
+      ],
+      "value": "NM_569105"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gene"
+      ],
+      "value": "LCP2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Delta"
+      ],
+      "value": "2.6/3.3/6.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rat CL"
+      ],
+      "value": "10q12"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rat QTLs"
+      ],
+      "value": "Cia16, Pia15"
+    },
+    {
+      "row": [],
+      "col": [
+        "Human CL"
+      ],
+      "value": "5q33.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Human QTLs"
+      ],
+      "value": "RA, PDB, asthma, IBD, psoriasis, ATD"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accession no."
+      ],
+      "value": "NM_021586"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gene"
+      ],
+      "value": "LTBP2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Delta"
+      ],
+      "value": "Nd/Nd/6.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rat CL"
+      ],
+      "value": "6q31"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rat QTLs"
+      ],
+      "value": "Pia3, Pia24"
+    },
+    {
+      "row": [],
+      "col": [
+        "Human CL"
+      ],
+      "value": "14q24"
+    },
+    {
+      "row": [],
+      "col": [
+        "Human QTLs"
+      ],
+      "value": "SLE, MODY3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accession no."
+      ],
+      "value": "NM_198746"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gene"
+      ],
+      "value": "Ly-49.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Delta"
+      ],
+      "value": "Nd/2.0/5.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rat CL"
+      ],
+      "value": "4q42"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rat QTLs"
+      ],
+      "value": "Cia13, Cia24, Pia7, Pia23, Oia2, Oia7, Oia8, Ciaa4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Human CL"
+      ],
+      "value": "12p13-p12"
+    },
+    {
+      "row": [],
+      "col": [
+        "Human QTLs"
+      ],
+      "value": "RA, allergic rhinitis, hypophosphataemic rickets"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accession no."
+      ],
+      "value": "NM_022667"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gene"
+      ],
+      "value": "MATR1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Delta"
+      ],
+      "value": "1.7/1.9/5.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rat CL"
+      ],
+      "value": "8q32"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rat QTLs"
+      ],
+      "value": "Cia6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Human CL"
+      ],
+      "value": "3q21"
+    },
+    {
+      "row": [],
+      "col": [
+        "Human QTLs"
+      ],
+      "value": "Atopic dermatitis, asthma, psoriasis"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accession no."
+      ],
+      "value": "NM_133306"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gene"
+      ],
+      "value": "OLR1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Delta"
+      ],
+      "value": "8.3/2.8/3.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rat CL"
+      ],
+      "value": "4q42"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rat QTLs"
+      ],
+      "value": "Cia13, Cia24, Pia7, Pia23, Oia2, Oia7, Oia8, Ciaa4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Human CL"
+      ],
+      "value": "12p13.2-p12.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Human QTLs"
+      ],
+      "value": "RA, hypophosphataemic rickets, allergic rhinitis"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accession no."
+      ],
+      "value": "NM_053687"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gene"
+      ],
+      "value": "SLFN4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Delta"
+      ],
+      "value": "5.8/4.6/4.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rat CL"
+      ],
+      "value": "10q26"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rat QTLs"
+      ],
+      "value": "Cia16, Cia21, Cia22, Cia23, Oia4, Ciaa2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Human CL"
+      ],
+      "value": "17q11.2-q21.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Human QTLs"
+      ],
+      "value": "SLE, MS"
+    }
+  ]
+}

@@ -1,0 +1,339 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0.3 (-0.9,1.5)",
+    "0.3 (0.1\u20130.8)",
+    "0.4 (0.2\u20130.8)",
+    "0.6 (0.4\u20131.0)",
+    "0.7 (0.1\u20133.1)",
+    "0.7 (0.3\u20131.9)",
+    "0.7 (0.5\u20131.0)",
+    "0.8 (0.1, 1.6)",
+    "0.8 (0.5\u20131.2)",
+    "0.9 (0.4\u20131.9)",
+    "11/20",
+    "138/166",
+    "141/98",
+    "15/14",
+    "2.1 (-1.3,5.5)",
+    "2.1 (0.4\u201310.6)",
+    "210/158",
+    "3/4",
+    "45/51",
+    "6/2",
+    "69/60",
+    "8/16",
+    "9/12",
+    "93/115",
+    "<0.349",
+    "All participants",
+    "Any M2",
+    "CYP1A1 M2 genotype",
+    "ICR (95% CI)",
+    "Non-M2",
+    "OR (95% CI) b",
+    "Patients/controls",
+    "Postmenopausal",
+    "Premenopausal",
+    "Referent",
+    "Total PCBs a",
+    "\u22650.349"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "All participants"
+      ],
+      "value": "Patients/controls"
+    },
+    {
+      "row": [],
+      "col": [
+        "All participants"
+      ],
+      "value": "OR (95% CI) b"
+    },
+    {
+      "row": [],
+      "col": [
+        "Premenopausal"
+      ],
+      "value": "Patients/controls"
+    },
+    {
+      "row": [],
+      "col": [
+        "Premenopausal"
+      ],
+      "value": "OR (95% CI) b"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postmenopausal"
+      ],
+      "value": "Patients/controls"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postmenopausal"
+      ],
+      "value": "OR (95% CI) b"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total PCBs a"
+      ],
+      "value": "<0.349"
+    },
+    {
+      "row": [],
+      "col": [
+        "CYP1A1 M2 genotype"
+      ],
+      "value": "Non-M2"
+    },
+    {
+      "row": [],
+      "col": [
+        "All participants"
+      ],
+      "value": "210/158"
+    },
+    {
+      "row": [],
+      "col": [
+        "All participants"
+      ],
+      "value": "Referent"
+    },
+    {
+      "row": [],
+      "col": [
+        "Premenopausal"
+      ],
+      "value": "141/98"
+    },
+    {
+      "row": [],
+      "col": [
+        "Premenopausal"
+      ],
+      "value": "Referent"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postmenopausal"
+      ],
+      "value": "69/60"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postmenopausal"
+      ],
+      "value": "Referent"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total PCBs a"
+      ],
+      "value": "\u22650.349"
+    },
+    {
+      "row": [],
+      "col": [
+        "CYP1A1 M2 genotype"
+      ],
+      "value": "Non-M2"
+    },
+    {
+      "row": [],
+      "col": [
+        "All participants"
+      ],
+      "value": "138/166"
+    },
+    {
+      "row": [],
+      "col": [
+        "All participants"
+      ],
+      "value": "0.7 (0.5\u20131.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Premenopausal"
+      ],
+      "value": "45/51"
+    },
+    {
+      "row": [],
+      "col": [
+        "Premenopausal"
+      ],
+      "value": "0.6 (0.4\u20131.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postmenopausal"
+      ],
+      "value": "93/115"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postmenopausal"
+      ],
+      "value": "0.8 (0.5\u20131.2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total PCBs a"
+      ],
+      "value": "<0.349"
+    },
+    {
+      "row": [],
+      "col": [
+        "CYP1A1 M2 genotype"
+      ],
+      "value": "Any M2"
+    },
+    {
+      "row": [],
+      "col": [
+        "All participants"
+      ],
+      "value": "11/20"
+    },
+    {
+      "row": [],
+      "col": [
+        "All participants"
+      ],
+      "value": "0.4 (0.2\u20130.8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Premenopausal"
+      ],
+      "value": "8/16"
+    },
+    {
+      "row": [],
+      "col": [
+        "Premenopausal"
+      ],
+      "value": "0.3 (0.1\u20130.8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postmenopausal"
+      ],
+      "value": "3/4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postmenopausal"
+      ],
+      "value": "0.7 (0.1\u20133.1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total PCBs a"
+      ],
+      "value": "\u22650.349"
+    },
+    {
+      "row": [],
+      "col": [
+        "CYP1A1 M2 genotype"
+      ],
+      "value": "Any M2"
+    },
+    {
+      "row": [],
+      "col": [
+        "All participants"
+      ],
+      "value": "15/14"
+    },
+    {
+      "row": [],
+      "col": [
+        "All participants"
+      ],
+      "value": "0.9 (0.4\u20131.9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Premenopausal"
+      ],
+      "value": "6/2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Premenopausal"
+      ],
+      "value": "2.1 (0.4\u201310.6)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postmenopausal"
+      ],
+      "value": "9/12"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postmenopausal"
+      ],
+      "value": "0.7 (0.3\u20131.9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total PCBs a"
+      ],
+      "value": "ICR (95% CI)"
+    },
+    {
+      "row": [],
+      "col": [
+        "All participants"
+      ],
+      "value": "0.8 (0.1, 1.6)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Premenopausal"
+      ],
+      "value": "2.1 (-1.3,5.5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postmenopausal"
+      ],
+      "value": "0.3 (-0.9,1.5)"
+    }
+  ]
+}

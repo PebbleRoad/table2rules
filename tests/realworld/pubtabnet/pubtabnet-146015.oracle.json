@@ -1,0 +1,712 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "1.07 \u00b1 0.25",
+    "10.28 \u00b1 5.90",
+    "10.44 \u00b1 1.46",
+    "10.67 \u00b1 1.84",
+    "10.97 \u00b1 1.10",
+    "11.00 \u00b1 3.74",
+    "11.08 \u00b1 1.39",
+    "11.11 \u00b1 2.19",
+    "11.14 \u00b1 2.23",
+    "11.66 \u00b1 7.07",
+    "11.68 \u00b1 0.61",
+    "12.46 \u00b1 2.32",
+    "12.47 \u00b1 2.03",
+    "13.14 \u00b1 3.94",
+    "13.73 \u00b1 3.23",
+    "14.73 \u00b1 4.93",
+    "14.84 \u00b1 4.06",
+    "15.14 \u00b1 4.80",
+    "15.18 \u00b1 3.35",
+    "153.50 \u00b1 56.07",
+    "19.60 \u00b1 6.50",
+    "2.45 \u00b1 0.74",
+    "2.56 \u00b1 0.27",
+    "2.86 \u00b1 2.67",
+    "2.89 \u00b1 2.90",
+    "20.67 \u00b1 9.33",
+    "20.92 \u00b1 1.07",
+    "21.08 \u00b1 1.58",
+    "3.47 \u00b1 0.44",
+    "3.59 \u00b1 3.34",
+    "3.64 \u00b1 1.14",
+    "3.94 \u00b1 0.46",
+    "3.99 \u00b1 1.44",
+    "4.23 \u00b1 1.14",
+    "4.37 \u00b1 3.73",
+    "4.67 \u00b1 1.13",
+    "4.67 \u00b1 3.02",
+    "4.80 \u00b1 1.05",
+    "5.01 \u00b1 0.46",
+    "5.11 \u00b1 .34",
+    "5.38 \u00b1 6.95",
+    "5.44 \u00b1 0.96",
+    "55.90 \u00b1 30.2",
+    "6.12 \u00b1 0.84",
+    "6.22 \u00b1 2.05",
+    "6.28 \u00b1 0.99",
+    "6.76 \u00b1 1.79",
+    "6.92 \u00b1 1.62",
+    "6.98 \u00b1 0.51",
+    "7.09 \u00b1 0.65",
+    "7.44 \u00b1 0.98",
+    "79.29 \u00b1 16.62",
+    "8.03 \u00b1 2.06",
+    "8.35 \u00b1 2.23",
+    "8.43 \u00b1 5.68",
+    "8.78 \u00b1 2.72",
+    "9.03 \u00b1 2.41",
+    "9.79 \u00b1 1.39",
+    "9.90 \u00b1 3.40",
+    "9.94 \u00b1 1.44",
+    "AA028987",
+    "AA041499",
+    "AA063521",
+    "AA412053",
+    "AA419164",
+    "AA456695",
+    "AA459039",
+    "AA489752",
+    "AA663884",
+    "AA700604",
+    "BCL2/adenovirus E1B 19 kD",
+    "CD9 antigen (p24)",
+    "Control \u00b1 SE",
+    "EST",
+    "GenBank #",
+    "H2B histone family, member Q",
+    "H84113",
+    "LNCaP-R",
+    "LNCaP-UR",
+    "N68465",
+    "Name",
+    "R82299",
+    "R98851",
+    "S-adenosylmethionine decarboxylase 1",
+    "T73556",
+    "Treated \u00b1 SE",
+    "UDP-N-acteylglucosamine pyrophosphorylase",
+    "cell division cycle 4-like",
+    "cyclin G2",
+    "fatty-acid-Coenzyme A ligase",
+    "membrane metallo-endopeptidase",
+    "retinal outer segment membrane 1",
+    "retinoic acid receptor, beta",
+    "serine protease inhibitor, Kunitz type,",
+    "sorbitol dehydrogenase",
+    "synaptosomal-associated protein"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "GenBank #"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Name"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-R"
+      ],
+      "value": "Control \u00b1 SE"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-R"
+      ],
+      "value": "Treated \u00b1 SE"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-UR"
+      ],
+      "value": "Control \u00b1 SE"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-UR"
+      ],
+      "value": "Treated \u00b1 SE"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "AA663884"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "synaptosomal-associated protein"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-R"
+      ],
+      "value": "15.18 \u00b1 3.35"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-R"
+      ],
+      "value": "20.67 \u00b1 9.33"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-UR"
+      ],
+      "value": "20.92 \u00b1 1.07"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-UR"
+      ],
+      "value": "11.68 \u00b1 0.61"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "AA700604"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "sorbitol dehydrogenase"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-R"
+      ],
+      "value": "13.73 \u00b1 3.23"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-R"
+      ],
+      "value": "19.60 \u00b1 6.50"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-UR"
+      ],
+      "value": "21.08 \u00b1 1.58"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-UR"
+      ],
+      "value": "11.08 \u00b1 1.39"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "T73556"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "fatty-acid-Coenzyme A ligase"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-R"
+      ],
+      "value": "5.11 \u00b1 .34"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-R"
+      ],
+      "value": "2.45 \u00b1 0.74"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-UR"
+      ],
+      "value": "3.94 \u00b1 0.46"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-UR"
+      ],
+      "value": "1.07 \u00b1 0.25"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "AA028987"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "EST"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-R"
+      ],
+      "value": "5.38 \u00b1 6.95"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-R"
+      ],
+      "value": "8.43 \u00b1 5.68"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-UR"
+      ],
+      "value": "6.22 \u00b1 2.05"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-UR"
+      ],
+      "value": "11.00 \u00b1 3.74"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "R98851"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "membrane metallo-endopeptidase"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-R"
+      ],
+      "value": "10.28 \u00b1 5.90"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-R"
+      ],
+      "value": "55.90 \u00b1 30.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-UR"
+      ],
+      "value": "79.29 \u00b1 16.62"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-UR"
+      ],
+      "value": "153.50 \u00b1 56.07"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "N68465"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "UDP-N-acteylglucosamine pyrophosphorylase"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-R"
+      ],
+      "value": "4.37 \u00b1 3.73"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-R"
+      ],
+      "value": "3.99 \u00b1 1.44"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-UR"
+      ],
+      "value": "12.47 \u00b1 2.03"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-UR"
+      ],
+      "value": "9.03 \u00b1 2.41"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "H84113"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "retinal outer segment membrane 1"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-R"
+      ],
+      "value": "8.03 \u00b1 2.06"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-R"
+      ],
+      "value": "14.73 \u00b1 4.93"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-UR"
+      ],
+      "value": "9.79 \u00b1 1.39"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-UR"
+      ],
+      "value": "7.09 \u00b1 0.65"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "AA041499"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "cell division cycle 4-like"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-R"
+      ],
+      "value": "11.66 \u00b1 7.07"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-R"
+      ],
+      "value": "10.67 \u00b1 1.84"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-UR"
+      ],
+      "value": "3.47 \u00b1 0.44"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-UR"
+      ],
+      "value": "3.64 \u00b1 1.14"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "AA456695"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "H2B histone family, member Q"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-R"
+      ],
+      "value": "4.67 \u00b1 3.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-R"
+      ],
+      "value": "4.23 \u00b1 1.14"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-UR"
+      ],
+      "value": "2.56 \u00b1 0.27"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-UR"
+      ],
+      "value": "4.67 \u00b1 1.13"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "R82299"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "S-adenosylmethionine decarboxylase 1"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-R"
+      ],
+      "value": "8.35 \u00b1 2.23"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-R"
+      ],
+      "value": "14.84 \u00b1 4.06"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-UR"
+      ],
+      "value": "11.11 \u00b1 2.19"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-UR"
+      ],
+      "value": "6.98 \u00b1 0.51"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "AA063521"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "BCL2/adenovirus E1B 19 kD"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-R"
+      ],
+      "value": "3.59 \u00b1 3.34"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-R"
+      ],
+      "value": "13.14 \u00b1 3.94"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-UR"
+      ],
+      "value": "6.76 \u00b1 1.79"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-UR"
+      ],
+      "value": "12.46 \u00b1 2.32"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "AA419164"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "retinoic acid receptor, beta"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-R"
+      ],
+      "value": "9.90 \u00b1 3.40"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-R"
+      ],
+      "value": "11.14 \u00b1 2.23"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-UR"
+      ],
+      "value": "7.44 \u00b1 0.98"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-UR"
+      ],
+      "value": "5.01 \u00b1 0.46"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "AA459039"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "serine protease inhibitor, Kunitz type,"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-R"
+      ],
+      "value": "2.89 \u00b1 2.90"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-R"
+      ],
+      "value": "10.44 \u00b1 1.46"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-UR"
+      ],
+      "value": "6.28 \u00b1 0.99"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-UR"
+      ],
+      "value": "9.94 \u00b1 1.44"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "AA489752"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "cyclin G2"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-R"
+      ],
+      "value": "2.86 \u00b1 2.67"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-R"
+      ],
+      "value": "10.97 \u00b1 1.10"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-UR"
+      ],
+      "value": "6.92 \u00b1 1.62"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-UR"
+      ],
+      "value": "15.14 \u00b1 4.80"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "AA412053"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "CD9 antigen (p24)"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-R"
+      ],
+      "value": "4.80 \u00b1 1.05"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-R"
+      ],
+      "value": "8.78 \u00b1 2.72"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-UR"
+      ],
+      "value": "5.44 \u00b1 0.96"
+    },
+    {
+      "row": [],
+      "col": [
+        "LNCaP-UR"
+      ],
+      "value": "6.12 \u00b1 0.84"
+    }
+  ]
+}

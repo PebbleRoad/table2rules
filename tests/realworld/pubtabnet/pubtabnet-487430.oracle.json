@@ -1,0 +1,708 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "-",
+    "- 0.24 \u00b1 0.06",
+    "- 0.27 \u00b1 0.12",
+    "0.003",
+    "0.01",
+    "0.04",
+    "0.06",
+    "0.16",
+    "0.18",
+    "0.33",
+    "0.37",
+    "0.40",
+    "0.61",
+    "0.62",
+    "0.65",
+    "0.67",
+    "0.76",
+    "0.78",
+    "0.84",
+    "0.90",
+    "0.92",
+    "1.13 \u00b1 0.04",
+    "1.315 \u00b1 0.09",
+    "1.38 \u00b1 0.07",
+    "1.39 \u00b1 0.05",
+    "10.77 \u00b1 0.74",
+    "11.93 \u00b1 0.72",
+    "111.58 \u00b1 9.62",
+    "12.00 \u00b1 0.59",
+    "14.35 \u00b1 0.60",
+    "165.89 \u00b1 17.31",
+    "169.31 \u00b1 16.48",
+    "171.07 \u00b1 7.60",
+    "178.71 \u00b1 8.66",
+    "18.12 \u00b1 0.15",
+    "18.19 \u00b1 0.28",
+    "2.368 \u00b1 0.16",
+    "2.659 \u00b1 0.14",
+    "2.75 \u00b1 0.16",
+    "23.61 \u00b1 0.14",
+    "24.02 \u00b1 0.26",
+    "27.92 \u00b1 0.30",
+    "28.55 \u00b1 0.62",
+    "3.41 \u00b1 0.15",
+    "4.06 \u00b1 0.06",
+    "4.20 \u00b1 0.14",
+    "4.70 \u00b1 0.21",
+    "4.71 \u00b1 0.04",
+    "4.89 \u00b1 0.42",
+    "4.90 \u00b1 0.22",
+    "4.92 \u00b1 0.02",
+    "4.94 \u00b1 0.03",
+    "40.08 \u00b1 0.70",
+    "40.82 \u00b1 0.42",
+    "5.19 \u00b1 0.05",
+    "5.30 \u00b1 0.02",
+    "5.39 \u00b1 0.17",
+    "6.21 \u00b1 0.42",
+    "6.23 \u00b1 0.31",
+    "6.28 \u00b1 0.24",
+    "92.99 \u00b1 3.44",
+    "95.11 \u00b1 7.19",
+    "95.84 \u00b1 3.47",
+    "Body Mass Index (Kg/m 2 )",
+    "Fasting glucose (mmol/l)",
+    "Fasting insulin (UI/l)",
+    "Genotypes",
+    "HOMA-B",
+    "HOMA-IR",
+    "NGT non obese adults (n = 865)",
+    "NGT non obese children (n = 362)",
+    "NGT obese adults (n = 507)",
+    "NGT obese children (n = 525)",
+    "P-value",
+    "P/A+AA = 110",
+    "P/A+AA = 123",
+    "P/A+AA = 192",
+    "P/A+AA = 71",
+    "P/P = 291",
+    "P/P = 397",
+    "P/P = 402",
+    "P/P = 673",
+    "Populations",
+    "Z score of BMI"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Populations"
+      ],
+      "value": "NGT non obese adults (n = 865)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotypes"
+      ],
+      "value": "P/P = 673"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fasting insulin (UI/l)"
+      ],
+      "value": "6.28 \u00b1 0.24"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fasting glucose (mmol/l)"
+      ],
+      "value": "4.92 \u00b1 0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "Body Mass Index (Kg/m 2 )"
+      ],
+      "value": "23.61 \u00b1 0.14"
+    },
+    {
+      "row": [],
+      "col": [
+        "Z score of BMI"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "HOMA-IR"
+      ],
+      "value": "1.39 \u00b1 0.05"
+    },
+    {
+      "row": [],
+      "col": [
+        "HOMA-B"
+      ],
+      "value": "92.99 \u00b1 3.44"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotypes"
+      ],
+      "value": "P/A+AA = 192"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fasting insulin (UI/l)"
+      ],
+      "value": "6.23 \u00b1 0.31"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fasting glucose (mmol/l)"
+      ],
+      "value": "4.94 \u00b1 0.03"
+    },
+    {
+      "row": [],
+      "col": [
+        "Body Mass Index (Kg/m 2 )"
+      ],
+      "value": "24.02 \u00b1 0.26"
+    },
+    {
+      "row": [],
+      "col": [
+        "Z score of BMI"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "HOMA-IR"
+      ],
+      "value": "1.38 \u00b1 0.07"
+    },
+    {
+      "row": [],
+      "col": [
+        "HOMA-B"
+      ],
+      "value": "95.11 \u00b1 7.19"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotypes"
+      ],
+      "value": "P-value"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fasting insulin (UI/l)"
+      ],
+      "value": "0.92"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fasting glucose (mmol/l)"
+      ],
+      "value": "0.65"
+    },
+    {
+      "row": [],
+      "col": [
+        "Body Mass Index (Kg/m 2 )"
+      ],
+      "value": "0.16"
+    },
+    {
+      "row": [],
+      "col": [
+        "Z score of BMI"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "HOMA-IR"
+      ],
+      "value": "0.90"
+    },
+    {
+      "row": [],
+      "col": [
+        "HOMA-B"
+      ],
+      "value": "0.78"
+    },
+    {
+      "row": [],
+      "col": [
+        "Populations"
+      ],
+      "value": "NGT non obese children (n = 362)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotypes"
+      ],
+      "value": "P/P = 291"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fasting insulin (UI/l)"
+      ],
+      "value": "5.39 \u00b1 0.17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fasting glucose (mmol/l)"
+      ],
+      "value": "4.70 \u00b1 0.21"
+    },
+    {
+      "row": [],
+      "col": [
+        "Body Mass Index (Kg/m 2 )"
+      ],
+      "value": "18.12 \u00b1 0.15"
+    },
+    {
+      "row": [],
+      "col": [
+        "Z score of BMI"
+      ],
+      "value": "- 0.24 \u00b1 0.06"
+    },
+    {
+      "row": [],
+      "col": [
+        "HOMA-IR"
+      ],
+      "value": "1.13 \u00b1 0.04"
+    },
+    {
+      "row": [],
+      "col": [
+        "HOMA-B"
+      ],
+      "value": "95.84 \u00b1 3.47"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotypes"
+      ],
+      "value": "P/A+AA = 71"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fasting insulin (UI/l)"
+      ],
+      "value": "6.21 \u00b1 0.42"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fasting glucose (mmol/l)"
+      ],
+      "value": "4.71 \u00b1 0.04"
+    },
+    {
+      "row": [],
+      "col": [
+        "Body Mass Index (Kg/m 2 )"
+      ],
+      "value": "18.19 \u00b1 0.28"
+    },
+    {
+      "row": [],
+      "col": [
+        "Z score of BMI"
+      ],
+      "value": "- 0.27 \u00b1 0.12"
+    },
+    {
+      "row": [],
+      "col": [
+        "HOMA-IR"
+      ],
+      "value": "1.315 \u00b1 0.09"
+    },
+    {
+      "row": [],
+      "col": [
+        "HOMA-B"
+      ],
+      "value": "111.58 \u00b1 9.62"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotypes"
+      ],
+      "value": "P-value"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fasting insulin (UI/l)"
+      ],
+      "value": "0.06"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fasting glucose (mmol/l)"
+      ],
+      "value": "0.67"
+    },
+    {
+      "row": [],
+      "col": [
+        "Body Mass Index (Kg/m 2 )"
+      ],
+      "value": "0.84"
+    },
+    {
+      "row": [],
+      "col": [
+        "Z score of BMI"
+      ],
+      "value": "0.84"
+    },
+    {
+      "row": [],
+      "col": [
+        "HOMA-IR"
+      ],
+      "value": "0.06"
+    },
+    {
+      "row": [],
+      "col": [
+        "HOMA-B"
+      ],
+      "value": "0.62"
+    },
+    {
+      "row": [],
+      "col": [
+        "Populations"
+      ],
+      "value": "NGT obese adults (n = 507)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotypes"
+      ],
+      "value": "P/P = 397"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fasting insulin (UI/l)"
+      ],
+      "value": "14.35 \u00b1 0.60"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fasting glucose (mmol/l)"
+      ],
+      "value": "5.30 \u00b1 0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "Body Mass Index (Kg/m 2 )"
+      ],
+      "value": "40.82 \u00b1 0.42"
+    },
+    {
+      "row": [],
+      "col": [
+        "Z score of BMI"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "HOMA-IR"
+      ],
+      "value": "3.41 \u00b1 0.15"
+    },
+    {
+      "row": [],
+      "col": [
+        "HOMA-B"
+      ],
+      "value": "171.07 \u00b1 7.60"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotypes"
+      ],
+      "value": "P/A+AA = 110"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fasting insulin (UI/l)"
+      ],
+      "value": "11.93 \u00b1 0.72"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fasting glucose (mmol/l)"
+      ],
+      "value": "5.19 \u00b1 0.05"
+    },
+    {
+      "row": [],
+      "col": [
+        "Body Mass Index (Kg/m 2 )"
+      ],
+      "value": "40.08 \u00b1 0.70"
+    },
+    {
+      "row": [],
+      "col": [
+        "Z score of BMI"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "HOMA-IR"
+      ],
+      "value": "2.75 \u00b1 0.16"
+    },
+    {
+      "row": [],
+      "col": [
+        "HOMA-B"
+      ],
+      "value": "165.89 \u00b1 17.31"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotypes"
+      ],
+      "value": "P-value"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fasting insulin (UI/l)"
+      ],
+      "value": "0.01"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fasting glucose (mmol/l)"
+      ],
+      "value": "0.04"
+    },
+    {
+      "row": [],
+      "col": [
+        "Body Mass Index (Kg/m 2 )"
+      ],
+      "value": "0.40"
+    },
+    {
+      "row": [],
+      "col": [
+        "Z score of BMI"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "HOMA-IR"
+      ],
+      "value": "0.003"
+    },
+    {
+      "row": [],
+      "col": [
+        "HOMA-B"
+      ],
+      "value": "0.76"
+    },
+    {
+      "row": [],
+      "col": [
+        "Populations"
+      ],
+      "value": "NGT obese children (n = 525)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotypes"
+      ],
+      "value": "P/P = 402"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fasting insulin (UI/l)"
+      ],
+      "value": "12.00 \u00b1 0.59"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fasting glucose (mmol/l)"
+      ],
+      "value": "4.90 \u00b1 0.22"
+    },
+    {
+      "row": [],
+      "col": [
+        "Body Mass Index (Kg/m 2 )"
+      ],
+      "value": "27.92 \u00b1 0.30"
+    },
+    {
+      "row": [],
+      "col": [
+        "Z score of BMI"
+      ],
+      "value": "4.06 \u00b1 0.06"
+    },
+    {
+      "row": [],
+      "col": [
+        "HOMA-IR"
+      ],
+      "value": "2.659 \u00b1 0.14"
+    },
+    {
+      "row": [],
+      "col": [
+        "HOMA-B"
+      ],
+      "value": "178.71 \u00b1 8.66"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotypes"
+      ],
+      "value": "P/A+AA = 123"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fasting insulin (UI/l)"
+      ],
+      "value": "10.77 \u00b1 0.74"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fasting glucose (mmol/l)"
+      ],
+      "value": "4.89 \u00b1 0.42"
+    },
+    {
+      "row": [],
+      "col": [
+        "Body Mass Index (Kg/m 2 )"
+      ],
+      "value": "28.55 \u00b1 0.62"
+    },
+    {
+      "row": [],
+      "col": [
+        "Z score of BMI"
+      ],
+      "value": "4.20 \u00b1 0.14"
+    },
+    {
+      "row": [],
+      "col": [
+        "HOMA-IR"
+      ],
+      "value": "2.368 \u00b1 0.16"
+    },
+    {
+      "row": [],
+      "col": [
+        "HOMA-B"
+      ],
+      "value": "169.31 \u00b1 16.48"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotypes"
+      ],
+      "value": "P-value"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fasting insulin (UI/l)"
+      ],
+      "value": "0.18"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fasting glucose (mmol/l)"
+      ],
+      "value": "0.61"
+    },
+    {
+      "row": [],
+      "col": [
+        "Body Mass Index (Kg/m 2 )"
+      ],
+      "value": "0.33"
+    },
+    {
+      "row": [],
+      "col": [
+        "Z score of BMI"
+      ],
+      "value": "0.37"
+    },
+    {
+      "row": [],
+      "col": [
+        "HOMA-IR"
+      ],
+      "value": "0.18"
+    },
+    {
+      "row": [],
+      "col": [
+        "HOMA-B"
+      ],
+      "value": "0.37"
+    }
+  ]
+}

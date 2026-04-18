@@ -1,0 +1,410 @@
+<!-- source: PubTabNet imgid=40869 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td colspan="2">
+<b>
+       Model 2
+      </b>
+</td>
+<td>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      Tree
+     </td>
+<td>
+      CT
+     </td>
+<td>
+      CLADHC
+     </td>
+<td>
+      HT
+     </td>
+<td>
+      SbST
+     </td>
+</tr>
+<tr>
+<td>
+      1
+     </td>
+<td>
+      97.8
+      <i>
+       (3.7)
+      </i>
+</td>
+<td>
+<underline>
+       99.3
+      </underline>
+<i>
+       (3.8)
+      </i>
+</td>
+<td>
+      97.7
+      <i>
+       (5.0)
+      </i>
+</td>
+<td>
+      99.1
+      <i>
+       (6.9)
+      </i>
+</td>
+</tr>
+<tr>
+<td>
+      2
+     </td>
+<td>
+      95.1
+      <i>
+       (3.6)
+      </i>
+</td>
+<td>
+      97.7
+      <i>
+       (2.9)
+      </i>
+</td>
+<td>
+<underline>
+       97.9
+      </underline>
+<i>
+       (5.6)
+      </i>
+</td>
+<td>
+      95.8
+      <i>
+       (4.3)
+      </i>
+</td>
+</tr>
+<tr>
+<td>
+      3
+     </td>
+<td>
+      94.2
+      <i>
+       (4.9)
+      </i>
+</td>
+<td>
+<underline>
+       99.4
+      </underline>
+<i>
+       (4.9)
+      </i>
+</td>
+<td>
+      97.9
+      <i>
+       (5.1)
+      </i>
+</td>
+<td>
+      98.6
+      <i>
+       (4.9)
+      </i>
+</td>
+</tr>
+<tr>
+<td>
+      4
+     </td>
+<td>
+      97.6
+      <i>
+       (4.6)
+      </i>
+</td>
+<td>
+      97.8
+      <i>
+       (4.6)
+      </i>
+</td>
+<td>
+      97.8
+      <i>
+       (5.5)
+      </i>
+</td>
+<td>
+<underline>
+       98.6
+      </underline>
+<i>
+       (4.6)
+      </i>
+</td>
+</tr>
+<tr>
+<td>
+      5
+     </td>
+<td>
+      98.5
+      <i>
+       (5.3)
+      </i>
+</td>
+<td>
+<underline>
+       99.5
+      </underline>
+<i>
+       (4.5)
+      </i>
+</td>
+<td>
+      98.9
+      <i>
+       (5.7)
+      </i>
+</td>
+<td>
+      98.2
+      <i>
+       (7.4)
+      </i>
+</td>
+</tr>
+<tr>
+<td>
+      6
+     </td>
+<td>
+<underline>
+       98.9
+      </underline>
+<i>
+       (4.4)
+      </i>
+</td>
+<td>
+      97.9
+      <i>
+       (3.9)
+      </i>
+</td>
+<td>
+      98.5
+      <i>
+       (5.7)
+      </i>
+</td>
+<td>
+      96.9
+      <i>
+       (6.6)
+      </i>
+</td>
+</tr>
+<tr>
+<td>
+      7
+     </td>
+<td>
+      93.0
+      <i>
+       (5.1)
+      </i>
+</td>
+<td>
+      93.5
+      <i>
+       (4.6)
+      </i>
+</td>
+<td>
+<underline>
+       96.9
+      </underline>
+<i>
+       (5.6)
+      </i>
+</td>
+<td>
+      95.5
+      <i>
+       (5.2)
+      </i>
+</td>
+</tr>
+<tr>
+<td>
+      8
+     </td>
+<td>
+      95.2
+      <i>
+       (6.1)
+      </i>
+</td>
+<td>
+<underline>
+       99.0
+      </underline>
+<i>
+       (5.3)
+      </i>
+</td>
+<td>
+      98.2
+      <i>
+       (6.2)
+      </i>
+</td>
+<td>
+      95.4
+      <i>
+       (4.2)
+      </i>
+</td>
+</tr>
+<tr>
+<td>
+      9
+     </td>
+<td>
+      96.7
+      <i>
+       (3.6)
+      </i>
+</td>
+<td>
+      97.3
+      <i>
+       (3.1)
+      </i>
+</td>
+<td>
+      97.6
+      <i>
+       (4.1)
+      </i>
+</td>
+<td>
+<underline>
+       97.7
+      </underline>
+<i>
+       (4.0)
+      </i>
+</td>
+</tr>
+<tr>
+<td>
+      10
+     </td>
+<td>
+<underline>
+       99.9
+      </underline>
+<i>
+       (4.5)
+      </i>
+</td>
+<td>
+      99.5
+      <i>
+       (4.0)
+      </i>
+</td>
+<td>
+      98.2
+      <i>
+       (60.)
+      </i>
+</td>
+<td>
+      99.8
+      <i>
+       (5.8)
+      </i>
+</td>
+</tr>
+<tr>
+<td>
+      Average
+     </td>
+<td>
+      96.7
+      <i>
+       (4.6)
+      </i>
+</td>
+<td>
+<underline>
+       98.06
+      </underline>
+<i>
+       (4.2)
+      </i>
+</td>
+<td>
+      97.96
+      <i>
+       (5.45)
+      </i>
+</td>
+<td>
+      97.56
+      <i>
+       (5.4)
+      </i>
+</td>
+</tr>
+<tr>
+<td>
+      Std dev.
+      <sup>
+       a
+      </sup>
+</td>
+<td>
+      2.24
+      <i>
+       (0.8)
+      </i>
+</td>
+<td>
+      1.83
+      <i>
+       (0.8)
+      </i>
+</td>
+<td>
+      0.54
+      <i>
+       (0.6)
+      </i>
+</td>
+<td>
+      1.58
+      <i>
+       (1.2)
+      </i>
+</td>
+</tr>
+</tbody>
+</table>

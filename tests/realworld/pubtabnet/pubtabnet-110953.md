@@ -1,0 +1,582 @@
+<!-- source: PubTabNet imgid=110953 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td colspan="2">
+<b>
+       GENE
+      </b>
+</td>
+<td>
+</td>
+<td colspan="3">
+<b>
+       EXPRESSION
+      </b>
+</td>
+<td colspan="2">
+<b>
+       CORRELATION
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+<b>
+       NAME
+      </b>
+</td>
+<td>
+<b>
+       AFFY ID
+      </b>
+</td>
+<td>
+<b>
+       n
+      </b>
+</td>
+<td>
+<b>
+       RMA
+      </b>
+</td>
+<td>
+<b>
+       MAS 5.0
+      </b>
+</td>
+<td>
+<b>
+       qRT-PCR
+      </b>
+</td>
+<td>
+<b>
+       RMA-qRT-PCR
+      </b>
+</td>
+<td>
+<b>
+       MAS-qRT-PCR
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<i>
+       CDC14A
+      </i>
+</td>
+<td>
+      210742_at
+     </td>
+<td>
+      13
+     </td>
+<td>
+      5.77
+     </td>
+<td>
+      7.64
+     </td>
+<td>
+      -0.67
+     </td>
+<td>
+      0.31
+     </td>
+<td>
+      0.26
+     </td>
+</tr>
+<tr>
+<td>
+<i>
+       P125
+      </i>
+</td>
+<td>
+      209175_at
+     </td>
+<td>
+      19
+     </td>
+<td>
+      6.61
+     </td>
+<td>
+      8.43
+     </td>
+<td>
+      0.54
+     </td>
+<td>
+      0.11
+     </td>
+<td>
+      -0.11
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+<i>
+        GCLC
+       </i>
+</b>
+</td>
+<td>
+      202922_at
+     </td>
+<td>
+      13
+     </td>
+<td>
+      6.65
+     </td>
+<td>
+      9.20
+     </td>
+<td>
+      0.33
+     </td>
+<td>
+      0.46
+     </td>
+<td>
+<b>
+       0.56
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+<i>
+       MAP3K7
+      </i>
+</td>
+<td>
+      206853_s_at
+     </td>
+<td>
+      13
+     </td>
+<td>
+      6.65
+     </td>
+<td>
+      8.72
+     </td>
+<td>
+      1.19
+     </td>
+<td>
+      0.11
+     </td>
+<td>
+      -0.10
+     </td>
+</tr>
+<tr>
+<td>
+<i>
+       TIAL1
+      </i>
+</td>
+<td>
+      202405_at
+     </td>
+<td>
+      19
+     </td>
+<td>
+      6.68
+     </td>
+<td>
+      7.86
+     </td>
+<td>
+      0.30
+     </td>
+<td>
+      0.32
+     </td>
+<td>
+      0.17
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+<i>
+        FLJ20003
+       </i>
+</b>
+</td>
+<td>
+      219067_s_at
+     </td>
+<td>
+      19
+     </td>
+<td>
+      6.71
+     </td>
+<td>
+      8.54
+     </td>
+<td>
+      0.64
+     </td>
+<td>
+<b>
+       0.64
+      </b>
+</td>
+<td>
+      0.34
+     </td>
+</tr>
+<tr>
+<td>
+<i>
+       RUNX1
+      </i>
+</td>
+<td>
+      210365_at
+     </td>
+<td>
+      13
+     </td>
+<td>
+      6.95
+     </td>
+<td>
+      9.24
+     </td>
+<td>
+      1.47
+     </td>
+<td>
+      0.29
+     </td>
+<td>
+      0.28
+     </td>
+</tr>
+<tr>
+<td>
+<i>
+       PLEKHA1
+      </i>
+</td>
+<td>
+      219024_at
+     </td>
+<td>
+      19
+     </td>
+<td>
+      6.99
+     </td>
+<td>
+      8.18
+     </td>
+<td>
+      -2.88
+     </td>
+<td>
+      -0.40
+     </td>
+<td>
+      -0.28
+     </td>
+</tr>
+<tr>
+<td>
+<i>
+       FLJ12661
+      </i>
+</td>
+<td>
+      218420_s_at
+     </td>
+<td>
+      19
+     </td>
+<td>
+      7.35
+     </td>
+<td>
+      8.50
+     </td>
+<td>
+      0.57
+     </td>
+<td>
+      -0.08
+     </td>
+<td>
+      -0.17
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+<i>
+        RGC32
+       </i>
+</b>
+</td>
+<td>
+      218723_s_at
+     </td>
+<td>
+      19
+     </td>
+<td>
+      7.36
+     </td>
+<td>
+      8.11
+     </td>
+<td>
+      -3.20
+     </td>
+<td>
+<b>
+       0.85
+      </b>
+</td>
+<td>
+<b>
+       0.96
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+<i>
+       WDR11
+      </i>
+</td>
+<td>
+      218090_s_at
+     </td>
+<td>
+      19
+     </td>
+<td>
+      7.96
+     </td>
+<td>
+      9.04
+     </td>
+<td>
+      0.60
+     </td>
+<td>
+      0.12
+     </td>
+<td>
+      0.01
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+<i>
+        RFC3
+       </i>
+</b>
+</td>
+<td>
+      204127_at
+     </td>
+<td>
+      19
+     </td>
+<td>
+      8.10
+     </td>
+<td>
+      9.77
+     </td>
+<td>
+      1.20
+     </td>
+<td>
+<b>
+       0.62
+      </b>
+</td>
+<td>
+<b>
+       0.64
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+<i>
+       ASAH1
+      </i>
+</td>
+<td>
+      213702_x_at
+     </td>
+<td>
+      22
+     </td>
+<td>
+      8.30
+     </td>
+<td>
+      10.29
+     </td>
+<td>
+      1.46
+     </td>
+<td>
+      0.29
+     </td>
+<td>
+      0.27
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+<i>
+        P38IP
+       </i>
+</b>
+</td>
+<td>
+      220408_x_at
+     </td>
+<td>
+      19
+     </td>
+<td>
+      8.35
+     </td>
+<td>
+      9.55
+     </td>
+<td>
+      0.76
+     </td>
+<td>
+<b>
+       0.73
+      </b>
+</td>
+<td>
+<b>
+       0.65
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+<b>
+<i>
+        BUB3
+       </i>
+</b>
+</td>
+<td>
+      201456_s_at
+     </td>
+<td>
+      19
+     </td>
+<td>
+      8.41
+     </td>
+<td>
+      9.70
+     </td>
+<td>
+      0.60
+     </td>
+<td>
+<b>
+       0.64
+      </b>
+</td>
+<td>
+<b>
+       0.61
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+<i>
+       SAC2
+      </i>
+</td>
+<td>
+      203607_at
+     </td>
+<td>
+      19
+     </td>
+<td>
+      8.86
+     </td>
+<td>
+      10.21
+     </td>
+<td>
+      0.35
+     </td>
+<td>
+      0.22
+     </td>
+<td>
+      0.12
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+<i>
+        TSC22
+       </i>
+</b>
+</td>
+<td>
+      215111_s_at
+     </td>
+<td>
+      19
+     </td>
+<td>
+      10.56
+     </td>
+<td>
+      11.87
+     </td>
+<td>
+      -1.34
+     </td>
+<td>
+<b>
+       0.83
+      </b>
+</td>
+<td>
+<b>
+       0.82
+      </b>
+</td>
+</tr>
+</tbody>
+</table>

@@ -1,0 +1,491 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "%",
+    "10.2",
+    "11.1",
+    "11.7",
+    "115",
+    "12",
+    "12.3",
+    "120",
+    "14",
+    "14.2",
+    "17.4",
+    "19.0",
+    "2",
+    "24.3",
+    "25.8",
+    "280",
+    "294",
+    "35+",
+    "36",
+    "379",
+    "392",
+    "412",
+    "444",
+    "445",
+    "450",
+    "47",
+    "56",
+    "56.7",
+    "59",
+    "62",
+    "65",
+    "66.1",
+    "8.1",
+    "80",
+    "82.6",
+    "85.8",
+    "87.7",
+    "88.3",
+    "88.9",
+    "89.8",
+    "94",
+    "< 35",
+    "Age at reference (years)",
+    "Cases ( n = 506)",
+    "Characteristic",
+    "Controls ( n = 459)",
+    "Family history",
+    "First degree",
+    "Menopausal status",
+    "None",
+    "Nonwhite",
+    "Postmenopausal",
+    "Premenopausal",
+    "Race",
+    "Second degree",
+    "Unknown",
+    "White",
+    "n"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Age at reference (years)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "< 35"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases ( n = 506)",
+        "n"
+      ],
+      "value": "62"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases ( n = 506)",
+        "%"
+      ],
+      "value": "12.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Controls ( n = 459)",
+        "n"
+      ],
+      "value": "80"
+    },
+    {
+      "row": [],
+      "col": [
+        "Controls ( n = 459)",
+        "%"
+      ],
+      "value": "17.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "35+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases ( n = 506)",
+        "n"
+      ],
+      "value": "444"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases ( n = 506)",
+        "%"
+      ],
+      "value": "87.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Controls ( n = 459)",
+        "n"
+      ],
+      "value": "379"
+    },
+    {
+      "row": [],
+      "col": [
+        "Controls ( n = 459)",
+        "%"
+      ],
+      "value": "82.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Race"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "White"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases ( n = 506)",
+        "n"
+      ],
+      "value": "450"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases ( n = 506)",
+        "%"
+      ],
+      "value": "88.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Controls ( n = 459)",
+        "n"
+      ],
+      "value": "412"
+    },
+    {
+      "row": [],
+      "col": [
+        "Controls ( n = 459)",
+        "%"
+      ],
+      "value": "89.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Nonwhite"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases ( n = 506)",
+        "n"
+      ],
+      "value": "56"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases ( n = 506)",
+        "%"
+      ],
+      "value": "11.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Controls ( n = 459)",
+        "n"
+      ],
+      "value": "47"
+    },
+    {
+      "row": [],
+      "col": [
+        "Controls ( n = 459)",
+        "%"
+      ],
+      "value": "10.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Family history"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "None"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases ( n = 506)",
+        "n"
+      ],
+      "value": "280"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases ( n = 506)",
+        "%"
+      ],
+      "value": "56.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Controls ( n = 459)",
+        "n"
+      ],
+      "value": "294"
+    },
+    {
+      "row": [],
+      "col": [
+        "Controls ( n = 459)",
+        "%"
+      ],
+      "value": "66.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "First degree"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases ( n = 506)",
+        "n"
+      ],
+      "value": "94"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases ( n = 506)",
+        "%"
+      ],
+      "value": "19.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Controls ( n = 459)",
+        "n"
+      ],
+      "value": "36"
+    },
+    {
+      "row": [],
+      "col": [
+        "Controls ( n = 459)",
+        "%"
+      ],
+      "value": "8.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Second degree"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases ( n = 506)",
+        "n"
+      ],
+      "value": "120"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases ( n = 506)",
+        "%"
+      ],
+      "value": "24.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Controls ( n = 459)",
+        "n"
+      ],
+      "value": "115"
+    },
+    {
+      "row": [],
+      "col": [
+        "Controls ( n = 459)",
+        "%"
+      ],
+      "value": "25.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Unknown"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases ( n = 506)",
+        "n"
+      ],
+      "value": "12"
+    },
+    {
+      "row": [],
+      "col": [
+        "Controls ( n = 459)",
+        "n"
+      ],
+      "value": "14"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Menopausal status"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Premenopausal"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases ( n = 506)",
+        "n"
+      ],
+      "value": "445"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases ( n = 506)",
+        "%"
+      ],
+      "value": "88.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Controls ( n = 459)",
+        "n"
+      ],
+      "value": "392"
+    },
+    {
+      "row": [],
+      "col": [
+        "Controls ( n = 459)",
+        "%"
+      ],
+      "value": "85.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Postmenopausal"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases ( n = 506)",
+        "n"
+      ],
+      "value": "59"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases ( n = 506)",
+        "%"
+      ],
+      "value": "11.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Controls ( n = 459)",
+        "n"
+      ],
+      "value": "65"
+    },
+    {
+      "row": [],
+      "col": [
+        "Controls ( n = 459)",
+        "%"
+      ],
+      "value": "14.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Unknown"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases ( n = 506)",
+        "n"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Controls ( n = 459)",
+        "n"
+      ],
+      "value": "2"
+    }
+  ]
+}

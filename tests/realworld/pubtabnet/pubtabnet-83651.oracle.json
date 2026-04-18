@@ -1,0 +1,491 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "(1.8)",
+    "(13)",
+    "(14)",
+    "(17)",
+    "(21)",
+    "(31)",
+    "(4.9)",
+    "(50)",
+    "(6.8)",
+    "(62)",
+    "(63)",
+    "(7.9)",
+    "(9,6)",
+    "(RSE%)",
+    "(RSE%) 1",
+    "0.162 (8.8)",
+    "0.191 (8.2)",
+    "0.232(9.8)",
+    "0.353",
+    "1.31",
+    "105",
+    "2.48",
+    "24 (28)",
+    "34",
+    "39.3",
+    "4.1",
+    "475",
+    "51.1",
+    "54",
+    "61",
+    "70",
+    "71.7",
+    "73.6",
+    "75",
+    "Clearance (L/h)",
+    "Estimate",
+    "Estimate %",
+    "IIV 3 (RSE %)",
+    "Infusion (RSE %)",
+    "Interindividual variability",
+    "N.E.",
+    "Oral (RSE %)",
+    "Oral F",
+    "Oral Ka (h -1 )",
+    "Parameter",
+    "Population average",
+    "Proportional",
+    "Q2 (L/h)",
+    "Q3 (L/h)",
+    "Residual error 2",
+    "Subcutaneous (RSE %)",
+    "Subcutaneous Ka (h -1 )",
+    "V1 (L)",
+    "V2 (L)",
+    "V3 (L)"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "Clearance (L/h)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Population average",
+        "Estimate"
+      ],
+      "value": "39.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Population average",
+        "(RSE%) 1"
+      ],
+      "value": "(4.9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Interindividual variability",
+        "Estimate %"
+      ],
+      "value": "54"
+    },
+    {
+      "row": [],
+      "col": [
+        "Interindividual variability",
+        "(RSE%)"
+      ],
+      "value": "(17)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "V1 (L)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Population average",
+        "Estimate"
+      ],
+      "value": "71.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Population average",
+        "(RSE%) 1"
+      ],
+      "value": "(13)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Interindividual variability",
+        "Estimate %"
+      ],
+      "value": "34"
+    },
+    {
+      "row": [],
+      "col": [
+        "Interindividual variability",
+        "(RSE%)"
+      ],
+      "value": "(62)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "Q2 (L/h)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Population average",
+        "Estimate"
+      ],
+      "value": "51.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Population average",
+        "(RSE%) 1"
+      ],
+      "value": "(6.8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Interindividual variability",
+        "Estimate %"
+      ],
+      "value": "61"
+    },
+    {
+      "row": [],
+      "col": [
+        "Interindividual variability",
+        "(RSE%)"
+      ],
+      "value": "(17)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "V2 (L)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Population average",
+        "Estimate"
+      ],
+      "value": "475"
+    },
+    {
+      "row": [],
+      "col": [
+        "Population average",
+        "(RSE%) 1"
+      ],
+      "value": "(1.8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Interindividual variability",
+        "Estimate %"
+      ],
+      "value": "70"
+    },
+    {
+      "row": [],
+      "col": [
+        "Interindividual variability",
+        "(RSE%)"
+      ],
+      "value": "(31)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "Q3 (L/h)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Population average",
+        "Estimate"
+      ],
+      "value": "105"
+    },
+    {
+      "row": [],
+      "col": [
+        "Population average",
+        "(RSE%) 1"
+      ],
+      "value": "(21)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Interindividual variability",
+        "Estimate %"
+      ],
+      "value": "61"
+    },
+    {
+      "row": [],
+      "col": [
+        "Interindividual variability",
+        "(RSE%)"
+      ],
+      "value": "(17)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "V3 (L)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Population average",
+        "Estimate"
+      ],
+      "value": "73.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Population average",
+        "(RSE%) 1"
+      ],
+      "value": "(13)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Interindividual variability",
+        "Estimate %"
+      ],
+      "value": "61"
+    },
+    {
+      "row": [],
+      "col": [
+        "Interindividual variability",
+        "(RSE%)"
+      ],
+      "value": "(17)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "Oral Ka (h -1 )"
+    },
+    {
+      "row": [],
+      "col": [
+        "Population average",
+        "Estimate"
+      ],
+      "value": "1.31"
+    },
+    {
+      "row": [],
+      "col": [
+        "Population average",
+        "(RSE%) 1"
+      ],
+      "value": "(14)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Interindividual variability",
+        "Estimate %"
+      ],
+      "value": "75"
+    },
+    {
+      "row": [],
+      "col": [
+        "Interindividual variability",
+        "(RSE%)"
+      ],
+      "value": "(50)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "Oral F"
+    },
+    {
+      "row": [],
+      "col": [
+        "Population average",
+        "Estimate"
+      ],
+      "value": "0.353"
+    },
+    {
+      "row": [],
+      "col": [
+        "Population average",
+        "(RSE%) 1"
+      ],
+      "value": "(7.9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Interindividual variability",
+        "Estimate %"
+      ],
+      "value": "4.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Interindividual variability",
+        "(RSE%)"
+      ],
+      "value": "(63)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "Subcutaneous Ka (h -1 )"
+    },
+    {
+      "row": [],
+      "col": [
+        "Population average",
+        "Estimate"
+      ],
+      "value": "2.48"
+    },
+    {
+      "row": [],
+      "col": [
+        "Population average",
+        "(RSE%) 1"
+      ],
+      "value": "(9,6)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Interindividual variability",
+        "Estimate %"
+      ],
+      "value": "N.E."
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "Parameter"
+    },
+    {
+      "row": [],
+      "col": [
+        "Population average",
+        "Estimate"
+      ],
+      "value": "Infusion (RSE %)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Population average",
+        "(RSE%) 1"
+      ],
+      "value": "Oral (RSE %)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Interindividual variability",
+        "Estimate %"
+      ],
+      "value": "Subcutaneous (RSE %)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Interindividual variability",
+        "(RSE%)"
+      ],
+      "value": "IIV 3 (RSE %)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "Residual error 2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Parameter"
+      ],
+      "value": "Proportional"
+    },
+    {
+      "row": [],
+      "col": [
+        "Population average",
+        "Estimate"
+      ],
+      "value": "0.191 (8.2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Population average",
+        "(RSE%) 1"
+      ],
+      "value": "0.232(9.8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Interindividual variability",
+        "Estimate %"
+      ],
+      "value": "0.162 (8.8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Interindividual variability",
+        "(RSE%)"
+      ],
+      "value": "24 (28)"
+    }
+  ]
+}

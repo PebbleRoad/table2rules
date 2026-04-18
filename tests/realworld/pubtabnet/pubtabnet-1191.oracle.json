@@ -1,0 +1,300 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0.0",
+    "100",
+    "105.5",
+    "164.0",
+    "17.0",
+    "1721.6",
+    "18.0",
+    "26.5",
+    "32",
+    "3352.0",
+    "34",
+    "3453.2",
+    "38.0",
+    "39.0",
+    "54.8",
+    "67.0",
+    "7.5",
+    "70.9",
+    "75.0",
+    "88.8",
+    "< 18",
+    "Cathepsin K",
+    "Kruskal\u2013Wallis test",
+    "Larsen group",
+    "Larsen score",
+    "Maximum",
+    "Median",
+    "Minimum",
+    "P = 0.035",
+    "Total",
+    "n",
+    "\u2265 19 and < 74",
+    "\u2265 75"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Larsen group"
+      ],
+      "value": "< 18"
+    },
+    {
+      "row": [],
+      "col": [
+        "Larsen group",
+        "n"
+      ],
+      "value": "32"
+    },
+    {
+      "row": [],
+      "col": [
+        "Larsen score",
+        "Minimum"
+      ],
+      "value": "0.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Larsen score",
+        "Median"
+      ],
+      "value": "7.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Larsen score",
+        "Maximum"
+      ],
+      "value": "17.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cathepsin K",
+        "Minimum"
+      ],
+      "value": "0.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cathepsin K",
+        "Median"
+      ],
+      "value": "26.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cathepsin K",
+        "Maximum"
+      ],
+      "value": "3352.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Larsen group"
+      ],
+      "value": "\u2265 19 and < 74"
+    },
+    {
+      "row": [],
+      "col": [
+        "Larsen group",
+        "n"
+      ],
+      "value": "34"
+    },
+    {
+      "row": [],
+      "col": [
+        "Larsen score",
+        "Minimum"
+      ],
+      "value": "18.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Larsen score",
+        "Median"
+      ],
+      "value": "38.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Larsen score",
+        "Maximum"
+      ],
+      "value": "67.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cathepsin K",
+        "Minimum"
+      ],
+      "value": "0.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cathepsin K",
+        "Median"
+      ],
+      "value": "70.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cathepsin K",
+        "Maximum"
+      ],
+      "value": "1721.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Larsen group"
+      ],
+      "value": "\u2265 75"
+    },
+    {
+      "row": [],
+      "col": [
+        "Larsen group",
+        "n"
+      ],
+      "value": "34"
+    },
+    {
+      "row": [],
+      "col": [
+        "Larsen score",
+        "Minimum"
+      ],
+      "value": "75.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Larsen score",
+        "Median"
+      ],
+      "value": "105.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Larsen score",
+        "Maximum"
+      ],
+      "value": "164.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cathepsin K",
+        "Minimum"
+      ],
+      "value": "0.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cathepsin K",
+        "Median"
+      ],
+      "value": "88.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cathepsin K",
+        "Maximum"
+      ],
+      "value": "3453.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Larsen group"
+      ],
+      "value": "Total"
+    },
+    {
+      "row": [],
+      "col": [
+        "Larsen group",
+        "n"
+      ],
+      "value": "100"
+    },
+    {
+      "row": [],
+      "col": [
+        "Larsen score",
+        "Minimum"
+      ],
+      "value": "0.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Larsen score",
+        "Median"
+      ],
+      "value": "39.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Larsen score",
+        "Maximum"
+      ],
+      "value": "164.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cathepsin K",
+        "Minimum"
+      ],
+      "value": "0.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cathepsin K",
+        "Median"
+      ],
+      "value": "54.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cathepsin K",
+        "Maximum"
+      ],
+      "value": "3453.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Kruskal\u2013Wallis test"
+      ],
+      "value": "P = 0.035"
+    }
+  ]
+}

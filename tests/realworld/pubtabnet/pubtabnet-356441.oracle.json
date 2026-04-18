@@ -1,0 +1,290 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0 to 13 vs. 14 to 21 yrs",
+    "0 to 13 yrs",
+    "0.25",
+    "0.40",
+    "0.46",
+    "0.49",
+    "0.55",
+    "0.63",
+    "0.76",
+    "0.81",
+    "0\u201316 Years $",
+    "1.13",
+    "1.14",
+    "1.77",
+    "1.78",
+    "1.84",
+    "1.91",
+    "1.94",
+    "1.97",
+    "14 to 21 yrs",
+    "17\u201339 Years",
+    "2.10",
+    "2.27",
+    "2.37",
+    "2.39",
+    "2.56",
+    "2.64",
+    "2.67",
+    "40\u201369 Years",
+    "70+ Years",
+    "Age group*",
+    "All Intervals*",
+    "All intervals*",
+    "Difference in Rate (percent per intra-couplet year)",
+    "Private Insured",
+    "Public",
+    "Public vs. Private",
+    "Rate of Loss (percent per intra-couplet year)"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Age group*"
+      ],
+      "value": "0\u201316 Years $"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rate of Loss (percent per intra-couplet year)",
+        "Public",
+        "All intervals*"
+      ],
+      "value": "0.63"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rate of Loss (percent per intra-couplet year)",
+        "Private Insured",
+        "All intervals*"
+      ],
+      "value": "1.77"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rate of Loss (percent per intra-couplet year)",
+        "Private Insured",
+        "0 to 13 yrs"
+      ],
+      "value": "2.37"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rate of Loss (percent per intra-couplet year)",
+        "Private Insured",
+        "14 to 21 yrs"
+      ],
+      "value": "0.40"
+    },
+    {
+      "row": [],
+      "col": [
+        "Difference in Rate (percent per intra-couplet year)",
+        "Public vs. Private",
+        "All Intervals*"
+      ],
+      "value": "1.14"
+    },
+    {
+      "row": [],
+      "col": [
+        "Difference in Rate (percent per intra-couplet year)",
+        "Private Insured",
+        "0 to 13 vs. 14 to 21 yrs"
+      ],
+      "value": "1.97"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age group*"
+      ],
+      "value": "17\u201339 Years"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rate of Loss (percent per intra-couplet year)",
+        "Public",
+        "All intervals*"
+      ],
+      "value": "0.49"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rate of Loss (percent per intra-couplet year)",
+        "Private Insured",
+        "All intervals*"
+      ],
+      "value": "2.27"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rate of Loss (percent per intra-couplet year)",
+        "Private Insured",
+        "0 to 13 yrs"
+      ],
+      "value": "2.39"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rate of Loss (percent per intra-couplet year)",
+        "Private Insured",
+        "14 to 21 yrs"
+      ],
+      "value": "0.55"
+    },
+    {
+      "row": [],
+      "col": [
+        "Difference in Rate (percent per intra-couplet year)",
+        "Public vs. Private",
+        "All Intervals*"
+      ],
+      "value": "1.78"
+    },
+    {
+      "row": [],
+      "col": [
+        "Difference in Rate (percent per intra-couplet year)",
+        "Private Insured",
+        "0 to 13 vs. 14 to 21 yrs"
+      ],
+      "value": "1.84"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age group*"
+      ],
+      "value": "40\u201369 Years"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rate of Loss (percent per intra-couplet year)",
+        "Public",
+        "All intervals*"
+      ],
+      "value": "0.81"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rate of Loss (percent per intra-couplet year)",
+        "Private Insured",
+        "All intervals*"
+      ],
+      "value": "1.94"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rate of Loss (percent per intra-couplet year)",
+        "Private Insured",
+        "0 to 13 yrs"
+      ],
+      "value": "2.56"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rate of Loss (percent per intra-couplet year)",
+        "Private Insured",
+        "14 to 21 yrs"
+      ],
+      "value": "0.46"
+    },
+    {
+      "row": [],
+      "col": [
+        "Difference in Rate (percent per intra-couplet year)",
+        "Public vs. Private",
+        "All Intervals*"
+      ],
+      "value": "1.13"
+    },
+    {
+      "row": [],
+      "col": [
+        "Difference in Rate (percent per intra-couplet year)",
+        "Private Insured",
+        "0 to 13 vs. 14 to 21 yrs"
+      ],
+      "value": "2.10"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age group*"
+      ],
+      "value": "70+ Years"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rate of Loss (percent per intra-couplet year)",
+        "Public",
+        "All intervals*"
+      ],
+      "value": "0.25"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rate of Loss (percent per intra-couplet year)",
+        "Private Insured",
+        "All intervals*"
+      ],
+      "value": "2.64"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rate of Loss (percent per intra-couplet year)",
+        "Private Insured",
+        "0 to 13 yrs"
+      ],
+      "value": "2.67"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rate of Loss (percent per intra-couplet year)",
+        "Private Insured",
+        "14 to 21 yrs"
+      ],
+      "value": "1.91"
+    },
+    {
+      "row": [],
+      "col": [
+        "Difference in Rate (percent per intra-couplet year)",
+        "Public vs. Private",
+        "All Intervals*"
+      ],
+      "value": "2.39"
+    },
+    {
+      "row": [],
+      "col": [
+        "Difference in Rate (percent per intra-couplet year)",
+        "Private Insured",
+        "0 to 13 vs. 14 to 21 yrs"
+      ],
+      "value": "0.76"
+    }
+  ]
+}

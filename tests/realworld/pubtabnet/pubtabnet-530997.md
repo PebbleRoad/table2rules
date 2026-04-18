@@ -1,0 +1,191 @@
+<!-- source: PubTabNet imgid=530997 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+<b>
+       Location
+      </b>
+</td>
+<td>
+<b>
+       RRMA [18]
+      </b>
+</td>
+<td>
+<b>
+       ARIA [18]
+      </b>
+</td>
+<td colspan="3">
+<b>
+       Distance to (km):
+      </b>
+</td>
+<td colspan="4">
+<b>
+       Public Hospital Facilities (2002 -3) [24]
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+      Division Teaching Hospital
+     </td>
+<td>
+      Metropolitan Capital
+     </td>
+<td>
+      Nearest Pilot Study Location
+     </td>
+<td>
+      Available beds
+     </td>
+<td>
+      Medical staff [FTE]
+     </td>
+<td>
+      Visiting medical staff [FTE]
+     </td>
+<td>
+      Admitted patients (in 2002)
+     </td>
+</tr>
+<tr>
+<td>
+      A
+     </td>
+<td>
+      5
+     </td>
+<td>
+      4.03
+     </td>
+<td>
+      172
+     </td>
+<td>
+      640
+     </td>
+<td>
+      78
+     </td>
+<td>
+      10
+     </td>
+<td>
+      1
+     </td>
+<td>
+      0
+     </td>
+<td>
+      463
+     </td>
+</tr>
+<tr>
+<td>
+      B
+     </td>
+<td>
+      5
+     </td>
+<td>
+      4.79
+     </td>
+<td>
+      210
+     </td>
+<td>
+      564
+     </td>
+<td>
+      78
+     </td>
+<td>
+      10
+     </td>
+<td>
+      1
+     </td>
+<td>
+      0
+     </td>
+<td>
+      291
+     </td>
+</tr>
+<tr>
+<td>
+      C
+     </td>
+<td>
+      6
+     </td>
+<td>
+      5.06
+     </td>
+<td>
+      271
+     </td>
+<td>
+      896
+     </td>
+<td>
+      289
+     </td>
+<td>
+      37
+     </td>
+<td>
+      5
+     </td>
+<td>
+      3
+     </td>
+<td>
+      2967
+     </td>
+</tr>
+<tr>
+<td>
+      Division Teaching Hospital
+     </td>
+<td>
+      3
+     </td>
+<td>
+      1.49
+     </td>
+<td>
+      N/A
+     </td>
+<td>
+      648
+     </td>
+<td>
+      172
+     </td>
+<td>
+      203
+     </td>
+<td>
+      73
+     </td>
+<td>
+      16
+     </td>
+<td>
+      21,395
+     </td>
+</tr>
+</tbody>
+</table>

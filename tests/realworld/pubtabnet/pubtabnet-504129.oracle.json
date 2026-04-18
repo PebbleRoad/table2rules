@@ -1,0 +1,468 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "-1.36 to 2.51",
+    "0.02 to 1.53",
+    "0.11 to 1.72",
+    "0.12 to 63.84",
+    "0.19",
+    "0.36 to 2.08",
+    "0.43",
+    "0.47 to 2.96",
+    "0.57",
+    "0.59 to 1.09",
+    "0.74 to 1.09",
+    "0.80",
+    "0.80 to 2.42",
+    "0.87",
+    "0.90",
+    "1.18",
+    "1.39",
+    "2",
+    "2.71",
+    "26",
+    "71",
+    "75",
+    "78",
+    "95% Confidence Intervals",
+    "Apgar score <7 at 5 mins",
+    "Birth <34 weeks gestation",
+    "Birth <37 weeks gestation",
+    "Birth weight <1500 grams",
+    "Birth weight <2500 grams",
+    "Caesarean section",
+    "Gestational age at birth (weeks)*",
+    "Maternal hypertension",
+    "Neonatal Death",
+    "Neonatal stay >7 days",
+    "Neonatal unit admission",
+    "Number Participants",
+    "Number Trials",
+    "Outcome",
+    "Perinatal Death",
+    "Relative Risk"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Outcome"
+      ],
+      "value": "Gestational age at birth (weeks)*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number Trials"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number Participants"
+      ],
+      "value": "26"
+    },
+    {
+      "row": [],
+      "col": [
+        "Relative Risk"
+      ],
+      "value": "0.57"
+    },
+    {
+      "row": [],
+      "col": [
+        "95% Confidence Intervals"
+      ],
+      "value": "-1.36 to 2.51"
+    },
+    {
+      "row": [],
+      "col": [
+        "Outcome"
+      ],
+      "value": "Birth <37 weeks gestation"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number Trials"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number Participants"
+      ],
+      "value": "26"
+    },
+    {
+      "row": [],
+      "col": [
+        "Relative Risk"
+      ],
+      "value": "0.80"
+    },
+    {
+      "row": [],
+      "col": [
+        "95% Confidence Intervals"
+      ],
+      "value": "0.59 to 1.09"
+    },
+    {
+      "row": [],
+      "col": [
+        "Outcome"
+      ],
+      "value": "Birth <34 weeks gestation"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number Trials"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number Participants"
+      ],
+      "value": "26"
+    },
+    {
+      "row": [],
+      "col": [
+        "Relative Risk"
+      ],
+      "value": "0.87"
+    },
+    {
+      "row": [],
+      "col": [
+        "95% Confidence Intervals"
+      ],
+      "value": "0.36 to 2.08"
+    },
+    {
+      "row": [],
+      "col": [
+        "Outcome"
+      ],
+      "value": "Caesarean section"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number Trials"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number Participants"
+      ],
+      "value": "26"
+    },
+    {
+      "row": [],
+      "col": [
+        "Relative Risk"
+      ],
+      "value": "1.18"
+    },
+    {
+      "row": [],
+      "col": [
+        "95% Confidence Intervals"
+      ],
+      "value": "0.47 to 2.96"
+    },
+    {
+      "row": [],
+      "col": [
+        "Outcome"
+      ],
+      "value": "Maternal hypertension"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number Trials"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number Participants"
+      ],
+      "value": "26"
+    },
+    {
+      "row": [],
+      "col": [
+        "Relative Risk"
+      ],
+      "value": "0.43"
+    },
+    {
+      "row": [],
+      "col": [
+        "95% Confidence Intervals"
+      ],
+      "value": "0.11 to 1.72"
+    },
+    {
+      "row": [],
+      "col": [
+        "Outcome"
+      ],
+      "value": "Birth weight <2500 grams"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number Trials"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number Participants"
+      ],
+      "value": "75"
+    },
+    {
+      "row": [],
+      "col": [
+        "Relative Risk"
+      ],
+      "value": "0.87"
+    },
+    {
+      "row": [],
+      "col": [
+        "95% Confidence Intervals"
+      ],
+      "value": "0.36 to 2.08"
+    },
+    {
+      "row": [],
+      "col": [
+        "Outcome"
+      ],
+      "value": "Birth weight <1500 grams"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number Trials"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number Participants"
+      ],
+      "value": "75"
+    },
+    {
+      "row": [],
+      "col": [
+        "Relative Risk"
+      ],
+      "value": "1.18"
+    },
+    {
+      "row": [],
+      "col": [
+        "95% Confidence Intervals"
+      ],
+      "value": "0.47 to 2.96"
+    },
+    {
+      "row": [],
+      "col": [
+        "Outcome"
+      ],
+      "value": "Apgar score <7 at 5 mins"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number Trials"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number Participants"
+      ],
+      "value": "75"
+    },
+    {
+      "row": [],
+      "col": [
+        "Relative Risk"
+      ],
+      "value": "0.43"
+    },
+    {
+      "row": [],
+      "col": [
+        "95% Confidence Intervals"
+      ],
+      "value": "0.11 to 1.72"
+    },
+    {
+      "row": [],
+      "col": [
+        "Outcome"
+      ],
+      "value": "Neonatal unit admission"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number Trials"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number Participants"
+      ],
+      "value": "71"
+    },
+    {
+      "row": [],
+      "col": [
+        "Relative Risk"
+      ],
+      "value": "0.90"
+    },
+    {
+      "row": [],
+      "col": [
+        "95% Confidence Intervals"
+      ],
+      "value": "0.74 to 1.09"
+    },
+    {
+      "row": [],
+      "col": [
+        "Outcome"
+      ],
+      "value": "Neonatal stay >7 days"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number Trials"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number Participants"
+      ],
+      "value": "71"
+    },
+    {
+      "row": [],
+      "col": [
+        "Relative Risk"
+      ],
+      "value": "1.39"
+    },
+    {
+      "row": [],
+      "col": [
+        "95% Confidence Intervals"
+      ],
+      "value": "0.80 to 2.42"
+    },
+    {
+      "row": [],
+      "col": [
+        "Outcome"
+      ],
+      "value": "Perinatal Death"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number Trials"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number Participants"
+      ],
+      "value": "78"
+    },
+    {
+      "row": [],
+      "col": [
+        "Relative Risk"
+      ],
+      "value": "2.71"
+    },
+    {
+      "row": [],
+      "col": [
+        "95% Confidence Intervals"
+      ],
+      "value": "0.12 to 63.84"
+    },
+    {
+      "row": [],
+      "col": [
+        "Outcome"
+      ],
+      "value": "Neonatal Death"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number Trials"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number Participants"
+      ],
+      "value": "75"
+    },
+    {
+      "row": [],
+      "col": [
+        "Relative Risk"
+      ],
+      "value": "0.19"
+    },
+    {
+      "row": [],
+      "col": [
+        "95% Confidence Intervals"
+      ],
+      "value": "0.02 to 1.53"
+    }
+  ]
+}

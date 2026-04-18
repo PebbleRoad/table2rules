@@ -1,0 +1,396 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "24.2",
+    "24.3",
+    "24.6",
+    "25.6",
+    "25.7",
+    "3170.9",
+    "3224.9",
+    "3252.4 (Referent)",
+    "3253.2",
+    "3288.8",
+    "3941.9*",
+    "4018.6*",
+    "4084.1",
+    "4085.0",
+    "4088.8 (Referent)",
+    "416,1",
+    "420.9",
+    "448.9",
+    "465.8",
+    "4679.9**",
+    "47.6",
+    "47.7",
+    "4763.8**",
+    "48.3",
+    "4864.8",
+    "4869.1 (Referent)",
+    "4878.6",
+    "49.5",
+    "49.7",
+    "496.2",
+    "500.7",
+    "502.9",
+    "513.7",
+    "540.4",
+    "564.9",
+    "609.9",
+    "618.2",
+    "631.8",
+    "696.2",
+    "727.3",
+    "GH# (N=782)",
+    "Infant growth 28 days postpartum",
+    "Infant growth 42 days postpartum",
+    "Infant growth percent 1 (%)",
+    "Infant growth percent 2 (%)",
+    "Infant weight (g)",
+    "Mean birth weight (g)",
+    "Normotensive (N=10,669)",
+    "PE\u00b6 (N=365)",
+    "SD",
+    "SD\u2020",
+    "Severe PE (N=105)",
+    "Total (N=11,921)"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Normotensive (N=10,669)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean birth weight (g)"
+      ],
+      "value": "3252.4 (Referent)"
+    },
+    {
+      "row": [],
+      "col": [
+        "SD\u2020"
+      ],
+      "value": "416,1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Infant growth 28 days postpartum",
+        "Infant weight (g)"
+      ],
+      "value": "4088.8 (Referent)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Infant growth 28 days postpartum",
+        "SD"
+      ],
+      "value": "496.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Infant growth 28 days postpartum",
+        "Infant growth percent 1 (%)"
+      ],
+      "value": "25.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Infant growth 42 days postpartum",
+        "Infant weight (g)"
+      ],
+      "value": "4869.1 (Referent)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Infant growth 42 days postpartum",
+        "SD"
+      ],
+      "value": "609.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Infant growth 42 days postpartum",
+        "Infant growth percent 2 (%)"
+      ],
+      "value": "49.7"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "GH# (N=782)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean birth weight (g)"
+      ],
+      "value": "3288.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "SD\u2020"
+      ],
+      "value": "448.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Infant growth 28 days postpartum",
+        "Infant weight (g)"
+      ],
+      "value": "4084.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Infant growth 28 days postpartum",
+        "SD"
+      ],
+      "value": "540.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Infant growth 28 days postpartum",
+        "Infant growth percent 1 (%)"
+      ],
+      "value": "24.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Infant growth 42 days postpartum",
+        "Infant weight (g)"
+      ],
+      "value": "4878.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Infant growth 42 days postpartum",
+        "SD"
+      ],
+      "value": "696.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Infant growth 42 days postpartum",
+        "Infant growth percent 2 (%)"
+      ],
+      "value": "48.3"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "PE\u00b6 (N=365)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean birth weight (g)"
+      ],
+      "value": "3224.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "SD\u2020"
+      ],
+      "value": "465.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Infant growth 28 days postpartum",
+        "Infant weight (g)"
+      ],
+      "value": "4018.6*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Infant growth 28 days postpartum",
+        "SD"
+      ],
+      "value": "513.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Infant growth 28 days postpartum",
+        "Infant growth percent 1 (%)"
+      ],
+      "value": "24.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Infant growth 42 days postpartum",
+        "Infant weight (g)"
+      ],
+      "value": "4763.8**"
+    },
+    {
+      "row": [],
+      "col": [
+        "Infant growth 42 days postpartum",
+        "SD"
+      ],
+      "value": "631.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Infant growth 42 days postpartum",
+        "Infant growth percent 2 (%)"
+      ],
+      "value": "47.7"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Severe PE (N=105)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean birth weight (g)"
+      ],
+      "value": "3170.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "SD\u2020"
+      ],
+      "value": "502.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Infant growth 28 days postpartum",
+        "Infant weight (g)"
+      ],
+      "value": "3941.9*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Infant growth 28 days postpartum",
+        "SD"
+      ],
+      "value": "564.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Infant growth 28 days postpartum",
+        "Infant growth percent 1 (%)"
+      ],
+      "value": "24.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Infant growth 42 days postpartum",
+        "Infant weight (g)"
+      ],
+      "value": "4679.9**"
+    },
+    {
+      "row": [],
+      "col": [
+        "Infant growth 42 days postpartum",
+        "SD"
+      ],
+      "value": "727.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Infant growth 42 days postpartum",
+        "Infant growth percent 2 (%)"
+      ],
+      "value": "47.6"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total (N=11,921)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean birth weight (g)"
+      ],
+      "value": "3253.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "SD\u2020"
+      ],
+      "value": "420.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Infant growth 28 days postpartum",
+        "Infant weight (g)"
+      ],
+      "value": "4085.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Infant growth 28 days postpartum",
+        "SD"
+      ],
+      "value": "500.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Infant growth 28 days postpartum",
+        "Infant growth percent 1 (%)"
+      ],
+      "value": "25.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Infant growth 42 days postpartum",
+        "Infant weight (g)"
+      ],
+      "value": "4864.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Infant growth 42 days postpartum",
+        "SD"
+      ],
+      "value": "618.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Infant growth 42 days postpartum",
+        "Infant growth percent 2 (%)"
+      ],
+      "value": "49.5"
+    }
+  ]
+}

@@ -1,0 +1,308 @@
+<!-- source: PubTabNet imgid=434256 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+<b>
+       Gene
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Primers
+      </b>
+</td>
+<td>
+<b>
+       annealing temperature
+      </b>
+</td>
+<td>
+<b>
+       fragment size (pb)
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      FBXO12B
+     </td>
+<td>
+      Upper
+     </td>
+<td>
+      ATTTGCCTCGTTTGCCTCTGA
+     </td>
+<td>
+      49°C
+     </td>
+<td>
+      890 pb
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      Lower
+     </td>
+<td>
+      GGTTATCCTGTCTTCCCTTCT
+     </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      FBXO12D
+     </td>
+<td>
+      Upper
+     </td>
+<td>
+      AGCCCTGTCCTTTTCCTGTCA
+     </td>
+<td>
+      50°C
+     </td>
+<td>
+      491 pb
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      Lower
+     </td>
+<td>
+      AATAGTCTGGTTTCCCCTCAC
+     </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Tcl1b3
+     </td>
+<td>
+      Upper
+     </td>
+<td>
+      TGGTAGACAGTGGGTAGTTGC
+     </td>
+<td>
+      54°C
+     </td>
+<td>
+      585 pb
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      Lower
+     </td>
+<td>
+      CAGGTGGAGGAGTTTGAATGG
+     </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Tcl1b4
+     </td>
+<td>
+      Upper
+     </td>
+<td>
+      TAAGAAGGCAGCCAACCAGAC
+     </td>
+<td>
+      54°C
+     </td>
+<td>
+      838 pb
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      Lower
+     </td>
+<td>
+      CTACCCAGCACCAGGCGAACT
+     </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Tcl1
+     </td>
+<td>
+      Upper
+     </td>
+<td>
+      TTTTATCACGGACTGGCATTG
+     </td>
+<td>
+      54°C
+     </td>
+<td>
+      1208 pb
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      Lower
+     </td>
+<td>
+      CCCTCATTTATTGGCATCTCG
+     </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      SpeerA
+     </td>
+<td>
+      Upper
+     </td>
+<td>
+      TGAAGCAGGAAAATAGGAGA
+     </td>
+<td>
+      51°C
+     </td>
+<td>
+      900 pb
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      Lower
+     </td>
+<td>
+      CCAAACAGAAAACCAAACAC
+     </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      AK076711
+     </td>
+<td>
+      Upper
+     </td>
+<td>
+      GGCTCCCAGAGGCTGAATCA
+     </td>
+<td>
+      61°C
+     </td>
+<td>
+      769 pb
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      Lower
+     </td>
+<td>
+      TAAGGGTGTCCAAAGAATCA
+     </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Oosp3
+     </td>
+<td>
+      Upper
+     </td>
+<td>
+      TATTTGGGATGTGGAGATGTT
+     </td>
+<td>
+      52°C
+     </td>
+<td>
+      416 pb
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      Lower
+     </td>
+<td>
+      TTGAGGAGGAGGGTGGAAGTC
+     </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Actin
+     </td>
+<td>
+      Upper
+     </td>
+<td>
+      ACGGAACCACAGTTTATCATC
+     </td>
+<td>
+      60°C
+     </td>
+<td>
+      180 pb
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      Lower
+     </td>
+<td>
+      GTCCCAGTCTTCAACTATACC
+     </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+</tbody>
+</table>

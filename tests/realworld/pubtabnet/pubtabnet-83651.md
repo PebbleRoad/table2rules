@@ -1,0 +1,275 @@
+<!-- source: PubTabNet imgid=83651 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+<b>
+       Parameter
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Population average
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Interindividual variability
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<b>
+       Estimate
+      </b>
+</td>
+<td>
+<b>
+       (RSE%)
+       <sup>
+        1
+       </sup>
+</b>
+</td>
+<td>
+<b>
+       Estimate %
+      </b>
+</td>
+<td>
+<b>
+       (RSE%)
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      Clearance (L/h)
+     </td>
+<td>
+      39.3
+     </td>
+<td>
+      (4.9)
+     </td>
+<td>
+      54
+     </td>
+<td>
+      (17)
+     </td>
+</tr>
+<tr>
+<td>
+      V1 (L)
+     </td>
+<td>
+      71.7
+     </td>
+<td>
+      (13)
+     </td>
+<td>
+      34
+     </td>
+<td>
+      (62)
+     </td>
+</tr>
+<tr>
+<td>
+      Q2 (L/h)
+     </td>
+<td>
+      51.1
+     </td>
+<td>
+      (6.8)
+     </td>
+<td>
+      61
+     </td>
+<td>
+      (17)
+     </td>
+</tr>
+<tr>
+<td>
+      V2 (L)
+     </td>
+<td>
+      475
+     </td>
+<td>
+      (1.8)
+     </td>
+<td>
+      70
+     </td>
+<td>
+      (31)
+     </td>
+</tr>
+<tr>
+<td>
+      Q3 (L/h)
+     </td>
+<td>
+      105
+     </td>
+<td>
+      (21)
+     </td>
+<td>
+      61
+     </td>
+<td>
+      (17)
+     </td>
+</tr>
+<tr>
+<td>
+      V3 (L)
+     </td>
+<td>
+      73.6
+     </td>
+<td>
+      (13)
+     </td>
+<td>
+      61
+     </td>
+<td>
+      (17)
+     </td>
+</tr>
+<tr>
+<td>
+      Oral Ka (h
+      <sup>
+       -1
+      </sup>
+      )
+     </td>
+<td>
+      1.31
+     </td>
+<td>
+      (14)
+     </td>
+<td>
+      75
+     </td>
+<td>
+      (50)
+     </td>
+</tr>
+<tr>
+<td>
+      Oral F
+     </td>
+<td>
+      0.353
+     </td>
+<td>
+      (7.9)
+     </td>
+<td>
+      4.1
+     </td>
+<td>
+      (63)
+     </td>
+</tr>
+<tr>
+<td>
+      Subcutaneous Ka (h
+      <sup>
+       -1
+      </sup>
+      )
+     </td>
+<td>
+      2.48
+     </td>
+<td>
+      (9,6)
+     </td>
+<td>
+      N.E.
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<b>
+       Parameter
+      </b>
+</td>
+<td>
+<b>
+       Infusion (RSE %)
+      </b>
+</td>
+<td>
+<b>
+       Oral (RSE %)
+      </b>
+</td>
+<td>
+<b>
+       Subcutaneous (RSE %)
+      </b>
+</td>
+<td>
+<b>
+       IIV
+       <sup>
+        3
+       </sup>
+       (RSE %)
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+      Residual error
+      <sup>
+       2
+      </sup>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Proportional
+     </td>
+<td>
+      0.191 (8.2)
+     </td>
+<td>
+      0.232(9.8)
+     </td>
+<td>
+      0.162 (8.8)
+     </td>
+<td>
+      24 (28)
+     </td>
+</tr>
+</tbody>
+</table>

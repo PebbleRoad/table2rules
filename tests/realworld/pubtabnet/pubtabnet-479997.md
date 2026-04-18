@@ -1,0 +1,565 @@
+<!-- source: PubTabNet imgid=479997 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td colspan="8">
+<b>
+       Perceived poor health (scores 1–4)
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td colspan="2">
+<b>
+       Model 1
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Model 2
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Model 3
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Model 4
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td>
+<b>
+       OR
+      </b>
+</td>
+<td>
+<b>
+       95% CI
+      </b>
+</td>
+<td>
+<b>
+       OR
+      </b>
+</td>
+<td>
+<b>
+       95% CI
+      </b>
+</td>
+<td>
+<b>
+       OR
+      </b>
+</td>
+<td>
+<b>
+       95% CI
+      </b>
+</td>
+<td>
+<b>
+       OR
+      </b>
+</td>
+<td>
+<b>
+       95% CI
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      Age (65+ years = reference)
+     </td>
+<td>
+      16–44
+     </td>
+<td>
+      0.96
+     </td>
+<td>
+      0.59–1.57
+     </td>
+<td>
+      1.51
+     </td>
+<td>
+      0.83–2.76
+     </td>
+<td>
+      0.65
+     </td>
+<td>
+      0.31–1.33
+     </td>
+<td>
+      0.65
+     </td>
+<td>
+      0.29–1.45
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      45–64
+     </td>
+<td>
+<b>
+       1.62
+      </b>
+</td>
+<td>
+<b>
+       1.05–2.50
+      </b>
+</td>
+<td>
+<b>
+       2.47
+      </b>
+</td>
+<td>
+<b>
+       1.45–4.21
+      </b>
+</td>
+<td>
+      1.73
+     </td>
+<td>
+      0.95–3.18
+     </td>
+<td>
+      1.44
+     </td>
+<td>
+      0.74–2.81
+     </td>
+</tr>
+<tr>
+<td>
+      Male (female= ref)
+     </td>
+<td>
+</td>
+<td>
+      0.52
+     </td>
+<td>
+      0.35–0.76
+     </td>
+<td>
+      0.56
+     </td>
+<td>
+      0,37–0.84
+     </td>
+<td>
+      0.86
+     </td>
+<td>
+      0.54–1.37
+     </td>
+<td>
+      0.87
+     </td>
+<td>
+      0.52–1.46
+     </td>
+</tr>
+<tr>
+<td>
+      Living alone (no = ref)
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+<b>
+       0.52
+      </b>
+</td>
+<td>
+<b>
+       0.33–0.83
+      </b>
+</td>
+<td>
+      0.67
+     </td>
+<td>
+      0.40–1.11
+     </td>
+<td>
+      0.74
+     </td>
+<td>
+      0.42–1.30
+     </td>
+</tr>
+<tr>
+<td>
+      Working (yes =ref)
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+<b>
+       2.10
+      </b>
+</td>
+<td>
+<b>
+       1.35–3.26
+      </b>
+</td>
+<td>
+      1.42
+     </td>
+<td>
+      0.86–2.34
+     </td>
+<td>
+      1.21
+     </td>
+<td>
+      0.69–2.11
+     </td>
+</tr>
+<tr>
+<td>
+      Country of birth (other = ref)
+     </td>
+<td>
+      Sweden
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+<b>
+       0.50
+      </b>
+</td>
+<td>
+<b>
+       0.28–0.88
+      </b>
+</td>
+<td>
+      0.52
+     </td>
+<td>
+      0.26–1.02
+     </td>
+<td>
+<b>
+       0.41
+      </b>
+</td>
+<td>
+<b>
+       0.20–0.84
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      Nordic
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+      0.57
+     </td>
+<td>
+      0.27–1.21
+     </td>
+<td>
+      0.44
+     </td>
+<td>
+      0.19–1.02
+     </td>
+<td>
+<b>
+       0.26
+      </b>
+</td>
+<td>
+<b>
+       0.10–0.66
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      Europe
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+      1.19
+     </td>
+<td>
+      0.55–2.57
+     </td>
+<td>
+      0.96
+     </td>
+<td>
+      0.40–2.31
+     </td>
+<td>
+      0.68
+     </td>
+<td>
+      0.26–1.80
+     </td>
+</tr>
+<tr>
+<td>
+      Smoking (yes = ref)
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+      0.81
+     </td>
+<td>
+      0.50–1.32
+     </td>
+<td>
+      0.97
+     </td>
+<td>
+      0.56–1.66
+     </td>
+</tr>
+<tr>
+<td>
+      Chronic disease (yes = ref)
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+      0.68
+     </td>
+<td>
+      0.36–1.27
+     </td>
+<td>
+      0.97
+     </td>
+<td>
+      0.56–1.27
+     </td>
+</tr>
+<tr>
+<td>
+      Depression (yes = ref)
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+<b>
+       0.29
+      </b>
+</td>
+<td>
+<b>
+       0.17–0.48
+      </b>
+</td>
+<td>
+<b>
+       0.55
+      </b>
+</td>
+<td>
+      0.31–0.98
+     </td>
+</tr>
+<tr>
+<td>
+      Number of symptoms (&gt;6 ref)
+     </td>
+<td>
+      1–3 symptoms
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+<b>
+       0.25
+      </b>
+</td>
+<td>
+<b>
+       0.13–0.48
+      </b>
+</td>
+<td>
+<b>
+       0.30
+      </b>
+</td>
+<td>
+      0.15–0.60
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      4–6 symptoms
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+      0.85
+     </td>
+<td>
+      0.46–1.58
+     </td>
+<td>
+      0.98
+     </td>
+<td>
+      0.50–1.92
+     </td>
+</tr>
+<tr>
+<td>
+      Life satisfaction* (high = ref)
+     </td>
+<td>
+      Low
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+<b>
+       15.40
+      </b>
+</td>
+<td>
+<b>
+       5.28–44.97
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      Fair
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+<b>
+       7.02
+      </b>
+</td>
+<td>
+<b>
+       3.98–12.38
+      </b>
+</td>
+</tr>
+</tbody>
+</table>

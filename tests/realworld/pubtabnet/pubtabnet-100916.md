@@ -1,0 +1,278 @@
+<!-- source: PubTabNet imgid=100916 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+</td>
+<td colspan="2">
+<b>
+       Pulmonary
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Hepatic
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<b>
+       Symptom
+      </b>
+</td>
+<td>
+      Definite/probable (N = 9)
+     </td>
+<td>
+      Possible (N = 2)
+     </td>
+<td>
+      Definite/probable (N = 11)
+     </td>
+<td>
+      Possible (N = 16)
+     </td>
+</tr>
+<tr>
+<td>
+      Asymptomatic
+     </td>
+<td>
+      0
+     </td>
+<td>
+      0
+     </td>
+<td>
+      2
+     </td>
+<td>
+      2
+     </td>
+</tr>
+<tr>
+<td>
+      Weight loss
+     </td>
+<td>
+      2
+     </td>
+<td>
+      2
+     </td>
+<td>
+      1
+     </td>
+<td>
+      2
+     </td>
+</tr>
+<tr>
+<td>
+      Pleuritic chest pain
+     </td>
+<td>
+      7
+     </td>
+<td>
+      2
+     </td>
+<td>
+      1
+     </td>
+<td>
+      2
+     </td>
+</tr>
+<tr>
+<td>
+      Cough
+     </td>
+<td>
+      6
+     </td>
+<td>
+      2
+     </td>
+<td>
+      1
+     </td>
+<td>
+      4
+     </td>
+</tr>
+<tr>
+<td>
+      Hemoptysis
+     </td>
+<td>
+      1
+     </td>
+<td>
+      1
+     </td>
+<td>
+      0
+     </td>
+<td>
+      1
+     </td>
+</tr>
+<tr>
+<td>
+      Dyspnea
+     </td>
+<td>
+      5
+     </td>
+<td>
+      1
+     </td>
+<td>
+      2
+     </td>
+<td>
+      4
+     </td>
+</tr>
+<tr>
+<td>
+      Abdominal pain
+     </td>
+<td>
+      0
+     </td>
+<td>
+      0
+     </td>
+<td>
+      9
+     </td>
+<td>
+      9
+     </td>
+</tr>
+<tr>
+<td>
+      Fever
+     </td>
+<td>
+      3
+     </td>
+<td>
+      0
+     </td>
+<td>
+      4
+     </td>
+<td>
+      5
+     </td>
+</tr>
+<tr>
+<td>
+      Night sweats
+     </td>
+<td>
+      2
+     </td>
+<td>
+      0
+     </td>
+<td>
+      1
+     </td>
+<td>
+      2
+     </td>
+</tr>
+<tr>
+<td>
+      Anorexia
+     </td>
+<td>
+      4
+     </td>
+<td>
+      0
+     </td>
+<td>
+      1
+     </td>
+<td>
+      4
+     </td>
+</tr>
+<tr>
+<td>
+      Malaise
+     </td>
+<td>
+      2
+     </td>
+<td>
+      1
+     </td>
+<td>
+      1
+     </td>
+<td>
+      2
+     </td>
+</tr>
+<tr>
+<td>
+      Jaundice
+     </td>
+<td>
+      2
+     </td>
+<td>
+      0
+     </td>
+<td>
+      1
+     </td>
+<td>
+      2
+     </td>
+</tr>
+<tr>
+<td>
+      Chills
+     </td>
+<td>
+      1
+     </td>
+<td>
+      0
+     </td>
+<td>
+      3
+     </td>
+<td>
+      1
+     </td>
+</tr>
+<tr>
+<td>
+      Vomiting
+     </td>
+<td>
+      4
+     </td>
+<td>
+      0
+     </td>
+<td>
+      2
+     </td>
+<td>
+      4
+     </td>
+</tr>
+</tbody>
+</table>

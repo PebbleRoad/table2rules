@@ -1,0 +1,238 @@
+<!-- source: PubTabNet imgid=487290 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+<b>
+       Example
+      </b>
+</td>
+<td>
+<b>
+       No of outcomes
+      </b>
+</td>
+<td>
+<b>
+       P
+      </b>
+</td>
+<td>
+<b>
+       Kappa
+      </b>
+</td>
+<td>
+<b>
+       (SE)
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      1
+     </td>
+<td>
+      3
+     </td>
+<td>
+      0.436
+     </td>
+<td>
+      0.149
+     </td>
+<td>
+      0.031
+     </td>
+</tr>
+<tr>
+<td>
+      2
+     </td>
+<td>
+      3
+     </td>
+<td>
+      0.769
+     </td>
+<td>
+      0.075
+     </td>
+<td>
+      0.053
+     </td>
+</tr>
+<tr>
+<td>
+      3
+     </td>
+<td>
+      6
+     </td>
+<td>
+      0.643
+     </td>
+<td>
+      0.441
+     </td>
+<td>
+      0.024
+     </td>
+</tr>
+<tr>
+<td>
+      4
+     </td>
+<td>
+      3
+     </td>
+<td>
+      0.926
+     </td>
+<td>
+      0.823
+     </td>
+<td>
+      0.050
+     </td>
+</tr>
+<tr>
+<td>
+      5
+     </td>
+<td>
+      2
+     </td>
+<td>
+      0.608
+     </td>
+<td>
+      -0.044
+     </td>
+<td>
+      0.065
+     </td>
+</tr>
+<tr>
+<td>
+      6
+     </td>
+<td>
+      3
+     </td>
+<td>
+      0.618
+     </td>
+<td>
+      0.163
+     </td>
+<td>
+      0.050
+     </td>
+</tr>
+<tr>
+<td>
+      7
+     </td>
+<td>
+      3
+     </td>
+<td>
+      0.520
+     </td>
+<td>
+      -0.028
+     </td>
+<td>
+      0.044
+     </td>
+</tr>
+<tr>
+<td>
+      8
+     </td>
+<td>
+      3
+     </td>
+<td>
+      0.451
+     </td>
+<td>
+      0.146
+     </td>
+<td>
+      0.036
+     </td>
+</tr>
+<tr>
+<td>
+      9
+     </td>
+<td>
+      4
+     </td>
+<td>
+      0.441
+     </td>
+<td>
+      -0.022
+     </td>
+<td>
+      0.037
+     </td>
+</tr>
+<tr>
+<td>
+      10
+     </td>
+<td>
+      5
+     </td>
+<td>
+      0.579
+     </td>
+<td>
+      0.005
+     </td>
+<td>
+      0.034
+     </td>
+</tr>
+<tr>
+<td>
+      11
+     </td>
+<td>
+      4
+     </td>
+<td>
+      0.377
+     </td>
+<td>
+      0.112
+     </td>
+<td>
+      0.027
+     </td>
+</tr>
+<tr>
+<td>
+      12
+     </td>
+<td>
+      7
+     </td>
+<td>
+      0.718
+     </td>
+<td>
+      -0.083
+     </td>
+<td>
+      0.043
+     </td>
+</tr>
+</tbody>
+</table>

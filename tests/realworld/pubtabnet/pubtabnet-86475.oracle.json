@@ -1,0 +1,500 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "ACES",
+    "Abbreviation",
+    "Accession #",
+    "Acetylcholinesterase precursor",
+    "B2AR",
+    "B:",
+    "Beta-2 adrenergic receptor",
+    "Beta-hexosaminidase beta chain precursor",
+    "CDNA**",
+    "Cyclin-dependent kinase inhibitor 1",
+    "Cytokine",
+    "Cytokine Receptor",
+    "Cytoplasmic Cat Allergen",
+    "FEL2",
+    "Functional Category",
+    "HEXB",
+    "IL1B",
+    "IL2A*",
+    "IL6*",
+    "ING",
+    "Interferon gamma precursor",
+    "Interleukin-1 receptor beta precursor",
+    "Interleukin-2 receptor alpha chain precursor",
+    "Interleukin-6 precursor",
+    "KFMS",
+    "LIPL",
+    "Lipoprotein lipase precursor",
+    "Lysosomal Enzyme",
+    "MMO7",
+    "Macrophage colony stimulating factor I receptor precursor",
+    "Major allergen I polypeptide chain 2 precursor",
+    "Matrilysin precursor",
+    "Membrane Enzyme",
+    "Membrane Receptor",
+    "Membrane tyrosine kinase Receptor",
+    "Nuclear Cell Cycle Protein",
+    "O18913",
+    "O19002",
+    "O62763",
+    "OPSR",
+    "P13369",
+    "P30440",
+    "P41683",
+    "P41687",
+    "P41690",
+    "P46402",
+    "P49614",
+    "P55031",
+    "P55032",
+    "PIM1*",
+    "Protein Name",
+    "Proteins Expressed Exclusively in Melanoma cells",
+    "Proto-oncogene serine/threonine-protein kinase pim-1",
+    "Q95LJ0",
+    "Q9TST5",
+    "Red-sensitve opsin",
+    "Sensory Retinal protein",
+    "Serine Threonine Kinase"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Protein Name"
+      ],
+      "value": "Acetylcholinesterase precursor"
+    },
+    {
+      "row": [],
+      "col": [
+        "Abbreviation"
+      ],
+      "value": "ACES"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accession #"
+      ],
+      "value": "O62763"
+    },
+    {
+      "row": [],
+      "col": [
+        "Functional Category"
+      ],
+      "value": "Membrane Enzyme"
+    },
+    {
+      "row": [],
+      "col": [
+        "Protein Name"
+      ],
+      "value": "Beta-2 adrenergic receptor"
+    },
+    {
+      "row": [],
+      "col": [
+        "Abbreviation"
+      ],
+      "value": "B2AR"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accession #"
+      ],
+      "value": "Q9TST5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Functional Category"
+      ],
+      "value": "Membrane Receptor"
+    },
+    {
+      "row": [],
+      "col": [
+        "Protein Name"
+      ],
+      "value": "Beta-hexosaminidase beta chain precursor"
+    },
+    {
+      "row": [],
+      "col": [
+        "Abbreviation"
+      ],
+      "value": "HEXB"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accession #"
+      ],
+      "value": "P49614"
+    },
+    {
+      "row": [],
+      "col": [
+        "Functional Category"
+      ],
+      "value": "Lysosomal Enzyme"
+    },
+    {
+      "row": [],
+      "col": [
+        "Protein Name"
+      ],
+      "value": "Interleukin-1 receptor beta precursor"
+    },
+    {
+      "row": [],
+      "col": [
+        "Abbreviation"
+      ],
+      "value": "IL1B"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accession #"
+      ],
+      "value": "P41687"
+    },
+    {
+      "row": [],
+      "col": [
+        "Functional Category"
+      ],
+      "value": "Cytokine Receptor"
+    },
+    {
+      "row": [],
+      "col": [
+        "Protein Name"
+      ],
+      "value": "Interleukin-2 receptor alpha chain precursor"
+    },
+    {
+      "row": [],
+      "col": [
+        "Abbreviation"
+      ],
+      "value": "IL2A*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accession #"
+      ],
+      "value": "P41690"
+    },
+    {
+      "row": [],
+      "col": [
+        "Functional Category"
+      ],
+      "value": "Cytokine Receptor"
+    },
+    {
+      "row": [],
+      "col": [
+        "Protein Name"
+      ],
+      "value": "Interleukin-6 precursor"
+    },
+    {
+      "row": [],
+      "col": [
+        "Abbreviation"
+      ],
+      "value": "IL6*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accession #"
+      ],
+      "value": "P41683"
+    },
+    {
+      "row": [],
+      "col": [
+        "Functional Category"
+      ],
+      "value": "Cytokine"
+    },
+    {
+      "row": [],
+      "col": [
+        "Protein Name"
+      ],
+      "value": "Interferon gamma precursor"
+    },
+    {
+      "row": [],
+      "col": [
+        "Abbreviation"
+      ],
+      "value": "ING"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accession #"
+      ],
+      "value": "P46402"
+    },
+    {
+      "row": [],
+      "col": [
+        "Functional Category"
+      ],
+      "value": "Cytokine"
+    },
+    {
+      "row": [],
+      "col": [
+        "Protein Name"
+      ],
+      "value": "Macrophage colony stimulating factor I receptor precursor"
+    },
+    {
+      "row": [],
+      "col": [
+        "Abbreviation"
+      ],
+      "value": "KFMS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accession #"
+      ],
+      "value": "P13369"
+    },
+    {
+      "row": [],
+      "col": [
+        "Functional Category"
+      ],
+      "value": "Membrane tyrosine kinase Receptor"
+    },
+    {
+      "row": [],
+      "col": [
+        "Protein Name"
+      ],
+      "value": "Major allergen I polypeptide chain 2 precursor"
+    },
+    {
+      "row": [],
+      "col": [
+        "Abbreviation"
+      ],
+      "value": "FEL2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accession #"
+      ],
+      "value": "P30440"
+    },
+    {
+      "row": [],
+      "col": [
+        "Functional Category"
+      ],
+      "value": "Cytoplasmic Cat Allergen"
+    },
+    {
+      "row": [],
+      "col": [
+        "Protein Name"
+      ],
+      "value": "Lipoprotein lipase precursor"
+    },
+    {
+      "row": [],
+      "col": [
+        "Abbreviation"
+      ],
+      "value": "LIPL"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accession #"
+      ],
+      "value": "P55031"
+    },
+    {
+      "row": [],
+      "col": [
+        "Functional Category"
+      ],
+      "value": "Membrane Enzyme"
+    },
+    {
+      "row": [],
+      "col": [
+        "Protein Name"
+      ],
+      "value": "Red-sensitve opsin"
+    },
+    {
+      "row": [],
+      "col": [
+        "Abbreviation"
+      ],
+      "value": "OPSR"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accession #"
+      ],
+      "value": "O18913"
+    },
+    {
+      "row": [],
+      "col": [
+        "Functional Category"
+      ],
+      "value": "Sensory Retinal protein"
+    },
+    {
+      "row": [],
+      "col": [
+        "Protein Name"
+      ],
+      "value": "Proto-oncogene serine/threonine-protein kinase pim-1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Abbreviation"
+      ],
+      "value": "PIM1*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accession #"
+      ],
+      "value": "Q95LJ0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Functional Category"
+      ],
+      "value": "Serine Threonine Kinase"
+    },
+    {
+      "row": [],
+      "col": [
+        "Protein Name"
+      ],
+      "value": "B:"
+    },
+    {
+      "row": [],
+      "col": [
+        "Protein Name"
+      ],
+      "value": "Proteins Expressed Exclusively in Melanoma cells"
+    },
+    {
+      "row": [],
+      "col": [
+        "Protein Name"
+      ],
+      "value": "Protein Name"
+    },
+    {
+      "row": [],
+      "col": [
+        "Abbreviation"
+      ],
+      "value": "Abbreviation"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accession #"
+      ],
+      "value": "Accession #"
+    },
+    {
+      "row": [],
+      "col": [
+        "Functional Category"
+      ],
+      "value": "Functional Category"
+    },
+    {
+      "row": [],
+      "col": [
+        "Protein Name"
+      ],
+      "value": "Cyclin-dependent kinase inhibitor 1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Abbreviation"
+      ],
+      "value": "CDNA**"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accession #"
+      ],
+      "value": "O19002"
+    },
+    {
+      "row": [],
+      "col": [
+        "Functional Category"
+      ],
+      "value": "Nuclear Cell Cycle Protein"
+    },
+    {
+      "row": [],
+      "col": [
+        "Protein Name"
+      ],
+      "value": "Matrilysin precursor"
+    },
+    {
+      "row": [],
+      "col": [
+        "Abbreviation"
+      ],
+      "value": "MMO7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accession #"
+      ],
+      "value": "P55032"
+    },
+    {
+      "row": [],
+      "col": [
+        "Functional Category"
+      ],
+      "value": "Membrane Enzyme"
+    }
+  ]
+}

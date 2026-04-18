@@ -1,0 +1,182 @@
+<!-- source: PubTabNet imgid=177018 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+<b>
+       Primer
+      </b>
+</td>
+<td colspan="3">
+<b>
+       Forward
+      </b>
+</td>
+<td colspan="3">
+<b>
+       Reverse
+      </b>
+</td>
+<td>
+<b>
+       Product size (bp)
+      </b>
+</td>
+<td>
+<b>
+       GI number
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<b>
+       Sequence 5'–3'
+      </b>
+</td>
+<td>
+<b>
+       Size (bp)
+      </b>
+</td>
+<td>
+</td>
+<td>
+<b>
+       Sequence 5'–3'
+      </b>
+</td>
+<td>
+<b>
+       Size (bp)
+      </b>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      CLDN1
+     </td>
+<td>
+      ttcgtacctggcattgactgg
+     </td>
+<td>
+      378–399
+     </td>
+<td>
+      22
+     </td>
+<td>
+      ttc gta cct ggc att gac tgg
+     </td>
+<td>
+      470–490
+     </td>
+<td>
+      21
+     </td>
+<td>
+      112
+     </td>
+<td>
+      4559277
+     </td>
+</tr>
+<tr>
+<td>
+      CLDN3
+     </td>
+<td>
+      ctgctctgctgctcgtgtcc
+     </td>
+<td>
+      732–751
+     </td>
+<td>
+      20
+     </td>
+<td>
+      ttagacgtagtccttgcggtcgtag
+     </td>
+<td>
+      836–860
+     </td>
+<td>
+      25
+     </td>
+<td>
+      128
+     </td>
+<td>
+      21536298
+     </td>
+</tr>
+<tr>
+<td>
+      CLDN4
+     </td>
+<td>
+      ggctgctttgctgcaactgtc
+     </td>
+<td>
+      741–761
+     </td>
+<td>
+      21
+     </td>
+<td>
+      gagccgtggcaccttacacg
+     </td>
+<td>
+      829–848
+     </td>
+<td>
+      20
+     </td>
+<td>
+      107
+     </td>
+<td>
+      14790131
+     </td>
+</tr>
+<tr>
+<td>
+      GAPDH
+     </td>
+<td>
+      gaagatggtgatgggatttc
+     </td>
+<td>
+      81–98
+     </td>
+<td>
+      20
+     </td>
+<td>
+      gaaggtgaaggtcggagt
+     </td>
+<td>
+      287–306
+     </td>
+<td>
+      18
+     </td>
+<td>
+      225
+     </td>
+<td>
+      7669491
+     </td>
+</tr>
+</tbody>
+</table>

@@ -1,0 +1,561 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "180 \u00b1 8",
+    "193 \u00b1 12",
+    "207 \u00b1 11",
+    "210 \u00b1 15",
+    "211 \u00b1 12",
+    "212 \u00b1 3",
+    "33 \u00b1 3",
+    "38 \u00b1 9",
+    "39 \u00b1 8",
+    "4/5",
+    "4/7",
+    "4/8",
+    "4/9",
+    "40 \u00b1 4",
+    "43 \u00b1 6",
+    "45 \u00b1 9",
+    "49 \u00b1 12",
+    "49 \u00b1 7",
+    "5/6",
+    "51 \u00b1 5",
+    "53 \u00b1 6",
+    "60 \u00b1 7",
+    "65 \u00b1 3",
+    "65 \u00b1 7",
+    "76 \u00b1 7",
+    "82 \u00b1 6",
+    "85 \u00b1 2",
+    "85 \u00b1 8",
+    "86 \u00b1 3",
+    "88 \u00b1 2",
+    "89 \u00b1 2",
+    "94 \u00b1 2",
+    "95 \u00b1 1",
+    "Area [%] 1",
+    "Area [%] 2",
+    "Area [%] 3",
+    "Area [%] 4",
+    "Diameter [\u03bcm]",
+    "Lungs /slices",
+    "Mus",
+    "Mus/La 3+",
+    "Mus/La 3+ /DHS",
+    "Mus/La 3+ /DMS",
+    "Mus/SKF",
+    "Mus/SKF/DHS",
+    "Mus/SKF/DMS",
+    "p (1 vs. 3)",
+    "p (2 vs. 4)",
+    "p < 0.05"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Lungs /slices"
+      ],
+      "value": "4/9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Diameter [\u03bcm]"
+      ],
+      "value": "212 \u00b1 3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 1"
+      ],
+      "value": "Mus"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 2"
+      ],
+      "value": "Mus"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 3"
+      ],
+      "value": "Mus/SKF"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 4"
+      ],
+      "value": "Mus/SKF"
+    },
+    {
+      "row": [],
+      "col": [
+        "p (1 vs. 3)"
+      ],
+      "value": "p < 0.05"
+    },
+    {
+      "row": [],
+      "col": [
+        "p (2 vs. 4)"
+      ],
+      "value": "p < 0.05"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 1"
+      ],
+      "value": "60 \u00b1 7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 2"
+      ],
+      "value": "49 \u00b1 7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 3"
+      ],
+      "value": "76 \u00b1 7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 4"
+      ],
+      "value": "86 \u00b1 3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Lungs /slices"
+      ],
+      "value": "4/8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Diameter [\u03bcm]"
+      ],
+      "value": "193 \u00b1 12"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 1"
+      ],
+      "value": "Mus"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 2"
+      ],
+      "value": "Mus"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 3"
+      ],
+      "value": "Mus/SKF/DHS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 4"
+      ],
+      "value": "Mus/SKF/DHS"
+    },
+    {
+      "row": [],
+      "col": [
+        "p (1 vs. 3)"
+      ],
+      "value": "p < 0.05"
+    },
+    {
+      "row": [],
+      "col": [
+        "p (2 vs. 4)"
+      ],
+      "value": "p < 0.05"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 1"
+      ],
+      "value": "51 \u00b1 5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 2"
+      ],
+      "value": "43 \u00b1 6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 3"
+      ],
+      "value": "82 \u00b1 6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 4"
+      ],
+      "value": "86 \u00b1 3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Lungs /slices"
+      ],
+      "value": "5/6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Diameter [\u03bcm]"
+      ],
+      "value": "207 \u00b1 11"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 1"
+      ],
+      "value": "Mus"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 2"
+      ],
+      "value": "Mus"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 3"
+      ],
+      "value": "Mus/SKF/DMS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 4"
+      ],
+      "value": "Mus/SKF/DMS"
+    },
+    {
+      "row": [],
+      "col": [
+        "p (1 vs. 3)"
+      ],
+      "value": "p < 0.05"
+    },
+    {
+      "row": [],
+      "col": [
+        "p (2 vs. 4)"
+      ],
+      "value": "p < 0.05"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 1"
+      ],
+      "value": "65 \u00b1 3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 2"
+      ],
+      "value": "53 \u00b1 6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 3"
+      ],
+      "value": "88 \u00b1 2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 4"
+      ],
+      "value": "85 \u00b1 8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Lungs /slices"
+      ],
+      "value": "4/7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Diameter [\u03bcm]"
+      ],
+      "value": "180 \u00b1 8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 1"
+      ],
+      "value": "Mus"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 2"
+      ],
+      "value": "Mus"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 3"
+      ],
+      "value": "Mus/La 3+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 4"
+      ],
+      "value": "Mus/La 3+"
+    },
+    {
+      "row": [],
+      "col": [
+        "p (1 vs. 3)"
+      ],
+      "value": "p < 0.05"
+    },
+    {
+      "row": [],
+      "col": [
+        "p (2 vs. 4)"
+      ],
+      "value": "p < 0.05"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 1"
+      ],
+      "value": "39 \u00b1 8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 2"
+      ],
+      "value": "49 \u00b1 12"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 3"
+      ],
+      "value": "65 \u00b1 7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 4"
+      ],
+      "value": "89 \u00b1 2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Lungs /slices"
+      ],
+      "value": "4/7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Diameter [\u03bcm]"
+      ],
+      "value": "211 \u00b1 12"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 1"
+      ],
+      "value": "Mus"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 2"
+      ],
+      "value": "Mus"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 3"
+      ],
+      "value": "Mus/La 3+ /DHS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 4"
+      ],
+      "value": "Mus/La 3+ /DHS"
+    },
+    {
+      "row": [],
+      "col": [
+        "p (1 vs. 3)"
+      ],
+      "value": "p < 0.05"
+    },
+    {
+      "row": [],
+      "col": [
+        "p (2 vs. 4)"
+      ],
+      "value": "p < 0.05"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 1"
+      ],
+      "value": "40 \u00b1 4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 2"
+      ],
+      "value": "33 \u00b1 3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 3"
+      ],
+      "value": "85 \u00b1 2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 4"
+      ],
+      "value": "89 \u00b1 2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Lungs /slices"
+      ],
+      "value": "4/5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Diameter [\u03bcm]"
+      ],
+      "value": "210 \u00b1 15"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 1"
+      ],
+      "value": "Mus"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 2"
+      ],
+      "value": "Mus"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 3"
+      ],
+      "value": "Mus/La 3+ /DMS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 4"
+      ],
+      "value": "Mus/La 3+ /DMS"
+    },
+    {
+      "row": [],
+      "col": [
+        "p (1 vs. 3)"
+      ],
+      "value": "p < 0.05"
+    },
+    {
+      "row": [],
+      "col": [
+        "p (2 vs. 4)"
+      ],
+      "value": "p < 0.05"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 1"
+      ],
+      "value": "45 \u00b1 9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 2"
+      ],
+      "value": "38 \u00b1 9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 3"
+      ],
+      "value": "94 \u00b1 2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 4"
+      ],
+      "value": "95 \u00b1 1"
+    }
+  ]
+}

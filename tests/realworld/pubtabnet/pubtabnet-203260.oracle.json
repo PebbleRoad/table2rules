@@ -1,0 +1,387 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0",
+    "0 (0/31)",
+    "0.25",
+    "0.33",
+    "0.42",
+    "0.43",
+    "0.61",
+    "0.80",
+    "1.00",
+    "13.3 (4/30)",
+    "19.4 (6/31)",
+    "20 (6/30)",
+    "20.00 (6/30)",
+    "23.3 (7/30)",
+    "25.8 (8/31)",
+    "3.2 (1/31)",
+    "3.3 (1/30)",
+    "35.5 (11/31)",
+    "41.9 (13/31)",
+    "50 (15/30)",
+    "54.8 (17/31)",
+    "56.7 (17/30)",
+    "6.5 (2/31)",
+    "67.7 (21/31)",
+    "Breathing difficulty",
+    "Chest retractions",
+    "Clinical event as reported by parent or guardian",
+    "Feeding pattern:",
+    "Has had a visit to a physician",
+    "Has visited an emergency department or been hospitalized",
+    "Less than normal",
+    "N/A",
+    "Normal feeding",
+    "P value for comparison of proportions",
+    "Pallor",
+    "Percentage of children with symptom at one week post-discharge phone call (absolute numbers)*",
+    "Racemic epinephrine",
+    "Salbutamol",
+    "Tremors",
+    "Unable to feed",
+    "Vomiting",
+    "Wheezing"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Clinical event as reported by parent or guardian"
+      ],
+      "value": "Breathing difficulty"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of children with symptom at one week post-discharge phone call (absolute numbers)*",
+        "Racemic epinephrine"
+      ],
+      "value": "20.00 (6/30)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of children with symptom at one week post-discharge phone call (absolute numbers)*",
+        "Salbutamol"
+      ],
+      "value": "19.4 (6/31)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P value for comparison of proportions"
+      ],
+      "value": "1.00"
+    },
+    {
+      "row": [],
+      "col": [
+        "Clinical event as reported by parent or guardian"
+      ],
+      "value": "Wheezing"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of children with symptom at one week post-discharge phone call (absolute numbers)*",
+        "Racemic epinephrine"
+      ],
+      "value": "56.7 (17/30)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of children with symptom at one week post-discharge phone call (absolute numbers)*",
+        "Salbutamol"
+      ],
+      "value": "67.7 (21/31)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P value for comparison of proportions"
+      ],
+      "value": "0.43"
+    },
+    {
+      "row": [],
+      "col": [
+        "Clinical event as reported by parent or guardian"
+      ],
+      "value": "Chest retractions"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of children with symptom at one week post-discharge phone call (absolute numbers)*",
+        "Racemic epinephrine"
+      ],
+      "value": "13.3 (4/30)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of children with symptom at one week post-discharge phone call (absolute numbers)*",
+        "Salbutamol"
+      ],
+      "value": "25.8 (8/31)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P value for comparison of proportions"
+      ],
+      "value": "0.33"
+    },
+    {
+      "row": [],
+      "col": [
+        "Clinical event as reported by parent or guardian"
+      ],
+      "value": "Feeding pattern:"
+    },
+    {
+      "row": [],
+      "col": [
+        "Clinical event as reported by parent or guardian"
+      ],
+      "value": "Normal feeding"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of children with symptom at one week post-discharge phone call (absolute numbers)*",
+        "Racemic epinephrine"
+      ],
+      "value": "50 (15/30)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of children with symptom at one week post-discharge phone call (absolute numbers)*",
+        "Salbutamol"
+      ],
+      "value": "54.8 (17/31)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P value for comparison of proportions"
+      ],
+      "value": "0.80"
+    },
+    {
+      "row": [],
+      "col": [
+        "Clinical event as reported by parent or guardian"
+      ],
+      "value": "Less than normal"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of children with symptom at one week post-discharge phone call (absolute numbers)*",
+        "Racemic epinephrine"
+      ],
+      "value": "50 (15/30)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of children with symptom at one week post-discharge phone call (absolute numbers)*",
+        "Salbutamol"
+      ],
+      "value": "41.9 (13/31)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P value for comparison of proportions"
+      ],
+      "value": "0.61"
+    },
+    {
+      "row": [],
+      "col": [
+        "Clinical event as reported by parent or guardian"
+      ],
+      "value": "Unable to feed"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of children with symptom at one week post-discharge phone call (absolute numbers)*",
+        "Racemic epinephrine"
+      ],
+      "value": "0 (0/31)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of children with symptom at one week post-discharge phone call (absolute numbers)*",
+        "Salbutamol"
+      ],
+      "value": "3.2 (1/31)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P value for comparison of proportions"
+      ],
+      "value": "1.00"
+    },
+    {
+      "row": [],
+      "col": [
+        "Clinical event as reported by parent or guardian"
+      ],
+      "value": "Vomiting"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of children with symptom at one week post-discharge phone call (absolute numbers)*",
+        "Racemic epinephrine"
+      ],
+      "value": "20 (6/30)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of children with symptom at one week post-discharge phone call (absolute numbers)*",
+        "Salbutamol"
+      ],
+      "value": "35.5 (11/31)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P value for comparison of proportions"
+      ],
+      "value": "0.25"
+    },
+    {
+      "row": [],
+      "col": [
+        "Clinical event as reported by parent or guardian"
+      ],
+      "value": "Tremors"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of children with symptom at one week post-discharge phone call (absolute numbers)*",
+        "Racemic epinephrine"
+      ],
+      "value": "0 (0/31)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of children with symptom at one week post-discharge phone call (absolute numbers)*",
+        "Salbutamol"
+      ],
+      "value": "0 (0/31)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P value for comparison of proportions"
+      ],
+      "value": "N/A"
+    },
+    {
+      "row": [],
+      "col": [
+        "Clinical event as reported by parent or guardian"
+      ],
+      "value": "Pallor"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of children with symptom at one week post-discharge phone call (absolute numbers)*",
+        "Racemic epinephrine"
+      ],
+      "value": "13.3 (4/30)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of children with symptom at one week post-discharge phone call (absolute numbers)*",
+        "Salbutamol"
+      ],
+      "value": "6.5 (2/31)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P value for comparison of proportions"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Clinical event as reported by parent or guardian"
+      ],
+      "value": "Has had a visit to a physician"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of children with symptom at one week post-discharge phone call (absolute numbers)*",
+        "Racemic epinephrine"
+      ],
+      "value": "23.3 (7/30)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of children with symptom at one week post-discharge phone call (absolute numbers)*",
+        "Salbutamol"
+      ],
+      "value": "19.4 (6/31)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P value for comparison of proportions"
+      ],
+      "value": "0.42"
+    },
+    {
+      "row": [],
+      "col": [
+        "Clinical event as reported by parent or guardian"
+      ],
+      "value": "Has visited an emergency department or been hospitalized"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of children with symptom at one week post-discharge phone call (absolute numbers)*",
+        "Racemic epinephrine"
+      ],
+      "value": "3.3 (1/30)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of children with symptom at one week post-discharge phone call (absolute numbers)*",
+        "Salbutamol"
+      ],
+      "value": "3.2 (1/31)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P value for comparison of proportions"
+      ],
+      "value": "1.00"
+    }
+  ]
+}

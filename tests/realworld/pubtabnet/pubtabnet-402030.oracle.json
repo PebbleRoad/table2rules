@@ -1,0 +1,664 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "-",
+    "0.68",
+    "0.78",
+    "1.14",
+    "1.18",
+    "1.24 d",
+    "1.39",
+    "1.41 d",
+    "1.62",
+    "1.84",
+    "1.95",
+    "10.63",
+    "16.03",
+    "17.09",
+    "2.10",
+    "2.42",
+    "2.57",
+    "2.73 d",
+    "21.22",
+    "21.48",
+    "22.40",
+    "23.17",
+    "23.79",
+    "24.89",
+    "25\u00b0C",
+    "26.15",
+    "26.93",
+    "27.54",
+    "28.22",
+    "28.25",
+    "3.81",
+    "30\u00b0C",
+    "31.37",
+    "31.75",
+    "32.05",
+    "32.11",
+    "32.51",
+    "33.62",
+    "33.79",
+    "34.33",
+    "35.24",
+    "35.46",
+    "35\u00b0C",
+    "36.08",
+    "37.43",
+    "37.51",
+    "38.48",
+    "38.57",
+    "6.73",
+    "7.86",
+    "8.67",
+    "9.44",
+    "Analyte (dil.)",
+    "C T",
+    "Control c",
+    "DNA (1:10 10 )",
+    "DNA (1:10 7 ) b",
+    "DNA (1:10 8 )",
+    "DNA (1:10 9 )",
+    "Mean C T increase for DNA",
+    "Mean C T increase for RNA",
+    "No Ct",
+    "No Ct e",
+    "RNA (1:10)",
+    "RNA (1:100)",
+    "RNA (1:1000)",
+    "RNA (undil.) b",
+    "incr."
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Analyte (dil.)"
+      ],
+      "value": "RNA (undil.) b"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control c"
+      ],
+      "value": "21.22"
+    },
+    {
+      "row": [],
+      "col": [
+        "25\u00b0C",
+        "C T"
+      ],
+      "value": "22.40"
+    },
+    {
+      "row": [],
+      "col": [
+        "25\u00b0C",
+        "incr."
+      ],
+      "value": "1.18"
+    },
+    {
+      "row": [],
+      "col": [
+        "30\u00b0C",
+        "C T"
+      ],
+      "value": "23.17"
+    },
+    {
+      "row": [],
+      "col": [
+        "30\u00b0C",
+        "incr."
+      ],
+      "value": "1.95"
+    },
+    {
+      "row": [],
+      "col": [
+        "35\u00b0C",
+        "C T"
+      ],
+      "value": "23.79"
+    },
+    {
+      "row": [],
+      "col": [
+        "35\u00b0C",
+        "incr."
+      ],
+      "value": "2.57"
+    },
+    {
+      "row": [],
+      "col": [
+        "Analyte (dil.)"
+      ],
+      "value": "RNA (1:10)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control c"
+      ],
+      "value": "26.15"
+    },
+    {
+      "row": [],
+      "col": [
+        "25\u00b0C",
+        "C T"
+      ],
+      "value": "26.93"
+    },
+    {
+      "row": [],
+      "col": [
+        "25\u00b0C",
+        "incr."
+      ],
+      "value": "0.78"
+    },
+    {
+      "row": [],
+      "col": [
+        "30\u00b0C",
+        "C T"
+      ],
+      "value": "27.54"
+    },
+    {
+      "row": [],
+      "col": [
+        "30\u00b0C",
+        "incr."
+      ],
+      "value": "1.39"
+    },
+    {
+      "row": [],
+      "col": [
+        "35\u00b0C",
+        "C T"
+      ],
+      "value": "28.25"
+    },
+    {
+      "row": [],
+      "col": [
+        "35\u00b0C",
+        "incr."
+      ],
+      "value": "2.10"
+    },
+    {
+      "row": [],
+      "col": [
+        "Analyte (dil.)"
+      ],
+      "value": "RNA (1:100)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control c"
+      ],
+      "value": "31.37"
+    },
+    {
+      "row": [],
+      "col": [
+        "25\u00b0C",
+        "C T"
+      ],
+      "value": "32.51"
+    },
+    {
+      "row": [],
+      "col": [
+        "25\u00b0C",
+        "incr."
+      ],
+      "value": "1.14"
+    },
+    {
+      "row": [],
+      "col": [
+        "30\u00b0C",
+        "C T"
+      ],
+      "value": "32.05"
+    },
+    {
+      "row": [],
+      "col": [
+        "30\u00b0C",
+        "incr."
+      ],
+      "value": "0.68"
+    },
+    {
+      "row": [],
+      "col": [
+        "35\u00b0C",
+        "C T"
+      ],
+      "value": "33.79"
+    },
+    {
+      "row": [],
+      "col": [
+        "35\u00b0C",
+        "incr."
+      ],
+      "value": "2.42"
+    },
+    {
+      "row": [],
+      "col": [
+        "Analyte (dil.)"
+      ],
+      "value": "RNA (1:1000)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control c"
+      ],
+      "value": "33.62"
+    },
+    {
+      "row": [],
+      "col": [
+        "25\u00b0C",
+        "C T"
+      ],
+      "value": "35.46"
+    },
+    {
+      "row": [],
+      "col": [
+        "25\u00b0C",
+        "incr."
+      ],
+      "value": "1.84"
+    },
+    {
+      "row": [],
+      "col": [
+        "30\u00b0C",
+        "C T"
+      ],
+      "value": "35.24"
+    },
+    {
+      "row": [],
+      "col": [
+        "30\u00b0C",
+        "incr."
+      ],
+      "value": "1.62"
+    },
+    {
+      "row": [],
+      "col": [
+        "35\u00b0C",
+        "C T"
+      ],
+      "value": "37.43"
+    },
+    {
+      "row": [],
+      "col": [
+        "35\u00b0C",
+        "incr."
+      ],
+      "value": "3.81"
+    },
+    {
+      "row": [],
+      "col": [
+        "Analyte (dil.)"
+      ],
+      "value": "DNA (1:10 7 ) b"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control c"
+      ],
+      "value": "21.48"
+    },
+    {
+      "row": [],
+      "col": [
+        "25\u00b0C",
+        "C T"
+      ],
+      "value": "32.11"
+    },
+    {
+      "row": [],
+      "col": [
+        "25\u00b0C",
+        "incr."
+      ],
+      "value": "10.63"
+    },
+    {
+      "row": [],
+      "col": [
+        "30\u00b0C",
+        "C T"
+      ],
+      "value": "37.51"
+    },
+    {
+      "row": [],
+      "col": [
+        "30\u00b0C",
+        "incr."
+      ],
+      "value": "16.03"
+    },
+    {
+      "row": [],
+      "col": [
+        "35\u00b0C",
+        "C T"
+      ],
+      "value": "38.57"
+    },
+    {
+      "row": [],
+      "col": [
+        "35\u00b0C",
+        "incr."
+      ],
+      "value": "17.09"
+    },
+    {
+      "row": [],
+      "col": [
+        "Analyte (dil.)"
+      ],
+      "value": "DNA (1:10 8 )"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control c"
+      ],
+      "value": "24.89"
+    },
+    {
+      "row": [],
+      "col": [
+        "25\u00b0C",
+        "C T"
+      ],
+      "value": "34.33"
+    },
+    {
+      "row": [],
+      "col": [
+        "25\u00b0C",
+        "incr."
+      ],
+      "value": "9.44"
+    },
+    {
+      "row": [],
+      "col": [
+        "30\u00b0C",
+        "C T"
+      ],
+      "value": "No Ct e"
+    },
+    {
+      "row": [],
+      "col": [
+        "30\u00b0C",
+        "incr."
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "35\u00b0C",
+        "C T"
+      ],
+      "value": "No Ct"
+    },
+    {
+      "row": [],
+      "col": [
+        "35\u00b0C",
+        "incr."
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Analyte (dil.)"
+      ],
+      "value": "DNA (1:10 9 )"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control c"
+      ],
+      "value": "28.22"
+    },
+    {
+      "row": [],
+      "col": [
+        "25\u00b0C",
+        "C T"
+      ],
+      "value": "36.08"
+    },
+    {
+      "row": [],
+      "col": [
+        "25\u00b0C",
+        "incr."
+      ],
+      "value": "7.86"
+    },
+    {
+      "row": [],
+      "col": [
+        "30\u00b0C",
+        "C T"
+      ],
+      "value": "No Ct"
+    },
+    {
+      "row": [],
+      "col": [
+        "30\u00b0C",
+        "incr."
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "35\u00b0C",
+        "C T"
+      ],
+      "value": "No Ct"
+    },
+    {
+      "row": [],
+      "col": [
+        "35\u00b0C",
+        "incr."
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Analyte (dil.)"
+      ],
+      "value": "DNA (1:10 10 )"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control c"
+      ],
+      "value": "31.75"
+    },
+    {
+      "row": [],
+      "col": [
+        "25\u00b0C",
+        "C T"
+      ],
+      "value": "38.48"
+    },
+    {
+      "row": [],
+      "col": [
+        "25\u00b0C",
+        "incr."
+      ],
+      "value": "6.73"
+    },
+    {
+      "row": [],
+      "col": [
+        "30\u00b0C",
+        "C T"
+      ],
+      "value": "No Ct"
+    },
+    {
+      "row": [],
+      "col": [
+        "30\u00b0C",
+        "incr."
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "35\u00b0C",
+        "C T"
+      ],
+      "value": "No Ct"
+    },
+    {
+      "row": [],
+      "col": [
+        "35\u00b0C",
+        "incr."
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Analyte (dil.)"
+      ],
+      "value": "Mean C T increase for RNA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control c"
+      ],
+      "value": "Mean C T increase for RNA"
+    },
+    {
+      "row": [],
+      "col": [
+        "25\u00b0C",
+        "C T"
+      ],
+      "value": "Mean C T increase for RNA"
+    },
+    {
+      "row": [],
+      "col": [
+        "25\u00b0C",
+        "incr."
+      ],
+      "value": "1.24 d"
+    },
+    {
+      "row": [],
+      "col": [
+        "30\u00b0C",
+        "incr."
+      ],
+      "value": "1.41 d"
+    },
+    {
+      "row": [],
+      "col": [
+        "35\u00b0C",
+        "incr."
+      ],
+      "value": "2.73 d"
+    },
+    {
+      "row": [],
+      "col": [
+        "Analyte (dil.)"
+      ],
+      "value": "Mean C T increase for DNA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control c"
+      ],
+      "value": "Mean C T increase for DNA"
+    },
+    {
+      "row": [],
+      "col": [
+        "25\u00b0C",
+        "C T"
+      ],
+      "value": "Mean C T increase for DNA"
+    },
+    {
+      "row": [],
+      "col": [
+        "25\u00b0C",
+        "incr."
+      ],
+      "value": "8.67"
+    },
+    {
+      "row": [],
+      "col": [
+        "30\u00b0C",
+        "incr."
+      ],
+      "value": "16.03"
+    },
+    {
+      "row": [],
+      "col": [
+        "35\u00b0C",
+        "incr."
+      ],
+      "value": "17.09"
+    }
+  ]
+}

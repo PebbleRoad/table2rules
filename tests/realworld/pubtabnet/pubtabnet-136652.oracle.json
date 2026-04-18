@@ -1,0 +1,487 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "1005 \u2013 981",
+    "1005R",
+    "1069 \u2013 1088",
+    "1069F",
+    "1103 \u2013 1127",
+    "1130 \u2013 1149",
+    "1130F",
+    "1157 \u2013 1181",
+    "1159 \u2013 1139",
+    "1159R",
+    "1202 \u2013 1183",
+    "1202R",
+    "149 \u2013 127",
+    "149R",
+    "1561 \u2013 1580",
+    "1561F",
+    "1596 \u2013 1622",
+    "1667 \u2013 1647",
+    "1667R",
+    "20 \u2013 41",
+    "20F",
+    "855 \u2013 877",
+    "855F",
+    "888 \u2013 911",
+    "888F",
+    "913 \u2013 938",
+    "940 \u2013 965",
+    "96 \u2013 111",
+    "995 \u2013 972",
+    "995R",
+    "AAACTGCTGCAAGAGGTTATTCCT",
+    "AATACACTGCACACAGCCAAAGTAG",
+    "ACACTGCTGAGGAATGAGATCCA",
+    "AGATGTCCAGATTTTA",
+    "AGTGGTGCTCTGGGTGAGCT",
+    "CAGCAGCCGTGTCAGGTAATC",
+    "CCAAGGAATCATGTCAGGCCATCAAGG",
+    "CGCAGCTGGTGTCATCCTCT",
+    "CTATGCTTGACCCAGCCTCATC",
+    "GACTCCTGGGTCAGCTTCCTAAG",
+    "GCCTCACACACCGGAGATCT",
+    "GCTGCACTCACACCAATGGA",
+    "HAS-1",
+    "HAS-2",
+    "HAS-3",
+    "HYAL-1",
+    "HYAL-2",
+    "HYAL-3",
+    "MGB probe a",
+    "Position",
+    "Primer and probe",
+    "Sequence",
+    "TACACCACAAGCACGGAGACCTGCC",
+    "TATCCTGCATCAGCGGTCCTCTAGGC",
+    "TCATGGATTTCCTTCCTGAGCAGCGT",
+    "TCCTGTCCCAGGATGACCTTGTGCA",
+    "TGGTCACGTTCAGGATGAAGG",
+    "TGTCCAGATCCTCAACAAGTACGA",
+    "probe"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Primer and probe"
+      ],
+      "value": "HAS-1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primer and probe"
+      ],
+      "value": "855F"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sequence"
+      ],
+      "value": "GACTCCTGGGTCAGCTTCCTAAG"
+    },
+    {
+      "row": [],
+      "col": [
+        "Position"
+      ],
+      "value": "855 \u2013 877"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primer and probe"
+      ],
+      "value": "995R"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sequence"
+      ],
+      "value": "AAACTGCTGCAAGAGGTTATTCCT"
+    },
+    {
+      "row": [],
+      "col": [
+        "Position"
+      ],
+      "value": "995 \u2013 972"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primer and probe"
+      ],
+      "value": "probe"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sequence"
+      ],
+      "value": "TATCCTGCATCAGCGGTCCTCTAGGC"
+    },
+    {
+      "row": [],
+      "col": [
+        "Position"
+      ],
+      "value": "940 \u2013 965"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primer and probe"
+      ],
+      "value": "HAS-2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primer and probe"
+      ],
+      "value": "20F"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sequence"
+      ],
+      "value": "CTATGCTTGACCCAGCCTCATC"
+    },
+    {
+      "row": [],
+      "col": [
+        "Position"
+      ],
+      "value": "20 \u2013 41"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primer and probe"
+      ],
+      "value": "149R"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sequence"
+      ],
+      "value": "ACACTGCTGAGGAATGAGATCCA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Position"
+      ],
+      "value": "149 \u2013 127"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primer and probe"
+      ],
+      "value": "MGB probe a"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sequence"
+      ],
+      "value": "AGATGTCCAGATTTTA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Position"
+      ],
+      "value": "96 \u2013 111"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primer and probe"
+      ],
+      "value": "HAS-3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primer and probe"
+      ],
+      "value": "888F"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sequence"
+      ],
+      "value": "TGTCCAGATCCTCAACAAGTACGA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Position"
+      ],
+      "value": "888 \u2013 911"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primer and probe"
+      ],
+      "value": "1005R"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sequence"
+      ],
+      "value": "AATACACTGCACACAGCCAAAGTAG"
+    },
+    {
+      "row": [],
+      "col": [
+        "Position"
+      ],
+      "value": "1005 \u2013 981"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primer and probe"
+      ],
+      "value": "probe"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sequence"
+      ],
+      "value": "TCATGGATTTCCTTCCTGAGCAGCGT"
+    },
+    {
+      "row": [],
+      "col": [
+        "Position"
+      ],
+      "value": "913 \u2013 938"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primer and probe"
+      ],
+      "value": "HYAL-1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primer and probe"
+      ],
+      "value": "1561F"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sequence"
+      ],
+      "value": "AGTGGTGCTCTGGGTGAGCT"
+    },
+    {
+      "row": [],
+      "col": [
+        "Position"
+      ],
+      "value": "1561 \u2013 1580"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primer and probe"
+      ],
+      "value": "1667R"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sequence"
+      ],
+      "value": "TGGTCACGTTCAGGATGAAGG"
+    },
+    {
+      "row": [],
+      "col": [
+        "Position"
+      ],
+      "value": "1667 \u2013 1647"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primer and probe"
+      ],
+      "value": "probe"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sequence"
+      ],
+      "value": "CCAAGGAATCATGTCAGGCCATCAAGG"
+    },
+    {
+      "row": [],
+      "col": [
+        "Position"
+      ],
+      "value": "1596 \u2013 1622"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primer and probe"
+      ],
+      "value": "HYAL-2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primer and probe"
+      ],
+      "value": "1069F"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sequence"
+      ],
+      "value": "CGCAGCTGGTGTCATCCTCT"
+    },
+    {
+      "row": [],
+      "col": [
+        "Position"
+      ],
+      "value": "1069 \u2013 1088"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primer and probe"
+      ],
+      "value": "1159R"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sequence"
+      ],
+      "value": "CAGCAGCCGTGTCAGGTAATC"
+    },
+    {
+      "row": [],
+      "col": [
+        "Position"
+      ],
+      "value": "1159 \u2013 1139"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primer and probe"
+      ],
+      "value": "probe"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sequence"
+      ],
+      "value": "TACACCACAAGCACGGAGACCTGCC"
+    },
+    {
+      "row": [],
+      "col": [
+        "Position"
+      ],
+      "value": "1103 \u2013 1127"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primer and probe"
+      ],
+      "value": "HYAL-3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primer and probe"
+      ],
+      "value": "1130F"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sequence"
+      ],
+      "value": "GCCTCACACACCGGAGATCT"
+    },
+    {
+      "row": [],
+      "col": [
+        "Position"
+      ],
+      "value": "1130 \u2013 1149"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primer and probe"
+      ],
+      "value": "1202R"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sequence"
+      ],
+      "value": "GCTGCACTCACACCAATGGA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Position"
+      ],
+      "value": "1202 \u2013 1183"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primer and probe"
+      ],
+      "value": "probe"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sequence"
+      ],
+      "value": "TCCTGTCCCAGGATGACCTTGTGCA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Position"
+      ],
+      "value": "1157 \u2013 1181"
+    }
+  ]
+}

@@ -1,0 +1,468 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "(0.5)",
+    "(0.7)",
+    "(10.2)",
+    "(10.8)",
+    "(11.1)",
+    "(11.9)",
+    "(13.7)",
+    "(17.7)",
+    "(22.4)",
+    "(22.6)",
+    "(22.8)",
+    "(23.0)",
+    "(9.9)",
+    "-",
+    "0.21",
+    "0.43",
+    "0.73",
+    "0.76",
+    "0.79 (0.45\u20131.40)",
+    "0.80",
+    "0.96",
+    "0.99 (0.55\u20131.77)",
+    "1.00 a",
+    "1.07 (0.65\u20131.75)",
+    "1.08 (0.66\u20131.78)",
+    "1.38 (0.22\u20138.63)",
+    "1.38 (0.83\u20132.30)",
+    "100",
+    "101",
+    "2",
+    "3",
+    "41",
+    "44",
+    "45",
+    "49",
+    "52",
+    "67",
+    "677 CC/1298 AA",
+    "677 CC/1298 AC",
+    "677 CC/1298 CC",
+    "677 CT/1298 AA",
+    "677 CT/1298 AC",
+    "677 CT/1298 CC",
+    "677 TT/1298 AA",
+    "677 TT/1298 AC",
+    "677 TT/1298 CC",
+    "85",
+    "87",
+    "Cases (n = 443) Number (%)",
+    "Controls (n = 379) Number (%)",
+    "MTHFR",
+    "Odds ratio (95% CI)",
+    "P",
+    "n.d."
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "MTHFR"
+      ],
+      "value": "677 CC/1298 AA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases (n = 443) Number (%)"
+      ],
+      "value": "49"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases (n = 443) Number (%)"
+      ],
+      "value": "(11.1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Controls (n = 379) Number (%)"
+      ],
+      "value": "45"
+    },
+    {
+      "row": [],
+      "col": [
+        "Controls (n = 379) Number (%)"
+      ],
+      "value": "(11.9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Odds ratio (95% CI)"
+      ],
+      "value": "1.00 a"
+    },
+    {
+      "row": [],
+      "col": [
+        "MTHFR"
+      ],
+      "value": "677 CT/1298 AA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases (n = 443) Number (%)"
+      ],
+      "value": "101"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases (n = 443) Number (%)"
+      ],
+      "value": "(22.8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Controls (n = 379) Number (%)"
+      ],
+      "value": "67"
+    },
+    {
+      "row": [],
+      "col": [
+        "Controls (n = 379) Number (%)"
+      ],
+      "value": "(17.7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Odds ratio (95% CI)"
+      ],
+      "value": "1.38 (0.83\u20132.30)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.21"
+    },
+    {
+      "row": [],
+      "col": [
+        "MTHFR"
+      ],
+      "value": "677 TT/1298 AA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases (n = 443) Number (%)"
+      ],
+      "value": "44"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases (n = 443) Number (%)"
+      ],
+      "value": "(9.9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Controls (n = 379) Number (%)"
+      ],
+      "value": "41"
+    },
+    {
+      "row": [],
+      "col": [
+        "Controls (n = 379) Number (%)"
+      ],
+      "value": "(10.8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Odds ratio (95% CI)"
+      ],
+      "value": "0.99 (0.55\u20131.77)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.96"
+    },
+    {
+      "row": [],
+      "col": [
+        "MTHFR"
+      ],
+      "value": "677 CC/1298 AC"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases (n = 443) Number (%)"
+      ],
+      "value": "101"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases (n = 443) Number (%)"
+      ],
+      "value": "(22.8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Controls (n = 379) Number (%)"
+      ],
+      "value": "87"
+    },
+    {
+      "row": [],
+      "col": [
+        "Controls (n = 379) Number (%)"
+      ],
+      "value": "(23.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Odds ratio (95% CI)"
+      ],
+      "value": "1.07 (0.65\u20131.75)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.80"
+    },
+    {
+      "row": [],
+      "col": [
+        "MTHFR"
+      ],
+      "value": "677 CT/1298 AC"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases (n = 443) Number (%)"
+      ],
+      "value": "100"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases (n = 443) Number (%)"
+      ],
+      "value": "(22.6)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Controls (n = 379) Number (%)"
+      ],
+      "value": "85"
+    },
+    {
+      "row": [],
+      "col": [
+        "Controls (n = 379) Number (%)"
+      ],
+      "value": "(22.4)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Odds ratio (95% CI)"
+      ],
+      "value": "1.08 (0.66\u20131.78)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.76"
+    },
+    {
+      "row": [],
+      "col": [
+        "MTHFR"
+      ],
+      "value": "677 TT/1298 AC"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases (n = 443) Number (%)"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases (n = 443) Number (%)"
+      ],
+      "value": "(0.7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Controls (n = 379) Number (%)"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Controls (n = 379) Number (%)"
+      ],
+      "value": "(0.5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Odds ratio (95% CI)"
+      ],
+      "value": "1.38 (0.22\u20138.63)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.73"
+    },
+    {
+      "row": [],
+      "col": [
+        "MTHFR"
+      ],
+      "value": "677 CC/1298 CC"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases (n = 443) Number (%)"
+      ],
+      "value": "45"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases (n = 443) Number (%)"
+      ],
+      "value": "(10.2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Controls (n = 379) Number (%)"
+      ],
+      "value": "52"
+    },
+    {
+      "row": [],
+      "col": [
+        "Controls (n = 379) Number (%)"
+      ],
+      "value": "(13.7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Odds ratio (95% CI)"
+      ],
+      "value": "0.79 (0.45\u20131.40)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.43"
+    },
+    {
+      "row": [],
+      "col": [
+        "MTHFR"
+      ],
+      "value": "677 CT/1298 CC"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases (n = 443) Number (%)"
+      ],
+      "value": "n.d."
+    },
+    {
+      "row": [],
+      "col": [
+        "Controls (n = 379) Number (%)"
+      ],
+      "value": "n.d."
+    },
+    {
+      "row": [],
+      "col": [
+        "Odds ratio (95% CI)"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "MTHFR"
+      ],
+      "value": "677 TT/1298 CC"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cases (n = 443) Number (%)"
+      ],
+      "value": "n.d."
+    },
+    {
+      "row": [],
+      "col": [
+        "Controls (n = 379) Number (%)"
+      ],
+      "value": "n.d."
+    },
+    {
+      "row": [],
+      "col": [
+        "Odds ratio (95% CI)"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "-"
+    }
+  ]
+}

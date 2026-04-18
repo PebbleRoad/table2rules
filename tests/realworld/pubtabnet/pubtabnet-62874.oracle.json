@@ -1,0 +1,320 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "101",
+    "111",
+    "111 (11.60)",
+    "15",
+    "17",
+    "19 \u2013 26",
+    "200",
+    "224",
+    "25",
+    "251",
+    "27 \u2013 34",
+    "290 (12.88)",
+    "292",
+    "302 (11.25)",
+    "303 (6.72)",
+    "304",
+    "308.3 (4.90)",
+    "319",
+    "320 (32.42)",
+    "5",
+    "75",
+    "85",
+    "92 (8.64)",
+    "93 (12.95)",
+    "94 (4.28)",
+    "96 (4.75)",
+    "97",
+    "98",
+    "Age (years)",
+    "All",
+    "Mean (SE \u2020 )",
+    "Median cost",
+    "Total cost* per inpatient",
+    "Total cost* per outpatient",
+    "n \u00a7",
+    "\u2264 18",
+    "\u2265 35"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Age (years)"
+      ],
+      "value": "\u2264 18"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total cost* per inpatient",
+        "n \u00a7"
+      ],
+      "value": "75"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total cost* per inpatient",
+        "Mean (SE \u2020 )"
+      ],
+      "value": "320 (32.42)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total cost* per inpatient",
+        "Median cost"
+      ],
+      "value": "319"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total cost* per outpatient",
+        "n \u00a7"
+      ],
+      "value": "224"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total cost* per outpatient",
+        "Mean (SE \u2020 )"
+      ],
+      "value": "92 (8.64)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total cost* per outpatient",
+        "Median cost"
+      ],
+      "value": "97"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age (years)"
+      ],
+      "value": "19 \u2013 26"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total cost* per inpatient",
+        "n \u00a7"
+      ],
+      "value": "85"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total cost* per inpatient",
+        "Mean (SE \u2020 )"
+      ],
+      "value": "303 (6.72)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total cost* per inpatient",
+        "Median cost"
+      ],
+      "value": "304"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total cost* per outpatient",
+        "n \u00a7"
+      ],
+      "value": "17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total cost* per outpatient",
+        "Mean (SE \u2020 )"
+      ],
+      "value": "96 (4.75)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total cost* per outpatient",
+        "Median cost"
+      ],
+      "value": "97"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age (years)"
+      ],
+      "value": "27 \u2013 34"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total cost* per inpatient",
+        "n \u00a7"
+      ],
+      "value": "25"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total cost* per inpatient",
+        "Mean (SE \u2020 )"
+      ],
+      "value": "302 (11.25)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total cost* per inpatient",
+        "Median cost"
+      ],
+      "value": "304"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total cost* per outpatient",
+        "n \u00a7"
+      ],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total cost* per outpatient",
+        "Mean (SE \u2020 )"
+      ],
+      "value": "111 (11.60)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total cost* per outpatient",
+        "Median cost"
+      ],
+      "value": "111"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age (years)"
+      ],
+      "value": "\u2265 35"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total cost* per inpatient",
+        "n \u00a7"
+      ],
+      "value": "15"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total cost* per inpatient",
+        "Mean (SE \u2020 )"
+      ],
+      "value": "290 (12.88)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total cost* per inpatient",
+        "Median cost"
+      ],
+      "value": "292"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total cost* per outpatient",
+        "n \u00a7"
+      ],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total cost* per outpatient",
+        "Mean (SE \u2020 )"
+      ],
+      "value": "93 (12.95)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total cost* per outpatient",
+        "Median cost"
+      ],
+      "value": "101"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age (years)"
+      ],
+      "value": "All"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total cost* per inpatient",
+        "n \u00a7"
+      ],
+      "value": "200"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total cost* per inpatient",
+        "Mean (SE \u2020 )"
+      ],
+      "value": "308.3 (4.90)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total cost* per inpatient",
+        "Median cost"
+      ],
+      "value": "304"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total cost* per outpatient",
+        "n \u00a7"
+      ],
+      "value": "251"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total cost* per outpatient",
+        "Mean (SE \u2020 )"
+      ],
+      "value": "94 (4.28)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total cost* per outpatient",
+        "Median cost"
+      ],
+      "value": "98"
+    }
+  ]
+}

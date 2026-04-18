@@ -1,0 +1,447 @@
+<!-- source: PubTabNet imgid=461774 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td colspan="2">
+<b>
+       0.1 U UNG
+      </b>
+</td>
+<td colspan="2">
+<b>
+       0.25 U UNG
+      </b>
+</td>
+<td colspan="2">
+<b>
+       0.5 U UNG
+      </b>
+</td>
+<td colspan="2">
+<b>
+       1.0 U UNG
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+<b>
+       Analyte (dil.)
+      </b>
+</td>
+<td>
+<b>
+       Control
+       <sup>
+        c
+       </sup>
+</b>
+</td>
+<td>
+<b>
+       C
+       <sub>
+        T
+       </sub>
+</b>
+</td>
+<td>
+<b>
+       incr.
+      </b>
+</td>
+<td>
+<b>
+       C
+       <sub>
+        T
+       </sub>
+</b>
+</td>
+<td>
+<b>
+       incr.
+      </b>
+</td>
+<td>
+<b>
+       C
+       <sub>
+        T
+       </sub>
+</b>
+</td>
+<td>
+<b>
+       incr.
+      </b>
+</td>
+<td>
+<b>
+       C
+       <sub>
+        T
+       </sub>
+</b>
+</td>
+<td>
+<b>
+       incr.
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      RNA (undil.)
+      <sup>
+       b
+      </sup>
+</td>
+<td>
+      21.26
+     </td>
+<td>
+      22.30
+     </td>
+<td>
+      1.04
+     </td>
+<td>
+      22.79
+     </td>
+<td>
+      1.53
+     </td>
+<td>
+      23.09
+     </td>
+<td>
+      1.83
+     </td>
+<td>
+      23.86
+     </td>
+<td>
+      2.60
+     </td>
+</tr>
+<tr>
+<td>
+      RNA (1:10)
+     </td>
+<td>
+      26.25
+     </td>
+<td>
+      26.86
+     </td>
+<td>
+      0.61
+     </td>
+<td>
+      27.57
+     </td>
+<td>
+      1.32
+     </td>
+<td>
+      27.95
+     </td>
+<td>
+      1.70
+     </td>
+<td>
+      27.31
+     </td>
+<td>
+      1.06
+     </td>
+</tr>
+<tr>
+<td>
+      RNA (1:100)
+     </td>
+<td>
+      31.99
+     </td>
+<td>
+      32.52
+     </td>
+<td>
+      0.53
+     </td>
+<td>
+      33.15
+     </td>
+<td>
+      1.16
+     </td>
+<td>
+      33.47
+     </td>
+<td>
+      1.48
+     </td>
+<td>
+      34.04
+     </td>
+<td>
+      2.05
+     </td>
+</tr>
+<tr>
+<td>
+      RNA (1:1000)
+     </td>
+<td>
+      35.08
+     </td>
+<td>
+      35.25
+     </td>
+<td>
+      0.17
+     </td>
+<td>
+      36.73
+     </td>
+<td>
+      1.65
+     </td>
+<td>
+      36.86
+     </td>
+<td>
+      1.78
+     </td>
+<td>
+      No Ct
+     </td>
+<td>
+      -
+     </td>
+</tr>
+<tr>
+<td>
+      DNA (1:10
+      <sup>
+       7
+      </sup>
+      )
+      <sup>
+       b
+      </sup>
+</td>
+<td>
+      21.53
+     </td>
+<td>
+      26.56
+     </td>
+<td>
+      5.03
+     </td>
+<td>
+      35.04
+     </td>
+<td>
+      13.51
+     </td>
+<td>
+      No Ct
+     </td>
+<td>
+      -
+     </td>
+<td>
+      No Ct
+     </td>
+<td>
+      -
+     </td>
+</tr>
+<tr>
+<td>
+      DNA (1:10
+      <sup>
+       8
+      </sup>
+      )
+     </td>
+<td>
+      24.53
+     </td>
+<td>
+      30.24
+     </td>
+<td>
+      5.71
+     </td>
+<td>
+      38.34
+     </td>
+<td>
+      13.81
+     </td>
+<td>
+      No Ct
+     </td>
+<td>
+      -
+     </td>
+<td>
+      No Ct
+     </td>
+<td>
+      -
+     </td>
+</tr>
+<tr>
+<td>
+      DNA (1:10
+      <sup>
+       9
+      </sup>
+      )
+     </td>
+<td>
+      28.01
+     </td>
+<td>
+      33.38
+     </td>
+<td>
+      5.37
+     </td>
+<td>
+      No Ct
+      <sup>
+       e
+      </sup>
+</td>
+<td>
+      -
+     </td>
+<td>
+      No Ct
+     </td>
+<td>
+      -
+     </td>
+<td>
+      No Ct
+     </td>
+<td>
+      -
+     </td>
+</tr>
+<tr>
+<td>
+      DNA (1:10
+      <sup>
+       10
+      </sup>
+      )
+     </td>
+<td>
+      30.82
+     </td>
+<td>
+      36.44
+     </td>
+<td>
+      5.62
+     </td>
+<td>
+      No Ct
+     </td>
+<td>
+      -
+     </td>
+<td>
+      No Ct
+     </td>
+<td>
+      -
+     </td>
+<td>
+      No Ct
+     </td>
+<td>
+      -
+     </td>
+</tr>
+<tr>
+<td colspan="3">
+      Mean C
+      <sub>
+       T
+      </sub>
+      increase for RNA
+     </td>
+<td>
+      0.59
+      <sup>
+       d
+      </sup>
+</td>
+<td>
+</td>
+<td>
+      1.42
+      <sup>
+       d
+      </sup>
+</td>
+<td>
+</td>
+<td>
+      1.70
+      <sup>
+       d
+      </sup>
+</td>
+<td>
+</td>
+<td>
+      1.90
+      <sup>
+       d
+      </sup>
+</td>
+</tr>
+<tr>
+<td colspan="3">
+      Mean C
+      <sub>
+       T
+      </sub>
+      increase for DNA
+     </td>
+<td>
+      5.43
+     </td>
+<td>
+</td>
+<td>
+      13.66
+     </td>
+<td>
+</td>
+<td>
+      N/A
+     </td>
+<td>
+</td>
+<td>
+      N/A
+     </td>
+</tr>
+</tbody>
+</table>

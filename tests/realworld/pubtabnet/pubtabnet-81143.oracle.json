@@ -1,0 +1,1008 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "+",
+    "-",
+    "1",
+    "1 month",
+    "10",
+    "10 years",
+    "11",
+    "12",
+    "13",
+    "14",
+    "14 years",
+    "15",
+    "18",
+    "2",
+    "2 months",
+    "20",
+    "26",
+    "3",
+    "3 months",
+    "3 weeks",
+    "32",
+    "34",
+    "4",
+    "43",
+    "47",
+    "49",
+    "5",
+    "5 months",
+    "56",
+    "6",
+    "6 months",
+    "62",
+    "67",
+    "7",
+    "7 years",
+    "8",
+    "9",
+    ">1 year",
+    "Age (years)",
+    "Antibodies",
+    "B27",
+    "Chlamydia in urine (PCR)",
+    "Chlamydia trachomatis",
+    "Chronic ReA",
+    "Disease",
+    "Disease duration",
+    "Enterobacteria",
+    "Female",
+    "Male",
+    "Patient no.",
+    "RA",
+    "ReA",
+    "Sex",
+    "Synovial T cell proliferation",
+    "n.d."
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Patient no."
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "B27"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease"
+      ],
+      "value": "ReA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sex"
+      ],
+      "value": "Male"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age (years)"
+      ],
+      "value": "18"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease duration"
+      ],
+      "value": "5 months"
+    },
+    {
+      "row": [],
+      "col": [
+        "Chlamydia in urine (PCR)"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Synovial T cell proliferation"
+      ],
+      "value": "Chlamydia trachomatis"
+    },
+    {
+      "row": [],
+      "col": [
+        "Antibodies"
+      ],
+      "value": "n.d."
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient no."
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "B27"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease"
+      ],
+      "value": "ReA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sex"
+      ],
+      "value": "Male"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age (years)"
+      ],
+      "value": "20"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease duration"
+      ],
+      "value": "2 months"
+    },
+    {
+      "row": [],
+      "col": [
+        "Chlamydia in urine (PCR)"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Synovial T cell proliferation"
+      ],
+      "value": "Chlamydia trachomatis"
+    },
+    {
+      "row": [],
+      "col": [
+        "Antibodies"
+      ],
+      "value": "n.d."
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient no."
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "B27"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease"
+      ],
+      "value": "ReA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sex"
+      ],
+      "value": "Male"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age (years)"
+      ],
+      "value": "32"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease duration"
+      ],
+      "value": "5 months"
+    },
+    {
+      "row": [],
+      "col": [
+        "Chlamydia in urine (PCR)"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Synovial T cell proliferation"
+      ],
+      "value": "Chlamydia trachomatis"
+    },
+    {
+      "row": [],
+      "col": [
+        "Antibodies"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient no."
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "B27"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease"
+      ],
+      "value": "ReA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sex"
+      ],
+      "value": "Male"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age (years)"
+      ],
+      "value": "34"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease duration"
+      ],
+      "value": "3 months"
+    },
+    {
+      "row": [],
+      "col": [
+        "Chlamydia in urine (PCR)"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Synovial T cell proliferation"
+      ],
+      "value": "Chlamydia trachomatis"
+    },
+    {
+      "row": [],
+      "col": [
+        "Antibodies"
+      ],
+      "value": "n.d."
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient no."
+      ],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [
+        "B27"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease"
+      ],
+      "value": "ReA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sex"
+      ],
+      "value": "Male"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age (years)"
+      ],
+      "value": "20"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease duration"
+      ],
+      "value": "1 month"
+    },
+    {
+      "row": [],
+      "col": [
+        "Chlamydia in urine (PCR)"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Synovial T cell proliferation"
+      ],
+      "value": "n.d."
+    },
+    {
+      "row": [],
+      "col": [
+        "Antibodies"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient no."
+      ],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [
+        "B27"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease"
+      ],
+      "value": "ReA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sex"
+      ],
+      "value": "Male"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age (years)"
+      ],
+      "value": "26"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease duration"
+      ],
+      "value": "1 month"
+    },
+    {
+      "row": [],
+      "col": [
+        "Chlamydia in urine (PCR)"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Synovial T cell proliferation"
+      ],
+      "value": "Chlamydia trachomatis"
+    },
+    {
+      "row": [],
+      "col": [
+        "Antibodies"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient no."
+      ],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [
+        "B27"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease"
+      ],
+      "value": "ReA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sex"
+      ],
+      "value": "Male"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age (years)"
+      ],
+      "value": "56"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease duration"
+      ],
+      "value": "1 month"
+    },
+    {
+      "row": [],
+      "col": [
+        "Chlamydia in urine (PCR)"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Synovial T cell proliferation"
+      ],
+      "value": "Chlamydia trachomatis"
+    },
+    {
+      "row": [],
+      "col": [
+        "Antibodies"
+      ],
+      "value": "n.d."
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient no."
+      ],
+      "value": "8"
+    },
+    {
+      "row": [],
+      "col": [
+        "B27"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease"
+      ],
+      "value": "ReA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sex"
+      ],
+      "value": "Male"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age (years)"
+      ],
+      "value": "43"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease duration"
+      ],
+      "value": "3 months"
+    },
+    {
+      "row": [],
+      "col": [
+        "Chlamydia in urine (PCR)"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Synovial T cell proliferation"
+      ],
+      "value": "Chlamydia trachomatis"
+    },
+    {
+      "row": [],
+      "col": [
+        "Antibodies"
+      ],
+      "value": "n.d."
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient no."
+      ],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [
+        "B27"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease"
+      ],
+      "value": "ReA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sex"
+      ],
+      "value": "Female"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age (years)"
+      ],
+      "value": "32"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease duration"
+      ],
+      "value": "6 months"
+    },
+    {
+      "row": [],
+      "col": [
+        "Chlamydia in urine (PCR)"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Synovial T cell proliferation"
+      ],
+      "value": "Chlamydia trachomatis"
+    },
+    {
+      "row": [],
+      "col": [
+        "Antibodies"
+      ],
+      "value": "n.d."
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient no."
+      ],
+      "value": "10"
+    },
+    {
+      "row": [],
+      "col": [
+        "B27"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease"
+      ],
+      "value": "Chronic ReA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sex"
+      ],
+      "value": "Male"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age (years)"
+      ],
+      "value": "20"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease duration"
+      ],
+      "value": "7 years"
+    },
+    {
+      "row": [],
+      "col": [
+        "Chlamydia in urine (PCR)"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Synovial T cell proliferation"
+      ],
+      "value": "Enterobacteria"
+    },
+    {
+      "row": [],
+      "col": [
+        "Antibodies"
+      ],
+      "value": "n.d."
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient no."
+      ],
+      "value": "11"
+    },
+    {
+      "row": [],
+      "col": [
+        "B27"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease"
+      ],
+      "value": "ReA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sex"
+      ],
+      "value": "Male"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age (years)"
+      ],
+      "value": "47"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease duration"
+      ],
+      "value": "3 weeks"
+    },
+    {
+      "row": [],
+      "col": [
+        "Chlamydia in urine (PCR)"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Synovial T cell proliferation"
+      ],
+      "value": "Enterobacteria"
+    },
+    {
+      "row": [],
+      "col": [
+        "Antibodies"
+      ],
+      "value": "n.d."
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient no."
+      ],
+      "value": "12"
+    },
+    {
+      "row": [],
+      "col": [
+        "B27"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease"
+      ],
+      "value": "ReA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sex"
+      ],
+      "value": "Female"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age (years)"
+      ],
+      "value": "49"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease duration"
+      ],
+      "value": "6 months"
+    },
+    {
+      "row": [],
+      "col": [
+        "Chlamydia in urine (PCR)"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Synovial T cell proliferation"
+      ],
+      "value": "Enterobacteria"
+    },
+    {
+      "row": [],
+      "col": [
+        "Antibodies"
+      ],
+      "value": "n.d."
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient no."
+      ],
+      "value": "13"
+    },
+    {
+      "row": [],
+      "col": [
+        "B27"
+      ],
+      "value": "n.d."
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease"
+      ],
+      "value": "RA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sex"
+      ],
+      "value": "Female"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age (years)"
+      ],
+      "value": "67"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease duration"
+      ],
+      "value": "10 years"
+    },
+    {
+      "row": [],
+      "col": [
+        "Chlamydia in urine (PCR)"
+      ],
+      "value": "n.d."
+    },
+    {
+      "row": [],
+      "col": [
+        "Synovial T cell proliferation"
+      ],
+      "value": "n.d."
+    },
+    {
+      "row": [],
+      "col": [
+        "Antibodies"
+      ],
+      "value": "n.d."
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient no."
+      ],
+      "value": "14"
+    },
+    {
+      "row": [],
+      "col": [
+        "B27"
+      ],
+      "value": "n.d."
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease"
+      ],
+      "value": "RA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sex"
+      ],
+      "value": "Female"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age (years)"
+      ],
+      "value": "49"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease duration"
+      ],
+      "value": ">1 year"
+    },
+    {
+      "row": [],
+      "col": [
+        "Chlamydia in urine (PCR)"
+      ],
+      "value": "n.d."
+    },
+    {
+      "row": [],
+      "col": [
+        "Synovial T cell proliferation"
+      ],
+      "value": "n.d."
+    },
+    {
+      "row": [],
+      "col": [
+        "Antibodies"
+      ],
+      "value": "n.d."
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient no."
+      ],
+      "value": "15"
+    },
+    {
+      "row": [],
+      "col": [
+        "B27"
+      ],
+      "value": "n.d."
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease"
+      ],
+      "value": "RA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sex"
+      ],
+      "value": "Female"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age (years)"
+      ],
+      "value": "62"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease duration"
+      ],
+      "value": "14 years"
+    },
+    {
+      "row": [],
+      "col": [
+        "Chlamydia in urine (PCR)"
+      ],
+      "value": "n.d."
+    },
+    {
+      "row": [],
+      "col": [
+        "Synovial T cell proliferation"
+      ],
+      "value": "n.d."
+    },
+    {
+      "row": [],
+      "col": [
+        "Antibodies"
+      ],
+      "value": "n.d."
+    }
+  ]
+}

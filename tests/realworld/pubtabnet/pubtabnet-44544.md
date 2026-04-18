@@ -1,0 +1,474 @@
+<!-- source: PubTabNet imgid=44544 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td colspan="2">
+<b>
+       Characteristic
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Individuals
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Episodes
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Couplets (2
+       <sup>
+        nd
+       </sup>
+       Episode)
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td>
+<b>
+       Number
+      </b>
+</td>
+<td>
+<b>
+       % of Dataset
+      </b>
+</td>
+<td>
+<b>
+       Number
+      </b>
+</td>
+<td>
+<b>
+       % of Dataset
+      </b>
+</td>
+<td>
+<b>
+       Number
+      </b>
+</td>
+<td>
+<b>
+       % of Dataset
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<b>
+       Sex
+      </b>
+</td>
+<td>
+      Male
+     </td>
+<td>
+      522167
+     </td>
+<td>
+      44.1
+     </td>
+<td>
+      3156438
+     </td>
+<td>
+      41.7
+     </td>
+<td>
+      2634271
+     </td>
+<td>
+      41.3
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      Female
+     </td>
+<td>
+      662841
+     </td>
+<td>
+      55.9
+     </td>
+<td>
+      4405035
+     </td>
+<td>
+      58.3
+     </td>
+<td>
+      3742194
+     </td>
+<td>
+      58.7
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      Indeterminate
+     </td>
+<td>
+      4
+     </td>
+<td>
+      0.0
+     </td>
+<td>
+      13
+     </td>
+<td>
+      0.0
+     </td>
+<td>
+      7
+     </td>
+<td>
+      0.0
+     </td>
+</tr>
+<tr>
+<td>
+      TOTAL
+     </td>
+<td>
+</td>
+<td>
+      1185014
+     </td>
+<td>
+      100
+     </td>
+<td>
+      7561486
+     </td>
+<td>
+      100
+     </td>
+<td>
+      6376472
+     </td>
+<td>
+      100
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       Age Group
+      </b>
+</td>
+<td>
+      0–16 Years
+     </td>
+<td>
+      313244
+     </td>
+<td>
+      26.4
+     </td>
+<td>
+      1045092
+     </td>
+<td>
+      13.9
+     </td>
+<td>
+      731848
+     </td>
+<td>
+      11.5
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      17–39 Years
+     </td>
+<td>
+      443602
+     </td>
+<td>
+      37.4
+     </td>
+<td>
+      2495039
+     </td>
+<td>
+      33.1
+     </td>
+<td>
+      2051437
+     </td>
+<td>
+      32.3
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      40–69 Years
+     </td>
+<td>
+      326974
+     </td>
+<td>
+      27.6
+     </td>
+<td>
+      2708572
+     </td>
+<td>
+      35.9
+     </td>
+<td>
+      2381598
+     </td>
+<td>
+      37.5
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      70+ Years
+     </td>
+<td>
+      100870
+     </td>
+<td>
+      8.5
+     </td>
+<td>
+      1292462
+     </td>
+<td>
+      17.1
+     </td>
+<td>
+      1191592
+     </td>
+<td>
+      18.7
+     </td>
+</tr>
+<tr>
+<td>
+      TOTAL
+     </td>
+<td>
+</td>
+<td>
+      1184690
+     </td>
+<td>
+      100
+      <sup>
+       1
+      </sup>
+</td>
+<td>
+      7541165
+     </td>
+<td>
+      100
+      <sup>
+       2
+      </sup>
+</td>
+<td>
+      6356475
+     </td>
+<td>
+      100
+      <sup>
+       3
+      </sup>
+</td>
+</tr>
+<tr>
+<td>
+<b>
+       Hospital
+      </b>
+</td>
+<td>
+      Teaching
+     </td>
+<td>
+      367964
+     </td>
+<td>
+      31.1
+     </td>
+<td>
+      2852257
+     </td>
+<td>
+      37.7
+     </td>
+<td>
+      2484293
+     </td>
+<td>
+      39.0
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       Type
+      </b>
+</td>
+<td>
+      Public Metropolitan
+     </td>
+<td>
+      198456
+     </td>
+<td>
+      16.7
+     </td>
+<td>
+      902286
+     </td>
+<td>
+      11.9
+     </td>
+<td>
+      703830
+     </td>
+<td>
+      11.0
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      Private Metropolitan
+     </td>
+<td>
+      313563
+     </td>
+<td>
+      26.5
+     </td>
+<td>
+      1838354
+     </td>
+<td>
+      24.3
+     </td>
+<td>
+      1524791
+     </td>
+<td>
+      23.9
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      Public Country
+     </td>
+<td>
+      279315
+     </td>
+<td>
+      23.6
+     </td>
+<td>
+      1745527
+     </td>
+<td>
+      23.1
+     </td>
+<td>
+      1466212
+     </td>
+<td>
+      23.0
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      Private Country
+     </td>
+<td>
+      25097
+     </td>
+<td>
+      2.1
+     </td>
+<td>
+      208883
+     </td>
+<td>
+      2.8
+     </td>
+<td>
+      183786
+     </td>
+<td>
+      2.9
+     </td>
+</tr>
+<tr>
+<td>
+      TOTAL
+     </td>
+<td>
+</td>
+<td>
+      1184395
+     </td>
+<td>
+      100
+      <sup>
+       4
+      </sup>
+</td>
+<td>
+      7547307
+     </td>
+<td>
+      100
+      <sup>
+       5
+      </sup>
+</td>
+<td>
+      6362912
+     </td>
+<td>
+      100
+      <sup>
+       6
+      </sup>
+</td>
+</tr>
+</tbody>
+</table>

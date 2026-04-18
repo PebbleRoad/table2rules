@@ -1,0 +1,374 @@
+<!-- source: PubTabNet imgid=464722 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td colspan="2">
+<b>
+       Number of mutations
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Total mutational burden (mutations/kbp)
+      </b>
+</td>
+<td colspan="2">
+<b>
+       OA vs RA
+       <sup>
+        a
+       </sup>
+</b>
+</td>
+</tr>
+<tr>
+<td>
+<b>
+       Mitochondrial mutational burden
+      </b>
+</td>
+<td>
+<b>
+       Nucleotides sequenced
+      </b>
+</td>
+<td>
+<b>
+       Initial
+      </b>
+</td>
+<td>
+<b>
+       Published polymorphisms removed
+      </b>
+</td>
+<td>
+<b>
+       Initial
+      </b>
+</td>
+<td>
+<b>
+       Published polymorphisms removed
+      </b>
+</td>
+<td>
+<b>
+       Initial
+      </b>
+</td>
+<td>
+<b>
+       Published Polymorphisms removed
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="8">
+      Total
+     </td>
+</tr>
+<tr>
+<td>
+      Fibroblasts
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      OA
+     </td>
+<td>
+      18489
+     </td>
+<td>
+      38
+     </td>
+<td>
+      20
+     </td>
+<td>
+      2.055
+     </td>
+<td>
+      1.082
+     </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      RA
+     </td>
+<td>
+      30503
+     </td>
+<td>
+      101
+     </td>
+<td>
+      65
+     </td>
+<td>
+      3.311
+     </td>
+<td>
+      2.131
+     </td>
+<td>
+      ρ = 0.01
+     </td>
+<td>
+      ρ = 6.9 × 10
+      <sup>
+       -3
+      </sup>
+</td>
+</tr>
+<tr>
+<td>
+      Tissue
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      OA
+     </td>
+<td>
+      37145
+     </td>
+<td>
+      67
+     </td>
+<td>
+      40
+     </td>
+<td>
+      1.804
+     </td>
+<td>
+      1.077
+     </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      RA
+     </td>
+<td>
+      17663
+     </td>
+<td>
+      60
+     </td>
+<td>
+      42
+     </td>
+<td>
+      3.397
+     </td>
+<td>
+      2.378
+     </td>
+<td>
+      ρ = 4 × 10
+      <sup>
+       -4
+      </sup>
+</td>
+<td>
+      ρ = 5.1 × 10
+      <sup>
+       -4
+      </sup>
+</td>
+</tr>
+<tr>
+<td colspan="8">
+      Expressed
+     </td>
+</tr>
+<tr>
+<td>
+      Fibroblasts
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      OA
+     </td>
+<td>
+      6956
+     </td>
+<td>
+      12
+     </td>
+<td>
+      7
+     </td>
+<td>
+      1.725
+     </td>
+<td>
+      1.006
+     </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      RA
+     </td>
+<td>
+      12394
+     </td>
+<td>
+      28
+     </td>
+<td>
+      26
+     </td>
+<td>
+      2.259
+     </td>
+<td>
+      2.098
+     </td>
+<td>
+      ρ = 0.5
+     </td>
+<td>
+      ρ = 0.10
+     </td>
+</tr>
+<tr>
+<td>
+      Tissue
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      OA
+     </td>
+<td>
+      15805
+     </td>
+<td>
+      10
+     </td>
+<td>
+      10
+     </td>
+<td>
+      0.633
+     </td>
+<td>
+      0.633
+     </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      RA
+     </td>
+<td>
+      6397
+     </td>
+<td>
+      16
+     </td>
+<td>
+      14
+     </td>
+<td>
+      2.501
+     </td>
+<td>
+      2.189
+     </td>
+<td>
+      ρ = 6 × 10
+      <sup>
+       -4
+      </sup>
+</td>
+<td>
+      ρ = 2.7 × 10
+      <sup>
+       -3
+      </sup>
+</td>
+</tr>
+</tbody>
+</table>

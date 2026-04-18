@@ -1,0 +1,329 @@
+<!-- source: PubTabNet imgid=225281 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+<b>
+       Organisms
+      </b>
+</td>
+<td>
+<b>
+       # Clades
+      </b>
+</td>
+<td>
+<b>
+       # Genes
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Trees
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Consensus
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Concatenation
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      1. (Borr, Trep) (Chlor, Bac) (Campy, Bruc)
+     </td>
+<td>
+      3
+     </td>
+<td>
+      8
+     </td>
+<td>
+      8*
+     </td>
+<td>
+      2
+     </td>
+<td>
+      24*
+     </td>
+<td>
+      12
+     </td>
+<td>
+      299
+     </td>
+<td>
+      112
+     </td>
+</tr>
+<tr>
+<td>
+      2. (Neiss, Rals) (Xyl, Haem) (Rick, Meso)
+     </td>
+<td>
+      3
+     </td>
+<td>
+      8
+     </td>
+<td>
+      5*
+     </td>
+<td>
+      3
+     </td>
+<td>
+      21*
+     </td>
+<td>
+      19
+     </td>
+<td>
+      247
+     </td>
+<td>
+      207
+     </td>
+</tr>
+<tr>
+<td>
+      3. (Clost, Lacto) (Mycob, Bifid) (Campy, Rick)
+     </td>
+<td>
+      3
+     </td>
+<td>
+      8
+     </td>
+<td>
+      6*
+     </td>
+<td>
+      4*
+     </td>
+<td>
+      18*
+     </td>
+<td>
+      18*
+     </td>
+<td>
+      294
+     </td>
+<td>
+      283
+     </td>
+</tr>
+<tr>
+<td>
+      4. (Buch, Rick) (Mycob, Bifid) (Staph, Mycop)
+     </td>
+<td>
+      3
+     </td>
+<td>
+      8
+     </td>
+<td>
+      2
+     </td>
+<td>
+      1*
+     </td>
+<td>
+      13
+     </td>
+<td>
+      15*
+     </td>
+<td>
+      235
+     </td>
+<td>
+      297
+     </td>
+</tr>
+<tr>
+<td>
+      5. (Urea, Mycop) (Strep, Lacto) (Staph, List)
+     </td>
+<td>
+      3
+     </td>
+<td>
+      8
+     </td>
+<td>
+      8*
+     </td>
+<td>
+      5*
+     </td>
+<td>
+      24*
+     </td>
+<td>
+      21*
+     </td>
+<td>
+      300
+     </td>
+<td>
+      300
+     </td>
+</tr>
+<tr>
+<td>
+      6. (Syn, Pro) (Rick, Buch) (Chlor, Bac) (Staph, Strep) (Borr, Trep)
+     </td>
+<td>
+      5
+     </td>
+<td>
+      8
+     </td>
+<td>
+      7*
+     </td>
+<td>
+      2*
+     </td>
+<td>
+      37*
+     </td>
+<td>
+      26*
+     </td>
+<td>
+      481
+     </td>
+<td>
+      472
+     </td>
+</tr>
+<tr>
+<td>
+      7. ((Rick, Bruc) ((Vib, Esch, Haem), Neiss) (Heli, Campy)) (Syn, Pro) (Clost, Staph) (Borr, Trep)
+     </td>
+<td>
+      8
+     </td>
+<td>
+      17
+     </td>
+<td>
+      3*
+     </td>
+<td>
+      3
+     </td>
+<td>
+      129*
+     </td>
+<td>
+      108
+     </td>
+<td>
+      762
+     </td>
+<td>
+      741
+     </td>
+</tr>
+<tr>
+<td>
+      8. ((Caul, Meso), Esch) (Chlor, Bac) (Pro, Nos)
+     </td>
+<td>
+      4
+     </td>
+<td>
+      8
+     </td>
+<td>
+      7*
+     </td>
+<td>
+      3*
+     </td>
+<td>
+      30*
+     </td>
+<td>
+      27*
+     </td>
+<td>
+      400
+     </td>
+<td>
+      398
+     </td>
+</tr>
+<tr>
+<td>
+      9. ((Geo, Desulf), (Wol, Campy), (Caul, Rick)) (Borr, Lep) (Chlor, Bac)
+     </td>
+<td>
+      6
+     </td>
+<td>
+      8
+     </td>
+<td>
+      1
+     </td>
+<td>
+      2
+     </td>
+<td>
+      31*
+     </td>
+<td>
+      32
+     </td>
+<td>
+      554
+     </td>
+<td>
+      512
+     </td>
+</tr>
+<tr>
+<td>
+      10. (Chlor, Bac) (Mycop, Strep, Clost) (Mycob, Bifid)
+     </td>
+<td>
+      3
+     </td>
+<td>
+      8
+     </td>
+<td>
+      1*
+     </td>
+<td>
+      2*
+     </td>
+<td>
+      15*
+     </td>
+<td>
+      13
+     </td>
+<td>
+      255
+     </td>
+<td>
+      245
+     </td>
+</tr>
+</tbody>
+</table>

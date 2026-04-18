@@ -1,0 +1,495 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0.02",
+    "0.04",
+    "0.10",
+    "0.18",
+    "0.23",
+    "0.28",
+    "0.47",
+    "0.53",
+    "0.60",
+    "1999",
+    "2001",
+    "2002",
+    "25 \u2013 44",
+    "25.7%",
+    "26.1%",
+    "27.3%",
+    "28.6%",
+    "30.7%",
+    "31.4%",
+    "31.6%",
+    "31.7%",
+    "31.9%",
+    "32.2%",
+    "34.1%",
+    "34.7%",
+    "36.2%",
+    "36.3%",
+    "36.8%",
+    "37.6%",
+    "38.0%",
+    "38.2%",
+    "39.4%",
+    "40.9%",
+    "44.6%",
+    "45 \u2013 64",
+    "5 \u2013 24",
+    "51.8%",
+    "65 or above",
+    "65.0%",
+    "Age (years)",
+    "Age difference",
+    "Excluding the 'less than 5' age group (p-value)",
+    "F-test for the overall demographic subgroups differences within each year (at significance level 0.05) \u2020",
+    "Female",
+    "Including the 'less than 5' age group (p-value)",
+    "Less than 5",
+    "Male",
+    "No. of persons discharged from public hospitals in past 12 months*",
+    "No. of persons discharged from public hospitals in past 6 months*",
+    "Overall",
+    "Sex",
+    "Sex difference (p-value)"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Age (years)"
+    },
+    {
+      "row": [],
+      "col": [
+        "1999",
+        "No. of persons discharged from public hospitals in past 6 months*"
+      ],
+      "value": "Age (years)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2001",
+        "No. of persons discharged from public hospitals in past 6 months*"
+      ],
+      "value": "Age (years)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2002",
+        "No. of persons discharged from public hospitals in past 12 months*"
+      ],
+      "value": "Age (years)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Less than 5"
+    },
+    {
+      "row": [],
+      "col": [
+        "1999",
+        "No. of persons discharged from public hospitals in past 6 months*"
+      ],
+      "value": "44.6%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2001",
+        "No. of persons discharged from public hospitals in past 6 months*"
+      ],
+      "value": "51.8%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2002",
+        "No. of persons discharged from public hospitals in past 12 months*"
+      ],
+      "value": "65.0%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "5 \u2013 24"
+    },
+    {
+      "row": [],
+      "col": [
+        "1999",
+        "No. of persons discharged from public hospitals in past 6 months*"
+      ],
+      "value": "36.2%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2001",
+        "No. of persons discharged from public hospitals in past 6 months*"
+      ],
+      "value": "40.9%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2002",
+        "No. of persons discharged from public hospitals in past 12 months*"
+      ],
+      "value": "38.2%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "25 \u2013 44"
+    },
+    {
+      "row": [],
+      "col": [
+        "1999",
+        "No. of persons discharged from public hospitals in past 6 months*"
+      ],
+      "value": "31.6%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2001",
+        "No. of persons discharged from public hospitals in past 6 months*"
+      ],
+      "value": "31.9%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2002",
+        "No. of persons discharged from public hospitals in past 12 months*"
+      ],
+      "value": "37.6%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "45 \u2013 64"
+    },
+    {
+      "row": [],
+      "col": [
+        "1999",
+        "No. of persons discharged from public hospitals in past 6 months*"
+      ],
+      "value": "27.3%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2001",
+        "No. of persons discharged from public hospitals in past 6 months*"
+      ],
+      "value": "28.6%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2002",
+        "No. of persons discharged from public hospitals in past 12 months*"
+      ],
+      "value": "38.0%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "65 or above"
+    },
+    {
+      "row": [],
+      "col": [
+        "1999",
+        "No. of persons discharged from public hospitals in past 6 months*"
+      ],
+      "value": "25.7%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2001",
+        "No. of persons discharged from public hospitals in past 6 months*"
+      ],
+      "value": "32.2%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2002",
+        "No. of persons discharged from public hospitals in past 12 months*"
+      ],
+      "value": "31.7%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Sex"
+    },
+    {
+      "row": [],
+      "col": [
+        "1999",
+        "No. of persons discharged from public hospitals in past 6 months*"
+      ],
+      "value": "Sex"
+    },
+    {
+      "row": [],
+      "col": [
+        "2001",
+        "No. of persons discharged from public hospitals in past 6 months*"
+      ],
+      "value": "Sex"
+    },
+    {
+      "row": [],
+      "col": [
+        "2002",
+        "No. of persons discharged from public hospitals in past 12 months*"
+      ],
+      "value": "Sex"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Female"
+    },
+    {
+      "row": [],
+      "col": [
+        "1999",
+        "No. of persons discharged from public hospitals in past 6 months*"
+      ],
+      "value": "34.7%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2001",
+        "No. of persons discharged from public hospitals in past 6 months*"
+      ],
+      "value": "36.3%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2002",
+        "No. of persons discharged from public hospitals in past 12 months*"
+      ],
+      "value": "39.4%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Male"
+    },
+    {
+      "row": [],
+      "col": [
+        "1999",
+        "No. of persons discharged from public hospitals in past 6 months*"
+      ],
+      "value": "26.1%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2001",
+        "No. of persons discharged from public hospitals in past 6 months*"
+      ],
+      "value": "31.4%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2002",
+        "No. of persons discharged from public hospitals in past 12 months*"
+      ],
+      "value": "36.8%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Overall"
+    },
+    {
+      "row": [],
+      "col": [
+        "1999",
+        "No. of persons discharged from public hospitals in past 6 months*"
+      ],
+      "value": "30.7%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2001",
+        "No. of persons discharged from public hospitals in past 6 months*"
+      ],
+      "value": "34.1%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2002",
+        "No. of persons discharged from public hospitals in past 12 months*"
+      ],
+      "value": "38.2%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "F-test for the overall demographic subgroups differences within each year (at significance level 0.05) \u2020"
+    },
+    {
+      "row": [],
+      "col": [
+        "1999",
+        "No. of persons discharged from public hospitals in past 6 months*"
+      ],
+      "value": "F-test for the overall demographic subgroups differences within each year (at significance level 0.05) \u2020"
+    },
+    {
+      "row": [],
+      "col": [
+        "2001",
+        "No. of persons discharged from public hospitals in past 6 months*"
+      ],
+      "value": "F-test for the overall demographic subgroups differences within each year (at significance level 0.05) \u2020"
+    },
+    {
+      "row": [],
+      "col": [
+        "2002",
+        "No. of persons discharged from public hospitals in past 12 months*"
+      ],
+      "value": "F-test for the overall demographic subgroups differences within each year (at significance level 0.05) \u2020"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Age difference"
+    },
+    {
+      "row": [],
+      "col": [
+        "1999",
+        "No. of persons discharged from public hospitals in past 6 months*"
+      ],
+      "value": "Age difference"
+    },
+    {
+      "row": [],
+      "col": [
+        "2001",
+        "No. of persons discharged from public hospitals in past 6 months*"
+      ],
+      "value": "Age difference"
+    },
+    {
+      "row": [],
+      "col": [
+        "2002",
+        "No. of persons discharged from public hospitals in past 12 months*"
+      ],
+      "value": "Age difference"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Including the 'less than 5' age group (p-value)"
+    },
+    {
+      "row": [],
+      "col": [
+        "1999",
+        "No. of persons discharged from public hospitals in past 6 months*"
+      ],
+      "value": "0.47"
+    },
+    {
+      "row": [],
+      "col": [
+        "2001",
+        "No. of persons discharged from public hospitals in past 6 months*"
+      ],
+      "value": "0.18"
+    },
+    {
+      "row": [],
+      "col": [
+        "2002",
+        "No. of persons discharged from public hospitals in past 12 months*"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Excluding the 'less than 5' age group (p-value)"
+    },
+    {
+      "row": [],
+      "col": [
+        "1999",
+        "No. of persons discharged from public hospitals in past 6 months*"
+      ],
+      "value": "0.53"
+    },
+    {
+      "row": [],
+      "col": [
+        "2001",
+        "No. of persons discharged from public hospitals in past 6 months*"
+      ],
+      "value": "0.28"
+    },
+    {
+      "row": [],
+      "col": [
+        "2002",
+        "No. of persons discharged from public hospitals in past 12 months*"
+      ],
+      "value": "0.60"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Sex difference (p-value)"
+    },
+    {
+      "row": [],
+      "col": [
+        "1999",
+        "No. of persons discharged from public hospitals in past 6 months*"
+      ],
+      "value": "0.04"
+    },
+    {
+      "row": [],
+      "col": [
+        "2001",
+        "No. of persons discharged from public hospitals in past 6 months*"
+      ],
+      "value": "0.23"
+    },
+    {
+      "row": [],
+      "col": [
+        "2002",
+        "No. of persons discharged from public hospitals in past 12 months*"
+      ],
+      "value": "0.10"
+    }
+  ]
+}

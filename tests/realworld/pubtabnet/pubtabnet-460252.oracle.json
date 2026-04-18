@@ -1,0 +1,859 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0.00 NS",
+    "0.12 NS",
+    "0.13 NS",
+    "0.18 NS",
+    "0.54 NS",
+    "0.55 NS",
+    "1",
+    "1.39 NS",
+    "10.60 ** \u2021",
+    "102,144",
+    "104,841",
+    "109,771",
+    "110",
+    "110,059",
+    "111,959",
+    "113,320",
+    "119",
+    "125",
+    "13,162",
+    "133",
+    "15,859",
+    "154",
+    "19,637",
+    "2",
+    "2.01 NS",
+    "2.96 NS",
+    "225",
+    "24,305",
+    "25,351",
+    "250",
+    "26,532",
+    "27,860",
+    "3",
+    "30",
+    "32,899",
+    "321",
+    "34,038",
+    "342",
+    "350",
+    "356",
+    "36",
+    "365",
+    "377",
+    "393",
+    "4",
+    "4,683",
+    "405",
+    "408",
+    "41",
+    "434",
+    "439",
+    "445",
+    "470",
+    "5",
+    "54,150",
+    "6,044",
+    "6.15*",
+    "6.58*",
+    "63,853",
+    "67",
+    "7",
+    "7,944",
+    "70",
+    "8,232",
+    "8.70**",
+    "82",
+    "83,965",
+    "85,104",
+    "90,143",
+    "91,471",
+    "92,625",
+    "93,698",
+    "98",
+    "98,366",
+    "Abdominal bristle number [25]",
+    "Courtship signal [27]",
+    "Flight [29]",
+    "Glycogen [29]",
+    "Life span [21]",
+    "Life span [22]",
+    "Life span [23]",
+    "Life span [24]",
+    "Metabolic rate [29]",
+    "Not QTL",
+    "Number",
+    "Olfactory behavior [28]",
+    "Ovariole number [26]",
+    "Probe sets \u2021",
+    "QTL \u2020",
+    "Starvation resistance [21]",
+    "Sternopleural bristle number [25]",
+    "Trait",
+    "Triglycerides [29]",
+    "kb",
+    "\u03c7 2 1"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Trait"
+      ],
+      "value": "Life span [22]"
+    },
+    {
+      "row": [],
+      "col": [
+        "QTL \u2020",
+        "Number"
+      ],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [
+        "QTL \u2020",
+        "Probe sets \u2021"
+      ],
+      "value": "125"
+    },
+    {
+      "row": [],
+      "col": [
+        "QTL \u2020",
+        "kb"
+      ],
+      "value": "25,351"
+    },
+    {
+      "row": [],
+      "col": [
+        "Not QTL",
+        "Probe sets \u2021"
+      ],
+      "value": "350"
+    },
+    {
+      "row": [],
+      "col": [
+        "Not QTL",
+        "kb"
+      ],
+      "value": "92,625"
+    },
+    {
+      "row": [],
+      "col": [
+        "\u03c7 2 1"
+      ],
+      "value": "6.58*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Trait"
+      ],
+      "value": "Sternopleural bristle number [25]"
+    },
+    {
+      "row": [],
+      "col": [
+        "QTL \u2020",
+        "Number"
+      ],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [
+        "QTL \u2020",
+        "Probe sets \u2021"
+      ],
+      "value": "250"
+    },
+    {
+      "row": [],
+      "col": [
+        "QTL \u2020",
+        "kb"
+      ],
+      "value": "54,150"
+    },
+    {
+      "row": [],
+      "col": [
+        "Not QTL",
+        "Probe sets \u2021"
+      ],
+      "value": "225"
+    },
+    {
+      "row": [],
+      "col": [
+        "Not QTL",
+        "kb"
+      ],
+      "value": "63,853"
+    },
+    {
+      "row": [],
+      "col": [
+        "\u03c7 2 1"
+      ],
+      "value": "8.70**"
+    },
+    {
+      "row": [],
+      "col": [
+        "Trait"
+      ],
+      "value": "Abdominal bristle number [25]"
+    },
+    {
+      "row": [],
+      "col": [
+        "QTL \u2020",
+        "Number"
+      ],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [
+        "QTL \u2020",
+        "Probe sets \u2021"
+      ],
+      "value": "154"
+    },
+    {
+      "row": [],
+      "col": [
+        "QTL \u2020",
+        "kb"
+      ],
+      "value": "34,038"
+    },
+    {
+      "row": [],
+      "col": [
+        "Not QTL",
+        "Probe sets \u2021"
+      ],
+      "value": "321"
+    },
+    {
+      "row": [],
+      "col": [
+        "Not QTL",
+        "kb"
+      ],
+      "value": "83,965"
+    },
+    {
+      "row": [],
+      "col": [
+        "\u03c7 2 1"
+      ],
+      "value": "2.96 NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Trait"
+      ],
+      "value": "Starvation resistance [21]"
+    },
+    {
+      "row": [],
+      "col": [
+        "QTL \u2020",
+        "Number"
+      ],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [
+        "QTL \u2020",
+        "Probe sets \u2021"
+      ],
+      "value": "110"
+    },
+    {
+      "row": [],
+      "col": [
+        "QTL \u2020",
+        "kb"
+      ],
+      "value": "26,532"
+    },
+    {
+      "row": [],
+      "col": [
+        "Not QTL",
+        "Probe sets \u2021"
+      ],
+      "value": "365"
+    },
+    {
+      "row": [],
+      "col": [
+        "Not QTL",
+        "kb"
+      ],
+      "value": "91,471"
+    },
+    {
+      "row": [],
+      "col": [
+        "\u03c7 2 1"
+      ],
+      "value": "0.12 NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Trait"
+      ],
+      "value": "Life span [21]"
+    },
+    {
+      "row": [],
+      "col": [
+        "QTL \u2020",
+        "Number"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "QTL \u2020",
+        "Probe sets \u2021"
+      ],
+      "value": "98"
+    },
+    {
+      "row": [],
+      "col": [
+        "QTL \u2020",
+        "kb"
+      ],
+      "value": "24,305"
+    },
+    {
+      "row": [],
+      "col": [
+        "Not QTL",
+        "Probe sets \u2021"
+      ],
+      "value": "377"
+    },
+    {
+      "row": [],
+      "col": [
+        "Not QTL",
+        "kb"
+      ],
+      "value": "93,698"
+    },
+    {
+      "row": [],
+      "col": [
+        "\u03c7 2 1"
+      ],
+      "value": "0.00 NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Trait"
+      ],
+      "value": "Life span [23]"
+    },
+    {
+      "row": [],
+      "col": [
+        "QTL \u2020",
+        "Number"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "QTL \u2020",
+        "Probe sets \u2021"
+      ],
+      "value": "133"
+    },
+    {
+      "row": [],
+      "col": [
+        "QTL \u2020",
+        "kb"
+      ],
+      "value": "32,899"
+    },
+    {
+      "row": [],
+      "col": [
+        "Not QTL",
+        "Probe sets \u2021"
+      ],
+      "value": "342"
+    },
+    {
+      "row": [],
+      "col": [
+        "Not QTL",
+        "kb"
+      ],
+      "value": "85,104"
+    },
+    {
+      "row": [],
+      "col": [
+        "\u03c7 2 1"
+      ],
+      "value": "0.00 NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Trait"
+      ],
+      "value": "Ovariole number [26]"
+    },
+    {
+      "row": [],
+      "col": [
+        "QTL \u2020",
+        "Number"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "QTL \u2020",
+        "Probe sets \u2021"
+      ],
+      "value": "70"
+    },
+    {
+      "row": [],
+      "col": [
+        "QTL \u2020",
+        "kb"
+      ],
+      "value": "13,162"
+    },
+    {
+      "row": [],
+      "col": [
+        "Not QTL",
+        "Probe sets \u2021"
+      ],
+      "value": "405"
+    },
+    {
+      "row": [],
+      "col": [
+        "Not QTL",
+        "kb"
+      ],
+      "value": "104,841"
+    },
+    {
+      "row": [],
+      "col": [
+        "\u03c7 2 1"
+      ],
+      "value": "6.15*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Trait"
+      ],
+      "value": "Life span [24]"
+    },
+    {
+      "row": [],
+      "col": [
+        "QTL \u2020",
+        "Number"
+      ],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [
+        "QTL \u2020",
+        "Probe sets \u2021"
+      ],
+      "value": "82"
+    },
+    {
+      "row": [],
+      "col": [
+        "QTL \u2020",
+        "kb"
+      ],
+      "value": "19,637"
+    },
+    {
+      "row": [],
+      "col": [
+        "Not QTL",
+        "Probe sets \u2021"
+      ],
+      "value": "393"
+    },
+    {
+      "row": [],
+      "col": [
+        "Not QTL",
+        "kb"
+      ],
+      "value": "98,366"
+    },
+    {
+      "row": [],
+      "col": [
+        "\u03c7 2 1"
+      ],
+      "value": "0.13 NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Trait"
+      ],
+      "value": "Olfactory behavior [28]"
+    },
+    {
+      "row": [],
+      "col": [
+        "QTL \u2020",
+        "Number"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "QTL \u2020",
+        "Probe sets \u2021"
+      ],
+      "value": "36"
+    },
+    {
+      "row": [],
+      "col": [
+        "QTL \u2020",
+        "kb"
+      ],
+      "value": "7,944"
+    },
+    {
+      "row": [],
+      "col": [
+        "Not QTL",
+        "Probe sets \u2021"
+      ],
+      "value": "439"
+    },
+    {
+      "row": [],
+      "col": [
+        "Not QTL",
+        "kb"
+      ],
+      "value": "110,059"
+    },
+    {
+      "row": [],
+      "col": [
+        "\u03c7 2 1"
+      ],
+      "value": "0.54 NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Trait"
+      ],
+      "value": "Courtship signal [27]"
+    },
+    {
+      "row": [],
+      "col": [
+        "QTL \u2020",
+        "Number"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "QTL \u2020",
+        "Probe sets \u2021"
+      ],
+      "value": "67"
+    },
+    {
+      "row": [],
+      "col": [
+        "QTL \u2020",
+        "kb"
+      ],
+      "value": "15,859"
+    },
+    {
+      "row": [],
+      "col": [
+        "Not QTL",
+        "Probe sets \u2021"
+      ],
+      "value": "408"
+    },
+    {
+      "row": [],
+      "col": [
+        "Not QTL",
+        "kb"
+      ],
+      "value": "102,144"
+    },
+    {
+      "row": [],
+      "col": [
+        "\u03c7 2 1"
+      ],
+      "value": "0.18 NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Trait"
+      ],
+      "value": "Flight [29]"
+    },
+    {
+      "row": [],
+      "col": [
+        "QTL \u2020",
+        "Number"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "QTL \u2020",
+        "Probe sets \u2021"
+      ],
+      "value": "119"
+    },
+    {
+      "row": [],
+      "col": [
+        "QTL \u2020",
+        "kb"
+      ],
+      "value": "27,860"
+    },
+    {
+      "row": [],
+      "col": [
+        "Not QTL",
+        "Probe sets \u2021"
+      ],
+      "value": "356"
+    },
+    {
+      "row": [],
+      "col": [
+        "Not QTL",
+        "kb"
+      ],
+      "value": "90,143"
+    },
+    {
+      "row": [],
+      "col": [
+        "\u03c7 2 1"
+      ],
+      "value": "0.55 NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Trait"
+      ],
+      "value": "Metabolic rate [29]"
+    },
+    {
+      "row": [],
+      "col": [
+        "QTL \u2020",
+        "Number"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "QTL \u2020",
+        "Probe sets \u2021"
+      ],
+      "value": "41"
+    },
+    {
+      "row": [],
+      "col": [
+        "QTL \u2020",
+        "kb"
+      ],
+      "value": "8,232"
+    },
+    {
+      "row": [],
+      "col": [
+        "Not QTL",
+        "Probe sets \u2021"
+      ],
+      "value": "434"
+    },
+    {
+      "row": [],
+      "col": [
+        "Not QTL",
+        "kb"
+      ],
+      "value": "109,771"
+    },
+    {
+      "row": [],
+      "col": [
+        "\u03c7 2 1"
+      ],
+      "value": "2.01 NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Trait"
+      ],
+      "value": "Glycogen [29]"
+    },
+    {
+      "row": [],
+      "col": [
+        "QTL \u2020",
+        "Number"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "QTL \u2020",
+        "Probe sets \u2021"
+      ],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [
+        "QTL \u2020",
+        "kb"
+      ],
+      "value": "4,683"
+    },
+    {
+      "row": [],
+      "col": [
+        "Not QTL",
+        "Probe sets \u2021"
+      ],
+      "value": "470"
+    },
+    {
+      "row": [],
+      "col": [
+        "Not QTL",
+        "kb"
+      ],
+      "value": "113,320"
+    },
+    {
+      "row": [],
+      "col": [
+        "\u03c7 2 1"
+      ],
+      "value": "10.60 ** \u2021"
+    },
+    {
+      "row": [],
+      "col": [
+        "Trait"
+      ],
+      "value": "Triglycerides [29]"
+    },
+    {
+      "row": [],
+      "col": [
+        "QTL \u2020",
+        "Number"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "QTL \u2020",
+        "Probe sets \u2021"
+      ],
+      "value": "30"
+    },
+    {
+      "row": [],
+      "col": [
+        "QTL \u2020",
+        "kb"
+      ],
+      "value": "6,044"
+    },
+    {
+      "row": [],
+      "col": [
+        "Not QTL",
+        "Probe sets \u2021"
+      ],
+      "value": "445"
+    },
+    {
+      "row": [],
+      "col": [
+        "Not QTL",
+        "kb"
+      ],
+      "value": "111,959"
+    },
+    {
+      "row": [],
+      "col": [
+        "\u03c7 2 1"
+      ],
+      "value": "1.39 NS"
+    }
+  ]
+}

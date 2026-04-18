@@ -256,10 +256,19 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
             # Universal cell_type logic
             cell_type = cell.name
             is_body_row = not (cell.find_parent('thead') or cell.find_parent('tfoot'))
-            
+
             # Heuristic 1: header row (for headless)
             # Skip this for key-value tables - they don't have header rows
             if is_header_row and cell.name == 'td' and not is_key_value_table:
+                cell_type = 'th'
+
+            # Heuristic 1b: <td> cells inside <thead> are structural headers
+            # regardless of tag. Word / Markdown-to-HTML converters, and many
+            # CMS outputs, emit <thead><tr><td><b>Header</b></td></tr></thead>
+            # — the <thead> wrapper is the authoritative signal. Promote to
+            # <th> so downstream header-walking treats these as column
+            # headers.
+            if cell.name == 'td' and cell.find_parent('thead') is not None:
                 cell_type = 'th'
 
             is_footer = cell.find_parent('tfoot') is not None

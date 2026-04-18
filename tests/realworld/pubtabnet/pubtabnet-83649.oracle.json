@@ -1,0 +1,957 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0",
+    "1",
+    "1 952",
+    "10",
+    "107",
+    "11",
+    "114",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "2",
+    "21",
+    "23",
+    "24",
+    "26,0",
+    "29",
+    "3",
+    "30",
+    "31",
+    "33",
+    "38",
+    "443",
+    "5",
+    "50,0",
+    "50,8",
+    "508",
+    "52,3",
+    "54,5",
+    "56,5",
+    "59",
+    "6",
+    "61,2",
+    "63,1",
+    "69,2",
+    "7",
+    "76,1",
+    "78,2",
+    "8",
+    "9",
+    "Aminoacyl-tRNA biosynthesis",
+    "CATH class",
+    "Carbon fixation",
+    "Enzyme total",
+    "Fatty acid biosynthesis (path 1)",
+    "Few",
+    "Glycolysis / Gluconeogenesis",
+    "Metabolic pathway",
+    "Methionine metabolism",
+    "One carbon pool by folate",
+    "Oxidative phosphorylation",
+    "Pentose phosphate pathway",
+    "Phe, Tyr and Trp biosynthesis",
+    "Pyrimidine metabolism",
+    "Reductive carboxylate cycle (CO2 fixation)",
+    "Selenoamino acid metabolism",
+    "Streptomycin biosynthesis",
+    "Total",
+    "a",
+    "a / b",
+    "all pathways",
+    "b",
+    "coverage",
+    "with str."
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Metabolic pathway"
+      ],
+      "value": "all pathways"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme total",
+        "Total"
+      ],
+      "value": "1 952"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme total",
+        "with str."
+      ],
+      "value": "508"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme total",
+        "coverage"
+      ],
+      "value": "26,0"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "a / b"
+      ],
+      "value": "443"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "a"
+      ],
+      "value": "114"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "b"
+      ],
+      "value": "107"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "Few"
+      ],
+      "value": "15"
+    },
+    {
+      "row": [],
+      "col": [
+        "Metabolic pathway"
+      ],
+      "value": "Fatty acid biosynthesis (path 1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme total",
+        "Total"
+      ],
+      "value": "14"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme total",
+        "with str."
+      ],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme total",
+        "coverage"
+      ],
+      "value": "50,0"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "a / b"
+      ],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "a"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "b"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "Few"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Metabolic pathway"
+      ],
+      "value": "Oxidative phosphorylation"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme total",
+        "Total"
+      ],
+      "value": "10"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme total",
+        "with str."
+      ],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme total",
+        "coverage"
+      ],
+      "value": "50,0"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "a / b"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "a"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "b"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "Few"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Metabolic pathway"
+      ],
+      "value": "Streptomycin biosynthesis"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme total",
+        "Total"
+      ],
+      "value": "14"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme total",
+        "with str."
+      ],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme total",
+        "coverage"
+      ],
+      "value": "50,0"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "a / b"
+      ],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "a"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "b"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "Few"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Metabolic pathway"
+      ],
+      "value": "Pyrimidine metabolism"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme total",
+        "Total"
+      ],
+      "value": "59"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme total",
+        "with str."
+      ],
+      "value": "30"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme total",
+        "coverage"
+      ],
+      "value": "50,8"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "a / b"
+      ],
+      "value": "29"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "a"
+      ],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "b"
+      ],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "Few"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Metabolic pathway"
+      ],
+      "value": "Selenoamino acid metabolism"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme total",
+        "Total"
+      ],
+      "value": "21"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme total",
+        "with str."
+      ],
+      "value": "11"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme total",
+        "coverage"
+      ],
+      "value": "52,3"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "a / b"
+      ],
+      "value": "11"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "a"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "b"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "Few"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Metabolic pathway"
+      ],
+      "value": "Pentose phosphate pathway"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme total",
+        "Total"
+      ],
+      "value": "33"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme total",
+        "with str."
+      ],
+      "value": "18"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme total",
+        "coverage"
+      ],
+      "value": "54,5"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "a / b"
+      ],
+      "value": "17"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "a"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "b"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "Few"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Metabolic pathway"
+      ],
+      "value": "Methionine metabolism"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme total",
+        "Total"
+      ],
+      "value": "23"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme total",
+        "with str."
+      ],
+      "value": "13"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme total",
+        "coverage"
+      ],
+      "value": "56,5"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "a / b"
+      ],
+      "value": "13"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "a"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "b"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "Few"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Metabolic pathway"
+      ],
+      "value": "One carbon pool by folate"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme total",
+        "Total"
+      ],
+      "value": "23"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme total",
+        "with str."
+      ],
+      "value": "13"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme total",
+        "coverage"
+      ],
+      "value": "56,5"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "a / b"
+      ],
+      "value": "13"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "a"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "b"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "Few"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Metabolic pathway"
+      ],
+      "value": "Phe, Tyr and Trp biosynthesis"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme total",
+        "Total"
+      ],
+      "value": "31"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme total",
+        "with str."
+      ],
+      "value": "19"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme total",
+        "coverage"
+      ],
+      "value": "61,2"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "a / b"
+      ],
+      "value": "18"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "a"
+      ],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "b"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "Few"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Metabolic pathway"
+      ],
+      "value": "Glycolysis / Gluconeogenesis"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme total",
+        "Total"
+      ],
+      "value": "38"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme total",
+        "with str."
+      ],
+      "value": "24"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme total",
+        "coverage"
+      ],
+      "value": "63,1"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "a / b"
+      ],
+      "value": "24"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "a"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "b"
+      ],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "Few"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Metabolic pathway"
+      ],
+      "value": "Reductive carboxylate cycle (CO2 fixation)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme total",
+        "Total"
+      ],
+      "value": "13"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme total",
+        "with str."
+      ],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme total",
+        "coverage"
+      ],
+      "value": "69,2"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "a / b"
+      ],
+      "value": "8"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "a"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "b"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "Few"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Metabolic pathway"
+      ],
+      "value": "Aminoacyl-tRNA biosynthesis"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme total",
+        "Total"
+      ],
+      "value": "21"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme total",
+        "with str."
+      ],
+      "value": "16"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme total",
+        "coverage"
+      ],
+      "value": "76,1"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "a / b"
+      ],
+      "value": "16"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "a"
+      ],
+      "value": "8"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "b"
+      ],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "Few"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Metabolic pathway"
+      ],
+      "value": "Carbon fixation"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme total",
+        "Total"
+      ],
+      "value": "23"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme total",
+        "with str."
+      ],
+      "value": "18"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme total",
+        "coverage"
+      ],
+      "value": "78,2"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "a / b"
+      ],
+      "value": "18"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "a"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "b"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "CATH class",
+        "Few"
+      ],
+      "value": "0"
+    }
+  ]
+}

@@ -1,0 +1,393 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0",
+    "10.2",
+    "100",
+    "101.7",
+    "19.9",
+    "24.7",
+    "24.8",
+    "26.4",
+    "27.9",
+    "33.3",
+    "34",
+    "34.2",
+    "36.1",
+    "37",
+    "41.2",
+    "46",
+    "48.8",
+    "53.2",
+    "63",
+    "64",
+    "7",
+    "74",
+    "75",
+    "76",
+    "8.0",
+    "85.1",
+    "9",
+    "94",
+    "Beat frequency (Hz)",
+    "Control",
+    "Experimental",
+    "I",
+    "II",
+    "Lateral amplitude (\u03bcm)",
+    "Linearity (%)",
+    "Motile (%)",
+    "Particulars",
+    "Path velocity (\u03bcm/s)",
+    "Progressive (%)",
+    "Progressive velocity (\u03bcm/s)",
+    "Straightness (%)",
+    "Track speed (\u03bcm/s)"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Control"
+      ],
+      "value": "I"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control"
+      ],
+      "value": "II"
+    },
+    {
+      "row": [],
+      "col": [
+        "Experimental"
+      ],
+      "value": "I"
+    },
+    {
+      "row": [],
+      "col": [
+        "Experimental"
+      ],
+      "value": "II"
+    },
+    {
+      "row": [],
+      "col": [
+        "Particulars"
+      ],
+      "value": "Motile (%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control"
+      ],
+      "value": "100"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control"
+      ],
+      "value": "100"
+    },
+    {
+      "row": [],
+      "col": [
+        "Experimental"
+      ],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Experimental"
+      ],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Particulars"
+      ],
+      "value": "Progressive (%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control"
+      ],
+      "value": "100"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control"
+      ],
+      "value": "75"
+    },
+    {
+      "row": [],
+      "col": [
+        "Experimental"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Experimental"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Particulars"
+      ],
+      "value": "Path velocity (\u03bcm/s)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control"
+      ],
+      "value": "53.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control"
+      ],
+      "value": "48.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Experimental"
+      ],
+      "value": "26.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Experimental"
+      ],
+      "value": "34"
+    },
+    {
+      "row": [],
+      "col": [
+        "Particulars"
+      ],
+      "value": "Progressive velocity (\u03bcm/s)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control"
+      ],
+      "value": "34.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control"
+      ],
+      "value": "36.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Experimental"
+      ],
+      "value": "24.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Experimental"
+      ],
+      "value": "27.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Particulars"
+      ],
+      "value": "Track speed (\u03bcm/s)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control"
+      ],
+      "value": "101.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control"
+      ],
+      "value": "85.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Experimental"
+      ],
+      "value": "33.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Experimental"
+      ],
+      "value": "41.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Particulars"
+      ],
+      "value": "Lateral amplitude (\u03bcm)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control"
+      ],
+      "value": "10.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control"
+      ],
+      "value": "8.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Experimental"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Experimental"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Particulars"
+      ],
+      "value": "Beat frequency (Hz)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control"
+      ],
+      "value": "24.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control"
+      ],
+      "value": "19.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Experimental"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Experimental"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Particulars"
+      ],
+      "value": "Straightness (%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control"
+      ],
+      "value": "63"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control"
+      ],
+      "value": "64"
+    },
+    {
+      "row": [],
+      "col": [
+        "Experimental"
+      ],
+      "value": "94"
+    },
+    {
+      "row": [],
+      "col": [
+        "Experimental"
+      ],
+      "value": "76"
+    },
+    {
+      "row": [],
+      "col": [
+        "Particulars"
+      ],
+      "value": "Linearity (%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control"
+      ],
+      "value": "37"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control"
+      ],
+      "value": "46"
+    },
+    {
+      "row": [],
+      "col": [
+        "Experimental"
+      ],
+      "value": "74"
+    },
+    {
+      "row": [],
+      "col": [
+        "Experimental"
+      ],
+      "value": "76"
+    }
+  ]
+}

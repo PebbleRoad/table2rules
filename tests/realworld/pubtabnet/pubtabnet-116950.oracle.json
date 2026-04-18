@@ -1,0 +1,452 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0.001",
+    "0.140",
+    "1",
+    "10",
+    "100",
+    "12",
+    "14",
+    "17",
+    "20",
+    "20.828",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "3",
+    "3.836",
+    "36",
+    "39",
+    "4",
+    "48",
+    "5",
+    "63",
+    "7",
+    "73",
+    "8",
+    "9",
+    "Chinese",
+    "Female",
+    "Group",
+    "Hypertensives",
+    "Indian",
+    "M",
+    "Malay",
+    "Male",
+    "Normotensives",
+    "P * value",
+    "T",
+    "Total",
+    "\u03c7 2 value"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Group"
+      ],
+      "value": "Hypertensives"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group"
+      ],
+      "value": "Malay"
+    },
+    {
+      "row": [],
+      "col": [
+        "Male",
+        "M"
+      ],
+      "value": "28"
+    },
+    {
+      "row": [],
+      "col": [
+        "Male",
+        "T"
+      ],
+      "value": "14"
+    },
+    {
+      "row": [],
+      "col": [
+        "Female",
+        "M"
+      ],
+      "value": "36"
+    },
+    {
+      "row": [],
+      "col": [
+        "Female",
+        "T"
+      ],
+      "value": "26"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group"
+      ],
+      "value": "Chinese"
+    },
+    {
+      "row": [],
+      "col": [
+        "Male",
+        "M"
+      ],
+      "value": "10"
+    },
+    {
+      "row": [],
+      "col": [
+        "Male",
+        "T"
+      ],
+      "value": "10"
+    },
+    {
+      "row": [],
+      "col": [
+        "Female",
+        "M"
+      ],
+      "value": "28"
+    },
+    {
+      "row": [],
+      "col": [
+        "Female",
+        "T"
+      ],
+      "value": "20"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group"
+      ],
+      "value": "Indian"
+    },
+    {
+      "row": [],
+      "col": [
+        "Male",
+        "M"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Male",
+        "T"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Female",
+        "M"
+      ],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Female",
+        "T"
+      ],
+      "value": "17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group"
+      ],
+      "value": "Total"
+    },
+    {
+      "row": [],
+      "col": [
+        "Male",
+        "M"
+      ],
+      "value": "39"
+    },
+    {
+      "row": [],
+      "col": [
+        "Male",
+        "T"
+      ],
+      "value": "27"
+    },
+    {
+      "row": [],
+      "col": [
+        "Female",
+        "M"
+      ],
+      "value": "73"
+    },
+    {
+      "row": [],
+      "col": [
+        "Female",
+        "T"
+      ],
+      "value": "63"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group"
+      ],
+      "value": "Normotensives"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group"
+      ],
+      "value": "Malay"
+    },
+    {
+      "row": [],
+      "col": [
+        "Male",
+        "M"
+      ],
+      "value": "25"
+    },
+    {
+      "row": [],
+      "col": [
+        "Male",
+        "T"
+      ],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Female",
+        "M"
+      ],
+      "value": "48"
+    },
+    {
+      "row": [],
+      "col": [
+        "Female",
+        "T"
+      ],
+      "value": "12"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group"
+      ],
+      "value": "Chinese"
+    },
+    {
+      "row": [],
+      "col": [
+        "Male",
+        "M"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Male",
+        "T"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Female",
+        "M"
+      ],
+      "value": "28"
+    },
+    {
+      "row": [],
+      "col": [
+        "Female",
+        "T"
+      ],
+      "value": "8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group"
+      ],
+      "value": "Indian"
+    },
+    {
+      "row": [],
+      "col": [
+        "Male",
+        "M"
+      ],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Male",
+        "T"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Female",
+        "M"
+      ],
+      "value": "24"
+    },
+    {
+      "row": [],
+      "col": [
+        "Female",
+        "T"
+      ],
+      "value": "8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group"
+      ],
+      "value": "Total"
+    },
+    {
+      "row": [],
+      "col": [
+        "Male",
+        "M"
+      ],
+      "value": "36"
+    },
+    {
+      "row": [],
+      "col": [
+        "Male",
+        "T"
+      ],
+      "value": "10"
+    },
+    {
+      "row": [],
+      "col": [
+        "Female",
+        "M"
+      ],
+      "value": "100"
+    },
+    {
+      "row": [],
+      "col": [
+        "Female",
+        "T"
+      ],
+      "value": "28"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group"
+      ],
+      "value": "\u03c7 2 value"
+    },
+    {
+      "row": [],
+      "col": [
+        "Male",
+        "M"
+      ],
+      "value": "3.836"
+    },
+    {
+      "row": [],
+      "col": [
+        "Male",
+        "T"
+      ],
+      "value": "3.836"
+    },
+    {
+      "row": [],
+      "col": [
+        "Female",
+        "M"
+      ],
+      "value": "20.828"
+    },
+    {
+      "row": [],
+      "col": [
+        "Female",
+        "T"
+      ],
+      "value": "20.828"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group"
+      ],
+      "value": "P * value"
+    },
+    {
+      "row": [],
+      "col": [
+        "Male",
+        "M"
+      ],
+      "value": "0.140"
+    },
+    {
+      "row": [],
+      "col": [
+        "Male",
+        "T"
+      ],
+      "value": "0.140"
+    },
+    {
+      "row": [],
+      "col": [
+        "Female",
+        "M"
+      ],
+      "value": "0.001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Female",
+        "T"
+      ],
+      "value": "0.001"
+    }
+  ]
+}

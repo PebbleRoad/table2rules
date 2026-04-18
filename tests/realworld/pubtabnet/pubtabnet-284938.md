@@ -1,0 +1,226 @@
+<!-- source: PubTabNet imgid=284938 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td colspan="2">
+<b>
+       Direct sequencing
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td>
+<b>
+       Positive
+      </b>
+</td>
+<td>
+<b>
+       Negative
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="4">
+      Primerset 3/4
+     </td>
+</tr>
+<tr>
+<td>
+      SSCP
+     </td>
+<td>
+      Positive
+     </td>
+<td>
+      0
+     </td>
+<td>
+      5
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      Negative
+     </td>
+<td>
+      0
+     </td>
+<td>
+      15
+     </td>
+</tr>
+<tr>
+<td colspan="4">
+      Primerset 5/6
+     </td>
+</tr>
+<tr>
+<td>
+      SSCP
+     </td>
+<td>
+      Positive
+     </td>
+<td>
+      2
+     </td>
+<td>
+      0
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      Negative
+     </td>
+<td>
+      0
+     </td>
+<td>
+      18
+     </td>
+</tr>
+<tr>
+<td colspan="4">
+      Primerset 7/8
+     </td>
+</tr>
+<tr>
+<td>
+      SSCP
+     </td>
+<td>
+      Positive
+     </td>
+<td>
+      4
+     </td>
+<td>
+      2
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      Negative
+     </td>
+<td>
+      0
+     </td>
+<td>
+      14
+     </td>
+</tr>
+<tr>
+<td colspan="4">
+      Primerset 9/10
+     </td>
+</tr>
+<tr>
+<td>
+      SSCP
+     </td>
+<td>
+      Positive
+     </td>
+<td>
+      3
+     </td>
+<td>
+      0
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      Negative
+     </td>
+<td>
+      0
+     </td>
+<td>
+      17
+     </td>
+</tr>
+<tr>
+<td colspan="4">
+      Primerset 11/12
+     </td>
+</tr>
+<tr>
+<td>
+      SSCP
+     </td>
+<td>
+      Positive
+     </td>
+<td>
+      4
+     </td>
+<td>
+      1
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      Negative
+     </td>
+<td>
+      0
+     </td>
+<td>
+      15
+     </td>
+</tr>
+<tr>
+<td colspan="4">
+      Primerset 13/14
+     </td>
+</tr>
+<tr>
+<td>
+      SSCP
+     </td>
+<td>
+      Positive
+     </td>
+<td>
+      2
+     </td>
+<td>
+      0
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      Negative
+     </td>
+<td>
+      0
+     </td>
+<td>
+      18
+     </td>
+</tr>
+</tbody>
+</table>

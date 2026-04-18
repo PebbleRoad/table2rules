@@ -1,0 +1,402 @@
+<!-- source: PubTabNet imgid=358373 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td colspan="4">
+<b>
+       Premature Mortality
+      </b>
+</td>
+<td colspan="3">
+<b>
+       Disability
+      </b>
+</td>
+<td colspan="3">
+<b>
+       Disease Burden
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<b>
+       Rank
+      </b>
+</td>
+<td>
+<b>
+       Disease/ injury
+      </b>
+</td>
+<td>
+<b>
+       YLLs (000s)
+      </b>
+</td>
+<td>
+<b>
+       Cumulative %
+      </b>
+</td>
+<td>
+<b>
+       Disease/injury
+      </b>
+</td>
+<td>
+<b>
+       YLDs (000s)
+      </b>
+</td>
+<td>
+<b>
+       Cumulative%
+      </b>
+</td>
+<td>
+<b>
+       Disease/injury
+      </b>
+</td>
+<td>
+<b>
+       DALYs (000s)
+      </b>
+</td>
+<td>
+<b>
+       % of Total
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+      1
+     </td>
+<td>
+      Lower res. inf.
+     </td>
+<td>
+      108601
+     </td>
+<td>
+      12.0
+     </td>
+<td>
+      Depression
+     </td>
+<td>
+      50810
+     </td>
+<td>
+      10.7
+     </td>
+<td>
+      Lower res. inf.
+     </td>
+<td>
+      112898
+     </td>
+<td>
+      8.2
+     </td>
+</tr>
+<tr>
+<td>
+      2
+     </td>
+<td>
+      Diarrhoeal dis.
+     </td>
+<td>
+      94434
+     </td>
+<td>
+      22.4
+     </td>
+<td>
+      Iron def. anaem.
+     </td>
+<td>
+      21987
+     </td>
+<td>
+      15.4
+     </td>
+<td>
+      Diarrhoeal dis.
+     </td>
+<td>
+      99633
+     </td>
+<td>
+      7.2
+     </td>
+</tr>
+<tr>
+<td>
+      3
+     </td>
+<td>
+      Perinatal cond.
+     </td>
+<td>
+      82681
+     </td>
+<td>
+      31.5
+     </td>
+<td>
+      Falls
+     </td>
+<td>
+      21949
+     </td>
+<td>
+      20.0
+     </td>
+<td>
+      Perinatal cond.
+     </td>
+<td>
+      92313
+     </td>
+<td>
+      6.7
+     </td>
+</tr>
+<tr>
+<td>
+      4
+     </td>
+<td>
+      Isch. heart dis.
+     </td>
+<td>
+      41595
+     </td>
+<td>
+      36.1
+     </td>
+<td>
+      Alcohol use
+     </td>
+<td>
+      15770
+     </td>
+<td>
+      23.4
+     </td>
+<td>
+      Depression
+     </td>
+<td>
+      50810
+     </td>
+<td>
+      3.7
+     </td>
+</tr>
+<tr>
+<td>
+      5
+     </td>
+<td>
+      Measles
+     </td>
+<td>
+      36450
+     </td>
+<td>
+      40.1
+     </td>
+<td>
+      COPD
+      <sup>
+       1
+      </sup>
+</td>
+<td>
+      14692
+     </td>
+<td>
+      26.5
+     </td>
+<td>
+      Isch. heart dis.
+     </td>
+<td>
+      46699
+     </td>
+<td>
+      3.4
+     </td>
+</tr>
+<tr>
+<td>
+      6
+     </td>
+<td>
+      Tuberculosis
+     </td>
+<td>
+      34304
+     </td>
+<td>
+      43.9
+     </td>
+<td>
+      Bipolar dis.
+     </td>
+<td>
+      14141
+     </td>
+<td>
+      29.5
+     </td>
+<td>
+      Cerebrovas. dis.
+     </td>
+<td>
+      38523
+     </td>
+<td>
+      2.8
+     </td>
+</tr>
+<tr>
+<td>
+      7
+     </td>
+<td>
+      Cerebrovas. Dis.
+     </td>
+<td>
+      32115
+     </td>
+<td>
+      47.5
+     </td>
+<td>
+      Congenital anom
+     </td>
+<td>
+      13507
+     </td>
+<td>
+      32.3
+     </td>
+<td>
+      Tuberculosis
+     </td>
+<td>
+      38426
+     </td>
+<td>
+      2.8
+     </td>
+</tr>
+<tr>
+<td>
+      8
+     </td>
+<td>
+      Malaria
+     </td>
+<td>
+      28038
+     </td>
+<td>
+      50.5
+     </td>
+<td>
+      Osteoarthritis
+     </td>
+<td>
+      13275
+     </td>
+<td>
+      35.1
+     </td>
+<td>
+      Measles
+     </td>
+<td>
+      36520
+     </td>
+<td>
+      2.7
+     </td>
+</tr>
+<tr>
+<td>
+      9
+     </td>
+<td>
+      Road traffic acc.
+     </td>
+<td>
+      26162
+     </td>
+<td>
+      53.4
+     </td>
+<td>
+      Schizophrenia
+     </td>
+<td>
+      12183
+     </td>
+<td>
+      37.7
+     </td>
+<td>
+      Road traffic acc.
+     </td>
+<td>
+      34317
+     </td>
+<td>
+      2.5
+     </td>
+</tr>
+<tr>
+<td>
+      10
+     </td>
+<td>
+      Congenital anom.
+     </td>
+<td>
+      19414
+     </td>
+<td>
+      55.6
+     </td>
+<td>
+      Obs.-comp dis
+      <sup>
+       2
+      </sup>
+</td>
+<td>
+      10213
+     </td>
+<td>
+      39.9
+     </td>
+<td>
+      Congenital anom.
+     </td>
+<td>
+      32921
+     </td>
+<td>
+      2.4
+     </td>
+</tr>
+</tbody>
+</table>

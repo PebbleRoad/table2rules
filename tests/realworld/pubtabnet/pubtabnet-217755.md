@@ -1,0 +1,193 @@
+<!-- source: PubTabNet imgid=217755 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+<b>
+       Particulars
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Control
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Experimental
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+</td>
+<td>
+      I
+     </td>
+<td>
+      II
+     </td>
+<td>
+      I
+     </td>
+<td>
+      II
+     </td>
+</tr>
+<tr>
+<td>
+      Motile (%)
+     </td>
+<td>
+      100
+     </td>
+<td>
+      100
+     </td>
+<td>
+      9
+     </td>
+<td>
+      7
+     </td>
+</tr>
+<tr>
+<td>
+      Progressive (%)
+     </td>
+<td>
+      100
+     </td>
+<td>
+      75
+     </td>
+<td>
+      0
+     </td>
+<td>
+      0
+     </td>
+</tr>
+<tr>
+<td>
+      Path velocity (μm/s)
+     </td>
+<td>
+      53.2
+     </td>
+<td>
+      48.8
+     </td>
+<td>
+      26.4
+     </td>
+<td>
+      34
+     </td>
+</tr>
+<tr>
+<td>
+      Progressive velocity (μm/s)
+     </td>
+<td>
+      34.2
+     </td>
+<td>
+      36.1
+     </td>
+<td>
+      24.7
+     </td>
+<td>
+      27.9
+     </td>
+</tr>
+<tr>
+<td>
+      Track speed (μm/s)
+     </td>
+<td>
+      101.7
+     </td>
+<td>
+      85.1
+     </td>
+<td>
+      33.3
+     </td>
+<td>
+      41.2
+     </td>
+</tr>
+<tr>
+<td>
+      Lateral amplitude (μm)
+     </td>
+<td>
+      10.2
+     </td>
+<td>
+      8.0
+     </td>
+<td>
+      0
+     </td>
+<td>
+      0
+     </td>
+</tr>
+<tr>
+<td>
+      Beat frequency (Hz)
+     </td>
+<td>
+      24.8
+     </td>
+<td>
+      19.9
+     </td>
+<td>
+      0
+     </td>
+<td>
+      0
+     </td>
+</tr>
+<tr>
+<td>
+      Straightness (%)
+     </td>
+<td>
+      63
+     </td>
+<td>
+      64
+     </td>
+<td>
+      94
+     </td>
+<td>
+      76
+     </td>
+</tr>
+<tr>
+<td>
+      Linearity (%)
+     </td>
+<td>
+      37
+     </td>
+<td>
+      46
+     </td>
+<td>
+      74
+     </td>
+<td>
+      76
+     </td>
+</tr>
+</tbody>
+</table>

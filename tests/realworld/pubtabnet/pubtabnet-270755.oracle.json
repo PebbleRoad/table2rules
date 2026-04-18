@@ -1,0 +1,665 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0",
+    "1",
+    "1,183,000",
+    "10",
+    "11",
+    "112,000",
+    "12",
+    "14",
+    "143,000",
+    "145,000",
+    "15",
+    "16",
+    "17",
+    "18",
+    "187,000",
+    "19",
+    "218,000",
+    "22",
+    "23",
+    "25",
+    "26",
+    "260,000",
+    "27",
+    "28",
+    "3",
+    "32",
+    "349,000",
+    "355,000",
+    "38",
+    "39",
+    "40",
+    "48",
+    "5",
+    "50",
+    "52",
+    "55",
+    "57",
+    "584,000",
+    "6",
+    "60",
+    "70",
+    "72,000",
+    "8",
+    "9",
+    "A",
+    "Average",
+    "B",
+    "C",
+    "D",
+    "E",
+    "External aid",
+    "F",
+    "G",
+    "Government subsidies",
+    "H",
+    "Hospital",
+    "I",
+    "J",
+    "Other sources",
+    "Percentage from:",
+    "Total revenues ($)",
+    "User fees (inpatients)",
+    "User fees (outpatients)"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Hospital"
+      ],
+      "value": "A"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total revenues ($)"
+      ],
+      "value": "187,000"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage from:",
+        "User fees (outpatients)"
+      ],
+      "value": "8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage from:",
+        "User fees (inpatients)"
+      ],
+      "value": "11"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage from:",
+        "Government subsidies"
+      ],
+      "value": "18"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage from:",
+        "External aid"
+      ],
+      "value": "40"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage from:",
+        "Other sources"
+      ],
+      "value": "22"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hospital"
+      ],
+      "value": "B"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total revenues ($)"
+      ],
+      "value": "260,000"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage from:",
+        "User fees (outpatients)"
+      ],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage from:",
+        "User fees (inpatients)"
+      ],
+      "value": "12"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage from:",
+        "Government subsidies"
+      ],
+      "value": "16"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage from:",
+        "External aid"
+      ],
+      "value": "18"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage from:",
+        "Other sources"
+      ],
+      "value": "48"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hospital"
+      ],
+      "value": "C"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total revenues ($)"
+      ],
+      "value": "355,000"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage from:",
+        "User fees (outpatients)"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage from:",
+        "User fees (inpatients)"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage from:",
+        "Government subsidies"
+      ],
+      "value": "8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage from:",
+        "External aid"
+      ],
+      "value": "70"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage from:",
+        "Other sources"
+      ],
+      "value": "17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hospital"
+      ],
+      "value": "D"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total revenues ($)"
+      ],
+      "value": "584,000"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage from:",
+        "User fees (outpatients)"
+      ],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage from:",
+        "User fees (inpatients)"
+      ],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage from:",
+        "Government subsidies"
+      ],
+      "value": "14"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage from:",
+        "External aid"
+      ],
+      "value": "23"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage from:",
+        "Other sources"
+      ],
+      "value": "52"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hospital"
+      ],
+      "value": "E"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total revenues ($)"
+      ],
+      "value": "1,183,000"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage from:",
+        "User fees (outpatients)"
+      ],
+      "value": "27"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage from:",
+        "User fees (inpatients)"
+      ],
+      "value": "38"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage from:",
+        "Government subsidies"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage from:",
+        "External aid"
+      ],
+      "value": "25"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage from:",
+        "Other sources"
+      ],
+      "value": "8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hospital"
+      ],
+      "value": "F"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total revenues ($)"
+      ],
+      "value": "72,000"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage from:",
+        "User fees (outpatients)"
+      ],
+      "value": "17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage from:",
+        "User fees (inpatients)"
+      ],
+      "value": "57"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage from:",
+        "Government subsidies"
+      ],
+      "value": "25"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage from:",
+        "External aid"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage from:",
+        "Other sources"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hospital"
+      ],
+      "value": "G"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total revenues ($)"
+      ],
+      "value": "112,000"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage from:",
+        "User fees (outpatients)"
+      ],
+      "value": "39"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage from:",
+        "User fees (inpatients)"
+      ],
+      "value": "50"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage from:",
+        "Government subsidies"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage from:",
+        "External aid"
+      ],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage from:",
+        "Other sources"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hospital"
+      ],
+      "value": "H"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total revenues ($)"
+      ],
+      "value": "143,000"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage from:",
+        "User fees (outpatients)"
+      ],
+      "value": "14"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage from:",
+        "User fees (inpatients)"
+      ],
+      "value": "15"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage from:",
+        "Government subsidies"
+      ],
+      "value": "26"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage from:",
+        "External aid"
+      ],
+      "value": "32"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage from:",
+        "Other sources"
+      ],
+      "value": "14"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hospital"
+      ],
+      "value": "I"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total revenues ($)"
+      ],
+      "value": "218,000"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage from:",
+        "User fees (outpatients)"
+      ],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage from:",
+        "User fees (inpatients)"
+      ],
+      "value": "60"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage from:",
+        "Government subsidies"
+      ],
+      "value": "12"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage from:",
+        "External aid"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage from:",
+        "Other sources"
+      ],
+      "value": "19"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hospital"
+      ],
+      "value": "J"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total revenues ($)"
+      ],
+      "value": "145,000"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage from:",
+        "User fees (outpatients)"
+      ],
+      "value": "23"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage from:",
+        "User fees (inpatients)"
+      ],
+      "value": "55"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage from:",
+        "Government subsidies"
+      ],
+      "value": "18"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage from:",
+        "External aid"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage from:",
+        "Other sources"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hospital"
+      ],
+      "value": "Average"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total revenues ($)"
+      ],
+      "value": "349,000"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage from:",
+        "User fees (outpatients)"
+      ],
+      "value": "15"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage from:",
+        "User fees (inpatients)"
+      ],
+      "value": "25"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage from:",
+        "Government subsidies"
+      ],
+      "value": "10"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage from:",
+        "External aid"
+      ],
+      "value": "28"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage from:",
+        "Other sources"
+      ],
+      "value": "22"
+    }
+  ]
+}

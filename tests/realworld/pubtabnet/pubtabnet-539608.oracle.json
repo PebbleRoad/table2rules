@@ -1,0 +1,1042 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "-",
+    "10 \u00b1 1*",
+    "10 \u00b1 2*",
+    "11 \u00b1 0 b",
+    "12 \u00b1 1*",
+    "14 \u00b1 2",
+    "15 days",
+    "15 \u00b1 3",
+    "16 \u00b1 2*",
+    "16 \u00b1 3",
+    "18 \u00b1 3",
+    "19 \u00b1 2",
+    "19 \u00b1 2*",
+    "19 \u00b1 3",
+    "19 \u00b1 4",
+    "20 \u00b1 3",
+    "20 \u00b1 4",
+    "21 \u00b1 3",
+    "21 \u00b1 4",
+    "22 \u00b1 3",
+    "24 \u00b1 4",
+    "25 \u00b1 2*",
+    "27 \u00b1 3",
+    "29 \u00b1 3",
+    "3 days",
+    "3 \u00b1 0",
+    "3 \u00b1 0*",
+    "30 days",
+    "30 \u00b1 3",
+    "31 \u00b1 2",
+    "31 \u00b1 4",
+    "32 \u00b1 3",
+    "35 \u00b1 3",
+    "39 \u00b1 7 \u2020",
+    "4 \u00b1 0",
+    "4 \u00b1 0*",
+    "42 \u00b1 5 \u2020",
+    "6 days",
+    "6 \u00b1 0",
+    "6 \u00b1 1*",
+    "60 days",
+    "7 \u00b1 0",
+    "761 \u00b1 45*",
+    "781 \u00b1 42*",
+    "790 \u00b1 36*",
+    "8 \u00b1 0",
+    "801 \u00b1 36",
+    "802 \u00b1 26*",
+    "802 \u00b1 35",
+    "816 \u00b1 33",
+    "835 \u00b1 47",
+    "842 \u00b1 38",
+    "856 \u00b1 49",
+    "860 \u00b1 36",
+    "9 \u00b1 1*",
+    "90 days",
+    "903 \u00b1 40",
+    "After surgery",
+    "CABG",
+    "CAD",
+    "Group",
+    "Healthy",
+    "Mean R\u2013R (ms)",
+    "Preoperative",
+    "RMSSD (ms)",
+    "SDANN (ms)",
+    "SDNN (ms)",
+    "Variable",
+    "pNN50 (%)"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Variable"
+      ],
+      "value": "Mean R\u2013R (ms)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group"
+      ],
+      "value": "CABG"
+    },
+    {
+      "row": [],
+      "col": [
+        "Preoperative"
+      ],
+      "value": "903 \u00b1 40"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "3 days"
+      ],
+      "value": "761 \u00b1 45*"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "6 days"
+      ],
+      "value": "781 \u00b1 42*"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "15 days"
+      ],
+      "value": "790 \u00b1 36*"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "30 days"
+      ],
+      "value": "802 \u00b1 26*"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "60 days"
+      ],
+      "value": "801 \u00b1 36"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "90 days"
+      ],
+      "value": "802 \u00b1 35"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group"
+      ],
+      "value": "CAD"
+    },
+    {
+      "row": [],
+      "col": [
+        "Preoperative"
+      ],
+      "value": "856 \u00b1 49"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "3 days"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "6 days"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "15 days"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "30 days"
+      ],
+      "value": "842 \u00b1 38"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "60 days"
+      ],
+      "value": "816 \u00b1 33"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "90 days"
+      ],
+      "value": "835 \u00b1 47"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group"
+      ],
+      "value": "Healthy"
+    },
+    {
+      "row": [],
+      "col": [
+        "Preoperative"
+      ],
+      "value": "860 \u00b1 36"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "3 days"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "6 days"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "15 days"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "30 days"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "60 days"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "90 days"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variable"
+      ],
+      "value": "SDNN (ms)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group"
+      ],
+      "value": "CABG"
+    },
+    {
+      "row": [],
+      "col": [
+        "Preoperative"
+      ],
+      "value": "35 \u00b1 3"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "3 days"
+      ],
+      "value": "16 \u00b1 2*"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "6 days"
+      ],
+      "value": "16 \u00b1 2*"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "15 days"
+      ],
+      "value": "19 \u00b1 2*"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "30 days"
+      ],
+      "value": "25 \u00b1 2*"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "60 days"
+      ],
+      "value": "32 \u00b1 3"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "90 days"
+      ],
+      "value": "27 \u00b1 3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group"
+      ],
+      "value": "CAD"
+    },
+    {
+      "row": [],
+      "col": [
+        "Preoperative"
+      ],
+      "value": "31 \u00b1 4"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "3 days"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "6 days"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "15 days"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "30 days"
+      ],
+      "value": "29 \u00b1 3"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "60 days"
+      ],
+      "value": "30 \u00b1 3"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "90 days"
+      ],
+      "value": "31 \u00b1 2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group"
+      ],
+      "value": "Healthy"
+    },
+    {
+      "row": [],
+      "col": [
+        "Preoperative"
+      ],
+      "value": "42 \u00b1 5 \u2020"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "3 days"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "6 days"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "15 days"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "30 days"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "60 days"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "90 days"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variable"
+      ],
+      "value": "SDANN (ms)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group"
+      ],
+      "value": "CABG"
+    },
+    {
+      "row": [],
+      "col": [
+        "Preoperative"
+      ],
+      "value": "16 \u00b1 3"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "3 days"
+      ],
+      "value": "6 \u00b1 1*"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "6 days"
+      ],
+      "value": "6 \u00b1 1*"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "15 days"
+      ],
+      "value": "9 \u00b1 1*"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "30 days"
+      ],
+      "value": "15 \u00b1 3"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "60 days"
+      ],
+      "value": "18 \u00b1 3"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "90 days"
+      ],
+      "value": "14 \u00b1 2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group"
+      ],
+      "value": "CAD"
+    },
+    {
+      "row": [],
+      "col": [
+        "Preoperative"
+      ],
+      "value": "21 \u00b1 4"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "3 days"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "6 days"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "15 days"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "30 days"
+      ],
+      "value": "19 \u00b1 3"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "60 days"
+      ],
+      "value": "20 \u00b1 3"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "90 days"
+      ],
+      "value": "20 \u00b1 3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group"
+      ],
+      "value": "Healthy"
+    },
+    {
+      "row": [],
+      "col": [
+        "Preoperative"
+      ],
+      "value": "39 \u00b1 7 \u2020"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "3 days"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "6 days"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "15 days"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "30 days"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "60 days"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "90 days"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variable"
+      ],
+      "value": "RMSSD (ms)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group"
+      ],
+      "value": "CABG"
+    },
+    {
+      "row": [],
+      "col": [
+        "Preoperative"
+      ],
+      "value": "24 \u00b1 4"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "3 days"
+      ],
+      "value": "10 \u00b1 2*"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "6 days"
+      ],
+      "value": "10 \u00b1 1*"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "15 days"
+      ],
+      "value": "12 \u00b1 1*"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "30 days"
+      ],
+      "value": "19 \u00b1 4"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "60 days"
+      ],
+      "value": "21 \u00b1 3"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "90 days"
+      ],
+      "value": "19 \u00b1 2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group"
+      ],
+      "value": "CAD"
+    },
+    {
+      "row": [],
+      "col": [
+        "Preoperative"
+      ],
+      "value": "22 \u00b1 3"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "3 days"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "6 days"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "15 days"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "30 days"
+      ],
+      "value": "18 \u00b1 3"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "60 days"
+      ],
+      "value": "19 \u00b1 2"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "90 days"
+      ],
+      "value": "20 \u00b1 4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group"
+      ],
+      "value": "Healthy"
+    },
+    {
+      "row": [],
+      "col": [
+        "Preoperative"
+      ],
+      "value": "27 \u00b1 3"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "3 days"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "6 days"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "15 days"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "30 days"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "60 days"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "90 days"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variable"
+      ],
+      "value": "pNN50 (%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group"
+      ],
+      "value": "CABG"
+    },
+    {
+      "row": [],
+      "col": [
+        "Preoperative"
+      ],
+      "value": "8 \u00b1 0"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "3 days"
+      ],
+      "value": "3 \u00b1 0*"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "6 days"
+      ],
+      "value": "3 \u00b1 0*"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "15 days"
+      ],
+      "value": "3 \u00b1 0*"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "30 days"
+      ],
+      "value": "4 \u00b1 0*"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "60 days"
+      ],
+      "value": "7 \u00b1 0"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "90 days"
+      ],
+      "value": "6 \u00b1 0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group"
+      ],
+      "value": "CAD"
+    },
+    {
+      "row": [],
+      "col": [
+        "Preoperative"
+      ],
+      "value": "4 \u00b1 0"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "3 days"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "6 days"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "15 days"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "30 days"
+      ],
+      "value": "3 \u00b1 0"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "60 days"
+      ],
+      "value": "4 \u00b1 0"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "90 days"
+      ],
+      "value": "3 \u00b1 0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group"
+      ],
+      "value": "Healthy"
+    },
+    {
+      "row": [],
+      "col": [
+        "Preoperative"
+      ],
+      "value": "11 \u00b1 0 b"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "3 days"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "6 days"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "15 days"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "30 days"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "60 days"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "After surgery",
+        "90 days"
+      ],
+      "value": "-"
+    }
+  ]
+}

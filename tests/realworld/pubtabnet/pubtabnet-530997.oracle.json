@@ -1,0 +1,380 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0",
+    "1",
+    "1.49",
+    "10",
+    "16",
+    "172",
+    "203",
+    "21,395",
+    "210",
+    "271",
+    "289",
+    "291",
+    "2967",
+    "3",
+    "37",
+    "4.03",
+    "4.79",
+    "463",
+    "5",
+    "5.06",
+    "564",
+    "6",
+    "640",
+    "648",
+    "73",
+    "78",
+    "896",
+    "A",
+    "ARIA [18]",
+    "Admitted patients (in 2002)",
+    "Available beds",
+    "B",
+    "C",
+    "Distance to (km):",
+    "Division Teaching Hospital",
+    "Location",
+    "Medical staff [FTE]",
+    "Metropolitan Capital",
+    "N/A",
+    "Nearest Pilot Study Location",
+    "Public Hospital Facilities (2002 -3) [24]",
+    "RRMA [18]",
+    "Visiting medical staff [FTE]"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Distance to (km):"
+      ],
+      "value": "Division Teaching Hospital"
+    },
+    {
+      "row": [],
+      "col": [
+        "Distance to (km):"
+      ],
+      "value": "Metropolitan Capital"
+    },
+    {
+      "row": [],
+      "col": [
+        "Distance to (km):"
+      ],
+      "value": "Nearest Pilot Study Location"
+    },
+    {
+      "row": [],
+      "col": [
+        "Public Hospital Facilities (2002 -3) [24]"
+      ],
+      "value": "Available beds"
+    },
+    {
+      "row": [],
+      "col": [
+        "Public Hospital Facilities (2002 -3) [24]"
+      ],
+      "value": "Medical staff [FTE]"
+    },
+    {
+      "row": [],
+      "col": [
+        "Public Hospital Facilities (2002 -3) [24]"
+      ],
+      "value": "Visiting medical staff [FTE]"
+    },
+    {
+      "row": [],
+      "col": [
+        "Public Hospital Facilities (2002 -3) [24]"
+      ],
+      "value": "Admitted patients (in 2002)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Location"
+      ],
+      "value": "A"
+    },
+    {
+      "row": [],
+      "col": [
+        "RRMA [18]"
+      ],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [
+        "ARIA [18]"
+      ],
+      "value": "4.03"
+    },
+    {
+      "row": [],
+      "col": [
+        "Distance to (km):"
+      ],
+      "value": "172"
+    },
+    {
+      "row": [],
+      "col": [
+        "Distance to (km):"
+      ],
+      "value": "640"
+    },
+    {
+      "row": [],
+      "col": [
+        "Distance to (km):"
+      ],
+      "value": "78"
+    },
+    {
+      "row": [],
+      "col": [
+        "Public Hospital Facilities (2002 -3) [24]"
+      ],
+      "value": "10"
+    },
+    {
+      "row": [],
+      "col": [
+        "Public Hospital Facilities (2002 -3) [24]"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Public Hospital Facilities (2002 -3) [24]"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Public Hospital Facilities (2002 -3) [24]"
+      ],
+      "value": "463"
+    },
+    {
+      "row": [],
+      "col": [
+        "Location"
+      ],
+      "value": "B"
+    },
+    {
+      "row": [],
+      "col": [
+        "RRMA [18]"
+      ],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [
+        "ARIA [18]"
+      ],
+      "value": "4.79"
+    },
+    {
+      "row": [],
+      "col": [
+        "Distance to (km):"
+      ],
+      "value": "210"
+    },
+    {
+      "row": [],
+      "col": [
+        "Distance to (km):"
+      ],
+      "value": "564"
+    },
+    {
+      "row": [],
+      "col": [
+        "Distance to (km):"
+      ],
+      "value": "78"
+    },
+    {
+      "row": [],
+      "col": [
+        "Public Hospital Facilities (2002 -3) [24]"
+      ],
+      "value": "10"
+    },
+    {
+      "row": [],
+      "col": [
+        "Public Hospital Facilities (2002 -3) [24]"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Public Hospital Facilities (2002 -3) [24]"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Public Hospital Facilities (2002 -3) [24]"
+      ],
+      "value": "291"
+    },
+    {
+      "row": [],
+      "col": [
+        "Location"
+      ],
+      "value": "C"
+    },
+    {
+      "row": [],
+      "col": [
+        "RRMA [18]"
+      ],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [
+        "ARIA [18]"
+      ],
+      "value": "5.06"
+    },
+    {
+      "row": [],
+      "col": [
+        "Distance to (km):"
+      ],
+      "value": "271"
+    },
+    {
+      "row": [],
+      "col": [
+        "Distance to (km):"
+      ],
+      "value": "896"
+    },
+    {
+      "row": [],
+      "col": [
+        "Distance to (km):"
+      ],
+      "value": "289"
+    },
+    {
+      "row": [],
+      "col": [
+        "Public Hospital Facilities (2002 -3) [24]"
+      ],
+      "value": "37"
+    },
+    {
+      "row": [],
+      "col": [
+        "Public Hospital Facilities (2002 -3) [24]"
+      ],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Public Hospital Facilities (2002 -3) [24]"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Public Hospital Facilities (2002 -3) [24]"
+      ],
+      "value": "2967"
+    },
+    {
+      "row": [],
+      "col": [
+        "Location"
+      ],
+      "value": "Division Teaching Hospital"
+    },
+    {
+      "row": [],
+      "col": [
+        "RRMA [18]"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "ARIA [18]"
+      ],
+      "value": "1.49"
+    },
+    {
+      "row": [],
+      "col": [
+        "Distance to (km):"
+      ],
+      "value": "N/A"
+    },
+    {
+      "row": [],
+      "col": [
+        "Distance to (km):"
+      ],
+      "value": "648"
+    },
+    {
+      "row": [],
+      "col": [
+        "Distance to (km):"
+      ],
+      "value": "172"
+    },
+    {
+      "row": [],
+      "col": [
+        "Public Hospital Facilities (2002 -3) [24]"
+      ],
+      "value": "203"
+    },
+    {
+      "row": [],
+      "col": [
+        "Public Hospital Facilities (2002 -3) [24]"
+      ],
+      "value": "73"
+    },
+    {
+      "row": [],
+      "col": [
+        "Public Hospital Facilities (2002 -3) [24]"
+      ],
+      "value": "16"
+    },
+    {
+      "row": [],
+      "col": [
+        "Public Hospital Facilities (2002 -3) [24]"
+      ],
+      "value": "21,395"
+    }
+  ]
+}

@@ -1,0 +1,614 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "+",
+    "-",
+    "100",
+    "150",
+    "50",
+    "75",
+    "DAPK",
+    "ER",
+    "FHIT",
+    "GSTp1",
+    "Gene",
+    "M",
+    "MGMT",
+    "No",
+    "Post-treat",
+    "Pre-treat",
+    "Re-expression",
+    "U",
+    "Yes",
+    "Yes/No",
+    "dose level"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Gene"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "dose level"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pre-treat"
+      ],
+      "value": "M"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pre-treat"
+      ],
+      "value": "U"
+    },
+    {
+      "row": [],
+      "col": [
+        "Post-treat"
+      ],
+      "value": "M"
+    },
+    {
+      "row": [],
+      "col": [
+        "Post-treat"
+      ],
+      "value": "U"
+    },
+    {
+      "row": [],
+      "col": [
+        "Re-expression"
+      ],
+      "value": "Yes/No"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "DAPK"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "50"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pre-treat"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pre-treat"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Post-treat"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Post-treat"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Re-expression"
+      ],
+      "value": "No"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "DAPK"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "50"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pre-treat"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pre-treat"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Post-treat"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Post-treat"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Re-expression"
+      ],
+      "value": "No"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "GSTp1"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "50"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pre-treat"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pre-treat"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Post-treat"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Post-treat"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Re-expression"
+      ],
+      "value": "No"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "FHIT"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "100"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pre-treat"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pre-treat"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Post-treat"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Post-treat"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Re-expression"
+      ],
+      "value": "Yes"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "FHIT"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "150"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pre-treat"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pre-treat"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Post-treat"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Post-treat"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Re-expression"
+      ],
+      "value": "Yes"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "MGMT"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "75"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pre-treat"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pre-treat"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Post-treat"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Post-treat"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Re-expression"
+      ],
+      "value": "Yes"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "MGMT"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "150"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pre-treat"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pre-treat"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Post-treat"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Post-treat"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Re-expression"
+      ],
+      "value": "Yes"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "GSTp1"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "50"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pre-treat"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pre-treat"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Post-treat"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Post-treat"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Re-expression"
+      ],
+      "value": "Yes"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "DAPK"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "75"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pre-treat"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pre-treat"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Post-treat"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Post-treat"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Re-expression"
+      ],
+      "value": "Yes"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "ER"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "75"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pre-treat"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pre-treat"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Post-treat"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Post-treat"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Re-expression"
+      ],
+      "value": "Yes"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "GSTp1"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "150"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pre-treat"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pre-treat"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Post-treat"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Post-treat"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Re-expression"
+      ],
+      "value": "Yes"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "GSTp1"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "75"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pre-treat"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pre-treat"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Post-treat"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Post-treat"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Re-expression"
+      ],
+      "value": "Yes"
+    }
+  ]
+}

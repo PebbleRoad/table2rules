@@ -1,0 +1,1027 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "(0.34\u20131.84)",
+    "(0.35\u20134.07)",
+    "(0.91\u201311.75)",
+    "(0\u20130.3)",
+    "(0\u20130.76)",
+    "(0\u20132,100)",
+    "(0\u201332)",
+    "(0\u2013528)",
+    "(0\u2013564)",
+    "(0\u201358)",
+    "(0\u2013707)",
+    "(0\u201374)",
+    "(0\u201386)",
+    "(1,870\u201322,797)",
+    "(11\u2013102)",
+    "(14\u201325)",
+    "(14\u201343)",
+    "(1\u201397)",
+    "(2,492\u20136,081)",
+    "(2,954\u201318,330)",
+    "(24\u20131,710)",
+    "(26\u201370)",
+    "(27\u2013161)",
+    "(28\u2013138)",
+    "(28\u201340)",
+    "(293\u20131,241)",
+    "(30\u20131,176)",
+    "(338\u20131,481)",
+    "(346\u20132,326)",
+    "(34\u20131,937)",
+    "(355\u20131,292)",
+    "(40\u201372)",
+    "(44\u20133,766)",
+    "(46\u2013277)",
+    "(7\u2013141)",
+    "0",
+    "0.001",
+    "0.002",
+    "0.004",
+    "0.007",
+    "0.008",
+    "0.010",
+    "0.014",
+    "0.016",
+    "0.031",
+    "0.042",
+    "0.062",
+    "0.078",
+    "0.09",
+    "0.156",
+    "0.2",
+    "0.40",
+    "1.04",
+    "10/11",
+    "110",
+    "111",
+    "136",
+    "138",
+    "18",
+    "2.00",
+    "22",
+    "26",
+    "301",
+    "31",
+    "32",
+    "34",
+    "4,754",
+    "4.2",
+    "4/11",
+    "4/6",
+    "436",
+    "456",
+    "469",
+    "48",
+    "488",
+    "4949",
+    "5/11",
+    "5/6",
+    "53",
+    "6.07",
+    "6/11",
+    "6/6",
+    "7/11",
+    "74",
+    "79",
+    "790",
+    "8,642",
+    "8/11",
+    "900",
+    "Control",
+    "GM-CSF (pg/ml)",
+    "IL-1\u03b2",
+    "IL-6 (pg/ml)",
+    "IL-8 (pg/ml)",
+    "MCP-1 (pg/ml)",
+    "MP (1\u00d7)",
+    "MP (3\u00d7)",
+    "MP-free synovial fluid",
+    "Mediator",
+    "N x / N t",
+    "P *",
+    "P \u2020",
+    "P \u2021",
+    "RANTES (pg/ml)",
+    "Unstimulated",
+    "VEGF (pg/ml)",
+    "higher",
+    "lower",
+    "sICAM-1 (ng/ml)"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Mediator"
+      ],
+      "value": "MCP-1 (pg/ml)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control",
+        "Unstimulated"
+      ],
+      "value": "456"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control",
+        "IL-1\u03b2"
+      ],
+      "value": "4,754"
+    },
+    {
+      "row": [],
+      "col": [
+        "P *"
+      ],
+      "value": "0.001"
+    },
+    {
+      "row": [],
+      "col": [
+        "MP-free synovial fluid"
+      ],
+      "value": "469"
+    },
+    {
+      "row": [],
+      "col": [
+        "MP (1\u00d7)"
+      ],
+      "value": "488"
+    },
+    {
+      "row": [],
+      "col": [
+        "N x / N t"
+      ],
+      "value": "6/11"
+    },
+    {
+      "row": [],
+      "col": [
+        "P \u2020"
+      ],
+      "value": "0.010"
+    },
+    {
+      "row": [],
+      "col": [
+        "MP (3\u00d7)"
+      ],
+      "value": "900"
+    },
+    {
+      "row": [],
+      "col": [
+        "N x / N t"
+      ],
+      "value": "4/6"
+    },
+    {
+      "row": [],
+      "col": [
+        "P \u2021"
+      ],
+      "value": "0.156"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control",
+        "Unstimulated"
+      ],
+      "value": "(355\u20131,292)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control",
+        "IL-1\u03b2"
+      ],
+      "value": "(2,492\u20136,081)"
+    },
+    {
+      "row": [],
+      "col": [
+        "MP-free synovial fluid"
+      ],
+      "value": "(293\u20131,241)"
+    },
+    {
+      "row": [],
+      "col": [
+        "MP (1\u00d7)"
+      ],
+      "value": "(338\u20131,481)"
+    },
+    {
+      "row": [],
+      "col": [
+        "N x / N t"
+      ],
+      "value": "higher"
+    },
+    {
+      "row": [],
+      "col": [
+        "MP (3\u00d7)"
+      ],
+      "value": "(346\u20132,326)"
+    },
+    {
+      "row": [],
+      "col": [
+        "N x / N t"
+      ],
+      "value": "higher"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mediator"
+      ],
+      "value": "sICAM-1 (ng/ml)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control",
+        "Unstimulated"
+      ],
+      "value": "0.09"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control",
+        "IL-1\u03b2"
+      ],
+      "value": "0.40"
+    },
+    {
+      "row": [],
+      "col": [
+        "P *"
+      ],
+      "value": "0.007"
+    },
+    {
+      "row": [],
+      "col": [
+        "MP-free synovial fluid"
+      ],
+      "value": "1.04"
+    },
+    {
+      "row": [],
+      "col": [
+        "MP (1\u00d7)"
+      ],
+      "value": "2.00"
+    },
+    {
+      "row": [],
+      "col": [
+        "N x / N t"
+      ],
+      "value": "8/11"
+    },
+    {
+      "row": [],
+      "col": [
+        "P \u2020"
+      ],
+      "value": "0.010"
+    },
+    {
+      "row": [],
+      "col": [
+        "MP (3\u00d7)"
+      ],
+      "value": "6.07"
+    },
+    {
+      "row": [],
+      "col": [
+        "N x / N t"
+      ],
+      "value": "6/6"
+    },
+    {
+      "row": [],
+      "col": [
+        "P \u2021"
+      ],
+      "value": "0.031"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control",
+        "Unstimulated"
+      ],
+      "value": "(0\u20130.3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control",
+        "IL-1\u03b2"
+      ],
+      "value": "(0\u20130.76)"
+    },
+    {
+      "row": [],
+      "col": [
+        "MP-free synovial fluid"
+      ],
+      "value": "(0.34\u20131.84)"
+    },
+    {
+      "row": [],
+      "col": [
+        "MP (1\u00d7)"
+      ],
+      "value": "(0.35\u20134.07)"
+    },
+    {
+      "row": [],
+      "col": [
+        "N x / N t"
+      ],
+      "value": "higher"
+    },
+    {
+      "row": [],
+      "col": [
+        "MP (3\u00d7)"
+      ],
+      "value": "(0.91\u201311.75)"
+    },
+    {
+      "row": [],
+      "col": [
+        "N x / N t"
+      ],
+      "value": "higher"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mediator"
+      ],
+      "value": "IL-8 (pg/ml)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control",
+        "Unstimulated"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control",
+        "IL-1\u03b2"
+      ],
+      "value": "8,642"
+    },
+    {
+      "row": [],
+      "col": [
+        "P *"
+      ],
+      "value": "0.001"
+    },
+    {
+      "row": [],
+      "col": [
+        "MP-free synovial fluid"
+      ],
+      "value": "26"
+    },
+    {
+      "row": [],
+      "col": [
+        "MP (1\u00d7)"
+      ],
+      "value": "301"
+    },
+    {
+      "row": [],
+      "col": [
+        "N x / N t"
+      ],
+      "value": "5/11"
+    },
+    {
+      "row": [],
+      "col": [
+        "P \u2020"
+      ],
+      "value": "0.008"
+    },
+    {
+      "row": [],
+      "col": [
+        "MP (3\u00d7)"
+      ],
+      "value": "790"
+    },
+    {
+      "row": [],
+      "col": [
+        "N x / N t"
+      ],
+      "value": "6/6"
+    },
+    {
+      "row": [],
+      "col": [
+        "P \u2021"
+      ],
+      "value": "0.031"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control",
+        "Unstimulated"
+      ],
+      "value": "(0\u2013564)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control",
+        "IL-1\u03b2"
+      ],
+      "value": "(2,954\u201318,330)"
+    },
+    {
+      "row": [],
+      "col": [
+        "MP-free synovial fluid"
+      ],
+      "value": "(0\u2013528)"
+    },
+    {
+      "row": [],
+      "col": [
+        "MP (1\u00d7)"
+      ],
+      "value": "(0\u2013707)"
+    },
+    {
+      "row": [],
+      "col": [
+        "N x / N t"
+      ],
+      "value": "higher"
+    },
+    {
+      "row": [],
+      "col": [
+        "MP (3\u00d7)"
+      ],
+      "value": "(0\u20132,100)"
+    },
+    {
+      "row": [],
+      "col": [
+        "N x / N t"
+      ],
+      "value": "higher"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mediator"
+      ],
+      "value": "IL-6 (pg/ml)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control",
+        "Unstimulated"
+      ],
+      "value": "74"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control",
+        "IL-1\u03b2"
+      ],
+      "value": "4949"
+    },
+    {
+      "row": [],
+      "col": [
+        "P *"
+      ],
+      "value": "0.001"
+    },
+    {
+      "row": [],
+      "col": [
+        "MP-free synovial fluid"
+      ],
+      "value": "110"
+    },
+    {
+      "row": [],
+      "col": [
+        "MP (1\u00d7)"
+      ],
+      "value": "136"
+    },
+    {
+      "row": [],
+      "col": [
+        "N x / N t"
+      ],
+      "value": "7/11"
+    },
+    {
+      "row": [],
+      "col": [
+        "P \u2020"
+      ],
+      "value": "0.042"
+    },
+    {
+      "row": [],
+      "col": [
+        "MP (3\u00d7)"
+      ],
+      "value": "436"
+    },
+    {
+      "row": [],
+      "col": [
+        "N x / N t"
+      ],
+      "value": "6/6"
+    },
+    {
+      "row": [],
+      "col": [
+        "P \u2021"
+      ],
+      "value": "0.031"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control",
+        "Unstimulated"
+      ],
+      "value": "(24\u20131,710)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control",
+        "IL-1\u03b2"
+      ],
+      "value": "(1,870\u201322,797)"
+    },
+    {
+      "row": [],
+      "col": [
+        "MP-free synovial fluid"
+      ],
+      "value": "(30\u20131,176)"
+    },
+    {
+      "row": [],
+      "col": [
+        "MP (1\u00d7)"
+      ],
+      "value": "(34\u20131,937)"
+    },
+    {
+      "row": [],
+      "col": [
+        "N x / N t"
+      ],
+      "value": "higher"
+    },
+    {
+      "row": [],
+      "col": [
+        "MP (3\u00d7)"
+      ],
+      "value": "(44\u20133,766)"
+    },
+    {
+      "row": [],
+      "col": [
+        "N x / N t"
+      ],
+      "value": "higher"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mediator"
+      ],
+      "value": "VEGF (pg/ml)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control",
+        "Unstimulated"
+      ],
+      "value": "48"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control",
+        "IL-1\u03b2"
+      ],
+      "value": "79"
+    },
+    {
+      "row": [],
+      "col": [
+        "P *"
+      ],
+      "value": "0.014"
+    },
+    {
+      "row": [],
+      "col": [
+        "MP-free synovial fluid"
+      ],
+      "value": "34"
+    },
+    {
+      "row": [],
+      "col": [
+        "MP (1\u00d7)"
+      ],
+      "value": "74"
+    },
+    {
+      "row": [],
+      "col": [
+        "N x / N t"
+      ],
+      "value": "10/11"
+    },
+    {
+      "row": [],
+      "col": [
+        "P \u2020"
+      ],
+      "value": "0.001"
+    },
+    {
+      "row": [],
+      "col": [
+        "MP (3\u00d7)"
+      ],
+      "value": "111"
+    },
+    {
+      "row": [],
+      "col": [
+        "N x / N t"
+      ],
+      "value": "6/6"
+    },
+    {
+      "row": [],
+      "col": [
+        "P \u2021"
+      ],
+      "value": "0.078"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control",
+        "Unstimulated"
+      ],
+      "value": "(11\u2013102)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control",
+        "IL-1\u03b2"
+      ],
+      "value": "(7\u2013141)"
+    },
+    {
+      "row": [],
+      "col": [
+        "MP-free synovial fluid"
+      ],
+      "value": "(1\u201397)"
+    },
+    {
+      "row": [],
+      "col": [
+        "MP (1\u00d7)"
+      ],
+      "value": "(28\u2013138)"
+    },
+    {
+      "row": [],
+      "col": [
+        "N x / N t"
+      ],
+      "value": "higher"
+    },
+    {
+      "row": [],
+      "col": [
+        "MP (3\u00d7)"
+      ],
+      "value": "(27\u2013161)"
+    },
+    {
+      "row": [],
+      "col": [
+        "N x / N t"
+      ],
+      "value": "higher"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mediator"
+      ],
+      "value": "GM-CSF (pg/ml)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control",
+        "Unstimulated"
+      ],
+      "value": "32"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control",
+        "IL-1\u03b2"
+      ],
+      "value": "53"
+    },
+    {
+      "row": [],
+      "col": [
+        "P *"
+      ],
+      "value": "0.004"
+    },
+    {
+      "row": [],
+      "col": [
+        "MP-free synovial fluid"
+      ],
+      "value": "31"
+    },
+    {
+      "row": [],
+      "col": [
+        "MP (1\u00d7)"
+      ],
+      "value": "22"
+    },
+    {
+      "row": [],
+      "col": [
+        "N x / N t"
+      ],
+      "value": "10/11"
+    },
+    {
+      "row": [],
+      "col": [
+        "P \u2020"
+      ],
+      "value": "0.002"
+    },
+    {
+      "row": [],
+      "col": [
+        "MP (3\u00d7)"
+      ],
+      "value": "18"
+    },
+    {
+      "row": [],
+      "col": [
+        "N x / N t"
+      ],
+      "value": "6/6"
+    },
+    {
+      "row": [],
+      "col": [
+        "P \u2021"
+      ],
+      "value": "0.016"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control",
+        "Unstimulated"
+      ],
+      "value": "(28\u201340)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control",
+        "IL-1\u03b2"
+      ],
+      "value": "(40\u201372)"
+    },
+    {
+      "row": [],
+      "col": [
+        "MP-free synovial fluid"
+      ],
+      "value": "(26\u201370)"
+    },
+    {
+      "row": [],
+      "col": [
+        "MP (1\u00d7)"
+      ],
+      "value": "(14\u201343)"
+    },
+    {
+      "row": [],
+      "col": [
+        "N x / N t"
+      ],
+      "value": "lower"
+    },
+    {
+      "row": [],
+      "col": [
+        "MP (3\u00d7)"
+      ],
+      "value": "(14\u201325)"
+    },
+    {
+      "row": [],
+      "col": [
+        "N x / N t"
+      ],
+      "value": "lower"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mediator"
+      ],
+      "value": "RANTES (pg/ml)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control",
+        "Unstimulated"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control",
+        "IL-1\u03b2"
+      ],
+      "value": "138"
+    },
+    {
+      "row": [],
+      "col": [
+        "P *"
+      ],
+      "value": "0.001"
+    },
+    {
+      "row": [],
+      "col": [
+        "MP-free synovial fluid"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "MP (1\u00d7)"
+      ],
+      "value": "0.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "N x / N t"
+      ],
+      "value": "4/11"
+    },
+    {
+      "row": [],
+      "col": [
+        "P \u2020"
+      ],
+      "value": "0.031"
+    },
+    {
+      "row": [],
+      "col": [
+        "MP (3\u00d7)"
+      ],
+      "value": "4.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "N x / N t"
+      ],
+      "value": "5/6"
+    },
+    {
+      "row": [],
+      "col": [
+        "P \u2021"
+      ],
+      "value": "0.062"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control",
+        "Unstimulated"
+      ],
+      "value": "(0\u201374)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control",
+        "IL-1\u03b2"
+      ],
+      "value": "(46\u2013277)"
+    },
+    {
+      "row": [],
+      "col": [
+        "MP-free synovial fluid"
+      ],
+      "value": "(0\u201358)"
+    },
+    {
+      "row": [],
+      "col": [
+        "MP (1\u00d7)"
+      ],
+      "value": "(0\u201386)"
+    },
+    {
+      "row": [],
+      "col": [
+        "N x / N t"
+      ],
+      "value": "higher"
+    },
+    {
+      "row": [],
+      "col": [
+        "MP (3\u00d7)"
+      ],
+      "value": "(0\u201332)"
+    },
+    {
+      "row": [],
+      "col": [
+        "N x / N t"
+      ],
+      "value": "higher"
+    }
+  ]
+}

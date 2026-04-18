@@ -1,0 +1,517 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0.0003",
+    "0.001",
+    "0.004",
+    "0.47 (0.34\u20130.64)",
+    "0.48 (0.35\u20130.65)",
+    "0.51 (0.37\u20130.69)",
+    "0.52 (0.38\u20130.71)",
+    "0.53 (0.38\u20130.73)",
+    "0.79 (0.67\u20130.95)",
+    "0.80 (0.67\u20130.95)",
+    "0.81 (0.68\u20130.96)",
+    "0.84 (0.70\u20131.01)",
+    "0.86 (0.72\u20131.03)",
+    "0.87 (0.72\u20131.05)",
+    "0.89 (0.76\u20131.05)",
+    "0.90 (0.76\u20131.06)",
+    "0.92 (0.78\u20131.08)",
+    "0.93 (0.79\u20131.08)",
+    "0.93 (0.79\u20131.10)",
+    "0.93 (0.80\u20131.09)",
+    "0.94 (0.81\u20131.10)",
+    "0.95 (0.80\u20131.12)",
+    "0.95 (0.81\u20131.11)",
+    "1",
+    "1.00",
+    "1.5\u20132",
+    "2.5\u20133",
+    "3.5\u20134.5",
+    "<0.0001",
+    "Age at menarche",
+    "Age at menarche, regularity/length of cycles, ages 18\u201322 years",
+    "Age at menarche, time until regular cycles",
+    "Average childhood figure (ages 5\u201310 years)",
+    "BMI at age 18 years",
+    "Cumulatively averaged BMI",
+    "Current BMI",
+    "Multivariate RR (95% CI) a",
+    "Multivariate RR + age at menarche and menstrual cycle characteristics c",
+    "Multivariate RR + later BMI b",
+    "P for trend d",
+    "\u2265 5"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Multivariate RR (95% CI) a"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average childhood figure (ages 5\u201310 years)",
+        "1"
+      ],
+      "value": "1.00"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average childhood figure (ages 5\u201310 years)",
+        "1.5\u20132"
+      ],
+      "value": "0.93 (0.79\u20131.08)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average childhood figure (ages 5\u201310 years)",
+        "2.5\u20133"
+      ],
+      "value": "0.90 (0.76\u20131.06)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average childhood figure (ages 5\u201310 years)",
+        "3.5\u20134.5"
+      ],
+      "value": "0.81 (0.68\u20130.96)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average childhood figure (ages 5\u201310 years)",
+        "\u2265 5"
+      ],
+      "value": "0.48 (0.35\u20130.65)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P for trend d"
+      ],
+      "value": "<0.0001"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Multivariate RR + later BMI b"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average childhood figure (ages 5\u201310 years)",
+        "1"
+      ],
+      "value": "Multivariate RR + later BMI b"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average childhood figure (ages 5\u201310 years)",
+        "1.5\u20132"
+      ],
+      "value": "Multivariate RR + later BMI b"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average childhood figure (ages 5\u201310 years)",
+        "2.5\u20133"
+      ],
+      "value": "Multivariate RR + later BMI b"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average childhood figure (ages 5\u201310 years)",
+        "3.5\u20134.5"
+      ],
+      "value": "Multivariate RR + later BMI b"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average childhood figure (ages 5\u201310 years)",
+        "\u2265 5"
+      ],
+      "value": "Multivariate RR + later BMI b"
+    },
+    {
+      "row": [],
+      "col": [
+        "P for trend d"
+      ],
+      "value": "Multivariate RR + later BMI b"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "BMI at age 18 years"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average childhood figure (ages 5\u201310 years)",
+        "1"
+      ],
+      "value": "1.00"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average childhood figure (ages 5\u201310 years)",
+        "1.5\u20132"
+      ],
+      "value": "0.95 (0.81\u20131.11)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average childhood figure (ages 5\u201310 years)",
+        "2.5\u20133"
+      ],
+      "value": "0.95 (0.80\u20131.12)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average childhood figure (ages 5\u201310 years)",
+        "3.5\u20134.5"
+      ],
+      "value": "0.87 (0.72\u20131.05)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average childhood figure (ages 5\u201310 years)",
+        "\u2265 5"
+      ],
+      "value": "0.53 (0.38\u20130.73)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P for trend d"
+      ],
+      "value": "0.004"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Current BMI"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average childhood figure (ages 5\u201310 years)",
+        "1"
+      ],
+      "value": "1.00"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average childhood figure (ages 5\u201310 years)",
+        "1.5\u20132"
+      ],
+      "value": "0.93 (0.80\u20131.09)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average childhood figure (ages 5\u201310 years)",
+        "2.5\u20133"
+      ],
+      "value": "0.92 (0.78\u20131.08)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average childhood figure (ages 5\u201310 years)",
+        "3.5\u20134.5"
+      ],
+      "value": "0.84 (0.70\u20131.01)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average childhood figure (ages 5\u201310 years)",
+        "\u2265 5"
+      ],
+      "value": "0.51 (0.37\u20130.69)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P for trend d"
+      ],
+      "value": "0.0003"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Cumulatively averaged BMI"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average childhood figure (ages 5\u201310 years)",
+        "1"
+      ],
+      "value": "1.00"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average childhood figure (ages 5\u201310 years)",
+        "1.5\u20132"
+      ],
+      "value": "0.94 (0.81\u20131.10)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average childhood figure (ages 5\u201310 years)",
+        "2.5\u20133"
+      ],
+      "value": "0.93 (0.79\u20131.10)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average childhood figure (ages 5\u201310 years)",
+        "3.5\u20134.5"
+      ],
+      "value": "0.86 (0.72\u20131.03)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average childhood figure (ages 5\u201310 years)",
+        "\u2265 5"
+      ],
+      "value": "0.52 (0.38\u20130.71)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P for trend d"
+      ],
+      "value": "0.001"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Multivariate RR + age at menarche and menstrual cycle characteristics c"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average childhood figure (ages 5\u201310 years)",
+        "1"
+      ],
+      "value": "Multivariate RR + age at menarche and menstrual cycle characteristics c"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average childhood figure (ages 5\u201310 years)",
+        "1.5\u20132"
+      ],
+      "value": "Multivariate RR + age at menarche and menstrual cycle characteristics c"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average childhood figure (ages 5\u201310 years)",
+        "2.5\u20133"
+      ],
+      "value": "Multivariate RR + age at menarche and menstrual cycle characteristics c"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average childhood figure (ages 5\u201310 years)",
+        "3.5\u20134.5"
+      ],
+      "value": "Multivariate RR + age at menarche and menstrual cycle characteristics c"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average childhood figure (ages 5\u201310 years)",
+        "\u2265 5"
+      ],
+      "value": "Multivariate RR + age at menarche and menstrual cycle characteristics c"
+    },
+    {
+      "row": [],
+      "col": [
+        "P for trend d"
+      ],
+      "value": "Multivariate RR + age at menarche and menstrual cycle characteristics c"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Age at menarche"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average childhood figure (ages 5\u201310 years)",
+        "1"
+      ],
+      "value": "1.00"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average childhood figure (ages 5\u201310 years)",
+        "1.5\u20132"
+      ],
+      "value": "0.93 (0.80\u20131.09)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average childhood figure (ages 5\u201310 years)",
+        "2.5\u20133"
+      ],
+      "value": "0.89 (0.76\u20131.05)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average childhood figure (ages 5\u201310 years)",
+        "3.5\u20134.5"
+      ],
+      "value": "0.80 (0.67\u20130.95)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average childhood figure (ages 5\u201310 years)",
+        "\u2265 5"
+      ],
+      "value": "0.47 (0.34\u20130.64)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P for trend d"
+      ],
+      "value": "<0.0001"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Age at menarche, time until regular cycles"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average childhood figure (ages 5\u201310 years)",
+        "1"
+      ],
+      "value": "1.00"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average childhood figure (ages 5\u201310 years)",
+        "1.5\u20132"
+      ],
+      "value": "0.93 (0.80\u20131.09)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average childhood figure (ages 5\u201310 years)",
+        "2.5\u20133"
+      ],
+      "value": "0.89 (0.76\u20131.05)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average childhood figure (ages 5\u201310 years)",
+        "3.5\u20134.5"
+      ],
+      "value": "0.80 (0.67\u20130.95)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average childhood figure (ages 5\u201310 years)",
+        "\u2265 5"
+      ],
+      "value": "0.47 (0.34\u20130.64)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P for trend d"
+      ],
+      "value": "<0.0001"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Age at menarche, regularity/length of cycles, ages 18\u201322 years"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average childhood figure (ages 5\u201310 years)",
+        "1"
+      ],
+      "value": "1.00"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average childhood figure (ages 5\u201310 years)",
+        "1.5\u20132"
+      ],
+      "value": "0.93 (0.80\u20131.09)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average childhood figure (ages 5\u201310 years)",
+        "2.5\u20133"
+      ],
+      "value": "0.89 (0.76\u20131.05)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average childhood figure (ages 5\u201310 years)",
+        "3.5\u20134.5"
+      ],
+      "value": "0.79 (0.67\u20130.95)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average childhood figure (ages 5\u201310 years)",
+        "\u2265 5"
+      ],
+      "value": "0.47 (0.34\u20130.64)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P for trend d"
+      ],
+      "value": "<0.0001"
+    }
+  ]
+}

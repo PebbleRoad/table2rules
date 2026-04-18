@@ -1,0 +1,529 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "-",
+    "ADAMTS-4",
+    "ADAMTS-5",
+    "AF",
+    "Aggrecan",
+    "Collagen I",
+    "Collagen II",
+    "D",
+    "Decrease (2- to 10-fold)",
+    "Decrease (3- to 7-fold)",
+    "Decrease (3- to 9-fold)",
+    "Decrease (3-fold)",
+    "Decrease (5- to 10-fold)",
+    "Decrease (5- to 50-fold)",
+    "Degenerate NP",
+    "Disease state",
+    "General trend",
+    "IL-1RI",
+    "IL-1Ra",
+    "IL-1\u03b1",
+    "IL-1\u03b2",
+    "Increase (100-fold)",
+    "Increase (5- to 10-fold)",
+    "Increase (8-fold)",
+    "MMP-13",
+    "MMP-3",
+    "N",
+    "N, D",
+    "NP",
+    "NP, AF",
+    "No real trend",
+    "Non-degenerate NP",
+    "Non-degenerate NP and AF",
+    "None",
+    "Origin of cells",
+    "SOX6",
+    "SOX9",
+    "Significant changes a ( P < 0.05)",
+    "Target",
+    "Tissues affected"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Target"
+      ],
+      "value": "MMP-3"
+    },
+    {
+      "row": [],
+      "col": [
+        "General trend"
+      ],
+      "value": "Increase (5- to 10-fold)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissues affected",
+        "Origin of cells"
+      ],
+      "value": "NP, AF"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissues affected",
+        "Disease state"
+      ],
+      "value": "N, D"
+    },
+    {
+      "row": [],
+      "col": [
+        "Significant changes a ( P < 0.05)"
+      ],
+      "value": "Non-degenerate NP and AF"
+    },
+    {
+      "row": [],
+      "col": [
+        "Target"
+      ],
+      "value": "MMP-13"
+    },
+    {
+      "row": [],
+      "col": [
+        "General trend"
+      ],
+      "value": "Increase (5- to 10-fold)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissues affected",
+        "Origin of cells"
+      ],
+      "value": "NP"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissues affected",
+        "Disease state"
+      ],
+      "value": "N, D"
+    },
+    {
+      "row": [],
+      "col": [
+        "Significant changes a ( P < 0.05)"
+      ],
+      "value": "Non-degenerate NP"
+    },
+    {
+      "row": [],
+      "col": [
+        "Target"
+      ],
+      "value": "ADAMTS-4"
+    },
+    {
+      "row": [],
+      "col": [
+        "General trend"
+      ],
+      "value": "Increase (8-fold)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissues affected",
+        "Origin of cells"
+      ],
+      "value": "NP"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissues affected",
+        "Disease state"
+      ],
+      "value": "D"
+    },
+    {
+      "row": [],
+      "col": [
+        "Significant changes a ( P < 0.05)"
+      ],
+      "value": "Degenerate NP"
+    },
+    {
+      "row": [],
+      "col": [
+        "Target"
+      ],
+      "value": "ADAMTS-5"
+    },
+    {
+      "row": [],
+      "col": [
+        "General trend"
+      ],
+      "value": "No real trend"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissues affected",
+        "Origin of cells"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissues affected",
+        "Disease state"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Significant changes a ( P < 0.05)"
+      ],
+      "value": "None"
+    },
+    {
+      "row": [],
+      "col": [
+        "Target"
+      ],
+      "value": "SOX6"
+    },
+    {
+      "row": [],
+      "col": [
+        "General trend"
+      ],
+      "value": "Decrease (3- to 9-fold)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissues affected",
+        "Origin of cells"
+      ],
+      "value": "NP, AF"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissues affected",
+        "Disease state"
+      ],
+      "value": "N"
+    },
+    {
+      "row": [],
+      "col": [
+        "Significant changes a ( P < 0.05)"
+      ],
+      "value": "Non-degenerate NP"
+    },
+    {
+      "row": [],
+      "col": [
+        "Target"
+      ],
+      "value": "SOX9"
+    },
+    {
+      "row": [],
+      "col": [
+        "General trend"
+      ],
+      "value": "Decrease (3-fold)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissues affected",
+        "Origin of cells"
+      ],
+      "value": "NP, AF"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissues affected",
+        "Disease state"
+      ],
+      "value": "N"
+    },
+    {
+      "row": [],
+      "col": [
+        "Significant changes a ( P < 0.05)"
+      ],
+      "value": "None"
+    },
+    {
+      "row": [],
+      "col": [
+        "Target"
+      ],
+      "value": "Collagen I"
+    },
+    {
+      "row": [],
+      "col": [
+        "General trend"
+      ],
+      "value": "Decrease (5- to 10-fold)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissues affected",
+        "Origin of cells"
+      ],
+      "value": "NP, AF"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissues affected",
+        "Disease state"
+      ],
+      "value": "N, D"
+    },
+    {
+      "row": [],
+      "col": [
+        "Significant changes a ( P < 0.05)"
+      ],
+      "value": "Degenerate NP"
+    },
+    {
+      "row": [],
+      "col": [
+        "Target"
+      ],
+      "value": "Collagen II"
+    },
+    {
+      "row": [],
+      "col": [
+        "General trend"
+      ],
+      "value": "Decrease (5- to 50-fold)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissues affected",
+        "Origin of cells"
+      ],
+      "value": "AF"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissues affected",
+        "Disease state"
+      ],
+      "value": "N, D"
+    },
+    {
+      "row": [],
+      "col": [
+        "Significant changes a ( P < 0.05)"
+      ],
+      "value": "None"
+    },
+    {
+      "row": [],
+      "col": [
+        "Target"
+      ],
+      "value": "Aggrecan"
+    },
+    {
+      "row": [],
+      "col": [
+        "General trend"
+      ],
+      "value": "Decrease (3- to 7-fold)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissues affected",
+        "Origin of cells"
+      ],
+      "value": "NP, AF"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissues affected",
+        "Disease state"
+      ],
+      "value": "N, D"
+    },
+    {
+      "row": [],
+      "col": [
+        "Significant changes a ( P < 0.05)"
+      ],
+      "value": "Non-degenerate NP and AF"
+    },
+    {
+      "row": [],
+      "col": [
+        "Target"
+      ],
+      "value": "IL-1\u03b1"
+    },
+    {
+      "row": [],
+      "col": [
+        "General trend"
+      ],
+      "value": "Increase (100-fold)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissues affected",
+        "Origin of cells"
+      ],
+      "value": "NP, AF"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissues affected",
+        "Disease state"
+      ],
+      "value": "D"
+    },
+    {
+      "row": [],
+      "col": [
+        "Significant changes a ( P < 0.05)"
+      ],
+      "value": "Degenerate NP"
+    },
+    {
+      "row": [],
+      "col": [
+        "Target"
+      ],
+      "value": "IL-1\u03b2"
+    },
+    {
+      "row": [],
+      "col": [
+        "General trend"
+      ],
+      "value": "Increase (100-fold)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissues affected",
+        "Origin of cells"
+      ],
+      "value": "NP, AF"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissues affected",
+        "Disease state"
+      ],
+      "value": "D"
+    },
+    {
+      "row": [],
+      "col": [
+        "Significant changes a ( P < 0.05)"
+      ],
+      "value": "Degenerate NP"
+    },
+    {
+      "row": [],
+      "col": [
+        "Target"
+      ],
+      "value": "IL-1Ra"
+    },
+    {
+      "row": [],
+      "col": [
+        "General trend"
+      ],
+      "value": "No real trend"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissues affected",
+        "Origin of cells"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissues affected",
+        "Disease state"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Significant changes a ( P < 0.05)"
+      ],
+      "value": "None"
+    },
+    {
+      "row": [],
+      "col": [
+        "Target"
+      ],
+      "value": "IL-1RI"
+    },
+    {
+      "row": [],
+      "col": [
+        "General trend"
+      ],
+      "value": "Decrease (2- to 10-fold)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissues affected",
+        "Origin of cells"
+      ],
+      "value": "NP, AF"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissues affected",
+        "Disease state"
+      ],
+      "value": "N"
+    },
+    {
+      "row": [],
+      "col": [
+        "Significant changes a ( P < 0.05)"
+      ],
+      "value": "None"
+    }
+  ]
+}

@@ -18,6 +18,73 @@ Table2Rules is built as a structural transformer, not a table-type classifier. I
 
 ---
 
+## Why RAG Pipelines Need This
+
+The single largest failure mode for tables in RAG isn't extraction — it's **chunking**. A standard pipeline converts tables to markdown or HTML, then a size-based chunker splits by token count. For any table taller than a chunk, the header row ends up in one chunk and data rows land in others. Retrieval on *"what was Q2 2024 revenue?"* returns `Revenue | 155` without the system knowing `155` belongs to Q2, 2024, or even which metric it measures.
+
+Consider a two-level-header financial table:
+
+```html
+<table>
+  <thead>
+    <tr><th></th><th colspan="2">2024</th><th colspan="2">2023</th></tr>
+    <tr><th></th><th>Q1</th><th>Q2</th><th>Q1</th><th>Q2</th></tr>
+  </thead>
+  <tbody>
+    <tr><th>Revenue</th><td>130</td><td>155</td><td>118</td><td>125</td></tr>
+    <tr><th>Operating Costs</th><td>55</td><td>60</td><td>48</td><td>52</td></tr>
+  </tbody>
+</table>
+```
+
+**Typical markdown extraction** loses the year/quarter hierarchy (the two header rows collapse, and any table-unaware chunker can split the header off from the data):
+
+```
+| | Q1 | Q2 | Q1 | Q2 |
+| Revenue | 130 | 155 | 118 | 125 |
+| Operating Costs | 55 | 60 | 48 | 52 |
+```
+
+**table2rules output** is one self-contained fact per line, with the full header ancestry on every line:
+
+```
+Revenue | 2024 > Q1: 130
+Revenue | 2024 > Q2: 155
+Revenue | 2023 > Q1: 118
+Revenue | 2023 > Q2: 125
+Operating Costs | 2024 > Q1: 55
+Operating Costs | 2024 > Q2: 60
+Operating Costs | 2023 > Q1: 48
+Operating Costs | 2023 > Q2: 52
+```
+
+Three properties this gives your RAG pipeline:
+
+1. **Chunk-safety.** Any chunker (character count, token count, semantic, recursive) can split the output at any line boundary and every chunk stays independently meaningful. No row is ever orphaned from its headers.
+2. **Retrieval semantics.** A vector embedding of `Revenue | 2024 > Q2: 155` is far closer to the query *"Q2 2024 revenue"* than an embedding of `Revenue | 155` ever will be. The dimension labels are inside the string that gets embedded.
+3. **Traceability at answer time.** The LLM sees the full header path on every fact it reads, so when it answers *"why is this 155?"* it can cite the correct column group unambiguously.
+
+This is why we care about producing rules, not just markdown: rules are the representation tables need to survive a RAG pipeline intact. See [Validation](#validation) for how we stress-test this contract against 200 real PubMed Central tables.
+
+### Where this library fits vs. other tools
+
+- **Unstructured.io, markitdown, docling**: extract tables as markdown/HTML. Excellent at extraction, table2rules-incompatible at chunking without additional work.
+- **LlamaParse**: paid, similar intent at a higher level (whole-document parsing).
+- **pandas / lxml**: give you structured data, not RAG-ingestible facts.
+- **table2rules**: narrow scope — HTML table in, self-contained facts out, fail-open on hostile input. Pair it with any of the above in a pipeline: extract with your tool, pass the table HTML through table2rules before chunking.
+
+### What this buys you on today's stack
+
+Three pressures RAG teams are under right now, and what table2rules does about each:
+
+**1) Token bloat on frontier models.** On 200 real PubTabNet tables, the rules output is a median **27% smaller** than the source HTML (p25–p75: 12%–39% savings, measured with OpenAI's `cl100k_base` tokenizer — see [scripts/measure_token_savings.py](scripts/measure_token_savings.py) to reproduce). It's not free, though: on **16% of tables** — dense ones with long header paths — the rules output actually *grows* by up to 59%, because each data cell carries its full row- and col-header path. That's the deliberate tradeoff: where the representation costs extra tokens, it's preserving the context the HTML would otherwise lose at a chunk boundary.
+
+**2) SLMs getting confused by HTML baggage.** Teams increasingly deploy small models (Phi-3, Qwen 2.5 3B, Llama 3.2) where latency and cost matter more than capability headroom. Smaller models have less attention to spend filtering out structural noise — nested tag hierarchy, attribute clutter, whitespace — before they can reason about content. The rules format strips that to a flat sequence of `row-path | col-path: value` statements with no markup. It's the same simplification a human annotator would produce when transcribing a table into bullet points, and it works identically across model sizes.
+
+**3) No chunk configuration.** Teams typically spend meaningful time tuning how long tables are chunked: recursive-character splitter, token splitter, markdown-header-aware splitter, `"don't split in the middle of a table"` heuristics. With table2rules output, every line is a self-contained fact — **any chunker can split anywhere** without orphaning a row from its headers. The chunking question stops being about tables.
+
+---
+
 ## Output Format
 
 The default `rules` exporter emits **one self-contained rule per line** — every line carries the full row-header path and full column-header path, so an LLM never loses context across rows:
@@ -358,17 +425,66 @@ Tested on increasingly complex tables:
 | Benefits | Mixed colspan in body | ✅ `Health > Medical \| Level > Junior: $100` |
 | **Clinical Trial** | **4-row thead, 3 regions, 9 sites, 12 columns** | ✅ **100 rules extracted correctly** |
 
+### Real-world corpus
+
+The parser is also stress-tested against a real-world external corpus:
+
+- **200 tables from PubTabNet** (tables extracted from PubMed Central
+  scientific articles, CDLA-Permissive-1.0) with per-cell oracle
+  matching — the oracle is computed from the source's own structural
+  annotations, independent of this parser.
+- **~2,000 mutation tests** apply 10 real-world HTML noise patterns on
+  top of those 200 tables: `<span>` / `<b>` cell wrappers,
+  Word-style `<td><b>Header</b></td>`, paginated duplicate header rows,
+  mismatched close tags, NBSP padding, `<br>` inside cells, multi-tbody
+  splits, and more.
+- Contract: emitted rules either match the oracle exactly, or the
+  parser falls back to flat / passthrough. **Never fabricates content.**
+
+See [tests/README.md](tests/README.md) for the three-layer test model
+(regression · correctness · robustness) and
+[tests/realworld/DATA_SOURCES.md](tests/realworld/DATA_SOURCES.md) for
+dataset attribution.
+
+### What we have not tested
+
+To set honest expectations:
+
+- **Domains outside scientific papers.** The real-world oracle corpus
+  is PubMed Central tables. Financial 10-K filings, sports statistics,
+  legal schedules, and newswire tables may have structural idioms this
+  test set doesn't exercise. See
+  [tests/README.md](tests/README.md#future-dataset-coverage) for planned
+  additions.
+- **Browser-only tables.** Tables rendered by JavaScript, reconstructed
+  from CSS grids, or pasted as Excel clipboard fragments are
+  out-of-scope — the input contract is HTML markup.
+- **Round-trip ambiguity on cells containing ` > `, ` | `, or `: `.**
+  These characters are the rule-format separators, so a cell whose own
+  text contains them cannot be distinguished from a split path on the
+  consumer side. Data is preserved; cosmetic parsing is ambiguous.
+
 ---
 
 ## Benchmarking
 
-The test corpus is organized by intent:
+Tests are organized in three layers — see [tests/README.md](tests/README.md)
+for the full model.
 
+**Layer 1 — Regression golds** (hand-authored fixtures, exact text match):
 - `tests/smoke/` — minimal sanity checks
 - `tests/structured/` — proper headers, hierarchical, real-world enterprise tables
 - `tests/adversarial/` — hostile markup, tag mismatches, OCR artifacts, deep nesting
 - `tests/headerless/` — receipts, OCR dumps — flat fallback (no parseable headers)
 - `tests/regression/` — targeted bug fixes
+
+**Layer 2 — Correctness oracle** (clean real-world tables, structural match):
+- `tests/realworld/<dataset>/*.md` + `.oracle.json` — 200 PubTabNet
+  tables with independently-computed per-cell oracle triples.
+
+**Layer 3 — Robustness under mutation** (corrupted real-world HTML,
+no-fabrication match):
+- Same realworld fixtures as Layer 2, mutated on-the-fly.
 
 ### Run the test suite
 
@@ -377,7 +493,10 @@ pip install -e '.[dev]'
 pytest
 ```
 
-Every fixture under `tests/` is run via [tests/test_corpus.py](tests/test_corpus.py) and compared to the committed gold output under `benchmarks/gold/rules/`.
+Each layer has its own test file:
+[test_regression_golds.py](tests/test_regression_golds.py),
+[test_correctness_oracle.py](tests/test_correctness_oracle.py),
+[test_robustness_mutations.py](tests/test_robustness_mutations.py).
 
 ### Maintenance scripts
 

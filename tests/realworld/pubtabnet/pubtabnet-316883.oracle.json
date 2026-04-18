@@ -1,0 +1,487 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0 (1) 0%",
+    "1 (1) 100%",
+    "1 (3) 33.3%",
+    "1 (7) 14.3%",
+    "1 d (7) e 14.3% f",
+    "10 (30) 33.3%",
+    "11 (17) 64.7%",
+    "13 (18) 72.2%",
+    "14 (20) 70.0%",
+    "14 (65) 21.5%",
+    "18 (30) 60.0%",
+    "2 (17) 11.8%",
+    "2 (5) 40%",
+    "2 (7) 28.6%",
+    "21(65) 32.3%",
+    "3 (5) 60%",
+    "3 (7) 42.8%",
+    "30 (42) 71.4%",
+    "41 (65) 63.1%",
+    "5 (11) 45.5%",
+    "5 (15) 33.3%",
+    "6 (11) 54.5%",
+    "6 (18) 33.3%",
+    "6 (20) 30.0%",
+    "6 (42) 14.3%",
+    "6 (7) 85.7%",
+    "7 (11) 63.6%",
+    "7(11) 63.6%",
+    "9 (15) 60.0%",
+    "9 (42) 21.4%",
+    "I",
+    "II",
+    "III",
+    "TACC1 a",
+    "TACC3 & TACC1 b",
+    "TACC3 a",
+    "Tumor grades c",
+    "Tumor type",
+    "all",
+    "all types",
+    "clear cell g",
+    "endometroid",
+    "mucinous",
+    "serous papillary"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "TACC3 a",
+        "Tumor grades c"
+      ],
+      "value": "I"
+    },
+    {
+      "row": [],
+      "col": [
+        "TACC3 a",
+        "Tumor grades c"
+      ],
+      "value": "II"
+    },
+    {
+      "row": [],
+      "col": [
+        "TACC3 a",
+        "Tumor grades c"
+      ],
+      "value": "III"
+    },
+    {
+      "row": [],
+      "col": [
+        "TACC3 a",
+        "Tumor grades c"
+      ],
+      "value": "all"
+    },
+    {
+      "row": [],
+      "col": [
+        "TACC1 a",
+        "Tumor grades c"
+      ],
+      "value": "I"
+    },
+    {
+      "row": [],
+      "col": [
+        "TACC1 a",
+        "Tumor grades c"
+      ],
+      "value": "II"
+    },
+    {
+      "row": [],
+      "col": [
+        "TACC1 a",
+        "Tumor grades c"
+      ],
+      "value": "III"
+    },
+    {
+      "row": [],
+      "col": [
+        "TACC1 a",
+        "Tumor grades c"
+      ],
+      "value": "all"
+    },
+    {
+      "row": [],
+      "col": [
+        "TACC3 & TACC1 b",
+        "Tumor grades c"
+      ],
+      "value": "all"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tumor type"
+      ],
+      "value": "serous papillary"
+    },
+    {
+      "row": [],
+      "col": [
+        "TACC3 a",
+        "Tumor grades c"
+      ],
+      "value": "1 d (7) e 14.3% f"
+    },
+    {
+      "row": [],
+      "col": [
+        "TACC3 a",
+        "Tumor grades c"
+      ],
+      "value": "6 (18) 33.3%"
+    },
+    {
+      "row": [],
+      "col": [
+        "TACC3 a",
+        "Tumor grades c"
+      ],
+      "value": "2 (17) 11.8%"
+    },
+    {
+      "row": [],
+      "col": [
+        "TACC3 a",
+        "Tumor grades c"
+      ],
+      "value": "9 (42) 21.4%"
+    },
+    {
+      "row": [],
+      "col": [
+        "TACC1 a",
+        "Tumor grades c"
+      ],
+      "value": "6 (7) 85.7%"
+    },
+    {
+      "row": [],
+      "col": [
+        "TACC1 a",
+        "Tumor grades c"
+      ],
+      "value": "13 (18) 72.2%"
+    },
+    {
+      "row": [],
+      "col": [
+        "TACC1 a",
+        "Tumor grades c"
+      ],
+      "value": "11 (17) 64.7%"
+    },
+    {
+      "row": [],
+      "col": [
+        "TACC1 a",
+        "Tumor grades c"
+      ],
+      "value": "30 (42) 71.4%"
+    },
+    {
+      "row": [],
+      "col": [
+        "TACC3 & TACC1 b",
+        "Tumor grades c"
+      ],
+      "value": "6 (42) 14.3%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tumor type"
+      ],
+      "value": "mucinous"
+    },
+    {
+      "row": [],
+      "col": [
+        "TACC3 a",
+        "Tumor grades c"
+      ],
+      "value": "1 (3) 33.3%"
+    },
+    {
+      "row": [],
+      "col": [
+        "TACC3 a",
+        "Tumor grades c"
+      ],
+      "value": "0 (1) 0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "TACC3 a",
+        "Tumor grades c"
+      ],
+      "value": "1 (1) 100%"
+    },
+    {
+      "row": [],
+      "col": [
+        "TACC3 a",
+        "Tumor grades c"
+      ],
+      "value": "2 (5) 40%"
+    },
+    {
+      "row": [],
+      "col": [
+        "TACC1 a",
+        "Tumor grades c"
+      ],
+      "value": "1 (3) 33.3%"
+    },
+    {
+      "row": [],
+      "col": [
+        "TACC1 a",
+        "Tumor grades c"
+      ],
+      "value": "1 (1) 100%"
+    },
+    {
+      "row": [],
+      "col": [
+        "TACC1 a",
+        "Tumor grades c"
+      ],
+      "value": "1 (1) 100%"
+    },
+    {
+      "row": [],
+      "col": [
+        "TACC1 a",
+        "Tumor grades c"
+      ],
+      "value": "3 (5) 60%"
+    },
+    {
+      "row": [],
+      "col": [
+        "TACC3 & TACC1 b",
+        "Tumor grades c"
+      ],
+      "value": "2 (5) 40%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tumor type"
+      ],
+      "value": "endometroid"
+    },
+    {
+      "row": [],
+      "col": [
+        "TACC3 a",
+        "Tumor grades c"
+      ],
+      "value": "3 (5) 60%"
+    },
+    {
+      "row": [],
+      "col": [
+        "TACC3 a",
+        "Tumor grades c"
+      ],
+      "value": "0 (1) 0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "TACC3 a",
+        "Tumor grades c"
+      ],
+      "value": "0 (1) 0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "TACC3 a",
+        "Tumor grades c"
+      ],
+      "value": "3 (7) 42.8%"
+    },
+    {
+      "row": [],
+      "col": [
+        "TACC1 a",
+        "Tumor grades c"
+      ],
+      "value": "2 (5) 40%"
+    },
+    {
+      "row": [],
+      "col": [
+        "TACC1 a",
+        "Tumor grades c"
+      ],
+      "value": "0 (1) 0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "TACC1 a",
+        "Tumor grades c"
+      ],
+      "value": "0 (1) 0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "TACC1 a",
+        "Tumor grades c"
+      ],
+      "value": "2 (7) 28.6%"
+    },
+    {
+      "row": [],
+      "col": [
+        "TACC3 & TACC1 b",
+        "Tumor grades c"
+      ],
+      "value": "1 (7) 14.3%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tumor type"
+      ],
+      "value": "clear cell g"
+    },
+    {
+      "row": [],
+      "col": [
+        "TACC3 a",
+        "Tumor grades c"
+      ],
+      "value": "7(11) 63.6%"
+    },
+    {
+      "row": [],
+      "col": [
+        "TACC3 a",
+        "Tumor grades c"
+      ],
+      "value": "7 (11) 63.6%"
+    },
+    {
+      "row": [],
+      "col": [
+        "TACC1 a",
+        "Tumor grades c"
+      ],
+      "value": "6 (11) 54.5%"
+    },
+    {
+      "row": [],
+      "col": [
+        "TACC1 a",
+        "Tumor grades c"
+      ],
+      "value": "6 (11) 54.5%"
+    },
+    {
+      "row": [],
+      "col": [
+        "TACC3 & TACC1 b",
+        "Tumor grades c"
+      ],
+      "value": "5 (11) 45.5%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tumor type"
+      ],
+      "value": "all types"
+    },
+    {
+      "row": [],
+      "col": [
+        "TACC3 a",
+        "Tumor grades c"
+      ],
+      "value": "5 (15) 33.3%"
+    },
+    {
+      "row": [],
+      "col": [
+        "TACC3 a",
+        "Tumor grades c"
+      ],
+      "value": "6 (20) 30.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "TACC3 a",
+        "Tumor grades c"
+      ],
+      "value": "10 (30) 33.3%"
+    },
+    {
+      "row": [],
+      "col": [
+        "TACC3 a",
+        "Tumor grades c"
+      ],
+      "value": "21(65) 32.3%"
+    },
+    {
+      "row": [],
+      "col": [
+        "TACC1 a",
+        "Tumor grades c"
+      ],
+      "value": "9 (15) 60.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "TACC1 a",
+        "Tumor grades c"
+      ],
+      "value": "14 (20) 70.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "TACC1 a",
+        "Tumor grades c"
+      ],
+      "value": "18 (30) 60.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "TACC1 a",
+        "Tumor grades c"
+      ],
+      "value": "41 (65) 63.1%"
+    },
+    {
+      "row": [],
+      "col": [
+        "TACC3 & TACC1 b",
+        "Tumor grades c"
+      ],
+      "value": "14 (65) 21.5%"
+    }
+  ]
+}

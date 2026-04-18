@@ -1,0 +1,890 @@
+<!-- source: PubTabNet imgid=148294 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+<b>
+       Protease
+      </b>
+</td>
+<td>
+<b>
+       Cluster
+      </b>
+</td>
+<td>
+<b>
+       Transcript
+      </b>
+</td>
+<td>
+<b>
+       Most similar
+       <i>
+        Arabidopsis
+       </i>
+       gene
+      </b>
+</td>
+<td>
+<b>
+<i>
+        E
+       </i>
+</b>
+</td>
+<td colspan="5">
+<b>
+       Number of ESTs in each library
+      </b>
+</td>
+<td colspan="6">
+<b>
+       Expression ratio B/A
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+<b>
+       I
+      </b>
+</td>
+<td>
+<b>
+       X
+      </b>
+</td>
+<td>
+<b>
+       Y
+      </b>
+</td>
+<td>
+<b>
+       G
+      </b>
+</td>
+<td>
+<b>
+       Tot
+      </b>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      Cysteine
+     </td>
+<td>
+      11539
+     </td>
+<td>
+      Cysteine endopeptidase
+      <i>
+       CysEP
+      </i>
+</td>
+<td>
+      At5g50260
+     </td>
+<td>
+      7.1e-146
+     </td>
+<td>
+      0
+     </td>
+<td>
+      4
+     </td>
+<td>
+      0
+     </td>
+<td>
+      0
+     </td>
+<td>
+      30
+     </td>
+<td>
+      *14.9
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      1250
+     </td>
+<td>
+      Papain-like cysteine proteinase
+      <i>
+       RD19A
+      </i>
+</td>
+<td>
+      At4g39090
+     </td>
+<td>
+      1.4e-133
+     </td>
+<td>
+      51
+     </td>
+<td>
+      23
+     </td>
+<td>
+      2
+     </td>
+<td>
+      3
+     </td>
+<td>
+      211
+     </td>
+<td>
+      1.2
+     </td>
+<td>
+      *3.0
+     </td>
+<td>
+      1.1
+     </td>
+<td>
+      *3.4
+     </td>
+<td>
+      *4.1
+     </td>
+<td>
+      1.4
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      289
+     </td>
+<td>
+      Papain-like cysteine proteinase
+     </td>
+<td>
+      At5g43060
+     </td>
+<td>
+      1.3e-103
+     </td>
+<td>
+      16
+     </td>
+<td>
+      1
+     </td>
+<td>
+      1
+     </td>
+<td>
+      1
+     </td>
+<td>
+      32
+     </td>
+<td>
+      0.9
+     </td>
+<td>
+      1.4
+     </td>
+<td>
+      1.4
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      3027
+     </td>
+<td>
+      Vacuolar processing enzyme
+     </td>
+<td>
+      At4g32940
+     </td>
+<td>
+      9.2e-200
+     </td>
+<td>
+      4
+     </td>
+<td>
+      8
+     </td>
+<td>
+      1
+     </td>
+<td>
+      1
+     </td>
+<td>
+      34
+     </td>
+<td>
+      *3.0
+     </td>
+<td>
+      *3.8
+     </td>
+<td>
+      *3.1
+     </td>
+<td>
+      *3.3
+     </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      3310
+     </td>
+<td>
+      Papain-like cysteine endopeptidase
+      <i>
+       XCP2
+      </i>
+</td>
+<td>
+      At1g20850
+     </td>
+<td>
+      1.7e-144
+     </td>
+<td>
+      0
+     </td>
+<td>
+      5
+     </td>
+<td>
+      1
+     </td>
+<td>
+      2
+     </td>
+<td>
+      14
+     </td>
+<td>
+      *0.7
+     </td>
+<td>
+      *0.2
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      4102
+     </td>
+<td>
+      Papain-like cysteine proteinase
+      <i>
+       SAG12
+      </i>
+</td>
+<td>
+      At5g45890
+     </td>
+<td>
+      8.8e-111
+     </td>
+<td>
+      13
+     </td>
+<td>
+      0
+     </td>
+<td>
+      0
+     </td>
+<td>
+      0
+     </td>
+<td>
+      14
+     </td>
+<td>
+      1.0
+     </td>
+<td>
+      0.9
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      5498
+     </td>
+<td>
+      Papain-like cysteine proteinase
+      <i>
+       AALP
+      </i>
+</td>
+<td>
+      At5g60360
+     </td>
+<td>
+      3.4e-129
+     </td>
+<td>
+      4
+     </td>
+<td>
+      1
+     </td>
+<td>
+      0
+     </td>
+<td>
+      0
+     </td>
+<td>
+      18
+     </td>
+<td>
+      1.3
+     </td>
+<td>
+      *1.8
+     </td>
+<td>
+      *2.3
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      7212
+     </td>
+<td>
+      Papain-like cysteine proteinase
+      <i>
+       RD21A
+      </i>
+</td>
+<td>
+      At1g47128
+     </td>
+<td>
+      2.6e-169
+     </td>
+<td>
+      28
+     </td>
+<td>
+      5
+     </td>
+<td>
+      2
+     </td>
+<td>
+      3
+     </td>
+<td>
+      59
+     </td>
+<td>
+      2.2
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Serine
+     </td>
+<td>
+      10138
+     </td>
+<td>
+      Subtilisin-like serine protease
+     </td>
+<td>
+      At1g01900
+     </td>
+<td>
+      9.1e-107
+     </td>
+<td>
+      0
+     </td>
+<td>
+      3
+     </td>
+<td>
+      0
+     </td>
+<td>
+      0
+     </td>
+<td>
+      5
+     </td>
+<td>
+      *5.0
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      4702
+     </td>
+<td>
+      Prolyl endopeptidase
+     </td>
+<td>
+      At1g76140
+     </td>
+<td>
+      1.6e-52
+     </td>
+<td>
+      4
+     </td>
+<td>
+      0
+     </td>
+<td>
+      0
+     </td>
+<td>
+      0
+     </td>
+<td>
+      9
+     </td>
+<td>
+      1.1
+     </td>
+<td>
+      1.2
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      4905
+     </td>
+<td>
+      Serine carboxypeptidase III-like protein
+     </td>
+<td>
+      At3g10410
+     </td>
+<td>
+      9.8e-194
+     </td>
+<td>
+      0
+     </td>
+<td>
+      4
+     </td>
+<td>
+      0
+     </td>
+<td>
+      2
+     </td>
+<td>
+      16
+     </td>
+<td>
+      1.6
+     </td>
+<td>
+      1.3
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      4995
+     </td>
+<td>
+      Subtilisin-like serine protease
+     </td>
+<td>
+      At1g20160
+     </td>
+<td>
+      7.0e-68
+     </td>
+<td>
+      0
+     </td>
+<td>
+      5
+     </td>
+<td>
+      0
+     </td>
+<td>
+      0
+     </td>
+<td>
+      6
+     </td>
+<td>
+      *12.2
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      8771
+     </td>
+<td>
+      DegP protease
+     </td>
+<td>
+      At3g27925
+     </td>
+<td>
+      6.2e-60
+     </td>
+<td>
+      9
+     </td>
+<td>
+      0
+     </td>
+<td>
+      0
+     </td>
+<td>
+      0
+     </td>
+<td>
+      9
+     </td>
+<td>
+      1.6
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Aspartic
+     </td>
+<td>
+      3648
+     </td>
+<td>
+      Aspartic-type endopeptidase (phytepsin)
+     </td>
+<td>
+      At1g11910
+     </td>
+<td>
+      3.5e-208
+     </td>
+<td>
+      6
+     </td>
+<td>
+      3
+     </td>
+<td>
+      0
+     </td>
+<td>
+      1
+     </td>
+<td>
+      26
+     </td>
+<td>
+      0.9
+     </td>
+<td>
+      *2.5
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      4286
+     </td>
+<td>
+      Aspartic-type endopeptidase (family A1)
+     </td>
+<td>
+      At5g43100
+     </td>
+<td>
+      3.5e-41
+     </td>
+<td>
+      3
+     </td>
+<td>
+      1
+     </td>
+<td>
+      0
+     </td>
+<td>
+      0
+     </td>
+<td>
+      4
+     </td>
+<td>
+      1.0
+     </td>
+<td>
+      1.2
+     </td>
+<td>
+      1.2
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      541
+     </td>
+<td>
+      Aspartic-type endopeptidase (family A1)
+     </td>
+<td>
+      At2g03200
+     </td>
+<td>
+      3.0e-124
+     </td>
+<td>
+      0
+     </td>
+<td>
+      6
+     </td>
+<td>
+      0
+     </td>
+<td>
+      10
+     </td>
+<td>
+      19
+     </td>
+<td>
+      1.1
+     </td>
+<td>
+      0.7
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      915
+     </td>
+<td>
+      Aspartic-type endopeptidase (phytepsin)
+     </td>
+<td>
+      At1g11910
+     </td>
+<td>
+      1.3e-105
+     </td>
+<td>
+      3
+     </td>
+<td>
+      3
+     </td>
+<td>
+      1
+     </td>
+<td>
+      1
+     </td>
+<td>
+      35
+     </td>
+<td>
+      1.2
+     </td>
+<td>
+      1.0
+     </td>
+<td>
+      1.3
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+</tbody>
+</table>

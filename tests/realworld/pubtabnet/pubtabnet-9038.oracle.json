@@ -1,0 +1,479 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "100 (53.8\u2013100)",
+    "100 (66.7\u2013100)",
+    "100 (84.7\u2013100)",
+    "50.0 (25.0\u201375.0)",
+    "55.6 (36.1\u201375.0)",
+    "57.1 (36.6\u201375.0)",
+    "58.3 (41.7\u201391.7)",
+    "62.5 (37.5\u201383.3)",
+    "62.5 (37.5\u201394.8)",
+    "63.6 (41.0\u201377.3)",
+    "63.9 (38.9\u201380.6)",
+    "66.7 (33.3\u2013100)",
+    "66.7 (33.3\u201383.3)",
+    "66.7 (55.6\u2013100)",
+    "67.9 (39.3\u201387.5)",
+    "71.2 (47.1\u201386.9)",
+    "72.9 (47.9\u201383.3)",
+    "72.9 (49.5\u201390.6)",
+    "72.9 (55.7\u201385.4)",
+    "75.0 (41.7\u201391.7)",
+    "77.2 (58.4\u201392.9)",
+    "77.8 (50.0\u2013100)",
+    "79.2 (52.1\u201395.8)",
+    "79.3 (64.5\u201392.5)",
+    "87.5 (75.0\u2013100)",
+    "88.9 (50.0\u2013100)",
+    "88.9 (66.7\u2013100)",
+    "95.2 (81.0\u201395.2)",
+    "95.2 (84.5\u2013100)",
+    "<0.01",
+    "<0.05",
+    "Emotional HRQL composite score (ECS)",
+    "Emotional well-being, negative affect",
+    "Emotional well-being, positive affect",
+    "Follow-up Median (IQR)",
+    "General health perception",
+    "Mobility",
+    "NS",
+    "P -value a",
+    "Pain",
+    "Physical HRQL composite score (PCS)",
+    "Physical functioning",
+    "Pre PI-ART Median (IQR)",
+    "Relation to partner",
+    "Role limitations due to emotional health",
+    "Role limitations due to physical health",
+    "Satisfaction with family life",
+    "Satisfaction with physical ability",
+    "Score",
+    "Sexual functioning",
+    "Sleep problems"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Physical HRQL composite score (PCS)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Score",
+        "Pre PI-ART Median (IQR)"
+      ],
+      "value": "79.3 (64.5\u201392.5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Score",
+        "Follow-up Median (IQR)"
+      ],
+      "value": "77.2 (58.4\u201392.9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P -value a"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Emotional HRQL composite score (ECS)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Score",
+        "Pre PI-ART Median (IQR)"
+      ],
+      "value": "71.2 (47.1\u201386.9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Score",
+        "Follow-up Median (IQR)"
+      ],
+      "value": "63.6 (41.0\u201377.3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P -value a"
+      ],
+      "value": "<0.01"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Physical functioning"
+    },
+    {
+      "row": [],
+      "col": [
+        "Score",
+        "Pre PI-ART Median (IQR)"
+      ],
+      "value": "95.2 (81.0\u201395.2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Score",
+        "Follow-up Median (IQR)"
+      ],
+      "value": "95.2 (84.5\u2013100)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P -value a"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Mobility"
+    },
+    {
+      "row": [],
+      "col": [
+        "Score",
+        "Pre PI-ART Median (IQR)"
+      ],
+      "value": "100 (66.7\u2013100)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Score",
+        "Follow-up Median (IQR)"
+      ],
+      "value": "100 (66.7\u2013100)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P -value a"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Satisfaction with physical ability"
+    },
+    {
+      "row": [],
+      "col": [
+        "Score",
+        "Pre PI-ART Median (IQR)"
+      ],
+      "value": "66.7 (33.3\u201383.3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Score",
+        "Follow-up Median (IQR)"
+      ],
+      "value": "66.7 (33.3\u2013100)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P -value a"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Pain"
+    },
+    {
+      "row": [],
+      "col": [
+        "Score",
+        "Pre PI-ART Median (IQR)"
+      ],
+      "value": "100 (53.8\u2013100)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Score",
+        "Follow-up Median (IQR)"
+      ],
+      "value": "100 (84.7\u2013100)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P -value a"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Role limitations due to physical health"
+    },
+    {
+      "row": [],
+      "col": [
+        "Score",
+        "Pre PI-ART Median (IQR)"
+      ],
+      "value": "66.7 (55.6\u2013100)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Score",
+        "Follow-up Median (IQR)"
+      ],
+      "value": "88.9 (50.0\u2013100)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P -value a"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Sexual functioning"
+    },
+    {
+      "row": [],
+      "col": [
+        "Score",
+        "Pre PI-ART Median (IQR)"
+      ],
+      "value": "75.0 (41.7\u201391.7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Score",
+        "Follow-up Median (IQR)"
+      ],
+      "value": "58.3 (41.7\u201391.7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P -value a"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Role limitations due to emotional health"
+    },
+    {
+      "row": [],
+      "col": [
+        "Score",
+        "Pre PI-ART Median (IQR)"
+      ],
+      "value": "88.9 (66.7\u2013100)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Score",
+        "Follow-up Median (IQR)"
+      ],
+      "value": "77.8 (50.0\u2013100)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P -value a"
+      ],
+      "value": "<0.05"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Emotional well-being, positive affect"
+    },
+    {
+      "row": [],
+      "col": [
+        "Score",
+        "Pre PI-ART Median (IQR)"
+      ],
+      "value": "72.9 (47.9\u201383.3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Score",
+        "Follow-up Median (IQR)"
+      ],
+      "value": "62.5 (37.5\u201383.3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P -value a"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Emotional well-being, negative affect"
+    },
+    {
+      "row": [],
+      "col": [
+        "Score",
+        "Pre PI-ART Median (IQR)"
+      ],
+      "value": "62.5 (37.5\u201394.8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Score",
+        "Follow-up Median (IQR)"
+      ],
+      "value": "50.0 (25.0\u201375.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P -value a"
+      ],
+      "value": "<0.01"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Sleep problems"
+    },
+    {
+      "row": [],
+      "col": [
+        "Score",
+        "Pre PI-ART Median (IQR)"
+      ],
+      "value": "67.9 (39.3\u201387.5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Score",
+        "Follow-up Median (IQR)"
+      ],
+      "value": "57.1 (36.6\u201375.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P -value a"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Satisfaction with family life"
+    },
+    {
+      "row": [],
+      "col": [
+        "Score",
+        "Pre PI-ART Median (IQR)"
+      ],
+      "value": "72.9 (49.5\u201390.6)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Score",
+        "Follow-up Median (IQR)"
+      ],
+      "value": "72.9 (55.7\u201385.4)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P -value a"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Relation to partner"
+    },
+    {
+      "row": [],
+      "col": [
+        "Score",
+        "Pre PI-ART Median (IQR)"
+      ],
+      "value": "87.5 (75.0\u2013100)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Score",
+        "Follow-up Median (IQR)"
+      ],
+      "value": "79.2 (52.1\u201395.8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P -value a"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "General health perception"
+    },
+    {
+      "row": [],
+      "col": [
+        "Score",
+        "Pre PI-ART Median (IQR)"
+      ],
+      "value": "55.6 (36.1\u201375.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Score",
+        "Follow-up Median (IQR)"
+      ],
+      "value": "63.9 (38.9\u201380.6)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P -value a"
+      ],
+      "value": "NS"
+    }
+  ]
+}

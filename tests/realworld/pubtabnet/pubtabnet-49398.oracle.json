@@ -1,0 +1,560 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "12.10",
+    "12.15",
+    "12.56",
+    "12.68",
+    "12.70",
+    "12.81",
+    "12.89",
+    "13.15",
+    "13.35",
+    "13.44",
+    "13.47",
+    "13.57",
+    "13.67",
+    "13.95",
+    "14.30",
+    "14.37",
+    "14.43",
+    "14.75",
+    "15.00",
+    "15.15",
+    "15.68",
+    "15.69",
+    "16.10",
+    "16.24",
+    "16.28",
+    "16.29",
+    "16.63",
+    "16.84",
+    "16.86",
+    "17.16",
+    "17.75",
+    "17.99",
+    "18.73",
+    "19.16",
+    "19.21",
+    "19.28",
+    "19.36",
+    "19.41",
+    "19.88",
+    "19.96",
+    "20.64",
+    "20.85",
+    "21.89",
+    "22.36",
+    "22.48",
+    "23.92",
+    "25.07",
+    "27.71",
+    "28.40",
+    "29.81",
+    "31.36",
+    "Dayhoff",
+    "ED \u2013 Dayhoff",
+    "ED \u2013 JTT",
+    "ED \u2013 MV",
+    "JTT",
+    "Jukes-Cantor",
+    "Kimura",
+    "ML \u2013 Dayhoff",
+    "ML \u2013 JTT",
+    "ML \u2013 MV",
+    "MV",
+    "Scoredist \u2013 Dayhoff",
+    "Scoredist \u2013 JTT",
+    "Scoredist \u2013 MV",
+    "WAG",
+    "average",
+    "testset"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Scoredist \u2013 Dayhoff"
+    },
+    {
+      "row": [],
+      "col": [
+        "testset",
+        "Dayhoff"
+      ],
+      "value": "12.68"
+    },
+    {
+      "row": [],
+      "col": [
+        "testset",
+        "MV"
+      ],
+      "value": "20.85"
+    },
+    {
+      "row": [],
+      "col": [
+        "testset",
+        "JTT"
+      ],
+      "value": "13.67"
+    },
+    {
+      "row": [],
+      "col": [
+        "testset",
+        "WAG"
+      ],
+      "value": "12.81"
+    },
+    {
+      "row": [],
+      "col": [
+        "average"
+      ],
+      "value": "15.00"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "ML \u2013 Dayhoff"
+    },
+    {
+      "row": [],
+      "col": [
+        "testset",
+        "Dayhoff"
+      ],
+      "value": "12.70"
+    },
+    {
+      "row": [],
+      "col": [
+        "testset",
+        "MV"
+      ],
+      "value": "28.40"
+    },
+    {
+      "row": [],
+      "col": [
+        "testset",
+        "JTT"
+      ],
+      "value": "14.75"
+    },
+    {
+      "row": [],
+      "col": [
+        "testset",
+        "WAG"
+      ],
+      "value": "15.15"
+    },
+    {
+      "row": [],
+      "col": [
+        "average"
+      ],
+      "value": "17.75"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "ED \u2013 Dayhoff"
+    },
+    {
+      "row": [],
+      "col": [
+        "testset",
+        "Dayhoff"
+      ],
+      "value": "13.57"
+    },
+    {
+      "row": [],
+      "col": [
+        "testset",
+        "MV"
+      ],
+      "value": "31.36"
+    },
+    {
+      "row": [],
+      "col": [
+        "testset",
+        "JTT"
+      ],
+      "value": "16.10"
+    },
+    {
+      "row": [],
+      "col": [
+        "testset",
+        "WAG"
+      ],
+      "value": "16.63"
+    },
+    {
+      "row": [],
+      "col": [
+        "average"
+      ],
+      "value": "19.41"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Scoredist \u2013 MV"
+    },
+    {
+      "row": [],
+      "col": [
+        "testset",
+        "Dayhoff"
+      ],
+      "value": "19.28"
+    },
+    {
+      "row": [],
+      "col": [
+        "testset",
+        "MV"
+      ],
+      "value": "13.15"
+    },
+    {
+      "row": [],
+      "col": [
+        "testset",
+        "JTT"
+      ],
+      "value": "16.29"
+    },
+    {
+      "row": [],
+      "col": [
+        "testset",
+        "WAG"
+      ],
+      "value": "18.73"
+    },
+    {
+      "row": [],
+      "col": [
+        "average"
+      ],
+      "value": "16.86"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "ML \u2013 MV"
+    },
+    {
+      "row": [],
+      "col": [
+        "testset",
+        "Dayhoff"
+      ],
+      "value": "19.96"
+    },
+    {
+      "row": [],
+      "col": [
+        "testset",
+        "MV"
+      ],
+      "value": "13.44"
+    },
+    {
+      "row": [],
+      "col": [
+        "testset",
+        "JTT"
+      ],
+      "value": "19.36"
+    },
+    {
+      "row": [],
+      "col": [
+        "testset",
+        "WAG"
+      ],
+      "value": "19.21"
+    },
+    {
+      "row": [],
+      "col": [
+        "average"
+      ],
+      "value": "17.99"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "ED \u2013 MV"
+    },
+    {
+      "row": [],
+      "col": [
+        "testset",
+        "Dayhoff"
+      ],
+      "value": "15.68"
+    },
+    {
+      "row": [],
+      "col": [
+        "testset",
+        "MV"
+      ],
+      "value": "13.35"
+    },
+    {
+      "row": [],
+      "col": [
+        "testset",
+        "JTT"
+      ],
+      "value": "13.95"
+    },
+    {
+      "row": [],
+      "col": [
+        "testset",
+        "WAG"
+      ],
+      "value": "14.75"
+    },
+    {
+      "row": [],
+      "col": [
+        "average"
+      ],
+      "value": "14.43"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Scoredist \u2013 JTT"
+    },
+    {
+      "row": [],
+      "col": [
+        "testset",
+        "Dayhoff"
+      ],
+      "value": "13.67"
+    },
+    {
+      "row": [],
+      "col": [
+        "testset",
+        "MV"
+      ],
+      "value": "17.16"
+    },
+    {
+      "row": [],
+      "col": [
+        "testset",
+        "JTT"
+      ],
+      "value": "12.89"
+    },
+    {
+      "row": [],
+      "col": [
+        "testset",
+        "WAG"
+      ],
+      "value": "13.47"
+    },
+    {
+      "row": [],
+      "col": [
+        "average"
+      ],
+      "value": "14.30"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "ML \u2013 JTT"
+    },
+    {
+      "row": [],
+      "col": [
+        "testset",
+        "Dayhoff"
+      ],
+      "value": "12.15"
+    },
+    {
+      "row": [],
+      "col": [
+        "testset",
+        "MV"
+      ],
+      "value": "25.07"
+    },
+    {
+      "row": [],
+      "col": [
+        "testset",
+        "JTT"
+      ],
+      "value": "12.10"
+    },
+    {
+      "row": [],
+      "col": [
+        "testset",
+        "WAG"
+      ],
+      "value": "13.44"
+    },
+    {
+      "row": [],
+      "col": [
+        "average"
+      ],
+      "value": "15.69"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "ED \u2013 JTT"
+    },
+    {
+      "row": [],
+      "col": [
+        "testset",
+        "Dayhoff"
+      ],
+      "value": "12.56"
+    },
+    {
+      "row": [],
+      "col": [
+        "testset",
+        "MV"
+      ],
+      "value": "27.71"
+    },
+    {
+      "row": [],
+      "col": [
+        "testset",
+        "JTT"
+      ],
+      "value": "12.70"
+    },
+    {
+      "row": [],
+      "col": [
+        "testset",
+        "WAG"
+      ],
+      "value": "14.37"
+    },
+    {
+      "row": [],
+      "col": [
+        "average"
+      ],
+      "value": "16.84"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Jukes-Cantor"
+    },
+    {
+      "row": [],
+      "col": [
+        "testset",
+        "Dayhoff"
+      ],
+      "value": "23.92"
+    },
+    {
+      "row": [],
+      "col": [
+        "testset",
+        "MV"
+      ],
+      "value": "16.28"
+    },
+    {
+      "row": [],
+      "col": [
+        "testset",
+        "JTT"
+      ],
+      "value": "19.88"
+    },
+    {
+      "row": [],
+      "col": [
+        "testset",
+        "WAG"
+      ],
+      "value": "22.48"
+    },
+    {
+      "row": [],
+      "col": [
+        "average"
+      ],
+      "value": "20.64"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Kimura"
+    },
+    {
+      "row": [],
+      "col": [
+        "testset",
+        "Dayhoff"
+      ],
+      "value": "16.24"
+    },
+    {
+      "row": [],
+      "col": [
+        "testset",
+        "MV"
+      ],
+      "value": "29.81"
+    },
+    {
+      "row": [],
+      "col": [
+        "testset",
+        "JTT"
+      ],
+      "value": "22.36"
+    },
+    {
+      "row": [],
+      "col": [
+        "testset",
+        "WAG"
+      ],
+      "value": "19.16"
+    },
+    {
+      "row": [],
+      "col": [
+        "average"
+      ],
+      "value": "21.89"
+    }
+  ]
+}

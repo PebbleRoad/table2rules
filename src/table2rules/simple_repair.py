@@ -186,70 +186,23 @@ def simple_repair(html: str) -> str:
                             active_rowspan = rowspan - 1
 
 
-    # --- Fix 6: Merge "Hanging" Description Rows (NEW) ---
-    # Detect rows that contain only text in the first cell (and empty elsewhere),
-    # and follow a fully-populated data row. These are likely wrapped descriptions.
-    # We do this BEFORE converting types to ensure we catch them while they are still just structure.
-    
-    i = 0
-    while i < len(actual_rows):
-        row = actual_rows[i]
-        cells = row.find_all(['td', 'th'], recursive=False)
-        
-        # Condition 1: Current row is "Sparse" (Text in 1st cell, others empty)
-        is_sparse = False
-        if cells:
-            first_cell_text = cells[0].get_text(strip=True)
-            first_cell_colspan = int(cells[0].get('colspan', 1))
-            
-            # Check if all other cells are empty
-            other_cells_empty = all(not c.get_text(strip=True) for c in cells[1:])
-            
-            # Additional check: Don't merge if it looks like a Summary Row
-            summary_keywords = ['total', 'subtotal', 'sub total', 'amount due', 'amount payable', 'balance', 'tax', 'vat', 'gst']
-            is_summary = any(first_cell_text.lower().startswith(kw) for kw in summary_keywords)
-            
-            # Don't merge if first cell has colspan > 1 (intentional spanning row)
-            # This prevents merging header rows, footer legends, section headers, etc.
-            has_colspan = first_cell_colspan > 1
-            
-            # Also don't merge if it's the only cell in the row (single-cell rows are intentional)
-            is_single_cell_row = len(cells) == 1
-            
-            if first_cell_text and other_cells_empty and not is_summary and not has_colspan and not is_single_cell_row:
-                is_sparse = True
-        
-        # Condition 2: Previous row has data and no active rowspan
-        if is_sparse and i > 0:
-            prev_row = actual_rows[i-1]
-            prev_cells = prev_row.find_all(['td', 'th'], recursive=False)
+    # --- Fix 6: Merge "Hanging" Description Rows ---
+    # Detects "wrap continuation" rows: a row with text in only the first cell
+    # (rest empty) that follows a fully-populated data row. Historically meant
+    # to rejoin labels that wrapped to a new line in some extractor outputs.
+    #
+    # In practice, this pattern is vastly more often a SECTION DIVIDER row
+    # (scientific / financial tables introducing a sub-group) than a genuine
+    # wrap continuation. Merging section dividers corrupts adjacent data
+    # rows (observed on PubTabNet, HiTab). So we only fire when the row is
+    # very likely to be a continuation:
+    #   - current sparse row has a wide trailing colspan  → section marker
+    #   - next row has a continuation-like shape          → probably wrap
+    # For now, the safer default is to NOT merge. The edge case where this
+    # merge was useful (single-column wrapped descriptions on narrow tables)
+    # hasn't resurfaced across the corpus and red-team fixtures.
 
-            # Check if previous row has data in columns 1+
-            # (This prevents merging two section headers together)
-            has_data = False
-            if len(prev_cells) > 1:
-                has_data = any(c.get_text(strip=True) for c in prev_cells[1:])
-
-            # Don't merge if the previous row has a rowspan that covers
-            # the current row — the sparse row is a sub-item within a
-            # rowspan group, not a wrapped description.
-            has_active_rowspan = any(
-                int(c.get('rowspan', 1)) > 1 for c in prev_cells
-            )
-
-            if has_data and not has_active_rowspan:
-                # MERGE LOGIC:
-                # Append current text to previous row's first cell
-                separator = " "  # Use space or newline
-                prev_cells[0].string = prev_cells[0].get_text(strip=True) + separator + cells[0].get_text(strip=True)
-                
-                # Delete the hanging row
-                row.decompose()
-                actual_rows.pop(i)
-                # Do NOT increment i, because the next row is now at index i
-                continue
-        
-        i += 1
+    # (merge loop intentionally disabled — see commit log for context)
 
 
     # --- Fix 2, 3, 5: Iterate remaining rows ---
@@ -286,7 +239,11 @@ def simple_repair(html: str) -> str:
                         continue 
 
         # --- Fix 5: Promote Summary Labels ---
-        if idx > 0: 
+        # Only applies in tbody — 'Total', 'Subtotal', etc. inside <thead>
+        # are legitimate column headers (PubTabNet-style financial tables
+        # have a 'Total' column under a 'Year Ended' grouping), and marking
+        # them scope="row" would hide them from the column-header walk.
+        if idx > 0 and not row.find_parent('thead'):
             for cell in cells:
                 if cell.name == 'td':
                     txt = cell.get_text(strip=True).lower()

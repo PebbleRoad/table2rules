@@ -1,0 +1,595 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "-0.016 \u00b1 0.026",
+    "-0.018 \u00b1 0.023",
+    "-0.018 \u00b1 0.024",
+    "-0.020 \u00b1 0.014",
+    "-0.020 \u00b1 0.024",
+    "-0.021 \u00b1 0.027",
+    "-0.023 \u00b1 0.029",
+    "-0.024 \u00b1 0.021",
+    "-0.025 \u00b1 0.021",
+    "-0.028 \u00b1 0.022",
+    "-0.029 \u00b1 0.018",
+    "-0.030 \u00b1 0.019",
+    "-0.036 \u00b1 0.026",
+    "0.001",
+    "0.002",
+    "0.006",
+    "0.006 \u00b1 0.019",
+    "0.008",
+    "0.010",
+    "0.012",
+    "0.015 \u00b1 0.016",
+    "0.017 \u00b1 0.021",
+    "0.019 \u00b1 0.021",
+    "0.019 \u00b1 0.026",
+    "0.020 \u00b1 0.014",
+    "0.020 \u00b1 0.023",
+    "0.021 \u00b1 0.025",
+    "0.021 \u00b1 0.031",
+    "0.022",
+    "0.023 \u00b1 0.018",
+    "0.023 \u00b1 0.024",
+    "0.024 \u00b1 0.017",
+    "0.031 \u00b1 0.021",
+    "0.25",
+    "0.61",
+    "0.77",
+    "0.84",
+    "0.90",
+    "1.19",
+    "1.51",
+    "3.28",
+    "<0.001",
+    "A \u2013 Expressed at higher levels in group II than in group I",
+    "B \u2013 Expressed at higher levels in group I than in group II",
+    "B2M",
+    "CASP9",
+    "CSF2RB",
+    "CTSB",
+    "CTSG",
+    "Candidate gene",
+    "FN1",
+    "Group I b",
+    "Group II b",
+    "IFNGR2",
+    "IL10RB",
+    "ITGB2",
+    "P c",
+    "PIG11",
+    "Q (%)",
+    "SDC2",
+    "STAT1",
+    "TNFRSF1A"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Candidate gene"
+      ],
+      "value": "A \u2013 Expressed at higher levels in group II than in group I"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group I b"
+      ],
+      "value": "A \u2013 Expressed at higher levels in group II than in group I"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group II b"
+      ],
+      "value": "A \u2013 Expressed at higher levels in group II than in group I"
+    },
+    {
+      "row": [],
+      "col": [
+        "Q (%)"
+      ],
+      "value": "A \u2013 Expressed at higher levels in group II than in group I"
+    },
+    {
+      "row": [],
+      "col": [
+        "P c"
+      ],
+      "value": "A \u2013 Expressed at higher levels in group II than in group I"
+    },
+    {
+      "row": [],
+      "col": [
+        "Candidate gene"
+      ],
+      "value": "CASP9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group I b"
+      ],
+      "value": "-0.029 \u00b1 0.018"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group II b"
+      ],
+      "value": "0.020 \u00b1 0.014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Q (%)"
+      ],
+      "value": "0.25"
+    },
+    {
+      "row": [],
+      "col": [
+        "P c"
+      ],
+      "value": "<0.001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Candidate gene"
+      ],
+      "value": "PIG11"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group I b"
+      ],
+      "value": "-0.025 \u00b1 0.021"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group II b"
+      ],
+      "value": "0.024 \u00b1 0.017"
+    },
+    {
+      "row": [],
+      "col": [
+        "Q (%)"
+      ],
+      "value": "0.25"
+    },
+    {
+      "row": [],
+      "col": [
+        "P c"
+      ],
+      "value": "<0.001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Candidate gene"
+      ],
+      "value": "CTSG"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group I b"
+      ],
+      "value": "-0.018 \u00b1 0.024"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group II b"
+      ],
+      "value": "0.031 \u00b1 0.021"
+    },
+    {
+      "row": [],
+      "col": [
+        "Q (%)"
+      ],
+      "value": "0.25"
+    },
+    {
+      "row": [],
+      "col": [
+        "P c"
+      ],
+      "value": "0.001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Candidate gene"
+      ],
+      "value": "CSF2RB"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group I b"
+      ],
+      "value": "-0.020 \u00b1 0.024"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group II b"
+      ],
+      "value": "0.019 \u00b1 0.021"
+    },
+    {
+      "row": [],
+      "col": [
+        "Q (%)"
+      ],
+      "value": "0.61"
+    },
+    {
+      "row": [],
+      "col": [
+        "P c"
+      ],
+      "value": "0.006"
+    },
+    {
+      "row": [],
+      "col": [
+        "Candidate gene"
+      ],
+      "value": "TNFRSF1A"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group I b"
+      ],
+      "value": "-0.023 \u00b1 0.029"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group II b"
+      ],
+      "value": "0.015 \u00b1 0.016"
+    },
+    {
+      "row": [],
+      "col": [
+        "Q (%)"
+      ],
+      "value": "0.77"
+    },
+    {
+      "row": [],
+      "col": [
+        "P c"
+      ],
+      "value": "0.010"
+    },
+    {
+      "row": [],
+      "col": [
+        "Candidate gene"
+      ],
+      "value": "IL10RB"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group I b"
+      ],
+      "value": "-0.021 \u00b1 0.027"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group II b"
+      ],
+      "value": "0.017 \u00b1 0.021"
+    },
+    {
+      "row": [],
+      "col": [
+        "Q (%)"
+      ],
+      "value": "0.90"
+    },
+    {
+      "row": [],
+      "col": [
+        "P c"
+      ],
+      "value": "0.012"
+    },
+    {
+      "row": [],
+      "col": [
+        "Candidate gene"
+      ],
+      "value": "B \u2013 Expressed at higher levels in group I than in group II"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group I b"
+      ],
+      "value": "B \u2013 Expressed at higher levels in group I than in group II"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group II b"
+      ],
+      "value": "B \u2013 Expressed at higher levels in group I than in group II"
+    },
+    {
+      "row": [],
+      "col": [
+        "Q (%)"
+      ],
+      "value": "B \u2013 Expressed at higher levels in group I than in group II"
+    },
+    {
+      "row": [],
+      "col": [
+        "P c"
+      ],
+      "value": "B \u2013 Expressed at higher levels in group I than in group II"
+    },
+    {
+      "row": [],
+      "col": [
+        "Candidate gene"
+      ],
+      "value": "FN1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group I b"
+      ],
+      "value": "0.023 \u00b1 0.018"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group II b"
+      ],
+      "value": "-0.030 \u00b1 0.019"
+    },
+    {
+      "row": [],
+      "col": [
+        "Q (%)"
+      ],
+      "value": "0.25"
+    },
+    {
+      "row": [],
+      "col": [
+        "P c"
+      ],
+      "value": "<0.001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Candidate gene"
+      ],
+      "value": "B2M"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group I b"
+      ],
+      "value": "0.020 \u00b1 0.023"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group II b"
+      ],
+      "value": "-0.028 \u00b1 0.022"
+    },
+    {
+      "row": [],
+      "col": [
+        "Q (%)"
+      ],
+      "value": "0.25"
+    },
+    {
+      "row": [],
+      "col": [
+        "P c"
+      ],
+      "value": "0.001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Candidate gene"
+      ],
+      "value": "SDC2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group I b"
+      ],
+      "value": "0.023 \u00b1 0.024"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group II b"
+      ],
+      "value": "-0.024 \u00b1 0.021"
+    },
+    {
+      "row": [],
+      "col": [
+        "Q (%)"
+      ],
+      "value": "0.25"
+    },
+    {
+      "row": [],
+      "col": [
+        "P c"
+      ],
+      "value": "0.001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Candidate gene"
+      ],
+      "value": "CTSB"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group I b"
+      ],
+      "value": "0.006 \u00b1 0.019"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group II b"
+      ],
+      "value": "-0.036 \u00b1 0.026"
+    },
+    {
+      "row": [],
+      "col": [
+        "Q (%)"
+      ],
+      "value": "0.84"
+    },
+    {
+      "row": [],
+      "col": [
+        "P c"
+      ],
+      "value": "0.002"
+    },
+    {
+      "row": [],
+      "col": [
+        "Candidate gene"
+      ],
+      "value": "STAT1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group I b"
+      ],
+      "value": "0.021 \u00b1 0.031"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group II b"
+      ],
+      "value": "-0.020 \u00b1 0.014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Q (%)"
+      ],
+      "value": "1.19"
+    },
+    {
+      "row": [],
+      "col": [
+        "P c"
+      ],
+      "value": "0.008"
+    },
+    {
+      "row": [],
+      "col": [
+        "Candidate gene"
+      ],
+      "value": "ITGB2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group I b"
+      ],
+      "value": "0.021 \u00b1 0.025"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group II b"
+      ],
+      "value": "-0.018 \u00b1 0.023"
+    },
+    {
+      "row": [],
+      "col": [
+        "Q (%)"
+      ],
+      "value": "1.51"
+    },
+    {
+      "row": [],
+      "col": [
+        "P c"
+      ],
+      "value": "0.008"
+    },
+    {
+      "row": [],
+      "col": [
+        "Candidate gene"
+      ],
+      "value": "IFNGR2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group I b"
+      ],
+      "value": "0.019 \u00b1 0.026"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group II b"
+      ],
+      "value": "-0.016 \u00b1 0.026"
+    },
+    {
+      "row": [],
+      "col": [
+        "Q (%)"
+      ],
+      "value": "3.28"
+    },
+    {
+      "row": [],
+      "col": [
+        "P c"
+      ],
+      "value": "0.022"
+    }
+  ]
+}

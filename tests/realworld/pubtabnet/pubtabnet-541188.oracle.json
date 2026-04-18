@@ -1,0 +1,505 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "1,38 \u00b1 0,2",
+    "1,94 \u00b1 0,24",
+    "1,98 \u00b1 0,41",
+    "12",
+    "128",
+    "171/152",
+    "2,18 \u00b1 0,34",
+    "2,2 \u00b1 0,24",
+    "2,21 \u00b1 0,23",
+    "2,27 \u00b1 0,3",
+    "2,46 \u00b1 0,44",
+    "2,52 \u00b1 0,45",
+    "2,57 \u00b1 0,40",
+    "2,60 \u00b1 0,38",
+    "22",
+    "223",
+    "24/73",
+    "29/19",
+    "3,32 \u00b1 0,3",
+    "323",
+    "34 \u00b1 12",
+    "35/9",
+    "39 \u00b1 12",
+    "4,5 \u00b1 0,45",
+    "41",
+    "41/15",
+    "44",
+    "47/29",
+    "48",
+    "5/7",
+    "51/21",
+    "53 \u00b1 11",
+    "56",
+    "56 \u00b1 17",
+    "57 \u00b1 17",
+    "6/14",
+    "61 \u00b1 16",
+    "62 \u00b1 16",
+    "63 \u00b1 16",
+    "64 \u00b1 112",
+    "64 \u00b1 14",
+    "68 \u00b1 12",
+    "68 \u00b1 17",
+    "69/24",
+    "72",
+    "72/251",
+    "74 \u00b1 13",
+    "76",
+    "84/44",
+    "93",
+    "97",
+    "Aortic insufficiency",
+    "Aortic stenosis",
+    "Athletes",
+    "CFR",
+    "DC",
+    "Graft-IMA (>3 mo.)",
+    "HCM",
+    "Hypertensive pts",
+    "LAD (<70%)",
+    "LAD (\u2265 70%)",
+    "Male/Female",
+    "Mean age(years)",
+    "Normal patients",
+    "Number",
+    "PCI- LAD (>3 mo.)",
+    "Post-AMI (>3 mo.)",
+    "Syndrome X"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Normal patients"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number"
+      ],
+      "value": "76"
+    },
+    {
+      "row": [],
+      "col": [
+        "Male/Female"
+      ],
+      "value": "47/29"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean age(years)"
+      ],
+      "value": "39 \u00b1 12"
+    },
+    {
+      "row": [],
+      "col": [
+        "CFR"
+      ],
+      "value": "3,32 \u00b1 0,3"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Syndrome X"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number"
+      ],
+      "value": "97"
+    },
+    {
+      "row": [],
+      "col": [
+        "Male/Female"
+      ],
+      "value": "24/73"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean age(years)"
+      ],
+      "value": "57 \u00b1 17"
+    },
+    {
+      "row": [],
+      "col": [
+        "CFR"
+      ],
+      "value": "2,27 \u00b1 0,3"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "LAD (\u2265 70%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number"
+      ],
+      "value": "223"
+    },
+    {
+      "row": [],
+      "col": [
+        "Male/Female"
+      ],
+      "value": "171/152"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean age(years)"
+      ],
+      "value": "63 \u00b1 16"
+    },
+    {
+      "row": [],
+      "col": [
+        "CFR"
+      ],
+      "value": "1,38 \u00b1 0,2"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "LAD (<70%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number"
+      ],
+      "value": "128"
+    },
+    {
+      "row": [],
+      "col": [
+        "Male/Female"
+      ],
+      "value": "84/44"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean age(years)"
+      ],
+      "value": "62 \u00b1 16"
+    },
+    {
+      "row": [],
+      "col": [
+        "CFR"
+      ],
+      "value": "2,2 \u00b1 0,24"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Hypertensive pts"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number"
+      ],
+      "value": "323"
+    },
+    {
+      "row": [],
+      "col": [
+        "Male/Female"
+      ],
+      "value": "72/251"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean age(years)"
+      ],
+      "value": "56 \u00b1 17"
+    },
+    {
+      "row": [],
+      "col": [
+        "CFR"
+      ],
+      "value": "2,46 \u00b1 0,44"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "DC"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number"
+      ],
+      "value": "48"
+    },
+    {
+      "row": [],
+      "col": [
+        "Male/Female"
+      ],
+      "value": "29/19"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean age(years)"
+      ],
+      "value": "64 \u00b1 112"
+    },
+    {
+      "row": [],
+      "col": [
+        "CFR"
+      ],
+      "value": "1,94 \u00b1 0,24"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "HCM"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number"
+      ],
+      "value": "44"
+    },
+    {
+      "row": [],
+      "col": [
+        "Male/Female"
+      ],
+      "value": "35/9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean age(years)"
+      ],
+      "value": "53 \u00b1 11"
+    },
+    {
+      "row": [],
+      "col": [
+        "CFR"
+      ],
+      "value": "2,21 \u00b1 0,23"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Aortic stenosis"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number"
+      ],
+      "value": "22"
+    },
+    {
+      "row": [],
+      "col": [
+        "Male/Female"
+      ],
+      "value": "6/14"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean age(years)"
+      ],
+      "value": "74 \u00b1 13"
+    },
+    {
+      "row": [],
+      "col": [
+        "CFR"
+      ],
+      "value": "2,18 \u00b1 0,34"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Aortic insufficiency"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number"
+      ],
+      "value": "12"
+    },
+    {
+      "row": [],
+      "col": [
+        "Male/Female"
+      ],
+      "value": "5/7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean age(years)"
+      ],
+      "value": "68 \u00b1 12"
+    },
+    {
+      "row": [],
+      "col": [
+        "CFR"
+      ],
+      "value": "2,57 \u00b1 0,40"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "PCI- LAD (>3 mo.)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number"
+      ],
+      "value": "72"
+    },
+    {
+      "row": [],
+      "col": [
+        "Male/Female"
+      ],
+      "value": "51/21"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean age(years)"
+      ],
+      "value": "61 \u00b1 16"
+    },
+    {
+      "row": [],
+      "col": [
+        "CFR"
+      ],
+      "value": "2,52 \u00b1 0,45"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Graft-IMA (>3 mo.)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number"
+      ],
+      "value": "56"
+    },
+    {
+      "row": [],
+      "col": [
+        "Male/Female"
+      ],
+      "value": "41/15"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean age(years)"
+      ],
+      "value": "64 \u00b1 14"
+    },
+    {
+      "row": [],
+      "col": [
+        "CFR"
+      ],
+      "value": "2,60 \u00b1 0,38"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Post-AMI (>3 mo.)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number"
+      ],
+      "value": "93"
+    },
+    {
+      "row": [],
+      "col": [
+        "Male/Female"
+      ],
+      "value": "69/24"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean age(years)"
+      ],
+      "value": "68 \u00b1 17"
+    },
+    {
+      "row": [],
+      "col": [
+        "CFR"
+      ],
+      "value": "1,98 \u00b1 0,41"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Athletes"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number"
+      ],
+      "value": "41"
+    },
+    {
+      "row": [],
+      "col": [
+        "Male/Female"
+      ],
+      "value": "41"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean age(years)"
+      ],
+      "value": "34 \u00b1 12"
+    },
+    {
+      "row": [],
+      "col": [
+        "CFR"
+      ],
+      "value": "4,5 \u00b1 0,45"
+    }
+  ]
+}

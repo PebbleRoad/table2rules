@@ -1,0 +1,321 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "% PPH",
+    "0.0001",
+    "10",
+    "11",
+    "216",
+    "23",
+    "249",
+    "32",
+    "34.6",
+    "380",
+    "39.7",
+    "433",
+    "44.4",
+    "441",
+    "454",
+    "455",
+    "46.2",
+    "46.3",
+    "46.4",
+    "46.9",
+    "54.5",
+    "60.0",
+    "73.8",
+    "76.5",
+    "<0.0001",
+    "Anxiety",
+    "Compulsive disorders",
+    "Depressive disorders",
+    "Diagnose",
+    "Eating disorders",
+    "NS",
+    "No",
+    "Number",
+    "P-value",
+    "Probable alcohol abuse/dependent",
+    "Social phobia",
+    "Yes"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Diagnose"
+      ],
+      "value": "Depressive disorders"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number",
+        "Yes"
+      ],
+      "value": "216"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number",
+        "No"
+      ],
+      "value": "249"
+    },
+    {
+      "row": [],
+      "col": [
+        "% PPH",
+        "Yes"
+      ],
+      "value": "73.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "% PPH",
+        "No"
+      ],
+      "value": "34.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "P-value"
+      ],
+      "value": "<0.0001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Diagnose"
+      ],
+      "value": "Anxiety"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number",
+        "Yes"
+      ],
+      "value": "216"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number",
+        "No"
+      ],
+      "value": "380"
+    },
+    {
+      "row": [],
+      "col": [
+        "% PPH",
+        "Yes"
+      ],
+      "value": "76.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "% PPH",
+        "No"
+      ],
+      "value": "39.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "P-value"
+      ],
+      "value": "<0.0001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Diagnose"
+      ],
+      "value": "Compulsive disorders"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number",
+        "Yes"
+      ],
+      "value": "23"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number",
+        "No"
+      ],
+      "value": "441"
+    },
+    {
+      "row": [],
+      "col": [
+        "% PPH",
+        "Yes"
+      ],
+      "value": "76.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "% PPH",
+        "No"
+      ],
+      "value": "44.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "P-value"
+      ],
+      "value": "0.0001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Diagnose"
+      ],
+      "value": "Social phobia"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number",
+        "Yes"
+      ],
+      "value": "10"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number",
+        "No"
+      ],
+      "value": "455"
+    },
+    {
+      "row": [],
+      "col": [
+        "% PPH",
+        "Yes"
+      ],
+      "value": "60.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "% PPH",
+        "No"
+      ],
+      "value": "46.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "P-value"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Diagnose"
+      ],
+      "value": "Probable alcohol abuse/dependent"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number",
+        "Yes"
+      ],
+      "value": "32"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number",
+        "No"
+      ],
+      "value": "433"
+    },
+    {
+      "row": [],
+      "col": [
+        "% PPH",
+        "Yes"
+      ],
+      "value": "46.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "% PPH",
+        "No"
+      ],
+      "value": "46.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "P-value"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Diagnose"
+      ],
+      "value": "Eating disorders"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number",
+        "Yes"
+      ],
+      "value": "11"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number",
+        "No"
+      ],
+      "value": "454"
+    },
+    {
+      "row": [],
+      "col": [
+        "% PPH",
+        "Yes"
+      ],
+      "value": "54.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "% PPH",
+        "No"
+      ],
+      "value": "46.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "P-value"
+      ],
+      "value": "NS"
+    }
+  ]
+}

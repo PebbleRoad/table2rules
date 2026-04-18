@@ -1,0 +1,664 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "%",
+    "0.007",
+    "0.10",
+    "0.97",
+    "10.1",
+    "11.4",
+    "11.7",
+    "12",
+    "12.6",
+    "126",
+    "13.9",
+    "14.6",
+    "15",
+    "15.2",
+    "16",
+    "16.3",
+    "17",
+    "18",
+    "18.4",
+    "2.9",
+    "20",
+    "20.8",
+    "21.0",
+    "21.5",
+    "22",
+    "25",
+    "26",
+    "28",
+    "29",
+    "33",
+    "34",
+    "36",
+    "4.1",
+    "42.4",
+    "5",
+    "5.0",
+    "50.6",
+    "50.8",
+    "53.2",
+    "6",
+    "60.7",
+    "67",
+    "7",
+    "7.6",
+    "73.6",
+    "8",
+    "8.8",
+    "80",
+    "87",
+    "9.5",
+    "9.9",
+    "91",
+    "96",
+    "Allergic rhinitis",
+    "Asthma",
+    "Case (n = 158)",
+    "Control (n = 171)",
+    "Eczema as a Child",
+    "Father",
+    "More than one in the family",
+    "Mother",
+    "No",
+    "Sibling",
+    "n",
+    "p-value"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Asthma"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "No"
+    },
+    {
+      "row": [],
+      "col": [
+        "Case (n = 158)",
+        "n"
+      ],
+      "value": "96"
+    },
+    {
+      "row": [],
+      "col": [
+        "Case (n = 158)",
+        "%"
+      ],
+      "value": "60.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control (n = 171)",
+        "n"
+      ],
+      "value": "126"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control (n = 171)",
+        "%"
+      ],
+      "value": "73.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "p-value"
+      ],
+      "value": "0.007"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Father"
+    },
+    {
+      "row": [],
+      "col": [
+        "Case (n = 158)",
+        "n"
+      ],
+      "value": "12"
+    },
+    {
+      "row": [],
+      "col": [
+        "Case (n = 158)",
+        "%"
+      ],
+      "value": "7.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control (n = 171)",
+        "n"
+      ],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control (n = 171)",
+        "%"
+      ],
+      "value": "4.1"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Mother"
+    },
+    {
+      "row": [],
+      "col": [
+        "Case (n = 158)",
+        "n"
+      ],
+      "value": "12"
+    },
+    {
+      "row": [],
+      "col": [
+        "Case (n = 158)",
+        "%"
+      ],
+      "value": "7.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control (n = 171)",
+        "n"
+      ],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control (n = 171)",
+        "%"
+      ],
+      "value": "4.1"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "More than one in the family"
+    },
+    {
+      "row": [],
+      "col": [
+        "Case (n = 158)",
+        "n"
+      ],
+      "value": "18"
+    },
+    {
+      "row": [],
+      "col": [
+        "Case (n = 158)",
+        "%"
+      ],
+      "value": "11.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control (n = 171)",
+        "n"
+      ],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control (n = 171)",
+        "%"
+      ],
+      "value": "2.9"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Sibling"
+    },
+    {
+      "row": [],
+      "col": [
+        "Case (n = 158)",
+        "n"
+      ],
+      "value": "20"
+    },
+    {
+      "row": [],
+      "col": [
+        "Case (n = 158)",
+        "%"
+      ],
+      "value": "12.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control (n = 171)",
+        "n"
+      ],
+      "value": "26"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control (n = 171)",
+        "%"
+      ],
+      "value": "15.2"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Allergic rhinitis"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "No"
+    },
+    {
+      "row": [],
+      "col": [
+        "Case (n = 158)",
+        "n"
+      ],
+      "value": "67"
+    },
+    {
+      "row": [],
+      "col": [
+        "Case (n = 158)",
+        "%"
+      ],
+      "value": "42.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control (n = 171)",
+        "n"
+      ],
+      "value": "91"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control (n = 171)",
+        "%"
+      ],
+      "value": "53.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "p-value"
+      ],
+      "value": "0.10"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Father"
+    },
+    {
+      "row": [],
+      "col": [
+        "Case (n = 158)",
+        "n"
+      ],
+      "value": "16"
+    },
+    {
+      "row": [],
+      "col": [
+        "Case (n = 158)",
+        "%"
+      ],
+      "value": "10.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control (n = 171)",
+        "n"
+      ],
+      "value": "20"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control (n = 171)",
+        "%"
+      ],
+      "value": "11.7"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Mother"
+    },
+    {
+      "row": [],
+      "col": [
+        "Case (n = 158)",
+        "n"
+      ],
+      "value": "29"
+    },
+    {
+      "row": [],
+      "col": [
+        "Case (n = 158)",
+        "%"
+      ],
+      "value": "18.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control (n = 171)",
+        "n"
+      ],
+      "value": "17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control (n = 171)",
+        "%"
+      ],
+      "value": "9.9"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "More than one in the family"
+    },
+    {
+      "row": [],
+      "col": [
+        "Case (n = 158)",
+        "n"
+      ],
+      "value": "34"
+    },
+    {
+      "row": [],
+      "col": [
+        "Case (n = 158)",
+        "%"
+      ],
+      "value": "21.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control (n = 171)",
+        "n"
+      ],
+      "value": "28"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control (n = 171)",
+        "%"
+      ],
+      "value": "16.3"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Sibling"
+    },
+    {
+      "row": [],
+      "col": [
+        "Case (n = 158)",
+        "n"
+      ],
+      "value": "12"
+    },
+    {
+      "row": [],
+      "col": [
+        "Case (n = 158)",
+        "%"
+      ],
+      "value": "7.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control (n = 171)",
+        "n"
+      ],
+      "value": "15"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control (n = 171)",
+        "%"
+      ],
+      "value": "8.8"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Eczema as a Child"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "No"
+    },
+    {
+      "row": [],
+      "col": [
+        "Case (n = 158)",
+        "n"
+      ],
+      "value": "80"
+    },
+    {
+      "row": [],
+      "col": [
+        "Case (n = 158)",
+        "%"
+      ],
+      "value": "50.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control (n = 171)",
+        "n"
+      ],
+      "value": "87"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control (n = 171)",
+        "%"
+      ],
+      "value": "50.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "p-value"
+      ],
+      "value": "0.97"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Father"
+    },
+    {
+      "row": [],
+      "col": [
+        "Case (n = 158)",
+        "n"
+      ],
+      "value": "8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Case (n = 158)",
+        "%"
+      ],
+      "value": "5.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control (n = 171)",
+        "n"
+      ],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control (n = 171)",
+        "%"
+      ],
+      "value": "2.9"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Mother"
+    },
+    {
+      "row": [],
+      "col": [
+        "Case (n = 158)",
+        "n"
+      ],
+      "value": "15"
+    },
+    {
+      "row": [],
+      "col": [
+        "Case (n = 158)",
+        "%"
+      ],
+      "value": "9.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control (n = 171)",
+        "n"
+      ],
+      "value": "17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control (n = 171)",
+        "%"
+      ],
+      "value": "9.9"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "More than one in the family"
+    },
+    {
+      "row": [],
+      "col": [
+        "Case (n = 158)",
+        "n"
+      ],
+      "value": "22"
+    },
+    {
+      "row": [],
+      "col": [
+        "Case (n = 158)",
+        "%"
+      ],
+      "value": "13.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control (n = 171)",
+        "n"
+      ],
+      "value": "25"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control (n = 171)",
+        "%"
+      ],
+      "value": "14.6"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Sibling"
+    },
+    {
+      "row": [],
+      "col": [
+        "Case (n = 158)",
+        "n"
+      ],
+      "value": "33"
+    },
+    {
+      "row": [],
+      "col": [
+        "Case (n = 158)",
+        "%"
+      ],
+      "value": "20.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control (n = 171)",
+        "n"
+      ],
+      "value": "36"
+    },
+    {
+      "row": [],
+      "col": [
+        "Control (n = 171)",
+        "%"
+      ],
+      "value": "21.0"
+    }
+  ]
+}

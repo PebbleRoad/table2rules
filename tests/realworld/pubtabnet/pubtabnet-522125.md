@@ -1,0 +1,403 @@
+<!-- source: PubTabNet imgid=522125 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+</td>
+<td colspan="3">
+<b>
+       Glucose
+      </b>
+</td>
+<td colspan="3">
+<b>
+       Sucrose
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<b>
+       RT
+      </b>
+</td>
+<td>
+<b>
+       30°C
+      </b>
+</td>
+<td>
+<b>
+       37°C
+      </b>
+</td>
+<td>
+<b>
+       RT
+      </b>
+</td>
+<td>
+<b>
+       30°C
+      </b>
+</td>
+<td>
+<b>
+       37°C
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<b>
+       YPH499
+      </b>
+</td>
+<td>
+      +++++
+     </td>
+<td>
+      ++++
+     </td>
+<td>
+      +++++
+     </td>
+<td>
+      ++++
+     </td>
+<td>
+      +++++
+     </td>
+<td>
+      +++++
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       YL09-01
+      </b>
+</td>
+<td>
+      +++++
+     </td>
+<td>
+      ++++
+     </td>
+<td>
+      +++++
+     </td>
+<td>
+      ++++
+     </td>
+<td>
+      +++++
+     </td>
+<td>
+      +++++
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       YL10-01
+      </b>
+</td>
+<td>
+      +++++
+     </td>
+<td>
+      +++
+     </td>
+<td>
+      +++
+     </td>
+<td>
+      ++
+     </td>
+<td>
+      ++++
+     </td>
+<td>
+      ++
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       YL10-02
+      </b>
+</td>
+<td>
+      +++++
+     </td>
+<td>
+      +++
+     </td>
+<td>
+      +++
+     </td>
+<td>
+      ++
+     </td>
+<td>
+      ++++
+     </td>
+<td>
+      ++
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       YL10-03
+      </b>
+</td>
+<td>
+      +++++
+     </td>
+<td>
+      ++++
+     </td>
+<td>
+      +++++
+     </td>
+<td>
+      ++++
+     </td>
+<td>
+      +++++
+     </td>
+<td>
+      +++++
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       YL03-47
+      </b>
+</td>
+<td>
+      +++++
+     </td>
+<td>
+      ++++
+     </td>
+<td>
+      +++++
+     </td>
+<td>
+      ++++
+     </td>
+<td>
+      +++++
+     </td>
+<td>
+      +++++
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="3">
+<b>
+       Raffinose
+      </b>
+</td>
+<td colspan="3">
+<b>
+       Galactose
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<b>
+       RT
+      </b>
+</td>
+<td>
+<b>
+       30°C
+      </b>
+</td>
+<td>
+<b>
+       37°C
+      </b>
+</td>
+<td>
+<b>
+       RT
+      </b>
+</td>
+<td>
+<b>
+       30°C
+      </b>
+</td>
+<td>
+<b>
+       37°C
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+<b>
+       YPH499
+      </b>
+</td>
+<td>
+      +++
+     </td>
+<td>
+      +++++
+     </td>
+<td>
+      +++
+     </td>
+<td>
+      ++
+     </td>
+<td>
+      +++++
+     </td>
+<td>
+      ++
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       YL09-01
+      </b>
+</td>
+<td>
+      +++
+     </td>
+<td>
+      +++++
+     </td>
+<td>
+      +++
+     </td>
+<td>
+      ++
+     </td>
+<td>
+      +++++
+     </td>
+<td>
+      ++
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       YL10-01
+      </b>
+</td>
+<td>
+      +
+     </td>
+<td>
+      ++
+     </td>
+<td>
+      +
+     </td>
+<td>
+      -
+     </td>
+<td>
+      -
+     </td>
+<td>
+      -
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       YL10-02
+      </b>
+</td>
+<td>
+      +
+     </td>
+<td>
+      ++
+     </td>
+<td>
+      +
+     </td>
+<td>
+      -
+     </td>
+<td>
+      -
+     </td>
+<td>
+      -
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       YL10-03
+      </b>
+</td>
+<td>
+      +++
+     </td>
+<td>
+      +++++
+     </td>
+<td>
+      +++
+     </td>
+<td>
+      ++
+     </td>
+<td>
+      +++++
+     </td>
+<td>
+      ++
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       YL03-47
+      </b>
+</td>
+<td>
+      +++
+     </td>
+<td>
+      +++++
+     </td>
+<td>
+      +++
+     </td>
+<td>
+      ++
+     </td>
+<td>
+      +++++
+     </td>
+<td>
+      ++
+     </td>
+</tr>
+</tbody>
+</table>

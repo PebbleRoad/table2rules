@@ -1,0 +1,345 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "1.19",
+    "1.44",
+    "1.46",
+    "1.50",
+    "1.53",
+    "2.16",
+    "34.4",
+    "39.2",
+    "39.3",
+    "4.70",
+    "42.9",
+    "44.6",
+    "47.2",
+    "5.69",
+    "55.4",
+    "57.1",
+    "62.8",
+    "63.0",
+    "66.9",
+    "70.7",
+    "72.7",
+    "79.3",
+    "8.26",
+    "91.7",
+    "95.8",
+    "Anti-CCP",
+    "Anti-Sa",
+    "Autoantibody",
+    "Measure",
+    "Outcomes at 30 months",
+    "Persistence",
+    "Positive LR",
+    "RA criteria",
+    "RF",
+    "Sensitivity",
+    "Severity",
+    "Specificity"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Autoantibody"
+      ],
+      "value": "RF"
+    },
+    {
+      "row": [],
+      "col": [
+        "Measure"
+      ],
+      "value": "Sensitivity"
+    },
+    {
+      "row": [],
+      "col": [
+        "Outcomes at 30 months",
+        "Persistence"
+      ],
+      "value": "47.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Outcomes at 30 months",
+        "RA criteria"
+      ],
+      "value": "57.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Outcomes at 30 months",
+        "Severity"
+      ],
+      "value": "55.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Measure"
+      ],
+      "value": "Specificity"
+    },
+    {
+      "row": [],
+      "col": [
+        "Outcomes at 30 months",
+        "Persistence"
+      ],
+      "value": "91.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Outcomes at 30 months",
+        "RA criteria"
+      ],
+      "value": "62.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Outcomes at 30 months",
+        "Severity"
+      ],
+      "value": "63.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Measure"
+      ],
+      "value": "Positive LR"
+    },
+    {
+      "row": [],
+      "col": [
+        "Outcomes at 30 months",
+        "Persistence"
+      ],
+      "value": "5.69"
+    },
+    {
+      "row": [],
+      "col": [
+        "Outcomes at 30 months",
+        "RA criteria"
+      ],
+      "value": "1.53"
+    },
+    {
+      "row": [],
+      "col": [
+        "Outcomes at 30 months",
+        "Severity"
+      ],
+      "value": "1.50"
+    },
+    {
+      "row": [],
+      "col": [
+        "Autoantibody"
+      ],
+      "value": "Anti-Sa"
+    },
+    {
+      "row": [],
+      "col": [
+        "Measure"
+      ],
+      "value": "Sensitivity"
+    },
+    {
+      "row": [],
+      "col": [
+        "Outcomes at 30 months",
+        "Persistence"
+      ],
+      "value": "34.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Outcomes at 30 months",
+        "RA criteria"
+      ],
+      "value": "39.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Outcomes at 30 months",
+        "Severity"
+      ],
+      "value": "44.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Measure"
+      ],
+      "value": "Specificity"
+    },
+    {
+      "row": [],
+      "col": [
+        "Outcomes at 30 months",
+        "Persistence"
+      ],
+      "value": "95.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Outcomes at 30 months",
+        "RA criteria"
+      ],
+      "value": "72.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Outcomes at 30 months",
+        "Severity"
+      ],
+      "value": "79.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Measure"
+      ],
+      "value": "Positive LR"
+    },
+    {
+      "row": [],
+      "col": [
+        "Outcomes at 30 months",
+        "Persistence"
+      ],
+      "value": "8.26"
+    },
+    {
+      "row": [],
+      "col": [
+        "Outcomes at 30 months",
+        "RA criteria"
+      ],
+      "value": "1.44"
+    },
+    {
+      "row": [],
+      "col": [
+        "Outcomes at 30 months",
+        "Severity"
+      ],
+      "value": "2.16"
+    },
+    {
+      "row": [],
+      "col": [
+        "Autoantibody"
+      ],
+      "value": "Anti-CCP"
+    },
+    {
+      "row": [],
+      "col": [
+        "Measure"
+      ],
+      "value": "Sensitivity"
+    },
+    {
+      "row": [],
+      "col": [
+        "Outcomes at 30 months",
+        "Persistence"
+      ],
+      "value": "39.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Outcomes at 30 months",
+        "RA criteria"
+      ],
+      "value": "39.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Outcomes at 30 months",
+        "Severity"
+      ],
+      "value": "42.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Measure"
+      ],
+      "value": "Specificity"
+    },
+    {
+      "row": [],
+      "col": [
+        "Outcomes at 30 months",
+        "Persistence"
+      ],
+      "value": "91.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Outcomes at 30 months",
+        "RA criteria"
+      ],
+      "value": "66.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Outcomes at 30 months",
+        "Severity"
+      ],
+      "value": "70.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Measure"
+      ],
+      "value": "Positive LR"
+    },
+    {
+      "row": [],
+      "col": [
+        "Outcomes at 30 months",
+        "Persistence"
+      ],
+      "value": "4.70"
+    },
+    {
+      "row": [],
+      "col": [
+        "Outcomes at 30 months",
+        "RA criteria"
+      ],
+      "value": "1.19"
+    },
+    {
+      "row": [],
+      "col": [
+        "Outcomes at 30 months",
+        "Severity"
+      ],
+      "value": "1.46"
+    }
+  ]
+}

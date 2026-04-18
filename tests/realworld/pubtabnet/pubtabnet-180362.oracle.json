@@ -1,0 +1,590 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0.00002",
+    "0.00003",
+    "0.00005",
+    "0.00008",
+    "0.0001",
+    "0.0002",
+    "0.0003",
+    "0.0004",
+    "0.0005",
+    "0.0006",
+    "0.002",
+    "0.004",
+    "0.006",
+    "0.007",
+    "0.0097",
+    "<0.00001",
+    "Cytokine",
+    "EGF",
+    "Early RA versus all other early synovitis",
+    "Early RA versus established RA",
+    "Eotaxin",
+    "G-CSF",
+    "GM-CSF",
+    "IL-1",
+    "IL-12",
+    "IL-13",
+    "IL-15",
+    "IL-17",
+    "IL-2",
+    "IL-4",
+    "MIP-1\u03b1",
+    "MIP-1\u03b2",
+    "NS",
+    "P",
+    "Q",
+    "bFGF"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Cytokine"
+      ],
+      "value": "IL-13"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus all other early synovitis",
+        "P"
+      ],
+      "value": "<0.00001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus all other early synovitis",
+        "Q"
+      ],
+      "value": "0.00002"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus established RA",
+        "P"
+      ],
+      "value": "0.00008"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus established RA",
+        "Q"
+      ],
+      "value": "0.0004"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cytokine"
+      ],
+      "value": "EGF"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus all other early synovitis",
+        "P"
+      ],
+      "value": "<0.00001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus all other early synovitis",
+        "Q"
+      ],
+      "value": "0.00002"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus established RA",
+        "P"
+      ],
+      "value": "0.002"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus established RA",
+        "Q"
+      ],
+      "value": "0.007"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cytokine"
+      ],
+      "value": "bFGF"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus all other early synovitis",
+        "P"
+      ],
+      "value": "<0.00001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus all other early synovitis",
+        "Q"
+      ],
+      "value": "0.00002"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus established RA",
+        "P"
+      ],
+      "value": "0.002"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus established RA",
+        "Q"
+      ],
+      "value": "0.007"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cytokine"
+      ],
+      "value": "IL-4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus all other early synovitis",
+        "P"
+      ],
+      "value": "<0.00001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus all other early synovitis",
+        "Q"
+      ],
+      "value": "0.00002"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus established RA",
+        "P"
+      ],
+      "value": "0.004"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus established RA",
+        "Q"
+      ],
+      "value": "0.0097"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cytokine"
+      ],
+      "value": "IL-2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus all other early synovitis",
+        "P"
+      ],
+      "value": "<0.00001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus all other early synovitis",
+        "Q"
+      ],
+      "value": "0.00002"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus established RA",
+        "P"
+      ],
+      "value": "0.004"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus established RA",
+        "Q"
+      ],
+      "value": "0.0097"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cytokine"
+      ],
+      "value": "Eotaxin"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus all other early synovitis",
+        "P"
+      ],
+      "value": "0.00003"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus all other early synovitis",
+        "Q"
+      ],
+      "value": "0.0002"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus established RA",
+        "P"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus established RA",
+        "Q"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cytokine"
+      ],
+      "value": "IL-1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus all other early synovitis",
+        "P"
+      ],
+      "value": "0.00003"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus all other early synovitis",
+        "Q"
+      ],
+      "value": "0.0002"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus established RA",
+        "P"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus established RA",
+        "Q"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cytokine"
+      ],
+      "value": "IL-17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus all other early synovitis",
+        "P"
+      ],
+      "value": "0.00005"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus all other early synovitis",
+        "Q"
+      ],
+      "value": "0.0003"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus established RA",
+        "P"
+      ],
+      "value": "0.002"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus established RA",
+        "Q"
+      ],
+      "value": "0.007"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cytokine"
+      ],
+      "value": "IL-15"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus all other early synovitis",
+        "P"
+      ],
+      "value": "0.0001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus all other early synovitis",
+        "Q"
+      ],
+      "value": "0.0005"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus established RA",
+        "P"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus established RA",
+        "Q"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cytokine"
+      ],
+      "value": "MIP-1\u03b2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus all other early synovitis",
+        "P"
+      ],
+      "value": "0.0005"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus all other early synovitis",
+        "Q"
+      ],
+      "value": "0.002"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus established RA",
+        "P"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus established RA",
+        "Q"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cytokine"
+      ],
+      "value": "MIP-1\u03b1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus all other early synovitis",
+        "P"
+      ],
+      "value": "0.0006"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus all other early synovitis",
+        "Q"
+      ],
+      "value": "0.002"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus established RA",
+        "P"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus established RA",
+        "Q"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cytokine"
+      ],
+      "value": "IL-12"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus all other early synovitis",
+        "P"
+      ],
+      "value": "0.002"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus all other early synovitis",
+        "Q"
+      ],
+      "value": "0.006"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus established RA",
+        "P"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus established RA",
+        "Q"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cytokine"
+      ],
+      "value": "GM-CSF"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus all other early synovitis",
+        "P"
+      ],
+      "value": "0.002"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus all other early synovitis",
+        "Q"
+      ],
+      "value": "0.006"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus established RA",
+        "P"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus established RA",
+        "Q"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cytokine"
+      ],
+      "value": "G-CSF"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus all other early synovitis",
+        "P"
+      ],
+      "value": "0.004"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus all other early synovitis",
+        "Q"
+      ],
+      "value": "0.0097"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus established RA",
+        "P"
+      ],
+      "value": "NS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Early RA versus established RA",
+        "Q"
+      ],
+      "value": "NS"
+    }
+  ]
+}

@@ -1,0 +1,605 @@
+<!-- source: PubTabNet imgid=297277 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+</td>
+<td colspan="4">
+<b>
+       Textractor
+      </b>
+</td>
+<td colspan="4">
+<b>
+       NLProt
+      </b>
+</td>
+<td>
+<b>
+       Union
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<b>
+       PubMedID
+      </b>
+</td>
+<td>
+<b>
+       Correct
+      </b>
+</td>
+<td>
+<b>
+       Incorrect
+      </b>
+</td>
+<td>
+<b>
+       Precision
+      </b>
+</td>
+<td>
+<b>
+       Rel. Recall
+      </b>
+</td>
+<td>
+<b>
+       Correct
+      </b>
+</td>
+<td>
+<b>
+       Incorrect
+      </b>
+</td>
+<td>
+<b>
+       Precision
+      </b>
+</td>
+<td>
+<b>
+       Rel. Recall
+      </b>
+</td>
+<td>
+<b>
+       Correct
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+      12629548
+     </td>
+<td>
+      41
+     </td>
+<td>
+      19
+     </td>
+<td>
+      68%
+     </td>
+<td>
+      67%
+     </td>
+<td>
+      37
+     </td>
+<td>
+      77
+     </td>
+<td>
+      32%
+     </td>
+<td>
+      59%
+     </td>
+<td>
+      63
+     </td>
+</tr>
+<tr>
+<td>
+      12629549
+     </td>
+<td>
+      38
+     </td>
+<td>
+      3
+     </td>
+<td>
+      93%
+     </td>
+<td>
+      84%
+     </td>
+<td>
+      32
+     </td>
+<td>
+      79
+     </td>
+<td>
+      29%
+     </td>
+<td>
+      40%
+     </td>
+<td>
+      50
+     </td>
+</tr>
+<tr>
+<td>
+      12640462
+     </td>
+<td>
+      23
+     </td>
+<td>
+      17
+     </td>
+<td>
+      58%
+     </td>
+<td>
+      100%
+     </td>
+<td>
+      1
+     </td>
+<td>
+      13
+     </td>
+<td>
+      7%
+     </td>
+<td>
+      4%
+     </td>
+<td>
+      23
+     </td>
+</tr>
+<tr>
+<td>
+      12640463
+     </td>
+<td>
+      18
+     </td>
+<td>
+      17
+     </td>
+<td>
+      51%
+     </td>
+<td>
+      36%
+     </td>
+<td>
+      46
+     </td>
+<td>
+      77
+     </td>
+<td>
+      37%
+     </td>
+<td>
+      87%
+     </td>
+<td>
+      53
+     </td>
+</tr>
+<tr>
+<td>
+      12640464
+     </td>
+<td>
+      67
+     </td>
+<td>
+      18
+     </td>
+<td>
+      79%
+     </td>
+<td>
+      72%
+     </td>
+<td>
+      50
+     </td>
+<td>
+      26
+     </td>
+<td>
+      66%
+     </td>
+<td>
+      50%
+     </td>
+<td>
+      100
+     </td>
+</tr>
+<tr>
+<td>
+      12669071
+     </td>
+<td>
+      14
+     </td>
+<td>
+      8
+     </td>
+<td>
+      64%
+     </td>
+<td>
+      54%
+     </td>
+<td>
+      19
+     </td>
+<td>
+      35
+     </td>
+<td>
+      35%
+     </td>
+<td>
+      73%
+     </td>
+<td>
+      26
+     </td>
+</tr>
+<tr>
+<td>
+      12669072
+     </td>
+<td>
+      14
+     </td>
+<td>
+      3
+     </td>
+<td>
+      82%
+     </td>
+<td>
+      65%
+     </td>
+<td>
+      18
+     </td>
+<td>
+      27
+     </td>
+<td>
+      40%
+     </td>
+<td>
+      51%
+     </td>
+<td>
+      26
+     </td>
+</tr>
+<tr>
+<td>
+      12669073
+     </td>
+<td>
+      27
+     </td>
+<td>
+      1
+     </td>
+<td>
+      96%
+     </td>
+<td>
+      81%
+     </td>
+<td>
+      25
+     </td>
+<td>
+      31
+     </td>
+<td>
+      45%
+     </td>
+<td>
+      53%
+     </td>
+<td>
+      39
+     </td>
+</tr>
+<tr>
+<td>
+      12669075
+     </td>
+<td>
+      19
+     </td>
+<td>
+      7
+     </td>
+<td>
+      73%
+     </td>
+<td>
+      73%
+     </td>
+<td>
+      16
+     </td>
+<td>
+      26
+     </td>
+<td>
+      38%
+     </td>
+<td>
+      47%
+     </td>
+<td>
+      26
+     </td>
+</tr>
+<tr>
+<td>
+      12669077
+     </td>
+<td>
+      19
+     </td>
+<td>
+      5
+     </td>
+<td>
+      79%
+     </td>
+<td>
+      73%
+     </td>
+<td>
+      16
+     </td>
+<td>
+      38
+     </td>
+<td>
+      30%
+     </td>
+<td>
+      39%
+     </td>
+<td>
+      28
+     </td>
+</tr>
+<tr>
+<td>
+      12669082
+     </td>
+<td>
+      86
+     </td>
+<td>
+      26
+     </td>
+<td>
+      77%
+     </td>
+<td>
+      68%
+     </td>
+<td>
+      82
+     </td>
+<td>
+      87
+     </td>
+<td>
+      49%
+     </td>
+<td>
+      65%
+     </td>
+<td>
+      126
+     </td>
+</tr>
+<tr>
+<td>
+      12669083
+     </td>
+<td>
+      64
+     </td>
+<td>
+      13
+     </td>
+<td>
+      83%
+     </td>
+<td>
+      58%
+     </td>
+<td>
+      81
+     </td>
+<td>
+      74
+     </td>
+<td>
+      52%
+     </td>
+<td>
+      72%
+     </td>
+<td>
+      112
+     </td>
+</tr>
+<tr>
+<td>
+      12679784
+     </td>
+<td>
+      25
+     </td>
+<td>
+      7
+     </td>
+<td>
+      78%
+     </td>
+<td>
+      58%
+     </td>
+<td>
+      26
+     </td>
+<td>
+      37
+     </td>
+<td>
+      41%
+     </td>
+<td>
+      60%
+     </td>
+<td>
+      43
+     </td>
+</tr>
+<tr>
+<td>
+      12692559
+     </td>
+<td>
+      54
+     </td>
+<td>
+      26
+     </td>
+<td>
+      68%
+     </td>
+<td>
+      60%
+     </td>
+<td>
+      67
+     </td>
+<td>
+      77
+     </td>
+<td>
+      47%
+     </td>
+<td>
+      55%
+     </td>
+<td>
+      99
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       micro-evaluation
+      </b>
+</td>
+<td>
+      509
+     </td>
+<td>
+      170
+     </td>
+<td>
+<b>
+       75%
+      </b>
+</td>
+<td>
+<b>
+       63%
+      </b>
+</td>
+<td>
+      516
+     </td>
+<td>
+      704
+     </td>
+<td>
+<b>
+       42%
+      </b>
+</td>
+<td>
+<b>
+       63%
+      </b>
+</td>
+<td>
+      814
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       macro-evaluation
+      </b>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+<b>
+       75%
+      </b>
+</td>
+<td>
+<b>
+       67%
+      </b>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+<b>
+       39%
+      </b>
+</td>
+<td>
+<b>
+       54%
+      </b>
+</td>
+<td>
+</td>
+</tr>
+</tbody>
+</table>

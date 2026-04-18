@@ -1,0 +1,241 @@
+<!-- source: PubTabNet imgid=360608 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+</td>
+<td>
+<b>
+       Sensitivity
+      </b>
+</td>
+<td>
+<b>
+       CI 95%
+      </b>
+</td>
+<td>
+<b>
+       Specificity
+      </b>
+</td>
+<td>
+<b>
+       CI 95%
+      </b>
+</td>
+<td>
+<b>
+       Accuracy
+      </b>
+</td>
+<td>
+<b>
+       CI 95%
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<b>
+       2D Echo
+      </b>
+</td>
+<td>
+      74%
+     </td>
+<td>
+      64–84%
+     </td>
+<td>
+      91%
+     </td>
+<td>
+      87–96%
+     </td>
+<td>
+      86%
+     </td>
+<td>
+      82–91%
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       Coronary Flow Reserve (cut-off = 2)
+      </b>
+</td>
+<td>
+      89%
+     </td>
+<td>
+      81–96%
+     </td>
+<td>
+      77%
+     </td>
+<td>
+      71–84%
+     </td>
+<td>
+      81%
+     </td>
+<td>
+      76–86%
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       Coronary Flow Reserve (cut-off = 1,9)
+      </b>
+</td>
+<td>
+      81%
+     </td>
+<td>
+      72–90%
+     </td>
+<td>
+      84%
+     </td>
+<td>
+      79–90%
+     </td>
+<td>
+      83%
+     </td>
+<td>
+      79–88%
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       Coronary Flow Reserve (cut-off = 1,8)
+      </b>
+</td>
+<td>
+      69%
+     </td>
+<td>
+      58–79%
+     </td>
+<td>
+      90%
+     </td>
+<td>
+      85–95%
+     </td>
+<td>
+      83%
+     </td>
+<td>
+      79–88%
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       Coronary Flow Reserve (cut-off = 1,7)
+      </b>
+</td>
+<td>
+      63%
+     </td>
+<td>
+      52–74%
+     </td>
+<td>
+      97%
+     </td>
+<td>
+      94–99%
+     </td>
+<td>
+      86%
+     </td>
+<td>
+      82–91%
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       Coronary Flow Reserve (cut-off = 1,6)
+      </b>
+</td>
+<td>
+      50%
+     </td>
+<td>
+      38–61%
+     </td>
+<td>
+      100%
+     </td>
+<td>
+      -
+     </td>
+<td>
+      85%
+     </td>
+<td>
+      80–89%
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       Coronary Flow Reserve (cut-off = 1,5)
+      </b>
+</td>
+<td>
+      30%
+     </td>
+<td>
+      19–41%
+     </td>
+<td>
+      100%
+     </td>
+<td>
+      -
+     </td>
+<td>
+      79%
+     </td>
+<td>
+      73–84%
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       2D Echo / CFR cut-off = 1,9
+      </b>
+</td>
+<td>
+      90%
+     </td>
+<td>
+      81–98%
+     </td>
+<td>
+      94%
+     </td>
+<td>
+      91–98%
+     </td>
+<td>
+      93%
+     </td>
+<td>
+      89–97%
+     </td>
+</tr>
+</tbody>
+</table>

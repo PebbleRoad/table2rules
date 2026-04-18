@@ -1,0 +1,645 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "1.1.1.187",
+    "1.1.1.205",
+    "1.1.1.27",
+    "1.1.1.37",
+    "1.1.1.8",
+    "1.2.4.1",
+    "1.2.4.2",
+    "1.2.4.4",
+    "1.3.1.9",
+    "1.4.1.2",
+    "1.5.1.2",
+    "1.6.2.2",
+    "1.7.1.1",
+    "1.7.1.4",
+    "1.8.1.4",
+    "12",
+    "18",
+    "2-oxoglutarate dehydrogenase el component",
+    "2.1.2.10",
+    "20",
+    "21",
+    "22",
+    "28",
+    "3-methyl-2-oxobutanoate dehydrogenase (lipoamide)",
+    "30",
+    "32",
+    "34",
+    "37 19",
+    "39",
+    "Aminomethyltransferase",
+    "EC number",
+    "Electron transport",
+    "Enoyl-acyl carrier reductase",
+    "Enzyme",
+    "Fatty acid synthesis",
+    "Ferrodoxin reductase-like protein",
+    "Folate biosynthesis",
+    "GDP-mannose 4,6-dehydratase",
+    "Glutamate dehydrogenase",
+    "Glutamine metabolism",
+    "Glycerol-3-phosphate dehydrogenase",
+    "Glycolysis",
+    "Glycolysis; Glycerol metabolism",
+    "Inosine-5 '-monophosphate dehydrogenase",
+    "L-lactate dehydrogenase",
+    "Leucine, isoleucine and valine degradation",
+    "Lipoamide dehydrogenase, putative",
+    "MAL13P1.284",
+    "MAL6P 1.242",
+    "MAL6P 1.275",
+    "Malate dehydrogenase, putative",
+    "Mannose and fructose metabolism",
+    "Metabolic function",
+    "Methionine polyamine metabolism",
+    "NADH-cytochrome b5 reductase",
+    "Nitrate reductase",
+    "Nitrogen metabolism",
+    "PF07_0085",
+    "PF08_0045",
+    "PF08_0066",
+    "PF08_0077",
+    "PF08_0132",
+    "PF11 0157 PFL0780w",
+    "PF11_0256",
+    "PF13 0141",
+    "PF13 0345",
+    "PF13_0353",
+    "PFE0225w",
+    "PFI1020c",
+    "Peak (HPI)",
+    "PfID",
+    "Purine metabolism",
+    "Pyrroline carboxylate reductase",
+    "Pyruvate dehydrogenase El component, ?-subunit",
+    "Pyruvate metabolism",
+    "TCA cycle",
+    "chr13.glm_739"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Enzyme"
+      ],
+      "value": "Pyrroline carboxylate reductase"
+    },
+    {
+      "row": [],
+      "col": [
+        "EC number"
+      ],
+      "value": "1.5.1.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "PfID"
+      ],
+      "value": "MAL13P1.284"
+    },
+    {
+      "row": [],
+      "col": [
+        "Peak (HPI)"
+      ],
+      "value": "18"
+    },
+    {
+      "row": [],
+      "col": [
+        "Metabolic function"
+      ],
+      "value": "Methionine polyamine metabolism"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme"
+      ],
+      "value": "Ferrodoxin reductase-like protein"
+    },
+    {
+      "row": [],
+      "col": [
+        "EC number"
+      ],
+      "value": "1.7.1.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "PfID"
+      ],
+      "value": "PF07_0085"
+    },
+    {
+      "row": [],
+      "col": [
+        "Peak (HPI)"
+      ],
+      "value": "21"
+    },
+    {
+      "row": [],
+      "col": [
+        "Metabolic function"
+      ],
+      "value": "Nitrogen metabolism"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme"
+      ],
+      "value": "Glutamate dehydrogenase"
+    },
+    {
+      "row": [],
+      "col": [
+        "EC number"
+      ],
+      "value": "1.4.1.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "PfID"
+      ],
+      "value": "PF08_0132"
+    },
+    {
+      "row": [],
+      "col": [
+        "Peak (HPI)"
+      ],
+      "value": "20"
+    },
+    {
+      "row": [],
+      "col": [
+        "Metabolic function"
+      ],
+      "value": "Glutamine metabolism"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme"
+      ],
+      "value": "Aminomethyltransferase"
+    },
+    {
+      "row": [],
+      "col": [
+        "EC number"
+      ],
+      "value": "2.1.2.10"
+    },
+    {
+      "row": [],
+      "col": [
+        "PfID"
+      ],
+      "value": "PF13 0345"
+    },
+    {
+      "row": [],
+      "col": [
+        "Peak (HPI)"
+      ],
+      "value": "22"
+    },
+    {
+      "row": [],
+      "col": [
+        "Metabolic function"
+      ],
+      "value": "Folate biosynthesis"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme"
+      ],
+      "value": "L-lactate dehydrogenase"
+    },
+    {
+      "row": [],
+      "col": [
+        "EC number"
+      ],
+      "value": "1.1.1.27"
+    },
+    {
+      "row": [],
+      "col": [
+        "PfID"
+      ],
+      "value": "PF13 0141"
+    },
+    {
+      "row": [],
+      "col": [
+        "Peak (HPI)"
+      ],
+      "value": "22"
+    },
+    {
+      "row": [],
+      "col": [
+        "Metabolic function"
+      ],
+      "value": "Glycolysis"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme"
+      ],
+      "value": "Enoyl-acyl carrier reductase"
+    },
+    {
+      "row": [],
+      "col": [
+        "EC number"
+      ],
+      "value": "1.3.1.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "PfID"
+      ],
+      "value": "MAL6P 1.275"
+    },
+    {
+      "row": [],
+      "col": [
+        "Peak (HPI)"
+      ],
+      "value": "30"
+    },
+    {
+      "row": [],
+      "col": [
+        "Metabolic function"
+      ],
+      "value": "Fatty acid synthesis"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme"
+      ],
+      "value": "2-oxoglutarate dehydrogenase el component"
+    },
+    {
+      "row": [],
+      "col": [
+        "EC number"
+      ],
+      "value": "1.2.4.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "PfID"
+      ],
+      "value": "PF08_0045"
+    },
+    {
+      "row": [],
+      "col": [
+        "Peak (HPI)"
+      ],
+      "value": "30"
+    },
+    {
+      "row": [],
+      "col": [
+        "Metabolic function"
+      ],
+      "value": "TCA cycle"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme"
+      ],
+      "value": "Lipoamide dehydrogenase, putative"
+    },
+    {
+      "row": [],
+      "col": [
+        "EC number"
+      ],
+      "value": "1.8.1.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "PfID"
+      ],
+      "value": "PF08_0066"
+    },
+    {
+      "row": [],
+      "col": [
+        "Peak (HPI)"
+      ],
+      "value": "28"
+    },
+    {
+      "row": [],
+      "col": [
+        "Metabolic function"
+      ],
+      "value": "TCA cycle"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme"
+      ],
+      "value": "Pyruvate dehydrogenase El component, ?-subunit"
+    },
+    {
+      "row": [],
+      "col": [
+        "EC number"
+      ],
+      "value": "1.2.4.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "PfID"
+      ],
+      "value": "PF11_0256"
+    },
+    {
+      "row": [],
+      "col": [
+        "Peak (HPI)"
+      ],
+      "value": "28"
+    },
+    {
+      "row": [],
+      "col": [
+        "Metabolic function"
+      ],
+      "value": "Fatty acid synthesis"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme"
+      ],
+      "value": "NADH-cytochrome b5 reductase"
+    },
+    {
+      "row": [],
+      "col": [
+        "EC number"
+      ],
+      "value": "1.6.2.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "PfID"
+      ],
+      "value": "PF13_0353"
+    },
+    {
+      "row": [],
+      "col": [
+        "Peak (HPI)"
+      ],
+      "value": "32"
+    },
+    {
+      "row": [],
+      "col": [
+        "Metabolic function"
+      ],
+      "value": "Electron transport"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme"
+      ],
+      "value": "Malate dehydrogenase, putative"
+    },
+    {
+      "row": [],
+      "col": [
+        "EC number"
+      ],
+      "value": "1.1.1.37"
+    },
+    {
+      "row": [],
+      "col": [
+        "PfID"
+      ],
+      "value": "MAL6P 1.242"
+    },
+    {
+      "row": [],
+      "col": [
+        "Peak (HPI)"
+      ],
+      "value": "34"
+    },
+    {
+      "row": [],
+      "col": [
+        "Metabolic function"
+      ],
+      "value": "Pyruvate metabolism"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme"
+      ],
+      "value": "Glycerol-3-phosphate dehydrogenase"
+    },
+    {
+      "row": [],
+      "col": [
+        "EC number"
+      ],
+      "value": "1.1.1.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "PfID"
+      ],
+      "value": "PF11 0157 PFL0780w"
+    },
+    {
+      "row": [],
+      "col": [
+        "Peak (HPI)"
+      ],
+      "value": "37 19"
+    },
+    {
+      "row": [],
+      "col": [
+        "Metabolic function"
+      ],
+      "value": "Glycolysis; Glycerol metabolism"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme"
+      ],
+      "value": "GDP-mannose 4,6-dehydratase"
+    },
+    {
+      "row": [],
+      "col": [
+        "EC number"
+      ],
+      "value": "1.1.1.187"
+    },
+    {
+      "row": [],
+      "col": [
+        "PfID"
+      ],
+      "value": "PF08_0077"
+    },
+    {
+      "row": [],
+      "col": [
+        "Peak (HPI)"
+      ],
+      "value": "39"
+    },
+    {
+      "row": [],
+      "col": [
+        "Metabolic function"
+      ],
+      "value": "Mannose and fructose metabolism"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme"
+      ],
+      "value": "Inosine-5 '-monophosphate dehydrogenase"
+    },
+    {
+      "row": [],
+      "col": [
+        "EC number"
+      ],
+      "value": "1.1.1.205"
+    },
+    {
+      "row": [],
+      "col": [
+        "PfID"
+      ],
+      "value": "PFI1020c"
+    },
+    {
+      "row": [],
+      "col": [
+        "Peak (HPI)"
+      ],
+      "value": "12"
+    },
+    {
+      "row": [],
+      "col": [
+        "Metabolic function"
+      ],
+      "value": "Purine metabolism"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme"
+      ],
+      "value": "3-methyl-2-oxobutanoate dehydrogenase (lipoamide)"
+    },
+    {
+      "row": [],
+      "col": [
+        "EC number"
+      ],
+      "value": "1.2.4.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "PfID"
+      ],
+      "value": "PFE0225w"
+    },
+    {
+      "row": [],
+      "col": [
+        "Peak (HPI)"
+      ],
+      "value": "32"
+    },
+    {
+      "row": [],
+      "col": [
+        "Metabolic function"
+      ],
+      "value": "Leucine, isoleucine and valine degradation"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme"
+      ],
+      "value": "Nitrate reductase"
+    },
+    {
+      "row": [],
+      "col": [
+        "EC number"
+      ],
+      "value": "1.7.1.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "PfID"
+      ],
+      "value": "chr13.glm_739"
+    },
+    {
+      "row": [],
+      "col": [
+        "Peak (HPI)"
+      ],
+      "value": "32"
+    },
+    {
+      "row": [],
+      "col": [
+        "Metabolic function"
+      ],
+      "value": "Nitrogen metabolism"
+    }
+  ]
+}

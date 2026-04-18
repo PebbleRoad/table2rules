@@ -1,0 +1,432 @@
+<!-- source: PubTabNet imgid=339366 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+<b>
+       PANSS Factors
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Predominantly Negative (n = 30)
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Predominantly Positive (n = 40)
+      </b>
+</td>
+<td>
+<b>
+       Statistic* Between Groups
+      </b>
+</td>
+<td>
+<b>
+       Statistic* During the Follow-up
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+</td>
+<td>
+      Mean
+     </td>
+<td>
+      SD
+     </td>
+<td>
+      Mean
+     </td>
+<td>
+      SD
+     </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<b>
+       Positive
+      </b>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Baseline
+     </td>
+<td>
+      19.5
+     </td>
+<td>
+      6.8
+     </td>
+<td>
+      30.4
+     </td>
+<td>
+      6.8
+     </td>
+<td>
+      F = 1.09, df 1, p = 0.29
+     </td>
+<td>
+      F = 79.58, df 1, p &lt; 0.001
+     </td>
+</tr>
+<tr>
+<td>
+      Mean Change
+     </td>
+<td>
+      -7.2
+     </td>
+<td>
+      10.1
+     </td>
+<td>
+      -16.7
+     </td>
+<td>
+      9.6
+     </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<b>
+       Negative
+      </b>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Baseline
+     </td>
+<td>
+      30.8
+     </td>
+<td>
+      8.6
+     </td>
+<td>
+      23.8
+     </td>
+<td>
+      6.8
+     </td>
+<td>
+      F = 0.16, df 1, p = 0.68
+     </td>
+<td>
+      F = 80.18, df 1, p &lt; 0.001
+     </td>
+</tr>
+<tr>
+<td>
+      Mean Change
+     </td>
+<td>
+      -16.3
+     </td>
+<td>
+      11.2
+     </td>
+<td>
+      -10.5
+     </td>
+<td>
+      8.1
+     </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<b>
+       Cognitive
+      </b>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Baseline
+     </td>
+<td>
+      18.5
+     </td>
+<td>
+      6.7
+     </td>
+<td>
+      20.7
+     </td>
+<td>
+      5.7
+     </td>
+<td>
+      F = 0.01, df 1, p = 0.91
+     </td>
+<td>
+      F = 111.29, df 1, p &lt; 0.001
+     </td>
+</tr>
+<tr>
+<td>
+      Mean Change
+     </td>
+<td>
+      -7.1
+     </td>
+<td>
+      9.4
+     </td>
+<td>
+      -9.6
+     </td>
+<td>
+      7.3
+     </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<b>
+       Excitement
+      </b>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Baseline
+     </td>
+<td>
+      8.0
+     </td>
+<td>
+      4.0
+     </td>
+<td>
+      10.4
+     </td>
+<td>
+      3.9
+     </td>
+<td>
+      F = 2.63, df 1, p = 0.10
+     </td>
+<td>
+      F = 304.76, df 1, p &lt; 0.001
+     </td>
+</tr>
+<tr>
+<td>
+      Mean Change
+     </td>
+<td>
+      -3.1
+     </td>
+<td>
+      4.7
+     </td>
+<td>
+      -4.9
+     </td>
+<td>
+      4.7
+     </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<b>
+       Depression-Anxiety
+      </b>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Baseline
+     </td>
+<td>
+      8.9
+     </td>
+<td>
+      4.2
+     </td>
+<td>
+      10.3
+     </td>
+<td>
+      4.2
+     </td>
+<td>
+      F = 0.16, df 1, p = 0.68
+     </td>
+<td>
+      F = 171.77, df 1, p &lt; 0.001
+     </td>
+</tr>
+<tr>
+<td>
+      Mean Change
+     </td>
+<td>
+      -3.6
+     </td>
+<td>
+      4.9
+     </td>
+<td>
+      -4.7
+     </td>
+<td>
+      5.1
+     </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<b>
+       Total score
+      </b>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Baseline
+     </td>
+<td>
+      85.8
+     </td>
+<td>
+      25.1
+     </td>
+<td>
+      95.8
+     </td>
+<td>
+      22.1
+     </td>
+<td>
+      F = 0.05, df 1, p = 0.82
+     </td>
+<td>
+      F = 94.80, df 1, p &lt; 0.001
+     </td>
+</tr>
+<tr>
+<td>
+      Mean Change
+     </td>
+<td>
+      -37.4
+     </td>
+<td>
+      35.3
+     </td>
+<td>
+      -46.6
+     </td>
+<td>
+      28.4
+     </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+</tbody>
+</table>

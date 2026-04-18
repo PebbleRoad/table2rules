@@ -1,0 +1,882 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "1.14",
+    "1.18",
+    "1.22",
+    "1.25",
+    "1.3.77",
+    "1.30",
+    "1.39",
+    "1.40",
+    "1.50",
+    "1.53",
+    "1.55",
+    "1.609",
+    "1.63",
+    "1.83",
+    "1.87",
+    "1.93",
+    "1.96",
+    "10.34",
+    "10.69",
+    "1079",
+    "119.27",
+    "12.50",
+    "120",
+    "126.67",
+    "13.10",
+    "13.33",
+    "138",
+    "139.08",
+    "14.29",
+    "14.58",
+    "141",
+    "159",
+    "16.67",
+    "1889",
+    "19.05",
+    "192",
+    "2.02",
+    "2.08",
+    "2.13",
+    "2.21",
+    "2.36",
+    "20.31",
+    "20.47",
+    "2028.06",
+    "21",
+    "21.99",
+    "2313",
+    "232.46",
+    "2345.00",
+    "24.49",
+    "240.00",
+    "250",
+    "2544.44",
+    "260",
+    "27.67",
+    "29",
+    "293.13",
+    "3.36",
+    "3.55",
+    "30.82",
+    "31.03",
+    "32",
+    "3208.00",
+    "4.69",
+    "418.96",
+    "4468.89",
+    "49",
+    "516",
+    "5691",
+    "6.12",
+    "6.86",
+    "608.67",
+    "65",
+    "7.25",
+    "707",
+    "765",
+    "77",
+    "8.00",
+    "81.99",
+    "83",
+    "86.67",
+    "9.38",
+    "96",
+    "970.79",
+    "977",
+    "Ambombo",
+    "Arithmetic Mean Mf +ve & -ve individuals",
+    "Arithmetic Mean Mf +ve individuals",
+    "Average",
+    "Bifang",
+    "Dinku",
+    "Ebendi",
+    "Eka",
+    "Intensity (mf/ml)",
+    "Mbullam",
+    "Ngalla",
+    "No. Examined",
+    "Oche 1",
+    "Oche 2",
+    "Olorunti",
+    "Population*",
+    "Prevalence (%)",
+    "RAPLOA",
+    "Thick blood film",
+    "Total",
+    "Village",
+    "William's means > 15",
+    "William's means > 20 (CMFL)"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Village"
+      ],
+      "value": "Ambombo"
+    },
+    {
+      "row": [],
+      "col": [
+        "Population*"
+      ],
+      "value": "250"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. Examined"
+      ],
+      "value": "49"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prevalence (%)",
+        "RAPLOA"
+      ],
+      "value": "24.49"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prevalence (%)",
+        "Thick blood film"
+      ],
+      "value": "6.12"
+    },
+    {
+      "row": [],
+      "col": [
+        "Intensity (mf/ml)",
+        "Arithmetic Mean Mf +ve & -ve individuals"
+      ],
+      "value": "1.63"
+    },
+    {
+      "row": [],
+      "col": [
+        "Intensity (mf/ml)",
+        "Arithmetic Mean Mf +ve individuals"
+      ],
+      "value": "27.67"
+    },
+    {
+      "row": [],
+      "col": [
+        "Intensity (mf/ml)",
+        "William's means > 15"
+      ],
+      "value": "1.22"
+    },
+    {
+      "row": [],
+      "col": [
+        "Intensity (mf/ml)",
+        "William's means > 20 (CMFL)"
+      ],
+      "value": "1.25"
+    },
+    {
+      "row": [],
+      "col": [
+        "Village"
+      ],
+      "value": "Bifang"
+    },
+    {
+      "row": [],
+      "col": [
+        "Population*"
+      ],
+      "value": "1889"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. Examined"
+      ],
+      "value": "141"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prevalence (%)",
+        "RAPLOA"
+      ],
+      "value": "21.99"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prevalence (%)",
+        "Thick blood film"
+      ],
+      "value": "3.55"
+    },
+    {
+      "row": [],
+      "col": [
+        "Intensity (mf/ml)",
+        "Arithmetic Mean Mf +ve & -ve individuals"
+      ],
+      "value": "81.99"
+    },
+    {
+      "row": [],
+      "col": [
+        "Intensity (mf/ml)",
+        "Arithmetic Mean Mf +ve individuals"
+      ],
+      "value": "2313"
+    },
+    {
+      "row": [],
+      "col": [
+        "Intensity (mf/ml)",
+        "William's means > 15"
+      ],
+      "value": "1.25"
+    },
+    {
+      "row": [],
+      "col": [
+        "Intensity (mf/ml)",
+        "William's means > 20 (CMFL)"
+      ],
+      "value": "1.30"
+    },
+    {
+      "row": [],
+      "col": [
+        "Village"
+      ],
+      "value": "Mbullam"
+    },
+    {
+      "row": [],
+      "col": [
+        "Population*"
+      ],
+      "value": "65"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. Examined"
+      ],
+      "value": "21"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prevalence (%)",
+        "RAPLOA"
+      ],
+      "value": "19.05"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prevalence (%)",
+        "Thick blood film"
+      ],
+      "value": "14.29"
+    },
+    {
+      "row": [],
+      "col": [
+        "Intensity (mf/ml)",
+        "Arithmetic Mean Mf +ve & -ve individuals"
+      ],
+      "value": "86.67"
+    },
+    {
+      "row": [],
+      "col": [
+        "Intensity (mf/ml)",
+        "Arithmetic Mean Mf +ve individuals"
+      ],
+      "value": "608.67"
+    },
+    {
+      "row": [],
+      "col": [
+        "Intensity (mf/ml)",
+        "William's means > 15"
+      ],
+      "value": "2.36"
+    },
+    {
+      "row": [],
+      "col": [
+        "Intensity (mf/ml)",
+        "William's means > 20 (CMFL)"
+      ],
+      "value": "2.21"
+    },
+    {
+      "row": [],
+      "col": [
+        "Village"
+      ],
+      "value": "Dinku"
+    },
+    {
+      "row": [],
+      "col": [
+        "Population*"
+      ],
+      "value": "516"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. Examined"
+      ],
+      "value": "159"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prevalence (%)",
+        "RAPLOA"
+      ],
+      "value": "30.82"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prevalence (%)",
+        "Thick blood film"
+      ],
+      "value": "10.69"
+    },
+    {
+      "row": [],
+      "col": [
+        "Intensity (mf/ml)",
+        "Arithmetic Mean Mf +ve & -ve individuals"
+      ],
+      "value": "1.3.77"
+    },
+    {
+      "row": [],
+      "col": [
+        "Intensity (mf/ml)",
+        "Arithmetic Mean Mf +ve individuals"
+      ],
+      "value": "970.79"
+    },
+    {
+      "row": [],
+      "col": [
+        "Intensity (mf/ml)",
+        "William's means > 15"
+      ],
+      "value": "1.83"
+    },
+    {
+      "row": [],
+      "col": [
+        "Intensity (mf/ml)",
+        "William's means > 20 (CMFL)"
+      ],
+      "value": "2.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "Village"
+      ],
+      "value": "Ebendi"
+    },
+    {
+      "row": [],
+      "col": [
+        "Population*"
+      ],
+      "value": "260"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. Examined"
+      ],
+      "value": "120"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prevalence (%)",
+        "RAPLOA"
+      ],
+      "value": "13.33"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prevalence (%)",
+        "Thick blood film"
+      ],
+      "value": "3.36"
+    },
+    {
+      "row": [],
+      "col": [
+        "Intensity (mf/ml)",
+        "Arithmetic Mean Mf +ve & -ve individuals"
+      ],
+      "value": "8.00"
+    },
+    {
+      "row": [],
+      "col": [
+        "Intensity (mf/ml)",
+        "Arithmetic Mean Mf +ve individuals"
+      ],
+      "value": "240.00"
+    },
+    {
+      "row": [],
+      "col": [
+        "Intensity (mf/ml)",
+        "William's means > 15"
+      ],
+      "value": "1.18"
+    },
+    {
+      "row": [],
+      "col": [
+        "Intensity (mf/ml)",
+        "William's means > 20 (CMFL)"
+      ],
+      "value": "1.14"
+    },
+    {
+      "row": [],
+      "col": [
+        "Village"
+      ],
+      "value": "Eka"
+    },
+    {
+      "row": [],
+      "col": [
+        "Population*"
+      ],
+      "value": "1079"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. Examined"
+      ],
+      "value": "96"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prevalence (%)",
+        "RAPLOA"
+      ],
+      "value": "14.58"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prevalence (%)",
+        "Thick blood film"
+      ],
+      "value": "9.38"
+    },
+    {
+      "row": [],
+      "col": [
+        "Intensity (mf/ml)",
+        "Arithmetic Mean Mf +ve & -ve individuals"
+      ],
+      "value": "418.96"
+    },
+    {
+      "row": [],
+      "col": [
+        "Intensity (mf/ml)",
+        "Arithmetic Mean Mf +ve individuals"
+      ],
+      "value": "4468.89"
+    },
+    {
+      "row": [],
+      "col": [
+        "Intensity (mf/ml)",
+        "William's means > 15"
+      ],
+      "value": "1.87"
+    },
+    {
+      "row": [],
+      "col": [
+        "Intensity (mf/ml)",
+        "William's means > 20 (CMFL)"
+      ],
+      "value": "1.96"
+    },
+    {
+      "row": [],
+      "col": [
+        "Village"
+      ],
+      "value": "Ngalla"
+    },
+    {
+      "row": [],
+      "col": [
+        "Population*"
+      ],
+      "value": "765"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. Examined"
+      ],
+      "value": "138"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prevalence (%)",
+        "RAPLOA"
+      ],
+      "value": "16.67"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prevalence (%)",
+        "Thick blood film"
+      ],
+      "value": "7.25"
+    },
+    {
+      "row": [],
+      "col": [
+        "Intensity (mf/ml)",
+        "Arithmetic Mean Mf +ve & -ve individuals"
+      ],
+      "value": "232.46"
+    },
+    {
+      "row": [],
+      "col": [
+        "Intensity (mf/ml)",
+        "Arithmetic Mean Mf +ve individuals"
+      ],
+      "value": "3208.00"
+    },
+    {
+      "row": [],
+      "col": [
+        "Intensity (mf/ml)",
+        "William's means > 15"
+      ],
+      "value": "1.53"
+    },
+    {
+      "row": [],
+      "col": [
+        "Intensity (mf/ml)",
+        "William's means > 20 (CMFL)"
+      ],
+      "value": "1.55"
+    },
+    {
+      "row": [],
+      "col": [
+        "Village"
+      ],
+      "value": "Oche 1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Population*"
+      ],
+      "value": "83"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. Examined"
+      ],
+      "value": "32"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prevalence (%)",
+        "RAPLOA"
+      ],
+      "value": "9.38"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prevalence (%)",
+        "Thick blood film"
+      ],
+      "value": "12.50"
+    },
+    {
+      "row": [],
+      "col": [
+        "Intensity (mf/ml)",
+        "Arithmetic Mean Mf +ve & -ve individuals"
+      ],
+      "value": "293.13"
+    },
+    {
+      "row": [],
+      "col": [
+        "Intensity (mf/ml)",
+        "Arithmetic Mean Mf +ve individuals"
+      ],
+      "value": "2345.00"
+    },
+    {
+      "row": [],
+      "col": [
+        "Intensity (mf/ml)",
+        "William's means > 15"
+      ],
+      "value": "2.08"
+    },
+    {
+      "row": [],
+      "col": [
+        "Intensity (mf/ml)",
+        "William's means > 20 (CMFL)"
+      ],
+      "value": "2.13"
+    },
+    {
+      "row": [],
+      "col": [
+        "Village"
+      ],
+      "value": "Oche 2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Population*"
+      ],
+      "value": "77"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. Examined"
+      ],
+      "value": "29"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prevalence (%)",
+        "RAPLOA"
+      ],
+      "value": "31.03"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prevalence (%)",
+        "Thick blood film"
+      ],
+      "value": "10.34"
+    },
+    {
+      "row": [],
+      "col": [
+        "Intensity (mf/ml)",
+        "Arithmetic Mean Mf +ve & -ve individuals"
+      ],
+      "value": "13.10"
+    },
+    {
+      "row": [],
+      "col": [
+        "Intensity (mf/ml)",
+        "Arithmetic Mean Mf +ve individuals"
+      ],
+      "value": "126.67"
+    },
+    {
+      "row": [],
+      "col": [
+        "Intensity (mf/ml)",
+        "William's means > 15"
+      ],
+      "value": "1.609"
+    },
+    {
+      "row": [],
+      "col": [
+        "Intensity (mf/ml)",
+        "William's means > 20 (CMFL)"
+      ],
+      "value": "1.93"
+    },
+    {
+      "row": [],
+      "col": [
+        "Village"
+      ],
+      "value": "Olorunti"
+    },
+    {
+      "row": [],
+      "col": [
+        "Population*"
+      ],
+      "value": "707"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. Examined"
+      ],
+      "value": "192"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prevalence (%)",
+        "RAPLOA"
+      ],
+      "value": "20.31"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prevalence (%)",
+        "Thick blood film"
+      ],
+      "value": "4.69"
+    },
+    {
+      "row": [],
+      "col": [
+        "Intensity (mf/ml)",
+        "Arithmetic Mean Mf +ve & -ve individuals"
+      ],
+      "value": "119.27"
+    },
+    {
+      "row": [],
+      "col": [
+        "Intensity (mf/ml)",
+        "Arithmetic Mean Mf +ve individuals"
+      ],
+      "value": "2544.44"
+    },
+    {
+      "row": [],
+      "col": [
+        "Intensity (mf/ml)",
+        "William's means > 15"
+      ],
+      "value": "1.39"
+    },
+    {
+      "row": [],
+      "col": [
+        "Intensity (mf/ml)",
+        "William's means > 20 (CMFL)"
+      ],
+      "value": "1.40"
+    },
+    {
+      "row": [],
+      "col": [
+        "Village"
+      ],
+      "value": "Total"
+    },
+    {
+      "row": [],
+      "col": [
+        "Population*"
+      ],
+      "value": "5691"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. Examined"
+      ],
+      "value": "977"
+    },
+    {
+      "row": [],
+      "col": [
+        "Village"
+      ],
+      "value": "Average"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prevalence (%)",
+        "RAPLOA"
+      ],
+      "value": "20.47"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prevalence (%)",
+        "Thick blood film"
+      ],
+      "value": "6.86"
+    },
+    {
+      "row": [],
+      "col": [
+        "Intensity (mf/ml)",
+        "Arithmetic Mean Mf +ve & -ve individuals"
+      ],
+      "value": "139.08"
+    },
+    {
+      "row": [],
+      "col": [
+        "Intensity (mf/ml)",
+        "Arithmetic Mean Mf +ve individuals"
+      ],
+      "value": "2028.06"
+    },
+    {
+      "row": [],
+      "col": [
+        "Intensity (mf/ml)",
+        "William's means > 15"
+      ],
+      "value": "1.50"
+    },
+    {
+      "row": [],
+      "col": [
+        "Intensity (mf/ml)",
+        "William's means > 20 (CMFL)"
+      ],
+      "value": "1.53"
+    }
+  ]
+}

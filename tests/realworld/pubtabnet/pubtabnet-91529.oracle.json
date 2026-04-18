@@ -1,0 +1,749 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "188 \u00b1 9",
+    "196 \u00b1 7",
+    "197 \u00b1 8",
+    "202 \u00b1 12",
+    "203 \u00b1 6",
+    "204 \u00b1 10",
+    "205 \u00b1 18",
+    "221 \u00b1 10",
+    "30 \u00b1 6",
+    "37 \u00b1 8",
+    "4/4",
+    "40 \u00b1 6",
+    "41 \u00b1 10",
+    "42 \u00b1 5",
+    "47 \u00b1 8",
+    "5/6",
+    "51 \u00b1 4",
+    "53 \u00b1 7",
+    "55 \u00b1 6",
+    "56 \u00b1 6",
+    "56 \u00b1 8",
+    "6/6",
+    "6/7",
+    "62 \u00b1 12",
+    "64 \u00b1 10",
+    "64 \u00b1 9",
+    "65 \u00b1 5",
+    "67 \u00b1 6",
+    "69 \u00b1 11",
+    "69 \u00b1 2",
+    "69 \u00b1 9",
+    "7/7",
+    "71 \u00b1 7",
+    "75 \u00b1 4",
+    "75 \u00b1 6",
+    "75 \u00b1 7",
+    "77 \u00b1 8",
+    "8/9",
+    "81 \u00b1 3",
+    "82 \u00b1 4",
+    "88 \u00b1 4",
+    "9/9",
+    "93 \u00b1 2",
+    "96 \u00b1 2",
+    "97 \u00b1 1",
+    "Area [%] 1",
+    "Area [%] 2",
+    "Area [%] 3",
+    "Area [%] 4",
+    "Diameter [\u03bcm]",
+    "M 3 R-KO",
+    "M 3 R-wt Lungs /slices",
+    "Mus",
+    "Mus/DHS 10 -6 M",
+    "Mus/DHS 10 -8 M",
+    "Mus/DMS 10 -6 M",
+    "Mus/DMS 10 -8 M",
+    "n.s.",
+    "p (1 vs. 3)",
+    "p (2 vs. 4)",
+    "p \u2264 0.01",
+    "p \u2264 0.05"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "M 3 R-wt Lungs /slices"
+      ],
+      "value": "6/6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Diameter [\u03bcm]"
+      ],
+      "value": "221 \u00b1 10"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 1"
+      ],
+      "value": "Mus"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 2"
+      ],
+      "value": "Mus"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 3"
+      ],
+      "value": "Mus/DHS 10 -6 M"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 4"
+      ],
+      "value": "Mus/DHS 10 -6 M"
+    },
+    {
+      "row": [],
+      "col": [
+        "p (1 vs. 3)"
+      ],
+      "value": "n.s."
+    },
+    {
+      "row": [],
+      "col": [
+        "p (2 vs. 4)"
+      ],
+      "value": "p \u2264 0.05"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 1"
+      ],
+      "value": "53 \u00b1 7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 2"
+      ],
+      "value": "47 \u00b1 8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 3"
+      ],
+      "value": "75 \u00b1 7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 4"
+      ],
+      "value": "69 \u00b1 11"
+    },
+    {
+      "row": [],
+      "col": [
+        "M 3 R-wt Lungs /slices"
+      ],
+      "value": "8/9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Diameter [\u03bcm]"
+      ],
+      "value": "204 \u00b1 10"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 1"
+      ],
+      "value": "Mus"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 2"
+      ],
+      "value": "Mus"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 3"
+      ],
+      "value": "Mus/DHS 10 -8 M"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 4"
+      ],
+      "value": "Mus/DHS 10 -8 M"
+    },
+    {
+      "row": [],
+      "col": [
+        "p (1 vs. 3)"
+      ],
+      "value": "p \u2264 0.05"
+    },
+    {
+      "row": [],
+      "col": [
+        "p (2 vs. 4)"
+      ],
+      "value": "p \u2264 0.01"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 1"
+      ],
+      "value": "40 \u00b1 6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 2"
+      ],
+      "value": "30 \u00b1 6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 3"
+      ],
+      "value": "64 \u00b1 9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 4"
+      ],
+      "value": "55 \u00b1 6"
+    },
+    {
+      "row": [],
+      "col": [
+        "M 3 R-wt Lungs /slices"
+      ],
+      "value": "6/7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Diameter [\u03bcm]"
+      ],
+      "value": "203 \u00b1 6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 1"
+      ],
+      "value": "Mus"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 2"
+      ],
+      "value": "Mus"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 3"
+      ],
+      "value": "Mus/DMS 10 -6 M"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 4"
+      ],
+      "value": "Mus/DMS 10 -6 M"
+    },
+    {
+      "row": [],
+      "col": [
+        "p (1 vs. 3)"
+      ],
+      "value": "p \u2264 0.05"
+    },
+    {
+      "row": [],
+      "col": [
+        "p (2 vs. 4)"
+      ],
+      "value": "p \u2264 0.05"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 1"
+      ],
+      "value": "41 \u00b1 10"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 2"
+      ],
+      "value": "37 \u00b1 8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 3"
+      ],
+      "value": "64 \u00b1 10"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 4"
+      ],
+      "value": "56 \u00b1 8"
+    },
+    {
+      "row": [],
+      "col": [
+        "M 3 R-wt Lungs /slices"
+      ],
+      "value": "5/6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Diameter [\u03bcm]"
+      ],
+      "value": "197 \u00b1 8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 1"
+      ],
+      "value": "Mus"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 2"
+      ],
+      "value": "Mus"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 3"
+      ],
+      "value": "Mus/DMS 10 -8 M"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 4"
+      ],
+      "value": "Mus/DMS 10 -8 M"
+    },
+    {
+      "row": [],
+      "col": [
+        "p (1 vs. 3)"
+      ],
+      "value": "p \u2264 0.05"
+    },
+    {
+      "row": [],
+      "col": [
+        "p (2 vs. 4)"
+      ],
+      "value": "p \u2264 0.05"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 1"
+      ],
+      "value": "42 \u00b1 5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 2"
+      ],
+      "value": "41 \u00b1 10"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 3"
+      ],
+      "value": "71 \u00b1 7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 4"
+      ],
+      "value": "69 \u00b1 9"
+    },
+    {
+      "row": [],
+      "col": [
+        "M 3 R-wt Lungs /slices"
+      ],
+      "value": "M 3 R-KO"
+    },
+    {
+      "row": [],
+      "col": [
+        "M 3 R-wt Lungs /slices"
+      ],
+      "value": "4/4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Diameter [\u03bcm]"
+      ],
+      "value": "205 \u00b1 18"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 1"
+      ],
+      "value": "Mus"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 2"
+      ],
+      "value": "Mus"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 3"
+      ],
+      "value": "Mus/DHS 10 -6 M"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 4"
+      ],
+      "value": "Mus/DHS 10 -6 M"
+    },
+    {
+      "row": [],
+      "col": [
+        "p (1 vs. 3)"
+      ],
+      "value": "n.s."
+    },
+    {
+      "row": [],
+      "col": [
+        "p (2 vs. 4)"
+      ],
+      "value": "n.s."
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 1"
+      ],
+      "value": "69 \u00b1 2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 2"
+      ],
+      "value": "51 \u00b1 4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 3"
+      ],
+      "value": "77 \u00b1 8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 4"
+      ],
+      "value": "62 \u00b1 12"
+    },
+    {
+      "row": [],
+      "col": [
+        "M 3 R-wt Lungs /slices"
+      ],
+      "value": "8/9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Diameter [\u03bcm]"
+      ],
+      "value": "188 \u00b1 9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 1"
+      ],
+      "value": "Mus"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 2"
+      ],
+      "value": "Mus"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 3"
+      ],
+      "value": "Mus/DHS 10 -8 M"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 4"
+      ],
+      "value": "Mus/DHS 10 -8 M"
+    },
+    {
+      "row": [],
+      "col": [
+        "p (1 vs. 3)"
+      ],
+      "value": "p \u2264 0.05"
+    },
+    {
+      "row": [],
+      "col": [
+        "p (2 vs. 4)"
+      ],
+      "value": "p \u2264 0.05"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 1"
+      ],
+      "value": "75 \u00b1 6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 2"
+      ],
+      "value": "67 \u00b1 6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 3"
+      ],
+      "value": "96 \u00b1 2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 4"
+      ],
+      "value": "88 \u00b1 4"
+    },
+    {
+      "row": [],
+      "col": [
+        "M 3 R-wt Lungs /slices"
+      ],
+      "value": "7/7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Diameter [\u03bcm]"
+      ],
+      "value": "202 \u00b1 12"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 1"
+      ],
+      "value": "Mus"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 2"
+      ],
+      "value": "Mus"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 3"
+      ],
+      "value": "Mus/DMS 10 -6 M"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 4"
+      ],
+      "value": "Mus/DMS 10 -6 M"
+    },
+    {
+      "row": [],
+      "col": [
+        "p (1 vs. 3)"
+      ],
+      "value": "p \u2264 0.05"
+    },
+    {
+      "row": [],
+      "col": [
+        "p (2 vs. 4)"
+      ],
+      "value": "p \u2264 0.05"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 1"
+      ],
+      "value": "75 \u00b1 4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 2"
+      ],
+      "value": "67 \u00b1 6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 3"
+      ],
+      "value": "97 \u00b1 1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 4"
+      ],
+      "value": "82 \u00b1 4"
+    },
+    {
+      "row": [],
+      "col": [
+        "M 3 R-wt Lungs /slices"
+      ],
+      "value": "9/9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Diameter [\u03bcm]"
+      ],
+      "value": "196 \u00b1 7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 1"
+      ],
+      "value": "Mus"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 2"
+      ],
+      "value": "Mus"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 3"
+      ],
+      "value": "Mus/DMS 10 -8 M"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 4"
+      ],
+      "value": "Mus/DMS 10 -8 M"
+    },
+    {
+      "row": [],
+      "col": [
+        "p (1 vs. 3)"
+      ],
+      "value": "p \u2264 0.01"
+    },
+    {
+      "row": [],
+      "col": [
+        "p (2 vs. 4)"
+      ],
+      "value": "p \u2264 0.05"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 1"
+      ],
+      "value": "65 \u00b1 5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 2"
+      ],
+      "value": "56 \u00b1 6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 3"
+      ],
+      "value": "93 \u00b1 2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Area [%] 4"
+      ],
+      "value": "81 \u00b1 3"
+    }
+  ]
+}

@@ -1,0 +1,343 @@
+<!-- source: PubTabNet imgid=211957 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+<b>
+       Prevention group
+      </b>
+</td>
+<td>
+</td>
+<td colspan="2">
+<b>
+       Dental hygienist
+      </b>
+</td>
+<td colspan="4">
+<b>
+       Dentist- dental assistant team
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td colspan="2">
+<b>
+       Preventive
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Preventive
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Restorative
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+<b>
+       Risk category at 2 yrs
+      </b>
+</td>
+<td>
+<b>
+<i>
+        n
+       </i>
+</b>
+</td>
+<td>
+<b>
+       Mean
+      </b>
+</td>
+<td>
+<b>
+       S.D.
+      </b>
+</td>
+<td>
+<b>
+       Mean
+      </b>
+</td>
+<td>
+<b>
+       S.D.
+      </b>
+</td>
+<td>
+<b>
+       Mean
+      </b>
+</td>
+<td>
+<b>
+       S.D.
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<b>
+       Risk-based
+       <i>
+        N = 245
+       </i>
+</b>
+</td>
+<td>
+</td>
+<td>
+<b>
+       177
+      </b>
+</td>
+<td>
+<b>
+       86
+      </b>
+</td>
+<td>
+<b>
+       216
+      </b>
+</td>
+<td>
+<b>
+       129
+      </b>
+</td>
+<td>
+<b>
+       111
+      </b>
+</td>
+<td>
+<b>
+       160
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+      Low-risk
+     </td>
+<td>
+<i>
+       166
+      </i>
+</td>
+<td>
+      161
+     </td>
+<td>
+      79
+     </td>
+<td>
+      215
+     </td>
+<td>
+      132
+     </td>
+<td>
+      99
+     </td>
+<td>
+      142
+     </td>
+</tr>
+<tr>
+<td>
+      Intermediate
+     </td>
+<td>
+<i>
+       52
+      </i>
+</td>
+<td>
+      190
+     </td>
+<td>
+      84
+     </td>
+<td>
+      220
+     </td>
+<td>
+      114
+     </td>
+<td>
+      130
+     </td>
+<td>
+      188
+     </td>
+</tr>
+<tr>
+<td>
+      High-risk
+     </td>
+<td>
+<i>
+       27
+      </i>
+</td>
+<td>
+      251
+     </td>
+<td>
+      90
+     </td>
+<td>
+      214
+     </td>
+<td>
+      143
+     </td>
+<td>
+      149
+     </td>
+<td>
+      200
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       Routine
+       <i>
+        N = 202
+       </i>
+</b>
+</td>
+<td>
+</td>
+<td>
+<b>
+       156
+      </b>
+</td>
+<td>
+<b>
+       56
+      </b>
+</td>
+<td>
+<b>
+       312
+      </b>
+</td>
+<td>
+<b>
+       84
+      </b>
+</td>
+<td>
+<b>
+       188
+      </b>
+</td>
+<td>
+<b>
+       244
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+      Low-risk
+     </td>
+<td>
+<i>
+       134
+      </i>
+</td>
+<td>
+      140
+     </td>
+<td>
+      49
+     </td>
+<td>
+      305
+     </td>
+<td>
+      85
+     </td>
+<td>
+      133
+     </td>
+<td>
+      188
+     </td>
+</tr>
+<tr>
+<td>
+      Intermediate
+     </td>
+<td>
+<i>
+       50
+      </i>
+</td>
+<td>
+      186
+     </td>
+<td>
+      50
+     </td>
+<td>
+      319
+     </td>
+<td>
+      88
+     </td>
+<td>
+      263
+     </td>
+<td>
+      249
+     </td>
+</tr>
+<tr>
+<td>
+      High-risk
+     </td>
+<td>
+<i>
+       18
+      </i>
+</td>
+<td>
+      192
+     </td>
+<td>
+      72
+     </td>
+<td>
+      346
+     </td>
+<td>
+      59
+     </td>
+<td>
+      388
+     </td>
+<td>
+      406
+     </td>
+</tr>
+</tbody>
+</table>

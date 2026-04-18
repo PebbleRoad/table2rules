@@ -1,0 +1,382 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0.0002",
+    "0.013",
+    "0.016",
+    "0.035",
+    "0.038",
+    "0.05",
+    "10",
+    "10.8 \u00b1 1.9",
+    "1039 \u00b1 523",
+    "11.2 \u00b1 2.9",
+    "1180 \u00b1 309",
+    "124 \u00b1 2",
+    "127 \u00b1 5",
+    "13.1 \u00b1 2.8",
+    "13.6 \u00b1 1.2",
+    "132 \u00b1 4",
+    "15.5 \u00b1 2.4",
+    "25",
+    "29 \u00b1 5",
+    "39 \u00b1 7",
+    "45 \u00b1 9",
+    "53",
+    "53 \u00b1 3",
+    "58 \u00b1 3",
+    "60 \u00b1 2",
+    "7.1 \u00b1 0.3",
+    "7.2 \u00b1 0.3",
+    "8.3 \u00b1 1.4",
+    "8.7 \u00b1 0.6",
+    "97 \u00b1 9",
+    "<0.0001",
+    "Age (years)",
+    "Blood",
+    "C-reactive protein (mg/l)",
+    "Disease duration (years)",
+    "P",
+    "Rheumatoid factor-positive ( n )",
+    "Survivin high, erosive RA ( n = 27)",
+    "Survivin levels (pg/ml)",
+    "Survivin low, erosive RA ( n = 61)",
+    "Survivin low, non-erosive RA ( n = 42) \u2020",
+    "Synovial fluid",
+    "White blood cell count (\u00d7 10 9 /ml)",
+    "n.s."
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Survivin levels (pg/ml)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Blood"
+    },
+    {
+      "row": [],
+      "col": [
+        "Survivin high, erosive RA ( n = 27)"
+      ],
+      "value": "1180 \u00b1 309"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "<0.0001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Survivin low, erosive RA ( n = 61)"
+      ],
+      "value": "97 \u00b1 9"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.013"
+    },
+    {
+      "row": [],
+      "col": [
+        "Survivin low, non-erosive RA ( n = 42) \u2020"
+      ],
+      "value": "127 \u00b1 5"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Synovial fluid"
+    },
+    {
+      "row": [],
+      "col": [
+        "Survivin high, erosive RA ( n = 27)"
+      ],
+      "value": "1039 \u00b1 523"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.016"
+    },
+    {
+      "row": [],
+      "col": [
+        "Survivin low, erosive RA ( n = 61)"
+      ],
+      "value": "132 \u00b1 4"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "n.s."
+    },
+    {
+      "row": [],
+      "col": [
+        "Survivin low, non-erosive RA ( n = 42) \u2020"
+      ],
+      "value": "124 \u00b1 2"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Disease duration (years)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Survivin high, erosive RA ( n = 27)"
+      ],
+      "value": "15.5 \u00b1 2.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "n.s."
+    },
+    {
+      "row": [],
+      "col": [
+        "Survivin low, erosive RA ( n = 61)"
+      ],
+      "value": "13.6 \u00b1 1.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.0002"
+    },
+    {
+      "row": [],
+      "col": [
+        "Survivin low, non-erosive RA ( n = 42) \u2020"
+      ],
+      "value": "8.3 \u00b1 1.4"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Age (years)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Survivin high, erosive RA ( n = 27)"
+      ],
+      "value": "58 \u00b1 3"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "n.s."
+    },
+    {
+      "row": [],
+      "col": [
+        "Survivin low, erosive RA ( n = 61)"
+      ],
+      "value": "60 \u00b1 2"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.05"
+    },
+    {
+      "row": [],
+      "col": [
+        "Survivin low, non-erosive RA ( n = 42) \u2020"
+      ],
+      "value": "53 \u00b1 3"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Rheumatoid factor-positive ( n )"
+    },
+    {
+      "row": [],
+      "col": [
+        "Survivin high, erosive RA ( n = 27)"
+      ],
+      "value": "25"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "n.s."
+    },
+    {
+      "row": [],
+      "col": [
+        "Survivin low, erosive RA ( n = 61)"
+      ],
+      "value": "53"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "<0.0001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Survivin low, non-erosive RA ( n = 42) \u2020"
+      ],
+      "value": "10"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "C-reactive protein (mg/l)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Survivin high, erosive RA ( n = 27)"
+      ],
+      "value": "45 \u00b1 9"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.035"
+    },
+    {
+      "row": [],
+      "col": [
+        "Survivin low, erosive RA ( n = 61)"
+      ],
+      "value": "29 \u00b1 5"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "n.s."
+    },
+    {
+      "row": [],
+      "col": [
+        "Survivin low, non-erosive RA ( n = 42) \u2020"
+      ],
+      "value": "39 \u00b1 7"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "White blood cell count (\u00d7 10 9 /ml)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Blood"
+    },
+    {
+      "row": [],
+      "col": [
+        "Survivin high, erosive RA ( n = 27)"
+      ],
+      "value": "8.7 \u00b1 0.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.038"
+    },
+    {
+      "row": [],
+      "col": [
+        "Survivin low, erosive RA ( n = 61)"
+      ],
+      "value": "7.2 \u00b1 0.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "n.s."
+    },
+    {
+      "row": [],
+      "col": [
+        "Survivin low, non-erosive RA ( n = 42) \u2020"
+      ],
+      "value": "7.1 \u00b1 0.3"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Synovial fluid"
+    },
+    {
+      "row": [],
+      "col": [
+        "Survivin high, erosive RA ( n = 27)"
+      ],
+      "value": "10.8 \u00b1 1.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "n.s."
+    },
+    {
+      "row": [],
+      "col": [
+        "Survivin low, erosive RA ( n = 61)"
+      ],
+      "value": "11.2 \u00b1 2.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "n.s."
+    },
+    {
+      "row": [],
+      "col": [
+        "Survivin low, non-erosive RA ( n = 42) \u2020"
+      ],
+      "value": "13.1 \u00b1 2.8"
+    }
+  ]
+}

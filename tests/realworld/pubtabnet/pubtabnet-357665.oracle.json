@@ -1,0 +1,519 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "-0.04",
+    "-0.06",
+    "-0.08, -0.02",
+    "-0.08,-0.01",
+    "-0.1",
+    "-0.3, 0.12",
+    "-0.4, 0.3",
+    "-11.6",
+    "-14.3",
+    "-15.4, -2.5",
+    "-17.6, 4.6",
+    "-19.8, -3.5",
+    "-22.6, -6.0",
+    "-6.4",
+    "-9.0",
+    "0.0001,0.0006",
+    "0.0003, 0.0008",
+    "0.0004",
+    "0.0006",
+    "0.001",
+    "0.005",
+    "0.006",
+    "0.01",
+    "0.25",
+    "0.3, 2.6",
+    "0.41",
+    "0.5, 2.3",
+    "0.78",
+    "1.4",
+    "1.5",
+    "95%CI",
+    "<0.001",
+    "Annual change in mL per pack-year to 1991",
+    "Annual change in mL per packs per day between 1991 and 2002",
+    "Coef",
+    "Cubic",
+    "Linear",
+    "Men (n = 245)",
+    "Men (n = 595)",
+    "Persistent smokers\u2020",
+    "Quadratic",
+    "Quitters\u2020",
+    "Term",
+    "Women (n = 179)",
+    "Women (n = 556)",
+    "na",
+    "p value"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Annual change in mL per pack-year to 1991"
+      ],
+      "value": "Coef"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change in mL per pack-year to 1991"
+      ],
+      "value": "95%CI"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change in mL per pack-year to 1991"
+      ],
+      "value": "p value"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change in mL per packs per day between 1991 and 2002"
+      ],
+      "value": "Coef"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change in mL per packs per day between 1991 and 2002"
+      ],
+      "value": "95%CI"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change in mL per packs per day between 1991 and 2002"
+      ],
+      "value": "p value"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Quitters\u2020"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Men (n = 245)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Term"
+      ],
+      "value": "Linear"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change in mL per pack-year to 1991"
+      ],
+      "value": "-0.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change in mL per pack-year to 1991"
+      ],
+      "value": "-0.4, 0.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change in mL per pack-year to 1991"
+      ],
+      "value": "0.78"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change in mL per packs per day between 1991 and 2002"
+      ],
+      "value": "-14.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change in mL per packs per day between 1991 and 2002"
+      ],
+      "value": "-22.6, -6.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change in mL per packs per day between 1991 and 2002"
+      ],
+      "value": "0.001"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Women (n = 179)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Term"
+      ],
+      "value": "Linear"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change in mL per pack-year to 1991"
+      ],
+      "value": "1.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change in mL per pack-year to 1991"
+      ],
+      "value": "0.3, 2.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change in mL per pack-year to 1991"
+      ],
+      "value": "0.01"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change in mL per packs per day between 1991 and 2002"
+      ],
+      "value": "-6.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change in mL per packs per day between 1991 and 2002"
+      ],
+      "value": "-17.6, 4.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change in mL per packs per day between 1991 and 2002"
+      ],
+      "value": "0.25"
+    },
+    {
+      "row": [],
+      "col": [
+        "Term"
+      ],
+      "value": "Quadratic"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change in mL per pack-year to 1991"
+      ],
+      "value": "-0.04"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change in mL per pack-year to 1991"
+      ],
+      "value": "-0.08,-0.01"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change in mL per pack-year to 1991"
+      ],
+      "value": "0.01"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change in mL per packs per day between 1991 and 2002"
+      ],
+      "value": "na"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change in mL per packs per day between 1991 and 2002"
+      ],
+      "value": "na"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change in mL per packs per day between 1991 and 2002"
+      ],
+      "value": "na"
+    },
+    {
+      "row": [],
+      "col": [
+        "Term"
+      ],
+      "value": "Cubic"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change in mL per pack-year to 1991"
+      ],
+      "value": "0.0004"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change in mL per pack-year to 1991"
+      ],
+      "value": "0.0001,0.0006"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change in mL per pack-year to 1991"
+      ],
+      "value": "0.006"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change in mL per packs per day between 1991 and 2002"
+      ],
+      "value": "na"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change in mL per packs per day between 1991 and 2002"
+      ],
+      "value": "na"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change in mL per packs per day between 1991 and 2002"
+      ],
+      "value": "na"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Persistent smokers\u2020"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Men (n = 595)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Term"
+      ],
+      "value": "Linear"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change in mL per pack-year to 1991"
+      ],
+      "value": "-0.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change in mL per pack-year to 1991"
+      ],
+      "value": "-0.3, 0.12"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change in mL per pack-year to 1991"
+      ],
+      "value": "0.41"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change in mL per packs per day between 1991 and 2002"
+      ],
+      "value": "-9.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change in mL per packs per day between 1991 and 2002"
+      ],
+      "value": "-15.4, -2.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change in mL per packs per day between 1991 and 2002"
+      ],
+      "value": "0.006"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Women (n = 556)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Term"
+      ],
+      "value": "Linear"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change in mL per pack-year to 1991"
+      ],
+      "value": "1.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change in mL per pack-year to 1991"
+      ],
+      "value": "0.5, 2.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change in mL per pack-year to 1991"
+      ],
+      "value": "0.001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change in mL per packs per day between 1991 and 2002"
+      ],
+      "value": "-11.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change in mL per packs per day between 1991 and 2002"
+      ],
+      "value": "-19.8, -3.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change in mL per packs per day between 1991 and 2002"
+      ],
+      "value": "0.005"
+    },
+    {
+      "row": [],
+      "col": [
+        "Term"
+      ],
+      "value": "Quadratic"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change in mL per pack-year to 1991"
+      ],
+      "value": "-0.06"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change in mL per pack-year to 1991"
+      ],
+      "value": "-0.08, -0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change in mL per pack-year to 1991"
+      ],
+      "value": "<0.001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change in mL per packs per day between 1991 and 2002"
+      ],
+      "value": "na"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change in mL per packs per day between 1991 and 2002"
+      ],
+      "value": "na"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change in mL per packs per day between 1991 and 2002"
+      ],
+      "value": "na"
+    },
+    {
+      "row": [],
+      "col": [
+        "Term"
+      ],
+      "value": "Cubic"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change in mL per pack-year to 1991"
+      ],
+      "value": "0.0006"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change in mL per pack-year to 1991"
+      ],
+      "value": "0.0003, 0.0008"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change in mL per pack-year to 1991"
+      ],
+      "value": "<0.001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change in mL per packs per day between 1991 and 2002"
+      ],
+      "value": "na"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change in mL per packs per day between 1991 and 2002"
+      ],
+      "value": "na"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change in mL per packs per day between 1991 and 2002"
+      ],
+      "value": "na"
+    }
+  ]
+}

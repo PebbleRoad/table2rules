@@ -1,0 +1,415 @@
+<!-- source: PubTabNet imgid=337388 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+</td>
+<td colspan="2">
+<b>
+       Number*
+      </b>
+</td>
+<td colspan="2">
+<b>
+       PPH %
+      </b>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<b>
+       Disease or condition
+      </b>
+</td>
+<td>
+<b>
+       Yes
+      </b>
+</td>
+<td>
+<b>
+       No
+      </b>
+</td>
+<td>
+<b>
+       Yes
+      </b>
+</td>
+<td>
+<b>
+       No
+      </b>
+</td>
+<td>
+<b>
+       P-value
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      Chronic disease
+     </td>
+<td>
+      394
+     </td>
+<td>
+      76
+     </td>
+<td>
+      50.3
+     </td>
+<td>
+      28.5
+     </td>
+<td>
+<b>
+       &lt;0.005
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+      Blood pressure
+     </td>
+<td>
+      84
+     </td>
+<td>
+      354
+     </td>
+<td>
+      49.6
+     </td>
+<td>
+      45.8
+     </td>
+<td>
+      NS
+     </td>
+</tr>
+<tr>
+<td>
+      Angina
+     </td>
+<td>
+      38
+     </td>
+<td>
+      429
+     </td>
+<td>
+      52.6
+     </td>
+<td>
+      46.1
+     </td>
+<td>
+      NS
+     </td>
+</tr>
+<tr>
+<td>
+      Heart failure
+     </td>
+<td>
+      15
+     </td>
+<td>
+      452
+     </td>
+<td>
+      73.3
+     </td>
+<td>
+      45.8
+     </td>
+<td>
+<b>
+       &lt;0.01
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+      Diabetes
+     </td>
+<td>
+      44
+     </td>
+<td>
+      422
+     </td>
+<td>
+      54.5
+     </td>
+<td>
+      45.7
+     </td>
+<td>
+      NS
+     </td>
+</tr>
+<tr>
+<td>
+      Asthma
+     </td>
+<td>
+      59
+     </td>
+<td>
+      408
+     </td>
+<td>
+      67.8
+     </td>
+<td>
+      43.6
+     </td>
+<td>
+<b>
+       &lt;0.005
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+      Chronic obstructive disease
+     </td>
+<td>
+      13
+     </td>
+<td>
+      454
+     </td>
+<td>
+      38.5
+     </td>
+<td>
+      46.9
+     </td>
+<td>
+      NS
+     </td>
+</tr>
+<tr>
+<td>
+      Neurological disease
+     </td>
+<td>
+      25
+     </td>
+<td>
+      441
+     </td>
+<td>
+      68.0
+     </td>
+<td>
+      45.6
+     </td>
+<td>
+<b>
+       &lt;0.0005
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+      Musculoskeletal disease
+     </td>
+<td>
+      89
+     </td>
+<td>
+      378
+     </td>
+<td>
+      68.5
+     </td>
+<td>
+      41.5
+     </td>
+<td>
+<b>
+       &lt;0.0001
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+      Joint disease
+     </td>
+<td>
+      255
+     </td>
+<td>
+      212
+     </td>
+<td>
+      55.3
+     </td>
+<td>
+      36.3
+     </td>
+<td>
+<b>
+       &lt;0.0005
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+      Pain syndrome
+     </td>
+<td>
+      112
+     </td>
+<td>
+      355
+     </td>
+<td>
+      65.1
+     </td>
+<td>
+      39.4
+     </td>
+<td>
+<b>
+       &lt;0.0001
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+      Cancer
+     </td>
+<td>
+      18
+     </td>
+<td>
+      448
+     </td>
+<td>
+      44.4
+     </td>
+<td>
+      46.9
+     </td>
+<td>
+      NS
+     </td>
+</tr>
+<tr>
+<td>
+      Psychiatric disorder
+     </td>
+<td>
+      40
+     </td>
+<td>
+      427
+     </td>
+<td>
+      80.0
+     </td>
+<td>
+      43.6
+     </td>
+<td>
+<b>
+       &lt;0.0001
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+      Eye disease
+     </td>
+<td>
+      65
+     </td>
+<td>
+      402
+     </td>
+<td>
+      53.8
+     </td>
+<td>
+      45.5
+     </td>
+<td>
+      NS
+     </td>
+</tr>
+<tr>
+<td>
+      Ear disease
+     </td>
+<td>
+      39
+     </td>
+<td>
+      427
+     </td>
+<td>
+      46.1
+     </td>
+<td>
+      46.8
+     </td>
+<td>
+      NS
+     </td>
+</tr>
+<tr>
+<td>
+      Gastrointestinal disorders
+     </td>
+<td>
+      120
+     </td>
+<td>
+      347
+     </td>
+<td>
+      59.2
+     </td>
+<td>
+      42.4
+     </td>
+<td>
+<b>
+       &lt;0.0005
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+      Urinary tract disease
+     </td>
+<td>
+      59
+     </td>
+<td>
+      406
+     </td>
+<td>
+      55.9
+     </td>
+<td>
+      45.1
+     </td>
+<td>
+<b>
+       &lt;0.05
+      </b>
+</td>
+</tr>
+</tbody>
+</table>

@@ -1,0 +1,350 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "%",
+    "12 months",
+    "2001",
+    "2002",
+    "24 months",
+    "94.7",
+    "95.7",
+    "95.9",
+    "96.0",
+    "96.1",
+    "96.5",
+    "96.7",
+    "96.9",
+    "97.1",
+    "97.4",
+    "97.5",
+    "97.7",
+    "97.9",
+    "98.0",
+    "98.1",
+    "98.2",
+    "98.3",
+    "98.4",
+    "98.5",
+    "98.7",
+    "DPT",
+    "Emilia Romagna",
+    "Hepatitis B",
+    "Italy",
+    "Italy*",
+    "Municipality of Bologna",
+    "Polio"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "2001"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Municipality of Bologna"
+    },
+    {
+      "row": [],
+      "col": [
+        "12 months",
+        "DPT",
+        "%"
+      ],
+      "value": "98.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "12 months",
+        "Polio",
+        "%"
+      ],
+      "value": "98.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "12 months",
+        "Hepatitis B",
+        "%"
+      ],
+      "value": "97.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "24 months",
+        "DPT",
+        "%"
+      ],
+      "value": "98.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "24 months",
+        "Polio",
+        "%"
+      ],
+      "value": "97.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "24 months",
+        "Hepatitis B",
+        "%"
+      ],
+      "value": "96.5"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Emilia Romagna"
+    },
+    {
+      "row": [],
+      "col": [
+        "12 months",
+        "DPT",
+        "%"
+      ],
+      "value": "98.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "12 months",
+        "Polio",
+        "%"
+      ],
+      "value": "98.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "12 months",
+        "Hepatitis B",
+        "%"
+      ],
+      "value": "98.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "24 months",
+        "DPT",
+        "%"
+      ],
+      "value": "98.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "24 months",
+        "Polio",
+        "%"
+      ],
+      "value": "98.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "24 months",
+        "Hepatitis B",
+        "%"
+      ],
+      "value": "98.0"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Italy"
+    },
+    {
+      "row": [],
+      "col": [
+        "24 months",
+        "DPT",
+        "%"
+      ],
+      "value": "96.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "24 months",
+        "Polio",
+        "%"
+      ],
+      "value": "96.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "24 months",
+        "Hepatitis B",
+        "%"
+      ],
+      "value": "94.7"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "2002"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Municipality of Bologna"
+    },
+    {
+      "row": [],
+      "col": [
+        "12 months",
+        "DPT",
+        "%"
+      ],
+      "value": "96.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "12 months",
+        "Polio",
+        "%"
+      ],
+      "value": "96.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "12 months",
+        "Hepatitis B",
+        "%"
+      ],
+      "value": "95.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "24 months",
+        "DPT",
+        "%"
+      ],
+      "value": "97.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "24 months",
+        "Polio",
+        "%"
+      ],
+      "value": "97.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "24 months",
+        "Hepatitis B",
+        "%"
+      ],
+      "value": "96.0"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Emilia Romagna"
+    },
+    {
+      "row": [],
+      "col": [
+        "12 months",
+        "DPT",
+        "%"
+      ],
+      "value": "98.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "12 months",
+        "Polio",
+        "%"
+      ],
+      "value": "98.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "12 months",
+        "Hepatitis B",
+        "%"
+      ],
+      "value": "97.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "24 months",
+        "DPT",
+        "%"
+      ],
+      "value": "98.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "24 months",
+        "Polio",
+        "%"
+      ],
+      "value": "98.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "24 months",
+        "Hepatitis B",
+        "%"
+      ],
+      "value": "97.5"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Italy*"
+    },
+    {
+      "row": [],
+      "col": [
+        "24 months",
+        "DPT",
+        "%"
+      ],
+      "value": "96.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "24 months",
+        "Polio",
+        "%"
+      ],
+      "value": "96.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "24 months",
+        "Hepatitis B",
+        "%"
+      ],
+      "value": "95.7"
+    }
+  ]
+}

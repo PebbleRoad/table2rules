@@ -1,0 +1,269 @@
+<!-- source: PubTabNet imgid=284789 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+</td>
+<td>
+<b>
+       Mean
+      </b>
+</td>
+<td>
+<b>
+       Standard deviation
+      </b>
+</td>
+<td>
+<b>
+<i>
+        n
+       </i>
+</b>
+</td>
+<td>
+<b>
+       Coeffficient
+      </b>
+</td>
+<td>
+<b>
+       Probability &gt; |
+       <i>
+        r
+       </i>
+       |
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      Variable 1
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Cathepsin K
+     </td>
+<td>
+      304.66
+     </td>
+<td>
+      677.607
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Variable 2
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Age (years)
+     </td>
+<td>
+      62.89
+     </td>
+<td>
+      11.1581
+     </td>
+<td>
+      100
+     </td>
+<td>
+      0.0543
+     </td>
+<td>
+      0.5915
+     </td>
+</tr>
+<tr>
+<td>
+      Rheumatoid factor (U/l)
+     </td>
+<td>
+      298.818
+     </td>
+<td>
+      1136.49
+     </td>
+<td>
+      100
+     </td>
+<td>
+      0.4761
+     </td>
+<td>
+      &lt; 0.0001
+     </td>
+</tr>
+<tr>
+<td>
+      Morning stiffness (min)
+     </td>
+<td>
+      32
+     </td>
+<td>
+      38.7233
+     </td>
+<td>
+      100
+     </td>
+<td>
+      0.1320
+     </td>
+<td>
+      0.1905
+     </td>
+</tr>
+<tr>
+<td>
+      Erythrocyte sedimentation rate (mm/hour)
+     </td>
+<td>
+      30.27
+     </td>
+<td>
+      20.8404
+     </td>
+<td>
+      100
+     </td>
+<td>
+      0.2200
+     </td>
+<td>
+      0.0279
+     </td>
+</tr>
+<tr>
+<td>
+      C-reactive protein (mg/l)
+     </td>
+<td>
+      24.96
+     </td>
+<td>
+      23.5032
+     </td>
+<td>
+      100
+     </td>
+<td>
+      0.1121
+     </td>
+<td>
+      0.2670
+     </td>
+</tr>
+<tr>
+<td>
+      Ritchie score
+     </td>
+<td>
+      11.31
+     </td>
+<td>
+      10.3394
+     </td>
+<td>
+      100
+     </td>
+<td>
+      0.1353
+     </td>
+<td>
+      0.1797
+     </td>
+</tr>
+<tr>
+<td>
+      Proximal interphalangeal score
+     </td>
+<td>
+      1.51
+     </td>
+<td>
+      2.69865
+     </td>
+<td>
+      100
+     </td>
+<td>
+      0.2560
+     </td>
+<td>
+      0.0101
+     </td>
+</tr>
+<tr>
+<td>
+      Disease activity score
+     </td>
+<td>
+      3.33283
+     </td>
+<td>
+      1.43345
+     </td>
+<td>
+      100
+     </td>
+<td>
+      0.2093
+     </td>
+<td>
+      0.0376
+     </td>
+</tr>
+<tr>
+<td>
+      Larsen score
+     </td>
+<td>
+      54.77
+     </td>
+<td>
+      49.3335
+     </td>
+<td>
+      100
+     </td>
+<td>
+      0.2856
+     </td>
+<td>
+      0.0040
+     </td>
+</tr>
+</tbody>
+</table>

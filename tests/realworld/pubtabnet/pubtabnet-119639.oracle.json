@@ -1,0 +1,537 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "(N = 1,966)",
+    "(N = 2,106)",
+    "(N = 783)",
+    "(N = 948)",
+    "1.03 (0.0)",
+    "1.05 (0.0)",
+    "1.05 (0.01)",
+    "12.34 (6.8)",
+    "12.48 (7.1)",
+    "13.49 (5.9)",
+    "15.09 (7.6)",
+    "159.54 (7.0)",
+    "161.91 (6.5)",
+    "17.91 (0.1)*",
+    "174.00 (7.1)",
+    "174.48 (7.4)",
+    "18.82 (0.1)*",
+    "20.03 (9.6)",
+    "20.40 (10.6)",
+    "20.41 (8.9)",
+    "20.81 (0.1)",
+    "20.82 (0.1)",
+    "23.29 \u00b1 (8.1)*",
+    "25.04 (10.3)*",
+    "26.08 (9.2)*",
+    "26.66 (5.2)",
+    "26.75 (4.5)",
+    "26.78 (5.8)",
+    "29.40 (9.7)",
+    "29.95 (7.2)",
+    "30.40 (8.8)",
+    "46.65 (0.2)*",
+    "49.53 (0.4)*",
+    "58.41 (12.9)",
+    "58.51 (13.6)",
+    "63.87 (0.4)",
+    "64.26 (0.3)",
+    "65.94 (14.2)",
+    "66.62 (14.5)",
+    "68.28 (16.0)",
+    "78.64 (20.0)",
+    "81.20 (15.7)",
+    "81.40 (17.8)",
+    "African Americans",
+    "Age (years)*",
+    "Body Density (g/cm 3 )",
+    "Body Mass Index (kg/m 2 )",
+    "Body Weight (kg)*",
+    "Characteristics",
+    "Fat Free Mass (kg)",
+    "Fat Free Mass Index (kg/m 2 )",
+    "Mean \u00b1 SE",
+    "Men",
+    "Non-Hispanic Whites",
+    "Standing Height (cm)",
+    "Suprailiac Skinfold (mm)",
+    "Thigh Skinfold (mm)",
+    "Triceps Skinfold (mm)",
+    "Women"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Characteristics"
+      ],
+      "value": "Age (years)*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-Hispanic Whites",
+        "Men",
+        "Mean \u00b1 SE",
+        "(N = 2,106)"
+      ],
+      "value": "65.94 (14.2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-Hispanic Whites",
+        "Women",
+        "Mean \u00b1 SE",
+        "(N = 1,966)"
+      ],
+      "value": "66.62 (14.5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "African Americans",
+        "Men",
+        "Mean \u00b1 SE",
+        "(N = 948)"
+      ],
+      "value": "58.41 (12.9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "African Americans",
+        "Women",
+        "Mean \u00b1 SE",
+        "(N = 783)"
+      ],
+      "value": "58.51 (13.6)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristics"
+      ],
+      "value": "Body Weight (kg)*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-Hispanic Whites",
+        "Men",
+        "Mean \u00b1 SE",
+        "(N = 2,106)"
+      ],
+      "value": "81.20 (15.7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-Hispanic Whites",
+        "Women",
+        "Mean \u00b1 SE",
+        "(N = 1,966)"
+      ],
+      "value": "68.28 (16.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "African Americans",
+        "Men",
+        "Mean \u00b1 SE",
+        "(N = 948)"
+      ],
+      "value": "81.40 (17.8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "African Americans",
+        "Women",
+        "Mean \u00b1 SE",
+        "(N = 783)"
+      ],
+      "value": "78.64 (20.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristics"
+      ],
+      "value": "Standing Height (cm)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-Hispanic Whites",
+        "Men",
+        "Mean \u00b1 SE",
+        "(N = 2,106)"
+      ],
+      "value": "174.00 (7.1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-Hispanic Whites",
+        "Women",
+        "Mean \u00b1 SE",
+        "(N = 1,966)"
+      ],
+      "value": "159.54 (7.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "African Americans",
+        "Men",
+        "Mean \u00b1 SE",
+        "(N = 948)"
+      ],
+      "value": "174.48 (7.4)"
+    },
+    {
+      "row": [],
+      "col": [
+        "African Americans",
+        "Women",
+        "Mean \u00b1 SE",
+        "(N = 783)"
+      ],
+      "value": "161.91 (6.5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristics"
+      ],
+      "value": "Body Mass Index (kg/m 2 )"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-Hispanic Whites",
+        "Men",
+        "Mean \u00b1 SE",
+        "(N = 2,106)"
+      ],
+      "value": "26.75 (4.5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-Hispanic Whites",
+        "Women",
+        "Mean \u00b1 SE",
+        "(N = 1,966)"
+      ],
+      "value": "26.78 (5.8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "African Americans",
+        "Men",
+        "Mean \u00b1 SE",
+        "(N = 948)"
+      ],
+      "value": "26.66 (5.2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "African Americans",
+        "Women",
+        "Mean \u00b1 SE",
+        "(N = 783)"
+      ],
+      "value": "29.95 (7.2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristics"
+      ],
+      "value": "Triceps Skinfold (mm)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-Hispanic Whites",
+        "Men",
+        "Mean \u00b1 SE",
+        "(N = 2,106)"
+      ],
+      "value": "13.49 (5.9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-Hispanic Whites",
+        "Women",
+        "Mean \u00b1 SE",
+        "(N = 1,966)"
+      ],
+      "value": "23.29 \u00b1 (8.1)*"
+    },
+    {
+      "row": [],
+      "col": [
+        "African Americans",
+        "Men",
+        "Mean \u00b1 SE",
+        "(N = 948)"
+      ],
+      "value": "12.34 (6.8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "African Americans",
+        "Women",
+        "Mean \u00b1 SE",
+        "(N = 783)"
+      ],
+      "value": "26.08 (9.2)*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristics"
+      ],
+      "value": "Suprailiac Skinfold (mm)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-Hispanic Whites",
+        "Men",
+        "Mean \u00b1 SE",
+        "(N = 2,106)"
+      ],
+      "value": "20.41 (8.9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-Hispanic Whites",
+        "Women",
+        "Mean \u00b1 SE",
+        "(N = 1,966)"
+      ],
+      "value": "20.03 (9.6)"
+    },
+    {
+      "row": [],
+      "col": [
+        "African Americans",
+        "Men",
+        "Mean \u00b1 SE",
+        "(N = 948)"
+      ],
+      "value": "20.40 (10.6)"
+    },
+    {
+      "row": [],
+      "col": [
+        "African Americans",
+        "Women",
+        "Mean \u00b1 SE",
+        "(N = 783)"
+      ],
+      "value": "25.04 (10.3)*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristics"
+      ],
+      "value": "Thigh Skinfold (mm)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-Hispanic Whites",
+        "Men",
+        "Mean \u00b1 SE",
+        "(N = 2,106)"
+      ],
+      "value": "15.09 (7.6)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-Hispanic Whites",
+        "Women",
+        "Mean \u00b1 SE",
+        "(N = 1,966)"
+      ],
+      "value": "30.40 (8.8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "African Americans",
+        "Men",
+        "Mean \u00b1 SE",
+        "(N = 948)"
+      ],
+      "value": "12.48 (7.1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "African Americans",
+        "Women",
+        "Mean \u00b1 SE",
+        "(N = 783)"
+      ],
+      "value": "29.40 (9.7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristics"
+      ],
+      "value": "Body Density (g/cm 3 )"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-Hispanic Whites",
+        "Men",
+        "Mean \u00b1 SE",
+        "(N = 2,106)"
+      ],
+      "value": "1.05 (0.01)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-Hispanic Whites",
+        "Women",
+        "Mean \u00b1 SE",
+        "(N = 1,966)"
+      ],
+      "value": "1.03 (0.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "African Americans",
+        "Men",
+        "Mean \u00b1 SE",
+        "(N = 948)"
+      ],
+      "value": "1.05 (0.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "African Americans",
+        "Women",
+        "Mean \u00b1 SE",
+        "(N = 783)"
+      ],
+      "value": "1.03 (0.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristics"
+      ],
+      "value": "Fat Free Mass (kg)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-Hispanic Whites",
+        "Men",
+        "Mean \u00b1 SE",
+        "(N = 2,106)"
+      ],
+      "value": "64.26 (0.3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-Hispanic Whites",
+        "Women",
+        "Mean \u00b1 SE",
+        "(N = 1,966)"
+      ],
+      "value": "46.65 (0.2)*"
+    },
+    {
+      "row": [],
+      "col": [
+        "African Americans",
+        "Men",
+        "Mean \u00b1 SE",
+        "(N = 948)"
+      ],
+      "value": "63.87 (0.4)"
+    },
+    {
+      "row": [],
+      "col": [
+        "African Americans",
+        "Women",
+        "Mean \u00b1 SE",
+        "(N = 783)"
+      ],
+      "value": "49.53 (0.4)*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristics"
+      ],
+      "value": "Fat Free Mass Index (kg/m 2 )"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-Hispanic Whites",
+        "Men",
+        "Mean \u00b1 SE",
+        "(N = 2,106)"
+      ],
+      "value": "20.81 (0.1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-Hispanic Whites",
+        "Women",
+        "Mean \u00b1 SE",
+        "(N = 1,966)"
+      ],
+      "value": "17.91 (0.1)*"
+    },
+    {
+      "row": [],
+      "col": [
+        "African Americans",
+        "Men",
+        "Mean \u00b1 SE",
+        "(N = 948)"
+      ],
+      "value": "20.82 (0.1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "African Americans",
+        "Women",
+        "Mean \u00b1 SE",
+        "(N = 783)"
+      ],
+      "value": "18.82 (0.1)*"
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+<!-- source: PubTabNet imgid=175939 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+</td>
+<td colspan="2">
+<b>
+       Prostate Cancers
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Breast Cancers
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+</td>
+<td>
+      Cases
+     </td>
+<td>
+      %
+     </td>
+<td>
+      Cases
+     </td>
+<td>
+      %
+     </td>
+</tr>
+<tr>
+<td>
+      Incident cases with town of residence recorded by the Connecticut Tumor Registry (CTR)
+     </td>
+<td>
+      10,054
+     </td>
+<td>
+      100
+     </td>
+<td>
+      12,518
+     </td>
+<td>
+      100
+     </td>
+</tr>
+<tr>
+<td>
+      Census tract of residence recorded by CTR
+     </td>
+<td>
+      9,825
+     </td>
+<td>
+      98
+     </td>
+<td>
+      10,924
+     </td>
+<td>
+      87
+     </td>
+</tr>
+<tr>
+<td>
+      Geocoded block group &amp; street address of residence
+     </td>
+<td>
+      9,207
+     </td>
+<td>
+      92
+     </td>
+<td>
+      11,864
+     </td>
+<td>
+      95
+     </td>
+</tr>
+<tr>
+<td>
+      Geocoded street address on 1
+      <sup>
+       st
+      </sup>
+      try (stringent criteria)
+     </td>
+<td>
+      4,546
+     </td>
+<td>
+</td>
+<td>
+      5,926
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Geocoded street address on 2
+      <sup>
+       nd
+      </sup>
+      try (relaxed criteria)
+     </td>
+<td>
+      4,661
+     </td>
+<td>
+</td>
+<td>
+      5,938
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Nursing home resident excluded for analysis by block group and exact coordinates
+     </td>
+<td>
+      179
+     </td>
+<td>
+</td>
+<td>
+      111
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Record not geocoded
+     </td>
+<td>
+      847
+     </td>
+<td>
+      8
+     </td>
+<td>
+      654
+     </td>
+<td>
+      5
+     </td>
+</tr>
+<tr>
+<td>
+      Post Office box listed
+     </td>
+<td>
+      178
+     </td>
+<td>
+</td>
+<td>
+      64
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      No street address listed
+     </td>
+<td>
+      216
+     </td>
+<td>
+</td>
+<td>
+      534
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      No house number listed
+     </td>
+<td>
+      176
+     </td>
+<td>
+</td>
+<td>
+      23
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Listed address unable to geocode
+     </td>
+<td>
+      277
+     </td>
+<td>
+</td>
+<td>
+      33
+     </td>
+<td>
+</td>
+</tr>
+</tbody>
+</table>

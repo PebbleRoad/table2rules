@@ -1,0 +1,654 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "--",
+    "0",
+    "0.010",
+    "0.015",
+    "0.019",
+    "0.020",
+    "0.024",
+    "0.025",
+    "0.028",
+    "0.039",
+    "0.058",
+    "0.05\u20131.19",
+    "0.068",
+    "0.082",
+    "0.095",
+    "0.105",
+    "0.140",
+    "0.145",
+    "0.149",
+    "0.14\u20132.59",
+    "0.240",
+    "0.250",
+    "0.25\u20134.18",
+    "0.278",
+    "0.306",
+    "0.340",
+    "0.359",
+    "0.366",
+    "0.38\u201311.49",
+    "0.41\u20137.36",
+    "0.443",
+    "0.46\u20131.11",
+    "0.498",
+    "0.50\u201313.64",
+    "0.59\u20131.80",
+    "0.602",
+    "0.612",
+    "0.61\u20131.38",
+    "0.70\u20132.96",
+    "0.717",
+    "0.724",
+    "0.755",
+    "0.919",
+    "1.000",
+    "1.031",
+    "1.035",
+    "1.439",
+    "1.735",
+    "2.081",
+    "2.082",
+    "2.615",
+    "95% CI d",
+    "Fisher's Exact Test ( P value) b",
+    "GGGAGACCCA",
+    "GGTAGACCCA",
+    "GGTTGCCCTA",
+    "GGTTGCCCTG",
+    "Haplotype a",
+    "Normal",
+    "OR b,c,d",
+    "Others",
+    "P value of permutation test",
+    "Patient",
+    "TAGAGACATG",
+    "TAGAGACCTG",
+    "TAGTAACACA",
+    "TAGTAACCTG",
+    "TAGTAAGACA",
+    "TAGTAAGATA",
+    "TAGTGACCTG",
+    "TAGTGCGACA",
+    "Total"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Haplotype a"
+      ],
+      "value": "TAGTAAGACA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient"
+      ],
+      "value": "0.340"
+    },
+    {
+      "row": [],
+      "col": [
+        "Normal"
+      ],
+      "value": "0.359"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fisher's Exact Test ( P value) b"
+      ],
+      "value": "0.755"
+    },
+    {
+      "row": [],
+      "col": [
+        "OR b,c,d"
+      ],
+      "value": "0.919"
+    },
+    {
+      "row": [],
+      "col": [
+        "95% CI d"
+      ],
+      "value": "0.61\u20131.38"
+    },
+    {
+      "row": [],
+      "col": [
+        "Haplotype a"
+      ],
+      "value": "TAGAGACCTG"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient"
+      ],
+      "value": "0.145"
+    },
+    {
+      "row": [],
+      "col": [
+        "Normal"
+      ],
+      "value": "0.140"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fisher's Exact Test ( P value) b"
+      ],
+      "value": "1.000"
+    },
+    {
+      "row": [],
+      "col": [
+        "OR b,c,d"
+      ],
+      "value": "1.035"
+    },
+    {
+      "row": [],
+      "col": [
+        "95% CI d"
+      ],
+      "value": "0.59\u20131.80"
+    },
+    {
+      "row": [],
+      "col": [
+        "Haplotype a"
+      ],
+      "value": "GGTTGCCCTA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient"
+      ],
+      "value": "0.095"
+    },
+    {
+      "row": [],
+      "col": [
+        "Normal"
+      ],
+      "value": "0.068"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fisher's Exact Test ( P value) b"
+      ],
+      "value": "0.366"
+    },
+    {
+      "row": [],
+      "col": [
+        "OR b,c,d"
+      ],
+      "value": "1.439"
+    },
+    {
+      "row": [],
+      "col": [
+        "95% CI d"
+      ],
+      "value": "0.70\u20132.96"
+    },
+    {
+      "row": [],
+      "col": [
+        "Haplotype a"
+      ],
+      "value": "TAGTAACACA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient"
+      ],
+      "value": "0.010"
+    },
+    {
+      "row": [],
+      "col": [
+        "Normal"
+      ],
+      "value": "0.039"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fisher's Exact Test ( P value) b"
+      ],
+      "value": "0.105"
+    },
+    {
+      "row": [],
+      "col": [
+        "OR b,c,d"
+      ],
+      "value": "0.250"
+    },
+    {
+      "row": [],
+      "col": [
+        "95% CI d"
+      ],
+      "value": "0.05\u20131.19"
+    },
+    {
+      "row": [],
+      "col": [
+        "Haplotype a"
+      ],
+      "value": "TAGTAAGATA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient"
+      ],
+      "value": "0.025"
+    },
+    {
+      "row": [],
+      "col": [
+        "Normal"
+      ],
+      "value": "0.010"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fisher's Exact Test ( P value) b"
+      ],
+      "value": "0.278"
+    },
+    {
+      "row": [],
+      "col": [
+        "OR b,c,d"
+      ],
+      "value": "2.615"
+    },
+    {
+      "row": [],
+      "col": [
+        "95% CI d"
+      ],
+      "value": "0.50\u201313.64"
+    },
+    {
+      "row": [],
+      "col": [
+        "Haplotype a"
+      ],
+      "value": "TAGTGCGACA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient"
+      ],
+      "value": "0.025"
+    },
+    {
+      "row": [],
+      "col": [
+        "Normal"
+      ],
+      "value": "0.015"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fisher's Exact Test ( P value) b"
+      ],
+      "value": "0.498"
+    },
+    {
+      "row": [],
+      "col": [
+        "OR b,c,d"
+      ],
+      "value": "1.735"
+    },
+    {
+      "row": [],
+      "col": [
+        "95% CI d"
+      ],
+      "value": "0.41\u20137.36"
+    },
+    {
+      "row": [],
+      "col": [
+        "Haplotype a"
+      ],
+      "value": "GGGAGACCCA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient"
+      ],
+      "value": "0.025"
+    },
+    {
+      "row": [],
+      "col": [
+        "Normal"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fisher's Exact Test ( P value) b"
+      ],
+      "value": "0.028"
+    },
+    {
+      "row": [],
+      "col": [
+        "OR b,c,d"
+      ],
+      "value": "--"
+    },
+    {
+      "row": [],
+      "col": [
+        "95% CI d"
+      ],
+      "value": "--"
+    },
+    {
+      "row": [],
+      "col": [
+        "Haplotype a"
+      ],
+      "value": "TAGTAACCTG"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient"
+      ],
+      "value": "0.020"
+    },
+    {
+      "row": [],
+      "col": [
+        "Normal"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fisher's Exact Test ( P value) b"
+      ],
+      "value": "0.058"
+    },
+    {
+      "row": [],
+      "col": [
+        "OR b,c,d"
+      ],
+      "value": "--"
+    },
+    {
+      "row": [],
+      "col": [
+        "95% CI d"
+      ],
+      "value": "--"
+    },
+    {
+      "row": [],
+      "col": [
+        "Haplotype a"
+      ],
+      "value": "TAGTGACCTG"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient"
+      ],
+      "value": "0.020"
+    },
+    {
+      "row": [],
+      "col": [
+        "Normal"
+      ],
+      "value": "0.010"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fisher's Exact Test ( P value) b"
+      ],
+      "value": "0.443"
+    },
+    {
+      "row": [],
+      "col": [
+        "OR b,c,d"
+      ],
+      "value": "2.081"
+    },
+    {
+      "row": [],
+      "col": [
+        "95% CI d"
+      ],
+      "value": "0.38\u201311.49"
+    },
+    {
+      "row": [],
+      "col": [
+        "Haplotype a"
+      ],
+      "value": "TAGAGACATG"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient"
+      ],
+      "value": "0.020"
+    },
+    {
+      "row": [],
+      "col": [
+        "Normal"
+      ],
+      "value": "0.019"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fisher's Exact Test ( P value) b"
+      ],
+      "value": "1.000"
+    },
+    {
+      "row": [],
+      "col": [
+        "OR b,c,d"
+      ],
+      "value": "1.031"
+    },
+    {
+      "row": [],
+      "col": [
+        "95% CI d"
+      ],
+      "value": "0.25\u20134.18"
+    },
+    {
+      "row": [],
+      "col": [
+        "Haplotype a"
+      ],
+      "value": "GGTTGCCCTG"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient"
+      ],
+      "value": "0.020"
+    },
+    {
+      "row": [],
+      "col": [
+        "Normal"
+      ],
+      "value": "0.010"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fisher's Exact Test ( P value) b"
+      ],
+      "value": "0.443"
+    },
+    {
+      "row": [],
+      "col": [
+        "OR b,c,d"
+      ],
+      "value": "2.082"
+    },
+    {
+      "row": [],
+      "col": [
+        "95% CI d"
+      ],
+      "value": "0.38\u201311.49"
+    },
+    {
+      "row": [],
+      "col": [
+        "Haplotype a"
+      ],
+      "value": "GGTAGACCCA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient"
+      ],
+      "value": "0.015"
+    },
+    {
+      "row": [],
+      "col": [
+        "Normal"
+      ],
+      "value": "0.024"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fisher's Exact Test ( P value) b"
+      ],
+      "value": "0.724"
+    },
+    {
+      "row": [],
+      "col": [
+        "OR b,c,d"
+      ],
+      "value": "0.612"
+    },
+    {
+      "row": [],
+      "col": [
+        "95% CI d"
+      ],
+      "value": "0.14\u20132.59"
+    },
+    {
+      "row": [],
+      "col": [
+        "Haplotype a"
+      ],
+      "value": "Others"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient"
+      ],
+      "value": "0.240"
+    },
+    {
+      "row": [],
+      "col": [
+        "Normal"
+      ],
+      "value": "0.306"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fisher's Exact Test ( P value) b"
+      ],
+      "value": "0.149"
+    },
+    {
+      "row": [],
+      "col": [
+        "OR b,c,d"
+      ],
+      "value": "0.717"
+    },
+    {
+      "row": [],
+      "col": [
+        "95% CI d"
+      ],
+      "value": "0.46\u20131.11"
+    },
+    {
+      "row": [],
+      "col": [
+        "Haplotype a"
+      ],
+      "value": "Total"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fisher's Exact Test ( P value) b"
+      ],
+      "value": "0.082"
+    },
+    {
+      "row": [],
+      "col": [
+        "Haplotype a"
+      ],
+      "value": "P value of permutation test"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient"
+      ],
+      "value": "0.602"
+    }
+  ]
+}

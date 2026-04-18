@@ -1,0 +1,313 @@
+<!-- source: PubTabNet imgid=172213 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+<b>
+       Percent
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Ala
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Gly
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Arg
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Val
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+<b>
+       Composition
+      </b>
+</td>
+<td>
+<b>
+       Genes*
+      </b>
+</td>
+<td>
+<b>
+       E. Level**
+      </b>
+</td>
+<td>
+<b>
+       Genes
+      </b>
+</td>
+<td>
+<b>
+       E. Level
+      </b>
+</td>
+<td>
+<b>
+       Genes
+      </b>
+</td>
+<td>
+<b>
+       E. Level
+      </b>
+</td>
+<td>
+<b>
+       Genes
+      </b>
+</td>
+<td>
+<b>
+       E. Level
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      1 – 3
+     </td>
+<td>
+      163
+     </td>
+<td>
+      2.59
+     </td>
+<td>
+      339
+     </td>
+<td>
+      2.96
+     </td>
+<td>
+      558
+     </td>
+<td>
+      3.77
+     </td>
+<td>
+      106
+     </td>
+<td>
+      2.93
+     </td>
+</tr>
+<tr>
+<td>
+      3 – 5
+     </td>
+<td>
+      1074
+     </td>
+<td>
+      2.11
+     </td>
+<td>
+      1180
+     </td>
+<td>
+      2.43
+     </td>
+<td>
+      1741
+     </td>
+<td>
+      2.92
+     </td>
+<td>
+      941
+     </td>
+<td>
+      2.48
+     </td>
+</tr>
+<tr>
+<td>
+      5 – 7
+     </td>
+<td>
+      1212
+     </td>
+<td>
+      2.80
+     </td>
+<td>
+      1193
+     </td>
+<td>
+      3.81
+     </td>
+<td>
+      802
+     </td>
+<td>
+      2.86
+     </td>
+<td>
+      1498
+     </td>
+<td>
+      3.00
+     </td>
+</tr>
+<tr>
+<td>
+      7 – 9
+     </td>
+<td>
+      626
+     </td>
+<td>
+      5.36
+     </td>
+<td>
+      523
+     </td>
+<td>
+      6.55
+     </td>
+<td>
+      201
+     </td>
+<td>
+      8.03
+     </td>
+<td>
+      705
+     </td>
+<td>
+      5.37
+     </td>
+</tr>
+<tr>
+<td>
+      9 – 11
+     </td>
+<td>
+      246
+     </td>
+<td>
+      9.41
+     </td>
+<td>
+      158
+     </td>
+<td>
+      7.82
+     </td>
+<td>
+      58
+     </td>
+<td>
+      20.34
+     </td>
+<td>
+      171
+     </td>
+<td>
+      13.22
+     </td>
+</tr>
+<tr>
+<td>
+      11 – 13
+     </td>
+<td>
+      64
+     </td>
+<td>
+      15.25
+     </td>
+<td>
+      36
+     </td>
+<td>
+      12.79
+     </td>
+<td>
+      27
+     </td>
+<td>
+      17.56
+     </td>
+<td>
+      24
+     </td>
+<td>
+      16.45
+     </td>
+</tr>
+<tr>
+<td>
+      13 – 15
+     </td>
+<td>
+      31
+     </td>
+<td>
+      15.76
+     </td>
+<td>
+      15
+     </td>
+<td>
+      12.73
+     </td>
+<td>
+      9
+     </td>
+<td>
+      29.74
+     </td>
+<td>
+      5
+     </td>
+<td>
+      22.04
+     </td>
+</tr>
+<tr>
+<td>
+      &gt;15
+     </td>
+<td>
+      35
+     </td>
+<td>
+      15.78
+     </td>
+<td>
+      7
+     </td>
+<td>
+      13.54
+     </td>
+<td>
+      3
+     </td>
+<td>
+      23.90
+     </td>
+<td>
+      2
+     </td>
+<td>
+      19.55
+     </td>
+</tr>
+</tbody>
+</table>

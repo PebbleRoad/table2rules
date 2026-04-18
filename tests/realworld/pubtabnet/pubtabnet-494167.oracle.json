@@ -1,0 +1,647 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "1",
+    "1 (1)",
+    "10 (11)",
+    "11 (13)",
+    "12 (14)",
+    "14 (16)",
+    "16 (18)",
+    "17 (19)",
+    "17(19)",
+    "18 (21)",
+    "19 (21)",
+    "2",
+    "2(2)",
+    "20 (22)",
+    "20 (23)",
+    "23 (26)",
+    "24 (27)",
+    "26 (29)",
+    "28 (32)",
+    "29 (33)",
+    "3 (3)",
+    "31 (35)",
+    "32 (36)",
+    "33 (37)",
+    "33 (38)",
+    "36 (40)",
+    "37 (42)",
+    "38 (43)",
+    "39 (44)",
+    "4 (5)",
+    "40 (45)",
+    "41 (47)",
+    "42 (48)",
+    "46 (52)",
+    "48 (54)",
+    "5 (6)",
+    "50 (56)",
+    "51 (57)",
+    "54 (60)",
+    "6 (7)",
+    "7 (8)",
+    "8 (9)",
+    "Applying for grants",
+    "Appraisal",
+    "Business planning",
+    "Financial skills",
+    "Leadership",
+    "Literature review",
+    "Management",
+    "Managing private practice",
+    "Medico-legal (court work, reports)",
+    "Negotiation",
+    "Not at all",
+    "Not very",
+    "Perceived degree of competence (%)",
+    "Presentations",
+    "Quite",
+    "Research Skills",
+    "Risk management",
+    "Running research projects",
+    "Skill",
+    "Very",
+    "Writing up",
+    "missing",
+    "n = 90"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "n = 90"
+      ],
+      "value": "Skill"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "Very"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "Quite"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "Not very"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "Not at all"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "missing"
+    },
+    {
+      "row": [],
+      "col": [
+        "n = 90"
+      ],
+      "value": "Management"
+    },
+    {
+      "row": [],
+      "col": [
+        "n = 90"
+      ],
+      "value": "Negotiation"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "7 (8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "37 (42)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "38 (43)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "6 (7)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "n = 90"
+      ],
+      "value": "Business planning"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "2(2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "17(19)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "50 (56)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "20 (22)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "n = 90"
+      ],
+      "value": "Financial skills"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "3 (3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "14 (16)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "48 (54)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "24 (27)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "n = 90"
+      ],
+      "value": "Leadership"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "20 (23)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "54 (60)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "12 (14)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "3 (3)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "n = 90"
+      ],
+      "value": "Appraisal"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "6 (7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "24 (27)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "42 (48)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "16 (18)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "n = 90"
+      ],
+      "value": "Presentations"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "37 (42)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "46 (52)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "5 (6)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "1 (1)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "n = 90"
+      ],
+      "value": "Medico-legal (court work, reports)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "8 (9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "28 (32)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "36 (40)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "17 (19)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "n = 90"
+      ],
+      "value": "Risk management"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "3 (3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "33 (38)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "41 (47)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "11 (13)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "n = 90"
+      ],
+      "value": "Managing private practice"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "4 (5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "14 (16)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "39 (44)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "32 (36)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "n = 90"
+      ],
+      "value": "Research Skills"
+    },
+    {
+      "row": [],
+      "col": [
+        "n = 90"
+      ],
+      "value": "Applying for grants"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "6 (7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "18 (21)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "33 (38)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "31 (35)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "n = 90"
+      ],
+      "value": "Running research projects"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "10 (11)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "33 (37)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "29 (33)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "17 (19)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "n = 90"
+      ],
+      "value": "Literature review"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "26 (29)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "51 (57)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "8 (9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "4 (5)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "n = 90"
+      ],
+      "value": "Writing up"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "23 (26)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "40 (45)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "19 (21)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived degree of competence (%)"
+      ],
+      "value": "7 (8)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "1"
+    }
+  ]
+}

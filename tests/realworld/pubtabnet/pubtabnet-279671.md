@@ -1,0 +1,741 @@
+<!-- source: PubTabNet imgid=279671 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+</td>
+<td>
+<b>
+       Radial Score Test
+      </b>
+</td>
+<td>
+<b>
+       DIR Score Test
+      </b>
+</td>
+<td>
+<b>
+       Besag and Newell's Test (
+       <i>
+        k
+       </i>
+       = 7)
+      </b>
+</td>
+<td>
+<b>
+       Cuzick and Edwards' Test (
+       <i>
+        k
+       </i>
+       = 7)
+      </b>
+</td>
+<td>
+<b>
+       Tango's Test (
+       <i>
+        τ
+       </i>
+       = 5)
+      </b>
+</td>
+<td>
+<b>
+       LRS DIR Test
+      </b>
+</td>
+<td>
+<b>
+       LRS DD Test
+      </b>
+</td>
+<td>
+<b>
+       Stone's Test
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<b>
+       DD
+      </b>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<i>
+       α
+      </i>
+<sub>
+       1
+      </sub>
+      = 0.005
+     </td>
+<td>
+      0.02
+     </td>
+<td>
+      0.02
+     </td>
+<td>
+      0.01
+     </td>
+<td>
+      0.02
+     </td>
+<td>
+      0.02
+     </td>
+<td>
+      0.02
+     </td>
+<td>
+      0.02
+     </td>
+<td>
+      0.02
+     </td>
+</tr>
+<tr>
+<td>
+<i>
+       α
+      </i>
+<sub>
+       1
+      </sub>
+      = 0.05
+     </td>
+<td>
+      0.02
+     </td>
+<td>
+      0.02
+     </td>
+<td>
+      0.01
+     </td>
+<td>
+      0.02
+     </td>
+<td>
+      0.03
+     </td>
+<td>
+      0.02
+     </td>
+<td>
+      0.03
+     </td>
+<td>
+      0.02
+     </td>
+</tr>
+<tr>
+<td>
+<i>
+       α
+      </i>
+<sub>
+       1
+      </sub>
+      = 0.1
+     </td>
+<td>
+      0.02
+     </td>
+<td>
+      0.02
+     </td>
+<td>
+      0.01
+     </td>
+<td>
+      0.02
+     </td>
+<td>
+      0.03
+     </td>
+<td>
+      0.02
+     </td>
+<td>
+      0.03
+     </td>
+<td>
+      0.03
+     </td>
+</tr>
+<tr>
+<td>
+<i>
+       α
+      </i>
+<sub>
+       1
+      </sub>
+      = 1
+     </td>
+<td>
+      0.05
+     </td>
+<td>
+      0.02
+     </td>
+<td>
+      0.01
+     </td>
+<td>
+      0.03
+     </td>
+<td>
+      0.04
+     </td>
+<td>
+      0.02
+     </td>
+<td>
+      0.04
+     </td>
+<td>
+      0.05
+     </td>
+</tr>
+<tr>
+<td>
+<i>
+       α
+      </i>
+<sub>
+       1
+      </sub>
+      = 2
+     </td>
+<td>
+      0.03
+     </td>
+<td>
+      0.02
+     </td>
+<td>
+      0.01
+     </td>
+<td>
+      0.04
+     </td>
+<td>
+      0.02
+     </td>
+<td>
+      0.03
+     </td>
+<td>
+      0.01
+     </td>
+<td>
+      0.03
+     </td>
+</tr>
+<tr>
+<td>
+<i>
+       α
+      </i>
+<sub>
+       1
+      </sub>
+      = 10
+     </td>
+<td>
+      0.04
+     </td>
+<td>
+      0.02
+     </td>
+<td>
+      0.01
+     </td>
+<td>
+      0.05
+     </td>
+<td>
+      0.03
+     </td>
+<td>
+      0.02
+     </td>
+<td>
+      0.03
+     </td>
+<td>
+      0.03
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       DIR
+      </b>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<i>
+       α
+      </i>
+<sub>
+       3
+      </sub>
+      and
+      <i>
+       α
+      </i>
+<sub>
+       4
+      </sub>
+      = 0.005
+     </td>
+<td>
+      0.03
+     </td>
+<td>
+      0.04
+     </td>
+<td>
+      0.01
+     </td>
+<td>
+      0.02
+     </td>
+<td>
+      0.03
+     </td>
+<td>
+      0.04
+     </td>
+<td>
+      0.03
+     </td>
+<td>
+      0.02
+     </td>
+</tr>
+<tr>
+<td>
+<i>
+       α
+      </i>
+<sub>
+       3
+      </sub>
+      and
+      <i>
+       α
+      </i>
+<sub>
+       4
+      </sub>
+      = 0.1
+     </td>
+<td>
+      0.03
+     </td>
+<td>
+      0.04
+     </td>
+<td>
+      0.02
+     </td>
+<td>
+      0.02
+     </td>
+<td>
+      0.02
+     </td>
+<td>
+      0.05
+     </td>
+<td>
+      0.02
+     </td>
+<td>
+      0.02
+     </td>
+</tr>
+<tr>
+<td>
+<i>
+       α
+      </i>
+<sub>
+       3
+      </sub>
+      and
+      <i>
+       α
+      </i>
+<sub>
+       4
+      </sub>
+      = 0.2
+     </td>
+<td>
+      0.03
+     </td>
+<td>
+      0.03
+     </td>
+<td>
+      0.01
+     </td>
+<td>
+      0.01
+     </td>
+<td>
+      0.03
+     </td>
+<td>
+      0.01
+     </td>
+<td>
+      0.03
+     </td>
+<td>
+      0.02
+     </td>
+</tr>
+<tr>
+<td>
+<i>
+       α
+      </i>
+<sub>
+       3
+      </sub>
+      and
+      <i>
+       α
+      </i>
+<sub>
+       4
+      </sub>
+      = 0.5
+     </td>
+<td>
+      0.03
+     </td>
+<td>
+      0.00
+     </td>
+<td>
+      0.02
+     </td>
+<td>
+      0.01
+     </td>
+<td>
+      0.02
+     </td>
+<td>
+      0.00
+     </td>
+<td>
+      0.02
+     </td>
+<td>
+      0.02
+     </td>
+</tr>
+<tr>
+<td>
+<i>
+       α
+      </i>
+<sub>
+       3
+      </sub>
+      and
+      <i>
+       α
+      </i>
+<sub>
+       4
+      </sub>
+      = 1
+     </td>
+<td>
+      0.03
+     </td>
+<td>
+      0.00
+     </td>
+<td>
+      0.03
+     </td>
+<td>
+      0.00
+     </td>
+<td>
+      0.03
+     </td>
+<td>
+      0.00
+     </td>
+<td>
+      0.03
+     </td>
+<td>
+      0.02
+     </td>
+</tr>
+<tr>
+<td>
+<i>
+       α
+      </i>
+<sub>
+       3
+      </sub>
+      and
+      <i>
+       α
+      </i>
+<sub>
+       4
+      </sub>
+      = 2
+     </td>
+<td>
+      0.03
+     </td>
+<td>
+      0.00
+     </td>
+<td>
+      0.04
+     </td>
+<td>
+      0.00
+     </td>
+<td>
+      0.04
+     </td>
+<td>
+      0.00
+     </td>
+<td>
+      0.04
+     </td>
+<td>
+      0.03
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       PKDD
+      </b>
+<i>
+       α
+      </i>
+<sub>
+       1
+      </sub>
+      = 0.005
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<i>
+       α
+      </i>
+<sub>
+       2
+      </sub>
+      = 0.05
+     </td>
+<td>
+      0.03
+     </td>
+<td>
+      0.02
+     </td>
+<td>
+      0.02
+     </td>
+<td>
+      0.02
+     </td>
+<td>
+      0.01
+     </td>
+<td>
+      0.02
+     </td>
+<td>
+      0.02
+     </td>
+<td>
+      0.01
+     </td>
+</tr>
+<tr>
+<td>
+<i>
+       α
+      </i>
+<sub>
+       2
+      </sub>
+      = 0.1
+     </td>
+<td>
+      0.04
+     </td>
+<td>
+      0.02
+     </td>
+<td>
+      0.02
+     </td>
+<td>
+      0.01
+     </td>
+<td>
+      0.01
+     </td>
+<td>
+      0.02
+     </td>
+<td>
+      0.01
+     </td>
+<td>
+      0.00
+     </td>
+</tr>
+<tr>
+<td>
+<i>
+       α
+      </i>
+<sub>
+       2
+      </sub>
+      = 0.5
+     </td>
+<td>
+      0.03
+     </td>
+<td>
+      0.02
+     </td>
+<td>
+      0.04
+     </td>
+<td>
+      0.01
+     </td>
+<td>
+      0.00
+     </td>
+<td>
+      0.02
+     </td>
+<td>
+      0.00
+     </td>
+<td>
+      0.00
+     </td>
+</tr>
+<tr>
+<td>
+<i>
+       α
+      </i>
+<sub>
+       2
+      </sub>
+      = 1
+     </td>
+<td>
+      0.01
+     </td>
+<td>
+      0.02
+     </td>
+<td>
+      0.04
+     </td>
+<td>
+      0.01
+     </td>
+<td>
+      0.00
+     </td>
+<td>
+      0.02
+     </td>
+<td>
+      0.00
+     </td>
+<td>
+      0.00
+     </td>
+</tr>
+</tbody>
+</table>

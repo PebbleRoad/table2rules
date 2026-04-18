@@ -1,0 +1,267 @@
+<!-- source: PubTabNet imgid=136652 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td colspan="2">
+<b>
+       Primer and probe
+      </b>
+</td>
+<td>
+<b>
+       Sequence
+      </b>
+</td>
+<td>
+<b>
+       Position
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      HAS-1
+     </td>
+<td>
+      855F
+     </td>
+<td>
+      GACTCCTGGGTCAGCTTCCTAAG
+     </td>
+<td>
+      855 – 877
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      995R
+     </td>
+<td>
+      AAACTGCTGCAAGAGGTTATTCCT
+     </td>
+<td>
+      995 – 972
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      probe
+     </td>
+<td>
+      TATCCTGCATCAGCGGTCCTCTAGGC
+     </td>
+<td>
+      940 – 965
+     </td>
+</tr>
+<tr>
+<td>
+      HAS-2
+     </td>
+<td>
+      20F
+     </td>
+<td>
+      CTATGCTTGACCCAGCCTCATC
+     </td>
+<td>
+      20 – 41
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      149R
+     </td>
+<td>
+      ACACTGCTGAGGAATGAGATCCA
+     </td>
+<td>
+      149 – 127
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      MGB probe
+      <sup>
+       a
+      </sup>
+</td>
+<td>
+      AGATGTCCAGATTTTA
+     </td>
+<td>
+      96 – 111
+     </td>
+</tr>
+<tr>
+<td>
+      HAS-3
+     </td>
+<td>
+      888F
+     </td>
+<td>
+      TGTCCAGATCCTCAACAAGTACGA
+     </td>
+<td>
+      888 – 911
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      1005R
+     </td>
+<td>
+      AATACACTGCACACAGCCAAAGTAG
+     </td>
+<td>
+      1005 – 981
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      probe
+     </td>
+<td>
+      TCATGGATTTCCTTCCTGAGCAGCGT
+     </td>
+<td>
+      913 – 938
+     </td>
+</tr>
+<tr>
+<td>
+      HYAL-1
+     </td>
+<td>
+      1561F
+     </td>
+<td>
+      AGTGGTGCTCTGGGTGAGCT
+     </td>
+<td>
+      1561 – 1580
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      1667R
+     </td>
+<td>
+      TGGTCACGTTCAGGATGAAGG
+     </td>
+<td>
+      1667 – 1647
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      probe
+     </td>
+<td>
+      CCAAGGAATCATGTCAGGCCATCAAGG
+     </td>
+<td>
+      1596 – 1622
+     </td>
+</tr>
+<tr>
+<td>
+      HYAL-2
+     </td>
+<td>
+      1069F
+     </td>
+<td>
+      CGCAGCTGGTGTCATCCTCT
+     </td>
+<td>
+      1069 – 1088
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      1159R
+     </td>
+<td>
+      CAGCAGCCGTGTCAGGTAATC
+     </td>
+<td>
+      1159 – 1139
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      probe
+     </td>
+<td>
+      TACACCACAAGCACGGAGACCTGCC
+     </td>
+<td>
+      1103 – 1127
+     </td>
+</tr>
+<tr>
+<td>
+      HYAL-3
+     </td>
+<td>
+      1130F
+     </td>
+<td>
+      GCCTCACACACCGGAGATCT
+     </td>
+<td>
+      1130 – 1149
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      1202R
+     </td>
+<td>
+      GCTGCACTCACACCAATGGA
+     </td>
+<td>
+      1202 – 1183
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      probe
+     </td>
+<td>
+      TCCTGTCCCAGGATGACCTTGTGCA
+     </td>
+<td>
+      1157 – 1181
+     </td>
+</tr>
+</tbody>
+</table>

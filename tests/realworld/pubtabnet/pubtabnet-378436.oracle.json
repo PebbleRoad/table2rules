@@ -1,0 +1,476 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0.5154 \u00b1 0.031",
+    "0.5753 \u00b1 0.021",
+    "0.5851 \u00b1 0.031",
+    "0.6056 \u00b1 0.078",
+    "0.6456 \u00b1 0.051",
+    "0.7437 \u00b1 0.165\u2020",
+    "0.86 \u00b1 0.0",
+    "1.07 \u00b1 0.2",
+    "1.24 \u00b1 0.1*",
+    "126.0 \u00b1 2.3",
+    "131.0 \u00b1 1.3",
+    "136.14 \u00b1 6.1",
+    "142.43 \u00b1 5.9",
+    "147.186 \u00b1 14.4",
+    "151.09 \u00b1 6.2",
+    "2.12 \u00b1 0.2*",
+    "2.42 \u00b1 0.3",
+    "2.78 \u00b1 0.6",
+    "2.95 \u00b1 0.3",
+    "2.99 \u00b1 0.4",
+    "202.4 \u00b1 4.3",
+    "213.58 \u00b1 15.2",
+    "217.85 \u00b1 8.0",
+    "225.72 \u00b1 2.9",
+    "229.0 \u00b1 13.8",
+    "3.22 \u00b1 0.0",
+    "3.73 \u00b1 0.0",
+    "316.54 \u00b1 10.5",
+    "4.08 \u00b1 0.4",
+    "4.31 \u00b1 0.7",
+    "AntiSense",
+    "ECAD alone",
+    "EGTA alone",
+    "GFP-PA01 (RFU)",
+    "LDH (u)",
+    "ND",
+    "No treatment",
+    "PA + C.p.",
+    "PA + ECAD",
+    "PA + EGTA",
+    "PA + aGM1",
+    "PA alone",
+    "Resistance (\u03a9*cm 2 )",
+    "Sense"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "PA alone"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sense",
+        "Resistance (\u03a9*cm 2 )"
+      ],
+      "value": "229.0 \u00b1 13.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sense",
+        "LDH (u)"
+      ],
+      "value": "4.08 \u00b1 0.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sense",
+        "GFP-PA01 (RFU)"
+      ],
+      "value": "0.6056 \u00b1 0.078"
+    },
+    {
+      "row": [],
+      "col": [
+        "AntiSense",
+        "Resistance (\u03a9*cm 2 )"
+      ],
+      "value": "217.85 \u00b1 8.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "AntiSense",
+        "LDH (u)"
+      ],
+      "value": "2.12 \u00b1 0.2*"
+    },
+    {
+      "row": [],
+      "col": [
+        "AntiSense",
+        "GFP-PA01 (RFU)"
+      ],
+      "value": "0.5753 \u00b1 0.021"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "PA + EGTA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sense",
+        "Resistance (\u03a9*cm 2 )"
+      ],
+      "value": "136.14 \u00b1 6.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sense",
+        "LDH (u)"
+      ],
+      "value": "2.42 \u00b1 0.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sense",
+        "GFP-PA01 (RFU)"
+      ],
+      "value": "ND"
+    },
+    {
+      "row": [],
+      "col": [
+        "AntiSense",
+        "Resistance (\u03a9*cm 2 )"
+      ],
+      "value": "142.43 \u00b1 5.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "AntiSense",
+        "LDH (u)"
+      ],
+      "value": "2.78 \u00b1 0.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "AntiSense",
+        "GFP-PA01 (RFU)"
+      ],
+      "value": "ND"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "PA + ECAD"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sense",
+        "Resistance (\u03a9*cm 2 )"
+      ],
+      "value": "126.0 \u00b1 2.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sense",
+        "LDH (u)"
+      ],
+      "value": "2.95 \u00b1 0.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sense",
+        "GFP-PA01 (RFU)"
+      ],
+      "value": "ND"
+    },
+    {
+      "row": [],
+      "col": [
+        "AntiSense",
+        "Resistance (\u03a9*cm 2 )"
+      ],
+      "value": "131.0 \u00b1 1.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "AntiSense",
+        "LDH (u)"
+      ],
+      "value": "2.99 \u00b1 0.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "AntiSense",
+        "GFP-PA01 (RFU)"
+      ],
+      "value": "ND"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "PA + aGM1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sense",
+        "Resistance (\u03a9*cm 2 )"
+      ],
+      "value": "ND"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sense",
+        "LDH (u)"
+      ],
+      "value": "ND"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sense",
+        "GFP-PA01 (RFU)"
+      ],
+      "value": "0.6456 \u00b1 0.051"
+    },
+    {
+      "row": [],
+      "col": [
+        "AntiSense",
+        "Resistance (\u03a9*cm 2 )"
+      ],
+      "value": "ND"
+    },
+    {
+      "row": [],
+      "col": [
+        "AntiSense",
+        "LDH (u)"
+      ],
+      "value": "ND"
+    },
+    {
+      "row": [],
+      "col": [
+        "AntiSense",
+        "GFP-PA01 (RFU)"
+      ],
+      "value": "0.7437 \u00b1 0.165\u2020"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "PA + C.p."
+    },
+    {
+      "row": [],
+      "col": [
+        "Sense",
+        "Resistance (\u03a9*cm 2 )"
+      ],
+      "value": "ND"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sense",
+        "LDH (u)"
+      ],
+      "value": "ND"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sense",
+        "GFP-PA01 (RFU)"
+      ],
+      "value": "0.5851 \u00b1 0.031"
+    },
+    {
+      "row": [],
+      "col": [
+        "AntiSense",
+        "Resistance (\u03a9*cm 2 )"
+      ],
+      "value": "ND"
+    },
+    {
+      "row": [],
+      "col": [
+        "AntiSense",
+        "LDH (u)"
+      ],
+      "value": "ND"
+    },
+    {
+      "row": [],
+      "col": [
+        "AntiSense",
+        "GFP-PA01 (RFU)"
+      ],
+      "value": "0.5154 \u00b1 0.031"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "No treatment"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sense",
+        "Resistance (\u03a9*cm 2 )"
+      ],
+      "value": "316.54 \u00b1 10.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sense",
+        "LDH (u)"
+      ],
+      "value": "4.31 \u00b1 0.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sense",
+        "GFP-PA01 (RFU)"
+      ],
+      "value": "ND"
+    },
+    {
+      "row": [],
+      "col": [
+        "AntiSense",
+        "Resistance (\u03a9*cm 2 )"
+      ],
+      "value": "225.72 \u00b1 2.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "AntiSense",
+        "LDH (u)"
+      ],
+      "value": "1.24 \u00b1 0.1*"
+    },
+    {
+      "row": [],
+      "col": [
+        "AntiSense",
+        "GFP-PA01 (RFU)"
+      ],
+      "value": "ND"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "EGTA alone"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sense",
+        "Resistance (\u03a9*cm 2 )"
+      ],
+      "value": "213.58 \u00b1 15.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sense",
+        "LDH (u)"
+      ],
+      "value": "3.22 \u00b1 0.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sense",
+        "GFP-PA01 (RFU)"
+      ],
+      "value": "ND"
+    },
+    {
+      "row": [],
+      "col": [
+        "AntiSense",
+        "Resistance (\u03a9*cm 2 )"
+      ],
+      "value": "202.4 \u00b1 4.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "AntiSense",
+        "LDH (u)"
+      ],
+      "value": "0.86 \u00b1 0.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "AntiSense",
+        "GFP-PA01 (RFU)"
+      ],
+      "value": "ND"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "ECAD alone"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sense",
+        "Resistance (\u03a9*cm 2 )"
+      ],
+      "value": "147.186 \u00b1 14.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sense",
+        "LDH (u)"
+      ],
+      "value": "3.73 \u00b1 0.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sense",
+        "GFP-PA01 (RFU)"
+      ],
+      "value": "ND"
+    },
+    {
+      "row": [],
+      "col": [
+        "AntiSense",
+        "Resistance (\u03a9*cm 2 )"
+      ],
+      "value": "151.09 \u00b1 6.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "AntiSense",
+        "LDH (u)"
+      ],
+      "value": "1.07 \u00b1 0.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "AntiSense",
+        "GFP-PA01 (RFU)"
+      ],
+      "value": "ND"
+    }
+  ]
+}

@@ -1,0 +1,456 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "-",
+    "APD",
+    "Aggregate data",
+    "All completed studies",
+    "All presented studies",
+    "All published studies",
+    "Binomial data",
+    "Data Acquisition (extraction/transfer)",
+    "Data Checking",
+    "Data Updating",
+    "Estimating Summary Effect Measures",
+    "Exhaustive Search",
+    "Explicit and Relevant Clinical Question",
+    "Exploring Heterogeneity Subgroup analyses",
+    "IPD",
+    "Individual patient data",
+    "Missing Studies/Data",
+    "Patient Level",
+    "Published/presented",
+    "Screening: inclusion/exclusion criteria",
+    "Source data",
+    "Steps in Meta-Analysis",
+    "Study Level",
+    "Submitted data",
+    "Tests for heterogeneity",
+    "Time-to-event data",
+    "Uniform outcomes",
+    "\u00b1",
+    "\u221a"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Steps in Meta-Analysis"
+      ],
+      "value": "Explicit and Relevant Clinical Question"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Explicit and Relevant Clinical Question"
+    },
+    {
+      "row": [],
+      "col": [
+        "IPD"
+      ],
+      "value": "\u221a"
+    },
+    {
+      "row": [],
+      "col": [
+        "APD"
+      ],
+      "value": "\u221a"
+    },
+    {
+      "row": [],
+      "col": [
+        "Steps in Meta-Analysis"
+      ],
+      "value": "Exhaustive Search"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "All published studies"
+    },
+    {
+      "row": [],
+      "col": [
+        "IPD"
+      ],
+      "value": "\u221a"
+    },
+    {
+      "row": [],
+      "col": [
+        "APD"
+      ],
+      "value": "\u221a"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "All presented studies"
+    },
+    {
+      "row": [],
+      "col": [
+        "IPD"
+      ],
+      "value": "\u221a"
+    },
+    {
+      "row": [],
+      "col": [
+        "APD"
+      ],
+      "value": "\u221a"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "All completed studies"
+    },
+    {
+      "row": [],
+      "col": [
+        "IPD"
+      ],
+      "value": "\u221a"
+    },
+    {
+      "row": [],
+      "col": [
+        "APD"
+      ],
+      "value": "\u00b1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Steps in Meta-Analysis"
+      ],
+      "value": "Screening: inclusion/exclusion criteria"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Screening: inclusion/exclusion criteria"
+    },
+    {
+      "row": [],
+      "col": [
+        "IPD"
+      ],
+      "value": "\u221a"
+    },
+    {
+      "row": [],
+      "col": [
+        "APD"
+      ],
+      "value": "\u221a"
+    },
+    {
+      "row": [],
+      "col": [
+        "Steps in Meta-Analysis"
+      ],
+      "value": "Data Acquisition (extraction/transfer)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Aggregate data"
+    },
+    {
+      "row": [],
+      "col": [
+        "IPD"
+      ],
+      "value": "\u221a"
+    },
+    {
+      "row": [],
+      "col": [
+        "APD"
+      ],
+      "value": "\u221a"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Individual patient data"
+    },
+    {
+      "row": [],
+      "col": [
+        "IPD"
+      ],
+      "value": "\u221a"
+    },
+    {
+      "row": [],
+      "col": [
+        "APD"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Steps in Meta-Analysis"
+      ],
+      "value": "Data Checking"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Source data"
+    },
+    {
+      "row": [],
+      "col": [
+        "IPD"
+      ],
+      "value": "\u00b1"
+    },
+    {
+      "row": [],
+      "col": [
+        "APD"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Submitted data"
+    },
+    {
+      "row": [],
+      "col": [
+        "IPD"
+      ],
+      "value": "\u221a"
+    },
+    {
+      "row": [],
+      "col": [
+        "APD"
+      ],
+      "value": "\u221a"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Published/presented"
+    },
+    {
+      "row": [],
+      "col": [
+        "IPD"
+      ],
+      "value": "\u221a"
+    },
+    {
+      "row": [],
+      "col": [
+        "APD"
+      ],
+      "value": "\u221a"
+    },
+    {
+      "row": [],
+      "col": [
+        "Steps in Meta-Analysis"
+      ],
+      "value": "Data Updating"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Data Updating"
+    },
+    {
+      "row": [],
+      "col": [
+        "IPD"
+      ],
+      "value": "\u221a"
+    },
+    {
+      "row": [],
+      "col": [
+        "APD"
+      ],
+      "value": "\u00b1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Steps in Meta-Analysis"
+      ],
+      "value": "Missing Studies/Data"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Missing Studies/Data"
+    },
+    {
+      "row": [],
+      "col": [
+        "IPD"
+      ],
+      "value": "\u00b1"
+    },
+    {
+      "row": [],
+      "col": [
+        "APD"
+      ],
+      "value": "\u00b1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Steps in Meta-Analysis"
+      ],
+      "value": "Uniform outcomes"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Uniform outcomes"
+    },
+    {
+      "row": [],
+      "col": [
+        "IPD"
+      ],
+      "value": "\u221a"
+    },
+    {
+      "row": [],
+      "col": [
+        "APD"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Steps in Meta-Analysis"
+      ],
+      "value": "Tests for heterogeneity"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Tests for heterogeneity"
+    },
+    {
+      "row": [],
+      "col": [
+        "IPD"
+      ],
+      "value": "\u221a"
+    },
+    {
+      "row": [],
+      "col": [
+        "APD"
+      ],
+      "value": "\u221a"
+    },
+    {
+      "row": [],
+      "col": [
+        "Steps in Meta-Analysis"
+      ],
+      "value": "Estimating Summary Effect Measures"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Binomial data"
+    },
+    {
+      "row": [],
+      "col": [
+        "IPD"
+      ],
+      "value": "\u221a"
+    },
+    {
+      "row": [],
+      "col": [
+        "APD"
+      ],
+      "value": "\u221a"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Time-to-event data"
+    },
+    {
+      "row": [],
+      "col": [
+        "IPD"
+      ],
+      "value": "\u221a"
+    },
+    {
+      "row": [],
+      "col": [
+        "APD"
+      ],
+      "value": "\u00b1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Steps in Meta-Analysis"
+      ],
+      "value": "Exploring Heterogeneity Subgroup analyses"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Study Level"
+    },
+    {
+      "row": [],
+      "col": [
+        "IPD"
+      ],
+      "value": "\u221a"
+    },
+    {
+      "row": [],
+      "col": [
+        "APD"
+      ],
+      "value": "\u221a"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Patient Level"
+    },
+    {
+      "row": [],
+      "col": [
+        "IPD"
+      ],
+      "value": "\u221a"
+    },
+    {
+      "row": [],
+      "col": [
+        "APD"
+      ],
+      "value": "-"
+    }
+  ]
+}

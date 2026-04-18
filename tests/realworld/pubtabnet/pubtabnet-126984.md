@@ -1,0 +1,218 @@
+<!-- source: PubTabNet imgid=126984 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+<b>
+       Structure
+      </b>
+</td>
+<td colspan="2">
+<b>
+       cis Pro
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Trans Pro
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<b>
+       absolute
+      </b>
+</td>
+<td>
+<b>
+       relative(%)
+      </b>
+</td>
+<td>
+<b>
+       absolute
+      </b>
+</td>
+<td>
+<b>
+       relative(%)
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      cbbcc
+     </td>
+<td>
+      93
+     </td>
+<td>
+      6.6906
+     </td>
+<td>
+      24
+     </td>
+<td>
+      0.1668
+     </td>
+</tr>
+<tr>
+<td>
+      bbbcc
+     </td>
+<td>
+      58
+     </td>
+<td>
+      4.1727
+     </td>
+<td>
+      28
+     </td>
+<td>
+      0.1946
+     </td>
+</tr>
+<tr>
+<td>
+      cbbss
+     </td>
+<td>
+      45
+     </td>
+<td>
+      3.2374
+     </td>
+<td>
+      7
+     </td>
+<td>
+      0.0487
+     </td>
+</tr>
+<tr>
+<td>
+      cttcc
+     </td>
+<td>
+      31
+     </td>
+<td>
+      2.2302
+     </td>
+<td>
+      3
+     </td>
+<td>
+      0.0209
+     </td>
+</tr>
+<tr>
+<td>
+      ssbcc
+     </td>
+<td>
+      30
+     </td>
+<td>
+      2.1583
+     </td>
+<td>
+      12
+     </td>
+<td>
+      0.0834
+     </td>
+</tr>
+<tr>
+<td>
+      ttttt
+     </td>
+<td>
+      28
+     </td>
+<td>
+      2.0144
+     </td>
+<td>
+      166
+     </td>
+<td>
+      1.1537
+     </td>
+</tr>
+<tr>
+<td>
+      ccbcc
+     </td>
+<td>
+      25
+     </td>
+<td>
+      1.7986
+     </td>
+<td>
+      48
+     </td>
+<td>
+      0.3336
+     </td>
+</tr>
+<tr>
+<td>
+      cbbbc
+     </td>
+<td>
+      25
+     </td>
+<td>
+      1.7986
+     </td>
+<td>
+      22
+     </td>
+<td>
+      0.1529
+     </td>
+</tr>
+<tr>
+<td>
+      bbbss
+     </td>
+<td>
+      25
+     </td>
+<td>
+      1.7986
+     </td>
+<td>
+      21
+     </td>
+<td>
+      0.146
+     </td>
+</tr>
+<tr>
+<td>
+      sbbcc
+     </td>
+<td>
+      24
+     </td>
+<td>
+      1.7266
+     </td>
+<td>
+      5
+     </td>
+<td>
+      0.0348
+     </td>
+</tr>
+</tbody>
+</table>

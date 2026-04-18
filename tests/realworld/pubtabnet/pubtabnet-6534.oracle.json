@@ -1,0 +1,1115 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "1",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "2",
+    "3",
+    "4",
+    "5",
+    "5 OR 9",
+    "6",
+    "7",
+    "8",
+    "9",
+    "Balance benefits vs harm",
+    "Depression severity",
+    "Do it",
+    "Don't do it",
+    "H",
+    "H or Vl",
+    "L",
+    "M",
+    "Net benefit",
+    "Not net benefit",
+    "Overall quality",
+    "Poisining fatalities",
+    "Probably do it",
+    "Quality of outcome",
+    "Rater",
+    "Recommendation",
+    "Relative importance of outcome",
+    "Toss up",
+    "Trade offs",
+    "Transient side effects",
+    "Uncertain net benefit",
+    "Vl"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Quality of outcome"
+      ],
+      "value": "Depression severity"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Transient side effects"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Poisining fatalities"
+    },
+    {
+      "row": [],
+      "col": [
+        "Relative importance of outcome"
+      ],
+      "value": "Depression severity"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Transient side effects"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Poisining fatalities"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rater"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Quality of outcome"
+      ],
+      "value": "H"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "H"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Vl"
+    },
+    {
+      "row": [],
+      "col": [
+        "Relative importance of outcome"
+      ],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Overall quality"
+      ],
+      "value": "H or Vl"
+    },
+    {
+      "row": [],
+      "col": [
+        "Balance benefits vs harm"
+      ],
+      "value": "Uncertain net benefit"
+    },
+    {
+      "row": [],
+      "col": [
+        "Recommendation"
+      ],
+      "value": "Don't do it"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rater"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Quality of outcome"
+      ],
+      "value": "M"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "M"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Vl"
+    },
+    {
+      "row": [],
+      "col": [
+        "Relative importance of outcome"
+      ],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Overall quality"
+      ],
+      "value": "Vl"
+    },
+    {
+      "row": [],
+      "col": [
+        "Balance benefits vs harm"
+      ],
+      "value": "Net benefit"
+    },
+    {
+      "row": [],
+      "col": [
+        "Recommendation"
+      ],
+      "value": "Probably do it"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rater"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Quality of outcome"
+      ],
+      "value": "H"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "H"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "M"
+    },
+    {
+      "row": [],
+      "col": [
+        "Relative importance of outcome"
+      ],
+      "value": "8"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Overall quality"
+      ],
+      "value": "H"
+    },
+    {
+      "row": [],
+      "col": [
+        "Balance benefits vs harm"
+      ],
+      "value": "Uncertain net benefit"
+    },
+    {
+      "row": [],
+      "col": [
+        "Recommendation"
+      ],
+      "value": "Toss up"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rater"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Quality of outcome"
+      ],
+      "value": "H"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "H"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "L"
+    },
+    {
+      "row": [],
+      "col": [
+        "Relative importance of outcome"
+      ],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rater"
+      ],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Quality of outcome"
+      ],
+      "value": "M"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "M"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "M"
+    },
+    {
+      "row": [],
+      "col": [
+        "Relative importance of outcome"
+      ],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Overall quality"
+      ],
+      "value": "M"
+    },
+    {
+      "row": [],
+      "col": [
+        "Balance benefits vs harm"
+      ],
+      "value": "Net benefit"
+    },
+    {
+      "row": [],
+      "col": [
+        "Recommendation"
+      ],
+      "value": "Do it"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rater"
+      ],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Quality of outcome"
+      ],
+      "value": "M"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "M"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Vl"
+    },
+    {
+      "row": [],
+      "col": [
+        "Relative importance of outcome"
+      ],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Overall quality"
+      ],
+      "value": "Vl"
+    },
+    {
+      "row": [],
+      "col": [
+        "Balance benefits vs harm"
+      ],
+      "value": "Net benefit"
+    },
+    {
+      "row": [],
+      "col": [
+        "Recommendation"
+      ],
+      "value": "Do it"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rater"
+      ],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Quality of outcome"
+      ],
+      "value": "M"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "M"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "L"
+    },
+    {
+      "row": [],
+      "col": [
+        "Relative importance of outcome"
+      ],
+      "value": "8"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Overall quality"
+      ],
+      "value": "L"
+    },
+    {
+      "row": [],
+      "col": [
+        "Balance benefits vs harm"
+      ],
+      "value": "Net benefit"
+    },
+    {
+      "row": [],
+      "col": [
+        "Recommendation"
+      ],
+      "value": "Do it"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rater"
+      ],
+      "value": "8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Quality of outcome"
+      ],
+      "value": "H"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "H"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Vl"
+    },
+    {
+      "row": [],
+      "col": [
+        "Relative importance of outcome"
+      ],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Overall quality"
+      ],
+      "value": "H"
+    },
+    {
+      "row": [],
+      "col": [
+        "Balance benefits vs harm"
+      ],
+      "value": "Net benefit"
+    },
+    {
+      "row": [],
+      "col": [
+        "Recommendation"
+      ],
+      "value": "Probably do it"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rater"
+      ],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Quality of outcome"
+      ],
+      "value": "M"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "M"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "L"
+    },
+    {
+      "row": [],
+      "col": [
+        "Relative importance of outcome"
+      ],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Overall quality"
+      ],
+      "value": "L"
+    },
+    {
+      "row": [],
+      "col": [
+        "Balance benefits vs harm"
+      ],
+      "value": "Net benefit"
+    },
+    {
+      "row": [],
+      "col": [
+        "Recommendation"
+      ],
+      "value": "Probably do it"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rater"
+      ],
+      "value": "10"
+    },
+    {
+      "row": [],
+      "col": [
+        "Quality of outcome"
+      ],
+      "value": "M"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "M"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "L"
+    },
+    {
+      "row": [],
+      "col": [
+        "Relative importance of outcome"
+      ],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Overall quality"
+      ],
+      "value": "L"
+    },
+    {
+      "row": [],
+      "col": [
+        "Balance benefits vs harm"
+      ],
+      "value": "Net benefit"
+    },
+    {
+      "row": [],
+      "col": [
+        "Recommendation"
+      ],
+      "value": "Probably do it"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rater"
+      ],
+      "value": "11"
+    },
+    {
+      "row": [],
+      "col": [
+        "Quality of outcome"
+      ],
+      "value": "H"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "H"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "L"
+    },
+    {
+      "row": [],
+      "col": [
+        "Relative importance of outcome"
+      ],
+      "value": "8"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Overall quality"
+      ],
+      "value": "L"
+    },
+    {
+      "row": [],
+      "col": [
+        "Balance benefits vs harm"
+      ],
+      "value": "Trade offs"
+    },
+    {
+      "row": [],
+      "col": [
+        "Recommendation"
+      ],
+      "value": "Probably do it"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rater"
+      ],
+      "value": "12"
+    },
+    {
+      "row": [],
+      "col": [
+        "Quality of outcome"
+      ],
+      "value": "H"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "H"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "L"
+    },
+    {
+      "row": [],
+      "col": [
+        "Relative importance of outcome"
+      ],
+      "value": "8"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Overall quality"
+      ],
+      "value": "L"
+    },
+    {
+      "row": [],
+      "col": [
+        "Balance benefits vs harm"
+      ],
+      "value": "Trade offs"
+    },
+    {
+      "row": [],
+      "col": [
+        "Recommendation"
+      ],
+      "value": "Probably do it"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rater"
+      ],
+      "value": "13"
+    },
+    {
+      "row": [],
+      "col": [
+        "Quality of outcome"
+      ],
+      "value": "M"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "H"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "M"
+    },
+    {
+      "row": [],
+      "col": [
+        "Relative importance of outcome"
+      ],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Overall quality"
+      ],
+      "value": "M"
+    },
+    {
+      "row": [],
+      "col": [
+        "Balance benefits vs harm"
+      ],
+      "value": "Net benefit"
+    },
+    {
+      "row": [],
+      "col": [
+        "Recommendation"
+      ],
+      "value": "Do it"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rater"
+      ],
+      "value": "14"
+    },
+    {
+      "row": [],
+      "col": [
+        "Quality of outcome"
+      ],
+      "value": "M"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "M"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "L"
+    },
+    {
+      "row": [],
+      "col": [
+        "Relative importance of outcome"
+      ],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "5 OR 9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Overall quality"
+      ],
+      "value": "M"
+    },
+    {
+      "row": [],
+      "col": [
+        "Balance benefits vs harm"
+      ],
+      "value": "Net benefit"
+    },
+    {
+      "row": [],
+      "col": [
+        "Recommendation"
+      ],
+      "value": "Probably do it"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rater"
+      ],
+      "value": "15"
+    },
+    {
+      "row": [],
+      "col": [
+        "Quality of outcome"
+      ],
+      "value": "M"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "M"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Vl"
+    },
+    {
+      "row": [],
+      "col": [
+        "Relative importance of outcome"
+      ],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Overall quality"
+      ],
+      "value": "Vl"
+    },
+    {
+      "row": [],
+      "col": [
+        "Balance benefits vs harm"
+      ],
+      "value": "Uncertain net benefit"
+    },
+    {
+      "row": [],
+      "col": [
+        "Recommendation"
+      ],
+      "value": "Toss up"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rater"
+      ],
+      "value": "16"
+    },
+    {
+      "row": [],
+      "col": [
+        "Quality of outcome"
+      ],
+      "value": "M"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "M"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Vl"
+    },
+    {
+      "row": [],
+      "col": [
+        "Relative importance of outcome"
+      ],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Overall quality"
+      ],
+      "value": "Vl"
+    },
+    {
+      "row": [],
+      "col": [
+        "Balance benefits vs harm"
+      ],
+      "value": "Not net benefit"
+    },
+    {
+      "row": [],
+      "col": [
+        "Recommendation"
+      ],
+      "value": "Don't do it"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rater"
+      ],
+      "value": "17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Quality of outcome"
+      ],
+      "value": "M"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "M"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "M"
+    },
+    {
+      "row": [],
+      "col": [
+        "Relative importance of outcome"
+      ],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Overall quality"
+      ],
+      "value": "M"
+    },
+    {
+      "row": [],
+      "col": [
+        "Balance benefits vs harm"
+      ],
+      "value": "Net benefit"
+    },
+    {
+      "row": [],
+      "col": [
+        "Recommendation"
+      ],
+      "value": "Toss up"
+    }
+  ]
+}

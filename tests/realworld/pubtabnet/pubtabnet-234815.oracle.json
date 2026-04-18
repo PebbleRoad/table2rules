@@ -1,0 +1,638 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0.30 \u0394",
+    "0.33 !",
+    "0.60 !",
+    "0.71 \u0394",
+    "0.73 !",
+    "0.82*",
+    "0.90*",
+    "1 (5.9%)",
+    "1 (6.7%)",
+    "1.00 !",
+    "1.00 \u0394",
+    "10 (58.8%)",
+    "11 (64.7%)",
+    "13 (43.3%)",
+    "14 (41.2%)",
+    "15 (44.1%)",
+    "16 (47.1%)",
+    "17",
+    "18 (52.9%)",
+    "19 (55.9%)",
+    "2 (6.7%)",
+    "3 (20.0%)",
+    "34",
+    "4 (23.5%)",
+    "4 (26.7%)",
+    "4 (5.6%)",
+    "5 (14.7%)",
+    "5 (33.3%)",
+    "52 \u00b1 15 (19\u201372)",
+    "52 \u00b1 15 (19\u201375)",
+    "52 \u00b1 16 (23\u201375)",
+    "59 \u00b1 12 (40\u201387)",
+    "59 \u00b1 13 (42\u201383)",
+    "6 (35.3%)",
+    "6 (40.0%)",
+    "60 \u00b1 12 (40\u201387)",
+    "7 (41.2%)",
+    "7 (46.7%)",
+    "8 (47.1%)",
+    "9 (30.0%)",
+    "9 (52.9%)",
+    "Age (years)",
+    "Alcohol consumption",
+    "Causes of renal failure",
+    "Coffee drinking",
+    "Cystic disease",
+    "Diabetes Mellitus",
+    "Female",
+    "Formulation A",
+    "Formulation B",
+    "Hypertension",
+    "Male",
+    "N",
+    "Non-white",
+    "Other glomerulopathies",
+    "Race",
+    "Sex",
+    "Smoking",
+    "Total",
+    "Variables",
+    "Weight (Kg)",
+    "White",
+    "p"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Variables"
+      ],
+      "value": "N"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variables"
+      ],
+      "value": "N"
+    },
+    {
+      "row": [],
+      "col": [
+        "Formulation A"
+      ],
+      "value": "17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Formulation B"
+      ],
+      "value": "17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "34"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variables"
+      ],
+      "value": "Age (years)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variables"
+      ],
+      "value": "Age (years)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Formulation A"
+      ],
+      "value": "52 \u00b1 15 (19\u201372)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Formulation B"
+      ],
+      "value": "52 \u00b1 16 (23\u201375)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "52 \u00b1 15 (19\u201375)"
+    },
+    {
+      "row": [],
+      "col": [
+        "p"
+      ],
+      "value": "0.90*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variables"
+      ],
+      "value": "Weight (Kg)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variables"
+      ],
+      "value": "Weight (Kg)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Formulation A"
+      ],
+      "value": "60 \u00b1 12 (40\u201387)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Formulation B"
+      ],
+      "value": "59 \u00b1 13 (42\u201383)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "59 \u00b1 12 (40\u201387)"
+    },
+    {
+      "row": [],
+      "col": [
+        "p"
+      ],
+      "value": "0.82*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variables"
+      ],
+      "value": "Sex"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variables"
+      ],
+      "value": "Male"
+    },
+    {
+      "row": [],
+      "col": [
+        "Formulation A"
+      ],
+      "value": "11 (64.7%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Formulation B"
+      ],
+      "value": "8 (47.1%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "19 (55.9%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "p"
+      ],
+      "value": "0.30 \u0394"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variables"
+      ],
+      "value": "Female"
+    },
+    {
+      "row": [],
+      "col": [
+        "Formulation A"
+      ],
+      "value": "6 (35.3%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Formulation B"
+      ],
+      "value": "9 (52.9%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "15 (44.1%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variables"
+      ],
+      "value": "Race"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variables"
+      ],
+      "value": "White"
+    },
+    {
+      "row": [],
+      "col": [
+        "Formulation A"
+      ],
+      "value": "8 (47.1%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Formulation B"
+      ],
+      "value": "10 (58.8%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "18 (52.9%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "p"
+      ],
+      "value": "0.73 !"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variables"
+      ],
+      "value": "Non-white"
+    },
+    {
+      "row": [],
+      "col": [
+        "Formulation A"
+      ],
+      "value": "9 (52.9%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Formulation B"
+      ],
+      "value": "7 (41.2%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "16 (47.1%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variables"
+      ],
+      "value": "Smoking"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variables"
+      ],
+      "value": "Smoking"
+    },
+    {
+      "row": [],
+      "col": [
+        "Formulation A"
+      ],
+      "value": "4 (23.5%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Formulation B"
+      ],
+      "value": "1 (5.9%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "5 (14.7%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "p"
+      ],
+      "value": "0.33 !"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variables"
+      ],
+      "value": "Alcohol consumption"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variables"
+      ],
+      "value": "Alcohol consumption"
+    },
+    {
+      "row": [],
+      "col": [
+        "Formulation A"
+      ],
+      "value": "4 (23.5%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Formulation B"
+      ],
+      "value": "1 (5.9%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "5 (14.7%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "p"
+      ],
+      "value": "0.33 !"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variables"
+      ],
+      "value": "Coffee drinking"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variables"
+      ],
+      "value": "Coffee drinking"
+    },
+    {
+      "row": [],
+      "col": [
+        "Formulation A"
+      ],
+      "value": "7 (41.2%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Formulation B"
+      ],
+      "value": "7 (41.2%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "14 (41.2%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "p"
+      ],
+      "value": "1.00 \u0394"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variables"
+      ],
+      "value": "Causes of renal failure"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variables"
+      ],
+      "value": "Causes of renal failure"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variables"
+      ],
+      "value": "Diabetes Mellitus"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variables"
+      ],
+      "value": "Diabetes Mellitus"
+    },
+    {
+      "row": [],
+      "col": [
+        "Formulation A"
+      ],
+      "value": "7 (46.7%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Formulation B"
+      ],
+      "value": "6 (40.0%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "13 (43.3%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "p"
+      ],
+      "value": "0.71 \u0394"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variables"
+      ],
+      "value": "Hypertension"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variables"
+      ],
+      "value": "Hypertension"
+    },
+    {
+      "row": [],
+      "col": [
+        "Formulation A"
+      ],
+      "value": "5 (33.3%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Formulation B"
+      ],
+      "value": "4 (26.7%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "9 (30.0%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "p"
+      ],
+      "value": "1.00 !"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variables"
+      ],
+      "value": "Other glomerulopathies"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variables"
+      ],
+      "value": "Other glomerulopathies"
+    },
+    {
+      "row": [],
+      "col": [
+        "Formulation A"
+      ],
+      "value": "1 (6.7%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Formulation B"
+      ],
+      "value": "1 (6.7%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "2 (6.7%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "p"
+      ],
+      "value": "1.00 !"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variables"
+      ],
+      "value": "Cystic disease"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variables"
+      ],
+      "value": "Cystic disease"
+    },
+    {
+      "row": [],
+      "col": [
+        "Formulation A"
+      ],
+      "value": "1 (6.7%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Formulation B"
+      ],
+      "value": "3 (20.0%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "4 (5.6%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "p"
+      ],
+      "value": "0.60 !"
+    }
+  ]
+}

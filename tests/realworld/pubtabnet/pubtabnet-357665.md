@@ -1,0 +1,292 @@
+<!-- source: PubTabNet imgid=357665 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+</td>
+<td>
+<b>
+       Term
+      </b>
+</td>
+<td colspan="3">
+<b>
+       Annual change in mL per pack-year to 1991
+      </b>
+</td>
+<td colspan="3">
+<b>
+       Annual change in mL per packs per day between 1991 and 2002
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td>
+      Coef
+     </td>
+<td>
+      95%CI
+     </td>
+<td>
+      p value
+     </td>
+<td>
+      Coef
+     </td>
+<td>
+      95%CI
+     </td>
+<td>
+      p value
+     </td>
+</tr>
+<tr>
+<td>
+      Quitters†
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Men (n = 245)
+     </td>
+<td>
+      Linear
+     </td>
+<td>
+      -0.1
+     </td>
+<td>
+      -0.4, 0.3
+     </td>
+<td>
+      0.78
+     </td>
+<td>
+      -14.3
+     </td>
+<td>
+      -22.6, -6.0
+     </td>
+<td>
+      0.001
+     </td>
+</tr>
+<tr>
+<td>
+      Women (n = 179)
+     </td>
+<td>
+      Linear
+     </td>
+<td>
+      1.5
+     </td>
+<td>
+      0.3, 2.6
+     </td>
+<td>
+      0.01
+     </td>
+<td>
+      -6.4
+     </td>
+<td>
+      -17.6, 4.6
+     </td>
+<td>
+      0.25
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      Quadratic
+     </td>
+<td>
+      -0.04
+     </td>
+<td>
+      -0.08,-0.01
+     </td>
+<td>
+      0.01
+     </td>
+<td>
+      na
+     </td>
+<td>
+      na
+     </td>
+<td>
+      na
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      Cubic
+     </td>
+<td>
+      0.0004
+     </td>
+<td>
+      0.0001,0.0006
+     </td>
+<td>
+      0.006
+     </td>
+<td>
+      na
+     </td>
+<td>
+      na
+     </td>
+<td>
+      na
+     </td>
+</tr>
+<tr>
+<td>
+      Persistent smokers†
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Men (n = 595)
+     </td>
+<td>
+      Linear
+     </td>
+<td>
+      -0.1
+     </td>
+<td>
+      -0.3, 0.12
+     </td>
+<td>
+      0.41
+     </td>
+<td>
+      -9.0
+     </td>
+<td>
+      -15.4, -2.5
+     </td>
+<td>
+      0.006
+     </td>
+</tr>
+<tr>
+<td>
+      Women (n = 556)
+     </td>
+<td>
+      Linear
+     </td>
+<td>
+      1.4
+     </td>
+<td>
+      0.5, 2.3
+     </td>
+<td>
+      0.001
+     </td>
+<td>
+      -11.6
+     </td>
+<td>
+      -19.8, -3.5
+     </td>
+<td>
+      0.005
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      Quadratic
+     </td>
+<td>
+      -0.06
+     </td>
+<td>
+      -0.08, -0.02
+     </td>
+<td>
+      &lt;0.001
+     </td>
+<td>
+      na
+     </td>
+<td>
+      na
+     </td>
+<td>
+      na
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      Cubic
+     </td>
+<td>
+      0.0006
+     </td>
+<td>
+      0.0003, 0.0008
+     </td>
+<td>
+      &lt;0.001
+     </td>
+<td>
+      na
+     </td>
+<td>
+      na
+     </td>
+<td>
+      na
+     </td>
+</tr>
+</tbody>
+</table>

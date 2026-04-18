@@ -1,0 +1,417 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0",
+    "0.42",
+    "0.67",
+    "0.78",
+    "0.8",
+    "1 (0.6)",
+    "1 (1.2)",
+    "1.1",
+    "1.6",
+    "1.9",
+    "11.5",
+    "1190.0",
+    "12.8",
+    "2.1",
+    "2.2",
+    "2.21",
+    "2.4",
+    "2.8",
+    "24.6",
+    "28 (15.9)",
+    "3.1",
+    "3.2",
+    "3.3",
+    "3.6",
+    "3.9",
+    "4.3",
+    "43.0",
+    "9.6",
+    "CMV (22)",
+    "EBV (25)",
+    "HCV (30)",
+    "Healthy individuals (192)",
+    "Infectious diseases (77)",
+    "MCTD (26)",
+    "Mean value (U/ml)",
+    "Number (%) of anti-SMP positive sera",
+    "Overlap syndromes (8)",
+    "PM/DM (13)",
+    "RA (86)",
+    "Rheumatic diseases (181)",
+    "SLE (176)",
+    "SSc (26)",
+    "Sera ( n )",
+    "Top value (U/ml)",
+    "pSS (24)"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Sera ( n )"
+      ],
+      "value": "SLE (176)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number (%) of anti-SMP positive sera"
+      ],
+      "value": "28 (15.9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean value (U/ml)"
+      ],
+      "value": "43.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Top value (U/ml)"
+      ],
+      "value": "1190.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sera ( n )"
+      ],
+      "value": "Rheumatic diseases (181)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number (%) of anti-SMP positive sera"
+      ],
+      "value": "1 (0.6)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean value (U/ml)"
+      ],
+      "value": "2.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Top value (U/ml)"
+      ],
+      "value": "24.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sera ( n )"
+      ],
+      "value": "RA (86)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number (%) of anti-SMP positive sera"
+      ],
+      "value": "1 (1.2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean value (U/ml)"
+      ],
+      "value": "1.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Top value (U/ml)"
+      ],
+      "value": "24.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sera ( n )"
+      ],
+      "value": "pSS (24)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number (%) of anti-SMP positive sera"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean value (U/ml)"
+      ],
+      "value": "1.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Top value (U/ml)"
+      ],
+      "value": "3.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sera ( n )"
+      ],
+      "value": "MCTD (26)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number (%) of anti-SMP positive sera"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean value (U/ml)"
+      ],
+      "value": "3.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Top value (U/ml)"
+      ],
+      "value": "12.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sera ( n )"
+      ],
+      "value": "SSc (26)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number (%) of anti-SMP positive sera"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean value (U/ml)"
+      ],
+      "value": "2.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Top value (U/ml)"
+      ],
+      "value": "4.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sera ( n )"
+      ],
+      "value": "PM/DM (13)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number (%) of anti-SMP positive sera"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean value (U/ml)"
+      ],
+      "value": "2.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Top value (U/ml)"
+      ],
+      "value": "9.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sera ( n )"
+      ],
+      "value": "Overlap syndromes (8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number (%) of anti-SMP positive sera"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean value (U/ml)"
+      ],
+      "value": "2.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Top value (U/ml)"
+      ],
+      "value": "3.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sera ( n )"
+      ],
+      "value": "Infectious diseases (77)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number (%) of anti-SMP positive sera"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean value (U/ml)"
+      ],
+      "value": "0.67"
+    },
+    {
+      "row": [],
+      "col": [
+        "Top value (U/ml)"
+      ],
+      "value": "3.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sera ( n )"
+      ],
+      "value": "HCV (30)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number (%) of anti-SMP positive sera"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean value (U/ml)"
+      ],
+      "value": "0.42"
+    },
+    {
+      "row": [],
+      "col": [
+        "Top value (U/ml)"
+      ],
+      "value": "1.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sera ( n )"
+      ],
+      "value": "CMV (22)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number (%) of anti-SMP positive sera"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean value (U/ml)"
+      ],
+      "value": "0.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Top value (U/ml)"
+      ],
+      "value": "3.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sera ( n )"
+      ],
+      "value": "EBV (25)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number (%) of anti-SMP positive sera"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean value (U/ml)"
+      ],
+      "value": "0.78"
+    },
+    {
+      "row": [],
+      "col": [
+        "Top value (U/ml)"
+      ],
+      "value": "3.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sera ( n )"
+      ],
+      "value": "Healthy individuals (192)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number (%) of anti-SMP positive sera"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mean value (U/ml)"
+      ],
+      "value": "2.21"
+    },
+    {
+      "row": [],
+      "col": [
+        "Top value (U/ml)"
+      ],
+      "value": "11.5"
+    }
+  ]
+}

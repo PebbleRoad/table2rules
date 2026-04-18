@@ -1,0 +1,713 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0.13",
+    "0.25",
+    "0.26",
+    "0.32",
+    "0.33",
+    "0.45",
+    "0.48",
+    "0.69",
+    "0.89 (0.77\u20131.03)",
+    "0.92 (0.71\u20131.20)",
+    "0.93 (0.82\u20131.05)",
+    "0.93 (0.82\u20131.06)",
+    "0.95 (0.84\u20131.08)",
+    "1 (ref)",
+    "1.01 (0.79\u20131.29)",
+    "1.01 (0.82\u20131.24)",
+    "1.03 (0.84\u20131.26)",
+    "1.03 (0.91\u20131.17)",
+    "1.29 (0.82\u20132.05)",
+    "1022 (46)",
+    "1128 (57)",
+    "113 (6)",
+    "1151 (57)",
+    "1219 (55)",
+    "1230 (57)",
+    "134 (6)",
+    "140 (7)",
+    "147 (7)",
+    "1618 (77)",
+    "1645 (75)",
+    "1989",
+    "2014",
+    "2025",
+    "2036",
+    "2107",
+    "2155",
+    "2181",
+    "2189",
+    "219 (11)",
+    "2205",
+    "2208",
+    "230 (11)",
+    "233 (12)",
+    "238 (11)",
+    "33 (2)",
+    "42 (2)",
+    "447 (21)",
+    "511 (23)",
+    "734 (36)",
+    "748 (37)",
+    "791 (37)",
+    "839 (38)",
+    "855 (42)",
+    "870 (43)",
+    "911 (45)",
+    "956 (43)",
+    "960 (44)",
+    "962 (47)",
+    "983 (45)",
+    "Cases",
+    "Common homozygote No. (%)",
+    "Controls",
+    "Heterozygote No. (%)",
+    "Number genotyped",
+    "OR (95% CI)",
+    "P (2df)",
+    "Rare homozygote No. (%)",
+    "Rare-allele frequency",
+    "SNP",
+    "SNP 1",
+    "SNP 2",
+    "SNP 3",
+    "SNP 4",
+    "SNP 5",
+    "Series"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "SNP"
+      ],
+      "value": "SNP 1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Series"
+      ],
+      "value": "Cases"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rare-allele frequency"
+      ],
+      "value": "0.13"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common homozygote No. (%)"
+      ],
+      "value": "1618 (77)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Heterozygote No. (%)"
+      ],
+      "value": "447 (21)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rare homozygote No. (%)"
+      ],
+      "value": "42 (2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number genotyped"
+      ],
+      "value": "2107"
+    },
+    {
+      "row": [],
+      "col": [
+        "Series"
+      ],
+      "value": "Controls"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rare-allele frequency"
+      ],
+      "value": "0.13"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common homozygote No. (%)"
+      ],
+      "value": "1645 (75)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Heterozygote No. (%)"
+      ],
+      "value": "511 (23)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rare homozygote No. (%)"
+      ],
+      "value": "33 (2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number genotyped"
+      ],
+      "value": "2189"
+    },
+    {
+      "row": [],
+      "col": [
+        "P (2df)"
+      ],
+      "value": "0.13"
+    },
+    {
+      "row": [],
+      "col": [
+        "Series"
+      ],
+      "value": "OR (95% CI)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common homozygote No. (%)"
+      ],
+      "value": "1 (ref)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Heterozygote No. (%)"
+      ],
+      "value": "0.89 (0.77\u20131.03)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rare homozygote No. (%)"
+      ],
+      "value": "1.29 (0.82\u20132.05)"
+    },
+    {
+      "row": [],
+      "col": [
+        "SNP"
+      ],
+      "value": "SNP 2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Series"
+      ],
+      "value": "Cases"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rare-allele frequency"
+      ],
+      "value": "0.25"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common homozygote No. (%)"
+      ],
+      "value": "1151 (57)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Heterozygote No. (%)"
+      ],
+      "value": "734 (36)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rare homozygote No. (%)"
+      ],
+      "value": "140 (7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number genotyped"
+      ],
+      "value": "2025"
+    },
+    {
+      "row": [],
+      "col": [
+        "Series"
+      ],
+      "value": "Controls"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rare-allele frequency"
+      ],
+      "value": "0.26"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common homozygote No. (%)"
+      ],
+      "value": "1219 (55)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Heterozygote No. (%)"
+      ],
+      "value": "839 (38)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rare homozygote No. (%)"
+      ],
+      "value": "147 (7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number genotyped"
+      ],
+      "value": "2205"
+    },
+    {
+      "row": [],
+      "col": [
+        "P (2df)"
+      ],
+      "value": "0.48"
+    },
+    {
+      "row": [],
+      "col": [
+        "Series"
+      ],
+      "value": "OR (95% CI)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common homozygote No. (%)"
+      ],
+      "value": "1 (ref)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Heterozygote No. (%)"
+      ],
+      "value": "0.93 (0.82\u20131.05)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rare homozygote No. (%)"
+      ],
+      "value": "1.01 (0.79\u20131.29)"
+    },
+    {
+      "row": [],
+      "col": [
+        "SNP"
+      ],
+      "value": "SNP 3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Series"
+      ],
+      "value": "Cases"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rare-allele frequency"
+      ],
+      "value": "0.32"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common homozygote No. (%)"
+      ],
+      "value": "962 (47)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Heterozygote No. (%)"
+      ],
+      "value": "855 (42)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rare homozygote No. (%)"
+      ],
+      "value": "219 (11)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number genotyped"
+      ],
+      "value": "2036"
+    },
+    {
+      "row": [],
+      "col": [
+        "Series"
+      ],
+      "value": "Controls"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rare-allele frequency"
+      ],
+      "value": "0.32"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common homozygote No. (%)"
+      ],
+      "value": "1022 (46)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Heterozygote No. (%)"
+      ],
+      "value": "956 (43)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rare homozygote No. (%)"
+      ],
+      "value": "230 (11)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number genotyped"
+      ],
+      "value": "2208"
+    },
+    {
+      "row": [],
+      "col": [
+        "P (2df)"
+      ],
+      "value": "0.69"
+    },
+    {
+      "row": [],
+      "col": [
+        "Series"
+      ],
+      "value": "OR (95% CI)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common homozygote No. (%)"
+      ],
+      "value": "1 (ref)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Heterozygote No. (%)"
+      ],
+      "value": "0.95 (0.84\u20131.08)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rare homozygote No. (%)"
+      ],
+      "value": "1.01 (0.82\u20131.24)"
+    },
+    {
+      "row": [],
+      "col": [
+        "SNP"
+      ],
+      "value": "SNP 4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Series"
+      ],
+      "value": "Cases"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rare-allele frequency"
+      ],
+      "value": "0.25"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common homozygote No. (%)"
+      ],
+      "value": "1128 (57)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Heterozygote No. (%)"
+      ],
+      "value": "748 (37)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rare homozygote No. (%)"
+      ],
+      "value": "113 (6)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number genotyped"
+      ],
+      "value": "1989"
+    },
+    {
+      "row": [],
+      "col": [
+        "Series"
+      ],
+      "value": "Controls"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rare-allele frequency"
+      ],
+      "value": "0.25"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common homozygote No. (%)"
+      ],
+      "value": "1230 (57)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Heterozygote No. (%)"
+      ],
+      "value": "791 (37)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rare homozygote No. (%)"
+      ],
+      "value": "134 (6)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number genotyped"
+      ],
+      "value": "2155"
+    },
+    {
+      "row": [],
+      "col": [
+        "P (2df)"
+      ],
+      "value": "0.69"
+    },
+    {
+      "row": [],
+      "col": [
+        "Series"
+      ],
+      "value": "OR (95% CI)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common homozygote No. (%)"
+      ],
+      "value": "1 (ref)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Heterozygote No. (%)"
+      ],
+      "value": "1.03 (0.91\u20131.17)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rare homozygote No. (%)"
+      ],
+      "value": "0.92 (0.71\u20131.20)"
+    },
+    {
+      "row": [],
+      "col": [
+        "SNP"
+      ],
+      "value": "SNP 5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Series"
+      ],
+      "value": "Cases"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rare-allele frequency"
+      ],
+      "value": "0.33"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common homozygote No. (%)"
+      ],
+      "value": "911 (45)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Heterozygote No. (%)"
+      ],
+      "value": "870 (43)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rare homozygote No. (%)"
+      ],
+      "value": "233 (12)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number genotyped"
+      ],
+      "value": "2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Series"
+      ],
+      "value": "Controls"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rare-allele frequency"
+      ],
+      "value": "0.33"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common homozygote No. (%)"
+      ],
+      "value": "960 (44)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Heterozygote No. (%)"
+      ],
+      "value": "983 (45)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rare homozygote No. (%)"
+      ],
+      "value": "238 (11)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number genotyped"
+      ],
+      "value": "2181"
+    },
+    {
+      "row": [],
+      "col": [
+        "P (2df)"
+      ],
+      "value": "0.45"
+    },
+    {
+      "row": [],
+      "col": [
+        "Series"
+      ],
+      "value": "OR (95% CI)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common homozygote No. (%)"
+      ],
+      "value": "1 (ref)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Heterozygote No. (%)"
+      ],
+      "value": "0.93 (0.82\u20131.06)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rare homozygote No. (%)"
+      ],
+      "value": "1.03 (0.84\u20131.26)"
+    }
+  ]
+}

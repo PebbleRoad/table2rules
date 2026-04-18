@@ -1,0 +1,378 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "(13.13 \u2013 16.84)",
+    "(13.13 \u2013 17.39)",
+    "(13.48 \u2013 17.08)",
+    "(13.63 \u2013 17.39)",
+    "(14.83 \u2013 20.53)",
+    "(14.84 \u2013 18.94)",
+    "(14.84 \u2013 20.53)",
+    "(14.9 \u2013 19.5)",
+    "(14.9 \u2013 20.3)",
+    "(15.0 \u2013 19.8)",
+    "(15.45 \u2013 20.11)",
+    "(15.8 \u2013 20.3)",
+    "(20.1 \u2013 26.3)",
+    "(20.1 \u2013 27.2)",
+    "(20.2 \u2013 27.3)",
+    "(20.6 \u2013 24.5)",
+    "(range)",
+    "15.42 \u00b1 0.49",
+    "15.53 \u00b1 0.51",
+    "15.53 \u00b1 0.52",
+    "15.56 \u00b1 0.53",
+    "17.46 \u00b1 0.58",
+    "17.56 \u00b1 0.58",
+    "17.58 \u00b1 0.57",
+    "17.61 \u00b1 0.59",
+    "17.62 \u00b1 0.62",
+    "18.01 \u00b1 0.77",
+    "18.03 \u00b1 0.78",
+    "18.09 \u00b1 0.77",
+    "22.40 \u00b1 0.57",
+    "22.48 \u00b1 0.72",
+    "22.54 \u00b1 0.68",
+    "22.64 \u00b1 0.66",
+    "HE65",
+    "LE65",
+    "Large",
+    "Mean \u00b1 S.D.",
+    "Medium",
+    "Men",
+    "Population size a",
+    "Sex",
+    "Small",
+    "Total",
+    "Women"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Sex"
+      ],
+      "value": "Men"
+    },
+    {
+      "row": [],
+      "col": [
+        "Population size a"
+      ],
+      "value": "Total"
+    },
+    {
+      "row": [],
+      "col": [
+        "LE65",
+        "Mean \u00b1 S.D."
+      ],
+      "value": "17.56 \u00b1 0.58"
+    },
+    {
+      "row": [],
+      "col": [
+        "LE65",
+        "(range)"
+      ],
+      "value": "(14.9 \u2013 20.3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "HE65",
+        "Mean \u00b1 S.D."
+      ],
+      "value": "15.53 \u00b1 0.52"
+    },
+    {
+      "row": [],
+      "col": [
+        "HE65",
+        "(range)"
+      ],
+      "value": "(13.13 \u2013 17.39)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Population size a"
+      ],
+      "value": "Small"
+    },
+    {
+      "row": [],
+      "col": [
+        "LE65",
+        "Mean \u00b1 S.D."
+      ],
+      "value": "17.61 \u00b1 0.59"
+    },
+    {
+      "row": [],
+      "col": [
+        "LE65",
+        "(range)"
+      ],
+      "value": "(15.0 \u2013 19.8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "HE65",
+        "Mean \u00b1 S.D."
+      ],
+      "value": "15.56 \u00b1 0.53"
+    },
+    {
+      "row": [],
+      "col": [
+        "HE65",
+        "(range)"
+      ],
+      "value": "(13.63 \u2013 17.39)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Population size a"
+      ],
+      "value": "Medium"
+    },
+    {
+      "row": [],
+      "col": [
+        "LE65",
+        "Mean \u00b1 S.D."
+      ],
+      "value": "17.46 \u00b1 0.58"
+    },
+    {
+      "row": [],
+      "col": [
+        "LE65",
+        "(range)"
+      ],
+      "value": "(15.8 \u2013 20.3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "HE65",
+        "Mean \u00b1 S.D."
+      ],
+      "value": "15.53 \u00b1 0.51"
+    },
+    {
+      "row": [],
+      "col": [
+        "HE65",
+        "(range)"
+      ],
+      "value": "(13.48 \u2013 17.08)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Population size a"
+      ],
+      "value": "Large"
+    },
+    {
+      "row": [],
+      "col": [
+        "LE65",
+        "Mean \u00b1 S.D."
+      ],
+      "value": "17.58 \u00b1 0.57"
+    },
+    {
+      "row": [],
+      "col": [
+        "LE65",
+        "(range)"
+      ],
+      "value": "(14.9 \u2013 19.5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "HE65",
+        "Mean \u00b1 S.D."
+      ],
+      "value": "15.42 \u00b1 0.49"
+    },
+    {
+      "row": [],
+      "col": [
+        "HE65",
+        "(range)"
+      ],
+      "value": "(13.13 \u2013 16.84)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sex"
+      ],
+      "value": "Women"
+    },
+    {
+      "row": [],
+      "col": [
+        "Population size a"
+      ],
+      "value": "Total"
+    },
+    {
+      "row": [],
+      "col": [
+        "LE65",
+        "Mean \u00b1 S.D."
+      ],
+      "value": "22.54 \u00b1 0.68"
+    },
+    {
+      "row": [],
+      "col": [
+        "LE65",
+        "(range)"
+      ],
+      "value": "(20.1 \u2013 27.2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "HE65",
+        "Mean \u00b1 S.D."
+      ],
+      "value": "18.01 \u00b1 0.77"
+    },
+    {
+      "row": [],
+      "col": [
+        "HE65",
+        "(range)"
+      ],
+      "value": "(14.84 \u2013 20.53)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Population size a"
+      ],
+      "value": "Small"
+    },
+    {
+      "row": [],
+      "col": [
+        "LE65",
+        "Mean \u00b1 S.D."
+      ],
+      "value": "22.64 \u00b1 0.66"
+    },
+    {
+      "row": [],
+      "col": [
+        "LE65",
+        "(range)"
+      ],
+      "value": "(20.1 \u2013 26.3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "HE65",
+        "Mean \u00b1 S.D."
+      ],
+      "value": "18.03 \u00b1 0.78"
+    },
+    {
+      "row": [],
+      "col": [
+        "HE65",
+        "(range)"
+      ],
+      "value": "(14.83 \u2013 20.53)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Population size a"
+      ],
+      "value": "Medium"
+    },
+    {
+      "row": [],
+      "col": [
+        "LE65",
+        "Mean \u00b1 S.D."
+      ],
+      "value": "22.48 \u00b1 0.72"
+    },
+    {
+      "row": [],
+      "col": [
+        "LE65",
+        "(range)"
+      ],
+      "value": "(20.2 \u2013 27.3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "HE65",
+        "Mean \u00b1 S.D."
+      ],
+      "value": "18.09 \u00b1 0.77"
+    },
+    {
+      "row": [],
+      "col": [
+        "HE65",
+        "(range)"
+      ],
+      "value": "(15.45 \u2013 20.11)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Population size a"
+      ],
+      "value": "Large"
+    },
+    {
+      "row": [],
+      "col": [
+        "LE65",
+        "Mean \u00b1 S.D."
+      ],
+      "value": "22.40 \u00b1 0.57"
+    },
+    {
+      "row": [],
+      "col": [
+        "LE65",
+        "(range)"
+      ],
+      "value": "(20.6 \u2013 24.5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "HE65",
+        "Mean \u00b1 S.D."
+      ],
+      "value": "17.62 \u00b1 0.62"
+    },
+    {
+      "row": [],
+      "col": [
+        "HE65",
+        "(range)"
+      ],
+      "value": "(14.84 \u2013 18.94)"
+    }
+  ]
+}

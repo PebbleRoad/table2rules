@@ -1,0 +1,527 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "1 30",
+    "1-deoxy-D-xylulose-5-phosphate reductoisomerase",
+    "1.1.1.100",
+    "1.1.1.267",
+    "1.1.1.42",
+    "1.1.1.44",
+    "1.1.1.49",
+    "1.2.4.1",
+    "1.4.1.4",
+    "1.5.1.2",
+    "1.5.1.3",
+    "1.6.1.1",
+    "1.6.2.4",
+    "1.8.1.4",
+    "13",
+    "18",
+    "2.3.1.12",
+    "26",
+    "28",
+    "28 11",
+    "28 28",
+    "3-oxoacy1-[acy1-carrier-protein] reductase",
+    "30",
+    "32",
+    "48",
+    "?",
+    "Dihydrofolate reductase",
+    "Dihydrolipoamide S-acetyltransferase;",
+    "Dihydrolipoamide dehydrogenase",
+    "EC number",
+    "Enzyme",
+    "Fatty acid synthesis",
+    "Flavoprotein reduction",
+    "Folate synthesis",
+    "Glucose-6-phosphate 1-dehydrogenase;",
+    "Glutamate dehydrogenase (NADP)",
+    "Glutamate metabolism",
+    "Isocitrate dehydrogenase (NADP+);",
+    "Isoprenoid metabolism",
+    "MAL13P1.284",
+    "Metabolic function",
+    "NAD(P)+ transhydrogenase (B-specific);",
+    "NADPH hemoprotein reductase",
+    "PF08 0066 PFL1550w",
+    "PF10 0407",
+    "PF11 0256 PF14 0441",
+    "PF13_0242",
+    "PF14 0164 PF14 0286",
+    "PF14_0508",
+    "PF14_0511",
+    "PF14_0520",
+    "PF14_0641",
+    "PFD0830w",
+    "PFI1125c",
+    "PFI1140w",
+    "PPP",
+    "Peak (HPI)",
+    "PfID",
+    "Phosphogluconate dehydrogenase",
+    "Proline metabolism",
+    "Pyrroline-5-carboxylate reductase",
+    "Pyruvate dehydrogenase (acetyltransferring).",
+    "Pyruvate metabolism",
+    "TCA cycle"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Enzyme"
+      ],
+      "value": "3-oxoacy1-[acy1-carrier-protein] reductase"
+    },
+    {
+      "row": [],
+      "col": [
+        "EC number"
+      ],
+      "value": "1.1.1.100"
+    },
+    {
+      "row": [],
+      "col": [
+        "PfID"
+      ],
+      "value": "PFI1125c"
+    },
+    {
+      "row": [],
+      "col": [
+        "Peak (HPI)"
+      ],
+      "value": "28"
+    },
+    {
+      "row": [],
+      "col": [
+        "Metabolic function"
+      ],
+      "value": "Fatty acid synthesis"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme"
+      ],
+      "value": "1-deoxy-D-xylulose-5-phosphate reductoisomerase"
+    },
+    {
+      "row": [],
+      "col": [
+        "EC number"
+      ],
+      "value": "1.1.1.267"
+    },
+    {
+      "row": [],
+      "col": [
+        "PfID"
+      ],
+      "value": "PF14_0641"
+    },
+    {
+      "row": [],
+      "col": [
+        "Peak (HPI)"
+      ],
+      "value": "30"
+    },
+    {
+      "row": [],
+      "col": [
+        "Metabolic function"
+      ],
+      "value": "Isoprenoid metabolism"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme"
+      ],
+      "value": "Isocitrate dehydrogenase (NADP+);"
+    },
+    {
+      "row": [],
+      "col": [
+        "EC number"
+      ],
+      "value": "1.1.1.42"
+    },
+    {
+      "row": [],
+      "col": [
+        "PfID"
+      ],
+      "value": "PF13_0242"
+    },
+    {
+      "row": [],
+      "col": [
+        "Peak (HPI)"
+      ],
+      "value": "28"
+    },
+    {
+      "row": [],
+      "col": [
+        "Metabolic function"
+      ],
+      "value": "TCA cycle"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme"
+      ],
+      "value": "Phosphogluconate dehydrogenase"
+    },
+    {
+      "row": [],
+      "col": [
+        "EC number"
+      ],
+      "value": "1.1.1.44"
+    },
+    {
+      "row": [],
+      "col": [
+        "PfID"
+      ],
+      "value": "PF14_0520"
+    },
+    {
+      "row": [],
+      "col": [
+        "Peak (HPI)"
+      ],
+      "value": "26"
+    },
+    {
+      "row": [],
+      "col": [
+        "Metabolic function"
+      ],
+      "value": "PPP"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme"
+      ],
+      "value": "Glucose-6-phosphate 1-dehydrogenase;"
+    },
+    {
+      "row": [],
+      "col": [
+        "EC number"
+      ],
+      "value": "1.1.1.49"
+    },
+    {
+      "row": [],
+      "col": [
+        "PfID"
+      ],
+      "value": "PF14_0511"
+    },
+    {
+      "row": [],
+      "col": [
+        "Peak (HPI)"
+      ],
+      "value": "48"
+    },
+    {
+      "row": [],
+      "col": [
+        "Metabolic function"
+      ],
+      "value": "PPP"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme"
+      ],
+      "value": "Pyruvate dehydrogenase (acetyltransferring)."
+    },
+    {
+      "row": [],
+      "col": [
+        "EC number"
+      ],
+      "value": "1.2.4.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "PfID"
+      ],
+      "value": "PF11 0256 PF14 0441"
+    },
+    {
+      "row": [],
+      "col": [
+        "Peak (HPI)"
+      ],
+      "value": "28 28"
+    },
+    {
+      "row": [],
+      "col": [
+        "Metabolic function"
+      ],
+      "value": "Pyruvate metabolism"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme"
+      ],
+      "value": "Glutamate dehydrogenase (NADP)"
+    },
+    {
+      "row": [],
+      "col": [
+        "EC number"
+      ],
+      "value": "1.4.1.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "PfID"
+      ],
+      "value": "PF14 0164 PF14 0286"
+    },
+    {
+      "row": [],
+      "col": [
+        "Peak (HPI)"
+      ],
+      "value": "1 30"
+    },
+    {
+      "row": [],
+      "col": [
+        "Metabolic function"
+      ],
+      "value": "Glutamate metabolism"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme"
+      ],
+      "value": "Pyrroline-5-carboxylate reductase"
+    },
+    {
+      "row": [],
+      "col": [
+        "EC number"
+      ],
+      "value": "1.5.1.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "PfID"
+      ],
+      "value": "MAL13P1.284"
+    },
+    {
+      "row": [],
+      "col": [
+        "Peak (HPI)"
+      ],
+      "value": "18"
+    },
+    {
+      "row": [],
+      "col": [
+        "Metabolic function"
+      ],
+      "value": "Proline metabolism"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme"
+      ],
+      "value": "Dihydrofolate reductase"
+    },
+    {
+      "row": [],
+      "col": [
+        "EC number"
+      ],
+      "value": "1.5.1.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "PfID"
+      ],
+      "value": "PFD0830w"
+    },
+    {
+      "row": [],
+      "col": [
+        "Peak (HPI)"
+      ],
+      "value": "26"
+    },
+    {
+      "row": [],
+      "col": [
+        "Metabolic function"
+      ],
+      "value": "Folate synthesis"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme"
+      ],
+      "value": "NAD(P)+ transhydrogenase (B-specific);"
+    },
+    {
+      "row": [],
+      "col": [
+        "EC number"
+      ],
+      "value": "1.6.1.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "PfID"
+      ],
+      "value": "PF14_0508"
+    },
+    {
+      "row": [],
+      "col": [
+        "Peak (HPI)"
+      ],
+      "value": "32"
+    },
+    {
+      "row": [],
+      "col": [
+        "Metabolic function"
+      ],
+      "value": "?"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme"
+      ],
+      "value": "NADPH hemoprotein reductase"
+    },
+    {
+      "row": [],
+      "col": [
+        "EC number"
+      ],
+      "value": "1.6.2.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "PfID"
+      ],
+      "value": "PFI1140w"
+    },
+    {
+      "row": [],
+      "col": [
+        "Peak (HPI)"
+      ],
+      "value": "13"
+    },
+    {
+      "row": [],
+      "col": [
+        "Metabolic function"
+      ],
+      "value": "Flavoprotein reduction"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme"
+      ],
+      "value": "Dihydrolipoamide dehydrogenase"
+    },
+    {
+      "row": [],
+      "col": [
+        "EC number"
+      ],
+      "value": "1.8.1.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "PfID"
+      ],
+      "value": "PF08 0066 PFL1550w"
+    },
+    {
+      "row": [],
+      "col": [
+        "Peak (HPI)"
+      ],
+      "value": "28 11"
+    },
+    {
+      "row": [],
+      "col": [
+        "Metabolic function"
+      ],
+      "value": "Pyruvate metabolism"
+    },
+    {
+      "row": [],
+      "col": [
+        "Enzyme"
+      ],
+      "value": "Dihydrolipoamide S-acetyltransferase;"
+    },
+    {
+      "row": [],
+      "col": [
+        "EC number"
+      ],
+      "value": "2.3.1.12"
+    },
+    {
+      "row": [],
+      "col": [
+        "PfID"
+      ],
+      "value": "PF10 0407"
+    },
+    {
+      "row": [],
+      "col": [
+        "Peak (HPI)"
+      ],
+      "value": "28"
+    },
+    {
+      "row": [],
+      "col": [
+        "Metabolic function"
+      ],
+      "value": "Pyruvate metabolism"
+    }
+  ]
+}

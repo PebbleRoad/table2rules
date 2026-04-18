@@ -1,0 +1,462 @@
+<!-- source: PubTabNet imgid=313779 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+<b>
+       Rank
+      </b>
+</td>
+<td>
+<b>
+       Cosmid
+      </b>
+</td>
+<td>
+<b>
+       Gene
+      </b>
+</td>
+<td>
+<b>
+       Protein
+      </b>
+</td>
+<td>
+<b>
+       UNC-4 neuron
+      </b>
+</td>
+<td>
+<b>
+       Other cells
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      15
+     </td>
+<td>
+      F33D4.3
+     </td>
+<td>
+<i>
+       flp-13
+      </i>
+</td>
+<td>
+      neuropeptide
+     </td>
+<td>
+<b>
+       I5
+      </b>
+</td>
+<td>
+      ASE, ASG, ASK, BAG, DD, M3, M5, head neurons [67]
+     </td>
+</tr>
+<tr>
+<td>
+      17
+     </td>
+<td>
+      C11D2.6
+     </td>
+<td>
+<i>
+       nca-1
+      </i>
+</td>
+<td>
+      Ca
+      <sup>
+       ++
+      </sup>
+      channel
+     </td>
+<td>
+<b>
+       DA
+      </b>
+</td>
+<td>
+      DB, VA, VB, head/tail neurons
+     </td>
+</tr>
+<tr>
+<td>
+      56
+     </td>
+<td>
+      F09C3.2
+     </td>
+<td>
+</td>
+<td>
+      phosphatase
+     </td>
+<td>
+<b>
+       DA
+      </b>
+</td>
+<td>
+      VA, VB, VD, DB, intestine, hypodermis
+     </td>
+</tr>
+<tr>
+<td>
+      98
+     </td>
+<td>
+      T19C4.5
+     </td>
+<td>
+</td>
+<td>
+      novel
+     </td>
+<td>
+</td>
+<td>
+      no GFP
+     </td>
+</tr>
+<tr>
+<td>
+      161
+     </td>
+<td>
+      T23D8.2
+     </td>
+<td>
+<i>
+       tsp-7
+      </i>
+</td>
+<td>
+      tetraspanin
+     </td>
+<td>
+<b>
+       DA
+      </b>
+</td>
+<td>
+      all VNC motor neurons, head/tail neurons, touch neurons
+     </td>
+</tr>
+<tr>
+<td>
+      165
+     </td>
+<td>
+      CC4.2
+     </td>
+<td>
+<i>
+       nlp-15
+      </i>
+</td>
+<td>
+      neuropeptide
+     </td>
+<td>
+</td>
+<td>
+      DD, head/tail neurons, body muscles, pharyngeal muscle [105]
+     </td>
+</tr>
+<tr>
+<td>
+      210
+     </td>
+<td>
+      F29G6.2
+     </td>
+<td>
+</td>
+<td>
+      novel
+     </td>
+<td>
+<b>
+       DA
+      </b>
+</td>
+<td>
+      DB, touch neurons, pharyngeal neurons, head neurons
+     </td>
+</tr>
+<tr>
+<td>
+      215
+     </td>
+<td>
+      F39G3.8
+     </td>
+<td>
+<i>
+       tig-2
+      </i>
+</td>
+<td>
+      TGF-β
+     </td>
+<td>
+<b>
+       DA
+      </b>
+</td>
+<td>
+      VA, VB, DB, body wall muscle, touch neurons, pharyngeal muscle
+     </td>
+</tr>
+<tr>
+<td>
+      233
+     </td>
+<td>
+      F55C12.4
+     </td>
+<td>
+</td>
+<td>
+      novel
+     </td>
+<td>
+<b>
+       DA
+      </b>
+</td>
+<td>
+      VB, DB, DD, AS, VD
+     </td>
+</tr>
+<tr>
+<td>
+      234
+     </td>
+<td>
+      E03D2.2
+     </td>
+<td>
+<i>
+       nlp-9
+      </i>
+</td>
+<td>
+      neuropeptide
+     </td>
+<td>
+</td>
+<td>
+      VA, intestine, head neurons [105]
+     </td>
+</tr>
+<tr>
+<td>
+      239
+     </td>
+<td>
+      ZC21.2
+     </td>
+<td>
+<i>
+       trp-1
+      </i>
+</td>
+<td>
+      Ca
+      <sup>
+       ++
+      </sup>
+      channel
+     </td>
+<td>
+<b>
+       DA
+      </b>
+</td>
+<td>
+      DB, VA, VB
+     </td>
+</tr>
+<tr>
+<td>
+      254
+     </td>
+<td>
+      Y47D3B.2A
+     </td>
+<td>
+<i>
+       nlp-21
+      </i>
+</td>
+<td>
+      neuropeptide
+     </td>
+<td>
+<b>
+       DA
+      </b>
+</td>
+<td>
+      DB, VA, VB, AS, body muscle, head neurons, intestine [72]
+     </td>
+</tr>
+<tr>
+<td>
+      329
+     </td>
+<td>
+      F36A2.4
+     </td>
+<td>
+<i>
+       twk-30
+      </i>
+</td>
+<td>
+      K
+      <sup>
+       +
+      </sup>
+      channel
+     </td>
+<td>
+<b>
+       DA
+      </b>
+</td>
+<td>
+      all VNC motor neurons [106]
+     </td>
+</tr>
+<tr>
+<td>
+      377
+     </td>
+<td>
+      C18H9.7
+     </td>
+<td>
+<i>
+       rpy-1
+      </i>
+</td>
+<td>
+      rapsyn
+     </td>
+<td>
+<b>
+       DA
+      </b>
+</td>
+<td>
+      VD, AS, VB, DB, body muscles
+     </td>
+</tr>
+<tr>
+<td>
+      593
+     </td>
+<td>
+      F43C9.4a
+     </td>
+<td>
+<i>
+       mig-13
+      </i>
+</td>
+<td>
+      CUB domain
+     </td>
+<td>
+<b>
+       DA
+      </b>
+</td>
+<td>
+      DB, ant. VNC motor neurons, pharyngeal/intestinal valves, hypodermis [107]
+     </td>
+</tr>
+<tr>
+<td>
+      782
+     </td>
+<td>
+      T05C12.2
+     </td>
+<td>
+<i>
+       acr-14
+      </i>
+</td>
+<td>
+      nAChR
+     </td>
+<td>
+<b>
+       DA
+      </b>
+</td>
+<td>
+      VB, AS, DB, DD, HSN, VC4 &amp; 5, AIY, head neurons, muscles, intestine
+     </td>
+</tr>
+<tr>
+<td>
+      788
+     </td>
+<td>
+      T27A1.6
+     </td>
+<td>
+<i>
+       mab-9
+      </i>
+</td>
+<td>
+      transcrip. factor
+     </td>
+<td>
+<b>
+       DA
+      </b>
+</td>
+<td>
+      DD, DB, VD, AS
+     </td>
+</tr>
+<tr>
+<td>
+      877
+     </td>
+<td>
+      K02E10.8
+     </td>
+<td>
+<i>
+       syg-1
+      </i>
+</td>
+<td>
+      Ig Domain
+     </td>
+<td>
+<b>
+       DA
+      </b>
+</td>
+<td>
+      VA, HSN and other neurons
+     </td>
+</tr>
+</tbody>
+</table>

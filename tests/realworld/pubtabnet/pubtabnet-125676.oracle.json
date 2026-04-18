@@ -1,0 +1,619 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "-0.045",
+    "-0.046",
+    "-0.047",
+    "-0.048",
+    "-0.049",
+    "-0.054",
+    "0.251",
+    "0.254",
+    "0.255",
+    "0.256",
+    "0.257",
+    "0.276",
+    "0.278",
+    "0.279",
+    "0.285",
+    "0.286",
+    "0.51",
+    "0.56",
+    "0.58",
+    "0.74",
+    "0.75",
+    "0.76",
+    "0.79",
+    "0.85",
+    "0.88",
+    "0.90",
+    "0.99",
+    "1.12",
+    "1.17",
+    "1.21",
+    "1.22",
+    "1.25",
+    "108",
+    "13",
+    "14",
+    "262",
+    "279",
+    "32",
+    "35",
+    "49",
+    "552",
+    "553",
+    "606",
+    "633",
+    "638",
+    "643",
+    "644",
+    "649",
+    "654",
+    "705",
+    "720",
+    "8",
+    "95",
+    "98",
+    "CV-CV' average",
+    "CV-CV' first quartile",
+    "Charge average",
+    "Length average",
+    "Taxon",
+    "Turn average",
+    "arthropoda",
+    "ascomycetes",
+    "chordata",
+    "enterobacteria",
+    "eubacteria",
+    "eukaryota",
+    "fungi",
+    "g-proteobacteria",
+    "mammalia",
+    "metazoa",
+    "n",
+    "proteobacteria"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Taxon"
+      ],
+      "value": "arthropoda"
+    },
+    {
+      "row": [],
+      "col": [
+        "n"
+      ],
+      "value": "98"
+    },
+    {
+      "row": [],
+      "col": [
+        "CV-CV' average"
+      ],
+      "value": "0.75"
+    },
+    {
+      "row": [],
+      "col": [
+        "CV-CV' first quartile"
+      ],
+      "value": "0.51"
+    },
+    {
+      "row": [],
+      "col": [
+        "Charge average"
+      ],
+      "value": "-0.048"
+    },
+    {
+      "row": [],
+      "col": [
+        "Turn average"
+      ],
+      "value": "0.251"
+    },
+    {
+      "row": [],
+      "col": [
+        "Length average"
+      ],
+      "value": "606"
+    },
+    {
+      "row": [],
+      "col": [
+        "Taxon"
+      ],
+      "value": "metazoa"
+    },
+    {
+      "row": [],
+      "col": [
+        "n"
+      ],
+      "value": "262"
+    },
+    {
+      "row": [],
+      "col": [
+        "CV-CV' average"
+      ],
+      "value": "0.85"
+    },
+    {
+      "row": [],
+      "col": [
+        "CV-CV' first quartile"
+      ],
+      "value": "0.56"
+    },
+    {
+      "row": [],
+      "col": [
+        "Charge average"
+      ],
+      "value": "-0.046"
+    },
+    {
+      "row": [],
+      "col": [
+        "Turn average"
+      ],
+      "value": "0.254"
+    },
+    {
+      "row": [],
+      "col": [
+        "Length average"
+      ],
+      "value": "649"
+    },
+    {
+      "row": [],
+      "col": [
+        "Taxon"
+      ],
+      "value": "eukaryota"
+    },
+    {
+      "row": [],
+      "col": [
+        "n"
+      ],
+      "value": "279"
+    },
+    {
+      "row": [],
+      "col": [
+        "CV-CV' average"
+      ],
+      "value": "0.88"
+    },
+    {
+      "row": [],
+      "col": [
+        "CV-CV' first quartile"
+      ],
+      "value": "0.58"
+    },
+    {
+      "row": [],
+      "col": [
+        "Charge average"
+      ],
+      "value": "-0.045"
+    },
+    {
+      "row": [],
+      "col": [
+        "Turn average"
+      ],
+      "value": "0.255"
+    },
+    {
+      "row": [],
+      "col": [
+        "Length average"
+      ],
+      "value": "644"
+    },
+    {
+      "row": [],
+      "col": [
+        "Taxon"
+      ],
+      "value": "mammalia"
+    },
+    {
+      "row": [],
+      "col": [
+        "n"
+      ],
+      "value": "95"
+    },
+    {
+      "row": [],
+      "col": [
+        "CV-CV' average"
+      ],
+      "value": "0.88"
+    },
+    {
+      "row": [],
+      "col": [
+        "CV-CV' first quartile"
+      ],
+      "value": "0.56"
+    },
+    {
+      "row": [],
+      "col": [
+        "Charge average"
+      ],
+      "value": "-0.046"
+    },
+    {
+      "row": [],
+      "col": [
+        "Turn average"
+      ],
+      "value": "0.256"
+    },
+    {
+      "row": [],
+      "col": [
+        "Length average"
+      ],
+      "value": "720"
+    },
+    {
+      "row": [],
+      "col": [
+        "Taxon"
+      ],
+      "value": "chordata"
+    },
+    {
+      "row": [],
+      "col": [
+        "n"
+      ],
+      "value": "108"
+    },
+    {
+      "row": [],
+      "col": [
+        "CV-CV' average"
+      ],
+      "value": "0.90"
+    },
+    {
+      "row": [],
+      "col": [
+        "CV-CV' first quartile"
+      ],
+      "value": "0.58"
+    },
+    {
+      "row": [],
+      "col": [
+        "Charge average"
+      ],
+      "value": "-0.046"
+    },
+    {
+      "row": [],
+      "col": [
+        "Turn average"
+      ],
+      "value": "0.257"
+    },
+    {
+      "row": [],
+      "col": [
+        "Length average"
+      ],
+      "value": "705"
+    },
+    {
+      "row": [],
+      "col": [
+        "Taxon"
+      ],
+      "value": "enterobacteria"
+    },
+    {
+      "row": [],
+      "col": [
+        "n"
+      ],
+      "value": "8"
+    },
+    {
+      "row": [],
+      "col": [
+        "CV-CV' average"
+      ],
+      "value": "0.99"
+    },
+    {
+      "row": [],
+      "col": [
+        "CV-CV' first quartile"
+      ],
+      "value": "0.74"
+    },
+    {
+      "row": [],
+      "col": [
+        "Charge average"
+      ],
+      "value": "-0.054"
+    },
+    {
+      "row": [],
+      "col": [
+        "Turn average"
+      ],
+      "value": "0.279"
+    },
+    {
+      "row": [],
+      "col": [
+        "Length average"
+      ],
+      "value": "633"
+    },
+    {
+      "row": [],
+      "col": [
+        "Taxon"
+      ],
+      "value": "eubacteria"
+    },
+    {
+      "row": [],
+      "col": [
+        "n"
+      ],
+      "value": "49"
+    },
+    {
+      "row": [],
+      "col": [
+        "CV-CV' average"
+      ],
+      "value": "1.12"
+    },
+    {
+      "row": [],
+      "col": [
+        "CV-CV' first quartile"
+      ],
+      "value": "0.76"
+    },
+    {
+      "row": [],
+      "col": [
+        "Charge average"
+      ],
+      "value": "-0.047"
+    },
+    {
+      "row": [],
+      "col": [
+        "Turn average"
+      ],
+      "value": "0.276"
+    },
+    {
+      "row": [],
+      "col": [
+        "Length average"
+      ],
+      "value": "654"
+    },
+    {
+      "row": [],
+      "col": [
+        "Taxon"
+      ],
+      "value": "g-proteobacteria"
+    },
+    {
+      "row": [],
+      "col": [
+        "n"
+      ],
+      "value": "32"
+    },
+    {
+      "row": [],
+      "col": [
+        "CV-CV' average"
+      ],
+      "value": "1.17"
+    },
+    {
+      "row": [],
+      "col": [
+        "CV-CV' first quartile"
+      ],
+      "value": "0.79"
+    },
+    {
+      "row": [],
+      "col": [
+        "Charge average"
+      ],
+      "value": "-0.049"
+    },
+    {
+      "row": [],
+      "col": [
+        "Turn average"
+      ],
+      "value": "0.285"
+    },
+    {
+      "row": [],
+      "col": [
+        "Length average"
+      ],
+      "value": "643"
+    },
+    {
+      "row": [],
+      "col": [
+        "Taxon"
+      ],
+      "value": "ascomycetes"
+    },
+    {
+      "row": [],
+      "col": [
+        "n"
+      ],
+      "value": "13"
+    },
+    {
+      "row": [],
+      "col": [
+        "CV-CV' average"
+      ],
+      "value": "1.21"
+    },
+    {
+      "row": [],
+      "col": [
+        "CV-CV' first quartile"
+      ],
+      "value": "0.88"
+    },
+    {
+      "row": [],
+      "col": [
+        "Charge average"
+      ],
+      "value": "-0.046"
+    },
+    {
+      "row": [],
+      "col": [
+        "Turn average"
+      ],
+      "value": "0.278"
+    },
+    {
+      "row": [],
+      "col": [
+        "Length average"
+      ],
+      "value": "552"
+    },
+    {
+      "row": [],
+      "col": [
+        "Taxon"
+      ],
+      "value": "proteobacteria"
+    },
+    {
+      "row": [],
+      "col": [
+        "n"
+      ],
+      "value": "35"
+    },
+    {
+      "row": [],
+      "col": [
+        "CV-CV' average"
+      ],
+      "value": "1.22"
+    },
+    {
+      "row": [],
+      "col": [
+        "CV-CV' first quartile"
+      ],
+      "value": "0.79"
+    },
+    {
+      "row": [],
+      "col": [
+        "Charge average"
+      ],
+      "value": "-0.048"
+    },
+    {
+      "row": [],
+      "col": [
+        "Turn average"
+      ],
+      "value": "0.286"
+    },
+    {
+      "row": [],
+      "col": [
+        "Length average"
+      ],
+      "value": "638"
+    },
+    {
+      "row": [],
+      "col": [
+        "Taxon"
+      ],
+      "value": "fungi"
+    },
+    {
+      "row": [],
+      "col": [
+        "n"
+      ],
+      "value": "14"
+    },
+    {
+      "row": [],
+      "col": [
+        "CV-CV' average"
+      ],
+      "value": "1.25"
+    },
+    {
+      "row": [],
+      "col": [
+        "CV-CV' first quartile"
+      ],
+      "value": "0.88"
+    },
+    {
+      "row": [],
+      "col": [
+        "Charge average"
+      ],
+      "value": "-0.045"
+    },
+    {
+      "row": [],
+      "col": [
+        "Turn average"
+      ],
+      "value": "0.279"
+    },
+    {
+      "row": [],
+      "col": [
+        "Length average"
+      ],
+      "value": "553"
+    }
+  ]
+}

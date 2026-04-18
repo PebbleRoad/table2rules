@@ -1,0 +1,267 @@
+<!-- source: PubTabNet imgid=49398 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+</td>
+<td colspan="4">
+<b>
+       testset
+      </b>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<b>
+       Dayhoff
+      </b>
+</td>
+<td>
+<b>
+       MV
+      </b>
+</td>
+<td>
+<b>
+       JTT
+      </b>
+</td>
+<td>
+<b>
+       WAG
+      </b>
+</td>
+<td>
+<b>
+       average
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      Scoredist – Dayhoff
+     </td>
+<td>
+      12.68
+     </td>
+<td>
+      20.85
+     </td>
+<td>
+      13.67
+     </td>
+<td>
+      12.81
+     </td>
+<td>
+      15.00
+     </td>
+</tr>
+<tr>
+<td>
+      ML – Dayhoff
+     </td>
+<td>
+      12.70
+     </td>
+<td>
+      28.40
+     </td>
+<td>
+      14.75
+     </td>
+<td>
+      15.15
+     </td>
+<td>
+      17.75
+     </td>
+</tr>
+<tr>
+<td>
+      ED – Dayhoff
+     </td>
+<td>
+      13.57
+     </td>
+<td>
+      31.36
+     </td>
+<td>
+      16.10
+     </td>
+<td>
+      16.63
+     </td>
+<td>
+      19.41
+     </td>
+</tr>
+<tr>
+<td>
+      Scoredist – MV
+     </td>
+<td>
+      19.28
+     </td>
+<td>
+      13.15
+     </td>
+<td>
+      16.29
+     </td>
+<td>
+      18.73
+     </td>
+<td>
+      16.86
+     </td>
+</tr>
+<tr>
+<td>
+      ML – MV
+     </td>
+<td>
+      19.96
+     </td>
+<td>
+      13.44
+     </td>
+<td>
+      19.36
+     </td>
+<td>
+      19.21
+     </td>
+<td>
+      17.99
+     </td>
+</tr>
+<tr>
+<td>
+      ED – MV
+     </td>
+<td>
+      15.68
+     </td>
+<td>
+      13.35
+     </td>
+<td>
+      13.95
+     </td>
+<td>
+      14.75
+     </td>
+<td>
+      14.43
+     </td>
+</tr>
+<tr>
+<td>
+      Scoredist – JTT
+     </td>
+<td>
+      13.67
+     </td>
+<td>
+      17.16
+     </td>
+<td>
+      12.89
+     </td>
+<td>
+      13.47
+     </td>
+<td>
+      14.30
+     </td>
+</tr>
+<tr>
+<td>
+      ML – JTT
+     </td>
+<td>
+      12.15
+     </td>
+<td>
+      25.07
+     </td>
+<td>
+      12.10
+     </td>
+<td>
+      13.44
+     </td>
+<td>
+      15.69
+     </td>
+</tr>
+<tr>
+<td>
+      ED – JTT
+     </td>
+<td>
+      12.56
+     </td>
+<td>
+      27.71
+     </td>
+<td>
+      12.70
+     </td>
+<td>
+      14.37
+     </td>
+<td>
+      16.84
+     </td>
+</tr>
+<tr>
+<td>
+      Jukes-Cantor
+     </td>
+<td>
+      23.92
+     </td>
+<td>
+      16.28
+     </td>
+<td>
+      19.88
+     </td>
+<td>
+      22.48
+     </td>
+<td>
+      20.64
+     </td>
+</tr>
+<tr>
+<td>
+      Kimura
+     </td>
+<td>
+      16.24
+     </td>
+<td>
+      29.81
+     </td>
+<td>
+      22.36
+     </td>
+<td>
+      19.16
+     </td>
+<td>
+      21.89
+     </td>
+</tr>
+</tbody>
+</table>

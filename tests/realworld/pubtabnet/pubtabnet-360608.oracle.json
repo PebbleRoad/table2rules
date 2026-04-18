@@ -1,0 +1,436 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "-",
+    "100%",
+    "19\u201341%",
+    "2D Echo",
+    "2D Echo / CFR cut-off = 1,9",
+    "30%",
+    "38\u201361%",
+    "50%",
+    "52\u201374%",
+    "58\u201379%",
+    "63%",
+    "64\u201384%",
+    "69%",
+    "71\u201384%",
+    "72\u201390%",
+    "73\u201384%",
+    "74%",
+    "76\u201386%",
+    "77%",
+    "79%",
+    "79\u201388%",
+    "79\u201390%",
+    "80\u201389%",
+    "81%",
+    "81\u201396%",
+    "81\u201398%",
+    "82\u201391%",
+    "83%",
+    "84%",
+    "85%",
+    "85\u201395%",
+    "86%",
+    "87\u201396%",
+    "89%",
+    "89\u201397%",
+    "90%",
+    "91%",
+    "91\u201398%",
+    "93%",
+    "94%",
+    "94\u201399%",
+    "97%",
+    "Accuracy",
+    "CI 95%",
+    "Coronary Flow Reserve (cut-off = 1,5)",
+    "Coronary Flow Reserve (cut-off = 1,6)",
+    "Coronary Flow Reserve (cut-off = 1,7)",
+    "Coronary Flow Reserve (cut-off = 1,8)",
+    "Coronary Flow Reserve (cut-off = 1,9)",
+    "Coronary Flow Reserve (cut-off = 2)",
+    "Sensitivity",
+    "Specificity"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "2D Echo"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sensitivity"
+      ],
+      "value": "74%"
+    },
+    {
+      "row": [],
+      "col": [
+        "CI 95%"
+      ],
+      "value": "64\u201384%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specificity"
+      ],
+      "value": "91%"
+    },
+    {
+      "row": [],
+      "col": [
+        "CI 95%"
+      ],
+      "value": "87\u201396%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accuracy"
+      ],
+      "value": "86%"
+    },
+    {
+      "row": [],
+      "col": [
+        "CI 95%"
+      ],
+      "value": "82\u201391%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Coronary Flow Reserve (cut-off = 2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sensitivity"
+      ],
+      "value": "89%"
+    },
+    {
+      "row": [],
+      "col": [
+        "CI 95%"
+      ],
+      "value": "81\u201396%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specificity"
+      ],
+      "value": "77%"
+    },
+    {
+      "row": [],
+      "col": [
+        "CI 95%"
+      ],
+      "value": "71\u201384%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accuracy"
+      ],
+      "value": "81%"
+    },
+    {
+      "row": [],
+      "col": [
+        "CI 95%"
+      ],
+      "value": "76\u201386%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Coronary Flow Reserve (cut-off = 1,9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sensitivity"
+      ],
+      "value": "81%"
+    },
+    {
+      "row": [],
+      "col": [
+        "CI 95%"
+      ],
+      "value": "72\u201390%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specificity"
+      ],
+      "value": "84%"
+    },
+    {
+      "row": [],
+      "col": [
+        "CI 95%"
+      ],
+      "value": "79\u201390%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accuracy"
+      ],
+      "value": "83%"
+    },
+    {
+      "row": [],
+      "col": [
+        "CI 95%"
+      ],
+      "value": "79\u201388%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Coronary Flow Reserve (cut-off = 1,8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sensitivity"
+      ],
+      "value": "69%"
+    },
+    {
+      "row": [],
+      "col": [
+        "CI 95%"
+      ],
+      "value": "58\u201379%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specificity"
+      ],
+      "value": "90%"
+    },
+    {
+      "row": [],
+      "col": [
+        "CI 95%"
+      ],
+      "value": "85\u201395%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accuracy"
+      ],
+      "value": "83%"
+    },
+    {
+      "row": [],
+      "col": [
+        "CI 95%"
+      ],
+      "value": "79\u201388%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Coronary Flow Reserve (cut-off = 1,7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sensitivity"
+      ],
+      "value": "63%"
+    },
+    {
+      "row": [],
+      "col": [
+        "CI 95%"
+      ],
+      "value": "52\u201374%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specificity"
+      ],
+      "value": "97%"
+    },
+    {
+      "row": [],
+      "col": [
+        "CI 95%"
+      ],
+      "value": "94\u201399%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accuracy"
+      ],
+      "value": "86%"
+    },
+    {
+      "row": [],
+      "col": [
+        "CI 95%"
+      ],
+      "value": "82\u201391%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Coronary Flow Reserve (cut-off = 1,6)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sensitivity"
+      ],
+      "value": "50%"
+    },
+    {
+      "row": [],
+      "col": [
+        "CI 95%"
+      ],
+      "value": "38\u201361%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specificity"
+      ],
+      "value": "100%"
+    },
+    {
+      "row": [],
+      "col": [
+        "CI 95%"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accuracy"
+      ],
+      "value": "85%"
+    },
+    {
+      "row": [],
+      "col": [
+        "CI 95%"
+      ],
+      "value": "80\u201389%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Coronary Flow Reserve (cut-off = 1,5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sensitivity"
+      ],
+      "value": "30%"
+    },
+    {
+      "row": [],
+      "col": [
+        "CI 95%"
+      ],
+      "value": "19\u201341%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specificity"
+      ],
+      "value": "100%"
+    },
+    {
+      "row": [],
+      "col": [
+        "CI 95%"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accuracy"
+      ],
+      "value": "79%"
+    },
+    {
+      "row": [],
+      "col": [
+        "CI 95%"
+      ],
+      "value": "73\u201384%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "2D Echo / CFR cut-off = 1,9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sensitivity"
+      ],
+      "value": "90%"
+    },
+    {
+      "row": [],
+      "col": [
+        "CI 95%"
+      ],
+      "value": "81\u201398%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specificity"
+      ],
+      "value": "94%"
+    },
+    {
+      "row": [],
+      "col": [
+        "CI 95%"
+      ],
+      "value": "91\u201398%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accuracy"
+      ],
+      "value": "93%"
+    },
+    {
+      "row": [],
+      "col": [
+        "CI 95%"
+      ],
+      "value": "89\u201397%"
+    }
+  ]
+}

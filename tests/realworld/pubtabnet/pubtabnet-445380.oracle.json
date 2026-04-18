@@ -1,0 +1,377 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0.1 \u00b1 0.3",
+    "0.3 \u00b1 0.7",
+    "0.4 \u00b1 0.7",
+    "0.4 \u00b1 0.8",
+    "0.5 \u00b1 0.7",
+    "0.6 \u00b1 0.7",
+    "0.7 \u00b1 0.8",
+    "0.8 \u00b1 1.6",
+    "0.9 \u00b1 1.0",
+    "1",
+    "1.1 \u00b1 1.3",
+    "1.2 \u00b1 0.9",
+    "1.4 \u00b1 1.0",
+    "1.9 \u00b1 1.8",
+    "10%",
+    "2",
+    "2.1 \u00b1 2.2",
+    "2.2 \u00b1 2.3",
+    "20%",
+    "3",
+    "3.2 \u00b1 1.5",
+    "30%",
+    "4",
+    "40%",
+    "50%",
+    "60%",
+    "80%",
+    "90%",
+    "AOM/DSS",
+    "AOM/DSS/0.04% Nimesulide",
+    "AOM/DSS/0.05% Bezafibrate",
+    "AOM/DSS/0.05% Troglitazone",
+    "Dysplasia with:",
+    "Group no.",
+    "Incidence (%)",
+    "Mild atypia",
+    "Mucosal ulcer",
+    "Multiplicity (no. of lesions / mouse, means \u00b1 SD)",
+    "Severe atypia",
+    "Total dysplasia",
+    "Treatment"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Group no."
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treatment"
+      ],
+      "value": "AOM/DSS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Incidence (%)",
+        "Mucosal ulcer"
+      ],
+      "value": "40%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Incidence (%)",
+        "Total dysplasia"
+      ],
+      "value": "90%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Incidence (%)",
+        "Dysplasia with:",
+        "Mild atypia"
+      ],
+      "value": "80%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Incidence (%)",
+        "Dysplasia with:",
+        "Severe atypia"
+      ],
+      "value": "50%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Multiplicity (no. of lesions / mouse, means \u00b1 SD)",
+        "Mucosal ulcer"
+      ],
+      "value": "0.5 \u00b1 0.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Multiplicity (no. of lesions / mouse, means \u00b1 SD)",
+        "Total dysplasia"
+      ],
+      "value": "3.2 \u00b1 1.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Multiplicity (no. of lesions / mouse, means \u00b1 SD)",
+        "Dysplasia with:",
+        "Mild atypia"
+      ],
+      "value": "1.4 \u00b1 1.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Multiplicity (no. of lesions / mouse, means \u00b1 SD)",
+        "Dysplasia with:",
+        "Severe atypia"
+      ],
+      "value": "1.1 \u00b1 1.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group no."
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treatment"
+      ],
+      "value": "AOM/DSS/0.04% Nimesulide"
+    },
+    {
+      "row": [],
+      "col": [
+        "Incidence (%)",
+        "Mucosal ulcer"
+      ],
+      "value": "10%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Incidence (%)",
+        "Total dysplasia"
+      ],
+      "value": "90%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Incidence (%)",
+        "Dysplasia with:",
+        "Mild atypia"
+      ],
+      "value": "80%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Incidence (%)",
+        "Dysplasia with:",
+        "Severe atypia"
+      ],
+      "value": "50%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Multiplicity (no. of lesions / mouse, means \u00b1 SD)",
+        "Mucosal ulcer"
+      ],
+      "value": "0.1 \u00b1 0.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Multiplicity (no. of lesions / mouse, means \u00b1 SD)",
+        "Total dysplasia"
+      ],
+      "value": "2.2 \u00b1 2.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Multiplicity (no. of lesions / mouse, means \u00b1 SD)",
+        "Dysplasia with:",
+        "Mild atypia"
+      ],
+      "value": "1.2 \u00b1 0.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Multiplicity (no. of lesions / mouse, means \u00b1 SD)",
+        "Dysplasia with:",
+        "Severe atypia"
+      ],
+      "value": "0.6 \u00b1 0.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group no."
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treatment"
+      ],
+      "value": "AOM/DSS/0.05% Troglitazone"
+    },
+    {
+      "row": [],
+      "col": [
+        "Incidence (%)",
+        "Mucosal ulcer"
+      ],
+      "value": "20%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Incidence (%)",
+        "Total dysplasia"
+      ],
+      "value": "90%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Incidence (%)",
+        "Dysplasia with:",
+        "Mild atypia"
+      ],
+      "value": "50%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Incidence (%)",
+        "Dysplasia with:",
+        "Severe atypia"
+      ],
+      "value": "30%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Multiplicity (no. of lesions / mouse, means \u00b1 SD)",
+        "Mucosal ulcer"
+      ],
+      "value": "0.3 \u00b1 0.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Multiplicity (no. of lesions / mouse, means \u00b1 SD)",
+        "Total dysplasia"
+      ],
+      "value": "2.1 \u00b1 2.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Multiplicity (no. of lesions / mouse, means \u00b1 SD)",
+        "Dysplasia with:",
+        "Mild atypia"
+      ],
+      "value": "0.7 \u00b1 0.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Multiplicity (no. of lesions / mouse, means \u00b1 SD)",
+        "Dysplasia with:",
+        "Severe atypia"
+      ],
+      "value": "0.8 \u00b1 1.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Group no."
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treatment"
+      ],
+      "value": "AOM/DSS/0.05% Bezafibrate"
+    },
+    {
+      "row": [],
+      "col": [
+        "Incidence (%)",
+        "Mucosal ulcer"
+      ],
+      "value": "30%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Incidence (%)",
+        "Total dysplasia"
+      ],
+      "value": "80%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Incidence (%)",
+        "Dysplasia with:",
+        "Mild atypia"
+      ],
+      "value": "60%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Incidence (%)",
+        "Dysplasia with:",
+        "Severe atypia"
+      ],
+      "value": "20%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Multiplicity (no. of lesions / mouse, means \u00b1 SD)",
+        "Mucosal ulcer"
+      ],
+      "value": "0.4 \u00b1 0.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Multiplicity (no. of lesions / mouse, means \u00b1 SD)",
+        "Total dysplasia"
+      ],
+      "value": "1.9 \u00b1 1.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Multiplicity (no. of lesions / mouse, means \u00b1 SD)",
+        "Dysplasia with:",
+        "Mild atypia"
+      ],
+      "value": "0.9 \u00b1 1.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Multiplicity (no. of lesions / mouse, means \u00b1 SD)",
+        "Dysplasia with:",
+        "Severe atypia"
+      ],
+      "value": "0.4 \u00b1 0.8"
+    }
+  ]
+}

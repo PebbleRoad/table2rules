@@ -1,0 +1,347 @@
+<!-- source: PubTabNet imgid=488847 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+<b>
+       Number of genotypes
+      </b>
+</td>
+<td>
+<b>
+       Number of factors
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Number of genes
+      </b>
+</td>
+<td>
+<b>
+       Correlation (ρ)
+      </b>
+</td>
+<td>
+<b>
+       Effect size
+      </b>
+</td>
+<td>
+<b>
+       Factors clearly identified
+      </b>
+</td>
+<td>
+<b>
+       Proportion correct
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td>
+<b>
+       Noise
+      </b>
+</td>
+<td>
+<b>
+       Each factor
+      </b>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      2
+     </td>
+<td>
+      3
+     </td>
+<td>
+      100
+     </td>
+<td>
+      30
+     </td>
+<td>
+      0.8
+     </td>
+<td>
+      0.2,0.4,0.6
+     </td>
+<td>
+      Y
+     </td>
+<td>
+      1.00
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+      0.02,0.04,0.06
+     </td>
+<td>
+      Y
+     </td>
+<td>
+      1.00
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+      0.4
+     </td>
+<td>
+      0.2,0.4,0.6
+     </td>
+<td>
+      Y
+     </td>
+<td>
+      0.84
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+      0.02,0.04,0.06
+     </td>
+<td>
+      Y
+     </td>
+<td>
+      0.66
+     </td>
+</tr>
+<tr>
+<td>
+      2
+     </td>
+<td>
+      3
+     </td>
+<td>
+      1000
+     </td>
+<td>
+      300
+     </td>
+<td>
+      0.8
+     </td>
+<td>
+      0.2,0.4,0.6
+     </td>
+<td>
+      Y
+     </td>
+<td>
+      1.00
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+      0.4
+     </td>
+<td>
+      0.2,0.4,0.6
+     </td>
+<td>
+      Y
+     </td>
+<td>
+      0.66
+     </td>
+</tr>
+<tr>
+<td>
+      10
+     </td>
+<td>
+      3
+     </td>
+<td>
+      100
+     </td>
+<td>
+      30
+     </td>
+<td>
+      0.8
+     </td>
+<td>
+      1,2,3
+     </td>
+<td>
+      N
+     </td>
+<td>
+      0.81
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+      0.4
+     </td>
+<td>
+      1,2,3
+     </td>
+<td>
+      N
+     </td>
+<td>
+      0.64
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td>
+      0
+     </td>
+<td>
+      30
+     </td>
+<td>
+      0.8
+     </td>
+<td>
+      1,2,3
+     </td>
+<td>
+      Y
+     </td>
+<td>
+      1.00
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+      0.4
+     </td>
+<td>
+      1,2,3
+     </td>
+<td>
+      N
+     </td>
+<td>
+      0.63
+     </td>
+</tr>
+<tr>
+<td>
+      10
+     </td>
+<td>
+      20
+     </td>
+<td>
+      100
+     </td>
+<td>
+      30
+     </td>
+<td>
+      0.4
+     </td>
+<td>
+      1,2,...,20
+     </td>
+<td>
+      N
+     </td>
+<td>
+      -
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+      0.1,0.2,...,2
+     </td>
+<td>
+      N
+     </td>
+<td>
+      -
+     </td>
+</tr>
+</tbody>
+</table>

@@ -1,0 +1,446 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0",
+    "0.0719",
+    "0.1439",
+    "0.2158",
+    "0.3597",
+    "0.6475",
+    "1",
+    "1.4595",
+    "1.4804",
+    "1.5152",
+    "1.536",
+    "1.6547",
+    "1.675",
+    "1.7445",
+    "1311",
+    "2",
+    "2.0225",
+    "2.7662",
+    "210",
+    "213",
+    "218",
+    "221",
+    "23",
+    "241",
+    "251",
+    "291",
+    "3",
+    "3.6419",
+    "398",
+    "5",
+    "524",
+    "9",
+    "9.1118",
+    "Cis Pro",
+    "absolute",
+    "bbccc",
+    "ccccc",
+    "ccchh",
+    "cccss",
+    "cchhh",
+    "ccttc",
+    "ccttt",
+    "hhhhh",
+    "hthhh",
+    "relative(%)",
+    "structure",
+    "trans Pro",
+    "tthhh"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "structure"
+      ],
+      "value": "ccccc"
+    },
+    {
+      "row": [],
+      "col": [
+        "trans Pro",
+        "absolute"
+      ],
+      "value": "1311"
+    },
+    {
+      "row": [],
+      "col": [
+        "trans Pro",
+        "relative(%)"
+      ],
+      "value": "9.1118"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cis Pro",
+        "absolute"
+      ],
+      "value": "23"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cis Pro",
+        "relative(%)"
+      ],
+      "value": "1.6547"
+    },
+    {
+      "row": [],
+      "col": [
+        "structure"
+      ],
+      "value": "cchhh"
+    },
+    {
+      "row": [],
+      "col": [
+        "trans Pro",
+        "absolute"
+      ],
+      "value": "524"
+    },
+    {
+      "row": [],
+      "col": [
+        "trans Pro",
+        "relative(%)"
+      ],
+      "value": "3.6419"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cis Pro",
+        "absolute"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cis Pro",
+        "relative(%)"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "structure"
+      ],
+      "value": "hhhhh"
+    },
+    {
+      "row": [],
+      "col": [
+        "trans Pro",
+        "absolute"
+      ],
+      "value": "398"
+    },
+    {
+      "row": [],
+      "col": [
+        "trans Pro",
+        "relative(%)"
+      ],
+      "value": "2.7662"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cis Pro",
+        "absolute"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cis Pro",
+        "relative(%)"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "structure"
+      ],
+      "value": "tthhh"
+    },
+    {
+      "row": [],
+      "col": [
+        "trans Pro",
+        "absolute"
+      ],
+      "value": "291"
+    },
+    {
+      "row": [],
+      "col": [
+        "trans Pro",
+        "relative(%)"
+      ],
+      "value": "2.0225"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cis Pro",
+        "absolute"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cis Pro",
+        "relative(%)"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "structure"
+      ],
+      "value": "ccttc"
+    },
+    {
+      "row": [],
+      "col": [
+        "trans Pro",
+        "absolute"
+      ],
+      "value": "251"
+    },
+    {
+      "row": [],
+      "col": [
+        "trans Pro",
+        "relative(%)"
+      ],
+      "value": "1.7445"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cis Pro",
+        "absolute"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cis Pro",
+        "relative(%)"
+      ],
+      "value": "0.0719"
+    },
+    {
+      "row": [],
+      "col": [
+        "structure"
+      ],
+      "value": "cccss"
+    },
+    {
+      "row": [],
+      "col": [
+        "trans Pro",
+        "absolute"
+      ],
+      "value": "241"
+    },
+    {
+      "row": [],
+      "col": [
+        "trans Pro",
+        "relative(%)"
+      ],
+      "value": "1.675"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cis Pro",
+        "absolute"
+      ],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cis Pro",
+        "relative(%)"
+      ],
+      "value": "0.6475"
+    },
+    {
+      "row": [],
+      "col": [
+        "structure"
+      ],
+      "value": "bbccc"
+    },
+    {
+      "row": [],
+      "col": [
+        "trans Pro",
+        "absolute"
+      ],
+      "value": "221"
+    },
+    {
+      "row": [],
+      "col": [
+        "trans Pro",
+        "relative(%)"
+      ],
+      "value": "1.536"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cis Pro",
+        "absolute"
+      ],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cis Pro",
+        "relative(%)"
+      ],
+      "value": "0.3597"
+    },
+    {
+      "row": [],
+      "col": [
+        "structure"
+      ],
+      "value": "hthhh"
+    },
+    {
+      "row": [],
+      "col": [
+        "trans Pro",
+        "absolute"
+      ],
+      "value": "218"
+    },
+    {
+      "row": [],
+      "col": [
+        "trans Pro",
+        "relative(%)"
+      ],
+      "value": "1.5152"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cis Pro",
+        "absolute"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cis Pro",
+        "relative(%)"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "structure"
+      ],
+      "value": "ccchh"
+    },
+    {
+      "row": [],
+      "col": [
+        "trans Pro",
+        "absolute"
+      ],
+      "value": "213"
+    },
+    {
+      "row": [],
+      "col": [
+        "trans Pro",
+        "relative(%)"
+      ],
+      "value": "1.4804"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cis Pro",
+        "absolute"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cis Pro",
+        "relative(%)"
+      ],
+      "value": "0.2158"
+    },
+    {
+      "row": [],
+      "col": [
+        "structure"
+      ],
+      "value": "ccttt"
+    },
+    {
+      "row": [],
+      "col": [
+        "trans Pro",
+        "absolute"
+      ],
+      "value": "210"
+    },
+    {
+      "row": [],
+      "col": [
+        "trans Pro",
+        "relative(%)"
+      ],
+      "value": "1.4595"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cis Pro",
+        "absolute"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cis Pro",
+        "relative(%)"
+      ],
+      "value": "0.1439"
+    }
+  ]
+}

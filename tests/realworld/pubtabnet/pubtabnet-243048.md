@@ -1,0 +1,297 @@
+<!-- source: PubTabNet imgid=243048 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+</td>
+<td>
+<b>
+       Nature (12/00)
+      </b>
+</td>
+<td>
+<b>
+       Release 1 (8/01)
+      </b>
+</td>
+<td>
+<b>
+       Release 2 (1/02)
+      </b>
+</td>
+<td>
+<b>
+       Release 3 (8/02)
+      </b>
+</td>
+<td>
+<b>
+       Release 4 (4/03)
+      </b>
+</td>
+<td>
+<b>
+       Release 5 (1/04)
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      Genome size (Mb)
+     </td>
+<td>
+      115.410
+     </td>
+<td>
+      116.238
+     </td>
+<td>
+      117.227
+     </td>
+<td>
+      117.077
+     </td>
+<td>
+      119.055
+     </td>
+<td>
+      118.998
+     </td>
+</tr>
+<tr>
+<td>
+      protein-coding genes
+     </td>
+<td>
+      25,498
+     </td>
+<td>
+      25,554
+     </td>
+<td>
+      26,156
+     </td>
+<td>
+      27,117
+     </td>
+<td>
+      27,170
+     </td>
+<td>
+      26,207
+     </td>
+</tr>
+<tr>
+<td>
+      transposons and pseudogenes
+     </td>
+<td>
+      NA
+     </td>
+<td>
+      1,274
+     </td>
+<td>
+      1,305
+     </td>
+<td>
+      1,967
+     </td>
+<td>
+      2,218
+     </td>
+<td>
+      3,786
+     </td>
+</tr>
+<tr>
+<td>
+      Genes annotated as alternatively spliced
+     </td>
+<td>
+      NA
+     </td>
+<td>
+      0
+     </td>
+<td>
+      28
+     </td>
+<td>
+      162
+     </td>
+<td>
+      1,267
+     </td>
+<td>
+      2,330
+     </td>
+</tr>
+<tr>
+<td>
+      genes with UTRs
+     </td>
+<td>
+      NA
+     </td>
+<td>
+      4,140
+     </td>
+<td>
+      10,219
+     </td>
+<td>
+      11,691
+     </td>
+<td>
+      17,060
+     </td>
+<td>
+      18,099
+     </td>
+</tr>
+<tr>
+<td>
+      Protein-coding genes similar to transposon ORFs
+      <sup>
+       a
+      </sup>
+</td>
+<td>
+      NA
+     </td>
+<td>
+      487
+     </td>
+<td>
+      485
+     </td>
+<td>
+      528
+     </td>
+<td>
+      531
+     </td>
+<td>
+      6
+     </td>
+</tr>
+<tr>
+<td>
+      gene density (kb per gene)
+     </td>
+<td>
+      4.5
+     </td>
+<td>
+      4.55
+     </td>
+<td>
+      4.48
+     </td>
+<td>
+      4.32
+     </td>
+<td>
+      4.38
+     </td>
+<td>
+      4.54
+     </td>
+</tr>
+<tr>
+<td>
+      exons / gene
+     </td>
+<td>
+      5.2
+     </td>
+<td>
+      5.23
+     </td>
+<td>
+      5.25
+     </td>
+<td>
+      5.24
+     </td>
+<td>
+      5.31
+     </td>
+<td>
+      5.42
+     </td>
+</tr>
+<tr>
+<td>
+      average exon length (bp)
+     </td>
+<td>
+      250
+     </td>
+<td>
+      256
+     </td>
+<td>
+      265
+     </td>
+<td>
+      266
+     </td>
+<td>
+      279
+     </td>
+<td>
+      276
+     </td>
+</tr>
+<tr>
+<td>
+      average intron length (bp)
+     </td>
+<td>
+      168
+     </td>
+<td>
+      168
+     </td>
+<td>
+      167
+     </td>
+<td>
+      166
+     </td>
+<td>
+      166
+     </td>
+<td>
+      164
+     </td>
+</tr>
+<tr>
+<td>
+      Gene structures altered since previous release.(u,a,d,m,s)
+     </td>
+<td>
+      NA
+     </td>
+<td>
+      -
+     </td>
+<td>
+      u: 2,853a: 690d: 231m: 14s: 167
+     </td>
+<td>
+      u:1,366a: 1,906d: 221m: 62s: 14
+     </td>
+<td>
+      u: 2,347a: 527d: 143m: 153s: 24
+     </td>
+<td>
+      u: 2,858a: 1,393d: 730m: 169s: 28
+     </td>
+</tr>
+</tbody>
+</table>

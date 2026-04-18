@@ -1,0 +1,243 @@
+<!-- source: PubTabNet imgid=473978 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+<b>
+       Total gene pairs sharing one regulator
+      </b>
+</td>
+<td>
+<b>
+       Gene pairs sharing one regulator and both are in the same deacetylation partition group
+      </b>
+</td>
+<td>
+<b>
+       Threshold for correlations
+      </b>
+</td>
+<td>
+<b>
+       Number of gene pairs sharing one regulator above the threshold
+      </b>
+</td>
+<td>
+<b>
+       Number of gene pairs sharing one regulator and both are in the same deacetylation partition group above the threshold
+      </b>
+</td>
+<td>
+<b>
+       P-values based on the hypergeometric tests
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      24,833
+     </td>
+<td>
+      141
+     </td>
+<td>
+      0.5
+     </td>
+<td>
+      4,676
+     </td>
+<td>
+      80
+     </td>
+<td>
+      3.43e-011
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td>
+      0.6
+     </td>
+<td>
+      2,925
+     </td>
+<td>
+      54
+     </td>
+<td>
+      2.37e-011
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td>
+      0.7
+     </td>
+<td>
+      1,519
+     </td>
+<td>
+      45
+     </td>
+<td>
+      2.24e-011
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td>
+      0.8
+     </td>
+<td>
+      422
+     </td>
+<td>
+      20
+     </td>
+<td>
+      2.92e-011
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td>
+      0.9
+     </td>
+<td>
+      30
+     </td>
+<td>
+      3
+     </td>
+<td>
+      0.0000243
+     </td>
+</tr>
+<tr>
+<td>
+      Total gene pairs sharing one regulator
+     </td>
+<td>
+      Gene pairs sharing one regulator and they belong to neighboring deacetylation partition groups
+     </td>
+<td>
+      Threshold for correlations
+     </td>
+<td>
+      Number of gene pairs sharing one regulator above the threshold
+     </td>
+<td>
+      Number of gene pairs sharing one regulator and they belong to neighboring deacetylation partition groups above the threshold
+     </td>
+<td>
+      P-values based on the hypergeometric tests
+     </td>
+</tr>
+<tr>
+<td>
+      24,833
+     </td>
+<td>
+      46
+     </td>
+<td>
+      0.5
+     </td>
+<td>
+      4,676
+     </td>
+<td>
+      12
+     </td>
+<td>
+      0.0784
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td>
+      0.6
+     </td>
+<td>
+      2,925
+     </td>
+<td>
+      8
+     </td>
+<td>
+      0.0853
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td>
+      0.7
+     </td>
+<td>
+      1,519
+     </td>
+<td>
+      8
+     </td>
+<td>
+      0.00165
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td>
+      0.8
+     </td>
+<td>
+      422
+     </td>
+<td>
+      2
+     </td>
+<td>
+      0.0432
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td>
+      0.9
+     </td>
+<td>
+      30
+     </td>
+<td>
+      0
+     </td>
+<td>
+      0.0541
+     </td>
+</tr>
+</tbody>
+</table>

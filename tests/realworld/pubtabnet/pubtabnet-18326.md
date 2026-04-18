@@ -1,0 +1,380 @@
+<!-- source: PubTabNet imgid=18326 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+<b>
+       Haplotype
+       <sup>
+        a
+       </sup>
+</b>
+</td>
+<td>
+<b>
+       Patient
+      </b>
+</td>
+<td>
+<b>
+       Normal
+      </b>
+</td>
+<td>
+<b>
+       Fisher's Exact Test (
+       <i>
+        P
+       </i>
+       value)
+       <sup>
+        b
+       </sup>
+</b>
+</td>
+<td>
+<b>
+       OR
+       <sup>
+        b,c,d
+       </sup>
+</b>
+</td>
+<td>
+<b>
+       95% CI
+       <sup>
+        d
+       </sup>
+</b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<b>
+       TAGTAAGACA
+      </b>
+</td>
+<td>
+      0.340
+     </td>
+<td>
+      0.359
+     </td>
+<td>
+      0.755
+     </td>
+<td>
+      0.919
+     </td>
+<td>
+      0.61–1.38
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       TAGAGACCTG
+      </b>
+</td>
+<td>
+      0.145
+     </td>
+<td>
+      0.140
+     </td>
+<td>
+      1.000
+     </td>
+<td>
+      1.035
+     </td>
+<td>
+      0.59–1.80
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       GGTTGCCCTA
+      </b>
+</td>
+<td>
+      0.095
+     </td>
+<td>
+      0.068
+     </td>
+<td>
+      0.366
+     </td>
+<td>
+      1.439
+     </td>
+<td>
+      0.70–2.96
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       TAGTAACACA
+      </b>
+</td>
+<td>
+      0.010
+     </td>
+<td>
+      0.039
+     </td>
+<td>
+      0.105
+     </td>
+<td>
+      0.250
+     </td>
+<td>
+      0.05–1.19
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       TAGTAAGATA
+      </b>
+</td>
+<td>
+      0.025
+     </td>
+<td>
+      0.010
+     </td>
+<td>
+      0.278
+     </td>
+<td>
+      2.615
+     </td>
+<td>
+      0.50–13.64
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       TAGTGCGACA
+      </b>
+</td>
+<td>
+      0.025
+     </td>
+<td>
+      0.015
+     </td>
+<td>
+      0.498
+     </td>
+<td>
+      1.735
+     </td>
+<td>
+      0.41–7.36
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       GGGAGACCCA
+      </b>
+</td>
+<td>
+      0.025
+     </td>
+<td>
+      0
+     </td>
+<td>
+      0.028
+     </td>
+<td>
+      --
+     </td>
+<td>
+      --
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       TAGTAACCTG
+      </b>
+</td>
+<td>
+      0.020
+     </td>
+<td>
+      0
+     </td>
+<td>
+      0.058
+     </td>
+<td>
+      --
+     </td>
+<td>
+      --
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       TAGTGACCTG
+      </b>
+</td>
+<td>
+      0.020
+     </td>
+<td>
+      0.010
+     </td>
+<td>
+      0.443
+     </td>
+<td>
+      2.081
+     </td>
+<td>
+      0.38–11.49
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       TAGAGACATG
+      </b>
+</td>
+<td>
+      0.020
+     </td>
+<td>
+      0.019
+     </td>
+<td>
+      1.000
+     </td>
+<td>
+      1.031
+     </td>
+<td>
+      0.25–4.18
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       GGTTGCCCTG
+      </b>
+</td>
+<td>
+      0.020
+     </td>
+<td>
+      0.010
+     </td>
+<td>
+      0.443
+     </td>
+<td>
+      2.082
+     </td>
+<td>
+      0.38–11.49
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       GGTAGACCCA
+      </b>
+</td>
+<td>
+      0.015
+     </td>
+<td>
+      0.024
+     </td>
+<td>
+      0.724
+     </td>
+<td>
+      0.612
+     </td>
+<td>
+      0.14–2.59
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       Others
+      </b>
+</td>
+<td>
+      0.240
+     </td>
+<td>
+      0.306
+     </td>
+<td>
+      0.149
+     </td>
+<td>
+      0.717
+     </td>
+<td>
+      0.46–1.11
+     </td>
+</tr>
+<tr>
+<td>
+      Total
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+      0.082
+     </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<b>
+<i>
+        P
+       </i>
+       value of permutation test
+      </b>
+</td>
+<td>
+<b>
+       0.602
+      </b>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+</tbody>
+</table>

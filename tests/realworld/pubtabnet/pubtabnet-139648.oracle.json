@@ -1,0 +1,572 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "-",
+    "1. Decreased fetal movement and infantile lethargy",
+    "1.5 points",
+    "10. Speech articulation defect",
+    "11. Skin picking",
+    "151 cm (3 rd %tile) (0.5pt.)",
+    "2. Typical behaviour problems",
+    "2.5 points",
+    "3 points",
+    "3. Sleep disturbance, sleep apnea",
+    "3.5 points",
+    "4. Short stature for the family by age 15 years",
+    "4.5 points",
+    "5. Hypopigmentation",
+    "50\u201375 th percentile (0.5pt.)",
+    "6. Small hands and /or feet for height age",
+    "6.5 points",
+    "7. Narrow hands with straight ulnar border",
+    "7.5 points",
+    "8. Eye abnormalities: esotropia, myopia",
+    "8.5 points",
+    "9 points",
+    "9. Thick viscous saliva",
+    "Aggressive outbursts, rigid personality, perseveration (0.5pt.)",
+    "Alternating esotropia in infancy (0.5 pt.)",
+    "Articulation difficulty (0.5 pt.)",
+    "Behavior problems (0.5pt.)",
+    "Behavior problems with temper tantrums and severe aggressiveness (0.5 pt.)",
+    "Conroy et al. 1997",
+    "Decreased fetal activity (0.5 pt.)",
+    "Decreased fetal movements (0.5pt.)",
+    "Esotropia (0.5 pt.)",
+    "Esotropia (0.5pt.)",
+    "Hand length 25 th percentile, finger length 10 th %ile (0.5pt.)",
+    "Hands 20 th %ile, feet 5th %ile (0.5pt.)",
+    "Height 155.7 cm at 16 years < 3 rd %tile (0.5 pt.)",
+    "Hypopigmentation (0.5 pt.)",
+    "Kuslich et al. 1999",
+    "Left esotropia (0.5 pt.)",
+    "Minor criteria (1/2 point each)",
+    "Normal hands, but small feet (< 10 th %tile) (0.5 pt.)",
+    "Poor articulation (0.5pt.)",
+    "Present case",
+    "Schulze et al. 1996",
+    "Score (minor only)",
+    "Short 3rd finger bilaterally",
+    "Short stature at the age of 15 (0.5pt.)",
+    "Skin picking (0.5pt.)",
+    "Sleep disturbance (0.5pt.)",
+    "Sleep disturbance, amphetamine treatment from age 9 ys. (0.5pt.)",
+    "Sleep disturbance, sleep apnea (0.5pt.)",
+    "Slightly reduced fetal movements (0.5pt.)",
+    "Sun et al. 1996",
+    "Temper tantrums, abnormal social behavior (0.5pt.)",
+    "Temper tantrums, violent outbursts after food restrictions (0.5pt.)",
+    "Temper tantrums, violent outbursts, obsessive-compulsive (0.5 pt.)",
+    "Thick viscous saliva (0.5 pt.)",
+    "Total Score",
+    "Viscous saliva (0.5pt.)",
+    "Wirth et al. 2001"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Minor criteria (1/2 point each)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sun et al. 1996"
+      ],
+      "value": "Minor criteria (1/2 point each)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Kuslich et al. 1999"
+      ],
+      "value": "Minor criteria (1/2 point each)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Schulze et al. 1996"
+      ],
+      "value": "Minor criteria (1/2 point each)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Conroy et al. 1997"
+      ],
+      "value": "Minor criteria (1/2 point each)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Wirth et al. 2001"
+      ],
+      "value": "Minor criteria (1/2 point each)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Present case"
+      ],
+      "value": "Minor criteria (1/2 point each)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "1. Decreased fetal movement and infantile lethargy"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sun et al. 1996"
+      ],
+      "value": "Decreased fetal activity (0.5 pt.)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Kuslich et al. 1999"
+      ],
+      "value": "Decreased fetal movements (0.5pt.)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Conroy et al. 1997"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Wirth et al. 2001"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Present case"
+      ],
+      "value": "Slightly reduced fetal movements (0.5pt.)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "2. Typical behaviour problems"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sun et al. 1996"
+      ],
+      "value": "Behavior problems (0.5pt.)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Kuslich et al. 1999"
+      ],
+      "value": "Temper tantrums, violent outbursts, obsessive-compulsive (0.5 pt.)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Schulze et al. 1996"
+      ],
+      "value": "Aggressive outbursts, rigid personality, perseveration (0.5pt.)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Conroy et al. 1997"
+      ],
+      "value": "Behavior problems with temper tantrums and severe aggressiveness (0.5 pt.)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Wirth et al. 2001"
+      ],
+      "value": "Temper tantrums, violent outbursts after food restrictions (0.5pt.)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Present case"
+      ],
+      "value": "Temper tantrums, abnormal social behavior (0.5pt.)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "3. Sleep disturbance, sleep apnea"
+    },
+    {
+      "row": [],
+      "col": [
+        "Kuslich et al. 1999"
+      ],
+      "value": "Sleep disturbance, sleep apnea (0.5pt.)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Schulze et al. 1996"
+      ],
+      "value": "Sleep disturbance (0.5pt.)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Present case"
+      ],
+      "value": "Sleep disturbance, amphetamine treatment from age 9 ys. (0.5pt.)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "4. Short stature for the family by age 15 years"
+    },
+    {
+      "row": [],
+      "col": [
+        "Schulze et al. 1996"
+      ],
+      "value": "Short stature at the age of 15 (0.5pt.)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Conroy et al. 1997"
+      ],
+      "value": "50\u201375 th percentile (0.5pt.)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Wirth et al. 2001"
+      ],
+      "value": "151 cm (3 rd %tile) (0.5pt.)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Present case"
+      ],
+      "value": "Height 155.7 cm at 16 years < 3 rd %tile (0.5 pt.)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "5. Hypopigmentation"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sun et al. 1996"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Kuslich et al. 1999"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Schulze et al. 1996"
+      ],
+      "value": "Hypopigmentation (0.5 pt.)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Wirth et al. 2001"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Present case"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "6. Small hands and /or feet for height age"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sun et al. 1996"
+      ],
+      "value": "Hand length 25 th percentile, finger length 10 th %ile (0.5pt.)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Kuslich et al. 1999"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Schulze et al. 1996"
+      ],
+      "value": "Normal hands, but small feet (< 10 th %tile) (0.5 pt.)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Wirth et al. 2001"
+      ],
+      "value": "Short 3rd finger bilaterally"
+    },
+    {
+      "row": [],
+      "col": [
+        "Present case"
+      ],
+      "value": "Hands 20 th %ile, feet 5th %ile (0.5pt.)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "7. Narrow hands with straight ulnar border"
+    },
+    {
+      "row": [],
+      "col": [
+        "Kuslich et al. 1999"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Present case"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "8. Eye abnormalities: esotropia, myopia"
+    },
+    {
+      "row": [],
+      "col": [
+        "Kuslich et al. 1999"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Schulze et al. 1996"
+      ],
+      "value": "Esotropia (0.5 pt.)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Conroy et al. 1997"
+      ],
+      "value": "Alternating esotropia in infancy (0.5 pt.)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Wirth et al. 2001"
+      ],
+      "value": "Left esotropia (0.5 pt.)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Present case"
+      ],
+      "value": "Esotropia (0.5pt.)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "9. Thick viscous saliva"
+    },
+    {
+      "row": [],
+      "col": [
+        "Kuslich et al. 1999"
+      ],
+      "value": "Viscous saliva (0.5pt.)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Conroy et al. 1997"
+      ],
+      "value": "Thick viscous saliva (0.5 pt.)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Present case"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "10. Speech articulation defect"
+    },
+    {
+      "row": [],
+      "col": [
+        "Kuslich et al. 1999"
+      ],
+      "value": "Articulation difficulty (0.5 pt.)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Conroy et al. 1997"
+      ],
+      "value": "Poor articulation (0.5pt.)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Present case"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "11. Skin picking"
+    },
+    {
+      "row": [],
+      "col": [
+        "Kuslich et al. 1999"
+      ],
+      "value": "Skin picking (0.5pt.)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Schulze et al. 1996"
+      ],
+      "value": "Skin picking (0.5pt.)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Present case"
+      ],
+      "value": "Skin picking (0.5pt.)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Score (minor only)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sun et al. 1996"
+      ],
+      "value": "1.5 points"
+    },
+    {
+      "row": [],
+      "col": [
+        "Kuslich et al. 1999"
+      ],
+      "value": "3 points"
+    },
+    {
+      "row": [],
+      "col": [
+        "Schulze et al. 1996"
+      ],
+      "value": "3.5 points"
+    },
+    {
+      "row": [],
+      "col": [
+        "Conroy et al. 1997"
+      ],
+      "value": "2.5 points"
+    },
+    {
+      "row": [],
+      "col": [
+        "Wirth et al. 2001"
+      ],
+      "value": "1.5 points"
+    },
+    {
+      "row": [],
+      "col": [
+        "Present case"
+      ],
+      "value": "3.5 points"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total Score"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sun et al. 1996"
+      ],
+      "value": "6.5 points"
+    },
+    {
+      "row": [],
+      "col": [
+        "Kuslich et al. 1999"
+      ],
+      "value": "9 points"
+    },
+    {
+      "row": [],
+      "col": [
+        "Schulze et al. 1996"
+      ],
+      "value": "8.5 points"
+    },
+    {
+      "row": [],
+      "col": [
+        "Conroy et al. 1997"
+      ],
+      "value": "8.5 points"
+    },
+    {
+      "row": [],
+      "col": [
+        "Wirth et al. 2001"
+      ],
+      "value": "4.5 points"
+    },
+    {
+      "row": [],
+      "col": [
+        "Present case"
+      ],
+      "value": "7.5 points"
+    }
+  ]
+}

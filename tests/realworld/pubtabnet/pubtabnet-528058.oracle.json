@@ -1,0 +1,494 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "C399/3",
+    "C485/3",
+    "C617/1",
+    "C642/1",
+    "C642/2",
+    "C648",
+    "C650/1",
+    "C650/2",
+    "C652/1",
+    "C663/1",
+    "C663/2",
+    "C665",
+    "C701",
+    "C702",
+    "DS448/1",
+    "DS448/2",
+    "Genotype",
+    "Lab stock",
+    "Name",
+    "Source",
+    "This study",
+    "csn5.13myc kan h-",
+    "diploid, eif3f/eif3f::ura4",
+    "eif3b.cbp.tev.5proA kan h-",
+    "eif3b.gfp kan, h-",
+    "eif3e.13myc kan h-",
+    "eif3e.cbp.tev.5proA kan h+",
+    "eif3e.gfp kan h-",
+    "eif3e::ura4 h+",
+    "eif3f::ura4 pRep81.6xhis.myc.eif3f h-",
+    "eif3m.13myc kan h-",
+    "eif3m.CBP.tev.5proA kan h-",
+    "eif3m.gfp kan h-",
+    "eif3m::ura4 pRep81.6xhis.myc.eif3m h-",
+    "h+",
+    "h-",
+    "leu1-32 ura4-d18",
+    "leu1-32 ura4-d18 ade6-704"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Name"
+      ],
+      "value": "DS448/1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype"
+      ],
+      "value": "leu1-32 ura4-d18 ade6-704"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype"
+      ],
+      "value": "h+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Source"
+      ],
+      "value": "Lab stock"
+    },
+    {
+      "row": [],
+      "col": [
+        "Name"
+      ],
+      "value": "DS448/2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype"
+      ],
+      "value": "leu1-32 ura4-d18 ade6-704"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype"
+      ],
+      "value": "h-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Source"
+      ],
+      "value": "Lab stock"
+    },
+    {
+      "row": [],
+      "col": [
+        "Name"
+      ],
+      "value": "C399/3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype"
+      ],
+      "value": "leu1-32 ura4-d18 ade6-704"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype"
+      ],
+      "value": "csn5.13myc kan h-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Source"
+      ],
+      "value": "Lab stock"
+    },
+    {
+      "row": [],
+      "col": [
+        "Name"
+      ],
+      "value": "C485/3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype"
+      ],
+      "value": "leu1-32 ura4-d18 ade6-704"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype"
+      ],
+      "value": "eif3m.13myc kan h-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Source"
+      ],
+      "value": "Lab stock"
+    },
+    {
+      "row": [],
+      "col": [
+        "Name"
+      ],
+      "value": "C617/1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype"
+      ],
+      "value": "leu1-32 ura4-d18 ade6-704"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype"
+      ],
+      "value": "eif3m.CBP.tev.5proA kan h-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Source"
+      ],
+      "value": "Lab stock"
+    },
+    {
+      "row": [],
+      "col": [
+        "Name"
+      ],
+      "value": "C642/1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype"
+      ],
+      "value": "leu1-32 ura4-d18"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype"
+      ],
+      "value": "diploid, eif3f/eif3f::ura4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Source"
+      ],
+      "value": "This study"
+    },
+    {
+      "row": [],
+      "col": [
+        "Name"
+      ],
+      "value": "C642/2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype"
+      ],
+      "value": "leu1-32 ura4-d18"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype"
+      ],
+      "value": "diploid, eif3f/eif3f::ura4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Source"
+      ],
+      "value": "This study"
+    },
+    {
+      "row": [],
+      "col": [
+        "Name"
+      ],
+      "value": "C648"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype"
+      ],
+      "value": "leu1-32 ura4-d18 ade6-704"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype"
+      ],
+      "value": "eif3e.cbp.tev.5proA kan h+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Source"
+      ],
+      "value": "This study"
+    },
+    {
+      "row": [],
+      "col": [
+        "Name"
+      ],
+      "value": "C650/1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype"
+      ],
+      "value": "leu1-32 ura4-d18 ade6-704"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype"
+      ],
+      "value": "eif3f::ura4 pRep81.6xhis.myc.eif3f h-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Source"
+      ],
+      "value": "This study"
+    },
+    {
+      "row": [],
+      "col": [
+        "Name"
+      ],
+      "value": "C650/2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype"
+      ],
+      "value": "leu1-32 ura4-d18 ade6-704"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype"
+      ],
+      "value": "eif3m::ura4 pRep81.6xhis.myc.eif3m h-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Source"
+      ],
+      "value": "This study"
+    },
+    {
+      "row": [],
+      "col": [
+        "Name"
+      ],
+      "value": "C652/1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype"
+      ],
+      "value": "leu1-32 ura4-d18 ade6-704"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype"
+      ],
+      "value": "eif3e::ura4 h+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Source"
+      ],
+      "value": "This study"
+    },
+    {
+      "row": [],
+      "col": [
+        "Name"
+      ],
+      "value": "C663/1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype"
+      ],
+      "value": "leu1-32 ura4-d18 ade6-704"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype"
+      ],
+      "value": "eif3m.gfp kan h-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Source"
+      ],
+      "value": "This study"
+    },
+    {
+      "row": [],
+      "col": [
+        "Name"
+      ],
+      "value": "C663/2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype"
+      ],
+      "value": "leu1-32 ura4-d18 ade6-704"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype"
+      ],
+      "value": "eif3e.gfp kan h-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Source"
+      ],
+      "value": "This study"
+    },
+    {
+      "row": [],
+      "col": [
+        "Name"
+      ],
+      "value": "C665"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype"
+      ],
+      "value": "leu1-32 ura4-d18 ade6-704"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype"
+      ],
+      "value": "eif3e.13myc kan h-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Source"
+      ],
+      "value": "This study"
+    },
+    {
+      "row": [],
+      "col": [
+        "Name"
+      ],
+      "value": "C701"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype"
+      ],
+      "value": "leu1-32 ura4-d18 ade6-704"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype"
+      ],
+      "value": "eif3b.gfp kan, h-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Source"
+      ],
+      "value": "This study"
+    },
+    {
+      "row": [],
+      "col": [
+        "Name"
+      ],
+      "value": "C702"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype"
+      ],
+      "value": "leu1-32 ura4-d18 ade6-704"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype"
+      ],
+      "value": "eif3b.cbp.tev.5proA kan h-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Source"
+      ],
+      "value": "This study"
+    }
+  ]
+}

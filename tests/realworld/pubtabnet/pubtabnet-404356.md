@@ -1,0 +1,243 @@
+<!-- source: PubTabNet imgid=404356 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+<b>
+<i>
+        MTHFR
+       </i>
+</b>
+</td>
+<td colspan="2">
+<b>
+       Cases (n = 443) Number (%)
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Controls (n = 379) Number (%)
+      </b>
+</td>
+<td>
+<b>
+       Odds ratio (95% CI)
+      </b>
+</td>
+<td>
+<b>
+<i>
+        P
+       </i>
+</b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      677 CC/1298 AA
+     </td>
+<td>
+      49
+     </td>
+<td>
+      (11.1)
+     </td>
+<td>
+      45
+     </td>
+<td>
+      (11.9)
+     </td>
+<td>
+      1.00
+      <sup>
+       a
+      </sup>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      677 CT/1298 AA
+     </td>
+<td>
+      101
+     </td>
+<td>
+      (22.8)
+     </td>
+<td>
+      67
+     </td>
+<td>
+      (17.7)
+     </td>
+<td>
+      1.38 (0.83–2.30)
+     </td>
+<td>
+      0.21
+     </td>
+</tr>
+<tr>
+<td>
+      677 TT/1298 AA
+     </td>
+<td>
+      44
+     </td>
+<td>
+      (9.9)
+     </td>
+<td>
+      41
+     </td>
+<td>
+      (10.8)
+     </td>
+<td>
+      0.99 (0.55–1.77)
+     </td>
+<td>
+      0.96
+     </td>
+</tr>
+<tr>
+<td>
+      677 CC/1298 AC
+     </td>
+<td>
+      101
+     </td>
+<td>
+      (22.8)
+     </td>
+<td>
+      87
+     </td>
+<td>
+      (23.0)
+     </td>
+<td>
+      1.07 (0.65–1.75)
+     </td>
+<td>
+      0.80
+     </td>
+</tr>
+<tr>
+<td>
+      677 CT/1298 AC
+     </td>
+<td>
+      100
+     </td>
+<td>
+      (22.6)
+     </td>
+<td>
+      85
+     </td>
+<td>
+      (22.4)
+     </td>
+<td>
+      1.08 (0.66–1.78)
+     </td>
+<td>
+      0.76
+     </td>
+</tr>
+<tr>
+<td>
+      677 TT/1298 AC
+     </td>
+<td>
+      3
+     </td>
+<td>
+      (0.7)
+     </td>
+<td>
+      2
+     </td>
+<td>
+      (0.5)
+     </td>
+<td>
+      1.38 (0.22–8.63)
+     </td>
+<td>
+      0.73
+     </td>
+</tr>
+<tr>
+<td>
+      677 CC/1298 CC
+     </td>
+<td>
+      45
+     </td>
+<td>
+      (10.2)
+     </td>
+<td>
+      52
+     </td>
+<td>
+      (13.7)
+     </td>
+<td>
+      0.79 (0.45–1.40)
+     </td>
+<td>
+      0.43
+     </td>
+</tr>
+<tr>
+<td>
+      677 CT/1298 CC
+     </td>
+<td>
+      n.d.
+     </td>
+<td>
+</td>
+<td>
+      n.d.
+     </td>
+<td>
+</td>
+<td>
+      -
+     </td>
+<td>
+      -
+     </td>
+</tr>
+<tr>
+<td>
+      677 TT/1298 CC
+     </td>
+<td>
+      n.d.
+     </td>
+<td>
+</td>
+<td>
+      n.d.
+     </td>
+<td>
+</td>
+<td>
+      -
+     </td>
+<td>
+      -
+     </td>
+</tr>
+</tbody>
+</table>

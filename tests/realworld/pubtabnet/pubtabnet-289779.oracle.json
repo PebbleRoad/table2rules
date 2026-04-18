@@ -1,0 +1,525 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "1.00E+010",
+    "1.00E+04",
+    "1.00E+05",
+    "1.00E+06",
+    "1.00E+07",
+    "1.00E+08",
+    "1.00E+09",
+    "100 bp",
+    "128 bp",
+    "129 bp",
+    "134 bp",
+    "136 bp",
+    "145 bp",
+    "300 nM300 nM",
+    "300 nM50 nM",
+    "367",
+    "400",
+    "416",
+    "428",
+    "436",
+    "5'-ATTTCCCATTACCTGATAAATTGAAGTTCATC-3' 5'-TTTGTATAGTTGGCTCAAAATATTCTCTCCAC-3'",
+    "5'-CCTACTTGATAAAGCCACATACCTCTACCTCTTCTATTAG-3' 5'-TTGCGTTACTCTATTAATAATCCATAGTTGGAAC-3'",
+    "5'-CGACACTTCAGGTAAAGCGTTCCGAAGTAATTCAAC-3' 5'-TCTCAAACCTAACACATTTCTGTATTAAGCCTAG-3'",
+    "5'-GCAGATGAAGTGATACCTGTCAATATTCATG-3' 5'-AGAAATAACATTTCGATGGTTATCCATTAGTATG-3'",
+    "5'-GTCGAGATAGCCGAGATAATGTGTGTG-3' 5'-GCAAGGGGGATTTTTCTGAATATGG-3'",
+    "5'-TGCAGCAACAGAGTATCATATGCATGG-3' 5'-CACTGCACAATCTGAAGATAGCGAGG-3'",
+    "5'-TTACCATTCACTCCATGATGTCGTACCTGTTACACTAC-3' 5'-CGGTACATGTTATTACCAGAAAAAGATGTATATCC-3'",
+    "630",
+    "73.4\u00b0C",
+    "73.8\u00b0C",
+    "75.8\u00b0C",
+    "76.2\u00b0C",
+    "76.5\u00b0C",
+    "77.7\u00b0C",
+    "79.8\u00b0C",
+    "900 nM300 nM",
+    "997",
+    "Amplicon",
+    "Copies spiked/5 \u03bcg total RNA",
+    "Forward/reverse qPCR oligo sequence",
+    "Insert size (bp)",
+    "Intron spanned?",
+    "NOT:D_1493031-1494574_553-1543",
+    "No",
+    "Optimal concentration",
+    "Size",
+    "T m",
+    "Vector name ATCC number GenBank Accession",
+    "YBL087C_2_60732_59815_INTRON_43_546",
+    "YER133W_5_432491_433954_INTRON_178_702",
+    "YNL162W_14_331319_332151_INTRON_5_516",
+    "YNL302C_14_62942_61957_INTRON_21_571",
+    "YPL075W_16_412249_415357_INTRON_9_759",
+    "YPL081W_16_404945_406039_INTRON_8_508",
+    "Yeast intronic/intergenic control transcript",
+    "pNIAysic-1 MBA-201 DQ023287",
+    "pNIAysic-2 MBA-202 DQ023288",
+    "pNIAysic-3 MBA-203 DQ023289",
+    "pNIAysic-4 MBA-204 DQ023290",
+    "pNIAysic-5 MBA-205 DQ023291",
+    "pNIAysic-6 MBA-206 DQ023292",
+    "pNIAysic-7 MBA-207 DQ023293"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Yeast intronic/intergenic control transcript"
+      ],
+      "value": "YPL075W_16_412249_415357_INTRON_9_759"
+    },
+    {
+      "row": [],
+      "col": [
+        "Vector name ATCC number GenBank Accession"
+      ],
+      "value": "pNIAysic-1 MBA-201 DQ023287"
+    },
+    {
+      "row": [],
+      "col": [
+        "Insert size (bp)"
+      ],
+      "value": "630"
+    },
+    {
+      "row": [],
+      "col": [
+        "Copies spiked/5 \u03bcg total RNA"
+      ],
+      "value": "1.00E+04"
+    },
+    {
+      "row": [],
+      "col": [
+        "Forward/reverse qPCR oligo sequence"
+      ],
+      "value": "5'-CCTACTTGATAAAGCCACATACCTCTACCTCTTCTATTAG-3' 5'-TTGCGTTACTCTATTAATAATCCATAGTTGGAAC-3'"
+    },
+    {
+      "row": [],
+      "col": [
+        "Optimal concentration"
+      ],
+      "value": "300 nM50 nM"
+    },
+    {
+      "row": [],
+      "col": [
+        "Amplicon",
+        "Size"
+      ],
+      "value": "134 bp"
+    },
+    {
+      "row": [],
+      "col": [
+        "Amplicon",
+        "T m"
+      ],
+      "value": "73.4\u00b0C"
+    },
+    {
+      "row": [],
+      "col": [
+        "Intron spanned?"
+      ],
+      "value": "No"
+    },
+    {
+      "row": [],
+      "col": [
+        "Yeast intronic/intergenic control transcript"
+      ],
+      "value": "YPL081W_16_404945_406039_INTRON_8_508"
+    },
+    {
+      "row": [],
+      "col": [
+        "Vector name ATCC number GenBank Accession"
+      ],
+      "value": "pNIAysic-2 MBA-202 DQ023288"
+    },
+    {
+      "row": [],
+      "col": [
+        "Insert size (bp)"
+      ],
+      "value": "400"
+    },
+    {
+      "row": [],
+      "col": [
+        "Copies spiked/5 \u03bcg total RNA"
+      ],
+      "value": "1.00E+05"
+    },
+    {
+      "row": [],
+      "col": [
+        "Forward/reverse qPCR oligo sequence"
+      ],
+      "value": "5'-CGACACTTCAGGTAAAGCGTTCCGAAGTAATTCAAC-3' 5'-TCTCAAACCTAACACATTTCTGTATTAAGCCTAG-3'"
+    },
+    {
+      "row": [],
+      "col": [
+        "Optimal concentration"
+      ],
+      "value": "300 nM300 nM"
+    },
+    {
+      "row": [],
+      "col": [
+        "Amplicon",
+        "Size"
+      ],
+      "value": "129 bp"
+    },
+    {
+      "row": [],
+      "col": [
+        "Amplicon",
+        "T m"
+      ],
+      "value": "75.8\u00b0C"
+    },
+    {
+      "row": [],
+      "col": [
+        "Intron spanned?"
+      ],
+      "value": "No"
+    },
+    {
+      "row": [],
+      "col": [
+        "Yeast intronic/intergenic control transcript"
+      ],
+      "value": "NOT:D_1493031-1494574_553-1543"
+    },
+    {
+      "row": [],
+      "col": [
+        "Vector name ATCC number GenBank Accession"
+      ],
+      "value": "pNIAysic-3 MBA-203 DQ023289"
+    },
+    {
+      "row": [],
+      "col": [
+        "Insert size (bp)"
+      ],
+      "value": "997"
+    },
+    {
+      "row": [],
+      "col": [
+        "Copies spiked/5 \u03bcg total RNA"
+      ],
+      "value": "1.00E+06"
+    },
+    {
+      "row": [],
+      "col": [
+        "Forward/reverse qPCR oligo sequence"
+      ],
+      "value": "5'-TTACCATTCACTCCATGATGTCGTACCTGTTACACTAC-3' 5'-CGGTACATGTTATTACCAGAAAAAGATGTATATCC-3'"
+    },
+    {
+      "row": [],
+      "col": [
+        "Optimal concentration"
+      ],
+      "value": "300 nM300 nM"
+    },
+    {
+      "row": [],
+      "col": [
+        "Amplicon",
+        "Size"
+      ],
+      "value": "145 bp"
+    },
+    {
+      "row": [],
+      "col": [
+        "Amplicon",
+        "T m"
+      ],
+      "value": "79.8\u00b0C"
+    },
+    {
+      "row": [],
+      "col": [
+        "Intron spanned?"
+      ],
+      "value": "No"
+    },
+    {
+      "row": [],
+      "col": [
+        "Yeast intronic/intergenic control transcript"
+      ],
+      "value": "YER133W_5_432491_433954_INTRON_178_702"
+    },
+    {
+      "row": [],
+      "col": [
+        "Vector name ATCC number GenBank Accession"
+      ],
+      "value": "pNIAysic-4 MBA-204 DQ023290"
+    },
+    {
+      "row": [],
+      "col": [
+        "Insert size (bp)"
+      ],
+      "value": "428"
+    },
+    {
+      "row": [],
+      "col": [
+        "Copies spiked/5 \u03bcg total RNA"
+      ],
+      "value": "1.00E+07"
+    },
+    {
+      "row": [],
+      "col": [
+        "Forward/reverse qPCR oligo sequence"
+      ],
+      "value": "5'-GTCGAGATAGCCGAGATAATGTGTGTG-3' 5'-GCAAGGGGGATTTTTCTGAATATGG-3'"
+    },
+    {
+      "row": [],
+      "col": [
+        "Optimal concentration"
+      ],
+      "value": "300 nM300 nM"
+    },
+    {
+      "row": [],
+      "col": [
+        "Amplicon",
+        "Size"
+      ],
+      "value": "136 bp"
+    },
+    {
+      "row": [],
+      "col": [
+        "Amplicon",
+        "T m"
+      ],
+      "value": "76.5\u00b0C"
+    },
+    {
+      "row": [],
+      "col": [
+        "Intron spanned?"
+      ],
+      "value": "No"
+    },
+    {
+      "row": [],
+      "col": [
+        "Yeast intronic/intergenic control transcript"
+      ],
+      "value": "YNL162W_14_331319_332151_INTRON_5_516"
+    },
+    {
+      "row": [],
+      "col": [
+        "Vector name ATCC number GenBank Accession"
+      ],
+      "value": "pNIAysic-5 MBA-205 DQ023291"
+    },
+    {
+      "row": [],
+      "col": [
+        "Insert size (bp)"
+      ],
+      "value": "367"
+    },
+    {
+      "row": [],
+      "col": [
+        "Copies spiked/5 \u03bcg total RNA"
+      ],
+      "value": "1.00E+08"
+    },
+    {
+      "row": [],
+      "col": [
+        "Forward/reverse qPCR oligo sequence"
+      ],
+      "value": "5'-TGCAGCAACAGAGTATCATATGCATGG-3' 5'-CACTGCACAATCTGAAGATAGCGAGG-3'"
+    },
+    {
+      "row": [],
+      "col": [
+        "Optimal concentration"
+      ],
+      "value": "300 nM300 nM"
+    },
+    {
+      "row": [],
+      "col": [
+        "Amplicon",
+        "Size"
+      ],
+      "value": "145 bp"
+    },
+    {
+      "row": [],
+      "col": [
+        "Amplicon",
+        "T m"
+      ],
+      "value": "77.7\u00b0C"
+    },
+    {
+      "row": [],
+      "col": [
+        "Intron spanned?"
+      ],
+      "value": "No"
+    },
+    {
+      "row": [],
+      "col": [
+        "Yeast intronic/intergenic control transcript"
+      ],
+      "value": "YNL302C_14_62942_61957_INTRON_21_571"
+    },
+    {
+      "row": [],
+      "col": [
+        "Vector name ATCC number GenBank Accession"
+      ],
+      "value": "pNIAysic-6 MBA-206 DQ023292"
+    },
+    {
+      "row": [],
+      "col": [
+        "Insert size (bp)"
+      ],
+      "value": "416"
+    },
+    {
+      "row": [],
+      "col": [
+        "Copies spiked/5 \u03bcg total RNA"
+      ],
+      "value": "1.00E+09"
+    },
+    {
+      "row": [],
+      "col": [
+        "Forward/reverse qPCR oligo sequence"
+      ],
+      "value": "5'-ATTTCCCATTACCTGATAAATTGAAGTTCATC-3' 5'-TTTGTATAGTTGGCTCAAAATATTCTCTCCAC-3'"
+    },
+    {
+      "row": [],
+      "col": [
+        "Optimal concentration"
+      ],
+      "value": "900 nM300 nM"
+    },
+    {
+      "row": [],
+      "col": [
+        "Amplicon",
+        "Size"
+      ],
+      "value": "100 bp"
+    },
+    {
+      "row": [],
+      "col": [
+        "Amplicon",
+        "T m"
+      ],
+      "value": "73.8\u00b0C"
+    },
+    {
+      "row": [],
+      "col": [
+        "Intron spanned?"
+      ],
+      "value": "No"
+    },
+    {
+      "row": [],
+      "col": [
+        "Yeast intronic/intergenic control transcript"
+      ],
+      "value": "YBL087C_2_60732_59815_INTRON_43_546"
+    },
+    {
+      "row": [],
+      "col": [
+        "Vector name ATCC number GenBank Accession"
+      ],
+      "value": "pNIAysic-7 MBA-207 DQ023293"
+    },
+    {
+      "row": [],
+      "col": [
+        "Insert size (bp)"
+      ],
+      "value": "436"
+    },
+    {
+      "row": [],
+      "col": [
+        "Copies spiked/5 \u03bcg total RNA"
+      ],
+      "value": "1.00E+010"
+    },
+    {
+      "row": [],
+      "col": [
+        "Forward/reverse qPCR oligo sequence"
+      ],
+      "value": "5'-GCAGATGAAGTGATACCTGTCAATATTCATG-3' 5'-AGAAATAACATTTCGATGGTTATCCATTAGTATG-3'"
+    },
+    {
+      "row": [],
+      "col": [
+        "Optimal concentration"
+      ],
+      "value": "300 nM300 nM"
+    },
+    {
+      "row": [],
+      "col": [
+        "Amplicon",
+        "Size"
+      ],
+      "value": "128 bp"
+    },
+    {
+      "row": [],
+      "col": [
+        "Amplicon",
+        "T m"
+      ],
+      "value": "76.2\u00b0C"
+    },
+    {
+      "row": [],
+      "col": [
+        "Intron spanned?"
+      ],
+      "value": "No"
+    }
+  ]
+}

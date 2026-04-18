@@ -1,0 +1,440 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "% BMI >30 kg/m 2",
+    "% cholesterol > 6.5 mmol/l",
+    "% current smokers",
+    "% in the two most deprived groups (4 and 5)",
+    "% with DBP>90 mmHg",
+    "% with SBP>140 mmHg",
+    "*",
+    "0.001",
+    "0.018",
+    "0.019",
+    "11.7",
+    "11.9",
+    "15.3",
+    "15.9",
+    "17.0",
+    "17.7",
+    "18.2",
+    "22.6",
+    "23.9",
+    "24.8",
+    "25.5",
+    "29.8",
+    "33.2",
+    "36.4",
+    "36.7",
+    "36.8",
+    "37.3",
+    "39.9",
+    "42.7",
+    "43.6",
+    "44.3",
+    "44.5",
+    "44.7",
+    "44.9",
+    "48.0",
+    "53.4",
+    "9.4",
+    "<0.000",
+    "<0.001",
+    "<0.001**",
+    "Baseline characteristic",
+    "Initial screen only",
+    "Mean age (years)",
+    "Men (n = 19,158)",
+    "Two screens",
+    "Women (n = 21,976)",
+    "p"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Baseline characteristic"
+      ],
+      "value": "Mean age (years)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Women (n = 21,976)",
+        "Initial screen only"
+      ],
+      "value": "44.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Women (n = 21,976)",
+        "Two screens"
+      ],
+      "value": "44.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Women (n = 21,976)",
+        "p"
+      ],
+      "value": "<0.001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Men (n = 19,158)",
+        "Initial screen only"
+      ],
+      "value": "44.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Men (n = 19,158)",
+        "Two screens"
+      ],
+      "value": "44.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Men (n = 19,158)",
+        "p"
+      ],
+      "value": "<0.001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Baseline characteristic"
+      ],
+      "value": "% current smokers"
+    },
+    {
+      "row": [],
+      "col": [
+        "Women (n = 21,976)",
+        "Initial screen only"
+      ],
+      "value": "39.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Women (n = 21,976)",
+        "Two screens"
+      ],
+      "value": "36.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Women (n = 21,976)",
+        "p"
+      ],
+      "value": "0.018"
+    },
+    {
+      "row": [],
+      "col": [
+        "Men (n = 19,158)",
+        "Initial screen only"
+      ],
+      "value": "53.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Men (n = 19,158)",
+        "Two screens"
+      ],
+      "value": "48.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Men (n = 19,158)",
+        "p"
+      ],
+      "value": "<0.001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Baseline characteristic"
+      ],
+      "value": "% with SBP>140 mmHg"
+    },
+    {
+      "row": [],
+      "col": [
+        "Women (n = 21,976)",
+        "Initial screen only"
+      ],
+      "value": "25.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Women (n = 21,976)",
+        "Two screens"
+      ],
+      "value": "18.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Women (n = 21,976)",
+        "p"
+      ],
+      "value": "<0.001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Men (n = 19,158)",
+        "Initial screen only"
+      ],
+      "value": "33.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Men (n = 19,158)",
+        "Two screens"
+      ],
+      "value": "24.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Men (n = 19,158)",
+        "p"
+      ],
+      "value": "<0.001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Baseline characteristic"
+      ],
+      "value": "% with DBP>90 mmHg"
+    },
+    {
+      "row": [],
+      "col": [
+        "Women (n = 21,976)",
+        "Initial screen only"
+      ],
+      "value": "15.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Women (n = 21,976)",
+        "Two screens"
+      ],
+      "value": "9.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Women (n = 21,976)",
+        "p"
+      ],
+      "value": "*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Men (n = 19,158)",
+        "Initial screen only"
+      ],
+      "value": "23.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Men (n = 19,158)",
+        "Two screens"
+      ],
+      "value": "17.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Men (n = 19,158)",
+        "p"
+      ],
+      "value": "*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Baseline characteristic"
+      ],
+      "value": "% cholesterol > 6.5 mmol/l"
+    },
+    {
+      "row": [],
+      "col": [
+        "Women (n = 21,976)",
+        "Initial screen only"
+      ],
+      "value": "25.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Women (n = 21,976)",
+        "Two screens"
+      ],
+      "value": "22.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Women (n = 21,976)",
+        "p"
+      ],
+      "value": "0.019"
+    },
+    {
+      "row": [],
+      "col": [
+        "Men (n = 19,158)",
+        "Initial screen only"
+      ],
+      "value": "36.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Men (n = 19,158)",
+        "Two screens"
+      ],
+      "value": "29.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Men (n = 19,158)",
+        "p"
+      ],
+      "value": "<0.000"
+    },
+    {
+      "row": [],
+      "col": [
+        "Baseline characteristic"
+      ],
+      "value": "% BMI >30 kg/m 2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Women (n = 21,976)",
+        "Initial screen only"
+      ],
+      "value": "17.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Women (n = 21,976)",
+        "Two screens"
+      ],
+      "value": "11.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Women (n = 21,976)",
+        "p"
+      ],
+      "value": "<0.000"
+    },
+    {
+      "row": [],
+      "col": [
+        "Men (n = 19,158)",
+        "Initial screen only"
+      ],
+      "value": "15.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Men (n = 19,158)",
+        "Two screens"
+      ],
+      "value": "11.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Men (n = 19,158)",
+        "p"
+      ],
+      "value": "0.001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Baseline characteristic"
+      ],
+      "value": "% in the two most deprived groups (4 and 5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Women (n = 21,976)",
+        "Initial screen only"
+      ],
+      "value": "43.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Women (n = 21,976)",
+        "Two screens"
+      ],
+      "value": "37.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Women (n = 21,976)",
+        "p"
+      ],
+      "value": "<0.001**"
+    },
+    {
+      "row": [],
+      "col": [
+        "Men (n = 19,158)",
+        "Initial screen only"
+      ],
+      "value": "42.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Men (n = 19,158)",
+        "Two screens"
+      ],
+      "value": "36.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Men (n = 19,158)",
+        "p"
+      ],
+      "value": "<0.001**"
+    }
+  ]
+}

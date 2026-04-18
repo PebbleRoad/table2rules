@@ -1,0 +1,1585 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "*0.2",
+    "*0.7",
+    "*1.8",
+    "*12.2",
+    "*14.9",
+    "*2.3",
+    "*2.5",
+    "*3.0",
+    "*3.1",
+    "*3.3",
+    "*3.4",
+    "*3.8",
+    "*4.1",
+    "*5.0",
+    "0",
+    "0.7",
+    "0.9",
+    "1",
+    "1.0",
+    "1.1",
+    "1.2",
+    "1.3",
+    "1.3e-103",
+    "1.3e-105",
+    "1.4",
+    "1.4e-133",
+    "1.6",
+    "1.6e-52",
+    "1.7e-144",
+    "10",
+    "10138",
+    "11539",
+    "1250",
+    "13",
+    "14",
+    "16",
+    "18",
+    "19",
+    "2",
+    "2.2",
+    "2.6e-169",
+    "211",
+    "23",
+    "26",
+    "28",
+    "289",
+    "3",
+    "3.0e-124",
+    "3.4e-129",
+    "3.5e-208",
+    "3.5e-41",
+    "30",
+    "3027",
+    "32",
+    "3310",
+    "34",
+    "35",
+    "3648",
+    "4",
+    "4102",
+    "4286",
+    "4702",
+    "4905",
+    "4995",
+    "5",
+    "51",
+    "541",
+    "5498",
+    "59",
+    "6",
+    "6.2e-60",
+    "7.0e-68",
+    "7.1e-146",
+    "7212",
+    "8",
+    "8.8e-111",
+    "8771",
+    "9",
+    "9.1e-107",
+    "9.2e-200",
+    "9.8e-194",
+    "915",
+    "Aspartic",
+    "Aspartic-type endopeptidase (family A1)",
+    "Aspartic-type endopeptidase (phytepsin)",
+    "At1g01900",
+    "At1g11910",
+    "At1g20160",
+    "At1g20850",
+    "At1g47128",
+    "At1g76140",
+    "At2g03200",
+    "At3g10410",
+    "At3g27925",
+    "At4g32940",
+    "At4g39090",
+    "At5g43060",
+    "At5g43100",
+    "At5g45890",
+    "At5g50260",
+    "At5g60360",
+    "Cluster",
+    "Cysteine",
+    "Cysteine endopeptidase CysEP",
+    "DegP protease",
+    "E",
+    "Expression ratio B/A",
+    "G",
+    "I",
+    "Most similar Arabidopsis gene",
+    "Number of ESTs in each library",
+    "Papain-like cysteine endopeptidase XCP2",
+    "Papain-like cysteine proteinase",
+    "Papain-like cysteine proteinase AALP",
+    "Papain-like cysteine proteinase RD19A",
+    "Papain-like cysteine proteinase RD21A",
+    "Papain-like cysteine proteinase SAG12",
+    "Prolyl endopeptidase",
+    "Protease",
+    "Serine",
+    "Serine carboxypeptidase III-like protein",
+    "Subtilisin-like serine protease",
+    "Tot",
+    "Transcript",
+    "Vacuolar processing enzyme",
+    "X",
+    "Y"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Protease"
+      ],
+      "value": "Cysteine"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cluster"
+      ],
+      "value": "11539"
+    },
+    {
+      "row": [],
+      "col": [
+        "Transcript"
+      ],
+      "value": "Cysteine endopeptidase CysEP"
+    },
+    {
+      "row": [],
+      "col": [
+        "Most similar Arabidopsis gene"
+      ],
+      "value": "At5g50260"
+    },
+    {
+      "row": [],
+      "col": [
+        "E"
+      ],
+      "value": "7.1e-146"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "I"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "X"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "Y"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "G"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "Tot"
+      ],
+      "value": "30"
+    },
+    {
+      "row": [],
+      "col": [
+        "Expression ratio B/A"
+      ],
+      "value": "*14.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cluster"
+      ],
+      "value": "1250"
+    },
+    {
+      "row": [],
+      "col": [
+        "Transcript"
+      ],
+      "value": "Papain-like cysteine proteinase RD19A"
+    },
+    {
+      "row": [],
+      "col": [
+        "Most similar Arabidopsis gene"
+      ],
+      "value": "At4g39090"
+    },
+    {
+      "row": [],
+      "col": [
+        "E"
+      ],
+      "value": "1.4e-133"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "I"
+      ],
+      "value": "51"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "X"
+      ],
+      "value": "23"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "Y"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "G"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "Tot"
+      ],
+      "value": "211"
+    },
+    {
+      "row": [],
+      "col": [
+        "Expression ratio B/A"
+      ],
+      "value": "1.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Expression ratio B/A"
+      ],
+      "value": "*3.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Expression ratio B/A"
+      ],
+      "value": "1.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Expression ratio B/A"
+      ],
+      "value": "*3.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Expression ratio B/A"
+      ],
+      "value": "*4.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Expression ratio B/A"
+      ],
+      "value": "1.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cluster"
+      ],
+      "value": "289"
+    },
+    {
+      "row": [],
+      "col": [
+        "Transcript"
+      ],
+      "value": "Papain-like cysteine proteinase"
+    },
+    {
+      "row": [],
+      "col": [
+        "Most similar Arabidopsis gene"
+      ],
+      "value": "At5g43060"
+    },
+    {
+      "row": [],
+      "col": [
+        "E"
+      ],
+      "value": "1.3e-103"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "I"
+      ],
+      "value": "16"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "X"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "Y"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "G"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "Tot"
+      ],
+      "value": "32"
+    },
+    {
+      "row": [],
+      "col": [
+        "Expression ratio B/A"
+      ],
+      "value": "0.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Expression ratio B/A"
+      ],
+      "value": "1.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Expression ratio B/A"
+      ],
+      "value": "1.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cluster"
+      ],
+      "value": "3027"
+    },
+    {
+      "row": [],
+      "col": [
+        "Transcript"
+      ],
+      "value": "Vacuolar processing enzyme"
+    },
+    {
+      "row": [],
+      "col": [
+        "Most similar Arabidopsis gene"
+      ],
+      "value": "At4g32940"
+    },
+    {
+      "row": [],
+      "col": [
+        "E"
+      ],
+      "value": "9.2e-200"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "I"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "X"
+      ],
+      "value": "8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "Y"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "G"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "Tot"
+      ],
+      "value": "34"
+    },
+    {
+      "row": [],
+      "col": [
+        "Expression ratio B/A"
+      ],
+      "value": "*3.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Expression ratio B/A"
+      ],
+      "value": "*3.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Expression ratio B/A"
+      ],
+      "value": "*3.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Expression ratio B/A"
+      ],
+      "value": "*3.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cluster"
+      ],
+      "value": "3310"
+    },
+    {
+      "row": [],
+      "col": [
+        "Transcript"
+      ],
+      "value": "Papain-like cysteine endopeptidase XCP2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Most similar Arabidopsis gene"
+      ],
+      "value": "At1g20850"
+    },
+    {
+      "row": [],
+      "col": [
+        "E"
+      ],
+      "value": "1.7e-144"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "I"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "X"
+      ],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "Y"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "G"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "Tot"
+      ],
+      "value": "14"
+    },
+    {
+      "row": [],
+      "col": [
+        "Expression ratio B/A"
+      ],
+      "value": "*0.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Expression ratio B/A"
+      ],
+      "value": "*0.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cluster"
+      ],
+      "value": "4102"
+    },
+    {
+      "row": [],
+      "col": [
+        "Transcript"
+      ],
+      "value": "Papain-like cysteine proteinase SAG12"
+    },
+    {
+      "row": [],
+      "col": [
+        "Most similar Arabidopsis gene"
+      ],
+      "value": "At5g45890"
+    },
+    {
+      "row": [],
+      "col": [
+        "E"
+      ],
+      "value": "8.8e-111"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "I"
+      ],
+      "value": "13"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "X"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "Y"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "G"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "Tot"
+      ],
+      "value": "14"
+    },
+    {
+      "row": [],
+      "col": [
+        "Expression ratio B/A"
+      ],
+      "value": "1.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Expression ratio B/A"
+      ],
+      "value": "0.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cluster"
+      ],
+      "value": "5498"
+    },
+    {
+      "row": [],
+      "col": [
+        "Transcript"
+      ],
+      "value": "Papain-like cysteine proteinase AALP"
+    },
+    {
+      "row": [],
+      "col": [
+        "Most similar Arabidopsis gene"
+      ],
+      "value": "At5g60360"
+    },
+    {
+      "row": [],
+      "col": [
+        "E"
+      ],
+      "value": "3.4e-129"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "I"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "X"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "Y"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "G"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "Tot"
+      ],
+      "value": "18"
+    },
+    {
+      "row": [],
+      "col": [
+        "Expression ratio B/A"
+      ],
+      "value": "1.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Expression ratio B/A"
+      ],
+      "value": "*1.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Expression ratio B/A"
+      ],
+      "value": "*2.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cluster"
+      ],
+      "value": "7212"
+    },
+    {
+      "row": [],
+      "col": [
+        "Transcript"
+      ],
+      "value": "Papain-like cysteine proteinase RD21A"
+    },
+    {
+      "row": [],
+      "col": [
+        "Most similar Arabidopsis gene"
+      ],
+      "value": "At1g47128"
+    },
+    {
+      "row": [],
+      "col": [
+        "E"
+      ],
+      "value": "2.6e-169"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "I"
+      ],
+      "value": "28"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "X"
+      ],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "Y"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "G"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "Tot"
+      ],
+      "value": "59"
+    },
+    {
+      "row": [],
+      "col": [
+        "Expression ratio B/A"
+      ],
+      "value": "2.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Protease"
+      ],
+      "value": "Serine"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cluster"
+      ],
+      "value": "10138"
+    },
+    {
+      "row": [],
+      "col": [
+        "Transcript"
+      ],
+      "value": "Subtilisin-like serine protease"
+    },
+    {
+      "row": [],
+      "col": [
+        "Most similar Arabidopsis gene"
+      ],
+      "value": "At1g01900"
+    },
+    {
+      "row": [],
+      "col": [
+        "E"
+      ],
+      "value": "9.1e-107"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "I"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "X"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "Y"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "G"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "Tot"
+      ],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Expression ratio B/A"
+      ],
+      "value": "*5.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cluster"
+      ],
+      "value": "4702"
+    },
+    {
+      "row": [],
+      "col": [
+        "Transcript"
+      ],
+      "value": "Prolyl endopeptidase"
+    },
+    {
+      "row": [],
+      "col": [
+        "Most similar Arabidopsis gene"
+      ],
+      "value": "At1g76140"
+    },
+    {
+      "row": [],
+      "col": [
+        "E"
+      ],
+      "value": "1.6e-52"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "I"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "X"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "Y"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "G"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "Tot"
+      ],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Expression ratio B/A"
+      ],
+      "value": "1.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Expression ratio B/A"
+      ],
+      "value": "1.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cluster"
+      ],
+      "value": "4905"
+    },
+    {
+      "row": [],
+      "col": [
+        "Transcript"
+      ],
+      "value": "Serine carboxypeptidase III-like protein"
+    },
+    {
+      "row": [],
+      "col": [
+        "Most similar Arabidopsis gene"
+      ],
+      "value": "At3g10410"
+    },
+    {
+      "row": [],
+      "col": [
+        "E"
+      ],
+      "value": "9.8e-194"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "I"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "X"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "Y"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "G"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "Tot"
+      ],
+      "value": "16"
+    },
+    {
+      "row": [],
+      "col": [
+        "Expression ratio B/A"
+      ],
+      "value": "1.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Expression ratio B/A"
+      ],
+      "value": "1.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cluster"
+      ],
+      "value": "4995"
+    },
+    {
+      "row": [],
+      "col": [
+        "Transcript"
+      ],
+      "value": "Subtilisin-like serine protease"
+    },
+    {
+      "row": [],
+      "col": [
+        "Most similar Arabidopsis gene"
+      ],
+      "value": "At1g20160"
+    },
+    {
+      "row": [],
+      "col": [
+        "E"
+      ],
+      "value": "7.0e-68"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "I"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "X"
+      ],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "Y"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "G"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "Tot"
+      ],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Expression ratio B/A"
+      ],
+      "value": "*12.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cluster"
+      ],
+      "value": "8771"
+    },
+    {
+      "row": [],
+      "col": [
+        "Transcript"
+      ],
+      "value": "DegP protease"
+    },
+    {
+      "row": [],
+      "col": [
+        "Most similar Arabidopsis gene"
+      ],
+      "value": "At3g27925"
+    },
+    {
+      "row": [],
+      "col": [
+        "E"
+      ],
+      "value": "6.2e-60"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "I"
+      ],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "X"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "Y"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "G"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "Tot"
+      ],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Expression ratio B/A"
+      ],
+      "value": "1.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Protease"
+      ],
+      "value": "Aspartic"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cluster"
+      ],
+      "value": "3648"
+    },
+    {
+      "row": [],
+      "col": [
+        "Transcript"
+      ],
+      "value": "Aspartic-type endopeptidase (phytepsin)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Most similar Arabidopsis gene"
+      ],
+      "value": "At1g11910"
+    },
+    {
+      "row": [],
+      "col": [
+        "E"
+      ],
+      "value": "3.5e-208"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "I"
+      ],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "X"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "Y"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "G"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "Tot"
+      ],
+      "value": "26"
+    },
+    {
+      "row": [],
+      "col": [
+        "Expression ratio B/A"
+      ],
+      "value": "0.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Expression ratio B/A"
+      ],
+      "value": "*2.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cluster"
+      ],
+      "value": "4286"
+    },
+    {
+      "row": [],
+      "col": [
+        "Transcript"
+      ],
+      "value": "Aspartic-type endopeptidase (family A1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Most similar Arabidopsis gene"
+      ],
+      "value": "At5g43100"
+    },
+    {
+      "row": [],
+      "col": [
+        "E"
+      ],
+      "value": "3.5e-41"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "I"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "X"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "Y"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "G"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "Tot"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Expression ratio B/A"
+      ],
+      "value": "1.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Expression ratio B/A"
+      ],
+      "value": "1.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Expression ratio B/A"
+      ],
+      "value": "1.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cluster"
+      ],
+      "value": "541"
+    },
+    {
+      "row": [],
+      "col": [
+        "Transcript"
+      ],
+      "value": "Aspartic-type endopeptidase (family A1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Most similar Arabidopsis gene"
+      ],
+      "value": "At2g03200"
+    },
+    {
+      "row": [],
+      "col": [
+        "E"
+      ],
+      "value": "3.0e-124"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "I"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "X"
+      ],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "Y"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "G"
+      ],
+      "value": "10"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "Tot"
+      ],
+      "value": "19"
+    },
+    {
+      "row": [],
+      "col": [
+        "Expression ratio B/A"
+      ],
+      "value": "1.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Expression ratio B/A"
+      ],
+      "value": "0.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cluster"
+      ],
+      "value": "915"
+    },
+    {
+      "row": [],
+      "col": [
+        "Transcript"
+      ],
+      "value": "Aspartic-type endopeptidase (phytepsin)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Most similar Arabidopsis gene"
+      ],
+      "value": "At1g11910"
+    },
+    {
+      "row": [],
+      "col": [
+        "E"
+      ],
+      "value": "1.3e-105"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "I"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "X"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "Y"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "G"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of ESTs in each library",
+        "Tot"
+      ],
+      "value": "35"
+    },
+    {
+      "row": [],
+      "col": [
+        "Expression ratio B/A"
+      ],
+      "value": "1.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Expression ratio B/A"
+      ],
+      "value": "1.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Expression ratio B/A"
+      ],
+      "value": "1.3"
+    }
+  ]
+}

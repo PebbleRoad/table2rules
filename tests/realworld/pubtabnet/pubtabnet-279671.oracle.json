@@ -1,0 +1,1032 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0.00",
+    "0.01",
+    "0.02",
+    "0.03",
+    "0.04",
+    "0.05",
+    "Besag and Newell's Test ( k = 7)",
+    "Cuzick and Edwards' Test ( k = 7)",
+    "DD",
+    "DIR",
+    "DIR Score Test",
+    "LRS DD Test",
+    "LRS DIR Test",
+    "PKDD \u03b1 1 = 0.005",
+    "Radial Score Test",
+    "Stone's Test",
+    "Tango's Test ( \u03c4 = 5)",
+    "\u03b1 1 = 0.005",
+    "\u03b1 1 = 0.05",
+    "\u03b1 1 = 0.1",
+    "\u03b1 1 = 1",
+    "\u03b1 1 = 10",
+    "\u03b1 1 = 2",
+    "\u03b1 2 = 0.05",
+    "\u03b1 2 = 0.1",
+    "\u03b1 2 = 0.5",
+    "\u03b1 2 = 1",
+    "\u03b1 3 and \u03b1 4 = 0.005",
+    "\u03b1 3 and \u03b1 4 = 0.1",
+    "\u03b1 3 and \u03b1 4 = 0.2",
+    "\u03b1 3 and \u03b1 4 = 0.5",
+    "\u03b1 3 and \u03b1 4 = 1",
+    "\u03b1 3 and \u03b1 4 = 2"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "DD"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "\u03b1 1 = 0.005"
+    },
+    {
+      "row": [],
+      "col": [
+        "Radial Score Test"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "DIR Score Test"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "Besag and Newell's Test ( k = 7)"
+      ],
+      "value": "0.01"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cuzick and Edwards' Test ( k = 7)"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tango's Test ( \u03c4 = 5)"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "LRS DIR Test"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "LRS DD Test"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stone's Test"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "\u03b1 1 = 0.05"
+    },
+    {
+      "row": [],
+      "col": [
+        "Radial Score Test"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "DIR Score Test"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "Besag and Newell's Test ( k = 7)"
+      ],
+      "value": "0.01"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cuzick and Edwards' Test ( k = 7)"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tango's Test ( \u03c4 = 5)"
+      ],
+      "value": "0.03"
+    },
+    {
+      "row": [],
+      "col": [
+        "LRS DIR Test"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "LRS DD Test"
+      ],
+      "value": "0.03"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stone's Test"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "\u03b1 1 = 0.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Radial Score Test"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "DIR Score Test"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "Besag and Newell's Test ( k = 7)"
+      ],
+      "value": "0.01"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cuzick and Edwards' Test ( k = 7)"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tango's Test ( \u03c4 = 5)"
+      ],
+      "value": "0.03"
+    },
+    {
+      "row": [],
+      "col": [
+        "LRS DIR Test"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "LRS DD Test"
+      ],
+      "value": "0.03"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stone's Test"
+      ],
+      "value": "0.03"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "\u03b1 1 = 1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Radial Score Test"
+      ],
+      "value": "0.05"
+    },
+    {
+      "row": [],
+      "col": [
+        "DIR Score Test"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "Besag and Newell's Test ( k = 7)"
+      ],
+      "value": "0.01"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cuzick and Edwards' Test ( k = 7)"
+      ],
+      "value": "0.03"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tango's Test ( \u03c4 = 5)"
+      ],
+      "value": "0.04"
+    },
+    {
+      "row": [],
+      "col": [
+        "LRS DIR Test"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "LRS DD Test"
+      ],
+      "value": "0.04"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stone's Test"
+      ],
+      "value": "0.05"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "\u03b1 1 = 2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Radial Score Test"
+      ],
+      "value": "0.03"
+    },
+    {
+      "row": [],
+      "col": [
+        "DIR Score Test"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "Besag and Newell's Test ( k = 7)"
+      ],
+      "value": "0.01"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cuzick and Edwards' Test ( k = 7)"
+      ],
+      "value": "0.04"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tango's Test ( \u03c4 = 5)"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "LRS DIR Test"
+      ],
+      "value": "0.03"
+    },
+    {
+      "row": [],
+      "col": [
+        "LRS DD Test"
+      ],
+      "value": "0.01"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stone's Test"
+      ],
+      "value": "0.03"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "\u03b1 1 = 10"
+    },
+    {
+      "row": [],
+      "col": [
+        "Radial Score Test"
+      ],
+      "value": "0.04"
+    },
+    {
+      "row": [],
+      "col": [
+        "DIR Score Test"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "Besag and Newell's Test ( k = 7)"
+      ],
+      "value": "0.01"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cuzick and Edwards' Test ( k = 7)"
+      ],
+      "value": "0.05"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tango's Test ( \u03c4 = 5)"
+      ],
+      "value": "0.03"
+    },
+    {
+      "row": [],
+      "col": [
+        "LRS DIR Test"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "LRS DD Test"
+      ],
+      "value": "0.03"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stone's Test"
+      ],
+      "value": "0.03"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "DIR"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "\u03b1 3 and \u03b1 4 = 0.005"
+    },
+    {
+      "row": [],
+      "col": [
+        "Radial Score Test"
+      ],
+      "value": "0.03"
+    },
+    {
+      "row": [],
+      "col": [
+        "DIR Score Test"
+      ],
+      "value": "0.04"
+    },
+    {
+      "row": [],
+      "col": [
+        "Besag and Newell's Test ( k = 7)"
+      ],
+      "value": "0.01"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cuzick and Edwards' Test ( k = 7)"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tango's Test ( \u03c4 = 5)"
+      ],
+      "value": "0.03"
+    },
+    {
+      "row": [],
+      "col": [
+        "LRS DIR Test"
+      ],
+      "value": "0.04"
+    },
+    {
+      "row": [],
+      "col": [
+        "LRS DD Test"
+      ],
+      "value": "0.03"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stone's Test"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "\u03b1 3 and \u03b1 4 = 0.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Radial Score Test"
+      ],
+      "value": "0.03"
+    },
+    {
+      "row": [],
+      "col": [
+        "DIR Score Test"
+      ],
+      "value": "0.04"
+    },
+    {
+      "row": [],
+      "col": [
+        "Besag and Newell's Test ( k = 7)"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cuzick and Edwards' Test ( k = 7)"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tango's Test ( \u03c4 = 5)"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "LRS DIR Test"
+      ],
+      "value": "0.05"
+    },
+    {
+      "row": [],
+      "col": [
+        "LRS DD Test"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stone's Test"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "\u03b1 3 and \u03b1 4 = 0.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Radial Score Test"
+      ],
+      "value": "0.03"
+    },
+    {
+      "row": [],
+      "col": [
+        "DIR Score Test"
+      ],
+      "value": "0.03"
+    },
+    {
+      "row": [],
+      "col": [
+        "Besag and Newell's Test ( k = 7)"
+      ],
+      "value": "0.01"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cuzick and Edwards' Test ( k = 7)"
+      ],
+      "value": "0.01"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tango's Test ( \u03c4 = 5)"
+      ],
+      "value": "0.03"
+    },
+    {
+      "row": [],
+      "col": [
+        "LRS DIR Test"
+      ],
+      "value": "0.01"
+    },
+    {
+      "row": [],
+      "col": [
+        "LRS DD Test"
+      ],
+      "value": "0.03"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stone's Test"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "\u03b1 3 and \u03b1 4 = 0.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Radial Score Test"
+      ],
+      "value": "0.03"
+    },
+    {
+      "row": [],
+      "col": [
+        "DIR Score Test"
+      ],
+      "value": "0.00"
+    },
+    {
+      "row": [],
+      "col": [
+        "Besag and Newell's Test ( k = 7)"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cuzick and Edwards' Test ( k = 7)"
+      ],
+      "value": "0.01"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tango's Test ( \u03c4 = 5)"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "LRS DIR Test"
+      ],
+      "value": "0.00"
+    },
+    {
+      "row": [],
+      "col": [
+        "LRS DD Test"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stone's Test"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "\u03b1 3 and \u03b1 4 = 1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Radial Score Test"
+      ],
+      "value": "0.03"
+    },
+    {
+      "row": [],
+      "col": [
+        "DIR Score Test"
+      ],
+      "value": "0.00"
+    },
+    {
+      "row": [],
+      "col": [
+        "Besag and Newell's Test ( k = 7)"
+      ],
+      "value": "0.03"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cuzick and Edwards' Test ( k = 7)"
+      ],
+      "value": "0.00"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tango's Test ( \u03c4 = 5)"
+      ],
+      "value": "0.03"
+    },
+    {
+      "row": [],
+      "col": [
+        "LRS DIR Test"
+      ],
+      "value": "0.00"
+    },
+    {
+      "row": [],
+      "col": [
+        "LRS DD Test"
+      ],
+      "value": "0.03"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stone's Test"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "\u03b1 3 and \u03b1 4 = 2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Radial Score Test"
+      ],
+      "value": "0.03"
+    },
+    {
+      "row": [],
+      "col": [
+        "DIR Score Test"
+      ],
+      "value": "0.00"
+    },
+    {
+      "row": [],
+      "col": [
+        "Besag and Newell's Test ( k = 7)"
+      ],
+      "value": "0.04"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cuzick and Edwards' Test ( k = 7)"
+      ],
+      "value": "0.00"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tango's Test ( \u03c4 = 5)"
+      ],
+      "value": "0.04"
+    },
+    {
+      "row": [],
+      "col": [
+        "LRS DIR Test"
+      ],
+      "value": "0.00"
+    },
+    {
+      "row": [],
+      "col": [
+        "LRS DD Test"
+      ],
+      "value": "0.04"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stone's Test"
+      ],
+      "value": "0.03"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "PKDD \u03b1 1 = 0.005"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "\u03b1 2 = 0.05"
+    },
+    {
+      "row": [],
+      "col": [
+        "Radial Score Test"
+      ],
+      "value": "0.03"
+    },
+    {
+      "row": [],
+      "col": [
+        "DIR Score Test"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "Besag and Newell's Test ( k = 7)"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cuzick and Edwards' Test ( k = 7)"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tango's Test ( \u03c4 = 5)"
+      ],
+      "value": "0.01"
+    },
+    {
+      "row": [],
+      "col": [
+        "LRS DIR Test"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "LRS DD Test"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stone's Test"
+      ],
+      "value": "0.01"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "\u03b1 2 = 0.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Radial Score Test"
+      ],
+      "value": "0.04"
+    },
+    {
+      "row": [],
+      "col": [
+        "DIR Score Test"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "Besag and Newell's Test ( k = 7)"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cuzick and Edwards' Test ( k = 7)"
+      ],
+      "value": "0.01"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tango's Test ( \u03c4 = 5)"
+      ],
+      "value": "0.01"
+    },
+    {
+      "row": [],
+      "col": [
+        "LRS DIR Test"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "LRS DD Test"
+      ],
+      "value": "0.01"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stone's Test"
+      ],
+      "value": "0.00"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "\u03b1 2 = 0.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Radial Score Test"
+      ],
+      "value": "0.03"
+    },
+    {
+      "row": [],
+      "col": [
+        "DIR Score Test"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "Besag and Newell's Test ( k = 7)"
+      ],
+      "value": "0.04"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cuzick and Edwards' Test ( k = 7)"
+      ],
+      "value": "0.01"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tango's Test ( \u03c4 = 5)"
+      ],
+      "value": "0.00"
+    },
+    {
+      "row": [],
+      "col": [
+        "LRS DIR Test"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "LRS DD Test"
+      ],
+      "value": "0.00"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stone's Test"
+      ],
+      "value": "0.00"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "\u03b1 2 = 1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Radial Score Test"
+      ],
+      "value": "0.01"
+    },
+    {
+      "row": [],
+      "col": [
+        "DIR Score Test"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "Besag and Newell's Test ( k = 7)"
+      ],
+      "value": "0.04"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cuzick and Edwards' Test ( k = 7)"
+      ],
+      "value": "0.01"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tango's Test ( \u03c4 = 5)"
+      ],
+      "value": "0.00"
+    },
+    {
+      "row": [],
+      "col": [
+        "LRS DIR Test"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "LRS DD Test"
+      ],
+      "value": "0.00"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stone's Test"
+      ],
+      "value": "0.00"
+    }
+  ]
+}

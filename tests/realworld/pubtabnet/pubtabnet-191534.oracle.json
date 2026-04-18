@@ -1,0 +1,359 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "133",
+    "171",
+    "219",
+    "229",
+    "281",
+    "288",
+    "298",
+    "385",
+    "392",
+    "503",
+    "525",
+    "60%",
+    "675",
+    "80%",
+    "83%",
+    "93%",
+    "98%",
+    "99%",
+    "All patients (9795)",
+    "Allocated treatment",
+    "Fenofibrate",
+    "Men (6139)",
+    "Placebo",
+    "Power to detect effect at 2 P < 0.05*",
+    "Primary prevention (7683 with no prior CVD)",
+    "Risk category",
+    "Secondary prevention (2112 with prior CVD)",
+    "Total CHD events",
+    "Total CVD events",
+    "Total CVD events\u2020",
+    "Women (3656)"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Risk category"
+      ],
+      "value": "Primary prevention (7683 with no prior CVD)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Primary prevention (7683 with no prior CVD)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allocated treatment",
+        "Fenofibrate"
+      ],
+      "value": "Primary prevention (7683 with no prior CVD)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allocated treatment",
+        "Placebo"
+      ],
+      "value": "Primary prevention (7683 with no prior CVD)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risk category"
+      ],
+      "value": "Total CVD events\u2020"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allocated treatment",
+        "Fenofibrate"
+      ],
+      "value": "298"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allocated treatment",
+        "Placebo"
+      ],
+      "value": "385"
+    },
+    {
+      "row": [],
+      "col": [
+        "Power to detect effect at 2 P < 0.05*"
+      ],
+      "value": "93%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risk category"
+      ],
+      "value": "Secondary prevention (2112 with prior CVD)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Secondary prevention (2112 with prior CVD)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allocated treatment",
+        "Fenofibrate"
+      ],
+      "value": "Secondary prevention (2112 with prior CVD)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allocated treatment",
+        "Placebo"
+      ],
+      "value": "Secondary prevention (2112 with prior CVD)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risk category"
+      ],
+      "value": "Total CVD events"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allocated treatment",
+        "Fenofibrate"
+      ],
+      "value": "229"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allocated treatment",
+        "Placebo"
+      ],
+      "value": "288"
+    },
+    {
+      "row": [],
+      "col": [
+        "Power to detect effect at 2 P < 0.05*"
+      ],
+      "value": "83%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risk category"
+      ],
+      "value": "Men (6139)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Men (6139)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allocated treatment",
+        "Fenofibrate"
+      ],
+      "value": "Men (6139)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allocated treatment",
+        "Placebo"
+      ],
+      "value": "Men (6139)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risk category"
+      ],
+      "value": "Total CVD events"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allocated treatment",
+        "Fenofibrate"
+      ],
+      "value": "392"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allocated treatment",
+        "Placebo"
+      ],
+      "value": "503"
+    },
+    {
+      "row": [],
+      "col": [
+        "Power to detect effect at 2 P < 0.05*"
+      ],
+      "value": "98%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risk category"
+      ],
+      "value": "Women (3656)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Women (3656)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allocated treatment",
+        "Fenofibrate"
+      ],
+      "value": "Women (3656)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allocated treatment",
+        "Placebo"
+      ],
+      "value": "Women (3656)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risk category"
+      ],
+      "value": "Total CVD events"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allocated treatment",
+        "Fenofibrate"
+      ],
+      "value": "133"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allocated treatment",
+        "Placebo"
+      ],
+      "value": "171"
+    },
+    {
+      "row": [],
+      "col": [
+        "Power to detect effect at 2 P < 0.05*"
+      ],
+      "value": "60%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risk category"
+      ],
+      "value": "All patients (9795)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "All patients (9795)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allocated treatment",
+        "Fenofibrate"
+      ],
+      "value": "All patients (9795)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allocated treatment",
+        "Placebo"
+      ],
+      "value": "All patients (9795)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risk category"
+      ],
+      "value": "Total CVD events"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allocated treatment",
+        "Fenofibrate"
+      ],
+      "value": "525"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allocated treatment",
+        "Placebo"
+      ],
+      "value": "675"
+    },
+    {
+      "row": [],
+      "col": [
+        "Power to detect effect at 2 P < 0.05*"
+      ],
+      "value": "99%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risk category"
+      ],
+      "value": "Total CHD events"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allocated treatment",
+        "Fenofibrate"
+      ],
+      "value": "219"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allocated treatment",
+        "Placebo"
+      ],
+      "value": "281"
+    },
+    {
+      "row": [],
+      "col": [
+        "Power to detect effect at 2 P < 0.05*"
+      ],
+      "value": "80%"
+    }
+  ]
+}

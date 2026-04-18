@@ -1,0 +1,652 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0.633",
+    "1.006",
+    "1.077",
+    "1.082",
+    "1.725",
+    "1.804",
+    "10",
+    "101",
+    "12",
+    "12394",
+    "14",
+    "15805",
+    "16",
+    "17663",
+    "18489",
+    "2.055",
+    "2.098",
+    "2.131",
+    "2.189",
+    "2.259",
+    "2.378",
+    "2.501",
+    "20",
+    "26",
+    "28",
+    "3.311",
+    "3.397",
+    "30503",
+    "37145",
+    "38",
+    "40",
+    "42",
+    "60",
+    "6397",
+    "65",
+    "67",
+    "6956",
+    "7",
+    "Expressed",
+    "Fibroblasts",
+    "Initial",
+    "Mitochondrial mutational burden",
+    "Nucleotides sequenced",
+    "Number of mutations",
+    "OA",
+    "OA vs RA a",
+    "Published Polymorphisms removed",
+    "Published polymorphisms removed",
+    "RA",
+    "Tissue",
+    "Total",
+    "Total mutational burden (mutations/kbp)",
+    "\u03c1 = 0.01",
+    "\u03c1 = 0.10",
+    "\u03c1 = 0.5",
+    "\u03c1 = 2.7 \u00d7 10 -3",
+    "\u03c1 = 4 \u00d7 10 -4",
+    "\u03c1 = 5.1 \u00d7 10 -4",
+    "\u03c1 = 6 \u00d7 10 -4",
+    "\u03c1 = 6.9 \u00d7 10 -3"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Mitochondrial mutational burden"
+      ],
+      "value": "Total"
+    },
+    {
+      "row": [],
+      "col": [
+        "Nucleotides sequenced"
+      ],
+      "value": "Total"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of mutations",
+        "Initial"
+      ],
+      "value": "Total"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of mutations",
+        "Published polymorphisms removed"
+      ],
+      "value": "Total"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total mutational burden (mutations/kbp)",
+        "Initial"
+      ],
+      "value": "Total"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total mutational burden (mutations/kbp)",
+        "Published polymorphisms removed"
+      ],
+      "value": "Total"
+    },
+    {
+      "row": [],
+      "col": [
+        "OA vs RA a",
+        "Initial"
+      ],
+      "value": "Total"
+    },
+    {
+      "row": [],
+      "col": [
+        "OA vs RA a",
+        "Published Polymorphisms removed"
+      ],
+      "value": "Total"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mitochondrial mutational burden"
+      ],
+      "value": "Fibroblasts"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mitochondrial mutational burden"
+      ],
+      "value": "OA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Nucleotides sequenced"
+      ],
+      "value": "18489"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of mutations",
+        "Initial"
+      ],
+      "value": "38"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of mutations",
+        "Published polymorphisms removed"
+      ],
+      "value": "20"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total mutational burden (mutations/kbp)",
+        "Initial"
+      ],
+      "value": "2.055"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total mutational burden (mutations/kbp)",
+        "Published polymorphisms removed"
+      ],
+      "value": "1.082"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mitochondrial mutational burden"
+      ],
+      "value": "RA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Nucleotides sequenced"
+      ],
+      "value": "30503"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of mutations",
+        "Initial"
+      ],
+      "value": "101"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of mutations",
+        "Published polymorphisms removed"
+      ],
+      "value": "65"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total mutational burden (mutations/kbp)",
+        "Initial"
+      ],
+      "value": "3.311"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total mutational burden (mutations/kbp)",
+        "Published polymorphisms removed"
+      ],
+      "value": "2.131"
+    },
+    {
+      "row": [],
+      "col": [
+        "OA vs RA a",
+        "Initial"
+      ],
+      "value": "\u03c1 = 0.01"
+    },
+    {
+      "row": [],
+      "col": [
+        "OA vs RA a",
+        "Published Polymorphisms removed"
+      ],
+      "value": "\u03c1 = 6.9 \u00d7 10 -3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mitochondrial mutational burden"
+      ],
+      "value": "Tissue"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mitochondrial mutational burden"
+      ],
+      "value": "OA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Nucleotides sequenced"
+      ],
+      "value": "37145"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of mutations",
+        "Initial"
+      ],
+      "value": "67"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of mutations",
+        "Published polymorphisms removed"
+      ],
+      "value": "40"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total mutational burden (mutations/kbp)",
+        "Initial"
+      ],
+      "value": "1.804"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total mutational burden (mutations/kbp)",
+        "Published polymorphisms removed"
+      ],
+      "value": "1.077"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mitochondrial mutational burden"
+      ],
+      "value": "RA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Nucleotides sequenced"
+      ],
+      "value": "17663"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of mutations",
+        "Initial"
+      ],
+      "value": "60"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of mutations",
+        "Published polymorphisms removed"
+      ],
+      "value": "42"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total mutational burden (mutations/kbp)",
+        "Initial"
+      ],
+      "value": "3.397"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total mutational burden (mutations/kbp)",
+        "Published polymorphisms removed"
+      ],
+      "value": "2.378"
+    },
+    {
+      "row": [],
+      "col": [
+        "OA vs RA a",
+        "Initial"
+      ],
+      "value": "\u03c1 = 4 \u00d7 10 -4"
+    },
+    {
+      "row": [],
+      "col": [
+        "OA vs RA a",
+        "Published Polymorphisms removed"
+      ],
+      "value": "\u03c1 = 5.1 \u00d7 10 -4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mitochondrial mutational burden"
+      ],
+      "value": "Expressed"
+    },
+    {
+      "row": [],
+      "col": [
+        "Nucleotides sequenced"
+      ],
+      "value": "Expressed"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of mutations",
+        "Initial"
+      ],
+      "value": "Expressed"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of mutations",
+        "Published polymorphisms removed"
+      ],
+      "value": "Expressed"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total mutational burden (mutations/kbp)",
+        "Initial"
+      ],
+      "value": "Expressed"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total mutational burden (mutations/kbp)",
+        "Published polymorphisms removed"
+      ],
+      "value": "Expressed"
+    },
+    {
+      "row": [],
+      "col": [
+        "OA vs RA a",
+        "Initial"
+      ],
+      "value": "Expressed"
+    },
+    {
+      "row": [],
+      "col": [
+        "OA vs RA a",
+        "Published Polymorphisms removed"
+      ],
+      "value": "Expressed"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mitochondrial mutational burden"
+      ],
+      "value": "Fibroblasts"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mitochondrial mutational burden"
+      ],
+      "value": "OA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Nucleotides sequenced"
+      ],
+      "value": "6956"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of mutations",
+        "Initial"
+      ],
+      "value": "12"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of mutations",
+        "Published polymorphisms removed"
+      ],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total mutational burden (mutations/kbp)",
+        "Initial"
+      ],
+      "value": "1.725"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total mutational burden (mutations/kbp)",
+        "Published polymorphisms removed"
+      ],
+      "value": "1.006"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mitochondrial mutational burden"
+      ],
+      "value": "RA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Nucleotides sequenced"
+      ],
+      "value": "12394"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of mutations",
+        "Initial"
+      ],
+      "value": "28"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of mutations",
+        "Published polymorphisms removed"
+      ],
+      "value": "26"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total mutational burden (mutations/kbp)",
+        "Initial"
+      ],
+      "value": "2.259"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total mutational burden (mutations/kbp)",
+        "Published polymorphisms removed"
+      ],
+      "value": "2.098"
+    },
+    {
+      "row": [],
+      "col": [
+        "OA vs RA a",
+        "Initial"
+      ],
+      "value": "\u03c1 = 0.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "OA vs RA a",
+        "Published Polymorphisms removed"
+      ],
+      "value": "\u03c1 = 0.10"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mitochondrial mutational burden"
+      ],
+      "value": "Tissue"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mitochondrial mutational burden"
+      ],
+      "value": "OA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Nucleotides sequenced"
+      ],
+      "value": "15805"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of mutations",
+        "Initial"
+      ],
+      "value": "10"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of mutations",
+        "Published polymorphisms removed"
+      ],
+      "value": "10"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total mutational burden (mutations/kbp)",
+        "Initial"
+      ],
+      "value": "0.633"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total mutational burden (mutations/kbp)",
+        "Published polymorphisms removed"
+      ],
+      "value": "0.633"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mitochondrial mutational burden"
+      ],
+      "value": "RA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Nucleotides sequenced"
+      ],
+      "value": "6397"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of mutations",
+        "Initial"
+      ],
+      "value": "16"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of mutations",
+        "Published polymorphisms removed"
+      ],
+      "value": "14"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total mutational burden (mutations/kbp)",
+        "Initial"
+      ],
+      "value": "2.501"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total mutational burden (mutations/kbp)",
+        "Published polymorphisms removed"
+      ],
+      "value": "2.189"
+    },
+    {
+      "row": [],
+      "col": [
+        "OA vs RA a",
+        "Initial"
+      ],
+      "value": "\u03c1 = 6 \u00d7 10 -4"
+    },
+    {
+      "row": [],
+      "col": [
+        "OA vs RA a",
+        "Published Polymorphisms removed"
+      ],
+      "value": "\u03c1 = 2.7 \u00d7 10 -3"
+    }
+  ]
+}

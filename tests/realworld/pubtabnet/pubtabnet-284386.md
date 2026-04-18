@@ -1,0 +1,372 @@
+<!-- source: PubTabNet imgid=284386 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+</td>
+<td colspan="2">
+<b>
+       1
+       <sup>
+        st
+       </sup>
+       choice
+      </b>
+</td>
+<td colspan="2">
+<b>
+       2
+       <sup>
+        nd
+       </sup>
+       choice
+      </b>
+</td>
+<td colspan="2">
+<b>
+       3
+       <sup>
+        rd
+       </sup>
+       choice
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<b>
+       Frequency
+      </b>
+</td>
+<td>
+<b>
+       Percentage
+      </b>
+</td>
+<td>
+<b>
+       Frequency
+      </b>
+</td>
+<td>
+<b>
+       Percentage
+      </b>
+</td>
+<td>
+<b>
+       Frequency
+      </b>
+</td>
+<td>
+<b>
+       Percentage
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<b>
+       Competitive funding bodies
+      </b>
+</td>
+<td>
+      90
+     </td>
+<td>
+      60.8
+     </td>
+<td>
+      45
+     </td>
+<td>
+      30.4
+     </td>
+<td>
+      29
+     </td>
+<td>
+      19.6
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       Government departments
+      </b>
+</td>
+<td>
+      52
+     </td>
+<td>
+      35.1
+     </td>
+<td>
+      64
+     </td>
+<td>
+      43.2
+     </td>
+<td>
+      26
+     </td>
+<td>
+      17.6
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       Universities and institutes
+      </b>
+</td>
+<td>
+      2
+     </td>
+<td>
+      1.4
+     </td>
+<td>
+      4
+     </td>
+<td>
+      2.7
+     </td>
+<td>
+      5
+     </td>
+<td>
+      3.4
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       Health foundations
+      </b>
+</td>
+<td>
+      1
+     </td>
+<td>
+      0.7
+     </td>
+<td>
+      6
+     </td>
+<td>
+      4.1
+     </td>
+<td>
+      7
+     </td>
+<td>
+      4.7
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       Local services
+      </b>
+</td>
+<td>
+      1
+     </td>
+<td>
+      0.7
+     </td>
+<td>
+      1
+     </td>
+<td>
+      0.7
+     </td>
+<td>
+      1
+     </td>
+<td>
+      0.7
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       Professional bodies
+      </b>
+</td>
+<td>
+      1
+     </td>
+<td>
+      0.7
+     </td>
+<td>
+      1
+     </td>
+<td>
+      0.7
+     </td>
+<td>
+      0
+     </td>
+<td>
+      0.0
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       Non-government organisations
+      </b>
+</td>
+<td>
+      1
+     </td>
+<td>
+      0.7
+     </td>
+<td>
+      0
+     </td>
+<td>
+      0.0
+     </td>
+<td>
+      4
+     </td>
+<td>
+      2.7
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       Other
+      </b>
+</td>
+<td>
+      0
+     </td>
+<td>
+      0.0
+     </td>
+<td>
+      2
+     </td>
+<td>
+      1.4
+     </td>
+<td>
+      2
+     </td>
+<td>
+      1.4
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       Philanthropic trusts
+      </b>
+</td>
+<td>
+      0
+     </td>
+<td>
+      0.0
+     </td>
+<td>
+      2
+     </td>
+<td>
+      1.4
+     </td>
+<td>
+      2
+     </td>
+<td>
+      1.4
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       Drug companies
+      </b>
+</td>
+<td>
+      0
+     </td>
+<td>
+      0.0
+     </td>
+<td>
+      1
+     </td>
+<td>
+      0.7
+     </td>
+<td>
+      1
+     </td>
+<td>
+      0.7
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       Private companies
+      </b>
+</td>
+<td>
+      0
+     </td>
+<td>
+      0.0
+     </td>
+<td>
+      1
+     </td>
+<td>
+      0.7
+     </td>
+<td>
+      1
+     </td>
+<td>
+      0.7
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       Insurers
+      </b>
+</td>
+<td>
+      0
+     </td>
+<td>
+      0.0
+     </td>
+<td>
+      0
+     </td>
+<td>
+      0.0
+     </td>
+<td>
+      2
+     </td>
+<td>
+      1.4
+     </td>
+</tr>
+</tbody>
+</table>

@@ -1,0 +1,282 @@
+<!-- source: PubTabNet imgid=547423 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+<b>
+       Transporter
+      </b>
+</td>
+<td>
+<b>
+       Segment-Specificity
+       <sup>
+        a,M
+       </sup>
+</b>
+</td>
+<td>
+<b>
+       Segment-Specificity
+       <sup>
+        a,R
+       </sup>
+</b>
+</td>
+<td colspan="4">
+<b>
+       Tissue-Specificity
+       <sup>
+        b
+       </sup>
+</b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+<b>
+       Duodenum
+      </b>
+</td>
+<td>
+<b>
+       Jejunum
+      </b>
+</td>
+<td>
+<b>
+       Ileum
+      </b>
+</td>
+<td>
+<b>
+       Colon
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+      Abca1
+     </td>
+<td>
+      D=J=I=C
+     </td>
+<td>
+      J=I=C&gt;D
+     </td>
+<td>
+      Crypts&gt;Villi
+     </td>
+<td>
+      ND
+     </td>
+<td>
+      ND
+     </td>
+<td>
+      ND
+     </td>
+</tr>
+<tr>
+<td>
+      Abcc1
+     </td>
+<td>
+      D=J=I=C
+     </td>
+<td>
+      I=C&gt;D=J
+     </td>
+<td>
+      Crypts&gt;Villi
+     </td>
+<td>
+      Crypts&gt;Villi
+     </td>
+<td>
+      Crypts&gt;Villi
+     </td>
+<td>
+      ND
+     </td>
+</tr>
+<tr>
+<td>
+      Abcc3
+     </td>
+<td>
+      D=C&gt;J=C&gt;I=C
+     </td>
+<td>
+      I=C&gt;D=J
+     </td>
+<td>
+      ND
+     </td>
+<td>
+      Crypts&gt;Villi
+     </td>
+<td>
+      ND
+     </td>
+<td>
+      Crypts&gt;Villi
+     </td>
+</tr>
+<tr>
+<td>
+      Abcg8
+     </td>
+<td>
+      J&gt;I=D&gt;C
+     </td>
+<td>
+      D=J=I&gt;C
+     </td>
+<td>
+      ND
+     </td>
+<td>
+      Villi&gt;Crypts
+     </td>
+<td>
+      Villi&gt;Crypts
+     </td>
+<td>
+      ND
+     </td>
+</tr>
+<tr>
+<td>
+      Slc10a2
+     </td>
+<td>
+      I&gt;C&gt;D=J
+     </td>
+<td>
+      I&gt;C&gt;D=J
+     </td>
+<td>
+      ND
+     </td>
+<td>
+      ND
+     </td>
+<td>
+      Villi&gt;Crypts
+     </td>
+<td>
+      ND
+     </td>
+</tr>
+<tr>
+<td>
+      Slc28a2
+     </td>
+<td>
+      D&gt;J&gt;I&gt;C
+     </td>
+<td>
+      D=J=I&gt;C
+     </td>
+<td>
+      ND
+     </td>
+<td>
+      Villi&gt;Crypts
+      <sup>
+       x
+      </sup>
+</td>
+<td>
+      Villi&gt;Crypts
+      <sup>
+       x
+      </sup>
+</td>
+<td>
+      ND
+     </td>
+</tr>
+<tr>
+<td>
+      Slc2a1
+     </td>
+<td>
+      C&gt;D=J=I
+     </td>
+<td>
+      C&gt;I&gt;D=J
+     </td>
+<td>
+      ND
+     </td>
+<td>
+      Crypts&gt;Villi
+     </td>
+<td>
+      Crypts&gt;Villi
+     </td>
+<td>
+      Crypts&gt;Villi
+      <sup>
+       x
+      </sup>
+</td>
+</tr>
+<tr>
+<td>
+      Slc34a2
+     </td>
+<td>
+      I&gt;C&gt;J&gt;D
+     </td>
+<td>
+      I&gt;C=J&gt;D
+     </td>
+<td>
+      ND
+     </td>
+<td>
+      Villi&gt;Crypts
+     </td>
+<td>
+      Villi&gt;Crypts
+     </td>
+<td>
+      Villi&gt;Crypts
+     </td>
+</tr>
+<tr>
+<td>
+      Slc5a8
+     </td>
+<td>
+      C&gt;I&gt;D=J
+     </td>
+<td>
+      C=I&gt;J&gt;D
+     </td>
+<td>
+      ND
+     </td>
+<td>
+      Villi&gt;Crypts
+     </td>
+<td>
+      ND
+     </td>
+<td>
+      ND
+     </td>
+</tr>
+</tbody>
+</table>

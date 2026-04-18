@@ -1,0 +1,303 @@
+<!-- source: PubTabNet imgid=188439 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+</td>
+<td colspan="2">
+<b>
+       COPD GOLD I-III (n = 19)
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Asymptomatic smokers (n = 26)
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<b>
+       rho
+      </b>
+</td>
+<td>
+<b>
+       p-value
+      </b>
+</td>
+<td>
+<b>
+       rho
+      </b>
+</td>
+<td>
+<b>
+       p-value
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<i>
+       Cigarettes/day
+      </i>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Neutrophils sputum, %
+     </td>
+<td>
+      -0.46
+     </td>
+<td>
+      0.02
+     </td>
+<td>
+      -0.24
+     </td>
+<td>
+      NS
+     </td>
+</tr>
+<tr>
+<td>
+      Macrophages sputum, %
+     </td>
+<td>
+      0.44
+     </td>
+<td>
+      0.027
+     </td>
+<td>
+      0.35
+     </td>
+<td>
+      0.095
+     </td>
+</tr>
+<tr>
+<td>
+      Eosinophils sputum, %
+     </td>
+<td>
+      -0.19
+     </td>
+<td>
+      NS
+     </td>
+<td>
+      -0.39
+     </td>
+<td>
+      0.057
+     </td>
+</tr>
+<tr>
+<td>
+      Eosinophils sputum, 10
+      <sup>
+       6
+      </sup>
+      /ml
+     </td>
+<td>
+      -0.11
+     </td>
+<td>
+      NS
+     </td>
+<td>
+      -0.44
+     </td>
+<td>
+      0.029
+     </td>
+</tr>
+<tr>
+<td>
+      CD68 biopsy, % pos. area
+     </td>
+<td>
+      0.69
+     </td>
+<td>
+      0.002
+     </td>
+<td>
+      0.46
+     </td>
+<td>
+      0.029
+     </td>
+</tr>
+<tr>
+<td>
+      EG2 biopsy, % pos. area
+     </td>
+<td>
+      -0.79
+     </td>
+<td>
+      0.001
+     </td>
+<td>
+      0.02
+     </td>
+<td>
+      NS
+     </td>
+</tr>
+<tr>
+<td>
+<i>
+       Pack-years smoking
+      </i>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      CD68 biopsy, %pos. area
+     </td>
+<td>
+      0.48
+     </td>
+<td>
+      0.043
+     </td>
+<td>
+      0.21
+     </td>
+<td>
+      NS
+     </td>
+</tr>
+<tr>
+<td>
+<i>
+       FEV
+       <sub>
+        1
+       </sub>
+       post BD, %pred
+      </i>
+      .
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Neutrophils sputum, %
+     </td>
+<td>
+      -0.31
+     </td>
+<td>
+      NS
+     </td>
+<td>
+      0.15
+     </td>
+<td>
+      NS
+     </td>
+</tr>
+<tr>
+<td>
+      Macrophages sputum, %
+     </td>
+<td>
+      0.41
+     </td>
+<td>
+      0.046
+     </td>
+<td>
+      -0.22
+     </td>
+<td>
+      NS
+     </td>
+</tr>
+<tr>
+<td>
+      IL-8 sputum, ng/ml
+     </td>
+<td>
+      -0.54
+     </td>
+<td>
+      0.007
+     </td>
+<td>
+      0.15
+     </td>
+<td>
+      NS
+     </td>
+</tr>
+<tr>
+<td>
+      CD68 biopsy, %pos. area
+     </td>
+<td>
+      0.33
+     </td>
+<td>
+      NS
+     </td>
+<td>
+      0.18
+     </td>
+<td>
+      NS
+     </td>
+</tr>
+<tr>
+<td>
+      AA1 biopsy, %pos. area
+     </td>
+<td>
+      0.53
+     </td>
+<td>
+      0.02
+     </td>
+<td>
+      0.09
+     </td>
+<td>
+      NS
+     </td>
+</tr>
+</tbody>
+</table>

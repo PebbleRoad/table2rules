@@ -1,0 +1,512 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "Abca1",
+    "Abcc1",
+    "Abcc3",
+    "Abcg8",
+    "C=I>J>D",
+    "C>D=J=I",
+    "C>I>D=J",
+    "Colon",
+    "Crypts>Villi",
+    "Crypts>Villi x",
+    "D=C>J=C>I=C",
+    "D=J=I=C",
+    "D=J=I>C",
+    "D>J>I>C",
+    "Duodenum",
+    "I=C>D=J",
+    "I>C=J>D",
+    "I>C>D=J",
+    "I>C>J>D",
+    "Ileum",
+    "J=I=C>D",
+    "J>I=D>C",
+    "Jejunum",
+    "ND",
+    "Segment-Specificity a,M",
+    "Segment-Specificity a,R",
+    "Slc10a2",
+    "Slc28a2",
+    "Slc2a1",
+    "Slc34a2",
+    "Slc5a8",
+    "Tissue-Specificity b",
+    "Transporter",
+    "Villi>Crypts",
+    "Villi>Crypts x"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Tissue-Specificity b"
+      ],
+      "value": "Duodenum"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissue-Specificity b"
+      ],
+      "value": "Jejunum"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissue-Specificity b"
+      ],
+      "value": "Ileum"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissue-Specificity b"
+      ],
+      "value": "Colon"
+    },
+    {
+      "row": [],
+      "col": [
+        "Transporter"
+      ],
+      "value": "Abca1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Segment-Specificity a,M"
+      ],
+      "value": "D=J=I=C"
+    },
+    {
+      "row": [],
+      "col": [
+        "Segment-Specificity a,R"
+      ],
+      "value": "J=I=C>D"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissue-Specificity b"
+      ],
+      "value": "Crypts>Villi"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissue-Specificity b"
+      ],
+      "value": "ND"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissue-Specificity b"
+      ],
+      "value": "ND"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissue-Specificity b"
+      ],
+      "value": "ND"
+    },
+    {
+      "row": [],
+      "col": [
+        "Transporter"
+      ],
+      "value": "Abcc1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Segment-Specificity a,M"
+      ],
+      "value": "D=J=I=C"
+    },
+    {
+      "row": [],
+      "col": [
+        "Segment-Specificity a,R"
+      ],
+      "value": "I=C>D=J"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissue-Specificity b"
+      ],
+      "value": "Crypts>Villi"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissue-Specificity b"
+      ],
+      "value": "Crypts>Villi"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissue-Specificity b"
+      ],
+      "value": "Crypts>Villi"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissue-Specificity b"
+      ],
+      "value": "ND"
+    },
+    {
+      "row": [],
+      "col": [
+        "Transporter"
+      ],
+      "value": "Abcc3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Segment-Specificity a,M"
+      ],
+      "value": "D=C>J=C>I=C"
+    },
+    {
+      "row": [],
+      "col": [
+        "Segment-Specificity a,R"
+      ],
+      "value": "I=C>D=J"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissue-Specificity b"
+      ],
+      "value": "ND"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissue-Specificity b"
+      ],
+      "value": "Crypts>Villi"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissue-Specificity b"
+      ],
+      "value": "ND"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissue-Specificity b"
+      ],
+      "value": "Crypts>Villi"
+    },
+    {
+      "row": [],
+      "col": [
+        "Transporter"
+      ],
+      "value": "Abcg8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Segment-Specificity a,M"
+      ],
+      "value": "J>I=D>C"
+    },
+    {
+      "row": [],
+      "col": [
+        "Segment-Specificity a,R"
+      ],
+      "value": "D=J=I>C"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissue-Specificity b"
+      ],
+      "value": "ND"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissue-Specificity b"
+      ],
+      "value": "Villi>Crypts"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissue-Specificity b"
+      ],
+      "value": "Villi>Crypts"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissue-Specificity b"
+      ],
+      "value": "ND"
+    },
+    {
+      "row": [],
+      "col": [
+        "Transporter"
+      ],
+      "value": "Slc10a2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Segment-Specificity a,M"
+      ],
+      "value": "I>C>D=J"
+    },
+    {
+      "row": [],
+      "col": [
+        "Segment-Specificity a,R"
+      ],
+      "value": "I>C>D=J"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissue-Specificity b"
+      ],
+      "value": "ND"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissue-Specificity b"
+      ],
+      "value": "ND"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissue-Specificity b"
+      ],
+      "value": "Villi>Crypts"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissue-Specificity b"
+      ],
+      "value": "ND"
+    },
+    {
+      "row": [],
+      "col": [
+        "Transporter"
+      ],
+      "value": "Slc28a2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Segment-Specificity a,M"
+      ],
+      "value": "D>J>I>C"
+    },
+    {
+      "row": [],
+      "col": [
+        "Segment-Specificity a,R"
+      ],
+      "value": "D=J=I>C"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissue-Specificity b"
+      ],
+      "value": "ND"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissue-Specificity b"
+      ],
+      "value": "Villi>Crypts x"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissue-Specificity b"
+      ],
+      "value": "Villi>Crypts x"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissue-Specificity b"
+      ],
+      "value": "ND"
+    },
+    {
+      "row": [],
+      "col": [
+        "Transporter"
+      ],
+      "value": "Slc2a1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Segment-Specificity a,M"
+      ],
+      "value": "C>D=J=I"
+    },
+    {
+      "row": [],
+      "col": [
+        "Segment-Specificity a,R"
+      ],
+      "value": "C>I>D=J"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissue-Specificity b"
+      ],
+      "value": "ND"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissue-Specificity b"
+      ],
+      "value": "Crypts>Villi"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissue-Specificity b"
+      ],
+      "value": "Crypts>Villi"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissue-Specificity b"
+      ],
+      "value": "Crypts>Villi x"
+    },
+    {
+      "row": [],
+      "col": [
+        "Transporter"
+      ],
+      "value": "Slc34a2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Segment-Specificity a,M"
+      ],
+      "value": "I>C>J>D"
+    },
+    {
+      "row": [],
+      "col": [
+        "Segment-Specificity a,R"
+      ],
+      "value": "I>C=J>D"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissue-Specificity b"
+      ],
+      "value": "ND"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissue-Specificity b"
+      ],
+      "value": "Villi>Crypts"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissue-Specificity b"
+      ],
+      "value": "Villi>Crypts"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissue-Specificity b"
+      ],
+      "value": "Villi>Crypts"
+    },
+    {
+      "row": [],
+      "col": [
+        "Transporter"
+      ],
+      "value": "Slc5a8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Segment-Specificity a,M"
+      ],
+      "value": "C>I>D=J"
+    },
+    {
+      "row": [],
+      "col": [
+        "Segment-Specificity a,R"
+      ],
+      "value": "C=I>J>D"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissue-Specificity b"
+      ],
+      "value": "ND"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissue-Specificity b"
+      ],
+      "value": "Villi>Crypts"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissue-Specificity b"
+      ],
+      "value": "ND"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissue-Specificity b"
+      ],
+      "value": "ND"
+    }
+  ]
+}

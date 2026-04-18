@@ -1,0 +1,295 @@
+<!-- source: PubTabNet imgid=87275 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+<b>
+       Characteristic
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Cases (
+       <i>
+        n
+       </i>
+       = 506)
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Controls (
+       <i>
+        n
+       </i>
+       = 459)
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<b>
+<i>
+        n
+       </i>
+</b>
+</td>
+<td>
+<b>
+       %
+      </b>
+</td>
+<td>
+<b>
+<i>
+        n
+       </i>
+</b>
+</td>
+<td>
+<b>
+       %
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      Age at reference (years)
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      &lt; 35
+     </td>
+<td>
+      62
+     </td>
+<td>
+      12.3
+     </td>
+<td>
+      80
+     </td>
+<td>
+      17.4
+     </td>
+</tr>
+<tr>
+<td>
+      35+
+     </td>
+<td>
+      444
+     </td>
+<td>
+      87.7
+     </td>
+<td>
+      379
+     </td>
+<td>
+      82.6
+     </td>
+</tr>
+<tr>
+<td>
+      Race
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      White
+     </td>
+<td>
+      450
+     </td>
+<td>
+      88.9
+     </td>
+<td>
+      412
+     </td>
+<td>
+      89.8
+     </td>
+</tr>
+<tr>
+<td>
+      Nonwhite
+     </td>
+<td>
+      56
+     </td>
+<td>
+      11.1
+     </td>
+<td>
+      47
+     </td>
+<td>
+      10.2
+     </td>
+</tr>
+<tr>
+<td>
+      Family history
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      None
+     </td>
+<td>
+      280
+     </td>
+<td>
+      56.7
+     </td>
+<td>
+      294
+     </td>
+<td>
+      66.1
+     </td>
+</tr>
+<tr>
+<td>
+      First degree
+     </td>
+<td>
+      94
+     </td>
+<td>
+      19.0
+     </td>
+<td>
+      36
+     </td>
+<td>
+      8.1
+     </td>
+</tr>
+<tr>
+<td>
+      Second degree
+     </td>
+<td>
+      120
+     </td>
+<td>
+      24.3
+     </td>
+<td>
+      115
+     </td>
+<td>
+      25.8
+     </td>
+</tr>
+<tr>
+<td>
+      Unknown
+     </td>
+<td>
+      12
+     </td>
+<td>
+</td>
+<td>
+      14
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Menopausal status
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Premenopausal
+     </td>
+<td>
+      445
+     </td>
+<td>
+      88.3
+     </td>
+<td>
+      392
+     </td>
+<td>
+      85.8
+     </td>
+</tr>
+<tr>
+<td>
+      Postmenopausal
+     </td>
+<td>
+      59
+     </td>
+<td>
+      11.7
+     </td>
+<td>
+      65
+     </td>
+<td>
+      14.2
+     </td>
+</tr>
+<tr>
+<td>
+      Unknown
+     </td>
+<td>
+      2
+     </td>
+<td>
+</td>
+<td>
+      2
+     </td>
+<td>
+</td>
+</tr>
+</tbody>
+</table>

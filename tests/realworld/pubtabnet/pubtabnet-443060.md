@@ -1,0 +1,274 @@
+<!-- source: PubTabNet imgid=443060 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+<b>
+       Accession no.
+      </b>
+</td>
+<td>
+<b>
+       Gene
+      </b>
+</td>
+<td>
+<b>
+       Delta
+      </b>
+</td>
+<td>
+<b>
+       Rat CL
+      </b>
+</td>
+<td>
+<b>
+       Rat QTLs
+      </b>
+</td>
+<td>
+<b>
+       Human CL
+      </b>
+</td>
+<td>
+<b>
+       Human QTLs
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      NM_178144
+     </td>
+<td>
+      AMIGO3
+     </td>
+<td>
+      Nd/Nd/5.9
+     </td>
+<td>
+      8q32
+     </td>
+<td>
+      Cia6
+     </td>
+<td>
+      3p21.31
+     </td>
+<td>
+      Asthma
+     </td>
+</tr>
+<tr>
+<td>
+      NM_130411
+     </td>
+<td>
+      CORO1A
+     </td>
+<td>
+      3.1/2.7/6.6
+     </td>
+<td>
+      1q36
+     </td>
+<td>
+      Pia11
+     </td>
+<td>
+      16p12.1
+     </td>
+<td>
+      Blau syndrome, asthma
+     </td>
+</tr>
+<tr>
+<td>
+      NM_024381
+     </td>
+<td>
+      GYK
+     </td>
+<td>
+      6.7/Nd/Nd
+     </td>
+<td>
+      Xq22
+     </td>
+<td>
+      Cia19
+     </td>
+<td>
+      Xp21.3
+     </td>
+<td>
+      Allergic rhinitis
+     </td>
+</tr>
+<tr>
+<td>
+      NM_031670
+     </td>
+<td>
+      KDAP
+     </td>
+<td>
+      18.8/6.6/48.2
+     </td>
+<td>
+      1q22
+     </td>
+<td>
+      _
+     </td>
+<td>
+      19q13.3
+     </td>
+<td>
+      Asthma, SLE, MS, SD
+     </td>
+</tr>
+<tr>
+<td>
+      NM_569105
+     </td>
+<td>
+      LCP2
+     </td>
+<td>
+      2.6/3.3/6.2
+     </td>
+<td>
+      10q12
+     </td>
+<td>
+      Cia16, Pia15
+     </td>
+<td>
+      5q33.1
+     </td>
+<td>
+      RA, PDB, asthma, IBD, psoriasis, ATD
+     </td>
+</tr>
+<tr>
+<td>
+      NM_021586
+     </td>
+<td>
+      LTBP2
+     </td>
+<td>
+      Nd/Nd/6.5
+     </td>
+<td>
+      6q31
+     </td>
+<td>
+      Pia3, Pia24
+     </td>
+<td>
+      14q24
+     </td>
+<td>
+      SLE, MODY3
+     </td>
+</tr>
+<tr>
+<td>
+      NM_198746
+     </td>
+<td>
+      Ly-49.9
+     </td>
+<td>
+      Nd/2.0/5.6
+     </td>
+<td>
+      4q42
+     </td>
+<td>
+      Cia13, Cia24, Pia7, Pia23, Oia2, Oia7, Oia8, Ciaa4
+     </td>
+<td>
+      12p13-p12
+     </td>
+<td>
+      RA, allergic rhinitis, hypophosphataemic rickets
+     </td>
+</tr>
+<tr>
+<td>
+      NM_022667
+     </td>
+<td>
+      MATR1
+     </td>
+<td>
+      1.7/1.9/5.7
+     </td>
+<td>
+      8q32
+     </td>
+<td>
+      Cia6
+     </td>
+<td>
+      3q21
+     </td>
+<td>
+      Atopic dermatitis, asthma, psoriasis
+     </td>
+</tr>
+<tr>
+<td>
+      NM_133306
+     </td>
+<td>
+      OLR1
+     </td>
+<td>
+      8.3/2.8/3.7
+     </td>
+<td>
+      4q42
+     </td>
+<td>
+      Cia13, Cia24, Pia7, Pia23, Oia2, Oia7, Oia8, Ciaa4
+     </td>
+<td>
+      12p13.2-p12.3
+     </td>
+<td>
+      RA, hypophosphataemic rickets, allergic rhinitis
+     </td>
+</tr>
+<tr>
+<td>
+      NM_053687
+     </td>
+<td>
+      SLFN4
+     </td>
+<td>
+      5.8/4.6/4.8
+     </td>
+<td>
+      10q26
+     </td>
+<td>
+      Cia16, Cia21, Cia22, Cia23, Oia4, Ciaa2
+     </td>
+<td>
+      17q11.2-q21.1
+     </td>
+<td>
+      SLE, MS
+     </td>
+</tr>
+</tbody>
+</table>

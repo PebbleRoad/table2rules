@@ -1,0 +1,421 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "(TTTA) 11",
+    "(TTTA) \u226510",
+    "- 0.32",
+    "- 1.01",
+    "- 1.09",
+    "- 1.24",
+    "- 1.50",
+    "- 1.52",
+    "- 1.85",
+    "0.03",
+    "0.05",
+    "0.06",
+    "0.07",
+    "0.10",
+    "0.11",
+    "0.13",
+    "0.14",
+    "0.16",
+    "0.17",
+    "0.19",
+    "0.32",
+    "0.34",
+    "0.37",
+    "0.38",
+    "0.40",
+    "0.89",
+    "0.97",
+    "1.01",
+    "1.08",
+    "1.13",
+    "1.26",
+    "1.66",
+    "1.83",
+    "1.96",
+    "28.78",
+    "33.71",
+    "42.46",
+    "Additive model",
+    "C",
+    "CYP17",
+    "CYP19",
+    "Dominant model",
+    "Estimated allele frequency (%)",
+    "Founder statistic",
+    "Nonfounder statistic",
+    "P",
+    "Recessive model",
+    "Variant allele(s)"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Variant allele(s)"
+      ],
+      "value": "CYP17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variant allele(s)"
+      ],
+      "value": "C"
+    },
+    {
+      "row": [],
+      "col": [
+        "Estimated allele frequency (%)"
+      ],
+      "value": "42.46"
+    },
+    {
+      "row": [],
+      "col": [
+        "Nonfounder statistic",
+        "Recessive model"
+      ],
+      "value": "- 1.01"
+    },
+    {
+      "row": [],
+      "col": [
+        "Nonfounder statistic",
+        "Dominant model"
+      ],
+      "value": "- 1.52"
+    },
+    {
+      "row": [],
+      "col": [
+        "Nonfounder statistic",
+        "Additive model"
+      ],
+      "value": "- 1.85"
+    },
+    {
+      "row": [],
+      "col": [
+        "Founder statistic",
+        "Recessive model"
+      ],
+      "value": "0.40"
+    },
+    {
+      "row": [],
+      "col": [
+        "Founder statistic",
+        "Dominant model"
+      ],
+      "value": "1.08"
+    },
+    {
+      "row": [],
+      "col": [
+        "Founder statistic",
+        "Additive model"
+      ],
+      "value": "1.01"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variant allele(s)"
+      ],
+      "value": "P"
+    },
+    {
+      "row": [],
+      "col": [
+        "Nonfounder statistic",
+        "Recessive model"
+      ],
+      "value": "0.16"
+    },
+    {
+      "row": [],
+      "col": [
+        "Nonfounder statistic",
+        "Dominant model"
+      ],
+      "value": "0.06"
+    },
+    {
+      "row": [],
+      "col": [
+        "Nonfounder statistic",
+        "Additive model"
+      ],
+      "value": "0.03"
+    },
+    {
+      "row": [],
+      "col": [
+        "Founder statistic",
+        "Recessive model"
+      ],
+      "value": "0.34"
+    },
+    {
+      "row": [],
+      "col": [
+        "Founder statistic",
+        "Dominant model"
+      ],
+      "value": "0.14"
+    },
+    {
+      "row": [],
+      "col": [
+        "Founder statistic",
+        "Additive model"
+      ],
+      "value": "0.16"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variant allele(s)"
+      ],
+      "value": "CYP19"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variant allele(s)"
+      ],
+      "value": "(TTTA) \u226510"
+    },
+    {
+      "row": [],
+      "col": [
+        "Estimated allele frequency (%)"
+      ],
+      "value": "33.71"
+    },
+    {
+      "row": [],
+      "col": [
+        "Nonfounder statistic",
+        "Recessive model"
+      ],
+      "value": "- 1.24"
+    },
+    {
+      "row": [],
+      "col": [
+        "Nonfounder statistic",
+        "Dominant model"
+      ],
+      "value": "1.26"
+    },
+    {
+      "row": [],
+      "col": [
+        "Nonfounder statistic",
+        "Additive model"
+      ],
+      "value": "0.32"
+    },
+    {
+      "row": [],
+      "col": [
+        "Founder statistic",
+        "Recessive model"
+      ],
+      "value": "- 0.32"
+    },
+    {
+      "row": [],
+      "col": [
+        "Founder statistic",
+        "Dominant model"
+      ],
+      "value": "1.66"
+    },
+    {
+      "row": [],
+      "col": [
+        "Founder statistic",
+        "Additive model"
+      ],
+      "value": "1.13"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variant allele(s)"
+      ],
+      "value": "P"
+    },
+    {
+      "row": [],
+      "col": [
+        "Nonfounder statistic",
+        "Recessive model"
+      ],
+      "value": "0.11"
+    },
+    {
+      "row": [],
+      "col": [
+        "Nonfounder statistic",
+        "Dominant model"
+      ],
+      "value": "0.10"
+    },
+    {
+      "row": [],
+      "col": [
+        "Nonfounder statistic",
+        "Additive model"
+      ],
+      "value": "0.38"
+    },
+    {
+      "row": [],
+      "col": [
+        "Founder statistic",
+        "Recessive model"
+      ],
+      "value": "0.37"
+    },
+    {
+      "row": [],
+      "col": [
+        "Founder statistic",
+        "Dominant model"
+      ],
+      "value": "0.05"
+    },
+    {
+      "row": [],
+      "col": [
+        "Founder statistic",
+        "Additive model"
+      ],
+      "value": "0.13"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variant allele(s)"
+      ],
+      "value": "(TTTA) 11"
+    },
+    {
+      "row": [],
+      "col": [
+        "Estimated allele frequency (%)"
+      ],
+      "value": "28.78"
+    },
+    {
+      "row": [],
+      "col": [
+        "Nonfounder statistic",
+        "Recessive model"
+      ],
+      "value": "- 1.09"
+    },
+    {
+      "row": [],
+      "col": [
+        "Nonfounder statistic",
+        "Dominant model"
+      ],
+      "value": "1.83"
+    },
+    {
+      "row": [],
+      "col": [
+        "Nonfounder statistic",
+        "Additive model"
+      ],
+      "value": "0.97"
+    },
+    {
+      "row": [],
+      "col": [
+        "Founder statistic",
+        "Recessive model"
+      ],
+      "value": "- 1.50"
+    },
+    {
+      "row": [],
+      "col": [
+        "Founder statistic",
+        "Dominant model"
+      ],
+      "value": "1.96"
+    },
+    {
+      "row": [],
+      "col": [
+        "Founder statistic",
+        "Additive model"
+      ],
+      "value": "0.89"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variant allele(s)"
+      ],
+      "value": "P"
+    },
+    {
+      "row": [],
+      "col": [
+        "Nonfounder statistic",
+        "Recessive model"
+      ],
+      "value": "0.14"
+    },
+    {
+      "row": [],
+      "col": [
+        "Nonfounder statistic",
+        "Dominant model"
+      ],
+      "value": "0.03"
+    },
+    {
+      "row": [],
+      "col": [
+        "Nonfounder statistic",
+        "Additive model"
+      ],
+      "value": "0.17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Founder statistic",
+        "Recessive model"
+      ],
+      "value": "0.07"
+    },
+    {
+      "row": [],
+      "col": [
+        "Founder statistic",
+        "Dominant model"
+      ],
+      "value": "0.03"
+    },
+    {
+      "row": [],
+      "col": [
+        "Founder statistic",
+        "Additive model"
+      ],
+      "value": "0.19"
+    }
+  ]
+}

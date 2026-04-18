@@ -1,0 +1,250 @@
+<!-- source: PubTabNet imgid=189212 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+<b>
+       TRAUMATIC EVENT
+      </b>
+</td>
+<td colspan="2">
+<b>
+       PTSD N = 9
+      </b>
+</td>
+<td colspan="2">
+<b>
+       NO PTSD N = 11
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+</td>
+<td>
+<b>
+       No.
+      </b>
+</td>
+<td>
+<b>
+       %
+      </b>
+</td>
+<td>
+<b>
+       No.
+      </b>
+</td>
+<td>
+<b>
+       %
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+      Serious Accident, fire or explosion
+     </td>
+<td>
+      7
+     </td>
+<td>
+      78%
+     </td>
+<td>
+      4
+     </td>
+<td>
+      36%
+     </td>
+</tr>
+<tr>
+<td>
+      Natural disaster
+     </td>
+<td>
+      1
+     </td>
+<td>
+      11%
+     </td>
+<td>
+      0
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Non-sexual assault – family member or someone known
+     </td>
+<td>
+      6
+     </td>
+<td>
+      67%
+     </td>
+<td>
+      4
+     </td>
+<td>
+      36%
+     </td>
+</tr>
+<tr>
+<td>
+      Non-sexual assault – stranger
+     </td>
+<td>
+      3
+     </td>
+<td>
+      33%
+     </td>
+<td>
+      3
+     </td>
+<td>
+      27%
+     </td>
+</tr>
+<tr>
+<td>
+      Sexual assault – family member or someone known
+     </td>
+<td>
+      5
+     </td>
+<td>
+      55.5%
+     </td>
+<td>
+      3
+     </td>
+<td>
+      27%
+     </td>
+</tr>
+<tr>
+<td>
+      Sexual assault – stranger
+     </td>
+<td>
+      3
+     </td>
+<td>
+      33%
+     </td>
+<td>
+      2
+     </td>
+<td>
+      18%
+     </td>
+</tr>
+<tr>
+<td>
+      Military combat/war zone
+     </td>
+<td>
+      1
+     </td>
+<td>
+      11%
+     </td>
+<td>
+      1
+     </td>
+<td>
+      9%
+     </td>
+</tr>
+<tr>
+<td>
+      Sexual contact under 18 years with someone 5 or more years older
+     </td>
+<td>
+      7
+     </td>
+<td>
+      78%
+     </td>
+<td>
+      4
+     </td>
+<td>
+      36%
+     </td>
+</tr>
+<tr>
+<td>
+      Imprisonment
+     </td>
+<td>
+      3
+     </td>
+<td>
+      33%
+     </td>
+<td>
+      2
+     </td>
+<td>
+      18%
+     </td>
+</tr>
+<tr>
+<td>
+      Torture
+     </td>
+<td>
+      1
+     </td>
+<td>
+      11%
+     </td>
+<td>
+      0
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Life-threatening Illness
+     </td>
+<td>
+      4
+     </td>
+<td>
+      44%
+     </td>
+<td>
+      2
+     </td>
+<td>
+      18%
+     </td>
+</tr>
+<tr>
+<td>
+      Other type of event
+     </td>
+<td>
+      4
+     </td>
+<td>
+      44%
+     </td>
+<td>
+      7
+     </td>
+<td>
+      63%
+     </td>
+</tr>
+</tbody>
+</table>

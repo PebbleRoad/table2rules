@@ -1,0 +1,426 @@
+<!-- source: PubTabNet imgid=19671 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+</td>
+<td colspan="3">
+<b>
+       Haematologic
+      </b>
+</td>
+<td colspan="3">
+<b>
+       Other
+      </b>
+</td>
+<td colspan="3">
+<b>
+       Any
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+<b>
+       Subgroup
+      </b>
+</td>
+<td>
+<b>
+       G0-2
+      </b>
+</td>
+<td>
+<b>
+       G3-4
+      </b>
+</td>
+<td>
+<b>
+       p*
+      </b>
+</td>
+<td>
+<b>
+       G0-2
+      </b>
+</td>
+<td>
+<b>
+       G3-4
+      </b>
+</td>
+<td>
+<b>
+       p*
+      </b>
+</td>
+<td>
+<b>
+       G0-2
+      </b>
+</td>
+<td>
+<b>
+       G3-4
+      </b>
+</td>
+<td>
+<b>
+       p*
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<b>
+       Age
+      </b>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+      0.17
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+      0.49
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+      1.00
+     </td>
+</tr>
+<tr>
+<td>
+      &gt;60 and &lt;65 years (
+      <i>
+       n = 100
+      </i>
+      )
+     </td>
+<td>
+      86%
+     </td>
+<td>
+      14%
+     </td>
+<td>
+</td>
+<td>
+      72%
+     </td>
+<td>
+      28%
+     </td>
+<td>
+</td>
+<td>
+      62%
+     </td>
+<td>
+      38%
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      ≥ 65 years (
+      <i>
+       n = 80
+      </i>
+      )
+     </td>
+<td>
+      78%
+     </td>
+<td>
+      22%
+     </td>
+<td>
+</td>
+<td>
+      78%
+     </td>
+<td>
+      22%
+     </td>
+<td>
+</td>
+<td>
+      61%
+     </td>
+<td>
+      39%
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<b>
+       Radiotherapy
+      </b>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+      &lt;0.0001
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+      0.21
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+      0.27
+     </td>
+</tr>
+<tr>
+<td>
+      No (
+      <i>
+       n = 114
+      </i>
+      )
+     </td>
+<td>
+      92%
+     </td>
+<td>
+      8%
+     </td>
+<td>
+</td>
+<td>
+      71%
+     </td>
+<td>
+      29%
+     </td>
+<td>
+</td>
+<td>
+      65%
+     </td>
+<td>
+      35%
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Yes (
+      <i>
+       n = 66
+      </i>
+      )
+     </td>
+<td>
+      65%
+     </td>
+<td>
+      35%
+     </td>
+<td>
+</td>
+<td>
+      80%
+     </td>
+<td>
+      20%
+     </td>
+<td>
+</td>
+<td>
+      56%
+     </td>
+<td>
+      44%
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<b>
+       Age and radiotherapy
+      </b>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+      &lt;0.0001
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+      0.42
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+      0.08
+     </td>
+</tr>
+<tr>
+<td>
+      &gt;60 and &lt; 65, no RT (
+      <i>
+       n = 64
+      </i>
+      )
+     </td>
+<td>
+      92%
+     </td>
+<td>
+      8%
+     </td>
+<td>
+</td>
+<td>
+      67%
+     </td>
+<td>
+      33%
+     </td>
+<td>
+</td>
+<td>
+      59%
+     </td>
+<td>
+      41%
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      ≥ 65, no RT (
+      <i>
+       n = 50
+      </i>
+      )
+     </td>
+<td>
+      92%
+     </td>
+<td>
+      8%
+     </td>
+<td>
+</td>
+<td>
+      76%
+     </td>
+<td>
+      24%
+     </td>
+<td>
+</td>
+<td>
+      72%
+     </td>
+<td>
+      28%
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      &gt;60 and &lt; 65, RT (
+      <i>
+       n = 36
+      </i>
+      )
+     </td>
+<td>
+      75%
+     </td>
+<td>
+      25%
+     </td>
+<td>
+</td>
+<td>
+      81%
+     </td>
+<td>
+      19%
+     </td>
+<td>
+</td>
+<td>
+      67%
+     </td>
+<td>
+      33%
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      ≥ 65, RT (
+      <i>
+       n = 30
+      </i>
+      )
+     </td>
+<td>
+      53%
+     </td>
+<td>
+      47%
+     </td>
+<td>
+</td>
+<td>
+      80%
+     </td>
+<td>
+      20%
+     </td>
+<td>
+</td>
+<td>
+      43%
+     </td>
+<td>
+      57%
+     </td>
+<td>
+</td>
+</tr>
+</tbody>
+</table>

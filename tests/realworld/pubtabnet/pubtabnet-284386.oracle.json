@@ -1,0 +1,687 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0",
+    "0.0",
+    "0.7",
+    "1",
+    "1 st choice",
+    "1.4",
+    "17.6",
+    "19.6",
+    "2",
+    "2 nd choice",
+    "2.7",
+    "26",
+    "29",
+    "3 rd choice",
+    "3.4",
+    "30.4",
+    "35.1",
+    "4",
+    "4.1",
+    "4.7",
+    "43.2",
+    "45",
+    "5",
+    "52",
+    "6",
+    "60.8",
+    "64",
+    "7",
+    "90",
+    "Competitive funding bodies",
+    "Drug companies",
+    "Frequency",
+    "Government departments",
+    "Health foundations",
+    "Insurers",
+    "Local services",
+    "Non-government organisations",
+    "Other",
+    "Percentage",
+    "Philanthropic trusts",
+    "Private companies",
+    "Professional bodies",
+    "Universities and institutes"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Competitive funding bodies"
+    },
+    {
+      "row": [],
+      "col": [
+        "1 st choice",
+        "Frequency"
+      ],
+      "value": "90"
+    },
+    {
+      "row": [],
+      "col": [
+        "1 st choice",
+        "Percentage"
+      ],
+      "value": "60.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "2 nd choice",
+        "Frequency"
+      ],
+      "value": "45"
+    },
+    {
+      "row": [],
+      "col": [
+        "2 nd choice",
+        "Percentage"
+      ],
+      "value": "30.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "3 rd choice",
+        "Frequency"
+      ],
+      "value": "29"
+    },
+    {
+      "row": [],
+      "col": [
+        "3 rd choice",
+        "Percentage"
+      ],
+      "value": "19.6"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Government departments"
+    },
+    {
+      "row": [],
+      "col": [
+        "1 st choice",
+        "Frequency"
+      ],
+      "value": "52"
+    },
+    {
+      "row": [],
+      "col": [
+        "1 st choice",
+        "Percentage"
+      ],
+      "value": "35.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "2 nd choice",
+        "Frequency"
+      ],
+      "value": "64"
+    },
+    {
+      "row": [],
+      "col": [
+        "2 nd choice",
+        "Percentage"
+      ],
+      "value": "43.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "3 rd choice",
+        "Frequency"
+      ],
+      "value": "26"
+    },
+    {
+      "row": [],
+      "col": [
+        "3 rd choice",
+        "Percentage"
+      ],
+      "value": "17.6"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Universities and institutes"
+    },
+    {
+      "row": [],
+      "col": [
+        "1 st choice",
+        "Frequency"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "1 st choice",
+        "Percentage"
+      ],
+      "value": "1.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "2 nd choice",
+        "Frequency"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "2 nd choice",
+        "Percentage"
+      ],
+      "value": "2.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "3 rd choice",
+        "Frequency"
+      ],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [
+        "3 rd choice",
+        "Percentage"
+      ],
+      "value": "3.4"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Health foundations"
+    },
+    {
+      "row": [],
+      "col": [
+        "1 st choice",
+        "Frequency"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "1 st choice",
+        "Percentage"
+      ],
+      "value": "0.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "2 nd choice",
+        "Frequency"
+      ],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [
+        "2 nd choice",
+        "Percentage"
+      ],
+      "value": "4.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "3 rd choice",
+        "Frequency"
+      ],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [
+        "3 rd choice",
+        "Percentage"
+      ],
+      "value": "4.7"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Local services"
+    },
+    {
+      "row": [],
+      "col": [
+        "1 st choice",
+        "Frequency"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "1 st choice",
+        "Percentage"
+      ],
+      "value": "0.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "2 nd choice",
+        "Frequency"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "2 nd choice",
+        "Percentage"
+      ],
+      "value": "0.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "3 rd choice",
+        "Frequency"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "3 rd choice",
+        "Percentage"
+      ],
+      "value": "0.7"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Professional bodies"
+    },
+    {
+      "row": [],
+      "col": [
+        "1 st choice",
+        "Frequency"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "1 st choice",
+        "Percentage"
+      ],
+      "value": "0.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "2 nd choice",
+        "Frequency"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "2 nd choice",
+        "Percentage"
+      ],
+      "value": "0.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "3 rd choice",
+        "Frequency"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "3 rd choice",
+        "Percentage"
+      ],
+      "value": "0.0"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Non-government organisations"
+    },
+    {
+      "row": [],
+      "col": [
+        "1 st choice",
+        "Frequency"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "1 st choice",
+        "Percentage"
+      ],
+      "value": "0.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "2 nd choice",
+        "Frequency"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "2 nd choice",
+        "Percentage"
+      ],
+      "value": "0.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "3 rd choice",
+        "Frequency"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "3 rd choice",
+        "Percentage"
+      ],
+      "value": "2.7"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Other"
+    },
+    {
+      "row": [],
+      "col": [
+        "1 st choice",
+        "Frequency"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "1 st choice",
+        "Percentage"
+      ],
+      "value": "0.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "2 nd choice",
+        "Frequency"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "2 nd choice",
+        "Percentage"
+      ],
+      "value": "1.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "3 rd choice",
+        "Frequency"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "3 rd choice",
+        "Percentage"
+      ],
+      "value": "1.4"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Philanthropic trusts"
+    },
+    {
+      "row": [],
+      "col": [
+        "1 st choice",
+        "Frequency"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "1 st choice",
+        "Percentage"
+      ],
+      "value": "0.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "2 nd choice",
+        "Frequency"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "2 nd choice",
+        "Percentage"
+      ],
+      "value": "1.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "3 rd choice",
+        "Frequency"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "3 rd choice",
+        "Percentage"
+      ],
+      "value": "1.4"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Drug companies"
+    },
+    {
+      "row": [],
+      "col": [
+        "1 st choice",
+        "Frequency"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "1 st choice",
+        "Percentage"
+      ],
+      "value": "0.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "2 nd choice",
+        "Frequency"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "2 nd choice",
+        "Percentage"
+      ],
+      "value": "0.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "3 rd choice",
+        "Frequency"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "3 rd choice",
+        "Percentage"
+      ],
+      "value": "0.7"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Private companies"
+    },
+    {
+      "row": [],
+      "col": [
+        "1 st choice",
+        "Frequency"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "1 st choice",
+        "Percentage"
+      ],
+      "value": "0.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "2 nd choice",
+        "Frequency"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "2 nd choice",
+        "Percentage"
+      ],
+      "value": "0.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "3 rd choice",
+        "Frequency"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "3 rd choice",
+        "Percentage"
+      ],
+      "value": "0.7"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Insurers"
+    },
+    {
+      "row": [],
+      "col": [
+        "1 st choice",
+        "Frequency"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "1 st choice",
+        "Percentage"
+      ],
+      "value": "0.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "2 nd choice",
+        "Frequency"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "2 nd choice",
+        "Percentage"
+      ],
+      "value": "0.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "3 rd choice",
+        "Frequency"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "3 rd choice",
+        "Percentage"
+      ],
+      "value": "1.4"
+    }
+  ]
+}

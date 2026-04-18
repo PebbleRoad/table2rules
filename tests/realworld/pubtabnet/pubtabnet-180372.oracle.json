@@ -1,0 +1,717 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "%",
+    "0,00",
+    "0.00",
+    "0.04",
+    "0.05",
+    "0.07",
+    "0.08",
+    "0.09",
+    "0.11",
+    "0.12",
+    "0.19",
+    "0.2",
+    "0.20",
+    "0.21",
+    "0.22",
+    "0.23",
+    "0.24",
+    "0.25",
+    "0.26",
+    "0.27",
+    "0.29",
+    "0.35",
+    "0.37",
+    "0.38",
+    "0.40",
+    "0.43",
+    "0.47",
+    "0.50",
+    "0.51",
+    "0.53",
+    "0.54",
+    "0.58",
+    "0.59",
+    "0.60",
+    "0.69",
+    "0.70",
+    "0.71",
+    "0.74",
+    "0.78",
+    "0.86",
+    "1.00",
+    "1.05",
+    "1.07",
+    "1.09",
+    "1.19",
+    "1.26",
+    "1.54",
+    "1.55",
+    "1998",
+    "1999",
+    "2.04",
+    "2000",
+    "2001",
+    "2002",
+    "2398",
+    "2429",
+    "2560",
+    "2619",
+    "2706",
+    "29662",
+    "30916",
+    "31727",
+    "32866",
+    "34950",
+    "Emilia Romagna",
+    "Municipality of Bologna",
+    "N.",
+    "delays",
+    "immigrated",
+    "living abroad",
+    "no fixed abode",
+    "other*",
+    "refusals objectors",
+    "resident population"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "1998"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Municipality of Bologna"
+    },
+    {
+      "row": [],
+      "col": [
+        "resident population",
+        "N."
+      ],
+      "value": "2398"
+    },
+    {
+      "row": [],
+      "col": [
+        "living abroad",
+        "%"
+      ],
+      "value": "0.71"
+    },
+    {
+      "row": [],
+      "col": [
+        "no fixed abode",
+        "%"
+      ],
+      "value": "0.12"
+    },
+    {
+      "row": [],
+      "col": [
+        "refusals objectors",
+        "%"
+      ],
+      "value": "1.00"
+    },
+    {
+      "row": [],
+      "col": [
+        "immigrated",
+        "%"
+      ],
+      "value": "0.25"
+    },
+    {
+      "row": [],
+      "col": [
+        "delays",
+        "%"
+      ],
+      "value": "2.04"
+    },
+    {
+      "row": [],
+      "col": [
+        "other*",
+        "%"
+      ],
+      "value": "1.54"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Emilia Romagna"
+    },
+    {
+      "row": [],
+      "col": [
+        "resident population",
+        "N."
+      ],
+      "value": "29662"
+    },
+    {
+      "row": [],
+      "col": [
+        "living abroad",
+        "%"
+      ],
+      "value": "0.24"
+    },
+    {
+      "row": [],
+      "col": [
+        "no fixed abode",
+        "%"
+      ],
+      "value": "0.09"
+    },
+    {
+      "row": [],
+      "col": [
+        "refusals objectors",
+        "%"
+      ],
+      "value": "0.29"
+    },
+    {
+      "row": [],
+      "col": [
+        "immigrated",
+        "%"
+      ],
+      "value": "0.22"
+    },
+    {
+      "row": [],
+      "col": [
+        "delays",
+        "%"
+      ],
+      "value": "0.51"
+    },
+    {
+      "row": [],
+      "col": [
+        "other*",
+        "%"
+      ],
+      "value": "0.22"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "1999"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Municipality of Bologna"
+    },
+    {
+      "row": [],
+      "col": [
+        "resident population",
+        "N."
+      ],
+      "value": "2560"
+    },
+    {
+      "row": [],
+      "col": [
+        "living abroad",
+        "%"
+      ],
+      "value": "1.09"
+    },
+    {
+      "row": [],
+      "col": [
+        "no fixed abode",
+        "%"
+      ],
+      "value": "0.43"
+    },
+    {
+      "row": [],
+      "col": [
+        "refusals objectors",
+        "%"
+      ],
+      "value": "0.47"
+    },
+    {
+      "row": [],
+      "col": [
+        "immigrated",
+        "%"
+      ],
+      "value": "0.78"
+    },
+    {
+      "row": [],
+      "col": [
+        "delays",
+        "%"
+      ],
+      "value": "1.05"
+    },
+    {
+      "row": [],
+      "col": [
+        "other*",
+        "%"
+      ],
+      "value": "0.27"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Emilia Romagna"
+    },
+    {
+      "row": [],
+      "col": [
+        "resident population",
+        "N."
+      ],
+      "value": "30916"
+    },
+    {
+      "row": [],
+      "col": [
+        "living abroad",
+        "%"
+      ],
+      "value": "0.27"
+    },
+    {
+      "row": [],
+      "col": [
+        "no fixed abode",
+        "%"
+      ],
+      "value": "0.07"
+    },
+    {
+      "row": [],
+      "col": [
+        "refusals objectors",
+        "%"
+      ],
+      "value": "0.35"
+    },
+    {
+      "row": [],
+      "col": [
+        "immigrated",
+        "%"
+      ],
+      "value": "0.22"
+    },
+    {
+      "row": [],
+      "col": [
+        "delays",
+        "%"
+      ],
+      "value": "0.37"
+    },
+    {
+      "row": [],
+      "col": [
+        "other*",
+        "%"
+      ],
+      "value": "0.11"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "2000"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Municipality of Bologna"
+    },
+    {
+      "row": [],
+      "col": [
+        "resident population",
+        "N."
+      ],
+      "value": "2429"
+    },
+    {
+      "row": [],
+      "col": [
+        "living abroad",
+        "%"
+      ],
+      "value": "0,00"
+    },
+    {
+      "row": [],
+      "col": [
+        "no fixed abode",
+        "%"
+      ],
+      "value": "0.08"
+    },
+    {
+      "row": [],
+      "col": [
+        "refusals objectors",
+        "%"
+      ],
+      "value": "0.54"
+    },
+    {
+      "row": [],
+      "col": [
+        "immigrated",
+        "%"
+      ],
+      "value": "1.19"
+    },
+    {
+      "row": [],
+      "col": [
+        "delays",
+        "%"
+      ],
+      "value": "0.86"
+    },
+    {
+      "row": [],
+      "col": [
+        "other*",
+        "%"
+      ],
+      "value": "0.70"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Emilia Romagna"
+    },
+    {
+      "row": [],
+      "col": [
+        "resident population",
+        "N."
+      ],
+      "value": "31727"
+    },
+    {
+      "row": [],
+      "col": [
+        "living abroad",
+        "%"
+      ],
+      "value": "0.20"
+    },
+    {
+      "row": [],
+      "col": [
+        "no fixed abode",
+        "%"
+      ],
+      "value": "0.00"
+    },
+    {
+      "row": [],
+      "col": [
+        "refusals objectors",
+        "%"
+      ],
+      "value": "0.20"
+    },
+    {
+      "row": [],
+      "col": [
+        "immigrated",
+        "%"
+      ],
+      "value": "0.40"
+    },
+    {
+      "row": [],
+      "col": [
+        "delays",
+        "%"
+      ],
+      "value": "0.50"
+    },
+    {
+      "row": [],
+      "col": [
+        "other*",
+        "%"
+      ],
+      "value": "0.2"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "2001"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Municipality of Bologna"
+    },
+    {
+      "row": [],
+      "col": [
+        "resident population",
+        "N."
+      ],
+      "value": "2619"
+    },
+    {
+      "row": [],
+      "col": [
+        "living abroad",
+        "%"
+      ],
+      "value": "0.04"
+    },
+    {
+      "row": [],
+      "col": [
+        "no fixed abode",
+        "%"
+      ],
+      "value": "0.19"
+    },
+    {
+      "row": [],
+      "col": [
+        "refusals objectors",
+        "%"
+      ],
+      "value": "1.26"
+    },
+    {
+      "row": [],
+      "col": [
+        "immigrated",
+        "%"
+      ],
+      "value": "0.38"
+    },
+    {
+      "row": [],
+      "col": [
+        "delays",
+        "%"
+      ],
+      "value": "1.07"
+    },
+    {
+      "row": [],
+      "col": [
+        "other*",
+        "%"
+      ],
+      "value": "0.53"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Emilia Romagna"
+    },
+    {
+      "row": [],
+      "col": [
+        "resident population",
+        "N."
+      ],
+      "value": "32866"
+    },
+    {
+      "row": [],
+      "col": [
+        "living abroad",
+        "%"
+      ],
+      "value": "0.25"
+    },
+    {
+      "row": [],
+      "col": [
+        "no fixed abode",
+        "%"
+      ],
+      "value": "0.05"
+    },
+    {
+      "row": [],
+      "col": [
+        "refusals objectors",
+        "%"
+      ],
+      "value": "0.60"
+    },
+    {
+      "row": [],
+      "col": [
+        "immigrated",
+        "%"
+      ],
+      "value": "0.26"
+    },
+    {
+      "row": [],
+      "col": [
+        "delays",
+        "%"
+      ],
+      "value": "0.58"
+    },
+    {
+      "row": [],
+      "col": [
+        "other*",
+        "%"
+      ],
+      "value": "0.25"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "2002"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Municipality of Bologna"
+    },
+    {
+      "row": [],
+      "col": [
+        "resident population",
+        "N."
+      ],
+      "value": "2706"
+    },
+    {
+      "row": [],
+      "col": [
+        "living abroad",
+        "%"
+      ],
+      "value": "0.00"
+    },
+    {
+      "row": [],
+      "col": [
+        "no fixed abode",
+        "%"
+      ],
+      "value": "0.04"
+    },
+    {
+      "row": [],
+      "col": [
+        "refusals objectors",
+        "%"
+      ],
+      "value": "1.55"
+    },
+    {
+      "row": [],
+      "col": [
+        "immigrated",
+        "%"
+      ],
+      "value": "0.59"
+    },
+    {
+      "row": [],
+      "col": [
+        "delays",
+        "%"
+      ],
+      "value": "1.07"
+    },
+    {
+      "row": [],
+      "col": [
+        "other*",
+        "%"
+      ],
+      "value": "0.74"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Emilia Romagna"
+    },
+    {
+      "row": [],
+      "col": [
+        "resident population",
+        "N."
+      ],
+      "value": "34950"
+    },
+    {
+      "row": [],
+      "col": [
+        "living abroad",
+        "%"
+      ],
+      "value": "0.21"
+    },
+    {
+      "row": [],
+      "col": [
+        "no fixed abode",
+        "%"
+      ],
+      "value": "0.04"
+    },
+    {
+      "row": [],
+      "col": [
+        "refusals objectors",
+        "%"
+      ],
+      "value": "1.00"
+    },
+    {
+      "row": [],
+      "col": [
+        "immigrated",
+        "%"
+      ],
+      "value": "0.23"
+    },
+    {
+      "row": [],
+      "col": [
+        "delays",
+        "%"
+      ],
+      "value": "0.69"
+    },
+    {
+      "row": [],
+      "col": [
+        "other*",
+        "%"
+      ],
+      "value": "0.38"
+    }
+  ]
+}

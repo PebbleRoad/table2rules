@@ -1,0 +1,381 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0.02",
+    "0.09",
+    "0.29",
+    "0.33",
+    "0.47",
+    "0.72",
+    "14.1 \u00b1 14.6",
+    "15.3 \u00b1 13",
+    "16.6 \u00b1 13",
+    "17.4 \u00b1 13.7",
+    "18.9 \u00b1 12.8",
+    "19.1 \u00b1 15.2",
+    "20.1 \u00b1 13.7",
+    "20.4 \u00b1 14.6",
+    "21.6 \u00b1 14.3",
+    "22.5 \u00b1 21",
+    "23 \u00b1 13",
+    "23 \u00b1 22.6",
+    "23.3 \u00b1 15.4",
+    "24.9 \u00b1 24",
+    "25 \u00b1 17",
+    "26.3 \u00b1 23.1",
+    "27.6 \u00b1 21.7",
+    "27.7 \u00b1 23",
+    "28.5 \u00b1 25",
+    "34 \u00b1 24",
+    "COPD",
+    "Combined",
+    "ICU length of stay (days)",
+    "Mechanical ventilation duration (days)",
+    "Medicine",
+    "Neurosurgery",
+    "Outcomes",
+    "P",
+    "Physician-directed weaning group (controls)",
+    "Protocol-directed weaning group (cases)",
+    "Surgery"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Outcomes"
+      ],
+      "value": "Mechanical ventilation duration (days)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Protocol-directed weaning group (cases)"
+      ],
+      "value": "Mechanical ventilation duration (days)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Physician-directed weaning group (controls)"
+      ],
+      "value": "Mechanical ventilation duration (days)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "Mechanical ventilation duration (days)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Outcomes"
+      ],
+      "value": "Medicine"
+    },
+    {
+      "row": [],
+      "col": [
+        "Protocol-directed weaning group (cases)"
+      ],
+      "value": "15.3 \u00b1 13"
+    },
+    {
+      "row": [],
+      "col": [
+        "Physician-directed weaning group (controls)"
+      ],
+      "value": "23 \u00b1 22.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "Outcomes"
+      ],
+      "value": "Surgery"
+    },
+    {
+      "row": [],
+      "col": [
+        "Protocol-directed weaning group (cases)"
+      ],
+      "value": "19.1 \u00b1 15.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Physician-directed weaning group (controls)"
+      ],
+      "value": "17.4 \u00b1 13.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.72"
+    },
+    {
+      "row": [],
+      "col": [
+        "Outcomes"
+      ],
+      "value": "Neurosurgery"
+    },
+    {
+      "row": [],
+      "col": [
+        "Protocol-directed weaning group (cases)"
+      ],
+      "value": "18.9 \u00b1 12.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Physician-directed weaning group (controls)"
+      ],
+      "value": "26.3 \u00b1 23.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.29"
+    },
+    {
+      "row": [],
+      "col": [
+        "Outcomes"
+      ],
+      "value": "COPD"
+    },
+    {
+      "row": [],
+      "col": [
+        "Protocol-directed weaning group (cases)"
+      ],
+      "value": "14.1 \u00b1 14.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Physician-directed weaning group (controls)"
+      ],
+      "value": "24.9 \u00b1 24"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.33"
+    },
+    {
+      "row": [],
+      "col": [
+        "Outcomes"
+      ],
+      "value": "Combined"
+    },
+    {
+      "row": [],
+      "col": [
+        "Protocol-directed weaning group (cases)"
+      ],
+      "value": "16.6 \u00b1 13"
+    },
+    {
+      "row": [],
+      "col": [
+        "Physician-directed weaning group (controls)"
+      ],
+      "value": "22.5 \u00b1 21"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "Outcomes"
+      ],
+      "value": "ICU length of stay (days)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Protocol-directed weaning group (cases)"
+      ],
+      "value": "ICU length of stay (days)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Physician-directed weaning group (controls)"
+      ],
+      "value": "ICU length of stay (days)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "ICU length of stay (days)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Outcomes"
+      ],
+      "value": "Medicine"
+    },
+    {
+      "row": [],
+      "col": [
+        "Protocol-directed weaning group (cases)"
+      ],
+      "value": "20.1 \u00b1 13.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Physician-directed weaning group (controls)"
+      ],
+      "value": "27.7 \u00b1 23"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "Outcomes"
+      ],
+      "value": "Surgery"
+    },
+    {
+      "row": [],
+      "col": [
+        "Protocol-directed weaning group (cases)"
+      ],
+      "value": "25 \u00b1 17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Physician-directed weaning group (controls)"
+      ],
+      "value": "23.3 \u00b1 15.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.72"
+    },
+    {
+      "row": [],
+      "col": [
+        "Outcomes"
+      ],
+      "value": "Neurosurgery"
+    },
+    {
+      "row": [],
+      "col": [
+        "Protocol-directed weaning group (cases)"
+      ],
+      "value": "23 \u00b1 13"
+    },
+    {
+      "row": [],
+      "col": [
+        "Physician-directed weaning group (controls)"
+      ],
+      "value": "34 \u00b1 24"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.09"
+    },
+    {
+      "row": [],
+      "col": [
+        "Outcomes"
+      ],
+      "value": "COPD"
+    },
+    {
+      "row": [],
+      "col": [
+        "Protocol-directed weaning group (cases)"
+      ],
+      "value": "20.4 \u00b1 14.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Physician-directed weaning group (controls)"
+      ],
+      "value": "28.5 \u00b1 25"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.47"
+    },
+    {
+      "row": [],
+      "col": [
+        "Outcomes"
+      ],
+      "value": "Combined"
+    },
+    {
+      "row": [],
+      "col": [
+        "Protocol-directed weaning group (cases)"
+      ],
+      "value": "21.6 \u00b1 14.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Physician-directed weaning group (controls)"
+      ],
+      "value": "27.6 \u00b1 21.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.02"
+    }
+  ]
+}

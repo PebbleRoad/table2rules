@@ -1,0 +1,321 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "10 \u00b1 13",
+    "11 \u00b1 12",
+    "11 \u00b1 5",
+    "13 \u00b1 18",
+    "14 \u00b1 11",
+    "14 \u00b1 15",
+    "18 \u00b1 18",
+    "18 \u00b1 21",
+    "20 \u00b1 13",
+    "24 \u00b1 27",
+    "28 \u00b1 30",
+    "29 \u00b1 21",
+    "31 \u00b1 22",
+    "5 \u00b1 5",
+    "5 \u00b1 6",
+    "51 \u00b1 19",
+    "51 \u00b1 21",
+    "57 \u00b1 18",
+    "59 \u00b1 18",
+    "6 + 8",
+    "70 \u00b1 20",
+    "73 \u00b1 15",
+    "73 \u00b1 30",
+    "75 \u00b1 17",
+    "75 \u00b1 23",
+    "76 \u00b1 24",
+    "77 \u00b1 23",
+    "83 \u00b1 12",
+    "Breast cancer",
+    "CD3 + CD56 +",
+    "CD3 + CD56 -",
+    "CD3 - CD56 +",
+    "CD4 + T cell",
+    "CD8 + T cell",
+    "Donor",
+    "NSL",
+    "NSL + DC-Tu per",
+    "Phenotype (%)",
+    "TCR \u03b1/\u03b2",
+    "TCR \u03b3/\u03b4"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Phenotype (%)"
+      ],
+      "value": "CD3 + CD56 -"
+    },
+    {
+      "row": [],
+      "col": [
+        "Donor",
+        "NSL"
+      ],
+      "value": "73 \u00b1 30"
+    },
+    {
+      "row": [],
+      "col": [
+        "Donor",
+        "NSL + DC-Tu per"
+      ],
+      "value": "76 \u00b1 24"
+    },
+    {
+      "row": [],
+      "col": [
+        "Breast cancer",
+        "NSL"
+      ],
+      "value": "75 \u00b1 17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Breast cancer",
+        "NSL + DC-Tu per"
+      ],
+      "value": "73 \u00b1 15"
+    },
+    {
+      "row": [],
+      "col": [
+        "Phenotype (%)"
+      ],
+      "value": "CD3 - CD56 +"
+    },
+    {
+      "row": [],
+      "col": [
+        "Donor",
+        "NSL"
+      ],
+      "value": "6 + 8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Donor",
+        "NSL + DC-Tu per"
+      ],
+      "value": "5 \u00b1 6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Breast cancer",
+        "NSL"
+      ],
+      "value": "10 \u00b1 13"
+    },
+    {
+      "row": [],
+      "col": [
+        "Breast cancer",
+        "NSL + DC-Tu per"
+      ],
+      "value": "5 \u00b1 5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Phenotype (%)"
+      ],
+      "value": "CD3 + CD56 +"
+    },
+    {
+      "row": [],
+      "col": [
+        "Donor",
+        "NSL"
+      ],
+      "value": "18 \u00b1 21"
+    },
+    {
+      "row": [],
+      "col": [
+        "Donor",
+        "NSL + DC-Tu per"
+      ],
+      "value": "18 \u00b1 18"
+    },
+    {
+      "row": [],
+      "col": [
+        "Breast cancer",
+        "NSL"
+      ],
+      "value": "11 \u00b1 5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Breast cancer",
+        "NSL + DC-Tu per"
+      ],
+      "value": "20 \u00b1 13"
+    },
+    {
+      "row": [],
+      "col": [
+        "Phenotype (%)"
+      ],
+      "value": "CD4 + T cell"
+    },
+    {
+      "row": [],
+      "col": [
+        "Donor",
+        "NSL"
+      ],
+      "value": "28 \u00b1 30"
+    },
+    {
+      "row": [],
+      "col": [
+        "Donor",
+        "NSL + DC-Tu per"
+      ],
+      "value": "24 \u00b1 27"
+    },
+    {
+      "row": [],
+      "col": [
+        "Breast cancer",
+        "NSL"
+      ],
+      "value": "29 \u00b1 21"
+    },
+    {
+      "row": [],
+      "col": [
+        "Breast cancer",
+        "NSL + DC-Tu per"
+      ],
+      "value": "31 \u00b1 22"
+    },
+    {
+      "row": [],
+      "col": [
+        "Phenotype (%)"
+      ],
+      "value": "CD8 + T cell"
+    },
+    {
+      "row": [],
+      "col": [
+        "Donor",
+        "NSL"
+      ],
+      "value": "51 \u00b1 21"
+    },
+    {
+      "row": [],
+      "col": [
+        "Donor",
+        "NSL + DC-Tu per"
+      ],
+      "value": "57 \u00b1 18"
+    },
+    {
+      "row": [],
+      "col": [
+        "Breast cancer",
+        "NSL"
+      ],
+      "value": "51 \u00b1 19"
+    },
+    {
+      "row": [],
+      "col": [
+        "Breast cancer",
+        "NSL + DC-Tu per"
+      ],
+      "value": "59 \u00b1 18"
+    },
+    {
+      "row": [],
+      "col": [
+        "Phenotype (%)"
+      ],
+      "value": "TCR \u03b1/\u03b2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Donor",
+        "NSL"
+      ],
+      "value": "75 \u00b1 23"
+    },
+    {
+      "row": [],
+      "col": [
+        "Donor",
+        "NSL + DC-Tu per"
+      ],
+      "value": "77 \u00b1 23"
+    },
+    {
+      "row": [],
+      "col": [
+        "Breast cancer",
+        "NSL"
+      ],
+      "value": "70 \u00b1 20"
+    },
+    {
+      "row": [],
+      "col": [
+        "Breast cancer",
+        "NSL + DC-Tu per"
+      ],
+      "value": "83 \u00b1 12"
+    },
+    {
+      "row": [],
+      "col": [
+        "Phenotype (%)"
+      ],
+      "value": "TCR \u03b3/\u03b4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Donor",
+        "NSL"
+      ],
+      "value": "14 \u00b1 15"
+    },
+    {
+      "row": [],
+      "col": [
+        "Donor",
+        "NSL + DC-Tu per"
+      ],
+      "value": "13 \u00b1 18"
+    },
+    {
+      "row": [],
+      "col": [
+        "Breast cancer",
+        "NSL"
+      ],
+      "value": "14 \u00b1 11"
+    },
+    {
+      "row": [],
+      "col": [
+        "Breast cancer",
+        "NSL + DC-Tu per"
+      ],
+      "value": "11 \u00b1 12"
+    }
+  ]
+}

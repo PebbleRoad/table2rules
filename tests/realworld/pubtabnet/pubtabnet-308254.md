@@ -1,0 +1,201 @@
+<!-- source: PubTabNet imgid=308254 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+<b>
+       Hospital Day (Number of children in hospital for that duration)
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Total Wheezing score
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Retractions
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Total RDAI score
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<b>
+       Racemic epinephrine
+      </b>
+</td>
+<td>
+<b>
+       Salbutamol
+      </b>
+</td>
+<td>
+<b>
+       Racemic epinephrine
+      </b>
+</td>
+<td>
+<b>
+       Salbutamol
+      </b>
+</td>
+<td>
+<b>
+       Racemic epinephrine
+      </b>
+</td>
+<td>
+<b>
+       Salbutamol
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      0 (n = 62)
+     </td>
+<td>
+      4.23
+     </td>
+<td>
+      5.06
+     </td>
+<td>
+      3.13
+     </td>
+<td>
+      3.23
+     </td>
+<td>
+      7.35
+     </td>
+<td>
+      8.29
+     </td>
+</tr>
+<tr>
+<td>
+      1 (n = 58)
+     </td>
+<td>
+      2.04
+     </td>
+<td>
+      3.70
+     </td>
+<td>
+      1.64
+     </td>
+<td>
+      1.64
+     </td>
+<td>
+      3.68
+     </td>
+<td>
+      6
+     </td>
+</tr>
+<tr>
+<td>
+      2 (n = 40)
+     </td>
+<td>
+      1.59
+     </td>
+<td>
+      2.65
+     </td>
+<td>
+      1.06
+     </td>
+<td>
+      1.06
+     </td>
+<td>
+      2.65
+     </td>
+<td>
+      4.13
+     </td>
+</tr>
+<tr>
+<td>
+      3 (n = 22)
+     </td>
+<td>
+      2.09
+     </td>
+<td>
+      2.73
+     </td>
+<td>
+      1.09
+     </td>
+<td>
+      1.09
+     </td>
+<td>
+      3.18
+     </td>
+<td>
+      4.27
+     </td>
+</tr>
+<tr>
+<td>
+      4 (n = 9)
+     </td>
+<td>
+      2.75
+     </td>
+<td>
+      4.00
+     </td>
+<td>
+      1.75
+     </td>
+<td>
+      1.75
+     </td>
+<td>
+      4.5
+     </td>
+<td>
+      6.4
+     </td>
+</tr>
+<tr>
+<td>
+      5 (n = 9)
+     </td>
+<td>
+      2.00
+     </td>
+<td>
+      2.60
+     </td>
+<td>
+      0.75
+     </td>
+<td>
+      0.75
+     </td>
+<td>
+      2.75
+     </td>
+<td>
+      4.2
+     </td>
+</tr>
+</tbody>
+</table>

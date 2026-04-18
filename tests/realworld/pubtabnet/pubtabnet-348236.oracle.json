@@ -1,0 +1,431 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0 (0%)",
+    "0/47 (0.00)",
+    "1 (2%)",
+    "1 (2%) c",
+    "1 (2%) d",
+    "1 (2%) e",
+    "1/53 (0.02)",
+    "19 (31%)",
+    "22 (42%)",
+    "24 (44%) b",
+    "26 (55%)",
+    "28/61 (0.46)",
+    "29 (48%)",
+    "3 (6%)",
+    "32 (58%) a *",
+    "52/55 (0.95)**",
+    "Atm +/+ ( n = 53)",
+    "Atm +/+ ( n = 61)",
+    "Atm +/- ( n = 47)",
+    "Atm +/- ( n = 55)",
+    "Basal cell carcinoma",
+    "Genotypes",
+    "Granulocytic leukaemia",
+    "Histiocytic sarcoma",
+    "Lymphoma",
+    "Mammary carcinoma",
+    "Nonthymic lymphoma (NOS)",
+    "Number of mammary carcinomas/mouse e",
+    "Ovarian carcinoma",
+    "Solid tumour (NOS)",
+    "Squamous cell carcinoma",
+    "p 53 +/-",
+    "p53 +/+"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Genotypes"
+      ],
+      "value": "Mammary carcinoma"
+    },
+    {
+      "row": [],
+      "col": [
+        "p 53 +/-",
+        "Atm +/- ( n = 55)"
+      ],
+      "value": "32 (58%) a *"
+    },
+    {
+      "row": [],
+      "col": [
+        "p 53 +/-",
+        "Atm +/+ ( n = 61)"
+      ],
+      "value": "19 (31%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "p53 +/+",
+        "Atm +/- ( n = 47)"
+      ],
+      "value": "0 (0%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "p53 +/+",
+        "Atm +/+ ( n = 53)"
+      ],
+      "value": "1 (2%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotypes"
+      ],
+      "value": "Lymphoma"
+    },
+    {
+      "row": [],
+      "col": [
+        "p 53 +/-",
+        "Atm +/- ( n = 55)"
+      ],
+      "value": "24 (44%) b"
+    },
+    {
+      "row": [],
+      "col": [
+        "p 53 +/-",
+        "Atm +/+ ( n = 61)"
+      ],
+      "value": "29 (48%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "p53 +/+",
+        "Atm +/- ( n = 47)"
+      ],
+      "value": "26 (55%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "p53 +/+",
+        "Atm +/+ ( n = 53)"
+      ],
+      "value": "22 (42%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotypes"
+      ],
+      "value": "Squamous cell carcinoma"
+    },
+    {
+      "row": [],
+      "col": [
+        "p 53 +/-",
+        "Atm +/- ( n = 55)"
+      ],
+      "value": "1 (2%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "p 53 +/-",
+        "Atm +/+ ( n = 61)"
+      ],
+      "value": "1 (2%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "p53 +/+",
+        "Atm +/- ( n = 47)"
+      ],
+      "value": "0 (0%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "p53 +/+",
+        "Atm +/+ ( n = 53)"
+      ],
+      "value": "0 (0%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotypes"
+      ],
+      "value": "Histiocytic sarcoma"
+    },
+    {
+      "row": [],
+      "col": [
+        "p 53 +/-",
+        "Atm +/- ( n = 55)"
+      ],
+      "value": "1 (2%) c"
+    },
+    {
+      "row": [],
+      "col": [
+        "p 53 +/-",
+        "Atm +/+ ( n = 61)"
+      ],
+      "value": "0 (0%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "p53 +/+",
+        "Atm +/- ( n = 47)"
+      ],
+      "value": "0 (0%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "p53 +/+",
+        "Atm +/+ ( n = 53)"
+      ],
+      "value": "0 (0%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotypes"
+      ],
+      "value": "Basal cell carcinoma"
+    },
+    {
+      "row": [],
+      "col": [
+        "p 53 +/-",
+        "Atm +/- ( n = 55)"
+      ],
+      "value": "0 (0%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "p 53 +/-",
+        "Atm +/+ ( n = 61)"
+      ],
+      "value": "1 (2%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "p53 +/+",
+        "Atm +/- ( n = 47)"
+      ],
+      "value": "0 (0%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "p53 +/+",
+        "Atm +/+ ( n = 53)"
+      ],
+      "value": "0 (0%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotypes"
+      ],
+      "value": "Granulocytic leukaemia"
+    },
+    {
+      "row": [],
+      "col": [
+        "p 53 +/-",
+        "Atm +/- ( n = 55)"
+      ],
+      "value": "0 (0%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "p 53 +/-",
+        "Atm +/+ ( n = 61)"
+      ],
+      "value": "1 (2%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "p53 +/+",
+        "Atm +/- ( n = 47)"
+      ],
+      "value": "0 (0%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "p53 +/+",
+        "Atm +/+ ( n = 53)"
+      ],
+      "value": "0 (0%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotypes"
+      ],
+      "value": "Ovarian carcinoma"
+    },
+    {
+      "row": [],
+      "col": [
+        "p 53 +/-",
+        "Atm +/- ( n = 55)"
+      ],
+      "value": "0 (0%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "p 53 +/-",
+        "Atm +/+ ( n = 61)"
+      ],
+      "value": "1 (2%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "p53 +/+",
+        "Atm +/- ( n = 47)"
+      ],
+      "value": "0 (0%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "p53 +/+",
+        "Atm +/+ ( n = 53)"
+      ],
+      "value": "0 (0%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotypes"
+      ],
+      "value": "Nonthymic lymphoma (NOS)"
+    },
+    {
+      "row": [],
+      "col": [
+        "p 53 +/-",
+        "Atm +/- ( n = 55)"
+      ],
+      "value": "0 (0%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "p 53 +/-",
+        "Atm +/+ ( n = 61)"
+      ],
+      "value": "1 (2%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "p53 +/+",
+        "Atm +/- ( n = 47)"
+      ],
+      "value": "3 (6%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "p53 +/+",
+        "Atm +/+ ( n = 53)"
+      ],
+      "value": "0 (0%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotypes"
+      ],
+      "value": "Solid tumour (NOS)"
+    },
+    {
+      "row": [],
+      "col": [
+        "p 53 +/-",
+        "Atm +/- ( n = 55)"
+      ],
+      "value": "1 (2%) d"
+    },
+    {
+      "row": [],
+      "col": [
+        "p 53 +/-",
+        "Atm +/+ ( n = 61)"
+      ],
+      "value": "1 (2%) e"
+    },
+    {
+      "row": [],
+      "col": [
+        "p53 +/+",
+        "Atm +/- ( n = 47)"
+      ],
+      "value": "1 (2%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "p53 +/+",
+        "Atm +/+ ( n = 53)"
+      ],
+      "value": "1 (2%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotypes"
+      ],
+      "value": "Number of mammary carcinomas/mouse e"
+    },
+    {
+      "row": [],
+      "col": [
+        "p 53 +/-",
+        "Atm +/- ( n = 55)"
+      ],
+      "value": "52/55 (0.95)**"
+    },
+    {
+      "row": [],
+      "col": [
+        "p 53 +/-",
+        "Atm +/+ ( n = 61)"
+      ],
+      "value": "28/61 (0.46)"
+    },
+    {
+      "row": [],
+      "col": [
+        "p53 +/+",
+        "Atm +/- ( n = 47)"
+      ],
+      "value": "0/47 (0.00)"
+    },
+    {
+      "row": [],
+      "col": [
+        "p53 +/+",
+        "Atm +/+ ( n = 53)"
+      ],
+      "value": "1/53 (0.02)"
+    }
+  ]
+}

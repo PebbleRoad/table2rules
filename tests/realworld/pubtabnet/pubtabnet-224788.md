@@ -1,0 +1,192 @@
+<!-- source: PubTabNet imgid=224788 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+<b>
+       Autoantibody
+      </b>
+</td>
+<td>
+<b>
+       Measure
+      </b>
+</td>
+<td colspan="3">
+<b>
+       Outcomes at 30 months
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td>
+<b>
+       Persistence
+      </b>
+</td>
+<td>
+<b>
+       RA criteria
+      </b>
+</td>
+<td>
+<b>
+       Severity
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      RF
+     </td>
+<td>
+      Sensitivity
+     </td>
+<td>
+      47.2
+     </td>
+<td>
+      57.1
+     </td>
+<td>
+      55.4
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      Specificity
+     </td>
+<td>
+      91.7
+     </td>
+<td>
+      62.8
+     </td>
+<td>
+      63.0
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      Positive LR
+     </td>
+<td>
+      5.69
+     </td>
+<td>
+      1.53
+     </td>
+<td>
+      1.50
+     </td>
+</tr>
+<tr>
+<td>
+      Anti-Sa
+     </td>
+<td>
+      Sensitivity
+     </td>
+<td>
+      34.4
+     </td>
+<td>
+      39.3
+     </td>
+<td>
+      44.6
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      Specificity
+     </td>
+<td>
+      95.8
+     </td>
+<td>
+      72.7
+     </td>
+<td>
+      79.3
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      Positive LR
+     </td>
+<td>
+      8.26
+     </td>
+<td>
+      1.44
+     </td>
+<td>
+      2.16
+     </td>
+</tr>
+<tr>
+<td>
+      Anti-CCP
+     </td>
+<td>
+      Sensitivity
+     </td>
+<td>
+      39.2
+     </td>
+<td>
+      39.3
+     </td>
+<td>
+      42.9
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      Specificity
+     </td>
+<td>
+      91.7
+     </td>
+<td>
+      66.9
+     </td>
+<td>
+      70.7
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      Positive LR
+     </td>
+<td>
+      4.70
+     </td>
+<td>
+      1.19
+     </td>
+<td>
+      1.46
+     </td>
+</tr>
+</tbody>
+</table>

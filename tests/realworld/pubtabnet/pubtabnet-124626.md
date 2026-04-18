@@ -1,0 +1,294 @@
+<!-- source: PubTabNet imgid=124626 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+</td>
+<td colspan="6">
+<b>
+       % Discrepance
+      </b>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="2">
+<b>
+       Very Major
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Major Error
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Minor Error
+      </b>
+</td>
+<td colspan="2">
+<b>
+       % Correlation
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+<b>
+       N = 52
+      </b>
+</td>
+<td>
+<b>
+       Agar-disc
+      </b>
+</td>
+<td>
+<b>
+       Agar-E-test
+      </b>
+</td>
+<td>
+<b>
+       Agar-disc
+      </b>
+</td>
+<td>
+<b>
+       Agar-E-test
+      </b>
+</td>
+<td>
+<b>
+       Agar-disc
+      </b>
+</td>
+<td>
+<b>
+       Agar-E-test
+      </b>
+</td>
+<td>
+<b>
+       Agar-disc
+      </b>
+</td>
+<td>
+<b>
+       Agar-E-test
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      Ceftazidime
+     </td>
+<td>
+      5.8
+     </td>
+<td>
+      5.8
+     </td>
+<td>
+      0
+     </td>
+<td>
+      0
+     </td>
+<td>
+      17.3
+     </td>
+<td>
+      13.4
+     </td>
+<td>
+      76.9
+     </td>
+<td>
+      80.8
+     </td>
+</tr>
+<tr>
+<td>
+      Cefepime
+     </td>
+<td>
+      0
+     </td>
+<td>
+      1.9
+     </td>
+<td>
+      0
+     </td>
+<td>
+      0
+     </td>
+<td>
+      11.5
+     </td>
+<td>
+      23.1
+     </td>
+<td>
+      88.5
+     </td>
+<td>
+      75.0
+     </td>
+</tr>
+<tr>
+<td>
+      Piperacillin
+     </td>
+<td>
+      0
+     </td>
+<td>
+      0
+     </td>
+<td>
+      1.9
+     </td>
+<td>
+      1.9
+     </td>
+<td>
+      38.5
+     </td>
+<td>
+      38.5
+     </td>
+<td>
+      59.6
+     </td>
+<td>
+      59.6
+     </td>
+</tr>
+<tr>
+<td>
+      PTZ
+     </td>
+<td>
+      1.9
+     </td>
+<td>
+      0
+     </td>
+<td>
+      0
+     </td>
+<td>
+      1.9
+     </td>
+<td>
+      34.6
+     </td>
+<td>
+      23.1
+     </td>
+<td>
+      63.5
+     </td>
+<td>
+      75.0
+     </td>
+</tr>
+<tr>
+<td>
+      TLc
+     </td>
+<td>
+      0
+     </td>
+<td>
+      1.9
+     </td>
+<td>
+      1.9
+     </td>
+<td>
+      0
+     </td>
+<td>
+      17.3
+     </td>
+<td>
+      19.2
+     </td>
+<td>
+      80.8
+     </td>
+<td>
+      78.9
+     </td>
+</tr>
+<tr>
+<td>
+      Ciprofloxacin
+     </td>
+<td>
+      5.8
+     </td>
+<td>
+      5.8
+     </td>
+<td>
+      0
+     </td>
+<td>
+      0
+     </td>
+<td>
+      32.7
+     </td>
+<td>
+      32.7
+     </td>
+<td>
+      61.5
+     </td>
+<td>
+      61.5
+     </td>
+</tr>
+<tr>
+<td>
+      SXT
+     </td>
+<td>
+      0
+     </td>
+<td>
+      0
+     </td>
+<td>
+      0
+     </td>
+<td>
+      0
+     </td>
+<td>
+      0
+     </td>
+<td>
+      0
+     </td>
+<td>
+      100
+     </td>
+<td>
+      100
+     </td>
+</tr>
+</tbody>
+</table>

@@ -1,0 +1,188 @@
+<!-- source: PubTabNet imgid=1191 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td colspan="2">
+<b>
+       Larsen group
+      </b>
+</td>
+<td colspan="3">
+<b>
+       Larsen score
+      </b>
+</td>
+<td colspan="3">
+<b>
+       Cathepsin K
+      </b>
+</td>
+<td>
+<b>
+       Kruskal–Wallis test
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<b>
+<i>
+        n
+       </i>
+</b>
+</td>
+<td>
+<b>
+       Minimum
+      </b>
+</td>
+<td>
+<b>
+       Median
+      </b>
+</td>
+<td>
+<b>
+       Maximum
+      </b>
+</td>
+<td>
+<b>
+       Minimum
+      </b>
+</td>
+<td>
+<b>
+       Median
+      </b>
+</td>
+<td>
+<b>
+       Maximum
+      </b>
+</td>
+<td>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      &lt; 18
+     </td>
+<td>
+      32
+     </td>
+<td>
+      0.0
+     </td>
+<td>
+      7.5
+     </td>
+<td>
+      17.0
+     </td>
+<td>
+      0.0
+     </td>
+<td>
+      26.5
+     </td>
+<td>
+      3352.0
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      ≥ 19 and &lt; 74
+     </td>
+<td>
+      34
+     </td>
+<td>
+      18.0
+     </td>
+<td>
+      38.0
+     </td>
+<td>
+      67.0
+     </td>
+<td>
+      0.0
+     </td>
+<td>
+      70.9
+     </td>
+<td>
+      1721.6
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      ≥ 75
+     </td>
+<td>
+      34
+     </td>
+<td>
+      75.0
+     </td>
+<td>
+      105.5
+     </td>
+<td>
+      164.0
+     </td>
+<td>
+      0.0
+     </td>
+<td>
+      88.8
+     </td>
+<td>
+      3453.2
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Total
+     </td>
+<td>
+      100
+     </td>
+<td>
+      0.0
+     </td>
+<td>
+      39.0
+     </td>
+<td>
+      164.0
+     </td>
+<td>
+      0.0
+     </td>
+<td>
+      54.8
+     </td>
+<td>
+      3453.2
+     </td>
+<td>
+<i>
+       P
+      </i>
+      = 0.035
+     </td>
+</tr>
+</tbody>
+</table>

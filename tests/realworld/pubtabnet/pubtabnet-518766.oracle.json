@@ -1,0 +1,319 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    ".001",
+    ".003",
+    ".008",
+    ".593",
+    "180",
+    "181",
+    "182",
+    "183",
+    "3.48 (2.90)",
+    "4.26 (3.27)",
+    "4.69 (2.77)",
+    "4.94 (2.87)",
+    "5.36 (3.14)",
+    "5.44 (3.10)",
+    "5.45 (2.93)",
+    "5.91 (2.64)",
+    "6.66 (2.38)",
+    "6.72 (2.29)",
+    "6.95 (2.21)",
+    "7.10 (2.12)",
+    "83",
+    "85",
+    "<.001",
+    "M (SD)",
+    "Men",
+    "N",
+    "Q10: influence on world affairs",
+    "Q11: natural disasters",
+    "Q3: strength of belief",
+    "Q7: practice of faith",
+    "Q8: influence of power or force",
+    "Q9: enable you to cope",
+    "Question",
+    "Women",
+    "t-test (Sig.)"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Question"
+      ],
+      "value": "Q3: strength of belief"
+    },
+    {
+      "row": [],
+      "col": [
+        "Men",
+        "N"
+      ],
+      "value": "83"
+    },
+    {
+      "row": [],
+      "col": [
+        "Men",
+        "M (SD)"
+      ],
+      "value": "6.95 (2.21)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Women",
+        "N"
+      ],
+      "value": "183"
+    },
+    {
+      "row": [],
+      "col": [
+        "Women",
+        "M (SD)"
+      ],
+      "value": "7.10 (2.12)"
+    },
+    {
+      "row": [],
+      "col": [
+        "t-test (Sig.)"
+      ],
+      "value": ".593"
+    },
+    {
+      "row": [],
+      "col": [
+        "Question"
+      ],
+      "value": "Q7: practice of faith"
+    },
+    {
+      "row": [],
+      "col": [
+        "Men",
+        "N"
+      ],
+      "value": "83"
+    },
+    {
+      "row": [],
+      "col": [
+        "Men",
+        "M (SD)"
+      ],
+      "value": "4.94 (2.87)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Women",
+        "N"
+      ],
+      "value": "180"
+    },
+    {
+      "row": [],
+      "col": [
+        "Women",
+        "M (SD)"
+      ],
+      "value": "5.91 (2.64)"
+    },
+    {
+      "row": [],
+      "col": [
+        "t-test (Sig.)"
+      ],
+      "value": ".008"
+    },
+    {
+      "row": [],
+      "col": [
+        "Question"
+      ],
+      "value": "Q8: influence of power or force"
+    },
+    {
+      "row": [],
+      "col": [
+        "Men",
+        "N"
+      ],
+      "value": "85"
+    },
+    {
+      "row": [],
+      "col": [
+        "Men",
+        "M (SD)"
+      ],
+      "value": "5.36 (3.14)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Women",
+        "N"
+      ],
+      "value": "182"
+    },
+    {
+      "row": [],
+      "col": [
+        "Women",
+        "M (SD)"
+      ],
+      "value": "6.66 (2.38)"
+    },
+    {
+      "row": [],
+      "col": [
+        "t-test (Sig.)"
+      ],
+      "value": "<.001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Question"
+      ],
+      "value": "Q9: enable you to cope"
+    },
+    {
+      "row": [],
+      "col": [
+        "Men",
+        "N"
+      ],
+      "value": "85"
+    },
+    {
+      "row": [],
+      "col": [
+        "Men",
+        "M (SD)"
+      ],
+      "value": "5.44 (3.10)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Women",
+        "N"
+      ],
+      "value": "180"
+    },
+    {
+      "row": [],
+      "col": [
+        "Women",
+        "M (SD)"
+      ],
+      "value": "6.72 (2.29)"
+    },
+    {
+      "row": [],
+      "col": [
+        "t-test (Sig.)"
+      ],
+      "value": "<.001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Question"
+      ],
+      "value": "Q10: influence on world affairs"
+    },
+    {
+      "row": [],
+      "col": [
+        "Men",
+        "N"
+      ],
+      "value": "85"
+    },
+    {
+      "row": [],
+      "col": [
+        "Men",
+        "M (SD)"
+      ],
+      "value": "3.48 (2.90)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Women",
+        "N"
+      ],
+      "value": "181"
+    },
+    {
+      "row": [],
+      "col": [
+        "Women",
+        "M (SD)"
+      ],
+      "value": "4.69 (2.77)"
+    },
+    {
+      "row": [],
+      "col": [
+        "t-test (Sig.)"
+      ],
+      "value": ".001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Question"
+      ],
+      "value": "Q11: natural disasters"
+    },
+    {
+      "row": [],
+      "col": [
+        "Men",
+        "N"
+      ],
+      "value": "85"
+    },
+    {
+      "row": [],
+      "col": [
+        "Men",
+        "M (SD)"
+      ],
+      "value": "4.26 (3.27)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Women",
+        "N"
+      ],
+      "value": "182"
+    },
+    {
+      "row": [],
+      "col": [
+        "Women",
+        "M (SD)"
+      ],
+      "value": "5.45 (2.93)"
+    },
+    {
+      "row": [],
+      "col": [
+        "t-test (Sig.)"
+      ],
+      "value": ".003"
+    }
+  ]
+}

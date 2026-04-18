@@ -1,0 +1,341 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0.001",
+    "0.002",
+    "0.004",
+    "0.004 \u00b1 0.9",
+    "0.49",
+    "0.77",
+    "0.79",
+    "0.85",
+    "0.87",
+    "0.95",
+    "1.3 \u00b1 5.8",
+    "1.5 \u00b1 0.6",
+    "1.5 \u00b1 4.3",
+    "1.6 \u00b1 0.9",
+    "1.6 \u00b1 2.8",
+    "1.6 \u00b1 3.4",
+    "13.5 \u00b1 9.6",
+    "16.5 \u00b1 83.9",
+    "17.2 \u00b1 13.3",
+    "19.1 \u00b1 60.1",
+    "2.2 \u00b1 6.9",
+    "2.6 \u00b1 8.7",
+    "20.1 \u00b1 8.5",
+    "20.4 \u00b1 45.1",
+    "35.7 \u00b1 76.1",
+    "36.8 \u00b1 70.7",
+    "38.3 \u00b1 62.6",
+    "5.4 \u00b1 1.1",
+    "70.8 \u00b1 12.3",
+    "<0.001",
+    "Adjusted analysis",
+    "Annual change",
+    "Change %",
+    "Crude analysis",
+    "Increase, mm 2",
+    "Lateral",
+    "Medial",
+    "Men",
+    "P",
+    "P a",
+    "P b",
+    "Total",
+    "Women"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Annual change"
+      ],
+      "value": "Increase, mm 2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change"
+      ],
+      "value": "Medial"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "36.8 \u00b1 70.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "<0.001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Crude analysis",
+        "Men"
+      ],
+      "value": "38.3 \u00b1 62.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Crude analysis",
+        "Women"
+      ],
+      "value": "35.7 \u00b1 76.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Crude analysis",
+        "P a"
+      ],
+      "value": "0.85"
+    },
+    {
+      "row": [],
+      "col": [
+        "Adjusted analysis",
+        "Men"
+      ],
+      "value": "70.8 \u00b1 12.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Adjusted analysis",
+        "Women"
+      ],
+      "value": "13.5 \u00b1 9.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Adjusted analysis",
+        "P b"
+      ],
+      "value": "0.002"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change"
+      ],
+      "value": "Lateral"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "19.1 \u00b1 60.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.004"
+    },
+    {
+      "row": [],
+      "col": [
+        "Crude analysis",
+        "Men"
+      ],
+      "value": "16.5 \u00b1 83.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Crude analysis",
+        "Women"
+      ],
+      "value": "20.4 \u00b1 45.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Crude analysis",
+        "P a"
+      ],
+      "value": "0.77"
+    },
+    {
+      "row": [],
+      "col": [
+        "Adjusted analysis",
+        "Men"
+      ],
+      "value": "17.2 \u00b1 13.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Adjusted analysis",
+        "Women"
+      ],
+      "value": "20.1 \u00b1 8.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Adjusted analysis",
+        "P b"
+      ],
+      "value": "0.87"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change"
+      ],
+      "value": "Change %"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change"
+      ],
+      "value": "Medial"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "2.2 \u00b1 6.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "<0.001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Crude analysis",
+        "Men"
+      ],
+      "value": "1.6 \u00b1 2.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Crude analysis",
+        "Women"
+      ],
+      "value": "2.6 \u00b1 8.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Crude analysis",
+        "P a"
+      ],
+      "value": "0.49"
+    },
+    {
+      "row": [],
+      "col": [
+        "Adjusted analysis",
+        "Men"
+      ],
+      "value": "5.4 \u00b1 1.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Adjusted analysis",
+        "Women"
+      ],
+      "value": "0.004 \u00b1 0.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Adjusted analysis",
+        "P b"
+      ],
+      "value": "0.001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Annual change"
+      ],
+      "value": "Lateral"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "1.5 \u00b1 4.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.004"
+    },
+    {
+      "row": [],
+      "col": [
+        "Crude analysis",
+        "Men"
+      ],
+      "value": "1.3 \u00b1 5.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Crude analysis",
+        "Women"
+      ],
+      "value": "1.6 \u00b1 3.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Crude analysis",
+        "P a"
+      ],
+      "value": "0.79"
+    },
+    {
+      "row": [],
+      "col": [
+        "Adjusted analysis",
+        "Men"
+      ],
+      "value": "1.6 \u00b1 0.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Adjusted analysis",
+        "Women"
+      ],
+      "value": "1.5 \u00b1 0.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Adjusted analysis",
+        "P b"
+      ],
+      "value": "0.95"
+    }
+  ]
+}

@@ -1,0 +1,406 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0.0",
+    "0.1",
+    "0.2",
+    "0.5",
+    "1.4",
+    "1.5",
+    "1.7",
+    "1.9",
+    "10.3",
+    "13.9",
+    "1420.0",
+    "2.5",
+    "2.8",
+    "2.9",
+    "3.1",
+    "4.5",
+    "910.0",
+    "ANA 1",
+    "ANA 10",
+    "ANA 2",
+    "ANA 3",
+    "ANA 4",
+    "ANA 5",
+    "ANA 6",
+    "ANA 7",
+    "ANA 8",
+    "ANA 9",
+    "CREST",
+    "Diagnosis",
+    "HD",
+    "MCTD",
+    "PM",
+    "SLE",
+    "SLR Research A",
+    "SLR Research B",
+    "SLR Research D",
+    "SLR Research E",
+    "SLR Research F",
+    "SLR Research G",
+    "SLR Research I",
+    "SLR Research J",
+    "SLR Research K",
+    "SLR Research L",
+    "SS",
+    "SS, SLE",
+    "Sample ID",
+    "Scl",
+    "U/ml"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Sample ID"
+      ],
+      "value": "ANA 1"
+    },
+    {
+      "row": [],
+      "col": [
+        "U/ml"
+      ],
+      "value": "10.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sample ID"
+      ],
+      "value": "SLR Research A"
+    },
+    {
+      "row": [],
+      "col": [
+        "U/ml"
+      ],
+      "value": "2.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Diagnosis"
+      ],
+      "value": "CREST"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sample ID"
+      ],
+      "value": "ANA 2"
+    },
+    {
+      "row": [],
+      "col": [
+        "U/ml"
+      ],
+      "value": "1.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sample ID"
+      ],
+      "value": "SLR Research B"
+    },
+    {
+      "row": [],
+      "col": [
+        "U/ml"
+      ],
+      "value": "2.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Diagnosis"
+      ],
+      "value": "Scl"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sample ID"
+      ],
+      "value": "ANA 3"
+    },
+    {
+      "row": [],
+      "col": [
+        "U/ml"
+      ],
+      "value": "1.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sample ID"
+      ],
+      "value": "SLR Research D"
+    },
+    {
+      "row": [],
+      "col": [
+        "U/ml"
+      ],
+      "value": "2.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Diagnosis"
+      ],
+      "value": "MCTD"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sample ID"
+      ],
+      "value": "ANA 4"
+    },
+    {
+      "row": [],
+      "col": [
+        "U/ml"
+      ],
+      "value": "2.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sample ID"
+      ],
+      "value": "SLR Research E"
+    },
+    {
+      "row": [],
+      "col": [
+        "U/ml"
+      ],
+      "value": "3.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Diagnosis"
+      ],
+      "value": "SS, SLE"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sample ID"
+      ],
+      "value": "ANA 5"
+    },
+    {
+      "row": [],
+      "col": [
+        "U/ml"
+      ],
+      "value": "910.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sample ID"
+      ],
+      "value": "SLR Research F"
+    },
+    {
+      "row": [],
+      "col": [
+        "U/ml"
+      ],
+      "value": "1.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Diagnosis"
+      ],
+      "value": "PM"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sample ID"
+      ],
+      "value": "ANA 6"
+    },
+    {
+      "row": [],
+      "col": [
+        "U/ml"
+      ],
+      "value": "3.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sample ID"
+      ],
+      "value": "SLR Research G"
+    },
+    {
+      "row": [],
+      "col": [
+        "U/ml"
+      ],
+      "value": "4.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Diagnosis"
+      ],
+      "value": "SS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sample ID"
+      ],
+      "value": "ANA 7"
+    },
+    {
+      "row": [],
+      "col": [
+        "U/ml"
+      ],
+      "value": "0.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sample ID"
+      ],
+      "value": "SLR Research I"
+    },
+    {
+      "row": [],
+      "col": [
+        "U/ml"
+      ],
+      "value": "1420.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Diagnosis"
+      ],
+      "value": "SLE"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sample ID"
+      ],
+      "value": "ANA 8"
+    },
+    {
+      "row": [],
+      "col": [
+        "U/ml"
+      ],
+      "value": "0.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sample ID"
+      ],
+      "value": "SLR Research J"
+    },
+    {
+      "row": [],
+      "col": [
+        "U/ml"
+      ],
+      "value": "13.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Diagnosis"
+      ],
+      "value": "SLE"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sample ID"
+      ],
+      "value": "ANA 9"
+    },
+    {
+      "row": [],
+      "col": [
+        "U/ml"
+      ],
+      "value": "1.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sample ID"
+      ],
+      "value": "SLR Research K"
+    },
+    {
+      "row": [],
+      "col": [
+        "U/ml"
+      ],
+      "value": "0.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Diagnosis"
+      ],
+      "value": "HD"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sample ID"
+      ],
+      "value": "ANA 10"
+    },
+    {
+      "row": [],
+      "col": [
+        "U/ml"
+      ],
+      "value": "0.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sample ID"
+      ],
+      "value": "SLR Research L"
+    },
+    {
+      "row": [],
+      "col": [
+        "U/ml"
+      ],
+      "value": "0.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Diagnosis"
+      ],
+      "value": "HD"
+    }
+  ]
+}

@@ -1,0 +1,308 @@
+<!-- source: PubTabNet imgid=270755 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+<b>
+       Hospital
+      </b>
+</td>
+<td>
+<b>
+       Total revenues ($)
+      </b>
+</td>
+<td colspan="5">
+<b>
+       Percentage from:
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td>
+<b>
+       User fees (outpatients)
+      </b>
+</td>
+<td>
+<b>
+       User fees (inpatients)
+      </b>
+</td>
+<td>
+<b>
+       Government subsidies
+      </b>
+</td>
+<td>
+<b>
+       External aid
+      </b>
+</td>
+<td>
+<b>
+       Other sources
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      A
+     </td>
+<td>
+      187,000
+     </td>
+<td>
+      8
+     </td>
+<td>
+      11
+     </td>
+<td>
+      18
+     </td>
+<td>
+      40
+     </td>
+<td>
+      22
+     </td>
+</tr>
+<tr>
+<td>
+      B
+     </td>
+<td>
+      260,000
+     </td>
+<td>
+      6
+     </td>
+<td>
+      12
+     </td>
+<td>
+      16
+     </td>
+<td>
+      18
+     </td>
+<td>
+      48
+     </td>
+</tr>
+<tr>
+<td>
+      C
+     </td>
+<td>
+      355,000
+     </td>
+<td>
+      3
+     </td>
+<td>
+      3
+     </td>
+<td>
+      8
+     </td>
+<td>
+      70
+     </td>
+<td>
+      17
+     </td>
+</tr>
+<tr>
+<td>
+      D
+     </td>
+<td>
+      584,000
+     </td>
+<td>
+      6
+     </td>
+<td>
+      5
+     </td>
+<td>
+      14
+     </td>
+<td>
+      23
+     </td>
+<td>
+      52
+     </td>
+</tr>
+<tr>
+<td>
+      E
+     </td>
+<td>
+      1,183,000
+     </td>
+<td>
+      27
+     </td>
+<td>
+      38
+     </td>
+<td>
+      1
+     </td>
+<td>
+      25
+     </td>
+<td>
+      8
+     </td>
+</tr>
+<tr>
+<td>
+      F
+     </td>
+<td>
+      72,000
+     </td>
+<td>
+      17
+     </td>
+<td>
+      57
+     </td>
+<td>
+      25
+     </td>
+<td>
+      0
+     </td>
+<td>
+      1
+     </td>
+</tr>
+<tr>
+<td>
+      G
+     </td>
+<td>
+      112,000
+     </td>
+<td>
+      39
+     </td>
+<td>
+      50
+     </td>
+<td>
+      3
+     </td>
+<td>
+      6
+     </td>
+<td>
+      3
+     </td>
+</tr>
+<tr>
+<td>
+      H
+     </td>
+<td>
+      143,000
+     </td>
+<td>
+      14
+     </td>
+<td>
+      15
+     </td>
+<td>
+      26
+     </td>
+<td>
+      32
+     </td>
+<td>
+      14
+     </td>
+</tr>
+<tr>
+<td>
+      I
+     </td>
+<td>
+      218,000
+     </td>
+<td>
+      9
+     </td>
+<td>
+      60
+     </td>
+<td>
+      12
+     </td>
+<td>
+      0
+     </td>
+<td>
+      19
+     </td>
+</tr>
+<tr>
+<td>
+      J
+     </td>
+<td>
+      145,000
+     </td>
+<td>
+      23
+     </td>
+<td>
+      55
+     </td>
+<td>
+      18
+     </td>
+<td>
+      0
+     </td>
+<td>
+      3
+     </td>
+</tr>
+<tr>
+<td>
+      Average
+     </td>
+<td>
+      349,000
+     </td>
+<td>
+      15
+     </td>
+<td>
+      25
+     </td>
+<td>
+      10
+     </td>
+<td>
+      28
+     </td>
+<td>
+      22
+     </td>
+</tr>
+</tbody>
+</table>

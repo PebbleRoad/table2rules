@@ -1,0 +1,391 @@
+<!-- source: PubTabNet imgid=429350 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+</td>
+<td colspan="2">
+<b>
+       Case (n = 158)
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Control (n = 171)
+      </b>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<b>
+       n
+      </b>
+</td>
+<td>
+<b>
+       %
+      </b>
+</td>
+<td>
+<b>
+       n
+      </b>
+</td>
+<td>
+<b>
+       %
+      </b>
+</td>
+<td>
+<b>
+       p-value
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<b>
+       Asthma
+      </b>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      No
+     </td>
+<td>
+      96
+     </td>
+<td>
+      60.7
+     </td>
+<td>
+      126
+     </td>
+<td>
+      73.6
+     </td>
+<td>
+      0.007
+     </td>
+</tr>
+<tr>
+<td>
+      Father
+     </td>
+<td>
+      12
+     </td>
+<td>
+      7.6
+     </td>
+<td>
+      7
+     </td>
+<td>
+      4.1
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Mother
+     </td>
+<td>
+      12
+     </td>
+<td>
+      7.6
+     </td>
+<td>
+      7
+     </td>
+<td>
+      4.1
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      More than one in the family
+     </td>
+<td>
+      18
+     </td>
+<td>
+      11.4
+     </td>
+<td>
+      5
+     </td>
+<td>
+      2.9
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Sibling
+     </td>
+<td>
+      20
+     </td>
+<td>
+      12.6
+     </td>
+<td>
+      26
+     </td>
+<td>
+      15.2
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<b>
+       Allergic rhinitis
+      </b>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      No
+     </td>
+<td>
+      67
+     </td>
+<td>
+      42.4
+     </td>
+<td>
+      91
+     </td>
+<td>
+      53.2
+     </td>
+<td>
+      0.10
+     </td>
+</tr>
+<tr>
+<td>
+      Father
+     </td>
+<td>
+      16
+     </td>
+<td>
+      10.1
+     </td>
+<td>
+      20
+     </td>
+<td>
+      11.7
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Mother
+     </td>
+<td>
+      29
+     </td>
+<td>
+      18.4
+     </td>
+<td>
+      17
+     </td>
+<td>
+      9.9
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      More than one in the family
+     </td>
+<td>
+      34
+     </td>
+<td>
+      21.5
+     </td>
+<td>
+      28
+     </td>
+<td>
+      16.3
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Sibling
+     </td>
+<td>
+      12
+     </td>
+<td>
+      7.6
+     </td>
+<td>
+      15
+     </td>
+<td>
+      8.8
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<b>
+       Eczema as a Child
+      </b>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      No
+     </td>
+<td>
+      80
+     </td>
+<td>
+      50.6
+     </td>
+<td>
+      87
+     </td>
+<td>
+      50.8
+     </td>
+<td>
+      0.97
+     </td>
+</tr>
+<tr>
+<td>
+      Father
+     </td>
+<td>
+      8
+     </td>
+<td>
+      5.0
+     </td>
+<td>
+      6
+     </td>
+<td>
+      2.9
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Mother
+     </td>
+<td>
+      15
+     </td>
+<td>
+      9.5
+     </td>
+<td>
+      17
+     </td>
+<td>
+      9.9
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      More than one in the family
+     </td>
+<td>
+      22
+     </td>
+<td>
+      13.9
+     </td>
+<td>
+      25
+     </td>
+<td>
+      14.6
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Sibling
+     </td>
+<td>
+      33
+     </td>
+<td>
+      20.8
+     </td>
+<td>
+      36
+     </td>
+<td>
+      21.0
+     </td>
+<td>
+</td>
+</tr>
+</tbody>
+</table>

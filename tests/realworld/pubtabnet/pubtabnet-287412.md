@@ -1,0 +1,375 @@
+<!-- source: PubTabNet imgid=287412 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+</td>
+<td>
+<b>
+       Possum Mortality Risk (R1)
+      </b>
+</td>
+<td>
+<b>
+       patients
+      </b>
+</td>
+<td>
+<b>
+       expected death
+      </b>
+</td>
+<td colspan="2">
+<b>
+       observed death  outcome = 4
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Observed morbidity and death outcome = 3+4
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<b>
+       (%)
+      </b>
+</td>
+<td>
+<b>
+       n
+      </b>
+</td>
+<td>
+<b>
+       n
+      </b>
+</td>
+<td>
+<b>
+       n
+      </b>
+</td>
+<td>
+<b>
+       %
+      </b>
+</td>
+<td>
+<b>
+       n
+      </b>
+</td>
+<td>
+<b>
+       %
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+</td>
+<td>
+      0–10
+     </td>
+<td>
+      21
+     </td>
+<td>
+      1
+     </td>
+<td>
+      0
+     </td>
+<td>
+      0
+     </td>
+<td>
+      3
+     </td>
+<td>
+      14,3
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      38675
+     </td>
+<td>
+      51
+     </td>
+<td>
+      7
+     </td>
+<td>
+      1
+     </td>
+<td>
+      2,0
+     </td>
+<td>
+      7
+     </td>
+<td>
+      13,7
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       low risk
+      </b>
+</td>
+<td>
+<b>
+       0 – 20
+      </b>
+</td>
+<td>
+<b>
+       72
+      </b>
+</td>
+<td>
+</td>
+<td>
+<b>
+       1
+      </b>
+</td>
+<td>
+<b>
+       1, 0
+      </b>
+</td>
+<td>
+<b>
+       10
+      </b>
+</td>
+<td>
+<b>
+       13, 9
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      21–30
+     </td>
+<td>
+      38
+     </td>
+<td>
+      9
+     </td>
+<td>
+      3
+     </td>
+<td>
+      7,8
+     </td>
+<td>
+      9
+     </td>
+<td>
+      23,7
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      31–40
+     </td>
+<td>
+      19
+     </td>
+<td>
+      6
+     </td>
+<td>
+      2
+     </td>
+<td>
+      10,5
+     </td>
+<td>
+      4
+     </td>
+<td>
+      21,1
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       med risk
+      </b>
+</td>
+<td>
+<b>
+       21–40
+      </b>
+</td>
+<td>
+<b>
+       57
+      </b>
+</td>
+<td>
+</td>
+<td>
+<b>
+       5
+      </b>
+</td>
+<td>
+<b>
+       8, 8
+      </b>
+</td>
+<td>
+<b>
+       13
+      </b>
+</td>
+<td>
+<b>
+       22, 8
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      41–60
+     </td>
+<td>
+      4
+     </td>
+<td>
+      1
+     </td>
+<td>
+      1
+     </td>
+<td>
+      25,0
+     </td>
+<td>
+      1
+     </td>
+<td>
+      25,0
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      71–100
+     </td>
+<td>
+      4
+     </td>
+<td>
+      2
+     </td>
+<td>
+      1
+     </td>
+<td>
+      25,0
+     </td>
+<td>
+      3
+     </td>
+<td>
+      75,0
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       high risk
+      </b>
+</td>
+<td>
+<b>
+       &gt; 40
+      </b>
+</td>
+<td>
+<b>
+       8
+      </b>
+</td>
+<td>
+</td>
+<td>
+<b>
+       2
+      </b>
+</td>
+<td>
+<b>
+       25, 0
+      </b>
+</td>
+<td>
+<b>
+       4
+      </b>
+</td>
+<td>
+<b>
+       50, 0
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+<b>
+       total
+      </b>
+</td>
+<td>
+</td>
+<td>
+<b>
+       137
+      </b>
+</td>
+<td>
+<b>
+       29
+      </b>
+</td>
+<td>
+<b>
+       8
+      </b>
+</td>
+<td>
+</td>
+<td>
+<b>
+       27
+      </b>
+</td>
+<td>
+</td>
+</tr>
+</tbody>
+</table>

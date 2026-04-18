@@ -1,0 +1,1040 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0",
+    "1",
+    "10",
+    "10.7",
+    "100",
+    "104",
+    "108",
+    "11",
+    "12",
+    "122",
+    "13",
+    "14",
+    "142",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "2",
+    "20",
+    "22",
+    "25",
+    "28",
+    "3",
+    "3.3",
+    "31",
+    "35",
+    "37",
+    "38",
+    "39",
+    "4",
+    "42",
+    "47",
+    "49",
+    "5",
+    "51",
+    "54",
+    "6",
+    "64",
+    "69",
+    "7",
+    "74",
+    "76",
+    "78",
+    "79",
+    "8",
+    "80.2",
+    "9",
+    "91",
+    "97",
+    "AF201470",
+    "AJ344158",
+    "AMP deaminase",
+    "Actin related protein (P16arc)",
+    "Average:",
+    "BE518514",
+    "BG 934178",
+    "BG933794",
+    "BG933799",
+    "BG934353",
+    "BG934439",
+    "BG934675",
+    "BG935084",
+    "BG935804",
+    "BG935839",
+    "BG935917",
+    "BG936489",
+    "Collagen type I",
+    "Elongation factor 2",
+    "Eukaryotic translation initiation factor 5",
+    "GenBank accession no.",
+    "Growth hormone",
+    "Helicase",
+    "Myostatin, isoform II",
+    "No. of BAC clones in each contig",
+    "No. of contigs",
+    "No. of positive BACs identified",
+    "Phosphate transfer protein",
+    "Putative gene",
+    "Retinal rod opsin",
+    "Singletons",
+    "TAR DNA-binding protein",
+    "Transducin alpha subunit",
+    "Translation initiation factor 3",
+    "Ubiquitin",
+    "X14305",
+    "cyclin L ania-6a"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "GenBank accession no."
+      ],
+      "value": "BG 934178"
+    },
+    {
+      "row": [],
+      "col": [
+        "Putative gene"
+      ],
+      "value": "Elongation factor 2"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of positive BACs identified"
+      ],
+      "value": "79"
+    },
+    {
+      "row": [],
+      "col": [
+        "Singletons"
+      ],
+      "value": "19"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of contigs"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of BAC clones in each contig",
+        "1"
+      ],
+      "value": "28"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of BAC clones in each contig",
+        "2"
+      ],
+      "value": "18"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of BAC clones in each contig",
+        "3"
+      ],
+      "value": "14"
+    },
+    {
+      "row": [],
+      "col": [
+        "GenBank accession no."
+      ],
+      "value": "BG934439"
+    },
+    {
+      "row": [],
+      "col": [
+        "Putative gene"
+      ],
+      "value": "Eukaryotic translation initiation factor 5"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of positive BACs identified"
+      ],
+      "value": "91"
+    },
+    {
+      "row": [],
+      "col": [
+        "Singletons"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of contigs"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of BAC clones in each contig",
+        "1"
+      ],
+      "value": "78"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of BAC clones in each contig",
+        "2"
+      ],
+      "value": "10"
+    },
+    {
+      "row": [],
+      "col": [
+        "GenBank accession no."
+      ],
+      "value": "BG935804"
+    },
+    {
+      "row": [],
+      "col": [
+        "Putative gene"
+      ],
+      "value": "Ubiquitin"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of positive BACs identified"
+      ],
+      "value": "69"
+    },
+    {
+      "row": [],
+      "col": [
+        "Singletons"
+      ],
+      "value": "8"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of contigs"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of BAC clones in each contig",
+        "1"
+      ],
+      "value": "54"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of BAC clones in each contig",
+        "2"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "GenBank accession no."
+      ],
+      "value": "BG934353"
+    },
+    {
+      "row": [],
+      "col": [
+        "Putative gene"
+      ],
+      "value": "Phosphate transfer protein"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of positive BACs identified"
+      ],
+      "value": "108"
+    },
+    {
+      "row": [],
+      "col": [
+        "Singletons"
+      ],
+      "value": "14"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of contigs"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of BAC clones in each contig",
+        "1"
+      ],
+      "value": "47"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of BAC clones in each contig",
+        "2"
+      ],
+      "value": "31"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of BAC clones in each contig",
+        "3"
+      ],
+      "value": "8"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of BAC clones in each contig",
+        "4"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "GenBank accession no."
+      ],
+      "value": "BG935917"
+    },
+    {
+      "row": [],
+      "col": [
+        "Putative gene"
+      ],
+      "value": "cyclin L ania-6a"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of positive BACs identified"
+      ],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Singletons"
+      ],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of contigs"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "GenBank accession no."
+      ],
+      "value": "AF201470"
+    },
+    {
+      "row": [],
+      "col": [
+        "Putative gene"
+      ],
+      "value": "Retinal rod opsin"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of positive BACs identified"
+      ],
+      "value": "100"
+    },
+    {
+      "row": [],
+      "col": [
+        "Singletons"
+      ],
+      "value": "16"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of contigs"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of BAC clones in each contig",
+        "1"
+      ],
+      "value": "64"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of BAC clones in each contig",
+        "2"
+      ],
+      "value": "17"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of BAC clones in each contig",
+        "3"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "GenBank accession no."
+      ],
+      "value": "AJ344158"
+    },
+    {
+      "row": [],
+      "col": [
+        "Putative gene"
+      ],
+      "value": "Myostatin, isoform II"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of positive BACs identified"
+      ],
+      "value": "104"
+    },
+    {
+      "row": [],
+      "col": [
+        "Singletons"
+      ],
+      "value": "10"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of contigs"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of BAC clones in each contig",
+        "1"
+      ],
+      "value": "42"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of BAC clones in each contig",
+        "2"
+      ],
+      "value": "22"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of BAC clones in each contig",
+        "3"
+      ],
+      "value": "17"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of BAC clones in each contig",
+        "4"
+      ],
+      "value": "10"
+    },
+    {
+      "row": [],
+      "col": [
+        "GenBank accession no."
+      ],
+      "value": "BG936489"
+    },
+    {
+      "row": [],
+      "col": [
+        "Putative gene"
+      ],
+      "value": "Actin related protein (P16arc)"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of positive BACs identified"
+      ],
+      "value": "122"
+    },
+    {
+      "row": [],
+      "col": [
+        "Singletons"
+      ],
+      "value": "10"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of contigs"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of BAC clones in each contig",
+        "1"
+      ],
+      "value": "51"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of BAC clones in each contig",
+        "2"
+      ],
+      "value": "39"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of BAC clones in each contig",
+        "3"
+      ],
+      "value": "20"
+    },
+    {
+      "row": [],
+      "col": [
+        "GenBank accession no."
+      ],
+      "value": "BG933799"
+    },
+    {
+      "row": [],
+      "col": [
+        "Putative gene"
+      ],
+      "value": "AMP deaminase"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of positive BACs identified"
+      ],
+      "value": "76"
+    },
+    {
+      "row": [],
+      "col": [
+        "Singletons"
+      ],
+      "value": "12"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of contigs"
+      ],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of BAC clones in each contig",
+        "1"
+      ],
+      "value": "38"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of BAC clones in each contig",
+        "2"
+      ],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of BAC clones in each contig",
+        "3"
+      ],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of BAC clones in each contig",
+        "4"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of BAC clones in each contig",
+        "5"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "GenBank accession no."
+      ],
+      "value": "BG933794"
+    },
+    {
+      "row": [],
+      "col": [
+        "Putative gene"
+      ],
+      "value": "TAR DNA-binding protein"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of positive BACs identified"
+      ],
+      "value": "69"
+    },
+    {
+      "row": [],
+      "col": [
+        "Singletons"
+      ],
+      "value": "11"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of contigs"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of BAC clones in each contig",
+        "1"
+      ],
+      "value": "35"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of BAC clones in each contig",
+        "2"
+      ],
+      "value": "22"
+    },
+    {
+      "row": [],
+      "col": [
+        "GenBank accession no."
+      ],
+      "value": "BG934675"
+    },
+    {
+      "row": [],
+      "col": [
+        "Putative gene"
+      ],
+      "value": "Helicase"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of positive BACs identified"
+      ],
+      "value": "142"
+    },
+    {
+      "row": [],
+      "col": [
+        "Singletons"
+      ],
+      "value": "25"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of contigs"
+      ],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of BAC clones in each contig",
+        "1"
+      ],
+      "value": "35"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of BAC clones in each contig",
+        "2"
+      ],
+      "value": "25"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of BAC clones in each contig",
+        "3"
+      ],
+      "value": "22"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of BAC clones in each contig",
+        "4"
+      ],
+      "value": "16"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of BAC clones in each contig",
+        "5"
+      ],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of BAC clones in each contig",
+        "6"
+      ],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of BAC clones in each contig",
+        "7"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "GenBank accession no."
+      ],
+      "value": "BE518514"
+    },
+    {
+      "row": [],
+      "col": [
+        "Putative gene"
+      ],
+      "value": "Translation initiation factor 3"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of positive BACs identified"
+      ],
+      "value": "17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Singletons"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of contigs"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of BAC clones in each contig",
+        "1"
+      ],
+      "value": "13"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of BAC clones in each contig",
+        "2"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "GenBank accession no."
+      ],
+      "value": "X14305"
+    },
+    {
+      "row": [],
+      "col": [
+        "Putative gene"
+      ],
+      "value": "Growth hormone"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of positive BACs identified"
+      ],
+      "value": "74"
+    },
+    {
+      "row": [],
+      "col": [
+        "Singletons"
+      ],
+      "value": "8"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of contigs"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of BAC clones in each contig",
+        "1"
+      ],
+      "value": "42"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of BAC clones in each contig",
+        "2"
+      ],
+      "value": "20"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of BAC clones in each contig",
+        "3"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "GenBank accession no."
+      ],
+      "value": "BG935839"
+    },
+    {
+      "row": [],
+      "col": [
+        "Putative gene"
+      ],
+      "value": "Collagen type I"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of positive BACs identified"
+      ],
+      "value": "97"
+    },
+    {
+      "row": [],
+      "col": [
+        "Singletons"
+      ],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of contigs"
+      ],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of BAC clones in each contig",
+        "1"
+      ],
+      "value": "37"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of BAC clones in each contig",
+        "2"
+      ],
+      "value": "28"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of BAC clones in each contig",
+        "3"
+      ],
+      "value": "12"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of BAC clones in each contig",
+        "4"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of BAC clones in each contig",
+        "5"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of BAC clones in each contig",
+        "6"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "GenBank accession no."
+      ],
+      "value": "BG935084"
+    },
+    {
+      "row": [],
+      "col": [
+        "Putative gene"
+      ],
+      "value": "Transducin alpha subunit"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of positive BACs identified"
+      ],
+      "value": "49"
+    },
+    {
+      "row": [],
+      "col": [
+        "Singletons"
+      ],
+      "value": "11"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of contigs"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of BAC clones in each contig",
+        "1"
+      ],
+      "value": "15"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of BAC clones in each contig",
+        "2"
+      ],
+      "value": "12"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of BAC clones in each contig",
+        "3"
+      ],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [
+        "GenBank accession no."
+      ],
+      "value": "Average:"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of positive BACs identified"
+      ],
+      "value": "80.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Singletons"
+      ],
+      "value": "10.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of contigs"
+      ],
+      "value": "3.3"
+    }
+  ]
+}

@@ -1,0 +1,508 @@
+<!-- source: PubTabNet imgid=81143 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+<b>
+       Patient no.
+      </b>
+</td>
+<td>
+<b>
+       B27
+      </b>
+</td>
+<td>
+<b>
+       Disease
+      </b>
+</td>
+<td>
+<b>
+       Sex
+      </b>
+</td>
+<td>
+<b>
+       Age (years)
+      </b>
+</td>
+<td>
+<b>
+       Disease duration
+      </b>
+</td>
+<td>
+<b>
+<i>
+        Chlamydia
+       </i>
+       in urine (PCR)
+      </b>
+</td>
+<td>
+<b>
+       Synovial T cell proliferation
+      </b>
+</td>
+<td>
+<b>
+       Antibodies
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      1
+     </td>
+<td>
+      +
+     </td>
+<td>
+      ReA
+     </td>
+<td>
+      Male
+     </td>
+<td>
+      18
+     </td>
+<td>
+      5 months
+     </td>
+<td>
+      +
+     </td>
+<td>
+<i>
+       Chlamydia trachomatis
+      </i>
+</td>
+<td>
+      n.d.
+     </td>
+</tr>
+<tr>
+<td>
+      2
+     </td>
+<td>
+      +
+     </td>
+<td>
+      ReA
+     </td>
+<td>
+      Male
+     </td>
+<td>
+      20
+     </td>
+<td>
+      2 months
+     </td>
+<td>
+      +
+     </td>
+<td>
+<i>
+       Chlamydia trachomatis
+      </i>
+</td>
+<td>
+      n.d.
+     </td>
+</tr>
+<tr>
+<td>
+      3
+     </td>
+<td>
+      +
+     </td>
+<td>
+      ReA
+     </td>
+<td>
+      Male
+     </td>
+<td>
+      32
+     </td>
+<td>
+      5 months
+     </td>
+<td>
+      +
+     </td>
+<td>
+<i>
+       Chlamydia trachomatis
+      </i>
+</td>
+<td>
+      +
+     </td>
+</tr>
+<tr>
+<td>
+      4
+     </td>
+<td>
+      +
+     </td>
+<td>
+      ReA
+     </td>
+<td>
+      Male
+     </td>
+<td>
+      34
+     </td>
+<td>
+      3 months
+     </td>
+<td>
+      +
+     </td>
+<td>
+<i>
+       Chlamydia trachomatis
+      </i>
+</td>
+<td>
+      n.d.
+     </td>
+</tr>
+<tr>
+<td>
+      5
+     </td>
+<td>
+      +
+     </td>
+<td>
+      ReA
+     </td>
+<td>
+      Male
+     </td>
+<td>
+      20
+     </td>
+<td>
+      1 month
+     </td>
+<td>
+      +
+     </td>
+<td>
+      n.d.
+     </td>
+<td>
+      +
+     </td>
+</tr>
+<tr>
+<td>
+      6
+     </td>
+<td>
+      +
+     </td>
+<td>
+      ReA
+     </td>
+<td>
+      Male
+     </td>
+<td>
+      26
+     </td>
+<td>
+      1 month
+     </td>
+<td>
+      +
+     </td>
+<td>
+<i>
+       Chlamydia trachomatis
+      </i>
+</td>
+<td>
+      +
+     </td>
+</tr>
+<tr>
+<td>
+      7
+     </td>
+<td>
+      -
+     </td>
+<td>
+      ReA
+     </td>
+<td>
+      Male
+     </td>
+<td>
+      56
+     </td>
+<td>
+      1 month
+     </td>
+<td>
+      +
+     </td>
+<td>
+<i>
+       Chlamydia trachomatis
+      </i>
+</td>
+<td>
+      n.d.
+     </td>
+</tr>
+<tr>
+<td>
+      8
+     </td>
+<td>
+      -
+     </td>
+<td>
+      ReA
+     </td>
+<td>
+      Male
+     </td>
+<td>
+      43
+     </td>
+<td>
+      3 months
+     </td>
+<td>
+      +
+     </td>
+<td>
+<i>
+       Chlamydia trachomatis
+      </i>
+</td>
+<td>
+      n.d.
+     </td>
+</tr>
+<tr>
+<td>
+      9
+     </td>
+<td>
+      -
+     </td>
+<td>
+      ReA
+     </td>
+<td>
+      Female
+     </td>
+<td>
+      32
+     </td>
+<td>
+      6 months
+     </td>
+<td>
+      +
+     </td>
+<td>
+<i>
+       Chlamydia trachomatis
+      </i>
+</td>
+<td>
+      n.d.
+     </td>
+</tr>
+<tr>
+<td>
+      10
+     </td>
+<td>
+      +
+     </td>
+<td>
+      Chronic ReA
+     </td>
+<td>
+      Male
+     </td>
+<td>
+      20
+     </td>
+<td>
+      7 years
+     </td>
+<td>
+      -
+     </td>
+<td>
+      Enterobacteria
+     </td>
+<td>
+      n.d.
+     </td>
+</tr>
+<tr>
+<td>
+      11
+     </td>
+<td>
+      +
+     </td>
+<td>
+      ReA
+     </td>
+<td>
+      Male
+     </td>
+<td>
+      47
+     </td>
+<td>
+      3 weeks
+     </td>
+<td>
+      -
+     </td>
+<td>
+      Enterobacteria
+     </td>
+<td>
+      n.d.
+     </td>
+</tr>
+<tr>
+<td>
+      12
+     </td>
+<td>
+      +
+     </td>
+<td>
+      ReA
+     </td>
+<td>
+      Female
+     </td>
+<td>
+      49
+     </td>
+<td>
+      6 months
+     </td>
+<td>
+      -
+     </td>
+<td>
+      Enterobacteria
+     </td>
+<td>
+      n.d.
+     </td>
+</tr>
+<tr>
+<td>
+      13
+     </td>
+<td>
+      n.d.
+     </td>
+<td>
+      RA
+     </td>
+<td>
+      Female
+     </td>
+<td>
+      67
+     </td>
+<td>
+      10 years
+     </td>
+<td>
+      n.d.
+     </td>
+<td>
+      n.d.
+     </td>
+<td>
+      n.d.
+     </td>
+</tr>
+<tr>
+<td>
+      14
+     </td>
+<td>
+      n.d.
+     </td>
+<td>
+      RA
+     </td>
+<td>
+      Female
+     </td>
+<td>
+      49
+     </td>
+<td>
+      &gt;1 year
+     </td>
+<td>
+      n.d.
+     </td>
+<td>
+      n.d.
+     </td>
+<td>
+      n.d.
+     </td>
+</tr>
+<tr>
+<td>
+      15
+     </td>
+<td>
+      n.d.
+     </td>
+<td>
+      RA
+     </td>
+<td>
+      Female
+     </td>
+<td>
+      62
+     </td>
+<td>
+      14 years
+     </td>
+<td>
+      n.d.
+     </td>
+<td>
+      n.d.
+     </td>
+<td>
+      n.d.
+     </td>
+</tr>
+</tbody>
+</table>

@@ -1,0 +1,402 @@
+<!-- source: PubTabNet imgid=455801 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+</td>
+<td colspan="4">
+<b>
+       Total delay in treatment
+      </b>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<b>
+       Contact history
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Unacceptable (&gt; 60 days)
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Acceptable (≤ 60 days)
+      </b>
+</td>
+<td>
+<b>
+       Crude OR
+      </b>
+</td>
+<td>
+<b>
+       95% CI
+      </b>
+</td>
+<td>
+<b>
+       P value
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<b>
+       N
+      </b>
+</td>
+<td>
+<b>
+       %
+      </b>
+</td>
+<td>
+<b>
+       N
+      </b>
+</td>
+<td>
+<b>
+       %
+      </b>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      Knows someone with tuberculosis
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Yes
+     </td>
+<td>
+      305
+     </td>
+<td>
+      63.0
+     </td>
+<td>
+      179
+     </td>
+<td>
+      37.0
+     </td>
+<td>
+      1.00
+     </td>
+<td>
+      -
+     </td>
+<td>
+      -
+     </td>
+</tr>
+<tr>
+<td>
+      No
+     </td>
+<td>
+      375
+     </td>
+<td>
+      61.4
+     </td>
+<td>
+      236
+     </td>
+<td>
+      38.6
+     </td>
+<td>
+      0.93
+     </td>
+<td>
+      0.72 – 1.19
+     </td>
+<td>
+      0.5782
+     </td>
+</tr>
+<tr>
+<td>
+      Total
+     </td>
+<td>
+      680
+     </td>
+<td>
+      -
+     </td>
+<td>
+      415
+     </td>
+<td>
+      -
+     </td>
+<td>
+      -
+     </td>
+<td>
+      -
+     </td>
+<td>
+      -
+     </td>
+</tr>
+<tr>
+<td>
+      Recent contact with someone with tuberculosis
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+      0.8554
+     </td>
+</tr>
+<tr>
+<td>
+      &lt; 1 year
+     </td>
+<td>
+      151
+     </td>
+<td>
+      63.4
+     </td>
+<td>
+      87
+     </td>
+<td>
+      36.6
+     </td>
+<td>
+      1.00
+     </td>
+<td>
+      -
+     </td>
+<td>
+      -
+     </td>
+</tr>
+<tr>
+<td>
+      ≥ 1 year
+     </td>
+<td>
+      128
+     </td>
+<td>
+      61.8
+     </td>
+<td>
+      79
+     </td>
+<td>
+      38.2
+     </td>
+<td>
+      0.93
+     </td>
+<td>
+      0.63 – 1.37
+     </td>
+<td>
+      0.7263
+     </td>
+</tr>
+<tr>
+<td>
+      Not known
+     </td>
+<td>
+      375
+     </td>
+<td>
+      61.4
+     </td>
+<td>
+      236
+     </td>
+<td>
+      38.6
+     </td>
+<td>
+      0.91
+     </td>
+<td>
+      0.67 – 1.24
+     </td>
+<td>
+      0.5769
+     </td>
+</tr>
+<tr>
+<td>
+      Total
+     </td>
+<td>
+      654
+     </td>
+<td>
+      -
+     </td>
+<td>
+      402
+     </td>
+<td>
+      -
+     </td>
+<td>
+      -
+     </td>
+<td>
+      -
+     </td>
+<td>
+      -
+     </td>
+</tr>
+<tr>
+<td>
+      Household contact with a case of tuberculosis
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Yes
+     </td>
+<td>
+      104
+     </td>
+<td>
+      62.7
+     </td>
+<td>
+      62
+     </td>
+<td>
+      37.3
+     </td>
+<td>
+      1.00
+     </td>
+<td>
+      -
+     </td>
+<td>
+      -
+     </td>
+</tr>
+<tr>
+<td>
+      No
+     </td>
+<td>
+      198
+     </td>
+<td>
+      63.1
+     </td>
+<td>
+      116
+     </td>
+<td>
+      36.9
+     </td>
+<td>
+      1.01
+     </td>
+<td>
+      0.68 – 1.50
+     </td>
+<td>
+      0.9301
+     </td>
+</tr>
+<tr>
+<td>
+      Total
+     </td>
+<td>
+      302
+     </td>
+<td>
+      -
+     </td>
+<td>
+      178
+     </td>
+<td>
+      -
+     </td>
+<td>
+      -
+     </td>
+<td>
+      -
+     </td>
+<td>
+      -
+     </td>
+</tr>
+</tbody>
+</table>

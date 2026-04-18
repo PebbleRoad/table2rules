@@ -1,0 +1,164 @@
+<!-- source: PubTabNet imgid=374681 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+</td>
+<td colspan="2">
+<b>
+       Patient scale
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Observer scale
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<b>
+       Spearman's rho
+      </b>
+</td>
+<td>
+<b>
+       p-value *
+      </b>
+</td>
+<td>
+<b>
+       Spearman's rho
+      </b>
+</td>
+<td>
+<b>
+       p-value
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      Appetite
+     </td>
+<td>
+      0.02
+     </td>
+<td>
+      N.S
+     </td>
+<td>
+      -0.20
+     </td>
+<td>
+      N.S.
+     </td>
+</tr>
+<tr>
+<td>
+      Fatigue
+     </td>
+<td>
+      -0.23
+     </td>
+<td>
+      N.S
+     </td>
+<td>
+      -0.19
+     </td>
+<td>
+      N.S.
+     </td>
+</tr>
+<tr>
+<td>
+      Cough
+     </td>
+<td>
+      -0.16
+     </td>
+<td>
+      N.S
+     </td>
+<td>
+      -0.33
+     </td>
+<td>
+      0.03
+     </td>
+</tr>
+<tr>
+<td>
+      Dyspnea
+     </td>
+<td>
+      0.07
+     </td>
+<td>
+      N.S
+     </td>
+<td>
+      -0.26
+     </td>
+<td>
+      N.S.
+     </td>
+</tr>
+<tr>
+<td>
+      Pain
+     </td>
+<td>
+      -0.13
+     </td>
+<td>
+      N.S
+     </td>
+<td>
+      0.02
+     </td>
+<td>
+      N.S.
+     </td>
+</tr>
+<tr>
+<td>
+      Hemoptysis
+     </td>
+<td>
+      -0.85
+     </td>
+<td>
+      N.S
+     </td>
+<td>
+      -0.20
+     </td>
+<td>
+      N.S.
+     </td>
+</tr>
+<tr>
+<td>
+      Global symptom score
+     </td>
+<td>
+      -0.23
+     </td>
+<td>
+      N.S.
+     </td>
+<td>
+      -0.31
+     </td>
+<td>
+      0.049
+     </td>
+</tr>
+</tbody>
+</table>

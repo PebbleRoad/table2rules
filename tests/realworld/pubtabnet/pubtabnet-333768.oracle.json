@@ -1,0 +1,1033 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "10.4",
+    "101",
+    "115",
+    "1196",
+    "12.1",
+    "14.0",
+    "142",
+    "147",
+    "15.0",
+    "154",
+    "17.9",
+    "172",
+    "19.1",
+    "2.4",
+    "20.9",
+    "202",
+    "206",
+    "21.4",
+    "211",
+    "230",
+    "25.6",
+    "26.0",
+    "269",
+    "27.5",
+    "28.6",
+    "294",
+    "2N",
+    "3.0",
+    "3.5",
+    "3.6",
+    "30.7",
+    "308",
+    "31.0",
+    "32.0",
+    "32.5",
+    "33.0",
+    "34.0",
+    "35.5",
+    "35.8",
+    "38.3",
+    "388",
+    "39.1",
+    "4.5",
+    "40.0",
+    "40.3",
+    "40.8",
+    "41.0",
+    "41.8",
+    "41.9",
+    "412",
+    "42.0",
+    "422",
+    "44.4",
+    "45.0",
+    "45.8",
+    "46.0",
+    "46.3",
+    "46.5",
+    "46.7",
+    "46.9",
+    "5.8",
+    "50.0",
+    "50.2",
+    "53.0",
+    "53.5",
+    "53.9",
+    "538",
+    "54.0",
+    "54.2",
+    "55.0",
+    "55.6",
+    "58.0",
+    "58.4",
+    "59.0",
+    "59.7",
+    "598",
+    "6.7",
+    "60.0",
+    "60.9",
+    "71",
+    "776",
+    "86",
+    "Afro-American (Bookman et al., 2002)",
+    "Allele frequency (%)",
+    "American",
+    "Asian",
+    "C",
+    "CC",
+    "CT",
+    "Caucasian",
+    "Chinese (Li et al., 2000)",
+    "Chinese (Xing et al., 2003)",
+    "European-mixed (Barr et al., 2001)",
+    "Genotype frequency (%)",
+    "German (Strobel et al., 2003)",
+    "Hungarian (Szantai et al., 2005)",
+    "Japanese (Ishiguro et al., 2000)",
+    "Japanese (Mitsuyasu et al., 1999)",
+    "Japanese (Okuyama et al., 1999)",
+    "Japanese (Okuyama et al., 2000)",
+    "Korean (Lee et al., 2003)",
+    "N",
+    "Origin of population",
+    "Standard deviation",
+    "Swedish (Jo\u0308nsson et al., 2001)",
+    "T",
+    "TT",
+    "mean"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Origin of population"
+      ],
+      "value": "Caucasian"
+    },
+    {
+      "row": [],
+      "col": [
+        "Origin of population"
+      ],
+      "value": "Hungarian (Szantai et al., 2005)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allele frequency (%)",
+        "2N"
+      ],
+      "value": "1196"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allele frequency (%)",
+        "C"
+      ],
+      "value": "46.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allele frequency (%)",
+        "T"
+      ],
+      "value": "53.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype frequency (%)",
+        "N"
+      ],
+      "value": "598"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype frequency (%)",
+        "CC"
+      ],
+      "value": "21.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype frequency (%)",
+        "CT"
+      ],
+      "value": "50.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype frequency (%)",
+        "TT"
+      ],
+      "value": "28.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Origin of population"
+      ],
+      "value": "European-mixed (Barr et al., 2001)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allele frequency (%)",
+        "2N"
+      ],
+      "value": "308"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allele frequency (%)",
+        "C"
+      ],
+      "value": "45.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allele frequency (%)",
+        "T"
+      ],
+      "value": "54.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype frequency (%)",
+        "N"
+      ],
+      "value": "154"
+    },
+    {
+      "row": [],
+      "col": [
+        "Origin of population"
+      ],
+      "value": "German (Strobel et al., 2003)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allele frequency (%)",
+        "2N"
+      ],
+      "value": "230"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allele frequency (%)",
+        "C"
+      ],
+      "value": "40.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allele frequency (%)",
+        "T"
+      ],
+      "value": "60.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype frequency (%)",
+        "N"
+      ],
+      "value": "115"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype frequency (%)",
+        "CC"
+      ],
+      "value": "20.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype frequency (%)",
+        "CT"
+      ],
+      "value": "38.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype frequency (%)",
+        "TT"
+      ],
+      "value": "40.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Origin of population"
+      ],
+      "value": "Swedish (Jo\u0308nsson et al., 2001)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allele frequency (%)",
+        "2N"
+      ],
+      "value": "776"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allele frequency (%)",
+        "C"
+      ],
+      "value": "42.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allele frequency (%)",
+        "T"
+      ],
+      "value": "58.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype frequency (%)",
+        "N"
+      ],
+      "value": "388"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype frequency (%)",
+        "CC"
+      ],
+      "value": "15.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype frequency (%)",
+        "CT"
+      ],
+      "value": "54.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype frequency (%)",
+        "TT"
+      ],
+      "value": "31.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Origin of population"
+      ],
+      "value": "mean"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allele frequency (%)",
+        "C"
+      ],
+      "value": "44.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allele frequency (%)",
+        "T"
+      ],
+      "value": "55.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype frequency (%)",
+        "CC"
+      ],
+      "value": "19.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype frequency (%)",
+        "CT"
+      ],
+      "value": "50.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype frequency (%)",
+        "TT"
+      ],
+      "value": "30.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Origin of population"
+      ],
+      "value": "Standard deviation"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allele frequency (%)",
+        "C"
+      ],
+      "value": "2.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allele frequency (%)",
+        "T"
+      ],
+      "value": "2.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype frequency (%)",
+        "CC"
+      ],
+      "value": "3.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype frequency (%)",
+        "CT"
+      ],
+      "value": "4.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype frequency (%)",
+        "TT"
+      ],
+      "value": "3.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Origin of population"
+      ],
+      "value": "Asian"
+    },
+    {
+      "row": [],
+      "col": [
+        "Origin of population"
+      ],
+      "value": "Japanese (Okuyama et al., 1999)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allele frequency (%)",
+        "2N"
+      ],
+      "value": "538"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allele frequency (%)",
+        "C"
+      ],
+      "value": "41.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allele frequency (%)",
+        "T"
+      ],
+      "value": "59.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype frequency (%)",
+        "N"
+      ],
+      "value": "269"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype frequency (%)",
+        "CC"
+      ],
+      "value": "14.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype frequency (%)",
+        "CT"
+      ],
+      "value": "53.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype frequency (%)",
+        "TT"
+      ],
+      "value": "33.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Origin of population"
+      ],
+      "value": "Japanese (Ishiguro et al., 2000)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allele frequency (%)",
+        "2N"
+      ],
+      "value": "538"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allele frequency (%)",
+        "C"
+      ],
+      "value": "41.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allele frequency (%)",
+        "T"
+      ],
+      "value": "60.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype frequency (%)",
+        "N"
+      ],
+      "value": "269"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype frequency (%)",
+        "CC"
+      ],
+      "value": "14.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype frequency (%)",
+        "CT"
+      ],
+      "value": "53.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype frequency (%)",
+        "TT"
+      ],
+      "value": "33.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Origin of population"
+      ],
+      "value": "Japanese (Mitsuyasu et al., 1999)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allele frequency (%)",
+        "2N"
+      ],
+      "value": "294"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allele frequency (%)",
+        "C"
+      ],
+      "value": "41.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allele frequency (%)",
+        "T"
+      ],
+      "value": "59.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype frequency (%)",
+        "N"
+      ],
+      "value": "147"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype frequency (%)",
+        "CC"
+      ],
+      "value": "17.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype frequency (%)",
+        "CT"
+      ],
+      "value": "46.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype frequency (%)",
+        "TT"
+      ],
+      "value": "35.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Origin of population"
+      ],
+      "value": "Japanese (Okuyama et al., 2000)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allele frequency (%)",
+        "2N"
+      ],
+      "value": "172"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allele frequency (%)",
+        "C"
+      ],
+      "value": "53.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allele frequency (%)",
+        "T"
+      ],
+      "value": "46.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype frequency (%)",
+        "N"
+      ],
+      "value": "86"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype frequency (%)",
+        "CC"
+      ],
+      "value": "32.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype frequency (%)",
+        "CT"
+      ],
+      "value": "41.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype frequency (%)",
+        "TT"
+      ],
+      "value": "25.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Origin of population"
+      ],
+      "value": "Chinese (Xing et al., 2003)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allele frequency (%)",
+        "2N"
+      ],
+      "value": "412"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allele frequency (%)",
+        "C"
+      ],
+      "value": "39.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allele frequency (%)",
+        "T"
+      ],
+      "value": "60.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype frequency (%)",
+        "N"
+      ],
+      "value": "206"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype frequency (%)",
+        "CC"
+      ],
+      "value": "12.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype frequency (%)",
+        "CT"
+      ],
+      "value": "53.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype frequency (%)",
+        "TT"
+      ],
+      "value": "34.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Origin of population"
+      ],
+      "value": "Chinese (Li et al., 2000)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allele frequency (%)",
+        "2N"
+      ],
+      "value": "422"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allele frequency (%)",
+        "C"
+      ],
+      "value": "40.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allele frequency (%)",
+        "T"
+      ],
+      "value": "59.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype frequency (%)",
+        "N"
+      ],
+      "value": "211"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype frequency (%)",
+        "CC"
+      ],
+      "value": "27.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype frequency (%)",
+        "CT"
+      ],
+      "value": "25.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype frequency (%)",
+        "TT"
+      ],
+      "value": "46.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Origin of population"
+      ],
+      "value": "Korean (Lee et al., 2003)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allele frequency (%)",
+        "2N"
+      ],
+      "value": "202"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allele frequency (%)",
+        "C"
+      ],
+      "value": "46.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allele frequency (%)",
+        "T"
+      ],
+      "value": "54.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype frequency (%)",
+        "N"
+      ],
+      "value": "101"
+    },
+    {
+      "row": [],
+      "col": [
+        "Origin of population"
+      ],
+      "value": "mean"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allele frequency (%)",
+        "C"
+      ],
+      "value": "41.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allele frequency (%)",
+        "T"
+      ],
+      "value": "58.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype frequency (%)",
+        "CC"
+      ],
+      "value": "17.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype frequency (%)",
+        "CT"
+      ],
+      "value": "46.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype frequency (%)",
+        "TT"
+      ],
+      "value": "35.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Origin of population"
+      ],
+      "value": "Standard deviation"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allele frequency (%)",
+        "C"
+      ],
+      "value": "3.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allele frequency (%)",
+        "T"
+      ],
+      "value": "3.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype frequency (%)",
+        "CC"
+      ],
+      "value": "6.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype frequency (%)",
+        "CT"
+      ],
+      "value": "10.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype frequency (%)",
+        "TT"
+      ],
+      "value": "5.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Origin of population"
+      ],
+      "value": "American"
+    },
+    {
+      "row": [],
+      "col": [
+        "Origin of population"
+      ],
+      "value": "Afro-American (Bookman et al., 2002)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allele frequency (%)",
+        "2N"
+      ],
+      "value": "142"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allele frequency (%)",
+        "C"
+      ],
+      "value": "55.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Allele frequency (%)",
+        "T"
+      ],
+      "value": "45.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype frequency (%)",
+        "N"
+      ],
+      "value": "71"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype frequency (%)",
+        "CC"
+      ],
+      "value": "32.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype frequency (%)",
+        "CT"
+      ],
+      "value": "42.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype frequency (%)",
+        "TT"
+      ],
+      "value": "26.0"
+    }
+  ]
+}

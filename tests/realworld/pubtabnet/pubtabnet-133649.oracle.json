@@ -1,0 +1,499 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "%",
+    "0",
+    "1",
+    "1 Attempt to Pass Step 1",
+    "1 Attempt to Pass Step 2",
+    "11",
+    "12",
+    "15.9",
+    "18",
+    "2",
+    "2 Attempts to Pass Step 1",
+    "2 Attempts to Pass Step 2",
+    "2.3",
+    "20.5",
+    "27.2",
+    "29",
+    "3",
+    "3 Attempts to Pass Step 1",
+    "3 Attempts to Pass Step 2",
+    "32",
+    "37",
+    "4",
+    "4.5",
+    "4.8",
+    "44",
+    "46",
+    "5",
+    "50.8",
+    "58.7",
+    "6",
+    "63",
+    "7",
+    "8",
+    "9",
+    "Decompressed",
+    "Eight Years to Graduate",
+    "Five Years to Graduate",
+    "For those who completed:",
+    "Number Enrolled 88-00",
+    "Number Graduated",
+    "Raw",
+    "Repeated",
+    "Seven Years to Graduate",
+    "Six Years to Graduate",
+    "Twelve Years to Graduate"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Number Enrolled 88-00"
+    },
+    {
+      "row": [],
+      "col": [
+        "Decompressed",
+        "Raw"
+      ],
+      "value": "63"
+    },
+    {
+      "row": [],
+      "col": [
+        "Repeated",
+        "Raw"
+      ],
+      "value": "44"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Number Graduated"
+    },
+    {
+      "row": [],
+      "col": [
+        "Decompressed",
+        "Raw"
+      ],
+      "value": "37"
+    },
+    {
+      "row": [],
+      "col": [
+        "%"
+      ],
+      "value": "58.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Repeated",
+        "Raw"
+      ],
+      "value": "12"
+    },
+    {
+      "row": [],
+      "col": [
+        "%"
+      ],
+      "value": "27.2"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "For those who completed:"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Five Years to Graduate"
+    },
+    {
+      "row": [],
+      "col": [
+        "Decompressed",
+        "Raw"
+      ],
+      "value": "29"
+    },
+    {
+      "row": [],
+      "col": [
+        "%"
+      ],
+      "value": "46"
+    },
+    {
+      "row": [],
+      "col": [
+        "Repeated",
+        "Raw"
+      ],
+      "value": "8"
+    },
+    {
+      "row": [],
+      "col": [
+        "%"
+      ],
+      "value": "18"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Six Years to Graduate"
+    },
+    {
+      "row": [],
+      "col": [
+        "Decompressed",
+        "Raw"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "%"
+      ],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Repeated",
+        "Raw"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "%"
+      ],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Seven Years to Graduate"
+    },
+    {
+      "row": [],
+      "col": [
+        "Decompressed",
+        "Raw"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "%"
+      ],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Repeated",
+        "Raw"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "%"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Eight Years to Graduate"
+    },
+    {
+      "row": [],
+      "col": [
+        "Decompressed",
+        "Raw"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "%"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Repeated",
+        "Raw"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "%"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Twelve Years to Graduate"
+    },
+    {
+      "row": [],
+      "col": [
+        "Decompressed",
+        "Raw"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "%"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Repeated",
+        "Raw"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "%"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "1 Attempt to Pass Step 1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Decompressed",
+        "Raw"
+      ],
+      "value": "29"
+    },
+    {
+      "row": [],
+      "col": [
+        "%"
+      ],
+      "value": "46"
+    },
+    {
+      "row": [],
+      "col": [
+        "Repeated",
+        "Raw"
+      ],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [
+        "%"
+      ],
+      "value": "15.9"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "2 Attempts to Pass Step 1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Decompressed",
+        "Raw"
+      ],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [
+        "%"
+      ],
+      "value": "11"
+    },
+    {
+      "row": [],
+      "col": [
+        "Repeated",
+        "Raw"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "%"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "3 Attempts to Pass Step 1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Decompressed",
+        "Raw"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "%"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Repeated",
+        "Raw"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "%"
+      ],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "1 Attempt to Pass Step 2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Decompressed",
+        "Raw"
+      ],
+      "value": "32"
+    },
+    {
+      "row": [],
+      "col": [
+        "%"
+      ],
+      "value": "50.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Repeated",
+        "Raw"
+      ],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [
+        "%"
+      ],
+      "value": "20.5"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "2 Attempts to Pass Step 2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Decompressed",
+        "Raw"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "%"
+      ],
+      "value": "4.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Repeated",
+        "Raw"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "%"
+      ],
+      "value": "4.5"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "3 Attempts to Pass Step 2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Decompressed",
+        "Raw"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "%"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Repeated",
+        "Raw"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "%"
+      ],
+      "value": "2.3"
+    }
+  ]
+}

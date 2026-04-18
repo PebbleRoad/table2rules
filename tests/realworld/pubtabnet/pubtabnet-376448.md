@@ -1,0 +1,233 @@
+<!-- source: PubTabNet imgid=376448 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+</td>
+<td colspan="2">
+<b>
+       Low-flux HD
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Online HDF
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<b>
+       Company
+      </b>
+</td>
+<td>
+      Gambro
+     </td>
+<td>
+      Fresenius
+     </td>
+<td>
+      Gambro
+     </td>
+<td>
+      Fresenius
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       Dialyser
+      </b>
+</td>
+<td>
+      Polyflux 17L
+     </td>
+<td>
+      F8HPS
+     </td>
+<td>
+      Polyflux 170H
+     </td>
+<td>
+      FX80
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       Membrane material
+      </b>
+</td>
+<td>
+      polyamide
+     </td>
+<td>
+      polysulfone
+     </td>
+<td>
+      polyamide
+     </td>
+<td>
+      polysulfone (helixone)
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       Sterilisation method
+      </b>
+</td>
+<td>
+      heat
+     </td>
+<td>
+      heat
+     </td>
+<td>
+      heat
+     </td>
+<td>
+      heat
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       Surface area (m
+       <sup>
+        2
+       </sup>
+       )
+      </b>
+</td>
+<td>
+      1.7
+     </td>
+<td>
+      1.8
+     </td>
+<td>
+      1.7
+     </td>
+<td>
+      1.8
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       Membrane thickness (μm)
+      </b>
+</td>
+<td>
+      50
+     </td>
+<td>
+      40
+     </td>
+<td>
+      50
+     </td>
+<td>
+      35
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       UF coefficient (ml/mmHg/h)
+      </b>
+</td>
+<td>
+      13
+     </td>
+<td>
+      18
+     </td>
+<td>
+      65
+     </td>
+<td>
+      59
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       In vitro clearance:
+      </b>
+<sup>
+       #
+      </sup>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<b>
+       Urea
+      </b>
+</td>
+<td>
+      260
+     </td>
+<td>
+      251
+     </td>
+<td>
+      268
+     </td>
+<td>
+      276
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       Phosphate
+      </b>
+</td>
+<td>
+      198
+     </td>
+<td>
+      193
+     </td>
+<td>
+      229
+     </td>
+<td>
+      239
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       Vit B12
+      </b>
+</td>
+<td>
+      111
+     </td>
+<td>
+      118
+     </td>
+<td>
+      158
+     </td>
+<td>
+      175
+     </td>
+</tr>
+</tbody>
+</table>

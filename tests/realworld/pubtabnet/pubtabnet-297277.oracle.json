@@ -1,0 +1,1245 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "1",
+    "100",
+    "100%",
+    "112",
+    "126",
+    "12629548",
+    "12629549",
+    "12640462",
+    "12640463",
+    "12640464",
+    "12669071",
+    "12669072",
+    "12669073",
+    "12669075",
+    "12669077",
+    "12669082",
+    "12669083",
+    "12679784",
+    "12692559",
+    "13",
+    "14",
+    "16",
+    "17",
+    "170",
+    "18",
+    "19",
+    "23",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29%",
+    "3",
+    "30%",
+    "31",
+    "32",
+    "32%",
+    "35",
+    "35%",
+    "36%",
+    "37",
+    "37%",
+    "38",
+    "38%",
+    "39",
+    "39%",
+    "4%",
+    "40%",
+    "41",
+    "41%",
+    "42%",
+    "43",
+    "45%",
+    "46",
+    "47%",
+    "49%",
+    "5",
+    "50",
+    "50%",
+    "509",
+    "51%",
+    "516",
+    "52%",
+    "53",
+    "53%",
+    "54",
+    "54%",
+    "55%",
+    "58%",
+    "59%",
+    "60%",
+    "63",
+    "63%",
+    "64",
+    "64%",
+    "65%",
+    "66%",
+    "67",
+    "67%",
+    "68%",
+    "7",
+    "7%",
+    "704",
+    "72%",
+    "73%",
+    "74",
+    "75%",
+    "77",
+    "77%",
+    "78%",
+    "79",
+    "79%",
+    "8",
+    "81",
+    "81%",
+    "814",
+    "82",
+    "82%",
+    "83%",
+    "84%",
+    "86",
+    "87",
+    "87%",
+    "93%",
+    "96%",
+    "99",
+    "Correct",
+    "Incorrect",
+    "NLProt",
+    "Precision",
+    "PubMedID",
+    "Rel. Recall",
+    "Textractor",
+    "Union",
+    "macro-evaluation",
+    "micro-evaluation"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "PubMedID"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "Correct"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "Incorrect"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "Precision"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "Rel. Recall"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "Correct"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "Incorrect"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "Precision"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "Rel. Recall"
+    },
+    {
+      "row": [],
+      "col": [
+        "Union"
+      ],
+      "value": "Correct"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "12629548"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "41"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "19"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "68%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "67%"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "37"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "77"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "32%"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "59%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Union"
+      ],
+      "value": "63"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "12629549"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "38"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "93%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "84%"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "32"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "79"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "29%"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "40%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Union"
+      ],
+      "value": "50"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "12640462"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "23"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "58%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "100%"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "13"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "7%"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "4%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Union"
+      ],
+      "value": "23"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "12640463"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "18"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "51%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "36%"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "46"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "77"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "37%"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "87%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Union"
+      ],
+      "value": "53"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "12640464"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "67"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "18"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "79%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "72%"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "50"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "26"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "66%"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "50%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Union"
+      ],
+      "value": "100"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "12669071"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "14"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "64%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "54%"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "19"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "35"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "35%"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "73%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Union"
+      ],
+      "value": "26"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "12669072"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "14"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "82%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "65%"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "18"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "27"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "40%"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "51%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Union"
+      ],
+      "value": "26"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "12669073"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "27"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "96%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "81%"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "25"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "31"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "45%"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "53%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Union"
+      ],
+      "value": "39"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "12669075"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "19"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "73%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "73%"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "16"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "26"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "38%"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "47%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Union"
+      ],
+      "value": "26"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "12669077"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "19"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "79%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "73%"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "16"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "38"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "30%"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "39%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Union"
+      ],
+      "value": "28"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "12669082"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "86"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "26"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "77%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "68%"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "82"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "87"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "49%"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "65%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Union"
+      ],
+      "value": "126"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "12669083"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "64"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "13"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "83%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "58%"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "81"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "74"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "52%"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "72%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Union"
+      ],
+      "value": "112"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "12679784"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "25"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "78%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "58%"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "26"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "37"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "41%"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "60%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Union"
+      ],
+      "value": "43"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "12692559"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "54"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "26"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "68%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "60%"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "67"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "77"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "47%"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "55%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Union"
+      ],
+      "value": "99"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "micro-evaluation"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "509"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "170"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "75%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "63%"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "516"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "704"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "42%"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "63%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Union"
+      ],
+      "value": "814"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "macro-evaluation"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "75%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Textractor"
+      ],
+      "value": "67%"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "39%"
+    },
+    {
+      "row": [],
+      "col": [
+        "NLProt"
+      ],
+      "value": "54%"
+    }
+  ]
+}

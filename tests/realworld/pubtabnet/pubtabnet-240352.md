@@ -1,0 +1,193 @@
+<!-- source: PubTabNet imgid=240352 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+<b>
+       Cytokine
+      </b>
+</td>
+<td>
+<b>
+       Day(s)
+      </b>
+</td>
+<td>
+<b>
+       Correlation
+       <sup>
+        a
+       </sup>
+</b>
+</td>
+<td>
+<b>
+<i>
+        P
+       </i>
+<sup>
+        a
+       </sup>
+</b>
+</td>
+<td>
+<b>
+       ρ
+       <sup>
+        a
+       </sup>
+</b>
+</td>
+<td>
+<b>
+<i>
+        n
+       </i>
+</b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="6">
+<i>
+       Synovial membrane
+      </i>
+</td>
+</tr>
+<tr>
+<td>
+      IL-1β
+     </td>
+<td>
+      0–6
+     </td>
+<td>
+      +
+     </td>
+<td>
+      0.05
+     </td>
+<td>
+      0.527
+     </td>
+<td>
+      25
+     </td>
+</tr>
+<tr>
+<td>
+      IL-6
+     </td>
+<td>
+      0–6
+     </td>
+<td>
+      +
+     </td>
+<td>
+      0.03
+     </td>
+<td>
+      0.405
+     </td>
+<td>
+      28
+     </td>
+</tr>
+<tr>
+<td colspan="6">
+<i>
+       Inguinal lymph node
+      </i>
+</td>
+</tr>
+<tr>
+<td>
+      IL-6
+     </td>
+<td>
+      3
+     </td>
+<td>
+      +
+     </td>
+<td>
+      0.02
+     </td>
+<td>
+      0.886
+     </td>
+<td>
+      6
+     </td>
+</tr>
+<tr>
+<td colspan="6">
+<i>
+       Spleen
+      </i>
+</td>
+</tr>
+<tr>
+<td>
+      IL-6
+     </td>
+<td>
+      0–6
+     </td>
+<td>
+      +
+     </td>
+<td>
+      0.01
+     </td>
+<td>
+      0.511
+     </td>
+<td>
+      25
+     </td>
+</tr>
+<tr>
+<td>
+      IL-5
+     </td>
+<td>
+      6
+     </td>
+<td>
+      -
+     </td>
+<td>
+      &lt;0.001
+     </td>
+<td>
+      1.000
+     </td>
+<td>
+      4
+     </td>
+</tr>
+<tr>
+<td>
+      IL-10
+     </td>
+<td>
+      6
+     </td>
+<td>
+      -
+     </td>
+<td>
+      0.04
+     </td>
+<td>
+      0.829
+     </td>
+<td>
+      6
+     </td>
+</tr>
+</tbody>
+</table>

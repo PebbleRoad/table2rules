@@ -1,0 +1,400 @@
+<!-- source: PubTabNet imgid=460252 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+<b>
+       Trait
+      </b>
+</td>
+<td colspan="3">
+<b>
+       QTL
+       <sup>
+        †
+       </sup>
+</b>
+</td>
+<td colspan="2">
+<b>
+       Not QTL
+      </b>
+</td>
+<td>
+<b>
+       χ
+       <sup>
+        2
+       </sup>
+<sub>
+        1
+       </sub>
+</b>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<b>
+       Number
+      </b>
+</td>
+<td>
+<b>
+       Probe sets
+       <sup>
+        ‡
+       </sup>
+</b>
+</td>
+<td>
+<b>
+       kb
+      </b>
+</td>
+<td>
+<b>
+       Probe sets
+       <sup>
+        ‡
+       </sup>
+</b>
+</td>
+<td>
+<b>
+       kb
+      </b>
+</td>
+<td>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      Life span [22]
+     </td>
+<td>
+      5
+     </td>
+<td>
+      125
+     </td>
+<td>
+      25,351
+     </td>
+<td>
+      350
+     </td>
+<td>
+      92,625
+     </td>
+<td>
+      6.58*
+     </td>
+</tr>
+<tr>
+<td>
+      Sternopleural bristle number [25]
+     </td>
+<td>
+      5
+     </td>
+<td>
+      250
+     </td>
+<td>
+      54,150
+     </td>
+<td>
+      225
+     </td>
+<td>
+      63,853
+     </td>
+<td>
+      8.70**
+     </td>
+</tr>
+<tr>
+<td>
+      Abdominal bristle number [25]
+     </td>
+<td>
+      7
+     </td>
+<td>
+      154
+     </td>
+<td>
+      34,038
+     </td>
+<td>
+      321
+     </td>
+<td>
+      83,965
+     </td>
+<td>
+      2.96 NS
+     </td>
+</tr>
+<tr>
+<td>
+      Starvation resistance [21]
+     </td>
+<td>
+      5
+     </td>
+<td>
+      110
+     </td>
+<td>
+      26,532
+     </td>
+<td>
+      365
+     </td>
+<td>
+      91,471
+     </td>
+<td>
+      0.12 NS
+     </td>
+</tr>
+<tr>
+<td>
+      Life span [21]
+     </td>
+<td>
+      4
+     </td>
+<td>
+      98
+     </td>
+<td>
+      24,305
+     </td>
+<td>
+      377
+     </td>
+<td>
+      93,698
+     </td>
+<td>
+      0.00 NS
+     </td>
+</tr>
+<tr>
+<td>
+      Life span [23]
+     </td>
+<td>
+      4
+     </td>
+<td>
+      133
+     </td>
+<td>
+      32,899
+     </td>
+<td>
+      342
+     </td>
+<td>
+      85,104
+     </td>
+<td>
+      0.00 NS
+     </td>
+</tr>
+<tr>
+<td>
+      Ovariole number [26]
+     </td>
+<td>
+      2
+     </td>
+<td>
+      70
+     </td>
+<td>
+      13,162
+     </td>
+<td>
+      405
+     </td>
+<td>
+      104,841
+     </td>
+<td>
+      6.15*
+     </td>
+</tr>
+<tr>
+<td>
+      Life span [24]
+     </td>
+<td>
+      5
+     </td>
+<td>
+      82
+     </td>
+<td>
+      19,637
+     </td>
+<td>
+      393
+     </td>
+<td>
+      98,366
+     </td>
+<td>
+      0.13 NS
+     </td>
+</tr>
+<tr>
+<td>
+      Olfactory behavior [28]
+     </td>
+<td>
+      1
+     </td>
+<td>
+      36
+     </td>
+<td>
+      7,944
+     </td>
+<td>
+      439
+     </td>
+<td>
+      110,059
+     </td>
+<td>
+      0.54 NS
+     </td>
+</tr>
+<tr>
+<td>
+      Courtship signal [27]
+     </td>
+<td>
+      3
+     </td>
+<td>
+      67
+     </td>
+<td>
+      15,859
+     </td>
+<td>
+      408
+     </td>
+<td>
+      102,144
+     </td>
+<td>
+      0.18 NS
+     </td>
+</tr>
+<tr>
+<td>
+      Flight [29]
+     </td>
+<td>
+      2
+     </td>
+<td>
+      119
+     </td>
+<td>
+      27,860
+     </td>
+<td>
+      356
+     </td>
+<td>
+      90,143
+     </td>
+<td>
+      0.55 NS
+     </td>
+</tr>
+<tr>
+<td>
+      Metabolic rate [29]
+     </td>
+<td>
+      2
+     </td>
+<td>
+      41
+     </td>
+<td>
+      8,232
+     </td>
+<td>
+      434
+     </td>
+<td>
+      109,771
+     </td>
+<td>
+      2.01 NS
+     </td>
+</tr>
+<tr>
+<td>
+      Glycogen [29]
+     </td>
+<td>
+      2
+     </td>
+<td>
+      5
+     </td>
+<td>
+      4,683
+     </td>
+<td>
+      470
+     </td>
+<td>
+      113,320
+     </td>
+<td>
+      10.60 **
+      <sup>
+       ‡
+      </sup>
+</td>
+</tr>
+<tr>
+<td>
+      Triglycerides [29]
+     </td>
+<td>
+      2
+     </td>
+<td>
+      30
+     </td>
+<td>
+      6,044
+     </td>
+<td>
+      445
+     </td>
+<td>
+      111,959
+     </td>
+<td>
+      1.39 NS
+     </td>
+</tr>
+</tbody>
+</table>

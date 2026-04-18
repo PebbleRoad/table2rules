@@ -1,0 +1,236 @@
+<!-- source: PubTabNet imgid=493292 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+<b>
+       Baseline characteristic
+      </b>
+</td>
+<td colspan="3">
+<b>
+       Women (n = 21,976)
+      </b>
+</td>
+<td colspan="3">
+<b>
+       Men (n = 19,158)
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<b>
+       Initial screen only
+      </b>
+</td>
+<td>
+<b>
+       Two screens
+      </b>
+</td>
+<td>
+<b>
+       p
+      </b>
+</td>
+<td>
+<b>
+       Initial screen only
+      </b>
+</td>
+<td>
+<b>
+       Two screens
+      </b>
+</td>
+<td>
+<b>
+       p
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<b>
+       Mean age (years)
+      </b>
+</td>
+<td>
+      44.5
+     </td>
+<td>
+      44.9
+     </td>
+<td>
+      &lt;0.001
+     </td>
+<td>
+      44.3
+     </td>
+<td>
+      44.7
+     </td>
+<td>
+      &lt;0.001
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       % current smokers
+      </b>
+</td>
+<td>
+      39.9
+     </td>
+<td>
+      36.4
+     </td>
+<td>
+      0.018
+     </td>
+<td>
+      53.4
+     </td>
+<td>
+      48.0
+     </td>
+<td>
+      &lt;0.001
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       % with SBP&gt;140 mmHg
+      </b>
+</td>
+<td>
+      25.5
+     </td>
+<td>
+      18.2
+     </td>
+<td>
+      &lt;0.001
+     </td>
+<td>
+      33.2
+     </td>
+<td>
+      24.8
+     </td>
+<td>
+      &lt;0.001
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       % with DBP&gt;90 mmHg
+      </b>
+</td>
+<td>
+      15.3
+     </td>
+<td>
+      9.4
+     </td>
+<td>
+      *
+     </td>
+<td>
+      23.9
+     </td>
+<td>
+      17.0
+     </td>
+<td>
+      *
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       % cholesterol &gt; 6.5 mmol/l
+      </b>
+</td>
+<td>
+      25.5
+     </td>
+<td>
+      22.6
+     </td>
+<td>
+      0.019
+     </td>
+<td>
+      36.7
+     </td>
+<td>
+      29.8
+     </td>
+<td>
+      &lt;0.000
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       % BMI &gt;30 kg/m
+      </b>
+<sup>
+       2
+      </sup>
+</td>
+<td>
+      17.7
+     </td>
+<td>
+      11.7
+     </td>
+<td>
+      &lt;0.000
+     </td>
+<td>
+      15.9
+     </td>
+<td>
+      11.9
+     </td>
+<td>
+      0.001
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       % in the two most deprived groups (4 and 5)
+      </b>
+</td>
+<td>
+      43.6
+     </td>
+<td>
+      37.3
+     </td>
+<td>
+      &lt;0.001**
+     </td>
+<td>
+      42.7
+     </td>
+<td>
+      36.8
+     </td>
+<td>
+      &lt;0.001**
+     </td>
+</tr>
+</tbody>
+</table>

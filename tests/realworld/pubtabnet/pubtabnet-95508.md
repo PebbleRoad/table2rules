@@ -1,0 +1,327 @@
+<!-- source: PubTabNet imgid=95508 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+<b>
+       Prevention group
+      </b>
+</td>
+<td>
+</td>
+<td colspan="2">
+<b>
+       DMF
+      </b>
+</td>
+<td colspan="2">
+<b>
+       I+DMFS
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Sealants
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+<b>
+       Risk category at 2 yrs
+      </b>
+</td>
+<td>
+<b>
+<i>
+        n
+       </i>
+</b>
+</td>
+<td>
+<b>
+       Mean
+      </b>
+</td>
+<td>
+<b>
+       S.D.
+      </b>
+</td>
+<td>
+<b>
+       Mean
+      </b>
+</td>
+<td>
+<b>
+       S.D.
+      </b>
+</td>
+<td>
+<b>
+       Mean
+      </b>
+</td>
+<td>
+<b>
+       S.D.
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<b>
+       Risk-based
+       <i>
+        N = 245
+       </i>
+</b>
+</td>
+<td>
+</td>
+<td>
+<b>
+       0.2
+      </b>
+</td>
+<td>
+<b>
+       0.6
+      </b>
+</td>
+<td>
+<b>
+       2.8
+      </b>
+</td>
+<td>
+<b>
+       4.4
+      </b>
+</td>
+<td>
+<b>
+       2.6
+      </b>
+</td>
+<td>
+<b>
+       2.5
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+      Low-risk
+     </td>
+<td>
+<i>
+       166
+      </i>
+</td>
+<td>
+      0.2
+     </td>
+<td>
+      0.6
+     </td>
+<td>
+      2.4
+     </td>
+<td>
+      3.8
+     </td>
+<td>
+      2.4
+     </td>
+<td>
+      2.5
+     </td>
+</tr>
+<tr>
+<td>
+      Intermediate
+     </td>
+<td>
+<i>
+       52
+      </i>
+</td>
+<td>
+      0.2
+     </td>
+<td>
+      0.7
+     </td>
+<td>
+      3.1
+     </td>
+<td>
+      4.7
+     </td>
+<td>
+      2.8
+     </td>
+<td>
+      2.2
+     </td>
+</tr>
+<tr>
+<td>
+      High-risk
+     </td>
+<td>
+<i>
+       27
+      </i>
+</td>
+<td>
+      0.4
+     </td>
+<td>
+      0.8
+     </td>
+<td>
+      4.7
+     </td>
+<td>
+      6.4
+     </td>
+<td>
+      3.4
+     </td>
+<td>
+      2.9
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       Routine
+       <i>
+        N = 202
+       </i>
+</b>
+</td>
+<td>
+</td>
+<td>
+<b>
+       0.4
+      </b>
+</td>
+<td>
+<b>
+       0.9
+      </b>
+</td>
+<td>
+<b>
+       2.9
+      </b>
+</td>
+<td>
+<b>
+       4.0
+      </b>
+</td>
+<td>
+<b>
+       1.6
+      </b>
+</td>
+<td>
+<b>
+       1.8
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+      Low-risk
+     </td>
+<td>
+<i>
+       134
+      </i>
+</td>
+<td>
+      0.3
+     </td>
+<td>
+      0.7
+     </td>
+<td>
+      2.3
+     </td>
+<td>
+      3.8
+     </td>
+<td>
+      1.5
+     </td>
+<td>
+      1.6
+     </td>
+</tr>
+<tr>
+<td>
+      Intermediate
+     </td>
+<td>
+<i>
+       50
+      </i>
+</td>
+<td>
+      0.6
+     </td>
+<td>
+      0.9
+     </td>
+<td>
+      4.1
+     </td>
+<td>
+      3.8
+     </td>
+<td>
+      1.5
+     </td>
+<td>
+      1.8
+     </td>
+</tr>
+<tr>
+<td>
+      High-risk
+     </td>
+<td>
+<i>
+       18
+      </i>
+</td>
+<td>
+      0.9
+     </td>
+<td>
+      1.4
+     </td>
+<td>
+      4.6
+     </td>
+<td>
+      4.7
+     </td>
+<td>
+      2.2
+     </td>
+<td>
+      2.9
+     </td>
+</tr>
+</tbody>
+</table>

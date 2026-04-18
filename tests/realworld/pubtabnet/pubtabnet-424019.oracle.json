@@ -1,0 +1,601 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "-",
+    "1",
+    "1/17",
+    "10",
+    "10/17",
+    "11",
+    "11/13",
+    "11/17",
+    "12",
+    "12/16",
+    "12/17",
+    "13/17",
+    "2",
+    "2/13",
+    "2/15",
+    "2/16",
+    "3",
+    "3/16",
+    "3/17",
+    "4",
+    "4/15",
+    "4/16",
+    "4/17",
+    "5",
+    "5/15",
+    "5/16",
+    "5/17",
+    "6",
+    "6/16",
+    "6/17",
+    "7",
+    "7/17",
+    "8",
+    "8/17",
+    "9",
+    "Based on new rule",
+    "Based on the new rule",
+    "Changed question",
+    "Comments",
+    "Consensus",
+    "Example",
+    "High",
+    "High/Moderate depending if there are fatal flaws",
+    "Low",
+    "Moderate",
+    "Need more information before consensus",
+    "Very low"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Example"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "High"
+      ],
+      "value": "2/15"
+    },
+    {
+      "row": [],
+      "col": [
+        "Moderate"
+      ],
+      "value": "4/15"
+    },
+    {
+      "row": [],
+      "col": [
+        "Low"
+      ],
+      "value": "5/15"
+    },
+    {
+      "row": [],
+      "col": [
+        "Very low"
+      ],
+      "value": "4/15"
+    },
+    {
+      "row": [],
+      "col": [
+        "Consensus"
+      ],
+      "value": "Moderate"
+    },
+    {
+      "row": [],
+      "col": [
+        "Example"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "High"
+      ],
+      "value": "12/17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Moderate"
+      ],
+      "value": "5/17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Low"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Very low"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Consensus"
+      ],
+      "value": "High"
+    },
+    {
+      "row": [],
+      "col": [
+        "Example"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "High"
+      ],
+      "value": "1/17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Moderate"
+      ],
+      "value": "6/17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Low"
+      ],
+      "value": "5/17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Very low"
+      ],
+      "value": "5/17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Consensus"
+      ],
+      "value": "Need more information before consensus"
+    },
+    {
+      "row": [],
+      "col": [
+        "Comments"
+      ],
+      "value": "Need more information before consensus"
+    },
+    {
+      "row": [],
+      "col": [
+        "Example"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "High"
+      ],
+      "value": "4/17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Moderate"
+      ],
+      "value": "13/17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Low"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Very low"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Consensus"
+      ],
+      "value": "High"
+    },
+    {
+      "row": [],
+      "col": [
+        "Comments"
+      ],
+      "value": "Based on the new rule"
+    },
+    {
+      "row": [],
+      "col": [
+        "Example"
+      ],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [
+        "High"
+      ],
+      "value": "12/16"
+    },
+    {
+      "row": [],
+      "col": [
+        "Moderate"
+      ],
+      "value": "4/16"
+    },
+    {
+      "row": [],
+      "col": [
+        "Low"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Very low"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Consensus"
+      ],
+      "value": "High"
+    },
+    {
+      "row": [],
+      "col": [
+        "Example"
+      ],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [
+        "High"
+      ],
+      "value": "7/17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Moderate"
+      ],
+      "value": "10/17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Low"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Very low"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Consensus"
+      ],
+      "value": "High"
+    },
+    {
+      "row": [],
+      "col": [
+        "Comments"
+      ],
+      "value": "Based on new rule"
+    },
+    {
+      "row": [],
+      "col": [
+        "Example"
+      ],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [
+        "High"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Moderate"
+      ],
+      "value": "11/17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Low"
+      ],
+      "value": "6/17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Very low"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Consensus"
+      ],
+      "value": "Moderate"
+    },
+    {
+      "row": [],
+      "col": [
+        "Example"
+      ],
+      "value": "8"
+    },
+    {
+      "row": [],
+      "col": [
+        "High"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Moderate"
+      ],
+      "value": "6/17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Low"
+      ],
+      "value": "3/17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Very low"
+      ],
+      "value": "8/17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Consensus"
+      ],
+      "value": "High"
+    },
+    {
+      "row": [],
+      "col": [
+        "Comments"
+      ],
+      "value": "Based on new rule"
+    },
+    {
+      "row": [],
+      "col": [
+        "Example"
+      ],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [
+        "High"
+      ],
+      "value": "2/16"
+    },
+    {
+      "row": [],
+      "col": [
+        "Moderate"
+      ],
+      "value": "3/16"
+    },
+    {
+      "row": [],
+      "col": [
+        "Low"
+      ],
+      "value": "5/16"
+    },
+    {
+      "row": [],
+      "col": [
+        "Very low"
+      ],
+      "value": "6/16"
+    },
+    {
+      "row": [],
+      "col": [
+        "Consensus"
+      ],
+      "value": "High/Moderate depending if there are fatal flaws"
+    },
+    {
+      "row": [],
+      "col": [
+        "Comments"
+      ],
+      "value": "High/Moderate depending if there are fatal flaws"
+    },
+    {
+      "row": [],
+      "col": [
+        "Example"
+      ],
+      "value": "10"
+    },
+    {
+      "row": [],
+      "col": [
+        "High"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Moderate"
+      ],
+      "value": "1/17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Low"
+      ],
+      "value": "4/17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Very low"
+      ],
+      "value": "12/17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Consensus"
+      ],
+      "value": "Very low"
+    },
+    {
+      "row": [],
+      "col": [
+        "Example"
+      ],
+      "value": "11"
+    },
+    {
+      "row": [],
+      "col": [
+        "High"
+      ],
+      "value": "1/17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Moderate"
+      ],
+      "value": "3/17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Low"
+      ],
+      "value": "8/17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Very low"
+      ],
+      "value": "5/17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Consensus"
+      ],
+      "value": "High"
+    },
+    {
+      "row": [],
+      "col": [
+        "Comments"
+      ],
+      "value": "Changed question"
+    },
+    {
+      "row": [],
+      "col": [
+        "Example"
+      ],
+      "value": "12"
+    },
+    {
+      "row": [],
+      "col": [
+        "High"
+      ],
+      "value": "11/13"
+    },
+    {
+      "row": [],
+      "col": [
+        "Moderate"
+      ],
+      "value": "2/13"
+    },
+    {
+      "row": [],
+      "col": [
+        "Low"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Very low"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Consensus"
+      ],
+      "value": "High"
+    }
+  ]
+}

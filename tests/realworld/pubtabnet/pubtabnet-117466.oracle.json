@@ -1,0 +1,527 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0% effectiveness against NBPD",
+    "10158",
+    "1041",
+    "10511",
+    "1084",
+    "10857",
+    "13085",
+    "13678",
+    "1470",
+    "1473",
+    "14892",
+    "15801",
+    "19182",
+    "2010",
+    "2028",
+    "2126",
+    "2127",
+    "235",
+    "242",
+    "25907",
+    "2820",
+    "285",
+    "2938",
+    "32675",
+    "3370",
+    "3849",
+    "390",
+    "4167",
+    "4217",
+    "4383",
+    "4881",
+    "5300",
+    "570",
+    "6058",
+    "6858",
+    "7415",
+    "795",
+    "8313",
+    "8995",
+    "954",
+    "Assumed preventive Power against NBPD",
+    "Belgium",
+    "Cost saving",
+    "France",
+    "Scotland",
+    "Spain",
+    "Step 1 (10% increase)",
+    "Step 10 (same effectiveness against NBPD as against BPD)",
+    "Step 2 (20% increase)",
+    "Step 3 (30% increase)",
+    "Step 4 (40% increase)",
+    "Step 5 (50% increase)",
+    "Step 6 (60% increase)",
+    "Step 7 (70% increase)",
+    "Step 8 (80% increase)",
+    "Step 9 (90% increase)",
+    "Sweden"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Assumed preventive Power against NBPD"
+      ],
+      "value": "0% effectiveness against NBPD"
+    },
+    {
+      "row": [],
+      "col": [
+        "Belgium"
+      ],
+      "value": "25907"
+    },
+    {
+      "row": [],
+      "col": [
+        "France"
+      ],
+      "value": "19182"
+    },
+    {
+      "row": [],
+      "col": [
+        "Scotland"
+      ],
+      "value": "14892"
+    },
+    {
+      "row": [],
+      "col": [
+        "Spain"
+      ],
+      "value": "10511"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sweden"
+      ],
+      "value": "32675"
+    },
+    {
+      "row": [],
+      "col": [
+        "Assumed preventive Power against NBPD"
+      ],
+      "value": "Step 1 (10% increase)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Belgium"
+      ],
+      "value": "13678"
+    },
+    {
+      "row": [],
+      "col": [
+        "France"
+      ],
+      "value": "15801"
+    },
+    {
+      "row": [],
+      "col": [
+        "Scotland"
+      ],
+      "value": "6858"
+    },
+    {
+      "row": [],
+      "col": [
+        "Spain"
+      ],
+      "value": "4383"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sweden"
+      ],
+      "value": "10158"
+    },
+    {
+      "row": [],
+      "col": [
+        "Assumed preventive Power against NBPD"
+      ],
+      "value": "Step 2 (20% increase)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Belgium"
+      ],
+      "value": "8313"
+    },
+    {
+      "row": [],
+      "col": [
+        "France"
+      ],
+      "value": "13085"
+    },
+    {
+      "row": [],
+      "col": [
+        "Scotland"
+      ],
+      "value": "4167"
+    },
+    {
+      "row": [],
+      "col": [
+        "Spain"
+      ],
+      "value": "2126"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sweden"
+      ],
+      "value": "4217"
+    },
+    {
+      "row": [],
+      "col": [
+        "Assumed preventive Power against NBPD"
+      ],
+      "value": "Step 3 (30% increase)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Belgium"
+      ],
+      "value": "5300"
+    },
+    {
+      "row": [],
+      "col": [
+        "France"
+      ],
+      "value": "10857"
+    },
+    {
+      "row": [],
+      "col": [
+        "Scotland"
+      ],
+      "value": "2820"
+    },
+    {
+      "row": [],
+      "col": [
+        "Spain"
+      ],
+      "value": "954"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sweden"
+      ],
+      "value": "1473"
+    },
+    {
+      "row": [],
+      "col": [
+        "Assumed preventive Power against NBPD"
+      ],
+      "value": "Step 4 (40% increase)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Belgium"
+      ],
+      "value": "3370"
+    },
+    {
+      "row": [],
+      "col": [
+        "France"
+      ],
+      "value": "8995"
+    },
+    {
+      "row": [],
+      "col": [
+        "Scotland"
+      ],
+      "value": "2010"
+    },
+    {
+      "row": [],
+      "col": [
+        "Spain"
+      ],
+      "value": "235"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sweden"
+      ],
+      "value": "Cost saving"
+    },
+    {
+      "row": [],
+      "col": [
+        "Assumed preventive Power against NBPD"
+      ],
+      "value": "Step 5 (50% increase)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Belgium"
+      ],
+      "value": "2028"
+    },
+    {
+      "row": [],
+      "col": [
+        "France"
+      ],
+      "value": "7415"
+    },
+    {
+      "row": [],
+      "col": [
+        "Scotland"
+      ],
+      "value": "1470"
+    },
+    {
+      "row": [],
+      "col": [
+        "Spain"
+      ],
+      "value": "Cost saving"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sweden"
+      ],
+      "value": "Cost saving"
+    },
+    {
+      "row": [],
+      "col": [
+        "Assumed preventive Power against NBPD"
+      ],
+      "value": "Step 6 (60% increase)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Belgium"
+      ],
+      "value": "1041"
+    },
+    {
+      "row": [],
+      "col": [
+        "France"
+      ],
+      "value": "6058"
+    },
+    {
+      "row": [],
+      "col": [
+        "Scotland"
+      ],
+      "value": "1084"
+    },
+    {
+      "row": [],
+      "col": [
+        "Spain"
+      ],
+      "value": "Cost saving"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sweden"
+      ],
+      "value": "Cost saving"
+    },
+    {
+      "row": [],
+      "col": [
+        "Assumed preventive Power against NBPD"
+      ],
+      "value": "Step 7 (70% increase)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Belgium"
+      ],
+      "value": "285"
+    },
+    {
+      "row": [],
+      "col": [
+        "France"
+      ],
+      "value": "4881"
+    },
+    {
+      "row": [],
+      "col": [
+        "Scotland"
+      ],
+      "value": "795"
+    },
+    {
+      "row": [],
+      "col": [
+        "Spain"
+      ],
+      "value": "Cost saving"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sweden"
+      ],
+      "value": "Cost saving"
+    },
+    {
+      "row": [],
+      "col": [
+        "Assumed preventive Power against NBPD"
+      ],
+      "value": "Step 8 (80% increase)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Belgium"
+      ],
+      "value": "Cost saving"
+    },
+    {
+      "row": [],
+      "col": [
+        "France"
+      ],
+      "value": "3849"
+    },
+    {
+      "row": [],
+      "col": [
+        "Scotland"
+      ],
+      "value": "570"
+    },
+    {
+      "row": [],
+      "col": [
+        "Spain"
+      ],
+      "value": "Cost saving"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sweden"
+      ],
+      "value": "Cost saving"
+    },
+    {
+      "row": [],
+      "col": [
+        "Assumed preventive Power against NBPD"
+      ],
+      "value": "Step 9 (90% increase)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Belgium"
+      ],
+      "value": "Cost saving"
+    },
+    {
+      "row": [],
+      "col": [
+        "France"
+      ],
+      "value": "2938"
+    },
+    {
+      "row": [],
+      "col": [
+        "Scotland"
+      ],
+      "value": "390"
+    },
+    {
+      "row": [],
+      "col": [
+        "Spain"
+      ],
+      "value": "Cost saving"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sweden"
+      ],
+      "value": "Cost saving"
+    },
+    {
+      "row": [],
+      "col": [
+        "Assumed preventive Power against NBPD"
+      ],
+      "value": "Step 10 (same effectiveness against NBPD as against BPD)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Belgium"
+      ],
+      "value": "Cost saving"
+    },
+    {
+      "row": [],
+      "col": [
+        "France"
+      ],
+      "value": "2127"
+    },
+    {
+      "row": [],
+      "col": [
+        "Scotland"
+      ],
+      "value": "242"
+    },
+    {
+      "row": [],
+      "col": [
+        "Spain"
+      ],
+      "value": "Cost saving"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sweden"
+      ],
+      "value": "Cost saving"
+    }
+  ]
+}

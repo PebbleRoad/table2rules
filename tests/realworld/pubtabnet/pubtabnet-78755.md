@@ -1,0 +1,190 @@
+<!-- source: PubTabNet imgid=78755 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+</td>
+<td colspan="2">
+<b>
+       Case (n = 158)
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Control (n = 171)
+      </b>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<b>
+       n
+      </b>
+</td>
+<td>
+<b>
+       %
+      </b>
+</td>
+<td>
+<b>
+       n
+      </b>
+</td>
+<td>
+<b>
+       %
+      </b>
+</td>
+<td>
+<b>
+       p-value
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="6">
+<b>
+       Has your child ever had asthma?
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+      Yes:
+     </td>
+<td>
+      96
+     </td>
+<td>
+      60.7
+     </td>
+<td>
+      8
+     </td>
+<td>
+      4.7
+     </td>
+<td>
+      &lt;0.0001
+     </td>
+</tr>
+<tr>
+<td>
+      No:
+     </td>
+<td>
+      62
+     </td>
+<td>
+      39.2
+     </td>
+<td>
+      163
+     </td>
+<td>
+      95.3
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td colspan="6">
+<b>
+       Has your child ever had eczema?
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+      Yes:
+     </td>
+<td>
+      74
+     </td>
+<td>
+      46.8
+     </td>
+<td>
+      67
+     </td>
+<td>
+      39.2
+     </td>
+<td>
+      0.16
+     </td>
+</tr>
+<tr>
+<td>
+      No:
+     </td>
+<td>
+      84
+     </td>
+<td>
+      53.2
+     </td>
+<td>
+      104
+     </td>
+<td>
+      60.8
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td colspan="6">
+<b>
+       Has your child ever had hay fever?
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+      Yes:
+     </td>
+<td>
+      34
+     </td>
+<td>
+      21.5
+     </td>
+<td>
+      24
+     </td>
+<td>
+      14.0
+     </td>
+<td>
+      0.075
+     </td>
+</tr>
+<tr>
+<td>
+      No:
+     </td>
+<td>
+      124
+     </td>
+<td>
+      78.5
+     </td>
+<td>
+      147
+     </td>
+<td>
+      85.9
+     </td>
+<td>
+</td>
+</tr>
+</tbody>
+</table>

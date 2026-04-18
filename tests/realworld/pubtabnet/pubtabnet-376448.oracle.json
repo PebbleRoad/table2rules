@@ -1,0 +1,387 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "1.7",
+    "1.8",
+    "111",
+    "118",
+    "13",
+    "158",
+    "175",
+    "18",
+    "193",
+    "198",
+    "229",
+    "239",
+    "251",
+    "260",
+    "268",
+    "276",
+    "35",
+    "40",
+    "50",
+    "59",
+    "65",
+    "Company",
+    "Dialyser",
+    "F8HPS",
+    "FX80",
+    "Fresenius",
+    "Gambro",
+    "In vitro clearance: #",
+    "Low-flux HD",
+    "Membrane material",
+    "Membrane thickness (\u03bcm)",
+    "Online HDF",
+    "Phosphate",
+    "Polyflux 170H",
+    "Polyflux 17L",
+    "Sterilisation method",
+    "Surface area (m 2 )",
+    "UF coefficient (ml/mmHg/h)",
+    "Urea",
+    "Vit B12",
+    "heat",
+    "polyamide",
+    "polysulfone",
+    "polysulfone (helixone)"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Company"
+    },
+    {
+      "row": [],
+      "col": [
+        "Low-flux HD"
+      ],
+      "value": "Gambro"
+    },
+    {
+      "row": [],
+      "col": [
+        "Low-flux HD"
+      ],
+      "value": "Fresenius"
+    },
+    {
+      "row": [],
+      "col": [
+        "Online HDF"
+      ],
+      "value": "Gambro"
+    },
+    {
+      "row": [],
+      "col": [
+        "Online HDF"
+      ],
+      "value": "Fresenius"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Dialyser"
+    },
+    {
+      "row": [],
+      "col": [
+        "Low-flux HD"
+      ],
+      "value": "Polyflux 17L"
+    },
+    {
+      "row": [],
+      "col": [
+        "Low-flux HD"
+      ],
+      "value": "F8HPS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Online HDF"
+      ],
+      "value": "Polyflux 170H"
+    },
+    {
+      "row": [],
+      "col": [
+        "Online HDF"
+      ],
+      "value": "FX80"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Membrane material"
+    },
+    {
+      "row": [],
+      "col": [
+        "Low-flux HD"
+      ],
+      "value": "polyamide"
+    },
+    {
+      "row": [],
+      "col": [
+        "Low-flux HD"
+      ],
+      "value": "polysulfone"
+    },
+    {
+      "row": [],
+      "col": [
+        "Online HDF"
+      ],
+      "value": "polyamide"
+    },
+    {
+      "row": [],
+      "col": [
+        "Online HDF"
+      ],
+      "value": "polysulfone (helixone)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Sterilisation method"
+    },
+    {
+      "row": [],
+      "col": [
+        "Low-flux HD"
+      ],
+      "value": "heat"
+    },
+    {
+      "row": [],
+      "col": [
+        "Low-flux HD"
+      ],
+      "value": "heat"
+    },
+    {
+      "row": [],
+      "col": [
+        "Online HDF"
+      ],
+      "value": "heat"
+    },
+    {
+      "row": [],
+      "col": [
+        "Online HDF"
+      ],
+      "value": "heat"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Surface area (m 2 )"
+    },
+    {
+      "row": [],
+      "col": [
+        "Low-flux HD"
+      ],
+      "value": "1.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Low-flux HD"
+      ],
+      "value": "1.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Online HDF"
+      ],
+      "value": "1.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Online HDF"
+      ],
+      "value": "1.8"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Membrane thickness (\u03bcm)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Low-flux HD"
+      ],
+      "value": "50"
+    },
+    {
+      "row": [],
+      "col": [
+        "Low-flux HD"
+      ],
+      "value": "40"
+    },
+    {
+      "row": [],
+      "col": [
+        "Online HDF"
+      ],
+      "value": "50"
+    },
+    {
+      "row": [],
+      "col": [
+        "Online HDF"
+      ],
+      "value": "35"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "UF coefficient (ml/mmHg/h)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Low-flux HD"
+      ],
+      "value": "13"
+    },
+    {
+      "row": [],
+      "col": [
+        "Low-flux HD"
+      ],
+      "value": "18"
+    },
+    {
+      "row": [],
+      "col": [
+        "Online HDF"
+      ],
+      "value": "65"
+    },
+    {
+      "row": [],
+      "col": [
+        "Online HDF"
+      ],
+      "value": "59"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "In vitro clearance: #"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Urea"
+    },
+    {
+      "row": [],
+      "col": [
+        "Low-flux HD"
+      ],
+      "value": "260"
+    },
+    {
+      "row": [],
+      "col": [
+        "Low-flux HD"
+      ],
+      "value": "251"
+    },
+    {
+      "row": [],
+      "col": [
+        "Online HDF"
+      ],
+      "value": "268"
+    },
+    {
+      "row": [],
+      "col": [
+        "Online HDF"
+      ],
+      "value": "276"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Phosphate"
+    },
+    {
+      "row": [],
+      "col": [
+        "Low-flux HD"
+      ],
+      "value": "198"
+    },
+    {
+      "row": [],
+      "col": [
+        "Low-flux HD"
+      ],
+      "value": "193"
+    },
+    {
+      "row": [],
+      "col": [
+        "Online HDF"
+      ],
+      "value": "229"
+    },
+    {
+      "row": [],
+      "col": [
+        "Online HDF"
+      ],
+      "value": "239"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Vit B12"
+    },
+    {
+      "row": [],
+      "col": [
+        "Low-flux HD"
+      ],
+      "value": "111"
+    },
+    {
+      "row": [],
+      "col": [
+        "Low-flux HD"
+      ],
+      "value": "118"
+    },
+    {
+      "row": [],
+      "col": [
+        "Online HDF"
+      ],
+      "value": "158"
+    },
+    {
+      "row": [],
+      "col": [
+        "Online HDF"
+      ],
+      "value": "175"
+    }
+  ]
+}

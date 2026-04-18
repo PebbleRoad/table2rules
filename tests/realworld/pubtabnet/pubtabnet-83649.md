@@ -1,0 +1,427 @@
+<!-- source: PubTabNet imgid=83649 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+<b>
+       Metabolic pathway
+      </b>
+</td>
+<td colspan="3">
+<b>
+       Enzyme total
+      </b>
+</td>
+<td colspan="4">
+<b>
+       CATH class
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<b>
+       Total
+      </b>
+</td>
+<td>
+<b>
+       with str.
+      </b>
+</td>
+<td>
+<b>
+       coverage
+      </b>
+</td>
+<td>
+<b>
+       a / b
+      </b>
+</td>
+<td>
+<b>
+       a
+      </b>
+</td>
+<td>
+<b>
+       b
+      </b>
+</td>
+<td>
+<b>
+       Few
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      all pathways
+     </td>
+<td>
+      1 952
+     </td>
+<td>
+      508
+     </td>
+<td>
+      26,0
+     </td>
+<td>
+      443
+     </td>
+<td>
+      114
+     </td>
+<td>
+      107
+     </td>
+<td>
+      15
+     </td>
+</tr>
+<tr>
+<td>
+      Fatty acid biosynthesis (path 1)
+     </td>
+<td>
+      14
+     </td>
+<td>
+      7
+     </td>
+<td>
+      50,0
+     </td>
+<td>
+      6
+     </td>
+<td>
+      0
+     </td>
+<td>
+      2
+     </td>
+<td>
+      0
+     </td>
+</tr>
+<tr>
+<td>
+      Oxidative phosphorylation
+     </td>
+<td>
+      10
+     </td>
+<td>
+      5
+     </td>
+<td>
+      50,0
+     </td>
+<td>
+      3
+     </td>
+<td>
+      3
+     </td>
+<td>
+      3
+     </td>
+<td>
+      1
+     </td>
+</tr>
+<tr>
+<td>
+      Streptomycin biosynthesis
+     </td>
+<td>
+      14
+     </td>
+<td>
+      7
+     </td>
+<td>
+      50,0
+     </td>
+<td>
+      6
+     </td>
+<td>
+      0
+     </td>
+<td>
+      1
+     </td>
+<td>
+      0
+     </td>
+</tr>
+<tr>
+<td>
+      Pyrimidine metabolism
+     </td>
+<td>
+      59
+     </td>
+<td>
+      30
+     </td>
+<td>
+      50,8
+     </td>
+<td>
+      29
+     </td>
+<td>
+      6
+     </td>
+<td>
+      5
+     </td>
+<td>
+      0
+     </td>
+</tr>
+<tr>
+<td>
+      Selenoamino acid metabolism
+     </td>
+<td>
+      21
+     </td>
+<td>
+      11
+     </td>
+<td>
+      52,3
+     </td>
+<td>
+      11
+     </td>
+<td>
+      2
+     </td>
+<td>
+      2
+     </td>
+<td>
+      1
+     </td>
+</tr>
+<tr>
+<td>
+      Pentose phosphate pathway
+     </td>
+<td>
+      33
+     </td>
+<td>
+      18
+     </td>
+<td>
+      54,5
+     </td>
+<td>
+      17
+     </td>
+<td>
+      2
+     </td>
+<td>
+      2
+     </td>
+<td>
+      2
+     </td>
+</tr>
+<tr>
+<td>
+      Methionine metabolism
+     </td>
+<td>
+      23
+     </td>
+<td>
+      13
+     </td>
+<td>
+      56,5
+     </td>
+<td>
+      13
+     </td>
+<td>
+      3
+     </td>
+<td>
+      1
+     </td>
+<td>
+      1
+     </td>
+</tr>
+<tr>
+<td>
+      One carbon pool by folate
+     </td>
+<td>
+      23
+     </td>
+<td>
+      13
+     </td>
+<td>
+      56,5
+     </td>
+<td>
+      13
+     </td>
+<td>
+      2
+     </td>
+<td>
+      1
+     </td>
+<td>
+      0
+     </td>
+</tr>
+<tr>
+<td>
+      Phe, Tyr and Trp biosynthesis
+     </td>
+<td>
+      31
+     </td>
+<td>
+      19
+     </td>
+<td>
+      61,2
+     </td>
+<td>
+      18
+     </td>
+<td>
+      6
+     </td>
+<td>
+      2
+     </td>
+<td>
+      0
+     </td>
+</tr>
+<tr>
+<td>
+      Glycolysis / Gluconeogenesis
+     </td>
+<td>
+      38
+     </td>
+<td>
+      24
+     </td>
+<td>
+      63,1
+     </td>
+<td>
+      24
+     </td>
+<td>
+      2
+     </td>
+<td>
+      5
+     </td>
+<td>
+      2
+     </td>
+</tr>
+<tr>
+<td>
+      Reductive carboxylate cycle (CO2 fixation)
+     </td>
+<td>
+      13
+     </td>
+<td>
+      9
+     </td>
+<td>
+      69,2
+     </td>
+<td>
+      8
+     </td>
+<td>
+      3
+     </td>
+<td>
+      1
+     </td>
+<td>
+      1
+     </td>
+</tr>
+<tr>
+<td>
+      Aminoacyl-tRNA biosynthesis
+     </td>
+<td>
+      21
+     </td>
+<td>
+      16
+     </td>
+<td>
+      76,1
+     </td>
+<td>
+      16
+     </td>
+<td>
+      8
+     </td>
+<td>
+      6
+     </td>
+<td>
+      0
+     </td>
+</tr>
+<tr>
+<td>
+      Carbon fixation
+     </td>
+<td>
+      23
+     </td>
+<td>
+      18
+     </td>
+<td>
+      78,2
+     </td>
+<td>
+      18
+     </td>
+<td>
+      2
+     </td>
+<td>
+      3
+     </td>
+<td>
+      0
+     </td>
+</tr>
+</tbody>
+</table>

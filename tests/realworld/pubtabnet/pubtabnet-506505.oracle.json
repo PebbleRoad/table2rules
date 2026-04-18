@@ -1,0 +1,740 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0",
+    "0.13",
+    "0.17",
+    "0.20",
+    "0.21",
+    "0.49",
+    "0.58",
+    "0.59 (0.19\u20131.89)",
+    "0.59 (0.26\u20131.33)",
+    "0.61 (0.26\u20131.41)",
+    "0.66 (0.22\u20131.97)",
+    "0.99 (0.62\u20131.56)",
+    "0.99 (0.63\u20131.55)",
+    "1.00 (Ref)",
+    "1.02 (0.39\u20132.68)",
+    "1.03 (0.42\u20132.51)",
+    "1.09 (0.45\u20132.62)",
+    "1.14 (0.67\u20131.91)",
+    "1.15 (0.48\u20132.75)",
+    "1.15 (0.53\u20132.53)",
+    "1.17 (0.70\u20131.94)",
+    "1.25 (0.60\u20132.60)",
+    "1.27 (0.62\u20132.62)",
+    "1.28 (0.62\u20132.67)",
+    "1.29 (0.60\u20132.78)",
+    "1.31 (0.63\u20132.74)",
+    "1.34 (0.72\u20132.50)",
+    "1.41 (0.76\u20132.60)",
+    "1.42 (0.77\u20132.65)",
+    "1.46 (0.75\u20132.85)",
+    "1.67 (0.65\u20134.34)",
+    "1.67 (0.66\u20134.27)",
+    "1.82 (1.05\u20133.16)",
+    "1.85 (0.71\u20134.84)",
+    "1.90 (0.67\u20135.39)",
+    "1.91 (1.11\u20133.29)",
+    "1.99 (1.13\u20133.50)",
+    "123",
+    "14",
+    "16",
+    "165",
+    "178",
+    "2.04 (1.17\u20133.57)",
+    "2.40 (1.31\u20134.39)",
+    "2.43 (1.34\u20134.41)",
+    "205",
+    "21",
+    "23",
+    "235",
+    "25",
+    "27",
+    "3.46 (1.19\u201310.09)",
+    "3.65 (1.27\u201310.47)",
+    "30",
+    "34",
+    "36",
+    "40",
+    "45",
+    "46",
+    "5.26 (2.30\u201312.04)",
+    "5.35 (2.39\u201312.01)",
+    "5.57 (2.77\u201311.21)",
+    "5.58 (2.74\u201311.38)",
+    "52",
+    "5\u201315",
+    "6",
+    "6.48 (3.31\u201312.70)",
+    "6.65 (3.43\u201312.90)",
+    "60",
+    "7",
+    "8",
+    "95",
+    "<5",
+    "Cases",
+    "Category of BBD",
+    "Controls",
+    "Jointly-classified b",
+    "Nonproliferative",
+    "OR (95% CI) d",
+    "OR (95% CI) e",
+    "P for trend f",
+    "Proliferative with atypia",
+    "Proliferative without atypia",
+    "Recent alcohol consumption (g/day)",
+    "Stratified c>",
+    "\u2265 15"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Category of BBD"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Recent alcohol consumption (g/day)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Cases"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Controls"
+    },
+    {
+      "row": [],
+      "col": [
+        "Jointly-classified b"
+      ],
+      "value": "OR (95% CI) d"
+    },
+    {
+      "row": [],
+      "col": [
+        "Jointly-classified b"
+      ],
+      "value": "OR (95% CI) e"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stratified c>"
+      ],
+      "value": "OR (95% CI) d"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stratified c>"
+      ],
+      "value": "OR (95% CI) e"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Nonproliferative"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "21"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "178"
+    },
+    {
+      "row": [],
+      "col": [
+        "Jointly-classified b"
+      ],
+      "value": "1.00 (Ref)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Jointly-classified b"
+      ],
+      "value": "1.00 (Ref)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stratified c>"
+      ],
+      "value": "1.00 (Ref)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stratified c>"
+      ],
+      "value": "1.00 (Ref)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "<5"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "27"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "165"
+    },
+    {
+      "row": [],
+      "col": [
+        "Jointly-classified b"
+      ],
+      "value": "1.41 (0.76\u20132.60)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Jointly-classified b"
+      ],
+      "value": "1.42 (0.77\u20132.65)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stratified c>"
+      ],
+      "value": "1.34 (0.72\u20132.50)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stratified c>"
+      ],
+      "value": "1.46 (0.75\u20132.85)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "5\u201315"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "14"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "95"
+    },
+    {
+      "row": [],
+      "col": [
+        "Jointly-classified b"
+      ],
+      "value": "1.27 (0.62\u20132.62)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Jointly-classified b"
+      ],
+      "value": "1.25 (0.60\u20132.60)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stratified c>"
+      ],
+      "value": "1.31 (0.63\u20132.74)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stratified c>"
+      ],
+      "value": "1.15 (0.53\u20132.53)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "\u2265 15"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "36"
+    },
+    {
+      "row": [],
+      "col": [
+        "Jointly-classified b"
+      ],
+      "value": "1.67 (0.66\u20134.27)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Jointly-classified b"
+      ],
+      "value": "1.67 (0.65\u20134.34)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stratified c>"
+      ],
+      "value": "1.85 (0.71\u20134.84)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stratified c>"
+      ],
+      "value": "1.90 (0.67\u20135.39)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "P for trend f"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stratified c>"
+      ],
+      "value": "0.13"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stratified c>"
+      ],
+      "value": "0.20"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Proliferative without atypia"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Proliferative without atypia"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "46"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "205"
+    },
+    {
+      "row": [],
+      "col": [
+        "Jointly-classified b"
+      ],
+      "value": "2.04 (1.17\u20133.57)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Jointly-classified b"
+      ],
+      "value": "1.99 (1.13\u20133.50)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stratified c>"
+      ],
+      "value": "1.00 (Ref)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stratified c>"
+      ],
+      "value": "1.00 (Ref)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "<5"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "52"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "235"
+    },
+    {
+      "row": [],
+      "col": [
+        "Jointly-classified b"
+      ],
+      "value": "1.91 (1.11\u20133.29)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Jointly-classified b"
+      ],
+      "value": "1.82 (1.05\u20133.16)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stratified c>"
+      ],
+      "value": "0.99 (0.63\u20131.55)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stratified c>"
+      ],
+      "value": "0.99 (0.62\u20131.56)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "5\u201315"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "34"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "123"
+    },
+    {
+      "row": [],
+      "col": [
+        "Jointly-classified b"
+      ],
+      "value": "2.43 (1.34\u20134.41)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Jointly-classified b"
+      ],
+      "value": "2.40 (1.31\u20134.39)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stratified c>"
+      ],
+      "value": "1.17 (0.70\u20131.94)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stratified c>"
+      ],
+      "value": "1.14 (0.67\u20131.91)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "\u2265 15"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "8"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "60"
+    },
+    {
+      "row": [],
+      "col": [
+        "Jointly-classified b"
+      ],
+      "value": "1.15 (0.48\u20132.75)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Jointly-classified b"
+      ],
+      "value": "1.09 (0.45\u20132.62)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stratified c>"
+      ],
+      "value": "0.59 (0.26\u20131.33)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stratified c>"
+      ],
+      "value": "0.61 (0.26\u20131.41)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "P for trend f"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stratified c>"
+      ],
+      "value": "0.49"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stratified c>"
+      ],
+      "value": "0.58"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Proliferative with atypia"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Proliferative with atypia"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "23"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "40"
+    },
+    {
+      "row": [],
+      "col": [
+        "Jointly-classified b"
+      ],
+      "value": "5.57 (2.77\u201311.21)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Jointly-classified b"
+      ],
+      "value": "5.58 (2.74\u201311.38)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stratified c>"
+      ],
+      "value": "1.00 (Ref)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stratified c>"
+      ],
+      "value": "1.00 (Ref)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "<5"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "30"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "45"
+    },
+    {
+      "row": [],
+      "col": [
+        "Jointly-classified b"
+      ],
+      "value": "6.65 (3.43\u201312.90)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Jointly-classified b"
+      ],
+      "value": "6.48 (3.31\u201312.70)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stratified c>"
+      ],
+      "value": "1.28 (0.62\u20132.67)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stratified c>"
+      ],
+      "value": "1.29 (0.60\u20132.78)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "5\u201315"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "14"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "25"
+    },
+    {
+      "row": [],
+      "col": [
+        "Jointly-classified b"
+      ],
+      "value": "5.35 (2.39\u201312.01)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Jointly-classified b"
+      ],
+      "value": "5.26 (2.30\u201312.04)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stratified c>"
+      ],
+      "value": "1.03 (0.42\u20132.51)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stratified c>"
+      ],
+      "value": "1.02 (0.39\u20132.68)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "\u2265 15"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "16"
+    },
+    {
+      "row": [],
+      "col": [
+        "Jointly-classified b"
+      ],
+      "value": "3.65 (1.27\u201310.47)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Jointly-classified b"
+      ],
+      "value": "3.46 (1.19\u201310.09)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stratified c>"
+      ],
+      "value": "0.66 (0.22\u20131.97)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stratified c>"
+      ],
+      "value": "0.59 (0.19\u20131.89)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "P for trend f"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stratified c>"
+      ],
+      "value": "0.21"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stratified c>"
+      ],
+      "value": "0.17"
+    }
+  ]
+}

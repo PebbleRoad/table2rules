@@ -1,0 +1,970 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "% of Dataset",
+    "0.0",
+    "0\u201316 Years",
+    "100",
+    "100 1",
+    "100 2",
+    "100 3",
+    "100 4",
+    "100 5",
+    "100 6",
+    "100870",
+    "1045092",
+    "11.0",
+    "11.5",
+    "11.9",
+    "1184395",
+    "1184690",
+    "1185014",
+    "1191592",
+    "1292462",
+    "13",
+    "13.9",
+    "1466212",
+    "1524791",
+    "16.7",
+    "17.1",
+    "1745527",
+    "17\u201339 Years",
+    "18.7",
+    "183786",
+    "1838354",
+    "198456",
+    "2.1",
+    "2.8",
+    "2.9",
+    "2051437",
+    "208883",
+    "23.0",
+    "23.1",
+    "23.6",
+    "23.9",
+    "2381598",
+    "24.3",
+    "2484293",
+    "2495039",
+    "25097",
+    "26.4",
+    "26.5",
+    "2634271",
+    "27.6",
+    "2708572",
+    "279315",
+    "2852257",
+    "31.1",
+    "313244",
+    "313563",
+    "3156438",
+    "32.3",
+    "326974",
+    "33.1",
+    "35.9",
+    "367964",
+    "37.4",
+    "37.5",
+    "37.7",
+    "3742194",
+    "39.0",
+    "4",
+    "40\u201369 Years",
+    "41.3",
+    "41.7",
+    "44.1",
+    "4405035",
+    "443602",
+    "522167",
+    "55.9",
+    "58.3",
+    "58.7",
+    "6356475",
+    "6362912",
+    "6376472",
+    "662841",
+    "7",
+    "70+ Years",
+    "703830",
+    "731848",
+    "7541165",
+    "7547307",
+    "7561486",
+    "8.5",
+    "902286",
+    "Age Group",
+    "Characteristic",
+    "Couplets (2 nd Episode)",
+    "Episodes",
+    "Female",
+    "Hospital",
+    "Indeterminate",
+    "Individuals",
+    "Male",
+    "Number",
+    "Private Country",
+    "Private Metropolitan",
+    "Public Country",
+    "Public Metropolitan",
+    "Sex",
+    "TOTAL",
+    "Teaching",
+    "Type"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Sex"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Male"
+    },
+    {
+      "row": [],
+      "col": [
+        "Individuals",
+        "Number"
+      ],
+      "value": "522167"
+    },
+    {
+      "row": [],
+      "col": [
+        "Individuals",
+        "% of Dataset"
+      ],
+      "value": "44.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Episodes",
+        "Number"
+      ],
+      "value": "3156438"
+    },
+    {
+      "row": [],
+      "col": [
+        "Episodes",
+        "% of Dataset"
+      ],
+      "value": "41.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Couplets (2 nd Episode)",
+        "Number"
+      ],
+      "value": "2634271"
+    },
+    {
+      "row": [],
+      "col": [
+        "Couplets (2 nd Episode)",
+        "% of Dataset"
+      ],
+      "value": "41.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Female"
+    },
+    {
+      "row": [],
+      "col": [
+        "Individuals",
+        "Number"
+      ],
+      "value": "662841"
+    },
+    {
+      "row": [],
+      "col": [
+        "Individuals",
+        "% of Dataset"
+      ],
+      "value": "55.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Episodes",
+        "Number"
+      ],
+      "value": "4405035"
+    },
+    {
+      "row": [],
+      "col": [
+        "Episodes",
+        "% of Dataset"
+      ],
+      "value": "58.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Couplets (2 nd Episode)",
+        "Number"
+      ],
+      "value": "3742194"
+    },
+    {
+      "row": [],
+      "col": [
+        "Couplets (2 nd Episode)",
+        "% of Dataset"
+      ],
+      "value": "58.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Indeterminate"
+    },
+    {
+      "row": [],
+      "col": [
+        "Individuals",
+        "Number"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Individuals",
+        "% of Dataset"
+      ],
+      "value": "0.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Episodes",
+        "Number"
+      ],
+      "value": "13"
+    },
+    {
+      "row": [],
+      "col": [
+        "Episodes",
+        "% of Dataset"
+      ],
+      "value": "0.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Couplets (2 nd Episode)",
+        "Number"
+      ],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Couplets (2 nd Episode)",
+        "% of Dataset"
+      ],
+      "value": "0.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "TOTAL"
+    },
+    {
+      "row": [],
+      "col": [
+        "Individuals",
+        "Number"
+      ],
+      "value": "1185014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Individuals",
+        "% of Dataset"
+      ],
+      "value": "100"
+    },
+    {
+      "row": [],
+      "col": [
+        "Episodes",
+        "Number"
+      ],
+      "value": "7561486"
+    },
+    {
+      "row": [],
+      "col": [
+        "Episodes",
+        "% of Dataset"
+      ],
+      "value": "100"
+    },
+    {
+      "row": [],
+      "col": [
+        "Couplets (2 nd Episode)",
+        "Number"
+      ],
+      "value": "6376472"
+    },
+    {
+      "row": [],
+      "col": [
+        "Couplets (2 nd Episode)",
+        "% of Dataset"
+      ],
+      "value": "100"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Age Group"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "0\u201316 Years"
+    },
+    {
+      "row": [],
+      "col": [
+        "Individuals",
+        "Number"
+      ],
+      "value": "313244"
+    },
+    {
+      "row": [],
+      "col": [
+        "Individuals",
+        "% of Dataset"
+      ],
+      "value": "26.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Episodes",
+        "Number"
+      ],
+      "value": "1045092"
+    },
+    {
+      "row": [],
+      "col": [
+        "Episodes",
+        "% of Dataset"
+      ],
+      "value": "13.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Couplets (2 nd Episode)",
+        "Number"
+      ],
+      "value": "731848"
+    },
+    {
+      "row": [],
+      "col": [
+        "Couplets (2 nd Episode)",
+        "% of Dataset"
+      ],
+      "value": "11.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "17\u201339 Years"
+    },
+    {
+      "row": [],
+      "col": [
+        "Individuals",
+        "Number"
+      ],
+      "value": "443602"
+    },
+    {
+      "row": [],
+      "col": [
+        "Individuals",
+        "% of Dataset"
+      ],
+      "value": "37.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Episodes",
+        "Number"
+      ],
+      "value": "2495039"
+    },
+    {
+      "row": [],
+      "col": [
+        "Episodes",
+        "% of Dataset"
+      ],
+      "value": "33.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Couplets (2 nd Episode)",
+        "Number"
+      ],
+      "value": "2051437"
+    },
+    {
+      "row": [],
+      "col": [
+        "Couplets (2 nd Episode)",
+        "% of Dataset"
+      ],
+      "value": "32.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "40\u201369 Years"
+    },
+    {
+      "row": [],
+      "col": [
+        "Individuals",
+        "Number"
+      ],
+      "value": "326974"
+    },
+    {
+      "row": [],
+      "col": [
+        "Individuals",
+        "% of Dataset"
+      ],
+      "value": "27.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Episodes",
+        "Number"
+      ],
+      "value": "2708572"
+    },
+    {
+      "row": [],
+      "col": [
+        "Episodes",
+        "% of Dataset"
+      ],
+      "value": "35.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Couplets (2 nd Episode)",
+        "Number"
+      ],
+      "value": "2381598"
+    },
+    {
+      "row": [],
+      "col": [
+        "Couplets (2 nd Episode)",
+        "% of Dataset"
+      ],
+      "value": "37.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "70+ Years"
+    },
+    {
+      "row": [],
+      "col": [
+        "Individuals",
+        "Number"
+      ],
+      "value": "100870"
+    },
+    {
+      "row": [],
+      "col": [
+        "Individuals",
+        "% of Dataset"
+      ],
+      "value": "8.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Episodes",
+        "Number"
+      ],
+      "value": "1292462"
+    },
+    {
+      "row": [],
+      "col": [
+        "Episodes",
+        "% of Dataset"
+      ],
+      "value": "17.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Couplets (2 nd Episode)",
+        "Number"
+      ],
+      "value": "1191592"
+    },
+    {
+      "row": [],
+      "col": [
+        "Couplets (2 nd Episode)",
+        "% of Dataset"
+      ],
+      "value": "18.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "TOTAL"
+    },
+    {
+      "row": [],
+      "col": [
+        "Individuals",
+        "Number"
+      ],
+      "value": "1184690"
+    },
+    {
+      "row": [],
+      "col": [
+        "Individuals",
+        "% of Dataset"
+      ],
+      "value": "100 1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Episodes",
+        "Number"
+      ],
+      "value": "7541165"
+    },
+    {
+      "row": [],
+      "col": [
+        "Episodes",
+        "% of Dataset"
+      ],
+      "value": "100 2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Couplets (2 nd Episode)",
+        "Number"
+      ],
+      "value": "6356475"
+    },
+    {
+      "row": [],
+      "col": [
+        "Couplets (2 nd Episode)",
+        "% of Dataset"
+      ],
+      "value": "100 3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Hospital"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Teaching"
+    },
+    {
+      "row": [],
+      "col": [
+        "Individuals",
+        "Number"
+      ],
+      "value": "367964"
+    },
+    {
+      "row": [],
+      "col": [
+        "Individuals",
+        "% of Dataset"
+      ],
+      "value": "31.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Episodes",
+        "Number"
+      ],
+      "value": "2852257"
+    },
+    {
+      "row": [],
+      "col": [
+        "Episodes",
+        "% of Dataset"
+      ],
+      "value": "37.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Couplets (2 nd Episode)",
+        "Number"
+      ],
+      "value": "2484293"
+    },
+    {
+      "row": [],
+      "col": [
+        "Couplets (2 nd Episode)",
+        "% of Dataset"
+      ],
+      "value": "39.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Type"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Public Metropolitan"
+    },
+    {
+      "row": [],
+      "col": [
+        "Individuals",
+        "Number"
+      ],
+      "value": "198456"
+    },
+    {
+      "row": [],
+      "col": [
+        "Individuals",
+        "% of Dataset"
+      ],
+      "value": "16.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Episodes",
+        "Number"
+      ],
+      "value": "902286"
+    },
+    {
+      "row": [],
+      "col": [
+        "Episodes",
+        "% of Dataset"
+      ],
+      "value": "11.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Couplets (2 nd Episode)",
+        "Number"
+      ],
+      "value": "703830"
+    },
+    {
+      "row": [],
+      "col": [
+        "Couplets (2 nd Episode)",
+        "% of Dataset"
+      ],
+      "value": "11.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Private Metropolitan"
+    },
+    {
+      "row": [],
+      "col": [
+        "Individuals",
+        "Number"
+      ],
+      "value": "313563"
+    },
+    {
+      "row": [],
+      "col": [
+        "Individuals",
+        "% of Dataset"
+      ],
+      "value": "26.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Episodes",
+        "Number"
+      ],
+      "value": "1838354"
+    },
+    {
+      "row": [],
+      "col": [
+        "Episodes",
+        "% of Dataset"
+      ],
+      "value": "24.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Couplets (2 nd Episode)",
+        "Number"
+      ],
+      "value": "1524791"
+    },
+    {
+      "row": [],
+      "col": [
+        "Couplets (2 nd Episode)",
+        "% of Dataset"
+      ],
+      "value": "23.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Public Country"
+    },
+    {
+      "row": [],
+      "col": [
+        "Individuals",
+        "Number"
+      ],
+      "value": "279315"
+    },
+    {
+      "row": [],
+      "col": [
+        "Individuals",
+        "% of Dataset"
+      ],
+      "value": "23.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Episodes",
+        "Number"
+      ],
+      "value": "1745527"
+    },
+    {
+      "row": [],
+      "col": [
+        "Episodes",
+        "% of Dataset"
+      ],
+      "value": "23.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Couplets (2 nd Episode)",
+        "Number"
+      ],
+      "value": "1466212"
+    },
+    {
+      "row": [],
+      "col": [
+        "Couplets (2 nd Episode)",
+        "% of Dataset"
+      ],
+      "value": "23.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Private Country"
+    },
+    {
+      "row": [],
+      "col": [
+        "Individuals",
+        "Number"
+      ],
+      "value": "25097"
+    },
+    {
+      "row": [],
+      "col": [
+        "Individuals",
+        "% of Dataset"
+      ],
+      "value": "2.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Episodes",
+        "Number"
+      ],
+      "value": "208883"
+    },
+    {
+      "row": [],
+      "col": [
+        "Episodes",
+        "% of Dataset"
+      ],
+      "value": "2.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Couplets (2 nd Episode)",
+        "Number"
+      ],
+      "value": "183786"
+    },
+    {
+      "row": [],
+      "col": [
+        "Couplets (2 nd Episode)",
+        "% of Dataset"
+      ],
+      "value": "2.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "TOTAL"
+    },
+    {
+      "row": [],
+      "col": [
+        "Individuals",
+        "Number"
+      ],
+      "value": "1184395"
+    },
+    {
+      "row": [],
+      "col": [
+        "Individuals",
+        "% of Dataset"
+      ],
+      "value": "100 4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Episodes",
+        "Number"
+      ],
+      "value": "7547307"
+    },
+    {
+      "row": [],
+      "col": [
+        "Episodes",
+        "% of Dataset"
+      ],
+      "value": "100 5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Couplets (2 nd Episode)",
+        "Number"
+      ],
+      "value": "6362912"
+    },
+    {
+      "row": [],
+      "col": [
+        "Couplets (2 nd Episode)",
+        "% of Dataset"
+      ],
+      "value": "100 6"
+    }
+  ]
+}

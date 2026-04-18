@@ -1,0 +1,727 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0",
+    "1",
+    "10",
+    "102",
+    "108",
+    "11",
+    "12",
+    "13",
+    "157",
+    "18",
+    "19",
+    "2",
+    "24",
+    "26",
+    "269",
+    "28",
+    "3",
+    "35",
+    "36",
+    "39",
+    "4",
+    "44",
+    "5",
+    "55",
+    "57",
+    "58",
+    "6",
+    "60",
+    "68",
+    "69",
+    "7",
+    "74",
+    "8",
+    "9",
+    "92",
+    "Diagnostic concordance graphs viewed",
+    "Examination lists viewed",
+    "Examinations performed",
+    "Other participants examinations replayed",
+    "Own examinations replayed",
+    "ReplaySuite use",
+    "Survey Submitted",
+    "Total",
+    "Total examinations replayed",
+    "Total number of functions performed",
+    "User",
+    "VPS",
+    "Y"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "User"
+    },
+    {
+      "row": [],
+      "col": [
+        "VPS"
+      ],
+      "value": "Examinations performed"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "Total examinations replayed"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "Own examinations replayed"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "Other participants examinations replayed"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "Diagnostic concordance graphs viewed"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "Examination lists viewed"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "Total number of functions performed"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "Survey Submitted"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "10"
+    },
+    {
+      "row": [],
+      "col": [
+        "VPS"
+      ],
+      "value": "10"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "13"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "19"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "35"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "Y"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "74"
+    },
+    {
+      "row": [],
+      "col": [
+        "VPS"
+      ],
+      "value": "10"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "12"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "8"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "11"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "35"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "58"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "Y"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "55"
+    },
+    {
+      "row": [],
+      "col": [
+        "VPS"
+      ],
+      "value": "10"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "11"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "10"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "28"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "69"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "108"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "Y"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [
+        "VPS"
+      ],
+      "value": "10"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "12"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "19"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "Y"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "36"
+    },
+    {
+      "row": [],
+      "col": [
+        "VPS"
+      ],
+      "value": "10"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "Y"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "39"
+    },
+    {
+      "row": [],
+      "col": [
+        "VPS"
+      ],
+      "value": "10"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "13"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "24"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "Y"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "102"
+    },
+    {
+      "row": [],
+      "col": [
+        "VPS"
+      ],
+      "value": "10"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "Y"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "57"
+    },
+    {
+      "row": [],
+      "col": [
+        "VPS"
+      ],
+      "value": "10"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "13"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "Y"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "60"
+    },
+    {
+      "row": [],
+      "col": [
+        "VPS"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "Y"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total"
+    },
+    {
+      "row": [],
+      "col": [
+        "VPS"
+      ],
+      "value": "92"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "44"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "26"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "18"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "68"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "157"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "269"
+    },
+    {
+      "row": [],
+      "col": [
+        "ReplaySuite use"
+      ],
+      "value": "9"
+    }
+  ]
+}

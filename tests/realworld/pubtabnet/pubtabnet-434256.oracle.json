@@ -1,0 +1,498 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "1208 pb",
+    "180 pb",
+    "416 pb",
+    "491 pb",
+    "49\u00b0C",
+    "50\u00b0C",
+    "51\u00b0C",
+    "52\u00b0C",
+    "54\u00b0C",
+    "585 pb",
+    "60\u00b0C",
+    "61\u00b0C",
+    "769 pb",
+    "838 pb",
+    "890 pb",
+    "900 pb",
+    "AATAGTCTGGTTTCCCCTCAC",
+    "ACGGAACCACAGTTTATCATC",
+    "AGCCCTGTCCTTTTCCTGTCA",
+    "AK076711",
+    "ATTTGCCTCGTTTGCCTCTGA",
+    "Actin",
+    "CAGGTGGAGGAGTTTGAATGG",
+    "CCAAACAGAAAACCAAACAC",
+    "CCCTCATTTATTGGCATCTCG",
+    "CTACCCAGCACCAGGCGAACT",
+    "FBXO12B",
+    "FBXO12D",
+    "GGCTCCCAGAGGCTGAATCA",
+    "GGTTATCCTGTCTTCCCTTCT",
+    "GTCCCAGTCTTCAACTATACC",
+    "Gene",
+    "Lower",
+    "Oosp3",
+    "Primers",
+    "SpeerA",
+    "TAAGAAGGCAGCCAACCAGAC",
+    "TAAGGGTGTCCAAAGAATCA",
+    "TATTTGGGATGTGGAGATGTT",
+    "TGAAGCAGGAAAATAGGAGA",
+    "TGGTAGACAGTGGGTAGTTGC",
+    "TTGAGGAGGAGGGTGGAAGTC",
+    "TTTTATCACGGACTGGCATTG",
+    "Tcl1",
+    "Tcl1b3",
+    "Tcl1b4",
+    "Upper",
+    "annealing temperature",
+    "fragment size (pb)"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Gene"
+      ],
+      "value": "FBXO12B"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primers"
+      ],
+      "value": "Upper"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primers"
+      ],
+      "value": "ATTTGCCTCGTTTGCCTCTGA"
+    },
+    {
+      "row": [],
+      "col": [
+        "annealing temperature"
+      ],
+      "value": "49\u00b0C"
+    },
+    {
+      "row": [],
+      "col": [
+        "fragment size (pb)"
+      ],
+      "value": "890 pb"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primers"
+      ],
+      "value": "Lower"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primers"
+      ],
+      "value": "GGTTATCCTGTCTTCCCTTCT"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gene"
+      ],
+      "value": "FBXO12D"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primers"
+      ],
+      "value": "Upper"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primers"
+      ],
+      "value": "AGCCCTGTCCTTTTCCTGTCA"
+    },
+    {
+      "row": [],
+      "col": [
+        "annealing temperature"
+      ],
+      "value": "50\u00b0C"
+    },
+    {
+      "row": [],
+      "col": [
+        "fragment size (pb)"
+      ],
+      "value": "491 pb"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primers"
+      ],
+      "value": "Lower"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primers"
+      ],
+      "value": "AATAGTCTGGTTTCCCCTCAC"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gene"
+      ],
+      "value": "Tcl1b3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primers"
+      ],
+      "value": "Upper"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primers"
+      ],
+      "value": "TGGTAGACAGTGGGTAGTTGC"
+    },
+    {
+      "row": [],
+      "col": [
+        "annealing temperature"
+      ],
+      "value": "54\u00b0C"
+    },
+    {
+      "row": [],
+      "col": [
+        "fragment size (pb)"
+      ],
+      "value": "585 pb"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primers"
+      ],
+      "value": "Lower"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primers"
+      ],
+      "value": "CAGGTGGAGGAGTTTGAATGG"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gene"
+      ],
+      "value": "Tcl1b4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primers"
+      ],
+      "value": "Upper"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primers"
+      ],
+      "value": "TAAGAAGGCAGCCAACCAGAC"
+    },
+    {
+      "row": [],
+      "col": [
+        "annealing temperature"
+      ],
+      "value": "54\u00b0C"
+    },
+    {
+      "row": [],
+      "col": [
+        "fragment size (pb)"
+      ],
+      "value": "838 pb"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primers"
+      ],
+      "value": "Lower"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primers"
+      ],
+      "value": "CTACCCAGCACCAGGCGAACT"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gene"
+      ],
+      "value": "Tcl1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primers"
+      ],
+      "value": "Upper"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primers"
+      ],
+      "value": "TTTTATCACGGACTGGCATTG"
+    },
+    {
+      "row": [],
+      "col": [
+        "annealing temperature"
+      ],
+      "value": "54\u00b0C"
+    },
+    {
+      "row": [],
+      "col": [
+        "fragment size (pb)"
+      ],
+      "value": "1208 pb"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primers"
+      ],
+      "value": "Lower"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primers"
+      ],
+      "value": "CCCTCATTTATTGGCATCTCG"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gene"
+      ],
+      "value": "SpeerA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primers"
+      ],
+      "value": "Upper"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primers"
+      ],
+      "value": "TGAAGCAGGAAAATAGGAGA"
+    },
+    {
+      "row": [],
+      "col": [
+        "annealing temperature"
+      ],
+      "value": "51\u00b0C"
+    },
+    {
+      "row": [],
+      "col": [
+        "fragment size (pb)"
+      ],
+      "value": "900 pb"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primers"
+      ],
+      "value": "Lower"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primers"
+      ],
+      "value": "CCAAACAGAAAACCAAACAC"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gene"
+      ],
+      "value": "AK076711"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primers"
+      ],
+      "value": "Upper"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primers"
+      ],
+      "value": "GGCTCCCAGAGGCTGAATCA"
+    },
+    {
+      "row": [],
+      "col": [
+        "annealing temperature"
+      ],
+      "value": "61\u00b0C"
+    },
+    {
+      "row": [],
+      "col": [
+        "fragment size (pb)"
+      ],
+      "value": "769 pb"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primers"
+      ],
+      "value": "Lower"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primers"
+      ],
+      "value": "TAAGGGTGTCCAAAGAATCA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gene"
+      ],
+      "value": "Oosp3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primers"
+      ],
+      "value": "Upper"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primers"
+      ],
+      "value": "TATTTGGGATGTGGAGATGTT"
+    },
+    {
+      "row": [],
+      "col": [
+        "annealing temperature"
+      ],
+      "value": "52\u00b0C"
+    },
+    {
+      "row": [],
+      "col": [
+        "fragment size (pb)"
+      ],
+      "value": "416 pb"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primers"
+      ],
+      "value": "Lower"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primers"
+      ],
+      "value": "TTGAGGAGGAGGGTGGAAGTC"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gene"
+      ],
+      "value": "Actin"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primers"
+      ],
+      "value": "Upper"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primers"
+      ],
+      "value": "ACGGAACCACAGTTTATCATC"
+    },
+    {
+      "row": [],
+      "col": [
+        "annealing temperature"
+      ],
+      "value": "60\u00b0C"
+    },
+    {
+      "row": [],
+      "col": [
+        "fragment size (pb)"
+      ],
+      "value": "180 pb"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primers"
+      ],
+      "value": "Lower"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primers"
+      ],
+      "value": "GTCCCAGTCTTCAACTATACC"
+    }
+  ]
+}

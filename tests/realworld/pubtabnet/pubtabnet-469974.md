@@ -1,0 +1,385 @@
+<!-- source: PubTabNet imgid=469974 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td colspan="2">
+<b>
+       Origin of population
+      </b>
+</td>
+<td colspan="3">
+<b>
+       Allele frequency (%)
+      </b>
+</td>
+<td colspan="4">
+<b>
+       Genotype frequency (%)
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td>
+<b>
+       2N
+      </b>
+</td>
+<td>
+<b>
+       1
+      </b>
+</td>
+<td>
+<b>
+       2
+      </b>
+</td>
+<td>
+<b>
+       N
+      </b>
+</td>
+<td>
+<b>
+       1/1
+      </b>
+</td>
+<td>
+<b>
+       1/2
+      </b>
+</td>
+<td>
+<b>
+       2/2
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<b>
+       Caucasian
+      </b>
+</td>
+<td>
+      Hungarian (Szantai et al., 2005)
+     </td>
+<td>
+      1196
+     </td>
+<td>
+      17.1
+     </td>
+<td>
+      82.9
+     </td>
+<td>
+      598
+     </td>
+<td>
+      3.0
+     </td>
+<td>
+      28.3
+     </td>
+<td>
+      68.7
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      European-mixed (Seaman et al., 1999)
+     </td>
+<td>
+      174
+     </td>
+<td>
+      19.5
+     </td>
+<td>
+      80.5
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      European-mixed (Barr et al., 2001)
+     </td>
+<td>
+      308
+     </td>
+<td>
+      19.9
+     </td>
+<td>
+      80.1
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<i>
+       mean
+      </i>
+</td>
+<td>
+</td>
+<td>
+<b>
+       17.9
+      </b>
+</td>
+<td>
+<b>
+       82.1
+      </b>
+</td>
+<td>
+</td>
+<td>
+<b>
+       3.2*
+      </b>
+</td>
+<td>
+<b>
+       29.4*
+      </b>
+</td>
+<td>
+<b>
+       67.4*
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<i>
+       Standard deviation
+      </i>
+</td>
+<td>
+</td>
+<td>
+      1.5
+     </td>
+<td>
+      1.5
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<b>
+       Asian
+      </b>
+</td>
+<td>
+      Chinese (Xing et al., 2003)
+     </td>
+<td>
+      412
+     </td>
+<td>
+      37.4
+     </td>
+<td>
+      62.6
+     </td>
+<td>
+      206
+     </td>
+<td>
+      13.6
+     </td>
+<td>
+      47.6
+     </td>
+<td>
+      38.8
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      Chinese (Seaman et al., 1999)
+     </td>
+<td>
+      122
+     </td>
+<td>
+      36.1
+     </td>
+<td>
+      63.9
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<i>
+       mean
+      </i>
+</td>
+<td>
+</td>
+<td>
+<b>
+       37.1
+      </b>
+</td>
+<td>
+<b>
+       62.9
+      </b>
+</td>
+<td>
+</td>
+<td>
+<b>
+       13.8*
+      </b>
+</td>
+<td>
+<b>
+       46.6*
+      </b>
+</td>
+<td>
+<b>
+       39.6*
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<i>
+       Standard deviation
+      </i>
+</td>
+<td>
+</td>
+<td>
+      0.5
+     </td>
+<td>
+      0.5
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<b>
+       African
+      </b>
+</td>
+<td>
+      African (Seaman et al., 1999)
+     </td>
+<td>
+      136
+     </td>
+<td>
+      59.6
+     </td>
+<td>
+      40.4
+     </td>
+<td>
+</td>
+<td>
+      35.5*
+     </td>
+<td>
+      48.2*
+     </td>
+<td>
+      16.3*
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       American
+      </b>
+</td>
+<td>
+      Mayan (Seaman et al., 1999)
+     </td>
+<td>
+      106
+     </td>
+<td>
+      48.1
+     </td>
+<td>
+      51.9
+     </td>
+<td>
+</td>
+<td>
+      23.1*
+     </td>
+<td>
+      49.9*
+     </td>
+<td>
+      26.9*
+     </td>
+</tr>
+</tbody>
+</table>

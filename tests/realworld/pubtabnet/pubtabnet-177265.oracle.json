@@ -1,0 +1,494 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "1 (1)",
+    "15 (13)",
+    "2 (1)",
+    "2 (2)",
+    "3 (2)",
+    "3 (3)",
+    "4 (3)",
+    "4 (4)",
+    "41 (37)",
+    "43 (36)",
+    "5 (4)",
+    "5 (5)",
+    "6 (5)",
+    "6 (6)",
+    "7 (5)",
+    "7 (6)",
+    "9 (7)",
+    "=",
+    "A \u2013 alimentary tract and metabolism",
+    "ATC (first level)",
+    "B \u2013 blood and blood forming organs",
+    "C \u2013 cardiovascular system",
+    "D \u2013 dermatologicals",
+    "ER admissions",
+    "G \u2013 genitourinary system and sex hormones",
+    "GP visits",
+    "H \u2013 systemic hormonal preparations, excluding sex hormones",
+    "J \u2013 general antiinfectives for systemic use",
+    "L \u2013 antineoplastic and immunomodulating agents",
+    "M \u2013 musculo-skeletal system",
+    "N \u2013 nervous system",
+    "Other",
+    "P \u2013 antiparasitic products, insecticides and repellents",
+    "R \u2013 respiratory system",
+    "S \u2013 sensory organs",
+    "Specialist visits",
+    "Total",
+    "V \u2013 various"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "ATC (first level)"
+      ],
+      "value": "A \u2013 alimentary tract and metabolism"
+    },
+    {
+      "row": [],
+      "col": [
+        "ER admissions"
+      ],
+      "value": "2 (2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist visits"
+      ],
+      "value": "3 (2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "GP visits"
+      ],
+      "value": "9 (7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "ATC (first level)"
+      ],
+      "value": "B \u2013 blood and blood forming organs"
+    },
+    {
+      "row": [],
+      "col": [
+        "ER admissions"
+      ],
+      "value": "5 (5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist visits"
+      ],
+      "value": "2 (2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "GP visits"
+      ],
+      "value": "="
+    },
+    {
+      "row": [],
+      "col": [
+        "ATC (first level)"
+      ],
+      "value": "C \u2013 cardiovascular system"
+    },
+    {
+      "row": [],
+      "col": [
+        "ER admissions"
+      ],
+      "value": "6 (6)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist visits"
+      ],
+      "value": "="
+    },
+    {
+      "row": [],
+      "col": [
+        "GP visits"
+      ],
+      "value": "5 (5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "ATC (first level)"
+      ],
+      "value": "D \u2013 dermatologicals"
+    },
+    {
+      "row": [],
+      "col": [
+        "ER admissions"
+      ],
+      "value": "2 (2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist visits"
+      ],
+      "value": "="
+    },
+    {
+      "row": [],
+      "col": [
+        "GP visits"
+      ],
+      "value": "1 (1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "ATC (first level)"
+      ],
+      "value": "G \u2013 genitourinary system and sex hormones"
+    },
+    {
+      "row": [],
+      "col": [
+        "ER admissions"
+      ],
+      "value": "4 (3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist visits"
+      ],
+      "value": "="
+    },
+    {
+      "row": [],
+      "col": [
+        "GP visits"
+      ],
+      "value": "1 (1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "ATC (first level)"
+      ],
+      "value": "H \u2013 systemic hormonal preparations, excluding sex hormones"
+    },
+    {
+      "row": [],
+      "col": [
+        "ER admissions"
+      ],
+      "value": "2 (2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist visits"
+      ],
+      "value": "="
+    },
+    {
+      "row": [],
+      "col": [
+        "GP visits"
+      ],
+      "value": "="
+    },
+    {
+      "row": [],
+      "col": [
+        "ATC (first level)"
+      ],
+      "value": "J \u2013 general antiinfectives for systemic use"
+    },
+    {
+      "row": [],
+      "col": [
+        "ER admissions"
+      ],
+      "value": "6 (5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist visits"
+      ],
+      "value": "4 (4)"
+    },
+    {
+      "row": [],
+      "col": [
+        "GP visits"
+      ],
+      "value": "7 (6)"
+    },
+    {
+      "row": [],
+      "col": [
+        "ATC (first level)"
+      ],
+      "value": "L \u2013 antineoplastic and immunomodulating agents"
+    },
+    {
+      "row": [],
+      "col": [
+        "ER admissions"
+      ],
+      "value": "="
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist visits"
+      ],
+      "value": "3 (3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "GP visits"
+      ],
+      "value": "="
+    },
+    {
+      "row": [],
+      "col": [
+        "ATC (first level)"
+      ],
+      "value": "M \u2013 musculo-skeletal system"
+    },
+    {
+      "row": [],
+      "col": [
+        "ER admissions"
+      ],
+      "value": "6 (5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist visits"
+      ],
+      "value": "5 (4)"
+    },
+    {
+      "row": [],
+      "col": [
+        "GP visits"
+      ],
+      "value": "7 (5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "ATC (first level)"
+      ],
+      "value": "N \u2013 nervous system"
+    },
+    {
+      "row": [],
+      "col": [
+        "ER admissions"
+      ],
+      "value": "="
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist visits"
+      ],
+      "value": "1 (1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "GP visits"
+      ],
+      "value": "5 (5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "ATC (first level)"
+      ],
+      "value": "P \u2013 antiparasitic products, insecticides and repellents"
+    },
+    {
+      "row": [],
+      "col": [
+        "ER admissions"
+      ],
+      "value": "="
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist visits"
+      ],
+      "value": "="
+    },
+    {
+      "row": [],
+      "col": [
+        "GP visits"
+      ],
+      "value": "="
+    },
+    {
+      "row": [],
+      "col": [
+        "ATC (first level)"
+      ],
+      "value": "R \u2013 respiratory system"
+    },
+    {
+      "row": [],
+      "col": [
+        "ER admissions"
+      ],
+      "value": "2 (1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist visits"
+      ],
+      "value": "="
+    },
+    {
+      "row": [],
+      "col": [
+        "GP visits"
+      ],
+      "value": "5 (4)"
+    },
+    {
+      "row": [],
+      "col": [
+        "ATC (first level)"
+      ],
+      "value": "S \u2013 sensory organs"
+    },
+    {
+      "row": [],
+      "col": [
+        "ER admissions"
+      ],
+      "value": "2 (2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist visits"
+      ],
+      "value": "="
+    },
+    {
+      "row": [],
+      "col": [
+        "GP visits"
+      ],
+      "value": "2 (1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "ATC (first level)"
+      ],
+      "value": "V \u2013 various"
+    },
+    {
+      "row": [],
+      "col": [
+        "ER admissions"
+      ],
+      "value": "1 (1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist visits"
+      ],
+      "value": "1 (1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "GP visits"
+      ],
+      "value": "="
+    },
+    {
+      "row": [],
+      "col": [
+        "ATC (first level)"
+      ],
+      "value": "Other"
+    },
+    {
+      "row": [],
+      "col": [
+        "ER admissions"
+      ],
+      "value": "4 (4)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist visits"
+      ],
+      "value": "="
+    },
+    {
+      "row": [],
+      "col": [
+        "GP visits"
+      ],
+      "value": "1 (1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "ATC (first level)"
+      ],
+      "value": "Total"
+    },
+    {
+      "row": [],
+      "col": [
+        "ER admissions"
+      ],
+      "value": "41 (37)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist visits"
+      ],
+      "value": "15 (13)"
+    },
+    {
+      "row": [],
+      "col": [
+        "GP visits"
+      ],
+      "value": "43 (36)"
+    }
+  ]
+}

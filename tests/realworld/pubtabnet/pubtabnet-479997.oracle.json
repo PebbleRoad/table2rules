@@ -1,0 +1,903 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0,37\u20130.84",
+    "0.10\u20130.66",
+    "0.13\u20130.48",
+    "0.15\u20130.60",
+    "0.17\u20130.48",
+    "0.19\u20131.02",
+    "0.20\u20130.84",
+    "0.25",
+    "0.26",
+    "0.26\u20131.02",
+    "0.26\u20131.80",
+    "0.27\u20131.21",
+    "0.28\u20130.88",
+    "0.29",
+    "0.29\u20131.45",
+    "0.30",
+    "0.31\u20130.98",
+    "0.31\u20131.33",
+    "0.33\u20130.83",
+    "0.35\u20130.76",
+    "0.36\u20131.27",
+    "0.40\u20131.11",
+    "0.40\u20132.31",
+    "0.41",
+    "0.42\u20131.30",
+    "0.44",
+    "0.46\u20131.58",
+    "0.50",
+    "0.50\u20131.32",
+    "0.50\u20131.92",
+    "0.52",
+    "0.52\u20131.46",
+    "0.54\u20131.37",
+    "0.55",
+    "0.55\u20132.57",
+    "0.56",
+    "0.56\u20131.27",
+    "0.56\u20131.66",
+    "0.57",
+    "0.59\u20131.57",
+    "0.65",
+    "0.67",
+    "0.68",
+    "0.69\u20132.11",
+    "0.74",
+    "0.74\u20132.81",
+    "0.81",
+    "0.83\u20132.76",
+    "0.85",
+    "0.86",
+    "0.86\u20132.34",
+    "0.87",
+    "0.95\u20133.18",
+    "0.96",
+    "0.97",
+    "0.98",
+    "1.05\u20132.50",
+    "1.19",
+    "1.21",
+    "1.35\u20133.26",
+    "1.42",
+    "1.44",
+    "1.45\u20134.21",
+    "1.51",
+    "1.62",
+    "1.73",
+    "15.40",
+    "16\u201344",
+    "1\u20133 symptoms",
+    "2.10",
+    "2.47",
+    "3.98\u201312.38",
+    "45\u201364",
+    "4\u20136 symptoms",
+    "5.28\u201344.97",
+    "7.02",
+    "95% CI",
+    "Age (65+ years = reference)",
+    "Chronic disease (yes = ref)",
+    "Country of birth (other = ref)",
+    "Depression (yes = ref)",
+    "Europe",
+    "Fair",
+    "Life satisfaction* (high = ref)",
+    "Living alone (no = ref)",
+    "Low",
+    "Male (female= ref)",
+    "Model 1",
+    "Model 2",
+    "Model 3",
+    "Model 4",
+    "Nordic",
+    "Number of symptoms (>6 ref)",
+    "OR",
+    "Perceived poor health (scores 1\u20134)",
+    "Smoking (yes = ref)",
+    "Sweden",
+    "Working (yes =ref)"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Age (65+ years = reference)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "16\u201344"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 1",
+        "OR"
+      ],
+      "value": "0.96"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 1",
+        "95% CI"
+      ],
+      "value": "0.59\u20131.57"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 2",
+        "OR"
+      ],
+      "value": "1.51"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 2",
+        "95% CI"
+      ],
+      "value": "0.83\u20132.76"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 3",
+        "OR"
+      ],
+      "value": "0.65"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 3",
+        "95% CI"
+      ],
+      "value": "0.31\u20131.33"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 4",
+        "OR"
+      ],
+      "value": "0.65"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 4",
+        "95% CI"
+      ],
+      "value": "0.29\u20131.45"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "45\u201364"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 1",
+        "OR"
+      ],
+      "value": "1.62"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 1",
+        "95% CI"
+      ],
+      "value": "1.05\u20132.50"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 2",
+        "OR"
+      ],
+      "value": "2.47"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 2",
+        "95% CI"
+      ],
+      "value": "1.45\u20134.21"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 3",
+        "OR"
+      ],
+      "value": "1.73"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 3",
+        "95% CI"
+      ],
+      "value": "0.95\u20133.18"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 4",
+        "OR"
+      ],
+      "value": "1.44"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 4",
+        "95% CI"
+      ],
+      "value": "0.74\u20132.81"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Male (female= ref)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 1",
+        "OR"
+      ],
+      "value": "0.52"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 1",
+        "95% CI"
+      ],
+      "value": "0.35\u20130.76"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 2",
+        "OR"
+      ],
+      "value": "0.56"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 2",
+        "95% CI"
+      ],
+      "value": "0,37\u20130.84"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 3",
+        "OR"
+      ],
+      "value": "0.86"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 3",
+        "95% CI"
+      ],
+      "value": "0.54\u20131.37"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 4",
+        "OR"
+      ],
+      "value": "0.87"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 4",
+        "95% CI"
+      ],
+      "value": "0.52\u20131.46"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Living alone (no = ref)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 2",
+        "OR"
+      ],
+      "value": "0.52"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 2",
+        "95% CI"
+      ],
+      "value": "0.33\u20130.83"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 3",
+        "OR"
+      ],
+      "value": "0.67"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 3",
+        "95% CI"
+      ],
+      "value": "0.40\u20131.11"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 4",
+        "OR"
+      ],
+      "value": "0.74"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 4",
+        "95% CI"
+      ],
+      "value": "0.42\u20131.30"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Working (yes =ref)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 2",
+        "OR"
+      ],
+      "value": "2.10"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 2",
+        "95% CI"
+      ],
+      "value": "1.35\u20133.26"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 3",
+        "OR"
+      ],
+      "value": "1.42"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 3",
+        "95% CI"
+      ],
+      "value": "0.86\u20132.34"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 4",
+        "OR"
+      ],
+      "value": "1.21"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 4",
+        "95% CI"
+      ],
+      "value": "0.69\u20132.11"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Country of birth (other = ref)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Sweden"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 2",
+        "OR"
+      ],
+      "value": "0.50"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 2",
+        "95% CI"
+      ],
+      "value": "0.28\u20130.88"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 3",
+        "OR"
+      ],
+      "value": "0.52"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 3",
+        "95% CI"
+      ],
+      "value": "0.26\u20131.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 4",
+        "OR"
+      ],
+      "value": "0.41"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 4",
+        "95% CI"
+      ],
+      "value": "0.20\u20130.84"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Nordic"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 2",
+        "OR"
+      ],
+      "value": "0.57"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 2",
+        "95% CI"
+      ],
+      "value": "0.27\u20131.21"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 3",
+        "OR"
+      ],
+      "value": "0.44"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 3",
+        "95% CI"
+      ],
+      "value": "0.19\u20131.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 4",
+        "OR"
+      ],
+      "value": "0.26"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 4",
+        "95% CI"
+      ],
+      "value": "0.10\u20130.66"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Europe"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 2",
+        "OR"
+      ],
+      "value": "1.19"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 2",
+        "95% CI"
+      ],
+      "value": "0.55\u20132.57"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 3",
+        "OR"
+      ],
+      "value": "0.96"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 3",
+        "95% CI"
+      ],
+      "value": "0.40\u20132.31"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 4",
+        "OR"
+      ],
+      "value": "0.68"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 4",
+        "95% CI"
+      ],
+      "value": "0.26\u20131.80"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Smoking (yes = ref)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 3",
+        "OR"
+      ],
+      "value": "0.81"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 3",
+        "95% CI"
+      ],
+      "value": "0.50\u20131.32"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 4",
+        "OR"
+      ],
+      "value": "0.97"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 4",
+        "95% CI"
+      ],
+      "value": "0.56\u20131.66"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Chronic disease (yes = ref)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 3",
+        "OR"
+      ],
+      "value": "0.68"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 3",
+        "95% CI"
+      ],
+      "value": "0.36\u20131.27"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 4",
+        "OR"
+      ],
+      "value": "0.97"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 4",
+        "95% CI"
+      ],
+      "value": "0.56\u20131.27"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Depression (yes = ref)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 3",
+        "OR"
+      ],
+      "value": "0.29"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 3",
+        "95% CI"
+      ],
+      "value": "0.17\u20130.48"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 4",
+        "OR"
+      ],
+      "value": "0.55"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 4",
+        "95% CI"
+      ],
+      "value": "0.31\u20130.98"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Number of symptoms (>6 ref)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "1\u20133 symptoms"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 3",
+        "OR"
+      ],
+      "value": "0.25"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 3",
+        "95% CI"
+      ],
+      "value": "0.13\u20130.48"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 4",
+        "OR"
+      ],
+      "value": "0.30"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 4",
+        "95% CI"
+      ],
+      "value": "0.15\u20130.60"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "4\u20136 symptoms"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 3",
+        "OR"
+      ],
+      "value": "0.85"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 3",
+        "95% CI"
+      ],
+      "value": "0.46\u20131.58"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 4",
+        "OR"
+      ],
+      "value": "0.98"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 4",
+        "95% CI"
+      ],
+      "value": "0.50\u20131.92"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Life satisfaction* (high = ref)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Low"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 4",
+        "OR"
+      ],
+      "value": "15.40"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 4",
+        "95% CI"
+      ],
+      "value": "5.28\u201344.97"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Fair"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 4",
+        "OR"
+      ],
+      "value": "7.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "Perceived poor health (scores 1\u20134)",
+        "Model 4",
+        "95% CI"
+      ],
+      "value": "3.98\u201312.38"
+    }
+  ]
+}

@@ -1,0 +1,588 @@
+<!-- source: PubTabNet imgid=264461 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+<b>
+       Mediator
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Control
+      </b>
+</td>
+<td>
+<b>
+<i>
+        P
+       </i>
+       *
+      </b>
+</td>
+<td>
+<b>
+       MP-free synovial fluid
+      </b>
+</td>
+<td>
+<b>
+       MP (1×)
+      </b>
+</td>
+<td>
+<b>
+<i>
+        N
+       </i>
+<sub>
+        x
+       </sub>
+       /
+       <i>
+        N
+       </i>
+<sub>
+        t
+       </sub>
+</b>
+</td>
+<td>
+<b>
+<i>
+        P
+       </i>
+<sup>
+        †
+       </sup>
+</b>
+</td>
+<td>
+<b>
+       MP (3×)
+      </b>
+</td>
+<td>
+<b>
+<i>
+        N
+       </i>
+<sub>
+        x
+       </sub>
+       /
+       <i>
+        N
+       </i>
+<sub>
+        t
+       </sub>
+</b>
+</td>
+<td>
+<b>
+<i>
+        P
+       </i>
+<sup>
+        ‡
+       </sup>
+</b>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<b>
+       Unstimulated
+      </b>
+</td>
+<td>
+<b>
+       IL-1β
+      </b>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      MCP-1 (pg/ml)
+     </td>
+<td>
+      456
+     </td>
+<td>
+      4,754
+     </td>
+<td>
+      0.001
+     </td>
+<td>
+      469
+     </td>
+<td>
+      488
+     </td>
+<td>
+      6/11
+     </td>
+<td>
+      0.010
+     </td>
+<td>
+      900
+     </td>
+<td>
+      4/6
+     </td>
+<td>
+      0.156
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      (355–1,292)
+     </td>
+<td>
+      (2,492–6,081)
+     </td>
+<td>
+</td>
+<td>
+      (293–1,241)
+     </td>
+<td>
+      (338–1,481)
+     </td>
+<td>
+      higher
+     </td>
+<td>
+</td>
+<td>
+      (346–2,326)
+     </td>
+<td>
+      higher
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      sICAM-1 (ng/ml)
+     </td>
+<td>
+      0.09
+     </td>
+<td>
+      0.40
+     </td>
+<td>
+      0.007
+     </td>
+<td>
+      1.04
+     </td>
+<td>
+      2.00
+     </td>
+<td>
+      8/11
+     </td>
+<td>
+      0.010
+     </td>
+<td>
+      6.07
+     </td>
+<td>
+      6/6
+     </td>
+<td>
+      0.031
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      (0–0.3)
+     </td>
+<td>
+      (0–0.76)
+     </td>
+<td>
+</td>
+<td>
+      (0.34–1.84)
+     </td>
+<td>
+      (0.35–4.07)
+     </td>
+<td>
+      higher
+     </td>
+<td>
+</td>
+<td>
+      (0.91–11.75)
+     </td>
+<td>
+      higher
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      IL-8 (pg/ml)
+     </td>
+<td>
+      0
+     </td>
+<td>
+      8,642
+     </td>
+<td>
+      0.001
+     </td>
+<td>
+      26
+     </td>
+<td>
+      301
+     </td>
+<td>
+      5/11
+     </td>
+<td>
+      0.008
+     </td>
+<td>
+      790
+     </td>
+<td>
+      6/6
+     </td>
+<td>
+      0.031
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      (0–564)
+     </td>
+<td>
+      (2,954–18,330)
+     </td>
+<td>
+</td>
+<td>
+      (0–528)
+     </td>
+<td>
+      (0–707)
+     </td>
+<td>
+      higher
+     </td>
+<td>
+</td>
+<td>
+      (0–2,100)
+     </td>
+<td>
+      higher
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      IL-6 (pg/ml)
+     </td>
+<td>
+      74
+     </td>
+<td>
+      4949
+     </td>
+<td>
+      0.001
+     </td>
+<td>
+      110
+     </td>
+<td>
+      136
+     </td>
+<td>
+      7/11
+     </td>
+<td>
+      0.042
+     </td>
+<td>
+      436
+     </td>
+<td>
+      6/6
+     </td>
+<td>
+      0.031
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      (24–1,710)
+     </td>
+<td>
+      (1,870–22,797)
+     </td>
+<td>
+</td>
+<td>
+      (30–1,176)
+     </td>
+<td>
+      (34–1,937)
+     </td>
+<td>
+      higher
+     </td>
+<td>
+</td>
+<td>
+      (44–3,766)
+     </td>
+<td>
+      higher
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      VEGF (pg/ml)
+     </td>
+<td>
+      48
+     </td>
+<td>
+      79
+     </td>
+<td>
+      0.014
+     </td>
+<td>
+      34
+     </td>
+<td>
+      74
+     </td>
+<td>
+      10/11
+     </td>
+<td>
+      0.001
+     </td>
+<td>
+      111
+     </td>
+<td>
+      6/6
+     </td>
+<td>
+      0.078
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      (11–102)
+     </td>
+<td>
+      (7–141)
+     </td>
+<td>
+</td>
+<td>
+      (1–97)
+     </td>
+<td>
+      (28–138)
+     </td>
+<td>
+      higher
+     </td>
+<td>
+</td>
+<td>
+      (27–161)
+     </td>
+<td>
+      higher
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      GM-CSF (pg/ml)
+     </td>
+<td>
+      32
+     </td>
+<td>
+      53
+     </td>
+<td>
+      0.004
+     </td>
+<td>
+      31
+     </td>
+<td>
+      22
+     </td>
+<td>
+      10/11
+     </td>
+<td>
+      0.002
+     </td>
+<td>
+      18
+     </td>
+<td>
+      6/6
+     </td>
+<td>
+      0.016
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      (28–40)
+     </td>
+<td>
+      (40–72)
+     </td>
+<td>
+</td>
+<td>
+      (26–70)
+     </td>
+<td>
+      (14–43)
+     </td>
+<td>
+      lower
+     </td>
+<td>
+</td>
+<td>
+      (14–25)
+     </td>
+<td>
+      lower
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      RANTES (pg/ml)
+     </td>
+<td>
+      0
+     </td>
+<td>
+      138
+     </td>
+<td>
+      0.001
+     </td>
+<td>
+      0
+     </td>
+<td>
+      0.2
+     </td>
+<td>
+      4/11
+     </td>
+<td>
+      0.031
+     </td>
+<td>
+      4.2
+     </td>
+<td>
+      5/6
+     </td>
+<td>
+      0.062
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      (0–74)
+     </td>
+<td>
+      (46–277)
+     </td>
+<td>
+</td>
+<td>
+      (0–58)
+     </td>
+<td>
+      (0–86)
+     </td>
+<td>
+      higher
+     </td>
+<td>
+</td>
+<td>
+      (0–32)
+     </td>
+<td>
+      higher
+     </td>
+<td>
+</td>
+</tr>
+</tbody>
+</table>

@@ -1,0 +1,384 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0.88 (0.61 to 1.25)",
+    "0.90 (0.62 to 1.31)",
+    "0.91 (0.67 to 1.24)",
+    "0.92 (0.64 to 1.34)",
+    "0.94 (0.65 to 1.36)",
+    "0.95 (0.66 to 1.37)",
+    "0.95 (0.67 to 1.35)",
+    "0.97 (0.73 to 1.30)",
+    "0.99 (0.69 to 1.41)",
+    "1.0 (referent)",
+    "1.02 (0.76 to 1.38)",
+    "1.14 (0.86 to 1.51)",
+    "1.21 (0.86 to 1.70)",
+    "1.32 (0.86 to 2.01)",
+    "1.34 (1.02 to 1.75)",
+    "1.36 (0.86 to 2.14)",
+    "1.36 (1.002 to 1.84)",
+    "1.41 (0.90 to 2.21)",
+    "1.54 (1.01 to 2.33)",
+    "1.55 (1.09 to 2.21)",
+    "1.60 (1.20 to 2.14)",
+    "1.68 (1.19 to 2.38)",
+    "1.73 (1.34 to 2.24)",
+    "1.88 (1.35 to 2.61)",
+    "1st & 2nd quartile (0\u20135 yrs)*",
+    "1st quartile (0\u20139 yrs)",
+    "2.69 (1.97 to 3.68)",
+    "2nd quartile (10\u201321 yrs)",
+    "3rd quartile (22\u201341 yrs)",
+    "3rd quartile (6\u201322 yrs)",
+    "4th quartile (\u226523 yrs)",
+    "4th quartile (\u226542 yrs)",
+    "Home",
+    "Level of exposure",
+    "Mother smoked in pregnancy",
+    "OR (95% CI)",
+    "Prenatal",
+    "Risk of COPD (unadjusted)",
+    "Risk of COPD, controlling for smoking",
+    "Risk of COPD, controlling for smoking, sociodemographic indicators \u2020",
+    "Risk of COPD, controlling for smoking, sociodemographic indicators, and workplace VGDF \u2020",
+    "Source of exposure",
+    "Work"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Source of exposure"
+      ],
+      "value": "Prenatal"
+    },
+    {
+      "row": [],
+      "col": [
+        "Level of exposure"
+      ],
+      "value": "Mother smoked in pregnancy"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risk of COPD (unadjusted)",
+        "OR (95% CI)"
+      ],
+      "value": "1.54 (1.01 to 2.33)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risk of COPD, controlling for smoking",
+        "OR (95% CI)"
+      ],
+      "value": "1.32 (0.86 to 2.01)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risk of COPD, controlling for smoking, sociodemographic indicators \u2020",
+        "OR (95% CI)"
+      ],
+      "value": "1.41 (0.90 to 2.21)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risk of COPD, controlling for smoking, sociodemographic indicators, and workplace VGDF \u2020",
+        "OR (95% CI)"
+      ],
+      "value": "1.36 (0.86 to 2.14)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Source of exposure"
+      ],
+      "value": "Home"
+    },
+    {
+      "row": [],
+      "col": [
+        "Level of exposure"
+      ],
+      "value": "1st quartile (0\u20139 yrs)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risk of COPD (unadjusted)",
+        "OR (95% CI)"
+      ],
+      "value": "1.0 (referent)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risk of COPD, controlling for smoking",
+        "OR (95% CI)"
+      ],
+      "value": "1.0 (referent)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risk of COPD, controlling for smoking, sociodemographic indicators \u2020",
+        "OR (95% CI)"
+      ],
+      "value": "1.0 (referent)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risk of COPD, controlling for smoking, sociodemographic indicators, and workplace VGDF \u2020",
+        "OR (95% CI)"
+      ],
+      "value": "1.0 (referent)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Level of exposure"
+      ],
+      "value": "2nd quartile (10\u201321 yrs)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risk of COPD (unadjusted)",
+        "OR (95% CI)"
+      ],
+      "value": "0.99 (0.69 to 1.41)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risk of COPD, controlling for smoking",
+        "OR (95% CI)"
+      ],
+      "value": "0.88 (0.61 to 1.25)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risk of COPD, controlling for smoking, sociodemographic indicators \u2020",
+        "OR (95% CI)"
+      ],
+      "value": "0.92 (0.64 to 1.34)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risk of COPD, controlling for smoking, sociodemographic indicators, and workplace VGDF \u2020",
+        "OR (95% CI)"
+      ],
+      "value": "0.90 (0.62 to 1.31)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Level of exposure"
+      ],
+      "value": "3rd quartile (22\u201341 yrs)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risk of COPD (unadjusted)",
+        "OR (95% CI)"
+      ],
+      "value": "1.21 (0.86 to 1.70)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risk of COPD, controlling for smoking",
+        "OR (95% CI)"
+      ],
+      "value": "0.95 (0.67 to 1.35)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risk of COPD, controlling for smoking, sociodemographic indicators \u2020",
+        "OR (95% CI)"
+      ],
+      "value": "0.95 (0.66 to 1.37)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risk of COPD, controlling for smoking, sociodemographic indicators, and workplace VGDF \u2020",
+        "OR (95% CI)"
+      ],
+      "value": "0.94 (0.65 to 1.36)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Level of exposure"
+      ],
+      "value": "4th quartile (\u226542 yrs)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risk of COPD (unadjusted)",
+        "OR (95% CI)"
+      ],
+      "value": "2.69 (1.97 to 3.68)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risk of COPD, controlling for smoking",
+        "OR (95% CI)"
+      ],
+      "value": "1.88 (1.35 to 2.61)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risk of COPD, controlling for smoking, sociodemographic indicators \u2020",
+        "OR (95% CI)"
+      ],
+      "value": "1.68 (1.19 to 2.38)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risk of COPD, controlling for smoking, sociodemographic indicators, and workplace VGDF \u2020",
+        "OR (95% CI)"
+      ],
+      "value": "1.55 (1.09 to 2.21)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Source of exposure"
+      ],
+      "value": "Work"
+    },
+    {
+      "row": [],
+      "col": [
+        "Level of exposure"
+      ],
+      "value": "1st & 2nd quartile (0\u20135 yrs)*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risk of COPD (unadjusted)",
+        "OR (95% CI)"
+      ],
+      "value": "1.0 (referent)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risk of COPD, controlling for smoking",
+        "OR (95% CI)"
+      ],
+      "value": "1.0 (referent)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risk of COPD, controlling for smoking, sociodemographic indicators \u2020",
+        "OR (95% CI)"
+      ],
+      "value": "1.0 (referent)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risk of COPD, controlling for smoking, sociodemographic indicators, and workplace VGDF \u2020",
+        "OR (95% CI)"
+      ],
+      "value": "1.0 (referent)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Level of exposure"
+      ],
+      "value": "3rd quartile (6\u201322 yrs)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risk of COPD (unadjusted)",
+        "OR (95% CI)"
+      ],
+      "value": "1.14 (0.86 to 1.51)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risk of COPD, controlling for smoking",
+        "OR (95% CI)"
+      ],
+      "value": "0.97 (0.73 to 1.30)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risk of COPD, controlling for smoking, sociodemographic indicators \u2020",
+        "OR (95% CI)"
+      ],
+      "value": "1.02 (0.76 to 1.38)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risk of COPD, controlling for smoking, sociodemographic indicators, and workplace VGDF \u2020",
+        "OR (95% CI)"
+      ],
+      "value": "0.91 (0.67 to 1.24)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Level of exposure"
+      ],
+      "value": "4th quartile (\u226523 yrs)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risk of COPD (unadjusted)",
+        "OR (95% CI)"
+      ],
+      "value": "1.73 (1.34 to 2.24)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risk of COPD, controlling for smoking",
+        "OR (95% CI)"
+      ],
+      "value": "1.34 (1.02 to 1.75)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risk of COPD, controlling for smoking, sociodemographic indicators \u2020",
+        "OR (95% CI)"
+      ],
+      "value": "1.60 (1.20 to 2.14)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Risk of COPD, controlling for smoking, sociodemographic indicators, and workplace VGDF \u2020",
+        "OR (95% CI)"
+      ],
+      "value": "1.36 (1.002 to 1.84)"
+    }
+  ]
+}

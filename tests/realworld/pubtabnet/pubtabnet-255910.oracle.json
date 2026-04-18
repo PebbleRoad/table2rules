@@ -1,0 +1,703 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "1",
+    "10.3",
+    "11.1",
+    "12.4",
+    "12.5",
+    "13",
+    "13.4",
+    "14",
+    "15.1",
+    "16.4",
+    "16.5",
+    "16.7",
+    "17.3",
+    "17.4",
+    "18.1",
+    "2",
+    "20.2",
+    "21.6",
+    "23.8",
+    "24.6",
+    "26.1",
+    "27.3",
+    "27.5",
+    "3",
+    "40 % low spot filter",
+    "5 % low spot filter",
+    "6.7",
+    "8.6",
+    "84.3",
+    "86",
+    "87.3",
+    "88.5",
+    "88.7",
+    "88.9",
+    "89.5",
+    "9.2",
+    "9.4",
+    "90.4",
+    "91",
+    "91.1",
+    "92.1",
+    "92.2",
+    "94.5",
+    "A",
+    "A-I",
+    "B",
+    "C",
+    "CV (%)",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "Spots (%)",
+    "Validation",
+    "Validation slide",
+    "x"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Validation slide"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Validation slide"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Validation slide"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "5 % low spot filter"
+      ],
+      "value": "CV (%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "5 % low spot filter"
+      ],
+      "value": "Spots (%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "40 % low spot filter"
+      ],
+      "value": "CV (%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Validation"
+      ],
+      "value": "A-I"
+    },
+    {
+      "row": [],
+      "col": [
+        "Validation slide"
+      ],
+      "value": "x"
+    },
+    {
+      "row": [],
+      "col": [
+        "Validation slide"
+      ],
+      "value": "x"
+    },
+    {
+      "row": [],
+      "col": [
+        "Validation slide"
+      ],
+      "value": "x"
+    },
+    {
+      "row": [],
+      "col": [
+        "5 % low spot filter"
+      ],
+      "value": "27.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "5 % low spot filter"
+      ],
+      "value": "89.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "40 % low spot filter"
+      ],
+      "value": "17.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Validation"
+      ],
+      "value": "A-I"
+    },
+    {
+      "row": [],
+      "col": [
+        "Validation slide"
+      ],
+      "value": "x"
+    },
+    {
+      "row": [],
+      "col": [
+        "5 % low spot filter"
+      ],
+      "value": "21.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "5 % low spot filter"
+      ],
+      "value": "88.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "40 % low spot filter"
+      ],
+      "value": "13.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Validation"
+      ],
+      "value": "A-I"
+    },
+    {
+      "row": [],
+      "col": [
+        "Validation slide"
+      ],
+      "value": "x"
+    },
+    {
+      "row": [],
+      "col": [
+        "5 % low spot filter"
+      ],
+      "value": "26.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "5 % low spot filter"
+      ],
+      "value": "88.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "40 % low spot filter"
+      ],
+      "value": "17.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Validation"
+      ],
+      "value": "A-I"
+    },
+    {
+      "row": [],
+      "col": [
+        "Validation slide"
+      ],
+      "value": "x"
+    },
+    {
+      "row": [],
+      "col": [
+        "5 % low spot filter"
+      ],
+      "value": "24.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "5 % low spot filter"
+      ],
+      "value": "91.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "40 % low spot filter"
+      ],
+      "value": "16.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Validation"
+      ],
+      "value": "A"
+    },
+    {
+      "row": [],
+      "col": [
+        "Validation slide"
+      ],
+      "value": "x"
+    },
+    {
+      "row": [],
+      "col": [
+        "Validation slide"
+      ],
+      "value": "x"
+    },
+    {
+      "row": [],
+      "col": [
+        "Validation slide"
+      ],
+      "value": "x"
+    },
+    {
+      "row": [],
+      "col": [
+        "5 % low spot filter"
+      ],
+      "value": "16.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "5 % low spot filter"
+      ],
+      "value": "86"
+    },
+    {
+      "row": [],
+      "col": [
+        "40 % low spot filter"
+      ],
+      "value": "12.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Validation"
+      ],
+      "value": "B"
+    },
+    {
+      "row": [],
+      "col": [
+        "Validation slide"
+      ],
+      "value": "x"
+    },
+    {
+      "row": [],
+      "col": [
+        "Validation slide"
+      ],
+      "value": "x"
+    },
+    {
+      "row": [],
+      "col": [
+        "Validation slide"
+      ],
+      "value": "x"
+    },
+    {
+      "row": [],
+      "col": [
+        "5 % low spot filter"
+      ],
+      "value": "13"
+    },
+    {
+      "row": [],
+      "col": [
+        "5 % low spot filter"
+      ],
+      "value": "84.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "40 % low spot filter"
+      ],
+      "value": "9.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Validation"
+      ],
+      "value": "C"
+    },
+    {
+      "row": [],
+      "col": [
+        "Validation slide"
+      ],
+      "value": "x"
+    },
+    {
+      "row": [],
+      "col": [
+        "Validation slide"
+      ],
+      "value": "x"
+    },
+    {
+      "row": [],
+      "col": [
+        "Validation slide"
+      ],
+      "value": "x"
+    },
+    {
+      "row": [],
+      "col": [
+        "5 % low spot filter"
+      ],
+      "value": "14"
+    },
+    {
+      "row": [],
+      "col": [
+        "5 % low spot filter"
+      ],
+      "value": "94.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "40 % low spot filter"
+      ],
+      "value": "8.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Validation"
+      ],
+      "value": "D"
+    },
+    {
+      "row": [],
+      "col": [
+        "Validation slide"
+      ],
+      "value": "x"
+    },
+    {
+      "row": [],
+      "col": [
+        "Validation slide"
+      ],
+      "value": "x"
+    },
+    {
+      "row": [],
+      "col": [
+        "Validation slide"
+      ],
+      "value": "x"
+    },
+    {
+      "row": [],
+      "col": [
+        "5 % low spot filter"
+      ],
+      "value": "16.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "5 % low spot filter"
+      ],
+      "value": "92.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "40 % low spot filter"
+      ],
+      "value": "11.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Validation"
+      ],
+      "value": "E"
+    },
+    {
+      "row": [],
+      "col": [
+        "Validation slide"
+      ],
+      "value": "x"
+    },
+    {
+      "row": [],
+      "col": [
+        "Validation slide"
+      ],
+      "value": "x"
+    },
+    {
+      "row": [],
+      "col": [
+        "Validation slide"
+      ],
+      "value": "x"
+    },
+    {
+      "row": [],
+      "col": [
+        "5 % low spot filter"
+      ],
+      "value": "9.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "5 % low spot filter"
+      ],
+      "value": "90.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "40 % low spot filter"
+      ],
+      "value": "6.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Validation"
+      ],
+      "value": "F"
+    },
+    {
+      "row": [],
+      "col": [
+        "Validation slide"
+      ],
+      "value": "x"
+    },
+    {
+      "row": [],
+      "col": [
+        "Validation slide"
+      ],
+      "value": "x"
+    },
+    {
+      "row": [],
+      "col": [
+        "Validation slide"
+      ],
+      "value": "x"
+    },
+    {
+      "row": [],
+      "col": [
+        "5 % low spot filter"
+      ],
+      "value": "27.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "5 % low spot filter"
+      ],
+      "value": "87.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "40 % low spot filter"
+      ],
+      "value": "20.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Validation"
+      ],
+      "value": "G"
+    },
+    {
+      "row": [],
+      "col": [
+        "Validation slide"
+      ],
+      "value": "x"
+    },
+    {
+      "row": [],
+      "col": [
+        "Validation slide"
+      ],
+      "value": "x"
+    },
+    {
+      "row": [],
+      "col": [
+        "Validation slide"
+      ],
+      "value": "x"
+    },
+    {
+      "row": [],
+      "col": [
+        "5 % low spot filter"
+      ],
+      "value": "16.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "5 % low spot filter"
+      ],
+      "value": "88.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "40 % low spot filter"
+      ],
+      "value": "10.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Validation"
+      ],
+      "value": "H"
+    },
+    {
+      "row": [],
+      "col": [
+        "Validation slide"
+      ],
+      "value": "x"
+    },
+    {
+      "row": [],
+      "col": [
+        "Validation slide"
+      ],
+      "value": "x"
+    },
+    {
+      "row": [],
+      "col": [
+        "Validation slide"
+      ],
+      "value": "x"
+    },
+    {
+      "row": [],
+      "col": [
+        "5 % low spot filter"
+      ],
+      "value": "23.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "5 % low spot filter"
+      ],
+      "value": "91"
+    },
+    {
+      "row": [],
+      "col": [
+        "40 % low spot filter"
+      ],
+      "value": "15.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Validation"
+      ],
+      "value": "I"
+    },
+    {
+      "row": [],
+      "col": [
+        "Validation slide"
+      ],
+      "value": "x"
+    },
+    {
+      "row": [],
+      "col": [
+        "Validation slide"
+      ],
+      "value": "x"
+    },
+    {
+      "row": [],
+      "col": [
+        "Validation slide"
+      ],
+      "value": "x"
+    },
+    {
+      "row": [],
+      "col": [
+        "5 % low spot filter"
+      ],
+      "value": "18.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "5 % low spot filter"
+      ],
+      "value": "92.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "40 % low spot filter"
+      ],
+      "value": "12.4"
+    }
+  ]
+}

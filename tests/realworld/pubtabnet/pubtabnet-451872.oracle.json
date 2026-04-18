@@ -1,0 +1,474 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "1.8 (1.6 to 2.0)",
+    "1.9 (1.6 to 2.2)",
+    "2.0 (1.7 to 2.3)",
+    "3.3 (2.8 to 3.8)",
+    "50.7 (44.0 to 57.4)",
+    "53.0 (46.4 to 59.7)",
+    "53.5 (46.8 to 60.2)",
+    "6.7 (5.4 to 7.9)",
+    "6.9 (5.7 to 8.1)",
+    "60.9 (60.3 to 61.4)",
+    "61.1 (60.5 to 61.7)",
+    "63.0 (62.4 to 63.6)",
+    "63.2 (62.6 to 63.8)",
+    "65.1 (64.5 to 65.7)",
+    "65.3 (64.7 to 65.8)",
+    "7.1 (5.9 to 8.4)",
+    "81.2 (80.8 to 81.7)",
+    "81.3 (80.8 to 81.7)",
+    "81.4 (80.9 to 81.8)",
+    "81.9 (76.7 to 87.0)",
+    "90.7 (86.8 to 94.6)",
+    "91.2 (87.4 to 95.0)",
+    "91.6 (87.9 to 95.3)",
+    "94.1 (93.8 to 94.3)",
+    "94.1 (93.8 to 94.4)",
+    "94.3 (94.0 to 94.6)",
+    "94.4 (94.1 to 94.6)",
+    "94.5 (94.2 to 94.7)",
+    "94.6 (94.4 to 94.9)",
+    "Accuracy (%) (n = 27,769)",
+    "OR relative risk:.tw.OR cohort:.tw.",
+    "Precision (%)\u2020",
+    "Search Strategy OVID search*",
+    "Sensitivity (%) (n = 215)",
+    "Specificity (%) (n = 27,554)",
+    "Top 3-performing combination of terms with best Sensitivity",
+    "Top 3-performing combination of terms with best Specificity",
+    "Top 3-performing combination of terms with best optimization of Sensitivity and Specificity",
+    "cohort.tw.OR relative risk:.tw.",
+    "confidence interval.tw.OR relative risk:.tw.",
+    "risk.tw.OR mortalit:.tw,OR cohort.tw.",
+    "risk.tw.OR mortalit:.tw.OR cohort:.tw",
+    "risk:.mp.OR exp methodologyOR exp epidemiology",
+    "risk:.mp.OR exp methodologyOR exp mortality",
+    "risk:.tw.OR cohort:.mp.OR confidence interval:.tw.",
+    "risk:.tw.OR exp methodologyOR exp epidemiology"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Search Strategy OVID search*"
+      ],
+      "value": "Top 3-performing combination of terms with best Sensitivity"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sensitivity (%) (n = 215)"
+      ],
+      "value": "Top 3-performing combination of terms with best Sensitivity"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specificity (%) (n = 27,554)"
+      ],
+      "value": "Top 3-performing combination of terms with best Sensitivity"
+    },
+    {
+      "row": [],
+      "col": [
+        "Precision (%)\u2020"
+      ],
+      "value": "Top 3-performing combination of terms with best Sensitivity"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accuracy (%) (n = 27,769)"
+      ],
+      "value": "Top 3-performing combination of terms with best Sensitivity"
+    },
+    {
+      "row": [],
+      "col": [
+        "Search Strategy OVID search*"
+      ],
+      "value": "risk:.mp.OR exp methodologyOR exp epidemiology"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sensitivity (%) (n = 215)"
+      ],
+      "value": "91.6 (87.9 to 95.3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specificity (%) (n = 27,554)"
+      ],
+      "value": "60.9 (60.3 to 61.4)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Precision (%)\u2020"
+      ],
+      "value": "1.8 (1.6 to 2.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accuracy (%) (n = 27,769)"
+      ],
+      "value": "61.1 (60.5 to 61.7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Search Strategy OVID search*"
+      ],
+      "value": "risk:.tw.OR exp methodologyOR exp epidemiology"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sensitivity (%) (n = 215)"
+      ],
+      "value": "91.2 (87.4 to 95.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specificity (%) (n = 27,554)"
+      ],
+      "value": "63.0 (62.4 to 63.6)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Precision (%)\u2020"
+      ],
+      "value": "1.9 (1.6 to 2.2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accuracy (%) (n = 27,769)"
+      ],
+      "value": "63.2 (62.6 to 63.8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Search Strategy OVID search*"
+      ],
+      "value": "risk:.mp.OR exp methodologyOR exp mortality"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sensitivity (%) (n = 215)"
+      ],
+      "value": "90.7 (86.8 to 94.6)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specificity (%) (n = 27,554)"
+      ],
+      "value": "65.1 (64.5 to 65.7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Precision (%)\u2020"
+      ],
+      "value": "2.0 (1.7 to 2.3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accuracy (%) (n = 27,769)"
+      ],
+      "value": "65.3 (64.7 to 65.8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Search Strategy OVID search*"
+      ],
+      "value": "Top 3-performing combination of terms with best Specificity"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sensitivity (%) (n = 215)"
+      ],
+      "value": "Top 3-performing combination of terms with best Specificity"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specificity (%) (n = 27,554)"
+      ],
+      "value": "Top 3-performing combination of terms with best Specificity"
+    },
+    {
+      "row": [],
+      "col": [
+        "Precision (%)\u2020"
+      ],
+      "value": "Top 3-performing combination of terms with best Specificity"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accuracy (%) (n = 27,769)"
+      ],
+      "value": "Top 3-performing combination of terms with best Specificity"
+    },
+    {
+      "row": [],
+      "col": [
+        "Search Strategy OVID search*"
+      ],
+      "value": "cohort.tw.OR relative risk:.tw."
+    },
+    {
+      "row": [],
+      "col": [
+        "Sensitivity (%) (n = 215)"
+      ],
+      "value": "53.0 (46.4 to 59.7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specificity (%) (n = 27,554)"
+      ],
+      "value": "94.6 (94.4 to 94.9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Precision (%)\u2020"
+      ],
+      "value": "7.1 (5.9 to 8.4)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accuracy (%) (n = 27,769)"
+      ],
+      "value": "94.3 (94.0 to 94.6)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Search Strategy OVID search*"
+      ],
+      "value": "confidence interval.tw.OR relative risk:.tw."
+    },
+    {
+      "row": [],
+      "col": [
+        "Sensitivity (%) (n = 215)"
+      ],
+      "value": "50.7 (44.0 to 57.4)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specificity (%) (n = 27,554)"
+      ],
+      "value": "94.5 (94.2 to 94.7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Precision (%)\u2020"
+      ],
+      "value": "6.7 (5.4 to 7.9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accuracy (%) (n = 27,769)"
+      ],
+      "value": "94.1 (93.8 to 94.4)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Search Strategy OVID search*"
+      ],
+      "value": "OR relative risk:.tw.OR cohort:.tw."
+    },
+    {
+      "row": [],
+      "col": [
+        "Sensitivity (%) (n = 215)"
+      ],
+      "value": "53.5 (46.8 to 60.2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specificity (%) (n = 27,554)"
+      ],
+      "value": "94.4 (94.1 to 94.6)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Precision (%)\u2020"
+      ],
+      "value": "6.9 (5.7 to 8.1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accuracy (%) (n = 27,769)"
+      ],
+      "value": "94.1 (93.8 to 94.3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Search Strategy OVID search*"
+      ],
+      "value": "Top 3-performing combination of terms with best optimization of Sensitivity and Specificity"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sensitivity (%) (n = 215)"
+      ],
+      "value": "Top 3-performing combination of terms with best optimization of Sensitivity and Specificity"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specificity (%) (n = 27,554)"
+      ],
+      "value": "Top 3-performing combination of terms with best optimization of Sensitivity and Specificity"
+    },
+    {
+      "row": [],
+      "col": [
+        "Precision (%)\u2020"
+      ],
+      "value": "Top 3-performing combination of terms with best optimization of Sensitivity and Specificity"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accuracy (%) (n = 27,769)"
+      ],
+      "value": "Top 3-performing combination of terms with best optimization of Sensitivity and Specificity"
+    },
+    {
+      "row": [],
+      "col": [
+        "Search Strategy OVID search*"
+      ],
+      "value": "risk.tw.OR mortalit:.tw,OR cohort.tw."
+    },
+    {
+      "row": [],
+      "col": [
+        "Sensitivity (%) (n = 215)"
+      ],
+      "value": "81.9 (76.7 to 87.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specificity (%) (n = 27,554)"
+      ],
+      "value": "81.4 (80.9 to 81.8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Precision (%)\u2020"
+      ],
+      "value": "3.3 (2.8 to 3.8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accuracy (%) (n = 27,769)"
+      ],
+      "value": "81.4 (80.9 to 81.8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Search Strategy OVID search*"
+      ],
+      "value": "risk:.tw.OR cohort:.mp.OR confidence interval:.tw."
+    },
+    {
+      "row": [],
+      "col": [
+        "Sensitivity (%) (n = 215)"
+      ],
+      "value": "81.9 (76.7 to 87.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specificity (%) (n = 27,554)"
+      ],
+      "value": "81.2 (80.8 to 81.7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Precision (%)\u2020"
+      ],
+      "value": "3.3 (2.8 to 3.8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accuracy (%) (n = 27,769)"
+      ],
+      "value": "81.3 (80.8 to 81.7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Search Strategy OVID search*"
+      ],
+      "value": "risk.tw.OR mortalit:.tw.OR cohort:.tw"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sensitivity (%) (n = 215)"
+      ],
+      "value": "81.9 (76.7 to 87.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specificity (%) (n = 27,554)"
+      ],
+      "value": "81.2 (80.8 to 81.7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Precision (%)\u2020"
+      ],
+      "value": "3.3 (2.8 to 3.8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accuracy (%) (n = 27,769)"
+      ],
+      "value": "81.2 (80.8 to 81.7)"
+    }
+  ]
+}

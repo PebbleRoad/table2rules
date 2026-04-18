@@ -1,0 +1,304 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "%",
+    "-",
+    "1 157",
+    "100.0",
+    "15.5",
+    "2 216",
+    "2 865",
+    "29.6",
+    "3 087",
+    "3 367",
+    "3 553",
+    "38.3",
+    "4 061",
+    "41.3",
+    "45.0",
+    "47.5",
+    "472",
+    "54.3",
+    "555",
+    "6.3",
+    "7 481",
+    "7.4",
+    "Mouse SAGE Site reliable mapping",
+    "NCBI SAGEmap reliable mapping",
+    "No match",
+    "RNA evidence mapping",
+    "Reliable multiple matches",
+    "Reliable single match",
+    "Total tags (tag count > 1)",
+    "Unreliable match(es)*",
+    "tags"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Reliable single match"
+    },
+    {
+      "row": [],
+      "col": [
+        "NCBI SAGEmap reliable mapping",
+        "tags"
+      ],
+      "value": "4 061"
+    },
+    {
+      "row": [],
+      "col": [
+        "NCBI SAGEmap reliable mapping",
+        "%"
+      ],
+      "value": "54.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mouse SAGE Site reliable mapping",
+        "tags"
+      ],
+      "value": "3 553"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mouse SAGE Site reliable mapping",
+        "%"
+      ],
+      "value": "47.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "RNA evidence mapping",
+        "tags"
+      ],
+      "value": "3 367"
+    },
+    {
+      "row": [],
+      "col": [
+        "RNA evidence mapping",
+        "%"
+      ],
+      "value": "45.0"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Reliable multiple matches"
+    },
+    {
+      "row": [],
+      "col": [
+        "NCBI SAGEmap reliable mapping",
+        "tags"
+      ],
+      "value": "2 865"
+    },
+    {
+      "row": [],
+      "col": [
+        "NCBI SAGEmap reliable mapping",
+        "%"
+      ],
+      "value": "38.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mouse SAGE Site reliable mapping",
+        "tags"
+      ],
+      "value": "1 157"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mouse SAGE Site reliable mapping",
+        "%"
+      ],
+      "value": "15.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "RNA evidence mapping",
+        "tags"
+      ],
+      "value": "472"
+    },
+    {
+      "row": [],
+      "col": [
+        "RNA evidence mapping",
+        "%"
+      ],
+      "value": "6.3"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Unreliable match(es)*"
+    },
+    {
+      "row": [],
+      "col": [
+        "NCBI SAGEmap reliable mapping",
+        "tags"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "NCBI SAGEmap reliable mapping",
+        "%"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mouse SAGE Site reliable mapping",
+        "tags"
+      ],
+      "value": "2 216"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mouse SAGE Site reliable mapping",
+        "%"
+      ],
+      "value": "29.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "RNA evidence mapping",
+        "tags"
+      ],
+      "value": "3 087"
+    },
+    {
+      "row": [],
+      "col": [
+        "RNA evidence mapping",
+        "%"
+      ],
+      "value": "41.3"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "No match"
+    },
+    {
+      "row": [],
+      "col": [
+        "NCBI SAGEmap reliable mapping",
+        "tags"
+      ],
+      "value": "555"
+    },
+    {
+      "row": [],
+      "col": [
+        "NCBI SAGEmap reliable mapping",
+        "%"
+      ],
+      "value": "7.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mouse SAGE Site reliable mapping",
+        "tags"
+      ],
+      "value": "555"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mouse SAGE Site reliable mapping",
+        "%"
+      ],
+      "value": "7.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "RNA evidence mapping",
+        "tags"
+      ],
+      "value": "555"
+    },
+    {
+      "row": [],
+      "col": [
+        "RNA evidence mapping",
+        "%"
+      ],
+      "value": "7.4"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total tags (tag count > 1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "NCBI SAGEmap reliable mapping",
+        "tags"
+      ],
+      "value": "7 481"
+    },
+    {
+      "row": [],
+      "col": [
+        "NCBI SAGEmap reliable mapping",
+        "%"
+      ],
+      "value": "100.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mouse SAGE Site reliable mapping",
+        "tags"
+      ],
+      "value": "7 481"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mouse SAGE Site reliable mapping",
+        "%"
+      ],
+      "value": "100.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "RNA evidence mapping",
+        "tags"
+      ],
+      "value": "7 481"
+    },
+    {
+      "row": [],
+      "col": [
+        "RNA evidence mapping",
+        "%"
+      ],
+      "value": "100.0"
+    }
+  ]
+}

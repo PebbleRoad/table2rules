@@ -1,0 +1,666 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "1 \u2013 3",
+    "106",
+    "1074",
+    "11 \u2013 13",
+    "1180",
+    "1193",
+    "12.73",
+    "12.79",
+    "1212",
+    "13 \u2013 15",
+    "13.22",
+    "13.54",
+    "1498",
+    "15",
+    "15.25",
+    "15.76",
+    "15.78",
+    "158",
+    "16.45",
+    "163",
+    "17.56",
+    "171",
+    "1741",
+    "19.55",
+    "2",
+    "2.11",
+    "2.43",
+    "2.48",
+    "2.59",
+    "2.80",
+    "2.86",
+    "2.92",
+    "2.93",
+    "2.96",
+    "20.34",
+    "201",
+    "22.04",
+    "23.90",
+    "24",
+    "246",
+    "27",
+    "29.74",
+    "3",
+    "3 \u2013 5",
+    "3.00",
+    "3.77",
+    "3.81",
+    "31",
+    "339",
+    "35",
+    "36",
+    "5",
+    "5 \u2013 7",
+    "5.36",
+    "5.37",
+    "523",
+    "558",
+    "58",
+    "6.55",
+    "626",
+    "64",
+    "7",
+    "7 \u2013 9",
+    "7.82",
+    "705",
+    "8.03",
+    "802",
+    "9",
+    "9 \u2013 11",
+    "9.41",
+    "941",
+    ">15",
+    "Ala",
+    "Arg",
+    "Composition",
+    "E. Level",
+    "E. Level**",
+    "Genes",
+    "Genes*",
+    "Gly",
+    "Percent",
+    "Val"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Percent",
+        "Composition"
+      ],
+      "value": "1 \u2013 3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Ala",
+        "Genes*"
+      ],
+      "value": "163"
+    },
+    {
+      "row": [],
+      "col": [
+        "Ala",
+        "E. Level**"
+      ],
+      "value": "2.59"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gly",
+        "Genes"
+      ],
+      "value": "339"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gly",
+        "E. Level"
+      ],
+      "value": "2.96"
+    },
+    {
+      "row": [],
+      "col": [
+        "Arg",
+        "Genes"
+      ],
+      "value": "558"
+    },
+    {
+      "row": [],
+      "col": [
+        "Arg",
+        "E. Level"
+      ],
+      "value": "3.77"
+    },
+    {
+      "row": [],
+      "col": [
+        "Val",
+        "Genes"
+      ],
+      "value": "106"
+    },
+    {
+      "row": [],
+      "col": [
+        "Val",
+        "E. Level"
+      ],
+      "value": "2.93"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percent",
+        "Composition"
+      ],
+      "value": "3 \u2013 5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Ala",
+        "Genes*"
+      ],
+      "value": "1074"
+    },
+    {
+      "row": [],
+      "col": [
+        "Ala",
+        "E. Level**"
+      ],
+      "value": "2.11"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gly",
+        "Genes"
+      ],
+      "value": "1180"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gly",
+        "E. Level"
+      ],
+      "value": "2.43"
+    },
+    {
+      "row": [],
+      "col": [
+        "Arg",
+        "Genes"
+      ],
+      "value": "1741"
+    },
+    {
+      "row": [],
+      "col": [
+        "Arg",
+        "E. Level"
+      ],
+      "value": "2.92"
+    },
+    {
+      "row": [],
+      "col": [
+        "Val",
+        "Genes"
+      ],
+      "value": "941"
+    },
+    {
+      "row": [],
+      "col": [
+        "Val",
+        "E. Level"
+      ],
+      "value": "2.48"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percent",
+        "Composition"
+      ],
+      "value": "5 \u2013 7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Ala",
+        "Genes*"
+      ],
+      "value": "1212"
+    },
+    {
+      "row": [],
+      "col": [
+        "Ala",
+        "E. Level**"
+      ],
+      "value": "2.80"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gly",
+        "Genes"
+      ],
+      "value": "1193"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gly",
+        "E. Level"
+      ],
+      "value": "3.81"
+    },
+    {
+      "row": [],
+      "col": [
+        "Arg",
+        "Genes"
+      ],
+      "value": "802"
+    },
+    {
+      "row": [],
+      "col": [
+        "Arg",
+        "E. Level"
+      ],
+      "value": "2.86"
+    },
+    {
+      "row": [],
+      "col": [
+        "Val",
+        "Genes"
+      ],
+      "value": "1498"
+    },
+    {
+      "row": [],
+      "col": [
+        "Val",
+        "E. Level"
+      ],
+      "value": "3.00"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percent",
+        "Composition"
+      ],
+      "value": "7 \u2013 9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Ala",
+        "Genes*"
+      ],
+      "value": "626"
+    },
+    {
+      "row": [],
+      "col": [
+        "Ala",
+        "E. Level**"
+      ],
+      "value": "5.36"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gly",
+        "Genes"
+      ],
+      "value": "523"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gly",
+        "E. Level"
+      ],
+      "value": "6.55"
+    },
+    {
+      "row": [],
+      "col": [
+        "Arg",
+        "Genes"
+      ],
+      "value": "201"
+    },
+    {
+      "row": [],
+      "col": [
+        "Arg",
+        "E. Level"
+      ],
+      "value": "8.03"
+    },
+    {
+      "row": [],
+      "col": [
+        "Val",
+        "Genes"
+      ],
+      "value": "705"
+    },
+    {
+      "row": [],
+      "col": [
+        "Val",
+        "E. Level"
+      ],
+      "value": "5.37"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percent",
+        "Composition"
+      ],
+      "value": "9 \u2013 11"
+    },
+    {
+      "row": [],
+      "col": [
+        "Ala",
+        "Genes*"
+      ],
+      "value": "246"
+    },
+    {
+      "row": [],
+      "col": [
+        "Ala",
+        "E. Level**"
+      ],
+      "value": "9.41"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gly",
+        "Genes"
+      ],
+      "value": "158"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gly",
+        "E. Level"
+      ],
+      "value": "7.82"
+    },
+    {
+      "row": [],
+      "col": [
+        "Arg",
+        "Genes"
+      ],
+      "value": "58"
+    },
+    {
+      "row": [],
+      "col": [
+        "Arg",
+        "E. Level"
+      ],
+      "value": "20.34"
+    },
+    {
+      "row": [],
+      "col": [
+        "Val",
+        "Genes"
+      ],
+      "value": "171"
+    },
+    {
+      "row": [],
+      "col": [
+        "Val",
+        "E. Level"
+      ],
+      "value": "13.22"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percent",
+        "Composition"
+      ],
+      "value": "11 \u2013 13"
+    },
+    {
+      "row": [],
+      "col": [
+        "Ala",
+        "Genes*"
+      ],
+      "value": "64"
+    },
+    {
+      "row": [],
+      "col": [
+        "Ala",
+        "E. Level**"
+      ],
+      "value": "15.25"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gly",
+        "Genes"
+      ],
+      "value": "36"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gly",
+        "E. Level"
+      ],
+      "value": "12.79"
+    },
+    {
+      "row": [],
+      "col": [
+        "Arg",
+        "Genes"
+      ],
+      "value": "27"
+    },
+    {
+      "row": [],
+      "col": [
+        "Arg",
+        "E. Level"
+      ],
+      "value": "17.56"
+    },
+    {
+      "row": [],
+      "col": [
+        "Val",
+        "Genes"
+      ],
+      "value": "24"
+    },
+    {
+      "row": [],
+      "col": [
+        "Val",
+        "E. Level"
+      ],
+      "value": "16.45"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percent",
+        "Composition"
+      ],
+      "value": "13 \u2013 15"
+    },
+    {
+      "row": [],
+      "col": [
+        "Ala",
+        "Genes*"
+      ],
+      "value": "31"
+    },
+    {
+      "row": [],
+      "col": [
+        "Ala",
+        "E. Level**"
+      ],
+      "value": "15.76"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gly",
+        "Genes"
+      ],
+      "value": "15"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gly",
+        "E. Level"
+      ],
+      "value": "12.73"
+    },
+    {
+      "row": [],
+      "col": [
+        "Arg",
+        "Genes"
+      ],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Arg",
+        "E. Level"
+      ],
+      "value": "29.74"
+    },
+    {
+      "row": [],
+      "col": [
+        "Val",
+        "Genes"
+      ],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Val",
+        "E. Level"
+      ],
+      "value": "22.04"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percent",
+        "Composition"
+      ],
+      "value": ">15"
+    },
+    {
+      "row": [],
+      "col": [
+        "Ala",
+        "Genes*"
+      ],
+      "value": "35"
+    },
+    {
+      "row": [],
+      "col": [
+        "Ala",
+        "E. Level**"
+      ],
+      "value": "15.78"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gly",
+        "Genes"
+      ],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gly",
+        "E. Level"
+      ],
+      "value": "13.54"
+    },
+    {
+      "row": [],
+      "col": [
+        "Arg",
+        "Genes"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Arg",
+        "E. Level"
+      ],
+      "value": "23.90"
+    },
+    {
+      "row": [],
+      "col": [
+        "Val",
+        "Genes"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Val",
+        "E. Level"
+      ],
+      "value": "19.55"
+    }
+  ]
+}

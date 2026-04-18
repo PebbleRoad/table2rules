@@ -1,0 +1,224 @@
+<!-- source: PubTabNet imgid=85510 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+<b>
+       Year
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Incoming students
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Percentage of total attrition
+      </b>
+</td>
+<td colspan="2">
+<b>
+       Percentage of total graduate students
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<b>
+       Men
+      </b>
+</td>
+<td>
+<b>
+       Women
+      </b>
+</td>
+<td>
+<b>
+       Men
+      </b>
+</td>
+<td>
+<b>
+       Women
+      </b>
+</td>
+<td>
+<b>
+       Men
+      </b>
+</td>
+<td>
+<b>
+       Women
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      1996
+     </td>
+<td>
+      6 200
+     </td>
+<td>
+      6 054
+     </td>
+<td>
+      47
+     </td>
+<td>
+      53
+     </td>
+<td>
+      51
+     </td>
+<td>
+      49
+     </td>
+</tr>
+<tr>
+<td>
+      1997
+     </td>
+<td>
+      6 819
+     </td>
+<td>
+      6 820
+     </td>
+<td>
+      49
+     </td>
+<td>
+      51
+     </td>
+<td>
+      51
+     </td>
+<td>
+      49
+     </td>
+</tr>
+<tr>
+<td>
+      1998
+     </td>
+<td>
+      7 456
+     </td>
+<td>
+      7 064
+     </td>
+<td>
+      53
+     </td>
+<td>
+      47
+     </td>
+<td>
+      50
+     </td>
+<td>
+      50
+     </td>
+</tr>
+<tr>
+<td>
+      1999
+     </td>
+<td>
+      7 331
+     </td>
+<td>
+      7248
+     </td>
+<td>
+      51
+     </td>
+<td>
+      49
+     </td>
+<td>
+      50
+     </td>
+<td>
+      50
+     </td>
+</tr>
+<tr>
+<td>
+      2000
+     </td>
+<td>
+      7 655
+     </td>
+<td>
+      7 858
+     </td>
+<td>
+      51
+     </td>
+<td>
+      49
+     </td>
+<td>
+      49
+     </td>
+<td>
+      51
+     </td>
+</tr>
+<tr>
+<td>
+      2001
+     </td>
+<td>
+      7 501
+     </td>
+<td>
+      7 962
+     </td>
+<td>
+      45
+     </td>
+<td>
+      55
+     </td>
+<td>
+      51
+     </td>
+<td>
+      49
+     </td>
+</tr>
+<tr>
+<td>
+      2002
+     </td>
+<td>
+      7 746
+     </td>
+<td>
+      8 631
+     </td>
+<td>
+      n/a
+     </td>
+<td>
+      n/a
+     </td>
+<td>
+      n/a
+     </td>
+<td>
+      n/a
+     </td>
+</tr>
+</tbody>
+</table>

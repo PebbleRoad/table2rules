@@ -1,0 +1,326 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0 ml",
+    "0.371",
+    "0.577",
+    "0.58",
+    "0.9",
+    "1.366 ml",
+    "1.819 ml",
+    "14.2 ml",
+    "19 ml",
+    "2.345 ml",
+    "3.258 ml",
+    "35 ml",
+    "40 ml",
+    "51",
+    "72.9",
+    "81.5",
+    "Amount of fluid",
+    "D1",
+    "D7",
+    "DF",
+    "Drain group",
+    "Maximum",
+    "Mean",
+    "Minimum",
+    "Non drain group",
+    "P",
+    "T",
+    "Total number of patients",
+    "Two sample T test for detection of difference in means of fluid collected on D1 & DD7 respectively",
+    "Unequal variance"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Amount of fluid"
+      ],
+      "value": "Mean"
+    },
+    {
+      "row": [],
+      "col": [
+        "Drain group",
+        "D1"
+      ],
+      "value": "3.258 ml"
+    },
+    {
+      "row": [],
+      "col": [
+        "Drain group",
+        "D7"
+      ],
+      "value": "1.819 ml"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non drain group",
+        "D1"
+      ],
+      "value": "2.345 ml"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non drain group",
+        "D7"
+      ],
+      "value": "1.366 ml"
+    },
+    {
+      "row": [],
+      "col": [
+        "Amount of fluid"
+      ],
+      "value": "Minimum"
+    },
+    {
+      "row": [],
+      "col": [
+        "Drain group",
+        "D1"
+      ],
+      "value": "0 ml"
+    },
+    {
+      "row": [],
+      "col": [
+        "Drain group",
+        "D7"
+      ],
+      "value": "0 ml"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non drain group",
+        "D1"
+      ],
+      "value": "0 ml"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non drain group",
+        "D7"
+      ],
+      "value": "0 ml"
+    },
+    {
+      "row": [],
+      "col": [
+        "Amount of fluid"
+      ],
+      "value": "Maximum"
+    },
+    {
+      "row": [],
+      "col": [
+        "Drain group",
+        "D1"
+      ],
+      "value": "40 ml"
+    },
+    {
+      "row": [],
+      "col": [
+        "Drain group",
+        "D7"
+      ],
+      "value": "35 ml"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non drain group",
+        "D1"
+      ],
+      "value": "19 ml"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non drain group",
+        "D7"
+      ],
+      "value": "14.2 ml"
+    },
+    {
+      "row": [],
+      "col": [
+        "Amount of fluid"
+      ],
+      "value": "Total number of patients"
+    },
+    {
+      "row": [],
+      "col": [
+        "Drain group",
+        "D1"
+      ],
+      "value": "51"
+    },
+    {
+      "row": [],
+      "col": [
+        "Drain group",
+        "D7"
+      ],
+      "value": "51"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non drain group",
+        "D1"
+      ],
+      "value": "51"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non drain group",
+        "D7"
+      ],
+      "value": "51"
+    },
+    {
+      "row": [],
+      "col": [
+        "Amount of fluid"
+      ],
+      "value": "Two sample T test for detection of difference in means of fluid collected on D1 & DD7 respectively"
+    },
+    {
+      "row": [],
+      "col": [
+        "Drain group",
+        "D1"
+      ],
+      "value": "Two sample T test for detection of difference in means of fluid collected on D1 & DD7 respectively"
+    },
+    {
+      "row": [],
+      "col": [
+        "Drain group",
+        "D7"
+      ],
+      "value": "Two sample T test for detection of difference in means of fluid collected on D1 & DD7 respectively"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non drain group",
+        "D1"
+      ],
+      "value": "Two sample T test for detection of difference in means of fluid collected on D1 & DD7 respectively"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non drain group",
+        "D7"
+      ],
+      "value": "Two sample T test for detection of difference in means of fluid collected on D1 & DD7 respectively"
+    },
+    {
+      "row": [],
+      "col": [
+        "Amount of fluid"
+      ],
+      "value": "Unequal variance"
+    },
+    {
+      "row": [],
+      "col": [
+        "Drain group",
+        "D1"
+      ],
+      "value": "T"
+    },
+    {
+      "row": [],
+      "col": [
+        "Drain group",
+        "D7"
+      ],
+      "value": "DF"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non drain group",
+        "D1"
+      ],
+      "value": "P"
+    },
+    {
+      "row": [],
+      "col": [
+        "Amount of fluid"
+      ],
+      "value": "D1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Drain group",
+        "D1"
+      ],
+      "value": "0.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Drain group",
+        "D7"
+      ],
+      "value": "81.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non drain group",
+        "D1"
+      ],
+      "value": "0.371"
+    },
+    {
+      "row": [],
+      "col": [
+        "Amount of fluid"
+      ],
+      "value": "D7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Drain group",
+        "D1"
+      ],
+      "value": "0.58"
+    },
+    {
+      "row": [],
+      "col": [
+        "Drain group",
+        "D7"
+      ],
+      "value": "72.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non drain group",
+        "D1"
+      ],
+      "value": "0.577"
+    }
+  ]
+}

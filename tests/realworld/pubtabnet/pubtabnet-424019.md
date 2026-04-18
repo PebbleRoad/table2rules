@@ -1,0 +1,308 @@
+<!-- source: PubTabNet imgid=424019 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+<b>
+       Example
+      </b>
+</td>
+<td>
+<b>
+       High
+      </b>
+</td>
+<td>
+<b>
+       Moderate
+      </b>
+</td>
+<td>
+<b>
+       Low
+      </b>
+</td>
+<td>
+<b>
+       Very low
+      </b>
+</td>
+<td>
+<b>
+       Consensus
+      </b>
+</td>
+<td>
+<b>
+       Comments
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      1
+     </td>
+<td>
+      2/15
+     </td>
+<td>
+      4/15
+     </td>
+<td>
+      5/15
+     </td>
+<td>
+      4/15
+     </td>
+<td>
+      Moderate
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      2
+     </td>
+<td>
+      12/17
+     </td>
+<td>
+      5/17
+     </td>
+<td>
+      -
+     </td>
+<td>
+      -
+     </td>
+<td>
+      High
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      3
+     </td>
+<td>
+      1/17
+     </td>
+<td>
+      6/17
+     </td>
+<td>
+      5/17
+     </td>
+<td>
+      5/17
+     </td>
+<td colspan="2">
+      Need more information before consensus
+     </td>
+</tr>
+<tr>
+<td>
+      4
+     </td>
+<td>
+      4/17
+     </td>
+<td>
+      13/17
+     </td>
+<td>
+      -
+     </td>
+<td>
+      -
+     </td>
+<td>
+      High
+     </td>
+<td>
+      Based on the new rule
+     </td>
+</tr>
+<tr>
+<td>
+      5
+     </td>
+<td>
+      12/16
+     </td>
+<td>
+      4/16
+     </td>
+<td>
+      -
+     </td>
+<td>
+      -
+     </td>
+<td>
+      High
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      6
+     </td>
+<td>
+      7/17
+     </td>
+<td>
+      10/17
+     </td>
+<td>
+      -
+     </td>
+<td>
+      -
+     </td>
+<td>
+      High
+     </td>
+<td>
+      Based on new rule
+     </td>
+</tr>
+<tr>
+<td>
+      7
+     </td>
+<td>
+      -
+     </td>
+<td>
+      11/17
+     </td>
+<td>
+      6/17
+     </td>
+<td>
+      -
+     </td>
+<td>
+      Moderate
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      8
+     </td>
+<td>
+      -
+     </td>
+<td>
+      6/17
+     </td>
+<td>
+      3/17
+     </td>
+<td>
+      8/17
+     </td>
+<td>
+      High
+     </td>
+<td>
+      Based on new rule
+     </td>
+</tr>
+<tr>
+<td>
+      9
+     </td>
+<td>
+      2/16
+     </td>
+<td>
+      3/16
+     </td>
+<td>
+      5/16
+     </td>
+<td>
+      6/16
+     </td>
+<td colspan="2">
+      High/Moderate depending if there are fatal flaws
+     </td>
+</tr>
+<tr>
+<td>
+      10
+     </td>
+<td>
+      -
+     </td>
+<td>
+      1/17
+     </td>
+<td>
+      4/17
+     </td>
+<td>
+      12/17
+     </td>
+<td>
+      Very low
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      11
+     </td>
+<td>
+      1/17
+     </td>
+<td>
+      3/17
+     </td>
+<td>
+      8/17
+     </td>
+<td>
+      5/17
+     </td>
+<td>
+      High
+     </td>
+<td>
+      Changed question
+     </td>
+</tr>
+<tr>
+<td>
+      12
+     </td>
+<td>
+      11/13
+     </td>
+<td>
+      2/13
+     </td>
+<td>
+      -
+     </td>
+<td>
+      -
+     </td>
+<td>
+      High
+     </td>
+<td>
+</td>
+</tr>
+</tbody>
+</table>

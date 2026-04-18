@@ -1,0 +1,738 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "%",
+    "-",
+    "0.5769",
+    "0.5782",
+    "0.63 \u2013 1.37",
+    "0.67 \u2013 1.24",
+    "0.68 \u2013 1.50",
+    "0.72 \u2013 1.19",
+    "0.7263",
+    "0.8554",
+    "0.91",
+    "0.93",
+    "0.9301",
+    "1.00",
+    "1.01",
+    "104",
+    "116",
+    "128",
+    "151",
+    "178",
+    "179",
+    "198",
+    "236",
+    "302",
+    "305",
+    "36.6",
+    "36.9",
+    "37.0",
+    "37.3",
+    "375",
+    "38.2",
+    "38.6",
+    "402",
+    "415",
+    "61.4",
+    "61.8",
+    "62",
+    "62.7",
+    "63.0",
+    "63.1",
+    "63.4",
+    "654",
+    "680",
+    "79",
+    "87",
+    "95% CI",
+    "< 1 year",
+    "Acceptable (\u2264 60 days)",
+    "Contact history",
+    "Crude OR",
+    "Household contact with a case of tuberculosis",
+    "Knows someone with tuberculosis",
+    "N",
+    "No",
+    "Not known",
+    "P value",
+    "Recent contact with someone with tuberculosis",
+    "Total",
+    "Total delay in treatment",
+    "Unacceptable (> 60 days)",
+    "Yes",
+    "\u2265 1 year"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Contact history"
+      ],
+      "value": "Knows someone with tuberculosis"
+    },
+    {
+      "row": [],
+      "col": [
+        "Contact history"
+      ],
+      "value": "Yes"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total delay in treatment",
+        "Unacceptable (> 60 days)",
+        "N"
+      ],
+      "value": "305"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total delay in treatment",
+        "Unacceptable (> 60 days)",
+        "%"
+      ],
+      "value": "63.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total delay in treatment",
+        "Acceptable (\u2264 60 days)",
+        "N"
+      ],
+      "value": "179"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total delay in treatment",
+        "Acceptable (\u2264 60 days)",
+        "%"
+      ],
+      "value": "37.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Crude OR"
+      ],
+      "value": "1.00"
+    },
+    {
+      "row": [],
+      "col": [
+        "95% CI"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "P value"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Contact history"
+      ],
+      "value": "No"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total delay in treatment",
+        "Unacceptable (> 60 days)",
+        "N"
+      ],
+      "value": "375"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total delay in treatment",
+        "Unacceptable (> 60 days)",
+        "%"
+      ],
+      "value": "61.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total delay in treatment",
+        "Acceptable (\u2264 60 days)",
+        "N"
+      ],
+      "value": "236"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total delay in treatment",
+        "Acceptable (\u2264 60 days)",
+        "%"
+      ],
+      "value": "38.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Crude OR"
+      ],
+      "value": "0.93"
+    },
+    {
+      "row": [],
+      "col": [
+        "95% CI"
+      ],
+      "value": "0.72 \u2013 1.19"
+    },
+    {
+      "row": [],
+      "col": [
+        "P value"
+      ],
+      "value": "0.5782"
+    },
+    {
+      "row": [],
+      "col": [
+        "Contact history"
+      ],
+      "value": "Total"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total delay in treatment",
+        "Unacceptable (> 60 days)",
+        "N"
+      ],
+      "value": "680"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total delay in treatment",
+        "Unacceptable (> 60 days)",
+        "%"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total delay in treatment",
+        "Acceptable (\u2264 60 days)",
+        "N"
+      ],
+      "value": "415"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total delay in treatment",
+        "Acceptable (\u2264 60 days)",
+        "%"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Crude OR"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "95% CI"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "P value"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Contact history"
+      ],
+      "value": "Recent contact with someone with tuberculosis"
+    },
+    {
+      "row": [],
+      "col": [
+        "P value"
+      ],
+      "value": "0.8554"
+    },
+    {
+      "row": [],
+      "col": [
+        "Contact history"
+      ],
+      "value": "< 1 year"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total delay in treatment",
+        "Unacceptable (> 60 days)",
+        "N"
+      ],
+      "value": "151"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total delay in treatment",
+        "Unacceptable (> 60 days)",
+        "%"
+      ],
+      "value": "63.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total delay in treatment",
+        "Acceptable (\u2264 60 days)",
+        "N"
+      ],
+      "value": "87"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total delay in treatment",
+        "Acceptable (\u2264 60 days)",
+        "%"
+      ],
+      "value": "36.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Crude OR"
+      ],
+      "value": "1.00"
+    },
+    {
+      "row": [],
+      "col": [
+        "95% CI"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "P value"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Contact history"
+      ],
+      "value": "\u2265 1 year"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total delay in treatment",
+        "Unacceptable (> 60 days)",
+        "N"
+      ],
+      "value": "128"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total delay in treatment",
+        "Unacceptable (> 60 days)",
+        "%"
+      ],
+      "value": "61.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total delay in treatment",
+        "Acceptable (\u2264 60 days)",
+        "N"
+      ],
+      "value": "79"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total delay in treatment",
+        "Acceptable (\u2264 60 days)",
+        "%"
+      ],
+      "value": "38.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Crude OR"
+      ],
+      "value": "0.93"
+    },
+    {
+      "row": [],
+      "col": [
+        "95% CI"
+      ],
+      "value": "0.63 \u2013 1.37"
+    },
+    {
+      "row": [],
+      "col": [
+        "P value"
+      ],
+      "value": "0.7263"
+    },
+    {
+      "row": [],
+      "col": [
+        "Contact history"
+      ],
+      "value": "Not known"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total delay in treatment",
+        "Unacceptable (> 60 days)",
+        "N"
+      ],
+      "value": "375"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total delay in treatment",
+        "Unacceptable (> 60 days)",
+        "%"
+      ],
+      "value": "61.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total delay in treatment",
+        "Acceptable (\u2264 60 days)",
+        "N"
+      ],
+      "value": "236"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total delay in treatment",
+        "Acceptable (\u2264 60 days)",
+        "%"
+      ],
+      "value": "38.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Crude OR"
+      ],
+      "value": "0.91"
+    },
+    {
+      "row": [],
+      "col": [
+        "95% CI"
+      ],
+      "value": "0.67 \u2013 1.24"
+    },
+    {
+      "row": [],
+      "col": [
+        "P value"
+      ],
+      "value": "0.5769"
+    },
+    {
+      "row": [],
+      "col": [
+        "Contact history"
+      ],
+      "value": "Total"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total delay in treatment",
+        "Unacceptable (> 60 days)",
+        "N"
+      ],
+      "value": "654"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total delay in treatment",
+        "Unacceptable (> 60 days)",
+        "%"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total delay in treatment",
+        "Acceptable (\u2264 60 days)",
+        "N"
+      ],
+      "value": "402"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total delay in treatment",
+        "Acceptable (\u2264 60 days)",
+        "%"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Crude OR"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "95% CI"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "P value"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Contact history"
+      ],
+      "value": "Household contact with a case of tuberculosis"
+    },
+    {
+      "row": [],
+      "col": [
+        "Contact history"
+      ],
+      "value": "Yes"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total delay in treatment",
+        "Unacceptable (> 60 days)",
+        "N"
+      ],
+      "value": "104"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total delay in treatment",
+        "Unacceptable (> 60 days)",
+        "%"
+      ],
+      "value": "62.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total delay in treatment",
+        "Acceptable (\u2264 60 days)",
+        "N"
+      ],
+      "value": "62"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total delay in treatment",
+        "Acceptable (\u2264 60 days)",
+        "%"
+      ],
+      "value": "37.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Crude OR"
+      ],
+      "value": "1.00"
+    },
+    {
+      "row": [],
+      "col": [
+        "95% CI"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "P value"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Contact history"
+      ],
+      "value": "No"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total delay in treatment",
+        "Unacceptable (> 60 days)",
+        "N"
+      ],
+      "value": "198"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total delay in treatment",
+        "Unacceptable (> 60 days)",
+        "%"
+      ],
+      "value": "63.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total delay in treatment",
+        "Acceptable (\u2264 60 days)",
+        "N"
+      ],
+      "value": "116"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total delay in treatment",
+        "Acceptable (\u2264 60 days)",
+        "%"
+      ],
+      "value": "36.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Crude OR"
+      ],
+      "value": "1.01"
+    },
+    {
+      "row": [],
+      "col": [
+        "95% CI"
+      ],
+      "value": "0.68 \u2013 1.50"
+    },
+    {
+      "row": [],
+      "col": [
+        "P value"
+      ],
+      "value": "0.9301"
+    },
+    {
+      "row": [],
+      "col": [
+        "Contact history"
+      ],
+      "value": "Total"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total delay in treatment",
+        "Unacceptable (> 60 days)",
+        "N"
+      ],
+      "value": "302"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total delay in treatment",
+        "Unacceptable (> 60 days)",
+        "%"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total delay in treatment",
+        "Acceptable (\u2264 60 days)",
+        "N"
+      ],
+      "value": "178"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total delay in treatment",
+        "Acceptable (\u2264 60 days)",
+        "%"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Crude OR"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "95% CI"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "P value"
+      ],
+      "value": "-"
+    }
+  ]
+}

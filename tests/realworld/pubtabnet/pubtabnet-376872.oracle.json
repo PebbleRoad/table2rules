@@ -1,0 +1,523 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "(0.98 to 1.20)",
+    "(1.01 to 1.15)",
+    "(1.06 to 1.22)",
+    "(1.22 to 1.36)",
+    "(1.27 to 1.41)",
+    "(1.27 to 1.46)",
+    "(1.29 to 1.42)",
+    "(1.30 to 1.45)",
+    "(1.30 to 1.59)",
+    "(1.34 to 1.47)",
+    "(1.35 to 1.48)",
+    "(1.35 to 1.49)",
+    "(1.36 to 1.49)",
+    "(1.36 to 1.51)",
+    "(1.36 to 1.52)",
+    "(1.37 to 1.57)",
+    "(1.40 to 1.56)",
+    "(1.41 to 1.55)",
+    "(1.42 to 1.56)",
+    "(1.42 to 1.58)",
+    "(1.43 to 1.57)",
+    "(1.46 to 1.61)",
+    "(1.47 to 1.62)",
+    "(95% CI)",
+    "-",
+    "1.08",
+    "1.09",
+    "1.14",
+    "1.29",
+    "1.34",
+    "1.36",
+    "1.37",
+    "1.40",
+    "1.42",
+    "1.43",
+    "1.44",
+    "1.46",
+    "1.48",
+    "1.49",
+    "1.50",
+    "1.53",
+    "1.54",
+    "1.55",
+    "Adjusted for",
+    "Cognition at 11",
+    "Cognition at 7",
+    "Cognition at 9",
+    "OR\u2020",
+    "Sex",
+    "Sex, All early life factors\u2021",
+    "Sex, Cognition at 11",
+    "Sex, Cognition at 7",
+    "Sex, Cognition at 9",
+    "Sex, Father's occupation at birth & in 1962, Number of children",
+    "Sex, Height & Weight at 1st medical exam",
+    "Sex, Marital status at birth",
+    "Sex, Rutter B behavioral score"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Adjusted for"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Sex"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cognition at 7",
+        "OR\u2020"
+      ],
+      "value": "1.42"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cognition at 7",
+        "(95% CI)"
+      ],
+      "value": "(1.36 to 1.49)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cognition at 9",
+        "OR\u2020"
+      ],
+      "value": "1.50"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cognition at 9",
+        "(95% CI)"
+      ],
+      "value": "(1.43 to 1.57)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cognition at 11",
+        "OR\u2020"
+      ],
+      "value": "1.55"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cognition at 11",
+        "(95% CI)"
+      ],
+      "value": "(1.47 to 1.62)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Sex, Marital status at birth"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cognition at 7",
+        "OR\u2020"
+      ],
+      "value": "1.42"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cognition at 7",
+        "(95% CI)"
+      ],
+      "value": "(1.35 to 1.48)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cognition at 9",
+        "OR\u2020"
+      ],
+      "value": "1.49"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cognition at 9",
+        "(95% CI)"
+      ],
+      "value": "(1.42 to 1.56)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cognition at 11",
+        "OR\u2020"
+      ],
+      "value": "1.54"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cognition at 11",
+        "(95% CI)"
+      ],
+      "value": "(1.47 to 1.62)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Sex, Father's occupation at birth & in 1962, Number of children"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cognition at 7",
+        "OR\u2020"
+      ],
+      "value": "1.34"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cognition at 7",
+        "(95% CI)"
+      ],
+      "value": "(1.27 to 1.41)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cognition at 9",
+        "OR\u2020"
+      ],
+      "value": "1.42"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cognition at 9",
+        "(95% CI)"
+      ],
+      "value": "(1.35 to 1.49)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cognition at 11",
+        "OR\u2020"
+      ],
+      "value": "1.48"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cognition at 11",
+        "(95% CI)"
+      ],
+      "value": "(1.40 to 1.56)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Sex, Height & Weight at 1st medical exam"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cognition at 7",
+        "OR\u2020"
+      ],
+      "value": "1.40"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cognition at 7",
+        "(95% CI)"
+      ],
+      "value": "(1.34 to 1.47)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cognition at 9",
+        "OR\u2020"
+      ],
+      "value": "1.48"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cognition at 9",
+        "(95% CI)"
+      ],
+      "value": "(1.41 to 1.55)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cognition at 11",
+        "OR\u2020"
+      ],
+      "value": "1.53"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cognition at 11",
+        "(95% CI)"
+      ],
+      "value": "(1.46 to 1.61)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Sex, Rutter B behavioral score"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cognition at 7",
+        "OR\u2020"
+      ],
+      "value": "1.36"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cognition at 7",
+        "(95% CI)"
+      ],
+      "value": "(1.29 to 1.42)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cognition at 9",
+        "OR\u2020"
+      ],
+      "value": "1.43"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cognition at 9",
+        "(95% CI)"
+      ],
+      "value": "(1.36 to 1.51)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cognition at 11",
+        "OR\u2020"
+      ],
+      "value": "1.50"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cognition at 11",
+        "(95% CI)"
+      ],
+      "value": "(1.42 to 1.58)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Sex, All early life factors\u2021"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cognition at 7",
+        "OR\u2020"
+      ],
+      "value": "1.29"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cognition at 7",
+        "(95% CI)"
+      ],
+      "value": "(1.22 to 1.36)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cognition at 9",
+        "OR\u2020"
+      ],
+      "value": "1.37"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cognition at 9",
+        "(95% CI)"
+      ],
+      "value": "(1.30 to 1.45)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cognition at 11",
+        "OR\u2020"
+      ],
+      "value": "1.43"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cognition at 11",
+        "(95% CI)"
+      ],
+      "value": "(1.36 to 1.52)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Sex, Cognition at 7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cognition at 7",
+        "(95% CI)"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cognition at 9",
+        "OR\u2020"
+      ],
+      "value": "1.36"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cognition at 9",
+        "(95% CI)"
+      ],
+      "value": "(1.27 to 1.46)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cognition at 11",
+        "OR\u2020"
+      ],
+      "value": "1.46"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cognition at 11",
+        "(95% CI)"
+      ],
+      "value": "(1.37 to 1.57)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Sex, Cognition at 9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cognition at 7",
+        "OR\u2020"
+      ],
+      "value": "1.14"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cognition at 7",
+        "(95% CI)"
+      ],
+      "value": "(1.06 to 1.22)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cognition at 9",
+        "(95% CI)"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cognition at 11",
+        "OR\u2020"
+      ],
+      "value": "1.44"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cognition at 11",
+        "(95% CI)"
+      ],
+      "value": "(1.30 to 1.59)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Sex, Cognition at 11"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cognition at 7",
+        "OR\u2020"
+      ],
+      "value": "1.08"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cognition at 7",
+        "(95% CI)"
+      ],
+      "value": "(1.01 to 1.15)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cognition at 9",
+        "OR\u2020"
+      ],
+      "value": "1.09"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cognition at 9",
+        "(95% CI)"
+      ],
+      "value": "(0.98 to 1.20)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cognition at 11",
+        "(95% CI)"
+      ],
+      "value": "-"
+    }
+  ]
+}

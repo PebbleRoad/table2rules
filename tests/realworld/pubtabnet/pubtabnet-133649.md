@@ -1,0 +1,281 @@
+<!-- source: PubTabNet imgid=133649 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+</td>
+<td>
+<b>
+       Decompressed
+      </b>
+</td>
+<td>
+</td>
+<td>
+<b>
+       Repeated
+      </b>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<b>
+       Raw
+      </b>
+</td>
+<td>
+<b>
+       %
+      </b>
+</td>
+<td>
+<b>
+       Raw
+      </b>
+</td>
+<td>
+<b>
+       %
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      Number Enrolled 88-00
+     </td>
+<td>
+      63
+     </td>
+<td>
+</td>
+<td>
+      44
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Number Graduated
+     </td>
+<td>
+      37
+     </td>
+<td>
+      58.7
+     </td>
+<td>
+      12
+     </td>
+<td>
+      27.2
+     </td>
+</tr>
+<tr>
+<td>
+      For those who completed:
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Five Years to Graduate
+     </td>
+<td>
+      29
+     </td>
+<td>
+      46
+     </td>
+<td>
+      8
+     </td>
+<td>
+      18
+     </td>
+</tr>
+<tr>
+<td>
+      Six Years to Graduate
+     </td>
+<td>
+      4
+     </td>
+<td>
+      6
+     </td>
+<td>
+      3
+     </td>
+<td>
+      7
+     </td>
+</tr>
+<tr>
+<td>
+      Seven Years to Graduate
+     </td>
+<td>
+      3
+     </td>
+<td>
+      5
+     </td>
+<td>
+      0
+     </td>
+<td>
+      0
+     </td>
+</tr>
+<tr>
+<td>
+      Eight Years to Graduate
+     </td>
+<td>
+      1
+     </td>
+<td>
+      2
+     </td>
+<td>
+      0
+     </td>
+<td>
+      0
+     </td>
+</tr>
+<tr>
+<td>
+      Twelve Years to Graduate
+     </td>
+<td>
+      0
+     </td>
+<td>
+      0
+     </td>
+<td>
+      1
+     </td>
+<td>
+      2
+     </td>
+</tr>
+<tr>
+<td>
+      1 Attempt to Pass Step 1
+     </td>
+<td>
+      29
+     </td>
+<td>
+      46
+     </td>
+<td>
+      7
+     </td>
+<td>
+      15.9
+     </td>
+</tr>
+<tr>
+<td>
+      2 Attempts to Pass Step 1
+     </td>
+<td>
+      7
+     </td>
+<td>
+      11
+     </td>
+<td>
+      1
+     </td>
+<td>
+      2
+     </td>
+</tr>
+<tr>
+<td>
+      3 Attempts to Pass Step 1
+     </td>
+<td>
+      1
+     </td>
+<td>
+      2
+     </td>
+<td>
+      4
+     </td>
+<td>
+      9
+     </td>
+</tr>
+<tr>
+<td>
+      1 Attempt to Pass Step 2
+     </td>
+<td>
+      32
+     </td>
+<td>
+      50.8
+     </td>
+<td>
+      9
+     </td>
+<td>
+      20.5
+     </td>
+</tr>
+<tr>
+<td>
+      2 Attempts to Pass Step 2
+     </td>
+<td>
+      3
+     </td>
+<td>
+      4.8
+     </td>
+<td>
+      2
+     </td>
+<td>
+      4.5
+     </td>
+</tr>
+<tr>
+<td>
+      3 Attempts to Pass Step 2
+     </td>
+<td>
+      2
+     </td>
+<td>
+      3
+     </td>
+<td>
+      1
+     </td>
+<td>
+      2.3
+     </td>
+</tr>
+</tbody>
+</table>

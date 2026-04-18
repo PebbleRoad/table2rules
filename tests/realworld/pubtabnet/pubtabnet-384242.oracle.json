@@ -1,0 +1,809 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "1",
+    "10",
+    "11",
+    "12",
+    "14",
+    "16",
+    "2",
+    "27",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "ANA+, Ro+",
+    "ANA+, dsDNA+",
+    "ANA+, dsDNA+ limit value",
+    "ANA+, dsDNA+, ACL+, CPK, lymphopenia",
+    "ANA+, dsDNA+, ACL+, leucopenia, thrombopenia, CPK,",
+    "ANA+, dsDNA+, ACL+, leucopenia, thrombopenia, ENA+",
+    "ANA+, dsDNA+, ACL+, low C4, ENA+",
+    "ANA+, dsDNA+, CPK, ENA+, ACL+, low C4, histone+, leucopenia, lymphopenia, Coombs test+",
+    "ANA+, dsDNA+, ENA+,",
+    "ANA+, dsDNA+, ENA+, CPK",
+    "ANA+, dsDNA+, histone +",
+    "ANA+, dsDNA+, leucopenia, ACL+, thrombopenia",
+    "ANA+, dsDNA+, thrombopenia, leucopenia",
+    "Autoantibody",
+    "Before anti-TNF alpha treatment",
+    "Biological signs of lupus",
+    "Clinical signs of lupus",
+    "Clinical signs of lupus a",
+    "Disease",
+    "Duration of treatment (months)",
+    "During onset of symptoms",
+    "ETA",
+    "General, Skin, arthritis",
+    "General, serositis, myositis",
+    "General, skin",
+    "General, skin (2), myositis",
+    "General, skin (3), arthritis",
+    "General, skin (3), arthritis, myositis",
+    "General, skin, arthritis",
+    "General, skin, neurological",
+    "General, skin, serositis, lung",
+    "INF",
+    "None",
+    "Patient",
+    "Phlebitis, skin",
+    "Psoriatic arthritis",
+    "RA, RF+",
+    "RA, RF+, erosive",
+    "RA, RF-, erosive",
+    "Skin (3), myositis, arthritis, pericarditis",
+    "Skin, myalgias, arthritis",
+    "Treatment"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Patient"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Before anti-TNF alpha treatment",
+        "Disease"
+      ],
+      "value": "RA, RF+, erosive"
+    },
+    {
+      "row": [],
+      "col": [
+        "Before anti-TNF alpha treatment",
+        "Autoantibody"
+      ],
+      "value": "None"
+    },
+    {
+      "row": [],
+      "col": [
+        "Before anti-TNF alpha treatment",
+        "Clinical signs of lupus"
+      ],
+      "value": "None"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treatment"
+      ],
+      "value": "INF"
+    },
+    {
+      "row": [],
+      "col": [
+        "During onset of symptoms",
+        "Duration of treatment (months)"
+      ],
+      "value": "27"
+    },
+    {
+      "row": [],
+      "col": [
+        "During onset of symptoms",
+        "Clinical signs of lupus a"
+      ],
+      "value": "General, skin, serositis, lung"
+    },
+    {
+      "row": [],
+      "col": [
+        "During onset of symptoms",
+        "Biological signs of lupus"
+      ],
+      "value": "ANA+, dsDNA+, ACL+, leucopenia, thrombopenia, ENA+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Before anti-TNF alpha treatment",
+        "Disease"
+      ],
+      "value": "RA, RF+, erosive"
+    },
+    {
+      "row": [],
+      "col": [
+        "Before anti-TNF alpha treatment",
+        "Autoantibody"
+      ],
+      "value": "ANA+, Ro+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Before anti-TNF alpha treatment",
+        "Clinical signs of lupus"
+      ],
+      "value": "None"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treatment"
+      ],
+      "value": "INF"
+    },
+    {
+      "row": [],
+      "col": [
+        "During onset of symptoms",
+        "Duration of treatment (months)"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "During onset of symptoms",
+        "Clinical signs of lupus a"
+      ],
+      "value": "General, skin (3), arthritis"
+    },
+    {
+      "row": [],
+      "col": [
+        "During onset of symptoms",
+        "Biological signs of lupus"
+      ],
+      "value": "ANA+, dsDNA+, histone +"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Before anti-TNF alpha treatment",
+        "Disease"
+      ],
+      "value": "RA, RF+, erosive"
+    },
+    {
+      "row": [],
+      "col": [
+        "Before anti-TNF alpha treatment",
+        "Autoantibody"
+      ],
+      "value": "ANA+, Ro+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Before anti-TNF alpha treatment",
+        "Clinical signs of lupus"
+      ],
+      "value": "None"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treatment"
+      ],
+      "value": "INF"
+    },
+    {
+      "row": [],
+      "col": [
+        "During onset of symptoms",
+        "Duration of treatment (months)"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "During onset of symptoms",
+        "Clinical signs of lupus a"
+      ],
+      "value": "Skin, myalgias, arthritis"
+    },
+    {
+      "row": [],
+      "col": [
+        "During onset of symptoms",
+        "Biological signs of lupus"
+      ],
+      "value": "ANA+, dsDNA+, ENA+,"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Before anti-TNF alpha treatment",
+        "Disease"
+      ],
+      "value": "RA, RF-, erosive"
+    },
+    {
+      "row": [],
+      "col": [
+        "Before anti-TNF alpha treatment",
+        "Autoantibody"
+      ],
+      "value": "None"
+    },
+    {
+      "row": [],
+      "col": [
+        "Before anti-TNF alpha treatment",
+        "Clinical signs of lupus"
+      ],
+      "value": "None"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treatment"
+      ],
+      "value": "ETA"
+    },
+    {
+      "row": [],
+      "col": [
+        "During onset of symptoms",
+        "Duration of treatment (months)"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "During onset of symptoms",
+        "Clinical signs of lupus a"
+      ],
+      "value": "General, skin (2), myositis"
+    },
+    {
+      "row": [],
+      "col": [
+        "During onset of symptoms",
+        "Biological signs of lupus"
+      ],
+      "value": "ANA+, dsDNA+, ACL+, low C4, ENA+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient"
+      ],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Before anti-TNF alpha treatment",
+        "Disease"
+      ],
+      "value": "RA, RF+, erosive"
+    },
+    {
+      "row": [],
+      "col": [
+        "Before anti-TNF alpha treatment",
+        "Autoantibody"
+      ],
+      "value": "None"
+    },
+    {
+      "row": [],
+      "col": [
+        "Before anti-TNF alpha treatment",
+        "Clinical signs of lupus"
+      ],
+      "value": "None"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treatment"
+      ],
+      "value": "INF"
+    },
+    {
+      "row": [],
+      "col": [
+        "During onset of symptoms",
+        "Duration of treatment (months)"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "During onset of symptoms",
+        "Clinical signs of lupus a"
+      ],
+      "value": "Skin (3), myositis, arthritis, pericarditis"
+    },
+    {
+      "row": [],
+      "col": [
+        "During onset of symptoms",
+        "Biological signs of lupus"
+      ],
+      "value": "ANA+, dsDNA+, ACL+, CPK, lymphopenia"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient"
+      ],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Before anti-TNF alpha treatment",
+        "Disease"
+      ],
+      "value": "RA, RF+, erosive"
+    },
+    {
+      "row": [],
+      "col": [
+        "Before anti-TNF alpha treatment",
+        "Autoantibody"
+      ],
+      "value": "ANA+, dsDNA+ limit value"
+    },
+    {
+      "row": [],
+      "col": [
+        "Before anti-TNF alpha treatment",
+        "Clinical signs of lupus"
+      ],
+      "value": "None"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treatment"
+      ],
+      "value": "ETA"
+    },
+    {
+      "row": [],
+      "col": [
+        "During onset of symptoms",
+        "Duration of treatment (months)"
+      ],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [
+        "During onset of symptoms",
+        "Clinical signs of lupus a"
+      ],
+      "value": "General, skin"
+    },
+    {
+      "row": [],
+      "col": [
+        "During onset of symptoms",
+        "Biological signs of lupus"
+      ],
+      "value": "ANA+, dsDNA+, thrombopenia, leucopenia"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient"
+      ],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Before anti-TNF alpha treatment",
+        "Disease"
+      ],
+      "value": "RA, RF+, erosive"
+    },
+    {
+      "row": [],
+      "col": [
+        "Before anti-TNF alpha treatment",
+        "Autoantibody"
+      ],
+      "value": "None"
+    },
+    {
+      "row": [],
+      "col": [
+        "Before anti-TNF alpha treatment",
+        "Clinical signs of lupus"
+      ],
+      "value": "None"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treatment"
+      ],
+      "value": "INF"
+    },
+    {
+      "row": [],
+      "col": [
+        "During onset of symptoms",
+        "Duration of treatment (months)"
+      ],
+      "value": "10"
+    },
+    {
+      "row": [],
+      "col": [
+        "During onset of symptoms",
+        "Clinical signs of lupus a"
+      ],
+      "value": "General, serositis, myositis"
+    },
+    {
+      "row": [],
+      "col": [
+        "During onset of symptoms",
+        "Biological signs of lupus"
+      ],
+      "value": "ANA+, dsDNA+, ACL+, leucopenia, thrombopenia, CPK,"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient"
+      ],
+      "value": "8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Before anti-TNF alpha treatment",
+        "Disease"
+      ],
+      "value": "RA, RF+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Before anti-TNF alpha treatment",
+        "Autoantibody"
+      ],
+      "value": "None"
+    },
+    {
+      "row": [],
+      "col": [
+        "Before anti-TNF alpha treatment",
+        "Clinical signs of lupus"
+      ],
+      "value": "None"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treatment"
+      ],
+      "value": "ETA"
+    },
+    {
+      "row": [],
+      "col": [
+        "During onset of symptoms",
+        "Duration of treatment (months)"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "During onset of symptoms",
+        "Clinical signs of lupus a"
+      ],
+      "value": "Phlebitis, skin"
+    },
+    {
+      "row": [],
+      "col": [
+        "During onset of symptoms",
+        "Biological signs of lupus"
+      ],
+      "value": "ANA+, dsDNA+, leucopenia, ACL+, thrombopenia"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient"
+      ],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Before anti-TNF alpha treatment",
+        "Disease"
+      ],
+      "value": "Psoriatic arthritis"
+    },
+    {
+      "row": [],
+      "col": [
+        "Before anti-TNF alpha treatment",
+        "Autoantibody"
+      ],
+      "value": "None"
+    },
+    {
+      "row": [],
+      "col": [
+        "Before anti-TNF alpha treatment",
+        "Clinical signs of lupus"
+      ],
+      "value": "None"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treatment"
+      ],
+      "value": "INF"
+    },
+    {
+      "row": [],
+      "col": [
+        "During onset of symptoms",
+        "Duration of treatment (months)"
+      ],
+      "value": "14"
+    },
+    {
+      "row": [],
+      "col": [
+        "During onset of symptoms",
+        "Clinical signs of lupus a"
+      ],
+      "value": "General, skin, neurological"
+    },
+    {
+      "row": [],
+      "col": [
+        "During onset of symptoms",
+        "Biological signs of lupus"
+      ],
+      "value": "ANA+, dsDNA+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient"
+      ],
+      "value": "10"
+    },
+    {
+      "row": [],
+      "col": [
+        "Before anti-TNF alpha treatment",
+        "Disease"
+      ],
+      "value": "RA, RF+, erosive"
+    },
+    {
+      "row": [],
+      "col": [
+        "Before anti-TNF alpha treatment",
+        "Autoantibody"
+      ],
+      "value": "None"
+    },
+    {
+      "row": [],
+      "col": [
+        "Before anti-TNF alpha treatment",
+        "Clinical signs of lupus"
+      ],
+      "value": "None"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treatment"
+      ],
+      "value": "INF"
+    },
+    {
+      "row": [],
+      "col": [
+        "During onset of symptoms",
+        "Duration of treatment (months)"
+      ],
+      "value": "16"
+    },
+    {
+      "row": [],
+      "col": [
+        "During onset of symptoms",
+        "Clinical signs of lupus a"
+      ],
+      "value": "General, Skin, arthritis"
+    },
+    {
+      "row": [],
+      "col": [
+        "During onset of symptoms",
+        "Biological signs of lupus"
+      ],
+      "value": "ANA+, dsDNA+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient"
+      ],
+      "value": "11"
+    },
+    {
+      "row": [],
+      "col": [
+        "Before anti-TNF alpha treatment",
+        "Disease"
+      ],
+      "value": "RA, RF+, erosive"
+    },
+    {
+      "row": [],
+      "col": [
+        "Before anti-TNF alpha treatment",
+        "Autoantibody"
+      ],
+      "value": "None"
+    },
+    {
+      "row": [],
+      "col": [
+        "Before anti-TNF alpha treatment",
+        "Clinical signs of lupus"
+      ],
+      "value": "None"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treatment"
+      ],
+      "value": "INF"
+    },
+    {
+      "row": [],
+      "col": [
+        "During onset of symptoms",
+        "Duration of treatment (months)"
+      ],
+      "value": "12"
+    },
+    {
+      "row": [],
+      "col": [
+        "During onset of symptoms",
+        "Clinical signs of lupus a"
+      ],
+      "value": "General, skin (3), arthritis, myositis"
+    },
+    {
+      "row": [],
+      "col": [
+        "During onset of symptoms",
+        "Biological signs of lupus"
+      ],
+      "value": "ANA+, dsDNA+, ENA+, CPK"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient"
+      ],
+      "value": "12"
+    },
+    {
+      "row": [],
+      "col": [
+        "Before anti-TNF alpha treatment",
+        "Disease"
+      ],
+      "value": "RA, RF+, erosive"
+    },
+    {
+      "row": [],
+      "col": [
+        "Before anti-TNF alpha treatment",
+        "Autoantibody"
+      ],
+      "value": "None"
+    },
+    {
+      "row": [],
+      "col": [
+        "Before anti-TNF alpha treatment",
+        "Clinical signs of lupus"
+      ],
+      "value": "None"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treatment"
+      ],
+      "value": "INF"
+    },
+    {
+      "row": [],
+      "col": [
+        "During onset of symptoms",
+        "Duration of treatment (months)"
+      ],
+      "value": "10"
+    },
+    {
+      "row": [],
+      "col": [
+        "During onset of symptoms",
+        "Clinical signs of lupus a"
+      ],
+      "value": "General, skin, arthritis"
+    },
+    {
+      "row": [],
+      "col": [
+        "During onset of symptoms",
+        "Biological signs of lupus"
+      ],
+      "value": "ANA+, dsDNA+, CPK, ENA+, ACL+, low C4, histone+, leucopenia, lymphopenia, Coombs test+"
+    }
+  ]
+}

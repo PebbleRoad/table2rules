@@ -1,0 +1,323 @@
+<!-- source: PubTabNet imgid=341130 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+</td>
+<td colspan="2">
+<b>
+       PKCa
+      </b>
+</td>
+<td colspan="2">
+<b>
+       PKCb
+      </b>
+</td>
+<td colspan="2">
+<b>
+       PKCd
+      </b>
+</td>
+<td colspan="2">
+<b>
+       PKCe
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+</td>
+<td>
+<b>
+       SSS
+      </b>
+</td>
+<td>
+<b>
+       GAP
+      </b>
+</td>
+<td>
+<b>
+       SSS
+      </b>
+</td>
+<td>
+<b>
+       GAP
+      </b>
+</td>
+<td>
+<b>
+       SSS
+      </b>
+</td>
+<td>
+<b>
+       GAP
+      </b>
+</td>
+<td>
+<b>
+       SSS
+      </b>
+</td>
+<td>
+<b>
+       GAP
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+<b>
+       PKCa
+      </b>
+</td>
+<td>
+      0.000
+     </td>
+<td>
+      100
+     </td>
+<td>
+      0.4678
+     </td>
+<td>
+      85.949
+     </td>
+<td>
+      0.7238
+     </td>
+<td>
+      61.835
+     </td>
+<td>
+      0.7391
+     </td>
+<td>
+      63.851
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       PKCb
+      </b>
+</td>
+<td>
+      0.4678
+     </td>
+<td>
+      85.949
+     </td>
+<td>
+      0.000
+     </td>
+<td>
+      100
+     </td>
+<td>
+      0.7254
+     </td>
+<td>
+      61.029
+     </td>
+<td>
+      0.6904
+     </td>
+<td>
+      62.944
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       PKCd
+      </b>
+</td>
+<td>
+      0.7238
+     </td>
+<td>
+      61.835
+     </td>
+<td>
+      0.7254
+     </td>
+<td>
+      61.029
+     </td>
+<td>
+      0.000
+     </td>
+<td>
+      100
+     </td>
+<td>
+      0.7149
+     </td>
+<td>
+      55.472
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       PKCe
+      </b>
+</td>
+<td>
+      0.7391
+     </td>
+<td>
+      63.851
+     </td>
+<td>
+      0.6904
+     </td>
+<td>
+      62.944
+     </td>
+<td>
+      0.7149
+     </td>
+<td>
+      55.472
+     </td>
+<td>
+      0.000
+     </td>
+<td>
+      100
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       PKCg
+      </b>
+</td>
+<td>
+      0.5137
+     </td>
+<td>
+      81.081
+     </td>
+<td>
+      0.5951
+     </td>
+<td>
+      79.464
+     </td>
+<td>
+      0.7348
+     </td>
+<td>
+      60.589
+     </td>
+<td>
+      0.7550
+     </td>
+<td>
+      61.695
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       PKCh
+      </b>
+</td>
+<td>
+      0.7160
+     </td>
+<td>
+      64.794
+     </td>
+<td>
+      0.7371
+     </td>
+<td>
+      -
+     </td>
+<td>
+      0.7371
+     </td>
+<td>
+      53.506
+     </td>
+<td>
+      0.6146
+     </td>
+<td>
+      76.035
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       PKCi
+      </b>
+</td>
+<td>
+      0.7498
+     </td>
+<td>
+      52.072
+     </td>
+<td>
+      0.7568
+     </td>
+<td>
+      50.357
+     </td>
+<td>
+      0.7338
+     </td>
+<td>
+      45.098
+     </td>
+<td>
+      0.7599
+     </td>
+<td>
+      52.909
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       PKCt
+      </b>
+</td>
+<td>
+      0.7113
+     </td>
+<td>
+      61.847
+     </td>
+<td>
+      0.7474
+     </td>
+<td>
+      59.370
+     </td>
+<td>
+      0.6068
+     </td>
+<td>
+      73.333
+     </td>
+<td>
+      0.7451
+     </td>
+<td>
+      55.043
+     </td>
+</tr>
+</tbody>
+</table>

@@ -1,0 +1,879 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "% of Total",
+    "1",
+    "10",
+    "10.7",
+    "10213",
+    "108601",
+    "112898",
+    "12.0",
+    "12183",
+    "13275",
+    "13507",
+    "14141",
+    "14692",
+    "15.4",
+    "15770",
+    "19414",
+    "2",
+    "2.4",
+    "2.5",
+    "2.7",
+    "2.8",
+    "20.0",
+    "21949",
+    "21987",
+    "22.4",
+    "23.4",
+    "26.5",
+    "26162",
+    "28038",
+    "29.5",
+    "3",
+    "3.4",
+    "3.7",
+    "31.5",
+    "32.3",
+    "32115",
+    "32921",
+    "34304",
+    "34317",
+    "35.1",
+    "36.1",
+    "36450",
+    "36520",
+    "37.7",
+    "38426",
+    "38523",
+    "39.9",
+    "4",
+    "40.1",
+    "41595",
+    "43.9",
+    "46699",
+    "47.5",
+    "5",
+    "50.5",
+    "50810",
+    "53.4",
+    "55.6",
+    "6",
+    "6.7",
+    "7",
+    "7.2",
+    "8",
+    "8.2",
+    "82681",
+    "9",
+    "92313",
+    "94434",
+    "99633",
+    "Alcohol use",
+    "Bipolar dis.",
+    "COPD 1",
+    "Cerebrovas. Dis.",
+    "Cerebrovas. dis.",
+    "Congenital anom",
+    "Congenital anom.",
+    "Cumulative %",
+    "Cumulative%",
+    "DALYs (000s)",
+    "Depression",
+    "Diarrhoeal dis.",
+    "Disability",
+    "Disease Burden",
+    "Disease/ injury",
+    "Disease/injury",
+    "Falls",
+    "Iron def. anaem.",
+    "Isch. heart dis.",
+    "Lower res. inf.",
+    "Malaria",
+    "Measles",
+    "Obs.-comp dis 2",
+    "Osteoarthritis",
+    "Perinatal cond.",
+    "Premature Mortality",
+    "Rank",
+    "Road traffic acc.",
+    "Schizophrenia",
+    "Tuberculosis",
+    "YLDs (000s)",
+    "YLLs (000s)"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Premature Mortality"
+      ],
+      "value": "Rank"
+    },
+    {
+      "row": [],
+      "col": [
+        "Premature Mortality"
+      ],
+      "value": "Disease/ injury"
+    },
+    {
+      "row": [],
+      "col": [
+        "Premature Mortality"
+      ],
+      "value": "YLLs (000s)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Premature Mortality"
+      ],
+      "value": "Cumulative %"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disability"
+      ],
+      "value": "Disease/injury"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disability"
+      ],
+      "value": "YLDs (000s)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disability"
+      ],
+      "value": "Cumulative%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease Burden"
+      ],
+      "value": "Disease/injury"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease Burden"
+      ],
+      "value": "DALYs (000s)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease Burden"
+      ],
+      "value": "% of Total"
+    },
+    {
+      "row": [],
+      "col": [
+        "Premature Mortality"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Premature Mortality"
+      ],
+      "value": "Lower res. inf."
+    },
+    {
+      "row": [],
+      "col": [
+        "Premature Mortality"
+      ],
+      "value": "108601"
+    },
+    {
+      "row": [],
+      "col": [
+        "Premature Mortality"
+      ],
+      "value": "12.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disability"
+      ],
+      "value": "Depression"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disability"
+      ],
+      "value": "50810"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disability"
+      ],
+      "value": "10.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease Burden"
+      ],
+      "value": "Lower res. inf."
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease Burden"
+      ],
+      "value": "112898"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease Burden"
+      ],
+      "value": "8.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Premature Mortality"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Premature Mortality"
+      ],
+      "value": "Diarrhoeal dis."
+    },
+    {
+      "row": [],
+      "col": [
+        "Premature Mortality"
+      ],
+      "value": "94434"
+    },
+    {
+      "row": [],
+      "col": [
+        "Premature Mortality"
+      ],
+      "value": "22.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disability"
+      ],
+      "value": "Iron def. anaem."
+    },
+    {
+      "row": [],
+      "col": [
+        "Disability"
+      ],
+      "value": "21987"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disability"
+      ],
+      "value": "15.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease Burden"
+      ],
+      "value": "Diarrhoeal dis."
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease Burden"
+      ],
+      "value": "99633"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease Burden"
+      ],
+      "value": "7.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Premature Mortality"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Premature Mortality"
+      ],
+      "value": "Perinatal cond."
+    },
+    {
+      "row": [],
+      "col": [
+        "Premature Mortality"
+      ],
+      "value": "82681"
+    },
+    {
+      "row": [],
+      "col": [
+        "Premature Mortality"
+      ],
+      "value": "31.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disability"
+      ],
+      "value": "Falls"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disability"
+      ],
+      "value": "21949"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disability"
+      ],
+      "value": "20.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease Burden"
+      ],
+      "value": "Perinatal cond."
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease Burden"
+      ],
+      "value": "92313"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease Burden"
+      ],
+      "value": "6.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Premature Mortality"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Premature Mortality"
+      ],
+      "value": "Isch. heart dis."
+    },
+    {
+      "row": [],
+      "col": [
+        "Premature Mortality"
+      ],
+      "value": "41595"
+    },
+    {
+      "row": [],
+      "col": [
+        "Premature Mortality"
+      ],
+      "value": "36.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disability"
+      ],
+      "value": "Alcohol use"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disability"
+      ],
+      "value": "15770"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disability"
+      ],
+      "value": "23.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease Burden"
+      ],
+      "value": "Depression"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease Burden"
+      ],
+      "value": "50810"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease Burden"
+      ],
+      "value": "3.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Premature Mortality"
+      ],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Premature Mortality"
+      ],
+      "value": "Measles"
+    },
+    {
+      "row": [],
+      "col": [
+        "Premature Mortality"
+      ],
+      "value": "36450"
+    },
+    {
+      "row": [],
+      "col": [
+        "Premature Mortality"
+      ],
+      "value": "40.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disability"
+      ],
+      "value": "COPD 1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disability"
+      ],
+      "value": "14692"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disability"
+      ],
+      "value": "26.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease Burden"
+      ],
+      "value": "Isch. heart dis."
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease Burden"
+      ],
+      "value": "46699"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease Burden"
+      ],
+      "value": "3.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Premature Mortality"
+      ],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Premature Mortality"
+      ],
+      "value": "Tuberculosis"
+    },
+    {
+      "row": [],
+      "col": [
+        "Premature Mortality"
+      ],
+      "value": "34304"
+    },
+    {
+      "row": [],
+      "col": [
+        "Premature Mortality"
+      ],
+      "value": "43.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disability"
+      ],
+      "value": "Bipolar dis."
+    },
+    {
+      "row": [],
+      "col": [
+        "Disability"
+      ],
+      "value": "14141"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disability"
+      ],
+      "value": "29.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease Burden"
+      ],
+      "value": "Cerebrovas. dis."
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease Burden"
+      ],
+      "value": "38523"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease Burden"
+      ],
+      "value": "2.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Premature Mortality"
+      ],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Premature Mortality"
+      ],
+      "value": "Cerebrovas. Dis."
+    },
+    {
+      "row": [],
+      "col": [
+        "Premature Mortality"
+      ],
+      "value": "32115"
+    },
+    {
+      "row": [],
+      "col": [
+        "Premature Mortality"
+      ],
+      "value": "47.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disability"
+      ],
+      "value": "Congenital anom"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disability"
+      ],
+      "value": "13507"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disability"
+      ],
+      "value": "32.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease Burden"
+      ],
+      "value": "Tuberculosis"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease Burden"
+      ],
+      "value": "38426"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease Burden"
+      ],
+      "value": "2.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Premature Mortality"
+      ],
+      "value": "8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Premature Mortality"
+      ],
+      "value": "Malaria"
+    },
+    {
+      "row": [],
+      "col": [
+        "Premature Mortality"
+      ],
+      "value": "28038"
+    },
+    {
+      "row": [],
+      "col": [
+        "Premature Mortality"
+      ],
+      "value": "50.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disability"
+      ],
+      "value": "Osteoarthritis"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disability"
+      ],
+      "value": "13275"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disability"
+      ],
+      "value": "35.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease Burden"
+      ],
+      "value": "Measles"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease Burden"
+      ],
+      "value": "36520"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease Burden"
+      ],
+      "value": "2.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Premature Mortality"
+      ],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Premature Mortality"
+      ],
+      "value": "Road traffic acc."
+    },
+    {
+      "row": [],
+      "col": [
+        "Premature Mortality"
+      ],
+      "value": "26162"
+    },
+    {
+      "row": [],
+      "col": [
+        "Premature Mortality"
+      ],
+      "value": "53.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disability"
+      ],
+      "value": "Schizophrenia"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disability"
+      ],
+      "value": "12183"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disability"
+      ],
+      "value": "37.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease Burden"
+      ],
+      "value": "Road traffic acc."
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease Burden"
+      ],
+      "value": "34317"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease Burden"
+      ],
+      "value": "2.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Premature Mortality"
+      ],
+      "value": "10"
+    },
+    {
+      "row": [],
+      "col": [
+        "Premature Mortality"
+      ],
+      "value": "Congenital anom."
+    },
+    {
+      "row": [],
+      "col": [
+        "Premature Mortality"
+      ],
+      "value": "19414"
+    },
+    {
+      "row": [],
+      "col": [
+        "Premature Mortality"
+      ],
+      "value": "55.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disability"
+      ],
+      "value": "Obs.-comp dis 2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disability"
+      ],
+      "value": "10213"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disability"
+      ],
+      "value": "39.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease Burden"
+      ],
+      "value": "Congenital anom."
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease Burden"
+      ],
+      "value": "32921"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease Burden"
+      ],
+      "value": "2.4"
+    }
+  ]
+}

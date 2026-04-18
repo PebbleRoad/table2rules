@@ -1,0 +1,533 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "9",
+    "Abdominal pain",
+    "Anorexia",
+    "Asymptomatic",
+    "Chills",
+    "Cough",
+    "Definite/probable (N = 11)",
+    "Definite/probable (N = 9)",
+    "Dyspnea",
+    "Fever",
+    "Hemoptysis",
+    "Hepatic",
+    "Jaundice",
+    "Malaise",
+    "Night sweats",
+    "Pleuritic chest pain",
+    "Possible (N = 16)",
+    "Possible (N = 2)",
+    "Pulmonary",
+    "Symptom",
+    "Vomiting",
+    "Weight loss"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Symptom"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pulmonary"
+      ],
+      "value": "Definite/probable (N = 9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pulmonary"
+      ],
+      "value": "Possible (N = 2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hepatic"
+      ],
+      "value": "Definite/probable (N = 11)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hepatic"
+      ],
+      "value": "Possible (N = 16)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Asymptomatic"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pulmonary"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pulmonary"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hepatic"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hepatic"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Weight loss"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pulmonary"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pulmonary"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hepatic"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hepatic"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Pleuritic chest pain"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pulmonary"
+      ],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pulmonary"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hepatic"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hepatic"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Cough"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pulmonary"
+      ],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pulmonary"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hepatic"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hepatic"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Hemoptysis"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pulmonary"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pulmonary"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hepatic"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hepatic"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Dyspnea"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pulmonary"
+      ],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pulmonary"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hepatic"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hepatic"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Abdominal pain"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pulmonary"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pulmonary"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hepatic"
+      ],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hepatic"
+      ],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Fever"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pulmonary"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pulmonary"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hepatic"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hepatic"
+      ],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Night sweats"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pulmonary"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pulmonary"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hepatic"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hepatic"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Anorexia"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pulmonary"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pulmonary"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hepatic"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hepatic"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Malaise"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pulmonary"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pulmonary"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hepatic"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hepatic"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Jaundice"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pulmonary"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pulmonary"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hepatic"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hepatic"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Chills"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pulmonary"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pulmonary"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hepatic"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hepatic"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Vomiting"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pulmonary"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pulmonary"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hepatic"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hepatic"
+      ],
+      "value": "4"
+    }
+  ]
+}

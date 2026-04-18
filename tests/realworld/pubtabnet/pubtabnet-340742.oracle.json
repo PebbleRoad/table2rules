@@ -1,0 +1,373 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "(% = 11)",
+    "(% = 19)",
+    "(% = 28)",
+    "(% = 34)",
+    "(% = 66)",
+    "(% = 8)",
+    "(n = 1312)",
+    "(n = 163)",
+    "(n = 225)",
+    "(n = 371)",
+    "(n = 553)",
+    "(n = 688)",
+    "51",
+    "53",
+    "53*",
+    "54",
+    "56***",
+    "58",
+    "60",
+    "61",
+    "62",
+    "63",
+    "64",
+    "65",
+    "67",
+    "68",
+    "70",
+    "72",
+    "73",
+    "76 3)",
+    "78",
+    "85 4)",
+    "87",
+    "89",
+    "92",
+    "All respondents",
+    "Do not know",
+    "Given birth, %",
+    "In employment, %",
+    "Interested",
+    "Lives in the capital, %",
+    "Married or cohabiting, %",
+    "Median age, years 2)",
+    "No reply",
+    "Non-interested",
+    "Want more information",
+    "\u2265 12 years of education, %"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Median age, years 2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Interested",
+        "(n = 225)",
+        "(% = 11)"
+      ],
+      "value": "51"
+    },
+    {
+      "row": [],
+      "col": [
+        "Want more information",
+        "(n = 163)",
+        "(% = 8)"
+      ],
+      "value": "53"
+    },
+    {
+      "row": [],
+      "col": [
+        "Do not know",
+        "(n = 371)",
+        "(% = 19)"
+      ],
+      "value": "53*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-interested",
+        "(n = 553)",
+        "(% = 28)"
+      ],
+      "value": "56***"
+    },
+    {
+      "row": [],
+      "col": [
+        "All respondents",
+        "(n = 1312)",
+        "(% = 66)"
+      ],
+      "value": "54"
+    },
+    {
+      "row": [],
+      "col": [
+        "No reply",
+        "(n = 688)",
+        "(% = 34)"
+      ],
+      "value": "53*"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Lives in the capital, %"
+    },
+    {
+      "row": [],
+      "col": [
+        "Interested",
+        "(n = 225)",
+        "(% = 11)"
+      ],
+      "value": "68"
+    },
+    {
+      "row": [],
+      "col": [
+        "Want more information",
+        "(n = 163)",
+        "(% = 8)"
+      ],
+      "value": "64"
+    },
+    {
+      "row": [],
+      "col": [
+        "Do not know",
+        "(n = 371)",
+        "(% = 19)"
+      ],
+      "value": "67"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-interested",
+        "(n = 553)",
+        "(% = 28)"
+      ],
+      "value": "62"
+    },
+    {
+      "row": [],
+      "col": [
+        "All respondents",
+        "(n = 1312)",
+        "(% = 66)"
+      ],
+      "value": "65"
+    },
+    {
+      "row": [],
+      "col": [
+        "No reply",
+        "(n = 688)",
+        "(% = 34)"
+      ],
+      "value": "76 3)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Married or cohabiting, %"
+    },
+    {
+      "row": [],
+      "col": [
+        "Interested",
+        "(n = 225)",
+        "(% = 11)"
+      ],
+      "value": "62"
+    },
+    {
+      "row": [],
+      "col": [
+        "Want more information",
+        "(n = 163)",
+        "(% = 8)"
+      ],
+      "value": "64"
+    },
+    {
+      "row": [],
+      "col": [
+        "Do not know",
+        "(n = 371)",
+        "(% = 19)"
+      ],
+      "value": "63"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-interested",
+        "(n = 553)",
+        "(% = 28)"
+      ],
+      "value": "58"
+    },
+    {
+      "row": [],
+      "col": [
+        "All respondents",
+        "(n = 1312)",
+        "(% = 66)"
+      ],
+      "value": "61"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "\u2265 12 years of education, %"
+    },
+    {
+      "row": [],
+      "col": [
+        "Interested",
+        "(n = 225)",
+        "(% = 11)"
+      ],
+      "value": "64"
+    },
+    {
+      "row": [],
+      "col": [
+        "Want more information",
+        "(n = 163)",
+        "(% = 8)"
+      ],
+      "value": "62"
+    },
+    {
+      "row": [],
+      "col": [
+        "Do not know",
+        "(n = 371)",
+        "(% = 19)"
+      ],
+      "value": "60"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-interested",
+        "(n = 553)",
+        "(% = 28)"
+      ],
+      "value": "61"
+    },
+    {
+      "row": [],
+      "col": [
+        "All respondents",
+        "(n = 1312)",
+        "(% = 66)"
+      ],
+      "value": "61"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "In employment, %"
+    },
+    {
+      "row": [],
+      "col": [
+        "Interested",
+        "(n = 225)",
+        "(% = 11)"
+      ],
+      "value": "78"
+    },
+    {
+      "row": [],
+      "col": [
+        "Want more information",
+        "(n = 163)",
+        "(% = 8)"
+      ],
+      "value": "72"
+    },
+    {
+      "row": [],
+      "col": [
+        "Do not know",
+        "(n = 371)",
+        "(% = 19)"
+      ],
+      "value": "73"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-interested",
+        "(n = 553)",
+        "(% = 28)"
+      ],
+      "value": "67"
+    },
+    {
+      "row": [],
+      "col": [
+        "All respondents",
+        "(n = 1312)",
+        "(% = 66)"
+      ],
+      "value": "70"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Given birth, %"
+    },
+    {
+      "row": [],
+      "col": [
+        "Interested",
+        "(n = 225)",
+        "(% = 11)"
+      ],
+      "value": "92"
+    },
+    {
+      "row": [],
+      "col": [
+        "Want more information",
+        "(n = 163)",
+        "(% = 8)"
+      ],
+      "value": "92"
+    },
+    {
+      "row": [],
+      "col": [
+        "Do not know",
+        "(n = 371)",
+        "(% = 19)"
+      ],
+      "value": "89"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-interested",
+        "(n = 553)",
+        "(% = 28)"
+      ],
+      "value": "85 4)"
+    },
+    {
+      "row": [],
+      "col": [
+        "All respondents",
+        "(n = 1312)",
+        "(% = 66)"
+      ],
+      "value": "87"
+    }
+  ]
+}

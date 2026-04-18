@@ -1,0 +1,272 @@
+<!-- source: PubTabNet imgid=437406 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+<b>
+       Parameter
+      </b>
+</td>
+<td>
+<b>
+       Non-polysomy (%)
+      </b>
+</td>
+<td>
+<b>
+       Polysomy (%)
+      </b>
+</td>
+<td>
+<b>
+<i>
+        P
+       </i>
+</b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      HG
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      I
+     </td>
+<td>
+      15.6
+     </td>
+<td>
+      5.3
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      II
+     </td>
+<td>
+      43.8
+     </td>
+<td>
+      63.2
+     </td>
+<td>
+      0.243
+     </td>
+</tr>
+<tr>
+<td>
+      III
+     </td>
+<td>
+      40.6
+     </td>
+<td>
+      31.6
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Nodal status
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      pN-
+     </td>
+<td>
+      61.3
+     </td>
+<td>
+      35.3
+     </td>
+<td>
+      0.046
+     </td>
+</tr>
+<tr>
+<td>
+      pN+
+     </td>
+<td>
+      38.7
+     </td>
+<td>
+      64.7
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      ER
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      -
+     </td>
+<td>
+      41.7
+     </td>
+<td>
+      40.9
+     </td>
+<td>
+      0.947
+     </td>
+</tr>
+<tr>
+<td>
+      +
+     </td>
+<td>
+      58.3
+     </td>
+<td>
+      59.1
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      PgR
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      -
+     </td>
+<td>
+      60
+     </td>
+<td>
+      54.5
+     </td>
+<td>
+      0.632
+     </td>
+</tr>
+<tr>
+<td>
+      +
+     </td>
+<td>
+      40
+     </td>
+<td>
+      45.5
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      p53
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      -
+     </td>
+<td>
+      61
+     </td>
+<td>
+      63.6
+     </td>
+<td>
+      0.817
+     </td>
+</tr>
+<tr>
+<td>
+      +
+     </td>
+<td>
+      39
+     </td>
+<td>
+      36.4
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Relapse
+     </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      No
+     </td>
+<td>
+      77
+     </td>
+<td>
+      63.6
+     </td>
+<td>
+      0.181
+     </td>
+</tr>
+<tr>
+<td>
+      Yes
+     </td>
+<td>
+      23
+     </td>
+<td>
+      36.4
+     </td>
+<td>
+</td>
+</tr>
+</tbody>
+</table>

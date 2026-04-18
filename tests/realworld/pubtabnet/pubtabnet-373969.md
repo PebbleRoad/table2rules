@@ -1,0 +1,275 @@
+<!-- source: PubTabNet imgid=373969 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+</td>
+<td>
+<b>
+       1999
+      </b>
+</td>
+<td>
+<b>
+       2001
+      </b>
+</td>
+<td>
+<b>
+       2002
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<b>
+       No. of persons discharged from public hospitals in past 6 months*
+      </b>
+</td>
+<td>
+<b>
+       No. of persons discharged from public hospitals in past 6 months*
+      </b>
+</td>
+<td>
+<b>
+       No. of persons discharged from public hospitals in past 12 months*
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="4">
+<b>
+<i>
+<underline>
+         Age (years)
+        </underline>
+</i>
+</b>
+</td>
+</tr>
+<tr>
+<td>
+      Less than 5
+     </td>
+<td>
+      44.6%
+     </td>
+<td>
+      51.8%
+     </td>
+<td>
+      65.0%
+     </td>
+</tr>
+<tr>
+<td>
+      5 – 24
+     </td>
+<td>
+      36.2%
+     </td>
+<td>
+      40.9%
+     </td>
+<td>
+      38.2%
+     </td>
+</tr>
+<tr>
+<td>
+      25 – 44
+     </td>
+<td>
+      31.6%
+     </td>
+<td>
+      31.9%
+     </td>
+<td>
+      37.6%
+     </td>
+</tr>
+<tr>
+<td>
+      45 – 64
+     </td>
+<td>
+      27.3%
+     </td>
+<td>
+      28.6%
+     </td>
+<td>
+      38.0%
+     </td>
+</tr>
+<tr>
+<td>
+      65 or above
+     </td>
+<td>
+      25.7%
+     </td>
+<td>
+      32.2%
+     </td>
+<td>
+      31.7%
+     </td>
+</tr>
+<tr>
+<td colspan="4">
+<b>
+<i>
+<underline>
+         Sex
+        </underline>
+</i>
+</b>
+</td>
+</tr>
+<tr>
+<td>
+      Female
+     </td>
+<td>
+      34.7%
+     </td>
+<td>
+      36.3%
+     </td>
+<td>
+      39.4%
+     </td>
+</tr>
+<tr>
+<td>
+      Male
+     </td>
+<td>
+      26.1%
+     </td>
+<td>
+      31.4%
+     </td>
+<td>
+      36.8%
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       Overall
+      </b>
+</td>
+<td>
+<b>
+       30.7%
+      </b>
+</td>
+<td>
+<b>
+       34.1%
+      </b>
+</td>
+<td>
+<b>
+       38.2%
+      </b>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<b>
+       F-test for the overall demographic subgroups differences within each year (at significance level 0.05)
+      </b>
+<sup>
+       †
+      </sup>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<b>
+<i>
+<underline>
+         Age difference
+        </underline>
+</i>
+</b>
+</td>
+</tr>
+<tr>
+<td>
+      Including the 'less than 5' age group (p-value)
+     </td>
+<td>
+<b>
+       0.47
+      </b>
+</td>
+<td>
+<b>
+       0.18
+      </b>
+</td>
+<td>
+<b>
+       0.02
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+      Excluding the 'less than 5' age group (p-value)
+     </td>
+<td>
+<b>
+       0.53
+      </b>
+</td>
+<td>
+<b>
+       0.28
+      </b>
+</td>
+<td>
+<b>
+       0.60
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+<b>
+<i>
+<underline>
+         Sex difference
+        </underline>
+</i>
+</b>
+      (p-value)
+     </td>
+<td>
+<b>
+       0.04
+      </b>
+</td>
+<td>
+<b>
+       0.23
+      </b>
+</td>
+<td>
+<b>
+       0.10
+      </b>
+</td>
+</tr>
+</tbody>
+</table>

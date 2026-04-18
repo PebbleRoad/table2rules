@@ -1,0 +1,382 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "-- / 2.1",
+    "-- / 2.2",
+    "0.5 / 0.5",
+    "0.7/0.5",
+    "0.9/1.1",
+    "1.2 / 5.2",
+    "1.5 / 4.8",
+    "1.6 / 4.6",
+    "2.0 / 1.8",
+    "2.3 / 3.7",
+    "3.2 / 1.6",
+    "3.2 / 5.0",
+    "3.3 / 5.0",
+    "3.4 / 2.5",
+    "3.5 / 2.5",
+    "4.4 / 3.2",
+    "4.5 / 3.6",
+    "7.1 / 4.1",
+    "7.6 / 4.8",
+    "AID in GFP in human fibroblasts",
+    "AID in lacZ in vitro",
+    "AID in sacB in E.coli",
+    "D G YW / WR C H",
+    "N G YW / WR C N",
+    "Reference",
+    "SHM in J H 4 region in Ung1 -/- Msh2 -/- mouse",
+    "SHM in J H 4 region in Ung1 -/- mouse",
+    "SHM in J H 4 region in wild-type mouse",
+    "SHM in V \u03ba Ox1 in mouse",
+    "Sequence motif (mutable positions are underlined)",
+    "Spectrum",
+    "Spontaneous SUP4-o mutations in ung1 yeast strain",
+    "Spontaneous can1 mutations in the wild-type yeast",
+    "This work",
+    "[13]",
+    "[26]",
+    "[36]",
+    "[40]",
+    "[47]",
+    "[52]",
+    "[60]",
+    "[67]",
+    "hAIDSc in the CAN1 in ung1 yeast",
+    "hAIDSc in the CAN1 in wild-type yeast"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Spectrum"
+      ],
+      "value": "Spontaneous can1 mutations in the wild-type yeast"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sequence motif (mutable positions are underlined)",
+        "D G YW / WR C H"
+      ],
+      "value": "0.5 / 0.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sequence motif (mutable positions are underlined)",
+        "N G YW / WR C N"
+      ],
+      "value": "0.7/0.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Reference"
+      ],
+      "value": "[52]"
+    },
+    {
+      "row": [],
+      "col": [
+        "Spectrum"
+      ],
+      "value": "Spontaneous SUP4-o mutations in ung1 yeast strain"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sequence motif (mutable positions are underlined)",
+        "D G YW / WR C H"
+      ],
+      "value": "0.9/1.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sequence motif (mutable positions are underlined)",
+        "N G YW / WR C N"
+      ],
+      "value": "0.9/1.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Reference"
+      ],
+      "value": "[60]"
+    },
+    {
+      "row": [],
+      "col": [
+        "Spectrum"
+      ],
+      "value": "hAIDSc in the CAN1 in wild-type yeast"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sequence motif (mutable positions are underlined)",
+        "D G YW / WR C H"
+      ],
+      "value": "1.2 / 5.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sequence motif (mutable positions are underlined)",
+        "N G YW / WR C N"
+      ],
+      "value": "1.5 / 4.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Reference"
+      ],
+      "value": "This work"
+    },
+    {
+      "row": [],
+      "col": [
+        "Spectrum"
+      ],
+      "value": "hAIDSc in the CAN1 in ung1 yeast"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sequence motif (mutable positions are underlined)",
+        "D G YW / WR C H"
+      ],
+      "value": "2.0 / 1.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sequence motif (mutable positions are underlined)",
+        "N G YW / WR C N"
+      ],
+      "value": "3.2 / 1.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Reference"
+      ],
+      "value": "This work"
+    },
+    {
+      "row": [],
+      "col": [
+        "Spectrum"
+      ],
+      "value": "SHM in V \u03ba Ox1 in mouse"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sequence motif (mutable positions are underlined)",
+        "D G YW / WR C H"
+      ],
+      "value": "3.5 / 2.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sequence motif (mutable positions are underlined)",
+        "N G YW / WR C N"
+      ],
+      "value": "3.4 / 2.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Reference"
+      ],
+      "value": "[47]"
+    },
+    {
+      "row": [],
+      "col": [
+        "Spectrum"
+      ],
+      "value": "SHM in J H 4 region in wild-type mouse"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sequence motif (mutable positions are underlined)",
+        "D G YW / WR C H"
+      ],
+      "value": "4.4 / 3.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sequence motif (mutable positions are underlined)",
+        "N G YW / WR C N"
+      ],
+      "value": "4.4 / 3.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Reference"
+      ],
+      "value": "[26]"
+    },
+    {
+      "row": [],
+      "col": [
+        "Spectrum"
+      ],
+      "value": "SHM in J H 4 region in Ung1 -/- mouse"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sequence motif (mutable positions are underlined)",
+        "D G YW / WR C H"
+      ],
+      "value": "4.5 / 3.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sequence motif (mutable positions are underlined)",
+        "N G YW / WR C N"
+      ],
+      "value": "4.5 / 3.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Reference"
+      ],
+      "value": "[26]"
+    },
+    {
+      "row": [],
+      "col": [
+        "Spectrum"
+      ],
+      "value": "SHM in J H 4 region in Ung1 -/- Msh2 -/- mouse"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sequence motif (mutable positions are underlined)",
+        "D G YW / WR C H"
+      ],
+      "value": "3.3 / 5.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sequence motif (mutable positions are underlined)",
+        "N G YW / WR C N"
+      ],
+      "value": "3.2 / 5.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Reference"
+      ],
+      "value": "[67]"
+    },
+    {
+      "row": [],
+      "col": [
+        "Spectrum"
+      ],
+      "value": "AID in GFP in human fibroblasts"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sequence motif (mutable positions are underlined)",
+        "D G YW / WR C H"
+      ],
+      "value": "7.6 / 4.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sequence motif (mutable positions are underlined)",
+        "N G YW / WR C N"
+      ],
+      "value": "7.1 / 4.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Reference"
+      ],
+      "value": "[13]"
+    },
+    {
+      "row": [],
+      "col": [
+        "Spectrum"
+      ],
+      "value": "AID in sacB in E.coli"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sequence motif (mutable positions are underlined)",
+        "D G YW / WR C H"
+      ],
+      "value": "2.3 / 3.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sequence motif (mutable positions are underlined)",
+        "N G YW / WR C N"
+      ],
+      "value": "1.6 / 4.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Reference"
+      ],
+      "value": "[36]"
+    },
+    {
+      "row": [],
+      "col": [
+        "Spectrum"
+      ],
+      "value": "AID in lacZ in vitro"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sequence motif (mutable positions are underlined)",
+        "D G YW / WR C H"
+      ],
+      "value": "-- / 2.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sequence motif (mutable positions are underlined)",
+        "N G YW / WR C N"
+      ],
+      "value": "-- / 2.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Reference"
+      ],
+      "value": "[40]"
+    }
+  ]
+}

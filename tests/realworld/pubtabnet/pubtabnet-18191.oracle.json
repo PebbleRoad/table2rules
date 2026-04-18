@@ -1,0 +1,647 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "#",
+    "*",
+    "1",
+    "12",
+    "13",
+    "179",
+    "18",
+    "19",
+    "19.4",
+    "19.9",
+    "21",
+    "23",
+    "233",
+    "24",
+    "26",
+    "27",
+    "27.0",
+    "270",
+    "28",
+    "29",
+    "3",
+    "34",
+    "35",
+    "4",
+    "42",
+    "5",
+    "6",
+    "7",
+    "71",
+    "8",
+    "9",
+    "9.1",
+    "91",
+    "AF256671",
+    "AF256676",
+    "AF256678",
+    "AF256693",
+    "AF256698",
+    "AF256714",
+    "AF256719",
+    "AF256741",
+    "AF256746",
+    "AF256748",
+    "AF256750",
+    "AF256848",
+    "Average",
+    "BHMS-175",
+    "BHMS-189",
+    "BHMS-201",
+    "BHMS-255",
+    "BHMS-278",
+    "BHMS-289",
+    "BHMS-304",
+    "BHMS-330",
+    "BHMS-337",
+    "BHMS-349",
+    "BHMS-396",
+    "BHMS-429",
+    "GenBank accession no.",
+    "Mic.sat. clone name",
+    "No. of clones observed in secondary hybridisation",
+    "Positive PCR product on unassigned clones",
+    "Total no. of clones verified by PCR",
+    "Total number of clones:",
+    "Verified by PCR"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "GenBank accession no."
+      ],
+      "value": "AF256671"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mic.sat. clone name"
+      ],
+      "value": "BHMS-175"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of clones observed in secondary hybridisation"
+      ],
+      "value": "28"
+    },
+    {
+      "row": [],
+      "col": [
+        "Verified by PCR"
+      ],
+      "value": "28"
+    },
+    {
+      "row": [],
+      "col": [
+        "Positive PCR product on unassigned clones"
+      ],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total no. of clones verified by PCR"
+      ],
+      "value": "35"
+    },
+    {
+      "row": [],
+      "col": [
+        "GenBank accession no."
+      ],
+      "value": "AF256676"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mic.sat. clone name"
+      ],
+      "value": "BHMS-189"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of clones observed in secondary hybridisation"
+      ],
+      "value": "24"
+    },
+    {
+      "row": [],
+      "col": [
+        "Verified by PCR"
+      ],
+      "value": "21"
+    },
+    {
+      "row": [],
+      "col": [
+        "Positive PCR product on unassigned clones"
+      ],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total no. of clones verified by PCR"
+      ],
+      "value": "26"
+    },
+    {
+      "row": [],
+      "col": [
+        "GenBank accession no."
+      ],
+      "value": "AF256678"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mic.sat. clone name"
+      ],
+      "value": "BHMS-201"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of clones observed in secondary hybridisation"
+      ],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Verified by PCR"
+      ],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Positive PCR product on unassigned clones"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total no. of clones verified by PCR"
+      ],
+      "value": "13"
+    },
+    {
+      "row": [],
+      "col": [
+        "GenBank accession no."
+      ],
+      "value": "AF256741"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mic.sat. clone name"
+      ],
+      "value": "BHMS-289"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of clones observed in secondary hybridisation"
+      ],
+      "value": "19"
+    },
+    {
+      "row": [],
+      "col": [
+        "Verified by PCR"
+      ],
+      "value": "18"
+    },
+    {
+      "row": [],
+      "col": [
+        "Positive PCR product on unassigned clones"
+      ],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total no. of clones verified by PCR"
+      ],
+      "value": "23"
+    },
+    {
+      "row": [],
+      "col": [
+        "GenBank accession no."
+      ],
+      "value": "AF256698"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mic.sat. clone name"
+      ],
+      "value": "BHMS-304"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of clones observed in secondary hybridisation"
+      ],
+      "value": "19"
+    },
+    {
+      "row": [],
+      "col": [
+        "Verified by PCR"
+      ],
+      "value": "18"
+    },
+    {
+      "row": [],
+      "col": [
+        "Positive PCR product on unassigned clones"
+      ],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total no. of clones verified by PCR"
+      ],
+      "value": "24"
+    },
+    {
+      "row": [],
+      "col": [
+        "GenBank accession no."
+      ],
+      "value": "AF256748"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mic.sat. clone name"
+      ],
+      "value": "BHMS-330"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of clones observed in secondary hybridisation"
+      ],
+      "value": "12"
+    },
+    {
+      "row": [],
+      "col": [
+        "Verified by PCR"
+      ],
+      "value": "12"
+    },
+    {
+      "row": [],
+      "col": [
+        "Positive PCR product on unassigned clones"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total no. of clones verified by PCR"
+      ],
+      "value": "13"
+    },
+    {
+      "row": [],
+      "col": [
+        "GenBank accession no."
+      ],
+      "value": "AF256746"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mic.sat. clone name"
+      ],
+      "value": "BHMS-349"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of clones observed in secondary hybridisation"
+      ],
+      "value": "23"
+    },
+    {
+      "row": [],
+      "col": [
+        "Verified by PCR"
+      ],
+      "value": "23"
+    },
+    {
+      "row": [],
+      "col": [
+        "Positive PCR product on unassigned clones"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total no. of clones verified by PCR"
+      ],
+      "value": "27"
+    },
+    {
+      "row": [],
+      "col": [
+        "GenBank accession no."
+      ],
+      "value": "AF256719"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mic.sat. clone name"
+      ],
+      "value": "BHMS-429"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of clones observed in secondary hybridisation"
+      ],
+      "value": "42"
+    },
+    {
+      "row": [],
+      "col": [
+        "Verified by PCR"
+      ],
+      "value": "42"
+    },
+    {
+      "row": [],
+      "col": [
+        "Positive PCR product on unassigned clones"
+      ],
+      "value": "29"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total no. of clones verified by PCR"
+      ],
+      "value": "71"
+    },
+    {
+      "row": [],
+      "col": [
+        "GenBank accession no."
+      ],
+      "value": "AF256693"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mic.sat. clone name"
+      ],
+      "value": "BHMS-278"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of clones observed in secondary hybridisation"
+      ],
+      "value": "8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Verified by PCR"
+      ],
+      "value": "*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Positive PCR product on unassigned clones"
+      ],
+      "value": "*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total no. of clones verified by PCR"
+      ],
+      "value": "*"
+    },
+    {
+      "row": [],
+      "col": [
+        "GenBank accession no."
+      ],
+      "value": "AF256848"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mic.sat. clone name"
+      ],
+      "value": "BHMS-255"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of clones observed in secondary hybridisation"
+      ],
+      "value": "24"
+    },
+    {
+      "row": [],
+      "col": [
+        "Verified by PCR"
+      ],
+      "value": "#"
+    },
+    {
+      "row": [],
+      "col": [
+        "Positive PCR product on unassigned clones"
+      ],
+      "value": "#"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total no. of clones verified by PCR"
+      ],
+      "value": "#"
+    },
+    {
+      "row": [],
+      "col": [
+        "GenBank accession no."
+      ],
+      "value": "AF256750"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mic.sat. clone name"
+      ],
+      "value": "BHMS-337"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of clones observed in secondary hybridisation"
+      ],
+      "value": "21"
+    },
+    {
+      "row": [],
+      "col": [
+        "Verified by PCR"
+      ],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Positive PCR product on unassigned clones"
+      ],
+      "value": "29"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total no. of clones verified by PCR"
+      ],
+      "value": "34"
+    },
+    {
+      "row": [],
+      "col": [
+        "GenBank accession no."
+      ],
+      "value": "AF256714"
+    },
+    {
+      "row": [],
+      "col": [
+        "Mic.sat. clone name"
+      ],
+      "value": "BHMS-396"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of clones observed in secondary hybridisation"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Verified by PCR"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Positive PCR product on unassigned clones"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total no. of clones verified by PCR"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "GenBank accession no."
+      ],
+      "value": "Total number of clones:"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of clones observed in secondary hybridisation"
+      ],
+      "value": "233"
+    },
+    {
+      "row": [],
+      "col": [
+        "Verified by PCR"
+      ],
+      "value": "179"
+    },
+    {
+      "row": [],
+      "col": [
+        "Positive PCR product on unassigned clones"
+      ],
+      "value": "91"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total no. of clones verified by PCR"
+      ],
+      "value": "270"
+    },
+    {
+      "row": [],
+      "col": [
+        "GenBank accession no."
+      ],
+      "value": "Average"
+    },
+    {
+      "row": [],
+      "col": [
+        "No. of clones observed in secondary hybridisation"
+      ],
+      "value": "19.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Verified by PCR"
+      ],
+      "value": "19.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Positive PCR product on unassigned clones"
+      ],
+      "value": "9.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total no. of clones verified by PCR"
+      ],
+      "value": "27.0"
+    }
+  ]
+}

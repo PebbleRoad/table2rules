@@ -1,0 +1,423 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "+",
+    "-",
+    "Diffuse",
+    "Follicular",
+    "GlcNAc6ST-2",
+    "Lymphocytic infiltration",
+    "MECA-79",
+    "Negative",
+    "RA1",
+    "RA10",
+    "RA11",
+    "RA12",
+    "RA13",
+    "RA14",
+    "RA2",
+    "RA3",
+    "RA4",
+    "RA5",
+    "RA6",
+    "RA7",
+    "RA8",
+    "RA9",
+    "Tissues"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Tissues"
+      ],
+      "value": "RA1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Lymphocytic infiltration"
+      ],
+      "value": "Follicular"
+    },
+    {
+      "row": [],
+      "col": [
+        "MECA-79"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "GlcNAc6ST-2"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissues"
+      ],
+      "value": "RA2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Lymphocytic infiltration"
+      ],
+      "value": "Follicular"
+    },
+    {
+      "row": [],
+      "col": [
+        "MECA-79"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "GlcNAc6ST-2"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissues"
+      ],
+      "value": "RA3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Lymphocytic infiltration"
+      ],
+      "value": "Follicular"
+    },
+    {
+      "row": [],
+      "col": [
+        "MECA-79"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "GlcNAc6ST-2"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissues"
+      ],
+      "value": "RA4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Lymphocytic infiltration"
+      ],
+      "value": "Follicular"
+    },
+    {
+      "row": [],
+      "col": [
+        "MECA-79"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "GlcNAc6ST-2"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissues"
+      ],
+      "value": "RA5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Lymphocytic infiltration"
+      ],
+      "value": "Diffuse"
+    },
+    {
+      "row": [],
+      "col": [
+        "MECA-79"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "GlcNAc6ST-2"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissues"
+      ],
+      "value": "RA6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Lymphocytic infiltration"
+      ],
+      "value": "Negative"
+    },
+    {
+      "row": [],
+      "col": [
+        "MECA-79"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "GlcNAc6ST-2"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissues"
+      ],
+      "value": "RA7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Lymphocytic infiltration"
+      ],
+      "value": "Negative"
+    },
+    {
+      "row": [],
+      "col": [
+        "MECA-79"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "GlcNAc6ST-2"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissues"
+      ],
+      "value": "RA8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Lymphocytic infiltration"
+      ],
+      "value": "Follicular"
+    },
+    {
+      "row": [],
+      "col": [
+        "MECA-79"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "GlcNAc6ST-2"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissues"
+      ],
+      "value": "RA9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Lymphocytic infiltration"
+      ],
+      "value": "Diffuse"
+    },
+    {
+      "row": [],
+      "col": [
+        "MECA-79"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "GlcNAc6ST-2"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissues"
+      ],
+      "value": "RA10"
+    },
+    {
+      "row": [],
+      "col": [
+        "Lymphocytic infiltration"
+      ],
+      "value": "Negative"
+    },
+    {
+      "row": [],
+      "col": [
+        "MECA-79"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "GlcNAc6ST-2"
+      ],
+      "value": "+"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissues"
+      ],
+      "value": "RA11"
+    },
+    {
+      "row": [],
+      "col": [
+        "Lymphocytic infiltration"
+      ],
+      "value": "Diffuse"
+    },
+    {
+      "row": [],
+      "col": [
+        "MECA-79"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "GlcNAc6ST-2"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissues"
+      ],
+      "value": "RA12"
+    },
+    {
+      "row": [],
+      "col": [
+        "Lymphocytic infiltration"
+      ],
+      "value": "Negative"
+    },
+    {
+      "row": [],
+      "col": [
+        "MECA-79"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "GlcNAc6ST-2"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissues"
+      ],
+      "value": "RA13"
+    },
+    {
+      "row": [],
+      "col": [
+        "Lymphocytic infiltration"
+      ],
+      "value": "Negative"
+    },
+    {
+      "row": [],
+      "col": [
+        "MECA-79"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "GlcNAc6ST-2"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Tissues"
+      ],
+      "value": "RA14"
+    },
+    {
+      "row": [],
+      "col": [
+        "Lymphocytic infiltration"
+      ],
+      "value": "Negative"
+    },
+    {
+      "row": [],
+      "col": [
+        "MECA-79"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "GlcNAc6ST-2"
+      ],
+      "value": "-"
+    }
+  ]
+}

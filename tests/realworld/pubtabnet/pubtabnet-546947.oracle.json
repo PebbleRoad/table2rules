@@ -1,0 +1,954 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "1, 2, 3, 4",
+    "1, 2, 3, 4, 5, 6, 7",
+    "1, 2, 3, 4, 6",
+    "1, 2, 3, 4, 6, 7",
+    "1, 2, 3, 4, 7",
+    "1, 4, 6",
+    "11",
+    "11 months",
+    "12",
+    "12 months",
+    "13",
+    "2 months",
+    "25",
+    "3 months",
+    "3 years",
+    "34",
+    "37",
+    "4 months",
+    "5 years",
+    "50",
+    "51",
+    "54",
+    "55",
+    "6",
+    "60",
+    "61",
+    "7",
+    "7 months",
+    "7 years",
+    "75",
+    "77",
+    "8",
+    "9 years",
+    "ACR criterion nos. fulfilled a",
+    "Age",
+    "Disease duration",
+    "E-01",
+    "E-02",
+    "E-03",
+    "E-04",
+    "E-05",
+    "E-06",
+    "E-07",
+    "E-08",
+    "E-09",
+    "E-10",
+    "E-11",
+    "E-12",
+    "F",
+    "L-01",
+    "L-02",
+    "L-03",
+    "L-04",
+    "M",
+    "Macroscopic signs of synovitis",
+    "Number of samples",
+    "Patient",
+    "Sex",
+    "Ve",
+    "Vi",
+    "Vi, Ve",
+    "Vi, Ve, Gr",
+    "With early RA",
+    "With long-standing RA"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Patient"
+      ],
+      "value": "With early RA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age"
+      ],
+      "value": "With early RA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sex"
+      ],
+      "value": "With early RA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease duration"
+      ],
+      "value": "With early RA"
+    },
+    {
+      "row": [],
+      "col": [
+        "ACR criterion nos. fulfilled a"
+      ],
+      "value": "With early RA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of samples"
+      ],
+      "value": "With early RA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Macroscopic signs of synovitis"
+      ],
+      "value": "With early RA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient"
+      ],
+      "value": "E-01"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age"
+      ],
+      "value": "51"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sex"
+      ],
+      "value": "F"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease duration"
+      ],
+      "value": "11 months"
+    },
+    {
+      "row": [],
+      "col": [
+        "ACR criterion nos. fulfilled a"
+      ],
+      "value": "1, 2, 3, 4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of samples"
+      ],
+      "value": "13"
+    },
+    {
+      "row": [],
+      "col": [
+        "Macroscopic signs of synovitis"
+      ],
+      "value": "Vi, Ve"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient"
+      ],
+      "value": "E-02"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age"
+      ],
+      "value": "50"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sex"
+      ],
+      "value": "F"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease duration"
+      ],
+      "value": "2 months"
+    },
+    {
+      "row": [],
+      "col": [
+        "ACR criterion nos. fulfilled a"
+      ],
+      "value": "1, 2, 3, 4, 6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of samples"
+      ],
+      "value": "8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Macroscopic signs of synovitis"
+      ],
+      "value": "Vi, Ve"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient"
+      ],
+      "value": "E-03"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age"
+      ],
+      "value": "34"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sex"
+      ],
+      "value": "F"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease duration"
+      ],
+      "value": "4 months"
+    },
+    {
+      "row": [],
+      "col": [
+        "ACR criterion nos. fulfilled a"
+      ],
+      "value": "1, 2, 3, 4, 7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of samples"
+      ],
+      "value": "8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Macroscopic signs of synovitis"
+      ],
+      "value": "Vi, Ve"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient"
+      ],
+      "value": "E-04"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age"
+      ],
+      "value": "34"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sex"
+      ],
+      "value": "F"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease duration"
+      ],
+      "value": "3 months"
+    },
+    {
+      "row": [],
+      "col": [
+        "ACR criterion nos. fulfilled a"
+      ],
+      "value": "1, 2, 3, 4, 6, 7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of samples"
+      ],
+      "value": "13"
+    },
+    {
+      "row": [],
+      "col": [
+        "Macroscopic signs of synovitis"
+      ],
+      "value": "Vi, Ve"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient"
+      ],
+      "value": "E-05"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age"
+      ],
+      "value": "77"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sex"
+      ],
+      "value": "F"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease duration"
+      ],
+      "value": "2 months"
+    },
+    {
+      "row": [],
+      "col": [
+        "ACR criterion nos. fulfilled a"
+      ],
+      "value": "1, 2, 3, 4, 7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of samples"
+      ],
+      "value": "11"
+    },
+    {
+      "row": [],
+      "col": [
+        "Macroscopic signs of synovitis"
+      ],
+      "value": "Vi"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient"
+      ],
+      "value": "E-06"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age"
+      ],
+      "value": "50"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sex"
+      ],
+      "value": "M"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease duration"
+      ],
+      "value": "4 months"
+    },
+    {
+      "row": [],
+      "col": [
+        "ACR criterion nos. fulfilled a"
+      ],
+      "value": "1, 2, 3, 4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of samples"
+      ],
+      "value": "11"
+    },
+    {
+      "row": [],
+      "col": [
+        "Macroscopic signs of synovitis"
+      ],
+      "value": "Vi, Ve"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient"
+      ],
+      "value": "E-07"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age"
+      ],
+      "value": "37"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sex"
+      ],
+      "value": "F"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease duration"
+      ],
+      "value": "7 months"
+    },
+    {
+      "row": [],
+      "col": [
+        "ACR criterion nos. fulfilled a"
+      ],
+      "value": "1, 2, 3, 4, 6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of samples"
+      ],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Macroscopic signs of synovitis"
+      ],
+      "value": "Ve"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient"
+      ],
+      "value": "E-08"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age"
+      ],
+      "value": "61"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sex"
+      ],
+      "value": "F"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease duration"
+      ],
+      "value": "2 months"
+    },
+    {
+      "row": [],
+      "col": [
+        "ACR criterion nos. fulfilled a"
+      ],
+      "value": "1, 2, 3, 4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of samples"
+      ],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Macroscopic signs of synovitis"
+      ],
+      "value": "Vi"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient"
+      ],
+      "value": "E-09"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age"
+      ],
+      "value": "75"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sex"
+      ],
+      "value": "F"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease duration"
+      ],
+      "value": "4 months"
+    },
+    {
+      "row": [],
+      "col": [
+        "ACR criterion nos. fulfilled a"
+      ],
+      "value": "1, 4, 6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of samples"
+      ],
+      "value": "12"
+    },
+    {
+      "row": [],
+      "col": [
+        "Macroscopic signs of synovitis"
+      ],
+      "value": "Vi, Ve, Gr"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient"
+      ],
+      "value": "E-10"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age"
+      ],
+      "value": "25"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sex"
+      ],
+      "value": "F"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease duration"
+      ],
+      "value": "12 months"
+    },
+    {
+      "row": [],
+      "col": [
+        "ACR criterion nos. fulfilled a"
+      ],
+      "value": "1, 2, 3, 4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of samples"
+      ],
+      "value": "12"
+    },
+    {
+      "row": [],
+      "col": [
+        "Macroscopic signs of synovitis"
+      ],
+      "value": "Vi, Ve, Gr"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient"
+      ],
+      "value": "E-11"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age"
+      ],
+      "value": "54"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sex"
+      ],
+      "value": "M"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease duration"
+      ],
+      "value": "12 months"
+    },
+    {
+      "row": [],
+      "col": [
+        "ACR criterion nos. fulfilled a"
+      ],
+      "value": "1, 2, 3, 4, 6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of samples"
+      ],
+      "value": "11"
+    },
+    {
+      "row": [],
+      "col": [
+        "Macroscopic signs of synovitis"
+      ],
+      "value": "Ve"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient"
+      ],
+      "value": "E-12"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age"
+      ],
+      "value": "60"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sex"
+      ],
+      "value": "F"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease duration"
+      ],
+      "value": "4 months"
+    },
+    {
+      "row": [],
+      "col": [
+        "ACR criterion nos. fulfilled a"
+      ],
+      "value": "1, 2, 3, 4, 6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of samples"
+      ],
+      "value": "13"
+    },
+    {
+      "row": [],
+      "col": [
+        "Macroscopic signs of synovitis"
+      ],
+      "value": "Vi, Ve, Gr"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient"
+      ],
+      "value": "With long-standing RA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age"
+      ],
+      "value": "With long-standing RA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sex"
+      ],
+      "value": "With long-standing RA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease duration"
+      ],
+      "value": "With long-standing RA"
+    },
+    {
+      "row": [],
+      "col": [
+        "ACR criterion nos. fulfilled a"
+      ],
+      "value": "With long-standing RA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of samples"
+      ],
+      "value": "With long-standing RA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Macroscopic signs of synovitis"
+      ],
+      "value": "With long-standing RA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient"
+      ],
+      "value": "L-01"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age"
+      ],
+      "value": "54"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sex"
+      ],
+      "value": "M"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease duration"
+      ],
+      "value": "9 years"
+    },
+    {
+      "row": [],
+      "col": [
+        "ACR criterion nos. fulfilled a"
+      ],
+      "value": "1, 2, 3, 4, 6, 7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of samples"
+      ],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Macroscopic signs of synovitis"
+      ],
+      "value": "Vi, Ve, Gr"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient"
+      ],
+      "value": "L-02"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age"
+      ],
+      "value": "77"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sex"
+      ],
+      "value": "M"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease duration"
+      ],
+      "value": "5 years"
+    },
+    {
+      "row": [],
+      "col": [
+        "ACR criterion nos. fulfilled a"
+      ],
+      "value": "1, 2, 3, 4, 5, 6, 7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of samples"
+      ],
+      "value": "8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Macroscopic signs of synovitis"
+      ],
+      "value": "Vi, Ve, Gr"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient"
+      ],
+      "value": "L-03"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age"
+      ],
+      "value": "54"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sex"
+      ],
+      "value": "F"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease duration"
+      ],
+      "value": "7 years"
+    },
+    {
+      "row": [],
+      "col": [
+        "ACR criterion nos. fulfilled a"
+      ],
+      "value": "1, 2, 3, 4, 6, 7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of samples"
+      ],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Macroscopic signs of synovitis"
+      ],
+      "value": "Vi, Ve"
+    },
+    {
+      "row": [],
+      "col": [
+        "Patient"
+      ],
+      "value": "L-04"
+    },
+    {
+      "row": [],
+      "col": [
+        "Age"
+      ],
+      "value": "55"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sex"
+      ],
+      "value": "F"
+    },
+    {
+      "row": [],
+      "col": [
+        "Disease duration"
+      ],
+      "value": "3 years"
+    },
+    {
+      "row": [],
+      "col": [
+        "ACR criterion nos. fulfilled a"
+      ],
+      "value": "1, 2, 3, 4, 6, 7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of samples"
+      ],
+      "value": "11"
+    },
+    {
+      "row": [],
+      "col": [
+        "Macroscopic signs of synovitis"
+      ],
+      "value": "Vi, Ve, Gr"
+    }
+  ]
+}

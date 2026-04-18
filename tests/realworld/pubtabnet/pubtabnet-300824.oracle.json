@@ -1,0 +1,1394 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0",
+    "0.1\u2013112.9",
+    "0.1\u201318.8",
+    "0.2\u201349.9",
+    "0.3\u201352.5",
+    "0.4, 19.8",
+    "1 (11)",
+    "1 (16)",
+    "1 (17)",
+    "1 (20)",
+    "1 (33)",
+    "1 (5)",
+    "1 (7)",
+    "1.1\u201338.0",
+    "1.1\u201361.1",
+    "1.5\u201349.9",
+    "1.7\u201333.6",
+    "1.9",
+    "1.9\u201325.9",
+    "100 (78)",
+    "12 (80)",
+    "12.0",
+    "12.9",
+    "128 (100)",
+    "13.6",
+    "14.6\u201342.1",
+    "15 (100)",
+    "15 (11.7)",
+    "15.5",
+    "16 (80)",
+    "17.5",
+    "2 (1.5)",
+    "2 (100)",
+    "2 (22)",
+    "2 (25)",
+    "2 (29)",
+    "2 (40)",
+    "2 (50)",
+    "2 (67)",
+    "2.0\u201318.1",
+    "20 (15.6)",
+    "20 (61)",
+    "21 (16)",
+    "21 (64)",
+    "24 (73)",
+    "24.0",
+    "26.3",
+    "3 (100)",
+    "3 (15)",
+    "3 (2)",
+    "3 (2.2)",
+    "3 (2.3)",
+    "3 (33)",
+    "3 (60)",
+    "3 (75)",
+    "33 (25.8)",
+    "4 (12)",
+    "4 (20)",
+    "4 (3.0)",
+    "4 (44)",
+    "4 (50)",
+    "4 (57)",
+    "4 (67)",
+    "4 (80)",
+    "4.0\u201339.6",
+    "4.2\u201326.3",
+    "4.5",
+    "4.5\u2013112.9",
+    "47 (37)",
+    "5 (100)",
+    "5 (15)",
+    "5 (3.9)",
+    "5 (71)",
+    "5.0",
+    "6 (100)",
+    "6 (4.7)",
+    "6 (40)",
+    "6 (75)",
+    "60 (47)",
+    "69 (54)",
+    "7 (100)",
+    "7 (35)",
+    "7 (5.5)",
+    "7 (78)",
+    "7 47)",
+    "7.1",
+    "8 (40)",
+    "8 (6.0)",
+    "8.2",
+    "8.4\u201350.1",
+    "8.9",
+    "9 (7.0)",
+    "9.1",
+    "Actinic keratosis",
+    "CVI/varices",
+    "DMARDs b",
+    "Drug-related eruption",
+    "Eczema",
+    "Edema",
+    "Events",
+    "Events during treatment",
+    "Histology",
+    "Infection",
+    "Major events",
+    "Median a",
+    "Nature of event",
+    "No. (%)",
+    "Other event",
+    "Permanent withdrawal of anti-TNF-\u03b1 c",
+    "Prednisolone b",
+    "Psoriasis/psoriasiform",
+    "Range",
+    "Seborrheic dermatitis",
+    "Skin tumor, benign",
+    "Skin tumor, malignant",
+    "Stasis dermatitis",
+    "Time to event (months)",
+    "Total",
+    "Ulcers",
+    "Vasculitis",
+    "Xerosis cutis",
+    "\u2013"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Nature of event"
+      ],
+      "value": "Infection"
+    },
+    {
+      "row": [],
+      "col": [
+        "Events",
+        "No. (%)"
+      ],
+      "value": "33 (25.8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Time to event (months)",
+        "Median a"
+      ],
+      "value": "9.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Time to event (months)",
+        "Range"
+      ],
+      "value": "1.1\u201361.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Events during treatment",
+        "No. (%)"
+      ],
+      "value": "24 (73)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Major events",
+        "No. (%)"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Histology",
+        "No. (%)"
+      ],
+      "value": "5 (15)"
+    },
+    {
+      "row": [],
+      "col": [
+        "DMARDs b",
+        "No. (%)"
+      ],
+      "value": "20 (61)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prednisolone b",
+        "No. (%)"
+      ],
+      "value": "21 (64)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Permanent withdrawal of anti-TNF-\u03b1 c",
+        "No. (%)"
+      ],
+      "value": "4 (12)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Nature of event"
+      ],
+      "value": "Eczema"
+    },
+    {
+      "row": [],
+      "col": [
+        "Events",
+        "No. (%)"
+      ],
+      "value": "20 (15.6)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Time to event (months)",
+        "Median a"
+      ],
+      "value": "7.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Time to event (months)",
+        "Range"
+      ],
+      "value": "0.2\u201349.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Events during treatment",
+        "No. (%)"
+      ],
+      "value": "16 (80)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Major events",
+        "No. (%)"
+      ],
+      "value": "1 (5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Histology",
+        "No. (%)"
+      ],
+      "value": "4 (20)"
+    },
+    {
+      "row": [],
+      "col": [
+        "DMARDs b",
+        "No. (%)"
+      ],
+      "value": "8 (40)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prednisolone b",
+        "No. (%)"
+      ],
+      "value": "7 (35)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Permanent withdrawal of anti-TNF-\u03b1 c",
+        "No. (%)"
+      ],
+      "value": "3 (15)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Nature of event"
+      ],
+      "value": "Drug-related eruption"
+    },
+    {
+      "row": [],
+      "col": [
+        "Events",
+        "No. (%)"
+      ],
+      "value": "15 (11.7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Time to event (months)",
+        "Median a"
+      ],
+      "value": "1.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Time to event (months)",
+        "Range"
+      ],
+      "value": "0.1\u201318.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Events during treatment",
+        "No. (%)"
+      ],
+      "value": "15 (100)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Major events",
+        "No. (%)"
+      ],
+      "value": "1 (7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Histology",
+        "No. (%)"
+      ],
+      "value": "12 (80)"
+    },
+    {
+      "row": [],
+      "col": [
+        "DMARDs b",
+        "No. (%)"
+      ],
+      "value": "6 (40)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prednisolone b",
+        "No. (%)"
+      ],
+      "value": "6 (40)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Permanent withdrawal of anti-TNF-\u03b1 c",
+        "No. (%)"
+      ],
+      "value": "7 47)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Nature of event"
+      ],
+      "value": "Ulcers"
+    },
+    {
+      "row": [],
+      "col": [
+        "Events",
+        "No. (%)"
+      ],
+      "value": "9 (7.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Time to event (months)",
+        "Median a"
+      ],
+      "value": "13.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Time to event (months)",
+        "Range"
+      ],
+      "value": "0.3\u201352.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Events during treatment",
+        "No. (%)"
+      ],
+      "value": "3 (33)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Major events",
+        "No. (%)"
+      ],
+      "value": "1 (11)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Histology",
+        "No. (%)"
+      ],
+      "value": "2 (22)"
+    },
+    {
+      "row": [],
+      "col": [
+        "DMARDs b",
+        "No. (%)"
+      ],
+      "value": "7 (78)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prednisolone b",
+        "No. (%)"
+      ],
+      "value": "4 (44)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Permanent withdrawal of anti-TNF-\u03b1 c",
+        "No. (%)"
+      ],
+      "value": "1 (11)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Nature of event"
+      ],
+      "value": "Skin tumor, benign"
+    },
+    {
+      "row": [],
+      "col": [
+        "Events",
+        "No. (%)"
+      ],
+      "value": "7 (5.5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Time to event (months)",
+        "Median a"
+      ],
+      "value": "12.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Time to event (months)",
+        "Range"
+      ],
+      "value": "2.0\u201318.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Events during treatment",
+        "No. (%)"
+      ],
+      "value": "7 (100)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Major events",
+        "No. (%)"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Histology",
+        "No. (%)"
+      ],
+      "value": "2 (29)"
+    },
+    {
+      "row": [],
+      "col": [
+        "DMARDs b",
+        "No. (%)"
+      ],
+      "value": "5 (71)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prednisolone b",
+        "No. (%)"
+      ],
+      "value": "4 (57)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Permanent withdrawal of anti-TNF-\u03b1 c",
+        "No. (%)"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Nature of event"
+      ],
+      "value": "Skin tumor, malignant"
+    },
+    {
+      "row": [],
+      "col": [
+        "Events",
+        "No. (%)"
+      ],
+      "value": "5 (3.9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Time to event (months)",
+        "Median a"
+      ],
+      "value": "4.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Time to event (months)",
+        "Range"
+      ],
+      "value": "1.1\u201338.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Events during treatment",
+        "No. (%)"
+      ],
+      "value": "4 (80)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Major events",
+        "No. (%)"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Histology",
+        "No. (%)"
+      ],
+      "value": "5 (100)"
+    },
+    {
+      "row": [],
+      "col": [
+        "DMARDs b",
+        "No. (%)"
+      ],
+      "value": "2 (40)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prednisolone b",
+        "No. (%)"
+      ],
+      "value": "2 (40)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Permanent withdrawal of anti-TNF-\u03b1 c",
+        "No. (%)"
+      ],
+      "value": "1 (20)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Nature of event"
+      ],
+      "value": "Xerosis cutis"
+    },
+    {
+      "row": [],
+      "col": [
+        "Events",
+        "No. (%)"
+      ],
+      "value": "6 (4.7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Time to event (months)",
+        "Median a"
+      ],
+      "value": "8.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Time to event (months)",
+        "Range"
+      ],
+      "value": "4.2\u201326.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Events during treatment",
+        "No. (%)"
+      ],
+      "value": "6 (100)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Major events",
+        "No. (%)"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Histology",
+        "No. (%)"
+      ],
+      "value": "1 (16)"
+    },
+    {
+      "row": [],
+      "col": [
+        "DMARDs b",
+        "No. (%)"
+      ],
+      "value": "4 (67)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prednisolone b",
+        "No. (%)"
+      ],
+      "value": "1 (17)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Permanent withdrawal of anti-TNF-\u03b1 c",
+        "No. (%)"
+      ],
+      "value": "1 (17)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Nature of event"
+      ],
+      "value": "Vasculitis"
+    },
+    {
+      "row": [],
+      "col": [
+        "Events",
+        "No. (%)"
+      ],
+      "value": "5 (3.9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Time to event (months)",
+        "Median a"
+      ],
+      "value": "12.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Time to event (months)",
+        "Range"
+      ],
+      "value": "1.5\u201349.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Events during treatment",
+        "No. (%)"
+      ],
+      "value": "4 (80)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Major events",
+        "No. (%)"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Histology",
+        "No. (%)"
+      ],
+      "value": "4 (80)"
+    },
+    {
+      "row": [],
+      "col": [
+        "DMARDs b",
+        "No. (%)"
+      ],
+      "value": "3 (60)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prednisolone b",
+        "No. (%)"
+      ],
+      "value": "5 (100)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Permanent withdrawal of anti-TNF-\u03b1 c",
+        "No. (%)"
+      ],
+      "value": "1 (20)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Nature of event"
+      ],
+      "value": "Actinic keratosis"
+    },
+    {
+      "row": [],
+      "col": [
+        "Events",
+        "No. (%)"
+      ],
+      "value": "5 (3.9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Time to event (months)",
+        "Median a"
+      ],
+      "value": "26.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Time to event (months)",
+        "Range"
+      ],
+      "value": "4.5\u2013112.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Events during treatment",
+        "No. (%)"
+      ],
+      "value": "2 (40)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Major events",
+        "No. (%)"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Histology",
+        "No. (%)"
+      ],
+      "value": "3 (60)"
+    },
+    {
+      "row": [],
+      "col": [
+        "DMARDs b",
+        "No. (%)"
+      ],
+      "value": "5 (100)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prednisolone b",
+        "No. (%)"
+      ],
+      "value": "2 (40)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Permanent withdrawal of anti-TNF-\u03b1 c",
+        "No. (%)"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Nature of event"
+      ],
+      "value": "CVI/varices"
+    },
+    {
+      "row": [],
+      "col": [
+        "Events",
+        "No. (%)"
+      ],
+      "value": "4 (3.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Time to event (months)",
+        "Median a"
+      ],
+      "value": "24.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Time to event (months)",
+        "Range"
+      ],
+      "value": "1.7\u201333.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Events during treatment",
+        "No. (%)"
+      ],
+      "value": "3 (75)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Major events",
+        "No. (%)"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Histology",
+        "No. (%)"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "DMARDs b",
+        "No. (%)"
+      ],
+      "value": "3 (75)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prednisolone b",
+        "No. (%)"
+      ],
+      "value": "2 (50)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Permanent withdrawal of anti-TNF-\u03b1 c",
+        "No. (%)"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Nature of event"
+      ],
+      "value": "Psoriasis/psoriasiform"
+    },
+    {
+      "row": [],
+      "col": [
+        "Events",
+        "No. (%)"
+      ],
+      "value": "3 (2.3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Time to event (months)",
+        "Median a"
+      ],
+      "value": "15.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Time to event (months)",
+        "Range"
+      ],
+      "value": "8.4\u201350.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Events during treatment",
+        "No. (%)"
+      ],
+      "value": "3 (100)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Major events",
+        "No. (%)"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Histology",
+        "No. (%)"
+      ],
+      "value": "3 (100)"
+    },
+    {
+      "row": [],
+      "col": [
+        "DMARDs b",
+        "No. (%)"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prednisolone b",
+        "No. (%)"
+      ],
+      "value": "2 (67)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Permanent withdrawal of anti-TNF-\u03b1 c",
+        "No. (%)"
+      ],
+      "value": "1 (33)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Nature of event"
+      ],
+      "value": "Edema"
+    },
+    {
+      "row": [],
+      "col": [
+        "Events",
+        "No. (%)"
+      ],
+      "value": "3 (2.2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Time to event (months)",
+        "Median a"
+      ],
+      "value": "8.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Time to event (months)",
+        "Range"
+      ],
+      "value": "4.0\u201339.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Events during treatment",
+        "No. (%)"
+      ],
+      "value": "2 (67)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Major events",
+        "No. (%)"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Histology",
+        "No. (%)"
+      ],
+      "value": "1 (33)"
+    },
+    {
+      "row": [],
+      "col": [
+        "DMARDs b",
+        "No. (%)"
+      ],
+      "value": "1 (33)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prednisolone b",
+        "No. (%)"
+      ],
+      "value": "1 (33)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Permanent withdrawal of anti-TNF-\u03b1 c",
+        "No. (%)"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Nature of event"
+      ],
+      "value": "Stasis dermatitis"
+    },
+    {
+      "row": [],
+      "col": [
+        "Events",
+        "No. (%)"
+      ],
+      "value": "3 (2.2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Time to event (months)",
+        "Median a"
+      ],
+      "value": "17.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Time to event (months)",
+        "Range"
+      ],
+      "value": "14.6\u201342.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Events during treatment",
+        "No. (%)"
+      ],
+      "value": "3 (100)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Major events",
+        "No. (%)"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Histology",
+        "No. (%)"
+      ],
+      "value": "1 (33)"
+    },
+    {
+      "row": [],
+      "col": [
+        "DMARDs b",
+        "No. (%)"
+      ],
+      "value": "1 (33)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prednisolone b",
+        "No. (%)"
+      ],
+      "value": "1 (33)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Permanent withdrawal of anti-TNF-\u03b1 c",
+        "No. (%)"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Nature of event"
+      ],
+      "value": "Seborrheic dermatitis"
+    },
+    {
+      "row": [],
+      "col": [
+        "Events",
+        "No. (%)"
+      ],
+      "value": "2 (1.5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Time to event (months)",
+        "Median a"
+      ],
+      "value": "0.4, 19.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Time to event (months)",
+        "Range"
+      ],
+      "value": "\u2013"
+    },
+    {
+      "row": [],
+      "col": [
+        "Events during treatment",
+        "No. (%)"
+      ],
+      "value": "2 (100)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Major events",
+        "No. (%)"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Histology",
+        "No. (%)"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "DMARDs b",
+        "No. (%)"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prednisolone b",
+        "No. (%)"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Permanent withdrawal of anti-TNF-\u03b1 c",
+        "No. (%)"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Nature of event"
+      ],
+      "value": "Other event"
+    },
+    {
+      "row": [],
+      "col": [
+        "Events",
+        "No. (%)"
+      ],
+      "value": "8 (6.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Time to event (months)",
+        "Median a"
+      ],
+      "value": "5.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Time to event (months)",
+        "Range"
+      ],
+      "value": "1.9\u201325.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Events during treatment",
+        "No. (%)"
+      ],
+      "value": "6 (75)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Major events",
+        "No. (%)"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Histology",
+        "No. (%)"
+      ],
+      "value": "4 (50)"
+    },
+    {
+      "row": [],
+      "col": [
+        "DMARDs b",
+        "No. (%)"
+      ],
+      "value": "4 (50)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prednisolone b",
+        "No. (%)"
+      ],
+      "value": "2 (25)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Permanent withdrawal of anti-TNF-\u03b1 c",
+        "No. (%)"
+      ],
+      "value": "2 (25)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Nature of event"
+      ],
+      "value": "Total"
+    },
+    {
+      "row": [],
+      "col": [
+        "Events",
+        "No. (%)"
+      ],
+      "value": "128 (100)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Time to event (months)",
+        "Median a"
+      ],
+      "value": "9.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Time to event (months)",
+        "Range"
+      ],
+      "value": "0.1\u2013112.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Events during treatment",
+        "No. (%)"
+      ],
+      "value": "100 (78)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Major events",
+        "No. (%)"
+      ],
+      "value": "3 (2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Histology",
+        "No. (%)"
+      ],
+      "value": "47 (37)"
+    },
+    {
+      "row": [],
+      "col": [
+        "DMARDs b",
+        "No. (%)"
+      ],
+      "value": "69 (54)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prednisolone b",
+        "No. (%)"
+      ],
+      "value": "60 (47)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Permanent withdrawal of anti-TNF-\u03b1 c",
+        "No. (%)"
+      ],
+      "value": "21 (16)"
+    }
+  ]
+}

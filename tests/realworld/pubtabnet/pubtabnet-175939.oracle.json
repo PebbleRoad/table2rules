@@ -1,0 +1,345 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "%",
+    "10,054",
+    "10,924",
+    "100",
+    "11,864",
+    "111",
+    "12,518",
+    "176",
+    "178",
+    "179",
+    "216",
+    "23",
+    "277",
+    "33",
+    "4,546",
+    "4,661",
+    "5",
+    "5,926",
+    "5,938",
+    "534",
+    "64",
+    "654",
+    "8",
+    "847",
+    "87",
+    "9,207",
+    "9,825",
+    "92",
+    "95",
+    "98",
+    "Breast Cancers",
+    "Cases",
+    "Census tract of residence recorded by CTR",
+    "Geocoded block group & street address of residence",
+    "Geocoded street address on 1 st try (stringent criteria)",
+    "Geocoded street address on 2 nd try (relaxed criteria)",
+    "Incident cases with town of residence recorded by the Connecticut Tumor Registry (CTR)",
+    "Listed address unable to geocode",
+    "No house number listed",
+    "No street address listed",
+    "Nursing home resident excluded for analysis by block group and exact coordinates",
+    "Post Office box listed",
+    "Prostate Cancers",
+    "Record not geocoded"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Prostate Cancers"
+      ],
+      "value": "Cases"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prostate Cancers"
+      ],
+      "value": "%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Breast Cancers"
+      ],
+      "value": "Cases"
+    },
+    {
+      "row": [],
+      "col": [
+        "Breast Cancers"
+      ],
+      "value": "%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Incident cases with town of residence recorded by the Connecticut Tumor Registry (CTR)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prostate Cancers"
+      ],
+      "value": "10,054"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prostate Cancers"
+      ],
+      "value": "100"
+    },
+    {
+      "row": [],
+      "col": [
+        "Breast Cancers"
+      ],
+      "value": "12,518"
+    },
+    {
+      "row": [],
+      "col": [
+        "Breast Cancers"
+      ],
+      "value": "100"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Census tract of residence recorded by CTR"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prostate Cancers"
+      ],
+      "value": "9,825"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prostate Cancers"
+      ],
+      "value": "98"
+    },
+    {
+      "row": [],
+      "col": [
+        "Breast Cancers"
+      ],
+      "value": "10,924"
+    },
+    {
+      "row": [],
+      "col": [
+        "Breast Cancers"
+      ],
+      "value": "87"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Geocoded block group & street address of residence"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prostate Cancers"
+      ],
+      "value": "9,207"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prostate Cancers"
+      ],
+      "value": "92"
+    },
+    {
+      "row": [],
+      "col": [
+        "Breast Cancers"
+      ],
+      "value": "11,864"
+    },
+    {
+      "row": [],
+      "col": [
+        "Breast Cancers"
+      ],
+      "value": "95"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Geocoded street address on 1 st try (stringent criteria)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prostate Cancers"
+      ],
+      "value": "4,546"
+    },
+    {
+      "row": [],
+      "col": [
+        "Breast Cancers"
+      ],
+      "value": "5,926"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Geocoded street address on 2 nd try (relaxed criteria)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prostate Cancers"
+      ],
+      "value": "4,661"
+    },
+    {
+      "row": [],
+      "col": [
+        "Breast Cancers"
+      ],
+      "value": "5,938"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Nursing home resident excluded for analysis by block group and exact coordinates"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prostate Cancers"
+      ],
+      "value": "179"
+    },
+    {
+      "row": [],
+      "col": [
+        "Breast Cancers"
+      ],
+      "value": "111"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Record not geocoded"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prostate Cancers"
+      ],
+      "value": "847"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prostate Cancers"
+      ],
+      "value": "8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Breast Cancers"
+      ],
+      "value": "654"
+    },
+    {
+      "row": [],
+      "col": [
+        "Breast Cancers"
+      ],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Post Office box listed"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prostate Cancers"
+      ],
+      "value": "178"
+    },
+    {
+      "row": [],
+      "col": [
+        "Breast Cancers"
+      ],
+      "value": "64"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "No street address listed"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prostate Cancers"
+      ],
+      "value": "216"
+    },
+    {
+      "row": [],
+      "col": [
+        "Breast Cancers"
+      ],
+      "value": "534"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "No house number listed"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prostate Cancers"
+      ],
+      "value": "176"
+    },
+    {
+      "row": [],
+      "col": [
+        "Breast Cancers"
+      ],
+      "value": "23"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Listed address unable to geocode"
+    },
+    {
+      "row": [],
+      "col": [
+        "Prostate Cancers"
+      ],
+      "value": "277"
+    },
+    {
+      "row": [],
+      "col": [
+        "Breast Cancers"
+      ],
+      "value": "33"
+    }
+  ]
+}

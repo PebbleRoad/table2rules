@@ -1,0 +1,308 @@
+<!-- source: PubTabNet imgid=215578 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+<b>
+<i>
+        K
+       </i>
+</b>
+</td>
+<td>
+<b>
+       cases
+      </b>
+</td>
+<td>
+<b>
+       clusters
+      </b>
+</td>
+<td>
+<b>
+       true positive
+      </b>
+</td>
+<td>
+<b>
+       false positive
+      </b>
+</td>
+<td>
+<b>
+       false negative
+      </b>
+</td>
+<td>
+<b>
+       specificity
+      </b>
+</td>
+<td>
+<b>
+<i>
+        a posteriori
+       </i>
+       sensitivity
+      </b>
+</td>
+<td>
+<b>
+<i>
+        a priori
+       </i>
+       sensitivity
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="9">
+      SPC
+     </td>
+</tr>
+<tr>
+<td>
+      2
+     </td>
+<td>
+      646
+     </td>
+<td>
+      157
+     </td>
+<td>
+      5365
+     </td>
+<td>
+      357
+     </td>
+<td>
+      99
+     </td>
+<td>
+      93.8
+     </td>
+<td>
+      98.2
+     </td>
+<td>
+      12.1
+     </td>
+</tr>
+<tr>
+<td>
+      6
+     </td>
+<td>
+      4652
+     </td>
+<td>
+      794
+     </td>
+<td>
+      34699
+     </td>
+<td>
+      2635
+     </td>
+<td>
+      2624
+     </td>
+<td>
+      92.9
+     </td>
+<td>
+      93.0
+     </td>
+<td>
+      78.2
+     </td>
+</tr>
+<tr>
+<td>
+      20
+     </td>
+<td>
+      5072
+     </td>
+<td>
+      637
+     </td>
+<td>
+      35862
+     </td>
+<td>
+      3840
+     </td>
+<td>
+      5396
+     </td>
+<td>
+      86.9
+     </td>
+<td>
+      90.3
+     </td>
+<td>
+      80.1
+     </td>
+</tr>
+<tr>
+<td>
+      all NN
+     </td>
+<td>
+      4993
+     </td>
+<td>
+      592
+     </td>
+<td>
+      34375
+     </td>
+<td>
+      4160
+     </td>
+<td>
+      6241
+     </td>
+<td>
+      89.2
+     </td>
+<td>
+      84.6
+     </td>
+<td>
+      77.5
+     </td>
+</tr>
+<tr>
+<td colspan="9">
+      TRIBE-MCL
+     </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+      4517
+     </td>
+<td>
+      704
+     </td>
+<td>
+      34563
+     </td>
+<td>
+      2475
+     </td>
+<td>
+      3042
+     </td>
+<td>
+      93.3
+     </td>
+<td>
+      91.9
+     </td>
+<td>
+      77.9
+     </td>
+</tr>
+<tr>
+<td colspan="9">
+      gSPC
+     </td>
+</tr>
+<tr>
+<td>
+      6
+     </td>
+<td>
+      4612
+     </td>
+<td>
+      710
+     </td>
+<td>
+      34631
+     </td>
+<td>
+      2472
+     </td>
+<td>
+      2365
+     </td>
+<td>
+      93.3
+     </td>
+<td>
+      93.6
+     </td>
+<td>
+      78.2
+     </td>
+</tr>
+<tr>
+<td>
+      20
+     </td>
+<td>
+      4988
+     </td>
+<td>
+      115
+     </td>
+<td>
+      37574
+     </td>
+<td>
+      2836
+     </td>
+<td>
+      2948
+     </td>
+<td>
+      93.0
+     </td>
+<td>
+      92.7
+     </td>
+<td>
+      84.7
+     </td>
+</tr>
+<tr>
+<td>
+      All NN
+     </td>
+<td>
+      5043
+     </td>
+<td>
+      18
+     </td>
+<td>
+      37862
+     </td>
+<td>
+      2968
+     </td>
+<td>
+      3105
+     </td>
+<td>
+      92.7
+     </td>
+<td>
+      92.4
+     </td>
+<td>
+      85.4
+     </td>
+</tr>
+</tbody>
+</table>

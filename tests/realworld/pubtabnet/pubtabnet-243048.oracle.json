@@ -1,0 +1,602 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "-",
+    "0",
+    "1,267",
+    "1,274",
+    "1,305",
+    "1,967",
+    "10,219",
+    "11,691",
+    "115.410",
+    "116.238",
+    "117.077",
+    "117.227",
+    "118.998",
+    "119.055",
+    "162",
+    "164",
+    "166",
+    "167",
+    "168",
+    "17,060",
+    "18,099",
+    "2,218",
+    "2,330",
+    "25,498",
+    "25,554",
+    "250",
+    "256",
+    "26,156",
+    "26,207",
+    "265",
+    "266",
+    "27,117",
+    "27,170",
+    "276",
+    "279",
+    "28",
+    "3,786",
+    "4,140",
+    "4.32",
+    "4.38",
+    "4.48",
+    "4.5",
+    "4.54",
+    "4.55",
+    "485",
+    "487",
+    "5.2",
+    "5.23",
+    "5.24",
+    "5.25",
+    "5.31",
+    "5.42",
+    "528",
+    "531",
+    "6",
+    "Gene structures altered since previous release.(u,a,d,m,s)",
+    "Genes annotated as alternatively spliced",
+    "Genome size (Mb)",
+    "NA",
+    "Nature (12/00)",
+    "Protein-coding genes similar to transposon ORFs a",
+    "Release 1 (8/01)",
+    "Release 2 (1/02)",
+    "Release 3 (8/02)",
+    "Release 4 (4/03)",
+    "Release 5 (1/04)",
+    "average exon length (bp)",
+    "average intron length (bp)",
+    "exons / gene",
+    "gene density (kb per gene)",
+    "genes with UTRs",
+    "protein-coding genes",
+    "transposons and pseudogenes",
+    "u: 2,347a: 527d: 143m: 153s: 24",
+    "u: 2,853a: 690d: 231m: 14s: 167",
+    "u: 2,858a: 1,393d: 730m: 169s: 28",
+    "u:1,366a: 1,906d: 221m: 62s: 14"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Genome size (Mb)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Nature (12/00)"
+      ],
+      "value": "115.410"
+    },
+    {
+      "row": [],
+      "col": [
+        "Release 1 (8/01)"
+      ],
+      "value": "116.238"
+    },
+    {
+      "row": [],
+      "col": [
+        "Release 2 (1/02)"
+      ],
+      "value": "117.227"
+    },
+    {
+      "row": [],
+      "col": [
+        "Release 3 (8/02)"
+      ],
+      "value": "117.077"
+    },
+    {
+      "row": [],
+      "col": [
+        "Release 4 (4/03)"
+      ],
+      "value": "119.055"
+    },
+    {
+      "row": [],
+      "col": [
+        "Release 5 (1/04)"
+      ],
+      "value": "118.998"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "protein-coding genes"
+    },
+    {
+      "row": [],
+      "col": [
+        "Nature (12/00)"
+      ],
+      "value": "25,498"
+    },
+    {
+      "row": [],
+      "col": [
+        "Release 1 (8/01)"
+      ],
+      "value": "25,554"
+    },
+    {
+      "row": [],
+      "col": [
+        "Release 2 (1/02)"
+      ],
+      "value": "26,156"
+    },
+    {
+      "row": [],
+      "col": [
+        "Release 3 (8/02)"
+      ],
+      "value": "27,117"
+    },
+    {
+      "row": [],
+      "col": [
+        "Release 4 (4/03)"
+      ],
+      "value": "27,170"
+    },
+    {
+      "row": [],
+      "col": [
+        "Release 5 (1/04)"
+      ],
+      "value": "26,207"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "transposons and pseudogenes"
+    },
+    {
+      "row": [],
+      "col": [
+        "Nature (12/00)"
+      ],
+      "value": "NA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Release 1 (8/01)"
+      ],
+      "value": "1,274"
+    },
+    {
+      "row": [],
+      "col": [
+        "Release 2 (1/02)"
+      ],
+      "value": "1,305"
+    },
+    {
+      "row": [],
+      "col": [
+        "Release 3 (8/02)"
+      ],
+      "value": "1,967"
+    },
+    {
+      "row": [],
+      "col": [
+        "Release 4 (4/03)"
+      ],
+      "value": "2,218"
+    },
+    {
+      "row": [],
+      "col": [
+        "Release 5 (1/04)"
+      ],
+      "value": "3,786"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Genes annotated as alternatively spliced"
+    },
+    {
+      "row": [],
+      "col": [
+        "Nature (12/00)"
+      ],
+      "value": "NA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Release 1 (8/01)"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Release 2 (1/02)"
+      ],
+      "value": "28"
+    },
+    {
+      "row": [],
+      "col": [
+        "Release 3 (8/02)"
+      ],
+      "value": "162"
+    },
+    {
+      "row": [],
+      "col": [
+        "Release 4 (4/03)"
+      ],
+      "value": "1,267"
+    },
+    {
+      "row": [],
+      "col": [
+        "Release 5 (1/04)"
+      ],
+      "value": "2,330"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "genes with UTRs"
+    },
+    {
+      "row": [],
+      "col": [
+        "Nature (12/00)"
+      ],
+      "value": "NA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Release 1 (8/01)"
+      ],
+      "value": "4,140"
+    },
+    {
+      "row": [],
+      "col": [
+        "Release 2 (1/02)"
+      ],
+      "value": "10,219"
+    },
+    {
+      "row": [],
+      "col": [
+        "Release 3 (8/02)"
+      ],
+      "value": "11,691"
+    },
+    {
+      "row": [],
+      "col": [
+        "Release 4 (4/03)"
+      ],
+      "value": "17,060"
+    },
+    {
+      "row": [],
+      "col": [
+        "Release 5 (1/04)"
+      ],
+      "value": "18,099"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Protein-coding genes similar to transposon ORFs a"
+    },
+    {
+      "row": [],
+      "col": [
+        "Nature (12/00)"
+      ],
+      "value": "NA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Release 1 (8/01)"
+      ],
+      "value": "487"
+    },
+    {
+      "row": [],
+      "col": [
+        "Release 2 (1/02)"
+      ],
+      "value": "485"
+    },
+    {
+      "row": [],
+      "col": [
+        "Release 3 (8/02)"
+      ],
+      "value": "528"
+    },
+    {
+      "row": [],
+      "col": [
+        "Release 4 (4/03)"
+      ],
+      "value": "531"
+    },
+    {
+      "row": [],
+      "col": [
+        "Release 5 (1/04)"
+      ],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "gene density (kb per gene)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Nature (12/00)"
+      ],
+      "value": "4.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Release 1 (8/01)"
+      ],
+      "value": "4.55"
+    },
+    {
+      "row": [],
+      "col": [
+        "Release 2 (1/02)"
+      ],
+      "value": "4.48"
+    },
+    {
+      "row": [],
+      "col": [
+        "Release 3 (8/02)"
+      ],
+      "value": "4.32"
+    },
+    {
+      "row": [],
+      "col": [
+        "Release 4 (4/03)"
+      ],
+      "value": "4.38"
+    },
+    {
+      "row": [],
+      "col": [
+        "Release 5 (1/04)"
+      ],
+      "value": "4.54"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "exons / gene"
+    },
+    {
+      "row": [],
+      "col": [
+        "Nature (12/00)"
+      ],
+      "value": "5.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Release 1 (8/01)"
+      ],
+      "value": "5.23"
+    },
+    {
+      "row": [],
+      "col": [
+        "Release 2 (1/02)"
+      ],
+      "value": "5.25"
+    },
+    {
+      "row": [],
+      "col": [
+        "Release 3 (8/02)"
+      ],
+      "value": "5.24"
+    },
+    {
+      "row": [],
+      "col": [
+        "Release 4 (4/03)"
+      ],
+      "value": "5.31"
+    },
+    {
+      "row": [],
+      "col": [
+        "Release 5 (1/04)"
+      ],
+      "value": "5.42"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "average exon length (bp)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Nature (12/00)"
+      ],
+      "value": "250"
+    },
+    {
+      "row": [],
+      "col": [
+        "Release 1 (8/01)"
+      ],
+      "value": "256"
+    },
+    {
+      "row": [],
+      "col": [
+        "Release 2 (1/02)"
+      ],
+      "value": "265"
+    },
+    {
+      "row": [],
+      "col": [
+        "Release 3 (8/02)"
+      ],
+      "value": "266"
+    },
+    {
+      "row": [],
+      "col": [
+        "Release 4 (4/03)"
+      ],
+      "value": "279"
+    },
+    {
+      "row": [],
+      "col": [
+        "Release 5 (1/04)"
+      ],
+      "value": "276"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "average intron length (bp)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Nature (12/00)"
+      ],
+      "value": "168"
+    },
+    {
+      "row": [],
+      "col": [
+        "Release 1 (8/01)"
+      ],
+      "value": "168"
+    },
+    {
+      "row": [],
+      "col": [
+        "Release 2 (1/02)"
+      ],
+      "value": "167"
+    },
+    {
+      "row": [],
+      "col": [
+        "Release 3 (8/02)"
+      ],
+      "value": "166"
+    },
+    {
+      "row": [],
+      "col": [
+        "Release 4 (4/03)"
+      ],
+      "value": "166"
+    },
+    {
+      "row": [],
+      "col": [
+        "Release 5 (1/04)"
+      ],
+      "value": "164"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Gene structures altered since previous release.(u,a,d,m,s)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Nature (12/00)"
+      ],
+      "value": "NA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Release 1 (8/01)"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Release 2 (1/02)"
+      ],
+      "value": "u: 2,853a: 690d: 231m: 14s: 167"
+    },
+    {
+      "row": [],
+      "col": [
+        "Release 3 (8/02)"
+      ],
+      "value": "u:1,366a: 1,906d: 221m: 62s: 14"
+    },
+    {
+      "row": [],
+      "col": [
+        "Release 4 (4/03)"
+      ],
+      "value": "u: 2,347a: 527d: 143m: 153s: 24"
+    },
+    {
+      "row": [],
+      "col": [
+        "Release 5 (1/04)"
+      ],
+      "value": "u: 2,858a: 1,393d: 730m: 169s: 28"
+    }
+  ]
+}

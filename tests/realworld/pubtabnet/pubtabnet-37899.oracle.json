@@ -1,0 +1,498 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0.014 \u03c8",
+    "0.098",
+    "0.106 \u03c8",
+    "0.123 \u03c8",
+    "0.136",
+    "0.283",
+    "0.352",
+    "0.382 \u03c8",
+    "0.498",
+    "0.795",
+    "0.860",
+    "0.930",
+    "122.0 (18.0)",
+    "122.6 (1.9)",
+    "126.5 (3.5)",
+    "126.9 (17.8)",
+    "128.1 (4.5)",
+    "129.1 (15.8)",
+    "147.6 (20.6)",
+    "149.6 (3.1)",
+    "150.8 (25.9)",
+    "150.8 (4.6)",
+    "150.9 (3.7)",
+    "151.5 (16.2)",
+    "25.3 (4.9)",
+    "25.7 (3.3)",
+    "25.9 (3.4)",
+    "27.6 (6.3)",
+    "27.9 (4.7)",
+    "30.0 (4.9)",
+    "48.2 (10.2)",
+    "48.5 (12.4)",
+    "52.7 (9.0)",
+    "53.7 (9.0)",
+    "55.1 (9.0)",
+    "55.5 (8.9)",
+    "73.0 (2.6)",
+    "73.0 (4.6)",
+    "73.7 (11.4)",
+    "73.8 (3.4)",
+    "74.4 (1.4)",
+    "74.4 (12.0)",
+    "81.6 (2.2)",
+    "81.7 (14.7)",
+    "85.1 (1.9)",
+    "85.4 (12.3)",
+    "85.9 (9.3)",
+    "86.7 (2.8)",
+    "Adjusted DBP, mmHg",
+    "Adjusted SBP, mmHg",
+    "Age",
+    "BMI",
+    "DBP, mmHg",
+    "Hypertensives",
+    "M/M (n = 33)",
+    "M/M (n = 59)",
+    "M/T (n = 18)",
+    "M/T (n = 46)",
+    "Normotensives",
+    "SBP, mmHg",
+    "T/T (n = 10)",
+    "T/T (n = 22)",
+    "Variables",
+    "p *"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Variables"
+      ],
+      "value": "Age"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hypertensives",
+        "M/M (n = 33)"
+      ],
+      "value": "55.5 (8.9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hypertensives",
+        "M/T (n = 46)"
+      ],
+      "value": "55.1 (9.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hypertensives",
+        "T/T (n = 22)"
+      ],
+      "value": "52.7 (9.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hypertensives",
+        "p *"
+      ],
+      "value": "0.498"
+    },
+    {
+      "row": [],
+      "col": [
+        "Normotensives",
+        "M/M (n = 59)"
+      ],
+      "value": "48.2 (10.2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Normotensives",
+        "M/T (n = 18)"
+      ],
+      "value": "53.7 (9.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Normotensives",
+        "T/T (n = 10)"
+      ],
+      "value": "48.5 (12.4)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Normotensives",
+        "p *"
+      ],
+      "value": "0.136"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variables"
+      ],
+      "value": "SBP, mmHg"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hypertensives",
+        "M/M (n = 33)"
+      ],
+      "value": "151.5 (16.2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hypertensives",
+        "M/T (n = 46)"
+      ],
+      "value": "150.8 (25.9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hypertensives",
+        "T/T (n = 22)"
+      ],
+      "value": "147.6 (20.6)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hypertensives",
+        "p *"
+      ],
+      "value": "0.795"
+    },
+    {
+      "row": [],
+      "col": [
+        "Normotensives",
+        "M/M (n = 59)"
+      ],
+      "value": "122.0 (18.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Normotensives",
+        "M/T (n = 18)"
+      ],
+      "value": "129.1 (15.8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Normotensives",
+        "T/T (n = 10)"
+      ],
+      "value": "126.9 (17.8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Normotensives",
+        "p *"
+      ],
+      "value": "0.283"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variables"
+      ],
+      "value": "Adjusted SBP, mmHg"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hypertensives",
+        "M/M (n = 33)"
+      ],
+      "value": "150.9 (3.7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hypertensives",
+        "M/T (n = 46)"
+      ],
+      "value": "149.6 (3.1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hypertensives",
+        "T/T (n = 22)"
+      ],
+      "value": "150.8 (4.6)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hypertensives",
+        "p *"
+      ],
+      "value": "0.014 \u03c8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Normotensives",
+        "M/M (n = 59)"
+      ],
+      "value": "122.6 (1.9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Normotensives",
+        "M/T (n = 18)"
+      ],
+      "value": "126.5 (3.5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Normotensives",
+        "T/T (n = 10)"
+      ],
+      "value": "128.1 (4.5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Normotensives",
+        "p *"
+      ],
+      "value": "0.123 \u03c8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variables"
+      ],
+      "value": "DBP, mmHg"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hypertensives",
+        "M/M (n = 33)"
+      ],
+      "value": "81.7 (14.7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hypertensives",
+        "M/T (n = 46)"
+      ],
+      "value": "85.4 (12.3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hypertensives",
+        "T/T (n = 22)"
+      ],
+      "value": "85.9 (9.3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hypertensives",
+        "p *"
+      ],
+      "value": "0.352"
+    },
+    {
+      "row": [],
+      "col": [
+        "Normotensives",
+        "M/M (n = 59)"
+      ],
+      "value": "74.4 (12.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Normotensives",
+        "M/T (n = 18)"
+      ],
+      "value": "73.7 (11.4)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Normotensives",
+        "T/T (n = 10)"
+      ],
+      "value": "73.0 (4.6)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Normotensives",
+        "p *"
+      ],
+      "value": "0.930"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variables"
+      ],
+      "value": "Adjusted DBP, mmHg"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hypertensives",
+        "M/M (n = 33)"
+      ],
+      "value": "81.6 (2.2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hypertensives",
+        "M/T (n = 46)"
+      ],
+      "value": "85.1 (1.9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hypertensives",
+        "T/T (n = 22)"
+      ],
+      "value": "86.7 (2.8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hypertensives",
+        "p *"
+      ],
+      "value": "0.382 \u03c8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Normotensives",
+        "M/M (n = 59)"
+      ],
+      "value": "74.4 (1.4)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Normotensives",
+        "M/T (n = 18)"
+      ],
+      "value": "73.0 (2.6)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Normotensives",
+        "T/T (n = 10)"
+      ],
+      "value": "73.8 (3.4)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Normotensives",
+        "p *"
+      ],
+      "value": "0.106 \u03c8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variables"
+      ],
+      "value": "BMI"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hypertensives",
+        "M/M (n = 33)"
+      ],
+      "value": "27.9 (4.7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hypertensives",
+        "M/T (n = 46)"
+      ],
+      "value": "30.0 (4.9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hypertensives",
+        "T/T (n = 22)"
+      ],
+      "value": "27.6 (6.3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hypertensives",
+        "p *"
+      ],
+      "value": "0.098"
+    },
+    {
+      "row": [],
+      "col": [
+        "Normotensives",
+        "M/M (n = 59)"
+      ],
+      "value": "25.9 (3.4)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Normotensives",
+        "M/T (n = 18)"
+      ],
+      "value": "25.7 (3.3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Normotensives",
+        "T/T (n = 10)"
+      ],
+      "value": "25.3 (4.9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Normotensives",
+        "p *"
+      ],
+      "value": "0.860"
+    }
+  ]
+}

@@ -1,0 +1,380 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "(V27I; E114G) b",
+    "1",
+    "1 \u2013 Russian/Altaian, 1 \u2013 Russian",
+    "13 Altaians, 1 Kazakh",
+    "14 (11 independent families)",
+    "18 (23.7%)",
+    "2 (father and daughter)",
+    "2 (two sibs)",
+    "2 (unrelated)",
+    "22 (28.9%)",
+    "235delC / 235delC",
+    "235delC / W172C",
+    "312del14 / 312del14",
+    "35delG / 235delC",
+    "35delG / 312del14",
+    "35delG / 35delG",
+    "6 Altaians, 1 Altaian/Russian c",
+    "7 (4 independent families)",
+    "7 (unrelated)",
+    "Affected subjects (n = 76)",
+    "Altaian",
+    "Altaian/Russian",
+    "Ethnic affiliation",
+    "Genotype",
+    "IVS1+27G>C / [V27I; E114G]",
+    "Mutations",
+    "Non-pathogenic variants",
+    "R75Q / 312del14",
+    "R75Q a / 235delC",
+    "R75Q/ +",
+    "Russian",
+    "Russian/Tatar",
+    "Russians",
+    "Total",
+    "V27I / +",
+    "mixed ethnicity"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Genotype"
+      ],
+      "value": "Mutations"
+    },
+    {
+      "row": [],
+      "col": [
+        "Affected subjects (n = 76)"
+      ],
+      "value": "Mutations"
+    },
+    {
+      "row": [],
+      "col": [
+        "Ethnic affiliation"
+      ],
+      "value": "Mutations"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype"
+      ],
+      "value": "35delG / 35delG"
+    },
+    {
+      "row": [],
+      "col": [
+        "Affected subjects (n = 76)"
+      ],
+      "value": "7 (4 independent families)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Ethnic affiliation"
+      ],
+      "value": "Russians"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype"
+      ],
+      "value": "235delC / 235delC"
+    },
+    {
+      "row": [],
+      "col": [
+        "Affected subjects (n = 76)"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Ethnic affiliation"
+      ],
+      "value": "Altaian"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype"
+      ],
+      "value": "312del14 / 312del14"
+    },
+    {
+      "row": [],
+      "col": [
+        "Affected subjects (n = 76)"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Ethnic affiliation"
+      ],
+      "value": "Russian/Tatar"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype"
+      ],
+      "value": "35delG / 235delC"
+    },
+    {
+      "row": [],
+      "col": [
+        "Affected subjects (n = 76)"
+      ],
+      "value": "2 (unrelated)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Ethnic affiliation"
+      ],
+      "value": "1 \u2013 Russian/Altaian, 1 \u2013 Russian"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype"
+      ],
+      "value": "35delG / 312del14"
+    },
+    {
+      "row": [],
+      "col": [
+        "Affected subjects (n = 76)"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Ethnic affiliation"
+      ],
+      "value": "Russian"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype"
+      ],
+      "value": "R75Q a / 235delC"
+    },
+    {
+      "row": [],
+      "col": [
+        "Affected subjects (n = 76)"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Ethnic affiliation"
+      ],
+      "value": "Altaian/Russian"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype"
+      ],
+      "value": "R75Q / 312del14"
+    },
+    {
+      "row": [],
+      "col": [
+        "Affected subjects (n = 76)"
+      ],
+      "value": "2 (two sibs)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Ethnic affiliation"
+      ],
+      "value": "mixed ethnicity"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype"
+      ],
+      "value": "R75Q/ +"
+    },
+    {
+      "row": [],
+      "col": [
+        "Affected subjects (n = 76)"
+      ],
+      "value": "2 (father and daughter)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Ethnic affiliation"
+      ],
+      "value": "Russians"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype"
+      ],
+      "value": "235delC / W172C"
+    },
+    {
+      "row": [],
+      "col": [
+        "Affected subjects (n = 76)"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Ethnic affiliation"
+      ],
+      "value": "Altaian"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype"
+      ],
+      "value": "Total"
+    },
+    {
+      "row": [],
+      "col": [
+        "Affected subjects (n = 76)"
+      ],
+      "value": "18 (23.7%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Ethnic affiliation"
+      ],
+      "value": "18 (23.7%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype"
+      ],
+      "value": "Non-pathogenic variants"
+    },
+    {
+      "row": [],
+      "col": [
+        "Affected subjects (n = 76)"
+      ],
+      "value": "Non-pathogenic variants"
+    },
+    {
+      "row": [],
+      "col": [
+        "Ethnic affiliation"
+      ],
+      "value": "Non-pathogenic variants"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype"
+      ],
+      "value": "V27I / +"
+    },
+    {
+      "row": [],
+      "col": [
+        "Affected subjects (n = 76)"
+      ],
+      "value": "14 (11 independent families)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Ethnic affiliation"
+      ],
+      "value": "13 Altaians, 1 Kazakh"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype"
+      ],
+      "value": "(V27I; E114G) b"
+    },
+    {
+      "row": [],
+      "col": [
+        "Affected subjects (n = 76)"
+      ],
+      "value": "7 (unrelated)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Ethnic affiliation"
+      ],
+      "value": "6 Altaians, 1 Altaian/Russian c"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype"
+      ],
+      "value": "IVS1+27G>C / [V27I; E114G]"
+    },
+    {
+      "row": [],
+      "col": [
+        "Affected subjects (n = 76)"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Ethnic affiliation"
+      ],
+      "value": "Altaian"
+    },
+    {
+      "row": [],
+      "col": [
+        "Genotype"
+      ],
+      "value": "Total"
+    },
+    {
+      "row": [],
+      "col": [
+        "Affected subjects (n = 76)"
+      ],
+      "value": "22 (28.9%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Ethnic affiliation"
+      ],
+      "value": "22 (28.9%)"
+    }
+  ]
+}

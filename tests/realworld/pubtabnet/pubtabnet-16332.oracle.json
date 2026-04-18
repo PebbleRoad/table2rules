@@ -1,0 +1,548 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "%",
+    "1",
+    "100.0",
+    "11.4",
+    "12.5",
+    "13",
+    "13.1",
+    "13.7",
+    "14",
+    "16",
+    "176",
+    "19.3",
+    "2",
+    "20",
+    "22",
+    "23",
+    "24",
+    "29",
+    "31",
+    "34",
+    "4",
+    "42",
+    "5.1",
+    "7.9",
+    "74",
+    "9",
+    "9.1",
+    "=",
+    "ER admissions",
+    "GP visits",
+    "Hospital admissions",
+    "Specialist visits",
+    "Total",
+    "abdominal hernia (2); gastric ulcer (1); constipation (1); cholelithiasis (1)",
+    "abdominal pain (2); dyskinesia (1); epistaxis (1); dysphagia (1)",
+    "abdominal pain (2); hallucination (1); cough (1); nausea, vomiting (1); urinary incontinence (1)",
+    "abdominal pain (6); hallucination (1); headache (1)",
+    "acute hypotension (2); cerebral ischemia (1); aortic aneurysm (1)",
+    "asthma (1)",
+    "avulsions of teeth (2); periodontal disease (1)",
+    "cataract (3)",
+    "chest pain (2); sleep disturbance (1); epistaxis (1); abdominal pain (1)",
+    "conjunctivitis (2); vertiginous syndrome (1)",
+    "constipation (2); intestinal obstruction (1); cholelithiasis (1)",
+    "diseases of musculo-skeletal system and connective tissue (710\u2013739)",
+    "diseases of respiratory system (460\u2013519)",
+    "diseases of the circulatory system (390\u2013459)",
+    "diseases of the digestive system (520\u2013527)",
+    "diseases of the nervous system and sense organs (320\u2013389)",
+    "factors influencing health status and contact with health services (V01\u2013V83)",
+    "fracture of femur (1), femur plus humerus (1)",
+    "fracture unspecified (1); open wound (1)",
+    "general control (8); urinary cathether substitution (1)",
+    "hearing loss (1)",
+    "hypertension (3); ischemic heart disease (2); atrial fibrillation (1); myocardial degeneration (1); aortic aneurysm (1); varicous veins (1)",
+    "hypotension (2); hypertenson (1)",
+    "influenza (5); acute laringytis (1)",
+    "injuries due to falls (11); fractures: ribs (2), wrist (1), upper limb (1), foot (1), unspecified (2); open wound (1)",
+    "injury (800\u2013959)",
+    "intervertebral discopathy (3); lumbago (3); pain in joint (2); osteoarthrosis (2); spondilosis (1); osteomyelitis (1)",
+    "osteoarthrosis (1)",
+    "other*",
+    "pain in joint (1); lumbago (1)",
+    "pain in joint (4); lumbago (2); rheumatism (1)",
+    "pneumonia (1)",
+    "pulp disease (1); teeth extraction (1)",
+    "rehabilitation (4)",
+    "rehabilitation (5); problems of eye (7), heart (3), diabetes (2), urogenital (2), skin (1); Rx of hip (1)",
+    "symptoms, signs, and ill-defined conditions (780\u2013799)",
+    "tinnitus (1); presbyopia (1); cataract (1); hearing loss (2); glaucoma (1); impacted cerumen (1)"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "factors influencing health status and contact with health services (V01\u2013V83)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hospital admissions"
+      ],
+      "value": "rehabilitation (4)"
+    },
+    {
+      "row": [],
+      "col": [
+        "ER admissions"
+      ],
+      "value": "="
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist visits"
+      ],
+      "value": "rehabilitation (5); problems of eye (7), heart (3), diabetes (2), urogenital (2), skin (1); Rx of hip (1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "GP visits"
+      ],
+      "value": "general control (8); urinary cathether substitution (1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "34"
+    },
+    {
+      "row": [],
+      "col": [
+        "%"
+      ],
+      "value": "19.3"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "symptoms, signs, and ill-defined conditions (780\u2013799)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hospital admissions"
+      ],
+      "value": "chest pain (2); sleep disturbance (1); epistaxis (1); abdominal pain (1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "ER admissions"
+      ],
+      "value": "abdominal pain (2); dyskinesia (1); epistaxis (1); dysphagia (1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist visits"
+      ],
+      "value": "abdominal pain (6); hallucination (1); headache (1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "GP visits"
+      ],
+      "value": "abdominal pain (2); hallucination (1); cough (1); nausea, vomiting (1); urinary incontinence (1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "24"
+    },
+    {
+      "row": [],
+      "col": [
+        "%"
+      ],
+      "value": "13.7"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "injury (800\u2013959)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hospital admissions"
+      ],
+      "value": "fracture of femur (1), femur plus humerus (1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "ER admissions"
+      ],
+      "value": "injuries due to falls (11); fractures: ribs (2), wrist (1), upper limb (1), foot (1), unspecified (2); open wound (1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist visits"
+      ],
+      "value": "="
+    },
+    {
+      "row": [],
+      "col": [
+        "GP visits"
+      ],
+      "value": "fracture unspecified (1); open wound (1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "23"
+    },
+    {
+      "row": [],
+      "col": [
+        "%"
+      ],
+      "value": "13.1"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "diseases of musculo-skeletal system and connective tissue (710\u2013739)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hospital admissions"
+      ],
+      "value": "osteoarthrosis (1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "ER admissions"
+      ],
+      "value": "pain in joint (1); lumbago (1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist visits"
+      ],
+      "value": "intervertebral discopathy (3); lumbago (3); pain in joint (2); osteoarthrosis (2); spondilosis (1); osteomyelitis (1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "GP visits"
+      ],
+      "value": "pain in joint (4); lumbago (2); rheumatism (1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "22"
+    },
+    {
+      "row": [],
+      "col": [
+        "%"
+      ],
+      "value": "12.5"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "diseases of the circulatory system (390\u2013459)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hospital admissions"
+      ],
+      "value": "acute hypotension (2); cerebral ischemia (1); aortic aneurysm (1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "ER admissions"
+      ],
+      "value": "="
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist visits"
+      ],
+      "value": "hypertension (3); ischemic heart disease (2); atrial fibrillation (1); myocardial degeneration (1); aortic aneurysm (1); varicous veins (1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "GP visits"
+      ],
+      "value": "hypotension (2); hypertenson (1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "16"
+    },
+    {
+      "row": [],
+      "col": [
+        "%"
+      ],
+      "value": "9.1"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "diseases of the nervous system and sense organs (320\u2013389)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hospital admissions"
+      ],
+      "value": "cataract (3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "ER admissions"
+      ],
+      "value": "hearing loss (1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist visits"
+      ],
+      "value": "tinnitus (1); presbyopia (1); cataract (1); hearing loss (2); glaucoma (1); impacted cerumen (1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "GP visits"
+      ],
+      "value": "conjunctivitis (2); vertiginous syndrome (1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "14"
+    },
+    {
+      "row": [],
+      "col": [
+        "%"
+      ],
+      "value": "7.9"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "diseases of the digestive system (520\u2013527)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hospital admissions"
+      ],
+      "value": "abdominal hernia (2); gastric ulcer (1); constipation (1); cholelithiasis (1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "ER admissions"
+      ],
+      "value": "pulp disease (1); teeth extraction (1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist visits"
+      ],
+      "value": "avulsions of teeth (2); periodontal disease (1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "GP visits"
+      ],
+      "value": "constipation (2); intestinal obstruction (1); cholelithiasis (1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "14"
+    },
+    {
+      "row": [],
+      "col": [
+        "%"
+      ],
+      "value": "7.9"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "diseases of respiratory system (460\u2013519)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hospital admissions"
+      ],
+      "value": "pneumonia (1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "ER admissions"
+      ],
+      "value": "pneumonia (1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist visits"
+      ],
+      "value": "asthma (1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "GP visits"
+      ],
+      "value": "influenza (5); acute laringytis (1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [
+        "%"
+      ],
+      "value": "5.1"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "other*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hospital admissions"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "ER admissions"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist visits"
+      ],
+      "value": "13"
+    },
+    {
+      "row": [],
+      "col": [
+        "GP visits"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "20"
+    },
+    {
+      "row": [],
+      "col": [
+        "%"
+      ],
+      "value": "11.4"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total"
+    },
+    {
+      "row": [],
+      "col": [
+        "Hospital admissions"
+      ],
+      "value": "29"
+    },
+    {
+      "row": [],
+      "col": [
+        "ER admissions"
+      ],
+      "value": "31"
+    },
+    {
+      "row": [],
+      "col": [
+        "Specialist visits"
+      ],
+      "value": "74"
+    },
+    {
+      "row": [],
+      "col": [
+        "GP visits"
+      ],
+      "value": "42"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "176"
+    },
+    {
+      "row": [],
+      "col": [
+        "%"
+      ],
+      "value": "100.0"
+    }
+  ]
+}

@@ -1,0 +1,803 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "15",
+    "161",
+    "165",
+    "17",
+    "210",
+    "215",
+    "233",
+    "234",
+    "239",
+    "254",
+    "329",
+    "377",
+    "56",
+    "593",
+    "782",
+    "788",
+    "877",
+    "98",
+    "ASE, ASG, ASK, BAG, DD, M3, M5, head neurons [67]",
+    "C11D2.6",
+    "C18H9.7",
+    "CC4.2",
+    "CUB domain",
+    "Ca ++ channel",
+    "Cosmid",
+    "DA",
+    "DB, VA, VB",
+    "DB, VA, VB, AS, body muscle, head neurons, intestine [72]",
+    "DB, VA, VB, head/tail neurons",
+    "DB, ant. VNC motor neurons, pharyngeal/intestinal valves, hypodermis [107]",
+    "DB, touch neurons, pharyngeal neurons, head neurons",
+    "DD, DB, VD, AS",
+    "DD, head/tail neurons, body muscles, pharyngeal muscle [105]",
+    "E03D2.2",
+    "F09C3.2",
+    "F29G6.2",
+    "F33D4.3",
+    "F36A2.4",
+    "F39G3.8",
+    "F43C9.4a",
+    "F55C12.4",
+    "Gene",
+    "I5",
+    "Ig Domain",
+    "K + channel",
+    "K02E10.8",
+    "Other cells",
+    "Protein",
+    "Rank",
+    "T05C12.2",
+    "T19C4.5",
+    "T23D8.2",
+    "T27A1.6",
+    "TGF-\u03b2",
+    "UNC-4 neuron",
+    "VA, HSN and other neurons",
+    "VA, VB, DB, body wall muscle, touch neurons, pharyngeal muscle",
+    "VA, VB, VD, DB, intestine, hypodermis",
+    "VA, intestine, head neurons [105]",
+    "VB, AS, DB, DD, HSN, VC4 & 5, AIY, head neurons, muscles, intestine",
+    "VB, DB, DD, AS, VD",
+    "VD, AS, VB, DB, body muscles",
+    "Y47D3B.2A",
+    "ZC21.2",
+    "acr-14",
+    "all VNC motor neurons [106]",
+    "all VNC motor neurons, head/tail neurons, touch neurons",
+    "flp-13",
+    "mab-9",
+    "mig-13",
+    "nAChR",
+    "nca-1",
+    "neuropeptide",
+    "nlp-15",
+    "nlp-21",
+    "nlp-9",
+    "no GFP",
+    "novel",
+    "phosphatase",
+    "rapsyn",
+    "rpy-1",
+    "syg-1",
+    "tetraspanin",
+    "tig-2",
+    "transcrip. factor",
+    "trp-1",
+    "tsp-7",
+    "twk-30"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Rank"
+      ],
+      "value": "15"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cosmid"
+      ],
+      "value": "F33D4.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gene"
+      ],
+      "value": "flp-13"
+    },
+    {
+      "row": [],
+      "col": [
+        "Protein"
+      ],
+      "value": "neuropeptide"
+    },
+    {
+      "row": [],
+      "col": [
+        "UNC-4 neuron"
+      ],
+      "value": "I5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other cells"
+      ],
+      "value": "ASE, ASG, ASK, BAG, DD, M3, M5, head neurons [67]"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rank"
+      ],
+      "value": "17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cosmid"
+      ],
+      "value": "C11D2.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gene"
+      ],
+      "value": "nca-1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Protein"
+      ],
+      "value": "Ca ++ channel"
+    },
+    {
+      "row": [],
+      "col": [
+        "UNC-4 neuron"
+      ],
+      "value": "DA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other cells"
+      ],
+      "value": "DB, VA, VB, head/tail neurons"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rank"
+      ],
+      "value": "56"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cosmid"
+      ],
+      "value": "F09C3.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Protein"
+      ],
+      "value": "phosphatase"
+    },
+    {
+      "row": [],
+      "col": [
+        "UNC-4 neuron"
+      ],
+      "value": "DA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other cells"
+      ],
+      "value": "VA, VB, VD, DB, intestine, hypodermis"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rank"
+      ],
+      "value": "98"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cosmid"
+      ],
+      "value": "T19C4.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Protein"
+      ],
+      "value": "novel"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other cells"
+      ],
+      "value": "no GFP"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rank"
+      ],
+      "value": "161"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cosmid"
+      ],
+      "value": "T23D8.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gene"
+      ],
+      "value": "tsp-7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Protein"
+      ],
+      "value": "tetraspanin"
+    },
+    {
+      "row": [],
+      "col": [
+        "UNC-4 neuron"
+      ],
+      "value": "DA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other cells"
+      ],
+      "value": "all VNC motor neurons, head/tail neurons, touch neurons"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rank"
+      ],
+      "value": "165"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cosmid"
+      ],
+      "value": "CC4.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gene"
+      ],
+      "value": "nlp-15"
+    },
+    {
+      "row": [],
+      "col": [
+        "Protein"
+      ],
+      "value": "neuropeptide"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other cells"
+      ],
+      "value": "DD, head/tail neurons, body muscles, pharyngeal muscle [105]"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rank"
+      ],
+      "value": "210"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cosmid"
+      ],
+      "value": "F29G6.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Protein"
+      ],
+      "value": "novel"
+    },
+    {
+      "row": [],
+      "col": [
+        "UNC-4 neuron"
+      ],
+      "value": "DA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other cells"
+      ],
+      "value": "DB, touch neurons, pharyngeal neurons, head neurons"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rank"
+      ],
+      "value": "215"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cosmid"
+      ],
+      "value": "F39G3.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gene"
+      ],
+      "value": "tig-2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Protein"
+      ],
+      "value": "TGF-\u03b2"
+    },
+    {
+      "row": [],
+      "col": [
+        "UNC-4 neuron"
+      ],
+      "value": "DA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other cells"
+      ],
+      "value": "VA, VB, DB, body wall muscle, touch neurons, pharyngeal muscle"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rank"
+      ],
+      "value": "233"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cosmid"
+      ],
+      "value": "F55C12.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Protein"
+      ],
+      "value": "novel"
+    },
+    {
+      "row": [],
+      "col": [
+        "UNC-4 neuron"
+      ],
+      "value": "DA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other cells"
+      ],
+      "value": "VB, DB, DD, AS, VD"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rank"
+      ],
+      "value": "234"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cosmid"
+      ],
+      "value": "E03D2.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gene"
+      ],
+      "value": "nlp-9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Protein"
+      ],
+      "value": "neuropeptide"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other cells"
+      ],
+      "value": "VA, intestine, head neurons [105]"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rank"
+      ],
+      "value": "239"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cosmid"
+      ],
+      "value": "ZC21.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gene"
+      ],
+      "value": "trp-1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Protein"
+      ],
+      "value": "Ca ++ channel"
+    },
+    {
+      "row": [],
+      "col": [
+        "UNC-4 neuron"
+      ],
+      "value": "DA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other cells"
+      ],
+      "value": "DB, VA, VB"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rank"
+      ],
+      "value": "254"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cosmid"
+      ],
+      "value": "Y47D3B.2A"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gene"
+      ],
+      "value": "nlp-21"
+    },
+    {
+      "row": [],
+      "col": [
+        "Protein"
+      ],
+      "value": "neuropeptide"
+    },
+    {
+      "row": [],
+      "col": [
+        "UNC-4 neuron"
+      ],
+      "value": "DA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other cells"
+      ],
+      "value": "DB, VA, VB, AS, body muscle, head neurons, intestine [72]"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rank"
+      ],
+      "value": "329"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cosmid"
+      ],
+      "value": "F36A2.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gene"
+      ],
+      "value": "twk-30"
+    },
+    {
+      "row": [],
+      "col": [
+        "Protein"
+      ],
+      "value": "K + channel"
+    },
+    {
+      "row": [],
+      "col": [
+        "UNC-4 neuron"
+      ],
+      "value": "DA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other cells"
+      ],
+      "value": "all VNC motor neurons [106]"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rank"
+      ],
+      "value": "377"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cosmid"
+      ],
+      "value": "C18H9.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gene"
+      ],
+      "value": "rpy-1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Protein"
+      ],
+      "value": "rapsyn"
+    },
+    {
+      "row": [],
+      "col": [
+        "UNC-4 neuron"
+      ],
+      "value": "DA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other cells"
+      ],
+      "value": "VD, AS, VB, DB, body muscles"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rank"
+      ],
+      "value": "593"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cosmid"
+      ],
+      "value": "F43C9.4a"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gene"
+      ],
+      "value": "mig-13"
+    },
+    {
+      "row": [],
+      "col": [
+        "Protein"
+      ],
+      "value": "CUB domain"
+    },
+    {
+      "row": [],
+      "col": [
+        "UNC-4 neuron"
+      ],
+      "value": "DA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other cells"
+      ],
+      "value": "DB, ant. VNC motor neurons, pharyngeal/intestinal valves, hypodermis [107]"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rank"
+      ],
+      "value": "782"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cosmid"
+      ],
+      "value": "T05C12.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gene"
+      ],
+      "value": "acr-14"
+    },
+    {
+      "row": [],
+      "col": [
+        "Protein"
+      ],
+      "value": "nAChR"
+    },
+    {
+      "row": [],
+      "col": [
+        "UNC-4 neuron"
+      ],
+      "value": "DA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other cells"
+      ],
+      "value": "VB, AS, DB, DD, HSN, VC4 & 5, AIY, head neurons, muscles, intestine"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rank"
+      ],
+      "value": "788"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cosmid"
+      ],
+      "value": "T27A1.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gene"
+      ],
+      "value": "mab-9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Protein"
+      ],
+      "value": "transcrip. factor"
+    },
+    {
+      "row": [],
+      "col": [
+        "UNC-4 neuron"
+      ],
+      "value": "DA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other cells"
+      ],
+      "value": "DD, DB, VD, AS"
+    },
+    {
+      "row": [],
+      "col": [
+        "Rank"
+      ],
+      "value": "877"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cosmid"
+      ],
+      "value": "K02E10.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gene"
+      ],
+      "value": "syg-1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Protein"
+      ],
+      "value": "Ig Domain"
+    },
+    {
+      "row": [],
+      "col": [
+        "UNC-4 neuron"
+      ],
+      "value": "DA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other cells"
+      ],
+      "value": "VA, HSN and other neurons"
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+<!-- source: PubTabNet imgid=340742 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+</td>
+<td>
+<b>
+       Interested
+      </b>
+</td>
+<td>
+<b>
+       Want more information
+      </b>
+</td>
+<td>
+<b>
+       Do not know
+      </b>
+</td>
+<td>
+<b>
+       Non-interested
+      </b>
+</td>
+<td>
+<b>
+       All respondents
+      </b>
+</td>
+<td>
+<b>
+       No reply
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<b>
+       (n = 225)
+      </b>
+</td>
+<td>
+<b>
+       (n = 163)
+      </b>
+</td>
+<td>
+<b>
+       (n = 371)
+      </b>
+</td>
+<td>
+<b>
+       (n = 553)
+      </b>
+</td>
+<td>
+<b>
+       (n = 1312)
+      </b>
+</td>
+<td>
+<b>
+       (n = 688)
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<b>
+       (% = 11)
+      </b>
+</td>
+<td>
+<b>
+       (% = 8)
+      </b>
+</td>
+<td>
+<b>
+       (% = 19)
+      </b>
+</td>
+<td>
+<b>
+       (% = 28)
+      </b>
+</td>
+<td>
+<b>
+       (% = 66)
+      </b>
+</td>
+<td>
+<b>
+       (% = 34)
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+      Median age, years
+      <sup>
+       2)
+      </sup>
+</td>
+<td>
+      51
+     </td>
+<td>
+      53
+     </td>
+<td>
+      53*
+     </td>
+<td>
+      56***
+     </td>
+<td>
+      54
+     </td>
+<td>
+      53*
+     </td>
+</tr>
+<tr>
+<td>
+      Lives in the capital, %
+     </td>
+<td>
+      68
+     </td>
+<td>
+      64
+     </td>
+<td>
+      67
+     </td>
+<td>
+      62
+     </td>
+<td>
+      65
+     </td>
+<td>
+      76
+      <sup>
+       3)
+      </sup>
+</td>
+</tr>
+<tr>
+<td>
+      Married or cohabiting, %
+     </td>
+<td>
+      62
+     </td>
+<td>
+      64
+     </td>
+<td>
+      63
+     </td>
+<td>
+      58
+     </td>
+<td>
+      61
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      ≥ 12 years of education, %
+     </td>
+<td>
+      64
+     </td>
+<td>
+      62
+     </td>
+<td>
+      60
+     </td>
+<td>
+      61
+     </td>
+<td>
+      61
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      In employment, %
+     </td>
+<td>
+      78
+     </td>
+<td>
+      72
+     </td>
+<td>
+      73
+     </td>
+<td>
+      67
+     </td>
+<td>
+      70
+     </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+      Given birth, %
+     </td>
+<td>
+      92
+     </td>
+<td>
+      92
+     </td>
+<td>
+      89
+     </td>
+<td>
+      85
+      <sup>
+       4)
+      </sup>
+</td>
+<td>
+      87
+     </td>
+<td>
+</td>
+</tr>
+</tbody>
+</table>

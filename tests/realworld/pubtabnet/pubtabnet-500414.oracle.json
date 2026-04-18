@@ -1,0 +1,427 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0.14",
+    "0.17",
+    "0.21",
+    "0.24",
+    "0.25",
+    "0.34",
+    "0.53",
+    "0.61",
+    "0.69",
+    "0.70",
+    "0.74",
+    "0.75",
+    "0.81",
+    "0.83",
+    "0.97 *",
+    "1.00 *",
+    "110",
+    "133",
+    "234",
+    "239",
+    "254",
+    "343",
+    "381",
+    "437",
+    "451",
+    "581",
+    "660",
+    "912",
+    "94",
+    "All relations",
+    "All sentences",
+    "Discovering relations not in MIPS table",
+    "Exclude genes",
+    "Exclude negatives, alleles",
+    "Exclude proteins not part of true relations table.",
+    "F measure",
+    "Include only validated 2-hop relations",
+    "Including network analysis data",
+    "Matched relations",
+    "Precision",
+    "Recall",
+    "Require verbs",
+    "Sample size"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "All sentences"
+    },
+    {
+      "row": [],
+      "col": [
+        "Matched relations"
+      ],
+      "value": "133"
+    },
+    {
+      "row": [],
+      "col": [
+        "All relations"
+      ],
+      "value": "912"
+    },
+    {
+      "row": [],
+      "col": [
+        "Precision"
+      ],
+      "value": "0.14"
+    },
+    {
+      "row": [],
+      "col": [
+        "Recall"
+      ],
+      "value": "1.00 *"
+    },
+    {
+      "row": [],
+      "col": [
+        "F measure"
+      ],
+      "value": "0.24"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sample size"
+      ],
+      "value": "451"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Exclude genes"
+    },
+    {
+      "row": [],
+      "col": [
+        "Matched relations"
+      ],
+      "value": "110"
+    },
+    {
+      "row": [],
+      "col": [
+        "All relations"
+      ],
+      "value": "660"
+    },
+    {
+      "row": [],
+      "col": [
+        "Precision"
+      ],
+      "value": "0.17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Recall"
+      ],
+      "value": "1.00 *"
+    },
+    {
+      "row": [],
+      "col": [
+        "F measure"
+      ],
+      "value": "0.25"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sample size"
+      ],
+      "value": "451"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Require verbs"
+    },
+    {
+      "row": [],
+      "col": [
+        "Matched relations"
+      ],
+      "value": "94"
+    },
+    {
+      "row": [],
+      "col": [
+        "All relations"
+      ],
+      "value": "437"
+    },
+    {
+      "row": [],
+      "col": [
+        "Precision"
+      ],
+      "value": "0.21"
+    },
+    {
+      "row": [],
+      "col": [
+        "Recall"
+      ],
+      "value": "1.00 *"
+    },
+    {
+      "row": [],
+      "col": [
+        "F measure"
+      ],
+      "value": "0.34"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sample size"
+      ],
+      "value": "451"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Discovering relations not in MIPS table"
+    },
+    {
+      "row": [],
+      "col": [
+        "Matched relations"
+      ],
+      "value": "234"
+    },
+    {
+      "row": [],
+      "col": [
+        "All relations"
+      ],
+      "value": "437"
+    },
+    {
+      "row": [],
+      "col": [
+        "Precision"
+      ],
+      "value": "0.53"
+    },
+    {
+      "row": [],
+      "col": [
+        "Recall"
+      ],
+      "value": "1.00 *"
+    },
+    {
+      "row": [],
+      "col": [
+        "F measure"
+      ],
+      "value": "0.69"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sample size"
+      ],
+      "value": "451"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Exclude negatives, alleles"
+    },
+    {
+      "row": [],
+      "col": [
+        "Matched relations"
+      ],
+      "value": "239"
+    },
+    {
+      "row": [],
+      "col": [
+        "All relations"
+      ],
+      "value": "381"
+    },
+    {
+      "row": [],
+      "col": [
+        "Precision"
+      ],
+      "value": "0.61"
+    },
+    {
+      "row": [],
+      "col": [
+        "Recall"
+      ],
+      "value": "1.00 *"
+    },
+    {
+      "row": [],
+      "col": [
+        "F measure"
+      ],
+      "value": "0.75"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sample size"
+      ],
+      "value": "451"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Including network analysis data"
+    },
+    {
+      "row": [],
+      "col": [
+        "Matched relations"
+      ],
+      "value": "Including network analysis data"
+    },
+    {
+      "row": [],
+      "col": [
+        "All relations"
+      ],
+      "value": "Including network analysis data"
+    },
+    {
+      "row": [],
+      "col": [
+        "Precision"
+      ],
+      "value": "Including network analysis data"
+    },
+    {
+      "row": [],
+      "col": [
+        "Recall"
+      ],
+      "value": "Including network analysis data"
+    },
+    {
+      "row": [],
+      "col": [
+        "F measure"
+      ],
+      "value": "Including network analysis data"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sample size"
+      ],
+      "value": "Including network analysis data"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Exclude proteins not part of true relations table."
+    },
+    {
+      "row": [],
+      "col": [
+        "Matched relations"
+      ],
+      "value": "239"
+    },
+    {
+      "row": [],
+      "col": [
+        "All relations"
+      ],
+      "value": "343"
+    },
+    {
+      "row": [],
+      "col": [
+        "Precision"
+      ],
+      "value": "0.70"
+    },
+    {
+      "row": [],
+      "col": [
+        "Recall"
+      ],
+      "value": "0.97 *"
+    },
+    {
+      "row": [],
+      "col": [
+        "F measure"
+      ],
+      "value": "0.81"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sample size"
+      ],
+      "value": "581"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Include only validated 2-hop relations"
+    },
+    {
+      "row": [],
+      "col": [
+        "Matched relations"
+      ],
+      "value": "254"
+    },
+    {
+      "row": [],
+      "col": [
+        "All relations"
+      ],
+      "value": "343"
+    },
+    {
+      "row": [],
+      "col": [
+        "Precision"
+      ],
+      "value": "0.74"
+    },
+    {
+      "row": [],
+      "col": [
+        "Recall"
+      ],
+      "value": "0.97 *"
+    },
+    {
+      "row": [],
+      "col": [
+        "F measure"
+      ],
+      "value": "0.83"
+    },
+    {
+      "row": [],
+      "col": [
+        "Sample size"
+      ],
+      "value": "581"
+    }
+  ]
+}

@@ -1,0 +1,452 @@
+<!-- source: PubTabNet imgid=79064 (https://huggingface.co/datasets/apoidea/pubtabnet-html, CDLA-Permissive-1.0) -->
+<table frame="hsides" rules="groups" width="100%">
+<thead>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td colspan="2">
+<b>
+       Prevalence (%)
+      </b>
+</td>
+<td colspan="4">
+<b>
+       Intensity (mf/ml)
+      </b>
+</td>
+</tr>
+<tr>
+<td>
+<b>
+       Village
+      </b>
+</td>
+<td>
+<b>
+       Population*
+      </b>
+</td>
+<td>
+<b>
+       No. Examined
+      </b>
+</td>
+<td>
+<b>
+       RAPLOA
+      </b>
+</td>
+<td>
+<b>
+       Thick blood film
+      </b>
+</td>
+<td>
+<b>
+       Arithmetic Mean Mf +ve &amp; -ve individuals
+      </b>
+</td>
+<td>
+<b>
+       Arithmetic Mean Mf +ve individuals
+      </b>
+</td>
+<td>
+<b>
+       William's means &gt; 15
+      </b>
+</td>
+<td>
+<b>
+       William's means &gt; 20 (CMFL)
+      </b>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<b>
+       Ambombo
+      </b>
+</td>
+<td>
+      250
+     </td>
+<td>
+      49
+     </td>
+<td>
+      24.49
+     </td>
+<td>
+      6.12
+     </td>
+<td>
+      1.63
+     </td>
+<td>
+      27.67
+     </td>
+<td>
+      1.22
+     </td>
+<td>
+      1.25
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       Bifang
+      </b>
+</td>
+<td>
+      1889
+     </td>
+<td>
+      141
+     </td>
+<td>
+      21.99
+     </td>
+<td>
+      3.55
+     </td>
+<td>
+      81.99
+     </td>
+<td>
+      2313
+     </td>
+<td>
+      1.25
+     </td>
+<td>
+      1.30
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       Mbullam
+      </b>
+</td>
+<td>
+      65
+     </td>
+<td>
+      21
+     </td>
+<td>
+      19.05
+     </td>
+<td>
+      14.29
+     </td>
+<td>
+      86.67
+     </td>
+<td>
+      608.67
+     </td>
+<td>
+      2.36
+     </td>
+<td>
+      2.21
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       Dinku
+      </b>
+</td>
+<td>
+      516
+     </td>
+<td>
+      159
+     </td>
+<td>
+      30.82
+     </td>
+<td>
+      10.69
+     </td>
+<td>
+      1.3.77
+     </td>
+<td>
+      970.79
+     </td>
+<td>
+      1.83
+     </td>
+<td>
+      2.02
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       Ebendi
+      </b>
+</td>
+<td>
+      260
+     </td>
+<td>
+      120
+     </td>
+<td>
+      13.33
+     </td>
+<td>
+      3.36
+     </td>
+<td>
+      8.00
+     </td>
+<td>
+      240.00
+     </td>
+<td>
+      1.18
+     </td>
+<td>
+      1.14
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       Eka
+      </b>
+</td>
+<td>
+      1079
+     </td>
+<td>
+      96
+     </td>
+<td>
+      14.58
+     </td>
+<td>
+      9.38
+     </td>
+<td>
+      418.96
+     </td>
+<td>
+      4468.89
+     </td>
+<td>
+      1.87
+     </td>
+<td>
+      1.96
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       Ngalla
+      </b>
+</td>
+<td>
+      765
+     </td>
+<td>
+      138
+     </td>
+<td>
+      16.67
+     </td>
+<td>
+      7.25
+     </td>
+<td>
+      232.46
+     </td>
+<td>
+      3208.00
+     </td>
+<td>
+      1.53
+     </td>
+<td>
+      1.55
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       Oche 1
+      </b>
+</td>
+<td>
+      83
+     </td>
+<td>
+      32
+     </td>
+<td>
+      9.38
+     </td>
+<td>
+      12.50
+     </td>
+<td>
+      293.13
+     </td>
+<td>
+      2345.00
+     </td>
+<td>
+      2.08
+     </td>
+<td>
+      2.13
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       Oche 2
+      </b>
+</td>
+<td>
+      77
+     </td>
+<td>
+      29
+     </td>
+<td>
+      31.03
+     </td>
+<td>
+      10.34
+     </td>
+<td>
+      13.10
+     </td>
+<td>
+      126.67
+     </td>
+<td>
+      1.609
+     </td>
+<td>
+      1.93
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       Olorunti
+      </b>
+</td>
+<td>
+      707
+     </td>
+<td>
+      192
+     </td>
+<td>
+      20.31
+     </td>
+<td>
+      4.69
+     </td>
+<td>
+      119.27
+     </td>
+<td>
+      2544.44
+     </td>
+<td>
+      1.39
+     </td>
+<td>
+      1.40
+     </td>
+</tr>
+<tr>
+<td>
+<b>
+       Total
+      </b>
+</td>
+<td>
+<b>
+       5691
+      </b>
+</td>
+<td>
+<b>
+       977
+      </b>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<b>
+       Average
+      </b>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+<b>
+       20.47
+      </b>
+</td>
+<td>
+<b>
+       6.86
+      </b>
+</td>
+<td>
+<b>
+       139.08
+      </b>
+</td>
+<td>
+<b>
+       2028.06
+      </b>
+</td>
+<td>
+<b>
+       1.50
+      </b>
+</td>
+<td>
+<b>
+       1.53
+      </b>
+</td>
+</tr>
+</tbody>
+</table>

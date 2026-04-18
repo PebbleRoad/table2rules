@@ -1,0 +1,316 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "107",
+    "112",
+    "128",
+    "14790131",
+    "18",
+    "20",
+    "21",
+    "21536298",
+    "22",
+    "225",
+    "25",
+    "287\u2013306",
+    "378\u2013399",
+    "4559277",
+    "470\u2013490",
+    "732\u2013751",
+    "741\u2013761",
+    "7669491",
+    "81\u201398",
+    "829\u2013848",
+    "836\u2013860",
+    "CLDN1",
+    "CLDN3",
+    "CLDN4",
+    "Forward",
+    "GAPDH",
+    "GI number",
+    "Primer",
+    "Product size (bp)",
+    "Reverse",
+    "Sequence 5'\u20133'",
+    "Size (bp)",
+    "ctgctctgctgctcgtgtcc",
+    "gaagatggtgatgggatttc",
+    "gaaggtgaaggtcggagt",
+    "gagccgtggcaccttacacg",
+    "ggctgctttgctgcaactgtc",
+    "ttagacgtagtccttgcggtcgtag",
+    "ttc gta cct ggc att gac tgg",
+    "ttcgtacctggcattgactgg"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Primer"
+      ],
+      "value": "CLDN1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Forward",
+        "Sequence 5'\u20133'"
+      ],
+      "value": "ttcgtacctggcattgactgg"
+    },
+    {
+      "row": [],
+      "col": [
+        "Forward",
+        "Size (bp)"
+      ],
+      "value": "378\u2013399"
+    },
+    {
+      "row": [],
+      "col": [
+        "Forward"
+      ],
+      "value": "22"
+    },
+    {
+      "row": [],
+      "col": [
+        "Reverse",
+        "Sequence 5'\u20133'"
+      ],
+      "value": "ttc gta cct ggc att gac tgg"
+    },
+    {
+      "row": [],
+      "col": [
+        "Reverse",
+        "Size (bp)"
+      ],
+      "value": "470\u2013490"
+    },
+    {
+      "row": [],
+      "col": [
+        "Reverse"
+      ],
+      "value": "21"
+    },
+    {
+      "row": [],
+      "col": [
+        "Product size (bp)"
+      ],
+      "value": "112"
+    },
+    {
+      "row": [],
+      "col": [
+        "GI number"
+      ],
+      "value": "4559277"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primer"
+      ],
+      "value": "CLDN3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Forward",
+        "Sequence 5'\u20133'"
+      ],
+      "value": "ctgctctgctgctcgtgtcc"
+    },
+    {
+      "row": [],
+      "col": [
+        "Forward",
+        "Size (bp)"
+      ],
+      "value": "732\u2013751"
+    },
+    {
+      "row": [],
+      "col": [
+        "Forward"
+      ],
+      "value": "20"
+    },
+    {
+      "row": [],
+      "col": [
+        "Reverse",
+        "Sequence 5'\u20133'"
+      ],
+      "value": "ttagacgtagtccttgcggtcgtag"
+    },
+    {
+      "row": [],
+      "col": [
+        "Reverse",
+        "Size (bp)"
+      ],
+      "value": "836\u2013860"
+    },
+    {
+      "row": [],
+      "col": [
+        "Reverse"
+      ],
+      "value": "25"
+    },
+    {
+      "row": [],
+      "col": [
+        "Product size (bp)"
+      ],
+      "value": "128"
+    },
+    {
+      "row": [],
+      "col": [
+        "GI number"
+      ],
+      "value": "21536298"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primer"
+      ],
+      "value": "CLDN4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Forward",
+        "Sequence 5'\u20133'"
+      ],
+      "value": "ggctgctttgctgcaactgtc"
+    },
+    {
+      "row": [],
+      "col": [
+        "Forward",
+        "Size (bp)"
+      ],
+      "value": "741\u2013761"
+    },
+    {
+      "row": [],
+      "col": [
+        "Forward"
+      ],
+      "value": "21"
+    },
+    {
+      "row": [],
+      "col": [
+        "Reverse",
+        "Sequence 5'\u20133'"
+      ],
+      "value": "gagccgtggcaccttacacg"
+    },
+    {
+      "row": [],
+      "col": [
+        "Reverse",
+        "Size (bp)"
+      ],
+      "value": "829\u2013848"
+    },
+    {
+      "row": [],
+      "col": [
+        "Reverse"
+      ],
+      "value": "20"
+    },
+    {
+      "row": [],
+      "col": [
+        "Product size (bp)"
+      ],
+      "value": "107"
+    },
+    {
+      "row": [],
+      "col": [
+        "GI number"
+      ],
+      "value": "14790131"
+    },
+    {
+      "row": [],
+      "col": [
+        "Primer"
+      ],
+      "value": "GAPDH"
+    },
+    {
+      "row": [],
+      "col": [
+        "Forward",
+        "Sequence 5'\u20133'"
+      ],
+      "value": "gaagatggtgatgggatttc"
+    },
+    {
+      "row": [],
+      "col": [
+        "Forward",
+        "Size (bp)"
+      ],
+      "value": "81\u201398"
+    },
+    {
+      "row": [],
+      "col": [
+        "Forward"
+      ],
+      "value": "20"
+    },
+    {
+      "row": [],
+      "col": [
+        "Reverse",
+        "Sequence 5'\u20133'"
+      ],
+      "value": "gaaggtgaaggtcggagt"
+    },
+    {
+      "row": [],
+      "col": [
+        "Reverse",
+        "Size (bp)"
+      ],
+      "value": "287\u2013306"
+    },
+    {
+      "row": [],
+      "col": [
+        "Reverse"
+      ],
+      "value": "18"
+    },
+    {
+      "row": [],
+      "col": [
+        "Product size (bp)"
+      ],
+      "value": "225"
+    },
+    {
+      "row": [],
+      "col": [
+        "GI number"
+      ],
+      "value": "7669491"
+    }
+  ]
+}

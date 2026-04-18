@@ -1,0 +1,455 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0.001",
+    "0.002",
+    "0.004",
+    "0.005",
+    "0.019",
+    "0.045",
+    "0.06",
+    "0.09",
+    "0.36",
+    "0.48",
+    "0.90",
+    "10 (29%)",
+    "11 (4\u201322)",
+    "12 (35%)",
+    "12 (55%)",
+    "13 (38.2%)",
+    "15 (68%)",
+    "17 (50%)",
+    "17 (77%)",
+    "170 \u00b1 142.2",
+    "176 \u00b1 162.3",
+    "18 (12\u201329)",
+    "18 \u00b1 10.6",
+    "2 (2\u20137)",
+    "20 (59%)",
+    "20 (91%)",
+    "21 (62%)",
+    "22 (100%)",
+    "25 \u00b1 8.5",
+    "4 (12%)",
+    "4 (9\u201313)",
+    "5.7 \u00b1 2.09",
+    "51 \u00b1 12.8",
+    "6.3 \u00b1 2.03",
+    "62 \u00b1 12.0",
+    "8 (36%)",
+    "<0.001",
+    "APACHE II score (mean \u00b1 SD)",
+    "Acute renal failure",
+    "Age, years (mean \u00b1 SD)",
+    "CRP at admission, mg/dl (mean \u00b1 SD)",
+    "Cardiovascular failure",
+    "Characteristic",
+    "Early surgical intervention",
+    "Interval from diagnosis to surgery, days (median and IQR)",
+    "MODS as indication for surgery",
+    "Male gender",
+    "Non-survivors ( n = 22)",
+    "Organ dysfunction",
+    "P",
+    "Ranson score (mean \u00b1 SD)",
+    "Respiratory insufficiency",
+    "SOFA score at surgery (median and IQR)",
+    "Sterile necrosis",
+    "Survivors ( n = 34)"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Age, years (mean \u00b1 SD)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-survivors ( n = 22)"
+      ],
+      "value": "62 \u00b1 12.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Survivors ( n = 34)"
+      ],
+      "value": "51 \u00b1 12.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.002"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "APACHE II score (mean \u00b1 SD)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-survivors ( n = 22)"
+      ],
+      "value": "25 \u00b1 8.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Survivors ( n = 34)"
+      ],
+      "value": "18 \u00b1 10.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.019"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Ranson score (mean \u00b1 SD)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-survivors ( n = 22)"
+      ],
+      "value": "6.3 \u00b1 2.03"
+    },
+    {
+      "row": [],
+      "col": [
+        "Survivors ( n = 34)"
+      ],
+      "value": "5.7 \u00b1 2.09"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.36"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Male gender"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-survivors ( n = 22)"
+      ],
+      "value": "15 (68%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Survivors ( n = 34)"
+      ],
+      "value": "20 (59%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.48"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "CRP at admission, mg/dl (mean \u00b1 SD)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-survivors ( n = 22)"
+      ],
+      "value": "176 \u00b1 162.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Survivors ( n = 34)"
+      ],
+      "value": "170 \u00b1 142.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.90"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Organ dysfunction"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-survivors ( n = 22)"
+      ],
+      "value": "Organ dysfunction"
+    },
+    {
+      "row": [],
+      "col": [
+        "Survivors ( n = 34)"
+      ],
+      "value": "Organ dysfunction"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "Organ dysfunction"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Respiratory insufficiency"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-survivors ( n = 22)"
+      ],
+      "value": "22 (100%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Survivors ( n = 34)"
+      ],
+      "value": "21 (62%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Acute renal failure"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-survivors ( n = 22)"
+      ],
+      "value": "22 (100%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Survivors ( n = 34)"
+      ],
+      "value": "17 (50%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "<0.001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Cardiovascular failure"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-survivors ( n = 22)"
+      ],
+      "value": "20 (91%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Survivors ( n = 34)"
+      ],
+      "value": "12 (35%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "<0.001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Sterile necrosis"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-survivors ( n = 22)"
+      ],
+      "value": "17 (77%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Survivors ( n = 34)"
+      ],
+      "value": "13 (38.2%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.004"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "SOFA score at surgery (median and IQR)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-survivors ( n = 22)"
+      ],
+      "value": "4 (9\u201313)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Survivors ( n = 34)"
+      ],
+      "value": "2 (2\u20137)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.005"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "MODS as indication for surgery"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-survivors ( n = 22)"
+      ],
+      "value": "8 (36%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Survivors ( n = 34)"
+      ],
+      "value": "4 (12%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.045"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Early surgical intervention"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-survivors ( n = 22)"
+      ],
+      "value": "12 (55%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Survivors ( n = 34)"
+      ],
+      "value": "10 (29%)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.06"
+    },
+    {
+      "row": [],
+      "col": [
+        "Characteristic"
+      ],
+      "value": "Interval from diagnosis to surgery, days (median and IQR)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-survivors ( n = 22)"
+      ],
+      "value": "11 (4\u201322)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Survivors ( n = 34)"
+      ],
+      "value": "18 (12\u201329)"
+    },
+    {
+      "row": [],
+      "col": [
+        "P"
+      ],
+      "value": "0.09"
+    }
+  ]
+}

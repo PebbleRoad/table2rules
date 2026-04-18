@@ -1,0 +1,590 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/pubtabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "0.2",
+    "0.3",
+    "0.4",
+    "0.5",
+    "0.6",
+    "0.7",
+    "0.8",
+    "0.9",
+    "1",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "Anxious, more",
+    "Burned out",
+    "Decrease of beard growth",
+    "Depressive, more",
+    "EUROPE, other 5907",
+    "FRANCE 903",
+    "Irritability, increased",
+    "Item Nr.",
+    "Joint complaints, more",
+    "Libido, disturbed",
+    "Morning erections, less",
+    "Muscular weakness",
+    "N",
+    "Nervousness, more",
+    "Passed peak",
+    "Physical exhaustion",
+    "Psych",
+    "Sex",
+    "Sexual potency, impaired",
+    "Sleep disturbances, more",
+    "Sleep, need for more",
+    "Somat",
+    "Sweating, increased",
+    "Well-being, impaired"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Burned out"
+    },
+    {
+      "row": [],
+      "col": [
+        "N",
+        "Item Nr."
+      ],
+      "value": "13"
+    },
+    {
+      "row": [],
+      "col": [
+        "FRANCE 903",
+        "Psych"
+      ],
+      "value": "0.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "FRANCE 903",
+        "Somat"
+      ],
+      "value": "0.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "EUROPE, other 5907",
+        "Psych"
+      ],
+      "value": "0.7"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Depressive, more"
+    },
+    {
+      "row": [],
+      "col": [
+        "N",
+        "Item Nr."
+      ],
+      "value": "11"
+    },
+    {
+      "row": [],
+      "col": [
+        "FRANCE 903",
+        "Psych"
+      ],
+      "value": "0.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "FRANCE 903",
+        "Somat"
+      ],
+      "value": "0.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "EUROPE, other 5907",
+        "Psych"
+      ],
+      "value": "0.8"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Irritability, increased"
+    },
+    {
+      "row": [],
+      "col": [
+        "N",
+        "Item Nr."
+      ],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [
+        "FRANCE 903",
+        "Psych"
+      ],
+      "value": "0.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "EUROPE, other 5907",
+        "Psych"
+      ],
+      "value": "0.6"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Anxious, more"
+    },
+    {
+      "row": [],
+      "col": [
+        "N",
+        "Item Nr."
+      ],
+      "value": "8"
+    },
+    {
+      "row": [],
+      "col": [
+        "FRANCE 903",
+        "Psych"
+      ],
+      "value": "0.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "EUROPE, other 5907",
+        "Psych"
+      ],
+      "value": "0.7"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Nervousness, more"
+    },
+    {
+      "row": [],
+      "col": [
+        "N",
+        "Item Nr."
+      ],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [
+        "FRANCE 903",
+        "Psych"
+      ],
+      "value": "0.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "EUROPE, other 5907",
+        "Psych"
+      ],
+      "value": "0.6"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Joint complaints, more"
+    },
+    {
+      "row": [],
+      "col": [
+        "N",
+        "Item Nr."
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "FRANCE 903",
+        "Somat"
+      ],
+      "value": "0.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "EUROPE, other 5907",
+        "Somat"
+      ],
+      "value": "0.7"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Sweating, increased"
+    },
+    {
+      "row": [],
+      "col": [
+        "N",
+        "Item Nr."
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "FRANCE 903",
+        "Psych"
+      ],
+      "value": "0.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "FRANCE 903",
+        "Somat"
+      ],
+      "value": "0.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "EUROPE, other 5907",
+        "Somat"
+      ],
+      "value": "0.5"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Sleep, need for more"
+    },
+    {
+      "row": [],
+      "col": [
+        "N",
+        "Item Nr."
+      ],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [
+        "FRANCE 903",
+        "Somat"
+      ],
+      "value": "0.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "EUROPE, other 5907",
+        "Somat"
+      ],
+      "value": "0.6"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Well-being, impaired"
+    },
+    {
+      "row": [],
+      "col": [
+        "N",
+        "Item Nr."
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "FRANCE 903",
+        "Somat"
+      ],
+      "value": "0.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "EUROPE, other 5907",
+        "Somat"
+      ],
+      "value": "0.7"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Sleep disturbances, more"
+    },
+    {
+      "row": [],
+      "col": [
+        "N",
+        "Item Nr."
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "FRANCE 903",
+        "Somat"
+      ],
+      "value": "0.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "EUROPE, other 5907",
+        "Somat"
+      ],
+      "value": "0.6"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Muscular weakness"
+    },
+    {
+      "row": [],
+      "col": [
+        "N",
+        "Item Nr."
+      ],
+      "value": "10"
+    },
+    {
+      "row": [],
+      "col": [
+        "FRANCE 903",
+        "Somat"
+      ],
+      "value": "0.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "EUROPE, other 5907",
+        "Somat"
+      ],
+      "value": "0.6"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Physical exhaustion"
+    },
+    {
+      "row": [],
+      "col": [
+        "N",
+        "Item Nr."
+      ],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [
+        "FRANCE 903",
+        "Somat"
+      ],
+      "value": "0.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "EUROPE, other 5907",
+        "Somat"
+      ],
+      "value": "0.6"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Sexual potency, impaired"
+    },
+    {
+      "row": [],
+      "col": [
+        "N",
+        "Item Nr."
+      ],
+      "value": "15"
+    },
+    {
+      "row": [],
+      "col": [
+        "FRANCE 903",
+        "Sex"
+      ],
+      "value": "0.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "EUROPE, other 5907",
+        "Sex"
+      ],
+      "value": "0.9"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Morning erections, less"
+    },
+    {
+      "row": [],
+      "col": [
+        "N",
+        "Item Nr."
+      ],
+      "value": "16"
+    },
+    {
+      "row": [],
+      "col": [
+        "FRANCE 903",
+        "Sex"
+      ],
+      "value": "0.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "EUROPE, other 5907",
+        "Sex"
+      ],
+      "value": "0.9"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Libido, disturbed"
+    },
+    {
+      "row": [],
+      "col": [
+        "N",
+        "Item Nr."
+      ],
+      "value": "17"
+    },
+    {
+      "row": [],
+      "col": [
+        "FRANCE 903",
+        "Sex"
+      ],
+      "value": "0.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "EUROPE, other 5907",
+        "Sex"
+      ],
+      "value": "0.8"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Passed peak"
+    },
+    {
+      "row": [],
+      "col": [
+        "N",
+        "Item Nr."
+      ],
+      "value": "12"
+    },
+    {
+      "row": [],
+      "col": [
+        "FRANCE 903",
+        "Sex"
+      ],
+      "value": "0.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "EUROPE, other 5907",
+        "Psych"
+      ],
+      "value": "0.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "EUROPE, other 5907",
+        "Sex"
+      ],
+      "value": "0.4"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Decrease of beard growth"
+    },
+    {
+      "row": [],
+      "col": [
+        "N",
+        "Item Nr."
+      ],
+      "value": "14"
+    },
+    {
+      "row": [],
+      "col": [
+        "FRANCE 903",
+        "Sex"
+      ],
+      "value": "0.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "EUROPE, other 5907",
+        "Psych"
+      ],
+      "value": "0.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "EUROPE, other 5907",
+        "Sex"
+      ],
+      "value": "0.3"
+    }
+  ]
+}
