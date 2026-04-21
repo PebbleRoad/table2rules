@@ -9,7 +9,16 @@ from .exporters import (
     register_exporter,
 )
 from .models import LogicRule
-from .report import REASONS, RenderReport, TableReport
+from .report import (
+    REASONS,
+    REASONS_BY_SEVERITY,
+    RENDER_MODE_FLAT,
+    RENDER_MODE_PASSTHROUGH,
+    RENDER_MODE_RULES,
+    RENDER_MODE_SKIPPED,
+    RenderReport,
+    TableReport,
+)
 
 __all__ = [
     "LogicRule",
@@ -19,6 +28,11 @@ __all__ = [
     "RenderReport",
     "TableReport",
     "REASONS",
+    "REASONS_BY_SEVERITY",
+    "RENDER_MODE_RULES",
+    "RENDER_MODE_FLAT",
+    "RENDER_MODE_PASSTHROUGH",
+    "RENDER_MODE_SKIPPED",
     "Table2RulesError",
     "TableTooLargeError",
     "Exporter",

@@ -15,6 +15,11 @@ import pytest
 
 from table2rules import (
     REASONS,
+    REASONS_BY_SEVERITY,
+    RENDER_MODE_FLAT,
+    RENDER_MODE_PASSTHROUGH,
+    RENDER_MODE_RULES,
+    RENDER_MODE_SKIPPED,
     LogicRule,
     RenderReport,
     Table2RulesError,
@@ -245,3 +250,52 @@ def test_tablereport_render_mode_values_are_from_literal_set() -> None:
     )
     for t in report.tables:
         assert t.render_mode in allowed
+
+
+# --- Render-mode constants --------------------------------------------------
+
+
+def test_render_mode_constants_match_literal_values() -> None:
+    # Constants must equal the string literals so
+    # ``t.render_mode == RENDER_MODE_RULES`` behaves the same as
+    # ``t.render_mode == "rules"``.
+    assert RENDER_MODE_RULES == "rules"
+    assert RENDER_MODE_FLAT == "flat"
+    assert RENDER_MODE_PASSTHROUGH == "passthrough"
+    assert RENDER_MODE_SKIPPED == "skipped"
+
+    # And they must cover every value in the Literal type.
+    assert {
+        RENDER_MODE_RULES, RENDER_MODE_FLAT,
+        RENDER_MODE_PASSTHROUGH, RENDER_MODE_SKIPPED,
+    } == {"rules", "flat", "passthrough", "skipped"}
+
+
+# --- REASONS_BY_SEVERITY grouping ------------------------------------------
+
+
+def test_reasons_by_severity_partitions_catalogue() -> None:
+    """Every REASONS key appears in exactly one severity bucket, no more."""
+    grouped: set[str] = set()
+    for bucket, codes in REASONS_BY_SEVERITY.items():
+        assert isinstance(codes, frozenset), f"{bucket} bucket must be frozen"
+        overlap = grouped & codes
+        assert not overlap, f"codes {overlap} appear in multiple buckets"
+        grouped.update(codes)
+
+    missing_from_buckets = set(REASONS) - grouped
+    assert not missing_from_buckets, (
+        f"codes in REASONS but not in REASONS_BY_SEVERITY: "
+        f"{sorted(missing_from_buckets)}"
+    )
+
+    missing_from_catalogue = grouped - set(REASONS)
+    assert not missing_from_catalogue, (
+        f"codes in REASONS_BY_SEVERITY but not in REASONS: "
+        f"{sorted(missing_from_catalogue)}"
+    )
+
+
+def test_reasons_by_severity_has_expected_buckets() -> None:
+    # Renaming a bucket is a breaking change — guard it.
+    assert set(REASONS_BY_SEVERITY) == {"defensive", "confidence", "input"}

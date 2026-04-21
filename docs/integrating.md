@@ -135,6 +135,21 @@ All fields are frozen — `TableReport` is safe to cache, hash, or pickle.
 `render_mode` is the single most important field for policy. Each value
 corresponds to a different output quality and deserves a different reaction.
 
+The four values are also available as module-level constants —
+`RENDER_MODE_RULES`, `RENDER_MODE_FLAT`, `RENDER_MODE_PASSTHROUGH`,
+`RENDER_MODE_SKIPPED` — if you'd rather not sprinkle string literals through
+your policy code:
+
+```python
+from table2rules import RENDER_MODE_PASSTHROUGH
+
+if t.render_mode == RENDER_MODE_PASSTHROUGH:
+    ...
+```
+
+They are the string literals, not an enum — equality against the raw
+strings still works, so adopting them is a drop-in change.
+
 ### `"rules"` — clean conversion
 
 The gate accepted the output; each line in `text` is a self-contained
@@ -180,7 +195,25 @@ source document before lowering the alarm threshold.
 ## Reason codes: severity and grouping
 
 The full `REASONS` catalogue is 16 codes today. Not all carry the same
-operational weight. Here's how to group them.
+operational weight. The grouping below is also available programmatically
+as `REASONS_BY_SEVERITY` — a `dict[str, frozenset[str]]` with three buckets
+(`"defensive"`, `"confidence"`, `"input"`) — so you can build exhaustive
+switch statements and auto-populated metrics dashboards without hardcoding
+the lists from this doc:
+
+```python
+from table2rules import REASONS_BY_SEVERITY
+
+if any(r in REASONS_BY_SEVERITY["input"] for r in t.reasons):
+    escalate_to_upstream(t)
+elif any(r in REASONS_BY_SEVERITY["confidence"] for r in t.reasons):
+    log_degraded(t)
+elif any(r in REASONS_BY_SEVERITY["defensive"] for r in t.reasons):
+    open_library_bug(t)
+```
+
+Every code in `REASONS` appears in exactly one bucket — enforced by tests,
+so the partition is safe to treat as total.
 
 ### Defensive invariants (shouldn't fire — file an issue)
 
@@ -356,6 +389,25 @@ available_exporters()   # -> ['rules', 'jsonl']
 
 Both exporter methods should return `List[str]`. The library joins the
 list with `\n` between tables, so each element is typically one line.
+
+### Combining a custom exporter with stats
+
+`process_tables_with_stats` accepts the same `format=` keyword as
+`process_tables_to_text` — you can get a custom-formatted string *and* the
+structured report from the same call:
+
+```python
+from table2rules import process_tables_with_stats
+
+text, report = process_tables_with_stats(
+    html,
+    format="jsonl",
+    strict=False,
+)
+```
+
+`format=` and `strict=` compose independently — there's no need to pick
+between "custom format" and "observability."
 
 ## A conservative policy template
 

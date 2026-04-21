@@ -8,7 +8,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from itertools import chain
-from typing import Dict, Iterable, Literal, Optional, Tuple
+from typing import Dict, FrozenSet, Iterable, Literal, Optional, Tuple
 
 
 # The four values ``render_mode`` can take. Order = descending output quality.
@@ -20,6 +20,14 @@ from typing import Dict, Iterable, Literal, Optional, Tuple
 #
 # Adding new values is a minor-version bump; renaming/removing is breaking.
 RenderMode = Literal["rules", "flat", "passthrough", "skipped"]
+
+# Symbolic constants for integrators who'd rather not sprinkle magic strings
+# through policy code. ``t.render_mode == RENDER_MODE_RULES`` is equivalent to
+# ``t.render_mode == "rules"``; use whichever reads better at the call site.
+RENDER_MODE_RULES: RenderMode = "rules"
+RENDER_MODE_FLAT: RenderMode = "flat"
+RENDER_MODE_PASSTHROUGH: RenderMode = "passthrough"
+RENDER_MODE_SKIPPED: RenderMode = "skipped"
 
 
 # Stable catalogue of every ``reasons`` string a ``TableReport`` may contain.
@@ -46,6 +54,44 @@ REASONS: Dict[str, str] = {
     # --- Report-level signals ---
     "input_too_large": "Expanded grid exceeded the safety cap; the table was skipped.",
     "processing_error": "The parser raised an exception and ``strict=False`` swallowed it; see ``TableReport.error``.",
+}
+
+
+# Operational severity grouping for the codes in ``REASONS``.
+#
+#   defensive  — structural invariants on the library's own output. Should
+#                never fire in production; if you see one, file an issue.
+#   confidence — soft gate signals for low-quality parses. Expected on
+#                real-world input; tune alerting against these.
+#   input      — signals that the caller handed table2rules bad data. The
+#                fix is upstream, not in this library.
+#
+# Exposing this grouping lets integrators auto-populate metrics dashboards
+# and switch statements without hardcoding the buckets from the docs. Every
+# key in ``REASONS`` appears in exactly one bucket — enforced by tests.
+REASONS_BY_SEVERITY: Dict[str, FrozenSet[str]] = {
+    "defensive": frozenset({
+        "empty_grid",
+        "position_out_of_bounds",
+        "non_td_rule_cell",
+        "header_cell_emitted",
+        "empty_rule_outcome",
+        "empty_header_text",
+    }),
+    "confidence": frozenset({
+        "no_candidate_data_cells",
+        "low_coverage",
+        "low_header_attachment",
+        "high_self_echo",
+        "high_duplicate_positions",
+        "high_position_conflict",
+        "numeric_column_headers",
+        "placeholder_column_headers",
+    }),
+    "input": frozenset({
+        "input_too_large",
+        "processing_error",
+    }),
 }
 
 

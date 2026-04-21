@@ -22,6 +22,14 @@ either additive or a narrow breaking change to the data model.
 - **`REASONS: dict[str, str]`** — stable catalogue of every reason code the
   library can emit, with a human-readable description per key. Adding a new
   reason is a minor-version bump; renaming or removing is breaking.
+- **`REASONS_BY_SEVERITY: dict[str, frozenset[str]]`** — three-bucket
+  grouping (`"defensive"`, `"confidence"`, `"input"`) for building
+  exhaustive switches and auto-populated metrics dashboards without
+  hardcoding the lists from the docs. Every code in `REASONS` appears in
+  exactly one bucket; enforced by tests.
+- **`RENDER_MODE_RULES` / `_FLAT` / `_PASSTHROUGH` / `_SKIPPED`** —
+  symbolic constants for the four `render_mode` values. Equal to the raw
+  strings, so adopting them is a drop-in change.
 - **`render_mode`** typed as `Literal["rules", "flat", "passthrough", "skipped"]`.
   `"skipped"` is new — see "Safety caps" below.
 - **`Table2RulesError`** / **`TableTooLargeError`** — public exception types
