@@ -1,4 +1,8 @@
-Item | Qty | Price
-Pen | 2 | $1.20
-Notebook | $3.50
-Pencil | 4 | $0.40
+Item: Pen
+Qty: 2
+Price: $1.20
+Item: Notebook
+Qty: $3.50
+Item: Pencil
+Qty: 4
+Price: $0.40

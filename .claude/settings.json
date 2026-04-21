@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c ' *)",
+      "Bash(python)",
+      "Bash(python -m pytest tests/ --tb=short -q)",
+      "Bash(python -m pytest tests/test_public_api.py -v --tb=short)",
+      "Bash(python -m pytest tests/test_public_api.py --tb=short)",
+      "Bash(wait %1)",
+      "Bash(python -m pytest tests/test_determinism.py --tb=short)"
+    ]
+  }
+}

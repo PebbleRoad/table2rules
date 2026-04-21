@@ -86,6 +86,25 @@ Add an operator here when:
 Together they give: "we don't drift, we're correct when we can be, and
 we never fabricate when we can't."
 
+## Public API guards
+
+Two additional test files guard the public surface rather than the parser's
+input/output behaviour. They catch contract breakage that the three input
+layers wouldn't:
+
+- **[test_public_api.py](test_public_api.py)** — `LogicRule` is frozen and
+  hashable; `process_tables_with_stats` returns the documented
+  `RenderReport` / `TableReport` shape; every `render_mode` value is
+  reachable; `TableTooLargeError` triggers at the documented span cap;
+  every reason code emitted against the fixture corpus appears in
+  `REASONS`. A new reason string added to the gate without a matching
+  description in `report.REASONS` fails this suite.
+
+- **[test_determinism.py](test_determinism.py)** — runs every regression
+  fixture twice through both public entry points, asserts byte-identical
+  output both times. Cheap insurance against accidental ordering
+  dependencies (set iteration, dict traversal, locale-sensitive sorting).
+
 ## Future dataset coverage
 
 The Layer-2 / Layer-3 real-world corpus is currently PubMed-only. The

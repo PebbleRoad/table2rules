@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "table2rules"
-version = "0.1.0"
+version = "0.2.0"
 description = "Convert HTML tables to flat, LLM-friendly rules using spatial pathfinding."
 readme = "README.md"
 license = "MIT"
@@ -36,6 +36,9 @@ Repository = "https://github.com/pebbleroad/table2rules"
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.setuptools.package-data]
+table2rules = ["py.typed"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

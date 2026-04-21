@@ -1,13 +1,17 @@
 import logging
-from typing import List, Union
+from typing import List, Tuple, Union
+
 from bs4 import BeautifulSoup
-from .models import LogicRule
+
+from .cleanup import clean_rules
+from .errors import TableTooLargeError
+from .exporters import DEFAULT_FORMAT, Exporter, get_exporter
 from .grid_parser import parse_table_to_grid
 from .maze_pathfinder import find_headers_for_cell
-from .cleanup import clean_rules
+from .models import LogicRule
+from .quality_gate import GateResult, assess_confidence
+from .report import RenderReport, TableReport
 from .simple_repair import simple_repair
-from .quality_gate import assess_confidence
-from .exporters import DEFAULT_FORMAT, Exporter, get_exporter
 
 
 def _split_compound_tables(soup) -> None:
@@ -63,15 +67,9 @@ def _split_compound_tables(soup) -> None:
             else:
                 prev_was_header_row = False
 
-        # Need at least 2 header positions to indicate a reset
         if len(header_indices) < 2:
             continue
 
-        # Verify the headers actually differ (same headers = just a repeat,
-        # different = column redefinition — both worth splitting).
-        # Also require every proposed section to contain at least one
-        # multi-cell data row; header-only sections are never useful and
-        # indicate a bogus boundary.
         boundaries = header_indices + [len(rows)]
         for i in range(len(header_indices)):
             section_rows = rows[boundaries[i]:boundaries[i + 1]]
@@ -83,7 +81,6 @@ def _split_compound_tables(soup) -> None:
             if not has_data:
                 break
         else:
-            # Every section has data — proceed with split.
             sections_html = []
             for i in range(len(header_indices)):
                 start = boundaries[i]
@@ -118,139 +115,222 @@ def _extract_cell_rows(table_html: str) -> List[List[str]]:
         return []
 
 
+def _build_rules(grid) -> List[LogicRule]:
+    """Walk the parsed grid and emit one LogicRule per data cell position."""
+    rules: List[LogicRule] = []
+
+    for row_idx in range(len(grid)):
+        for col_idx in range(len(grid[0])):
+            cell = grid[row_idx][col_idx]
+
+            # Only <td> cells are data cells
+            if cell['type'] != 'td':
+                continue
+
+            # Defensive guard: never emit rules from explicit/implicit header rows
+            if cell.get('is_thead', False) or cell.get('is_header_row', False):
+                continue
+
+            if not cell.get('text', '').strip():
+                continue
+
+            # If this is a span copy, skip it (we'll process it from origin)
+            if cell.get('is_span_copy', False):
+                continue
+
+            rowspan = cell.get('rowspan', 1)
+            colspan = cell.get('colspan', 1)
+
+            for r_offset in range(rowspan):
+                for c_offset in range(colspan):
+                    target_row = row_idx + r_offset
+                    target_col = col_idx + c_offset
+
+                    if target_row >= len(grid) or target_col >= len(grid[0]):
+                        continue
+
+                    row_headers, col_headers = find_headers_for_cell(grid, target_row, target_col)
+
+                    rules.append(LogicRule(
+                        outcome=cell['text'],
+                        position=(target_row, target_col),
+                        is_footer=cell.get('is_footer', False),
+                        row_headers=tuple(row_headers),
+                        col_headers=tuple(col_headers),
+                        origin=(row_idx, col_idx),
+                    ))
+
+    return rules
 
 
-def process_table(table_html: str) -> List[LogicRule]:
-    """Process a single table and return rules (one per cell)."""
+def _process_table_with_gate(table_html: str) -> Tuple[List[LogicRule], GateResult]:
+    """Runs the full pipeline and returns rules plus the gate verdict.
+
+    Rules are ``[]`` when the gate fails. Raises ``TableTooLargeError`` on
+    adversarial span values and propagates other parse errors; the caller
+    decides whether to swallow them.
+    """
+    repaired = simple_repair(table_html)
+    soup = BeautifulSoup(repaired, 'html.parser')
+    table = soup.find('table')
+    if not table:
+        return [], GateResult(ok=False, score=0.0, reasons=["empty_grid"])
+
+    grid = parse_table_to_grid(table)
+    if not grid:
+        return [], GateResult(ok=False, score=0.0, reasons=["empty_grid"])
+
+    rules = clean_rules(_build_rules(grid))
+    gate = assess_confidence(grid, rules)
+    if not gate.ok:
+        return [], gate
+    return rules, gate
+
+
+def process_table(table_html: str, *, strict: bool = False) -> List[LogicRule]:
+    """Process a single table and return rules (one per cell position).
+
+    Args:
+        table_html: HTML string containing a single ``<table>``.
+        strict: when ``True``, re-raise parse errors and ``TableTooLargeError``.
+                Default ``False`` is fail-open: returns ``[]`` on any parse
+                error, adversarial input, or gate failure. Use
+                :func:`process_tables_with_stats` if you need to tell those
+                apart.
+    """
     try:
-        # Step 1: Apply simple repairs
-        table_html = simple_repair(table_html)
-        soup = BeautifulSoup(table_html, 'html.parser')
-        table = soup.find('table')
-
-        if not table:
-            return []
-
-        grid = parse_table_to_grid(table)
-        if not grid:
-            return []
-
-        rules = []
-
-        for row_idx in range(len(grid)):
-            for col_idx in range(len(grid[0])):
-                cell = grid[row_idx][col_idx]
-
-                # Only <td> cells are data cells
-                # <th> cells are always headers (either column or row headers)
-                if cell['type'] != 'td':
-                    continue
-
-                # Defensive guard: never emit rules from explicit/implicit header rows
-                if cell.get('is_thead', False) or cell.get('is_header_row', False):
-                    continue
-
-                # Skip empty cells
-                if not cell.get('text', '').strip():
-                    continue
-
-                # If this is a span copy, skip it (we'll process it from origin)
-                if cell.get('is_span_copy', False):
-                    continue
-
-                # Get the span dimensions
-                rowspan = cell.get('rowspan', 1)
-                colspan = cell.get('colspan', 1)
-
-                # Generate a rule for each position this cell occupies
-                for r_offset in range(rowspan):
-                    for c_offset in range(colspan):
-                        target_row = row_idx + r_offset
-                        target_col = col_idx + c_offset
-
-                        if target_row >= len(grid) or target_col >= len(grid[0]):
-                            continue
-
-                        # Find headers from THIS position (not the origin)
-                        row_headers, col_headers = find_headers_for_cell(grid, target_row, target_col)
-
-                        rule = LogicRule(
-                            conditions=row_headers + col_headers,  # Keep for backward compatibility
-                            outcome=cell['text'],
-                            position=(target_row, target_col),
-                            is_footer=cell.get('is_footer', False),
-                            row_headers=row_headers,
-                            col_headers=col_headers,
-                            origin=(row_idx, col_idx),
-                        )
-
-                        rules.append(rule)
-
-        # Post-processing cleanup
-        rules = clean_rules(rules)
-
-        # Confidence gate: if parse quality is weak, fail open to passthrough HTML.
-        gate = assess_confidence(grid, rules)
-        if not gate.ok:
-            return []
-
+        rules, _ = _process_table_with_gate(table_html)
         return rules
     except Exception:
-        # Fail open for hostile / pathological table markup
+        if strict:
+            raise
         logging.debug("process_table failed on input, returning empty", exc_info=True)
         return []
+
+
+def _run(
+    html_content: str,
+    format: Union[str, Exporter],
+    collect_report: bool,
+    strict: bool,
+) -> Tuple[str, RenderReport]:
+    """Shared engine for both public entry points."""
+    exporter = get_exporter(format)
+
+    if not html_content:
+        return "", RenderReport()
+
+    soup = BeautifulSoup(html_content, 'html.parser')
+    if not soup.find_all('table'):
+        return "", RenderReport()
+
+    # Pre-process: split compound tables that have mid-body header resets
+    # (all-<th> rows appearing after the first header row with different
+    # column names). Must happen BEFORE repair to avoid false positives
+    # from summary rows that Fix 5 promotes to <th>.
+    _split_compound_tables(soup)
+    all_tables = soup.find_all('table')
+
+    output_chunks: List[str] = []
+    reports: List[TableReport] = []
+    table_index = 0
+
+    for table in all_tables:
+        # Skip nested tables — they're folded into their parent's cell text.
+        if table.find_parent('table'):
+            continue
+
+        table_html = str(table)
+        rules: List[LogicRule] = []
+        gate: GateResult = GateResult(ok=False, score=0.0, reasons=[])
+        too_large = False
+        error_msg = None
+
+        try:
+            rules, gate = _process_table_with_gate(table_html)
+        except TableTooLargeError as exc:
+            if strict:
+                raise
+            too_large = True
+            error_msg = str(exc)
+        except Exception as exc:
+            if strict:
+                raise
+            logging.debug("table processing failed; falling back", exc_info=True)
+            error_msg = f"{type(exc).__name__}: {exc}"
+
+        if rules:
+            output_chunks.extend(exporter.export_rules(rules))
+            render_mode = "rules"
+        elif too_large:
+            # Refuse to emit anything for span-bomb input — the fallback paths
+            # would still iterate the HTML, which is fine, but the signal to
+            # downstream consumers is clearer if we skip entirely.
+            render_mode = "skipped"
+        else:
+            cell_rows = _extract_cell_rows(table_html)
+            flat = exporter.export_flat(cell_rows) if cell_rows else []
+            if flat:
+                output_chunks.extend(flat)
+                render_mode = "flat"
+            else:
+                output_chunks.append(table_html)
+                render_mode = "passthrough"
+
+        if collect_report:
+            reasons = tuple(gate.reasons)
+            if too_large:
+                reasons = ("input_too_large",) + reasons
+            elif error_msg is not None:
+                reasons = ("processing_error",) + reasons
+            reports.append(TableReport(
+                table_index=table_index,
+                render_mode=render_mode,
+                gate_ok=gate.ok,
+                gate_score=gate.score,
+                reasons=reasons,
+                error=error_msg,
+            ))
+        table_index += 1
+
+    text = '\n'.join(output_chunks) if output_chunks else ""
+    report = RenderReport(tables=tuple(reports)) if collect_report else RenderReport()
+    return text, report
 
 
 def process_tables_to_text(
     html_content: str,
     format: Union[str, Exporter] = DEFAULT_FORMAT,
 ) -> str:
-    """
-    SINGLE ENTRY POINT: HTML -> Formatted text.
+    """HTML -> formatted text (fail-open, no observability).
 
     Args:
         html_content: raw HTML containing one or more <table> elements.
-        format: exporter name (e.g. "rules") or an Exporter instance.
-                Defaults to "rules" (one rule per line, full header paths).
+        format: exporter name (e.g. ``"rules"``) or an ``Exporter`` instance.
+                Defaults to ``"rules"`` (one rule per line, full header paths).
     """
-    exporter = get_exporter(format)
-    if not html_content:
-        return ""
-    soup = BeautifulSoup(html_content, 'html.parser')
-    all_tables = soup.find_all('table')
+    text, _ = _run(html_content, format=format, collect_report=False, strict=False)
+    return text
 
-    if not all_tables:
-        return ""
 
-    output_chunks = []
+def process_tables_with_stats(
+    html_content: str,
+    *,
+    format: Union[str, Exporter] = DEFAULT_FORMAT,
+    strict: bool = False,
+) -> Tuple[str, RenderReport]:
+    """HTML -> ``(formatted text, RenderReport)``.
 
-    # Pre-process: split compound tables that have mid-body header resets
-    # (all-<th> rows appearing after the first header row with different
-    # column names).  Must happen BEFORE repair to avoid false positives
-    # from summary rows that Fix 5 promotes to <th>.
-    _split_compound_tables(soup)
-    all_tables = soup.find_all('table')
+    The report has one ``TableReport`` per top-level table in input order,
+    carrying the gate verdict, the render mode actually used, and any error
+    message captured while processing that table.
 
-    # Process only top-level tables (skip nested)
-    for table in all_tables:
-        if table.find_parent('table'):
-            continue
-
-        table_html = str(table)
-        rules = process_table(table_html)
-
-        if rules:
-            output_chunks.extend(exporter.export_rules(rules))
-        else:
-            # Confidence gate failed — fall back to header-free cell rows.
-            cell_rows = _extract_cell_rows(table_html)
-            flat = exporter.export_flat(cell_rows) if cell_rows else []
-            if flat:
-                output_chunks.extend(flat)
-            else:
-                output_chunks.append(table_html)
-
-    if not output_chunks:
-        return ""
-
-    return '\n'.join(output_chunks)
+    Args:
+        html_content: raw HTML containing one or more <table> elements.
+        format: exporter name or an ``Exporter`` instance.
+        strict: when ``True``, re-raise parse errors and ``TableTooLargeError``
+                instead of falling back silently. Useful during development and
+                tests; keep the default ``False`` in production pipelines that
+                process untrusted input.
+    """
+    return _run(html_content, format=format, collect_report=True, strict=strict)
