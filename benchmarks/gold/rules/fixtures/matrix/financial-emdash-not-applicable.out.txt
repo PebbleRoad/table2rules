@@ -1,0 +1,12 @@
+Subscription revenue | 2024: 42,100
+Subscription revenue | 2023: 38,500
+Subscription revenue | 2022: —
+License revenue | 2024: —
+License revenue | 2023: —
+License revenue | 2022: 31,200
+Professional services | 2024: 8,400
+Professional services | 2023: 7,900
+Professional services | 2022: 7,100
+Other | 2024: 1,200
+Other | 2023: —
+Other | 2022: —

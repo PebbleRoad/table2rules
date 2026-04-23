@@ -1,0 +1,21 @@
+Product: Widget A
+Q1: 1,200
+Q2: 1,450
+Product: Widget B
+Q1: 900
+Q2: 1,100
+Widgets Total | Q1: 2,100
+Widgets Total | Q2: 2,550
+Product: Gadget X
+Q1: 3,400
+Q2: 3,800
+Product: Gadget Y
+Q1: 2,200
+Q2: 2,500
+Product: Gadget Z
+Q1: 1,100
+Q2: 1,250
+Gadgets Total | Q1: 6,700
+Gadgets Total | Q2: 7,550
+Grand Total | Q1: 8,800
+Grand Total | Q2: 10,100

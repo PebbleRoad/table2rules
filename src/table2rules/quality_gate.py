@@ -98,6 +98,19 @@ def assess_confidence(grid: List[List[Dict]], rules: List[LogicRule]) -> GateRes
             self_echo += 1
     echo_ratio = self_echo / max(1, len(rules))
 
+    # Shape-heuristic header checks (numeric / placeholder) only apply when
+    # the headers could have been MISIDENTIFIED by the parser. Cells that
+    # the source explicitly placed inside <thead> are authoritative —
+    # financial reports legitimately label columns with years like "2024",
+    # and the gate must not second-guess source-authored <th>. Skip the
+    # shape heuristics for tables that have any <thead> cell in the grid.
+    has_source_thead = any(
+        cell.get('is_thead', False)
+        for row in grid
+        for cell in row
+        if cell
+    )
+
     # Penalize numeric column headers — real headers are text labels, not values.
     # A column header like "25.000" or "· 12,000" signals the first row was
     # data, not a header.  Strip common currency/bullet noise before checking.
@@ -152,9 +165,9 @@ def assess_confidence(grid: List[List[Dict]], rules: List[LogicRule]) -> GateRes
         reasons.append("high_duplicate_positions")
     if conflict_ratio > 0.15:
         reasons.append("high_position_conflict")
-    if numeric_header_ratio > 0.30:
+    if not has_source_thead and numeric_header_ratio > 0.30:
         reasons.append("numeric_column_headers")
-    if placeholder_header_ratio > 0.30:
+    if not has_source_thead and placeholder_header_ratio > 0.30:
         reasons.append("placeholder_column_headers")
 
     # Keep threshold modest so we only fail on clearly weak parses.

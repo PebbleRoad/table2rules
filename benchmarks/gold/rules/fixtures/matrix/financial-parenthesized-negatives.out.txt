@@ -1,0 +1,12 @@
+Revenue | 2024: 52,000
+Revenue | 2023: 48,500
+Cost of goods sold | 2024: (31,200)
+Cost of goods sold | 2023: (29,100)
+Gross profit | 2024: 20,800
+Gross profit | 2023: 19,400
+Operating expenses | 2024: (14,500)
+Operating expenses | 2023: (13,200)
+Net loss on investments | 2024: (2,800)
+Net loss on investments | 2023: (1,100)
+Operating income | 2024: 3,500
+Operating income | 2023: 5,100

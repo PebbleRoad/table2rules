@@ -1,0 +1,12 @@
+Segment: Consumer Products
+Revenue: 12,400
+Operating Income: 2,100 1
+Segment: Enterprise Services
+Revenue: 18,200
+Operating Income: 4,400
+Segment: Cloud Platform
+Revenue: 9,800 2
+Operating Income: 1,650
+Segment: Emerging Markets
+Revenue: 3,200
+Operating Income: (450) 3

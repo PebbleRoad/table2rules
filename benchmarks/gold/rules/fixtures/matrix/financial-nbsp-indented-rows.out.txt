@@ -1,0 +1,14 @@
+Cash and equivalents | 2024: 4,210
+Cash and equivalents | 2023: 3,850
+Accounts receivable | 2024: 12,400
+Accounts receivable | 2023: 11,200
+Inventory | 2024: 8,900
+Inventory | 2023: 9,100
+Total current assets | 2024: 25,510
+Total current assets | 2023: 24,150
+Property, plant & equipment | 2024: 42,100
+Property, plant & equipment | 2023: 38,900
+Goodwill | 2024: 18,200
+Goodwill | 2023: 18,200
+Total non-current assets | 2024: 60,300
+Total non-current assets | 2023: 57,100

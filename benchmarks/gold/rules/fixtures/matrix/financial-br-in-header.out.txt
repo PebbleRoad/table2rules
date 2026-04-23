@@ -1,0 +1,9 @@
+Americas | Revenue (in millions): 84,500
+Americas | Operating Margin (%): 22.4
+Americas | Headcount (end of period): 12,300
+EMEA | Revenue (in millions): 62,100
+EMEA | Operating Margin (%): 18.9
+EMEA | Headcount (end of period): 8,700
+APAC | Revenue (in millions): 38,700
+APAC | Operating Margin (%): 15.2
+APAC | Headcount (end of period): 5,400

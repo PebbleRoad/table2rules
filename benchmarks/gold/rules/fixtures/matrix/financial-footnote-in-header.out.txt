@@ -1,0 +1,12 @@
+Q1 2024 | Revenue (a): 12,400
+Q1 2024 | Adjusted EBITDA (b): 3,100
+Q1 2024 | Free Cash Flow (c): 1,850
+Q2 2024 | Revenue (a): 13,100
+Q2 2024 | Adjusted EBITDA (b): 3,400
+Q2 2024 | Free Cash Flow (c): 2,050
+Q3 2024 | Revenue (a): 13,900
+Q3 2024 | Adjusted EBITDA (b): 3,700
+Q3 2024 | Free Cash Flow (c): 2,250
+Q4 2024 | Revenue (a): 14,500
+Q4 2024 | Adjusted EBITDA (b): 3,900
+Q4 2024 | Free Cash Flow (c): 2,400

@@ -1,0 +1,18 @@
+Revenue | Year Ended December 31, > 2024 > Actual: 52,400
+Revenue | Year Ended December 31, > 2024 > Budget: 50,000
+Revenue | Year Ended December 31, > 2024 > Variance: 2,400
+Revenue | Year Ended December 31, > 2023 > Actual: 48,100
+Revenue | Year Ended December 31, > 2023 > Budget: 47,500
+Revenue | Year Ended December 31, > 2023 > Variance: 600
+Gross profit | Year Ended December 31, > 2024 > Actual: 32,100
+Gross profit | Year Ended December 31, > 2024 > Budget: 30,500
+Gross profit | Year Ended December 31, > 2024 > Variance: 1,600
+Gross profit | Year Ended December 31, > 2023 > Actual: 29,400
+Gross profit | Year Ended December 31, > 2023 > Budget: 29,000
+Gross profit | Year Ended December 31, > 2023 > Variance: 400
+Operating income | Year Ended December 31, > 2024 > Actual: 11,800
+Operating income | Year Ended December 31, > 2024 > Budget: 11,200
+Operating income | Year Ended December 31, > 2024 > Variance: 600
+Operating income | Year Ended December 31, > 2023 > Actual: 10,500
+Operating income | Year Ended December 31, > 2023 > Budget: 10,800
+Operating income | Year Ended December 31, > 2023 > Variance: (300)
