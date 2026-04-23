@@ -3,7 +3,9 @@
 import argparse
 import sys
 
-from ._core import process_tables_to_text
+from . import __version__
+from ._core import process_tables_to_text, process_tables_with_stats
+from .errors import Table2RulesError
 from .exporters import DEFAULT_FORMAT, available_exporters
 
 
@@ -29,6 +31,16 @@ def main() -> None:
         choices=available_exporters(),
         help=f"Output exporter (default: {DEFAULT_FORMAT})",
     )
+    parser.add_argument(
+        "--strict",
+        action="store_true",
+        help="Fail on parse errors or oversized tables instead of degrading.",
+    )
+    parser.add_argument(
+        "-V", "--version",
+        action="version",
+        version=f"%(prog)s {__version__}",
+    )
     args = parser.parse_args()
 
     # Read input
@@ -45,7 +57,14 @@ def main() -> None:
             print(f"error: is a directory: {args.input}", file=sys.stderr)
             sys.exit(1)
 
-    result = process_tables_to_text(html, format=args.format)
+    try:
+        if args.strict:
+            result, _ = process_tables_with_stats(html, format=args.format, strict=True)
+        else:
+            result = process_tables_to_text(html, format=args.format)
+    except Table2RulesError as e:
+        print(f"error: {e}", file=sys.stderr)
+        sys.exit(1)
 
     # Write output
     if args.output == "-":

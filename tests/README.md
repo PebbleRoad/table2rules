@@ -9,8 +9,9 @@ about the parser. All three matter. Removing any one leaves a blind spot.
 **Question:** "Does the parser produce *exactly* the known-good output for
 these hand-authored cases?"
 
-- Fixtures: `tests/{adversarial,headerless,regression,smoke,structured}/*.md`
-- Gold outputs committed under `benchmarks/gold/<format>/`
+- Fixtures: `tests/fixtures/<class>/*.md`, organized by semantic class
+  (see "Fixture taxonomy" below)
+- Gold outputs committed under `benchmarks/gold/<format>/fixtures/<class>/`
 - Assertion: **byte-for-byte equality** with the gold file
 - Strictest layer — catches any output drift at all
 - Update golds by running `python scripts/benchmark.py --update-gold`
@@ -18,6 +19,63 @@ these hand-authored cases?"
 Add a fixture here when:
 - You want to pin down exact output for a specific edge case
 - You're testing a hand-crafted adversarial pattern
+- You're filling a coverage gap in one of the taxonomy classes
+
+### Fixture taxonomy
+
+Fixtures are filed under `tests/fixtures/<class>/` using the web-table
+classification from **Crestan & Pantel, "Web-scale Table Census and
+Classification" (WSDM 2011)**. Citing an external taxonomy keeps us honest
+about what "we handle tables" means — reviewers can check coverage against
+a published schema rather than an invented one.
+
+Genuine data tables:
+- **`relational/`** — rows are records, columns are attributes, clear
+  header row. The parser's happy path.
+- **`matrix/`** — 2D indexed by (row labels × column labels). Nested
+  headers, rowgroup/colgroup scopes, rowspan/colspan spine.
+- **`attribute-value/`** — two-column (label, value) describing a single
+  entity. Infobox pattern.
+- **`listing/`** — list of same-type entities with loose or absent
+  column headers. Receipts, directories.
+- **`form/`** — labels + input fields. The parser must not invent data
+  values where the source has none.
+- **`enumeration/`** — visually a multi-column list (reflowed). Distinct
+  from listing because columns aren't attributes; they're reading order.
+
+Non-genuine (layout) tables — the parser should recognize these and fall
+back to flat/passthrough rather than fabricate rules:
+- **`navigational/`** — site menus, link grids.
+- **`formatting/`** — pure visual layout (image-left text-right, etc.).
+
+Meta (not a Crestan & Pantel class):
+- **`multi-table/`** — HTML containing multiple top-level tables, or a
+  table nested inside another table's cell. Orthogonal to semantic class;
+  exercises the cross-table boundary rather than any one table's type.
+
+### Known-imperfect golds
+
+The following fixtures have committed gold files that freeze current
+parser output even though the output is **not what the parser should
+emit**. They exist to pin down the bugs for fix-and-verify. When the
+parser is corrected, updating the gold is the fix receipt.
+
+| Fixture | What's wrong |
+|---|---|
+| [fixtures/attribute-value/sectioned-tbody.md](fixtures/attribute-value/sectioned-tbody.md) | `<th colspan="2">` section markers (`Personal`, `Work`) get mis-interpreted as data headers; output fabricates a `Name > Email \| Ada Lovelace` path. |
+| [fixtures/form/fieldset-grouped.md](fixtures/form/fieldset-grouped.md) | Row-1 checkboxes treated as column headers for row-2 checkboxes. Produces `Email: Phone` / `SMS: Push`. |
+| [fixtures/enumeration/glossary.md](fixtures/enumeration/glossary.md) | First row treated as column headers; every row's cells then get mapped to row-1 tokens, producing `API: CDN`, `API: DNS`, etc. |
+| [fixtures/enumeration/three-column-countries.md](fixtures/enumeration/three-column-countries.md) | Same pattern: row 1 treated as headers; `Argentina: Colombia`, `Argentina: Paraguay`, etc. |
+| [fixtures/navigational/sidebar-menu.md](fixtures/navigational/sidebar-menu.md) | Single-column link list; "Home" becomes column header for the rest: `Home: Products`, `Home: Pricing`, ... |
+| [fixtures/navigational/footer-links.md](fixtures/navigational/footer-links.md) | Flat fallback correct in principle, but text from `<br>`-separated children is concatenated without whitespace. |
+| [fixtures/formatting/image-text-layout.md](fixtures/formatting/image-text-layout.md) | Rules emitted for a two-cell layout table; image cell silently dropped; article body flattened into a single rule. Should passthrough. |
+
+The pattern across these is common: the parser commits to a header row
+(first `<tr>` or first row with `<th>`) without sufficient signal that
+the table is genuinely relational. Fixing is mostly gate-heuristic work
+in `quality_gate.py`. Track these as a release-blocker cluster — the MIT
+release should not advertise "fails open, never fabricates" until all
+seven emit either correct rules or a clean passthrough.
 
 ## Layer 2 — Correctness (oracle)
 
@@ -81,7 +139,7 @@ Add an operator here when:
 | **Oracle** | exact gold text | per-cell triple from source | per-cell triple (same as Layer 2) |
 | **Assertion** | equality | `oracle ⊆ emitted ⊆ source` | `emitted ⊆ source` |
 | **Primary failure mode it catches** | output drift | misattribution / drop | fabrication |
-| **Fixture count (current)** | 44 | 200 | 200 × ~10 operators = ~2000 |
+| **Fixture count (current)** | 57 | 200 | 200 × ~10 operators = ~2000 |
 
 Together they give: "we don't drift, we're correct when we can be, and
 we never fabricate when we can't."

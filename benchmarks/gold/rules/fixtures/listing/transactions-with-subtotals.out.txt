@@ -1,0 +1,6 @@
+Coffee | 4.50
+Bagel | 3.25
+Juice | 5.00
+Subtotal | 12.75
+Tax | 1.02
+Total | 13.77

@@ -1,0 +1,4 @@
+Ada Lovelace | 1815 | Mathematician
+Grace Hopper | 1906 | Computer Scientist
+Alan Turing | 1912 | Mathematician
+Claude Shannon | 1916 | Engineer

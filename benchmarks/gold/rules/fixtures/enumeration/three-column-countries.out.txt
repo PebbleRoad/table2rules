@@ -1,0 +1,9 @@
+Argentina: Colombia
+Brazil: Ecuador
+Chile: Guyana
+Argentina: Paraguay
+Brazil: Peru
+Chile: Suriname
+Argentina: Uruguay
+Brazil: Venezuela
+Chile: Bolivia

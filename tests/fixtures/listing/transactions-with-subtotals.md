@@ -1,0 +1,10 @@
+<table>
+  <tbody>
+    <tr><td>Coffee</td><td>4.50</td></tr>
+    <tr><td>Bagel</td><td>3.25</td></tr>
+    <tr><td>Juice</td><td>5.00</td></tr>
+    <tr><td>Subtotal</td><td>12.75</td></tr>
+    <tr><td>Tax</td><td>1.02</td></tr>
+    <tr><td>Total</td><td>13.77</td></tr>
+  </tbody>
+</table>

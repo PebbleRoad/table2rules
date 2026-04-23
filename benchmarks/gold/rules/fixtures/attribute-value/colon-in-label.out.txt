@@ -1,0 +1,3 @@
+Ratio (width : height): 16:9
+Checksum (sha256): a1b2c3d4
+Time (UTC): 14:30:00

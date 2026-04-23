@@ -1,5 +1,7 @@
 """table2rules — convert HTML tables to flat, LLM-friendly rules."""
 
+from importlib.metadata import PackageNotFoundError, version as _pkg_version
+
 from ._core import process_table, process_tables_to_text, process_tables_with_stats
 from .errors import Table2RulesError, TableTooLargeError
 from .exporters import (
@@ -20,7 +22,13 @@ from .report import (
     TableReport,
 )
 
+try:
+    __version__ = _pkg_version("table2rules")
+except PackageNotFoundError:
+    __version__ = "0.0.0+unknown"
+
 __all__ = [
+    "__version__",
     "LogicRule",
     "process_table",
     "process_tables_to_text",

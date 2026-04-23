@@ -1,0 +1,10 @@
+The first commercial web browsers shipped with table-based layouts
+      because CSS positioning was either unimplemented or buggy across the
+      major rendering engines of the late 1990s.Designers routinely nested tables three or four levels deep to
+      produce multi-column magazine-style pages. A typical newspaper front
+      page might contain dozens of tables whose only purpose was visual
+      placement. | CSS Flexbox and Grid have long since replaced this pattern for new
+      work, but older content-management systems still emit table-based
+      layouts in their rendered output.Any parser ingesting web content at scale will encounter both
+      forms, and must distinguish data tables from layout tables to avoid
+      producing nonsense rules from what is effectively styled prose.

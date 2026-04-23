@@ -1,5 +1,10 @@
 # Table2Rules — Maze Pathfinder Approach
 
+[![PyPI](https://img.shields.io/pypi/v/table2rules.svg)](https://pypi.org/project/table2rules/)
+[![Python versions](https://img.shields.io/pypi/pyversions/table2rules.svg)](https://pypi.org/project/table2rules/)
+[![License: MIT](https://img.shields.io/pypi/l/table2rules.svg)](LICENSE)
+[![CI](https://github.com/pebbleroad/table2rules/actions/workflows/test.yml/badge.svg)](https://github.com/pebbleroad/table2rules/actions/workflows/test.yml)
+
 ## The DNA of Table Parsing
 
 **Tables are mazes. Each cell finds its headers by pathfinding.**

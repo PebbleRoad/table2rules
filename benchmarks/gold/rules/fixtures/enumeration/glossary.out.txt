@@ -1,0 +1,8 @@
+API: CDN
+Application Programming Interface: Content Delivery Network
+API: DNS
+Application Programming Interface: Domain Name System
+API: HTTP
+Application Programming Interface: Hypertext Transfer Protocol
+API: TLS
+Application Programming Interface: Transport Layer Security
