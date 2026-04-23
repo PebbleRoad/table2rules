@@ -53,29 +53,32 @@ Meta (not a Crestan & Pantel class):
   table nested inside another table's cell. Orthogonal to semantic class;
   exercises the cross-table boundary rather than any one table's type.
 
-### Known-imperfect golds
+### Structural invariants enforced by the pipeline
 
-The following fixtures have committed gold files that freeze current
-parser output even though the output is **not what the parser should
-emit**. They exist to pin down the bugs for fix-and-verify. When the
-parser is corrected, updating the gold is the fix receipt.
+Three universal rules govern whether a table emits rules-format output.
+Violating any of them forces flat fallback — never partial rules.
 
-| Fixture | What's wrong |
-|---|---|
-| [fixtures/attribute-value/sectioned-tbody.md](fixtures/attribute-value/sectioned-tbody.md) | `<th colspan="2">` section markers (`Personal`, `Work`) get mis-interpreted as data headers; output fabricates a `Name > Email \| Ada Lovelace` path. |
-| [fixtures/form/fieldset-grouped.md](fixtures/form/fieldset-grouped.md) | Row-1 checkboxes treated as column headers for row-2 checkboxes. Produces `Email: Phone` / `SMS: Push`. |
-| [fixtures/enumeration/glossary.md](fixtures/enumeration/glossary.md) | First row treated as column headers; every row's cells then get mapped to row-1 tokens, producing `API: CDN`, `API: DNS`, etc. |
-| [fixtures/enumeration/three-column-countries.md](fixtures/enumeration/three-column-countries.md) | Same pattern: row 1 treated as headers; `Argentina: Colombia`, `Argentina: Paraguay`, etc. |
-| [fixtures/navigational/sidebar-menu.md](fixtures/navigational/sidebar-menu.md) | Single-column link list; "Home" becomes column header for the rest: `Home: Products`, `Home: Pricing`, ... |
-| [fixtures/navigational/footer-links.md](fixtures/navigational/footer-links.md) | Flat fallback correct in principle, but text from `<br>`-separated children is concatenated without whitespace. |
-| [fixtures/formatting/image-text-layout.md](fixtures/formatting/image-text-layout.md) | Rules emitted for a two-cell layout table; image cell silently dropped; article body flattened into a single rule. Should passthrough. |
+1. **Row-0 promotion requires structural contrast.** Converting a row
+   of `<td>`s into a header row needs at least one subsequent multi-cell
+   row with at least one empty cell. Without that contrast there is no
+   structural evidence that row 0 plays a different role from the rows
+   below it. Enforced in `simple_repair.Fix 4` and `grid_parser` step 3.
 
-The pattern across these is common: the parser commits to a header row
-(first `<tr>` or first row with `<th>`) without sufficient signal that
-the table is genuinely relational. Fixing is mostly gate-heuristic work
-in `quality_gate.py`. Track these as a release-blocker cluster — the MIT
-release should not advertise "fails open, never fabricates" until all
-seven emit either correct rules or a clean passthrough.
+2. **Rules mode requires every rule to carry at least one header.** A
+   rule with zero headers is indistinguishable from flat text — the
+   rules format implies a header relationship that doesn't exist
+   otherwise. Enforced in `quality_gate.low_header_attachment` (fires
+   universally at `header_ratio < 1.0`, not on a threshold).
+
+3. **Section-title rows are not header rows.** A `<tr>` whose sole cell
+   is a `<th>` with colspan covering the grid width is a section label,
+   not a header or data row. First-row instances are moved to
+   `<caption>`; mid-table instances are decomposed. Enforced in
+   `simple_repair.Fix 1` (first row) and `Fix 1b` (mid-table).
+
+These rules are all deterministic properties of the markup — cell type,
+span values, empty-vs-non-empty, row count. No content analysis, no
+percentage thresholds.
 
 ## Layer 2 — Correctness (oracle)
 

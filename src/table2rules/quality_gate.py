@@ -140,7 +140,11 @@ def assess_confidence(grid: List[List[Dict]], rules: List[LogicRule]) -> GateRes
     reasons: List[str] = []
     if coverage < 0.60:
         reasons.append("low_coverage")
-    if len(rules) >= 4 and header_ratio < 0.25:
+    # Structural invariant for rules mode: every rule must carry at least
+    # one header. A rule with zero headers is indistinguishable from flat
+    # cell text — rules format implies a header relationship that doesn't
+    # exist if no header was found. Fires universally, not on a threshold.
+    if len(rules) > 0 and header_ratio < 1.0:
         reasons.append("low_header_attachment")
     if echo_ratio > 0.50:
         reasons.append("high_self_echo")

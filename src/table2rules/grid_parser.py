@@ -186,8 +186,24 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
                     texts = [c.get_text(strip=True) for c in cells]
                     return bool(texts) and all(t for t in texts)
 
-                if first_multi_cell_idx is not None and _looks_like_header_row(
-                    get_row_cells(actual_rows[first_multi_cell_idx], table)
+                # Structural contrast check: require at least one subsequent
+                # multi-cell row to have at least one empty cell. See the
+                # matching rule in simple_repair.Fix 4 for the rationale.
+                def _any_subsequent_sparse(start_idx):
+                    for r in actual_rows[start_idx + 1:]:
+                        cs = get_row_cells(r, table)
+                        if len(cs) <= 1:
+                            continue
+                        if any(not c.get_text(strip=True) for c in cs):
+                            return True
+                    return False
+
+                if (
+                    first_multi_cell_idx is not None
+                    and _looks_like_header_row(
+                        get_row_cells(actual_rows[first_multi_cell_idx], table)
+                    )
+                    and _any_subsequent_sparse(first_multi_cell_idx)
                 ):
                     data_start_row_idx = first_multi_cell_idx + 1
                 else:

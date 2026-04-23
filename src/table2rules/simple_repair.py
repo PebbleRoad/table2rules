@@ -96,6 +96,34 @@ def simple_repair(html: str) -> str:
         actual_rows = get_top_level_rows(table)
 
 
+    # --- Fix 1b: Decompose mid-table section-title rows ---
+    # A <tr> whose sole cell is a <th> with colspan covering the grid
+    # width is structurally a section label (e.g. "Personal" / "Work"
+    # delimiting A/V blocks in two <tbody>s). If it survives into the
+    # grid, the span expansion turns the label into a fabricated column
+    # header for the rows below. Decompose these rows so section labels
+    # don't pollute the header walk. Fix 1 already handles the first-row
+    # instance by moving it to <caption>; this handles mid-table ones.
+    if actual_rows:
+        row_widths = [
+            len(r.find_all(['td', 'th'], recursive=False))
+            for r in actual_rows
+        ]
+        max_width = max(row_widths, default=0)
+        if max_width >= 2:
+            for row in list(actual_rows):
+                cells = row.find_all(['td', 'th'], recursive=False)
+                if len(cells) != 1:
+                    continue
+                cell = cells[0]
+                if cell.name != 'th':
+                    continue
+                colspan = int(cell.get('colspan', 1))
+                if colspan >= max_width:
+                    row.decompose()
+        actual_rows = get_top_level_rows(table)
+
+
     # --- Fix 7: Wrap header rows in <thead> ---
     # If table lacks <thead>, detect contiguous leading rows that are "header-like"
     # (all <th> cells, or all <th>/empty cells) and wrap them in <thead>.
@@ -278,7 +306,27 @@ def simple_repair(html: str) -> str:
                 # confidence gate catches numeric column headers later.
                 texts = [c.get_text(strip=True) for c in cells]
                 looks_header_like = bool(texts) and all(t for t in texts)
-                if first_cell_colspan == 1 and not is_section_header and looks_header_like:
+                # Structural contrast check: promote row 0 to <th> only when
+                # at least one subsequent multi-cell row has at least one
+                # empty cell. A real header uniquely labels every column;
+                # data rows legitimately have gaps. Without contrast, we
+                # have no structural evidence that row 0 plays a different
+                # role from the rows below it. Inventing <th> where the
+                # source has <td> is synthesis, not repair.
+                has_sparse_subsequent = False
+                for r in actual_rows[1:]:
+                    subsequent_cells = r.find_all(['td', 'th'], recursive=False)
+                    if len(subsequent_cells) <= 1:
+                        continue
+                    if any(not c.get_text(strip=True) for c in subsequent_cells):
+                        has_sparse_subsequent = True
+                        break
+                if (
+                    first_cell_colspan == 1
+                    and not is_section_header
+                    and looks_header_like
+                    and has_sparse_subsequent
+                ):
                     for cell in cells:
                         cell.name = 'th'
     
