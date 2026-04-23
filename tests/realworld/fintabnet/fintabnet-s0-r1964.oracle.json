@@ -1,0 +1,669 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$12,988.7",
+    "$13,981.9",
+    "$15,191.5",
+    "$2,537.3",
+    "$2,921.6",
+    "$3,490.9",
+    "0.2",
+    "0.6",
+    "0.7",
+    "1,050.0",
+    "1,053.1",
+    "1,067.2",
+    "1,071.5",
+    "1,076.9",
+    "1,159.4",
+    "1,915.0",
+    "1,958.2",
+    "10,289.4",
+    "10,987.6",
+    "100.0%",
+    "11,941.9",
+    "13.4",
+    "14.0",
+    "14.7",
+    "16.6",
+    "16.7",
+    "17.1",
+    "19.5%",
+    "2,042.9",
+    "2,152.3",
+    "2,389.3",
+    "2,540.1",
+    "2,950.5",
+    "20.4",
+    "20.9%",
+    "21.8",
+    "22.7",
+    "23.1%",
+    "29.9",
+    "3,042.6",
+    "3,100.3",
+    "3.6",
+    "4.0",
+    "4.1",
+    "467.7",
+    "575.1",
+    "6.6",
+    "6.9",
+    "611.3",
+    "7.1",
+    "7.4",
+    "7.5",
+    "7.6",
+    "78.6",
+    "78.7",
+    "79.1",
+    "79.3",
+    "8.2",
+    "853.8",
+    "962.1",
+    "965.6",
+    "98.2",
+    "Desktops",
+    "Dollars inMillions",
+    "Enterprise and Data Storage (Including Drives)",
+    "Netcomm Products",
+    "Notebooks/Mobile Devices",
+    "Other (3)",
+    "Other Hardware",
+    "Percentageof Total NetSales",
+    "Services (2)",
+    "Software",
+    "Total Hardware",
+    "Total Net sales",
+    "Video",
+    "Year EndedDecember 31, 2015 (1)",
+    "Year EndedDecember 31, 2016 (1)",
+    "Year EndedDecember 31, 2017"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Notebooks/Mobile Devices"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2017",
+        "Dollars inMillions"
+      ],
+      "value": "$3,490.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2017",
+        "Percentageof Total NetSales"
+      ],
+      "value": "23.1%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2016 (1)",
+        "Dollars inMillions"
+      ],
+      "value": "$2,921.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2016 (1)",
+        "Percentageof Total NetSales"
+      ],
+      "value": "20.9%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2015 (1)",
+        "Dollars inMillions"
+      ],
+      "value": "$2,537.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2015 (1)",
+        "Percentageof Total NetSales"
+      ],
+      "value": "19.5%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Netcomm Products"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2017",
+        "Dollars inMillions"
+      ],
+      "value": "2,042.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2017",
+        "Percentageof Total NetSales"
+      ],
+      "value": "13.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2016 (1)",
+        "Dollars inMillions"
+      ],
+      "value": "1,958.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2016 (1)",
+        "Percentageof Total NetSales"
+      ],
+      "value": "14.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2015 (1)",
+        "Dollars inMillions"
+      ],
+      "value": "1,915.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2015 (1)",
+        "Percentageof Total NetSales"
+      ],
+      "value": "14.7"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Desktops"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2017",
+        "Dollars inMillions"
+      ],
+      "value": "1,159.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2017",
+        "Percentageof Total NetSales"
+      ],
+      "value": "7.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2016 (1)",
+        "Dollars inMillions"
+      ],
+      "value": "1,050.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2016 (1)",
+        "Percentageof Total NetSales"
+      ],
+      "value": "7.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2015 (1)",
+        "Dollars inMillions"
+      ],
+      "value": "965.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2015 (1)",
+        "Percentageof Total NetSales"
+      ],
+      "value": "7.4"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Video"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2017",
+        "Dollars inMillions"
+      ],
+      "value": "1,076.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2017",
+        "Percentageof Total NetSales"
+      ],
+      "value": "7.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2016 (1)",
+        "Dollars inMillions"
+      ],
+      "value": "962.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2016 (1)",
+        "Percentageof Total NetSales"
+      ],
+      "value": "6.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2015 (1)",
+        "Dollars inMillions"
+      ],
+      "value": "853.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2015 (1)",
+        "Percentageof Total NetSales"
+      ],
+      "value": "6.6"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Enterprise and Data Storage (Including Drives)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2017",
+        "Dollars inMillions"
+      ],
+      "value": "1,071.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2017",
+        "Percentageof Total NetSales"
+      ],
+      "value": "7.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2016 (1)",
+        "Dollars inMillions"
+      ],
+      "value": "1,053.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2016 (1)",
+        "Percentageof Total NetSales"
+      ],
+      "value": "7.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2015 (1)",
+        "Dollars inMillions"
+      ],
+      "value": "1,067.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2015 (1)",
+        "Percentageof Total NetSales"
+      ],
+      "value": "8.2"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Other Hardware"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2017",
+        "Dollars inMillions"
+      ],
+      "value": "3,100.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2017",
+        "Percentageof Total NetSales"
+      ],
+      "value": "20.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2016 (1)",
+        "Dollars inMillions"
+      ],
+      "value": "3,042.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2016 (1)",
+        "Percentageof Total NetSales"
+      ],
+      "value": "21.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2015 (1)",
+        "Dollars inMillions"
+      ],
+      "value": "2,950.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2015 (1)",
+        "Percentageof Total NetSales"
+      ],
+      "value": "22.7"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total Hardware"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2017",
+        "Dollars inMillions"
+      ],
+      "value": "11,941.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2017",
+        "Percentageof Total NetSales"
+      ],
+      "value": "78.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2016 (1)",
+        "Dollars inMillions"
+      ],
+      "value": "10,987.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2016 (1)",
+        "Percentageof Total NetSales"
+      ],
+      "value": "78.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2015 (1)",
+        "Dollars inMillions"
+      ],
+      "value": "10,289.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2015 (1)",
+        "Percentageof Total NetSales"
+      ],
+      "value": "79.1"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Software"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2017",
+        "Dollars inMillions"
+      ],
+      "value": "2,540.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2017",
+        "Percentageof Total NetSales"
+      ],
+      "value": "16.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2016 (1)",
+        "Dollars inMillions"
+      ],
+      "value": "2,389.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2016 (1)",
+        "Percentageof Total NetSales"
+      ],
+      "value": "17.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2015 (1)",
+        "Dollars inMillions"
+      ],
+      "value": "2,152.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2015 (1)",
+        "Percentageof Total NetSales"
+      ],
+      "value": "16.6"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Services (2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2017",
+        "Dollars inMillions"
+      ],
+      "value": "611.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2017",
+        "Percentageof Total NetSales"
+      ],
+      "value": "4.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2016 (1)",
+        "Dollars inMillions"
+      ],
+      "value": "575.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2016 (1)",
+        "Percentageof Total NetSales"
+      ],
+      "value": "4.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2015 (1)",
+        "Dollars inMillions"
+      ],
+      "value": "467.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2015 (1)",
+        "Percentageof Total NetSales"
+      ],
+      "value": "3.6"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Other (3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2017",
+        "Dollars inMillions"
+      ],
+      "value": "98.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2017",
+        "Percentageof Total NetSales"
+      ],
+      "value": "0.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2016 (1)",
+        "Dollars inMillions"
+      ],
+      "value": "29.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2016 (1)",
+        "Percentageof Total NetSales"
+      ],
+      "value": "0.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2015 (1)",
+        "Dollars inMillions"
+      ],
+      "value": "79.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2015 (1)",
+        "Percentageof Total NetSales"
+      ],
+      "value": "0.7"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total Net sales"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2017",
+        "Dollars inMillions"
+      ],
+      "value": "$15,191.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2017",
+        "Percentageof Total NetSales"
+      ],
+      "value": "100.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2016 (1)",
+        "Dollars inMillions"
+      ],
+      "value": "$13,981.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2016 (1)",
+        "Percentageof Total NetSales"
+      ],
+      "value": "100.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2015 (1)",
+        "Dollars inMillions"
+      ],
+      "value": "$12,988.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year EndedDecember 31, 2015 (1)",
+        "Percentageof Total NetSales"
+      ],
+      "value": "100.0%"
+    }
+  ]
+}

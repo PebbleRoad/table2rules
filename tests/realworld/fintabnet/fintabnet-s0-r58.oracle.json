@@ -1,0 +1,491 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$17,944",
+    "$22,885",
+    "$5,185",
+    "$5,545",
+    "$7,096",
+    "$7,781",
+    "(0.1)",
+    "(0.3)",
+    "(10)",
+    "(82)",
+    "(9)",
+    "(in millions)",
+    "0.3",
+    "1,059",
+    "1,279",
+    "1,964",
+    "1.0",
+    "1.1",
+    "1.2",
+    "1.3",
+    "102.3%",
+    "14.9",
+    "16.8",
+    "2,010",
+    "2016 (1)",
+    "2017 (1)",
+    "2018",
+    "23",
+    "238",
+    "246",
+    "3.1",
+    "3.3",
+    "647",
+    "658",
+    "72.9%",
+    "73.0%",
+    "8.0",
+    "8.2",
+    "8.5",
+    "803",
+    "82",
+    "85",
+    "9.3",
+    "93.2%",
+    "95",
+    "99.9%",
+    "April 1, 2016 (1)",
+    "Costs of services (excludes depreciation and amortization and restructuring costs)",
+    "Debt extinguishment costs",
+    "Depreciation and amortization",
+    "Fiscal Years Ended",
+    "Interest expense, net",
+    "March 31, 2017 (1)",
+    "March 31, 2018",
+    "Other income, net",
+    "Percentage of Revenues",
+    "Restructuring costs",
+    "Selling, general and administrative (excludes depreciation and amortization and restructuring costs)",
+    "Total costs and expenses",
+    "\u2014"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "(in millions)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal Years Ended"
+      ],
+      "value": "March 31, 2018"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal Years Ended"
+      ],
+      "value": "March 31, 2017 (1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal Years Ended"
+      ],
+      "value": "April 1, 2016 (1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of Revenues"
+      ],
+      "value": "2018"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of Revenues"
+      ],
+      "value": "2017 (1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of Revenues"
+      ],
+      "value": "2016 (1)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Costs of services (excludes depreciation and amortization and restructuring costs)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal Years Ended"
+      ],
+      "value": "$17,944"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal Years Ended"
+      ],
+      "value": "$5,545"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal Years Ended"
+      ],
+      "value": "$5,185"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of Revenues"
+      ],
+      "value": "73.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of Revenues"
+      ],
+      "value": "72.9%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of Revenues"
+      ],
+      "value": "73.0%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Selling, general and administrative (excludes depreciation and amortization and restructuring costs)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal Years Ended"
+      ],
+      "value": "2,010"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal Years Ended"
+      ],
+      "value": "1,279"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal Years Ended"
+      ],
+      "value": "1,059"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of Revenues"
+      ],
+      "value": "8.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of Revenues"
+      ],
+      "value": "16.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of Revenues"
+      ],
+      "value": "14.9"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Depreciation and amortization"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal Years Ended"
+      ],
+      "value": "1,964"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal Years Ended"
+      ],
+      "value": "647"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal Years Ended"
+      ],
+      "value": "658"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of Revenues"
+      ],
+      "value": "8.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of Revenues"
+      ],
+      "value": "8.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of Revenues"
+      ],
+      "value": "9.3"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Restructuring costs"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal Years Ended"
+      ],
+      "value": "803"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal Years Ended"
+      ],
+      "value": "238"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal Years Ended"
+      ],
+      "value": "23"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of Revenues"
+      ],
+      "value": "3.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of Revenues"
+      ],
+      "value": "3.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of Revenues"
+      ],
+      "value": "0.3"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Interest expense, net"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal Years Ended"
+      ],
+      "value": "246"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal Years Ended"
+      ],
+      "value": "82"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal Years Ended"
+      ],
+      "value": "85"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of Revenues"
+      ],
+      "value": "1.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of Revenues"
+      ],
+      "value": "1.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of Revenues"
+      ],
+      "value": "1.2"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Debt extinguishment costs"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal Years Ended"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal Years Ended"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal Years Ended"
+      ],
+      "value": "95"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of Revenues"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of Revenues"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of Revenues"
+      ],
+      "value": "1.3"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Other income, net"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal Years Ended"
+      ],
+      "value": "(82)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal Years Ended"
+      ],
+      "value": "(10)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal Years Ended"
+      ],
+      "value": "(9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of Revenues"
+      ],
+      "value": "(0.3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of Revenues"
+      ],
+      "value": "(0.1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of Revenues"
+      ],
+      "value": "(0.1)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total costs and expenses"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal Years Ended"
+      ],
+      "value": "$22,885"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal Years Ended"
+      ],
+      "value": "$7,781"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal Years Ended"
+      ],
+      "value": "$7,096"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of Revenues"
+      ],
+      "value": "93.2%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of Revenues"
+      ],
+      "value": "102.3%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percentage of Revenues"
+      ],
+      "value": "99.9%"
+    }
+  ]
+}

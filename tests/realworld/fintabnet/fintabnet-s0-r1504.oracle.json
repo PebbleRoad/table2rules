@@ -1,0 +1,442 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "(0.05)",
+    "(0.18)",
+    "(0.25)",
+    "(1.8)",
+    "(16.2)",
+    "(2.2)",
+    "(3.7)",
+    "(4.5)",
+    "(4.94)",
+    "(5.05)",
+    "(In cents)",
+    "0.18",
+    "0.25",
+    "0.36",
+    "0.48",
+    "0.54",
+    "0.55",
+    "0.69",
+    "0.71",
+    "0.72",
+    "0.73",
+    "0.76",
+    "0.79",
+    "1.4",
+    "1.75",
+    "1.88",
+    "13.67",
+    "14.20",
+    "2012",
+    "2013",
+    "3.41",
+    "3.9",
+    "33.3",
+    "4.07",
+    "4.94",
+    "5.05",
+    "5.8",
+    "7.4",
+    "8.50",
+    "8.90",
+    "Aircraft fuel and related taxes",
+    "Aircraft rent",
+    "Depreciation and amortization",
+    "Less: Aircraft fuel and related taxes",
+    "Less: Profit sharing",
+    "Less: Special items, net",
+    "Mainline CASM:",
+    "Maintenance, materials and repairs",
+    "Other",
+    "Other rent and landing fees",
+    "Percent Increase (Decrease)",
+    "Salaries, wages and benefits",
+    "Selling expenses",
+    "Special items, net",
+    "Total mainline CASM",
+    "Total mainline CASM excluding special items, fuel and profit sharing 1",
+    "nm",
+    "\u2014"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Mainline CASM:"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Aircraft fuel and related taxes"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "(In cents)"
+      ],
+      "value": "4.94"
+    },
+    {
+      "row": [],
+      "col": [
+        "2012",
+        "(In cents)"
+      ],
+      "value": "5.05"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percent Increase (Decrease)"
+      ],
+      "value": "(2.2)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Salaries, wages and benefits"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "(In cents)"
+      ],
+      "value": "3.41"
+    },
+    {
+      "row": [],
+      "col": [
+        "2012",
+        "(In cents)"
+      ],
+      "value": "4.07"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percent Increase (Decrease)"
+      ],
+      "value": "(16.2)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Maintenance, materials and repairs"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "(In cents)"
+      ],
+      "value": "0.79"
+    },
+    {
+      "row": [],
+      "col": [
+        "2012",
+        "(In cents)"
+      ],
+      "value": "0.76"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percent Increase (Decrease)"
+      ],
+      "value": "3.9"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Other rent and landing fees"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "(In cents)"
+      ],
+      "value": "0.72"
+    },
+    {
+      "row": [],
+      "col": [
+        "2012",
+        "(In cents)"
+      ],
+      "value": "0.71"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percent Increase (Decrease)"
+      ],
+      "value": "1.4"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Aircraft rent"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "(In cents)"
+      ],
+      "value": "0.48"
+    },
+    {
+      "row": [],
+      "col": [
+        "2012",
+        "(In cents)"
+      ],
+      "value": "0.36"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percent Increase (Decrease)"
+      ],
+      "value": "33.3"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Selling expenses"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "(In cents)"
+      ],
+      "value": "0.73"
+    },
+    {
+      "row": [],
+      "col": [
+        "2012",
+        "(In cents)"
+      ],
+      "value": "0.69"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percent Increase (Decrease)"
+      ],
+      "value": "5.8"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Depreciation and amortization"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "(In cents)"
+      ],
+      "value": "0.54"
+    },
+    {
+      "row": [],
+      "col": [
+        "2012",
+        "(In cents)"
+      ],
+      "value": "0.55"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percent Increase (Decrease)"
+      ],
+      "value": "(1.8)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Special items, net"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "(In cents)"
+      ],
+      "value": "0.18"
+    },
+    {
+      "row": [],
+      "col": [
+        "2012",
+        "(In cents)"
+      ],
+      "value": "0.25"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percent Increase (Decrease)"
+      ],
+      "value": "nm"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Other"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "(In cents)"
+      ],
+      "value": "1.88"
+    },
+    {
+      "row": [],
+      "col": [
+        "2012",
+        "(In cents)"
+      ],
+      "value": "1.75"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percent Increase (Decrease)"
+      ],
+      "value": "7.4"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total mainline CASM"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "(In cents)"
+      ],
+      "value": "13.67"
+    },
+    {
+      "row": [],
+      "col": [
+        "2012",
+        "(In cents)"
+      ],
+      "value": "14.20"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percent Increase (Decrease)"
+      ],
+      "value": "(3.7)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Less: Special items, net"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "(In cents)"
+      ],
+      "value": "(0.18)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2012",
+        "(In cents)"
+      ],
+      "value": "(0.25)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Less: Aircraft fuel and related taxes"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "(In cents)"
+      ],
+      "value": "(4.94)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2012",
+        "(In cents)"
+      ],
+      "value": "(5.05)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Less: Profit sharing"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "(In cents)"
+      ],
+      "value": "(0.05)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2012",
+        "(In cents)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total mainline CASM excluding special items, fuel and profit sharing 1"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "(In cents)"
+      ],
+      "value": "8.50"
+    },
+    {
+      "row": [],
+      "col": [
+        "2012",
+        "(In cents)"
+      ],
+      "value": "8.90"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percent Increase (Decrease)"
+      ],
+      "value": "(4.5)"
+    }
+  ]
+}

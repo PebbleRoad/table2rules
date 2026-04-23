@@ -1,0 +1,710 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$10,328",
+    "$10,990",
+    "$2,263",
+    "$2,389",
+    "$30,274",
+    "$31,821",
+    "$6,946",
+    "$7,135",
+    "% of",
+    "(1.1)%",
+    "(1.8)%",
+    "(133)",
+    "(139)",
+    "(2.0)%",
+    "(2.2)%",
+    "(2.6)%",
+    "(2.7)%",
+    "(251)",
+    "(3.8)%",
+    "(355)",
+    "(4.9)%",
+    "(5.3)%",
+    "(6.0)%",
+    "(6.8)%",
+    "(604)",
+    "(632)",
+    "(Dollars in millions)",
+    "0.7%",
+    "1",
+    "1,046",
+    "1,102",
+    "1,115",
+    "1,296",
+    "1,305",
+    "1,724",
+    "100.0%",
+    "14.2%",
+    "14.6%",
+    "17.2%",
+    "17.5%",
+    "17.6%",
+    "17.9%",
+    "18.0%",
+    "18.2%",
+    "2014",
+    "2015",
+    "2015 vs 2014 % change",
+    "34.1%",
+    "34.5%",
+    "4",
+    "4,422",
+    "4,523",
+    "5,220",
+    "5,420",
+    "5,515",
+    "5,572",
+    "5,604",
+    "5,732",
+    "5.2%",
+    "995",
+    "Business Segments",
+    "Consumer",
+    "Corporate and Unallocated",
+    "Electronics and Energy",
+    "Elimination of Dual Credit",
+    "Health Care",
+    "Income",
+    "Industrial",
+    "Net",
+    "Oper.",
+    "Safety and Graphics",
+    "Sales",
+    "Total",
+    "Total Company",
+    "\u2014",
+    "\u2014%"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "(Dollars in millions)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "Net"
+      ],
+      "value": "Sales"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "% of"
+      ],
+      "value": "Total"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "Oper."
+      ],
+      "value": "Income"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Net"
+      ],
+      "value": "Sales"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "% of"
+      ],
+      "value": "Total"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Oper."
+      ],
+      "value": "Income"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015 vs 2014 % change",
+        "Net"
+      ],
+      "value": "Sales"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015 vs 2014 % change",
+        "Oper."
+      ],
+      "value": "Income"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Business Segments"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Industrial"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "Net"
+      ],
+      "value": "$10,328"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "% of"
+      ],
+      "value": "34.1%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "Oper."
+      ],
+      "value": "$2,263"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Net"
+      ],
+      "value": "$10,990"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "% of"
+      ],
+      "value": "34.5%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Oper."
+      ],
+      "value": "$2,389"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015 vs 2014 % change",
+        "Net"
+      ],
+      "value": "(6.0)%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015 vs 2014 % change",
+        "Oper."
+      ],
+      "value": "(5.3)%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Safety and Graphics"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "Net"
+      ],
+      "value": "5,515"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "% of"
+      ],
+      "value": "18.2%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "Oper."
+      ],
+      "value": "1,305"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Net"
+      ],
+      "value": "5,732"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "% of"
+      ],
+      "value": "18.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Oper."
+      ],
+      "value": "1,296"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015 vs 2014 % change",
+        "Net"
+      ],
+      "value": "(3.8)%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015 vs 2014 % change",
+        "Oper."
+      ],
+      "value": "0.7%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Health Care"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "Net"
+      ],
+      "value": "5,420"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "% of"
+      ],
+      "value": "17.9%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "Oper."
+      ],
+      "value": "1,724"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Net"
+      ],
+      "value": "5,572"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "% of"
+      ],
+      "value": "17.5%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Oper."
+      ],
+      "value": "1,724"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015 vs 2014 % change",
+        "Net"
+      ],
+      "value": "(2.7)%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015 vs 2014 % change",
+        "Oper."
+      ],
+      "value": "\u2014%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Electronics and Energy"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "Net"
+      ],
+      "value": "5,220"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "% of"
+      ],
+      "value": "17.2%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "Oper."
+      ],
+      "value": "1,102"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Net"
+      ],
+      "value": "5,604"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "% of"
+      ],
+      "value": "17.6%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Oper."
+      ],
+      "value": "1,115"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015 vs 2014 % change",
+        "Net"
+      ],
+      "value": "(6.8)%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015 vs 2014 % change",
+        "Oper."
+      ],
+      "value": "(1.1)%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Consumer"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "Net"
+      ],
+      "value": "4,422"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "% of"
+      ],
+      "value": "14.6%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "Oper."
+      ],
+      "value": "1,046"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Net"
+      ],
+      "value": "4,523"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "% of"
+      ],
+      "value": "14.2%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Oper."
+      ],
+      "value": "995"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015 vs 2014 % change",
+        "Net"
+      ],
+      "value": "(2.2)%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015 vs 2014 % change",
+        "Oper."
+      ],
+      "value": "5.2%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Corporate and Unallocated"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "Net"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "% of"
+      ],
+      "value": "\u2014%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "Oper."
+      ],
+      "value": "(355)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Net"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "% of"
+      ],
+      "value": "\u2014%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Oper."
+      ],
+      "value": "(251)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015 vs 2014 % change",
+        "Net"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015 vs 2014 % change",
+        "Oper."
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Elimination of Dual Credit"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "Net"
+      ],
+      "value": "(632)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "% of"
+      ],
+      "value": "(2.0)%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "Oper."
+      ],
+      "value": "(139)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Net"
+      ],
+      "value": "(604)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "% of"
+      ],
+      "value": "(1.8)%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Oper."
+      ],
+      "value": "(133)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015 vs 2014 % change",
+        "Net"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015 vs 2014 % change",
+        "Oper."
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total Company"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "Net"
+      ],
+      "value": "$30,274"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "% of"
+      ],
+      "value": "100.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "Oper."
+      ],
+      "value": "$6,946"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Net"
+      ],
+      "value": "$31,821"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "% of"
+      ],
+      "value": "100.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Oper."
+      ],
+      "value": "$7,135"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015 vs 2014 % change",
+        "Net"
+      ],
+      "value": "(4.9)%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015 vs 2014 % change",
+        "Oper."
+      ],
+      "value": "(2.6)%"
+    }
+  ]
+}

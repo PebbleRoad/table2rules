@@ -1,0 +1,406 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$24.14",
+    "$24.28",
+    "$26.70",
+    "$27.18",
+    "$27.51",
+    "$27.65",
+    "$28.36",
+    "$29.52",
+    "$30.33",
+    "$32.95",
+    "$35.27",
+    "$35.40",
+    "$36,402",
+    "$38.87",
+    "$39.03",
+    "$52,234",
+    "$60,815",
+    "(1,476)",
+    "(1,508)",
+    "(1,564)",
+    "(117)",
+    "(141)",
+    "(192)",
+    "(in thousands, except per share and life amounts)",
+    "1,645",
+    "1,680",
+    "1,813",
+    "1.48",
+    "1.51",
+    "1.52",
+    "1.53",
+    "3,454",
+    "3,920",
+    "3,947",
+    "3,983",
+    "353",
+    "AggregateFairValue",
+    "Assumed(2)",
+    "Balance at October 31, 2011",
+    "Balance at October 31, 2012",
+    "Balance at October 31, 2013",
+    "Balance at October 31, 2014",
+    "Forfeited",
+    "Granted",
+    "RestrictedStock Units",
+    "Vested(1)",
+    "WeightedAverageGrant DateFair Value",
+    "WeightedAverageRemainingContractualLife (In Years)"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Balance at October 31, 2011"
+    },
+    {
+      "row": [],
+      "col": [
+        "RestrictedStock Units",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "3,454"
+    },
+    {
+      "row": [],
+      "col": [
+        "WeightedAverageGrant DateFair Value",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "$24.28"
+    },
+    {
+      "row": [],
+      "col": [
+        "WeightedAverageRemainingContractualLife (In Years)",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "1.48"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Granted"
+    },
+    {
+      "row": [],
+      "col": [
+        "RestrictedStock Units",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "1,813"
+    },
+    {
+      "row": [],
+      "col": [
+        "WeightedAverageGrant DateFair Value",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "$29.52"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Assumed(2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "RestrictedStock Units",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "353"
+    },
+    {
+      "row": [],
+      "col": [
+        "WeightedAverageGrant DateFair Value",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "$30.33"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Vested(1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "RestrictedStock Units",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "(1,508)"
+    },
+    {
+      "row": [],
+      "col": [
+        "WeightedAverageGrant DateFair Value",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "$24.14"
+    },
+    {
+      "row": [],
+      "col": [
+        "AggregateFairValue",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "$36,402"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Forfeited"
+    },
+    {
+      "row": [],
+      "col": [
+        "RestrictedStock Units",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "(192)"
+    },
+    {
+      "row": [],
+      "col": [
+        "WeightedAverageGrant DateFair Value",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "$26.70"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Balance at October 31, 2012"
+    },
+    {
+      "row": [],
+      "col": [
+        "RestrictedStock Units",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "3,920"
+    },
+    {
+      "row": [],
+      "col": [
+        "WeightedAverageGrant DateFair Value",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "$27.18"
+    },
+    {
+      "row": [],
+      "col": [
+        "WeightedAverageRemainingContractualLife (In Years)",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "1.52"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Granted"
+    },
+    {
+      "row": [],
+      "col": [
+        "RestrictedStock Units",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "1,680"
+    },
+    {
+      "row": [],
+      "col": [
+        "WeightedAverageGrant DateFair Value",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "$35.27"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Vested(1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "RestrictedStock Units",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "(1,476)"
+    },
+    {
+      "row": [],
+      "col": [
+        "WeightedAverageGrant DateFair Value",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "$35.40"
+    },
+    {
+      "row": [],
+      "col": [
+        "AggregateFairValue",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "$52,234"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Forfeited"
+    },
+    {
+      "row": [],
+      "col": [
+        "RestrictedStock Units",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "(141)"
+    },
+    {
+      "row": [],
+      "col": [
+        "WeightedAverageGrant DateFair Value",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "$28.36"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Balance at October 31, 2013"
+    },
+    {
+      "row": [],
+      "col": [
+        "RestrictedStock Units",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "3,983"
+    },
+    {
+      "row": [],
+      "col": [
+        "WeightedAverageGrant DateFair Value",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "$27.51"
+    },
+    {
+      "row": [],
+      "col": [
+        "WeightedAverageRemainingContractualLife (In Years)",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "1.51"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Granted"
+    },
+    {
+      "row": [],
+      "col": [
+        "RestrictedStock Units",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "1,645"
+    },
+    {
+      "row": [],
+      "col": [
+        "WeightedAverageGrant DateFair Value",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "$39.03"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Vested(1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "RestrictedStock Units",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "(1,564)"
+    },
+    {
+      "row": [],
+      "col": [
+        "WeightedAverageGrant DateFair Value",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "$38.87"
+    },
+    {
+      "row": [],
+      "col": [
+        "AggregateFairValue",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "$60,815"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Forfeited"
+    },
+    {
+      "row": [],
+      "col": [
+        "RestrictedStock Units",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "(117)"
+    },
+    {
+      "row": [],
+      "col": [
+        "WeightedAverageGrant DateFair Value",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "$32.95"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Balance at October 31, 2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "RestrictedStock Units",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "3,947"
+    },
+    {
+      "row": [],
+      "col": [
+        "WeightedAverageGrant DateFair Value",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "$27.65"
+    },
+    {
+      "row": [],
+      "col": [
+        "WeightedAverageRemainingContractualLife (In Years)",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "1.53"
+    }
+  ]
+}

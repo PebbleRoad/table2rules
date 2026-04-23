@@ -1,0 +1,179 @@
+<!-- source: FinTabNet s0-r1182 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="4">
+   Year Ended December 31,
+  </td>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="2">
+   2018
+  </td>
+<td colspan="2">
+   2017
+  </td>
+<td colspan="2">
+   Change in
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   $
+  </td>
+<td>
+   % ofRevenue
+  </td>
+<td>
+   $
+  </td>
+<td>
+   % ofRevenue
+  </td>
+<td>
+   $
+  </td>
+<td>
+   %
+  </td>
+</tr>
+<tr>
+<td>
+   Operating expenses:
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Research and development
+  </td>
+<td>
+   $442,468
+  </td>
+<td>
+   20.6%
+  </td>
+<td>
+   $349,594
+  </td>
+<td>
+   21.2%
+  </td>
+<td>
+   $92,874
+  </td>
+<td>
+   26.6%
+  </td>
+</tr>
+<tr>
+<td>
+   Sales and marketing
+  </td>
+<td>
+   187,142
+  </td>
+<td>
+   8.7
+  </td>
+<td>
+   155,105
+  </td>
+<td>
+   9.4
+  </td>
+<td>
+   32,037
+  </td>
+<td>
+   20.7
+  </td>
+</tr>
+<tr>
+<td>
+   General and administrative
+  </td>
+<td>
+   65,420
+  </td>
+<td>
+   3.0
+  </td>
+<td>
+   86,798
+  </td>
+<td>
+   5.3
+  </td>
+<td>
+   (21,378)
+  </td>
+<td>
+   (24.6)
+  </td>
+</tr>
+<tr>
+<td>
+   Legal settlement
+  </td>
+<td>
+   405,000
+  </td>
+<td>
+   18.8
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   405,000
+  </td>
+<td>
+   *
+  </td>
+</tr>
+<tr>
+<td>
+   Total operating expenses
+  </td>
+<td>
+   $1,100,030
+  </td>
+<td>
+   51.1%
+  </td>
+<td>
+   $591,497
+  </td>
+<td>
+   35.9%
+  </td>
+<td>
+   $508,533
+  </td>
+<td>
+   86.0%
+  </td>
+</tr>
+</table>

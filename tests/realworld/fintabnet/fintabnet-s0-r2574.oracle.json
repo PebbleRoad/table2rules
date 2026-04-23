@@ -1,0 +1,348 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$101,607",
+    "$104,800",
+    "$110,035",
+    "$214,352",
+    "$236,968",
+    "$267,704",
+    "$292,688",
+    "$299,658",
+    "$318,176",
+    "$325,928",
+    "$363,698",
+    "$375,857",
+    "$57,952",
+    "$64,606",
+    "$70,565",
+    "$83,239",
+    "$91,150",
+    "$96,803",
+    "(Dollars and square feet in thousands)",
+    "14,941",
+    "15,568",
+    "16,195",
+    "2,605",
+    "2,610",
+    "2,627",
+    "2005",
+    "2006",
+    "2007",
+    "63.6%",
+    "64.1%",
+    "71.2%",
+    "71.5%",
+    "72.7%",
+    "East",
+    "Gross leasable square feet",
+    "Property operating income as a percent of total revenue",
+    "Property operating income(1)",
+    "Rental income",
+    "Total revenue",
+    "West"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "East"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Rental income"
+    },
+    {
+      "row": [],
+      "col": [
+        "2007",
+        "(Dollars and square feet in thousands)"
+      ],
+      "value": "$363,698"
+    },
+    {
+      "row": [],
+      "col": [
+        "2006",
+        "(Dollars and square feet in thousands)"
+      ],
+      "value": "$318,176"
+    },
+    {
+      "row": [],
+      "col": [
+        "2005",
+        "(Dollars and square feet in thousands)"
+      ],
+      "value": "$292,688"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total revenue"
+    },
+    {
+      "row": [],
+      "col": [
+        "2007",
+        "(Dollars and square feet in thousands)"
+      ],
+      "value": "$375,857"
+    },
+    {
+      "row": [],
+      "col": [
+        "2006",
+        "(Dollars and square feet in thousands)"
+      ],
+      "value": "$325,928"
+    },
+    {
+      "row": [],
+      "col": [
+        "2005",
+        "(Dollars and square feet in thousands)"
+      ],
+      "value": "$299,658"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Property operating income(1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2007",
+        "(Dollars and square feet in thousands)"
+      ],
+      "value": "$267,704"
+    },
+    {
+      "row": [],
+      "col": [
+        "2006",
+        "(Dollars and square feet in thousands)"
+      ],
+      "value": "$236,968"
+    },
+    {
+      "row": [],
+      "col": [
+        "2005",
+        "(Dollars and square feet in thousands)"
+      ],
+      "value": "$214,352"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Property operating income as a percent of total revenue"
+    },
+    {
+      "row": [],
+      "col": [
+        "2007",
+        "(Dollars and square feet in thousands)"
+      ],
+      "value": "71.2%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2006",
+        "(Dollars and square feet in thousands)"
+      ],
+      "value": "72.7%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2005",
+        "(Dollars and square feet in thousands)"
+      ],
+      "value": "71.5%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Gross leasable square feet"
+    },
+    {
+      "row": [],
+      "col": [
+        "2007",
+        "(Dollars and square feet in thousands)"
+      ],
+      "value": "15,568"
+    },
+    {
+      "row": [],
+      "col": [
+        "2006",
+        "(Dollars and square feet in thousands)"
+      ],
+      "value": "16,195"
+    },
+    {
+      "row": [],
+      "col": [
+        "2005",
+        "(Dollars and square feet in thousands)"
+      ],
+      "value": "14,941"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "West"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Rental income"
+    },
+    {
+      "row": [],
+      "col": [
+        "2007",
+        "(Dollars and square feet in thousands)"
+      ],
+      "value": "$104,800"
+    },
+    {
+      "row": [],
+      "col": [
+        "2006",
+        "(Dollars and square feet in thousands)"
+      ],
+      "value": "$96,803"
+    },
+    {
+      "row": [],
+      "col": [
+        "2005",
+        "(Dollars and square feet in thousands)"
+      ],
+      "value": "$83,239"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total revenue"
+    },
+    {
+      "row": [],
+      "col": [
+        "2007",
+        "(Dollars and square feet in thousands)"
+      ],
+      "value": "$110,035"
+    },
+    {
+      "row": [],
+      "col": [
+        "2006",
+        "(Dollars and square feet in thousands)"
+      ],
+      "value": "$101,607"
+    },
+    {
+      "row": [],
+      "col": [
+        "2005",
+        "(Dollars and square feet in thousands)"
+      ],
+      "value": "$91,150"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Property operating income(1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2007",
+        "(Dollars and square feet in thousands)"
+      ],
+      "value": "$70,565"
+    },
+    {
+      "row": [],
+      "col": [
+        "2006",
+        "(Dollars and square feet in thousands)"
+      ],
+      "value": "$64,606"
+    },
+    {
+      "row": [],
+      "col": [
+        "2005",
+        "(Dollars and square feet in thousands)"
+      ],
+      "value": "$57,952"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Property operating income as a percent of total revenue"
+    },
+    {
+      "row": [],
+      "col": [
+        "2007",
+        "(Dollars and square feet in thousands)"
+      ],
+      "value": "64.1%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2006",
+        "(Dollars and square feet in thousands)"
+      ],
+      "value": "63.6%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2005",
+        "(Dollars and square feet in thousands)"
+      ],
+      "value": "63.6%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Gross leasable square feet"
+    },
+    {
+      "row": [],
+      "col": [
+        "2007",
+        "(Dollars and square feet in thousands)"
+      ],
+      "value": "2,627"
+    },
+    {
+      "row": [],
+      "col": [
+        "2006",
+        "(Dollars and square feet in thousands)"
+      ],
+      "value": "2,605"
+    },
+    {
+      "row": [],
+      "col": [
+        "2005",
+        "(Dollars and square feet in thousands)"
+      ],
+      "value": "2,610"
+    }
+  ]
+}

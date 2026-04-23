@@ -1,0 +1,356 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$30.26",
+    "$35.97",
+    "$36.18",
+    "$47.66",
+    "134.50",
+    "134.60",
+    "149.30",
+    "167.60",
+    "169.70",
+    "178.00",
+    "182.90",
+    "183.70",
+    "184.10",
+    "201.40",
+    "2012",
+    "2013",
+    "202.50",
+    "213.50",
+    "216.10",
+    "22.12",
+    "22.45",
+    "224.90",
+    "241.80",
+    "25.40",
+    "29.45",
+    "292.60",
+    "31.35",
+    "31.72",
+    "31.96",
+    "31.97",
+    "33.31",
+    "38.56",
+    "38.62",
+    "40.71",
+    "First Quarter",
+    "Fourth Quarter",
+    "High",
+    "Low",
+    "NYSECommon Stock",
+    "OSECommon Stock (1)",
+    "Second Quarter",
+    "Third Quarter"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "2013"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Fourth Quarter"
+    },
+    {
+      "row": [],
+      "col": [
+        "NYSECommon Stock",
+        "High"
+      ],
+      "value": "$47.66"
+    },
+    {
+      "row": [],
+      "col": [
+        "NYSECommon Stock",
+        "Low"
+      ],
+      "value": "$35.97"
+    },
+    {
+      "row": [],
+      "col": [
+        "OSECommon Stock (1)",
+        "High"
+      ],
+      "value": "292.60"
+    },
+    {
+      "row": [],
+      "col": [
+        "OSECommon Stock (1)",
+        "Low"
+      ],
+      "value": "216.10"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Third Quarter"
+    },
+    {
+      "row": [],
+      "col": [
+        "NYSECommon Stock",
+        "High"
+      ],
+      "value": "40.71"
+    },
+    {
+      "row": [],
+      "col": [
+        "NYSECommon Stock",
+        "Low"
+      ],
+      "value": "33.31"
+    },
+    {
+      "row": [],
+      "col": [
+        "OSECommon Stock (1)",
+        "High"
+      ],
+      "value": "241.80"
+    },
+    {
+      "row": [],
+      "col": [
+        "OSECommon Stock (1)",
+        "Low"
+      ],
+      "value": "201.40"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Second Quarter"
+    },
+    {
+      "row": [],
+      "col": [
+        "NYSECommon Stock",
+        "High"
+      ],
+      "value": "38.62"
+    },
+    {
+      "row": [],
+      "col": [
+        "NYSECommon Stock",
+        "Low"
+      ],
+      "value": "31.35"
+    },
+    {
+      "row": [],
+      "col": [
+        "OSECommon Stock (1)",
+        "High"
+      ],
+      "value": "224.90"
+    },
+    {
+      "row": [],
+      "col": [
+        "OSECommon Stock (1)",
+        "Low"
+      ],
+      "value": "178.00"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "First Quarter"
+    },
+    {
+      "row": [],
+      "col": [
+        "NYSECommon Stock",
+        "High"
+      ],
+      "value": "38.56"
+    },
+    {
+      "row": [],
+      "col": [
+        "NYSECommon Stock",
+        "Low"
+      ],
+      "value": "31.72"
+    },
+    {
+      "row": [],
+      "col": [
+        "OSECommon Stock (1)",
+        "High"
+      ],
+      "value": "213.50"
+    },
+    {
+      "row": [],
+      "col": [
+        "OSECommon Stock (1)",
+        "Low"
+      ],
+      "value": "184.10"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "2012"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Fourth Quarter"
+    },
+    {
+      "row": [],
+      "col": [
+        "NYSECommon Stock",
+        "High"
+      ],
+      "value": "$36.18"
+    },
+    {
+      "row": [],
+      "col": [
+        "NYSECommon Stock",
+        "Low"
+      ],
+      "value": "$30.26"
+    },
+    {
+      "row": [],
+      "col": [
+        "OSECommon Stock (1)",
+        "High"
+      ],
+      "value": "202.50"
+    },
+    {
+      "row": [],
+      "col": [
+        "OSECommon Stock (1)",
+        "Low"
+      ],
+      "value": "169.70"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Third Quarter"
+    },
+    {
+      "row": [],
+      "col": [
+        "NYSECommon Stock",
+        "High"
+      ],
+      "value": "31.97"
+    },
+    {
+      "row": [],
+      "col": [
+        "NYSECommon Stock",
+        "Low"
+      ],
+      "value": "22.45"
+    },
+    {
+      "row": [],
+      "col": [
+        "OSECommon Stock (1)",
+        "High"
+      ],
+      "value": "182.90"
+    },
+    {
+      "row": [],
+      "col": [
+        "OSECommon Stock (1)",
+        "Low"
+      ],
+      "value": "134.50"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Second Quarter"
+    },
+    {
+      "row": [],
+      "col": [
+        "NYSECommon Stock",
+        "High"
+      ],
+      "value": "29.45"
+    },
+    {
+      "row": [],
+      "col": [
+        "NYSECommon Stock",
+        "Low"
+      ],
+      "value": "22.12"
+    },
+    {
+      "row": [],
+      "col": [
+        "OSECommon Stock (1)",
+        "High"
+      ],
+      "value": "167.60"
+    },
+    {
+      "row": [],
+      "col": [
+        "OSECommon Stock (1)",
+        "Low"
+      ],
+      "value": "134.60"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "First Quarter"
+    },
+    {
+      "row": [],
+      "col": [
+        "NYSECommon Stock",
+        "High"
+      ],
+      "value": "31.96"
+    },
+    {
+      "row": [],
+      "col": [
+        "NYSECommon Stock",
+        "Low"
+      ],
+      "value": "25.40"
+    },
+    {
+      "row": [],
+      "col": [
+        "OSECommon Stock (1)",
+        "High"
+      ],
+      "value": "183.70"
+    },
+    {
+      "row": [],
+      "col": [
+        "OSECommon Stock (1)",
+        "Low"
+      ],
+      "value": "149.30"
+    }
+  ]
+}

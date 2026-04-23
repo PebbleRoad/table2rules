@@ -1,0 +1,357 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$ Change",
+    "$(2.7)",
+    "$101.9",
+    "$14.2",
+    "$77.9",
+    "$87.7",
+    "$9.8",
+    "% Change",
+    "(1)%",
+    "(2.7)",
+    "(20)%",
+    "(20.8)",
+    "(4)%",
+    "(dollars in millions)",
+    "10%",
+    "102.6",
+    "13%",
+    "16%",
+    "16.8",
+    "20%",
+    "2003",
+    "2003 to 2004",
+    "2004",
+    "2004 to 2005",
+    "2005",
+    "24%",
+    "240.3",
+    "254.4",
+    "257.1",
+    "26%",
+    "3.9",
+    "6%",
+    "66.8",
+    "69.5",
+    "7%",
+    "70.7",
+    "81.8",
+    "9.7",
+    "92.9",
+    "Amortization of intangible assets and deferred stock compensation",
+    "Cost of license revenue",
+    "Cost of maintenance and service revenue",
+    "Percentage of total revenue",
+    "Total",
+    "Year Ended October 31,"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Cost of license revenue"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2005",
+        "(dollars in millions)"
+      ],
+      "value": "$101.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2004",
+        "(dollars in millions)"
+      ],
+      "value": "$87.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2003",
+        "(dollars in millions)"
+      ],
+      "value": "$77.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2004 to 2005",
+        "(dollars in millions)"
+      ],
+      "value": "$14.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2004 to 2005",
+        "(dollars in millions)"
+      ],
+      "value": "16%"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2003 to 2004",
+        "(dollars in millions)"
+      ],
+      "value": "$9.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2003 to 2004",
+        "(dollars in millions)"
+      ],
+      "value": "13%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Cost of maintenance and service revenue"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2005",
+        "(dollars in millions)"
+      ],
+      "value": "70.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2004",
+        "(dollars in millions)"
+      ],
+      "value": "66.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2003",
+        "(dollars in millions)"
+      ],
+      "value": "69.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2004 to 2005",
+        "(dollars in millions)"
+      ],
+      "value": "3.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2004 to 2005",
+        "(dollars in millions)"
+      ],
+      "value": "6%"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2003 to 2004",
+        "(dollars in millions)"
+      ],
+      "value": "(2.7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2003 to 2004",
+        "(dollars in millions)"
+      ],
+      "value": "(4)%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Amortization of intangible assets and deferred stock compensation"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2005",
+        "(dollars in millions)"
+      ],
+      "value": "81.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2004",
+        "(dollars in millions)"
+      ],
+      "value": "102.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2003",
+        "(dollars in millions)"
+      ],
+      "value": "92.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2004 to 2005",
+        "(dollars in millions)"
+      ],
+      "value": "(20.8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2004 to 2005",
+        "(dollars in millions)"
+      ],
+      "value": "(20)%"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2003 to 2004",
+        "(dollars in millions)"
+      ],
+      "value": "9.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2003 to 2004",
+        "(dollars in millions)"
+      ],
+      "value": "10%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2005",
+        "(dollars in millions)"
+      ],
+      "value": "254.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2004",
+        "(dollars in millions)"
+      ],
+      "value": "257.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2003",
+        "(dollars in millions)"
+      ],
+      "value": "240.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2004 to 2005",
+        "(dollars in millions)"
+      ],
+      "value": "$(2.7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2004 to 2005",
+        "(dollars in millions)"
+      ],
+      "value": "(1)%"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2003 to 2004",
+        "(dollars in millions)"
+      ],
+      "value": "16.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2003 to 2004",
+        "(dollars in millions)"
+      ],
+      "value": "7%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Percentage of total revenue"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2005",
+        "(dollars in millions)"
+      ],
+      "value": "26%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2004",
+        "(dollars in millions)"
+      ],
+      "value": "24%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2003",
+        "(dollars in millions)"
+      ],
+      "value": "20%"
+    }
+  ]
+}

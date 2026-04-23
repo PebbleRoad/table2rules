@@ -1,0 +1,205 @@
+<!-- source: FinTabNet s0-r2028 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="3">
+   Comparable Company-Operated  Properties
+   <sup>
+    (1)
+   </sup>
+</td>
+<td colspan="3">
+   Comparable Systemwide  Properties
+   <sup>
+    (1)
+   </sup>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   2010
+  </td>
+<td colspan="2">
+   Change vs. 2009
+  </td>
+<td>
+   2010
+  </td>
+<td colspan="2">
+   Change vs. 2009
+  </td>
+</tr>
+<tr>
+<td>
+   Composite Luxury
+   <sup>
+    (2)
+   </sup>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Occupancy
+  </td>
+<td>
+   66.1%
+  </td>
+<td>
+   5.9%
+  </td>
+<td>
+   pts.
+  </td>
+<td>
+   66.1%
+  </td>
+<td>
+   5.9%
+  </td>
+<td>
+   pts.
+  </td>
+</tr>
+<tr>
+<td>
+   Average Daily Rate
+  </td>
+<td>
+   $292.11
+  </td>
+<td>
+   0.4%
+  </td>
+<td>
+</td>
+<td>
+   $292.11
+  </td>
+<td>
+   0.4%
+  </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   RevPAR
+  </td>
+<td>
+   $193.17
+  </td>
+<td>
+   10.2%
+  </td>
+<td>
+</td>
+<td>
+   $193.17
+  </td>
+<td>
+   10.2%
+  </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Total Worldwide
+   <sup>
+    (3)
+   </sup>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Occupancy
+  </td>
+<td>
+   68.7%
+  </td>
+<td>
+   4.1%
+  </td>
+<td>
+   pts.
+  </td>
+<td>
+   67.8%
+  </td>
+<td>
+   4.1%
+  </td>
+<td>
+   pts.
+  </td>
+</tr>
+<tr>
+<td>
+   Average Daily Rate
+  </td>
+<td>
+   $150.46
+  </td>
+<td>
+   0.0%
+  </td>
+<td>
+</td>
+<td>
+   $128.82
+  </td>
+<td>
+   -0.6%
+  </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   RevPAR
+  </td>
+<td>
+   $103.30
+  </td>
+<td>
+   6.3%
+  </td>
+<td>
+</td>
+<td>
+   $87.28
+  </td>
+<td>
+   5.8%
+  </td>
+<td>
+</td>
+</tr>
+</table>

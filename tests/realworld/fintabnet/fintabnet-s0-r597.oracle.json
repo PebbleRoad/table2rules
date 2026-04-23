@@ -1,0 +1,512 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$15,675",
+    "$2,405",
+    "$23,899",
+    "$27,922",
+    "$4,745",
+    "$46,573",
+    "$5,097",
+    "$6,595",
+    "$7,023",
+    "$9,056",
+    "(in millions)",
+    "1,049",
+    "1,236",
+    "1,566",
+    "1,568",
+    "1,586",
+    "10,786",
+    "103",
+    "107",
+    "12",
+    "15",
+    "177",
+    "195",
+    "2",
+    "2,007",
+    "2,053",
+    "2016",
+    "2017-2018",
+    "2019-2020",
+    "2021 andThereafter",
+    "207",
+    "209",
+    "25",
+    "27",
+    "3,056",
+    "32",
+    "336",
+    "46",
+    "467",
+    "5,094",
+    "50",
+    "6,662",
+    "649",
+    "651",
+    "68",
+    "682",
+    "7,101",
+    "75",
+    "78",
+    "852",
+    "883",
+    "902",
+    "Colombian Investment and Cooperation Agreement (3)",
+    "Interest on borrowings (4)",
+    "Inventory and production costs",
+    "Long-term debt (1)",
+    "Operating leases (5)",
+    "Other",
+    "Other long-term liabilities (7)",
+    "Payments Due",
+    "Purchase obligations (6) :",
+    "RBH Legal Settlement (2)",
+    "Total",
+    "\u2014"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "(in millions)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Long-term debt (1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "$27,922"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due",
+        "2016"
+      ],
+      "value": "$2,405"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due",
+        "2017-2018"
+      ],
+      "value": "$5,097"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due",
+        "2019-2020"
+      ],
+      "value": "$4,745"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due",
+        "2021 andThereafter"
+      ],
+      "value": "$15,675"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "RBH Legal Settlement (2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "78"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due",
+        "2016"
+      ],
+      "value": "32"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due",
+        "2017-2018"
+      ],
+      "value": "46"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due",
+        "2019-2020"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due",
+        "2021 andThereafter"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Colombian Investment and Cooperation Agreement (3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "107"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due",
+        "2016"
+      ],
+      "value": "15"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due",
+        "2017-2018"
+      ],
+      "value": "12"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due",
+        "2019-2020"
+      ],
+      "value": "12"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due",
+        "2021 andThereafter"
+      ],
+      "value": "68"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Interest on borrowings (4)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "10,786"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due",
+        "2016"
+      ],
+      "value": "883"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due",
+        "2017-2018"
+      ],
+      "value": "1,566"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due",
+        "2019-2020"
+      ],
+      "value": "1,236"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due",
+        "2021 andThereafter"
+      ],
+      "value": "7,101"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Operating leases (5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "682"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due",
+        "2016"
+      ],
+      "value": "177"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due",
+        "2017-2018"
+      ],
+      "value": "207"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due",
+        "2019-2020"
+      ],
+      "value": "103"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due",
+        "2021 andThereafter"
+      ],
+      "value": "195"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Purchase obligations (6) :"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Inventory and production costs"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "5,094"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due",
+        "2016"
+      ],
+      "value": "2,007"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due",
+        "2017-2018"
+      ],
+      "value": "1,586"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due",
+        "2019-2020"
+      ],
+      "value": "852"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due",
+        "2021 andThereafter"
+      ],
+      "value": "649"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Other"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "1,568"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due",
+        "2016"
+      ],
+      "value": "1,049"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due",
+        "2017-2018"
+      ],
+      "value": "467"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due",
+        "2019-2020"
+      ],
+      "value": "50"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due",
+        "2021 andThereafter"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "6,662"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due",
+        "2016"
+      ],
+      "value": "3,056"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due",
+        "2017-2018"
+      ],
+      "value": "2,053"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due",
+        "2019-2020"
+      ],
+      "value": "902"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due",
+        "2021 andThereafter"
+      ],
+      "value": "651"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Other long-term liabilities (7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "336"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due",
+        "2016"
+      ],
+      "value": "27"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due",
+        "2017-2018"
+      ],
+      "value": "75"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due",
+        "2019-2020"
+      ],
+      "value": "25"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due",
+        "2021 andThereafter"
+      ],
+      "value": "209"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "$46,573"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due",
+        "2016"
+      ],
+      "value": "$6,595"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due",
+        "2017-2018"
+      ],
+      "value": "$9,056"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due",
+        "2019-2020"
+      ],
+      "value": "$7,023"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due",
+        "2021 andThereafter"
+      ],
+      "value": "$23,899"
+    }
+  ]
+}

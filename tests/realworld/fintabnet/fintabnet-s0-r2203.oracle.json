@@ -1,0 +1,733 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$(162)",
+    "$(311)",
+    "$(33)",
+    "$(34)",
+    "$18",
+    "$309",
+    "$357",
+    "$997",
+    "(116)",
+    "(127)",
+    "(132)",
+    "(16)",
+    "(179)",
+    "(2)",
+    "(30)",
+    "(34)",
+    "(5)",
+    "(53)",
+    "(54)",
+    "(57)",
+    "(63)",
+    "(73)",
+    "(75)",
+    "(87)",
+    "10",
+    "11",
+    "143",
+    "172",
+    "18",
+    "196",
+    "2013",
+    "2014",
+    "22",
+    "259",
+    "260",
+    "269",
+    "279",
+    "315",
+    "335",
+    "4",
+    "403",
+    "58",
+    "6",
+    "7",
+    "718",
+    "73",
+    "76",
+    "87",
+    "Asset derivatives December 31,",
+    "Balance sheet location",
+    "Deferred charges and other assets/(Other long-term liabilities and deferred credits)",
+    "Derivatives designated as hedging contracts",
+    "Derivatives not designated as hedging contracts",
+    "Fair value",
+    "Interest rate swap agreements",
+    "Liability derivatives December 31,",
+    "Natural gas and crude derivative contracts",
+    "Natural gas, crude and NGL derivative contracts",
+    "Other current assets/(Other current liabilities)",
+    "Power derivative contracts",
+    "Subtotal",
+    "Total",
+    "Total derivatives",
+    "\u2014"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Derivatives designated as hedging contracts"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Natural gas and crude derivative contracts"
+    },
+    {
+      "row": [],
+      "col": [
+        "Balance sheet location"
+      ],
+      "value": "Other current assets/(Other current liabilities)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asset derivatives December 31,",
+        "2014",
+        "Fair value"
+      ],
+      "value": "$309"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asset derivatives December 31,",
+        "2013",
+        "Fair value"
+      ],
+      "value": "$18"
+    },
+    {
+      "row": [],
+      "col": [
+        "Liability derivatives December 31,",
+        "2014",
+        "Fair value"
+      ],
+      "value": "$(34)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Liability derivatives December 31,",
+        "2013",
+        "Fair value"
+      ],
+      "value": "$(33)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Balance sheet location"
+      ],
+      "value": "Deferred charges and other assets/(Other long-term liabilities and deferred credits)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asset derivatives December 31,",
+        "2014",
+        "Fair value"
+      ],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asset derivatives December 31,",
+        "2013",
+        "Fair value"
+      ],
+      "value": "58"
+    },
+    {
+      "row": [],
+      "col": [
+        "Liability derivatives December 31,",
+        "2014",
+        "Fair value"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Liability derivatives December 31,",
+        "2013",
+        "Fair value"
+      ],
+      "value": "(30)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Subtotal"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asset derivatives December 31,",
+        "2014",
+        "Fair value"
+      ],
+      "value": "315"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asset derivatives December 31,",
+        "2013",
+        "Fair value"
+      ],
+      "value": "76"
+    },
+    {
+      "row": [],
+      "col": [
+        "Liability derivatives December 31,",
+        "2014",
+        "Fair value"
+      ],
+      "value": "(34)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Liability derivatives December 31,",
+        "2013",
+        "Fair value"
+      ],
+      "value": "(63)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Interest rate swap agreements"
+    },
+    {
+      "row": [],
+      "col": [
+        "Balance sheet location"
+      ],
+      "value": "Other current assets/(Other current liabilities)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asset derivatives December 31,",
+        "2014",
+        "Fair value"
+      ],
+      "value": "143"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asset derivatives December 31,",
+        "2013",
+        "Fair value"
+      ],
+      "value": "87"
+    },
+    {
+      "row": [],
+      "col": [
+        "Liability derivatives December 31,",
+        "2014",
+        "Fair value"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Liability derivatives December 31,",
+        "2013",
+        "Fair value"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Balance sheet location"
+      ],
+      "value": "Deferred charges and other assets/(Other long-term liabilities and deferred credits)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asset derivatives December 31,",
+        "2014",
+        "Fair value"
+      ],
+      "value": "260"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asset derivatives December 31,",
+        "2013",
+        "Fair value"
+      ],
+      "value": "172"
+    },
+    {
+      "row": [],
+      "col": [
+        "Liability derivatives December 31,",
+        "2014",
+        "Fair value"
+      ],
+      "value": "(53)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Liability derivatives December 31,",
+        "2013",
+        "Fair value"
+      ],
+      "value": "(116)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Subtotal"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asset derivatives December 31,",
+        "2014",
+        "Fair value"
+      ],
+      "value": "403"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asset derivatives December 31,",
+        "2013",
+        "Fair value"
+      ],
+      "value": "259"
+    },
+    {
+      "row": [],
+      "col": [
+        "Liability derivatives December 31,",
+        "2014",
+        "Fair value"
+      ],
+      "value": "(53)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Liability derivatives December 31,",
+        "2013",
+        "Fair value"
+      ],
+      "value": "(116)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asset derivatives December 31,",
+        "2014",
+        "Fair value"
+      ],
+      "value": "718"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asset derivatives December 31,",
+        "2013",
+        "Fair value"
+      ],
+      "value": "335"
+    },
+    {
+      "row": [],
+      "col": [
+        "Liability derivatives December 31,",
+        "2014",
+        "Fair value"
+      ],
+      "value": "(87)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Liability derivatives December 31,",
+        "2013",
+        "Fair value"
+      ],
+      "value": "(179)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Derivatives not designated as hedging contracts"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Natural gas, crude and NGL derivative contracts"
+    },
+    {
+      "row": [],
+      "col": [
+        "Balance sheet location"
+      ],
+      "value": "Other current assets/(Other current liabilities)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asset derivatives December 31,",
+        "2014",
+        "Fair value"
+      ],
+      "value": "73"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asset derivatives December 31,",
+        "2013",
+        "Fair value"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Liability derivatives December 31,",
+        "2014",
+        "Fair value"
+      ],
+      "value": "(2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Liability derivatives December 31,",
+        "2013",
+        "Fair value"
+      ],
+      "value": "(5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Balance sheet location"
+      ],
+      "value": "Deferred charges and other assets/(Other long-term liabilities and deferred credits)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asset derivatives December 31,",
+        "2014",
+        "Fair value"
+      ],
+      "value": "196"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asset derivatives December 31,",
+        "2013",
+        "Fair value"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Liability derivatives December 31,",
+        "2014",
+        "Fair value"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Liability derivatives December 31,",
+        "2013",
+        "Fair value"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Subtotal"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asset derivatives December 31,",
+        "2014",
+        "Fair value"
+      ],
+      "value": "269"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asset derivatives December 31,",
+        "2013",
+        "Fair value"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Liability derivatives December 31,",
+        "2014",
+        "Fair value"
+      ],
+      "value": "(2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Liability derivatives December 31,",
+        "2013",
+        "Fair value"
+      ],
+      "value": "(5)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Power derivative contracts"
+    },
+    {
+      "row": [],
+      "col": [
+        "Balance sheet location"
+      ],
+      "value": "Other current assets/(Other current liabilities)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asset derivatives December 31,",
+        "2014",
+        "Fair value"
+      ],
+      "value": "10"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asset derivatives December 31,",
+        "2013",
+        "Fair value"
+      ],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Liability derivatives December 31,",
+        "2014",
+        "Fair value"
+      ],
+      "value": "(57)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Liability derivatives December 31,",
+        "2013",
+        "Fair value"
+      ],
+      "value": "(54)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Balance sheet location"
+      ],
+      "value": "Deferred charges and other assets/(Other long-term liabilities and deferred credits)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asset derivatives December 31,",
+        "2014",
+        "Fair value"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asset derivatives December 31,",
+        "2013",
+        "Fair value"
+      ],
+      "value": "11"
+    },
+    {
+      "row": [],
+      "col": [
+        "Liability derivatives December 31,",
+        "2014",
+        "Fair value"
+      ],
+      "value": "(16)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Liability derivatives December 31,",
+        "2013",
+        "Fair value"
+      ],
+      "value": "(73)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Subtotal"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asset derivatives December 31,",
+        "2014",
+        "Fair value"
+      ],
+      "value": "10"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asset derivatives December 31,",
+        "2013",
+        "Fair value"
+      ],
+      "value": "18"
+    },
+    {
+      "row": [],
+      "col": [
+        "Liability derivatives December 31,",
+        "2014",
+        "Fair value"
+      ],
+      "value": "(73)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Liability derivatives December 31,",
+        "2013",
+        "Fair value"
+      ],
+      "value": "(127)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asset derivatives December 31,",
+        "2014",
+        "Fair value"
+      ],
+      "value": "279"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asset derivatives December 31,",
+        "2013",
+        "Fair value"
+      ],
+      "value": "22"
+    },
+    {
+      "row": [],
+      "col": [
+        "Liability derivatives December 31,",
+        "2014",
+        "Fair value"
+      ],
+      "value": "(75)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Liability derivatives December 31,",
+        "2013",
+        "Fair value"
+      ],
+      "value": "(132)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total derivatives"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asset derivatives December 31,",
+        "2014",
+        "Fair value"
+      ],
+      "value": "$997"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asset derivatives December 31,",
+        "2013",
+        "Fair value"
+      ],
+      "value": "$357"
+    },
+    {
+      "row": [],
+      "col": [
+        "Liability derivatives December 31,",
+        "2014",
+        "Fair value"
+      ],
+      "value": "$(162)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Liability derivatives December 31,",
+        "2013",
+        "Fair value"
+      ],
+      "value": "$(311)"
+    }
+  ]
+}

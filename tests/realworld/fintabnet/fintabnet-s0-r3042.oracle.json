@@ -1,0 +1,355 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$ Change",
+    "$14.8",
+    "$146.4",
+    "$172.0",
+    "$175.6",
+    "$234.3",
+    "$24.6",
+    "$25.6",
+    "$258.9",
+    "$273.7",
+    "$3.6",
+    "% Change",
+    "(0.2)",
+    "(0.8)",
+    "(1)%",
+    "(dollars in millions)",
+    "1.8",
+    "10%",
+    "17%",
+    "19%",
+    "2%",
+    "20%",
+    "2007",
+    "2007 to 2008",
+    "2008",
+    "2008 to 2009",
+    "2009",
+    "23.3",
+    "23.5",
+    "3%",
+    "32.7",
+    "40%",
+    "6%",
+    "63.6",
+    "64.4",
+    "65.4",
+    "9.4",
+    "Amortization of intangible assets",
+    "Cost of license revenue",
+    "Cost of maintenance and service revenue",
+    "Percentage of total revenue",
+    "Total",
+    "Year Ended October 31,"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Cost of license revenue"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2009",
+        "(dollars in millions)"
+      ],
+      "value": "$175.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2008",
+        "(dollars in millions)"
+      ],
+      "value": "$172.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2007",
+        "(dollars in millions)"
+      ],
+      "value": "$146.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2008 to 2009",
+        "(dollars in millions)"
+      ],
+      "value": "$3.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2008 to 2009",
+        "(dollars in millions)"
+      ],
+      "value": "2%"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2007 to 2008",
+        "(dollars in millions)"
+      ],
+      "value": "$25.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2007 to 2008",
+        "(dollars in millions)"
+      ],
+      "value": "17%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Cost of maintenance and service revenue"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2009",
+        "(dollars in millions)"
+      ],
+      "value": "65.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2008",
+        "(dollars in millions)"
+      ],
+      "value": "63.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2007",
+        "(dollars in millions)"
+      ],
+      "value": "64.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2008 to 2009",
+        "(dollars in millions)"
+      ],
+      "value": "1.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2008 to 2009",
+        "(dollars in millions)"
+      ],
+      "value": "3%"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2007 to 2008",
+        "(dollars in millions)"
+      ],
+      "value": "(0.8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2007 to 2008",
+        "(dollars in millions)"
+      ],
+      "value": "(1)%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Amortization of intangible assets"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2009",
+        "(dollars in millions)"
+      ],
+      "value": "32.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2008",
+        "(dollars in millions)"
+      ],
+      "value": "23.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2007",
+        "(dollars in millions)"
+      ],
+      "value": "23.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2008 to 2009",
+        "(dollars in millions)"
+      ],
+      "value": "9.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2008 to 2009",
+        "(dollars in millions)"
+      ],
+      "value": "40%"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2007 to 2008",
+        "(dollars in millions)"
+      ],
+      "value": "(0.2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2007 to 2008",
+        "(dollars in millions)"
+      ],
+      "value": "(1)%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2009",
+        "(dollars in millions)"
+      ],
+      "value": "$273.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2008",
+        "(dollars in millions)"
+      ],
+      "value": "$258.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2007",
+        "(dollars in millions)"
+      ],
+      "value": "$234.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2008 to 2009",
+        "(dollars in millions)"
+      ],
+      "value": "$14.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2008 to 2009",
+        "(dollars in millions)"
+      ],
+      "value": "6%"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2007 to 2008",
+        "(dollars in millions)"
+      ],
+      "value": "$24.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2007 to 2008",
+        "(dollars in millions)"
+      ],
+      "value": "10%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Percentage of total revenue"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2009",
+        "(dollars in millions)"
+      ],
+      "value": "20%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2008",
+        "(dollars in millions)"
+      ],
+      "value": "19%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2007",
+        "(dollars in millions)"
+      ],
+      "value": "19%"
+    }
+  ]
+}

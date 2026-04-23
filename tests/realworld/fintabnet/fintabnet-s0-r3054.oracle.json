@@ -1,0 +1,366 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$(80)",
+    "$1,173,581",
+    "$1,178,124",
+    "$4,623",
+    "$40,390",
+    "$\u2014",
+    "(80)",
+    "(in thousands)",
+    "1,165,579",
+    "1,168,326",
+    "1,796",
+    "141,418",
+    "2,827",
+    "463,966",
+    "466,713",
+    "519,805",
+    "8,002",
+    "9,798",
+    "Balance at October 31, 2009",
+    "Cash deposits and money market funds (International)",
+    "Classified as current assets:",
+    "Classified as non-current assets:",
+    "Cost",
+    "Estimated Fair Value",
+    "Gross Unrealized Gains",
+    "Gross Unrealized Losses 12 Months or Longer",
+    "Gross Unrealized Losses Less Than 12 Months",
+    "Money market funds (U.S.)",
+    "Municipal obligations",
+    "Non-interest bearing cash (U.S. and International)",
+    "Strategic investments",
+    "Total",
+    "\u2014"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Balance at October 31, 2009"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Classified as current assets:"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Non-interest bearing cash (U.S. and International)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cost",
+        "(in thousands)"
+      ],
+      "value": "$40,390"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gross Unrealized Gains",
+        "(in thousands)"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gross Unrealized Losses Less Than 12 Months",
+        "(in thousands)"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gross Unrealized Losses 12 Months or Longer",
+        "(in thousands)"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Estimated Fair Value",
+        "(in thousands)"
+      ],
+      "value": "$40,390"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Money market funds (U.S.)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cost",
+        "(in thousands)"
+      ],
+      "value": "141,418"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gross Unrealized Gains",
+        "(in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gross Unrealized Losses Less Than 12 Months",
+        "(in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gross Unrealized Losses 12 Months or Longer",
+        "(in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Estimated Fair Value",
+        "(in thousands)"
+      ],
+      "value": "141,418"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Cash deposits and money market funds (International)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cost",
+        "(in thousands)"
+      ],
+      "value": "519,805"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gross Unrealized Gains",
+        "(in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gross Unrealized Losses Less Than 12 Months",
+        "(in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gross Unrealized Losses 12 Months or Longer",
+        "(in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Estimated Fair Value",
+        "(in thousands)"
+      ],
+      "value": "519,805"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Municipal obligations"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cost",
+        "(in thousands)"
+      ],
+      "value": "463,966"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gross Unrealized Gains",
+        "(in thousands)"
+      ],
+      "value": "2,827"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gross Unrealized Losses Less Than 12 Months",
+        "(in thousands)"
+      ],
+      "value": "(80)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gross Unrealized Losses 12 Months or Longer",
+        "(in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Estimated Fair Value",
+        "(in thousands)"
+      ],
+      "value": "466,713"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cost",
+        "(in thousands)"
+      ],
+      "value": "1,165,579"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gross Unrealized Gains",
+        "(in thousands)"
+      ],
+      "value": "2,827"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gross Unrealized Losses Less Than 12 Months",
+        "(in thousands)"
+      ],
+      "value": "(80)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gross Unrealized Losses 12 Months or Longer",
+        "(in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Estimated Fair Value",
+        "(in thousands)"
+      ],
+      "value": "1,168,326"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Classified as non-current assets:"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Strategic investments"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cost",
+        "(in thousands)"
+      ],
+      "value": "8,002"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gross Unrealized Gains",
+        "(in thousands)"
+      ],
+      "value": "1,796"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gross Unrealized Losses Less Than 12 Months",
+        "(in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gross Unrealized Losses 12 Months or Longer",
+        "(in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Estimated Fair Value",
+        "(in thousands)"
+      ],
+      "value": "9,798"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cost",
+        "(in thousands)"
+      ],
+      "value": "$1,173,581"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gross Unrealized Gains",
+        "(in thousands)"
+      ],
+      "value": "$4,623"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gross Unrealized Losses Less Than 12 Months",
+        "(in thousands)"
+      ],
+      "value": "$(80)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gross Unrealized Losses 12 Months or Longer",
+        "(in thousands)"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Estimated Fair Value",
+        "(in thousands)"
+      ],
+      "value": "$1,178,124"
+    }
+  ]
+}

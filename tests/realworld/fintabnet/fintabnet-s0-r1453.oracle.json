@@ -1,0 +1,434 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$1,008",
+    "$1,080",
+    "$1,351",
+    "$2,018",
+    "$318",
+    "$352",
+    "$47",
+    "$474",
+    "$53",
+    "$533",
+    "$\u2014",
+    "(1)",
+    "(135)",
+    "(14)",
+    "(144)",
+    "(2)",
+    "(20)",
+    "(28)",
+    "(282)",
+    "(3)",
+    "(4)",
+    "(5)",
+    "(55)",
+    "(56)",
+    "(7)",
+    "(in millions)",
+    "1,440",
+    "1,705",
+    "1,847",
+    "17",
+    "89",
+    "Adjusted operating income",
+    "Asset impairments",
+    "Electrical/ElectronicArchitecture",
+    "Electronicsand Safety",
+    "Eliminationsand Other",
+    "Equity income, net of tax",
+    "For the Year Ended December 31, 2014:",
+    "Income before income taxes and equity income",
+    "Income tax expense",
+    "Interest expense",
+    "Net income",
+    "Net income attributable to Delphi",
+    "Net income attributable to noncontrolling interest",
+    "Operating income",
+    "Other acquisition & portfolio project costs",
+    "Other expense, net",
+    "PowertrainSystems",
+    "Restructuring",
+    "ThermalSystems",
+    "Total",
+    "\u2014"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "For the Year Ended December 31, 2014:"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Adjusted operating income"
+    },
+    {
+      "row": [],
+      "col": [
+        "Electrical/ElectronicArchitecture",
+        "(in millions)"
+      ],
+      "value": "$1,080"
+    },
+    {
+      "row": [],
+      "col": [
+        "PowertrainSystems",
+        "(in millions)"
+      ],
+      "value": "$533"
+    },
+    {
+      "row": [],
+      "col": [
+        "Electronicsand Safety",
+        "(in millions)"
+      ],
+      "value": "$352"
+    },
+    {
+      "row": [],
+      "col": [
+        "ThermalSystems",
+        "(in millions)"
+      ],
+      "value": "$53"
+    },
+    {
+      "row": [],
+      "col": [
+        "Eliminationsand Other",
+        "(in millions)"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "(in millions)"
+      ],
+      "value": "$2,018"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Restructuring"
+    },
+    {
+      "row": [],
+      "col": [
+        "Electrical/ElectronicArchitecture",
+        "(in millions)"
+      ],
+      "value": "(56)"
+    },
+    {
+      "row": [],
+      "col": [
+        "PowertrainSystems",
+        "(in millions)"
+      ],
+      "value": "(55)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Electronicsand Safety",
+        "(in millions)"
+      ],
+      "value": "(28)"
+    },
+    {
+      "row": [],
+      "col": [
+        "ThermalSystems",
+        "(in millions)"
+      ],
+      "value": "(5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Eliminationsand Other",
+        "(in millions)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "(in millions)"
+      ],
+      "value": "(144)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Other acquisition & portfolio project costs"
+    },
+    {
+      "row": [],
+      "col": [
+        "Electrical/ElectronicArchitecture",
+        "(in millions)"
+      ],
+      "value": "(14)"
+    },
+    {
+      "row": [],
+      "col": [
+        "PowertrainSystems",
+        "(in millions)"
+      ],
+      "value": "(3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Electronicsand Safety",
+        "(in millions)"
+      ],
+      "value": "(2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "ThermalSystems",
+        "(in millions)"
+      ],
+      "value": "(1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Eliminationsand Other",
+        "(in millions)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "(in millions)"
+      ],
+      "value": "(20)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Asset impairments"
+    },
+    {
+      "row": [],
+      "col": [
+        "Electrical/ElectronicArchitecture",
+        "(in millions)"
+      ],
+      "value": "(2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "PowertrainSystems",
+        "(in millions)"
+      ],
+      "value": "(1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Electronicsand Safety",
+        "(in millions)"
+      ],
+      "value": "(4)"
+    },
+    {
+      "row": [],
+      "col": [
+        "ThermalSystems",
+        "(in millions)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Eliminationsand Other",
+        "(in millions)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "(in millions)"
+      ],
+      "value": "(7)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Operating income"
+    },
+    {
+      "row": [],
+      "col": [
+        "Electrical/ElectronicArchitecture",
+        "(in millions)"
+      ],
+      "value": "$1,008"
+    },
+    {
+      "row": [],
+      "col": [
+        "PowertrainSystems",
+        "(in millions)"
+      ],
+      "value": "$474"
+    },
+    {
+      "row": [],
+      "col": [
+        "Electronicsand Safety",
+        "(in millions)"
+      ],
+      "value": "$318"
+    },
+    {
+      "row": [],
+      "col": [
+        "ThermalSystems",
+        "(in millions)"
+      ],
+      "value": "$47"
+    },
+    {
+      "row": [],
+      "col": [
+        "Eliminationsand Other",
+        "(in millions)"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "(in millions)"
+      ],
+      "value": "1,847"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Interest expense"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "(in millions)"
+      ],
+      "value": "(135)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Other expense, net"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "(in millions)"
+      ],
+      "value": "(7)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Income before income taxes and equity income"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "(in millions)"
+      ],
+      "value": "1,705"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Income tax expense"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "(in millions)"
+      ],
+      "value": "(282)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Equity income, net of tax"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "(in millions)"
+      ],
+      "value": "17"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Net income"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "(in millions)"
+      ],
+      "value": "1,440"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Net income attributable to noncontrolling interest"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "(in millions)"
+      ],
+      "value": "89"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Net income attributable to Delphi"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "(in millions)"
+      ],
+      "value": "$1,351"
+    }
+  ]
+}

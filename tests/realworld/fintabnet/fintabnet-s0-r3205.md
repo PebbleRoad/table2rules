@@ -1,0 +1,464 @@
+<!-- source: FinTabNet s0-r3205 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   Capital in Excess
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   Deferred
+  </td>
+<td>
+   Accumulated  Other
+  </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="2">
+   Common Stock
+  </td>
+<td>
+   of Par
+  </td>
+<td>
+   Retained
+  </td>
+<td>
+   Treasury
+  </td>
+<td>
+   Stock
+  </td>
+<td>
+   Comprehensive
+  </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   Shares
+  </td>
+<td>
+   Amount
+  </td>
+<td>
+   Value
+  </td>
+<td>
+   Earnings
+  </td>
+<td>
+   Stock
+  </td>
+<td>
+   Compensation
+  </td>
+<td>
+   Income (Loss)
+  </td>
+<td>
+   Total
+  </td>
+</tr>
+<tr>
+<td>
+   Balance at October 31, 2003
+  </td>
+<td>
+   155,837
+  </td>
+<td>
+   $1,560
+  </td>
+<td>
+   $1,198,421
+  </td>
+<td>
+   $251,979
+  </td>
+<td>
+   $(20,733)
+  </td>
+<td>
+   $(7,170)
+  </td>
+<td>
+   $9,353
+  </td>
+<td>
+   $1,433,410
+  </td>
+</tr>
+<tr>
+<td>
+   Components of comprehensive income:
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Net income
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   74,337
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   74,337
+  </td>
+<td>
+   74,337
+  </td>
+</tr>
+<tr>
+<td>
+   Unrealized gain (loss) on investments, net of tax of $139
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   295
+  </td>
+<td>
+   —
+  </td>
+</tr>
+<tr>
+<td>
+   Deferred gain (loss) on cash flow hedges, net of tax of $1,270
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   (2,699)
+  </td>
+<td>
+   —
+  </td>
+</tr>
+<tr>
+<td>
+   Reclassification adjustment on deferred gains on cash flow hedges, net of tax of $2,972
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   (7,078)
+  </td>
+<td>
+   —
+  </td>
+</tr>
+<tr>
+<td>
+   Foreign currency translation adjustment
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   (516)
+  </td>
+<td>
+   —
+  </td>
+</tr>
+<tr>
+<td>
+   Accumulated other comprehensive (loss)
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   (9,998)
+  </td>
+<td>
+   (9,998)
+  </td>
+</tr>
+<tr>
+<td>
+   Total comprehensive income
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   64,339
+  </td>
+<td>
+   64,339
+  </td>
+</tr>
+<tr>
+<td>
+   Amortization of deferred stock compensation, net of forfeitures
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   (1,083)
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   4,438
+  </td>
+<td>
+   —
+  </td>
+<td>
+   3,355
+  </td>
+</tr>
+<tr>
+<td>
+   Acquisition of treasury stock
+  </td>
+<td>
+   (16,916)
+  </td>
+<td>
+   (161)
+  </td>
+<td>
+   161
+  </td>
+<td>
+   —
+  </td>
+<td>
+   (423,303)
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   (423,303)
+  </td>
+</tr>
+<tr>
+<td>
+   Stock issued under stock option and stock purchase plans
+  </td>
+<td>
+   8,457
+  </td>
+<td>
+   75
+  </td>
+<td>
+   12,537
+  </td>
+<td>
+   (124,170)
+  </td>
+<td>
+   268,274
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   156,716
+  </td>
+</tr>
+<tr>
+<td>
+   Tax benefits associated with exercise of stock options
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   30,532
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   30,532
+  </td>
+</tr>
+<tr>
+<td>
+   Balance at October 31, 2004
+  </td>
+<td>
+   147,378
+  </td>
+<td>
+   $1,474
+  </td>
+<td>
+   $1,240,568
+  </td>
+<td>
+   $202,146
+  </td>
+<td>
+   $(175,762)
+  </td>
+<td>
+   $(2,732)
+  </td>
+<td>
+   $(645)
+  </td>
+<td>
+   $1,265,049
+  </td>
+</tr>
+</table>

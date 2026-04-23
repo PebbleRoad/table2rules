@@ -1,0 +1,229 @@
+<!-- source: FinTabNet s0-r861 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="3">
+   Total Customers
+  </td>
+<td colspan="3">
+   Net Additional Customers
+  </td>
+</tr>
+<tr>
+<td>
+   December 31 (in thousands)
+  </td>
+<td>
+   2015
+  </td>
+<td>
+   2014
+  </td>
+<td>
+   2013
+  </td>
+<td>
+   2015
+  </td>
+<td>
+   2014
+  </td>
+<td>
+   2013
+  </td>
+</tr>
+<tr>
+<td>
+   Total customer relationships
+   <sup>
+    (a)
+   </sup>
+</td>
+<td>
+   27,701
+  </td>
+<td>
+   27,035
+  </td>
+<td>
+   26,677
+  </td>
+<td>
+   666
+  </td>
+<td>
+   358
+  </td>
+<td>
+   215
+  </td>
+</tr>
+<tr>
+<td>
+   Single productcustomers
+   <sup>
+    (a)
+   </sup>
+</td>
+<td>
+   8,366
+  </td>
+<td>
+   8,409
+  </td>
+<td>
+   8,752
+  </td>
+<td>
+   (43)
+  </td>
+<td>
+   (343)
+  </td>
+<td>
+   (593)
+  </td>
+</tr>
+<tr>
+<td>
+   Double productcustomers
+   <sup>
+    (a)
+   </sup>
+</td>
+<td>
+   9,221
+  </td>
+<td>
+   8,750
+  </td>
+<td>
+   8,541
+  </td>
+<td>
+   472
+  </td>
+<td>
+   209
+  </td>
+<td>
+   34
+  </td>
+</tr>
+<tr>
+<td>
+   Triple product customers
+   <sup>
+    (a)
+   </sup>
+</td>
+<td>
+   10,114
+  </td>
+<td>
+   9,876
+  </td>
+<td>
+   9,384
+  </td>
+<td>
+   238
+  </td>
+<td>
+   492
+  </td>
+<td>
+   774
+  </td>
+</tr>
+<tr>
+<td>
+   Video customers
+  </td>
+<td>
+   22,347
+  </td>
+<td>
+   22,383
+  </td>
+<td>
+   22,577
+  </td>
+<td>
+   (36)
+  </td>
+<td>
+   (194)
+  </td>
+<td>
+   (267)
+  </td>
+</tr>
+<tr>
+<td>
+   High-speed Internet customers
+  </td>
+<td>
+   23,329
+  </td>
+<td>
+   21,962
+  </td>
+<td>
+   20,685
+  </td>
+<td>
+   1,367
+  </td>
+<td>
+   1,277
+  </td>
+<td>
+   1,296
+  </td>
+</tr>
+<tr>
+<td>
+   Voice customers
+  </td>
+<td>
+   11,475
+  </td>
+<td>
+   11,193
+  </td>
+<td>
+   10,723
+  </td>
+<td>
+   282
+  </td>
+<td>
+   470
+  </td>
+<td>
+   768
+  </td>
+</tr>
+<tr>
+<td>
+   Average monthly total revenue per customer relationship
+  </td>
+<td>
+   $142.74
+  </td>
+<td>
+   $136.97
+  </td>
+<td>
+   $131.22
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+</table>

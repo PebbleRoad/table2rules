@@ -1,0 +1,281 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$ Change",
+    "$(20.8)",
+    "$(22.2)",
+    "$102.6",
+    "$115.3",
+    "$128.2",
+    "$137.5",
+    "$81.8",
+    "$9.3",
+    "$9.7",
+    "$92.9",
+    "% Change",
+    "(0.4)",
+    "(1)%",
+    "(1.4)",
+    "(16)%",
+    "(20)%",
+    "(4)%",
+    "(dollars in millions)",
+    "10%",
+    "11%",
+    "12%",
+    "13%",
+    "2003",
+    "2003 to 2004",
+    "2004",
+    "2004 to 2005",
+    "2005",
+    "33.5",
+    "34.9",
+    "35.3",
+    "7%",
+    "Included in cost of revenue",
+    "Included in operating expenses",
+    "Percentage of total revenue",
+    "Total",
+    "Year Ended October 31,"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Included in cost of revenue"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2005",
+        "(dollars in millions)"
+      ],
+      "value": "$81.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2004",
+        "(dollars in millions)"
+      ],
+      "value": "$102.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2003",
+        "(dollars in millions)"
+      ],
+      "value": "$92.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2004 to 2005",
+        "(dollars in millions)"
+      ],
+      "value": "$(20.8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2004 to 2005",
+        "(dollars in millions)"
+      ],
+      "value": "(20)%"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2003 to 2004",
+        "(dollars in millions)"
+      ],
+      "value": "$9.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2003 to 2004",
+        "(dollars in millions)"
+      ],
+      "value": "10%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Included in operating expenses"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2005",
+        "(dollars in millions)"
+      ],
+      "value": "33.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2004",
+        "(dollars in millions)"
+      ],
+      "value": "34.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2003",
+        "(dollars in millions)"
+      ],
+      "value": "35.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2004 to 2005",
+        "(dollars in millions)"
+      ],
+      "value": "(1.4)"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2004 to 2005",
+        "(dollars in millions)"
+      ],
+      "value": "(4)%"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2003 to 2004",
+        "(dollars in millions)"
+      ],
+      "value": "(0.4)"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2003 to 2004",
+        "(dollars in millions)"
+      ],
+      "value": "(1)%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2005",
+        "(dollars in millions)"
+      ],
+      "value": "$115.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2004",
+        "(dollars in millions)"
+      ],
+      "value": "$137.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2003",
+        "(dollars in millions)"
+      ],
+      "value": "$128.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2004 to 2005",
+        "(dollars in millions)"
+      ],
+      "value": "$(22.2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2004 to 2005",
+        "(dollars in millions)"
+      ],
+      "value": "(16)%"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2003 to 2004",
+        "(dollars in millions)"
+      ],
+      "value": "$9.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2003 to 2004",
+        "(dollars in millions)"
+      ],
+      "value": "7%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Percentage of total revenue"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2005",
+        "(dollars in millions)"
+      ],
+      "value": "12%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2004",
+        "(dollars in millions)"
+      ],
+      "value": "13%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2003",
+        "(dollars in millions)"
+      ],
+      "value": "11%"
+    }
+  ]
+}

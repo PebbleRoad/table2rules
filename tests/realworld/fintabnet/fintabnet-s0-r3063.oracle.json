@@ -1,0 +1,386 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$14,859",
+    "$18.78",
+    "$21.76",
+    "$22.63",
+    "$24.64",
+    "$24.78",
+    "$25.45",
+    "$25.64",
+    "$26.27",
+    "$26.80",
+    "$26.84",
+    "$26.88",
+    "$8,344",
+    "$\u2014",
+    "(112)",
+    "(370)",
+    "(45)",
+    "(67)",
+    "(787)",
+    "(in thousands, except per share and life amounts)",
+    "1,311",
+    "1,443",
+    "1,488",
+    "1,630",
+    "1.41",
+    "1.61",
+    "1.84",
+    "2,676",
+    "3,133",
+    "85",
+    "Aggregate Fair Value",
+    "Assumed(1)",
+    "Balance at October 31, 2006",
+    "Balance at October 31, 2007",
+    "Balance at October 31, 2008",
+    "Balance at October 31, 2009",
+    "Forfeited",
+    "Granted",
+    "Restricted Stock Units",
+    "Vested",
+    "Vested(2)(3)",
+    "Weighted Average Grant Date Fair Value",
+    "Weighted Average Remaining Contractual Life (In Years)",
+    "\u2014"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Balance at October 31, 2006"
+    },
+    {
+      "row": [],
+      "col": [
+        "Restricted Stock Units",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Weighted Average Grant Date Fair Value",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Granted"
+    },
+    {
+      "row": [],
+      "col": [
+        "Restricted Stock Units",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "1,488"
+    },
+    {
+      "row": [],
+      "col": [
+        "Weighted Average Grant Date Fair Value",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "$26.84"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Vested"
+    },
+    {
+      "row": [],
+      "col": [
+        "Restricted Stock Units",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Weighted Average Grant Date Fair Value",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Forfeited"
+    },
+    {
+      "row": [],
+      "col": [
+        "Restricted Stock Units",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "(45)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Weighted Average Grant Date Fair Value",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "$26.88"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Balance at October 31, 2007"
+    },
+    {
+      "row": [],
+      "col": [
+        "Restricted Stock Units",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "1,443"
+    },
+    {
+      "row": [],
+      "col": [
+        "Weighted Average Grant Date Fair Value",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "$26.84"
+    },
+    {
+      "row": [],
+      "col": [
+        "Weighted Average Remaining Contractual Life (In Years)",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "1.84"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Granted"
+    },
+    {
+      "row": [],
+      "col": [
+        "Restricted Stock Units",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "1,630"
+    },
+    {
+      "row": [],
+      "col": [
+        "Weighted Average Grant Date Fair Value",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "$24.78"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Assumed(1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Restricted Stock Units",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "85"
+    },
+    {
+      "row": [],
+      "col": [
+        "Weighted Average Grant Date Fair Value",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "$21.76"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Vested(2)(3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Restricted Stock Units",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "(370)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Weighted Average Grant Date Fair Value",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "$26.80"
+    },
+    {
+      "row": [],
+      "col": [
+        "Aggregate Fair Value",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "$8,344"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Forfeited"
+    },
+    {
+      "row": [],
+      "col": [
+        "Restricted Stock Units",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "(112)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Weighted Average Grant Date Fair Value",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "$26.27"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Balance at October 31, 2008"
+    },
+    {
+      "row": [],
+      "col": [
+        "Restricted Stock Units",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "2,676"
+    },
+    {
+      "row": [],
+      "col": [
+        "Weighted Average Grant Date Fair Value",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "$25.45"
+    },
+    {
+      "row": [],
+      "col": [
+        "Weighted Average Remaining Contractual Life (In Years)",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "1.61"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Granted"
+    },
+    {
+      "row": [],
+      "col": [
+        "Restricted Stock Units",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "1,311"
+    },
+    {
+      "row": [],
+      "col": [
+        "Weighted Average Grant Date Fair Value",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "$18.78"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Vested(2)(3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Restricted Stock Units",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "(787)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Weighted Average Grant Date Fair Value",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "$25.64"
+    },
+    {
+      "row": [],
+      "col": [
+        "Aggregate Fair Value",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "$14,859"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Forfeited"
+    },
+    {
+      "row": [],
+      "col": [
+        "Restricted Stock Units",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "(67)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Weighted Average Grant Date Fair Value",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "$24.64"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Balance at October 31, 2009"
+    },
+    {
+      "row": [],
+      "col": [
+        "Restricted Stock Units",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "3,133"
+    },
+    {
+      "row": [],
+      "col": [
+        "Weighted Average Grant Date Fair Value",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "$22.63"
+    },
+    {
+      "row": [],
+      "col": [
+        "Weighted Average Remaining Contractual Life (In Years)",
+        "(in thousands, except per share and life amounts)"
+      ],
+      "value": "1.41"
+    }
+  ]
+}

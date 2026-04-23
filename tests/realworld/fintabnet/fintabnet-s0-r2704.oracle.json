@@ -1,0 +1,408 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$1,031",
+    "$101,882",
+    "$102,106",
+    "$104,464",
+    "$108,167",
+    "$108,781",
+    "$11,545",
+    "$114,330",
+    "$2,221",
+    "$25,100",
+    "$255",
+    "$30,100",
+    "$32,452",
+    "$324",
+    "$444",
+    "$5,000",
+    "$8,832",
+    "$95,897",
+    "$98,932",
+    "$99,163",
+    "$\u2014",
+    "(5,301)",
+    "(5,549)",
+    "(6,285)",
+    "(In thousands)",
+    "2008",
+    "2009",
+    "2010",
+    "Acquisition of real estate through exchange transaction",
+    "Cash paid for income taxes",
+    "Cash paid for interest, net of amounts capitalized",
+    "Extinguishment of capital lease obligations",
+    "Extinguishment of deferred ground rent liability",
+    "Interest capitalized",
+    "Interest expense",
+    "Liability assumed through exchange transaction",
+    "Mortgage loans assumed with acquisitions",
+    "NON-CASH INVESTING AND FINANCING TRANSACTIONS:",
+    "Note payable issued with acquisitions",
+    "Proceeds from sale of real estate through exchange transaction",
+    "SUPPLEMENTAL DISCLOSURES:",
+    "Total interest costs incurred"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "SUPPLEMENTAL DISCLOSURES:"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total interest costs incurred"
+    },
+    {
+      "row": [],
+      "col": [
+        "2010",
+        "(In thousands)"
+      ],
+      "value": "$108,167"
+    },
+    {
+      "row": [],
+      "col": [
+        "2009",
+        "(In thousands)"
+      ],
+      "value": "$114,330"
+    },
+    {
+      "row": [],
+      "col": [
+        "2008",
+        "(In thousands)"
+      ],
+      "value": "$104,464"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Interest capitalized"
+    },
+    {
+      "row": [],
+      "col": [
+        "2010",
+        "(In thousands)"
+      ],
+      "value": "(6,285)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2009",
+        "(In thousands)"
+      ],
+      "value": "(5,549)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2008",
+        "(In thousands)"
+      ],
+      "value": "(5,301)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Interest expense"
+    },
+    {
+      "row": [],
+      "col": [
+        "2010",
+        "(In thousands)"
+      ],
+      "value": "$101,882"
+    },
+    {
+      "row": [],
+      "col": [
+        "2009",
+        "(In thousands)"
+      ],
+      "value": "$108,781"
+    },
+    {
+      "row": [],
+      "col": [
+        "2008",
+        "(In thousands)"
+      ],
+      "value": "$99,163"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Cash paid for interest, net of amounts capitalized"
+    },
+    {
+      "row": [],
+      "col": [
+        "2010",
+        "(In thousands)"
+      ],
+      "value": "$98,932"
+    },
+    {
+      "row": [],
+      "col": [
+        "2009",
+        "(In thousands)"
+      ],
+      "value": "$102,106"
+    },
+    {
+      "row": [],
+      "col": [
+        "2008",
+        "(In thousands)"
+      ],
+      "value": "$95,897"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Cash paid for income taxes"
+    },
+    {
+      "row": [],
+      "col": [
+        "2010",
+        "(In thousands)"
+      ],
+      "value": "$255"
+    },
+    {
+      "row": [],
+      "col": [
+        "2009",
+        "(In thousands)"
+      ],
+      "value": "$324"
+    },
+    {
+      "row": [],
+      "col": [
+        "2008",
+        "(In thousands)"
+      ],
+      "value": "$444"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "NON-CASH INVESTING AND FINANCING TRANSACTIONS:"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Extinguishment of deferred ground rent liability"
+    },
+    {
+      "row": [],
+      "col": [
+        "2010",
+        "(In thousands)"
+      ],
+      "value": "$8,832"
+    },
+    {
+      "row": [],
+      "col": [
+        "2009",
+        "(In thousands)"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "2008",
+        "(In thousands)"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Extinguishment of capital lease obligations"
+    },
+    {
+      "row": [],
+      "col": [
+        "2010",
+        "(In thousands)"
+      ],
+      "value": "$1,031"
+    },
+    {
+      "row": [],
+      "col": [
+        "2009",
+        "(In thousands)"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "2008",
+        "(In thousands)"
+      ],
+      "value": "$11,545"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Acquisition of real estate through exchange transaction"
+    },
+    {
+      "row": [],
+      "col": [
+        "2010",
+        "(In thousands)"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "2009",
+        "(In thousands)"
+      ],
+      "value": "$30,100"
+    },
+    {
+      "row": [],
+      "col": [
+        "2008",
+        "(In thousands)"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Proceeds from sale of real estate through exchange transaction"
+    },
+    {
+      "row": [],
+      "col": [
+        "2010",
+        "(In thousands)"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "2009",
+        "(In thousands)"
+      ],
+      "value": "$25,100"
+    },
+    {
+      "row": [],
+      "col": [
+        "2008",
+        "(In thousands)"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Liability assumed through exchange transaction"
+    },
+    {
+      "row": [],
+      "col": [
+        "2010",
+        "(In thousands)"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "2009",
+        "(In thousands)"
+      ],
+      "value": "$5,000"
+    },
+    {
+      "row": [],
+      "col": [
+        "2008",
+        "(In thousands)"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Mortgage loans assumed with acquisitions"
+    },
+    {
+      "row": [],
+      "col": [
+        "2010",
+        "(In thousands)"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "2009",
+        "(In thousands)"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "2008",
+        "(In thousands)"
+      ],
+      "value": "$32,452"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Note payable issued with acquisitions"
+    },
+    {
+      "row": [],
+      "col": [
+        "2010",
+        "(In thousands)"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "2009",
+        "(In thousands)"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "2008",
+        "(In thousands)"
+      ],
+      "value": "$2,221"
+    }
+  ]
+}

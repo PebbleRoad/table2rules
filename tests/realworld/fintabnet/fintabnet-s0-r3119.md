@@ -1,0 +1,228 @@
+<!-- source: FinTabNet s0-r3119 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td>
+   RestrictedStock Units
+  </td>
+<td>
+   WeightedAverageGrant DateFair Value
+  </td>
+<td>
+   WeightedAverageRemainingContractualLife (In Years)
+  </td>
+<td>
+   AggregateFairValue
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="4">
+   (in thousands, except per share and life amounts)
+  </td>
+</tr>
+<tr>
+<td>
+   Balance at October 31, 2015
+  </td>
+<td>
+   3,928
+  </td>
+<td>
+   $41.61
+  </td>
+<td>
+   1.54
+  </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Granted
+  </td>
+<td>
+   1,765
+  </td>
+<td>
+   $49.59
+  </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Vested(1)
+  </td>
+<td>
+   (1,547)
+  </td>
+<td>
+   $38.33
+  </td>
+<td>
+</td>
+<td>
+   $79,558
+  </td>
+</tr>
+<tr>
+<td>
+   Forfeited
+  </td>
+<td>
+   (111)
+  </td>
+<td>
+   $43.12
+  </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Balance at October 31, 2016
+  </td>
+<td>
+   4,035
+  </td>
+<td>
+   $46.37
+  </td>
+<td>
+   1.56
+  </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Granted
+  </td>
+<td>
+   1,584
+  </td>
+<td>
+   $70.49
+  </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Vested(1)
+  </td>
+<td>
+   (1,536)
+  </td>
+<td>
+   $43.53
+  </td>
+<td>
+</td>
+<td>
+   $110,103
+  </td>
+</tr>
+<tr>
+<td>
+   Forfeited
+  </td>
+<td>
+   (240)
+  </td>
+<td>
+   $49.36
+  </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Balance at October 31, 2017
+  </td>
+<td>
+   3,843
+  </td>
+<td>
+   $57.26
+  </td>
+<td>
+   1.54
+  </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Granted(2)
+  </td>
+<td>
+   1,679
+  </td>
+<td>
+   $89.35
+  </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Vested(1)
+  </td>
+<td>
+   (1,495)
+  </td>
+<td>
+   $52.55
+  </td>
+<td>
+</td>
+<td>
+   $136,417
+  </td>
+</tr>
+<tr>
+<td>
+   Forfeited
+  </td>
+<td>
+   (258)
+  </td>
+<td>
+   $67.04
+  </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Balance at October 31, 2018
+  </td>
+<td>
+   3,769
+  </td>
+<td>
+   $72.75
+  </td>
+<td>
+   1.46
+  </td>
+<td>
+</td>
+</tr>
+</table>

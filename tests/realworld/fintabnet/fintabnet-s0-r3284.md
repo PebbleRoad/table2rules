@@ -1,0 +1,193 @@
+<!-- source: FinTabNet s0-r3284 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="2">
+   2015
+  </td>
+<td colspan="2">
+   2014
+  </td>
+<td colspan="2">
+   2013
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   Number of Awards
+  </td>
+<td>
+   Weighted Average Grant Date Fair Value
+  </td>
+<td>
+   Number of Awards
+  </td>
+<td>
+   Weighted Average Grant Date Fair Value
+  </td>
+<td>
+   Number of Awards
+  </td>
+<td>
+   Weighted Average Grant Date Fair Value
+  </td>
+</tr>
+<tr>
+<td>
+   Undistributed balance —
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   As of January 1
+  </td>
+<td>
+   1,099,752
+  </td>
+<td>
+   $102.65
+  </td>
+<td>
+   895,635
+  </td>
+<td>
+   $88.12
+  </td>
+<td>
+   1,089,084
+  </td>
+<td>
+   $79.27
+  </td>
+</tr>
+<tr>
+<td>
+   Granted
+  </td>
+<td>
+   227,798
+  </td>
+<td>
+   158.88
+  </td>
+<td>
+   305,225
+  </td>
+<td>
+   124.89
+  </td>
+<td>
+   353,734
+  </td>
+<td>
+   96.87
+  </td>
+</tr>
+<tr>
+<td>
+   Distributed
+  </td>
+<td>
+   (323,938)
+  </td>
+<td>
+   83.08
+  </td>
+<td>
+   (277,358)
+  </td>
+<td>
+   84.74
+  </td>
+<td>
+   (507,083)
+  </td>
+<td>
+   75.16
+  </td>
+</tr>
+<tr>
+<td>
+   Performance change
+  </td>
+<td>
+   (106,760)
+  </td>
+<td>
+   127.70
+  </td>
+<td>
+   212,461
+  </td>
+<td>
+   109.74
+  </td>
+<td>
+   (6,949)
+  </td>
+<td>
+   77.01
+  </td>
+</tr>
+<tr>
+<td>
+   Forfeited
+  </td>
+<td>
+   (25,660)
+  </td>
+<td>
+   125.33
+  </td>
+<td>
+   (36,212)
+  </td>
+<td>
+   109.44
+  </td>
+<td>
+   (33,151)
+  </td>
+<td>
+   91.34
+  </td>
+</tr>
+<tr>
+<td>
+   As of December 31
+  </td>
+<td>
+   871,192
+  </td>
+<td>
+   $120.89
+  </td>
+<td>
+   1,099,752
+  </td>
+<td>
+   $102.65
+  </td>
+<td>
+   895,635
+  </td>
+<td>
+   $88.12
+  </td>
+</tr>
+</table>

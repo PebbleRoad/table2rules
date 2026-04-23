@@ -1,0 +1,225 @@
+<!-- source: FinTabNet s0-r1443 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="3">
+   Year Ended December 31,
+  </td>
+<td colspan="5">
+   Variance Due To:
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   2014
+  </td>
+<td>
+   2013
+  </td>
+<td>
+   Favorable/(unfavorable)
+  </td>
+<td>
+   Volume, net of contractual price reductions
+  </td>
+<td>
+   FX
+  </td>
+<td>
+   Commodity Pass-through
+  </td>
+<td>
+   Other
+  </td>
+<td>
+   Total
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="3">
+   (in millions)
+  </td>
+<td colspan="5">
+   (in millions)
+  </td>
+</tr>
+<tr>
+<td>
+   Electrical/Electronic Architecture
+  </td>
+<td>
+   $8,274
+  </td>
+<td>
+   $7,972
+  </td>
+<td>
+   $302
+  </td>
+<td>
+   $377
+  </td>
+<td>
+   $(32)
+  </td>
+<td>
+   $(62)
+  </td>
+<td>
+   $19
+  </td>
+<td>
+   $302
+  </td>
+</tr>
+<tr>
+<td>
+   Powertrain Systems
+  </td>
+<td>
+   4,575
+  </td>
+<td>
+   4,424
+  </td>
+<td>
+   151
+  </td>
+<td>
+   112
+  </td>
+<td>
+   40
+  </td>
+<td>
+   —
+  </td>
+<td>
+   (1)
+  </td>
+<td>
+   151
+  </td>
+</tr>
+<tr>
+<td>
+   Electronics and Safety
+  </td>
+<td>
+   2,859
+  </td>
+<td>
+   2,830
+  </td>
+<td>
+   29
+  </td>
+<td>
+   30
+  </td>
+<td>
+   5
+  </td>
+<td>
+   —
+  </td>
+<td>
+   (6)
+  </td>
+<td>
+   29
+  </td>
+</tr>
+<tr>
+<td>
+   Thermal Systems
+  </td>
+<td>
+   1,556
+  </td>
+<td>
+   1,468
+  </td>
+<td>
+   88
+  </td>
+<td>
+   95
+  </td>
+<td>
+   (7)
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   88
+  </td>
+</tr>
+<tr>
+<td>
+   Eliminations and Other
+  </td>
+<td>
+   (241)
+  </td>
+<td>
+   (231)
+  </td>
+<td>
+   (10)
+  </td>
+<td>
+   (19)
+  </td>
+<td>
+   (1)
+  </td>
+<td>
+   —
+  </td>
+<td>
+   10
+  </td>
+<td>
+   (10)
+  </td>
+</tr>
+<tr>
+<td>
+   Total
+  </td>
+<td>
+   $17,023
+  </td>
+<td>
+   $16,463
+  </td>
+<td>
+   $560
+  </td>
+<td>
+   $595
+  </td>
+<td>
+   $5
+  </td>
+<td>
+   $(62)
+  </td>
+<td>
+   $22
+  </td>
+<td>
+   $560
+  </td>
+</tr>
+</table>

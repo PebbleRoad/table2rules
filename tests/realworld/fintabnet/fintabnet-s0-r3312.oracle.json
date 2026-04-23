@@ -1,0 +1,499 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$102.01",
+    "$79.58",
+    "$80.33",
+    "$81.42",
+    "$83.84",
+    "$85.97",
+    "$90.38",
+    "(10,219,261)",
+    "(162,482)",
+    "(18,825,218)",
+    "(220,143)",
+    "(234,274)",
+    "(5,978,382)",
+    "101.55",
+    "105.11",
+    "109.83",
+    "119.62",
+    "126.77",
+    "128.99",
+    "140,447",
+    "165.91",
+    "191",
+    "2013",
+    "2014",
+    "2015",
+    "27,262,062",
+    "27,502,208",
+    "32,038,228",
+    "38,552,445",
+    "39,235,557",
+    "43,938,778",
+    "5,529,544",
+    "5,736,183",
+    "56,565,030",
+    "6,220,810",
+    "79.25",
+    "82.37",
+    "83.74",
+    "89.92",
+    "Annual",
+    "Canceled",
+    "December 31",
+    "Exercised",
+    "Granted:",
+    "January 1",
+    "Number of Options",
+    "Options exercisable",
+    "Other",
+    "Progressive (Reload)",
+    "Under option \u2014",
+    "Weighted Average Exercise Price",
+    "\u2014"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Under option \u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "January 1"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "Number of Options"
+      ],
+      "value": "39,235,557"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "Weighted Average Exercise Price"
+      ],
+      "value": "$90.38"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Number of Options"
+      ],
+      "value": "43,938,778"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Weighted Average Exercise Price"
+      ],
+      "value": "$83.84"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Number of Options"
+      ],
+      "value": "56,565,030"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Weighted Average Exercise Price"
+      ],
+      "value": "$80.33"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Granted:"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Annual"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "Number of Options"
+      ],
+      "value": "5,529,544"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "Weighted Average Exercise Price"
+      ],
+      "value": "165.91"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Number of Options"
+      ],
+      "value": "5,736,183"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Weighted Average Exercise Price"
+      ],
+      "value": "126.77"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Number of Options"
+      ],
+      "value": "6,220,810"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Weighted Average Exercise Price"
+      ],
+      "value": "101.55"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Progressive (Reload)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "Number of Options"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "Weighted Average Exercise Price"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Number of Options"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Weighted Average Exercise Price"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Number of Options"
+      ],
+      "value": "140,447"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Weighted Average Exercise Price"
+      ],
+      "value": "109.83"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Other"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "Number of Options"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "Weighted Average Exercise Price"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Number of Options"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Weighted Average Exercise Price"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Number of Options"
+      ],
+      "value": "191"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Weighted Average Exercise Price"
+      ],
+      "value": "119.62"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Exercised"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "Number of Options"
+      ],
+      "value": "(5,978,382)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "Weighted Average Exercise Price"
+      ],
+      "value": "83.74"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Number of Options"
+      ],
+      "value": "(10,219,261)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Weighted Average Exercise Price"
+      ],
+      "value": "82.37"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Number of Options"
+      ],
+      "value": "(18,825,218)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Weighted Average Exercise Price"
+      ],
+      "value": "79.25"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Canceled"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "Number of Options"
+      ],
+      "value": "(234,274)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "Weighted Average Exercise Price"
+      ],
+      "value": "128.99"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Number of Options"
+      ],
+      "value": "(220,143)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Weighted Average Exercise Price"
+      ],
+      "value": "105.11"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Number of Options"
+      ],
+      "value": "(162,482)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Weighted Average Exercise Price"
+      ],
+      "value": "89.92"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "December 31"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "Number of Options"
+      ],
+      "value": "38,552,445"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "Weighted Average Exercise Price"
+      ],
+      "value": "$102.01"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Number of Options"
+      ],
+      "value": "39,235,557"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Weighted Average Exercise Price"
+      ],
+      "value": "$90.38"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Number of Options"
+      ],
+      "value": "43,938,778"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Weighted Average Exercise Price"
+      ],
+      "value": "$83.84"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Options exercisable"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "December 31"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "Number of Options"
+      ],
+      "value": "27,262,062"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "Weighted Average Exercise Price"
+      ],
+      "value": "$85.97"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Number of Options"
+      ],
+      "value": "27,502,208"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Weighted Average Exercise Price"
+      ],
+      "value": "$81.42"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Number of Options"
+      ],
+      "value": "32,038,228"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Weighted Average Exercise Price"
+      ],
+      "value": "$79.58"
+    }
+  ]
+}

@@ -1,0 +1,426 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$(126,623)",
+    "$(138,808)",
+    "$(138,887)",
+    "$(2,491)",
+    "$(229,746)",
+    "$(265,091)",
+    "$(371,124)",
+    "$340",
+    "(11)",
+    "(136,596)",
+    "(2,212)",
+    "(2,221)",
+    "(2,424)",
+    "(299,697)",
+    "(3,434)",
+    "(438,717)",
+    "(6,725)",
+    "(66,761)",
+    "(69,119)",
+    "(74,774)",
+    "(832)",
+    "(Dollars in thousands)",
+    "169,124",
+    "173,074",
+    "173,626",
+    "2,291",
+    "2,764",
+    "2,775",
+    "3,501",
+    "4,502",
+    "4,512",
+    "4,513",
+    "67",
+    "8,013",
+    "AccumulatedOtherComprehensiveIncome (Loss)",
+    "Amounts reclassified from accumulated other comprehensive income",
+    "Amounts reclassified from accumulated other comprehensive income (loss)",
+    "Balance at December 31, 2015",
+    "Balance at December 31, 2016",
+    "Balance at December 31, 2017",
+    "Cash FlowHedges",
+    "ForeignCurrencyTranslationAdjustment",
+    "Net current-year other comprehensive (loss) income",
+    "Net current-year other comprehensive income (loss)",
+    "Other comprehensive income (loss) before reclassifications",
+    "Pension andOtherPostretirementBenefit Plans",
+    "Reclassification related to acquisition of noncontrolling interest",
+    "\u2014"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Balance at December 31, 2015"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cash FlowHedges",
+        "(Dollars in thousands)"
+      ],
+      "value": "$(2,491)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension andOtherPostretirementBenefit Plans",
+        "(Dollars in thousands)"
+      ],
+      "value": "$(138,887)"
+    },
+    {
+      "row": [],
+      "col": [
+        "ForeignCurrencyTranslationAdjustment",
+        "(Dollars in thousands)"
+      ],
+      "value": "$(229,746)"
+    },
+    {
+      "row": [],
+      "col": [
+        "AccumulatedOtherComprehensiveIncome (Loss)",
+        "(Dollars in thousands)"
+      ],
+      "value": "$(371,124)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Other comprehensive income (loss) before reclassifications"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cash FlowHedges",
+        "(Dollars in thousands)"
+      ],
+      "value": "(3,434)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension andOtherPostretirementBenefit Plans",
+        "(Dollars in thousands)"
+      ],
+      "value": "(2,221)"
+    },
+    {
+      "row": [],
+      "col": [
+        "ForeignCurrencyTranslationAdjustment",
+        "(Dollars in thousands)"
+      ],
+      "value": "(69,119)"
+    },
+    {
+      "row": [],
+      "col": [
+        "AccumulatedOtherComprehensiveIncome (Loss)",
+        "(Dollars in thousands)"
+      ],
+      "value": "(74,774)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Amounts reclassified from accumulated other comprehensive income (loss)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cash FlowHedges",
+        "(Dollars in thousands)"
+      ],
+      "value": "3,501"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension andOtherPostretirementBenefit Plans",
+        "(Dollars in thousands)"
+      ],
+      "value": "4,512"
+    },
+    {
+      "row": [],
+      "col": [
+        "ForeignCurrencyTranslationAdjustment",
+        "(Dollars in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "AccumulatedOtherComprehensiveIncome (Loss)",
+        "(Dollars in thousands)"
+      ],
+      "value": "8,013"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Net current-year other comprehensive income (loss)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cash FlowHedges",
+        "(Dollars in thousands)"
+      ],
+      "value": "67"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension andOtherPostretirementBenefit Plans",
+        "(Dollars in thousands)"
+      ],
+      "value": "2,291"
+    },
+    {
+      "row": [],
+      "col": [
+        "ForeignCurrencyTranslationAdjustment",
+        "(Dollars in thousands)"
+      ],
+      "value": "(69,119)"
+    },
+    {
+      "row": [],
+      "col": [
+        "AccumulatedOtherComprehensiveIncome (Loss)",
+        "(Dollars in thousands)"
+      ],
+      "value": "(66,761)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Reclassification related to acquisition of noncontrolling interest"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cash FlowHedges",
+        "(Dollars in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension andOtherPostretirementBenefit Plans",
+        "(Dollars in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "ForeignCurrencyTranslationAdjustment",
+        "(Dollars in thousands)"
+      ],
+      "value": "(832)"
+    },
+    {
+      "row": [],
+      "col": [
+        "AccumulatedOtherComprehensiveIncome (Loss)",
+        "(Dollars in thousands)"
+      ],
+      "value": "(832)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Balance at December 31, 2016"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cash FlowHedges",
+        "(Dollars in thousands)"
+      ],
+      "value": "(2,424)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension andOtherPostretirementBenefit Plans",
+        "(Dollars in thousands)"
+      ],
+      "value": "(136,596)"
+    },
+    {
+      "row": [],
+      "col": [
+        "ForeignCurrencyTranslationAdjustment",
+        "(Dollars in thousands)"
+      ],
+      "value": "(299,697)"
+    },
+    {
+      "row": [],
+      "col": [
+        "AccumulatedOtherComprehensiveIncome (Loss)",
+        "(Dollars in thousands)"
+      ],
+      "value": "(438,717)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Other comprehensive income (loss) before reclassifications"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cash FlowHedges",
+        "(Dollars in thousands)"
+      ],
+      "value": "2,775"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension andOtherPostretirementBenefit Plans",
+        "(Dollars in thousands)"
+      ],
+      "value": "(6,725)"
+    },
+    {
+      "row": [],
+      "col": [
+        "ForeignCurrencyTranslationAdjustment",
+        "(Dollars in thousands)"
+      ],
+      "value": "173,074"
+    },
+    {
+      "row": [],
+      "col": [
+        "AccumulatedOtherComprehensiveIncome (Loss)",
+        "(Dollars in thousands)"
+      ],
+      "value": "169,124"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Amounts reclassified from accumulated other comprehensive income"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cash FlowHedges",
+        "(Dollars in thousands)"
+      ],
+      "value": "(11)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension andOtherPostretirementBenefit Plans",
+        "(Dollars in thousands)"
+      ],
+      "value": "4,513"
+    },
+    {
+      "row": [],
+      "col": [
+        "ForeignCurrencyTranslationAdjustment",
+        "(Dollars in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "AccumulatedOtherComprehensiveIncome (Loss)",
+        "(Dollars in thousands)"
+      ],
+      "value": "4,502"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Net current-year other comprehensive (loss) income"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cash FlowHedges",
+        "(Dollars in thousands)"
+      ],
+      "value": "2,764"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension andOtherPostretirementBenefit Plans",
+        "(Dollars in thousands)"
+      ],
+      "value": "(2,212)"
+    },
+    {
+      "row": [],
+      "col": [
+        "ForeignCurrencyTranslationAdjustment",
+        "(Dollars in thousands)"
+      ],
+      "value": "173,074"
+    },
+    {
+      "row": [],
+      "col": [
+        "AccumulatedOtherComprehensiveIncome (Loss)",
+        "(Dollars in thousands)"
+      ],
+      "value": "173,626"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Balance at December 31, 2017"
+    },
+    {
+      "row": [],
+      "col": [
+        "Cash FlowHedges",
+        "(Dollars in thousands)"
+      ],
+      "value": "$340"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension andOtherPostretirementBenefit Plans",
+        "(Dollars in thousands)"
+      ],
+      "value": "$(138,808)"
+    },
+    {
+      "row": [],
+      "col": [
+        "ForeignCurrencyTranslationAdjustment",
+        "(Dollars in thousands)"
+      ],
+      "value": "$(126,623)"
+    },
+    {
+      "row": [],
+      "col": [
+        "AccumulatedOtherComprehensiveIncome (Loss)",
+        "(Dollars in thousands)"
+      ],
+      "value": "$(265,091)"
+    }
+  ]
+}

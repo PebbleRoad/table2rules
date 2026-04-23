@@ -1,0 +1,414 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$1,264,135",
+    "$1,368,925",
+    "$1,725,790",
+    "$102,128",
+    "$207,940",
+    "$226,086",
+    "$252,425",
+    "$293,291",
+    "$300,012",
+    "$310,063",
+    "$317,044",
+    "$340,968",
+    "$348,894",
+    "$48,381",
+    "$58,275",
+    "$65,569",
+    "$75,008",
+    "$83,485",
+    "$83,600",
+    "$876,400",
+    "$908,621",
+    "$91,425",
+    "$911,136",
+    "$97,233",
+    "(Dollars in thousands)",
+    "14,482",
+    "14,941",
+    "16,195",
+    "2,408",
+    "2,605",
+    "2,610",
+    "2004",
+    "2005",
+    "2006",
+    "57.9%",
+    "63.7%",
+    "64.2%",
+    "69.3%",
+    "71.3%",
+    "72.4%",
+    "East",
+    "Gross leasable square feet",
+    "Property operating income as a percent of total revenue",
+    "Property operating income(1)",
+    "Rental income",
+    "Total assets",
+    "Total revenue",
+    "West"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "East"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Rental income"
+    },
+    {
+      "row": [],
+      "col": [
+        "2006",
+        "(Dollars in thousands)"
+      ],
+      "value": "$340,968"
+    },
+    {
+      "row": [],
+      "col": [
+        "2005",
+        "(Dollars in thousands)"
+      ],
+      "value": "$310,063"
+    },
+    {
+      "row": [],
+      "col": [
+        "2004",
+        "(Dollars in thousands)"
+      ],
+      "value": "$293,291"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total revenue"
+    },
+    {
+      "row": [],
+      "col": [
+        "2006",
+        "(Dollars in thousands)"
+      ],
+      "value": "$348,894"
+    },
+    {
+      "row": [],
+      "col": [
+        "2005",
+        "(Dollars in thousands)"
+      ],
+      "value": "$317,044"
+    },
+    {
+      "row": [],
+      "col": [
+        "2004",
+        "(Dollars in thousands)"
+      ],
+      "value": "$300,012"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Property operating income(1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2006",
+        "(Dollars in thousands)"
+      ],
+      "value": "$252,425"
+    },
+    {
+      "row": [],
+      "col": [
+        "2005",
+        "(Dollars in thousands)"
+      ],
+      "value": "$226,086"
+    },
+    {
+      "row": [],
+      "col": [
+        "2004",
+        "(Dollars in thousands)"
+      ],
+      "value": "$207,940"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Property operating income as a percent of total revenue"
+    },
+    {
+      "row": [],
+      "col": [
+        "2006",
+        "(Dollars in thousands)"
+      ],
+      "value": "72.4%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2005",
+        "(Dollars in thousands)"
+      ],
+      "value": "71.3%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2004",
+        "(Dollars in thousands)"
+      ],
+      "value": "69.3%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total assets"
+    },
+    {
+      "row": [],
+      "col": [
+        "2006",
+        "(Dollars in thousands)"
+      ],
+      "value": "$1,725,790"
+    },
+    {
+      "row": [],
+      "col": [
+        "2005",
+        "(Dollars in thousands)"
+      ],
+      "value": "$1,368,925"
+    },
+    {
+      "row": [],
+      "col": [
+        "2004",
+        "(Dollars in thousands)"
+      ],
+      "value": "$1,264,135"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Gross leasable square feet"
+    },
+    {
+      "row": [],
+      "col": [
+        "2006",
+        "(Dollars in thousands)"
+      ],
+      "value": "16,195"
+    },
+    {
+      "row": [],
+      "col": [
+        "2005",
+        "(Dollars in thousands)"
+      ],
+      "value": "14,941"
+    },
+    {
+      "row": [],
+      "col": [
+        "2004",
+        "(Dollars in thousands)"
+      ],
+      "value": "14,482"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "West"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Rental income"
+    },
+    {
+      "row": [],
+      "col": [
+        "2006",
+        "(Dollars in thousands)"
+      ],
+      "value": "$97,233"
+    },
+    {
+      "row": [],
+      "col": [
+        "2005",
+        "(Dollars in thousands)"
+      ],
+      "value": "$83,485"
+    },
+    {
+      "row": [],
+      "col": [
+        "2004",
+        "(Dollars in thousands)"
+      ],
+      "value": "$75,008"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total revenue"
+    },
+    {
+      "row": [],
+      "col": [
+        "2006",
+        "(Dollars in thousands)"
+      ],
+      "value": "$102,128"
+    },
+    {
+      "row": [],
+      "col": [
+        "2005",
+        "(Dollars in thousands)"
+      ],
+      "value": "$91,425"
+    },
+    {
+      "row": [],
+      "col": [
+        "2004",
+        "(Dollars in thousands)"
+      ],
+      "value": "$83,600"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Property operating income(1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2006",
+        "(Dollars in thousands)"
+      ],
+      "value": "$65,569"
+    },
+    {
+      "row": [],
+      "col": [
+        "2005",
+        "(Dollars in thousands)"
+      ],
+      "value": "$58,275"
+    },
+    {
+      "row": [],
+      "col": [
+        "2004",
+        "(Dollars in thousands)"
+      ],
+      "value": "$48,381"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Property operating income as a percent of total revenue"
+    },
+    {
+      "row": [],
+      "col": [
+        "2006",
+        "(Dollars in thousands)"
+      ],
+      "value": "64.2%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2005",
+        "(Dollars in thousands)"
+      ],
+      "value": "63.7%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2004",
+        "(Dollars in thousands)"
+      ],
+      "value": "57.9%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total assets"
+    },
+    {
+      "row": [],
+      "col": [
+        "2006",
+        "(Dollars in thousands)"
+      ],
+      "value": "$876,400"
+    },
+    {
+      "row": [],
+      "col": [
+        "2005",
+        "(Dollars in thousands)"
+      ],
+      "value": "$908,621"
+    },
+    {
+      "row": [],
+      "col": [
+        "2004",
+        "(Dollars in thousands)"
+      ],
+      "value": "$911,136"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Gross leasable square feet"
+    },
+    {
+      "row": [],
+      "col": [
+        "2006",
+        "(Dollars in thousands)"
+      ],
+      "value": "2,605"
+    },
+    {
+      "row": [],
+      "col": [
+        "2005",
+        "(Dollars in thousands)"
+      ],
+      "value": "2,610"
+    },
+    {
+      "row": [],
+      "col": [
+        "2004",
+        "(Dollars in thousands)"
+      ],
+      "value": "2,408"
+    }
+  ]
+}

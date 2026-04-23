@@ -1,0 +1,219 @@
+<!-- source: FinTabNet s0-r3320 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="3">
+   Net Sales
+  </td>
+<td colspan="3">
+   Operating Income
+  </td>
+<td colspan="2">
+   Property, Plant and Equipment - net
+  </td>
+</tr>
+<tr>
+<td>
+   (Millions)
+  </td>
+<td>
+   2015
+  </td>
+<td>
+   2014
+  </td>
+<td>
+   2013
+  </td>
+<td>
+   2015
+  </td>
+<td>
+   2014
+  </td>
+<td>
+   2013
+  </td>
+<td>
+   2015
+  </td>
+<td>
+   2014
+  </td>
+</tr>
+<tr>
+<td>
+   United States
+  </td>
+<td>
+   $12,049
+  </td>
+<td>
+   $11,714
+  </td>
+<td>
+   $11,151
+  </td>
+<td>
+   $2,647
+  </td>
+<td>
+   $2,540
+  </td>
+<td>
+   $2,210
+  </td>
+<td>
+   $4,838
+  </td>
+<td>
+   $4,619
+  </td>
+</tr>
+<tr>
+<td>
+   Asia Pacific
+  </td>
+<td>
+   9,041
+  </td>
+<td>
+   9,418
+  </td>
+<td>
+   9,047
+  </td>
+<td>
+   2,580
+  </td>
+<td>
+   2,487
+  </td>
+<td>
+   2,386
+  </td>
+<td>
+   1,647
+  </td>
+<td>
+   1,798
+  </td>
+</tr>
+<tr>
+<td>
+   Europe, Middle East and Africa
+  </td>
+<td>
+   6,228
+  </td>
+<td>
+   7,198
+  </td>
+<td>
+   7,085
+  </td>
+<td>
+   1,017
+  </td>
+<td>
+   1,234
+  </td>
+<td>
+   1,168
+  </td>
+<td>
+   1,531
+  </td>
+<td>
+   1,502
+  </td>
+</tr>
+<tr>
+<td>
+   Latin America and Canada
+  </td>
+<td>
+   2,982
+  </td>
+<td>
+   3,504
+  </td>
+<td>
+   3,611
+  </td>
+<td>
+   706
+  </td>
+<td>
+   867
+  </td>
+<td>
+   908
+  </td>
+<td>
+   499
+  </td>
+<td>
+   570
+  </td>
+</tr>
+<tr>
+<td>
+   Other Unallocated
+  </td>
+<td>
+   (26)
+  </td>
+<td>
+   (13)
+  </td>
+<td>
+   (23)
+  </td>
+<td>
+   (4)
+  </td>
+<td>
+   7
+  </td>
+<td>
+   (6)
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+</tr>
+<tr>
+<td>
+   Total Company
+  </td>
+<td>
+   $30,274
+  </td>
+<td>
+   $31,821
+  </td>
+<td>
+   $30,871
+  </td>
+<td>
+   $6,946
+  </td>
+<td>
+   $7,135
+  </td>
+<td>
+   $6,666
+  </td>
+<td>
+   $8,515
+  </td>
+<td>
+   $8,489
+  </td>
+</tr>
+</table>

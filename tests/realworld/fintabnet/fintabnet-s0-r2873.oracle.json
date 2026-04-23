@@ -1,0 +1,280 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$ Change",
+    "$1,322.9",
+    "$1,566.0",
+    "$1,715.8",
+    "$149.7",
+    "$243.1",
+    "$340.5",
+    "$392.7",
+    "$453.6",
+    "$52.2",
+    "$60.8",
+    "% Change",
+    "(dollars in millions)",
+    "1,173.3",
+    "1,262.2",
+    "10%",
+    "15%",
+    "18%",
+    "19%",
+    "190.9",
+    "2011",
+    "2011 to 2012",
+    "2012",
+    "2012 to 2013",
+    "2013",
+    "8%",
+    "86%",
+    "87%",
+    "88.9",
+    "89%",
+    "982.4",
+    "Cost of revenue",
+    "Operating expenses",
+    "Total",
+    "Total expenses as a percentage of total revenue",
+    "Year Ended October 31,"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Cost of revenue"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2013",
+        "(dollars in millions)"
+      ],
+      "value": "$453.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2012",
+        "(dollars in millions)"
+      ],
+      "value": "$392.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2011",
+        "(dollars in millions)"
+      ],
+      "value": "$340.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2012 to 2013",
+        "(dollars in millions)"
+      ],
+      "value": "$60.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2012 to 2013",
+        "(dollars in millions)"
+      ],
+      "value": "15%"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2011 to 2012",
+        "(dollars in millions)"
+      ],
+      "value": "$52.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2011 to 2012",
+        "(dollars in millions)"
+      ],
+      "value": "15%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Operating expenses"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2013",
+        "(dollars in millions)"
+      ],
+      "value": "1,262.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2012",
+        "(dollars in millions)"
+      ],
+      "value": "1,173.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2011",
+        "(dollars in millions)"
+      ],
+      "value": "982.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2012 to 2013",
+        "(dollars in millions)"
+      ],
+      "value": "88.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2012 to 2013",
+        "(dollars in millions)"
+      ],
+      "value": "8%"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2011 to 2012",
+        "(dollars in millions)"
+      ],
+      "value": "190.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2011 to 2012",
+        "(dollars in millions)"
+      ],
+      "value": "19%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2013",
+        "(dollars in millions)"
+      ],
+      "value": "$1,715.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2012",
+        "(dollars in millions)"
+      ],
+      "value": "$1,566.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2011",
+        "(dollars in millions)"
+      ],
+      "value": "$1,322.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2012 to 2013",
+        "(dollars in millions)"
+      ],
+      "value": "$149.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2012 to 2013",
+        "(dollars in millions)"
+      ],
+      "value": "10%"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2011 to 2012",
+        "(dollars in millions)"
+      ],
+      "value": "$243.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2011 to 2012",
+        "(dollars in millions)"
+      ],
+      "value": "18%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total expenses as a percentage of total revenue"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2013",
+        "(dollars in millions)"
+      ],
+      "value": "87%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2012",
+        "(dollars in millions)"
+      ],
+      "value": "89%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2011",
+        "(dollars in millions)"
+      ],
+      "value": "86%"
+    }
+  ]
+}

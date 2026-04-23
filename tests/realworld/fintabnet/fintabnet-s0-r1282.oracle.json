@@ -1,0 +1,554 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$1,354,203",
+    "$136,946",
+    "$139,469",
+    "$167,942",
+    "$240,169",
+    "$245,794",
+    "$250,506",
+    "$257,003",
+    "$293,043",
+    "$353,282",
+    "$373,417",
+    "$407,090",
+    "$60,122",
+    "(107,073)",
+    "(219,527)",
+    "(332,128)",
+    "(5,528)",
+    "(7,533)",
+    "(747)",
+    "(8,917)",
+    "(82)",
+    "(Dollars in thousands)",
+    "1,238,452",
+    "1,570,580",
+    "1,686,331",
+    "123,284",
+    "136,946",
+    "139,469",
+    "167,195",
+    "17,922",
+    "187,563",
+    "2,213",
+    "245,794",
+    "250,506",
+    "251,475",
+    "298,571",
+    "353,282",
+    "373,417",
+    "4,712",
+    "41,650",
+    "459,696",
+    "52,606",
+    "6,394",
+    "60,869",
+    "Accumulated impairment losses",
+    "All Other",
+    "Anesthesia/Respiratory North America",
+    "Asia",
+    "Balance as of December 31, 2012",
+    "Balance as of December 31, 2013",
+    "EMEA",
+    "Goodwill",
+    "Goodwill related to acquisitions",
+    "Surgical North America",
+    "Total",
+    "Translation adjustment",
+    "Vascular North America",
+    "\u2014"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Balance as of December 31, 2012"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Goodwill"
+    },
+    {
+      "row": [],
+      "col": [
+        "Vascular North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "$407,090"
+    },
+    {
+      "row": [],
+      "col": [
+        "Anesthesia/Respiratory North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "$167,942"
+    },
+    {
+      "row": [],
+      "col": [
+        "Surgical North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "$245,794"
+    },
+    {
+      "row": [],
+      "col": [
+        "EMEA",
+        "(Dollars in thousands)"
+      ],
+      "value": "$353,282"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asia",
+        "(Dollars in thousands)"
+      ],
+      "value": "$139,469"
+    },
+    {
+      "row": [],
+      "col": [
+        "All Other",
+        "(Dollars in thousands)"
+      ],
+      "value": "$257,003"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "(Dollars in thousands)"
+      ],
+      "value": "1,570,580"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Accumulated impairment losses"
+    },
+    {
+      "row": [],
+      "col": [
+        "Vascular North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "(219,527)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Anesthesia/Respiratory North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "(107,073)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Surgical North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "EMEA",
+        "(Dollars in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asia",
+        "(Dollars in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "All Other",
+        "(Dollars in thousands)"
+      ],
+      "value": "(5,528)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "(Dollars in thousands)"
+      ],
+      "value": "(332,128)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Vascular North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "187,563"
+    },
+    {
+      "row": [],
+      "col": [
+        "Anesthesia/Respiratory North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "60,869"
+    },
+    {
+      "row": [],
+      "col": [
+        "Surgical North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "245,794"
+    },
+    {
+      "row": [],
+      "col": [
+        "EMEA",
+        "(Dollars in thousands)"
+      ],
+      "value": "353,282"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asia",
+        "(Dollars in thousands)"
+      ],
+      "value": "139,469"
+    },
+    {
+      "row": [],
+      "col": [
+        "All Other",
+        "(Dollars in thousands)"
+      ],
+      "value": "251,475"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "(Dollars in thousands)"
+      ],
+      "value": "1,238,452"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Goodwill related to acquisitions"
+    },
+    {
+      "row": [],
+      "col": [
+        "Vascular North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "52,606"
+    },
+    {
+      "row": [],
+      "col": [
+        "Anesthesia/Respiratory North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Surgical North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "4,712"
+    },
+    {
+      "row": [],
+      "col": [
+        "EMEA",
+        "(Dollars in thousands)"
+      ],
+      "value": "17,922"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asia",
+        "(Dollars in thousands)"
+      ],
+      "value": "6,394"
+    },
+    {
+      "row": [],
+      "col": [
+        "All Other",
+        "(Dollars in thousands)"
+      ],
+      "value": "41,650"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "(Dollars in thousands)"
+      ],
+      "value": "123,284"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Translation adjustment"
+    },
+    {
+      "row": [],
+      "col": [
+        "Vascular North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Anesthesia/Respiratory North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "(747)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Surgical North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "EMEA",
+        "(Dollars in thousands)"
+      ],
+      "value": "2,213"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asia",
+        "(Dollars in thousands)"
+      ],
+      "value": "(8,917)"
+    },
+    {
+      "row": [],
+      "col": [
+        "All Other",
+        "(Dollars in thousands)"
+      ],
+      "value": "(82)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "(Dollars in thousands)"
+      ],
+      "value": "(7,533)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Balance as of December 31, 2013"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Goodwill"
+    },
+    {
+      "row": [],
+      "col": [
+        "Vascular North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "459,696"
+    },
+    {
+      "row": [],
+      "col": [
+        "Anesthesia/Respiratory North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "167,195"
+    },
+    {
+      "row": [],
+      "col": [
+        "Surgical North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "250,506"
+    },
+    {
+      "row": [],
+      "col": [
+        "EMEA",
+        "(Dollars in thousands)"
+      ],
+      "value": "373,417"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asia",
+        "(Dollars in thousands)"
+      ],
+      "value": "136,946"
+    },
+    {
+      "row": [],
+      "col": [
+        "All Other",
+        "(Dollars in thousands)"
+      ],
+      "value": "298,571"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "(Dollars in thousands)"
+      ],
+      "value": "1,686,331"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Accumulated impairment losses"
+    },
+    {
+      "row": [],
+      "col": [
+        "Vascular North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "(219,527)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Anesthesia/Respiratory North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "(107,073)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Surgical North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "EMEA",
+        "(Dollars in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asia",
+        "(Dollars in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "All Other",
+        "(Dollars in thousands)"
+      ],
+      "value": "(5,528)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "(Dollars in thousands)"
+      ],
+      "value": "(332,128)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Vascular North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "$240,169"
+    },
+    {
+      "row": [],
+      "col": [
+        "Anesthesia/Respiratory North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "$60,122"
+    },
+    {
+      "row": [],
+      "col": [
+        "Surgical North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "$250,506"
+    },
+    {
+      "row": [],
+      "col": [
+        "EMEA",
+        "(Dollars in thousands)"
+      ],
+      "value": "$373,417"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asia",
+        "(Dollars in thousands)"
+      ],
+      "value": "$136,946"
+    },
+    {
+      "row": [],
+      "col": [
+        "All Other",
+        "(Dollars in thousands)"
+      ],
+      "value": "$293,043"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "(Dollars in thousands)"
+      ],
+      "value": "$1,354,203"
+    }
+  ]
+}

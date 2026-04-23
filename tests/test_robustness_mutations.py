@@ -59,16 +59,19 @@ def _smart_split(path_str: str, source_tokens: frozenset[str]) -> tuple[str, ...
 
 
 def _smart_value_split(line: str, source_tokens: frozenset[str]):
+    # Prefer leftmost ': ' with a source-token value — that yields the
+    # longest matching value, which is the correct choice when the cell
+    # text itself contains ': '. See the matching helper in
+    # test_correctness_oracle.py for the rationale.
     if ": " not in line:
         return None
     positions = [i for i in range(len(line) - 1) if line[i:i + 2] == ": "]
-    positions.reverse()
     for pos in positions:
         lhs = line[:pos]
         value = line[pos + 2:].strip()
         if not value or ROW_COL_SEP in value or value.startswith("|"):
             continue
-        if not source_tokens or _norm(value) in source_tokens:
+        if source_tokens and _norm(value) in source_tokens:
             return lhs, _norm(value)
     lhs, _, value = line.rpartition(": ")
     value = value.strip()

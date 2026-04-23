@@ -1,0 +1,323 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$151",
+    "$172",
+    "$248",
+    "$26",
+    "$301",
+    "$406",
+    "$574",
+    "$\u2014",
+    "(in millions)",
+    "117",
+    "122",
+    "126",
+    "181",
+    "2",
+    "2014",
+    "2015",
+    "25",
+    "29",
+    "34",
+    "7",
+    "85",
+    "Asset Derivatives",
+    "Balance Sheet Classification",
+    "FairValue",
+    "Foreign exchange contracts designated as hedging instruments",
+    "Foreign exchange contracts not designated as hedging instruments",
+    "Liability Derivatives",
+    "Other accruedliabilities",
+    "Other assets",
+    "Other currentassets",
+    "Other liabilities",
+    "Total derivatives",
+    "\u2014"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "(in millions)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asset Derivatives"
+      ],
+      "value": "Balance Sheet Classification"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asset Derivatives",
+        "FairValue"
+      ],
+      "value": "2015"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asset Derivatives",
+        "FairValue"
+      ],
+      "value": "2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Liability Derivatives"
+      ],
+      "value": "Balance Sheet Classification"
+    },
+    {
+      "row": [],
+      "col": [
+        "Liability Derivatives",
+        "FairValue"
+      ],
+      "value": "2015"
+    },
+    {
+      "row": [],
+      "col": [
+        "Liability Derivatives",
+        "FairValue"
+      ],
+      "value": "2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Foreign exchange contracts designated as hedging instruments"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asset Derivatives"
+      ],
+      "value": "Other currentassets"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asset Derivatives",
+        "FairValue"
+      ],
+      "value": "$301"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asset Derivatives",
+        "FairValue"
+      ],
+      "value": "$248"
+    },
+    {
+      "row": [],
+      "col": [
+        "Liability Derivatives"
+      ],
+      "value": "Other accruedliabilities"
+    },
+    {
+      "row": [],
+      "col": [
+        "Liability Derivatives",
+        "FairValue"
+      ],
+      "value": "$26"
+    },
+    {
+      "row": [],
+      "col": [
+        "Liability Derivatives",
+        "FairValue"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asset Derivatives"
+      ],
+      "value": "Other assets"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asset Derivatives",
+        "FairValue"
+      ],
+      "value": "181"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asset Derivatives",
+        "FairValue"
+      ],
+      "value": "122"
+    },
+    {
+      "row": [],
+      "col": [
+        "Liability Derivatives"
+      ],
+      "value": "Other liabilities"
+    },
+    {
+      "row": [],
+      "col": [
+        "Liability Derivatives",
+        "FairValue"
+      ],
+      "value": "117"
+    },
+    {
+      "row": [],
+      "col": [
+        "Liability Derivatives",
+        "FairValue"
+      ],
+      "value": "25"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Foreign exchange contracts not designated as hedging instruments"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asset Derivatives"
+      ],
+      "value": "Other currentassets"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asset Derivatives",
+        "FairValue"
+      ],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asset Derivatives",
+        "FairValue"
+      ],
+      "value": "34"
+    },
+    {
+      "row": [],
+      "col": [
+        "Liability Derivatives"
+      ],
+      "value": "Other accruedliabilities"
+    },
+    {
+      "row": [],
+      "col": [
+        "Liability Derivatives",
+        "FairValue"
+      ],
+      "value": "29"
+    },
+    {
+      "row": [],
+      "col": [
+        "Liability Derivatives",
+        "FairValue"
+      ],
+      "value": "126"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asset Derivatives"
+      ],
+      "value": "Other assets"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asset Derivatives",
+        "FairValue"
+      ],
+      "value": "85"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asset Derivatives",
+        "FairValue"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Liability Derivatives"
+      ],
+      "value": "Other liabilities"
+    },
+    {
+      "row": [],
+      "col": [
+        "Liability Derivatives",
+        "FairValue"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Liability Derivatives",
+        "FairValue"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total derivatives"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asset Derivatives",
+        "FairValue"
+      ],
+      "value": "$574"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asset Derivatives",
+        "FairValue"
+      ],
+      "value": "$406"
+    },
+    {
+      "row": [],
+      "col": [
+        "Liability Derivatives",
+        "FairValue"
+      ],
+      "value": "$172"
+    },
+    {
+      "row": [],
+      "col": [
+        "Liability Derivatives",
+        "FairValue"
+      ],
+      "value": "$151"
+    }
+  ]
+}

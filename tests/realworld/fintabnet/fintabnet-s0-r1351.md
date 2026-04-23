@@ -1,0 +1,196 @@
+<!-- source: FinTabNet s0-r1351 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td>
+   Cash FlowHedges
+  </td>
+<td>
+   Pension andOtherPostretirementBenefit Plans
+  </td>
+<td>
+   ForeignCurrencyTranslationAdjustment
+  </td>
+<td>
+   AccumulatedOtherComprehensiveIncome (Loss)
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="4">
+   (Dollars in thousands)
+  </td>
+</tr>
+<tr>
+<td>
+   Balance at December 31, 2015
+  </td>
+<td>
+   $(2,491)
+  </td>
+<td>
+   $(138,887)
+  </td>
+<td>
+   $(229,746)
+  </td>
+<td>
+   $(371,124)
+  </td>
+</tr>
+<tr>
+<td>
+   Other comprehensive income (loss) before reclassifications
+  </td>
+<td>
+   (3,434)
+  </td>
+<td>
+   (2,221)
+  </td>
+<td>
+   (69,119)
+  </td>
+<td>
+   (74,774)
+  </td>
+</tr>
+<tr>
+<td>
+   Amounts reclassified from accumulated other comprehensive income (loss)
+  </td>
+<td>
+   3,501
+  </td>
+<td>
+   4,512
+  </td>
+<td>
+   —
+  </td>
+<td>
+   8,013
+  </td>
+</tr>
+<tr>
+<td>
+   Net current-year other comprehensive income (loss)
+  </td>
+<td>
+   67
+  </td>
+<td>
+   2,291
+  </td>
+<td>
+   (69,119)
+  </td>
+<td>
+   (66,761)
+  </td>
+</tr>
+<tr>
+<td>
+   Reclassification related to acquisition of noncontrolling interest
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   (832)
+  </td>
+<td>
+   (832)
+  </td>
+</tr>
+<tr>
+<td>
+   Balance at December 31, 2016
+  </td>
+<td>
+   (2,424)
+  </td>
+<td>
+   (136,596)
+  </td>
+<td>
+   (299,697)
+  </td>
+<td>
+   (438,717)
+  </td>
+</tr>
+<tr>
+<td>
+   Other comprehensive income (loss) before reclassifications
+  </td>
+<td>
+   2,775
+  </td>
+<td>
+   (6,725)
+  </td>
+<td>
+   173,074
+  </td>
+<td>
+   169,124
+  </td>
+</tr>
+<tr>
+<td>
+   Amounts reclassified from accumulated other comprehensive income
+  </td>
+<td>
+   (11)
+  </td>
+<td>
+   4,513
+  </td>
+<td>
+   —
+  </td>
+<td>
+   4,502
+  </td>
+</tr>
+<tr>
+<td>
+   Net current-year other comprehensive (loss) income
+  </td>
+<td>
+   2,764
+  </td>
+<td>
+   (2,212)
+  </td>
+<td>
+   173,074
+  </td>
+<td>
+   173,626
+  </td>
+</tr>
+<tr>
+<td>
+   Balance at December 31, 2017
+  </td>
+<td>
+   $340
+  </td>
+<td>
+   $(138,808)
+  </td>
+<td>
+   $(126,623)
+  </td>
+<td>
+   $(265,091)
+  </td>
+</tr>
+</table>

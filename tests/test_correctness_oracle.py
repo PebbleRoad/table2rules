@@ -89,15 +89,21 @@ def _smart_value_split(
 ) -> tuple[str, str] | None:
     """Split 'lhs: value' where the cell content itself may contain ': '.
 
-    Try rightmost ': ' first. If the resulting value is not a known source
-    token, walk further-left ': ' boundaries until value matches source,
-    yielding an LHS whose last path component plausibly names that value.
+    Prefer the leftmost ': ' whose value-side is a known source token —
+    that yields the longest matching value, which is the correct choice
+    when the cell text itself contains ': ' (e.g., a composite datum like
+    "u: 2,853a: 690d: 231m: 14s: 167"). Picking the rightmost match first
+    would silently shorten such values to the last colon-delimited
+    fragment (e.g., just "167"), misattributing the rest of the cell text
+    to the header path.
+
+    Fall back to the rightmost ': ' if no left-to-right split produces a
+    source-token value — that preserves behaviour for normal rules.
     """
     if ": " not in line:
         return None
-    # All possible ': ' split points (right-to-left).
     positions = [i for i in range(len(line) - 1) if line[i:i + 2] == ": "]
-    positions.reverse()
+    # Leftmost-first: the first source-token match yields the longest value.
     for pos in positions:
         lhs = line[:pos]
         value = line[pos + 2:].strip()
@@ -106,10 +112,9 @@ def _smart_value_split(
         if ROW_COL_SEP in value or value.startswith("|"):
             continue
         value_n = _norm(value)
-        # Accept the split if the candidate value is a source token.
-        if not source_tokens or value_n in source_tokens:
+        if source_tokens and value_n in source_tokens:
             return lhs, value_n
-    # No split point produced a source-token value — fall back to rightmost.
+    # No left-to-right match — fall back to rightmost ': '.
     lhs, _, value = line.rpartition(": ")
     value = value.strip()
     if not value or ROW_COL_SEP in value or value.startswith("|"):

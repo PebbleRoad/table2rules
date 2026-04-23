@@ -1,0 +1,241 @@
+<!-- source: FinTabNet s0-r3063 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td>
+   Restricted Stock Units
+  </td>
+<td>
+   Weighted Average Grant Date Fair Value
+  </td>
+<td>
+   Weighted Average Remaining Contractual Life (In Years)
+  </td>
+<td>
+   Aggregate Fair Value
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="4">
+   (in thousands, except per share and life amounts)
+  </td>
+</tr>
+<tr>
+<td>
+   Balance at October 31, 2006
+  </td>
+<td>
+   —
+  </td>
+<td>
+   $—
+  </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Granted
+  </td>
+<td>
+   1,488
+  </td>
+<td>
+   $26.84
+  </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Vested
+  </td>
+<td>
+   —
+  </td>
+<td>
+   $—
+  </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Forfeited
+  </td>
+<td>
+   (45)
+  </td>
+<td>
+   $26.88
+  </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Balance at October 31, 2007
+  </td>
+<td>
+   1,443
+  </td>
+<td>
+   $26.84
+  </td>
+<td>
+   1.84
+  </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Granted
+  </td>
+<td>
+   1,630
+  </td>
+<td>
+   $24.78
+  </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Assumed(1)
+  </td>
+<td>
+   85
+  </td>
+<td>
+   $21.76
+  </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Vested(2)(3)
+  </td>
+<td>
+   (370)
+  </td>
+<td>
+   $26.80
+  </td>
+<td>
+</td>
+<td>
+   $8,344
+  </td>
+</tr>
+<tr>
+<td>
+   Forfeited
+  </td>
+<td>
+   (112)
+  </td>
+<td>
+   $26.27
+  </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Balance at October 31, 2008
+  </td>
+<td>
+   2,676
+  </td>
+<td>
+   $25.45
+  </td>
+<td>
+   1.61
+  </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Granted
+  </td>
+<td>
+   1,311
+  </td>
+<td>
+   $18.78
+  </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Vested(2)(3)
+  </td>
+<td>
+   (787)
+  </td>
+<td>
+   $25.64
+  </td>
+<td>
+</td>
+<td>
+   $14,859
+  </td>
+</tr>
+<tr>
+<td>
+   Forfeited
+  </td>
+<td>
+   (67)
+  </td>
+<td>
+   $24.64
+  </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Balance at October 31, 2009
+  </td>
+<td>
+   3,133
+  </td>
+<td>
+   $22.63
+  </td>
+<td>
+   1.41
+  </td>
+<td>
+</td>
+</tr>
+</table>

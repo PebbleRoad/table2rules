@@ -1,0 +1,219 @@
+<!-- source: FinTabNet s0-r1507 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td>
+   2012
+  </td>
+<td>
+   2011
+  </td>
+<td>
+   Percent Increase (Decrease)
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="2">
+   (In cents)
+  </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Mainline CASM:
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Aircraft fuel and related taxes
+  </td>
+<td>
+   5.05
+  </td>
+<td>
+   4.77
+  </td>
+<td>
+   5.9
+  </td>
+</tr>
+<tr>
+<td>
+   Salaries, wages and benefits
+  </td>
+<td>
+   4.07
+  </td>
+<td>
+   4.12
+  </td>
+<td>
+   (1.2)
+  </td>
+</tr>
+<tr>
+<td>
+   Maintenance, materials and repairs
+  </td>
+<td>
+   0.76
+  </td>
+<td>
+   0.67
+  </td>
+<td>
+   13.4
+  </td>
+</tr>
+<tr>
+<td>
+   Other rent and landing fees
+  </td>
+<td>
+   0.71
+  </td>
+<td>
+   0.77
+  </td>
+<td>
+   (7.8)
+  </td>
+</tr>
+<tr>
+<td>
+   Aircraft rent
+  </td>
+<td>
+   0.36
+  </td>
+<td>
+   0.42
+  </td>
+<td>
+   (14.3)
+  </td>
+</tr>
+<tr>
+<td>
+   Selling expenses
+  </td>
+<td>
+   0.69
+  </td>
+<td>
+   0.71
+  </td>
+<td>
+   (2.8)
+  </td>
+</tr>
+<tr>
+<td>
+   Depreciation and amortization
+  </td>
+<td>
+   0.55
+  </td>
+<td>
+   0.59
+  </td>
+<td>
+   (6.8)
+  </td>
+</tr>
+<tr>
+<td>
+   Special items, net
+  </td>
+<td>
+   0.25
+  </td>
+<td>
+   0.49
+  </td>
+<td>
+   (49.0)
+  </td>
+</tr>
+<tr>
+<td>
+   Other
+  </td>
+<td>
+   1.75
+  </td>
+<td>
+   1.71
+  </td>
+<td>
+   2.3
+  </td>
+</tr>
+<tr>
+<td>
+   Total mainline CASM
+  </td>
+<td>
+   14.20
+  </td>
+<td>
+   14.25
+  </td>
+<td>
+   (0.4)
+  </td>
+</tr>
+<tr>
+<td>
+   Less: Special items, net
+  </td>
+<td>
+   (0.25)
+  </td>
+<td>
+   (0.49)
+  </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Less: Aircraft fuel and related taxes
+  </td>
+<td>
+   (5.05)
+  </td>
+<td>
+   (4.77)
+  </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Total mainline CASM excluding special items, fuel and profit sharing
+   <sup>
+    1
+   </sup>
+</td>
+<td>
+   8.90
+  </td>
+<td>
+   8.99
+  </td>
+<td>
+   (1.0)
+  </td>
+</tr>
+</table>

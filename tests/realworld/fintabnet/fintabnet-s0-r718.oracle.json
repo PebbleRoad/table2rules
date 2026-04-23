@@ -1,0 +1,707 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$1,113",
+    "$10,922",
+    "$11,529",
+    "$18,338",
+    "$26,232",
+    "$26,487",
+    "$6,240",
+    "(0.17)",
+    "(0.34)",
+    "(0.60)",
+    "(1,118)",
+    "(191)",
+    "(194)",
+    "(2.97)",
+    "(266)",
+    "(63)",
+    "(66)",
+    "(in millions, except per share data)",
+    "1,088",
+    "1,102",
+    "1.70",
+    "10,990",
+    "10,999",
+    "12,920",
+    "120,232",
+    "120,480",
+    "122,973",
+    "13,358",
+    "14,326",
+    "2.06",
+    "2.35",
+    "2.45",
+    "2.81",
+    "2.84",
+    "25,151",
+    "28,333",
+    "29,713",
+    "3,452",
+    "3,642",
+    "3,830",
+    "3.37",
+    "3.39",
+    "36,571",
+    "38,681",
+    "647",
+    "672",
+    "8,320",
+    "8.95",
+    "9.03",
+    "April 28,2013(52 weeks)",
+    "April 29 - June 7,2013(6 weeks)",
+    "As of:",
+    "Basic",
+    "Cash dividends per common share",
+    "December 28,2014(52 weeks)",
+    "December 30,2017(52 weeks)",
+    "December 31,2016(52 weeks) (a)",
+    "Diluted",
+    "February 8 - December 29,2013(29 weeks)",
+    "Income/(loss) from continuing operations (b)",
+    "Income/(loss) from continuing operations attributable to common shareholders (b)",
+    "Income/(loss) from continuing operations per common share (b) :",
+    "January 3,2016(53 weeks)",
+    "Long-term debt (c)(d)",
+    "NA",
+    "Net sales (b)(d)",
+    "Period Ended:",
+    "Predecessor(H. J. Heinz Company)",
+    "Redeemable preferred stock",
+    "Successor",
+    "Total assets (d)",
+    "\u2014"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Period Ended:"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Net sales (b)(d)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successor",
+        "December 30,2017(52 weeks)",
+        "(in millions, except per share data)"
+      ],
+      "value": "$26,232"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successor",
+        "December 31,2016(52 weeks) (a)",
+        "(in millions, except per share data)"
+      ],
+      "value": "$26,487"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successor",
+        "January 3,2016(53 weeks)",
+        "(in millions, except per share data)"
+      ],
+      "value": "$18,338"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successor",
+        "December 28,2014(52 weeks)",
+        "(in millions, except per share data)"
+      ],
+      "value": "$10,922"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successor",
+        "February 8 - December 29,2013(29 weeks)",
+        "(in millions, except per share data)"
+      ],
+      "value": "$6,240"
+    },
+    {
+      "row": [],
+      "col": [
+        "Predecessor(H. J. Heinz Company)",
+        "April 29 - June 7,2013(6 weeks)",
+        "(in millions, except per share data)"
+      ],
+      "value": "$1,113"
+    },
+    {
+      "row": [],
+      "col": [
+        "Predecessor(H. J. Heinz Company)",
+        "April 28,2013(52 weeks)",
+        "(in millions, except per share data)"
+      ],
+      "value": "$11,529"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Income/(loss) from continuing operations (b)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successor",
+        "December 30,2017(52 weeks)",
+        "(in millions, except per share data)"
+      ],
+      "value": "10,990"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successor",
+        "December 31,2016(52 weeks) (a)",
+        "(in millions, except per share data)"
+      ],
+      "value": "3,642"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successor",
+        "January 3,2016(53 weeks)",
+        "(in millions, except per share data)"
+      ],
+      "value": "647"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successor",
+        "December 28,2014(52 weeks)",
+        "(in millions, except per share data)"
+      ],
+      "value": "672"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successor",
+        "February 8 - December 29,2013(29 weeks)",
+        "(in millions, except per share data)"
+      ],
+      "value": "(66)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Predecessor(H. J. Heinz Company)",
+        "April 29 - June 7,2013(6 weeks)",
+        "(in millions, except per share data)"
+      ],
+      "value": "(191)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Predecessor(H. J. Heinz Company)",
+        "April 28,2013(52 weeks)",
+        "(in millions, except per share data)"
+      ],
+      "value": "1,102"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Income/(loss) from continuing operations attributable to common shareholders (b)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successor",
+        "December 30,2017(52 weeks)",
+        "(in millions, except per share data)"
+      ],
+      "value": "10,999"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successor",
+        "December 31,2016(52 weeks) (a)",
+        "(in millions, except per share data)"
+      ],
+      "value": "3,452"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successor",
+        "January 3,2016(53 weeks)",
+        "(in millions, except per share data)"
+      ],
+      "value": "(266)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successor",
+        "December 28,2014(52 weeks)",
+        "(in millions, except per share data)"
+      ],
+      "value": "(63)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successor",
+        "February 8 - December 29,2013(29 weeks)",
+        "(in millions, except per share data)"
+      ],
+      "value": "(1,118)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Predecessor(H. J. Heinz Company)",
+        "April 29 - June 7,2013(6 weeks)",
+        "(in millions, except per share data)"
+      ],
+      "value": "(194)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Predecessor(H. J. Heinz Company)",
+        "April 28,2013(52 weeks)",
+        "(in millions, except per share data)"
+      ],
+      "value": "1,088"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Income/(loss) from continuing operations per common share (b) :"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Basic"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successor",
+        "December 30,2017(52 weeks)",
+        "(in millions, except per share data)"
+      ],
+      "value": "9.03"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successor",
+        "December 31,2016(52 weeks) (a)",
+        "(in millions, except per share data)"
+      ],
+      "value": "2.84"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successor",
+        "January 3,2016(53 weeks)",
+        "(in millions, except per share data)"
+      ],
+      "value": "(0.34)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successor",
+        "December 28,2014(52 weeks)",
+        "(in millions, except per share data)"
+      ],
+      "value": "(0.17)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successor",
+        "February 8 - December 29,2013(29 weeks)",
+        "(in millions, except per share data)"
+      ],
+      "value": "(2.97)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Predecessor(H. J. Heinz Company)",
+        "April 29 - June 7,2013(6 weeks)",
+        "(in millions, except per share data)"
+      ],
+      "value": "(0.60)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Predecessor(H. J. Heinz Company)",
+        "April 28,2013(52 weeks)",
+        "(in millions, except per share data)"
+      ],
+      "value": "3.39"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Diluted"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successor",
+        "December 30,2017(52 weeks)",
+        "(in millions, except per share data)"
+      ],
+      "value": "8.95"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successor",
+        "December 31,2016(52 weeks) (a)",
+        "(in millions, except per share data)"
+      ],
+      "value": "2.81"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successor",
+        "January 3,2016(53 weeks)",
+        "(in millions, except per share data)"
+      ],
+      "value": "(0.34)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successor",
+        "December 28,2014(52 weeks)",
+        "(in millions, except per share data)"
+      ],
+      "value": "(0.17)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successor",
+        "February 8 - December 29,2013(29 weeks)",
+        "(in millions, except per share data)"
+      ],
+      "value": "(2.97)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Predecessor(H. J. Heinz Company)",
+        "April 29 - June 7,2013(6 weeks)",
+        "(in millions, except per share data)"
+      ],
+      "value": "(0.60)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Predecessor(H. J. Heinz Company)",
+        "April 28,2013(52 weeks)",
+        "(in millions, except per share data)"
+      ],
+      "value": "3.37"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "As of:"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total assets (d)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successor",
+        "December 30,2017(52 weeks)",
+        "(in millions, except per share data)"
+      ],
+      "value": "120,232"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successor",
+        "December 31,2016(52 weeks) (a)",
+        "(in millions, except per share data)"
+      ],
+      "value": "120,480"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successor",
+        "January 3,2016(53 weeks)",
+        "(in millions, except per share data)"
+      ],
+      "value": "122,973"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successor",
+        "December 28,2014(52 weeks)",
+        "(in millions, except per share data)"
+      ],
+      "value": "36,571"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successor",
+        "February 8 - December 29,2013(29 weeks)",
+        "(in millions, except per share data)"
+      ],
+      "value": "38,681"
+    },
+    {
+      "row": [],
+      "col": [
+        "Predecessor(H. J. Heinz Company)",
+        "April 29 - June 7,2013(6 weeks)",
+        "(in millions, except per share data)"
+      ],
+      "value": "NA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Predecessor(H. J. Heinz Company)",
+        "April 28,2013(52 weeks)",
+        "(in millions, except per share data)"
+      ],
+      "value": "12,920"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Long-term debt (c)(d)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successor",
+        "December 30,2017(52 weeks)",
+        "(in millions, except per share data)"
+      ],
+      "value": "28,333"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successor",
+        "December 31,2016(52 weeks) (a)",
+        "(in millions, except per share data)"
+      ],
+      "value": "29,713"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successor",
+        "January 3,2016(53 weeks)",
+        "(in millions, except per share data)"
+      ],
+      "value": "25,151"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successor",
+        "December 28,2014(52 weeks)",
+        "(in millions, except per share data)"
+      ],
+      "value": "13,358"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successor",
+        "February 8 - December 29,2013(29 weeks)",
+        "(in millions, except per share data)"
+      ],
+      "value": "14,326"
+    },
+    {
+      "row": [],
+      "col": [
+        "Predecessor(H. J. Heinz Company)",
+        "April 29 - June 7,2013(6 weeks)",
+        "(in millions, except per share data)"
+      ],
+      "value": "NA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Predecessor(H. J. Heinz Company)",
+        "April 28,2013(52 weeks)",
+        "(in millions, except per share data)"
+      ],
+      "value": "3,830"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Redeemable preferred stock"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successor",
+        "December 30,2017(52 weeks)",
+        "(in millions, except per share data)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successor",
+        "December 31,2016(52 weeks) (a)",
+        "(in millions, except per share data)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successor",
+        "January 3,2016(53 weeks)",
+        "(in millions, except per share data)"
+      ],
+      "value": "8,320"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successor",
+        "December 28,2014(52 weeks)",
+        "(in millions, except per share data)"
+      ],
+      "value": "8,320"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successor",
+        "February 8 - December 29,2013(29 weeks)",
+        "(in millions, except per share data)"
+      ],
+      "value": "8,320"
+    },
+    {
+      "row": [],
+      "col": [
+        "Predecessor(H. J. Heinz Company)",
+        "April 29 - June 7,2013(6 weeks)",
+        "(in millions, except per share data)"
+      ],
+      "value": "NA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Predecessor(H. J. Heinz Company)",
+        "April 28,2013(52 weeks)",
+        "(in millions, except per share data)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Cash dividends per common share"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successor",
+        "December 30,2017(52 weeks)",
+        "(in millions, except per share data)"
+      ],
+      "value": "2.45"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successor",
+        "December 31,2016(52 weeks) (a)",
+        "(in millions, except per share data)"
+      ],
+      "value": "2.35"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successor",
+        "January 3,2016(53 weeks)",
+        "(in millions, except per share data)"
+      ],
+      "value": "1.70"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successor",
+        "December 28,2014(52 weeks)",
+        "(in millions, except per share data)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Successor",
+        "February 8 - December 29,2013(29 weeks)",
+        "(in millions, except per share data)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Predecessor(H. J. Heinz Company)",
+        "April 29 - June 7,2013(6 weeks)",
+        "(in millions, except per share data)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Predecessor(H. J. Heinz Company)",
+        "April 28,2013(52 weeks)",
+        "(in millions, except per share data)"
+      ],
+      "value": "2.06"
+    }
+  ]
+}

@@ -1,0 +1,328 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$(239,055)",
+    "$(281,263)",
+    "$(472,696)",
+    "$(580,884)",
+    "$1,023,837",
+    "$1,564,359",
+    "$2,964,632",
+    "$622,428",
+    "(1,038)",
+    "(1,976)",
+    "(13,974)",
+    "(15,239)",
+    "(16,996)",
+    "(203,390)",
+    "(22,069)",
+    "(258,580)",
+    "(Dollars in thousands)",
+    "1,287,487",
+    "16,532",
+    "2,692",
+    "2016",
+    "2017",
+    "23,021",
+    "23,429",
+    "23,697",
+    "34,672",
+    "379,724",
+    "519,962",
+    "571,510",
+    "Accumulated Amortization",
+    "Customer relationships",
+    "Distribution rights",
+    "Gross Carrying Amount",
+    "In-process research and development",
+    "Intellectual property",
+    "Non-compete agreements",
+    "Trade names",
+    "\u2014"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Customer relationships"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gross Carrying Amount",
+        "2017",
+        "(Dollars in thousands)"
+      ],
+      "value": "$1,023,837"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gross Carrying Amount",
+        "2016",
+        "(Dollars in thousands)"
+      ],
+      "value": "$622,428"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accumulated Amortization",
+        "2017",
+        "(Dollars in thousands)"
+      ],
+      "value": "$(281,263)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accumulated Amortization",
+        "2016",
+        "(Dollars in thousands)"
+      ],
+      "value": "$(239,055)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "In-process research and development"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gross Carrying Amount",
+        "2017",
+        "(Dollars in thousands)"
+      ],
+      "value": "34,672"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gross Carrying Amount",
+        "2016",
+        "(Dollars in thousands)"
+      ],
+      "value": "16,532"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accumulated Amortization",
+        "2017",
+        "(Dollars in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accumulated Amortization",
+        "2016",
+        "(Dollars in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Intellectual property"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gross Carrying Amount",
+        "2017",
+        "(Dollars in thousands)"
+      ],
+      "value": "1,287,487"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gross Carrying Amount",
+        "2016",
+        "(Dollars in thousands)"
+      ],
+      "value": "519,962"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accumulated Amortization",
+        "2017",
+        "(Dollars in thousands)"
+      ],
+      "value": "(258,580)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accumulated Amortization",
+        "2016",
+        "(Dollars in thousands)"
+      ],
+      "value": "(203,390)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Distribution rights"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gross Carrying Amount",
+        "2017",
+        "(Dollars in thousands)"
+      ],
+      "value": "23,697"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gross Carrying Amount",
+        "2016",
+        "(Dollars in thousands)"
+      ],
+      "value": "23,021"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accumulated Amortization",
+        "2017",
+        "(Dollars in thousands)"
+      ],
+      "value": "(16,996)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accumulated Amortization",
+        "2016",
+        "(Dollars in thousands)"
+      ],
+      "value": "(15,239)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Trade names"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gross Carrying Amount",
+        "2017",
+        "(Dollars in thousands)"
+      ],
+      "value": "571,510"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gross Carrying Amount",
+        "2016",
+        "(Dollars in thousands)"
+      ],
+      "value": "379,724"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accumulated Amortization",
+        "2017",
+        "(Dollars in thousands)"
+      ],
+      "value": "(22,069)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accumulated Amortization",
+        "2016",
+        "(Dollars in thousands)"
+      ],
+      "value": "(13,974)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Non-compete agreements"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gross Carrying Amount",
+        "2017",
+        "(Dollars in thousands)"
+      ],
+      "value": "23,429"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gross Carrying Amount",
+        "2016",
+        "(Dollars in thousands)"
+      ],
+      "value": "2,692"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accumulated Amortization",
+        "2017",
+        "(Dollars in thousands)"
+      ],
+      "value": "(1,976)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accumulated Amortization",
+        "2016",
+        "(Dollars in thousands)"
+      ],
+      "value": "(1,038)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gross Carrying Amount",
+        "2017",
+        "(Dollars in thousands)"
+      ],
+      "value": "$2,964,632"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gross Carrying Amount",
+        "2016",
+        "(Dollars in thousands)"
+      ],
+      "value": "$1,564,359"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accumulated Amortization",
+        "2017",
+        "(Dollars in thousands)"
+      ],
+      "value": "$(580,884)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accumulated Amortization",
+        "2016",
+        "(Dollars in thousands)"
+      ],
+      "value": "$(472,696)"
+    }
+  ]
+}

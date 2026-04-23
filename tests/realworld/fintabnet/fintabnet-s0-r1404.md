@@ -1,0 +1,189 @@
+<!-- source: FinTabNet s0-r1404 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td colspan="4">
+   Payments due by period
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   Total
+  </td>
+<td>
+   Less than1 year
+  </td>
+<td>
+   1-3years
+  </td>
+<td>
+   3-5years
+  </td>
+<td>
+   More than5 years
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td colspan="4">
+   (Dollars in thousands)
+  </td>
+</tr>
+<tr>
+<td>
+   Total borrowings
+  </td>
+<td>
+   $2,176,500
+  </td>
+<td>
+   $86,625
+  </td>
+<td>
+   $121,875
+  </td>
+<td>
+   $818,000
+  </td>
+<td>
+   $1,150,000
+  </td>
+</tr>
+<tr>
+<td>
+   Interest obligations
+   <sub>
+    (1)
+   </sub>
+</td>
+<td>
+   552,078
+  </td>
+<td>
+   100,805
+  </td>
+<td>
+   193,220
+  </td>
+<td>
+   115,303
+  </td>
+<td>
+   142,750
+  </td>
+</tr>
+<tr>
+<td>
+   Operating lease obligations
+  </td>
+<td>
+   148,160
+  </td>
+<td>
+   25,294
+  </td>
+<td>
+   44,635
+  </td>
+<td>
+   36,863
+  </td>
+<td>
+   41,368
+  </td>
+</tr>
+<tr>
+<td>
+   Purchase and other obligations
+   <sub>
+    (2)
+   </sub>
+</td>
+<td>
+   214,365
+  </td>
+<td>
+   211,515
+  </td>
+<td>
+   2,850
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+</tr>
+<tr>
+<td>
+   Tax on deemed repatriation of foreign earnings
+   <sub>
+    (3)
+   </sub>
+</td>
+<td>
+   141,150
+  </td>
+<td>
+   12,274
+  </td>
+<td>
+   24,548
+  </td>
+<td>
+   35,287
+  </td>
+<td>
+   69,041
+  </td>
+</tr>
+<tr>
+<td>
+   Pension and other postretirement benefits
+  </td>
+<td>
+   51,571
+  </td>
+<td>
+   5,597
+  </td>
+<td>
+   11,073
+  </td>
+<td>
+   11,080
+  </td>
+<td>
+   23,821
+  </td>
+</tr>
+<tr>
+<td>
+   Total contractual obligations
+  </td>
+<td>
+   $3,283,824
+  </td>
+<td>
+   $442,110
+  </td>
+<td>
+   $398,201
+  </td>
+<td>
+   $1,016,533
+  </td>
+<td>
+   $1,426,980
+  </td>
+</tr>
+</table>

@@ -1,0 +1,533 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$",
+    "$(112,818)",
+    "$(54,348)",
+    "$158,780",
+    "$202,128",
+    "$314,946",
+    "$360,908",
+    "$419,378",
+    "$473,726",
+    "$58,470",
+    "%",
+    "(1,240,448)",
+    "(1,357,954)",
+    "(11,699)",
+    "(19,584)",
+    "(2,126,206)",
+    "(2,543,620)",
+    "(20,274)",
+    "(3,246,897)",
+    "(3,484,160)",
+    "(309,503)",
+    "(690)",
+    "(7,885)",
+    "(8,575)",
+    "-11%",
+    "-24%",
+    "-85%",
+    "-91%",
+    "1,138,670",
+    "1,143%",
+    "1,303,172",
+    "1,373,468",
+    "1,628,695",
+    "1,816,703",
+    "127%",
+    "136%",
+    "16%",
+    "19%",
+    "198%",
+    "2,006,449",
+    "2,838%",
+    "21%",
+    "234,798",
+    "255,227",
+    "3,174,657",
+    "43%",
+    "490,025",
+    "54%",
+    "64%",
+    "703,277",
+    "Beginning cash and cash equivalents",
+    "Cash provided from (used in):",
+    "December 31, 2014",
+    "December 31, 2015",
+    "Effect of foreign currency translation on cash and cash equivalents",
+    "Ending cash and cash equivalents",
+    "Financing activities",
+    "Investing activities",
+    "One Year Change",
+    "Operating activities",
+    "Two Year Change",
+    "Year Ended",
+    "Year Ended December 31, 2016",
+    "n/a"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Beginning cash and cash equivalents"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended",
+        "December 31, 2014"
+      ],
+      "value": "$158,780"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended",
+        "December 31, 2015"
+      ],
+      "value": "$473,726"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "$"
+      ],
+      "value": "$314,946"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "%"
+      ],
+      "value": "198%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2016"
+      ],
+      "value": "$360,908"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "$"
+      ],
+      "value": "$(112,818)"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "%"
+      ],
+      "value": "-24%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Two Year Change",
+        "$"
+      ],
+      "value": "$202,128"
+    },
+    {
+      "row": [],
+      "col": [
+        "Two Year Change",
+        "%"
+      ],
+      "value": "127%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Cash provided from (used in):"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Operating activities"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended",
+        "December 31, 2014"
+      ],
+      "value": "1,138,670"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended",
+        "December 31, 2015"
+      ],
+      "value": "1,373,468"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "$"
+      ],
+      "value": "234,798"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "%"
+      ],
+      "value": "21%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2016"
+      ],
+      "value": "1,628,695"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "$"
+      ],
+      "value": "255,227"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "%"
+      ],
+      "value": "19%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Two Year Change",
+        "$"
+      ],
+      "value": "490,025"
+    },
+    {
+      "row": [],
+      "col": [
+        "Two Year Change",
+        "%"
+      ],
+      "value": "43%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Investing activities"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended",
+        "December 31, 2014"
+      ],
+      "value": "(2,126,206)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended",
+        "December 31, 2015"
+      ],
+      "value": "(3,484,160)"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "$"
+      ],
+      "value": "(1,357,954)"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "%"
+      ],
+      "value": "64%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2016"
+      ],
+      "value": "(309,503)"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "$"
+      ],
+      "value": "3,174,657"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "%"
+      ],
+      "value": "-91%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Two Year Change",
+        "$"
+      ],
+      "value": "1,816,703"
+    },
+    {
+      "row": [],
+      "col": [
+        "Two Year Change",
+        "%"
+      ],
+      "value": "-85%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Financing activities"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended",
+        "December 31, 2014"
+      ],
+      "value": "1,303,172"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended",
+        "December 31, 2015"
+      ],
+      "value": "2,006,449"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "$"
+      ],
+      "value": "703,277"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "%"
+      ],
+      "value": "54%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2016"
+      ],
+      "value": "(1,240,448)"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "$"
+      ],
+      "value": "(3,246,897)"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "%"
+      ],
+      "value": "n/a"
+    },
+    {
+      "row": [],
+      "col": [
+        "Two Year Change",
+        "$"
+      ],
+      "value": "(2,543,620)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Two Year Change",
+        "%"
+      ],
+      "value": "n/a"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Effect of foreign currency translation on cash and cash equivalents"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended",
+        "December 31, 2014"
+      ],
+      "value": "(690)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended",
+        "December 31, 2015"
+      ],
+      "value": "(8,575)"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "$"
+      ],
+      "value": "(7,885)"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "%"
+      ],
+      "value": "1,143%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2016"
+      ],
+      "value": "(20,274)"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "$"
+      ],
+      "value": "(11,699)"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "%"
+      ],
+      "value": "136%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Two Year Change",
+        "$"
+      ],
+      "value": "(19,584)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Two Year Change",
+        "%"
+      ],
+      "value": "2,838%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Ending cash and cash equivalents"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended",
+        "December 31, 2014"
+      ],
+      "value": "$473,726"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended",
+        "December 31, 2015"
+      ],
+      "value": "$360,908"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "$"
+      ],
+      "value": "$(112,818)"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "%"
+      ],
+      "value": "-24%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2016"
+      ],
+      "value": "$419,378"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "$"
+      ],
+      "value": "$58,470"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "%"
+      ],
+      "value": "16%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Two Year Change",
+        "$"
+      ],
+      "value": "$(54,348)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Two Year Change",
+        "%"
+      ],
+      "value": "-11%"
+    }
+  ]
+}

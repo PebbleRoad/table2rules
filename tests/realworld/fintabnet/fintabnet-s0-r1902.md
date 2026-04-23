@@ -1,0 +1,295 @@
+<!-- source: FinTabNet s0-r1902 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="4">
+   Years Ended December 31,
+  </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="2">
+   2015
+  </td>
+<td colspan="2">
+   2014
+  </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   (dollars in millions)
+  </td>
+<td>
+   Net Sales
+  </td>
+<td>
+   Percentageof Total Net Sales
+  </td>
+<td>
+   Net Sales
+  </td>
+<td>
+   Percentageof Total Net Sales
+  </td>
+<td>
+   DollarChange
+  </td>
+<td>
+   PercentChange
+   <sup>
+    (1)
+   </sup>
+</td>
+</tr>
+<tr>
+<td>
+   Corporate:
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Medium/Large
+  </td>
+<td>
+   $5,758.2
+  </td>
+<td>
+   44.3%
+  </td>
+<td>
+   $5,485.4
+  </td>
+<td>
+   45.4%
+  </td>
+<td>
+   $272.8
+  </td>
+<td>
+   5.0%
+  </td>
+</tr>
+<tr>
+<td>
+   Small Business
+  </td>
+<td>
+   1,058.2
+  </td>
+<td>
+   8.2
+  </td>
+<td>
+   990.1
+  </td>
+<td>
+   8.2
+  </td>
+<td>
+   68.1
+  </td>
+<td>
+   6.9
+  </td>
+</tr>
+<tr>
+<td>
+   Total Corporate
+  </td>
+<td>
+   6,816.4
+  </td>
+<td>
+   52.5
+  </td>
+<td>
+   6,475.5
+  </td>
+<td>
+   53.6
+  </td>
+<td>
+   340.9
+  </td>
+<td>
+   5.3
+  </td>
+</tr>
+<tr>
+<td>
+   Public:
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Government
+  </td>
+<td>
+   1,675.9
+  </td>
+<td>
+   12.9
+  </td>
+<td>
+   1,449.4
+  </td>
+<td>
+   12.0
+  </td>
+<td>
+   226.5
+  </td>
+<td>
+   15.6
+  </td>
+</tr>
+<tr>
+<td>
+   Education
+  </td>
+<td>
+   1,807.0
+  </td>
+<td>
+   13.9
+  </td>
+<td>
+   1,824.0
+  </td>
+<td>
+   15.1
+  </td>
+<td>
+   (17.0)
+  </td>
+<td>
+   (0.9)
+  </td>
+</tr>
+<tr>
+<td>
+   Healthcare
+  </td>
+<td>
+   1,642.6
+  </td>
+<td>
+   12.6
+  </td>
+<td>
+   1,606.0
+  </td>
+<td>
+   13.3
+  </td>
+<td>
+   36.6
+  </td>
+<td>
+   2.3
+  </td>
+</tr>
+<tr>
+<td>
+   Total Public
+  </td>
+<td>
+   5,125.5
+  </td>
+<td>
+   39.4
+  </td>
+<td>
+   4,879.4
+  </td>
+<td>
+   40.4
+  </td>
+<td>
+   246.1
+  </td>
+<td>
+   5.0
+  </td>
+</tr>
+<tr>
+<td>
+   Other
+  </td>
+<td>
+   1,046.8
+  </td>
+<td>
+   8.1
+  </td>
+<td>
+   719.6
+  </td>
+<td>
+   6.0
+  </td>
+<td>
+   327.2
+  </td>
+<td>
+   45.5
+  </td>
+</tr>
+<tr>
+<td>
+   Total Net sales
+  </td>
+<td>
+   $12,988.7
+  </td>
+<td>
+   100.0%
+  </td>
+<td>
+   $12,074.5
+  </td>
+<td>
+   100.0%
+  </td>
+<td>
+   $914.2
+  </td>
+<td>
+   7.6%
+  </td>
+</tr>
+</table>

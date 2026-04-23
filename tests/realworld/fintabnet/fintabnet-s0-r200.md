@@ -1,0 +1,194 @@
+<!-- source: FinTabNet s0-r200 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="2">
+   NYSE  Common Stock
+  </td>
+<td colspan="2">
+   OSE  Common Stock
+   <sup>
+    (1)
+   </sup>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   High
+  </td>
+<td>
+   Low
+  </td>
+<td>
+   High
+  </td>
+<td>
+   Low
+  </td>
+</tr>
+<tr>
+<td>
+   2011
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Fourth Quarter
+  </td>
+<td>
+   $30.99
+  </td>
+<td>
+   $18.70
+  </td>
+<td>
+   168.00
+  </td>
+<td>
+   111.60
+  </td>
+</tr>
+<tr>
+<td>
+   Third Quarter
+  </td>
+<td>
+   39.43
+  </td>
+<td>
+   21.50
+  </td>
+<td>
+   214.30
+  </td>
+<td>
+   121.10
+  </td>
+</tr>
+<tr>
+<td>
+   Second Quarter
+  </td>
+<td>
+   42.30
+  </td>
+<td>
+   32.68
+  </td>
+<td>
+   232.60
+  </td>
+<td>
+   180.00
+  </td>
+</tr>
+<tr>
+<td>
+   First Quarter
+  </td>
+<td>
+   49.99
+  </td>
+<td>
+   40.26
+  </td>
+<td>
+   293.10
+  </td>
+<td>
+   226.30
+  </td>
+</tr>
+<tr>
+<td>
+   2010
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Fourth Quarter
+  </td>
+<td>
+   $47.83
+  </td>
+<td>
+   $30.87
+  </td>
+<td>
+   284.70
+  </td>
+<td>
+   180.50
+  </td>
+</tr>
+<tr>
+<td>
+   Third Quarter
+  </td>
+<td>
+   32.73
+  </td>
+<td>
+   21.97
+  </td>
+<td>
+   197.00
+  </td>
+<td>
+   142.00
+  </td>
+</tr>
+<tr>
+<td>
+   Second Quarter
+  </td>
+<td>
+   38.12
+  </td>
+<td>
+   22.55
+  </td>
+<td>
+   225.50
+  </td>
+<td>
+   146.50
+  </td>
+</tr>
+<tr>
+<td>
+   First Quarter
+  </td>
+<td>
+   33.93
+  </td>
+<td>
+   24.14
+  </td>
+<td>
+   205.10
+  </td>
+<td>
+   142.00
+  </td>
+</tr>
+</table>

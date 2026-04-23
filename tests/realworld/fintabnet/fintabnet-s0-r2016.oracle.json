@@ -1,0 +1,885 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$103.65",
+    "$106.20",
+    "$118.14",
+    "$141.68",
+    "$141.83",
+    "$144.94",
+    "$147.48",
+    "$149.49",
+    "$149.56",
+    "$149.92",
+    "$166.97",
+    "$167.21",
+    "$187.02",
+    "$192.23",
+    "$194.64",
+    "$195.40",
+    "$196.98",
+    "$216.07",
+    "$219.25",
+    "$239.94",
+    "$242.10",
+    "$243.57",
+    "$252.40",
+    "$293.82",
+    "$317.13",
+    "$350.99",
+    "(0.5)%",
+    "(0.6)%",
+    "(2.2)%",
+    "(2.5)%",
+    "0.2%",
+    "0.3%",
+    "0.5%",
+    "0.6%",
+    "0.7%",
+    "0.9%",
+    "1.0%",
+    "1.1%",
+    "1.4%",
+    "1.7%",
+    "1.8%",
+    "2.1%",
+    "2.2%",
+    "2.3%",
+    "2.4%",
+    "2.5%",
+    "2.7%",
+    "2.8%",
+    "2016",
+    "3.0%",
+    "3.6%",
+    "3.8%",
+    "4.0%",
+    "71.9%",
+    "73.1%",
+    "75.0%",
+    "75.4%",
+    "75.8%",
+    "76.1%",
+    "76.2%",
+    "76.3%",
+    "76.5%",
+    "76.8%",
+    "77.4%",
+    "79.0%",
+    "81.7%",
+    "Average Daily Rate",
+    "Change vs. 2015",
+    "Composite North American Limited-Service (4)",
+    "Composite North American Luxury (1)",
+    "Composite North American Upper Upscale (2)",
+    "Courtyard",
+    "JW Marriott",
+    "Marriott Hotels",
+    "North American - All (5)",
+    "North American Full-Service (3)",
+    "Occupancy",
+    "Residence Inn",
+    "RevPAR",
+    "Sheraton",
+    "The Ritz-Carlton",
+    "W Hotels",
+    "Westin",
+    "pts."
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "JW Marriott"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR",
+        "2016"
+      ],
+      "value": "$187.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR",
+        "Change vs. 2015"
+      ],
+      "value": "4.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "2016"
+      ],
+      "value": "76.8%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "Change vs. 2015"
+      ],
+      "value": "2.2%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "Change vs. 2015"
+      ],
+      "value": "pts."
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate",
+        "2016"
+      ],
+      "value": "$243.57"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate",
+        "Change vs. 2015"
+      ],
+      "value": "1.1%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "The Ritz-Carlton"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR",
+        "2016"
+      ],
+      "value": "$252.40"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR",
+        "Change vs. 2015"
+      ],
+      "value": "3.6%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "2016"
+      ],
+      "value": "71.9%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "Change vs. 2015"
+      ],
+      "value": "1.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "Change vs. 2015"
+      ],
+      "value": "pts."
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate",
+        "2016"
+      ],
+      "value": "$350.99"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate",
+        "Change vs. 2015"
+      ],
+      "value": "2.2%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "W Hotels"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR",
+        "2016"
+      ],
+      "value": "$239.94"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR",
+        "Change vs. 2015"
+      ],
+      "value": "(2.2)%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "2016"
+      ],
+      "value": "81.7%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "Change vs. 2015"
+      ],
+      "value": "0.2%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "Change vs. 2015"
+      ],
+      "value": "pts."
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate",
+        "2016"
+      ],
+      "value": "$293.82"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate",
+        "Change vs. 2015"
+      ],
+      "value": "(2.5)%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Composite North American Luxury (1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR",
+        "2016"
+      ],
+      "value": "$242.10"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR",
+        "Change vs. 2015"
+      ],
+      "value": "2.8%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "2016"
+      ],
+      "value": "76.3%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "Change vs. 2015"
+      ],
+      "value": "1.4%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "Change vs. 2015"
+      ],
+      "value": "pts."
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate",
+        "2016"
+      ],
+      "value": "$317.13"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate",
+        "Change vs. 2015"
+      ],
+      "value": "0.9%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Marriott Hotels"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR",
+        "2016"
+      ],
+      "value": "$144.94"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR",
+        "Change vs. 2015"
+      ],
+      "value": "2.4%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "2016"
+      ],
+      "value": "75.4%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "Change vs. 2015"
+      ],
+      "value": "0.7%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "Change vs. 2015"
+      ],
+      "value": "pts."
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate",
+        "2016"
+      ],
+      "value": "$192.23"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate",
+        "Change vs. 2015"
+      ],
+      "value": "1.4%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Sheraton"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR",
+        "2016"
+      ],
+      "value": "$149.49"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR",
+        "Change vs. 2015"
+      ],
+      "value": "2.1%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "2016"
+      ],
+      "value": "76.5%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "Change vs. 2015"
+      ],
+      "value": "(0.5)%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "Change vs. 2015"
+      ],
+      "value": "pts."
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate",
+        "2016"
+      ],
+      "value": "$195.40"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate",
+        "Change vs. 2015"
+      ],
+      "value": "2.7%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Westin"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR",
+        "2016"
+      ],
+      "value": "$167.21"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR",
+        "Change vs. 2015"
+      ],
+      "value": "0.9%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "2016"
+      ],
+      "value": "77.4%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "Change vs. 2015"
+      ],
+      "value": "(0.6)%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "Change vs. 2015"
+      ],
+      "value": "pts."
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate",
+        "2016"
+      ],
+      "value": "$216.07"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate",
+        "Change vs. 2015"
+      ],
+      "value": "1.7%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Composite North American Upper Upscale (2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR",
+        "2016"
+      ],
+      "value": "$149.92"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR",
+        "Change vs. 2015"
+      ],
+      "value": "2.3%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "2016"
+      ],
+      "value": "76.1%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "Change vs. 2015"
+      ],
+      "value": "0.3%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "Change vs. 2015"
+      ],
+      "value": "pts."
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate",
+        "2016"
+      ],
+      "value": "$196.98"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate",
+        "Change vs. 2015"
+      ],
+      "value": "1.8%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "North American Full-Service (3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR",
+        "2016"
+      ],
+      "value": "$166.97"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR",
+        "Change vs. 2015"
+      ],
+      "value": "2.4%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "2016"
+      ],
+      "value": "76.2%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "Change vs. 2015"
+      ],
+      "value": "0.5%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "Change vs. 2015"
+      ],
+      "value": "pts."
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate",
+        "2016"
+      ],
+      "value": "$219.25"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate",
+        "Change vs. 2015"
+      ],
+      "value": "1.7%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Courtyard"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR",
+        "2016"
+      ],
+      "value": "$103.65"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR",
+        "Change vs. 2015"
+      ],
+      "value": "2.2%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "2016"
+      ],
+      "value": "73.1%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "Change vs. 2015"
+      ],
+      "value": "0.3%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "Change vs. 2015"
+      ],
+      "value": "pts."
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate",
+        "2016"
+      ],
+      "value": "$141.83"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate",
+        "Change vs. 2015"
+      ],
+      "value": "1.7%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Residence Inn"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR",
+        "2016"
+      ],
+      "value": "$118.14"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR",
+        "Change vs. 2015"
+      ],
+      "value": "3.8%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "2016"
+      ],
+      "value": "79.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "Change vs. 2015"
+      ],
+      "value": "0.6%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "Change vs. 2015"
+      ],
+      "value": "pts."
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate",
+        "2016"
+      ],
+      "value": "$149.56"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate",
+        "Change vs. 2015"
+      ],
+      "value": "3.0%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Composite North American Limited-Service (4)"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR",
+        "2016"
+      ],
+      "value": "$106.20"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR",
+        "Change vs. 2015"
+      ],
+      "value": "2.8%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "2016"
+      ],
+      "value": "75.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "Change vs. 2015"
+      ],
+      "value": "0.5%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "Change vs. 2015"
+      ],
+      "value": "pts."
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate",
+        "2016"
+      ],
+      "value": "$141.68"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate",
+        "Change vs. 2015"
+      ],
+      "value": "2.1%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "North American - All (5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR",
+        "2016"
+      ],
+      "value": "$147.48"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR",
+        "Change vs. 2015"
+      ],
+      "value": "2.5%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "2016"
+      ],
+      "value": "75.8%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "Change vs. 2015"
+      ],
+      "value": "0.5%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "Change vs. 2015"
+      ],
+      "value": "pts."
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate",
+        "2016"
+      ],
+      "value": "$194.64"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate",
+        "Change vs. 2015"
+      ],
+      "value": "1.8%"
+    }
+  ]
+}

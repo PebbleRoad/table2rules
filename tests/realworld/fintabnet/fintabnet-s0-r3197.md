@@ -1,0 +1,175 @@
+<!-- source: FinTabNet s0-r3197 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="2">
+   Individual Grants
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   Number of Securities Underlying Options
+  </td>
+<td>
+   Percent of Total Options Granted to
+  </td>
+<td>
+   Exercise Prices ($/Share) Prices
+  </td>
+<td>
+   Expiration
+  </td>
+<td colspan="2">
+   Potential Realizable Value At Assumed Annual Rates Of Stock Price Appreciation For Option Term($)(3)
+  </td>
+</tr>
+<tr>
+<td>
+   Name
+  </td>
+<td>
+   Granted(1)
+  </td>
+<td>
+   Employees(2)
+  </td>
+<td>
+   ($/Share)
+  </td>
+<td>
+   Date
+  </td>
+<td>
+   5%
+  </td>
+<td>
+   10%
+  </td>
+</tr>
+<tr>
+<td>
+   Aart J. de Geus
+  </td>
+<td>
+   140,000
+  </td>
+<td>
+   3.10%
+  </td>
+<td>
+   $18.55
+  </td>
+<td>
+   12/17/11
+  </td>
+<td>
+   $1,057,240
+  </td>
+<td>
+   $2,463,818
+  </td>
+</tr>
+<tr>
+<td>
+   Chi-Foon Chan
+  </td>
+<td>
+   100,000
+  </td>
+<td>
+   2.21%
+  </td>
+<td>
+   $18.55
+  </td>
+<td>
+   12/17/11
+  </td>
+<td>
+   $755,171
+  </td>
+<td>
+   $1,759,870
+  </td>
+</tr>
+<tr>
+<td>
+   Vicki L. Andrews
+  </td>
+<td>
+   60,000
+  </td>
+<td>
+   1.33%
+  </td>
+<td>
+   $18.55
+  </td>
+<td>
+   12/17/11
+  </td>
+<td>
+   $453,103
+  </td>
+<td>
+   $1,055,922
+  </td>
+</tr>
+<tr>
+<td>
+   Antun Domic
+  </td>
+<td>
+   75,000
+  </td>
+<td>
+   1.66%
+  </td>
+<td>
+   $18.55
+  </td>
+<td>
+   12/17/11
+  </td>
+<td>
+   $566,378
+  </td>
+<td>
+   $1,319,903
+  </td>
+</tr>
+<tr>
+<td>
+   Raul Camposano
+  </td>
+<td>
+   55,000
+  </td>
+<td>
+   1.22%
+  </td>
+<td>
+   $18.55
+  </td>
+<td>
+   12/17/11
+  </td>
+<td>
+   $415,344
+  </td>
+<td>
+   $967,929
+  </td>
+</tr>
+</table>

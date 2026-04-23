@@ -1,0 +1,563 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$(1,475)",
+    "$(16,001)",
+    "$(175,762)",
+    "$(199,482)",
+    "$(2,732)",
+    "$(645)",
+    "$1,210,637",
+    "$1,240,568",
+    "$1,258,455",
+    "$1,263,258",
+    "$1,459",
+    "$1,474",
+    "$162,878",
+    "$195,552",
+    "(1,490)",
+    "(1,808)",
+    "(15,356)",
+    "(15,560)",
+    "(17,114)",
+    "(2,108)",
+    "(32,470)",
+    "(4,521)",
+    "(5,140)",
+    "(51)",
+    "(527)",
+    "(6,226)",
+    "(693)",
+    "(88,386)",
+    "1,490",
+    "12,141",
+    "145,897",
+    "147,378",
+    "2,747",
+    "3,429",
+    "3,659",
+    "36",
+    "48,615",
+    "51",
+    "6,106",
+    "6,176",
+    "64,666",
+    "Accumulated Other",
+    "Accumulated other comprehensive loss",
+    "Acquisition of treasury stock",
+    "Amortization of deferred stock compensation, net of forfeitures",
+    "Amount",
+    "Balance at October 31, 2004",
+    "Balance at October 31, 2005",
+    "Capital in Excess",
+    "Common Stock",
+    "Common stock issued",
+    "Compensation",
+    "Components of comprehensive loss",
+    "Comprehensive",
+    "Correction of an error in accounting for certain hedging transactions, net of tax of $1,150",
+    "Deferred",
+    "Deferred loss on cash flow hedges, net of tax of $1,185",
+    "Deferred stock compensation",
+    "Earnings",
+    "Foreign currency translation adjustment",
+    "Income (Loss)",
+    "Net loss",
+    "Reclassification adjustment on deferred (gains) losses of cash flow hedges, net of tax of $3,501",
+    "Retained",
+    "Shares",
+    "Stock",
+    "Stock options assumed in connection with acquisition of Nassda",
+    "Tax benefits associated with exercise of stock options",
+    "Total",
+    "Total comprehensive loss",
+    "Treasury",
+    "Unrealized loss on investments, net of tax of $542",
+    "Value",
+    "of Par"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Balance at October 31, 2004"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common Stock",
+        "Shares"
+      ],
+      "value": "147,378"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common Stock",
+        "Amount"
+      ],
+      "value": "$1,474"
+    },
+    {
+      "row": [],
+      "col": [
+        "Capital in Excess",
+        "of Par",
+        "Value"
+      ],
+      "value": "$1,240,568"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retained",
+        "Earnings"
+      ],
+      "value": "$195,552"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treasury",
+        "Stock"
+      ],
+      "value": "$(175,762)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Deferred",
+        "Stock",
+        "Compensation"
+      ],
+      "value": "$(2,732)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accumulated Other",
+        "Comprehensive",
+        "Income (Loss)"
+      ],
+      "value": "$(645)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "$1,258,455"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Components of comprehensive loss"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Net loss"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retained",
+        "Earnings"
+      ],
+      "value": "(17,114)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accumulated Other",
+        "Comprehensive",
+        "Income (Loss)"
+      ],
+      "value": "(17,114)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "(17,114)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Unrealized loss on investments, net of tax of $542"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accumulated Other",
+        "Comprehensive",
+        "Income (Loss)"
+      ],
+      "value": "(693)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Deferred loss on cash flow hedges, net of tax of $1,185"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accumulated Other",
+        "Comprehensive",
+        "Income (Loss)"
+      ],
+      "value": "(2,108)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Reclassification adjustment on deferred (gains) losses of cash flow hedges, net of tax of $3,501"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accumulated Other",
+        "Comprehensive",
+        "Income (Loss)"
+      ],
+      "value": "(6,226)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Correction of an error in accounting for certain hedging transactions, net of tax of $1,150"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accumulated Other",
+        "Comprehensive",
+        "Income (Loss)"
+      ],
+      "value": "(1,808)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Foreign currency translation adjustment"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accumulated Other",
+        "Comprehensive",
+        "Income (Loss)"
+      ],
+      "value": "(4,521)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Accumulated other comprehensive loss"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accumulated Other",
+        "Comprehensive",
+        "Income (Loss)"
+      ],
+      "value": "(15,356)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "(15,356)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total comprehensive loss"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accumulated Other",
+        "Comprehensive",
+        "Income (Loss)"
+      ],
+      "value": "(32,470)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "(32,470)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Deferred stock compensation"
+    },
+    {
+      "row": [],
+      "col": [
+        "Capital in Excess",
+        "of Par",
+        "Value"
+      ],
+      "value": "1,490"
+    },
+    {
+      "row": [],
+      "col": [
+        "Deferred",
+        "Stock",
+        "Compensation"
+      ],
+      "value": "(1,490)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Stock options assumed in connection with acquisition of Nassda"
+    },
+    {
+      "row": [],
+      "col": [
+        "Capital in Excess",
+        "of Par",
+        "Value"
+      ],
+      "value": "12,141"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "12,141"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Amortization of deferred stock compensation, net of forfeitures"
+    },
+    {
+      "row": [],
+      "col": [
+        "Capital in Excess",
+        "of Par",
+        "Value"
+      ],
+      "value": "3,429"
+    },
+    {
+      "row": [],
+      "col": [
+        "Deferred",
+        "Stock",
+        "Compensation"
+      ],
+      "value": "2,747"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "6,176"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Acquisition of treasury stock"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common Stock",
+        "Shares"
+      ],
+      "value": "(5,140)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common Stock",
+        "Amount"
+      ],
+      "value": "(51)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Capital in Excess",
+        "of Par",
+        "Value"
+      ],
+      "value": "51"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treasury",
+        "Stock"
+      ],
+      "value": "(88,386)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "(88,386)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Common stock issued"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common Stock",
+        "Shares"
+      ],
+      "value": "3,659"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common Stock",
+        "Amount"
+      ],
+      "value": "36"
+    },
+    {
+      "row": [],
+      "col": [
+        "Capital in Excess",
+        "of Par",
+        "Value"
+      ],
+      "value": "(527)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retained",
+        "Earnings"
+      ],
+      "value": "(15,560)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treasury",
+        "Stock"
+      ],
+      "value": "64,666"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "48,615"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Tax benefits associated with exercise of stock options"
+    },
+    {
+      "row": [],
+      "col": [
+        "Capital in Excess",
+        "of Par",
+        "Value"
+      ],
+      "value": "6,106"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "6,106"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Balance at October 31, 2005"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common Stock",
+        "Shares"
+      ],
+      "value": "145,897"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common Stock",
+        "Amount"
+      ],
+      "value": "$1,459"
+    },
+    {
+      "row": [],
+      "col": [
+        "Capital in Excess",
+        "of Par",
+        "Value"
+      ],
+      "value": "$1,263,258"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retained",
+        "Earnings"
+      ],
+      "value": "$162,878"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treasury",
+        "Stock"
+      ],
+      "value": "$(199,482)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Deferred",
+        "Stock",
+        "Compensation"
+      ],
+      "value": "$(1,475)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accumulated Other",
+        "Comprehensive",
+        "Income (Loss)"
+      ],
+      "value": "$(16,001)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "$1,210,637"
+    }
+  ]
+}

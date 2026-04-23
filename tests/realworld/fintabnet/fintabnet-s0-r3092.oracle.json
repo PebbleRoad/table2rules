@@ -1,0 +1,472 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$ Change",
+    "$(2.9)",
+    "$0.9",
+    "$12.2",
+    "$15.1",
+    "$2.8",
+    "$23.3",
+    "$3.5",
+    "$3.7",
+    "$35.5",
+    "$7.2",
+    "% Change",
+    "(1.0)",
+    "(19)%",
+    "(2.8)",
+    "(3.5)",
+    "(3.8)",
+    "(5.1)",
+    "(6.1)",
+    "(66)%",
+    "(7.3)",
+    "(97)%",
+    "(dollars in millions)",
+    "0.2",
+    "0.7",
+    "1,600%",
+    "19%",
+    "191%",
+    "2.6",
+    "2015",
+    "2015 to 2016",
+    "2016",
+    "2016 to 2017",
+    "2017",
+    "25.2",
+    "29.6",
+    "3.2",
+    "3.4",
+    "3.7",
+    "32%",
+    "36%",
+    "4.4",
+    "5.1",
+    "51%",
+    "573%",
+    "6.3",
+    "7.7",
+    "92%",
+    "95%",
+    "Foreign currency exchange gain (loss)",
+    "Gain (loss) on assets related to executive deferred compensation plan",
+    "Interest expense",
+    "Interest income",
+    "Other, net",
+    "Total",
+    "Year Ended October 31,"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Interest income"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2017",
+        "(dollars in millions)"
+      ],
+      "value": "$7.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2016",
+        "(dollars in millions)"
+      ],
+      "value": "$3.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2015",
+        "(dollars in millions)"
+      ],
+      "value": "$2.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2016 to 2017",
+        "(dollars in millions)"
+      ],
+      "value": "$3.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2016 to 2017",
+        "(dollars in millions)"
+      ],
+      "value": "95%"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2015 to 2016",
+        "(dollars in millions)"
+      ],
+      "value": "$0.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2015 to 2016",
+        "(dollars in millions)"
+      ],
+      "value": "32%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Interest expense"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2017",
+        "(dollars in millions)"
+      ],
+      "value": "(7.3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2016",
+        "(dollars in millions)"
+      ],
+      "value": "(3.8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2015",
+        "(dollars in millions)"
+      ],
+      "value": "(2.8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2016 to 2017",
+        "(dollars in millions)"
+      ],
+      "value": "(3.5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2016 to 2017",
+        "(dollars in millions)"
+      ],
+      "value": "92%"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2015 to 2016",
+        "(dollars in millions)"
+      ],
+      "value": "(1.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2015 to 2016",
+        "(dollars in millions)"
+      ],
+      "value": "36%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Gain (loss) on assets related to executive deferred compensation plan"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2017",
+        "(dollars in millions)"
+      ],
+      "value": "29.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2016",
+        "(dollars in millions)"
+      ],
+      "value": "4.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2015",
+        "(dollars in millions)"
+      ],
+      "value": "3.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2016 to 2017",
+        "(dollars in millions)"
+      ],
+      "value": "25.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2016 to 2017",
+        "(dollars in millions)"
+      ],
+      "value": "573%"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2015 to 2016",
+        "(dollars in millions)"
+      ],
+      "value": "0.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2015 to 2016",
+        "(dollars in millions)"
+      ],
+      "value": "19%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Foreign currency exchange gain (loss)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2017",
+        "(dollars in millions)"
+      ],
+      "value": "3.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2016",
+        "(dollars in millions)"
+      ],
+      "value": "0.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2015",
+        "(dollars in millions)"
+      ],
+      "value": "6.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2016 to 2017",
+        "(dollars in millions)"
+      ],
+      "value": "3.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2016 to 2017",
+        "(dollars in millions)"
+      ],
+      "value": "1,600%"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2015 to 2016",
+        "(dollars in millions)"
+      ],
+      "value": "(6.1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2015 to 2016",
+        "(dollars in millions)"
+      ],
+      "value": "(97)%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Other, net"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2017",
+        "(dollars in millions)"
+      ],
+      "value": "2.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2016",
+        "(dollars in millions)"
+      ],
+      "value": "7.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2015",
+        "(dollars in millions)"
+      ],
+      "value": "5.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2016 to 2017",
+        "(dollars in millions)"
+      ],
+      "value": "(5.1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2016 to 2017",
+        "(dollars in millions)"
+      ],
+      "value": "(66)%"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2015 to 2016",
+        "(dollars in millions)"
+      ],
+      "value": "2.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2015 to 2016",
+        "(dollars in millions)"
+      ],
+      "value": "51%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2017",
+        "(dollars in millions)"
+      ],
+      "value": "$35.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2016",
+        "(dollars in millions)"
+      ],
+      "value": "$12.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2015",
+        "(dollars in millions)"
+      ],
+      "value": "$15.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2016 to 2017",
+        "(dollars in millions)"
+      ],
+      "value": "$23.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2016 to 2017",
+        "(dollars in millions)"
+      ],
+      "value": "191%"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2015 to 2016",
+        "(dollars in millions)"
+      ],
+      "value": "$(2.9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2015 to 2016",
+        "(dollars in millions)"
+      ],
+      "value": "(19)%"
+    }
+  ]
+}

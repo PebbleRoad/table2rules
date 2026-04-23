@@ -1,0 +1,603 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$(209)",
+    "$(218)",
+    "$(226)",
+    "$1",
+    "$2",
+    "$3",
+    "$384",
+    "$584",
+    "$691",
+    "$\u2014",
+    "(1)",
+    "(16)",
+    "(19)",
+    "(209)",
+    "(218)",
+    "(226)",
+    "(243)",
+    "(244)",
+    "(251)",
+    "(720)",
+    "(786)",
+    "(8)",
+    "(851)",
+    "(9)",
+    "1",
+    "112",
+    "2",
+    "2013",
+    "2014",
+    "2015",
+    "28",
+    "29",
+    "328",
+    "38",
+    "4",
+    "43",
+    "50",
+    "546",
+    "56",
+    "61",
+    "654",
+    "662",
+    "737",
+    "746",
+    "90",
+    "Amortization of:",
+    "Curtailments",
+    "Defined benefit plans:",
+    "Defined contribution plans",
+    "Expected return on assets",
+    "Interest cost",
+    "N/A",
+    "Net periodic benefit cost (income) for defined benefit plans",
+    "Pension Benefits",
+    "Prior service cost (benefit) (1)",
+    "Retiree Medical and OtherPostretirement Benefits",
+    "Service cost",
+    "Settlements",
+    "Unrecognized net loss (gain)",
+    "\u2014"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Defined benefit plans:"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Service cost"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2015"
+      ],
+      "value": "$2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2014"
+      ],
+      "value": "$3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2013"
+      ],
+      "value": "$3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and OtherPostretirement Benefits",
+        "2015"
+      ],
+      "value": "$3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and OtherPostretirement Benefits",
+        "2014"
+      ],
+      "value": "$1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and OtherPostretirement Benefits",
+        "2013"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Interest cost"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2015"
+      ],
+      "value": "737"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2014"
+      ],
+      "value": "746"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2013"
+      ],
+      "value": "654"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and OtherPostretirement Benefits",
+        "2015"
+      ],
+      "value": "50"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and OtherPostretirement Benefits",
+        "2014"
+      ],
+      "value": "61"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and OtherPostretirement Benefits",
+        "2013"
+      ],
+      "value": "50"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Expected return on assets"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2015"
+      ],
+      "value": "(851)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2014"
+      ],
+      "value": "(786)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2013"
+      ],
+      "value": "(720)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and OtherPostretirement Benefits",
+        "2015"
+      ],
+      "value": "(19)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and OtherPostretirement Benefits",
+        "2014"
+      ],
+      "value": "(19)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and OtherPostretirement Benefits",
+        "2013"
+      ],
+      "value": "(16)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Curtailments"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2015"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2014"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2013"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and OtherPostretirement Benefits",
+        "2015"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and OtherPostretirement Benefits",
+        "2014"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and OtherPostretirement Benefits",
+        "2013"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Settlements"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2015"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2014"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2013"
+      ],
+      "value": "(1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and OtherPostretirement Benefits",
+        "2015"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and OtherPostretirement Benefits",
+        "2014"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and OtherPostretirement Benefits",
+        "2013"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Amortization of:"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Prior service cost (benefit) (1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2015"
+      ],
+      "value": "28"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2014"
+      ],
+      "value": "28"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2013"
+      ],
+      "value": "28"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and OtherPostretirement Benefits",
+        "2015"
+      ],
+      "value": "(243)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and OtherPostretirement Benefits",
+        "2014"
+      ],
+      "value": "(244)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and OtherPostretirement Benefits",
+        "2013"
+      ],
+      "value": "(251)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Unrecognized net loss (gain)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2015"
+      ],
+      "value": "112"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2014"
+      ],
+      "value": "43"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2013"
+      ],
+      "value": "90"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and OtherPostretirement Benefits",
+        "2015"
+      ],
+      "value": "(9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and OtherPostretirement Benefits",
+        "2014"
+      ],
+      "value": "(8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and OtherPostretirement Benefits",
+        "2013"
+      ],
+      "value": "(9)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Net periodic benefit cost (income) for defined benefit plans"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2015"
+      ],
+      "value": "29"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2014"
+      ],
+      "value": "38"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2013"
+      ],
+      "value": "56"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and OtherPostretirement Benefits",
+        "2015"
+      ],
+      "value": "(218)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and OtherPostretirement Benefits",
+        "2014"
+      ],
+      "value": "(209)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and OtherPostretirement Benefits",
+        "2013"
+      ],
+      "value": "(226)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Defined contribution plans"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2015"
+      ],
+      "value": "662"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2014"
+      ],
+      "value": "546"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2013"
+      ],
+      "value": "328"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and OtherPostretirement Benefits",
+        "2015"
+      ],
+      "value": "N/A"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and OtherPostretirement Benefits",
+        "2014"
+      ],
+      "value": "N/A"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and OtherPostretirement Benefits",
+        "2013"
+      ],
+      "value": "N/A"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2015"
+      ],
+      "value": "$691"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2014"
+      ],
+      "value": "$584"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2013"
+      ],
+      "value": "$384"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and OtherPostretirement Benefits",
+        "2015"
+      ],
+      "value": "$(218)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and OtherPostretirement Benefits",
+        "2014"
+      ],
+      "value": "$(209)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and OtherPostretirement Benefits",
+        "2013"
+      ],
+      "value": "$(226)"
+    }
+  ]
+}

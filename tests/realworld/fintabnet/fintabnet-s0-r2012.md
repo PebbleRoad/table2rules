@@ -1,0 +1,252 @@
+<!-- source: FinTabNet s0-r2012 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="2">
+   RevPAR
+  </td>
+<td colspan="3">
+   Occupancy
+  </td>
+<td colspan="2">
+   Average Daily Rate
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   2017
+  </td>
+<td>
+   Change vs. 2016
+  </td>
+<td>
+   2017
+  </td>
+<td colspan="2">
+   Change vs. 2016
+  </td>
+<td>
+   2017
+  </td>
+<td>
+   Change vs. 2016
+  </td>
+</tr>
+<tr>
+<td>
+   Greater China
+  </td>
+<td>
+   $90.37
+  </td>
+<td>
+   8.5%
+  </td>
+<td>
+   70.9%
+  </td>
+<td>
+   6.0%
+  </td>
+<td>
+   pts.
+  </td>
+<td>
+   $127.47
+  </td>
+<td>
+   (0.7)%
+  </td>
+</tr>
+<tr>
+<td>
+   Rest of Asia Pacific
+  </td>
+<td>
+   $118.36
+  </td>
+<td>
+   5.1%
+  </td>
+<td>
+   74.8%
+  </td>
+<td>
+   2.5%
+  </td>
+<td>
+   pts.
+  </td>
+<td>
+   $158.21
+  </td>
+<td>
+   1.6%
+  </td>
+</tr>
+<tr>
+<td>
+   Asia Pacific
+  </td>
+<td>
+   $102.27
+  </td>
+<td>
+   6.8%
+  </td>
+<td>
+   72.6%
+  </td>
+<td>
+   4.5%
+  </td>
+<td>
+   pts.
+  </td>
+<td>
+   $140.94
+  </td>
+<td>
+   0.2%
+  </td>
+</tr>
+<tr>
+<td>
+   Caribbean &amp; Latin America
+  </td>
+<td>
+   $104.10
+  </td>
+<td>
+   4.0%
+  </td>
+<td>
+   64.3%
+  </td>
+<td>
+   2.1%
+  </td>
+<td>
+   pts.
+  </td>
+<td>
+   $161.91
+  </td>
+<td>
+   0.6%
+  </td>
+</tr>
+<tr>
+<td>
+   Europe
+  </td>
+<td>
+   $123.44
+  </td>
+<td>
+   7.2%
+  </td>
+<td>
+   71.9%
+  </td>
+<td>
+   2.7%
+  </td>
+<td>
+   pts.
+  </td>
+<td>
+   $171.72
+  </td>
+<td>
+   3.2%
+  </td>
+</tr>
+<tr>
+<td>
+   Middle East &amp; Africa
+  </td>
+<td>
+   $101.98
+  </td>
+<td>
+   2.0%
+  </td>
+<td>
+   65.4%
+  </td>
+<td>
+   1.5%
+  </td>
+<td>
+   pts.
+  </td>
+<td>
+   $155.90
+  </td>
+<td>
+   (0.4)%
+  </td>
+</tr>
+<tr>
+<td>
+   International - All
+   <sup>
+    (1)
+   </sup>
+</td>
+<td>
+   $108.78
+  </td>
+<td>
+   5.9%
+  </td>
+<td>
+   70.3%
+  </td>
+<td>
+   3.2%
+  </td>
+<td>
+   pts.
+  </td>
+<td>
+   $154.71
+  </td>
+<td>
+   1.1%
+  </td>
+</tr>
+<tr>
+<td>
+   Worldwide
+   <sup>
+    (2)
+   </sup>
+</td>
+<td>
+   $115.02
+  </td>
+<td>
+   3.1%
+  </td>
+<td>
+   73.2%
+  </td>
+<td>
+   1.4%
+  </td>
+<td>
+   pts.
+  </td>
+<td>
+   $157.12
+  </td>
+<td>
+   1.2%
+  </td>
+</tr>
+</table>

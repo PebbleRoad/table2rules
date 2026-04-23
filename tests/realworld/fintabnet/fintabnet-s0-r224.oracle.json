@@ -1,0 +1,794 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$15,792",
+    "$16,034",
+    "$16,218",
+    "$17,175",
+    "$17,326",
+    "$4,002",
+    "$4,088",
+    "$4,163",
+    "$4,313",
+    "$4,335",
+    "$4,355",
+    "$4,472",
+    "$4,606",
+    "(1)",
+    "(101)",
+    "(188)",
+    "(203)",
+    "(238)",
+    "(361)",
+    "(369)",
+    "(388)",
+    "(4)",
+    "(5)",
+    "(7)",
+    "(75)",
+    "(79)",
+    "(970)",
+    "(977)",
+    "(Millions of dollars)",
+    "1",
+    "1,439",
+    "10",
+    "101",
+    "11",
+    "115",
+    "117",
+    "119",
+    "130",
+    "131",
+    "14",
+    "2",
+    "2.4%",
+    "2.5%",
+    "2016",
+    "2017",
+    "3.5%",
+    "3.6%",
+    "312",
+    "4",
+    "4.0%",
+    "4.6%",
+    "512",
+    "517",
+    "525",
+    "57",
+    "59",
+    "6",
+    "60",
+    "7",
+    "71",
+    "767",
+    "78",
+    "82",
+    "92",
+    "95",
+    "Accumulated benefit obligation, end of year",
+    "Actuarial losses (gains)",
+    "Benefit obligation, beginning of year",
+    "Benefit obligation, end of year",
+    "Benefits paid - gross",
+    "Change in benefit obligation:",
+    "Curtailments, settlements and termination benefits",
+    "Discount rate",
+    "Foreign currency exchange rates",
+    "Interest cost",
+    "Less: federal subsidy on benefits paid",
+    "Non-U.S.Pension Benefits",
+    "Other PostretirementBenefits",
+    "Participant contributions",
+    "Plan amendments",
+    "Rate of compensation increase",
+    "Service cost",
+    "U.S. Pension Benefits",
+    "Weighted-average assumptions used todetermine benefit obligation:",
+    "\u2014"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "(Millions of dollars)"
+    },
+    {
+      "row": [],
+      "col": [
+        "U.S. Pension Benefits"
+      ],
+      "value": "2017"
+    },
+    {
+      "row": [],
+      "col": [
+        "U.S. Pension Benefits"
+      ],
+      "value": "2016"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-U.S.Pension Benefits"
+      ],
+      "value": "2017"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-U.S.Pension Benefits"
+      ],
+      "value": "2016"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other PostretirementBenefits"
+      ],
+      "value": "2017"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other PostretirementBenefits"
+      ],
+      "value": "2016"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Change in benefit obligation:"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Benefit obligation, beginning of year"
+    },
+    {
+      "row": [],
+      "col": [
+        "U.S. Pension Benefits"
+      ],
+      "value": "$16,218"
+    },
+    {
+      "row": [],
+      "col": [
+        "U.S. Pension Benefits"
+      ],
+      "value": "$15,792"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-U.S.Pension Benefits"
+      ],
+      "value": "$4,472"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-U.S.Pension Benefits"
+      ],
+      "value": "$4,355"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other PostretirementBenefits"
+      ],
+      "value": "$4,088"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other PostretirementBenefits"
+      ],
+      "value": "$4,313"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Service cost"
+    },
+    {
+      "row": [],
+      "col": [
+        "U.S. Pension Benefits"
+      ],
+      "value": "115"
+    },
+    {
+      "row": [],
+      "col": [
+        "U.S. Pension Benefits"
+      ],
+      "value": "119"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-U.S.Pension Benefits"
+      ],
+      "value": "95"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-U.S.Pension Benefits"
+      ],
+      "value": "92"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other PostretirementBenefits"
+      ],
+      "value": "78"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other PostretirementBenefits"
+      ],
+      "value": "82"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Interest cost"
+    },
+    {
+      "row": [],
+      "col": [
+        "U.S. Pension Benefits"
+      ],
+      "value": "525"
+    },
+    {
+      "row": [],
+      "col": [
+        "U.S. Pension Benefits"
+      ],
+      "value": "517"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-U.S.Pension Benefits"
+      ],
+      "value": "101"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-U.S.Pension Benefits"
+      ],
+      "value": "117"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other PostretirementBenefits"
+      ],
+      "value": "130"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other PostretirementBenefits"
+      ],
+      "value": "131"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Plan amendments"
+    },
+    {
+      "row": [],
+      "col": [
+        "U.S. Pension Benefits"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "U.S. Pension Benefits"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-U.S.Pension Benefits"
+      ],
+      "value": "(1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-U.S.Pension Benefits"
+      ],
+      "value": "(5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other PostretirementBenefits"
+      ],
+      "value": "(79)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other PostretirementBenefits"
+      ],
+      "value": "(188)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Actuarial losses (gains)"
+    },
+    {
+      "row": [],
+      "col": [
+        "U.S. Pension Benefits"
+      ],
+      "value": "1,439"
+    },
+    {
+      "row": [],
+      "col": [
+        "U.S. Pension Benefits"
+      ],
+      "value": "767"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-U.S.Pension Benefits"
+      ],
+      "value": "(75)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-U.S.Pension Benefits"
+      ],
+      "value": "512"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other PostretirementBenefits"
+      ],
+      "value": "71"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other PostretirementBenefits"
+      ],
+      "value": "60"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Foreign currency exchange rates"
+    },
+    {
+      "row": [],
+      "col": [
+        "U.S. Pension Benefits"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "U.S. Pension Benefits"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-U.S.Pension Benefits"
+      ],
+      "value": "312"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-U.S.Pension Benefits"
+      ],
+      "value": "(369)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other PostretirementBenefits"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other PostretirementBenefits"
+      ],
+      "value": "14"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Participant contributions"
+    },
+    {
+      "row": [],
+      "col": [
+        "U.S. Pension Benefits"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "U.S. Pension Benefits"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-U.S.Pension Benefits"
+      ],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-U.S.Pension Benefits"
+      ],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other PostretirementBenefits"
+      ],
+      "value": "59"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other PostretirementBenefits"
+      ],
+      "value": "57"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Benefits paid - gross"
+    },
+    {
+      "row": [],
+      "col": [
+        "U.S. Pension Benefits"
+      ],
+      "value": "(977)"
+    },
+    {
+      "row": [],
+      "col": [
+        "U.S. Pension Benefits"
+      ],
+      "value": "(970)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-U.S.Pension Benefits"
+      ],
+      "value": "(203)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-U.S.Pension Benefits"
+      ],
+      "value": "(238)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other PostretirementBenefits"
+      ],
+      "value": "(361)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other PostretirementBenefits"
+      ],
+      "value": "(388)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Less: federal subsidy on benefits paid"
+    },
+    {
+      "row": [],
+      "col": [
+        "U.S. Pension Benefits"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "U.S. Pension Benefits"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-U.S.Pension Benefits"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-U.S.Pension Benefits"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other PostretirementBenefits"
+      ],
+      "value": "10"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other PostretirementBenefits"
+      ],
+      "value": "11"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Curtailments, settlements and termination benefits"
+    },
+    {
+      "row": [],
+      "col": [
+        "U.S. Pension Benefits"
+      ],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [
+        "U.S. Pension Benefits"
+      ],
+      "value": "(7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-U.S.Pension Benefits"
+      ],
+      "value": "(101)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-U.S.Pension Benefits"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other PostretirementBenefits"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other PostretirementBenefits"
+      ],
+      "value": "(4)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Benefit obligation, end of year"
+    },
+    {
+      "row": [],
+      "col": [
+        "U.S. Pension Benefits"
+      ],
+      "value": "$17,326"
+    },
+    {
+      "row": [],
+      "col": [
+        "U.S. Pension Benefits"
+      ],
+      "value": "$16,218"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-U.S.Pension Benefits"
+      ],
+      "value": "$4,606"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-U.S.Pension Benefits"
+      ],
+      "value": "$4,472"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other PostretirementBenefits"
+      ],
+      "value": "$4,002"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other PostretirementBenefits"
+      ],
+      "value": "$4,088"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Accumulated benefit obligation, end of year"
+    },
+    {
+      "row": [],
+      "col": [
+        "U.S. Pension Benefits"
+      ],
+      "value": "$17,175"
+    },
+    {
+      "row": [],
+      "col": [
+        "U.S. Pension Benefits"
+      ],
+      "value": "$16,034"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-U.S.Pension Benefits"
+      ],
+      "value": "$4,335"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-U.S.Pension Benefits"
+      ],
+      "value": "$4,163"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Weighted-average assumptions used todetermine benefit obligation:"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Discount rate"
+    },
+    {
+      "row": [],
+      "col": [
+        "U.S. Pension Benefits"
+      ],
+      "value": "3.5%"
+    },
+    {
+      "row": [],
+      "col": [
+        "U.S. Pension Benefits"
+      ],
+      "value": "4.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-U.S.Pension Benefits"
+      ],
+      "value": "2.4%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-U.S.Pension Benefits"
+      ],
+      "value": "2.5%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other PostretirementBenefits"
+      ],
+      "value": "3.6%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other PostretirementBenefits"
+      ],
+      "value": "4.0%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Rate of compensation increase"
+    },
+    {
+      "row": [],
+      "col": [
+        "U.S. Pension Benefits"
+      ],
+      "value": "4.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "U.S. Pension Benefits"
+      ],
+      "value": "4.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-U.S.Pension Benefits"
+      ],
+      "value": "4.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-U.S.Pension Benefits"
+      ],
+      "value": "4.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other PostretirementBenefits"
+      ],
+      "value": "4.6%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other PostretirementBenefits"
+      ],
+      "value": "4.0%"
+    }
+  ]
+}

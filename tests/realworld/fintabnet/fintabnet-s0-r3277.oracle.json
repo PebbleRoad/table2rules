@@ -1,0 +1,381 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$68.75",
+    "$73.02",
+    "$85.17",
+    "$92.31",
+    "(1,077,816)",
+    "(1,100,095)",
+    "(116,941)",
+    "(2,594,468)",
+    "(47,281)",
+    "(70,801)",
+    "101.57",
+    "111.19",
+    "2011",
+    "2012",
+    "2013",
+    "3,105,361",
+    "3,261,562",
+    "351,624",
+    "4,812,657",
+    "4,858,972",
+    "44,401",
+    "63.51",
+    "72.01",
+    "72.21",
+    "79.93",
+    "82.65",
+    "85.07",
+    "87.07",
+    "87.92",
+    "889,448",
+    "89.46",
+    "90.82",
+    "946,774",
+    "968,522",
+    "99,337",
+    "Annual",
+    "As of December 31",
+    "As of January 1",
+    "Forfeited",
+    "Granted",
+    "Nonvested balance \u2014",
+    "Number of Awards",
+    "Other",
+    "Vested",
+    "Weighted Average Grant Date Fair Value"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Nonvested balance \u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "As of January 1"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Number of Awards"
+      ],
+      "value": "3,261,562"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Weighted Average Grant Date Fair Value"
+      ],
+      "value": "$85.17"
+    },
+    {
+      "row": [],
+      "col": [
+        "2012",
+        "Number of Awards"
+      ],
+      "value": "4,858,972"
+    },
+    {
+      "row": [],
+      "col": [
+        "2012",
+        "Weighted Average Grant Date Fair Value"
+      ],
+      "value": "$73.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "2011",
+        "Number of Awards"
+      ],
+      "value": "4,812,657"
+    },
+    {
+      "row": [],
+      "col": [
+        "2011",
+        "Weighted Average Grant Date Fair Value"
+      ],
+      "value": "$68.75"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Granted"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Annual"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Number of Awards"
+      ],
+      "value": "946,774"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Weighted Average Grant Date Fair Value"
+      ],
+      "value": "101.57"
+    },
+    {
+      "row": [],
+      "col": [
+        "2012",
+        "Number of Awards"
+      ],
+      "value": "968,522"
+    },
+    {
+      "row": [],
+      "col": [
+        "2012",
+        "Weighted Average Grant Date Fair Value"
+      ],
+      "value": "87.92"
+    },
+    {
+      "row": [],
+      "col": [
+        "2011",
+        "Number of Awards"
+      ],
+      "value": "889,448"
+    },
+    {
+      "row": [],
+      "col": [
+        "2011",
+        "Weighted Average Grant Date Fair Value"
+      ],
+      "value": "89.46"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Other"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Number of Awards"
+      ],
+      "value": "44,401"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Weighted Average Grant Date Fair Value"
+      ],
+      "value": "111.19"
+    },
+    {
+      "row": [],
+      "col": [
+        "2012",
+        "Number of Awards"
+      ],
+      "value": "99,337"
+    },
+    {
+      "row": [],
+      "col": [
+        "2012",
+        "Weighted Average Grant Date Fair Value"
+      ],
+      "value": "85.07"
+    },
+    {
+      "row": [],
+      "col": [
+        "2011",
+        "Number of Awards"
+      ],
+      "value": "351,624"
+    },
+    {
+      "row": [],
+      "col": [
+        "2011",
+        "Weighted Average Grant Date Fair Value"
+      ],
+      "value": "87.07"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Vested"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Number of Awards"
+      ],
+      "value": "(1,100,095)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Weighted Average Grant Date Fair Value"
+      ],
+      "value": "79.93"
+    },
+    {
+      "row": [],
+      "col": [
+        "2012",
+        "Number of Awards"
+      ],
+      "value": "(2,594,468)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2012",
+        "Weighted Average Grant Date Fair Value"
+      ],
+      "value": "63.51"
+    },
+    {
+      "row": [],
+      "col": [
+        "2011",
+        "Number of Awards"
+      ],
+      "value": "(1,077,816)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2011",
+        "Weighted Average Grant Date Fair Value"
+      ],
+      "value": "72.21"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Forfeited"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Number of Awards"
+      ],
+      "value": "(47,281)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Weighted Average Grant Date Fair Value"
+      ],
+      "value": "90.82"
+    },
+    {
+      "row": [],
+      "col": [
+        "2012",
+        "Number of Awards"
+      ],
+      "value": "(70,801)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2012",
+        "Weighted Average Grant Date Fair Value"
+      ],
+      "value": "82.65"
+    },
+    {
+      "row": [],
+      "col": [
+        "2011",
+        "Number of Awards"
+      ],
+      "value": "(116,941)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2011",
+        "Weighted Average Grant Date Fair Value"
+      ],
+      "value": "72.01"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "As of December 31"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Number of Awards"
+      ],
+      "value": "3,105,361"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Weighted Average Grant Date Fair Value"
+      ],
+      "value": "$92.31"
+    },
+    {
+      "row": [],
+      "col": [
+        "2012",
+        "Number of Awards"
+      ],
+      "value": "3,261,562"
+    },
+    {
+      "row": [],
+      "col": [
+        "2012",
+        "Weighted Average Grant Date Fair Value"
+      ],
+      "value": "$85.17"
+    },
+    {
+      "row": [],
+      "col": [
+        "2011",
+        "Number of Awards"
+      ],
+      "value": "4,858,972"
+    },
+    {
+      "row": [],
+      "col": [
+        "2011",
+        "Weighted Average Grant Date Fair Value"
+      ],
+      "value": "$73.02"
+    }
+  ]
+}

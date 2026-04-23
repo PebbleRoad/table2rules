@@ -3,6 +3,117 @@
 All notable changes to `table2rules` are documented here. Dates are in
 `YYYY-MM-DD`. This project follows semantic versioning.
 
+## [Unreleased]
+
+Header detection reframed as a set of universal structural rules, and
+the Layer-2 / Layer-3 real-world corpus doubled to add IBM 10-K
+financial tables (FinTabNet). Combined, the rules unlock rules-format
+output for **199 of 200 FinTabNet fixtures** (up from 0 with the
+previous "all row-0 cells non-empty" heuristic) while leaving
+PubTabNet's 170/200 pass count unchanged.
+
+### Structural rule — header-block detection (replaces Fix 4's
+row-0-only heuristic)
+
+A new deterministic rule in `simple_repair.detect_header_block` picks
+the header block via two geometric definitions:
+
+- **Clean data row.** A row where every logical position is an origin
+  cell at this row (no rowspan copy from above) with
+  `rowspan == colspan == 1` and non-empty text. The first such row
+  (with col 0 non-empty) marks the header/body boundary.
+- **Row-stub column.** A column empty in every non-divider header row
+  AND non-empty in every non-divider body row. The conjunction is
+  load-bearing: neither condition alone distinguishes a stub from a
+  missing group-header cell (where a top-level group doesn't span a
+  later column) or an always-populated data column.
+
+A leading row is header-compatible iff every empty cell in it lies in
+a row-stub column. This subsumes three previously disjoint cases:
+
+- **Dense first-row headers** (receipts, simple relational): row 0 is
+  a clean data row with no empties, so the stub-col condition is
+  trivially satisfied. Old Fix 4's "row 0 all non-empty + body has
+  empties" special-case collapses into the same rule.
+- **Multi-row headers with colspan group labels** (FinTabNet
+  hierarchical, benefits-style matrix): header rows carry colspan > 1
+  cells and are not themselves clean data rows, so the detection
+  naturally extends through them to the first plain body row.
+- **Financial 10-K tables with empty row-stub labels** (FinTabNet
+  single-row headers): col 0 is structurally identified as a stub
+  column; the empty col-0 cell in row 0 is now permitted as the
+  row-stub-column signature rather than disqualifying.
+
+Body cells in stub columns are promoted to `<th scope="row">`
+directly, generalizing Fix 8's rowspan-based dimensional-column
+promotion to also cover single-row-header tables.
+
+### Additional invariants
+
+- **Row-group divider propagation (new).** A body row whose single
+  non-empty logical cell sits in a stub column is structurally a
+  row-group header for the rows that follow. Fix 4 now promotes that
+  cell to `<th scope="rowgroup">`, and `maze_pathfinder` walks up the
+  stub column to include it in `row_path` — *but only within its
+  extent*. Explicit `rowspan > 1` uses the rowspan range; divider
+  rows with `rowspan == 1` run until the next rowgroup origin in the
+  same column. This captures the FinTabNet year-label pattern
+  ("2014" row between Q1–Q4 blocks) without mis-nesting explicit
+  rowgroup peers like "North" / "South" with `rowspan="2"` each.
+
+- **Stub-column rule uses strict-majority count (refined).** The
+  earlier rule required a stub column to be non-empty in *every*
+  non-divider body row. That rejected tables with an unlabeled
+  trailing summary row (a FinTabNet pattern where the totals line
+  leaves the row-label cell blank: `— | $1,573,043 | ...`). Fix 4
+  now accepts a column as a stub when it is non-empty in strictly
+  more body rows than it is empty in — still a deterministic integer
+  comparison, still refuses to promote sparsely-filled data columns.
+
+- **`first_data_idx` anchor relaxed (refined).** The earlier anchor
+  required the first data row to have every cell non-empty. That
+  rejected tables whose body rows are inherently gappy (a column
+  that only fills on certain events — e.g., an aggregate fair-value
+  column that has a value only when shares vest). The anchor now
+  requires col 0 non-empty, ≥ 2 non-empty logical cells, and no span
+  structure — the remaining conditions still separate body rows from
+  header rows, since header rows carry either an empty col 0 or a
+  span marker.
+
+- **Column-header detection ignores `<th scope="row">`.** `grid_parser`
+  Step 1 previously accepted any `<th>`-or-empty row as the primary
+  column-header row, including rows where Fix 5 had promoted a "Total"
+  label to `<th scope="row">`. That misidentification caused
+  mid-table summary rows to be treated as headers, producing
+  fabricated column paths. Now Step 1 requires `<th>` cells without
+  `scope="row"`.
+
+- **Fix 8's `active_rowspan` counter tracks pre-promoted `<th>` cells.**
+  When Fix 4 has already promoted the first-column cell via the
+  stub-column path, Fix 8 still needs to track its rowspan so
+  subsequent rows aren't mistaken for first-column content. The
+  counter was previously only updated inside Fix 8's promotion branch,
+  leaving it stuck at 0 when the cell was already `<th>` — which in
+  turn over-promoted data cells at logical col > 0 to row-stub status.
+
+### Corpus
+
+- **FinTabNet oracle corpus (200 fixtures)**: pulled from
+  `apoidea/fintabnet-html` via
+  [scripts/build_fintabnet_fixtures.py](../scripts/build_fintabnet_fixtures.py).
+  With the five structural invariants in place, 199/200 fixtures
+  produce rules-format output that oracle-matches. The single remaining
+  flat-fallback case uses footnote-marker separator columns — an
+  unusual layout pattern where narrow unlabeled columns sit between
+  dollar-amount columns to hold footnote references.
+
+- **Regression golds updated**: two matrix fixtures
+  (`conflicting-spans-scope`, `scope-rowgroup-colgroup`) had captured
+  the pre-existing Fix 8 bug. Updated golds reflect the corrected
+  output where a numeric data cell at logical col > 0 in a row whose
+  col 0 is covered by an above rowspan is no longer misclassified as
+  a row-subheader.
+
 ## [0.3.0] — 2026-04-23
 
 Three structural invariants tighten when the parser emits rules-format

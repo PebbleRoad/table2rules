@@ -1,0 +1,204 @@
+<!-- source: FinTabNet s0-r3092 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="3">
+   Year Ended October 31,
+  </td>
+<td>
+   $ Change
+  </td>
+<td>
+   % Change
+  </td>
+<td>
+   $ Change
+  </td>
+<td>
+   % Change
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   2017
+  </td>
+<td>
+   2016
+  </td>
+<td>
+   2015
+  </td>
+<td colspan="2">
+   2016 to 2017
+  </td>
+<td colspan="2">
+   2015 to 2016
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="7">
+   (dollars in millions)
+  </td>
+</tr>
+<tr>
+<td>
+   Interest income
+  </td>
+<td>
+   $7.2
+  </td>
+<td>
+   $3.7
+  </td>
+<td>
+   $2.8
+  </td>
+<td>
+   $3.5
+  </td>
+<td>
+   95%
+  </td>
+<td>
+   $0.9
+  </td>
+<td>
+   32%
+  </td>
+</tr>
+<tr>
+<td>
+   Interest expense
+  </td>
+<td>
+   (7.3)
+  </td>
+<td>
+   (3.8)
+  </td>
+<td>
+   (2.8)
+  </td>
+<td>
+   (3.5)
+  </td>
+<td>
+   92%
+  </td>
+<td>
+   (1.0)
+  </td>
+<td>
+   36%
+  </td>
+</tr>
+<tr>
+<td>
+   Gain (loss) on assets related to executive deferred compensation plan
+  </td>
+<td>
+   29.6
+  </td>
+<td>
+   4.4
+  </td>
+<td>
+   3.7
+  </td>
+<td>
+   25.2
+  </td>
+<td>
+   573%
+  </td>
+<td>
+   0.7
+  </td>
+<td>
+   19%
+  </td>
+</tr>
+<tr>
+<td>
+   Foreign currency exchange gain (loss)
+  </td>
+<td>
+   3.4
+  </td>
+<td>
+   0.2
+  </td>
+<td>
+   6.3
+  </td>
+<td>
+   3.2
+  </td>
+<td>
+   1,600%
+  </td>
+<td>
+   (6.1)
+  </td>
+<td>
+   (97)%
+  </td>
+</tr>
+<tr>
+<td>
+   Other, net
+  </td>
+<td>
+   2.6
+  </td>
+<td>
+   7.7
+  </td>
+<td>
+   5.1
+  </td>
+<td>
+   (5.1)
+  </td>
+<td>
+   (66)%
+  </td>
+<td>
+   2.6
+  </td>
+<td>
+   51%
+  </td>
+</tr>
+<tr>
+<td>
+   Total
+  </td>
+<td>
+   $35.5
+  </td>
+<td>
+   $12.2
+  </td>
+<td>
+   $15.1
+  </td>
+<td>
+   $23.3
+  </td>
+<td>
+   191%
+  </td>
+<td>
+   $(2.9)
+  </td>
+<td>
+   (19)%
+  </td>
+</tr>
+</table>

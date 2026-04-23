@@ -1,0 +1,213 @@
+<!-- source: FinTabNet s0-r2548 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td>
+   2006
+  </td>
+<td>
+   2005
+  </td>
+<td>
+   2004
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="3">
+   (Dollars in thousands)
+  </td>
+</tr>
+<tr>
+<td>
+   East
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Rental income
+  </td>
+<td>
+   $340,968
+  </td>
+<td>
+   $310,063
+  </td>
+<td>
+   $293,291
+  </td>
+</tr>
+<tr>
+<td>
+   Total revenue
+  </td>
+<td>
+   $348,894
+  </td>
+<td>
+   $317,044
+  </td>
+<td>
+   $300,012
+  </td>
+</tr>
+<tr>
+<td>
+   Property operating income(1)
+  </td>
+<td>
+   $252,425
+  </td>
+<td>
+   $226,086
+  </td>
+<td>
+   $207,940
+  </td>
+</tr>
+<tr>
+<td>
+   Property operating income as a percent of total revenue
+  </td>
+<td>
+   72.4%
+  </td>
+<td>
+   71.3%
+  </td>
+<td>
+   69.3%
+  </td>
+</tr>
+<tr>
+<td>
+   Total assets
+  </td>
+<td>
+   $1,725,790
+  </td>
+<td>
+   $1,368,925
+  </td>
+<td>
+   $1,264,135
+  </td>
+</tr>
+<tr>
+<td>
+   Gross leasable square feet
+  </td>
+<td>
+   16,195
+  </td>
+<td>
+   14,941
+  </td>
+<td>
+   14,482
+  </td>
+</tr>
+<tr>
+<td>
+   West
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Rental income
+  </td>
+<td>
+   $97,233
+  </td>
+<td>
+   $83,485
+  </td>
+<td>
+   $75,008
+  </td>
+</tr>
+<tr>
+<td>
+   Total revenue
+  </td>
+<td>
+   $102,128
+  </td>
+<td>
+   $91,425
+  </td>
+<td>
+   $83,600
+  </td>
+</tr>
+<tr>
+<td>
+   Property operating income(1)
+  </td>
+<td>
+   $65,569
+  </td>
+<td>
+   $58,275
+  </td>
+<td>
+   $48,381
+  </td>
+</tr>
+<tr>
+<td>
+   Property operating income as a percent of total revenue
+  </td>
+<td>
+   64.2%
+  </td>
+<td>
+   63.7%
+  </td>
+<td>
+   57.9%
+  </td>
+</tr>
+<tr>
+<td>
+   Total assets
+  </td>
+<td>
+   $876,400
+  </td>
+<td>
+   $908,621
+  </td>
+<td>
+   $911,136
+  </td>
+</tr>
+<tr>
+<td>
+   Gross leasable square feet
+  </td>
+<td>
+   2,605
+  </td>
+<td>
+   2,610
+  </td>
+<td>
+   2,408
+  </td>
+</tr>
+</table>

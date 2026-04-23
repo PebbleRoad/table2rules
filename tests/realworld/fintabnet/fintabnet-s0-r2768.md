@@ -1,0 +1,209 @@
+<!-- source: FinTabNet s0-r2768 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td>
+   2011
+  </td>
+<td>
+   2010
+  </td>
+<td>
+   2009
+  </td>
+<td>
+   2008
+  </td>
+<td>
+   2007
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="5">
+   (In thousands)
+  </td>
+</tr>
+<tr>
+<td>
+   Net income
+  </td>
+<td>
+   $149,612
+  </td>
+<td>
+   $128,237
+  </td>
+<td>
+   $103,872
+  </td>
+<td>
+   $135,153
+  </td>
+<td>
+   $201,127
+  </td>
+</tr>
+<tr>
+<td>
+   Depreciation and amortization
+  </td>
+<td>
+   126,568
+  </td>
+<td>
+   119,817
+  </td>
+<td>
+   115,093
+  </td>
+<td>
+   111,068
+  </td>
+<td>
+   105,966
+  </td>
+</tr>
+<tr>
+<td>
+   Interest expense
+  </td>
+<td>
+   98,465
+  </td>
+<td>
+   101,882
+  </td>
+<td>
+   108,781
+  </td>
+<td>
+   99,163
+  </td>
+<td>
+   117,394
+  </td>
+</tr>
+<tr>
+<td>
+   Early extinguishment of debt
+  </td>
+<td>
+   (296)
+  </td>
+<td>
+   2,801
+  </td>
+<td>
+   2,639
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+</tr>
+<tr>
+<td>
+   Other interest income
+  </td>
+<td>
+   (218)
+  </td>
+<td>
+   (256)
+  </td>
+<td>
+   (1,894)
+  </td>
+<td>
+   (919)
+  </td>
+<td>
+   (1,337)
+  </td>
+</tr>
+<tr>
+<td>
+   EBITDA
+  </td>
+<td>
+   374,131
+  </td>
+<td>
+   352,481
+  </td>
+<td>
+   328,491
+  </td>
+<td>
+   344,465
+  </td>
+<td>
+   423,150
+  </td>
+</tr>
+<tr>
+<td>
+   Gain on deconsolidation of VIE
+  </td>
+<td>
+   (2,026)
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+</tr>
+<tr>
+<td>
+   Gain on sale of real estate
+  </td>
+<td>
+   (15,075)
+  </td>
+<td>
+   (1,410)
+  </td>
+<td>
+   (1,298)
+  </td>
+<td>
+   (12,572)
+  </td>
+<td>
+   (94,768)
+  </td>
+</tr>
+<tr>
+<td>
+   Adjusted EBITDA
+  </td>
+<td>
+   $357,030
+  </td>
+<td>
+   $351,071
+  </td>
+<td>
+   $327,193
+  </td>
+<td>
+   $331,893
+  </td>
+<td>
+   $328,382
+  </td>
+</tr>
+</table>

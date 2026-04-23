@@ -1,0 +1,158 @@
+<!-- source: FinTabNet s0-r3283 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="4">
+   Qualified and Non-qualified Pension Benefits
+  </td>
+<td colspan="2">
+   Postretirement
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="2">
+   United States
+  </td>
+<td colspan="2">
+   International
+  </td>
+<td colspan="2">
+   Benefits
+  </td>
+</tr>
+<tr>
+<td>
+   (Millions)
+  </td>
+<td>
+   2015
+  </td>
+<td>
+   2014
+  </td>
+<td>
+   2015
+  </td>
+<td>
+   2014
+  </td>
+<td>
+   2015
+  </td>
+<td>
+   2014
+  </td>
+</tr>
+<tr>
+<td>
+   Amounts recognized in accumulated other comprehensive income as of Dec. 31,
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Net transition obligation (asset)
+  </td>
+<td>
+   $—
+  </td>
+<td>
+   $—
+  </td>
+<td>
+   $(2)
+  </td>
+<td>
+   $(3)
+  </td>
+<td>
+   $—
+  </td>
+<td>
+   $—
+  </td>
+</tr>
+<tr>
+<td>
+   Net actuarial loss (gain)
+  </td>
+<td>
+   5,366
+  </td>
+<td>
+   5,462
+  </td>
+<td>
+   1,610
+  </td>
+<td>
+   2,200
+  </td>
+<td>
+   815
+  </td>
+<td>
+   914
+  </td>
+</tr>
+<tr>
+<td>
+   Prior service cost (credit)
+  </td>
+<td>
+   (227)
+  </td>
+<td>
+   (251)
+  </td>
+<td>
+   (68)
+  </td>
+<td>
+   (93)
+  </td>
+<td>
+   (270)
+  </td>
+<td>
+   (102)
+  </td>
+</tr>
+<tr>
+<td>
+   Ending balance
+  </td>
+<td>
+   $5,139
+  </td>
+<td>
+   $5,211
+  </td>
+<td>
+   $1,540
+  </td>
+<td>
+   $2,104
+  </td>
+<td>
+   $545
+  </td>
+<td>
+   $812
+  </td>
+</tr>
+</table>

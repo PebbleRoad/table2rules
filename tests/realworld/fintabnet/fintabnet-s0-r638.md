@@ -1,0 +1,323 @@
+<!-- source: FinTabNet s0-r638 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="2">
+   Pension
+   <sup>
+    (1)
+   </sup>
+</td>
+<td colspan="2">
+   Postretirement
+  </td>
+</tr>
+<tr>
+<td>
+   (in millions)
+  </td>
+<td>
+   2017
+  </td>
+<td>
+   2016
+  </td>
+<td>
+   2017
+  </td>
+<td>
+   2016
+  </td>
+</tr>
+<tr>
+<td>
+   Benefit obligation at January 1,
+  </td>
+<td>
+   $8,387
+  </td>
+<td>
+   $8,086
+  </td>
+<td>
+   $227
+  </td>
+<td>
+   $211
+  </td>
+</tr>
+<tr>
+<td>
+   Service cost
+  </td>
+<td>
+   208
+  </td>
+<td>
+   207
+  </td>
+<td>
+   4
+  </td>
+<td>
+   3
+  </td>
+</tr>
+<tr>
+<td>
+   Interest cost
+  </td>
+<td>
+   108
+  </td>
+<td>
+   146
+  </td>
+<td>
+   8
+  </td>
+<td>
+   9
+  </td>
+</tr>
+<tr>
+<td>
+   Benefits paid
+  </td>
+<td>
+   (226)
+  </td>
+<td>
+   (240)
+  </td>
+<td>
+   (10)
+  </td>
+<td>
+   (10)
+  </td>
+</tr>
+<tr>
+<td>
+   Settlement and curtailment
+  </td>
+<td>
+   —
+  </td>
+<td>
+   (1)
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+</tr>
+<tr>
+<td>
+   Actuarial losses (gains)
+  </td>
+<td>
+   (93)
+  </td>
+<td>
+   427
+  </td>
+<td>
+   12
+  </td>
+<td>
+   15
+  </td>
+</tr>
+<tr>
+<td>
+   Currency
+  </td>
+<td>
+   621
+  </td>
+<td>
+   (329)
+  </td>
+<td>
+   7
+  </td>
+<td>
+   (2)
+  </td>
+</tr>
+<tr>
+<td>
+   Other
+  </td>
+<td>
+   23
+  </td>
+<td>
+   91
+  </td>
+<td>
+   —
+  </td>
+<td>
+   1
+  </td>
+</tr>
+<tr>
+<td>
+   Benefit obligation at December 31,
+  </td>
+<td>
+   9,028
+  </td>
+<td>
+   8,387
+  </td>
+<td>
+   248
+  </td>
+<td>
+   227
+  </td>
+</tr>
+<tr>
+<td>
+   Fair value of plan assets at January 1,
+  </td>
+<td>
+   6,457
+  </td>
+<td>
+   6,404
+  </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Actual return on plan assets
+  </td>
+<td>
+   742
+  </td>
+<td>
+   322
+  </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Employer contributions
+  </td>
+<td>
+   66
+  </td>
+<td>
+   191
+  </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Employee contributions
+  </td>
+<td>
+   40
+  </td>
+<td>
+   39
+  </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Benefits paid
+  </td>
+<td>
+   (226)
+  </td>
+<td>
+   (240)
+  </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Settlement and curtailment
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Currency
+  </td>
+<td>
+   519
+  </td>
+<td>
+   (259)
+  </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Fair value of plan assets at December 31,
+  </td>
+<td>
+   7,598
+  </td>
+<td>
+   6,457
+  </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Net pension and postretirement liability recognized at December 31,
+  </td>
+<td>
+   $(1,430)
+  </td>
+<td>
+   $(1,930)
+  </td>
+<td>
+   $(248)
+  </td>
+<td>
+   $(227)
+  </td>
+</tr>
+</table>

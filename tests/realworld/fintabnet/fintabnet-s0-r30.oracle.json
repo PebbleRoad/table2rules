@@ -1,0 +1,360 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$",
+    "$(11,688)",
+    "$(5,882)",
+    "$112,852",
+    "$182,851",
+    "$5,806",
+    "$614,044",
+    "$619,850",
+    "$625,732",
+    "$631,263",
+    "$69,999",
+    "$701,262",
+    "$814,114",
+    "%",
+    "(1,003)",
+    "(1,044)",
+    "(1,360)",
+    "(1,401)",
+    "(2,404)",
+    "-1%",
+    "-2%",
+    "-4%",
+    "1%",
+    "1,242%",
+    "108,447",
+    "11%",
+    "123%",
+    "130%",
+    "140%",
+    "16%",
+    "190,093",
+    "196,668",
+    "2,891%",
+    "29%",
+    "41",
+    "6,575",
+    "81,646",
+    "88,221",
+    "December 31, 2014",
+    "December 31, 2015",
+    "NOI",
+    "NOI attributable to non same store properties (2)",
+    "Non-cash NOI attributable to same store properties",
+    "One Year Change",
+    "SSNOI (1)",
+    "Two Year Change",
+    "Year Ended",
+    "Year Ended December 31, 2016"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "SSNOI (1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended",
+        "December 31, 2014"
+      ],
+      "value": "$625,732"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended",
+        "December 31, 2015"
+      ],
+      "value": "$614,044"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "$"
+      ],
+      "value": "$(11,688)"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "%"
+      ],
+      "value": "-2%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2016"
+      ],
+      "value": "$619,850"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "$"
+      ],
+      "value": "$5,806"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "%"
+      ],
+      "value": "1%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Two Year Change",
+        "$"
+      ],
+      "value": "$(5,882)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Two Year Change",
+        "%"
+      ],
+      "value": "-1%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Non-cash NOI attributable to same store properties"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended",
+        "December 31, 2014"
+      ],
+      "value": "(1,044)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended",
+        "December 31, 2015"
+      ],
+      "value": "(1,003)"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "$"
+      ],
+      "value": "41"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "%"
+      ],
+      "value": "-4%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2016"
+      ],
+      "value": "(2,404)"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "$"
+      ],
+      "value": "(1,401)"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "%"
+      ],
+      "value": "140%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Two Year Change",
+        "$"
+      ],
+      "value": "(1,360)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Two Year Change",
+        "%"
+      ],
+      "value": "130%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "NOI attributable to non same store properties (2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended",
+        "December 31, 2014"
+      ],
+      "value": "6,575"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended",
+        "December 31, 2015"
+      ],
+      "value": "88,221"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "$"
+      ],
+      "value": "81,646"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "%"
+      ],
+      "value": "1,242%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2016"
+      ],
+      "value": "196,668"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "$"
+      ],
+      "value": "108,447"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "%"
+      ],
+      "value": "123%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Two Year Change",
+        "$"
+      ],
+      "value": "190,093"
+    },
+    {
+      "row": [],
+      "col": [
+        "Two Year Change",
+        "%"
+      ],
+      "value": "2,891%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "NOI"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended",
+        "December 31, 2014"
+      ],
+      "value": "$631,263"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended",
+        "December 31, 2015"
+      ],
+      "value": "$701,262"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "$"
+      ],
+      "value": "$69,999"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "%"
+      ],
+      "value": "11%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2016"
+      ],
+      "value": "$814,114"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "$"
+      ],
+      "value": "$112,852"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "%"
+      ],
+      "value": "16%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Two Year Change",
+        "$"
+      ],
+      "value": "$182,851"
+    },
+    {
+      "row": [],
+      "col": [
+        "Two Year Change",
+        "%"
+      ],
+      "value": "29%"
+    }
+  ]
+}

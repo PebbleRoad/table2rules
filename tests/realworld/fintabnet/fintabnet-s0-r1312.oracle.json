@@ -1,0 +1,342 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$(841)",
+    "$1,386",
+    "$1,794",
+    "$1,819",
+    "$1,880",
+    "$2,586",
+    "$2,678",
+    "$4,718",
+    "$424",
+    "$47",
+    "$495",
+    "$663",
+    "(23,122)",
+    "(25,006)",
+    "(25,940)",
+    "(7)",
+    "(Dollars in thousands)",
+    "1,348",
+    "1,967",
+    "16,842",
+    "17,948",
+    "18,000",
+    "2,169",
+    "2,707",
+    "2013",
+    "2014",
+    "2015",
+    "216",
+    "4,371",
+    "5,847",
+    "6,159",
+    "Expected return on plan assets",
+    "Interest cost",
+    "Net amortization and deferral",
+    "Net benefit expense (income)",
+    "Other Benefits",
+    "Pension",
+    "Service cost",
+    "\u2014"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Service cost"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension",
+        "2015",
+        "(Dollars in thousands)"
+      ],
+      "value": "$1,880"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension",
+        "2014",
+        "(Dollars in thousands)"
+      ],
+      "value": "$1,794"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension",
+        "2013",
+        "(Dollars in thousands)"
+      ],
+      "value": "$1,819"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Benefits",
+        "2015",
+        "(Dollars in thousands)"
+      ],
+      "value": "$495"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Benefits",
+        "2014",
+        "(Dollars in thousands)"
+      ],
+      "value": "$424"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Benefits",
+        "2013",
+        "(Dollars in thousands)"
+      ],
+      "value": "$663"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Interest cost"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension",
+        "2015",
+        "(Dollars in thousands)"
+      ],
+      "value": "17,948"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension",
+        "2014",
+        "(Dollars in thousands)"
+      ],
+      "value": "18,000"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension",
+        "2013",
+        "(Dollars in thousands)"
+      ],
+      "value": "16,842"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Benefits",
+        "2015",
+        "(Dollars in thousands)"
+      ],
+      "value": "1,967"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Benefits",
+        "2014",
+        "(Dollars in thousands)"
+      ],
+      "value": "2,169"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Benefits",
+        "2013",
+        "(Dollars in thousands)"
+      ],
+      "value": "2,707"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Expected return on plan assets"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension",
+        "2015",
+        "(Dollars in thousands)"
+      ],
+      "value": "(25,940)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension",
+        "2014",
+        "(Dollars in thousands)"
+      ],
+      "value": "(25,006)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension",
+        "2013",
+        "(Dollars in thousands)"
+      ],
+      "value": "(23,122)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Benefits",
+        "2015",
+        "(Dollars in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Benefits",
+        "2014",
+        "(Dollars in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Benefits",
+        "2013",
+        "(Dollars in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Net amortization and deferral"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension",
+        "2015",
+        "(Dollars in thousands)"
+      ],
+      "value": "6,159"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension",
+        "2014",
+        "(Dollars in thousands)"
+      ],
+      "value": "4,371"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension",
+        "2013",
+        "(Dollars in thousands)"
+      ],
+      "value": "5,847"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Benefits",
+        "2015",
+        "(Dollars in thousands)"
+      ],
+      "value": "216"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Benefits",
+        "2014",
+        "(Dollars in thousands)"
+      ],
+      "value": "(7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Benefits",
+        "2013",
+        "(Dollars in thousands)"
+      ],
+      "value": "1,348"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Net benefit expense (income)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension",
+        "2015",
+        "(Dollars in thousands)"
+      ],
+      "value": "$47"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension",
+        "2014",
+        "(Dollars in thousands)"
+      ],
+      "value": "$(841)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension",
+        "2013",
+        "(Dollars in thousands)"
+      ],
+      "value": "$1,386"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Benefits",
+        "2015",
+        "(Dollars in thousands)"
+      ],
+      "value": "$2,678"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Benefits",
+        "2014",
+        "(Dollars in thousands)"
+      ],
+      "value": "$2,586"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Benefits",
+        "2013",
+        "(Dollars in thousands)"
+      ],
+      "value": "$4,718"
+    }
+  ]
+}

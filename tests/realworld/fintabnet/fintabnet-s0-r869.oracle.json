@@ -1,0 +1,357 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$47.21",
+    "$47.74",
+    "$47.87",
+    "$49.00",
+    "$49.26",
+    "$49.33",
+    "$50.00",
+    "$51.26",
+    "$52.23",
+    "$52.43",
+    "$52.45",
+    "$52.52",
+    "$53.10",
+    "$53.88",
+    "$54.26",
+    "$55.28",
+    "$55.39",
+    "$55.74",
+    "$56.05",
+    "$56.88",
+    "$57.16",
+    "$57.49",
+    "$58.94",
+    "$59.30",
+    "$60.19",
+    "$60.70",
+    "$61.38",
+    "$61.64",
+    "$63.38",
+    "$63.48",
+    "$64.70",
+    "$64.99",
+    "2014",
+    "2015",
+    "Class A",
+    "Class A Special",
+    "First Quarter",
+    "Fourth Quarter",
+    "FourthQuarter (a)",
+    "High",
+    "Low",
+    "Second Quarter",
+    "Third Quarter"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "2015"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "First Quarter"
+    },
+    {
+      "row": [],
+      "col": [
+        "Class A",
+        "High"
+      ],
+      "value": "$60.70"
+    },
+    {
+      "row": [],
+      "col": [
+        "Class A",
+        "Low"
+      ],
+      "value": "$52.45"
+    },
+    {
+      "row": [],
+      "col": [
+        "Class A Special",
+        "High"
+      ],
+      "value": "$60.19"
+    },
+    {
+      "row": [],
+      "col": [
+        "Class A Special",
+        "Low"
+      ],
+      "value": "$52.23"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Second Quarter"
+    },
+    {
+      "row": [],
+      "col": [
+        "Class A",
+        "High"
+      ],
+      "value": "$61.64"
+    },
+    {
+      "row": [],
+      "col": [
+        "Class A",
+        "Low"
+      ],
+      "value": "$56.05"
+    },
+    {
+      "row": [],
+      "col": [
+        "Class A Special",
+        "High"
+      ],
+      "value": "$61.38"
+    },
+    {
+      "row": [],
+      "col": [
+        "Class A Special",
+        "Low"
+      ],
+      "value": "$55.74"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Third Quarter"
+    },
+    {
+      "row": [],
+      "col": [
+        "Class A",
+        "High"
+      ],
+      "value": "$64.99"
+    },
+    {
+      "row": [],
+      "col": [
+        "Class A",
+        "Low"
+      ],
+      "value": "$50.00"
+    },
+    {
+      "row": [],
+      "col": [
+        "Class A Special",
+        "High"
+      ],
+      "value": "$64.70"
+    },
+    {
+      "row": [],
+      "col": [
+        "Class A Special",
+        "Low"
+      ],
+      "value": "$51.26"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "FourthQuarter (a)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Class A",
+        "High"
+      ],
+      "value": "$63.38"
+    },
+    {
+      "row": [],
+      "col": [
+        "Class A",
+        "Low"
+      ],
+      "value": "$55.39"
+    },
+    {
+      "row": [],
+      "col": [
+        "Class A Special",
+        "High"
+      ],
+      "value": "$63.48"
+    },
+    {
+      "row": [],
+      "col": [
+        "Class A Special",
+        "Low"
+      ],
+      "value": "$56.88"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "First Quarter"
+    },
+    {
+      "row": [],
+      "col": [
+        "Class A",
+        "High"
+      ],
+      "value": "$55.28"
+    },
+    {
+      "row": [],
+      "col": [
+        "Class A",
+        "Low"
+      ],
+      "value": "$49.00"
+    },
+    {
+      "row": [],
+      "col": [
+        "Class A Special",
+        "High"
+      ],
+      "value": "$53.10"
+    },
+    {
+      "row": [],
+      "col": [
+        "Class A Special",
+        "Low"
+      ],
+      "value": "$47.87"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Second Quarter"
+    },
+    {
+      "row": [],
+      "col": [
+        "Class A",
+        "High"
+      ],
+      "value": "$54.26"
+    },
+    {
+      "row": [],
+      "col": [
+        "Class A",
+        "Low"
+      ],
+      "value": "$47.74"
+    },
+    {
+      "row": [],
+      "col": [
+        "Class A Special",
+        "High"
+      ],
+      "value": "$53.88"
+    },
+    {
+      "row": [],
+      "col": [
+        "Class A Special",
+        "Low"
+      ],
+      "value": "$47.21"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Third Quarter"
+    },
+    {
+      "row": [],
+      "col": [
+        "Class A",
+        "High"
+      ],
+      "value": "$57.49"
+    },
+    {
+      "row": [],
+      "col": [
+        "Class A",
+        "Low"
+      ],
+      "value": "$52.52"
+    },
+    {
+      "row": [],
+      "col": [
+        "Class A Special",
+        "High"
+      ],
+      "value": "$57.16"
+    },
+    {
+      "row": [],
+      "col": [
+        "Class A Special",
+        "Low"
+      ],
+      "value": "$52.43"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Fourth Quarter"
+    },
+    {
+      "row": [],
+      "col": [
+        "Class A",
+        "High"
+      ],
+      "value": "$59.30"
+    },
+    {
+      "row": [],
+      "col": [
+        "Class A",
+        "Low"
+      ],
+      "value": "$49.33"
+    },
+    {
+      "row": [],
+      "col": [
+        "Class A Special",
+        "High"
+      ],
+      "value": "$58.94"
+    },
+    {
+      "row": [],
+      "col": [
+        "Class A Special",
+        "Low"
+      ],
+      "value": "$49.26"
+    }
+  ]
+}

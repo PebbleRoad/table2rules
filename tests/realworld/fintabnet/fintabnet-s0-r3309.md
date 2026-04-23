@@ -1,0 +1,209 @@
+<!-- source: FinTabNet s0-r3309 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td colspan="2">
+   Property, Plant and Equipment - net
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="3">
+   Employees as of December 31,
+  </td>
+<td colspan="3">
+   Capital Spending
+  </td>
+<td colspan="2">
+   as of December 31,
+  </td>
+</tr>
+<tr>
+<td>
+   (Millions, except Employees)
+  </td>
+<td>
+   2015
+  </td>
+<td>
+   2014
+  </td>
+<td>
+   2013
+  </td>
+<td>
+   2015
+  </td>
+<td>
+   2014
+  </td>
+<td>
+   2013
+  </td>
+<td>
+   2015
+  </td>
+<td>
+   2014
+  </td>
+</tr>
+<tr>
+<td>
+   United States
+  </td>
+<td>
+   35,973
+  </td>
+<td>
+   35,581
+  </td>
+<td>
+   34,719
+  </td>
+<td>
+   $936
+  </td>
+<td>
+   $909
+  </td>
+<td>
+   $941
+  </td>
+<td>
+   $4,838
+  </td>
+<td>
+   $4,619
+  </td>
+</tr>
+<tr>
+<td>
+   Asia Pacific
+  </td>
+<td>
+   17,642
+  </td>
+<td>
+   17,854
+  </td>
+<td>
+   18,417
+  </td>
+<td>
+   172
+  </td>
+<td>
+   184
+  </td>
+<td>
+   284
+  </td>
+<td>
+   1,647
+  </td>
+<td>
+   1,798
+  </td>
+</tr>
+<tr>
+<td>
+   Europe, Middle East and Africa
+  </td>
+<td>
+   20,563
+  </td>
+<td>
+   20,506
+  </td>
+<td>
+   20,504
+  </td>
+<td>
+   249
+  </td>
+<td>
+   288
+  </td>
+<td>
+   290
+  </td>
+<td>
+   1,531
+  </td>
+<td>
+   1,502
+  </td>
+</tr>
+<tr>
+<td>
+   Latin America and Canada
+  </td>
+<td>
+   15,268
+  </td>
+<td>
+   15,859
+  </td>
+<td>
+   15,027
+  </td>
+<td>
+   104
+  </td>
+<td>
+   112
+  </td>
+<td>
+   150
+  </td>
+<td>
+   499
+  </td>
+<td>
+   570
+  </td>
+</tr>
+<tr>
+<td>
+   Total Company
+  </td>
+<td>
+   89,446
+  </td>
+<td>
+   89,800
+  </td>
+<td>
+   88,667
+  </td>
+<td>
+   $1,461
+  </td>
+<td>
+   $1,493
+  </td>
+<td>
+   $1,665
+  </td>
+<td>
+   $8,515
+  </td>
+<td>
+   $8,489
+  </td>
+</tr>
+</table>

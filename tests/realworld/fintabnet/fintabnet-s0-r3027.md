@@ -1,0 +1,303 @@
+<!-- source: FinTabNet s0-r3027 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="3">
+   Individual Grants
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="2" rowspan="2">
+   Number of Securities Underlying Options  Granted
+  </td>
+<td rowspan="2">
+   Percent of Total Options Granted to  Employees(3)
+  </td>
+<td rowspan="2">
+   Exercise Prices  ($/Share)
+  </td>
+<td rowspan="2">
+   Expiration  Date
+  </td>
+<td colspan="2">
+   Potential Realizable Value At Assumed Annual Rates Of Stock Price Appreciation For Option Term($)(4)
+  </td>
+</tr>
+<tr>
+<td>
+   Name
+  </td>
+<td>
+   5%
+  </td>
+<td>
+   10%
+  </td>
+</tr>
+<tr>
+<td>
+   Aart J. de Geus
+  </td>
+<td>
+   200,000
+  </td>
+<td>
+   (1)
+  </td>
+<td>
+   3.74%
+  </td>
+<td>
+   $20.73
+  </td>
+<td>
+   12/06/12
+  </td>
+<td>
+   $1,687,838
+  </td>
+<td>
+   $3,933,381
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   90,000
+  </td>
+<td>
+   (2)
+  </td>
+<td>
+   1.69%
+  </td>
+<td>
+   $20.73
+  </td>
+<td>
+   12/06/12
+  </td>
+<td>
+   $759,527
+  </td>
+<td>
+   $1,770,021
+  </td>
+</tr>
+<tr>
+<td>
+   Chi-Foon Chan
+  </td>
+<td>
+   100,000
+  </td>
+<td>
+   (1)
+  </td>
+<td>
+   1.87%
+  </td>
+<td>
+   $20.73
+  </td>
+<td>
+   12/06/12
+  </td>
+<td>
+   $843,919
+  </td>
+<td>
+   $1,966,691
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   60,000
+  </td>
+<td>
+   (2)
+  </td>
+<td>
+   1.12%
+  </td>
+<td>
+   $20.73
+  </td>
+<td>
+   12/06/12
+  </td>
+<td>
+   $506,352
+  </td>
+<td>
+   $1,180,014
+  </td>
+</tr>
+<tr>
+<td>
+   Joseph W. Logan
+  </td>
+<td>
+   13,000
+  </td>
+<td>
+   (1)
+  </td>
+<td>
+   0.24%
+  </td>
+<td>
+   $21.10
+  </td>
+<td>
+   12/02/12
+  </td>
+<td>
+   $111,668
+  </td>
+<td>
+   $260,233
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   40,000
+  </td>
+<td>
+   (1)
+  </td>
+<td>
+   0.75%
+  </td>
+<td>
+   $19.34
+  </td>
+<td>
+   09/13/13
+  </td>
+<td>
+   $314,933
+  </td>
+<td>
+   $733,928
+  </td>
+</tr>
+<tr>
+<td>
+   Deirdre Hanford
+  </td>
+<td>
+   50,000
+  </td>
+<td>
+   (1)
+  </td>
+<td>
+   0.94%
+  </td>
+<td>
+   $20.73
+  </td>
+<td>
+   12/06/12
+  </td>
+<td>
+   $421,960
+  </td>
+<td>
+   $983,345
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   30,000
+  </td>
+<td>
+   (2)
+  </td>
+<td>
+   0.56%
+  </td>
+<td>
+   $20.73
+  </td>
+<td>
+   12/06/12
+  </td>
+<td>
+   $253,176
+  </td>
+<td>
+   $590,007
+  </td>
+</tr>
+<tr>
+<td>
+   Antun Domic
+  </td>
+<td>
+   65,000
+  </td>
+<td>
+   (1)
+  </td>
+<td>
+   1.22%
+  </td>
+<td>
+   $20.73
+  </td>
+<td>
+   12/06/12
+  </td>
+<td>
+   $548,547
+  </td>
+<td>
+   $1,278,349
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   40,000
+  </td>
+<td>
+   (2)
+  </td>
+<td>
+   0.75%
+  </td>
+<td>
+   $20.73
+  </td>
+<td>
+   12/06/12
+  </td>
+<td>
+   $337,568
+  </td>
+<td>
+   $786,676
+  </td>
+</tr>
+</table>

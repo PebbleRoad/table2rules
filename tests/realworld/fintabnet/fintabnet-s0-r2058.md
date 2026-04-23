@@ -1,0 +1,307 @@
+<!-- source: FinTabNet s0-r2058 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="2">
+   RevPAR
+  </td>
+<td colspan="3">
+   Occupancy
+  </td>
+<td colspan="2">
+   Average Daily Rate
+  </td>
+</tr>
+<tr>
+<td>
+   Legacy-Marriott
+  </td>
+<td>
+   2015
+  </td>
+<td>
+   Change vs. 2014
+  </td>
+<td>
+   2015
+  </td>
+<td>
+   Change vs. 2014
+  </td>
+<td>
+</td>
+<td>
+   2015
+  </td>
+<td>
+   Change vs. 2014
+  </td>
+</tr>
+<tr>
+<td>
+   Marriott Hotels
+  </td>
+<td>
+   $147.33
+  </td>
+<td>
+   4.7%
+  </td>
+<td>
+   75.4%
+  </td>
+<td>
+   0.6%
+  </td>
+<td>
+   pts.
+  </td>
+<td>
+   $195.28
+  </td>
+<td>
+   3.8%
+  </td>
+</tr>
+<tr>
+<td>
+   Renaissance Hotels
+  </td>
+<td>
+   $136.91
+  </td>
+<td>
+   5.5%
+  </td>
+<td>
+   75.2%
+  </td>
+<td>
+   0.8%
+  </td>
+<td>
+   pts.
+  </td>
+<td>
+   $182.13
+  </td>
+<td>
+   4.4%
+  </td>
+</tr>
+<tr>
+<td>
+   The Ritz-Carlton
+  </td>
+<td>
+   $259.41
+  </td>
+<td>
+   2.7%
+  </td>
+<td>
+   72.1%
+  </td>
+<td>
+   (0.1)%
+  </td>
+<td>
+   pts.
+  </td>
+<td>
+   $359.92
+  </td>
+<td>
+   2.9%
+  </td>
+</tr>
+<tr>
+<td>
+   Composite North American Full-Service
+   <sup>
+    (1)
+   </sup>
+</td>
+<td>
+   $157.10
+  </td>
+<td>
+   4.3%
+  </td>
+<td>
+   74.9%
+  </td>
+<td>
+   0.6%
+  </td>
+<td>
+   pts.
+  </td>
+<td>
+   $209.72
+  </td>
+<td>
+   3.5%
+  </td>
+</tr>
+<tr>
+<td>
+   Courtyard
+  </td>
+<td>
+   $101.18
+  </td>
+<td>
+   6.3%
+  </td>
+<td>
+   72.8%
+  </td>
+<td>
+   0.7%
+  </td>
+<td>
+   pts.
+  </td>
+<td>
+   $139.08
+  </td>
+<td>
+   5.2%
+  </td>
+</tr>
+<tr>
+<td>
+   SpringHill Suites
+  </td>
+<td>
+   $95.21
+  </td>
+<td>
+   7.5%
+  </td>
+<td>
+   76.0%
+  </td>
+<td>
+   1.6%
+  </td>
+<td>
+   pts.
+  </td>
+<td>
+   $125.24
+  </td>
+<td>
+   5.1%
+  </td>
+</tr>
+<tr>
+<td>
+   Residence Inn
+  </td>
+<td>
+   $112.33
+  </td>
+<td>
+   6.5%
+  </td>
+<td>
+   78.5%
+  </td>
+<td>
+   0.4%
+  </td>
+<td>
+   pts.
+  </td>
+<td>
+   $143.14
+  </td>
+<td>
+   6.0%
+  </td>
+</tr>
+<tr>
+<td>
+   TownePlace Suites
+  </td>
+<td>
+   $74.83
+  </td>
+<td>
+   8.3%
+  </td>
+<td>
+   72.7%
+  </td>
+<td>
+   0.1%
+  </td>
+<td>
+   pts.
+  </td>
+<td>
+   $102.99
+  </td>
+<td>
+   8.2%
+  </td>
+</tr>
+<tr>
+<td>
+   Composite North American Limited-Service
+   <sup>
+    (2)
+   </sup>
+</td>
+<td>
+   $102.76
+  </td>
+<td>
+   6.5%
+  </td>
+<td>
+   74.5%
+  </td>
+<td>
+   0.7%
+  </td>
+<td>
+   pts.
+  </td>
+<td>
+   $137.92
+  </td>
+<td>
+   5.5%
+  </td>
+</tr>
+<tr>
+<td>
+   Composite North American - All
+  </td>
+<td>
+   $134.18
+  </td>
+<td>
+   5.0%
+  </td>
+<td>
+   74.7%
+  </td>
+<td>
+   0.6%
+  </td>
+<td>
+   pts.
+  </td>
+<td>
+   $179.53
+  </td>
+<td>
+   4.2%
+  </td>
+</tr>
+</table>

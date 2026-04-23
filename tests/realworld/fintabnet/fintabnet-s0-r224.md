@@ -1,0 +1,393 @@
+<!-- source: FinTabNet s0-r224 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="2">
+   U.S. Pension Benefits
+  </td>
+<td colspan="2">
+   Non-U.S.Pension Benefits
+  </td>
+<td colspan="2">
+   Other PostretirementBenefits
+  </td>
+</tr>
+<tr>
+<td>
+   (Millions of dollars)
+  </td>
+<td>
+   2017
+  </td>
+<td>
+   2016
+  </td>
+<td>
+   2017
+  </td>
+<td>
+   2016
+  </td>
+<td>
+   2017
+  </td>
+<td>
+   2016
+  </td>
+</tr>
+<tr>
+<td>
+   Change in benefit obligation:
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Benefit obligation, beginning of year
+  </td>
+<td>
+   $16,218
+  </td>
+<td>
+   $15,792
+  </td>
+<td>
+   $4,472
+  </td>
+<td>
+   $4,355
+  </td>
+<td>
+   $4,088
+  </td>
+<td>
+   $4,313
+  </td>
+</tr>
+<tr>
+<td>
+   Service cost
+  </td>
+<td>
+   115
+  </td>
+<td>
+   119
+  </td>
+<td>
+   95
+  </td>
+<td>
+   92
+  </td>
+<td>
+   78
+  </td>
+<td>
+   82
+  </td>
+</tr>
+<tr>
+<td>
+   Interest cost
+  </td>
+<td>
+   525
+  </td>
+<td>
+   517
+  </td>
+<td>
+   101
+  </td>
+<td>
+   117
+  </td>
+<td>
+   130
+  </td>
+<td>
+   131
+  </td>
+</tr>
+<tr>
+<td>
+   Plan amendments
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   (1)
+  </td>
+<td>
+   (5)
+  </td>
+<td>
+   (79)
+  </td>
+<td>
+   (188)
+  </td>
+</tr>
+<tr>
+<td>
+   Actuarial losses (gains)
+  </td>
+<td>
+   1,439
+  </td>
+<td>
+   767
+  </td>
+<td>
+   (75)
+  </td>
+<td>
+   512
+  </td>
+<td>
+   71
+  </td>
+<td>
+   60
+  </td>
+</tr>
+<tr>
+<td>
+   Foreign currency exchange rates
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   312
+  </td>
+<td>
+   (369)
+  </td>
+<td>
+   4
+  </td>
+<td>
+   14
+  </td>
+</tr>
+<tr>
+<td>
+   Participant contributions
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   6
+  </td>
+<td>
+   7
+  </td>
+<td>
+   59
+  </td>
+<td>
+   57
+  </td>
+</tr>
+<tr>
+<td>
+   Benefits paid - gross
+  </td>
+<td>
+   (977)
+  </td>
+<td>
+   (970)
+  </td>
+<td>
+   (203)
+  </td>
+<td>
+   (238)
+  </td>
+<td>
+   (361)
+  </td>
+<td>
+   (388)
+  </td>
+</tr>
+<tr>
+<td>
+   Less: federal subsidy on benefits paid
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   10
+  </td>
+<td>
+   11
+  </td>
+</tr>
+<tr>
+<td>
+   Curtailments, settlements and termination benefits
+  </td>
+<td>
+   6
+  </td>
+<td>
+   (7)
+  </td>
+<td>
+   (101)
+  </td>
+<td>
+   1
+  </td>
+<td>
+   2
+  </td>
+<td>
+   (4)
+  </td>
+</tr>
+<tr>
+<td>
+   Benefit obligation, end of year
+  </td>
+<td>
+   $17,326
+  </td>
+<td>
+   $16,218
+  </td>
+<td>
+   $4,606
+  </td>
+<td>
+   $4,472
+  </td>
+<td>
+   $4,002
+  </td>
+<td>
+   $4,088
+  </td>
+</tr>
+<tr>
+<td>
+   Accumulated benefit obligation, end of year
+  </td>
+<td>
+   $17,175
+  </td>
+<td>
+   $16,034
+  </td>
+<td>
+   $4,335
+  </td>
+<td>
+   $4,163
+  </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Weighted-average assumptions used todetermine benefit obligation:
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Discount rate
+  </td>
+<td>
+   3.5%
+  </td>
+<td>
+   4.0%
+  </td>
+<td>
+   2.4%
+  </td>
+<td>
+   2.5%
+  </td>
+<td>
+   3.6%
+  </td>
+<td>
+   4.0%
+  </td>
+</tr>
+<tr>
+<td>
+   Rate of compensation increase
+  </td>
+<td>
+   4.0%
+  </td>
+<td>
+   4.0%
+  </td>
+<td>
+   4.0%
+  </td>
+<td>
+   4.0%
+  </td>
+<td>
+   4.6%
+  </td>
+<td>
+   4.0%
+  </td>
+</tr>
+</table>

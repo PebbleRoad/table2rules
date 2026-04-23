@@ -1,0 +1,189 @@
+<!-- source: FinTabNet s0-r2844 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td>
+   2004
+  </td>
+<td>
+   2003
+  </td>
+<td>
+   2002
+  </td>
+<td>
+   2001
+  </td>
+<td>
+   2000
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="5">
+   (In thousands)
+  </td>
+</tr>
+<tr>
+<td>
+   Net income
+  </td>
+<td>
+   $84,156
+  </td>
+<td>
+   $94,497
+  </td>
+<td>
+   $55,287
+  </td>
+<td>
+   $68,756
+  </td>
+<td>
+   $60,523
+  </td>
+</tr>
+<tr>
+<td>
+   Depreciation and amortization
+  </td>
+<td>
+   90,438
+  </td>
+<td>
+   74,616
+  </td>
+<td>
+   64,529
+  </td>
+<td>
+   59,914
+  </td>
+<td>
+   53,259
+  </td>
+</tr>
+<tr>
+<td>
+   Interest expense
+  </td>
+<td>
+   85,058
+  </td>
+<td>
+   75,232
+  </td>
+<td>
+   65,058
+  </td>
+<td>
+   69,313
+  </td>
+<td>
+   66,418
+  </td>
+</tr>
+<tr>
+<td>
+   Other interest income
+  </td>
+<td>
+   (1,506)
+  </td>
+<td>
+   (1,274)
+  </td>
+<td>
+   (1,380)
+  </td>
+<td>
+   (2,662)
+  </td>
+<td>
+   (2,897)
+  </td>
+</tr>
+<tr>
+<td>
+   EBITDA
+  </td>
+<td>
+   258,146
+  </td>
+<td>
+   243,071
+  </td>
+<td>
+   183,494
+  </td>
+<td>
+   195,321
+  </td>
+<td>
+   177,303
+  </td>
+</tr>
+<tr>
+<td>
+   Gain loss on sale of real estate
+  </td>
+<td>
+   (14,052)
+  </td>
+<td>
+   (20,053)
+  </td>
+<td>
+   (19,101)
+  </td>
+<td>
+   (9,185)
+  </td>
+<td>
+   (3,681)
+  </td>
+</tr>
+<tr>
+<td>
+   Loss on abandoned developments held for sale
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   9,647
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+</tr>
+<tr>
+<td>
+   Adjusted EBITDA
+  </td>
+<td>
+   $244,094
+  </td>
+<td>
+   $223,018
+  </td>
+<td>
+   $174,040
+  </td>
+<td>
+   $186,136
+  </td>
+<td>
+   $173,622
+  </td>
+</tr>
+</table>

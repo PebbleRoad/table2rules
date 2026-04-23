@@ -1,0 +1,279 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$ Change",
+    "$(3.2)",
+    "$(4.2)",
+    "$(4.9)",
+    "$(8.1)",
+    "$222.6",
+    "$230.7",
+    "$252.7",
+    "$30.1",
+    "$34.3",
+    "$70.1",
+    "$74.3",
+    "$79.2",
+    "% Change",
+    "(2)%",
+    "(4)%",
+    "(6)%",
+    "(dollars in millions)",
+    "11%",
+    "12%",
+    "14%",
+    "148.3",
+    "151.5",
+    "182.6",
+    "2013",
+    "2013 to 2014",
+    "2014",
+    "2014 to 2015",
+    "2015",
+    "23%",
+    "Maintenance revenue",
+    "Percentage of total revenue",
+    "Professional service and other revenue",
+    "Total",
+    "Year Ended October 31,"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Maintenance revenue"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2015",
+        "(dollars in millions)"
+      ],
+      "value": "$70.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2014",
+        "(dollars in millions)"
+      ],
+      "value": "$74.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2013",
+        "(dollars in millions)"
+      ],
+      "value": "$79.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2014 to 2015",
+        "(dollars in millions)"
+      ],
+      "value": "$(4.2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2014 to 2015",
+        "(dollars in millions)"
+      ],
+      "value": "(6)%"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2013 to 2014",
+        "(dollars in millions)"
+      ],
+      "value": "$(4.9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2013 to 2014",
+        "(dollars in millions)"
+      ],
+      "value": "(6)%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Professional service and other revenue"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2015",
+        "(dollars in millions)"
+      ],
+      "value": "182.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2014",
+        "(dollars in millions)"
+      ],
+      "value": "148.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2013",
+        "(dollars in millions)"
+      ],
+      "value": "151.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2014 to 2015",
+        "(dollars in millions)"
+      ],
+      "value": "$34.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2014 to 2015",
+        "(dollars in millions)"
+      ],
+      "value": "23%"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2013 to 2014",
+        "(dollars in millions)"
+      ],
+      "value": "$(3.2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2013 to 2014",
+        "(dollars in millions)"
+      ],
+      "value": "(2)%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2015",
+        "(dollars in millions)"
+      ],
+      "value": "$252.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2014",
+        "(dollars in millions)"
+      ],
+      "value": "$222.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2013",
+        "(dollars in millions)"
+      ],
+      "value": "$230.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2014 to 2015",
+        "(dollars in millions)"
+      ],
+      "value": "$30.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2014 to 2015",
+        "(dollars in millions)"
+      ],
+      "value": "14%"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2013 to 2014",
+        "(dollars in millions)"
+      ],
+      "value": "$(8.1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2013 to 2014",
+        "(dollars in millions)"
+      ],
+      "value": "(4)%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Percentage of total revenue"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2015",
+        "(dollars in millions)"
+      ],
+      "value": "11%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2014",
+        "(dollars in millions)"
+      ],
+      "value": "11%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2013",
+        "(dollars in millions)"
+      ],
+      "value": "12%"
+    }
+  ]
+}

@@ -1,0 +1,391 @@
+<!-- source: FinTabNet s0-r2016 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="2">
+   RevPAR
+  </td>
+<td colspan="3">
+   Occupancy
+  </td>
+<td colspan="2">
+   Average Daily Rate
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   2016
+  </td>
+<td>
+   Change vs. 2015
+  </td>
+<td>
+   2016
+  </td>
+<td colspan="2">
+   Change vs. 2015
+  </td>
+<td>
+   2016
+  </td>
+<td>
+   Change vs. 2015
+  </td>
+</tr>
+<tr>
+<td>
+   JW Marriott
+  </td>
+<td>
+   $187.02
+  </td>
+<td>
+   4.0%
+  </td>
+<td>
+   76.8%
+  </td>
+<td>
+   2.2%
+  </td>
+<td>
+   pts.
+  </td>
+<td>
+   $243.57
+  </td>
+<td>
+   1.1%
+  </td>
+</tr>
+<tr>
+<td>
+   The Ritz-Carlton
+  </td>
+<td>
+   $252.40
+  </td>
+<td>
+   3.6%
+  </td>
+<td>
+   71.9%
+  </td>
+<td>
+   1.0%
+  </td>
+<td>
+   pts.
+  </td>
+<td>
+   $350.99
+  </td>
+<td>
+   2.2%
+  </td>
+</tr>
+<tr>
+<td>
+   W Hotels
+  </td>
+<td>
+   $239.94
+  </td>
+<td>
+   (2.2)%
+  </td>
+<td>
+   81.7%
+  </td>
+<td>
+   0.2%
+  </td>
+<td>
+   pts.
+  </td>
+<td>
+   $293.82
+  </td>
+<td>
+   (2.5)%
+  </td>
+</tr>
+<tr>
+<td>
+   Composite North American Luxury
+   <sup>
+    (1)
+   </sup>
+</td>
+<td>
+   $242.10
+  </td>
+<td>
+   2.8%
+  </td>
+<td>
+   76.3%
+  </td>
+<td>
+   1.4%
+  </td>
+<td>
+   pts.
+  </td>
+<td>
+   $317.13
+  </td>
+<td>
+   0.9%
+  </td>
+</tr>
+<tr>
+<td>
+   Marriott Hotels
+  </td>
+<td>
+   $144.94
+  </td>
+<td>
+   2.4%
+  </td>
+<td>
+   75.4%
+  </td>
+<td>
+   0.7%
+  </td>
+<td>
+   pts.
+  </td>
+<td>
+   $192.23
+  </td>
+<td>
+   1.4%
+  </td>
+</tr>
+<tr>
+<td>
+   Sheraton
+  </td>
+<td>
+   $149.49
+  </td>
+<td>
+   2.1%
+  </td>
+<td>
+   76.5%
+  </td>
+<td>
+   (0.5)%
+  </td>
+<td>
+   pts.
+  </td>
+<td>
+   $195.40
+  </td>
+<td>
+   2.7%
+  </td>
+</tr>
+<tr>
+<td>
+   Westin
+  </td>
+<td>
+   $167.21
+  </td>
+<td>
+   0.9%
+  </td>
+<td>
+   77.4%
+  </td>
+<td>
+   (0.6)%
+  </td>
+<td>
+   pts.
+  </td>
+<td>
+   $216.07
+  </td>
+<td>
+   1.7%
+  </td>
+</tr>
+<tr>
+<td>
+   Composite North American Upper Upscale
+   <sup>
+    (2)
+   </sup>
+</td>
+<td>
+   $149.92
+  </td>
+<td>
+   2.3%
+  </td>
+<td>
+   76.1%
+  </td>
+<td>
+   0.3%
+  </td>
+<td>
+   pts.
+  </td>
+<td>
+   $196.98
+  </td>
+<td>
+   1.8%
+  </td>
+</tr>
+<tr>
+<td>
+   North American Full-Service
+   <sup>
+    (3)
+   </sup>
+</td>
+<td>
+   $166.97
+  </td>
+<td>
+   2.4%
+  </td>
+<td>
+   76.2%
+  </td>
+<td>
+   0.5%
+  </td>
+<td>
+   pts.
+  </td>
+<td>
+   $219.25
+  </td>
+<td>
+   1.7%
+  </td>
+</tr>
+<tr>
+<td>
+   Courtyard
+  </td>
+<td>
+   $103.65
+  </td>
+<td>
+   2.2%
+  </td>
+<td>
+   73.1%
+  </td>
+<td>
+   0.3%
+  </td>
+<td>
+   pts.
+  </td>
+<td>
+   $141.83
+  </td>
+<td>
+   1.7%
+  </td>
+</tr>
+<tr>
+<td>
+   Residence Inn
+  </td>
+<td>
+   $118.14
+  </td>
+<td>
+   3.8%
+  </td>
+<td>
+   79.0%
+  </td>
+<td>
+   0.6%
+  </td>
+<td>
+   pts.
+  </td>
+<td>
+   $149.56
+  </td>
+<td>
+   3.0%
+  </td>
+</tr>
+<tr>
+<td>
+   Composite North American Limited-Service
+   <sup>
+    (4)
+   </sup>
+</td>
+<td>
+   $106.20
+  </td>
+<td>
+   2.8%
+  </td>
+<td>
+   75.0%
+  </td>
+<td>
+   0.5%
+  </td>
+<td>
+   pts.
+  </td>
+<td>
+   $141.68
+  </td>
+<td>
+   2.1%
+  </td>
+</tr>
+<tr>
+<td>
+   North American - All
+   <sup>
+    (5)
+   </sup>
+</td>
+<td>
+   $147.48
+  </td>
+<td>
+   2.5%
+  </td>
+<td>
+   75.8%
+  </td>
+<td>
+   0.5%
+  </td>
+<td>
+   pts.
+  </td>
+<td>
+   $194.64
+  </td>
+<td>
+   1.8%
+  </td>
+</tr>
+</table>

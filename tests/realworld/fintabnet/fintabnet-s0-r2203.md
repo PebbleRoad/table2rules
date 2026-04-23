@@ -1,0 +1,365 @@
+<!-- source: FinTabNet s0-r2203 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td colspan="2">
+   Asset derivatives December 31,
+  </td>
+<td colspan="2">
+   Liability derivatives December 31,
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td>
+   2014
+  </td>
+<td>
+   2013
+  </td>
+<td>
+   2014
+  </td>
+<td>
+   2013
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   Balance sheet location
+  </td>
+<td colspan="2">
+   Fair value
+  </td>
+<td colspan="2">
+   Fair value
+  </td>
+</tr>
+<tr>
+<td>
+   Derivatives designated as hedging contracts
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Natural gas and crude derivative contracts
+  </td>
+<td>
+   Other current assets/(Other current liabilities)
+  </td>
+<td>
+   $309
+  </td>
+<td>
+   $18
+  </td>
+<td>
+   $(34)
+  </td>
+<td>
+   $(33)
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   Deferred charges and other assets/(Other long-term liabilities and deferred credits)
+  </td>
+<td>
+   6
+  </td>
+<td>
+   58
+  </td>
+<td>
+   —
+  </td>
+<td>
+   (30)
+  </td>
+</tr>
+<tr>
+<td>
+   Subtotal
+  </td>
+<td>
+</td>
+<td>
+   315
+  </td>
+<td>
+   76
+  </td>
+<td>
+   (34)
+  </td>
+<td>
+   (63)
+  </td>
+</tr>
+<tr>
+<td>
+   Interest rate swap agreements
+  </td>
+<td>
+   Other current assets/(Other current liabilities)
+  </td>
+<td>
+   143
+  </td>
+<td>
+   87
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   Deferred charges and other assets/(Other long-term liabilities and deferred credits)
+  </td>
+<td>
+   260
+  </td>
+<td>
+   172
+  </td>
+<td>
+   (53)
+  </td>
+<td>
+   (116)
+  </td>
+</tr>
+<tr>
+<td>
+   Subtotal
+  </td>
+<td>
+</td>
+<td>
+   403
+  </td>
+<td>
+   259
+  </td>
+<td>
+   (53)
+  </td>
+<td>
+   (116)
+  </td>
+</tr>
+<tr>
+<td>
+   Total
+  </td>
+<td>
+</td>
+<td>
+   718
+  </td>
+<td>
+   335
+  </td>
+<td>
+   (87)
+  </td>
+<td>
+   (179)
+  </td>
+</tr>
+<tr>
+<td>
+   Derivatives not designated as hedging contracts
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Natural gas, crude and NGL derivative contracts
+  </td>
+<td>
+   Other current assets/(Other current liabilities)
+  </td>
+<td>
+   73
+  </td>
+<td>
+   4
+  </td>
+<td>
+   (2)
+  </td>
+<td>
+   (5)
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   Deferred charges and other assets/(Other long-term liabilities and deferred credits)
+  </td>
+<td>
+   196
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+</tr>
+<tr>
+<td>
+   Subtotal
+  </td>
+<td>
+</td>
+<td>
+   269
+  </td>
+<td>
+   4
+  </td>
+<td>
+   (2)
+  </td>
+<td>
+   (5)
+  </td>
+</tr>
+<tr>
+<td>
+   Power derivative contracts
+  </td>
+<td>
+   Other current assets/(Other current liabilities)
+  </td>
+<td>
+   10
+  </td>
+<td>
+   7
+  </td>
+<td>
+   (57)
+  </td>
+<td>
+   (54)
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   Deferred charges and other assets/(Other long-term liabilities and deferred credits)
+  </td>
+<td>
+   —
+  </td>
+<td>
+   11
+  </td>
+<td>
+   (16)
+  </td>
+<td>
+   (73)
+  </td>
+</tr>
+<tr>
+<td>
+   Subtotal
+  </td>
+<td>
+</td>
+<td>
+   10
+  </td>
+<td>
+   18
+  </td>
+<td>
+   (73)
+  </td>
+<td>
+   (127)
+  </td>
+</tr>
+<tr>
+<td>
+   Total
+  </td>
+<td>
+</td>
+<td>
+   279
+  </td>
+<td>
+   22
+  </td>
+<td>
+   (75)
+  </td>
+<td>
+   (132)
+  </td>
+</tr>
+<tr>
+<td>
+   Total derivatives
+  </td>
+<td>
+</td>
+<td>
+   $997
+  </td>
+<td>
+   $357
+  </td>
+<td>
+   $(162)
+  </td>
+<td>
+   $(311)
+  </td>
+</tr>
+</table>

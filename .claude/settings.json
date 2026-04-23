@@ -1,14 +1,42 @@
 {
   "permissions": {
     "allow": [
-      "Bash(python -c ' *)",
-      "Bash(python)",
-      "Bash(python -m pytest tests/ --tb=short -q)",
-      "Bash(python -m pytest tests/test_public_api.py -v --tb=short)",
-      "Bash(python -m pytest tests/test_public_api.py --tb=short)",
-      "Bash(wait %1)",
-      "Bash(python -m pytest tests/test_determinism.py --tb=short)",
-      "Bash(git checkout *)"
+      "Bash(python:*)",
+      "Bash(python3:*)",
+      "Bash(pytest:*)",
+      "Bash(pip:*)",
+      "Bash(source:*)",
+      "Bash(ls:*)",
+      "Bash(find:*)",
+      "Bash(grep:*)",
+      "Bash(rg:*)",
+      "Bash(wc:*)",
+      "Bash(du:*)",
+      "Bash(head:*)",
+      "Bash(tail:*)",
+      "Bash(mkdir:*)",
+      "Bash(rmdir:*)",
+      "Bash(cat:*)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git show:*)",
+      "Bash(git branch:*)",
+      "Bash(git add:*)",
+      "Bash(git mv:*)",
+      "Bash(git rm:*)",
+      "Bash(git checkout:*)",
+      "Bash(git reset HEAD *)",
+      "Bash(wait *)",
+      "Bash(N_FINTABNET=20 SCAN_LIMIT=800 FINTABNET_CACHE=/tmp/fintabnet_shards python scripts/build_fintabnet_fixtures.py)",
+      "Bash(N_FINTABNET=200 SCAN_LIMIT=5000 FINTABNET_CACHE=/tmp/fintabnet_shards python scripts/build_fintabnet_fixtures.py)"
+    ],
+    "ask": [
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git reset --hard:*)",
+      "Bash(rm:*)",
+      "Bash(rm -rf:*)"
     ]
   }
 }

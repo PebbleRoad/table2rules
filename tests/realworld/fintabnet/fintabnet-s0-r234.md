@@ -1,0 +1,241 @@
+<!-- source: FinTabNet s0-r234 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="2">
+   Three Months Ended December 31,
+  </td>
+<td colspan="2">
+   Twelve Months Ended December 31,
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   2017
+  </td>
+<td>
+   2016
+  </td>
+<td>
+   2017
+  </td>
+<td>
+   2016
+  </td>
+</tr>
+<tr>
+<td>
+   Profit (Loss) per share - diluted
+  </td>
+<td>
+   $(2.18)
+  </td>
+<td>
+   $(2.00)
+  </td>
+<td>
+   $1.26
+  </td>
+<td>
+   $(0.11)
+  </td>
+</tr>
+<tr>
+<td>
+   Per share restructuring costs
+   <sup>
+    1
+   </sup>
+</td>
+<td>
+   $0.31
+  </td>
+<td>
+   $0.45
+  </td>
+<td>
+   $1.68
+  </td>
+<td>
+   $1.16
+  </td>
+</tr>
+<tr>
+<td>
+   Per share mark-to-market losses
+   <sup>
+    2
+   </sup>
+</td>
+<td>
+   $0.26
+  </td>
+<td>
+   $1.14
+  </td>
+<td>
+   $0.26
+  </td>
+<td>
+   $1.15
+  </td>
+</tr>
+<tr>
+<td>
+   Per share state deferred tax valuation allowance (reversal)
+   <sup>
+    3
+   </sup>
+</td>
+<td>
+   $(0.18)
+  </td>
+<td>
+   $0.24
+  </td>
+<td>
+   $(0.18)
+  </td>
+<td>
+   $0.24
+  </td>
+</tr>
+<tr>
+<td>
+   Per share gain on sale of equity investment
+   <sup>
+    2
+   </sup>
+</td>
+<td>
+   $—
+  </td>
+<td>
+   $—
+  </td>
+<td>
+   $(0.09)
+  </td>
+<td>
+   $—
+  </td>
+</tr>
+<tr>
+<td>
+   Per share U.S. tax reform impact
+  </td>
+<td>
+   $3.91
+  </td>
+<td>
+   $—
+  </td>
+<td>
+   $3.95
+  </td>
+<td>
+   $—
+  </td>
+</tr>
+<tr>
+<td>
+   Per share goodwill impairment
+   <sup>
+    4
+   </sup>
+</td>
+<td>
+   $—
+  </td>
+<td>
+   $0.98
+  </td>
+<td>
+   $—
+  </td>
+<td>
+   $0.98
+  </td>
+</tr>
+<tr>
+<td>
+   Adjusted profit per share
+  </td>
+<td>
+   $2.16
+  </td>
+<td>
+   $0.83
+  </td>
+<td>
+   $6.88
+  </td>
+<td>
+   $3.42
+  </td>
+</tr>
+<tr>
+<td colspan="5">
+<sup>
+    1
+   </sup>
+   At statutory tax rates prior to consideration of U.S. tax reform. Full year 2017 also includes $15 million increase to prior year taxes related to non-U.S. restructuring costs.
+  </td>
+</tr>
+<tr>
+<td>
+<sup>
+    2
+   </sup>
+   At statutory tax rates prior to consideration of U.S. tax reform.
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<sup>
+    3
+   </sup>
+   Net of U.S. federal tax at 35 percent.
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<sup>
+    4
+   </sup>
+   Includes a $17 million tax benefit.
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td colspan="5">
+   Per share amounts computed using fully diluted shares outstanding except for consolidated loss per share, which was computed using basic shares outstanding.
+  </td>
+</tr>
+</table>

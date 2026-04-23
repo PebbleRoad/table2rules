@@ -1,0 +1,334 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "(13,346)",
+    "(2,809)",
+    "(2,943)",
+    "(25)",
+    "(3,457)",
+    "(4,015)",
+    "(4,166)",
+    "(5,900)",
+    "(6,589)",
+    "(679)",
+    "(7,009)",
+    "(90)",
+    "(In thousands)",
+    "1,864",
+    "12,909",
+    "13,613",
+    "18,015",
+    "2,556",
+    "23,950",
+    "26,893",
+    "28,593",
+    "Canceled upon emergence",
+    "Forfeited or expired",
+    "Granted",
+    "Outstanding at December 31, 2011",
+    "Outstanding at December 31, 2012",
+    "Outstanding at December 9, 2013",
+    "Outstanding awards at January 1, 2011",
+    "SARS/Options",
+    "Settled or exercised",
+    "Stock Awards",
+    "\u2014"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Outstanding awards at January 1, 2011"
+    },
+    {
+      "row": [],
+      "col": [
+        "SARS/Options",
+        "(In thousands)"
+      ],
+      "value": "28,593"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stock Awards",
+        "(In thousands)"
+      ],
+      "value": "18,015"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Granted"
+    },
+    {
+      "row": [],
+      "col": [
+        "SARS/Options",
+        "(In thousands)"
+      ],
+      "value": "2,556"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stock Awards",
+        "(In thousands)"
+      ],
+      "value": "1,864"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Settled or exercised"
+    },
+    {
+      "row": [],
+      "col": [
+        "SARS/Options",
+        "(In thousands)"
+      ],
+      "value": "(90)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stock Awards",
+        "(In thousands)"
+      ],
+      "value": "(2,809)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Forfeited or expired"
+    },
+    {
+      "row": [],
+      "col": [
+        "SARS/Options",
+        "(In thousands)"
+      ],
+      "value": "(4,166)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stock Awards",
+        "(In thousands)"
+      ],
+      "value": "(3,457)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Outstanding at December 31, 2011"
+    },
+    {
+      "row": [],
+      "col": [
+        "SARS/Options",
+        "(In thousands)"
+      ],
+      "value": "26,893"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stock Awards",
+        "(In thousands)"
+      ],
+      "value": "13,613"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Granted"
+    },
+    {
+      "row": [],
+      "col": [
+        "SARS/Options",
+        "(In thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stock Awards",
+        "(In thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Settled or exercised"
+    },
+    {
+      "row": [],
+      "col": [
+        "SARS/Options",
+        "(In thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stock Awards",
+        "(In thousands)"
+      ],
+      "value": "(25)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Forfeited or expired"
+    },
+    {
+      "row": [],
+      "col": [
+        "SARS/Options",
+        "(In thousands)"
+      ],
+      "value": "(2,943)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stock Awards",
+        "(In thousands)"
+      ],
+      "value": "(679)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Outstanding at December 31, 2012"
+    },
+    {
+      "row": [],
+      "col": [
+        "SARS/Options",
+        "(In thousands)"
+      ],
+      "value": "23,950"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stock Awards",
+        "(In thousands)"
+      ],
+      "value": "12,909"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Granted"
+    },
+    {
+      "row": [],
+      "col": [
+        "SARS/Options",
+        "(In thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stock Awards",
+        "(In thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Settled or exercised"
+    },
+    {
+      "row": [],
+      "col": [
+        "SARS/Options",
+        "(In thousands)"
+      ],
+      "value": "(6,589)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stock Awards",
+        "(In thousands)"
+      ],
+      "value": "(5,900)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Forfeited or expired"
+    },
+    {
+      "row": [],
+      "col": [
+        "SARS/Options",
+        "(In thousands)"
+      ],
+      "value": "(13,346)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stock Awards",
+        "(In thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Canceled upon emergence"
+    },
+    {
+      "row": [],
+      "col": [
+        "SARS/Options",
+        "(In thousands)"
+      ],
+      "value": "(4,015)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stock Awards",
+        "(In thousands)"
+      ],
+      "value": "(7,009)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Outstanding at December 9, 2013"
+    },
+    {
+      "row": [],
+      "col": [
+        "SARS/Options",
+        "(In thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Stock Awards",
+        "(In thousands)"
+      ],
+      "value": "\u2014"
+    }
+  ]
+}

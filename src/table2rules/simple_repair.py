@@ -8,12 +8,232 @@ def get_top_level_rows(table):
     """
     all_rows_in_dom = table.find_all('tr')
     top_level_rows = []
-    
+
     for row in all_rows_in_dom:
         if row.find_parent('table') is table:
             top_level_rows.append(row)
-            
+
     return top_level_rows
+
+
+def _safe_span(raw):
+    """Coerce a rowspan/colspan attribute to an int ≥ 1.
+
+    Adversarial HTML can carry non-numeric span values like `rowspan="foo"`
+    or zero / negative values. Normalize these the same way grid_parser does
+    so the header-detection helpers don't raise on that input.
+    """
+    try:
+        value = int(raw)
+    except (TypeError, ValueError):
+        return 1
+    return value if value >= 1 else 1
+
+
+def _build_logical_grid(rows):
+    """Expand DOM rows into a colspan/rowspan-aware occupancy grid.
+
+    Returns (grid, origin_cells, max_cols) where
+      grid[r][c] = {"nonempty": bool, "origin": (r0, c0), "rs": int, "cs": int}
+      origin_cells[(r0, c0)] = DOM Tag of the originating cell
+      max_cols = logical width of the table
+    """
+    occupied = {}
+    max_cols = 0
+    for r_idx, row in enumerate(rows):
+        cells = row.find_all(['td', 'th'], recursive=False)
+        col = 0
+        for cell in cells:
+            while (r_idx, col) in occupied:
+                col += 1
+            rs = _safe_span(cell.get('rowspan', 1))
+            cs = _safe_span(cell.get('colspan', 1))
+            for dr in range(rs):
+                for dc in range(cs):
+                    occupied[(r_idx + dr, col + dc)] = True
+            col += cs
+        max_cols = max(max_cols, col)
+
+    n = len(rows)
+    grid = [
+        [{"nonempty": False, "origin": (r, c), "rs": 1, "cs": 1}
+         for c in range(max_cols)]
+        for r in range(n)
+    ]
+    origin_cells = {}
+    filled_at = {}
+    for r_idx, row in enumerate(rows):
+        cells = row.find_all(['td', 'th'], recursive=False)
+        col = 0
+        for cell in cells:
+            while col < max_cols and (r_idx, col) in filled_at:
+                col += 1
+            if col >= max_cols:
+                break
+            rs = _safe_span(cell.get('rowspan', 1))
+            cs = _safe_span(cell.get('colspan', 1))
+            txt = cell.get_text(strip=True)
+            nonempty = bool(txt)
+            origin_cells[(r_idx, col)] = cell
+            for dr in range(rs):
+                for dc in range(cs):
+                    tr, tc = r_idx + dr, col + dc
+                    if tr < n and tc < max_cols:
+                        grid[tr][tc] = {
+                            "nonempty": nonempty,
+                            "origin": (r_idx, col),
+                            "rs": rs,
+                            "cs": cs,
+                        }
+                        filled_at[(tr, tc)] = True
+            col += cs
+    return grid, origin_cells, max_cols
+
+
+def detect_header_block(rows):
+    """Infer the header block of a headless table via a universal structural
+    rule — no content analysis, no percentage thresholds, no dataset-specific
+    heuristics.
+
+    Two structural definitions:
+
+    1. A *clean data row* is a row r where every logical position (r, c) is
+       an origin cell (not a rowspan copy from above) with rowspan == 1,
+       colspan == 1, and non-empty text. A clean data row has no structural
+       feature that could distinguish it from the rows below it — it is
+       unambiguously part of the body.
+
+    2. A *stub column* is a column non-empty in every non-divider body row.
+       Section dividers (rows with ≤ 1 non-empty logical cell) are excluded
+       from the body statistic because they are a separate structural class.
+
+    Rule: the header block is the maximal leading prefix [0..k-1] where k is
+    the index of the first clean data row whose col 0 is non-empty, provided
+    every non-divider row in that prefix has its empty cells contained in
+    stub columns.
+
+    Why this works universally:
+      * Dense first-row-header tables (receipts, simple relational): row 0
+        is a clean data row, so k = 0 and no promotion occurs. This is
+        structurally honest — without spans, empties, or other shape
+        differences, row 0 is indistinguishable from row 1+, and the
+        pipeline defers to the confidence gate.
+      * Multi-row headers with colspan group labels (benefits, FinTabNet
+        hierarchical): header rows carry colspan > 1 cells, so they are not
+        clean data rows. The first clean data row follows the header block.
+      * Financial 10-K tables with an empty row-stub label (FinTabNet
+        single-row header): header rows have col 0 empty. Col 0 is a stub
+        column (non-empty in every body row), so the empty in row 0 is
+        permitted. The first clean data row is the first body row.
+
+    Section-divider rows in the header region (single-cell rows like the
+    "2014" year marker in FinTabNet) do NOT themselves qualify as headers,
+    but they do not prevent the detection either — they sit inside the
+    [0..k-1] range and are left as-is so the downstream thead-wrap naturally
+    excludes them via Fix 7's contiguous-<th> chain.
+
+    Returns (k, stub_cols, origin_cells, grid) on success, or None.
+    """
+    n = len(rows)
+    if n < 3:
+        return None
+
+    grid, origin_cells, max_cols = _build_logical_grid(rows)
+    if max_cols == 0:
+        return None
+
+    # Find the first data row. A data row is one whose shape has no
+    # structural feature that would mark it as a header:
+    #   - col 0 is non-empty (typical row-label)
+    #   - at least two non-empty logical cells (not a section divider)
+    #   - every logical position at row r is an origin cell at row r
+    #     (no rowspan copy from above pulling header content into body)
+    #   - every origin cell at row r has rowspan == colspan == 1
+    #     (no colspan group or rowspan marker signaling header role)
+    #
+    # The "every cell non-empty" requirement was dropped intentionally:
+    # real body rows in financial tables are often gappy (a cell has a
+    # value only for some rows, e.g., an aggregate fair-value column
+    # that only fills on vest events). The remaining conditions still
+    # separate body rows from header rows — header rows typically carry
+    # either an empty col 0 (row-stub-column signature) or a span of
+    # some kind.
+    first_data_idx = None
+    for r in range(n):
+        row = grid[r]
+        if not row[0]["nonempty"]:
+            continue
+        nonempty_count = sum(1 for c in row if c["nonempty"])
+        if nonempty_count < 2:
+            continue
+        is_clean = True
+        for c in range(max_cols):
+            cell = row[c]
+            if cell["origin"] != (r, c):
+                is_clean = False
+                break
+            if cell["rs"] != 1 or cell["cs"] != 1:
+                is_clean = False
+                break
+        if is_clean:
+            first_data_idx = r
+            break
+
+    if first_data_idx is None or first_data_idx == 0:
+        return None
+
+    # Header rows = non-divider, non-empty rows in the header region.
+    header_row_indices = [
+        r for r in range(first_data_idx)
+        if sum(1 for c in grid[r] if c["nonempty"]) >= 2
+    ]
+    if not header_row_indices:
+        return None
+
+    # Body rows = non-divider rows from first_data_idx down.
+    body_rows = [
+        grid[r] for r in range(first_data_idx, n)
+        if sum(1 for c in grid[r] if c["nonempty"]) >= 2
+    ]
+    if not body_rows:
+        return None
+
+    # A row-stub column is a col that is empty in *every* header row AND
+    # non-empty in a strict majority of non-divider body rows. The
+    # conjunction is load-bearing — "empty in every header" alone would
+    # mis-label data columns whose top-level group header happens not to
+    # cover them; "non-empty in every body row" (the stricter earlier
+    # form) would reject tables whose trailing summary row leaves the
+    # stub column blank (e.g. a FinTabNet totals row rendered as
+    # `— | $1,573,043 | ...`). Strict majority — more non-empty body
+    # rows than empty — is deterministic (a count comparison, not a
+    # ratio), admits the unlabeled-summary-row pattern, and still
+    # refuses to promote a sparsely-filled data column.
+    stub_cols = set()
+    for c in range(max_cols):
+        all_empty_in_header = all(
+            not grid[r][c]["nonempty"] for r in header_row_indices
+        )
+        if not all_empty_in_header:
+            continue
+        filled = sum(1 for br in body_rows if br[c]["nonempty"])
+        empty = len(body_rows) - filled
+        if filled > empty:
+            stub_cols.add(c)
+
+    # Validity: every column empty in every header row must either be a
+    # stub (non-empty in a strict majority of body rows) or a column
+    # that is used at all. If such a column fails the stub test, the
+    # header region and body region disagree geometrically — there is
+    # no consistent story for what that column is, so reject.
+    for c in range(max_cols):
+        all_empty_in_header = all(
+            not grid[r][c]["nonempty"] for r in header_row_indices
+        )
+        if all_empty_in_header and c not in stub_cols:
+            return None
+
+    return first_data_idx, stub_cols, origin_cells, grid
 
 
 def simple_repair(html: str) -> str:
@@ -124,6 +344,110 @@ def simple_repair(html: str) -> str:
         actual_rows = get_top_level_rows(table)
 
 
+    # --- Fix 4: Structural header-block promotion ---
+    # Universal structural rule (replaces the old row-0-only "all cells
+    # non-empty" heuristic). See detect_header_block for the full spec —
+    # the rule is deterministic, content-free, and subsumes three cases
+    # previously handled by disjoint heuristics:
+    #
+    #   Dense first-row headers (receipts, simple relational): row 0 is
+    #   a clean data row, detection returns None, no promotion.
+    #
+    #   Multi-row headers with colspan group labels (benefits-style,
+    #   FinTabNet hierarchical): span-bearing rows above the first clean
+    #   data row form the header block.
+    #
+    #   Financial 10-K tables with an empty row-stub label (FinTabNet
+    #   single-row headers): col 0 is structurally identified as a stub
+    #   column (empty in every header, filled in every body), and the
+    #   empty col-0 cell in the header row is permitted.
+    #
+    # Promotes header-region rows (non-divider) to <th> so Fix 7 can wrap
+    # them in <thead>. Promotes stub-column body cells to <th scope="row">
+    # so dimensional columns are recognized even in single-row-header
+    # tables (Fix 8 only covers multi-row <thead>).
+    if not table.find('thead') and actual_rows:
+        detection = detect_header_block(actual_rows)
+        if detection is not None:
+            first_data_idx, stub_cols, origin_cells, grid = detection
+            # Promote header-region rows to <th> (skip section dividers
+            # and empty rows — dividers are structurally distinct and
+            # would break the thead contiguous-<th> chain intentionally).
+            # Use the *logical* non-empty count (colspan-expanded) so that
+            # a single-DOM-cell row with a wide colspan — e.g., a "(Dollars
+            # in thousands)" sub-header — is recognized as a multi-cell
+            # row rather than mis-classified as a divider.
+            for r_idx in range(first_data_idx):
+                logical_nonempty = sum(
+                    1 for cell in grid[r_idx] if cell["nonempty"]
+                )
+                if logical_nonempty <= 1:
+                    continue
+                row = actual_rows[r_idx]
+                for cell in row.find_all(['td', 'th'], recursive=False):
+                    if cell.name == 'td':
+                        cell.name = 'th'
+            # Promote stub-column body cells to <th scope="row"> at origin.
+            for c in stub_cols:
+                for r_idx in range(first_data_idx, len(actual_rows)):
+                    if r_idx >= len(grid):
+                        break
+                    origin = grid[r_idx][c]["origin"]
+                    if origin[0] < first_data_idx:
+                        continue
+                    cell = origin_cells.get(origin)
+                    if cell is None:
+                        continue
+                    if cell.name == 'td':
+                        cell.name = 'th'
+                        if not cell.get('scope'):
+                            cell['scope'] = 'row'
+            # Row-group divider promotion. A row with exactly one
+            # non-empty logical cell whose column is in stub_cols is a
+            # row-group header for the body rows that follow until the
+            # next such divider — the FinTabNet year-label pattern
+            # ("2014" row between Q1–Q4 blocks). Promoting the cell to
+            # <th scope="rowgroup"> lets maze_pathfinder walk up the
+            # stub column and include the group label in row_path for
+            # subsequent body cells.
+            #
+            # Iterate from the end of the contiguous promoted-header
+            # prefix (what Fix 7 will wrap into <thead>) onward — so
+            # dividers inside the header region (e.g., a divider row
+            # that breaks the <th>-or-empty chain) are correctly
+            # classified as body rowgroup markers, not thead cells.
+            #
+            # Structurally distinct from the <th scope="row"> promotion
+            # above: row-headers are *peer* labels (one per row),
+            # rowgroup-headers are *ancestor* labels (span multiple rows).
+            thead_end = 0
+            for r in range(first_data_idx):
+                if sum(1 for c in grid[r] if c["nonempty"]) >= 2:
+                    thead_end = r + 1
+                else:
+                    break
+            for r_idx in range(thead_end, len(actual_rows)):
+                if r_idx >= len(grid):
+                    break
+                row = grid[r_idx]
+                non_empty_cols = [
+                    c for c in range(len(row)) if row[c]["nonempty"]
+                ]
+                if len(non_empty_cols) != 1:
+                    continue
+                only_col = non_empty_cols[0]
+                if only_col not in stub_cols:
+                    continue
+                origin = row[only_col]["origin"]
+                if origin[0] < thead_end:
+                    continue
+                cell = origin_cells.get(origin)
+                if cell is None:
+                    continue
+                if cell.name == 'td':
+                    cell.name = 'th'
+                cell['scope'] = 'rowgroup'
+
     # --- Fix 7: Wrap header rows in <thead> ---
     # If table lacks <thead>, detect contiguous leading rows that are "header-like"
     # (all <th> cells, or all <th>/empty cells) and wrap them in <thead>.
@@ -196,22 +520,30 @@ def simple_repair(html: str) -> str:
             tbody = table.find('tbody')
             if tbody:
                 active_rowspan = 0  # Track if a rowspan from above covers first column
-                
+
                 for row in tbody.find_all('tr', recursive=False):
                     cells = row.find_all(['td', 'th'], recursive=False)
-                    
+
                     if active_rowspan > 0:
-                        # First column is covered by rowspan from above
-                        # Don't promote the first DOM cell (it's in column 1+)
+                        # First column is covered by rowspan from above.
                         active_rowspan -= 1
-                    elif cells and cells[0].name == 'td':
-                        # This cell is truly in the first column
-                        cells[0].name = 'th'
-                        cells[0]['scope'] = 'row'
-                        # Track rowspan for subsequent rows
-                        rowspan = int(cells[0].get('rowspan', 1))
-                        if rowspan > 1:
-                            active_rowspan = rowspan - 1
+                        continue
+                    if not cells:
+                        continue
+
+                    first = cells[0]
+                    # Promote to row-header if not already. Fix 4 may have
+                    # pre-promoted this cell via its stub-column path — in
+                    # that case we still need to track the rowspan so the
+                    # counter stays in sync with the grid, otherwise a cell
+                    # at logical col > 0 in a subsequent row would be
+                    # mistaken for the first-column cell.
+                    if first.name == 'td':
+                        first.name = 'th'
+                        first['scope'] = 'row'
+                    rowspan = _safe_span(first.get('rowspan', 1))
+                    if rowspan > 1:
+                        active_rowspan = rowspan - 1
 
 
     # --- Fix 6: Merge "Hanging" Description Rows ---
@@ -279,55 +611,4 @@ def simple_repair(html: str) -> str:
                         cell.name = 'th'
                         cell['scope'] = 'row'
 
-    
-    # --- Fix 4: Convert first data row to header row ---
-    # Only applies to tables without thead where first row looks like headers
-    # Skip if row already has <th> cells (key-value table pattern)
-    actual_rows = get_top_level_rows(table) 
-    
-    if actual_rows and not table.find('thead'):
-        first_data_row = actual_rows[0]
-        if not first_data_row.find_parent('tfoot'):
-            cells = first_data_row.find_all(['td', 'th'], recursive=False)
-            # Only convert if ALL cells are <td> (no <th> present)
-            # This preserves key-value tables where first cell is <th>
-            all_td = cells and all(cell.name == 'td' for cell in cells)
-            if all_td:
-                first_cell_colspan = int(cells[0].get('colspan', 1))
-                is_section_header = (
-                    first_cell_colspan == 1 and
-                    len(cells) > 1 and
-                    all(not cell.get_text(strip=True) for cell in cells[1:])
-                )
-                # Only promote to headers if every cell is non-empty. Real
-                # header rows don't have blanks — if row 0 has empty cells,
-                # it's data (typical of receipts where amount columns shift
-                # between rows). Numeric cells are allowed here; the
-                # confidence gate catches numeric column headers later.
-                texts = [c.get_text(strip=True) for c in cells]
-                looks_header_like = bool(texts) and all(t for t in texts)
-                # Structural contrast check: promote row 0 to <th> only when
-                # at least one subsequent multi-cell row has at least one
-                # empty cell. A real header uniquely labels every column;
-                # data rows legitimately have gaps. Without contrast, we
-                # have no structural evidence that row 0 plays a different
-                # role from the rows below it. Inventing <th> where the
-                # source has <td> is synthesis, not repair.
-                has_sparse_subsequent = False
-                for r in actual_rows[1:]:
-                    subsequent_cells = r.find_all(['td', 'th'], recursive=False)
-                    if len(subsequent_cells) <= 1:
-                        continue
-                    if any(not c.get_text(strip=True) for c in subsequent_cells):
-                        has_sparse_subsequent = True
-                        break
-                if (
-                    first_cell_colspan == 1
-                    and not is_section_header
-                    and looks_header_like
-                    and has_sparse_subsequent
-                ):
-                    for cell in cells:
-                        cell.name = 'th'
-    
     return str(soup)

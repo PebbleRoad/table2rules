@@ -1,0 +1,233 @@
+<!-- source: FinTabNet s0-r1338 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="5">
+   Year of Maturity
+  </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   2007
+  </td>
+<td>
+   2008
+  </td>
+<td>
+   2009
+  </td>
+<td>
+   2010
+  </td>
+<td>
+   2011
+  </td>
+<td>
+   Thereafter
+  </td>
+<td>
+   Total
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="7">
+   (Dollars in thousands)
+  </td>
+</tr>
+<tr>
+<td>
+   Fixed rate debt
+  </td>
+<td>
+   $6,515
+  </td>
+<td>
+   $19,189
+  </td>
+<td>
+   $—
+  </td>
+<td>
+   $—
+  </td>
+<td>
+   $150,000
+  </td>
+<td>
+   $250,000
+  </td>
+<td>
+   $425,704
+  </td>
+</tr>
+<tr>
+<td>
+<i>
+    Average interest rate
+   </i>
+</td>
+<td>
+   7.1%
+  </td>
+<td>
+   6.0%
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   5.2%
+  </td>
+<td>
+   5.8%
+  </td>
+<td>
+   5.6%
+  </td>
+</tr>
+<tr>
+<td>
+   Variable rate debt
+  </td>
+<td>
+   $24,507
+  </td>
+<td>
+   $47,299
+  </td>
+<td>
+   $1,291
+  </td>
+<td>
+   $—
+  </td>
+<td>
+   $19,591
+  </td>
+<td>
+   $—
+  </td>
+<td>
+   $92,688
+  </td>
+</tr>
+<tr>
+<td>
+<i>
+    Average interest rate
+   </i>
+</td>
+<td>
+   5.2%
+  </td>
+<td>
+   4.6%
+  </td>
+<td>
+   7.0%
+  </td>
+<td>
+   —
+  </td>
+<td>
+   5.6%
+  </td>
+<td>
+   —
+  </td>
+<td>
+   5.0%
+  </td>
+</tr>
+<tr>
+<td>
+   Amount subject to swaps:
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Variable to fixed
+  </td>
+<td>
+</td>
+<td>
+   $59,200
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Average rate to be received
+  </td>
+<td>
+</td>
+<td>
+   4.8%
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Average rate to be paid
+  </td>
+<td>
+</td>
+<td>
+   5.6%
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+</table>

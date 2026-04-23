@@ -1,0 +1,557 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$101.98",
+    "$102.27",
+    "$104.10",
+    "$108.78",
+    "$115.02",
+    "$118.36",
+    "$123.44",
+    "$127.47",
+    "$140.94",
+    "$154.71",
+    "$155.90",
+    "$157.12",
+    "$158.21",
+    "$161.91",
+    "$171.72",
+    "$90.37",
+    "(0.4)%",
+    "(0.7)%",
+    "0.2%",
+    "0.6%",
+    "1.1%",
+    "1.2%",
+    "1.4%",
+    "1.5%",
+    "1.6%",
+    "2.0%",
+    "2.1%",
+    "2.5%",
+    "2.7%",
+    "2017",
+    "3.1%",
+    "3.2%",
+    "4.0%",
+    "4.5%",
+    "5.1%",
+    "5.9%",
+    "6.0%",
+    "6.8%",
+    "64.3%",
+    "65.4%",
+    "7.2%",
+    "70.3%",
+    "70.9%",
+    "71.9%",
+    "72.6%",
+    "73.2%",
+    "74.8%",
+    "8.5%",
+    "Asia Pacific",
+    "Average Daily Rate",
+    "Caribbean & Latin America",
+    "Change vs. 2016",
+    "Europe",
+    "Greater China",
+    "International - All (1)",
+    "Middle East & Africa",
+    "Occupancy",
+    "Rest of Asia Pacific",
+    "RevPAR",
+    "Worldwide (2)",
+    "pts."
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Greater China"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR",
+        "2017"
+      ],
+      "value": "$90.37"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR",
+        "Change vs. 2016"
+      ],
+      "value": "8.5%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "2017"
+      ],
+      "value": "70.9%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "Change vs. 2016"
+      ],
+      "value": "6.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "Change vs. 2016"
+      ],
+      "value": "pts."
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate",
+        "2017"
+      ],
+      "value": "$127.47"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate",
+        "Change vs. 2016"
+      ],
+      "value": "(0.7)%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Rest of Asia Pacific"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR",
+        "2017"
+      ],
+      "value": "$118.36"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR",
+        "Change vs. 2016"
+      ],
+      "value": "5.1%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "2017"
+      ],
+      "value": "74.8%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "Change vs. 2016"
+      ],
+      "value": "2.5%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "Change vs. 2016"
+      ],
+      "value": "pts."
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate",
+        "2017"
+      ],
+      "value": "$158.21"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate",
+        "Change vs. 2016"
+      ],
+      "value": "1.6%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Asia Pacific"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR",
+        "2017"
+      ],
+      "value": "$102.27"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR",
+        "Change vs. 2016"
+      ],
+      "value": "6.8%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "2017"
+      ],
+      "value": "72.6%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "Change vs. 2016"
+      ],
+      "value": "4.5%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "Change vs. 2016"
+      ],
+      "value": "pts."
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate",
+        "2017"
+      ],
+      "value": "$140.94"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate",
+        "Change vs. 2016"
+      ],
+      "value": "0.2%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Caribbean & Latin America"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR",
+        "2017"
+      ],
+      "value": "$104.10"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR",
+        "Change vs. 2016"
+      ],
+      "value": "4.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "2017"
+      ],
+      "value": "64.3%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "Change vs. 2016"
+      ],
+      "value": "2.1%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "Change vs. 2016"
+      ],
+      "value": "pts."
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate",
+        "2017"
+      ],
+      "value": "$161.91"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate",
+        "Change vs. 2016"
+      ],
+      "value": "0.6%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Europe"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR",
+        "2017"
+      ],
+      "value": "$123.44"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR",
+        "Change vs. 2016"
+      ],
+      "value": "7.2%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "2017"
+      ],
+      "value": "71.9%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "Change vs. 2016"
+      ],
+      "value": "2.7%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "Change vs. 2016"
+      ],
+      "value": "pts."
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate",
+        "2017"
+      ],
+      "value": "$171.72"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate",
+        "Change vs. 2016"
+      ],
+      "value": "3.2%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Middle East & Africa"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR",
+        "2017"
+      ],
+      "value": "$101.98"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR",
+        "Change vs. 2016"
+      ],
+      "value": "2.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "2017"
+      ],
+      "value": "65.4%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "Change vs. 2016"
+      ],
+      "value": "1.5%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "Change vs. 2016"
+      ],
+      "value": "pts."
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate",
+        "2017"
+      ],
+      "value": "$155.90"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate",
+        "Change vs. 2016"
+      ],
+      "value": "(0.4)%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "International - All (1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR",
+        "2017"
+      ],
+      "value": "$108.78"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR",
+        "Change vs. 2016"
+      ],
+      "value": "5.9%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "2017"
+      ],
+      "value": "70.3%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "Change vs. 2016"
+      ],
+      "value": "3.2%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "Change vs. 2016"
+      ],
+      "value": "pts."
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate",
+        "2017"
+      ],
+      "value": "$154.71"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate",
+        "Change vs. 2016"
+      ],
+      "value": "1.1%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Worldwide (2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR",
+        "2017"
+      ],
+      "value": "$115.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR",
+        "Change vs. 2016"
+      ],
+      "value": "3.1%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "2017"
+      ],
+      "value": "73.2%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "Change vs. 2016"
+      ],
+      "value": "1.4%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy",
+        "Change vs. 2016"
+      ],
+      "value": "pts."
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate",
+        "2017"
+      ],
+      "value": "$157.12"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate",
+        "Change vs. 2016"
+      ],
+      "value": "1.2%"
+    }
+  ]
+}

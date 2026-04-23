@@ -1,0 +1,273 @@
+<!-- source: FinTabNet s0-r597 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td colspan="4">
+   Payments Due
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   Total
+  </td>
+<td>
+   2016
+  </td>
+<td>
+   2017-2018
+  </td>
+<td>
+   2019-2020
+  </td>
+<td>
+   2021 andThereafter
+  </td>
+</tr>
+<tr>
+<td>
+   (in millions)
+  </td>
+<td colspan="5">
+</td>
+</tr>
+<tr>
+<td>
+   Long-term debt
+   <sup>
+    (1)
+   </sup>
+</td>
+<td>
+   $27,922
+  </td>
+<td>
+   $2,405
+  </td>
+<td>
+   $5,097
+  </td>
+<td>
+   $4,745
+  </td>
+<td>
+   $15,675
+  </td>
+</tr>
+<tr>
+<td>
+   RBH Legal Settlement
+   <sup>
+    (2)
+   </sup>
+</td>
+<td>
+   78
+  </td>
+<td>
+   32
+  </td>
+<td>
+   46
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+</tr>
+<tr>
+<td>
+   Colombian Investment and Cooperation Agreement
+   <sup>
+    (3)
+   </sup>
+</td>
+<td>
+   107
+  </td>
+<td>
+   15
+  </td>
+<td>
+   12
+  </td>
+<td>
+   12
+  </td>
+<td>
+   68
+  </td>
+</tr>
+<tr>
+<td>
+   Interest on borrowings
+   <sup>
+    (4)
+   </sup>
+</td>
+<td>
+   10,786
+  </td>
+<td>
+   883
+  </td>
+<td>
+   1,566
+  </td>
+<td>
+   1,236
+  </td>
+<td>
+   7,101
+  </td>
+</tr>
+<tr>
+<td>
+   Operating leases
+   <sup>
+    (5)
+   </sup>
+</td>
+<td>
+   682
+  </td>
+<td>
+   177
+  </td>
+<td>
+   207
+  </td>
+<td>
+   103
+  </td>
+<td>
+   195
+  </td>
+</tr>
+<tr>
+<td>
+   Purchase obligations
+   <sup>
+    (6)
+   </sup>
+   :
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Inventory and production costs
+  </td>
+<td>
+   5,094
+  </td>
+<td>
+   2,007
+  </td>
+<td>
+   1,586
+  </td>
+<td>
+   852
+  </td>
+<td>
+   649
+  </td>
+</tr>
+<tr>
+<td>
+   Other
+  </td>
+<td>
+   1,568
+  </td>
+<td>
+   1,049
+  </td>
+<td>
+   467
+  </td>
+<td>
+   50
+  </td>
+<td>
+   2
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   6,662
+  </td>
+<td>
+   3,056
+  </td>
+<td>
+   2,053
+  </td>
+<td>
+   902
+  </td>
+<td>
+   651
+  </td>
+</tr>
+<tr>
+<td>
+   Other long-term liabilities
+   <sup>
+    (7)
+   </sup>
+</td>
+<td>
+   336
+  </td>
+<td>
+   27
+  </td>
+<td>
+   75
+  </td>
+<td>
+   25
+  </td>
+<td>
+   209
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   $46,573
+  </td>
+<td>
+   $6,595
+  </td>
+<td>
+   $9,056
+  </td>
+<td>
+   $7,023
+  </td>
+<td>
+   $23,899
+  </td>
+</tr>
+</table>

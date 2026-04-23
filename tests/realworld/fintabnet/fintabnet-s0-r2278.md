@@ -1,0 +1,232 @@
+<!-- source: FinTabNet s0-r2278 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td colspan="2">
+   Asset derivatives December 31,
+  </td>
+<td colspan="2">
+   Liability derivatives December 31,
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td>
+   2010
+  </td>
+<td>
+   2009
+  </td>
+<td>
+   2010
+  </td>
+<td>
+   2009
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   Balance sheetlocation
+  </td>
+<td colspan="2">
+   Fair value
+  </td>
+<td colspan="2">
+   Fair value
+  </td>
+</tr>
+<tr>
+<td>
+   Derivatives designated as hedging contracts
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Energy commodity derivative contracts
+  </td>
+<td>
+   Current
+  </td>
+<td>
+   $20.1
+  </td>
+<td>
+   $19.1
+  </td>
+<td>
+   $(275.9)
+  </td>
+<td>
+   $(270.8)
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   Non-current
+  </td>
+<td>
+   43.1
+  </td>
+<td>
+   57.3
+  </td>
+<td>
+   (103.0)
+  </td>
+<td>
+   (241.5)
+  </td>
+</tr>
+<tr>
+<td>
+   Subtotal
+  </td>
+<td>
+</td>
+<td>
+   63.2
+  </td>
+<td>
+   76.4
+  </td>
+<td>
+   (378.9)
+  </td>
+<td>
+   (512.3)
+  </td>
+</tr>
+<tr>
+<td>
+   Interest rate swap agreements
+  </td>
+<td>
+   Non-current
+  </td>
+<td>
+   258.6
+  </td>
+<td>
+   236.0
+  </td>
+<td>
+   (69.2)
+  </td>
+<td>
+   (218.5)
+  </td>
+</tr>
+<tr>
+<td>
+   Cross currency swap agreements
+  </td>
+<td>
+   Non-current
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+<td>
+   (9.6)
+  </td>
+</tr>
+<tr>
+<td>
+   Total
+  </td>
+<td>
+</td>
+<td>
+   321.8
+  </td>
+<td>
+   312.4
+  </td>
+<td>
+   (448.1)
+  </td>
+<td>
+   (740.4)
+  </td>
+</tr>
+<tr>
+<td>
+   Derivatives not designated as hedging contracts
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Energy commodity derivative contracts
+  </td>
+<td>
+   Current
+  </td>
+<td>
+   3.9
+  </td>
+<td>
+   1.7
+  </td>
+<td>
+   (5.6)
+  </td>
+<td>
+   (1.2)
+  </td>
+</tr>
+<tr>
+<td>
+   Total derivatives
+  </td>
+<td>
+</td>
+<td>
+   $325.7
+  </td>
+<td>
+   $314.1
+  </td>
+<td>
+   $(453.7)
+  </td>
+<td>
+   $(741.6)
+  </td>
+</tr>
+</table>

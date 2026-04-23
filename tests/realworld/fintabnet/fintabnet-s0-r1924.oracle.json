@@ -1,0 +1,288 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$439.8",
+    "$470.1",
+    "$673.0",
+    "$742.0",
+    "(112.9)",
+    "(114.5)",
+    "1.4",
+    "10.3%",
+    "2014",
+    "2015",
+    "31.0",
+    "313.2",
+    "32.9",
+    "343.3",
+    "4.1",
+    "4.6",
+    "43.1",
+    "5.6%",
+    "5.7%",
+    "6.4",
+    "6.7",
+    "6.8%",
+    "6.9%",
+    "9.6",
+    "Corporate",
+    "Dollars inMillions",
+    "Headquarters (3)",
+    "OperatingMargin",
+    "Other (2)",
+    "Percent Changein Incomefrom Operations",
+    "Public",
+    "Segments: (1)",
+    "Total Income from operations",
+    "Years Ended December 31,",
+    "nm*"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Segments: (1)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Corporate"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2015",
+        "Dollars inMillions"
+      ],
+      "value": "$470.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2015",
+        "OperatingMargin"
+      ],
+      "value": "6.9%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2014",
+        "Dollars inMillions"
+      ],
+      "value": "$439.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2014",
+        "OperatingMargin"
+      ],
+      "value": "6.8%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percent Changein Incomefrom Operations"
+      ],
+      "value": "6.9%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Public"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2015",
+        "Dollars inMillions"
+      ],
+      "value": "343.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2015",
+        "OperatingMargin"
+      ],
+      "value": "6.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2014",
+        "Dollars inMillions"
+      ],
+      "value": "313.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2014",
+        "OperatingMargin"
+      ],
+      "value": "6.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percent Changein Incomefrom Operations"
+      ],
+      "value": "9.6"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Other (2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2015",
+        "Dollars inMillions"
+      ],
+      "value": "43.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2015",
+        "OperatingMargin"
+      ],
+      "value": "4.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2014",
+        "Dollars inMillions"
+      ],
+      "value": "32.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2014",
+        "OperatingMargin"
+      ],
+      "value": "4.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percent Changein Incomefrom Operations"
+      ],
+      "value": "31.0"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Headquarters (3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2015",
+        "Dollars inMillions"
+      ],
+      "value": "(114.5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2015",
+        "OperatingMargin"
+      ],
+      "value": "nm*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2014",
+        "Dollars inMillions"
+      ],
+      "value": "(112.9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2014",
+        "OperatingMargin"
+      ],
+      "value": "nm*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percent Changein Incomefrom Operations"
+      ],
+      "value": "1.4"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total Income from operations"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2015",
+        "Dollars inMillions"
+      ],
+      "value": "$742.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2015",
+        "OperatingMargin"
+      ],
+      "value": "5.7%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2014",
+        "Dollars inMillions"
+      ],
+      "value": "$673.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2014",
+        "OperatingMargin"
+      ],
+      "value": "5.6%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percent Changein Incomefrom Operations"
+      ],
+      "value": "10.3%"
+    }
+  ]
+}

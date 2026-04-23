@@ -1,0 +1,185 @@
+<!-- source: FinTabNet s0-r2574 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td>
+   2007
+  </td>
+<td>
+   2006
+  </td>
+<td>
+   2005
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="3">
+   (Dollars and square feet in thousands)
+  </td>
+</tr>
+<tr>
+<td>
+   East
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Rental income
+  </td>
+<td>
+   $363,698
+  </td>
+<td>
+   $318,176
+  </td>
+<td>
+   $292,688
+  </td>
+</tr>
+<tr>
+<td>
+   Total revenue
+  </td>
+<td>
+   $375,857
+  </td>
+<td>
+   $325,928
+  </td>
+<td>
+   $299,658
+  </td>
+</tr>
+<tr>
+<td>
+   Property operating income(1)
+  </td>
+<td>
+   $267,704
+  </td>
+<td>
+   $236,968
+  </td>
+<td>
+   $214,352
+  </td>
+</tr>
+<tr>
+<td>
+   Property operating income as a percent of total revenue
+  </td>
+<td>
+   71.2%
+  </td>
+<td>
+   72.7%
+  </td>
+<td>
+   71.5%
+  </td>
+</tr>
+<tr>
+<td>
+   Gross leasable square feet
+  </td>
+<td>
+   15,568
+  </td>
+<td>
+   16,195
+  </td>
+<td>
+   14,941
+  </td>
+</tr>
+<tr>
+<td>
+   West
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Rental income
+  </td>
+<td>
+   $104,800
+  </td>
+<td>
+   $96,803
+  </td>
+<td>
+   $83,239
+  </td>
+</tr>
+<tr>
+<td>
+   Total revenue
+  </td>
+<td>
+   $110,035
+  </td>
+<td>
+   $101,607
+  </td>
+<td>
+   $91,150
+  </td>
+</tr>
+<tr>
+<td>
+   Property operating income(1)
+  </td>
+<td>
+   $70,565
+  </td>
+<td>
+   $64,606
+  </td>
+<td>
+   $57,952
+  </td>
+</tr>
+<tr>
+<td>
+   Property operating income as a percent of total revenue
+  </td>
+<td>
+   64.1%
+  </td>
+<td>
+   63.6%
+  </td>
+<td>
+   63.6%
+  </td>
+</tr>
+<tr>
+<td>
+   Gross leasable square feet
+  </td>
+<td>
+   2,627
+  </td>
+<td>
+   2,605
+  </td>
+<td>
+   2,610
+  </td>
+</tr>
+</table>

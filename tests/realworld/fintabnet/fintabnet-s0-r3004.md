@@ -1,0 +1,438 @@
+<!-- source: FinTabNet s0-r3004 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   Capital in Excess
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   Deferred
+  </td>
+<td>
+   Accumulated  Other
+  </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="2">
+   Common Stock
+  </td>
+<td>
+   of Par
+  </td>
+<td>
+   Retained
+  </td>
+<td>
+   Treasury
+  </td>
+<td>
+   Stock
+  </td>
+<td>
+   Comprehensive
+  </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   Shares
+  </td>
+<td>
+   Amount
+  </td>
+<td>
+   Value
+  </td>
+<td>
+   Earnings
+  </td>
+<td>
+   Stock
+  </td>
+<td>
+   Compensation
+  </td>
+<td>
+   Income (Loss)
+  </td>
+<td>
+   Total
+  </td>
+</tr>
+<tr>
+<td>
+   Balance at October 31, 2005
+  </td>
+<td>
+   145,897
+  </td>
+<td>
+   $1,459
+  </td>
+<td>
+   $1,263,258
+  </td>
+<td>
+   $162,878
+  </td>
+<td>
+   $(199,482)
+  </td>
+<td>
+   $(1,475)
+  </td>
+<td>
+   $(16,001)
+  </td>
+<td>
+   $1,210,637
+  </td>
+</tr>
+<tr>
+<td>
+   Components of comprehensive income:
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Net income
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   24,742
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   24,742
+  </td>
+<td>
+   24,742
+  </td>
+</tr>
+<tr>
+<td>
+   Unrealized gain on investments, net of tax of $(113)
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   192
+  </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Deferred loss on cash flow hedges, net of tax of $1,174
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   (2,261)
+  </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Reclassification adjustment on deferred (gains) losses of cash flow hedges , net of tax of $(641)
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   791
+  </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Foreign currency translation adjustment
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   4,798
+  </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Accumulated other comprehensive income
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   3,520
+  </td>
+<td>
+   3,520
+  </td>
+</tr>
+<tr>
+<td>
+   Total comprehensive income
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   28,262
+  </td>
+<td>
+   28,262
+  </td>
+</tr>
+<tr>
+<td>
+   Deferred stock compensation
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   (1,475)
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   1,475
+  </td>
+<td>
+</td>
+<td>
+   —
+  </td>
+</tr>
+<tr>
+<td>
+   Stock compensation expense under SFAS123R
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   63,619
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   63,619
+  </td>
+</tr>
+<tr>
+<td>
+   Acquisition of treasury stock
+  </td>
+<td>
+   (10,029)
+  </td>
+<td>
+   (100)
+  </td>
+<td>
+   100
+  </td>
+<td>
+</td>
+<td>
+   (199,992)
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   (199,992)
+  </td>
+</tr>
+<tr>
+<td>
+   Common stock issued
+  </td>
+<td>
+   4,700
+  </td>
+<td>
+   47
+  </td>
+<td>
+   (325)
+  </td>
+<td>
+   (16,877)
+  </td>
+<td>
+   86,721
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   69,566
+  </td>
+</tr>
+<tr>
+<td>
+   Tax impact associated with exercise of assumed stock options in prior years(1)
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   (8,925)
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   (8,925)
+  </td>
+</tr>
+<tr>
+<td>
+   Balance at October 31, 2006
+  </td>
+<td>
+   140,568
+  </td>
+<td>
+   $1,406
+  </td>
+<td>
+   $1,316,252
+  </td>
+<td>
+   $170,743
+  </td>
+<td>
+   $(312,753)
+  </td>
+<td>
+   $—
+  </td>
+<td>
+   $(12,481)
+  </td>
+<td>
+   $1,163,167
+  </td>
+</tr>
+</table>

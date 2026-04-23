@@ -1,0 +1,175 @@
+<!-- source: FinTabNet s0-r3317 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="4">
+   Qualified and Non-qualified Pension Benefits
+  </td>
+<td colspan="2">
+   Postretirement
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="2">
+   United States
+  </td>
+<td colspan="2">
+   International
+  </td>
+<td colspan="2">
+   Benefits
+  </td>
+</tr>
+<tr>
+<td>
+   (Millions)
+  </td>
+<td>
+   2015
+  </td>
+<td>
+   2014
+  </td>
+<td>
+   2015
+  </td>
+<td>
+   2014
+  </td>
+<td>
+   2015
+  </td>
+<td>
+   2014
+  </td>
+</tr>
+<tr>
+<td>
+   Amounts recognized in the Consolidated Balance Sheet as of Dec. 31,
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Non-current assets
+  </td>
+<td>
+   $3
+  </td>
+<td>
+   $3
+  </td>
+<td>
+   $185
+  </td>
+<td>
+   $43
+  </td>
+<td>
+   $—
+  </td>
+<td>
+   $—
+  </td>
+</tr>
+<tr>
+<td>
+   Accrued benefit cost
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Current liabilities
+  </td>
+<td>
+   (47)
+  </td>
+<td>
+   (46)
+  </td>
+<td>
+   (10)
+  </td>
+<td>
+   (10)
+  </td>
+<td>
+   (3)
+  </td>
+<td>
+   (4)
+  </td>
+</tr>
+<tr>
+<td>
+   Non-current liabilities
+  </td>
+<td>
+   (1,846)
+  </td>
+<td>
+   (1,766)
+  </td>
+<td>
+   (828)
+  </td>
+<td>
+   (1,055)
+  </td>
+<td>
+   (846)
+  </td>
+<td>
+   (1,022)
+  </td>
+</tr>
+<tr>
+<td>
+   Ending balance
+  </td>
+<td>
+   $(1,890)
+  </td>
+<td>
+   $(1,809)
+  </td>
+<td>
+   $(653)
+  </td>
+<td>
+   $(1,022)
+  </td>
+<td>
+   $(849)
+  </td>
+<td>
+   $(1,026)
+  </td>
+</tr>
+</table>

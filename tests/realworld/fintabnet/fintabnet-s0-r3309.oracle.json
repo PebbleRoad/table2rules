@@ -1,0 +1,439 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$1,461",
+    "$1,493",
+    "$1,665",
+    "$4,619",
+    "$4,838",
+    "$8,489",
+    "$8,515",
+    "$909",
+    "$936",
+    "$941",
+    "(Millions, except Employees)",
+    "1,502",
+    "1,531",
+    "1,647",
+    "1,798",
+    "104",
+    "112",
+    "15,027",
+    "15,268",
+    "15,859",
+    "150",
+    "17,642",
+    "17,854",
+    "172",
+    "18,417",
+    "184",
+    "20,504",
+    "20,506",
+    "20,563",
+    "2013",
+    "2014",
+    "2015",
+    "249",
+    "284",
+    "288",
+    "290",
+    "34,719",
+    "35,581",
+    "35,973",
+    "499",
+    "570",
+    "88,667",
+    "89,446",
+    "89,800",
+    "Asia Pacific",
+    "Capital Spending",
+    "Employees as of December 31,",
+    "Europe, Middle East and Africa",
+    "Latin America and Canada",
+    "Property, Plant and Equipment - net",
+    "Total Company",
+    "United States",
+    "as of December 31,"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "(Millions, except Employees)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Employees as of December 31,"
+      ],
+      "value": "2015"
+    },
+    {
+      "row": [],
+      "col": [
+        "Employees as of December 31,"
+      ],
+      "value": "2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Employees as of December 31,"
+      ],
+      "value": "2013"
+    },
+    {
+      "row": [],
+      "col": [
+        "Capital Spending"
+      ],
+      "value": "2015"
+    },
+    {
+      "row": [],
+      "col": [
+        "Capital Spending"
+      ],
+      "value": "2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Capital Spending"
+      ],
+      "value": "2013"
+    },
+    {
+      "row": [],
+      "col": [
+        "Property, Plant and Equipment - net",
+        "as of December 31,"
+      ],
+      "value": "2015"
+    },
+    {
+      "row": [],
+      "col": [
+        "Property, Plant and Equipment - net",
+        "as of December 31,"
+      ],
+      "value": "2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "United States"
+    },
+    {
+      "row": [],
+      "col": [
+        "Employees as of December 31,"
+      ],
+      "value": "35,973"
+    },
+    {
+      "row": [],
+      "col": [
+        "Employees as of December 31,"
+      ],
+      "value": "35,581"
+    },
+    {
+      "row": [],
+      "col": [
+        "Employees as of December 31,"
+      ],
+      "value": "34,719"
+    },
+    {
+      "row": [],
+      "col": [
+        "Capital Spending"
+      ],
+      "value": "$936"
+    },
+    {
+      "row": [],
+      "col": [
+        "Capital Spending"
+      ],
+      "value": "$909"
+    },
+    {
+      "row": [],
+      "col": [
+        "Capital Spending"
+      ],
+      "value": "$941"
+    },
+    {
+      "row": [],
+      "col": [
+        "Property, Plant and Equipment - net",
+        "as of December 31,"
+      ],
+      "value": "$4,838"
+    },
+    {
+      "row": [],
+      "col": [
+        "Property, Plant and Equipment - net",
+        "as of December 31,"
+      ],
+      "value": "$4,619"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Asia Pacific"
+    },
+    {
+      "row": [],
+      "col": [
+        "Employees as of December 31,"
+      ],
+      "value": "17,642"
+    },
+    {
+      "row": [],
+      "col": [
+        "Employees as of December 31,"
+      ],
+      "value": "17,854"
+    },
+    {
+      "row": [],
+      "col": [
+        "Employees as of December 31,"
+      ],
+      "value": "18,417"
+    },
+    {
+      "row": [],
+      "col": [
+        "Capital Spending"
+      ],
+      "value": "172"
+    },
+    {
+      "row": [],
+      "col": [
+        "Capital Spending"
+      ],
+      "value": "184"
+    },
+    {
+      "row": [],
+      "col": [
+        "Capital Spending"
+      ],
+      "value": "284"
+    },
+    {
+      "row": [],
+      "col": [
+        "Property, Plant and Equipment - net",
+        "as of December 31,"
+      ],
+      "value": "1,647"
+    },
+    {
+      "row": [],
+      "col": [
+        "Property, Plant and Equipment - net",
+        "as of December 31,"
+      ],
+      "value": "1,798"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Europe, Middle East and Africa"
+    },
+    {
+      "row": [],
+      "col": [
+        "Employees as of December 31,"
+      ],
+      "value": "20,563"
+    },
+    {
+      "row": [],
+      "col": [
+        "Employees as of December 31,"
+      ],
+      "value": "20,506"
+    },
+    {
+      "row": [],
+      "col": [
+        "Employees as of December 31,"
+      ],
+      "value": "20,504"
+    },
+    {
+      "row": [],
+      "col": [
+        "Capital Spending"
+      ],
+      "value": "249"
+    },
+    {
+      "row": [],
+      "col": [
+        "Capital Spending"
+      ],
+      "value": "288"
+    },
+    {
+      "row": [],
+      "col": [
+        "Capital Spending"
+      ],
+      "value": "290"
+    },
+    {
+      "row": [],
+      "col": [
+        "Property, Plant and Equipment - net",
+        "as of December 31,"
+      ],
+      "value": "1,531"
+    },
+    {
+      "row": [],
+      "col": [
+        "Property, Plant and Equipment - net",
+        "as of December 31,"
+      ],
+      "value": "1,502"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Latin America and Canada"
+    },
+    {
+      "row": [],
+      "col": [
+        "Employees as of December 31,"
+      ],
+      "value": "15,268"
+    },
+    {
+      "row": [],
+      "col": [
+        "Employees as of December 31,"
+      ],
+      "value": "15,859"
+    },
+    {
+      "row": [],
+      "col": [
+        "Employees as of December 31,"
+      ],
+      "value": "15,027"
+    },
+    {
+      "row": [],
+      "col": [
+        "Capital Spending"
+      ],
+      "value": "104"
+    },
+    {
+      "row": [],
+      "col": [
+        "Capital Spending"
+      ],
+      "value": "112"
+    },
+    {
+      "row": [],
+      "col": [
+        "Capital Spending"
+      ],
+      "value": "150"
+    },
+    {
+      "row": [],
+      "col": [
+        "Property, Plant and Equipment - net",
+        "as of December 31,"
+      ],
+      "value": "499"
+    },
+    {
+      "row": [],
+      "col": [
+        "Property, Plant and Equipment - net",
+        "as of December 31,"
+      ],
+      "value": "570"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total Company"
+    },
+    {
+      "row": [],
+      "col": [
+        "Employees as of December 31,"
+      ],
+      "value": "89,446"
+    },
+    {
+      "row": [],
+      "col": [
+        "Employees as of December 31,"
+      ],
+      "value": "89,800"
+    },
+    {
+      "row": [],
+      "col": [
+        "Employees as of December 31,"
+      ],
+      "value": "88,667"
+    },
+    {
+      "row": [],
+      "col": [
+        "Capital Spending"
+      ],
+      "value": "$1,461"
+    },
+    {
+      "row": [],
+      "col": [
+        "Capital Spending"
+      ],
+      "value": "$1,493"
+    },
+    {
+      "row": [],
+      "col": [
+        "Capital Spending"
+      ],
+      "value": "$1,665"
+    },
+    {
+      "row": [],
+      "col": [
+        "Property, Plant and Equipment - net",
+        "as of December 31,"
+      ],
+      "value": "$8,515"
+    },
+    {
+      "row": [],
+      "col": [
+        "Property, Plant and Equipment - net",
+        "as of December 31,"
+      ],
+      "value": "$8,489"
+    }
+  ]
+}

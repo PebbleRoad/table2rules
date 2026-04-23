@@ -1,0 +1,228 @@
+<!-- source: FinTabNet s0-r2937 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td>
+   RestrictedStock Units
+  </td>
+<td>
+   WeightedAverageGrant DateFair Value
+  </td>
+<td>
+   WeightedAverageRemainingContractualLife (In Years)
+  </td>
+<td>
+   AggregateFairValue
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="4">
+   (in thousands, except per share and life amounts)
+  </td>
+</tr>
+<tr>
+<td>
+   Balance at October 31, 2012
+  </td>
+<td>
+   3,920
+  </td>
+<td>
+   $27.18
+  </td>
+<td>
+   1.52
+  </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Granted
+  </td>
+<td>
+   1,680
+  </td>
+<td>
+   $35.27
+  </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Vested(1)
+  </td>
+<td>
+   (1,476)
+  </td>
+<td>
+   $25.35
+  </td>
+<td>
+</td>
+<td>
+   $52,234
+  </td>
+</tr>
+<tr>
+<td>
+   Forfeited
+  </td>
+<td>
+   (141)
+  </td>
+<td>
+   $28.36
+  </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Balance at October 31, 2013
+  </td>
+<td>
+   3,983
+  </td>
+<td>
+   $31.23
+  </td>
+<td>
+   1.51
+  </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Granted
+  </td>
+<td>
+   1,645
+  </td>
+<td>
+   $39.03
+  </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Vested(1)
+  </td>
+<td>
+   (1,564)
+  </td>
+<td>
+   $29.07
+  </td>
+<td>
+</td>
+<td>
+   $60,815
+  </td>
+</tr>
+<tr>
+<td>
+   Forfeited
+  </td>
+<td>
+   (117)
+  </td>
+<td>
+   $32.95
+  </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Balance at October 31, 2014
+  </td>
+<td>
+   3,947
+  </td>
+<td>
+   $35.29
+  </td>
+<td>
+   1.53
+  </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Granted
+  </td>
+<td>
+   1,707
+  </td>
+<td>
+   $48.13
+  </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Vested(1)
+  </td>
+<td>
+   (1,522)
+  </td>
+<td>
+   $33.05
+  </td>
+<td>
+</td>
+<td>
+   $73,677
+  </td>
+</tr>
+<tr>
+<td>
+   Forfeited
+  </td>
+<td>
+   (204)
+  </td>
+<td>
+   $37.68
+  </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Balance at October 31, 2015
+  </td>
+<td>
+   3,928
+  </td>
+<td>
+   $41.61
+  </td>
+<td>
+   1.54
+  </td>
+<td>
+</td>
+</tr>
+</table>

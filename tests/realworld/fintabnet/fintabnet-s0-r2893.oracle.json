@@ -1,0 +1,472 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$ Change",
+    "$(0.5)",
+    "$0.3",
+    "$1.6",
+    "$1.9",
+    "$11.1",
+    "$18.1",
+    "$2.1",
+    "$29.2",
+    "$4.8",
+    "$6.3",
+    "% Change",
+    "(0.1)",
+    "(1.7)",
+    "(1.9)",
+    "(15)%",
+    "(2.0)",
+    "(24)%",
+    "(dollars in millions)",
+    "0%",
+    "0.0",
+    "0.2",
+    "0.3",
+    "1,050%",
+    "1,900%",
+    "1.7",
+    "11.0",
+    "147%",
+    "163%",
+    "18.5",
+    "19%",
+    "2.1",
+    "2.2",
+    "2.3",
+    "2.4",
+    "2011",
+    "2011 to 2012",
+    "2012",
+    "2012 to 2013",
+    "2013",
+    "213%",
+    "253%",
+    "4.3",
+    "4.5",
+    "5.1",
+    "6.0",
+    "7.5",
+    "76%",
+    "96%",
+    "Foreign currency exchange gain (loss)",
+    "Gain (loss) on assets related to executive deferred compensation plan",
+    "Interest expense",
+    "Interest income",
+    "Other, net",
+    "Total",
+    "Year Ended October 31,"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Interest income"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2013",
+        "(dollars in millions)"
+      ],
+      "value": "$1.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2012",
+        "(dollars in millions)"
+      ],
+      "value": "$1.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2011",
+        "(dollars in millions)"
+      ],
+      "value": "$2.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2012 to 2013",
+        "(dollars in millions)"
+      ],
+      "value": "$0.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2012 to 2013",
+        "(dollars in millions)"
+      ],
+      "value": "19%"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2011 to 2012",
+        "(dollars in millions)"
+      ],
+      "value": "$(0.5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2011 to 2012",
+        "(dollars in millions)"
+      ],
+      "value": "(24)%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Interest expense"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2013",
+        "(dollars in millions)"
+      ],
+      "value": "(1.7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2012",
+        "(dollars in millions)"
+      ],
+      "value": "(2.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2011",
+        "(dollars in millions)"
+      ],
+      "value": "(0.1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2012 to 2013",
+        "(dollars in millions)"
+      ],
+      "value": "0.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2012 to 2013",
+        "(dollars in millions)"
+      ],
+      "value": "(15)%"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2011 to 2012",
+        "(dollars in millions)"
+      ],
+      "value": "(1.9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2011 to 2012",
+        "(dollars in millions)"
+      ],
+      "value": "1,900%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Gain (loss) on assets related to executive deferred compensation plan"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2013",
+        "(dollars in millions)"
+      ],
+      "value": "18.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2012",
+        "(dollars in millions)"
+      ],
+      "value": "7.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2011",
+        "(dollars in millions)"
+      ],
+      "value": "2.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2012 to 2013",
+        "(dollars in millions)"
+      ],
+      "value": "11.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2012 to 2013",
+        "(dollars in millions)"
+      ],
+      "value": "147%"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2011 to 2012",
+        "(dollars in millions)"
+      ],
+      "value": "5.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2011 to 2012",
+        "(dollars in millions)"
+      ],
+      "value": "213%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Foreign currency exchange gain (loss)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2013",
+        "(dollars in millions)"
+      ],
+      "value": "6.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2012",
+        "(dollars in millions)"
+      ],
+      "value": "1.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2011",
+        "(dollars in millions)"
+      ],
+      "value": "1.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2012 to 2013",
+        "(dollars in millions)"
+      ],
+      "value": "4.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2012 to 2013",
+        "(dollars in millions)"
+      ],
+      "value": "253%"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2011 to 2012",
+        "(dollars in millions)"
+      ],
+      "value": "0.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2011 to 2012",
+        "(dollars in millions)"
+      ],
+      "value": "0%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Other, net"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2013",
+        "(dollars in millions)"
+      ],
+      "value": "4.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2012",
+        "(dollars in millions)"
+      ],
+      "value": "2.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2011",
+        "(dollars in millions)"
+      ],
+      "value": "0.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2012 to 2013",
+        "(dollars in millions)"
+      ],
+      "value": "2.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2012 to 2013",
+        "(dollars in millions)"
+      ],
+      "value": "96%"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2011 to 2012",
+        "(dollars in millions)"
+      ],
+      "value": "2.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2011 to 2012",
+        "(dollars in millions)"
+      ],
+      "value": "1,050%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2013",
+        "(dollars in millions)"
+      ],
+      "value": "$29.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2012",
+        "(dollars in millions)"
+      ],
+      "value": "$11.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2011",
+        "(dollars in millions)"
+      ],
+      "value": "$6.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2012 to 2013",
+        "(dollars in millions)"
+      ],
+      "value": "$18.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2012 to 2013",
+        "(dollars in millions)"
+      ],
+      "value": "163%"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2011 to 2012",
+        "(dollars in millions)"
+      ],
+      "value": "$4.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2011 to 2012",
+        "(dollars in millions)"
+      ],
+      "value": "76%"
+    }
+  ]
+}

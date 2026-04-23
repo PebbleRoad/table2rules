@@ -55,30 +55,60 @@ Meta (not a Crestan & Pantel class):
 
 ### Structural invariants enforced by the pipeline
 
-Three universal rules govern whether a table emits rules-format output.
+Five universal rules govern whether a table emits rules-format output.
 Violating any of them forces flat fallback — never partial rules.
 
-1. **Row-0 promotion requires structural contrast.** Converting a row
-   of `<td>`s into a header row needs at least one subsequent multi-cell
-   row with at least one empty cell. Without that contrast there is no
-   structural evidence that row 0 plays a different role from the rows
-   below it. Enforced in `simple_repair.Fix 4` and `grid_parser` step 3.
+1. **Header-block boundary is geometrically determined.** The header
+   block is the maximal leading prefix of rows that ends at the first
+   *data row*, where a data row has (a) col 0 non-empty, (b) ≥ 2
+   non-empty logical cells, (c) every logical position filled by an
+   origin cell at this row (no rowspan copy from above), and (d) all
+   origin cells at `rowspan == colspan == 1`. Rows in the prefix may
+   carry empty cells only at *stub-column* positions — columns that
+   are empty in every header row AND non-empty in a strict majority
+   of non-divider body rows. The strict-majority count lets the rule
+   accept tables with a trailing unlabeled summary row (e.g., a
+   financial totals line where the row-label cell is intentionally
+   blank) while still refusing to promote a sparsely-filled data
+   column. Enforced in `simple_repair.detect_header_block`, used by
+   Fix 4 and `grid_parser` Step 3.
 
-2. **Rules mode requires every rule to carry at least one header.** A
+2. **Row-group dividers propagate as ancestors within their extent.**
+   A body row whose single non-empty logical cell sits in a stub
+   column is a row-group header (the FinTabNet "2014" year-label
+   pattern). It is promoted to `<th scope="rowgroup">` and its text
+   prepends to `row_path` for subsequent body cells — but only within
+   its *extent*. For `rowspan > 1`, the extent is the rowspan range;
+   for `rowspan == 1` (divider-style), it runs until the next
+   rowgroup origin in the same column. The `rowspan == 1` case is
+   structurally distinct from an explicit-rowspan peer header (North
+   / South with `rowspan="2"` each) — both can coexist and the extent
+   rule keeps them from nesting incorrectly. Enforced in
+   `simple_repair.Fix 4` (promotion) and
+   `maze_pathfinder.find_headers_for_cell` (extent check).
+
+3. **Rules mode requires every rule to carry at least one header.** A
    rule with zero headers is indistinguishable from flat text — the
    rules format implies a header relationship that doesn't exist
    otherwise. Enforced in `quality_gate.low_header_attachment` (fires
    universally at `header_ratio < 1.0`, not on a threshold).
 
-3. **Section-title rows are not header rows.** A `<tr>` whose sole cell
+4. **Section-title rows are not header rows.** A `<tr>` whose sole cell
    is a `<th>` with colspan covering the grid width is a section label,
    not a header or data row. First-row instances are moved to
    `<caption>`; mid-table instances are decomposed. Enforced in
    `simple_repair.Fix 1` (first row) and `Fix 1b` (mid-table).
 
+5. **Column-header detection ignores row-scoped `<th>`.** A
+   `<th scope="row">` labels a row, not a column, so it cannot make a
+   body row qualify as the primary column-header row — otherwise a
+   single summary row like "Total" (promoted by Fix 5) could be
+   mistaken for the table header. Enforced in `grid_parser` Step 1.
+
 These rules are all deterministic properties of the markup — cell type,
-span values, empty-vs-non-empty, row count. No content analysis, no
-percentage thresholds.
+span values, empty-vs-non-empty, row count, per-column fill patterns.
+No content analysis, no percentage thresholds; the only comparisons are
+integer counts (row totals, "more than", strict majority).
 
 ## Layer 2 — Correctness (oracle)
 
@@ -87,7 +117,8 @@ percentage thresholds.
 semantically correct rules — right headers mapped to right values?"
 
 - Fixtures: `tests/realworld/<dataset>/*.md` + `*.oracle.json` pairs
-  (currently 200 PubTabNet tables from PubMed Central, CDLA-Permissive-1.0)
+  (currently 200 PubTabNet tables from PubMed Central and 200 FinTabNet
+  tables from IBM 10-K filings, both CDLA-Permissive-1.0)
 - Oracles are computed independently from the source HTML structure
   (standalone BeautifulSoup walker; does NOT call table2rules, so the
   test is not circular)
@@ -106,6 +137,7 @@ Add a fixture here when:
 Regenerate the fixtures with:
 ```
 python scripts/build_pubtabnet_fixtures.py
+python scripts/build_fintabnet_fixtures.py
 ```
 
 See [tests/realworld/DATA_SOURCES.md](realworld/DATA_SOURCES.md) for
@@ -142,7 +174,7 @@ Add an operator here when:
 | **Oracle** | exact gold text | per-cell triple from source | per-cell triple (same as Layer 2) |
 | **Assertion** | equality | `oracle ⊆ emitted ⊆ source` | `emitted ⊆ source` |
 | **Primary failure mode it catches** | output drift | misattribution / drop | fabrication |
-| **Fixture count (current)** | 57 | 200 | 200 × ~10 operators = ~2000 |
+| **Fixture count (current)** | 57 | 400 (200 PubTabNet + 200 FinTabNet) | 400 × ~10 operators = ~4000 |
 
 Together they give: "we don't drift, we're correct when we can be, and
 we never fabricate when we can't."
@@ -168,17 +200,11 @@ layers wouldn't:
 
 ## Future dataset coverage
 
-The Layer-2 / Layer-3 real-world corpus is currently PubMed-only. The
-following datasets are MIT-compatible candidates for broadening structural
-coverage to other domains — listed in priority order:
-
-- **FinTabNet** (IBM, CDLA-Permissive-1.0, ~112k tables). Financial 10-K
-  report tables. Exercises deeply nested row stubs, parenthesized negative
-  numbers, footnote markers, multi-year column groups. Available via
-  HuggingFace (`apoidea/fintabnet-html` or `katphlab/fintabnet-pubtables-full`).
-  Estimated effort: 1 session — the generator pattern from
-  [../scripts/build_pubtabnet_fixtures.py](../scripts/build_pubtabnet_fixtures.py)
-  ports directly.
+The Layer-2 / Layer-3 real-world corpus now spans PubMed scientific
+tables (PubTabNet, 200 fixtures) and IBM 10-K financial tables
+(FinTabNet, 200 fixtures). The following datasets are MIT-compatible
+candidates for broadening structural coverage further — listed in
+priority order:
 
 - **SynthTabNet** (IBM, CDLA-Permissive-1.0). Synthetic but
   MIT-safe — useful for controlled stress (specific structural knobs:

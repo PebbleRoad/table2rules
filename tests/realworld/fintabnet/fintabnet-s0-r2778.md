@@ -1,0 +1,269 @@
+<!-- source: FinTabNet s0-r2778 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td>
+   2011
+  </td>
+<td>
+   2010
+  </td>
+<td>
+   2009
+  </td>
+<td>
+   2008
+  </td>
+<td>
+   2007
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="5">
+   (In thousands)
+  </td>
+</tr>
+<tr>
+<td>
+   Net income
+  </td>
+<td>
+   $149,612
+  </td>
+<td>
+   $128,237
+  </td>
+<td>
+   $103,872
+  </td>
+<td>
+   $135,153
+  </td>
+<td>
+   $201,127
+  </td>
+</tr>
+<tr>
+<td>
+   Net income attributable to noncontrolling interests
+  </td>
+<td>
+   (5,695)
+  </td>
+<td>
+   (5,447)
+  </td>
+<td>
+   (5,568)
+  </td>
+<td>
+   (5,366)
+  </td>
+<td>
+   (5,590)
+  </td>
+</tr>
+<tr>
+<td>
+   Gain on sale of real estate
+  </td>
+<td>
+   (15,075)
+  </td>
+<td>
+   (1,410)
+  </td>
+<td>
+   (1,298)
+  </td>
+<td>
+   (12,572)
+  </td>
+<td>
+   (94,768)
+  </td>
+</tr>
+<tr>
+<td>
+   Gain on deconsolidation of VIE
+  </td>
+<td>
+   (2,026)
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+</tr>
+<tr>
+<td>
+   Depreciation and amortization of real estate assets
+  </td>
+<td>
+   113,188
+  </td>
+<td>
+   107,187
+  </td>
+<td>
+   103,104
+  </td>
+<td>
+   101,450
+  </td>
+<td>
+   95,565
+  </td>
+</tr>
+<tr>
+<td>
+   Amortization of initial direct costs of leases
+  </td>
+<td>
+   10,432
+  </td>
+<td>
+   9,552
+  </td>
+<td>
+   9,821
+  </td>
+<td>
+   8,771
+  </td>
+<td>
+   8,473
+  </td>
+</tr>
+<tr>
+<td>
+   Depreciation of joint venture real estate assets
+  </td>
+<td>
+   1,771
+  </td>
+<td>
+   1,499
+  </td>
+<td>
+   1,388
+  </td>
+<td>
+   1,331
+  </td>
+<td>
+   1,241
+  </td>
+</tr>
+<tr>
+<td>
+   Funds from operations
+  </td>
+<td>
+   252,207
+  </td>
+<td>
+   239,618
+  </td>
+<td>
+   211,319
+  </td>
+<td>
+   228,767
+  </td>
+<td>
+   206,048
+  </td>
+</tr>
+<tr>
+<td>
+   Dividends on preferred shares
+  </td>
+<td>
+   (541)
+  </td>
+<td>
+   (541)
+  </td>
+<td>
+   (541)
+  </td>
+<td>
+   (541)
+  </td>
+<td>
+   (442)
+  </td>
+</tr>
+<tr>
+<td>
+   Income attributable to operating partnership units
+  </td>
+<td>
+   981
+  </td>
+<td>
+   980
+  </td>
+<td>
+   974
+  </td>
+<td>
+   950
+  </td>
+<td>
+   1,156
+  </td>
+</tr>
+<tr>
+<td>
+   Income attributable to unvested shares
+  </td>
+<td>
+   (1,071)
+  </td>
+<td>
+   (847)
+  </td>
+<td>
+   (687)
+  </td>
+<td>
+   (779)
+  </td>
+<td>
+   (725)
+  </td>
+</tr>
+<tr>
+<td>
+   Funds from operations available for common shareholders
+  </td>
+<td>
+   $251,576
+  </td>
+<td>
+   $239,210
+  </td>
+<td>
+   $211,065
+  </td>
+<td>
+   $228,397
+  </td>
+<td>
+   $206,037
+  </td>
+</tr>
+</table>

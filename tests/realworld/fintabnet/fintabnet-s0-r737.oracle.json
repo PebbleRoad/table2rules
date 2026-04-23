@@ -1,0 +1,913 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$(1,173)",
+    "$(985)",
+    "$1,179",
+    "$\u2014",
+    "(10)",
+    "(113)",
+    "(118)",
+    "(123)",
+    "(156)",
+    "(16)",
+    "(17)",
+    "(20)",
+    "(200)",
+    "(204)",
+    "(3)",
+    "(309)",
+    "(331)",
+    "(353)",
+    "(40)",
+    "(44)",
+    "(45)",
+    "(47)",
+    "(502)",
+    "(6)",
+    "(632)",
+    "(7)",
+    "(78)",
+    "(8)",
+    "(81)",
+    "(87)",
+    "(93)",
+    "1",
+    "10",
+    "116",
+    "127",
+    "17",
+    "193",
+    "2",
+    "226",
+    "25",
+    "279",
+    "284",
+    "3",
+    "31",
+    "377",
+    "38",
+    "40",
+    "426",
+    "46",
+    "51",
+    "58",
+    "6",
+    "69",
+    "7",
+    "74",
+    "85",
+    "99",
+    "Amounts excluded from the effectiveness assessment of cash flow hedges",
+    "Amounts excluded from the effectiveness assessment of net investment hedges",
+    "As Restated",
+    "Before Tax Amount",
+    "December 29,2018",
+    "December 30,2017",
+    "December 31,2016",
+    "Foreign currency translation adjustments",
+    "Net actuarial gains/(losses) arising during the period",
+    "Net deferred gains/(losses) on cash flow hedges",
+    "Net deferred gains/(losses) on net investment hedges",
+    "Net deferred losses/(gains) on cash flow hedges reclassified to net income/(loss)",
+    "Net deferred losses/(gains) on net investment hedges reclassified to net income/(loss)",
+    "Net of Tax Amount",
+    "Net postemployment benefit losses/(gains) reclassified to net income/(loss)",
+    "Prior service credits/(costs) arising during the period",
+    "Tax",
+    "\u2014"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Foreign currency translation adjustments"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 29,2018",
+        "Before Tax Amount"
+      ],
+      "value": "$(1,173)"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 29,2018",
+        "Tax"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 29,2018",
+        "Net of Tax Amount"
+      ],
+      "value": "$(1,173)"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 30,2017",
+        "Before Tax Amount"
+      ],
+      "value": "$1,179"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 30,2017",
+        "Tax"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 30,2017",
+        "Net of Tax Amount"
+      ],
+      "value": "$1,179"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 31,2016",
+        "Before Tax Amount"
+      ],
+      "value": "$(985)"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 31,2016",
+        "Tax"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 31,2016",
+        "Net of Tax Amount"
+      ],
+      "value": "$(985)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Net deferred gains/(losses) on net investment hedges"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 29,2018",
+        "Before Tax Amount"
+      ],
+      "value": "377"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 29,2018",
+        "Tax"
+      ],
+      "value": "(93)"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 29,2018",
+        "Net of Tax Amount"
+      ],
+      "value": "284"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 30,2017",
+        "Before Tax Amount"
+      ],
+      "value": "(632)"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 30,2017",
+        "Tax"
+      ],
+      "value": "279"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 30,2017",
+        "Net of Tax Amount"
+      ],
+      "value": "(353)"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 31,2016",
+        "Before Tax Amount"
+      ],
+      "value": "426"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 31,2016",
+        "Tax"
+      ],
+      "value": "(200)"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 31,2016",
+        "Net of Tax Amount"
+      ],
+      "value": "226"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Amounts excluded from the effectiveness assessment of net investment hedges"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 29,2018",
+        "Before Tax Amount"
+      ],
+      "value": "10"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 29,2018",
+        "Tax"
+      ],
+      "value": "(3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 29,2018",
+        "Net of Tax Amount"
+      ],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 30,2017",
+        "Before Tax Amount"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 30,2017",
+        "Tax"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 30,2017",
+        "Net of Tax Amount"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 31,2016",
+        "Before Tax Amount"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 31,2016",
+        "Tax"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 31,2016",
+        "Net of Tax Amount"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Net deferred losses/(gains) on net investment hedges reclassified to net income/(loss)"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 29,2018",
+        "Before Tax Amount"
+      ],
+      "value": "(10)"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 29,2018",
+        "Tax"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 29,2018",
+        "Net of Tax Amount"
+      ],
+      "value": "(7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 30,2017",
+        "Before Tax Amount"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 30,2017",
+        "Tax"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 30,2017",
+        "Net of Tax Amount"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 31,2016",
+        "Before Tax Amount"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 31,2016",
+        "Tax"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 31,2016",
+        "Net of Tax Amount"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Net deferred gains/(losses) on cash flow hedges"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 29,2018",
+        "Before Tax Amount"
+      ],
+      "value": "116"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 29,2018",
+        "Tax"
+      ],
+      "value": "(17)"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 29,2018",
+        "Net of Tax Amount"
+      ],
+      "value": "99"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 30,2017",
+        "Before Tax Amount"
+      ],
+      "value": "(123)"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 30,2017",
+        "Tax"
+      ],
+      "value": "10"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 30,2017",
+        "Net of Tax Amount"
+      ],
+      "value": "(113)"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 31,2016",
+        "Before Tax Amount"
+      ],
+      "value": "40"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 31,2016",
+        "Tax"
+      ],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 31,2016",
+        "Net of Tax Amount"
+      ],
+      "value": "46"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Amounts excluded from the effectiveness assessment of cash flow hedges"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 29,2018",
+        "Before Tax Amount"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 29,2018",
+        "Tax"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 29,2018",
+        "Net of Tax Amount"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 30,2017",
+        "Before Tax Amount"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 30,2017",
+        "Tax"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 30,2017",
+        "Net of Tax Amount"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 31,2016",
+        "Before Tax Amount"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 31,2016",
+        "Tax"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 31,2016",
+        "Net of Tax Amount"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Net deferred losses/(gains) on cash flow hedges reclassified to net income/(loss)"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 29,2018",
+        "Before Tax Amount"
+      ],
+      "value": "(45)"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 29,2018",
+        "Tax"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 29,2018",
+        "Net of Tax Amount"
+      ],
+      "value": "(44)"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 30,2017",
+        "Before Tax Amount"
+      ],
+      "value": "85"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 30,2017",
+        "Tax"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 30,2017",
+        "Net of Tax Amount"
+      ],
+      "value": "85"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 31,2016",
+        "Before Tax Amount"
+      ],
+      "value": "(81)"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 31,2016",
+        "Tax"
+      ],
+      "value": "(6)"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 31,2016",
+        "Net of Tax Amount"
+      ],
+      "value": "(87)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Net actuarial gains/(losses) arising during the period"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 29,2018",
+        "Before Tax Amount"
+      ],
+      "value": "74"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 29,2018",
+        "Tax"
+      ],
+      "value": "(16)"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 29,2018",
+        "Net of Tax Amount"
+      ],
+      "value": "58"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 30,2017",
+        "Before Tax Amount"
+      ],
+      "value": "116"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 30,2017",
+        "Tax"
+      ],
+      "value": "(47)"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 30,2017",
+        "Net of Tax Amount"
+      ],
+      "value": "69"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 31,2016",
+        "Before Tax Amount"
+      ],
+      "value": "(78)"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 31,2016",
+        "Tax"
+      ],
+      "value": "38"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 31,2016",
+        "Net of Tax Amount"
+      ],
+      "value": "(40)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Prior service credits/(costs) arising during the period"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 29,2018",
+        "Before Tax Amount"
+      ],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 29,2018",
+        "Tax"
+      ],
+      "value": "(3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 29,2018",
+        "Net of Tax Amount"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 30,2017",
+        "Before Tax Amount"
+      ],
+      "value": "25"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 30,2017",
+        "Tax"
+      ],
+      "value": "(8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 30,2017",
+        "Net of Tax Amount"
+      ],
+      "value": "17"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 31,2016",
+        "Before Tax Amount"
+      ],
+      "value": "51"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 31,2016",
+        "Tax"
+      ],
+      "value": "(20)"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 31,2016",
+        "Net of Tax Amount"
+      ],
+      "value": "31"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Net postemployment benefit losses/(gains) reclassified to net income/(loss)"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 29,2018",
+        "Before Tax Amount"
+      ],
+      "value": "(156)"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 29,2018",
+        "Tax"
+      ],
+      "value": "38"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 29,2018",
+        "Net of Tax Amount"
+      ],
+      "value": "(118)"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 30,2017",
+        "Before Tax Amount"
+      ],
+      "value": "(502)"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 30,2017",
+        "Tax"
+      ],
+      "value": "193"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 30,2017",
+        "Net of Tax Amount"
+      ],
+      "value": "(309)"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 31,2016",
+        "Before Tax Amount"
+      ],
+      "value": "(331)"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 31,2016",
+        "Tax"
+      ],
+      "value": "127"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated",
+        "December 31,2016",
+        "Net of Tax Amount"
+      ],
+      "value": "(204)"
+    }
+  ]
+}

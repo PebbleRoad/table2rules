@@ -1,0 +1,579 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "1,069",
+    "1,127",
+    "1,317,368",
+    "1,957",
+    "102",
+    "12,749",
+    "121,508",
+    "151",
+    "17,095",
+    "179,243",
+    "184,541",
+    "2",
+    "20",
+    "202,204",
+    "206,911",
+    "21,196",
+    "22,186",
+    "224,904",
+    "27,258",
+    "3,006",
+    "3,432",
+    "3,909",
+    "32",
+    "392,020",
+    "395,522",
+    "4,735",
+    "408",
+    "410",
+    "411",
+    "413",
+    "471,347",
+    "49",
+    "5,275",
+    "524",
+    "549,664",
+    "6,906",
+    "612",
+    "63",
+    "64,372",
+    "705",
+    "712",
+    "729,413",
+    "8,404",
+    "8,447",
+    "82,243",
+    "89",
+    "9",
+    "98",
+    "Asia Pacific",
+    "Franchised/Licensed",
+    "Managed",
+    "North American Full-Service",
+    "North American Limited-Service",
+    "Other (1)",
+    "Other International",
+    "Owned/Leased",
+    "Properties",
+    "Rooms",
+    "Timeshare",
+    "Total",
+    "\u2014"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "North American Full-Service"
+    },
+    {
+      "row": [],
+      "col": [
+        "Managed",
+        "Properties"
+      ],
+      "value": "413"
+    },
+    {
+      "row": [],
+      "col": [
+        "Managed",
+        "Rooms"
+      ],
+      "value": "184,541"
+    },
+    {
+      "row": [],
+      "col": [
+        "Franchised/Licensed",
+        "Properties"
+      ],
+      "value": "705"
+    },
+    {
+      "row": [],
+      "col": [
+        "Franchised/Licensed",
+        "Rooms"
+      ],
+      "value": "202,204"
+    },
+    {
+      "row": [],
+      "col": [
+        "Owned/Leased",
+        "Properties"
+      ],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Owned/Leased",
+        "Rooms"
+      ],
+      "value": "5,275"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other (1)",
+        "Properties"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other (1)",
+        "Rooms"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "Properties"
+      ],
+      "value": "1,127"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "Rooms"
+      ],
+      "value": "392,020"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "North American Limited-Service"
+    },
+    {
+      "row": [],
+      "col": [
+        "Managed",
+        "Properties"
+      ],
+      "value": "408"
+    },
+    {
+      "row": [],
+      "col": [
+        "Managed",
+        "Rooms"
+      ],
+      "value": "64,372"
+    },
+    {
+      "row": [],
+      "col": [
+        "Franchised/Licensed",
+        "Properties"
+      ],
+      "value": "3,432"
+    },
+    {
+      "row": [],
+      "col": [
+        "Franchised/Licensed",
+        "Rooms"
+      ],
+      "value": "395,522"
+    },
+    {
+      "row": [],
+      "col": [
+        "Owned/Leased",
+        "Properties"
+      ],
+      "value": "20"
+    },
+    {
+      "row": [],
+      "col": [
+        "Owned/Leased",
+        "Rooms"
+      ],
+      "value": "3,006"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other (1)",
+        "Properties"
+      ],
+      "value": "49"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other (1)",
+        "Rooms"
+      ],
+      "value": "8,447"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "Properties"
+      ],
+      "value": "3,909"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "Rooms"
+      ],
+      "value": "471,347"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Asia Pacific"
+    },
+    {
+      "row": [],
+      "col": [
+        "Managed",
+        "Properties"
+      ],
+      "value": "612"
+    },
+    {
+      "row": [],
+      "col": [
+        "Managed",
+        "Rooms"
+      ],
+      "value": "179,243"
+    },
+    {
+      "row": [],
+      "col": [
+        "Franchised/Licensed",
+        "Properties"
+      ],
+      "value": "98"
+    },
+    {
+      "row": [],
+      "col": [
+        "Franchised/Licensed",
+        "Rooms"
+      ],
+      "value": "27,258"
+    },
+    {
+      "row": [],
+      "col": [
+        "Owned/Leased",
+        "Properties"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Owned/Leased",
+        "Rooms"
+      ],
+      "value": "410"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other (1)",
+        "Properties"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other (1)",
+        "Rooms"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "Properties"
+      ],
+      "value": "712"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "Rooms"
+      ],
+      "value": "206,911"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Other International"
+    },
+    {
+      "row": [],
+      "col": [
+        "Managed",
+        "Properties"
+      ],
+      "value": "524"
+    },
+    {
+      "row": [],
+      "col": [
+        "Managed",
+        "Rooms"
+      ],
+      "value": "121,508"
+    },
+    {
+      "row": [],
+      "col": [
+        "Franchised/Licensed",
+        "Properties"
+      ],
+      "value": "411"
+    },
+    {
+      "row": [],
+      "col": [
+        "Franchised/Licensed",
+        "Rooms"
+      ],
+      "value": "82,243"
+    },
+    {
+      "row": [],
+      "col": [
+        "Owned/Leased",
+        "Properties"
+      ],
+      "value": "32"
+    },
+    {
+      "row": [],
+      "col": [
+        "Owned/Leased",
+        "Rooms"
+      ],
+      "value": "8,404"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other (1)",
+        "Properties"
+      ],
+      "value": "102"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other (1)",
+        "Rooms"
+      ],
+      "value": "12,749"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "Properties"
+      ],
+      "value": "1,069"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "Rooms"
+      ],
+      "value": "224,904"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Timeshare"
+    },
+    {
+      "row": [],
+      "col": [
+        "Managed",
+        "Properties"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Managed",
+        "Rooms"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Franchised/Licensed",
+        "Properties"
+      ],
+      "value": "89"
+    },
+    {
+      "row": [],
+      "col": [
+        "Franchised/Licensed",
+        "Rooms"
+      ],
+      "value": "22,186"
+    },
+    {
+      "row": [],
+      "col": [
+        "Owned/Leased",
+        "Properties"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Owned/Leased",
+        "Rooms"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other (1)",
+        "Properties"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other (1)",
+        "Rooms"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "Properties"
+      ],
+      "value": "89"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "Rooms"
+      ],
+      "value": "22,186"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total"
+    },
+    {
+      "row": [],
+      "col": [
+        "Managed",
+        "Properties"
+      ],
+      "value": "1,957"
+    },
+    {
+      "row": [],
+      "col": [
+        "Managed",
+        "Rooms"
+      ],
+      "value": "549,664"
+    },
+    {
+      "row": [],
+      "col": [
+        "Franchised/Licensed",
+        "Properties"
+      ],
+      "value": "4,735"
+    },
+    {
+      "row": [],
+      "col": [
+        "Franchised/Licensed",
+        "Rooms"
+      ],
+      "value": "729,413"
+    },
+    {
+      "row": [],
+      "col": [
+        "Owned/Leased",
+        "Properties"
+      ],
+      "value": "63"
+    },
+    {
+      "row": [],
+      "col": [
+        "Owned/Leased",
+        "Rooms"
+      ],
+      "value": "17,095"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other (1)",
+        "Properties"
+      ],
+      "value": "151"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other (1)",
+        "Rooms"
+      ],
+      "value": "21,196"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "Properties"
+      ],
+      "value": "6,906"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "Rooms"
+      ],
+      "value": "1,317,368"
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+<!-- source: FinTabNet s0-r28 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="2">
+   Year Ended
+  </td>
+<td colspan="2">
+   One Year Change
+  </td>
+<td rowspan="2">
+   Year Ended December 31, 2016
+  </td>
+<td colspan="2">
+   One Year Change
+  </td>
+<td colspan="2">
+   Two Year Change
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   December 31, 2014
+  </td>
+<td>
+   December 31, 2015
+  </td>
+<td>
+   $
+  </td>
+<td>
+   %
+  </td>
+<td>
+   $
+  </td>
+<td>
+   %
+  </td>
+<td>
+   $
+  </td>
+<td>
+   %
+  </td>
+</tr>
+<tr>
+<td>
+   Beginning cash and cash equivalents
+  </td>
+<td>
+   $158,780
+  </td>
+<td>
+   $473,726
+  </td>
+<td>
+   $314,946
+  </td>
+<td>
+   198%
+  </td>
+<td>
+   $360,908
+  </td>
+<td>
+   $(112,818)
+  </td>
+<td>
+   -24%
+  </td>
+<td>
+   $202,128
+  </td>
+<td>
+   127%
+  </td>
+</tr>
+<tr>
+<td>
+   Cash provided from (used in):
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Operating activities
+  </td>
+<td>
+   1,138,670
+  </td>
+<td>
+   1,373,468
+  </td>
+<td>
+   234,798
+  </td>
+<td>
+   21%
+  </td>
+<td>
+   1,628,695
+  </td>
+<td>
+   255,227
+  </td>
+<td>
+   19%
+  </td>
+<td>
+   490,025
+  </td>
+<td>
+   43%
+  </td>
+</tr>
+<tr>
+<td>
+   Investing activities
+  </td>
+<td>
+   (2,126,206)
+  </td>
+<td>
+   (3,484,160)
+  </td>
+<td>
+   (1,357,954)
+  </td>
+<td>
+   64%
+  </td>
+<td>
+   (309,503)
+  </td>
+<td>
+   3,174,657
+  </td>
+<td>
+   -91%
+  </td>
+<td>
+   1,816,703
+  </td>
+<td>
+   -85%
+  </td>
+</tr>
+<tr>
+<td>
+   Financing activities
+  </td>
+<td>
+   1,303,172
+  </td>
+<td>
+   2,006,449
+  </td>
+<td>
+   703,277
+  </td>
+<td>
+   54%
+  </td>
+<td>
+   (1,240,448)
+  </td>
+<td>
+   (3,246,897)
+  </td>
+<td>
+   n/a
+  </td>
+<td>
+   (2,543,620)
+  </td>
+<td>
+   n/a
+  </td>
+</tr>
+<tr>
+<td>
+   Effect of foreign currency translation on cash and cash equivalents
+  </td>
+<td>
+   (690)
+  </td>
+<td>
+   (8,575)
+  </td>
+<td>
+   (7,885)
+  </td>
+<td>
+   1,143%
+  </td>
+<td>
+   (20,274)
+  </td>
+<td>
+   (11,699)
+  </td>
+<td>
+   136%
+  </td>
+<td>
+   (19,584)
+  </td>
+<td>
+   2,838%
+  </td>
+</tr>
+<tr>
+<td>
+   Ending cash and cash equivalents
+  </td>
+<td>
+   $473,726
+  </td>
+<td>
+   $360,908
+  </td>
+<td>
+   $(112,818)
+  </td>
+<td>
+   -24%
+  </td>
+<td>
+   $419,378
+  </td>
+<td>
+   $58,470
+  </td>
+<td>
+   16%
+  </td>
+<td>
+   $(54,348)
+  </td>
+<td>
+   -11%
+  </td>
+</tr>
+</table>

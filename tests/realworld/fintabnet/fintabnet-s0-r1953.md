@@ -1,0 +1,193 @@
+<!-- source: FinTabNet s0-r1953 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="4">
+   Years Ended December 31,
+  </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="2">
+   2017
+  </td>
+<td colspan="2">
+   2016
+  </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   Dollars inMillions
+  </td>
+<td>
+   OperatingMargin
+  </td>
+<td>
+   Dollars inMillions
+  </td>
+<td>
+   OperatingMargin
+  </td>
+<td>
+   Percent Changein Incomefrom Operations
+  </td>
+</tr>
+<tr>
+<td>
+   Segments:
+   <sup>
+    (1)
+   </sup>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Corporate
+   <sup>
+    (2)
+   </sup>
+</td>
+<td>
+   $487.0
+  </td>
+<td>
+   7.7%
+  </td>
+<td>
+   $453.6
+  </td>
+<td>
+   7.7%
+  </td>
+<td>
+   7.4%
+  </td>
+</tr>
+<tr>
+<td>
+   Small Business
+   <sup>
+    (2)
+   </sup>
+</td>
+<td>
+   74.4
+  </td>
+<td>
+   6.0
+  </td>
+<td>
+   68.9
+  </td>
+<td>
+   6.0
+  </td>
+<td>
+   8.0
+  </td>
+</tr>
+<tr>
+<td>
+   Public
+  </td>
+<td>
+   374.0
+  </td>
+<td>
+   6.2
+  </td>
+<td>
+   368.0
+  </td>
+<td>
+   6.6
+  </td>
+<td>
+   1.6
+  </td>
+</tr>
+<tr>
+<td>
+   Other
+   <sup>
+    (3)
+   </sup>
+</td>
+<td>
+   57.9
+  </td>
+<td>
+   3.7
+  </td>
+<td>
+   43.6
+  </td>
+<td>
+   3.2
+  </td>
+<td>
+   32.8
+  </td>
+</tr>
+<tr>
+<td>
+   Headquarters
+   <sup>
+    (4)
+   </sup>
+</td>
+<td>
+   (127.2)
+  </td>
+<td>
+   nm*
+  </td>
+<td>
+   (114.9)
+  </td>
+<td>
+   nm*
+  </td>
+<td>
+   10.7
+  </td>
+</tr>
+<tr>
+<td>
+   Total Income from operations
+  </td>
+<td>
+   $866.1
+  </td>
+<td>
+   5.7%
+  </td>
+<td>
+   $819.2
+  </td>
+<td>
+   5.9%
+  </td>
+<td>
+   5.7%
+  </td>
+</tr>
+</table>

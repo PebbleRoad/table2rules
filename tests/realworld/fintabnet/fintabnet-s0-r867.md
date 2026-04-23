@@ -1,0 +1,233 @@
+<!-- source: FinTabNet s0-r867 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td colspan="4">
+   NBCUniversal
+  </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   (in millions)
+  </td>
+<td>
+   Cable Communications
+  </td>
+<td>
+   Cable Networks
+  </td>
+<td>
+   Broadcast Television
+  </td>
+<td>
+   Filmed Entertainment
+  </td>
+<td>
+   Theme Parks
+  </td>
+<td>
+   Corporate and Other
+  </td>
+<td>
+   Total
+  </td>
+</tr>
+<tr>
+<td>
+   Balance, December 31, 2013
+  </td>
+<td>
+   $12,206
+  </td>
+<td>
+   $13,130
+  </td>
+<td>
+   $769
+  </td>
+<td>
+   $1
+  </td>
+<td>
+   $982
+  </td>
+<td>
+   $10
+  </td>
+<td>
+   $27,098
+  </td>
+</tr>
+<tr>
+<td>
+   Acquisitions
+  </td>
+<td>
+   11
+  </td>
+<td>
+   20
+  </td>
+<td>
+   —
+  </td>
+<td>
+   15
+  </td>
+<td>
+   —
+  </td>
+<td>
+   181
+  </td>
+<td>
+   227
+  </td>
+</tr>
+<tr>
+<td>
+   Adjustments
+   <sup>
+    (a)
+   </sup>
+</td>
+<td>
+   —
+  </td>
+<td>
+   (202)
+  </td>
+<td>
+   (2)
+  </td>
+<td>
+   195
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   (9)
+  </td>
+</tr>
+<tr>
+<td>
+   Balance, December 31, 2014
+  </td>
+<td>
+   12,217
+  </td>
+<td>
+   12,948
+  </td>
+<td>
+   767
+  </td>
+<td>
+   211
+  </td>
+<td>
+   982
+  </td>
+<td>
+   191
+  </td>
+<td>
+   27,316
+  </td>
+</tr>
+<tr>
+<td>
+   Acquisitions
+   <sup>
+    (b)
+   </sup>
+</td>
+<td>
+   173
+  </td>
+<td>
+   17
+  </td>
+<td>
+   39
+  </td>
+<td>
+   58
+  </td>
+<td>
+   5,373
+  </td>
+<td>
+   1
+  </td>
+<td>
+   5,661
+  </td>
+</tr>
+<tr>
+<td>
+   Adjustments
+   <sup>
+    (a)
+   </sup>
+</td>
+<td>
+   (1)
+  </td>
+<td>
+   (18)
+  </td>
+<td>
+   —
+  </td>
+<td>
+   (2)
+  </td>
+<td>
+   (11)
+  </td>
+<td>
+   —
+  </td>
+<td>
+   (32)
+  </td>
+</tr>
+<tr>
+<td>
+   Balance, December 31, 2015
+  </td>
+<td>
+   $12,389
+  </td>
+<td>
+   $12,947
+  </td>
+<td>
+   $806
+  </td>
+<td>
+   $267
+  </td>
+<td>
+   $6,344
+  </td>
+<td>
+   $192
+  </td>
+<td>
+   $32,945
+  </td>
+</tr>
+</table>

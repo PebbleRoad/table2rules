@@ -1,0 +1,519 @@
+<!-- source: FinTabNet s1-r14 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="6">
+   Pension Plans
+  </td>
+<td colspan="3">
+   Postretirement Benefit Plans
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="2">
+   2018
+  </td>
+<td colspan="2">
+   2017
+  </td>
+<td colspan="2">
+   2016
+  </td>
+<td>
+   2018
+  </td>
+<td>
+   2017
+  </td>
+<td>
+   2016
+  </td>
+</tr>
+<tr>
+<td>
+   Weighted-average assumptions used to determine benefit obligations for years ended December 31:
+  </td>
+<td>
+   U.S.
+  </td>
+<td>
+   Non-U.S.
+  </td>
+<td>
+   U.S.
+  </td>
+<td>
+   Non-U.S.
+  </td>
+<td>
+   U.S.
+  </td>
+<td>
+   Non-U.S.
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Discount rate
+  </td>
+<td>
+   4.29%
+  </td>
+<td>
+   2.35%
+  </td>
+<td>
+   3.57%
+  </td>
+<td>
+   2.25%
+  </td>
+<td>
+   3.89%
+  </td>
+<td>
+   2.33%
+  </td>
+<td>
+   4.26%
+  </td>
+<td>
+   3.54%
+  </td>
+<td>
+   3.91%
+  </td>
+</tr>
+<tr>
+<td>
+   Rate of compensation increase
+  </td>
+<td>
+   3.25%
+  </td>
+<td>
+   2.94%
+  </td>
+<td>
+   3.25%
+  </td>
+<td>
+   2.95%
+  </td>
+<td>
+   3.25%
+  </td>
+<td>
+   2.94%
+  </td>
+<td>
+   3.25%
+  </td>
+<td>
+   3.25%
+  </td>
+<td>
+   3.25%
+  </td>
+</tr>
+<tr>
+<td>
+   Health care cost trend
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Initial
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   6.50%
+  </td>
+<td>
+   6.75%
+  </td>
+<td>
+   7.00%
+  </td>
+</tr>
+<tr>
+<td>
+   Decreasing to ultimate trend of
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   5.00%
+  </td>
+<td>
+   5.00%
+  </td>
+<td>
+   5.00%
+  </td>
+</tr>
+<tr>
+<td>
+   in year
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   2025
+  </td>
+<td>
+   2025
+  </td>
+<td>
+   2021
+  </td>
+</tr>
+<tr>
+<td>
+   Weighted-average assumptions used to determine net periodic cost for years ended December 31:
+  </td>
+<td>
+   U.S.
+  </td>
+<td>
+   Non-U.S.
+  </td>
+<td>
+   U.S.
+  </td>
+<td>
+   Non-U.S.
+  </td>
+<td>
+   U.S.
+  </td>
+<td>
+   Non-U.S.
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Discount rate
+  </td>
+<td>
+   3.57%
+  </td>
+<td>
+   2.25%
+  </td>
+<td>
+   3.89%
+  </td>
+<td>
+   2.33%
+  </td>
+<td>
+   4.13%
+  </td>
+<td>
+   3.26%
+  </td>
+<td>
+   3.54%
+  </td>
+<td>
+   3.91%
+  </td>
+<td>
+   4.17%
+  </td>
+</tr>
+<tr>
+<td>
+   Discount rate for service cost
+  </td>
+<td>
+   3.64%
+  </td>
+<td>
+   2.25%
+  </td>
+<td>
+   3.89%
+  </td>
+<td>
+   2.33%
+  </td>
+<td>
+   4.13%
+  </td>
+<td>
+   3.26%
+  </td>
+<td>
+   3.28%
+  </td>
+<td>
+   4.31%
+  </td>
+<td>
+   4.57%
+  </td>
+</tr>
+<tr>
+<td>
+   Discount rate for interest cost
+  </td>
+<td>
+   3.18%
+  </td>
+<td>
+   2.25%
+  </td>
+<td>
+   3.24%
+  </td>
+<td>
+   2.33%
+  </td>
+<td>
+   3.33%
+  </td>
+<td>
+   3.26%
+  </td>
+<td>
+   3.14%
+  </td>
+<td>
+   3.28%
+  </td>
+<td>
+   3.42%
+  </td>
+</tr>
+<tr>
+<td>
+   Expected return on assets
+  </td>
+<td>
+   7.48%
+  </td>
+<td>
+   4.83%
+  </td>
+<td>
+   7.49%
+  </td>
+<td>
+   5.02%
+  </td>
+<td>
+   7.60%
+  </td>
+<td>
+   5.11%
+  </td>
+<td>
+   3.75%
+  </td>
+<td>
+   3.75%
+  </td>
+<td>
+   3.75%
+  </td>
+</tr>
+<tr>
+<td>
+   Rate of compensation increase
+  </td>
+<td>
+   3.25%
+  </td>
+<td>
+   2.95%
+  </td>
+<td>
+   3.25%
+  </td>
+<td>
+   2.94%
+  </td>
+<td>
+   3.50%
+  </td>
+<td>
+   3.00%
+  </td>
+<td>
+   3.25%
+  </td>
+<td>
+   3.25%
+  </td>
+<td>
+   3.50%
+  </td>
+</tr>
+<tr>
+<td>
+   Health care cost trend
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Initial
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   6.75%
+  </td>
+<td>
+   7.00%
+  </td>
+<td>
+   7.50%
+  </td>
+</tr>
+<tr>
+<td>
+   Decreasing to ultimate trend of
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   5.00%
+  </td>
+<td>
+   5.00%
+  </td>
+<td>
+   5.00%
+  </td>
+</tr>
+<tr>
+<td>
+   in year
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   2025
+  </td>
+<td>
+   2021
+  </td>
+<td>
+   2021
+  </td>
+</tr>
+</table>

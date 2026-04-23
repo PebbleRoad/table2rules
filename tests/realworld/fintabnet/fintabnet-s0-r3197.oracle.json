@@ -1,0 +1,342 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$1,055,922",
+    "$1,057,240",
+    "$1,319,903",
+    "$1,759,870",
+    "$18.55",
+    "$2,463,818",
+    "$415,344",
+    "$453,103",
+    "$566,378",
+    "$755,171",
+    "$967,929",
+    "($/Share)",
+    "1.22%",
+    "1.33%",
+    "1.66%",
+    "10%",
+    "100,000",
+    "12/17/11",
+    "140,000",
+    "2.21%",
+    "3.10%",
+    "5%",
+    "55,000",
+    "60,000",
+    "75,000",
+    "Aart J. de Geus",
+    "Antun Domic",
+    "Chi-Foon Chan",
+    "Date",
+    "Employees(2)",
+    "Exercise Prices ($/Share) Prices",
+    "Expiration",
+    "Granted(1)",
+    "Individual Grants",
+    "Name",
+    "Number of Securities Underlying Options",
+    "Percent of Total Options Granted to",
+    "Potential Realizable Value At Assumed Annual Rates Of Stock Price Appreciation For Option Term($)(3)",
+    "Raul Camposano",
+    "Vicki L. Andrews"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Name"
+    },
+    {
+      "row": [],
+      "col": [
+        "Individual Grants",
+        "Number of Securities Underlying Options"
+      ],
+      "value": "Granted(1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Individual Grants",
+        "Percent of Total Options Granted to"
+      ],
+      "value": "Employees(2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Exercise Prices ($/Share) Prices"
+      ],
+      "value": "($/Share)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Expiration"
+      ],
+      "value": "Date"
+    },
+    {
+      "row": [],
+      "col": [
+        "Potential Realizable Value At Assumed Annual Rates Of Stock Price Appreciation For Option Term($)(3)"
+      ],
+      "value": "5%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Potential Realizable Value At Assumed Annual Rates Of Stock Price Appreciation For Option Term($)(3)"
+      ],
+      "value": "10%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Aart J. de Geus"
+    },
+    {
+      "row": [],
+      "col": [
+        "Individual Grants",
+        "Number of Securities Underlying Options"
+      ],
+      "value": "140,000"
+    },
+    {
+      "row": [],
+      "col": [
+        "Individual Grants",
+        "Percent of Total Options Granted to"
+      ],
+      "value": "3.10%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Exercise Prices ($/Share) Prices"
+      ],
+      "value": "$18.55"
+    },
+    {
+      "row": [],
+      "col": [
+        "Expiration"
+      ],
+      "value": "12/17/11"
+    },
+    {
+      "row": [],
+      "col": [
+        "Potential Realizable Value At Assumed Annual Rates Of Stock Price Appreciation For Option Term($)(3)"
+      ],
+      "value": "$1,057,240"
+    },
+    {
+      "row": [],
+      "col": [
+        "Potential Realizable Value At Assumed Annual Rates Of Stock Price Appreciation For Option Term($)(3)"
+      ],
+      "value": "$2,463,818"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Chi-Foon Chan"
+    },
+    {
+      "row": [],
+      "col": [
+        "Individual Grants",
+        "Number of Securities Underlying Options"
+      ],
+      "value": "100,000"
+    },
+    {
+      "row": [],
+      "col": [
+        "Individual Grants",
+        "Percent of Total Options Granted to"
+      ],
+      "value": "2.21%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Exercise Prices ($/Share) Prices"
+      ],
+      "value": "$18.55"
+    },
+    {
+      "row": [],
+      "col": [
+        "Expiration"
+      ],
+      "value": "12/17/11"
+    },
+    {
+      "row": [],
+      "col": [
+        "Potential Realizable Value At Assumed Annual Rates Of Stock Price Appreciation For Option Term($)(3)"
+      ],
+      "value": "$755,171"
+    },
+    {
+      "row": [],
+      "col": [
+        "Potential Realizable Value At Assumed Annual Rates Of Stock Price Appreciation For Option Term($)(3)"
+      ],
+      "value": "$1,759,870"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Vicki L. Andrews"
+    },
+    {
+      "row": [],
+      "col": [
+        "Individual Grants",
+        "Number of Securities Underlying Options"
+      ],
+      "value": "60,000"
+    },
+    {
+      "row": [],
+      "col": [
+        "Individual Grants",
+        "Percent of Total Options Granted to"
+      ],
+      "value": "1.33%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Exercise Prices ($/Share) Prices"
+      ],
+      "value": "$18.55"
+    },
+    {
+      "row": [],
+      "col": [
+        "Expiration"
+      ],
+      "value": "12/17/11"
+    },
+    {
+      "row": [],
+      "col": [
+        "Potential Realizable Value At Assumed Annual Rates Of Stock Price Appreciation For Option Term($)(3)"
+      ],
+      "value": "$453,103"
+    },
+    {
+      "row": [],
+      "col": [
+        "Potential Realizable Value At Assumed Annual Rates Of Stock Price Appreciation For Option Term($)(3)"
+      ],
+      "value": "$1,055,922"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Antun Domic"
+    },
+    {
+      "row": [],
+      "col": [
+        "Individual Grants",
+        "Number of Securities Underlying Options"
+      ],
+      "value": "75,000"
+    },
+    {
+      "row": [],
+      "col": [
+        "Individual Grants",
+        "Percent of Total Options Granted to"
+      ],
+      "value": "1.66%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Exercise Prices ($/Share) Prices"
+      ],
+      "value": "$18.55"
+    },
+    {
+      "row": [],
+      "col": [
+        "Expiration"
+      ],
+      "value": "12/17/11"
+    },
+    {
+      "row": [],
+      "col": [
+        "Potential Realizable Value At Assumed Annual Rates Of Stock Price Appreciation For Option Term($)(3)"
+      ],
+      "value": "$566,378"
+    },
+    {
+      "row": [],
+      "col": [
+        "Potential Realizable Value At Assumed Annual Rates Of Stock Price Appreciation For Option Term($)(3)"
+      ],
+      "value": "$1,319,903"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Raul Camposano"
+    },
+    {
+      "row": [],
+      "col": [
+        "Individual Grants",
+        "Number of Securities Underlying Options"
+      ],
+      "value": "55,000"
+    },
+    {
+      "row": [],
+      "col": [
+        "Individual Grants",
+        "Percent of Total Options Granted to"
+      ],
+      "value": "1.22%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Exercise Prices ($/Share) Prices"
+      ],
+      "value": "$18.55"
+    },
+    {
+      "row": [],
+      "col": [
+        "Expiration"
+      ],
+      "value": "12/17/11"
+    },
+    {
+      "row": [],
+      "col": [
+        "Potential Realizable Value At Assumed Annual Rates Of Stock Price Appreciation For Option Term($)(3)"
+      ],
+      "value": "$415,344"
+    },
+    {
+      "row": [],
+      "col": [
+        "Potential Realizable Value At Assumed Annual Rates Of Stock Price Appreciation For Option Term($)(3)"
+      ],
+      "value": "$967,929"
+    }
+  ]
+}

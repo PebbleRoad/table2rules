@@ -1,0 +1,325 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$ Change",
+    "$10,943",
+    "$181,985",
+    "$214,513",
+    "$30,176",
+    "$396,498",
+    "$41,119",
+    "% Change",
+    "% of Revenues",
+    "10.6%",
+    "11.6%",
+    "110.2%",
+    "12.1%",
+    "12.5%",
+    "12.7%",
+    "13.0%",
+    "13.3%",
+    "145,113",
+    "159,952",
+    "19,307",
+    "19,917",
+    "22.5%",
+    "24,400",
+    "25,914",
+    "305,065",
+    "34.2%",
+    "36.3%",
+    "4,483",
+    "6,607",
+    "8.3%",
+    "8.6%",
+    "84.8%",
+    "Admin. Expenses",
+    "Automotive/Mobile",
+    "Aviation",
+    "Fiscal year ended December 29, 2007",
+    "Fiscal year ended December 30, 2006",
+    "Marine",
+    "Outdoor/Fitness",
+    "Selling, General &",
+    "Total",
+    "Year over Year"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Outdoor/Fitness"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal year ended December 29, 2007",
+        "Selling, General &",
+        "Admin. Expenses"
+      ],
+      "value": "$41,119"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal year ended December 29, 2007",
+        "% of Revenues"
+      ],
+      "value": "12.1%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal year ended December 30, 2006",
+        "Selling, General &",
+        "Admin. Expenses"
+      ],
+      "value": "$30,176"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal year ended December 30, 2006",
+        "% of Revenues"
+      ],
+      "value": "10.6%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year over Year",
+        "$ Change"
+      ],
+      "value": "$10,943"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year over Year",
+        "% Change"
+      ],
+      "value": "36.3%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Marine"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal year ended December 29, 2007",
+        "Selling, General &",
+        "Admin. Expenses"
+      ],
+      "value": "25,914"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal year ended December 29, 2007",
+        "% of Revenues"
+      ],
+      "value": "12.7%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal year ended December 30, 2006",
+        "Selling, General &",
+        "Admin. Expenses"
+      ],
+      "value": "19,307"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal year ended December 30, 2006",
+        "% of Revenues"
+      ],
+      "value": "11.6%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year over Year",
+        "$ Change"
+      ],
+      "value": "6,607"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year over Year",
+        "% Change"
+      ],
+      "value": "34.2%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Automotive/Mobile"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal year ended December 29, 2007",
+        "Selling, General &",
+        "Admin. Expenses"
+      ],
+      "value": "305,065"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal year ended December 29, 2007",
+        "% of Revenues"
+      ],
+      "value": "13.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal year ended December 30, 2006",
+        "Selling, General &",
+        "Admin. Expenses"
+      ],
+      "value": "145,113"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal year ended December 30, 2006",
+        "% of Revenues"
+      ],
+      "value": "13.3%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year over Year",
+        "$ Change"
+      ],
+      "value": "159,952"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year over Year",
+        "% Change"
+      ],
+      "value": "110.2%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Aviation"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal year ended December 29, 2007",
+        "Selling, General &",
+        "Admin. Expenses"
+      ],
+      "value": "24,400"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal year ended December 29, 2007",
+        "% of Revenues"
+      ],
+      "value": "8.3%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal year ended December 30, 2006",
+        "Selling, General &",
+        "Admin. Expenses"
+      ],
+      "value": "19,917"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal year ended December 30, 2006",
+        "% of Revenues"
+      ],
+      "value": "8.6%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year over Year",
+        "$ Change"
+      ],
+      "value": "4,483"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year over Year",
+        "% Change"
+      ],
+      "value": "22.5%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal year ended December 29, 2007",
+        "Selling, General &",
+        "Admin. Expenses"
+      ],
+      "value": "$396,498"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal year ended December 29, 2007",
+        "% of Revenues"
+      ],
+      "value": "12.5%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal year ended December 30, 2006",
+        "Selling, General &",
+        "Admin. Expenses"
+      ],
+      "value": "$214,513"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal year ended December 30, 2006",
+        "% of Revenues"
+      ],
+      "value": "12.1%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year over Year",
+        "$ Change"
+      ],
+      "value": "$181,985"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year over Year",
+        "% Change"
+      ],
+      "value": "84.8%"
+    }
+  ]
+}

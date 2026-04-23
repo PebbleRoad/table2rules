@@ -1,0 +1,952 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$1,232",
+    "$1,279",
+    "$1,295",
+    "$2,209",
+    "$229",
+    "$4,241",
+    "$9",
+    "($ and shares in millions)",
+    "(1)",
+    "(1,841)",
+    "(136)",
+    "(2)",
+    "(3)",
+    "(43)",
+    "(45)",
+    "(59)",
+    "(84)",
+    "(86)",
+    "(9)",
+    "-",
+    "1",
+    "1,072",
+    "1,084",
+    "2",
+    "27",
+    "28",
+    "3,169",
+    "38",
+    "52",
+    "583",
+    "6",
+    "82",
+    "Common Stock",
+    "Employee stock ownership through benefit plans",
+    "Issuance of preferred shares, Series F",
+    "Issuance of preferred shares, Series G",
+    "Preferred Stock",
+    "Redemption of preferred shares, Series D, E",
+    "Restricted stock grants",
+    "Shares",
+    "Shares (a)",
+    "Shares acquired for treasury",
+    "Shares at December 31, 2005",
+    "Shares at December 31, 2006",
+    "Shares at December 31, 2007",
+    "Shares at December 31, 2008",
+    "Shares issued in business combinations",
+    "Stock-based awards exercised, including shares issued",
+    "Stock-based awards exercised, including treasury shares issued",
+    "Treasury Stock",
+    "Value"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "($ and shares in millions)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common Stock"
+      ],
+      "value": "Value"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common Stock"
+      ],
+      "value": "Shares"
+    },
+    {
+      "row": [],
+      "col": [
+        "Preferred Stock"
+      ],
+      "value": "Value"
+    },
+    {
+      "row": [],
+      "col": [
+        "Preferred Stock"
+      ],
+      "value": "Shares (a)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treasury Stock"
+      ],
+      "value": "Value"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treasury Stock"
+      ],
+      "value": "Shares"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Shares at December 31, 2005"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common Stock"
+      ],
+      "value": "$1,295"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common Stock"
+      ],
+      "value": "583"
+    },
+    {
+      "row": [],
+      "col": [
+        "Preferred Stock"
+      ],
+      "value": "$9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Preferred Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treasury Stock"
+      ],
+      "value": "$1,279"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treasury Stock"
+      ],
+      "value": "28"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Shares acquired for treasury"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Preferred Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Preferred Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treasury Stock"
+      ],
+      "value": "82"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treasury Stock"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Stock-based awards exercised, including shares issued"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Preferred Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Preferred Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treasury Stock"
+      ],
+      "value": "(84)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treasury Stock"
+      ],
+      "value": "(2)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Restricted stock grants"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Preferred Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Preferred Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treasury Stock"
+      ],
+      "value": "(45)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treasury Stock"
+      ],
+      "value": "(1)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Shares at December 31, 2006"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common Stock"
+      ],
+      "value": "$1,295"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common Stock"
+      ],
+      "value": "583"
+    },
+    {
+      "row": [],
+      "col": [
+        "Preferred Stock"
+      ],
+      "value": "$9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Preferred Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treasury Stock"
+      ],
+      "value": "$1,232"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treasury Stock"
+      ],
+      "value": "27"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Shares acquired for treasury"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Preferred Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Preferred Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treasury Stock"
+      ],
+      "value": "1,084"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treasury Stock"
+      ],
+      "value": "27"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Stock-based awards exercised, including treasury shares issued"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Preferred Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Preferred Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treasury Stock"
+      ],
+      "value": "(86)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treasury Stock"
+      ],
+      "value": "(2)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Restricted stock grants"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Preferred Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Preferred Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treasury Stock"
+      ],
+      "value": "(59)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treasury Stock"
+      ],
+      "value": "(1)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Employee stock ownership through benefit plans"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Preferred Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Preferred Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treasury Stock"
+      ],
+      "value": "38"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treasury Stock"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Shares at December 31, 2007"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common Stock"
+      ],
+      "value": "$1,295"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common Stock"
+      ],
+      "value": "583"
+    },
+    {
+      "row": [],
+      "col": [
+        "Preferred Stock"
+      ],
+      "value": "$9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Preferred Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treasury Stock"
+      ],
+      "value": "$2,209"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treasury Stock"
+      ],
+      "value": "52"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Issuance of preferred shares, Series G"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Preferred Stock"
+      ],
+      "value": "1,072"
+    },
+    {
+      "row": [],
+      "col": [
+        "Preferred Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treasury Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treasury Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Issuance of preferred shares, Series F"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Preferred Stock"
+      ],
+      "value": "3,169"
+    },
+    {
+      "row": [],
+      "col": [
+        "Preferred Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treasury Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treasury Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Redemption of preferred shares, Series D, E"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Preferred Stock"
+      ],
+      "value": "(9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Preferred Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treasury Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treasury Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Stock-based awards exercised, including treasury shares issued"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Preferred Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Preferred Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treasury Stock"
+      ],
+      "value": "(2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treasury Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Restricted stock grants"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Preferred Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Preferred Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treasury Stock"
+      ],
+      "value": "(136)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treasury Stock"
+      ],
+      "value": "(3)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Shares issued in business combinations"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Preferred Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Preferred Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treasury Stock"
+      ],
+      "value": "(1,841)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treasury Stock"
+      ],
+      "value": "(43)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Employee stock ownership through benefit plans"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Preferred Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Preferred Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treasury Stock"
+      ],
+      "value": "(1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treasury Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Shares at December 31, 2008"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common Stock"
+      ],
+      "value": "$1,295"
+    },
+    {
+      "row": [],
+      "col": [
+        "Common Stock"
+      ],
+      "value": "583"
+    },
+    {
+      "row": [],
+      "col": [
+        "Preferred Stock"
+      ],
+      "value": "$4,241"
+    },
+    {
+      "row": [],
+      "col": [
+        "Preferred Stock"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treasury Stock"
+      ],
+      "value": "$229"
+    },
+    {
+      "row": [],
+      "col": [
+        "Treasury Stock"
+      ],
+      "value": "6"
+    }
+  ]
+}

@@ -105,40 +105,70 @@ def find_headers_for_cell(grid: List[List[Dict]], row: int, col: int) -> Tuple[L
 
         for r in range(row - 1, -1, -1):
             cell = grid[r][header_col]
-            
+
             if not cell or not cell.get('text', '').strip():
                 continue
-            
-            if cell['type'] == 'th':
-                # Never include <thead> cells in row header context
-                # Thead cells are column headers, not row header hierarchy
-                # Row header context should come from tbody cells only
-                if cell.get('is_thead', False):
+
+            if cell['type'] != 'th':
+                continue
+
+            # Never include <thead> cells in row header context —
+            # thead cells are column headers, not row-header hierarchy.
+            if cell.get('is_thead', False):
+                continue
+
+            scope = cell.get('scope', '')
+
+            # Skip column-scoped headers — they name the column.
+            if scope in ('col', 'colgroup'):
+                continue
+
+            # scope='row' = peer row label (not an ancestor). Skip.
+            if scope == 'row':
+                continue
+
+            # Locate the origin for scope and rowspan lookup.
+            if cell.get('is_span_copy', False):
+                origin = cell.get('origin', (r, header_col))
+                origin_cell = grid[origin[0]][origin[1]]
+            else:
+                origin = (r, header_col)
+                origin_cell = cell
+
+            if scope == 'rowgroup':
+                # A rowgroup header ancestors rows within its extent:
+                #   rowspan > 1  → extent = [origin_row, origin_row + rowspan - 1]
+                #                  (the rowspan itself bounds the group, as in
+                #                  a <th scope="rowgroup" rowspan="2"> pattern)
+                #   rowspan == 1 → extent = [origin_row, next_rowgroup - 1]
+                #                  (a single-cell divider row like a FinTabNet
+                #                  year label runs until the next such divider
+                #                  in the same column)
+                origin_row, origin_col = origin
+                origin_rowspan = origin_cell.get('rowspan', 1)
+                if origin_rowspan > 1:
+                    extent_end = origin_row + origin_rowspan - 1
+                else:
+                    extent_end = len(grid) - 1
+                    for rr in range(origin_row + 1, len(grid)):
+                        other = grid[rr][origin_col]
+                        if (other and not other.get('is_span_copy', False)
+                                and other.get('scope') == 'rowgroup'):
+                            extent_end = rr - 1
+                            break
+                if row > extent_end:
                     continue
-                
-                # For non-thead cells, only accept explicit header rows (headless tables)
+            else:
+                # Non-scope-rowgroup <th> cells outside thead are only
+                # accepted from the explicit header block (headless
+                # tables where the header detection promoted a row).
                 is_header_row = cell.get('is_header_row', False)
                 if not is_header_row:
                     continue
-                
-                scope = cell.get('scope', '')
-                
-                # Skip row-scoped headers (they're peer row headers, not parents)
-                if scope in ('row', 'rowgroup'):
-                    continue
-                
-                # Skip column-scoped headers — they name the column, not the row value
-                if scope in ('col', 'colgroup'):
-                    continue
-                
-                if cell.get('is_span_copy', False):
-                    origin = cell.get('origin', (r, header_col))
-                else:
-                    origin = (r, header_col)
-                
-                if origin not in seen_origins:
-                    seen_origins.add(origin)
-                    # Insert at the beginning to maintain hierarchy
-                    row_headers.insert(row_header_columns.index(header_col), cell['text'])
-    
+
+            if origin not in seen_origins:
+                seen_origins.add(origin)
+                # Insert at the beginning to maintain hierarchy
+                row_headers.insert(row_header_columns.index(header_col), cell['text'])
+
     return row_headers, col_headers

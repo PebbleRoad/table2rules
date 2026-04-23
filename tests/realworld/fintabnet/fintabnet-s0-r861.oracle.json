@@ -1,0 +1,469 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$131.22",
+    "$136.97",
+    "$142.74",
+    "(194)",
+    "(267)",
+    "(343)",
+    "(36)",
+    "(43)",
+    "(593)",
+    "1,277",
+    "1,296",
+    "1,367",
+    "10,114",
+    "10,723",
+    "11,193",
+    "11,475",
+    "20,685",
+    "2013",
+    "2014",
+    "2015",
+    "209",
+    "21,962",
+    "215",
+    "22,347",
+    "22,383",
+    "22,577",
+    "23,329",
+    "238",
+    "26,677",
+    "27,035",
+    "27,701",
+    "282",
+    "34",
+    "358",
+    "470",
+    "472",
+    "492",
+    "666",
+    "768",
+    "774",
+    "8,366",
+    "8,409",
+    "8,541",
+    "8,750",
+    "8,752",
+    "9,221",
+    "9,384",
+    "9,876",
+    "Average monthly total revenue per customer relationship",
+    "December 31 (in thousands)",
+    "Double productcustomers (a)",
+    "High-speed Internet customers",
+    "Net Additional Customers",
+    "Single productcustomers (a)",
+    "Total Customers",
+    "Total customer relationships (a)",
+    "Triple product customers (a)",
+    "Video customers",
+    "Voice customers"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "December 31 (in thousands)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total Customers"
+      ],
+      "value": "2015"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total Customers"
+      ],
+      "value": "2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total Customers"
+      ],
+      "value": "2013"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Additional Customers"
+      ],
+      "value": "2015"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Additional Customers"
+      ],
+      "value": "2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Additional Customers"
+      ],
+      "value": "2013"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total customer relationships (a)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total Customers"
+      ],
+      "value": "27,701"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total Customers"
+      ],
+      "value": "27,035"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total Customers"
+      ],
+      "value": "26,677"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Additional Customers"
+      ],
+      "value": "666"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Additional Customers"
+      ],
+      "value": "358"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Additional Customers"
+      ],
+      "value": "215"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Single productcustomers (a)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total Customers"
+      ],
+      "value": "8,366"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total Customers"
+      ],
+      "value": "8,409"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total Customers"
+      ],
+      "value": "8,752"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Additional Customers"
+      ],
+      "value": "(43)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Additional Customers"
+      ],
+      "value": "(343)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Additional Customers"
+      ],
+      "value": "(593)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Double productcustomers (a)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total Customers"
+      ],
+      "value": "9,221"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total Customers"
+      ],
+      "value": "8,750"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total Customers"
+      ],
+      "value": "8,541"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Additional Customers"
+      ],
+      "value": "472"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Additional Customers"
+      ],
+      "value": "209"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Additional Customers"
+      ],
+      "value": "34"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Triple product customers (a)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total Customers"
+      ],
+      "value": "10,114"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total Customers"
+      ],
+      "value": "9,876"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total Customers"
+      ],
+      "value": "9,384"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Additional Customers"
+      ],
+      "value": "238"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Additional Customers"
+      ],
+      "value": "492"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Additional Customers"
+      ],
+      "value": "774"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Video customers"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total Customers"
+      ],
+      "value": "22,347"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total Customers"
+      ],
+      "value": "22,383"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total Customers"
+      ],
+      "value": "22,577"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Additional Customers"
+      ],
+      "value": "(36)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Additional Customers"
+      ],
+      "value": "(194)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Additional Customers"
+      ],
+      "value": "(267)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "High-speed Internet customers"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total Customers"
+      ],
+      "value": "23,329"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total Customers"
+      ],
+      "value": "21,962"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total Customers"
+      ],
+      "value": "20,685"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Additional Customers"
+      ],
+      "value": "1,367"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Additional Customers"
+      ],
+      "value": "1,277"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Additional Customers"
+      ],
+      "value": "1,296"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Voice customers"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total Customers"
+      ],
+      "value": "11,475"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total Customers"
+      ],
+      "value": "11,193"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total Customers"
+      ],
+      "value": "10,723"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Additional Customers"
+      ],
+      "value": "282"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Additional Customers"
+      ],
+      "value": "470"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Additional Customers"
+      ],
+      "value": "768"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Average monthly total revenue per customer relationship"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total Customers"
+      ],
+      "value": "$142.74"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total Customers"
+      ],
+      "value": "$136.97"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total Customers"
+      ],
+      "value": "$131.22"
+    }
+  ]
+}

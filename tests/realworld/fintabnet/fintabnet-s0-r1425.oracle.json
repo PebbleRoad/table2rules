@@ -1,0 +1,475 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$15,519",
+    "$16,041",
+    "$16,463",
+    "$2,315",
+    "$2,860",
+    "$3,216",
+    "$4,993",
+    "$5,193",
+    "$5,300",
+    "$506",
+    "$592",
+    "$668",
+    "(in millions)",
+    "1,107",
+    "1,202",
+    "1,455",
+    "1,592",
+    "108",
+    "118",
+    "129",
+    "135",
+    "137",
+    "139",
+    "145",
+    "148",
+    "150",
+    "151",
+    "2,026",
+    "2,288",
+    "2,703",
+    "213",
+    "314",
+    "389",
+    "438",
+    "526",
+    "539",
+    "6,364",
+    "6,444",
+    "7,264",
+    "838",
+    "965",
+    "984",
+    "China",
+    "Europe, Middle East & Africa(2)",
+    "Net Sales",
+    "NetProperty(1)",
+    "Other Asia Pacific",
+    "Other North America",
+    "South America",
+    "Total",
+    "United States",
+    "Year endedDecember 31, 2011",
+    "Year endedDecember 31, 2012",
+    "Year endedDecember 31, 2013"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "United States"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year endedDecember 31, 2013",
+        "(in millions)",
+        "Net Sales"
+      ],
+      "value": "$5,300"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year endedDecember 31, 2013",
+        "(in millions)",
+        "NetProperty(1)"
+      ],
+      "value": "$668"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year endedDecember 31, 2012",
+        "(in millions)",
+        "Net Sales"
+      ],
+      "value": "$5,193"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year endedDecember 31, 2012",
+        "(in millions)",
+        "NetProperty(1)"
+      ],
+      "value": "$592"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year endedDecember 31, 2011",
+        "(in millions)",
+        "Net Sales"
+      ],
+      "value": "$4,993"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year endedDecember 31, 2011",
+        "(in millions)",
+        "NetProperty(1)"
+      ],
+      "value": "$506"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Other North America"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year endedDecember 31, 2013",
+        "(in millions)",
+        "Net Sales"
+      ],
+      "value": "213"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year endedDecember 31, 2013",
+        "(in millions)",
+        "NetProperty(1)"
+      ],
+      "value": "145"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year endedDecember 31, 2012",
+        "(in millions)",
+        "Net Sales"
+      ],
+      "value": "151"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year endedDecember 31, 2012",
+        "(in millions)",
+        "NetProperty(1)"
+      ],
+      "value": "139"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year endedDecember 31, 2011",
+        "(in millions)",
+        "Net Sales"
+      ],
+      "value": "118"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year endedDecember 31, 2011",
+        "(in millions)",
+        "NetProperty(1)"
+      ],
+      "value": "129"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Europe, Middle East & Africa(2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year endedDecember 31, 2013",
+        "(in millions)",
+        "Net Sales"
+      ],
+      "value": "6,444"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year endedDecember 31, 2013",
+        "(in millions)",
+        "NetProperty(1)"
+      ],
+      "value": "1,592"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year endedDecember 31, 2012",
+        "(in millions)",
+        "Net Sales"
+      ],
+      "value": "6,364"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year endedDecember 31, 2012",
+        "(in millions)",
+        "NetProperty(1)"
+      ],
+      "value": "1,455"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year endedDecember 31, 2011",
+        "(in millions)",
+        "Net Sales"
+      ],
+      "value": "7,264"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year endedDecember 31, 2011",
+        "(in millions)",
+        "NetProperty(1)"
+      ],
+      "value": "1,107"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "China"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year endedDecember 31, 2013",
+        "(in millions)",
+        "Net Sales"
+      ],
+      "value": "2,703"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year endedDecember 31, 2013",
+        "(in millions)",
+        "NetProperty(1)"
+      ],
+      "value": "526"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year endedDecember 31, 2012",
+        "(in millions)",
+        "Net Sales"
+      ],
+      "value": "2,288"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year endedDecember 31, 2012",
+        "(in millions)",
+        "NetProperty(1)"
+      ],
+      "value": "389"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year endedDecember 31, 2011",
+        "(in millions)",
+        "Net Sales"
+      ],
+      "value": "2,026"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year endedDecember 31, 2011",
+        "(in millions)",
+        "NetProperty(1)"
+      ],
+      "value": "314"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Other Asia Pacific"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year endedDecember 31, 2013",
+        "(in millions)",
+        "Net Sales"
+      ],
+      "value": "838"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year endedDecember 31, 2013",
+        "(in millions)",
+        "NetProperty(1)"
+      ],
+      "value": "148"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year endedDecember 31, 2012",
+        "(in millions)",
+        "Net Sales"
+      ],
+      "value": "539"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year endedDecember 31, 2012",
+        "(in millions)",
+        "NetProperty(1)"
+      ],
+      "value": "135"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year endedDecember 31, 2011",
+        "(in millions)",
+        "Net Sales"
+      ],
+      "value": "438"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year endedDecember 31, 2011",
+        "(in millions)",
+        "NetProperty(1)"
+      ],
+      "value": "108"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "South America"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year endedDecember 31, 2013",
+        "(in millions)",
+        "Net Sales"
+      ],
+      "value": "965"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year endedDecember 31, 2013",
+        "(in millions)",
+        "NetProperty(1)"
+      ],
+      "value": "137"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year endedDecember 31, 2012",
+        "(in millions)",
+        "Net Sales"
+      ],
+      "value": "984"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year endedDecember 31, 2012",
+        "(in millions)",
+        "NetProperty(1)"
+      ],
+      "value": "150"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year endedDecember 31, 2011",
+        "(in millions)",
+        "Net Sales"
+      ],
+      "value": "1,202"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year endedDecember 31, 2011",
+        "(in millions)",
+        "NetProperty(1)"
+      ],
+      "value": "151"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year endedDecember 31, 2013",
+        "(in millions)",
+        "Net Sales"
+      ],
+      "value": "$16,463"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year endedDecember 31, 2013",
+        "(in millions)",
+        "NetProperty(1)"
+      ],
+      "value": "$3,216"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year endedDecember 31, 2012",
+        "(in millions)",
+        "Net Sales"
+      ],
+      "value": "$15,519"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year endedDecember 31, 2012",
+        "(in millions)",
+        "NetProperty(1)"
+      ],
+      "value": "$2,860"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year endedDecember 31, 2011",
+        "(in millions)",
+        "Net Sales"
+      ],
+      "value": "$16,041"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year endedDecember 31, 2011",
+        "(in millions)",
+        "NetProperty(1)"
+      ],
+      "value": "$2,315"
+    }
+  ]
+}

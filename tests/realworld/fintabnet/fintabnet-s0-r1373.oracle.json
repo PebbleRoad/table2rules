@@ -1,0 +1,391 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$1,150,000",
+    "$1,163,621",
+    "$1,496,073",
+    "$2,270,001",
+    "$3,429,468",
+    "$360,707",
+    "$409,067",
+    "$86,625",
+    "$89,063",
+    "$944,313",
+    "(Dollars in thousands)",
+    "1,254",
+    "1-3years",
+    "10,419",
+    "10,912",
+    "12,887",
+    "139,275",
+    "149,898",
+    "153,981",
+    "177,538",
+    "178,792",
+    "187,547",
+    "198,500",
+    "24,538",
+    "27,167",
+    "28,388",
+    "3-5years",
+    "30,262",
+    "33,960",
+    "47,886",
+    "5,073",
+    "54,792",
+    "632,627",
+    "92,018",
+    "96,682",
+    "Interest obligations (1)",
+    "Less than1 year",
+    "More than5 years",
+    "Operating lease obligations",
+    "Payments due by period",
+    "Pension and other postretirement benefits",
+    "Purchase and other obligations (2)",
+    "Tax on deemed repatriation of foreign earnings (3)",
+    "Total",
+    "Total borrowings",
+    "Total contractual obligations",
+    "\u2014"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Total borrowings"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "$2,270,001"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by period",
+        "Less than1 year",
+        "(Dollars in thousands)"
+      ],
+      "value": "$86,625"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by period",
+        "1-3years",
+        "(Dollars in thousands)"
+      ],
+      "value": "$89,063"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by period",
+        "3-5years",
+        "(Dollars in thousands)"
+      ],
+      "value": "$944,313"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by period",
+        "More than5 years",
+        "(Dollars in thousands)"
+      ],
+      "value": "$1,150,000"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Interest obligations (1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "632,627"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by period",
+        "Less than1 year",
+        "(Dollars in thousands)"
+      ],
+      "value": "96,682"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by period",
+        "1-3years",
+        "(Dollars in thousands)"
+      ],
+      "value": "187,547"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by period",
+        "3-5years",
+        "(Dollars in thousands)"
+      ],
+      "value": "149,898"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by period",
+        "More than5 years",
+        "(Dollars in thousands)"
+      ],
+      "value": "198,500"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Operating lease obligations"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "139,275"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by period",
+        "Less than1 year",
+        "(Dollars in thousands)"
+      ],
+      "value": "30,262"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by period",
+        "1-3years",
+        "(Dollars in thousands)"
+      ],
+      "value": "47,886"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by period",
+        "3-5years",
+        "(Dollars in thousands)"
+      ],
+      "value": "33,960"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by period",
+        "More than5 years",
+        "(Dollars in thousands)"
+      ],
+      "value": "27,167"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Purchase and other obligations (2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "178,792"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by period",
+        "Less than1 year",
+        "(Dollars in thousands)"
+      ],
+      "value": "177,538"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by period",
+        "1-3years",
+        "(Dollars in thousands)"
+      ],
+      "value": "1,254"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by period",
+        "3-5years",
+        "(Dollars in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by period",
+        "More than5 years",
+        "(Dollars in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Tax on deemed repatriation of foreign earnings (3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "153,981"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by period",
+        "Less than1 year",
+        "(Dollars in thousands)"
+      ],
+      "value": "12,887"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by period",
+        "1-3years",
+        "(Dollars in thousands)"
+      ],
+      "value": "24,538"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by period",
+        "3-5years",
+        "(Dollars in thousands)"
+      ],
+      "value": "24,538"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by period",
+        "More than5 years",
+        "(Dollars in thousands)"
+      ],
+      "value": "92,018"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Pension and other postretirement benefits"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "54,792"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by period",
+        "Less than1 year",
+        "(Dollars in thousands)"
+      ],
+      "value": "5,073"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by period",
+        "1-3years",
+        "(Dollars in thousands)"
+      ],
+      "value": "10,419"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by period",
+        "3-5years",
+        "(Dollars in thousands)"
+      ],
+      "value": "10,912"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by period",
+        "More than5 years",
+        "(Dollars in thousands)"
+      ],
+      "value": "28,388"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total contractual obligations"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total"
+      ],
+      "value": "$3,429,468"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by period",
+        "Less than1 year",
+        "(Dollars in thousands)"
+      ],
+      "value": "$409,067"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by period",
+        "1-3years",
+        "(Dollars in thousands)"
+      ],
+      "value": "$360,707"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by period",
+        "3-5years",
+        "(Dollars in thousands)"
+      ],
+      "value": "$1,163,621"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by period",
+        "More than5 years",
+        "(Dollars in thousands)"
+      ],
+      "value": "$1,496,073"
+    }
+  ]
+}

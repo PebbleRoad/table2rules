@@ -1,0 +1,483 @@
+<!-- source: FinTabNet s0-r3009 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   Capital in Excess
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   Deferred
+  </td>
+<td>
+   Accumulated  Other
+  </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="2">
+   Common Stock
+  </td>
+<td>
+   of Par
+  </td>
+<td>
+   Retained
+  </td>
+<td>
+   Treasury
+  </td>
+<td>
+   Stock
+  </td>
+<td>
+   Comprehensive
+  </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   Shares
+  </td>
+<td>
+   Amount
+  </td>
+<td>
+   Value
+  </td>
+<td>
+   Earnings
+  </td>
+<td>
+   Stock
+  </td>
+<td>
+   Compensation
+  </td>
+<td>
+   Income (Loss)
+  </td>
+<td>
+   Total
+  </td>
+</tr>
+<tr>
+<td>
+   Balance at October 31, 2004
+  </td>
+<td>
+   147,378
+  </td>
+<td>
+   $1,474
+  </td>
+<td>
+   $1,240,568
+  </td>
+<td>
+   $195,552
+  </td>
+<td>
+   $(175,762)
+  </td>
+<td>
+   $(2,732)
+  </td>
+<td>
+   $(645)
+  </td>
+<td>
+   $1,258,455
+  </td>
+</tr>
+<tr>
+<td>
+   Components of comprehensive loss
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Net loss
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   (17,114)
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   (17,114)
+  </td>
+<td>
+   (17,114)
+  </td>
+</tr>
+<tr>
+<td>
+   Unrealized loss on investments, net of tax of $542
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   (693)
+  </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Deferred loss on cash flow hedges, net of tax of $1,185
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   (2,108)
+  </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Reclassification adjustment on deferred (gains) losses of cash flow hedges, net of tax of $3,501
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   (6,226)
+  </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Correction of an error in accounting for certain hedging transactions, net of tax of $1,150
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   (1,808)
+  </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Foreign currency translation adjustment
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   (4,521)
+  </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Accumulated other comprehensive loss
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   (15,356)
+  </td>
+<td>
+   (15,356)
+  </td>
+</tr>
+<tr>
+<td>
+   Total comprehensive loss
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   (32,470)
+  </td>
+<td>
+   (32,470)
+  </td>
+</tr>
+<tr>
+<td>
+   Deferred stock compensation
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   1,490
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   (1,490)
+  </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Stock options assumed in connection with acquisition of Nassda
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   12,141
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   12,141
+  </td>
+</tr>
+<tr>
+<td>
+   Amortization of deferred stock compensation, net of forfeitures
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   3,429
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   2,747
+  </td>
+<td>
+</td>
+<td>
+   6,176
+  </td>
+</tr>
+<tr>
+<td>
+   Acquisition of treasury stock
+  </td>
+<td>
+   (5,140)
+  </td>
+<td>
+   (51)
+  </td>
+<td>
+   51
+  </td>
+<td>
+</td>
+<td>
+   (88,386)
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   (88,386)
+  </td>
+</tr>
+<tr>
+<td>
+   Common stock issued
+  </td>
+<td>
+   3,659
+  </td>
+<td>
+   36
+  </td>
+<td>
+   (527)
+  </td>
+<td>
+   (15,560)
+  </td>
+<td>
+   64,666
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   48,615
+  </td>
+</tr>
+<tr>
+<td>
+   Tax benefits associated with exercise of stock options
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   6,106
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   6,106
+  </td>
+</tr>
+<tr>
+<td>
+   Balance at October 31, 2005
+  </td>
+<td>
+   145,897
+  </td>
+<td>
+   $1,459
+  </td>
+<td>
+   $1,263,258
+  </td>
+<td>
+   $162,878
+  </td>
+<td>
+   $(199,482)
+  </td>
+<td>
+   $(1,475)
+  </td>
+<td>
+   $(16,001)
+  </td>
+<td>
+   $1,210,637
+  </td>
+</tr>
+</table>

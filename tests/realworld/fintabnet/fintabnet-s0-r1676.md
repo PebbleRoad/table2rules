@@ -1,0 +1,298 @@
+<!-- source: FinTabNet s0-r1676 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="3">
+   Pension Benefits
+  </td>
+<td colspan="3">
+   Retiree Medical and OtherPostretirement Benefits
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   2015
+  </td>
+<td>
+   2014
+  </td>
+<td>
+   2013
+  </td>
+<td>
+   2015
+  </td>
+<td>
+   2014
+  </td>
+<td>
+   2013
+  </td>
+</tr>
+<tr>
+<td>
+   Defined benefit plans:
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Service cost
+  </td>
+<td>
+   $2
+  </td>
+<td>
+   $3
+  </td>
+<td>
+   $3
+  </td>
+<td>
+   $3
+  </td>
+<td>
+   $1
+  </td>
+<td>
+   $—
+  </td>
+</tr>
+<tr>
+<td>
+   Interest cost
+  </td>
+<td>
+   737
+  </td>
+<td>
+   746
+  </td>
+<td>
+   654
+  </td>
+<td>
+   50
+  </td>
+<td>
+   61
+  </td>
+<td>
+   50
+  </td>
+</tr>
+<tr>
+<td>
+   Expected return on assets
+  </td>
+<td>
+   (851)
+  </td>
+<td>
+   (786)
+  </td>
+<td>
+   (720)
+  </td>
+<td>
+   (19)
+  </td>
+<td>
+   (19)
+  </td>
+<td>
+   (16)
+  </td>
+</tr>
+<tr>
+<td>
+   Curtailments
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   2
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+</tr>
+<tr>
+<td>
+   Settlements
+  </td>
+<td>
+   1
+  </td>
+<td>
+   4
+  </td>
+<td>
+   (1)
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+</tr>
+<tr>
+<td>
+   Amortization of:
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Prior service cost (benefit) (1)
+  </td>
+<td>
+   28
+  </td>
+<td>
+   28
+  </td>
+<td>
+   28
+  </td>
+<td>
+   (243)
+  </td>
+<td>
+   (244)
+  </td>
+<td>
+   (251)
+  </td>
+</tr>
+<tr>
+<td>
+   Unrecognized net loss (gain)
+  </td>
+<td>
+   112
+  </td>
+<td>
+   43
+  </td>
+<td>
+   90
+  </td>
+<td>
+   (9)
+  </td>
+<td>
+   (8)
+  </td>
+<td>
+   (9)
+  </td>
+</tr>
+<tr>
+<td>
+   Net periodic benefit cost (income) for defined benefit plans
+  </td>
+<td>
+   29
+  </td>
+<td>
+   38
+  </td>
+<td>
+   56
+  </td>
+<td>
+   (218)
+  </td>
+<td>
+   (209)
+  </td>
+<td>
+   (226)
+  </td>
+</tr>
+<tr>
+<td>
+   Defined contribution plans
+  </td>
+<td>
+   662
+  </td>
+<td>
+   546
+  </td>
+<td>
+   328
+  </td>
+<td>
+   N/A
+  </td>
+<td>
+   N/A
+  </td>
+<td>
+   N/A
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   $691
+  </td>
+<td>
+   $584
+  </td>
+<td>
+   $384
+  </td>
+<td>
+   $(218)
+  </td>
+<td>
+   $(209)
+  </td>
+<td>
+   $(226)
+  </td>
+</tr>
+</table>

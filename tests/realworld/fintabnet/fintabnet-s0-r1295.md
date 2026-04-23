@@ -1,0 +1,278 @@
+<!-- source: FinTabNet s0-r1295 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td>
+   Vascular North America
+  </td>
+<td>
+   Anesthesia/Respiratory North America
+  </td>
+<td>
+   Surgical North America
+  </td>
+<td>
+   EMEA
+  </td>
+<td>
+   Asia
+  </td>
+<td>
+   All Other
+  </td>
+<td>
+   Total
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="7">
+   (Dollars in thousands)
+  </td>
+</tr>
+<tr>
+<td>
+   Balance as of December 31, 2013
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Goodwill
+  </td>
+<td>
+   $459,696
+  </td>
+<td>
+   $167,195
+  </td>
+<td>
+   $250,506
+  </td>
+<td>
+   $373,417
+  </td>
+<td>
+   $136,946
+  </td>
+<td>
+   $298,571
+  </td>
+<td>
+   $1,686,331
+  </td>
+</tr>
+<tr>
+<td>
+   Accumulated impairment losses
+  </td>
+<td>
+   (219,527)
+  </td>
+<td>
+   (107,073)
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   (5,528)
+  </td>
+<td>
+   (332,128)
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   240,169
+  </td>
+<td>
+   60,122
+  </td>
+<td>
+   250,506
+  </td>
+<td>
+   373,417
+  </td>
+<td>
+   136,946
+  </td>
+<td>
+   293,043
+  </td>
+<td>
+   1,354,203
+  </td>
+</tr>
+<tr>
+<td>
+   Goodwill related to acquisitions
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   406
+  </td>
+<td>
+</td>
+<td>
+   15,986
+  </td>
+<td>
+   —
+  </td>
+<td>
+   $16,392
+  </td>
+</tr>
+<tr>
+<td>
+   Translation adjustment
+  </td>
+<td>
+   —
+  </td>
+<td>
+   (681)
+  </td>
+<td>
+   —
+  </td>
+<td>
+   (34,388)
+  </td>
+<td>
+   (8,220)
+  </td>
+<td>
+   (3,753)
+  </td>
+<td>
+   (47,042)
+  </td>
+</tr>
+<tr>
+<td>
+   Balance as of December 31, 2014
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Goodwill
+  </td>
+<td>
+   459,696
+  </td>
+<td>
+   166,514
+  </td>
+<td>
+   250,912
+  </td>
+<td>
+   339,029
+  </td>
+<td>
+   144,712
+  </td>
+<td>
+   294,818
+  </td>
+<td>
+   1,655,681
+  </td>
+</tr>
+<tr>
+<td>
+   Accumulated impairment losses
+  </td>
+<td>
+   (219,527)
+  </td>
+<td>
+   (107,073)
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   (5,528)
+  </td>
+<td>
+   (332,128)
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   $240,169
+  </td>
+<td>
+   $59,441
+  </td>
+<td>
+   $250,912
+  </td>
+<td>
+   $339,029
+  </td>
+<td>
+   $144,712
+  </td>
+<td>
+   $289,290
+  </td>
+<td>
+   $1,323,553
+  </td>
+</tr>
+</table>

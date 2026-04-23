@@ -1,0 +1,207 @@
+<!-- source: FinTabNet s0-r392 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="3">
+   September 30, 2006
+  </td>
+<td colspan="3">
+   September 24, 2005
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   Notional Principal
+  </td>
+<td>
+   Fair Value
+  </td>
+<td>
+   Credit Risk Amounts
+  </td>
+<td>
+   Notional Principal
+  </td>
+<td>
+   Fair Value
+  </td>
+<td>
+   Creit Risk Amounts
+  </td>
+</tr>
+<tr>
+<td>
+   Foreign exchange instruments qualifying as accounting hedges:
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Spot/Forward contracts
+  </td>
+<td>
+   $351
+  </td>
+<td>
+   $6
+  </td>
+<td>
+   $6
+  </td>
+<td>
+   $662
+  </td>
+<td>
+   $10
+  </td>
+<td>
+   $10
+  </td>
+</tr>
+<tr>
+<td>
+   Purchased options
+  </td>
+<td>
+   $1,256
+  </td>
+<td>
+   $9
+  </td>
+<td>
+   $9
+  </td>
+<td>
+   $1,668
+  </td>
+<td>
+   $17
+  </td>
+<td>
+   $17
+  </td>
+</tr>
+<tr>
+<td>
+   Sold options
+  </td>
+<td>
+   $80
+  </td>
+<td>
+   $(1)
+  </td>
+<td>
+   $—
+  </td>
+<td>
+   $1,087
+  </td>
+<td>
+   $(5)
+  </td>
+<td>
+   $—
+  </td>
+</tr>
+<tr>
+<td>
+   Foreign exchange instruments other than accounting hedges:
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Spot/Forward contracts
+  </td>
+<td>
+   $1,103
+  </td>
+<td>
+   $2
+  </td>
+<td>
+   $2
+  </td>
+<td>
+   $833
+  </td>
+<td>
+   $(3)
+  </td>
+<td>
+   $1
+  </td>
+</tr>
+<tr>
+<td>
+   Purchased options
+  </td>
+<td>
+   $167
+  </td>
+<td>
+   $1
+  </td>
+<td>
+   $—
+  </td>
+<td>
+   $115
+  </td>
+<td>
+   $—
+  </td>
+<td>
+   $—
+  </td>
+</tr>
+<tr>
+<td>
+   Sold options
+  </td>
+<td>
+   $—
+  </td>
+<td>
+   $—
+  </td>
+<td>
+   $—
+  </td>
+<td>
+   $—
+  </td>
+<td>
+   $—
+  </td>
+<td>
+   $—
+  </td>
+</tr>
+</table>

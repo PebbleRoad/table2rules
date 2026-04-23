@@ -1,0 +1,559 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$12,074.5",
+    "$12,988.7",
+    "$272.8",
+    "$5,485.4",
+    "$5,758.2",
+    "$914.2",
+    "(0.9)",
+    "(17.0)",
+    "(dollars in millions)",
+    "1,046.8",
+    "1,058.2",
+    "1,449.4",
+    "1,606.0",
+    "1,642.6",
+    "1,675.9",
+    "1,807.0",
+    "1,824.0",
+    "100.0%",
+    "12.0",
+    "12.6",
+    "12.9",
+    "13.3",
+    "13.9",
+    "15.1",
+    "15.6",
+    "2.3",
+    "2014",
+    "2015",
+    "226.5",
+    "246.1",
+    "327.2",
+    "340.9",
+    "36.6",
+    "39.4",
+    "4,879.4",
+    "40.4",
+    "44.3%",
+    "45.4%",
+    "45.5",
+    "5,125.5",
+    "5.0",
+    "5.0%",
+    "5.3",
+    "52.5",
+    "53.6",
+    "6,475.5",
+    "6,816.4",
+    "6.0",
+    "6.9",
+    "68.1",
+    "7.6%",
+    "719.6",
+    "8.1",
+    "8.2",
+    "990.1",
+    "Corporate:",
+    "DollarChange",
+    "Education",
+    "Government",
+    "Healthcare",
+    "Medium/Large",
+    "Net Sales",
+    "Other",
+    "PercentChange (1)",
+    "Percentageof Total Net Sales",
+    "Public:",
+    "Small Business",
+    "Total Corporate",
+    "Total Net sales",
+    "Total Public",
+    "Years Ended December 31,"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "(dollars in millions)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2015"
+      ],
+      "value": "Net Sales"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2015"
+      ],
+      "value": "Percentageof Total Net Sales"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2014"
+      ],
+      "value": "Net Sales"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2014"
+      ],
+      "value": "Percentageof Total Net Sales"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "DollarChange"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "PercentChange (1)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Corporate:"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Medium/Large"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2015"
+      ],
+      "value": "$5,758.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2015"
+      ],
+      "value": "44.3%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2014"
+      ],
+      "value": "$5,485.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2014"
+      ],
+      "value": "45.4%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "$272.8"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "5.0%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Small Business"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2015"
+      ],
+      "value": "1,058.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2015"
+      ],
+      "value": "8.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2014"
+      ],
+      "value": "990.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2014"
+      ],
+      "value": "8.2"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "68.1"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "6.9"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total Corporate"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2015"
+      ],
+      "value": "6,816.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2015"
+      ],
+      "value": "52.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2014"
+      ],
+      "value": "6,475.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2014"
+      ],
+      "value": "53.6"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "340.9"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "5.3"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Public:"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Government"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2015"
+      ],
+      "value": "1,675.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2015"
+      ],
+      "value": "12.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2014"
+      ],
+      "value": "1,449.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2014"
+      ],
+      "value": "12.0"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "226.5"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "15.6"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Education"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2015"
+      ],
+      "value": "1,807.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2015"
+      ],
+      "value": "13.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2014"
+      ],
+      "value": "1,824.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2014"
+      ],
+      "value": "15.1"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "(17.0)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "(0.9)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Healthcare"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2015"
+      ],
+      "value": "1,642.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2015"
+      ],
+      "value": "12.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2014"
+      ],
+      "value": "1,606.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2014"
+      ],
+      "value": "13.3"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "36.6"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "2.3"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total Public"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2015"
+      ],
+      "value": "5,125.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2015"
+      ],
+      "value": "39.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2014"
+      ],
+      "value": "4,879.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2014"
+      ],
+      "value": "40.4"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "246.1"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "5.0"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Other"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2015"
+      ],
+      "value": "1,046.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2015"
+      ],
+      "value": "8.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2014"
+      ],
+      "value": "719.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2014"
+      ],
+      "value": "6.0"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "327.2"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "45.5"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total Net sales"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2015"
+      ],
+      "value": "$12,988.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2015"
+      ],
+      "value": "100.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2014"
+      ],
+      "value": "$12,074.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2014"
+      ],
+      "value": "100.0%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "$914.2"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "7.6%"
+    }
+  ]
+}

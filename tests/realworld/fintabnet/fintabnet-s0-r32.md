@@ -1,0 +1,178 @@
+<!-- source: FinTabNet s0-r32 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="2">
+   Year Ended
+  </td>
+<td colspan="2">
+   One Year Change
+  </td>
+<td rowspan="2">
+   Year Ended December 31, 2016
+  </td>
+<td colspan="2">
+   One Year Change
+  </td>
+<td colspan="2">
+   Two Year Change
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   December 31, 2014
+  </td>
+<td>
+   December 31, 2015
+  </td>
+<td>
+   $
+  </td>
+<td>
+   %
+  </td>
+<td>
+   $
+  </td>
+<td>
+   %
+  </td>
+<td>
+   $
+  </td>
+<td>
+   %
+  </td>
+</tr>
+<tr>
+<td>
+   New development
+  </td>
+<td>
+   $197,881
+  </td>
+<td>
+   $244,561
+  </td>
+<td>
+   $46,680
+  </td>
+<td>
+   24%
+  </td>
+<td>
+   $403,131
+  </td>
+<td>
+   $158,570
+  </td>
+<td>
+   65%
+  </td>
+<td>
+   $205,250
+  </td>
+<td>
+   104%
+  </td>
+</tr>
+<tr>
+<td>
+   Recurring capital expenditures, tenant improvements and lease commissions
+  </td>
+<td>
+   59,134
+  </td>
+<td>
+   64,458
+  </td>
+<td>
+   5,324
+  </td>
+<td>
+   9%
+  </td>
+<td>
+   66,332
+  </td>
+<td>
+   1,874
+  </td>
+<td>
+   3%
+  </td>
+<td>
+   7,198
+  </td>
+<td>
+   12%
+  </td>
+</tr>
+<tr>
+<td>
+   Renovations, redevelopments and other capital improvements
+  </td>
+<td>
+   73,646
+  </td>
+<td>
+   123,294
+  </td>
+<td>
+   49,648
+  </td>
+<td>
+   67%
+  </td>
+<td>
+   152,814
+  </td>
+<td>
+   29,520
+  </td>
+<td>
+   24%
+  </td>
+<td>
+   79,168
+  </td>
+<td>
+   107%
+  </td>
+</tr>
+<tr>
+<td>
+   Total
+  </td>
+<td>
+   $330,661
+  </td>
+<td>
+   $432,313
+  </td>
+<td>
+   $101,652
+  </td>
+<td>
+   31%
+  </td>
+<td>
+   $622,277
+  </td>
+<td>
+   $189,964
+  </td>
+<td>
+   44%
+  </td>
+<td>
+   $291,616
+  </td>
+<td>
+   88%
+  </td>
+</tr>
+</table>

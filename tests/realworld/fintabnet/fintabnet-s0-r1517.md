@@ -1,0 +1,174 @@
+<!-- source: FinTabNet s0-r1517 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td>
+   SARS/Options
+  </td>
+<td>
+   Stock Awards
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="2">
+   (In thousands)
+  </td>
+</tr>
+<tr>
+<td>
+   Outstanding awards at January 1, 2011
+  </td>
+<td>
+   28,593
+  </td>
+<td>
+   18,015
+  </td>
+</tr>
+<tr>
+<td>
+   Granted
+  </td>
+<td>
+   2,556
+  </td>
+<td>
+   1,864
+  </td>
+</tr>
+<tr>
+<td>
+   Settled or exercised
+  </td>
+<td>
+   (90)
+  </td>
+<td>
+   (2,809)
+  </td>
+</tr>
+<tr>
+<td>
+   Forfeited or expired
+  </td>
+<td>
+   (4,166)
+  </td>
+<td>
+   (3,457)
+  </td>
+</tr>
+<tr>
+<td>
+   Outstanding at December 31, 2011
+  </td>
+<td>
+   26,893
+  </td>
+<td>
+   13,613
+  </td>
+</tr>
+<tr>
+<td>
+   Granted
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+</tr>
+<tr>
+<td>
+   Settled or exercised
+  </td>
+<td>
+   —
+  </td>
+<td>
+   (25)
+  </td>
+</tr>
+<tr>
+<td>
+   Forfeited or expired
+  </td>
+<td>
+   (2,943)
+  </td>
+<td>
+   (679)
+  </td>
+</tr>
+<tr>
+<td>
+   Outstanding at December 31, 2012
+  </td>
+<td>
+   23,950
+  </td>
+<td>
+   12,909
+  </td>
+</tr>
+<tr>
+<td>
+   Granted
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+</tr>
+<tr>
+<td>
+   Settled or exercised
+  </td>
+<td>
+   (6,589)
+  </td>
+<td>
+   (5,900)
+  </td>
+</tr>
+<tr>
+<td>
+   Forfeited or expired
+  </td>
+<td>
+   (13,346)
+  </td>
+<td>
+   —
+  </td>
+</tr>
+<tr>
+<td>
+   Canceled upon emergence
+  </td>
+<td>
+   (4,015)
+  </td>
+<td>
+   (7,009)
+  </td>
+</tr>
+<tr>
+<td>
+   Outstanding at December 9, 2013
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+</tr>
+</table>

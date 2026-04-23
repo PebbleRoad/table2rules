@@ -1,0 +1,232 @@
+<!-- source: FinTabNet s0-r1504 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td>
+   2013
+  </td>
+<td>
+   2012
+  </td>
+<td>
+   Percent Increase (Decrease)
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="2">
+   (In cents)
+  </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Mainline CASM:
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Aircraft fuel and related taxes
+  </td>
+<td>
+   4.94
+  </td>
+<td>
+   5.05
+  </td>
+<td>
+   (2.2)
+  </td>
+</tr>
+<tr>
+<td>
+   Salaries, wages and benefits
+  </td>
+<td>
+   3.41
+  </td>
+<td>
+   4.07
+  </td>
+<td>
+   (16.2)
+  </td>
+</tr>
+<tr>
+<td>
+   Maintenance, materials and repairs
+  </td>
+<td>
+   0.79
+  </td>
+<td>
+   0.76
+  </td>
+<td>
+   3.9
+  </td>
+</tr>
+<tr>
+<td>
+   Other rent and landing fees
+  </td>
+<td>
+   0.72
+  </td>
+<td>
+   0.71
+  </td>
+<td>
+   1.4
+  </td>
+</tr>
+<tr>
+<td>
+   Aircraft rent
+  </td>
+<td>
+   0.48
+  </td>
+<td>
+   0.36
+  </td>
+<td>
+   33.3
+  </td>
+</tr>
+<tr>
+<td>
+   Selling expenses
+  </td>
+<td>
+   0.73
+  </td>
+<td>
+   0.69
+  </td>
+<td>
+   5.8
+  </td>
+</tr>
+<tr>
+<td>
+   Depreciation and amortization
+  </td>
+<td>
+   0.54
+  </td>
+<td>
+   0.55
+  </td>
+<td>
+   (1.8)
+  </td>
+</tr>
+<tr>
+<td>
+   Special items, net
+  </td>
+<td>
+   0.18
+  </td>
+<td>
+   0.25
+  </td>
+<td>
+   nm
+  </td>
+</tr>
+<tr>
+<td>
+   Other
+  </td>
+<td>
+   1.88
+  </td>
+<td>
+   1.75
+  </td>
+<td>
+   7.4
+  </td>
+</tr>
+<tr>
+<td>
+   Total mainline CASM
+  </td>
+<td>
+   13.67
+  </td>
+<td>
+   14.20
+  </td>
+<td>
+   (3.7)
+  </td>
+</tr>
+<tr>
+<td>
+   Less: Special items, net
+  </td>
+<td>
+   (0.18)
+  </td>
+<td>
+   (0.25)
+  </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Less: Aircraft fuel and related taxes
+  </td>
+<td>
+   (4.94)
+  </td>
+<td>
+   (5.05)
+  </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Less: Profit sharing
+  </td>
+<td>
+   (0.05)
+  </td>
+<td>
+   —
+  </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Total mainline CASM excluding special items, fuel and profit sharing
+   <sup>
+    1
+   </sup>
+</td>
+<td>
+   8.50
+  </td>
+<td>
+   8.90
+  </td>
+<td>
+   (4.5)
+  </td>
+</tr>
+</table>

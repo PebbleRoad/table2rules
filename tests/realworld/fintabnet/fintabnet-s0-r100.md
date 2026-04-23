@@ -1,0 +1,194 @@
+<!-- source: FinTabNet s0-r100 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="2">
+   NYSECommon Stock
+  </td>
+<td colspan="2">
+   OSECommon Stock
+   <sup>
+    (1)
+   </sup>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   High
+  </td>
+<td>
+   Low
+  </td>
+<td>
+   High
+  </td>
+<td>
+   Low
+  </td>
+</tr>
+<tr>
+<td>
+   2014
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Fourth Quarter
+  </td>
+<td>
+   $83.90
+  </td>
+<td>
+   $52.32
+  </td>
+<td>
+   638.00
+  </td>
+<td>
+   347.00
+  </td>
+</tr>
+<tr>
+<td>
+   Third Quarter
+  </td>
+<td>
+   $69.31
+  </td>
+<td>
+   $53.66
+  </td>
+<td>
+   439.60
+  </td>
+<td>
+   332.00
+  </td>
+</tr>
+<tr>
+<td>
+   Second Quarter
+  </td>
+<td>
+   $57.38
+  </td>
+<td>
+   $49.65
+  </td>
+<td>
+   349.00
+  </td>
+<td>
+   300.00
+  </td>
+</tr>
+<tr>
+<td>
+   First Quarter
+  </td>
+<td>
+   $54.93
+  </td>
+<td>
+   $45.95
+  </td>
+<td>
+   332.60
+  </td>
+<td>
+   284.20
+  </td>
+</tr>
+<tr>
+<td>
+   2013
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Fourth Quarter
+  </td>
+<td>
+   $47.66
+  </td>
+<td>
+   $35.97
+  </td>
+<td>
+   292.60
+  </td>
+<td>
+   216.10
+  </td>
+</tr>
+<tr>
+<td>
+   Third Quarter
+  </td>
+<td>
+   $40.71
+  </td>
+<td>
+   $33.31
+  </td>
+<td>
+   241.80
+  </td>
+<td>
+   201.40
+  </td>
+</tr>
+<tr>
+<td>
+   Second Quarter
+  </td>
+<td>
+   $38.62
+  </td>
+<td>
+   $31.35
+  </td>
+<td>
+   224.90
+  </td>
+<td>
+   178.00
+  </td>
+</tr>
+<tr>
+<td>
+   First Quarter
+  </td>
+<td>
+   $38.56
+  </td>
+<td>
+   $31.72
+  </td>
+<td>
+   213.50
+  </td>
+<td>
+   184.10
+  </td>
+</tr>
+</table>

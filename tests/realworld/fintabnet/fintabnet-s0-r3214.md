@@ -1,0 +1,505 @@
+<!-- source: FinTabNet s0-r3214 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="2">
+   Common Stock
+  </td>
+<td>
+   Capital in Excess of Par
+  </td>
+<td>
+   Retained
+  </td>
+<td>
+   Treasury
+  </td>
+<td>
+   Deferred  Stock
+  </td>
+<td>
+   Accumulated  Other  Comprehensive
+  </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   Shares
+  </td>
+<td>
+   Amount
+  </td>
+<td>
+   Value
+  </td>
+<td>
+   Earnings
+  </td>
+<td>
+   Stock
+  </td>
+<td>
+   Compensation
+  </td>
+<td>
+   Income (Loss)
+  </td>
+<td>
+   Total
+  </td>
+</tr>
+<tr>
+<td>
+   Balance at October 31, 2002
+  </td>
+<td>
+   147,124
+  </td>
+<td>
+   $1,470
+  </td>
+<td>
+   $1,038,651
+  </td>
+<td>
+   $198,863
+  </td>
+<td>
+   $(116,499)
+  </td>
+<td>
+   $(8,858)
+  </td>
+<td>
+   $(146)
+  </td>
+<td>
+   $1,113,481
+  </td>
+</tr>
+<tr>
+<td>
+   Components of comprehensive income:
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Net income
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   149,724
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   149,724
+  </td>
+<td>
+   149,724
+  </td>
+</tr>
+<tr>
+<td>
+   Unrealized gain (loss) on investments, net of tax of $2,370
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   3,663
+  </td>
+<td>
+   —
+  </td>
+</tr>
+<tr>
+<td>
+   Deferred gain (loss) on cash flow hedges, net of tax of $12,426
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   19,204
+  </td>
+<td>
+   —
+  </td>
+</tr>
+<tr>
+<td>
+   Reclassification adjustment on unrealized gains on investments, net of tax of $7,546
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   (11,644)
+  </td>
+<td>
+   —
+  </td>
+</tr>
+<tr>
+<td>
+   Reclassification on deferred gains on cash flow hedges, net of tax of $4,115
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   (6,359)
+  </td>
+<td>
+   —
+  </td>
+</tr>
+<tr>
+<td>
+   Foreign currency translation adjustment
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   4,635
+  </td>
+<td>
+   —
+  </td>
+</tr>
+<tr>
+<td>
+   Accumulated other comprehensive income
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   9,499
+  </td>
+<td>
+   9,499
+  </td>
+</tr>
+<tr>
+<td>
+   Total comprehensive income
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   159,223
+  </td>
+<td>
+   159,223
+  </td>
+</tr>
+<tr>
+<td>
+   Amortization of deferred stock compensation, net of forfeitures
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   (1,888)
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   6,884
+  </td>
+<td>
+   —
+  </td>
+<td>
+   4,996
+  </td>
+</tr>
+<tr>
+<td>
+   Acquisition of treasury stock
+  </td>
+<td>
+   (9,407)
+  </td>
+<td>
+   (94)
+  </td>
+<td>
+   94
+  </td>
+<td>
+   —
+  </td>
+<td>
+   (260,746)
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   (260,746)
+  </td>
+</tr>
+<tr>
+<td>
+   Stock options assumed in connection with acquisitions
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   21,696
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   (5,196)
+  </td>
+<td>
+   —
+  </td>
+<td>
+   16,500
+  </td>
+</tr>
+<tr>
+<td>
+   Stock issued under stock option and stock purchase plans
+  </td>
+<td>
+   18,120
+  </td>
+<td>
+   184
+  </td>
+<td>
+   74,840
+  </td>
+<td>
+   (96,608)
+  </td>
+<td>
+   356,512
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   334,928
+  </td>
+</tr>
+<tr>
+<td>
+   Tax benefits associated with exercise of stock options
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   65,028
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   65,028
+  </td>
+</tr>
+<tr>
+<td>
+   Balance at October 31, 2003
+  </td>
+<td>
+   155,837
+  </td>
+<td>
+   $1,560
+  </td>
+<td>
+   $1,198,421
+  </td>
+<td>
+   $251,979
+  </td>
+<td>
+   $(20,733)
+  </td>
+<td>
+   $(7,170)
+  </td>
+<td>
+   $9,353
+  </td>
+<td>
+   $1,433,410
+  </td>
+</tr>
+</table>

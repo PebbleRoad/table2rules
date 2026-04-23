@@ -1,0 +1,273 @@
+<!-- source: FinTabNet s0-r3312 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="2">
+   2015
+  </td>
+<td colspan="2">
+   2014
+  </td>
+<td colspan="2">
+   2013
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   Number of Options
+  </td>
+<td>
+   Weighted Average Exercise Price
+  </td>
+<td>
+   Number of Options
+  </td>
+<td>
+   Weighted Average Exercise Price
+  </td>
+<td>
+   Number of Options
+  </td>
+<td>
+   Weighted Average Exercise Price
+  </td>
+</tr>
+<tr>
+<td>
+   Under option —
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   January 1
+  </td>
+<td>
+   39,235,557
+  </td>
+<td>
+   $90.38
+  </td>
+<td>
+   43,938,778
+  </td>
+<td>
+   $83.84
+  </td>
+<td>
+   56,565,030
+  </td>
+<td>
+   $80.33
+  </td>
+</tr>
+<tr>
+<td>
+   Granted:
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Annual
+  </td>
+<td>
+   5,529,544
+  </td>
+<td>
+   165.91
+  </td>
+<td>
+   5,736,183
+  </td>
+<td>
+   126.77
+  </td>
+<td>
+   6,220,810
+  </td>
+<td>
+   101.55
+  </td>
+</tr>
+<tr>
+<td>
+   Progressive (Reload)
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   140,447
+  </td>
+<td>
+   109.83
+  </td>
+</tr>
+<tr>
+<td>
+   Other
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   191
+  </td>
+<td>
+   119.62
+  </td>
+</tr>
+<tr>
+<td>
+   Exercised
+  </td>
+<td>
+   (5,978,382)
+  </td>
+<td>
+   83.74
+  </td>
+<td>
+   (10,219,261)
+  </td>
+<td>
+   82.37
+  </td>
+<td>
+   (18,825,218)
+  </td>
+<td>
+   79.25
+  </td>
+</tr>
+<tr>
+<td>
+   Canceled
+  </td>
+<td>
+   (234,274)
+  </td>
+<td>
+   128.99
+  </td>
+<td>
+   (220,143)
+  </td>
+<td>
+   105.11
+  </td>
+<td>
+   (162,482)
+  </td>
+<td>
+   89.92
+  </td>
+</tr>
+<tr>
+<td>
+   December 31
+  </td>
+<td>
+   38,552,445
+  </td>
+<td>
+   $102.01
+  </td>
+<td>
+   39,235,557
+  </td>
+<td>
+   $90.38
+  </td>
+<td>
+   43,938,778
+  </td>
+<td>
+   $83.84
+  </td>
+</tr>
+<tr>
+<td>
+   Options exercisable
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   December 31
+  </td>
+<td>
+   27,262,062
+  </td>
+<td>
+   $85.97
+  </td>
+<td>
+   27,502,208
+  </td>
+<td>
+   $81.42
+  </td>
+<td>
+   32,038,228
+  </td>
+<td>
+   $79.58
+  </td>
+</tr>
+</table>

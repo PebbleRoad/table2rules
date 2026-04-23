@@ -1,0 +1,513 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$10,768.6",
+    "$12,074.5",
+    "$132.8",
+    "$244.9",
+    "(0.6)",
+    "(0.8)",
+    "(1.2)",
+    "(1.6)",
+    "(142.8)",
+    "(197.3)",
+    "(2.3)",
+    "(250.1)",
+    "(62.7)",
+    "(64.0)",
+    "(90.7)",
+    "1,110.3",
+    "1,120.9",
+    "1,760.3",
+    "1,921.3",
+    "1.0",
+    "1.1",
+    "1.2",
+    "1.2%",
+    "1.8",
+    "10,153.2",
+    "10.4",
+    "100.0%",
+    "130.8",
+    "138.0",
+    "15.9",
+    "16.3",
+    "195.5",
+    "2.0%",
+    "2.7",
+    "3.2",
+    "387.7",
+    "4.7",
+    "5.6",
+    "508.6",
+    "673.0",
+    "83.7",
+    "84.1",
+    "9,008.3",
+    "9.2",
+    "Advertising expense",
+    "Cost of sales",
+    "Dollars inMillions",
+    "Gross profit",
+    "Income before income taxes",
+    "Income from operations",
+    "Income tax expense",
+    "Interest expense, net",
+    "Net income",
+    "Net loss on extinguishments of long-term debt",
+    "Net sales",
+    "Other income, net",
+    "Percentage ofNet Sales",
+    "Selling and administrative expenses",
+    "Year Ended December 31, 2013",
+    "Year Ended December 31, 2014",
+    "\u2014"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Net sales"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2014",
+        "Dollars inMillions"
+      ],
+      "value": "$12,074.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2014",
+        "Percentage ofNet Sales"
+      ],
+      "value": "100.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2013",
+        "Dollars inMillions"
+      ],
+      "value": "$10,768.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2013",
+        "Percentage ofNet Sales"
+      ],
+      "value": "100.0%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Cost of sales"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2014",
+        "Dollars inMillions"
+      ],
+      "value": "10,153.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2014",
+        "Percentage ofNet Sales"
+      ],
+      "value": "84.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2013",
+        "Dollars inMillions"
+      ],
+      "value": "9,008.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2013",
+        "Percentage ofNet Sales"
+      ],
+      "value": "83.7"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Gross profit"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2014",
+        "Dollars inMillions"
+      ],
+      "value": "1,921.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2014",
+        "Percentage ofNet Sales"
+      ],
+      "value": "15.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2013",
+        "Dollars inMillions"
+      ],
+      "value": "1,760.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2013",
+        "Percentage ofNet Sales"
+      ],
+      "value": "16.3"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Selling and administrative expenses"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2014",
+        "Dollars inMillions"
+      ],
+      "value": "1,110.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2014",
+        "Percentage ofNet Sales"
+      ],
+      "value": "9.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2013",
+        "Dollars inMillions"
+      ],
+      "value": "1,120.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2013",
+        "Percentage ofNet Sales"
+      ],
+      "value": "10.4"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Advertising expense"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2014",
+        "Dollars inMillions"
+      ],
+      "value": "138.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2014",
+        "Percentage ofNet Sales"
+      ],
+      "value": "1.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2013",
+        "Dollars inMillions"
+      ],
+      "value": "130.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2013",
+        "Percentage ofNet Sales"
+      ],
+      "value": "1.2"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Income from operations"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2014",
+        "Dollars inMillions"
+      ],
+      "value": "673.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2014",
+        "Percentage ofNet Sales"
+      ],
+      "value": "5.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2013",
+        "Dollars inMillions"
+      ],
+      "value": "508.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2013",
+        "Percentage ofNet Sales"
+      ],
+      "value": "4.7"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Interest expense, net"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2014",
+        "Dollars inMillions"
+      ],
+      "value": "(197.3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2014",
+        "Percentage ofNet Sales"
+      ],
+      "value": "(1.6)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2013",
+        "Dollars inMillions"
+      ],
+      "value": "(250.1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2013",
+        "Percentage ofNet Sales"
+      ],
+      "value": "(2.3)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Net loss on extinguishments of long-term debt"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2014",
+        "Dollars inMillions"
+      ],
+      "value": "(90.7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2014",
+        "Percentage ofNet Sales"
+      ],
+      "value": "(0.8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2013",
+        "Dollars inMillions"
+      ],
+      "value": "(64.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2013",
+        "Percentage ofNet Sales"
+      ],
+      "value": "(0.6)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Other income, net"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2014",
+        "Dollars inMillions"
+      ],
+      "value": "2.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2014",
+        "Percentage ofNet Sales"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2013",
+        "Dollars inMillions"
+      ],
+      "value": "1.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2013",
+        "Percentage ofNet Sales"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Income before income taxes"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2014",
+        "Dollars inMillions"
+      ],
+      "value": "387.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2014",
+        "Percentage ofNet Sales"
+      ],
+      "value": "3.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2013",
+        "Dollars inMillions"
+      ],
+      "value": "195.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2013",
+        "Percentage ofNet Sales"
+      ],
+      "value": "1.8"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Income tax expense"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2014",
+        "Dollars inMillions"
+      ],
+      "value": "(142.8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2014",
+        "Percentage ofNet Sales"
+      ],
+      "value": "(1.2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2013",
+        "Dollars inMillions"
+      ],
+      "value": "(62.7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2013",
+        "Percentage ofNet Sales"
+      ],
+      "value": "(0.6)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Net income"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2014",
+        "Dollars inMillions"
+      ],
+      "value": "$244.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2014",
+        "Percentage ofNet Sales"
+      ],
+      "value": "2.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2013",
+        "Dollars inMillions"
+      ],
+      "value": "$132.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2013",
+        "Percentage ofNet Sales"
+      ],
+      "value": "1.2%"
+    }
+  ]
+}

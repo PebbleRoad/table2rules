@@ -1,0 +1,351 @@
+<!-- source: FinTabNet s0-r1380 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td>
+   Vascular North America
+  </td>
+<td>
+   Interventional North America
+  </td>
+<td>
+   Anesthesia North America
+  </td>
+<td>
+   Surgical North America
+  </td>
+<td>
+   EMEA
+  </td>
+<td>
+   Asia
+  </td>
+<td>
+   OEM
+  </td>
+<td>
+   All other
+  </td>
+<td>
+   Total
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="9">
+   (Dollars in thousands)
+  </td>
+</tr>
+<tr>
+<td>
+   Balance as of December 31, 2015
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Goodwill
+  </td>
+<td>
+   $485,986
+  </td>
+<td>
+   $84,615
+  </td>
+<td>
+   $225,653
+  </td>
+<td>
+   $250,912
+  </td>
+<td>
+   $306,009
+  </td>
+<td>
+   $141,067
+  </td>
+<td>
+   $1,194
+  </td>
+<td>
+   $132,544
+  </td>
+<td>
+   $1,627,980
+  </td>
+</tr>
+<tr>
+<td>
+   Accumulated impairment losses
+  </td>
+<td>
+   (219,527)
+  </td>
+<td>
+   (5,528)
+  </td>
+<td>
+   (84,531)
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   (22,542)
+  </td>
+<td>
+   (332,128)
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   266,459
+  </td>
+<td>
+   79,087
+  </td>
+<td>
+   141,122
+  </td>
+<td>
+   250,912
+  </td>
+<td>
+   306,009
+  </td>
+<td>
+   141,067
+  </td>
+<td>
+   1,194
+  </td>
+<td>
+   110,002
+  </td>
+<td>
+   1,295,852
+  </td>
+</tr>
+<tr>
+<td>
+   Goodwill related to acquisitions
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   3,689
+  </td>
+<td>
+   —
+  </td>
+<td>
+   3,689
+  </td>
+</tr>
+<tr>
+<td>
+   Translation adjustment
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   131
+  </td>
+<td>
+   —
+  </td>
+<td>
+   (15,968)
+  </td>
+<td>
+   (2,882)
+  </td>
+<td>
+   —
+  </td>
+<td>
+   (4,102)
+  </td>
+<td>
+   (22,821)
+  </td>
+</tr>
+<tr>
+<td>
+   Balance as of December 31, 2016
+  </td>
+<td>
+   $266,459
+  </td>
+<td>
+   $79,087
+  </td>
+<td>
+   $141,253
+  </td>
+<td>
+   $250,912
+  </td>
+<td>
+   $290,041
+  </td>
+<td>
+   $138,185
+  </td>
+<td>
+   $4,883
+  </td>
+<td>
+   $105,900
+  </td>
+<td>
+   $1,276,720
+  </td>
+</tr>
+<tr>
+<td>
+   Goodwill related to acquisitions
+  </td>
+<td>
+   —
+  </td>
+<td>
+   342,901
+  </td>
+<td>
+   15,599
+  </td>
+<td>
+   —
+  </td>
+<td>
+   161,543
+  </td>
+<td>
+   59,954
+  </td>
+<td>
+   —
+  </td>
+<td>
+   313,714
+  </td>
+<td>
+   893,711
+  </td>
+</tr>
+<tr>
+<td>
+   Translation and other adjustments
+  </td>
+<td>
+   (1,590)
+  </td>
+<td>
+   11,061
+  </td>
+<td>
+   437
+  </td>
+<td>
+   —
+  </td>
+<td>
+   42,964
+  </td>
+<td>
+   11,061
+  </td>
+<td>
+   —
+  </td>
+<td>
+   1,228
+  </td>
+<td>
+   65,161
+  </td>
+</tr>
+<tr>
+<td>
+   Balance as of December 31, 2017
+  </td>
+<td>
+   $264,869
+  </td>
+<td>
+   $433,049
+  </td>
+<td>
+   $157,289
+  </td>
+<td>
+   $250,912
+  </td>
+<td>
+   $494,548
+  </td>
+<td>
+   $209,200
+  </td>
+<td>
+   $4,883
+  </td>
+<td>
+   $420,842
+  </td>
+<td>
+   $2,235,592
+  </td>
+</tr>
+</table>

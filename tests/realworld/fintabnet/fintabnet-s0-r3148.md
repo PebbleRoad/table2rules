@@ -1,0 +1,243 @@
+<!-- source: FinTabNet s0-r3148 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td>
+   Restricted Stock Units
+  </td>
+<td>
+   Weighted Average Grant Date Fair Value
+  </td>
+<td>
+   Weighted Average Remaining Contractual Life (In Years)
+  </td>
+<td>
+   Aggregate Fair Value
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="4">
+   (in thousands, except per share and life amounts)
+  </td>
+</tr>
+<tr>
+<td>
+   Balance at October 31, 2008
+  </td>
+<td>
+   2,676
+  </td>
+<td>
+   $25.45
+  </td>
+<td>
+   1.61
+  </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Granted
+  </td>
+<td>
+   1,311
+  </td>
+<td>
+   $18.78
+  </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Vested(2)(3)
+  </td>
+<td>
+   (787)
+  </td>
+<td>
+   $25.64
+  </td>
+<td>
+</td>
+<td>
+   $14,859
+  </td>
+</tr>
+<tr>
+<td>
+   Forfeited
+  </td>
+<td>
+   (67)
+  </td>
+<td>
+   $24.64
+  </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Balance at October 31, 2009
+  </td>
+<td>
+   3,133
+  </td>
+<td>
+   $22.63
+  </td>
+<td>
+   1.41
+  </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Granted
+  </td>
+<td>
+   1,228
+  </td>
+<td>
+   $22.00
+  </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Assumed(1)
+  </td>
+<td>
+   713
+  </td>
+<td>
+   $23.69
+  </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Vested(2)(3)
+  </td>
+<td>
+   (1,221)
+  </td>
+<td>
+   $22.40
+  </td>
+<td>
+</td>
+<td>
+   $27,345
+  </td>
+</tr>
+<tr>
+<td>
+   Forfeited
+  </td>
+<td>
+   (123)
+  </td>
+<td>
+   $22.51
+  </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Balance at October 31, 2010
+  </td>
+<td>
+   3,730
+  </td>
+<td>
+   $22.71
+  </td>
+<td>
+   1.41
+  </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Granted
+  </td>
+<td>
+   1,483
+  </td>
+<td>
+   $26.89
+  </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Vested(2)(3)
+  </td>
+<td>
+   (1,522)
+  </td>
+<td>
+   $23.11
+  </td>
+<td>
+</td>
+<td>
+   $35,164
+  </td>
+</tr>
+<tr>
+<td>
+   Forfeited
+  </td>
+<td>
+   (237)
+  </td>
+<td>
+   $23.49
+  </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Balance at October 31, 2011
+  </td>
+<td>
+   3,454
+  </td>
+<td>
+   $24.28
+  </td>
+<td>
+   1.48
+  </td>
+<td>
+</td>
+</tr>
+</table>

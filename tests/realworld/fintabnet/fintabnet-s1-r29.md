@@ -1,0 +1,541 @@
+<!-- source: FinTabNet s1-r29 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="6">
+   Pension Plans
+  </td>
+<td colspan="3">
+   Postretirement Benefit Plans
+  </td>
+</tr>
+<tr>
+<td>
+   Weighted-average assumptions used to determine benefit obligations for years ended December 31:
+  </td>
+<td colspan="2">
+   2016
+  </td>
+<td colspan="2">
+   2015
+  </td>
+<td colspan="2">
+   2014
+  </td>
+<td>
+   2016
+  </td>
+<td>
+   2015
+  </td>
+<td>
+   2014
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   U.S.
+  </td>
+<td>
+   Non-U.S.
+  </td>
+<td>
+   U.S.
+  </td>
+<td>
+   Non-U.S.
+  </td>
+<td>
+   U.S.
+  </td>
+<td>
+   Non-U.S.
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Discount rate
+  </td>
+<td>
+   3.89%
+  </td>
+<td>
+   2.33%
+  </td>
+<td>
+   4.13%
+  </td>
+<td>
+   3.26%
+  </td>
+<td>
+   3.80%
+  </td>
+<td>
+   3.10%
+  </td>
+<td>
+   3.91%
+  </td>
+<td>
+   4.17%
+  </td>
+<td>
+   3.91%
+  </td>
+</tr>
+<tr>
+<td>
+   Rate of compensation increase
+  </td>
+<td>
+   3.25%
+  </td>
+<td>
+   2.94%
+  </td>
+<td>
+   3.50%
+  </td>
+<td>
+   3.00%
+  </td>
+<td>
+   3.50%
+  </td>
+<td>
+   3.24%
+  </td>
+<td>
+   3.25%
+  </td>
+<td>
+   3.50%
+  </td>
+<td>
+   3.50%
+  </td>
+</tr>
+<tr>
+<td>
+   Health care cost trend
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Initial
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   7.00%
+  </td>
+<td>
+   7.50%
+  </td>
+<td>
+   7.50%
+  </td>
+</tr>
+<tr>
+<td>
+   Decreasing to ultimate trend of
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   5.00%
+  </td>
+<td>
+   5.00%
+  </td>
+<td>
+   5.00%
+  </td>
+</tr>
+<tr>
+<td>
+   in year
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   2021
+  </td>
+<td>
+   2021
+  </td>
+<td>
+   2020
+  </td>
+</tr>
+<tr>
+<td>
+   Weighted-average assumptions used to determine net periodic cost for years ended December 31:
+  </td>
+<td colspan="2">
+   2016
+  </td>
+<td colspan="2">
+   2015
+  </td>
+<td colspan="2">
+   2014
+  </td>
+<td>
+   2016
+  </td>
+<td>
+   2015
+  </td>
+<td>
+   2014
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   U.S.
+  </td>
+<td>
+   Non-U.S.
+  </td>
+<td>
+   U.S.
+  </td>
+<td>
+   Non-U.S.
+  </td>
+<td>
+   U.S.
+  </td>
+<td>
+   Non-U.S.
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Discount rate
+  </td>
+<td>
+   4.13%
+  </td>
+<td>
+   3.26%
+  </td>
+<td>
+   3.80%
+  </td>
+<td>
+   3.10%
+  </td>
+<td>
+   4.59%
+  </td>
+<td>
+   4.18%
+  </td>
+<td>
+   4.17%
+  </td>
+<td>
+   3.91%
+  </td>
+<td>
+   4.75%
+  </td>
+</tr>
+<tr>
+<td>
+   Discount rate for service cost
+  </td>
+<td>
+   4.13%
+  </td>
+<td>
+   3.26%
+  </td>
+<td>
+   3.80%
+  </td>
+<td>
+   3.10%
+  </td>
+<td>
+   4.59%
+  </td>
+<td>
+   4.18%
+  </td>
+<td>
+   4.57%
+  </td>
+<td>
+   3.91%
+  </td>
+<td>
+   4.75%
+  </td>
+</tr>
+<tr>
+<td>
+   Discount rate for interest cost
+  </td>
+<td>
+   3.33%
+  </td>
+<td>
+   3.26%
+  </td>
+<td>
+   3.80%
+  </td>
+<td>
+   3.10%
+  </td>
+<td>
+   4.59%
+  </td>
+<td>
+   4.18%
+  </td>
+<td>
+   3.42%
+  </td>
+<td>
+   3.91%
+  </td>
+<td>
+   4.75%
+  </td>
+</tr>
+<tr>
+<td>
+   Expected return on assets
+  </td>
+<td>
+   7.60%
+  </td>
+<td>
+   5.11%
+  </td>
+<td>
+   7.78%
+  </td>
+<td>
+   5.50%
+  </td>
+<td>
+   7.83%
+  </td>
+<td>
+   5.78%
+  </td>
+<td>
+   3.75%
+  </td>
+<td>
+   3.75%
+  </td>
+<td>
+   3.75%
+  </td>
+</tr>
+<tr>
+<td>
+   Rate of compensation increase
+  </td>
+<td>
+   3.50%
+  </td>
+<td>
+   3.00%
+  </td>
+<td>
+   3.50%
+  </td>
+<td>
+   3.24%
+  </td>
+<td>
+   3.50%
+  </td>
+<td>
+   3.49%
+  </td>
+<td>
+   3.50%
+  </td>
+<td>
+   3.50%
+  </td>
+<td>
+   3.50%
+  </td>
+</tr>
+<tr>
+<td>
+   Health care cost trend
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Initial
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   7.50%
+  </td>
+<td>
+   7.50%
+  </td>
+<td>
+   8.00%
+  </td>
+</tr>
+<tr>
+<td>
+   Decreasing to ultimate trend of
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   5.00%
+  </td>
+<td>
+   5.00%
+  </td>
+<td>
+   5.00%
+  </td>
+</tr>
+<tr>
+<td>
+   in year
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   2021
+  </td>
+<td>
+   2020
+  </td>
+<td>
+   2020
+  </td>
+</tr>
+</table>

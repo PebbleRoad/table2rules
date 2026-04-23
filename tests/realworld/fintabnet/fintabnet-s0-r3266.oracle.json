@@ -1,0 +1,492 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$1,983",
+    "$10,584",
+    "$2,236",
+    "$2,296",
+    "$29,611",
+    "$29,904",
+    "$30,871",
+    "$6,178",
+    "$6,483",
+    "$6,666",
+    "$9,629",
+    "$9,943",
+    "(101)",
+    "(109)",
+    "(118)",
+    "(322)",
+    "(420)",
+    "(458)",
+    "(471)",
+    "(496)",
+    "(540)",
+    "(Millions)",
+    "1,026",
+    "1,140",
+    "1,217",
+    "1,237",
+    "1,239",
+    "1,484",
+    "1,641",
+    "1,672",
+    "2011",
+    "2012",
+    "2013",
+    "4",
+    "4,230",
+    "4,386",
+    "4,435",
+    "5,011",
+    "5,138",
+    "5,334",
+    "5,393",
+    "5,458",
+    "5,471",
+    "5,657",
+    "5,732",
+    "8",
+    "855",
+    "9",
+    "943",
+    "945",
+    "954",
+    "Consumer",
+    "Corporate and Unallocated",
+    "Electronics and Energy",
+    "Elimination of Dual Credit",
+    "Health Care",
+    "Industrial",
+    "Net Sales",
+    "Operating Income",
+    "Safety and Graphics",
+    "Total Company"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "(Millions)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Sales"
+      ],
+      "value": "2013"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Sales"
+      ],
+      "value": "2012"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Sales"
+      ],
+      "value": "2011"
+    },
+    {
+      "row": [],
+      "col": [
+        "Operating Income"
+      ],
+      "value": "2013"
+    },
+    {
+      "row": [],
+      "col": [
+        "Operating Income"
+      ],
+      "value": "2012"
+    },
+    {
+      "row": [],
+      "col": [
+        "Operating Income"
+      ],
+      "value": "2011"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Industrial"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Sales"
+      ],
+      "value": "$10,584"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Sales"
+      ],
+      "value": "$9,943"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Sales"
+      ],
+      "value": "$9,629"
+    },
+    {
+      "row": [],
+      "col": [
+        "Operating Income"
+      ],
+      "value": "$2,296"
+    },
+    {
+      "row": [],
+      "col": [
+        "Operating Income"
+      ],
+      "value": "$2,236"
+    },
+    {
+      "row": [],
+      "col": [
+        "Operating Income"
+      ],
+      "value": "$1,983"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Safety and Graphics"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Sales"
+      ],
+      "value": "5,657"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Sales"
+      ],
+      "value": "5,471"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Sales"
+      ],
+      "value": "5,458"
+    },
+    {
+      "row": [],
+      "col": [
+        "Operating Income"
+      ],
+      "value": "1,239"
+    },
+    {
+      "row": [],
+      "col": [
+        "Operating Income"
+      ],
+      "value": "1,217"
+    },
+    {
+      "row": [],
+      "col": [
+        "Operating Income"
+      ],
+      "value": "1,237"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Electronics and Energy"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Sales"
+      ],
+      "value": "5,393"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Sales"
+      ],
+      "value": "5,458"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Sales"
+      ],
+      "value": "5,732"
+    },
+    {
+      "row": [],
+      "col": [
+        "Operating Income"
+      ],
+      "value": "954"
+    },
+    {
+      "row": [],
+      "col": [
+        "Operating Income"
+      ],
+      "value": "1,026"
+    },
+    {
+      "row": [],
+      "col": [
+        "Operating Income"
+      ],
+      "value": "1,140"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Health Care"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Sales"
+      ],
+      "value": "5,334"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Sales"
+      ],
+      "value": "5,138"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Sales"
+      ],
+      "value": "5,011"
+    },
+    {
+      "row": [],
+      "col": [
+        "Operating Income"
+      ],
+      "value": "1,672"
+    },
+    {
+      "row": [],
+      "col": [
+        "Operating Income"
+      ],
+      "value": "1,641"
+    },
+    {
+      "row": [],
+      "col": [
+        "Operating Income"
+      ],
+      "value": "1,484"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Consumer"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Sales"
+      ],
+      "value": "4,435"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Sales"
+      ],
+      "value": "4,386"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Sales"
+      ],
+      "value": "4,230"
+    },
+    {
+      "row": [],
+      "col": [
+        "Operating Income"
+      ],
+      "value": "945"
+    },
+    {
+      "row": [],
+      "col": [
+        "Operating Income"
+      ],
+      "value": "943"
+    },
+    {
+      "row": [],
+      "col": [
+        "Operating Income"
+      ],
+      "value": "855"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Corporate and Unallocated"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Sales"
+      ],
+      "value": "8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Sales"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Sales"
+      ],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Operating Income"
+      ],
+      "value": "(322)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Operating Income"
+      ],
+      "value": "(471)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Operating Income"
+      ],
+      "value": "(420)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Elimination of Dual Credit"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Sales"
+      ],
+      "value": "(540)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Sales"
+      ],
+      "value": "(496)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Sales"
+      ],
+      "value": "(458)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Operating Income"
+      ],
+      "value": "(118)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Operating Income"
+      ],
+      "value": "(109)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Operating Income"
+      ],
+      "value": "(101)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total Company"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Sales"
+      ],
+      "value": "$30,871"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Sales"
+      ],
+      "value": "$29,904"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Sales"
+      ],
+      "value": "$29,611"
+    },
+    {
+      "row": [],
+      "col": [
+        "Operating Income"
+      ],
+      "value": "$6,666"
+    },
+    {
+      "row": [],
+      "col": [
+        "Operating Income"
+      ],
+      "value": "$6,483"
+    },
+    {
+      "row": [],
+      "col": [
+        "Operating Income"
+      ],
+      "value": "$6,178"
+    }
+  ]
+}

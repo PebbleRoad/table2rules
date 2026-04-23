@@ -1,0 +1,449 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$1",
+    "$10",
+    "$12,206",
+    "$12,389",
+    "$12,947",
+    "$13,130",
+    "$192",
+    "$267",
+    "$27,098",
+    "$32,945",
+    "$6,344",
+    "$769",
+    "$806",
+    "$982",
+    "(1)",
+    "(11)",
+    "(18)",
+    "(2)",
+    "(202)",
+    "(32)",
+    "(9)",
+    "(in millions)",
+    "1",
+    "11",
+    "12,217",
+    "12,948",
+    "15",
+    "17",
+    "173",
+    "181",
+    "191",
+    "195",
+    "20",
+    "211",
+    "227",
+    "27,316",
+    "39",
+    "5,373",
+    "5,661",
+    "58",
+    "767",
+    "982",
+    "Acquisitions",
+    "Acquisitions (b)",
+    "Adjustments (a)",
+    "Balance, December 31, 2013",
+    "Balance, December 31, 2014",
+    "Balance, December 31, 2015",
+    "Broadcast Television",
+    "Cable Communications",
+    "Cable Networks",
+    "Corporate and Other",
+    "Filmed Entertainment",
+    "NBCUniversal",
+    "Theme Parks",
+    "Total",
+    "\u2014"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "(in millions)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Cable Communications"
+    },
+    {
+      "row": [],
+      "col": [
+        "NBCUniversal"
+      ],
+      "value": "Cable Networks"
+    },
+    {
+      "row": [],
+      "col": [
+        "NBCUniversal"
+      ],
+      "value": "Broadcast Television"
+    },
+    {
+      "row": [],
+      "col": [
+        "NBCUniversal"
+      ],
+      "value": "Filmed Entertainment"
+    },
+    {
+      "row": [],
+      "col": [
+        "NBCUniversal"
+      ],
+      "value": "Theme Parks"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Corporate and Other"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Balance, December 31, 2013"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "$12,206"
+    },
+    {
+      "row": [],
+      "col": [
+        "NBCUniversal"
+      ],
+      "value": "$13,130"
+    },
+    {
+      "row": [],
+      "col": [
+        "NBCUniversal"
+      ],
+      "value": "$769"
+    },
+    {
+      "row": [],
+      "col": [
+        "NBCUniversal"
+      ],
+      "value": "$1"
+    },
+    {
+      "row": [],
+      "col": [
+        "NBCUniversal"
+      ],
+      "value": "$982"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "$10"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "$27,098"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Acquisitions"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "11"
+    },
+    {
+      "row": [],
+      "col": [
+        "NBCUniversal"
+      ],
+      "value": "20"
+    },
+    {
+      "row": [],
+      "col": [
+        "NBCUniversal"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "NBCUniversal"
+      ],
+      "value": "15"
+    },
+    {
+      "row": [],
+      "col": [
+        "NBCUniversal"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "181"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "227"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Adjustments (a)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "NBCUniversal"
+      ],
+      "value": "(202)"
+    },
+    {
+      "row": [],
+      "col": [
+        "NBCUniversal"
+      ],
+      "value": "(2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "NBCUniversal"
+      ],
+      "value": "195"
+    },
+    {
+      "row": [],
+      "col": [
+        "NBCUniversal"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "(9)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Balance, December 31, 2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "12,217"
+    },
+    {
+      "row": [],
+      "col": [
+        "NBCUniversal"
+      ],
+      "value": "12,948"
+    },
+    {
+      "row": [],
+      "col": [
+        "NBCUniversal"
+      ],
+      "value": "767"
+    },
+    {
+      "row": [],
+      "col": [
+        "NBCUniversal"
+      ],
+      "value": "211"
+    },
+    {
+      "row": [],
+      "col": [
+        "NBCUniversal"
+      ],
+      "value": "982"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "191"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "27,316"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Acquisitions (b)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "173"
+    },
+    {
+      "row": [],
+      "col": [
+        "NBCUniversal"
+      ],
+      "value": "17"
+    },
+    {
+      "row": [],
+      "col": [
+        "NBCUniversal"
+      ],
+      "value": "39"
+    },
+    {
+      "row": [],
+      "col": [
+        "NBCUniversal"
+      ],
+      "value": "58"
+    },
+    {
+      "row": [],
+      "col": [
+        "NBCUniversal"
+      ],
+      "value": "5,373"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "5,661"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Adjustments (a)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "(1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "NBCUniversal"
+      ],
+      "value": "(18)"
+    },
+    {
+      "row": [],
+      "col": [
+        "NBCUniversal"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "NBCUniversal"
+      ],
+      "value": "(2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "NBCUniversal"
+      ],
+      "value": "(11)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "(32)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Balance, December 31, 2015"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "$12,389"
+    },
+    {
+      "row": [],
+      "col": [
+        "NBCUniversal"
+      ],
+      "value": "$12,947"
+    },
+    {
+      "row": [],
+      "col": [
+        "NBCUniversal"
+      ],
+      "value": "$806"
+    },
+    {
+      "row": [],
+      "col": [
+        "NBCUniversal"
+      ],
+      "value": "$267"
+    },
+    {
+      "row": [],
+      "col": [
+        "NBCUniversal"
+      ],
+      "value": "$6,344"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "$192"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "$32,945"
+    }
+  ]
+}

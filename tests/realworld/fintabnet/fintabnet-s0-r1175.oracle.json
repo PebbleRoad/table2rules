@@ -1,0 +1,496 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$",
+    "$1,061,769",
+    "$1,373,377",
+    "$1,432,810",
+    "$1,841,100",
+    "$311,608",
+    "$408,290",
+    "%",
+    "% ofRevenue",
+    "1,646,186",
+    "100.0",
+    "11,026",
+    "13.0",
+    "14.4",
+    "182,549",
+    "193,575",
+    "2,151,369",
+    "2.7",
+    "2.8",
+    "2017",
+    "2018",
+    "213,376",
+    "23.8",
+    "28.5%",
+    "29.3%",
+    "30.7",
+    "310,269",
+    "32.7",
+    "33.1",
+    "33.5",
+    "33.9",
+    "35.5",
+    "36.2",
+    "45.4",
+    "46,382",
+    "505,183",
+    "538,035",
+    "57,408",
+    "584,417",
+    "63.8%",
+    "64.5%",
+    "720,584",
+    "777,992",
+    "85.6%",
+    "87.0%",
+    "96,893",
+    "Change in",
+    "Cost of revenue",
+    "Gross margin",
+    "Gross profit",
+    "Product",
+    "Revenue",
+    "Service",
+    "Total cost of revenue",
+    "Total revenue",
+    "Year Ended December 31,"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Revenue"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Product"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2018",
+        "$"
+      ],
+      "value": "$1,841,100"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2018",
+        "% ofRevenue"
+      ],
+      "value": "85.6%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2017",
+        "$"
+      ],
+      "value": "$1,432,810"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2017",
+        "% ofRevenue"
+      ],
+      "value": "87.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Change in",
+        "$"
+      ],
+      "value": "$408,290"
+    },
+    {
+      "row": [],
+      "col": [
+        "Change in",
+        "%"
+      ],
+      "value": "28.5%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Service"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2018",
+        "$"
+      ],
+      "value": "310,269"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2018",
+        "% ofRevenue"
+      ],
+      "value": "14.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2017",
+        "$"
+      ],
+      "value": "213,376"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2017",
+        "% ofRevenue"
+      ],
+      "value": "13.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Change in",
+        "$"
+      ],
+      "value": "96,893"
+    },
+    {
+      "row": [],
+      "col": [
+        "Change in",
+        "%"
+      ],
+      "value": "45.4"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total revenue"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2018",
+        "$"
+      ],
+      "value": "2,151,369"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2018",
+        "% ofRevenue"
+      ],
+      "value": "100.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2017",
+        "$"
+      ],
+      "value": "1,646,186"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2017",
+        "% ofRevenue"
+      ],
+      "value": "100.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Change in",
+        "$"
+      ],
+      "value": "505,183"
+    },
+    {
+      "row": [],
+      "col": [
+        "Change in",
+        "%"
+      ],
+      "value": "30.7"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Cost of revenue"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Product"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2018",
+        "$"
+      ],
+      "value": "720,584"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2018",
+        "% ofRevenue"
+      ],
+      "value": "33.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2017",
+        "$"
+      ],
+      "value": "538,035"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2017",
+        "% ofRevenue"
+      ],
+      "value": "32.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Change in",
+        "$"
+      ],
+      "value": "182,549"
+    },
+    {
+      "row": [],
+      "col": [
+        "Change in",
+        "%"
+      ],
+      "value": "33.9"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Service"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2018",
+        "$"
+      ],
+      "value": "57,408"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2018",
+        "% ofRevenue"
+      ],
+      "value": "2.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2017",
+        "$"
+      ],
+      "value": "46,382"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2017",
+        "% ofRevenue"
+      ],
+      "value": "2.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Change in",
+        "$"
+      ],
+      "value": "11,026"
+    },
+    {
+      "row": [],
+      "col": [
+        "Change in",
+        "%"
+      ],
+      "value": "23.8"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total cost of revenue"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2018",
+        "$"
+      ],
+      "value": "777,992"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2018",
+        "% ofRevenue"
+      ],
+      "value": "36.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2017",
+        "$"
+      ],
+      "value": "584,417"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2017",
+        "% ofRevenue"
+      ],
+      "value": "35.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Change in",
+        "$"
+      ],
+      "value": "193,575"
+    },
+    {
+      "row": [],
+      "col": [
+        "Change in",
+        "%"
+      ],
+      "value": "33.1"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Gross profit"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2018",
+        "$"
+      ],
+      "value": "$1,373,377"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2018",
+        "% ofRevenue"
+      ],
+      "value": "63.8%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2017",
+        "$"
+      ],
+      "value": "$1,061,769"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2017",
+        "% ofRevenue"
+      ],
+      "value": "64.5%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Change in",
+        "$"
+      ],
+      "value": "$311,608"
+    },
+    {
+      "row": [],
+      "col": [
+        "Change in",
+        "%"
+      ],
+      "value": "29.3%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Gross margin"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2018",
+        "$"
+      ],
+      "value": "63.8%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2017",
+        "$"
+      ],
+      "value": "64.5%"
+    }
+  ]
+}

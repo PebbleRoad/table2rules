@@ -1,0 +1,187 @@
+<!-- source: FinTabNet s0-r6 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="2">
+   Year Ended
+  </td>
+<td colspan="2">
+   One Year Change
+  </td>
+<td rowspan="2">
+   Year Ended December 31, 2017
+  </td>
+<td colspan="2">
+   One Year Change
+  </td>
+<td colspan="2">
+   Two Year Change
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   December 31, 2015
+  </td>
+<td>
+   December 31, 2016
+  </td>
+<td>
+   $
+  </td>
+<td>
+   %
+  </td>
+<td>
+   $
+  </td>
+<td>
+   %
+  </td>
+<td>
+   $
+  </td>
+<td>
+   %
+  </td>
+</tr>
+<tr>
+<td>
+   NOI
+  </td>
+<td>
+   $1,175,806
+  </td>
+<td>
+   $1,208,860
+  </td>
+<td>
+   $33,054
+  </td>
+<td>
+   3%
+  </td>
+<td>
+   $967,084
+  </td>
+<td>
+   $(241,776)
+  </td>
+<td>
+   -20%
+  </td>
+<td>
+   $(208,722)
+  </td>
+<td>
+   -18%
+  </td>
+</tr>
+<tr>
+<td>
+   Non-cash NOI attributable to same store properties
+   <sup>
+    (1)
+   </sup>
+</td>
+<td>
+   (48,890)
+  </td>
+<td>
+   (38,899)
+  </td>
+<td>
+   9,991
+  </td>
+<td>
+   -20%
+  </td>
+<td>
+   (28,602)
+  </td>
+<td>
+   10,297
+  </td>
+<td>
+   -26%
+  </td>
+<td>
+   20,288
+  </td>
+<td>
+   -41%
+  </td>
+</tr>
+<tr>
+<td>
+   NOI attributable to non same store properties
+   <sup>
+    (2)
+   </sup>
+</td>
+<td>
+   (498,131)
+  </td>
+<td>
+   (574,049)
+  </td>
+<td>
+   (75,918)
+  </td>
+<td>
+   15%
+  </td>
+<td>
+   (333,279)
+  </td>
+<td>
+   240,770
+  </td>
+<td>
+   -42%
+  </td>
+<td>
+   164,852
+  </td>
+<td>
+   -33%
+  </td>
+</tr>
+<tr>
+<td>
+   SSNOI
+   <sup>
+    (1)
+   </sup>
+</td>
+<td>
+   $628,785
+  </td>
+<td>
+   $595,912
+  </td>
+<td>
+   $(32,873)
+  </td>
+<td>
+   -5%
+  </td>
+<td>
+   $605,203
+  </td>
+<td>
+   $9,291
+  </td>
+<td>
+   2%
+  </td>
+<td>
+   $(23,582)
+  </td>
+<td>
+   -4%
+  </td>
+</tr>
+</table>

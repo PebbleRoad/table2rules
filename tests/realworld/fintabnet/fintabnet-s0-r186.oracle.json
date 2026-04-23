@@ -1,0 +1,496 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$1,724,194",
+    "$1,866,359",
+    "$6,350,937",
+    "$8,355,370",
+    "(1,188,514)",
+    "(167,153)",
+    "(2,422,329)",
+    "(206,739)",
+    "1.15% to 1.58%",
+    "10,777,699",
+    "10,984,438",
+    "130,944",
+    "2,148,351",
+    "2,199,710",
+    "2.53% to 5.41%",
+    "2.65% to 7.50%",
+    "2.92% to 6.52%",
+    "2017",
+    "2018",
+    "2019",
+    "2019 - 2028",
+    "2020 - 2022",
+    "2020 - 2028",
+    "2021 - 2028",
+    "2021 - 2030",
+    "2025",
+    "3.19%",
+    "3.54% to 3.61%",
+    "33,139",
+    "333,351",
+    "4,005,848",
+    "4,079,670",
+    "4,542,982",
+    "5,473,755",
+    "580,000",
+    "6,310,512",
+    "670,437",
+    "7,539,451",
+    "7,706,604",
+    "7.25%",
+    "734,176",
+    "775,488",
+    "795,000",
+    "814,085",
+    "As of December 31,",
+    "Capital lease obligations",
+    "Commercial paper",
+    "Euro unsecured term loan",
+    "Fixed rate debt:",
+    "Interest Rate",
+    "Less: unamortized debt issuance costs",
+    "Less\u2014current portion including commercial paper",
+    "Long-term portion",
+    "Maturities Through",
+    "Secured senior notes",
+    "Senior notes",
+    "Total debt (3)",
+    "Total debt, net of unamortized debt issuance costs",
+    "Total fixed rate debt",
+    "Total variable rate debt",
+    "USD unsecured term loan",
+    "Unsecured revolving credit facilities (2)",
+    "Unsecured term loans",
+    "Variable rate debt (1) :",
+    "\u2014"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Fixed rate debt:"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Senior notes"
+    },
+    {
+      "row": [],
+      "col": [
+        "Interest Rate"
+      ],
+      "value": "2.65% to 7.50%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Maturities Through"
+      ],
+      "value": "2020 - 2028"
+    },
+    {
+      "row": [],
+      "col": [
+        "As of December 31,",
+        "2018"
+      ],
+      "value": "$1,724,194"
+    },
+    {
+      "row": [],
+      "col": [
+        "As of December 31,",
+        "2017"
+      ],
+      "value": "$1,866,359"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Secured senior notes"
+    },
+    {
+      "row": [],
+      "col": [
+        "Interest Rate"
+      ],
+      "value": "7.25%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Maturities Through"
+      ],
+      "value": "2025"
+    },
+    {
+      "row": [],
+      "col": [
+        "As of December 31,",
+        "2018"
+      ],
+      "value": "670,437"
+    },
+    {
+      "row": [],
+      "col": [
+        "As of December 31,",
+        "2017"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Unsecured term loans"
+    },
+    {
+      "row": [],
+      "col": [
+        "Interest Rate"
+      ],
+      "value": "2.53% to 5.41%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Maturities Through"
+      ],
+      "value": "2021 - 2030"
+    },
+    {
+      "row": [],
+      "col": [
+        "As of December 31,",
+        "2018"
+      ],
+      "value": "2,148,351"
+    },
+    {
+      "row": [],
+      "col": [
+        "As of December 31,",
+        "2017"
+      ],
+      "value": "333,351"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total fixed rate debt"
+    },
+    {
+      "row": [],
+      "col": [
+        "As of December 31,",
+        "2018"
+      ],
+      "value": "4,542,982"
+    },
+    {
+      "row": [],
+      "col": [
+        "As of December 31,",
+        "2017"
+      ],
+      "value": "2,199,710"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Variable rate debt (1) :"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Unsecured revolving credit facilities (2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Interest Rate"
+      ],
+      "value": "3.54% to 3.61%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Maturities Through"
+      ],
+      "value": "2020 - 2022"
+    },
+    {
+      "row": [],
+      "col": [
+        "As of December 31,",
+        "2018"
+      ],
+      "value": "795,000"
+    },
+    {
+      "row": [],
+      "col": [
+        "As of December 31,",
+        "2017"
+      ],
+      "value": "580,000"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Commercial paper"
+    },
+    {
+      "row": [],
+      "col": [
+        "Interest Rate"
+      ],
+      "value": "3.19%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Maturities Through"
+      ],
+      "value": "2019"
+    },
+    {
+      "row": [],
+      "col": [
+        "As of December 31,",
+        "2018"
+      ],
+      "value": "775,488"
+    },
+    {
+      "row": [],
+      "col": [
+        "As of December 31,",
+        "2017"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "USD unsecured term loan"
+    },
+    {
+      "row": [],
+      "col": [
+        "Interest Rate"
+      ],
+      "value": "2.92% to 6.52%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Maturities Through"
+      ],
+      "value": "2019 - 2028"
+    },
+    {
+      "row": [],
+      "col": [
+        "As of December 31,",
+        "2018"
+      ],
+      "value": "4,005,848"
+    },
+    {
+      "row": [],
+      "col": [
+        "As of December 31,",
+        "2017"
+      ],
+      "value": "4,079,670"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Euro unsecured term loan"
+    },
+    {
+      "row": [],
+      "col": [
+        "Interest Rate"
+      ],
+      "value": "1.15% to 1.58%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Maturities Through"
+      ],
+      "value": "2021 - 2028"
+    },
+    {
+      "row": [],
+      "col": [
+        "As of December 31,",
+        "2018"
+      ],
+      "value": "734,176"
+    },
+    {
+      "row": [],
+      "col": [
+        "As of December 31,",
+        "2017"
+      ],
+      "value": "814,085"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total variable rate debt"
+    },
+    {
+      "row": [],
+      "col": [
+        "As of December 31,",
+        "2018"
+      ],
+      "value": "6,310,512"
+    },
+    {
+      "row": [],
+      "col": [
+        "As of December 31,",
+        "2017"
+      ],
+      "value": "5,473,755"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Capital lease obligations"
+    },
+    {
+      "row": [],
+      "col": [
+        "As of December 31,",
+        "2018"
+      ],
+      "value": "130,944"
+    },
+    {
+      "row": [],
+      "col": [
+        "As of December 31,",
+        "2017"
+      ],
+      "value": "33,139"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total debt (3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "As of December 31,",
+        "2018"
+      ],
+      "value": "10,984,438"
+    },
+    {
+      "row": [],
+      "col": [
+        "As of December 31,",
+        "2017"
+      ],
+      "value": "7,706,604"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Less: unamortized debt issuance costs"
+    },
+    {
+      "row": [],
+      "col": [
+        "As of December 31,",
+        "2018"
+      ],
+      "value": "(206,739)"
+    },
+    {
+      "row": [],
+      "col": [
+        "As of December 31,",
+        "2017"
+      ],
+      "value": "(167,153)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total debt, net of unamortized debt issuance costs"
+    },
+    {
+      "row": [],
+      "col": [
+        "As of December 31,",
+        "2018"
+      ],
+      "value": "10,777,699"
+    },
+    {
+      "row": [],
+      "col": [
+        "As of December 31,",
+        "2017"
+      ],
+      "value": "7,539,451"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Less\u2014current portion including commercial paper"
+    },
+    {
+      "row": [],
+      "col": [
+        "As of December 31,",
+        "2018"
+      ],
+      "value": "(2,422,329)"
+    },
+    {
+      "row": [],
+      "col": [
+        "As of December 31,",
+        "2017"
+      ],
+      "value": "(1,188,514)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Long-term portion"
+    },
+    {
+      "row": [],
+      "col": [
+        "As of December 31,",
+        "2018"
+      ],
+      "value": "$8,355,370"
+    },
+    {
+      "row": [],
+      "col": [
+        "As of December 31,",
+        "2017"
+      ],
+      "value": "$6,350,937"
+    }
+  ]
+}

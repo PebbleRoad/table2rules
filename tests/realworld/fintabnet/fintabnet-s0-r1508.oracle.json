@@ -1,0 +1,467 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$1,223",
+    "$1,325",
+    "$1,446",
+    "$1,756",
+    "$10,034",
+    "$10,361",
+    "$10,446",
+    "$16,895",
+    "$2,733",
+    "$41,781",
+    "$8,412",
+    "$8,867",
+    "$9,574",
+    "$91,063",
+    "(In millions)",
+    "1,061",
+    "1,249",
+    "1,392",
+    "1,537",
+    "1,666",
+    "1,678",
+    "12,196",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019 and Thereafter",
+    "23,010",
+    "274",
+    "278",
+    "299",
+    "3,962",
+    "325",
+    "4,810",
+    "443",
+    "5,005",
+    "5,132",
+    "5,459",
+    "5,532",
+    "5,581",
+    "51,581",
+    "556",
+    "585",
+    "6,061",
+    "6,387",
+    "660",
+    "787",
+    "830",
+    "Commitments for aircraft and engine purchases and operating leases 3,4",
+    "Debt and capital lease obligations 1",
+    "Interest obligations 2",
+    "Other purchase obligations and long-term liabilities 6,7",
+    "Payments due by Period",
+    "Regional capacity purchase agreements 5",
+    "Total",
+    "Total AAG Contractual Obligations 8"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Debt and capital lease obligations 1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by Period",
+        "2014",
+        "(In millions)"
+      ],
+      "value": "$1,446"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by Period",
+        "2015",
+        "(In millions)"
+      ],
+      "value": "$1,325"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by Period",
+        "2016",
+        "(In millions)"
+      ],
+      "value": "$2,733"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by Period",
+        "2017",
+        "(In millions)"
+      ],
+      "value": "$1,223"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by Period",
+        "2018",
+        "(In millions)"
+      ],
+      "value": "$1,756"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by Period",
+        "2019 and Thereafter",
+        "(In millions)"
+      ],
+      "value": "$8,412"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "(In millions)"
+      ],
+      "value": "$16,895"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Interest obligations 2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by Period",
+        "2014",
+        "(In millions)"
+      ],
+      "value": "830"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by Period",
+        "2015",
+        "(In millions)"
+      ],
+      "value": "787"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by Period",
+        "2016",
+        "(In millions)"
+      ],
+      "value": "660"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by Period",
+        "2017",
+        "(In millions)"
+      ],
+      "value": "585"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by Period",
+        "2018",
+        "(In millions)"
+      ],
+      "value": "556"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by Period",
+        "2019 and Thereafter",
+        "(In millions)"
+      ],
+      "value": "1,392"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "(In millions)"
+      ],
+      "value": "4,810"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Commitments for aircraft and engine purchases and operating leases 3,4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by Period",
+        "2014",
+        "(In millions)"
+      ],
+      "value": "6,061"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by Period",
+        "2015",
+        "(In millions)"
+      ],
+      "value": "5,459"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by Period",
+        "2016",
+        "(In millions)"
+      ],
+      "value": "5,132"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by Period",
+        "2017",
+        "(In millions)"
+      ],
+      "value": "5,532"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by Period",
+        "2018",
+        "(In millions)"
+      ],
+      "value": "6,387"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by Period",
+        "2019 and Thereafter",
+        "(In millions)"
+      ],
+      "value": "23,010"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "(In millions)"
+      ],
+      "value": "51,581"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Regional capacity purchase agreements 5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by Period",
+        "2014",
+        "(In millions)"
+      ],
+      "value": "1,666"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by Period",
+        "2015",
+        "(In millions)"
+      ],
+      "value": "1,678"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by Period",
+        "2016",
+        "(In millions)"
+      ],
+      "value": "1,537"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by Period",
+        "2017",
+        "(In millions)"
+      ],
+      "value": "1,249"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by Period",
+        "2018",
+        "(In millions)"
+      ],
+      "value": "1,061"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by Period",
+        "2019 and Thereafter",
+        "(In millions)"
+      ],
+      "value": "5,005"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "(In millions)"
+      ],
+      "value": "12,196"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Other purchase obligations and long-term liabilities 6,7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by Period",
+        "2014",
+        "(In millions)"
+      ],
+      "value": "443"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by Period",
+        "2015",
+        "(In millions)"
+      ],
+      "value": "325"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by Period",
+        "2016",
+        "(In millions)"
+      ],
+      "value": "299"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by Period",
+        "2017",
+        "(In millions)"
+      ],
+      "value": "278"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by Period",
+        "2018",
+        "(In millions)"
+      ],
+      "value": "274"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by Period",
+        "2019 and Thereafter",
+        "(In millions)"
+      ],
+      "value": "3,962"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "(In millions)"
+      ],
+      "value": "5,581"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total AAG Contractual Obligations 8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by Period",
+        "2014",
+        "(In millions)"
+      ],
+      "value": "$10,446"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by Period",
+        "2015",
+        "(In millions)"
+      ],
+      "value": "$9,574"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by Period",
+        "2016",
+        "(In millions)"
+      ],
+      "value": "$10,361"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by Period",
+        "2017",
+        "(In millions)"
+      ],
+      "value": "$8,867"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by Period",
+        "2018",
+        "(In millions)"
+      ],
+      "value": "$10,034"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments due by Period",
+        "2019 and Thereafter",
+        "(In millions)"
+      ],
+      "value": "$41,781"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "(In millions)"
+      ],
+      "value": "$91,063"
+    }
+  ]
+}

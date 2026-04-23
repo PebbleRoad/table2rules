@@ -1,0 +1,612 @@
+<!-- source: FinTabNet s0-r244 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="3">
+   U.S. Pension Benefits
+  </td>
+<td colspan="3">
+   Non-U.S. Pension Benefits
+  </td>
+<td colspan="3">
+   Other Postretirement Benefits
+  </td>
+</tr>
+<tr>
+<td>
+   (Millions of dollars)
+  </td>
+<td>
+   2017
+  </td>
+<td>
+   2016
+  </td>
+<td>
+   2015
+  </td>
+<td>
+   2017
+  </td>
+<td>
+   2016
+  </td>
+<td>
+   2015
+  </td>
+<td>
+   2017
+  </td>
+<td>
+   2016
+  </td>
+<td>
+   2015
+  </td>
+</tr>
+<tr>
+<td>
+   Components of net periodic benefit cost:
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Service cost
+  </td>
+<td>
+   $115
+  </td>
+<td>
+   $119
+  </td>
+<td>
+   $181
+  </td>
+<td>
+   $95
+  </td>
+<td>
+   $92
+  </td>
+<td>
+   $110
+  </td>
+<td>
+   $78
+  </td>
+<td>
+   $82
+  </td>
+<td>
+   $101
+  </td>
+</tr>
+<tr>
+<td>
+   Interest cost
+  </td>
+<td>
+   525
+  </td>
+<td>
+   517
+  </td>
+<td>
+   608
+  </td>
+<td>
+   101
+  </td>
+<td>
+   117
+  </td>
+<td>
+   146
+  </td>
+<td>
+   130
+  </td>
+<td>
+   131
+  </td>
+<td>
+   181
+  </td>
+</tr>
+<tr>
+<td>
+   Expected return on plan assets
+   <sup>
+    1
+   </sup>
+</td>
+<td>
+   (734)
+  </td>
+<td>
+   (757)
+  </td>
+<td>
+   (890)
+  </td>
+<td>
+   (231)
+  </td>
+<td>
+   (227)
+  </td>
+<td>
+   (273)
+  </td>
+<td>
+   (37)
+  </td>
+<td>
+   (44)
+  </td>
+<td>
+   (56)
+  </td>
+</tr>
+<tr>
+<td>
+   Curtailments and termination benefits
+   <sup>
+    2
+   </sup>
+</td>
+<td>
+   9
+  </td>
+<td>
+   6
+  </td>
+<td>
+   32
+  </td>
+<td>
+   15
+  </td>
+<td>
+   1
+  </td>
+<td>
+   (1)
+  </td>
+<td>
+   —
+  </td>
+<td>
+   (9)
+  </td>
+<td>
+   27
+  </td>
+</tr>
+<tr>
+<td>
+   Amortization of prior service cost (credit)
+   <sup>
+    3
+   </sup>
+</td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   1
+  </td>
+<td>
+   (2)
+  </td>
+<td>
+   3
+  </td>
+<td>
+   —
+  </td>
+<td>
+   (23)
+  </td>
+<td>
+   (59)
+  </td>
+<td>
+   (54)
+  </td>
+</tr>
+<tr>
+<td>
+   Actuarial loss (gain)
+   <sup>
+    4
+   </sup>
+</td>
+<td>
+   481
+  </td>
+<td>
+   664
+  </td>
+<td>
+   732
+  </td>
+<td>
+   (195)
+  </td>
+<td>
+   262
+  </td>
+<td>
+   8
+  </td>
+<td>
+   15
+  </td>
+<td>
+   59
+  </td>
+<td>
+   (561)
+  </td>
+</tr>
+<tr>
+<td>
+   Total cost (benefit) included in operating profit
+  </td>
+<td>
+   $396
+  </td>
+<td>
+   $549
+  </td>
+<td>
+   $664
+  </td>
+<td>
+   $(217)
+  </td>
+<td>
+   $248
+  </td>
+<td>
+   $(10)
+  </td>
+<td>
+   $163
+  </td>
+<td>
+   $160
+  </td>
+<td>
+   $(362)
+  </td>
+</tr>
+<tr>
+<td>
+   Other changes in plan assets and benefit obligations recognized in other comprehensive income (pre-tax):
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Current year prior service cost (credit)
+  </td>
+<td>
+   $—
+  </td>
+<td>
+   $—
+  </td>
+<td>
+   $—
+  </td>
+<td>
+   $3
+  </td>
+<td>
+   $(3)
+  </td>
+<td>
+   $(8)
+  </td>
+<td>
+   $(77)
+  </td>
+<td>
+   $(184)
+  </td>
+<td>
+   $16
+  </td>
+</tr>
+<tr>
+<td>
+   Amortization of prior service (cost) credit
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   (1)
+  </td>
+<td>
+   2
+  </td>
+<td>
+   (3)
+  </td>
+<td>
+   —
+  </td>
+<td>
+   23
+  </td>
+<td>
+   59
+  </td>
+<td>
+   54
+  </td>
+</tr>
+<tr>
+<td>
+   Total recognized in other comprehensive income
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   (1)
+  </td>
+<td>
+   5
+  </td>
+<td>
+   (6)
+  </td>
+<td>
+   (8)
+  </td>
+<td>
+   (54)
+  </td>
+<td>
+   (125)
+  </td>
+<td>
+   70
+  </td>
+</tr>
+<tr>
+<td>
+   Total recognized in net periodic cost and other comprehensive income
+  </td>
+<td>
+   $396
+  </td>
+<td>
+   $549
+  </td>
+<td>
+   $663
+  </td>
+<td>
+   $(212)
+  </td>
+<td>
+   $242
+  </td>
+<td>
+   $(18)
+  </td>
+<td>
+   $109
+  </td>
+<td>
+   $35
+  </td>
+<td>
+   $(292)
+  </td>
+</tr>
+<tr>
+<td>
+   Weighted-average assumptions used to determine net cost:
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Discount rate used to measure service cost
+  </td>
+<td>
+   4.2%
+  </td>
+<td>
+   4.5%
+  </td>
+<td>
+   3.8%
+  </td>
+<td>
+   2.4%
+  </td>
+<td>
+   2.9%
+  </td>
+<td>
+   3.3%
+  </td>
+<td>
+   3.9%
+  </td>
+<td>
+   4.2%
+  </td>
+<td>
+   3.9%
+  </td>
+</tr>
+<tr>
+<td>
+   Discount rate used to measure interest cost
+  </td>
+<td>
+   3.3%
+  </td>
+<td>
+   3.4%
+  </td>
+<td>
+   3.8%
+  </td>
+<td>
+   2.3%
+  </td>
+<td>
+   2.8%
+  </td>
+<td>
+   3.3%
+  </td>
+<td>
+   3.3%
+  </td>
+<td>
+   3.3%
+  </td>
+<td>
+   3.9%
+  </td>
+</tr>
+<tr>
+<td>
+   Expected rate of return on plan assets
+   <sup>
+    5
+   </sup>
+</td>
+<td>
+   6.7%
+  </td>
+<td>
+   6.9%
+  </td>
+<td>
+   7.4%
+  </td>
+<td>
+   5.9%
+  </td>
+<td>
+   6.1%
+  </td>
+<td>
+   6.8%
+  </td>
+<td>
+   7.5%
+  </td>
+<td>
+   7.5%
+  </td>
+<td>
+   7.8%
+  </td>
+</tr>
+<tr>
+<td>
+   Rate of compensation increase
+  </td>
+<td>
+   4.0%
+  </td>
+<td>
+   4.0%
+  </td>
+<td>
+   4.0%
+  </td>
+<td>
+   4.0%
+  </td>
+<td>
+   3.6%
+  </td>
+<td>
+   4.0%
+  </td>
+<td>
+   4.0%
+  </td>
+<td>
+   4.0%
+  </td>
+<td>
+   4.0%
+  </td>
+</tr>
+</table>

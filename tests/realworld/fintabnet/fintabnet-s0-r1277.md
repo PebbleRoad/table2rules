@@ -1,0 +1,154 @@
+<!-- source: FinTabNet s0-r1277 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="2">
+   Gross Carrying Amount
+  </td>
+<td colspan="2">
+   Accumulated Amortization
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   2014
+  </td>
+<td>
+   2013
+  </td>
+<td>
+   2014
+  </td>
+<td>
+   2013
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="4">
+   (Dollars in thousands)
+  </td>
+</tr>
+<tr>
+<td>
+   Customer lists
+  </td>
+<td>
+   $624,574
+  </td>
+<td>
+   $628,020
+  </td>
+<td>
+   $(192,876)
+  </td>
+<td>
+   $(168,223)
+  </td>
+</tr>
+<tr>
+<td>
+   In-process research and development
+  </td>
+<td>
+   68,694
+  </td>
+<td>
+   68,786
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+</tr>
+<tr>
+<td>
+   Intellectual property
+  </td>
+<td>
+   467,068
+  </td>
+<td>
+   435,869
+  </td>
+<td>
+   (146,131)
+  </td>
+<td>
+   (118,086)
+  </td>
+</tr>
+<tr>
+<td>
+   Distribution rights
+  </td>
+<td>
+   16,101
+  </td>
+<td>
+   16,797
+  </td>
+<td>
+   (14,243)
+  </td>
+<td>
+   (14,592)
+  </td>
+</tr>
+<tr>
+<td>
+   Trade names
+  </td>
+<td>
+   396,269
+  </td>
+<td>
+   407,879
+  </td>
+<td>
+   (2,764)
+  </td>
+<td>
+   (1,148)
+  </td>
+</tr>
+<tr>
+<td>
+   Noncompete agreements
+  </td>
+<td>
+   337
+  </td>
+<td>
+   337
+  </td>
+<td>
+   (309)
+  </td>
+<td>
+   (42)
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   $1,573,043
+  </td>
+<td>
+   $1,557,688
+  </td>
+<td>
+   $(356,323)
+  </td>
+<td>
+   $(302,091)
+  </td>
+</tr>
+</table>

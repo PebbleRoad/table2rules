@@ -1,0 +1,221 @@
+<!-- source: FinTabNet s0-r692 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td colspan="4">
+   Payments Due
+  </td>
+</tr>
+<tr>
+<td>
+   (in millions)
+  </td>
+<td>
+   Total
+  </td>
+<td>
+   2019
+  </td>
+<td>
+   2020-2021
+  </td>
+<td>
+   2022-2023
+  </td>
+<td>
+   2024 andThereafter
+  </td>
+</tr>
+<tr>
+<td>
+   Long-term debt
+   <sup>
+    (1)
+   </sup>
+</td>
+<td>
+   $31,268
+  </td>
+<td>
+   $4,054
+  </td>
+<td>
+   $7,098
+  </td>
+<td>
+   $4,358
+  </td>
+<td>
+   $15,758
+  </td>
+</tr>
+<tr>
+<td>
+   Interest on borrowings
+   <sup>
+    (2)
+   </sup>
+</td>
+<td>
+   10,360
+  </td>
+<td>
+   902
+  </td>
+<td>
+   1,542
+  </td>
+<td>
+   1,258
+  </td>
+<td>
+   6,658
+  </td>
+</tr>
+<tr>
+<td>
+   Operating leases
+   <sup>
+    (3)
+   </sup>
+</td>
+<td>
+   772
+  </td>
+<td>
+   147
+  </td>
+<td>
+   176
+  </td>
+<td>
+   95
+  </td>
+<td>
+   354
+  </td>
+</tr>
+<tr>
+<td>
+   Purchase obligations
+   <sup>
+    (4)
+   </sup>
+   :
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Inventory and production costs
+  </td>
+<td>
+   4,217
+  </td>
+<td>
+   2,492
+  </td>
+<td>
+   1,165
+  </td>
+<td>
+   406
+  </td>
+<td>
+   154
+  </td>
+</tr>
+<tr>
+<td>
+   Other
+  </td>
+<td>
+   2,629
+  </td>
+<td>
+   1,070
+  </td>
+<td>
+   842
+  </td>
+<td>
+   227
+  </td>
+<td>
+   490
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   6,846
+  </td>
+<td>
+   3,562
+  </td>
+<td>
+   2,007
+  </td>
+<td>
+   633
+  </td>
+<td>
+   644
+  </td>
+</tr>
+<tr>
+<td>
+   Other long-term liabilities
+   <sup>
+    (5)
+   </sup>
+</td>
+<td>
+   1,916
+  </td>
+<td>
+   78
+  </td>
+<td>
+   346
+  </td>
+<td>
+   448
+  </td>
+<td>
+   1,044
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   $51,162
+  </td>
+<td>
+   $8,743
+  </td>
+<td>
+   $11,169
+  </td>
+<td>
+   $6,792
+  </td>
+<td>
+   $24,458
+  </td>
+</tr>
+</table>

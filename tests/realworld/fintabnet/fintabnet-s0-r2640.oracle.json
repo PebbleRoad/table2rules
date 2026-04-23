@@ -1,0 +1,637 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$0.17",
+    "$0.45",
+    "$0.48",
+    "$0.49",
+    "$0.51",
+    "$0.52",
+    "$0.57",
+    "$0.63",
+    "$10,349",
+    "$10,484",
+    "$11,873",
+    "$126,242",
+    "$128,712",
+    "$130,338",
+    "$130,992",
+    "$131,076",
+    "$131,707",
+    "$133,527",
+    "$138,613",
+    "$27,297",
+    "$27,433",
+    "$28,282",
+    "$28,417",
+    "$28,839",
+    "$28,974",
+    "$29,794",
+    "$29,851",
+    "$29,986",
+    "$30,383",
+    "$31,318",
+    "$31,835",
+    "$31,970",
+    "$33,366",
+    "$33,590",
+    "$33,725",
+    "$34,178",
+    "$35,035",
+    "$36,966",
+    "$37,102",
+    "$38,417",
+    "$53,515",
+    "$53,955",
+    "$54,319",
+    "$55,403",
+    "$55,446",
+    "$57,651",
+    "$63,328",
+    "(In thousands, except per share data)",
+    "2008",
+    "2009",
+    "Earnings per common share\u2014basic",
+    "Earnings per common share\u2014diluted",
+    "First Quarter",
+    "Fourth Quarter",
+    "Net income",
+    "Net income attributable to the Trust",
+    "Net income available for common shareholders",
+    "Operating Income",
+    "Revenue(1)",
+    "Second Quarter",
+    "Third Quarter"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "2009"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Revenue(1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "First Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$131,076"
+    },
+    {
+      "row": [],
+      "col": [
+        "Second Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$130,338"
+    },
+    {
+      "row": [],
+      "col": [
+        "Third Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$130,992"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fourth Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$138,613"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Operating Income"
+    },
+    {
+      "row": [],
+      "col": [
+        "First Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$34,178"
+    },
+    {
+      "row": [],
+      "col": [
+        "Second Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$55,403"
+    },
+    {
+      "row": [],
+      "col": [
+        "Third Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$57,651"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fourth Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$63,328"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Net income"
+    },
+    {
+      "row": [],
+      "col": [
+        "First Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$11,873"
+    },
+    {
+      "row": [],
+      "col": [
+        "Second Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$29,794"
+    },
+    {
+      "row": [],
+      "col": [
+        "Third Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$28,839"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fourth Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$33,366"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Net income attributable to the Trust"
+    },
+    {
+      "row": [],
+      "col": [
+        "First Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$10,484"
+    },
+    {
+      "row": [],
+      "col": [
+        "Second Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$28,417"
+    },
+    {
+      "row": [],
+      "col": [
+        "Third Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$27,433"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fourth Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$31,970"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Net income available for common shareholders"
+    },
+    {
+      "row": [],
+      "col": [
+        "First Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$10,349"
+    },
+    {
+      "row": [],
+      "col": [
+        "Second Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$28,282"
+    },
+    {
+      "row": [],
+      "col": [
+        "Third Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$27,297"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fourth Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$31,835"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Earnings per common share\u2014basic"
+    },
+    {
+      "row": [],
+      "col": [
+        "First Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$0.17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Second Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$0.48"
+    },
+    {
+      "row": [],
+      "col": [
+        "Third Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$0.45"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fourth Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$0.52"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Earnings per common share\u2014diluted"
+    },
+    {
+      "row": [],
+      "col": [
+        "First Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$0.17"
+    },
+    {
+      "row": [],
+      "col": [
+        "Second Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$0.48"
+    },
+    {
+      "row": [],
+      "col": [
+        "Third Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$0.45"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fourth Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$0.52"
+    },
+    {
+      "row": [],
+      "col": [
+        "First Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "First Quarter"
+    },
+    {
+      "row": [],
+      "col": [
+        "Second Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "Second Quarter"
+    },
+    {
+      "row": [],
+      "col": [
+        "Third Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "Third Quarter"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fourth Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "Fourth Quarter"
+    },
+    {
+      "row": [],
+      "col": [
+        "First Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "(In thousands, except per share data)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "2008"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Revenue(1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "First Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$126,242"
+    },
+    {
+      "row": [],
+      "col": [
+        "Second Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$128,712"
+    },
+    {
+      "row": [],
+      "col": [
+        "Third Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$131,707"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fourth Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$133,527"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Operating Income"
+    },
+    {
+      "row": [],
+      "col": [
+        "First Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$54,319"
+    },
+    {
+      "row": [],
+      "col": [
+        "Second Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$53,515"
+    },
+    {
+      "row": [],
+      "col": [
+        "Third Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$55,446"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fourth Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$53,955"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Net income"
+    },
+    {
+      "row": [],
+      "col": [
+        "First Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$31,318"
+    },
+    {
+      "row": [],
+      "col": [
+        "Second Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$30,383"
+    },
+    {
+      "row": [],
+      "col": [
+        "Third Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$38,417"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fourth Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$35,035"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Net income attributable to the Trust"
+    },
+    {
+      "row": [],
+      "col": [
+        "First Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$29,986"
+    },
+    {
+      "row": [],
+      "col": [
+        "Second Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$28,974"
+    },
+    {
+      "row": [],
+      "col": [
+        "Third Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$37,102"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fourth Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$33,725"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Net income available for common shareholders"
+    },
+    {
+      "row": [],
+      "col": [
+        "First Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$29,851"
+    },
+    {
+      "row": [],
+      "col": [
+        "Second Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$28,839"
+    },
+    {
+      "row": [],
+      "col": [
+        "Third Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$36,966"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fourth Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$33,590"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Earnings per common share\u2014basic"
+    },
+    {
+      "row": [],
+      "col": [
+        "First Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$0.51"
+    },
+    {
+      "row": [],
+      "col": [
+        "Second Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$0.49"
+    },
+    {
+      "row": [],
+      "col": [
+        "Third Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$0.63"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fourth Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$0.57"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Earnings per common share\u2014diluted"
+    },
+    {
+      "row": [],
+      "col": [
+        "First Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$0.51"
+    },
+    {
+      "row": [],
+      "col": [
+        "Second Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$0.49"
+    },
+    {
+      "row": [],
+      "col": [
+        "Third Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$0.63"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fourth Quarter",
+        "(In thousands, except per share data)"
+      ],
+      "value": "$0.57"
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+<!-- source: FinTabNet s0-r1835 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="2">
+   Pension Benefits
+  </td>
+<td colspan="2">
+   Retiree Medical and Other Postretirement Benefits
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   2016
+  </td>
+<td>
+   2015
+  </td>
+<td>
+   2016
+  </td>
+<td>
+   2015
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="4">
+   (In millions)
+  </td>
+</tr>
+<tr>
+<td>
+   Benefit obligation at beginning of period
+  </td>
+<td>
+   $16,310
+  </td>
+<td>
+   $17,504
+  </td>
+<td>
+   $1,129
+  </td>
+<td>
+   $1,324
+  </td>
+</tr>
+<tr>
+<td>
+   Service cost
+  </td>
+<td>
+   2
+  </td>
+<td>
+   2
+  </td>
+<td>
+   3
+  </td>
+<td>
+   3
+  </td>
+</tr>
+<tr>
+<td>
+   Interest cost
+  </td>
+<td>
+   746
+  </td>
+<td>
+   733
+  </td>
+<td>
+   47
+  </td>
+<td>
+   50
+  </td>
+</tr>
+<tr>
+<td>
+   Actuarial (gain) loss
+   <sup>
+    (1) (2)
+   </sup>
+</td>
+<td>
+   725
+  </td>
+<td>
+   (1,153)
+  </td>
+<td>
+   (104)
+  </td>
+<td>
+   (178)
+  </td>
+</tr>
+<tr>
+<td>
+   Plan amendments
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   7
+  </td>
+<td>
+   —
+  </td>
+</tr>
+<tr>
+<td>
+   Settlements
+  </td>
+<td>
+   (2)
+  </td>
+<td>
+   (3)
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+</tr>
+<tr>
+<td>
+   Benefit payments
+  </td>
+<td>
+   (633)
+  </td>
+<td>
+   (773)
+  </td>
+<td>
+   (92)
+  </td>
+<td>
+   (94)
+  </td>
+</tr>
+<tr>
+<td>
+   Other
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   24
+  </td>
+</tr>
+<tr>
+<td>
+   Benefit obligation at end of period
+  </td>
+<td>
+   $17,148
+  </td>
+<td>
+   $16,310
+  </td>
+<td>
+   $990
+  </td>
+<td>
+   $1,129
+  </td>
+</tr>
+<tr>
+<td>
+   Fair value of plan assets at beginning of period
+  </td>
+<td>
+   $9,660
+  </td>
+<td>
+   $10,935
+  </td>
+<td>
+   $253
+  </td>
+<td>
+   $244
+  </td>
+</tr>
+<tr>
+<td>
+   Actual return on plan assets
+  </td>
+<td>
+   911
+  </td>
+<td>
+   (505)
+  </td>
+<td>
+   22
+  </td>
+<td>
+   (10)
+  </td>
+</tr>
+<tr>
+<td>
+   Employer contributions
+  </td>
+<td>
+   32
+  </td>
+<td>
+   6
+  </td>
+<td>
+   83
+  </td>
+<td>
+   89
+  </td>
+</tr>
+<tr>
+<td>
+   Settlements
+  </td>
+<td>
+   (2)
+  </td>
+<td>
+   (3)
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+</tr>
+<tr>
+<td>
+   Benefit payments
+  </td>
+<td>
+   (633)
+  </td>
+<td>
+   (773)
+  </td>
+<td>
+   (92)
+  </td>
+<td>
+   (94)
+  </td>
+</tr>
+<tr>
+<td>
+   Other
+   <sup>
+    (3)
+   </sup>
+</td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   24
+  </td>
+</tr>
+<tr>
+<td>
+   Fair value of plan assets at end of period
+  </td>
+<td>
+   $9,968
+  </td>
+<td>
+   $9,660
+  </td>
+<td>
+   $266
+  </td>
+<td>
+   $253
+  </td>
+</tr>
+<tr>
+<td>
+   Funded status at end of period
+  </td>
+<td>
+   $(7,180)
+  </td>
+<td>
+   $(6,650)
+  </td>
+<td>
+   $(724)
+  </td>
+<td>
+   $(876)
+  </td>
+</tr>
+</table>

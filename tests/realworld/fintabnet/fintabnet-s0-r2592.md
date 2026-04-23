@@ -1,0 +1,169 @@
+<!-- source: FinTabNet s0-r2592 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td>
+   2007
+  </td>
+<td>
+   2006
+  </td>
+<td>
+   2005
+  </td>
+<td>
+   2004
+  </td>
+<td>
+   2003
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="5">
+   (In thousands)
+  </td>
+</tr>
+<tr>
+<td>
+   Net income
+  </td>
+<td>
+   $195,537
+  </td>
+<td>
+   $118,712
+  </td>
+<td>
+   $114,612
+  </td>
+<td>
+   $84,156
+  </td>
+<td>
+   $94,497
+  </td>
+</tr>
+<tr>
+<td>
+   Depreciation and amortization
+  </td>
+<td>
+   105,966
+  </td>
+<td>
+   97,879
+  </td>
+<td>
+   91,503
+  </td>
+<td>
+   90,438
+  </td>
+<td>
+   75,503
+  </td>
+</tr>
+<tr>
+<td>
+   Interest expense
+  </td>
+<td>
+   117,394
+  </td>
+<td>
+   102,808
+  </td>
+<td>
+   88,566
+  </td>
+<td>
+   85,058
+  </td>
+<td>
+   75,232
+  </td>
+</tr>
+<tr>
+<td>
+   Other interest income
+  </td>
+<td>
+   (1,337)
+  </td>
+<td>
+   (2,616)
+  </td>
+<td>
+   (2,216)
+  </td>
+<td>
+   (1,509)
+  </td>
+<td>
+   (1,276)
+  </td>
+</tr>
+<tr>
+<td>
+   EBITDA
+  </td>
+<td>
+   417,560
+  </td>
+<td>
+   316,783
+  </td>
+<td>
+   292,465
+  </td>
+<td>
+   258,143
+  </td>
+<td>
+   243,956
+  </td>
+</tr>
+<tr>
+<td>
+   Gain on sale of real estate
+  </td>
+<td>
+   (94,768)
+  </td>
+<td>
+   (23,956)
+  </td>
+<td>
+   (30,748)
+  </td>
+<td>
+   (14,052)
+  </td>
+<td>
+   (20,053)
+  </td>
+</tr>
+<tr>
+<td>
+   Adjusted EBITDA
+  </td>
+<td>
+   $322,792
+  </td>
+<td>
+   $292,827
+  </td>
+<td>
+   $261,717
+  </td>
+<td>
+   $244,091
+  </td>
+<td>
+   $223,903
+  </td>
+</tr>
+</table>

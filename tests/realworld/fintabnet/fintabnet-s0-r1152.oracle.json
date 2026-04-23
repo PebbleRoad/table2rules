@@ -1,0 +1,277 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$",
+    "$209,448",
+    "$273,581",
+    "$394,252",
+    "$479,707",
+    "$64,133",
+    "$85,455",
+    "%",
+    "% ofRevenue",
+    "(0.6)",
+    "(481)",
+    "109,084",
+    "11.6",
+    "13.0",
+    "130,887",
+    "20.0",
+    "2015",
+    "2016",
+    "21,803",
+    "21.7%",
+    "24.2%",
+    "25.0%",
+    "30.6%",
+    "42.5%",
+    "47.0%",
+    "6.7",
+    "75,239",
+    "75,720",
+    "9.0",
+    "Change in",
+    "General and administrative",
+    "Operating expenses:",
+    "Research and development",
+    "Sales and marketing",
+    "Total operating expenses",
+    "Year Ended December 31,"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Operating expenses:"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Research and development"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2016",
+        "$"
+      ],
+      "value": "$273,581"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2016",
+        "% ofRevenue"
+      ],
+      "value": "24.2%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2015",
+        "$"
+      ],
+      "value": "$209,448"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2015",
+        "% ofRevenue"
+      ],
+      "value": "25.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Change in",
+        "$"
+      ],
+      "value": "$64,133"
+    },
+    {
+      "row": [],
+      "col": [
+        "Change in",
+        "%"
+      ],
+      "value": "30.6%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Sales and marketing"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2016",
+        "$"
+      ],
+      "value": "130,887"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2016",
+        "% ofRevenue"
+      ],
+      "value": "11.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2015",
+        "$"
+      ],
+      "value": "109,084"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2015",
+        "% ofRevenue"
+      ],
+      "value": "13.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Change in",
+        "$"
+      ],
+      "value": "21,803"
+    },
+    {
+      "row": [],
+      "col": [
+        "Change in",
+        "%"
+      ],
+      "value": "20.0"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "General and administrative"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2016",
+        "$"
+      ],
+      "value": "75,239"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2016",
+        "% ofRevenue"
+      ],
+      "value": "6.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2015",
+        "$"
+      ],
+      "value": "75,720"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2015",
+        "% ofRevenue"
+      ],
+      "value": "9.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Change in",
+        "$"
+      ],
+      "value": "(481)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Change in",
+        "%"
+      ],
+      "value": "(0.6)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total operating expenses"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2016",
+        "$"
+      ],
+      "value": "$479,707"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2016",
+        "% ofRevenue"
+      ],
+      "value": "42.5%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2015",
+        "$"
+      ],
+      "value": "$394,252"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2015",
+        "% ofRevenue"
+      ],
+      "value": "47.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Change in",
+        "$"
+      ],
+      "value": "$85,455"
+    },
+    {
+      "row": [],
+      "col": [
+        "Change in",
+        "%"
+      ],
+      "value": "21.7%"
+    }
+  ]
+}

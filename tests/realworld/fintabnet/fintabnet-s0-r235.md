@@ -1,0 +1,240 @@
+<!-- source: FinTabNet s0-r235 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="2">
+   U.S. Pension Benefits
+  </td>
+<td colspan="2">
+   Non-U.S.Pension Benefits
+  </td>
+<td colspan="2">
+   Other PostretirementBenefits
+  </td>
+</tr>
+<tr>
+<td>
+   (Millions of dollars)
+  </td>
+<td>
+   2017
+  </td>
+<td>
+   2016
+  </td>
+<td>
+   2017
+  </td>
+<td>
+   2016
+  </td>
+<td>
+   2017
+  </td>
+<td>
+   2016
+  </td>
+</tr>
+<tr>
+<td>
+   Change in plan assets:
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Fair value of plan assets, beginning of year
+  </td>
+<td>
+   $11,354
+  </td>
+<td>
+   $11,440
+  </td>
+<td>
+   $3,887
+  </td>
+<td>
+   $3,890
+  </td>
+<td>
+   $550
+  </td>
+<td>
+   $650
+  </td>
+</tr>
+<tr>
+<td>
+   Actual return on plan assets
+  </td>
+<td>
+   1,692
+  </td>
+<td>
+   860
+  </td>
+<td>
+   350
+  </td>
+<td>
+   503
+  </td>
+<td>
+   101
+  </td>
+<td>
+   55
+  </td>
+</tr>
+<tr>
+<td>
+   Foreign currency exchange rates
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   278
+  </td>
+<td>
+   (392)
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+</tr>
+<tr>
+<td>
+   Company contributions
+  </td>
+<td>
+   1,350
+  </td>
+<td>
+   36
+  </td>
+<td>
+   107
+  </td>
+<td>
+   117
+  </td>
+<td>
+   155
+  </td>
+<td>
+   176
+  </td>
+</tr>
+<tr>
+<td>
+   Participant contributions
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   6
+  </td>
+<td>
+   7
+  </td>
+<td>
+   59
+  </td>
+<td>
+   57
+  </td>
+</tr>
+<tr>
+<td>
+   Benefits paid
+  </td>
+<td>
+   (977)
+  </td>
+<td>
+   (970)
+  </td>
+<td>
+   (203)
+  </td>
+<td>
+   (238)
+  </td>
+<td>
+   (361)
+  </td>
+<td>
+   (388)
+  </td>
+</tr>
+<tr>
+<td>
+   Settlements and termination benefits
+  </td>
+<td>
+   (3)
+  </td>
+<td>
+   (12)
+  </td>
+<td>
+   (120)
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+</tr>
+<tr>
+<td>
+   Fair value of plan assets, end of year
+  </td>
+<td>
+   $13,416
+  </td>
+<td>
+   $11,354
+  </td>
+<td>
+   $4,305
+  </td>
+<td>
+   $3,887
+  </td>
+<td>
+   $504
+  </td>
+<td>
+   $550
+  </td>
+</tr>
+</table>

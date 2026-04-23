@@ -1,0 +1,220 @@
+<!-- source: FinTabNet s0-r3342 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="3">
+   Net Sales
+  </td>
+<td colspan="3">
+   Operating Income
+  </td>
+</tr>
+<tr>
+<td>
+   (Millions)
+  </td>
+<td>
+   2007
+  </td>
+<td>
+   2006
+  </td>
+<td>
+   2005
+  </td>
+<td>
+   2007
+  </td>
+<td>
+   2006
+  </td>
+<td>
+   2005
+  </td>
+</tr>
+<tr>
+<td>
+   Industrial and Transportation
+  </td>
+<td>
+   $7,274
+  </td>
+<td>
+   $6,640
+  </td>
+<td>
+   $6,047
+  </td>
+<td>
+   $1,501
+  </td>
+<td>
+   $1,342
+  </td>
+<td>
+   $1,210
+  </td>
+</tr>
+<tr>
+<td>
+   Health Care
+  </td>
+<td>
+   3,968
+  </td>
+<td>
+   4,011
+  </td>
+<td>
+   3,760
+  </td>
+<td>
+   1,882
+  </td>
+<td>
+   1,845
+  </td>
+<td>
+   1,114
+  </td>
+</tr>
+<tr>
+<td>
+   Display and Graphics
+  </td>
+<td>
+   3,892
+  </td>
+<td>
+   3,770
+  </td>
+<td>
+   3,547
+  </td>
+<td>
+   1,174
+  </td>
+<td>
+   1,044
+  </td>
+<td>
+   1,148
+  </td>
+</tr>
+<tr>
+<td>
+   Consumer and Office
+  </td>
+<td>
+   3,403
+  </td>
+<td>
+   3,164
+  </td>
+<td>
+   2,926
+  </td>
+<td>
+   688
+  </td>
+<td>
+   629
+  </td>
+<td>
+   609
+  </td>
+</tr>
+<tr>
+<td>
+   Safety, Security and Protection Services
+  </td>
+<td>
+   3,070
+  </td>
+<td>
+   2,663
+  </td>
+<td>
+   2,320
+  </td>
+<td>
+   611
+  </td>
+<td>
+   549
+  </td>
+<td>
+   513
+  </td>
+</tr>
+<tr>
+<td>
+   Electro and Communications
+  </td>
+<td>
+   2,775
+  </td>
+<td>
+   2,631
+  </td>
+<td>
+   2,509
+  </td>
+<td>
+   481
+  </td>
+<td>
+   411
+  </td>
+<td>
+   422
+  </td>
+</tr>
+<tr>
+<td>
+   Corporate and Unallocated
+  </td>
+<td>
+   80
+  </td>
+<td>
+   44
+  </td>
+<td>
+   58
+  </td>
+<td>
+   (144)
+  </td>
+<td>
+   (124)
+  </td>
+<td>
+   (162)
+  </td>
+</tr>
+<tr>
+<td>
+   Total Company
+  </td>
+<td>
+   $24,462
+  </td>
+<td>
+   $22,923
+  </td>
+<td>
+   $21,167
+  </td>
+<td>
+   $6,193
+  </td>
+<td>
+   $5,696
+  </td>
+<td>
+   $4,854
+  </td>
+</tr>
+</table>

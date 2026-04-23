@@ -1,0 +1,357 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$1,291",
+    "$150,000",
+    "$19,189",
+    "$19,591",
+    "$24,507",
+    "$250,000",
+    "$425,704",
+    "$47,299",
+    "$59,200",
+    "$6,515",
+    "$92,688",
+    "$\u2014",
+    "(Dollars in thousands)",
+    "2007",
+    "2008",
+    "2009",
+    "2010",
+    "2011",
+    "4.6%",
+    "4.8%",
+    "5.0%",
+    "5.2%",
+    "5.6%",
+    "5.8%",
+    "6.0%",
+    "7.0%",
+    "7.1%",
+    "Amount subject to swaps:",
+    "Average interest rate",
+    "Average rate to be paid",
+    "Average rate to be received",
+    "Fixed rate debt",
+    "Thereafter",
+    "Total",
+    "Variable rate debt",
+    "Variable to fixed",
+    "Year of Maturity",
+    "\u2014"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Fixed rate debt"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year of Maturity",
+        "2007",
+        "(Dollars in thousands)"
+      ],
+      "value": "$6,515"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year of Maturity",
+        "2008",
+        "(Dollars in thousands)"
+      ],
+      "value": "$19,189"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year of Maturity",
+        "2009",
+        "(Dollars in thousands)"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year of Maturity",
+        "2010",
+        "(Dollars in thousands)"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year of Maturity",
+        "2011",
+        "(Dollars in thousands)"
+      ],
+      "value": "$150,000"
+    },
+    {
+      "row": [],
+      "col": [
+        "Thereafter",
+        "(Dollars in thousands)"
+      ],
+      "value": "$250,000"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "(Dollars in thousands)"
+      ],
+      "value": "$425,704"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Average interest rate"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year of Maturity",
+        "2007",
+        "(Dollars in thousands)"
+      ],
+      "value": "7.1%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year of Maturity",
+        "2008",
+        "(Dollars in thousands)"
+      ],
+      "value": "6.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year of Maturity",
+        "2009",
+        "(Dollars in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year of Maturity",
+        "2010",
+        "(Dollars in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year of Maturity",
+        "2011",
+        "(Dollars in thousands)"
+      ],
+      "value": "5.2%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Thereafter",
+        "(Dollars in thousands)"
+      ],
+      "value": "5.8%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "(Dollars in thousands)"
+      ],
+      "value": "5.6%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Variable rate debt"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year of Maturity",
+        "2007",
+        "(Dollars in thousands)"
+      ],
+      "value": "$24,507"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year of Maturity",
+        "2008",
+        "(Dollars in thousands)"
+      ],
+      "value": "$47,299"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year of Maturity",
+        "2009",
+        "(Dollars in thousands)"
+      ],
+      "value": "$1,291"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year of Maturity",
+        "2010",
+        "(Dollars in thousands)"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year of Maturity",
+        "2011",
+        "(Dollars in thousands)"
+      ],
+      "value": "$19,591"
+    },
+    {
+      "row": [],
+      "col": [
+        "Thereafter",
+        "(Dollars in thousands)"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "(Dollars in thousands)"
+      ],
+      "value": "$92,688"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Average interest rate"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year of Maturity",
+        "2007",
+        "(Dollars in thousands)"
+      ],
+      "value": "5.2%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year of Maturity",
+        "2008",
+        "(Dollars in thousands)"
+      ],
+      "value": "4.6%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year of Maturity",
+        "2009",
+        "(Dollars in thousands)"
+      ],
+      "value": "7.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year of Maturity",
+        "2010",
+        "(Dollars in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year of Maturity",
+        "2011",
+        "(Dollars in thousands)"
+      ],
+      "value": "5.6%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Thereafter",
+        "(Dollars in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "(Dollars in thousands)"
+      ],
+      "value": "5.0%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Amount subject to swaps:"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Variable to fixed"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year of Maturity",
+        "2008",
+        "(Dollars in thousands)"
+      ],
+      "value": "$59,200"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Average rate to be received"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year of Maturity",
+        "2008",
+        "(Dollars in thousands)"
+      ],
+      "value": "4.8%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Average rate to be paid"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year of Maturity",
+        "2008",
+        "(Dollars in thousands)"
+      ],
+      "value": "5.6%"
+    }
+  ]
+}

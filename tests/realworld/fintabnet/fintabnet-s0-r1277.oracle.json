@@ -1,0 +1,327 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$(168,223)",
+    "$(192,876)",
+    "$(302,091)",
+    "$(356,323)",
+    "$1,557,688",
+    "$1,573,043",
+    "$624,574",
+    "$628,020",
+    "(1,148)",
+    "(118,086)",
+    "(14,243)",
+    "(14,592)",
+    "(146,131)",
+    "(2,764)",
+    "(309)",
+    "(42)",
+    "(Dollars in thousands)",
+    "16,101",
+    "16,797",
+    "2013",
+    "2014",
+    "337",
+    "396,269",
+    "407,879",
+    "435,869",
+    "467,068",
+    "68,694",
+    "68,786",
+    "Accumulated Amortization",
+    "Customer lists",
+    "Distribution rights",
+    "Gross Carrying Amount",
+    "In-process research and development",
+    "Intellectual property",
+    "Noncompete agreements",
+    "Trade names",
+    "\u2014"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Customer lists"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gross Carrying Amount",
+        "2014",
+        "(Dollars in thousands)"
+      ],
+      "value": "$624,574"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gross Carrying Amount",
+        "2013",
+        "(Dollars in thousands)"
+      ],
+      "value": "$628,020"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accumulated Amortization",
+        "2014",
+        "(Dollars in thousands)"
+      ],
+      "value": "$(192,876)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accumulated Amortization",
+        "2013",
+        "(Dollars in thousands)"
+      ],
+      "value": "$(168,223)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "In-process research and development"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gross Carrying Amount",
+        "2014",
+        "(Dollars in thousands)"
+      ],
+      "value": "68,694"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gross Carrying Amount",
+        "2013",
+        "(Dollars in thousands)"
+      ],
+      "value": "68,786"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accumulated Amortization",
+        "2014",
+        "(Dollars in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accumulated Amortization",
+        "2013",
+        "(Dollars in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Intellectual property"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gross Carrying Amount",
+        "2014",
+        "(Dollars in thousands)"
+      ],
+      "value": "467,068"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gross Carrying Amount",
+        "2013",
+        "(Dollars in thousands)"
+      ],
+      "value": "435,869"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accumulated Amortization",
+        "2014",
+        "(Dollars in thousands)"
+      ],
+      "value": "(146,131)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accumulated Amortization",
+        "2013",
+        "(Dollars in thousands)"
+      ],
+      "value": "(118,086)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Distribution rights"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gross Carrying Amount",
+        "2014",
+        "(Dollars in thousands)"
+      ],
+      "value": "16,101"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gross Carrying Amount",
+        "2013",
+        "(Dollars in thousands)"
+      ],
+      "value": "16,797"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accumulated Amortization",
+        "2014",
+        "(Dollars in thousands)"
+      ],
+      "value": "(14,243)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accumulated Amortization",
+        "2013",
+        "(Dollars in thousands)"
+      ],
+      "value": "(14,592)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Trade names"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gross Carrying Amount",
+        "2014",
+        "(Dollars in thousands)"
+      ],
+      "value": "396,269"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gross Carrying Amount",
+        "2013",
+        "(Dollars in thousands)"
+      ],
+      "value": "407,879"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accumulated Amortization",
+        "2014",
+        "(Dollars in thousands)"
+      ],
+      "value": "(2,764)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accumulated Amortization",
+        "2013",
+        "(Dollars in thousands)"
+      ],
+      "value": "(1,148)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Noncompete agreements"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gross Carrying Amount",
+        "2014",
+        "(Dollars in thousands)"
+      ],
+      "value": "337"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gross Carrying Amount",
+        "2013",
+        "(Dollars in thousands)"
+      ],
+      "value": "337"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accumulated Amortization",
+        "2014",
+        "(Dollars in thousands)"
+      ],
+      "value": "(309)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accumulated Amortization",
+        "2013",
+        "(Dollars in thousands)"
+      ],
+      "value": "(42)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gross Carrying Amount",
+        "2014",
+        "(Dollars in thousands)"
+      ],
+      "value": "$1,573,043"
+    },
+    {
+      "row": [],
+      "col": [
+        "Gross Carrying Amount",
+        "2013",
+        "(Dollars in thousands)"
+      ],
+      "value": "$1,557,688"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accumulated Amortization",
+        "2014",
+        "(Dollars in thousands)"
+      ],
+      "value": "$(356,323)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Accumulated Amortization",
+        "2013",
+        "(Dollars in thousands)"
+      ],
+      "value": "$(302,091)"
+    }
+  ]
+}

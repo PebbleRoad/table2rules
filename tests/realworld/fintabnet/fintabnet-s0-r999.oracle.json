@@ -1,0 +1,541 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$12.59",
+    "$18.29",
+    "$19.29",
+    "$19.59",
+    "$22.35",
+    "$28.57",
+    "$29.24",
+    "$33.27",
+    "$38.11",
+    "$46.82",
+    "$47.76",
+    "$48.54",
+    "$51.00",
+    "$53.89",
+    "$84.61",
+    "(125)",
+    "(226)",
+    "(249)",
+    "(47)",
+    "(934)",
+    "(994)",
+    "-",
+    "1,044",
+    "1,470",
+    "10,526",
+    "2,413",
+    "2,864",
+    "4,656",
+    "6,354",
+    "7,726",
+    "9,531",
+    "Exercisable at December 27, 2008",
+    "Exercise Price",
+    "Exercised",
+    "Fair Value RSUs",
+    "Forfeited",
+    "Granted",
+    "Number of Shares (In Thousands)",
+    "Outstanding at December 27, 2008",
+    "Outstanding at December 29, 2007",
+    "Outstanding at December 30, 2006",
+    "Outstanding at December 31, 2005",
+    "Weighted-Average"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Outstanding at December 31, 2005"
+    },
+    {
+      "row": [],
+      "col": [
+        "Weighted-Average",
+        "Exercise Price"
+      ],
+      "value": "$19.29"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of Shares (In Thousands)"
+      ],
+      "value": "6,354"
+    },
+    {
+      "row": [],
+      "col": [
+        "Weighted-Average",
+        "Fair Value RSUs"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of Shares (In Thousands)"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Granted"
+    },
+    {
+      "row": [],
+      "col": [
+        "Weighted-Average",
+        "Exercise Price"
+      ],
+      "value": "$48.54"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of Shares (In Thousands)"
+      ],
+      "value": "2,413"
+    },
+    {
+      "row": [],
+      "col": [
+        "Weighted-Average",
+        "Fair Value RSUs"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of Shares (In Thousands)"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Exercised"
+    },
+    {
+      "row": [],
+      "col": [
+        "Weighted-Average",
+        "Exercise Price"
+      ],
+      "value": "$12.59"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of Shares (In Thousands)"
+      ],
+      "value": "(994)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Weighted-Average",
+        "Fair Value RSUs"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of Shares (In Thousands)"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Forfeited"
+    },
+    {
+      "row": [],
+      "col": [
+        "Weighted-Average",
+        "Exercise Price"
+      ],
+      "value": "$28.57"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of Shares (In Thousands)"
+      ],
+      "value": "(47)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Weighted-Average",
+        "Fair Value RSUs"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of Shares (In Thousands)"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Outstanding at December 30, 2006"
+    },
+    {
+      "row": [],
+      "col": [
+        "Weighted-Average",
+        "Exercise Price"
+      ],
+      "value": "$29.24"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of Shares (In Thousands)"
+      ],
+      "value": "7,726"
+    },
+    {
+      "row": [],
+      "col": [
+        "Weighted-Average",
+        "Fair Value RSUs"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of Shares (In Thousands)"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Granted"
+    },
+    {
+      "row": [],
+      "col": [
+        "Weighted-Average",
+        "Exercise Price"
+      ],
+      "value": "$84.61"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of Shares (In Thousands)"
+      ],
+      "value": "2,864"
+    },
+    {
+      "row": [],
+      "col": [
+        "Weighted-Average",
+        "Fair Value RSUs"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of Shares (In Thousands)"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Exercised"
+    },
+    {
+      "row": [],
+      "col": [
+        "Weighted-Average",
+        "Exercise Price"
+      ],
+      "value": "$18.29"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of Shares (In Thousands)"
+      ],
+      "value": "(934)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Weighted-Average",
+        "Fair Value RSUs"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of Shares (In Thousands)"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Forfeited"
+    },
+    {
+      "row": [],
+      "col": [
+        "Weighted-Average",
+        "Exercise Price"
+      ],
+      "value": "$38.11"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of Shares (In Thousands)"
+      ],
+      "value": "(125)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Weighted-Average",
+        "Fair Value RSUs"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of Shares (In Thousands)"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Outstanding at December 29, 2007"
+    },
+    {
+      "row": [],
+      "col": [
+        "Weighted-Average",
+        "Exercise Price"
+      ],
+      "value": "$46.82"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of Shares (In Thousands)"
+      ],
+      "value": "9,531"
+    },
+    {
+      "row": [],
+      "col": [
+        "Weighted-Average",
+        "Fair Value RSUs"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of Shares (In Thousands)"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Granted"
+    },
+    {
+      "row": [],
+      "col": [
+        "Weighted-Average",
+        "Exercise Price"
+      ],
+      "value": "$51.00"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of Shares (In Thousands)"
+      ],
+      "value": "1,470"
+    },
+    {
+      "row": [],
+      "col": [
+        "Weighted-Average",
+        "Fair Value RSUs"
+      ],
+      "value": "$19.59"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of Shares (In Thousands)"
+      ],
+      "value": "1,044"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Exercised"
+    },
+    {
+      "row": [],
+      "col": [
+        "Weighted-Average",
+        "Exercise Price"
+      ],
+      "value": "$22.35"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of Shares (In Thousands)"
+      ],
+      "value": "(226)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Weighted-Average",
+        "Fair Value RSUs"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of Shares (In Thousands)"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Forfeited"
+    },
+    {
+      "row": [],
+      "col": [
+        "Weighted-Average",
+        "Exercise Price"
+      ],
+      "value": "$53.89"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of Shares (In Thousands)"
+      ],
+      "value": "(249)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Weighted-Average",
+        "Fair Value RSUs"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of Shares (In Thousands)"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Outstanding at December 27, 2008"
+    },
+    {
+      "row": [],
+      "col": [
+        "Weighted-Average",
+        "Exercise Price"
+      ],
+      "value": "$47.76"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of Shares (In Thousands)"
+      ],
+      "value": "10,526"
+    },
+    {
+      "row": [],
+      "col": [
+        "Weighted-Average",
+        "Fair Value RSUs"
+      ],
+      "value": "$19.59"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of Shares (In Thousands)"
+      ],
+      "value": "1,044"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Exercisable at December 27, 2008"
+    },
+    {
+      "row": [],
+      "col": [
+        "Weighted-Average",
+        "Exercise Price"
+      ],
+      "value": "$33.27"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of Shares (In Thousands)"
+      ],
+      "value": "4,656"
+    },
+    {
+      "row": [],
+      "col": [
+        "Weighted-Average",
+        "Fair Value RSUs"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "Number of Shares (In Thousands)"
+      ],
+      "value": "-"
+    }
+  ]
+}

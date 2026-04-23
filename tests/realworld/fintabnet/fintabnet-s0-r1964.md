@@ -1,0 +1,303 @@
+<!-- source: FinTabNet s0-r1964 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="2">
+   Year EndedDecember 31, 2017
+  </td>
+<td colspan="2">
+   Year EndedDecember 31, 2016
+   <sup>
+    (1)
+   </sup>
+</td>
+<td colspan="2">
+   Year EndedDecember 31, 2015
+   <sup>
+    (1)
+   </sup>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   Dollars inMillions
+  </td>
+<td>
+   Percentageof Total NetSales
+  </td>
+<td>
+   Dollars inMillions
+  </td>
+<td>
+   Percentageof Total NetSales
+  </td>
+<td>
+   Dollars inMillions
+  </td>
+<td>
+   Percentageof Total NetSales
+  </td>
+</tr>
+<tr>
+<td>
+   Notebooks/Mobile Devices
+  </td>
+<td>
+   $3,490.9
+  </td>
+<td>
+   23.1%
+  </td>
+<td>
+   $2,921.6
+  </td>
+<td>
+   20.9%
+  </td>
+<td>
+   $2,537.3
+  </td>
+<td>
+   19.5%
+  </td>
+</tr>
+<tr>
+<td>
+   Netcomm Products
+  </td>
+<td>
+   2,042.9
+  </td>
+<td>
+   13.4
+  </td>
+<td>
+   1,958.2
+  </td>
+<td>
+   14.0
+  </td>
+<td>
+   1,915.0
+  </td>
+<td>
+   14.7
+  </td>
+</tr>
+<tr>
+<td>
+   Desktops
+  </td>
+<td>
+   1,159.4
+  </td>
+<td>
+   7.6
+  </td>
+<td>
+   1,050.0
+  </td>
+<td>
+   7.5
+  </td>
+<td>
+   965.6
+  </td>
+<td>
+   7.4
+  </td>
+</tr>
+<tr>
+<td>
+   Video
+  </td>
+<td>
+   1,076.9
+  </td>
+<td>
+   7.1
+  </td>
+<td>
+   962.1
+  </td>
+<td>
+   6.9
+  </td>
+<td>
+   853.8
+  </td>
+<td>
+   6.6
+  </td>
+</tr>
+<tr>
+<td>
+   Enterprise and Data Storage (Including Drives)
+  </td>
+<td>
+   1,071.5
+  </td>
+<td>
+   7.1
+  </td>
+<td>
+   1,053.1
+  </td>
+<td>
+   7.5
+  </td>
+<td>
+   1,067.2
+  </td>
+<td>
+   8.2
+  </td>
+</tr>
+<tr>
+<td>
+   Other Hardware
+  </td>
+<td>
+   3,100.3
+  </td>
+<td>
+   20.4
+  </td>
+<td>
+   3,042.6
+  </td>
+<td>
+   21.8
+  </td>
+<td>
+   2,950.5
+  </td>
+<td>
+   22.7
+  </td>
+</tr>
+<tr>
+<td>
+   Total Hardware
+  </td>
+<td>
+   11,941.9
+  </td>
+<td>
+   78.7
+  </td>
+<td>
+   10,987.6
+  </td>
+<td>
+   78.6
+  </td>
+<td>
+   10,289.4
+  </td>
+<td>
+   79.1
+  </td>
+</tr>
+<tr>
+<td>
+   Software
+  </td>
+<td>
+   2,540.1
+  </td>
+<td>
+   16.7
+  </td>
+<td>
+   2,389.3
+  </td>
+<td>
+   17.1
+  </td>
+<td>
+   2,152.3
+  </td>
+<td>
+   16.6
+  </td>
+</tr>
+<tr>
+<td>
+   Services
+   <sup>
+    (2)
+   </sup>
+</td>
+<td>
+   611.3
+  </td>
+<td>
+   4.0
+  </td>
+<td>
+   575.1
+  </td>
+<td>
+   4.1
+  </td>
+<td>
+   467.7
+  </td>
+<td>
+   3.6
+  </td>
+</tr>
+<tr>
+<td>
+   Other
+   <sup>
+    (3)
+   </sup>
+</td>
+<td>
+   98.2
+  </td>
+<td>
+   0.6
+  </td>
+<td>
+   29.9
+  </td>
+<td>
+   0.2
+  </td>
+<td>
+   79.3
+  </td>
+<td>
+   0.7
+  </td>
+</tr>
+<tr>
+<td>
+   Total Net sales
+  </td>
+<td>
+   $15,191.5
+  </td>
+<td>
+   100.0%
+  </td>
+<td>
+   $13,981.9
+  </td>
+<td>
+   100.0%
+  </td>
+<td>
+   $12,988.7
+  </td>
+<td>
+   100.0%
+  </td>
+</tr>
+</table>

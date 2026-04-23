@@ -1,0 +1,220 @@
+<!-- source: FinTabNet s0-r3266 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="3">
+   Net Sales
+  </td>
+<td colspan="3">
+   Operating Income
+  </td>
+</tr>
+<tr>
+<td>
+   (Millions)
+  </td>
+<td>
+   2013
+  </td>
+<td>
+   2012
+  </td>
+<td>
+   2011
+  </td>
+<td>
+   2013
+  </td>
+<td>
+   2012
+  </td>
+<td>
+   2011
+  </td>
+</tr>
+<tr>
+<td>
+   Industrial
+  </td>
+<td>
+   $10,584
+  </td>
+<td>
+   $9,943
+  </td>
+<td>
+   $9,629
+  </td>
+<td>
+   $2,296
+  </td>
+<td>
+   $2,236
+  </td>
+<td>
+   $1,983
+  </td>
+</tr>
+<tr>
+<td>
+   Safety and Graphics
+  </td>
+<td>
+   5,657
+  </td>
+<td>
+   5,471
+  </td>
+<td>
+   5,458
+  </td>
+<td>
+   1,239
+  </td>
+<td>
+   1,217
+  </td>
+<td>
+   1,237
+  </td>
+</tr>
+<tr>
+<td>
+   Electronics and Energy
+  </td>
+<td>
+   5,393
+  </td>
+<td>
+   5,458
+  </td>
+<td>
+   5,732
+  </td>
+<td>
+   954
+  </td>
+<td>
+   1,026
+  </td>
+<td>
+   1,140
+  </td>
+</tr>
+<tr>
+<td>
+   Health Care
+  </td>
+<td>
+   5,334
+  </td>
+<td>
+   5,138
+  </td>
+<td>
+   5,011
+  </td>
+<td>
+   1,672
+  </td>
+<td>
+   1,641
+  </td>
+<td>
+   1,484
+  </td>
+</tr>
+<tr>
+<td>
+   Consumer
+  </td>
+<td>
+   4,435
+  </td>
+<td>
+   4,386
+  </td>
+<td>
+   4,230
+  </td>
+<td>
+   945
+  </td>
+<td>
+   943
+  </td>
+<td>
+   855
+  </td>
+</tr>
+<tr>
+<td>
+   Corporate and Unallocated
+  </td>
+<td>
+   8
+  </td>
+<td>
+   4
+  </td>
+<td>
+   9
+  </td>
+<td>
+   (322)
+  </td>
+<td>
+   (471)
+  </td>
+<td>
+   (420)
+  </td>
+</tr>
+<tr>
+<td>
+   Elimination of Dual Credit
+  </td>
+<td>
+   (540)
+  </td>
+<td>
+   (496)
+  </td>
+<td>
+   (458)
+  </td>
+<td>
+   (118)
+  </td>
+<td>
+   (109)
+  </td>
+<td>
+   (101)
+  </td>
+</tr>
+<tr>
+<td>
+   Total Company
+  </td>
+<td>
+   $30,871
+  </td>
+<td>
+   $29,904
+  </td>
+<td>
+   $29,611
+  </td>
+<td>
+   $6,666
+  </td>
+<td>
+   $6,483
+  </td>
+<td>
+   $6,178
+  </td>
+</tr>
+</table>

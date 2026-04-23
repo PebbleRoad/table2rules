@@ -1,0 +1,468 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$103,872",
+    "$128,237",
+    "$135,153",
+    "$149,612",
+    "$201,127",
+    "$327,193",
+    "$328,382",
+    "$331,893",
+    "$351,071",
+    "$357,030",
+    "(1,298)",
+    "(1,337)",
+    "(1,410)",
+    "(1,894)",
+    "(12,572)",
+    "(15,075)",
+    "(2,026)",
+    "(218)",
+    "(256)",
+    "(296)",
+    "(919)",
+    "(94,768)",
+    "(In thousands)",
+    "101,882",
+    "105,966",
+    "108,781",
+    "111,068",
+    "115,093",
+    "117,394",
+    "119,817",
+    "126,568",
+    "2,639",
+    "2,801",
+    "2007",
+    "2008",
+    "2009",
+    "2010",
+    "2011",
+    "328,491",
+    "344,465",
+    "352,481",
+    "374,131",
+    "423,150",
+    "98,465",
+    "99,163",
+    "Adjusted EBITDA",
+    "Depreciation and amortization",
+    "EBITDA",
+    "Early extinguishment of debt",
+    "Gain on deconsolidation of VIE",
+    "Gain on sale of real estate",
+    "Interest expense",
+    "Net income",
+    "Other interest income",
+    "\u2014"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Net income"
+    },
+    {
+      "row": [],
+      "col": [
+        "2011",
+        "(In thousands)"
+      ],
+      "value": "$149,612"
+    },
+    {
+      "row": [],
+      "col": [
+        "2010",
+        "(In thousands)"
+      ],
+      "value": "$128,237"
+    },
+    {
+      "row": [],
+      "col": [
+        "2009",
+        "(In thousands)"
+      ],
+      "value": "$103,872"
+    },
+    {
+      "row": [],
+      "col": [
+        "2008",
+        "(In thousands)"
+      ],
+      "value": "$135,153"
+    },
+    {
+      "row": [],
+      "col": [
+        "2007",
+        "(In thousands)"
+      ],
+      "value": "$201,127"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Depreciation and amortization"
+    },
+    {
+      "row": [],
+      "col": [
+        "2011",
+        "(In thousands)"
+      ],
+      "value": "126,568"
+    },
+    {
+      "row": [],
+      "col": [
+        "2010",
+        "(In thousands)"
+      ],
+      "value": "119,817"
+    },
+    {
+      "row": [],
+      "col": [
+        "2009",
+        "(In thousands)"
+      ],
+      "value": "115,093"
+    },
+    {
+      "row": [],
+      "col": [
+        "2008",
+        "(In thousands)"
+      ],
+      "value": "111,068"
+    },
+    {
+      "row": [],
+      "col": [
+        "2007",
+        "(In thousands)"
+      ],
+      "value": "105,966"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Interest expense"
+    },
+    {
+      "row": [],
+      "col": [
+        "2011",
+        "(In thousands)"
+      ],
+      "value": "98,465"
+    },
+    {
+      "row": [],
+      "col": [
+        "2010",
+        "(In thousands)"
+      ],
+      "value": "101,882"
+    },
+    {
+      "row": [],
+      "col": [
+        "2009",
+        "(In thousands)"
+      ],
+      "value": "108,781"
+    },
+    {
+      "row": [],
+      "col": [
+        "2008",
+        "(In thousands)"
+      ],
+      "value": "99,163"
+    },
+    {
+      "row": [],
+      "col": [
+        "2007",
+        "(In thousands)"
+      ],
+      "value": "117,394"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Early extinguishment of debt"
+    },
+    {
+      "row": [],
+      "col": [
+        "2011",
+        "(In thousands)"
+      ],
+      "value": "(296)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2010",
+        "(In thousands)"
+      ],
+      "value": "2,801"
+    },
+    {
+      "row": [],
+      "col": [
+        "2009",
+        "(In thousands)"
+      ],
+      "value": "2,639"
+    },
+    {
+      "row": [],
+      "col": [
+        "2008",
+        "(In thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "2007",
+        "(In thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Other interest income"
+    },
+    {
+      "row": [],
+      "col": [
+        "2011",
+        "(In thousands)"
+      ],
+      "value": "(218)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2010",
+        "(In thousands)"
+      ],
+      "value": "(256)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2009",
+        "(In thousands)"
+      ],
+      "value": "(1,894)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2008",
+        "(In thousands)"
+      ],
+      "value": "(919)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2007",
+        "(In thousands)"
+      ],
+      "value": "(1,337)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "EBITDA"
+    },
+    {
+      "row": [],
+      "col": [
+        "2011",
+        "(In thousands)"
+      ],
+      "value": "374,131"
+    },
+    {
+      "row": [],
+      "col": [
+        "2010",
+        "(In thousands)"
+      ],
+      "value": "352,481"
+    },
+    {
+      "row": [],
+      "col": [
+        "2009",
+        "(In thousands)"
+      ],
+      "value": "328,491"
+    },
+    {
+      "row": [],
+      "col": [
+        "2008",
+        "(In thousands)"
+      ],
+      "value": "344,465"
+    },
+    {
+      "row": [],
+      "col": [
+        "2007",
+        "(In thousands)"
+      ],
+      "value": "423,150"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Gain on deconsolidation of VIE"
+    },
+    {
+      "row": [],
+      "col": [
+        "2011",
+        "(In thousands)"
+      ],
+      "value": "(2,026)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2010",
+        "(In thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "2009",
+        "(In thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "2008",
+        "(In thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "2007",
+        "(In thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Gain on sale of real estate"
+    },
+    {
+      "row": [],
+      "col": [
+        "2011",
+        "(In thousands)"
+      ],
+      "value": "(15,075)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2010",
+        "(In thousands)"
+      ],
+      "value": "(1,410)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2009",
+        "(In thousands)"
+      ],
+      "value": "(1,298)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2008",
+        "(In thousands)"
+      ],
+      "value": "(12,572)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2007",
+        "(In thousands)"
+      ],
+      "value": "(94,768)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Adjusted EBITDA"
+    },
+    {
+      "row": [],
+      "col": [
+        "2011",
+        "(In thousands)"
+      ],
+      "value": "$357,030"
+    },
+    {
+      "row": [],
+      "col": [
+        "2010",
+        "(In thousands)"
+      ],
+      "value": "$351,071"
+    },
+    {
+      "row": [],
+      "col": [
+        "2009",
+        "(In thousands)"
+      ],
+      "value": "$327,193"
+    },
+    {
+      "row": [],
+      "col": [
+        "2008",
+        "(In thousands)"
+      ],
+      "value": "$331,893"
+    },
+    {
+      "row": [],
+      "col": [
+        "2007",
+        "(In thousands)"
+      ],
+      "value": "$328,382"
+    }
+  ]
+}

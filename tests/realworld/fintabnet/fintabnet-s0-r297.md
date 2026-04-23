@@ -1,0 +1,310 @@
+<!-- source: FinTabNet s0-r297 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="2">
+   2014
+  </td>
+<td colspan="2">
+   2013
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   Amount (in millions)
+  </td>
+<td>
+   Effective  Interest Rate
+  </td>
+<td>
+   Amount (in millions)
+  </td>
+<td>
+   Effective  Interest Rate
+  </td>
+</tr>
+<tr>
+<td>
+   Floating-rate notes due 2016
+  </td>
+<td>
+   $1,000
+  </td>
+<td>
+   0.51%
+  </td>
+<td>
+   $1,000
+  </td>
+<td>
+   0.51%
+  </td>
+</tr>
+<tr>
+<td>
+   Floating-rate notes due 2017
+  </td>
+<td>
+   1,000
+  </td>
+<td>
+   0.31%
+  </td>
+<td>
+   0
+  </td>
+<td>
+   0
+  </td>
+</tr>
+<tr>
+<td>
+   Floating-rate notes due 2018
+  </td>
+<td>
+   2,000
+  </td>
+<td>
+   1.10%
+  </td>
+<td>
+   2,000
+  </td>
+<td>
+   1.10%
+  </td>
+</tr>
+<tr>
+<td>
+   Floating-rate notes due 2019
+  </td>
+<td>
+   1,000
+  </td>
+<td>
+   0.54%
+  </td>
+<td>
+   0
+  </td>
+<td>
+   0
+  </td>
+</tr>
+<tr>
+<td>
+   Fixed-rate 0.45% notes due 2016
+  </td>
+<td>
+   1,500
+  </td>
+<td>
+   0.51%
+  </td>
+<td>
+   1,500
+  </td>
+<td>
+   0.51%
+  </td>
+</tr>
+<tr>
+<td>
+   Fixed-rate 1.05% notes due 2017
+  </td>
+<td>
+   1,500
+  </td>
+<td>
+   0.30%
+  </td>
+<td>
+   0
+  </td>
+<td>
+   0
+  </td>
+</tr>
+<tr>
+<td>
+   Fixed-rate 1.00% notes due 2018
+  </td>
+<td>
+   4,000
+  </td>
+<td>
+   1.08%
+  </td>
+<td>
+   4,000
+  </td>
+<td>
+   1.08%
+  </td>
+</tr>
+<tr>
+<td>
+   Fixed-rate 2.10% notes due 2019
+  </td>
+<td>
+   2,000
+  </td>
+<td>
+   0.53%
+  </td>
+<td>
+   0
+  </td>
+<td>
+   0
+  </td>
+</tr>
+<tr>
+<td>
+   Fixed-rate 2.85% notes due 2021
+  </td>
+<td>
+   3,000
+  </td>
+<td>
+   0.79%
+  </td>
+<td>
+   0
+  </td>
+<td>
+   0
+  </td>
+</tr>
+<tr>
+<td>
+   Fixed-rate 2.40% notes due 2023
+  </td>
+<td>
+   5,500
+  </td>
+<td>
+   2.44%
+  </td>
+<td>
+   5,500
+  </td>
+<td>
+   2.44%
+  </td>
+</tr>
+<tr>
+<td>
+   Fixed-rate 3.45% notes due 2024
+  </td>
+<td>
+   2,500
+  </td>
+<td>
+   0.90%
+  </td>
+<td>
+   0
+  </td>
+<td>
+   0
+  </td>
+</tr>
+<tr>
+<td>
+   Fixed-rate 3.85% notes due 2043
+  </td>
+<td>
+   3,000
+  </td>
+<td>
+   3.91%
+  </td>
+<td>
+   3,000
+  </td>
+<td>
+   3.91%
+  </td>
+</tr>
+<tr>
+<td>
+   Fixed-rate 4.45% notes due 2044
+  </td>
+<td>
+   1,000
+  </td>
+<td>
+   4.48%
+  </td>
+<td>
+   0
+  </td>
+<td>
+   0
+  </td>
+</tr>
+<tr>
+<td>
+   Total borrowings
+  </td>
+<td>
+   29,000
+  </td>
+<td>
+</td>
+<td>
+   17,000
+  </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Unamortized discount
+  </td>
+<td>
+   (52)
+  </td>
+<td>
+</td>
+<td>
+   (40)
+  </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Hedge accounting fair value adjustments
+  </td>
+<td>
+   39
+  </td>
+<td>
+</td>
+<td>
+   0
+  </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Total long-term debt
+  </td>
+<td>
+   $28,987
+  </td>
+<td>
+</td>
+<td>
+   $16,960
+  </td>
+<td>
+</td>
+</tr>
+</table>

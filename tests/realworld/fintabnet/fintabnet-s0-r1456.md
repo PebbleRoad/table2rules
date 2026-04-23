@@ -1,0 +1,283 @@
+<!-- source: FinTabNet s0-r1456 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td>
+   Electrical/ElectronicArchitecture
+  </td>
+<td>
+   PowertrainSystems
+  </td>
+<td>
+   Electronicsand Safety
+  </td>
+<td>
+   ThermalSystems
+  </td>
+<td>
+   Eliminationsand Other
+  </td>
+<td>
+   Total
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="6">
+   (in millions)
+  </td>
+</tr>
+<tr>
+<td colspan="2">
+   For the Year Ended December 31, 2013:
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Adjusted operating income
+  </td>
+<td>
+   $1,001
+  </td>
+<td>
+   $483
+  </td>
+<td>
+   $323
+  </td>
+<td>
+   $37
+  </td>
+<td>
+   $—
+  </td>
+<td>
+   $1,844
+  </td>
+</tr>
+<tr>
+<td>
+   Restructuring
+  </td>
+<td>
+   (28)
+  </td>
+<td>
+   (52)
+  </td>
+<td>
+   (56)
+  </td>
+<td>
+   (9)
+  </td>
+<td>
+   —
+  </td>
+<td>
+   (145)
+  </td>
+</tr>
+<tr>
+<td>
+   Other acquisition &amp; portfolio project costs
+  </td>
+<td>
+   (15)
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   (15)
+  </td>
+</tr>
+<tr>
+<td>
+   Operating income
+  </td>
+<td>
+   $958
+  </td>
+<td>
+   $431
+  </td>
+<td>
+   $267
+  </td>
+<td>
+   $28
+  </td>
+<td>
+   $—
+  </td>
+<td>
+   1,684
+  </td>
+</tr>
+<tr>
+<td>
+   Interest expense
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   (143)
+  </td>
+</tr>
+<tr>
+<td>
+   Other expense, net
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   (18)
+  </td>
+</tr>
+<tr>
+<td>
+   Income before income taxes and equity income
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   1,523
+  </td>
+</tr>
+<tr>
+<td>
+   Income tax expense
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   (256)
+  </td>
+</tr>
+<tr>
+<td>
+   Equity income, net of tax
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   34
+  </td>
+</tr>
+<tr>
+<td>
+   Net income
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   1,301
+  </td>
+</tr>
+<tr>
+<td>
+   Net income attributable to noncontrolling interest
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   89
+  </td>
+</tr>
+<tr>
+<td>
+   Net income attributable to Delphi
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+   $1,212
+  </td>
+</tr>
+</table>

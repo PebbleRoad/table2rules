@@ -1,0 +1,367 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$(1)",
+    "$(3)",
+    "$(5)",
+    "$1",
+    "$1,087",
+    "$1,103",
+    "$1,256",
+    "$1,668",
+    "$10",
+    "$115",
+    "$167",
+    "$17",
+    "$2",
+    "$351",
+    "$6",
+    "$662",
+    "$80",
+    "$833",
+    "$9",
+    "$\u2014",
+    "Credit Risk Amounts",
+    "Creit Risk Amounts",
+    "Fair Value",
+    "Foreign exchange instruments other than accounting hedges:",
+    "Foreign exchange instruments qualifying as accounting hedges:",
+    "Notional Principal",
+    "Purchased options",
+    "September 24, 2005",
+    "September 30, 2006",
+    "Sold options",
+    "Spot/Forward contracts"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Foreign exchange instruments qualifying as accounting hedges:"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Spot/Forward contracts"
+    },
+    {
+      "row": [],
+      "col": [
+        "September 30, 2006",
+        "Notional Principal"
+      ],
+      "value": "$351"
+    },
+    {
+      "row": [],
+      "col": [
+        "September 30, 2006",
+        "Fair Value"
+      ],
+      "value": "$6"
+    },
+    {
+      "row": [],
+      "col": [
+        "September 30, 2006",
+        "Credit Risk Amounts"
+      ],
+      "value": "$6"
+    },
+    {
+      "row": [],
+      "col": [
+        "September 24, 2005",
+        "Notional Principal"
+      ],
+      "value": "$662"
+    },
+    {
+      "row": [],
+      "col": [
+        "September 24, 2005",
+        "Fair Value"
+      ],
+      "value": "$10"
+    },
+    {
+      "row": [],
+      "col": [
+        "September 24, 2005",
+        "Creit Risk Amounts"
+      ],
+      "value": "$10"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Purchased options"
+    },
+    {
+      "row": [],
+      "col": [
+        "September 30, 2006",
+        "Notional Principal"
+      ],
+      "value": "$1,256"
+    },
+    {
+      "row": [],
+      "col": [
+        "September 30, 2006",
+        "Fair Value"
+      ],
+      "value": "$9"
+    },
+    {
+      "row": [],
+      "col": [
+        "September 30, 2006",
+        "Credit Risk Amounts"
+      ],
+      "value": "$9"
+    },
+    {
+      "row": [],
+      "col": [
+        "September 24, 2005",
+        "Notional Principal"
+      ],
+      "value": "$1,668"
+    },
+    {
+      "row": [],
+      "col": [
+        "September 24, 2005",
+        "Fair Value"
+      ],
+      "value": "$17"
+    },
+    {
+      "row": [],
+      "col": [
+        "September 24, 2005",
+        "Creit Risk Amounts"
+      ],
+      "value": "$17"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Sold options"
+    },
+    {
+      "row": [],
+      "col": [
+        "September 30, 2006",
+        "Notional Principal"
+      ],
+      "value": "$80"
+    },
+    {
+      "row": [],
+      "col": [
+        "September 30, 2006",
+        "Fair Value"
+      ],
+      "value": "$(1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "September 30, 2006",
+        "Credit Risk Amounts"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "September 24, 2005",
+        "Notional Principal"
+      ],
+      "value": "$1,087"
+    },
+    {
+      "row": [],
+      "col": [
+        "September 24, 2005",
+        "Fair Value"
+      ],
+      "value": "$(5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "September 24, 2005",
+        "Creit Risk Amounts"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Foreign exchange instruments other than accounting hedges:"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Spot/Forward contracts"
+    },
+    {
+      "row": [],
+      "col": [
+        "September 30, 2006",
+        "Notional Principal"
+      ],
+      "value": "$1,103"
+    },
+    {
+      "row": [],
+      "col": [
+        "September 30, 2006",
+        "Fair Value"
+      ],
+      "value": "$2"
+    },
+    {
+      "row": [],
+      "col": [
+        "September 30, 2006",
+        "Credit Risk Amounts"
+      ],
+      "value": "$2"
+    },
+    {
+      "row": [],
+      "col": [
+        "September 24, 2005",
+        "Notional Principal"
+      ],
+      "value": "$833"
+    },
+    {
+      "row": [],
+      "col": [
+        "September 24, 2005",
+        "Fair Value"
+      ],
+      "value": "$(3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "September 24, 2005",
+        "Creit Risk Amounts"
+      ],
+      "value": "$1"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Purchased options"
+    },
+    {
+      "row": [],
+      "col": [
+        "September 30, 2006",
+        "Notional Principal"
+      ],
+      "value": "$167"
+    },
+    {
+      "row": [],
+      "col": [
+        "September 30, 2006",
+        "Fair Value"
+      ],
+      "value": "$1"
+    },
+    {
+      "row": [],
+      "col": [
+        "September 30, 2006",
+        "Credit Risk Amounts"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "September 24, 2005",
+        "Notional Principal"
+      ],
+      "value": "$115"
+    },
+    {
+      "row": [],
+      "col": [
+        "September 24, 2005",
+        "Fair Value"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "September 24, 2005",
+        "Creit Risk Amounts"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Sold options"
+    },
+    {
+      "row": [],
+      "col": [
+        "September 30, 2006",
+        "Notional Principal"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "September 30, 2006",
+        "Fair Value"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "September 30, 2006",
+        "Credit Risk Amounts"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "September 24, 2005",
+        "Notional Principal"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "September 24, 2005",
+        "Fair Value"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "September 24, 2005",
+        "Creit Risk Amounts"
+      ],
+      "value": "$\u2014"
+    }
+  ]
+}

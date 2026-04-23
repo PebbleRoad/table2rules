@@ -1,0 +1,156 @@
+<!-- source: FinTabNet s0-r2612 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="9">
+   Year Ended December 31,
+  </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="2">
+   2007
+  </td>
+<td colspan="3">
+   2006
+  </td>
+<td>
+</td>
+<td colspan="3">
+   2005
+  </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   Declared
+  </td>
+<td>
+   Paid
+  </td>
+<td>
+   Declared
+  </td>
+<td>
+</td>
+<td>
+   Paid
+  </td>
+<td>
+</td>
+<td>
+   Declared
+  </td>
+<td>
+</td>
+<td>
+   Paid
+  </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Common shares
+  </td>
+<td>
+   $2.370
+  </td>
+<td>
+   $2.335
+  </td>
+<td>
+   $2.460
+  </td>
+<td>
+   (1)
+  </td>
+<td>
+   $2.440
+  </td>
+<td>
+   (1)
+  </td>
+<td>
+   $2.370
+  </td>
+<td>
+   (1)
+  </td>
+<td>
+   $2.320
+  </td>
+<td>
+   (1)
+  </td>
+</tr>
+<tr>
+<td>
+   5.417% Series 1 Cumulative Convertible Preferred (2)
+  </td>
+<td>
+   $1.106
+  </td>
+<td>
+   $0.767
+  </td>
+<td>
+   $—
+  </td>
+<td>
+</td>
+<td>
+   $—
+  </td>
+<td>
+</td>
+<td>
+   $—
+  </td>
+<td>
+</td>
+<td>
+   $—
+  </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   8.5% Series B Cumulative Redeemable Preferred (3)
+  </td>
+<td>
+   $—
+  </td>
+<td>
+   $—
+  </td>
+<td>
+   $1.753
+  </td>
+<td>
+</td>
+<td>
+   $2.284
+  </td>
+<td>
+</td>
+<td>
+   $2.125
+  </td>
+<td>
+</td>
+<td>
+   $2.125
+  </td>
+<td>
+</td>
+</tr>
+</table>

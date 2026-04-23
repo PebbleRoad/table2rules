@@ -1,0 +1,206 @@
+<!-- source: FinTabNet s0-r1428 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="2">
+   Year endedDecember 31, 2013
+  </td>
+<td colspan="2">
+   Year endedDecember 31, 2012
+  </td>
+<td colspan="2">
+   Year endedDecember 31, 2011
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="6">
+   (in millions)
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   Net Sales
+  </td>
+<td>
+   NetProperty(1)
+  </td>
+<td>
+   Net Sales
+  </td>
+<td>
+   NetProperty(1)
+  </td>
+<td>
+   Net Sales
+  </td>
+<td>
+   NetProperty(1)
+  </td>
+</tr>
+<tr>
+<td>
+   United States
+  </td>
+<td>
+   $5,300
+  </td>
+<td>
+   $668
+  </td>
+<td>
+   $5,193
+  </td>
+<td>
+   $592
+  </td>
+<td>
+   $4,993
+  </td>
+<td>
+   $506
+  </td>
+</tr>
+<tr>
+<td>
+   Other North America
+  </td>
+<td>
+   213
+  </td>
+<td>
+   145
+  </td>
+<td>
+   151
+  </td>
+<td>
+   139
+  </td>
+<td>
+   118
+  </td>
+<td>
+   129
+  </td>
+</tr>
+<tr>
+<td>
+   Europe, Middle East &amp; Africa(2)
+  </td>
+<td>
+   6,444
+  </td>
+<td>
+   1,592
+  </td>
+<td>
+   6,364
+  </td>
+<td>
+   1,455
+  </td>
+<td>
+   7,264
+  </td>
+<td>
+   1,107
+  </td>
+</tr>
+<tr>
+<td>
+   China
+  </td>
+<td>
+   2,703
+  </td>
+<td>
+   526
+  </td>
+<td>
+   2,288
+  </td>
+<td>
+   389
+  </td>
+<td>
+   2,026
+  </td>
+<td>
+   314
+  </td>
+</tr>
+<tr>
+<td>
+   Other Asia Pacific
+  </td>
+<td>
+   838
+  </td>
+<td>
+   148
+  </td>
+<td>
+   539
+  </td>
+<td>
+   135
+  </td>
+<td>
+   438
+  </td>
+<td>
+   108
+  </td>
+</tr>
+<tr>
+<td>
+   South America
+  </td>
+<td>
+   965
+  </td>
+<td>
+   137
+  </td>
+<td>
+   984
+  </td>
+<td>
+   150
+  </td>
+<td>
+   1,202
+  </td>
+<td>
+   151
+  </td>
+</tr>
+<tr>
+<td>
+   Total
+  </td>
+<td>
+   $16,463
+  </td>
+<td>
+   $3,216
+  </td>
+<td>
+   $15,519
+  </td>
+<td>
+   $2,860
+  </td>
+<td>
+   $16,041
+  </td>
+<td>
+   $2,315
+  </td>
+</tr>
+</table>

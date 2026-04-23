@@ -1,0 +1,359 @@
+<!-- source: FinTabNet s0-r2051 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="2">
+   RevPAR
+  </td>
+<td colspan="3">
+   Occupancy
+  </td>
+<td colspan="2">
+   Average Daily Rate
+  </td>
+</tr>
+<tr>
+<td>
+   Legacy-Marriott
+  </td>
+<td>
+   2015
+  </td>
+<td>
+   Change vs. 2014
+  </td>
+<td>
+   2015
+  </td>
+<td>
+   Change vs. 2014
+  </td>
+<td>
+</td>
+<td>
+   2015
+  </td>
+<td>
+   Change vs. 2014
+  </td>
+</tr>
+<tr>
+<td>
+   Marriott Hotels
+  </td>
+<td>
+   $127.52
+  </td>
+<td>
+   5.0%
+  </td>
+<td>
+   72.6%
+  </td>
+<td>
+   0.6%
+  </td>
+<td>
+   pts.
+  </td>
+<td>
+   $175.53
+  </td>
+<td>
+   4.2%
+  </td>
+</tr>
+<tr>
+<td>
+   Renaissance Hotels
+  </td>
+<td>
+   $121.20
+  </td>
+<td>
+   5.4%
+  </td>
+<td>
+   73.9%
+  </td>
+<td>
+   0.8%
+  </td>
+<td>
+   pts.
+  </td>
+<td>
+   $164.02
+  </td>
+<td>
+   4.3%
+  </td>
+</tr>
+<tr>
+<td>
+   Autograph Collection Hotels
+  </td>
+<td>
+   $178.16
+  </td>
+<td>
+   3.5%
+  </td>
+<td>
+   77.5%
+  </td>
+<td>
+   1.1%
+  </td>
+<td>
+   pts.
+  </td>
+<td>
+   $229.90
+  </td>
+<td>
+   1.9%
+  </td>
+</tr>
+<tr>
+<td>
+   The Ritz-Carlton
+  </td>
+<td>
+   $259.41
+  </td>
+<td>
+   2.7%
+  </td>
+<td>
+   72.1%
+  </td>
+<td>
+   (0.1)%
+  </td>
+<td>
+   pts.
+  </td>
+<td>
+   $359.92
+  </td>
+<td>
+   2.9%
+  </td>
+</tr>
+<tr>
+<td>
+   Composite North American Full-Service
+   <sup>
+    (1)
+   </sup>
+</td>
+<td>
+   $136.95
+  </td>
+<td>
+   4.6%
+  </td>
+<td>
+   73.1%
+  </td>
+<td>
+   0.6%
+  </td>
+<td>
+   pts.
+  </td>
+<td>
+   $187.40
+  </td>
+<td>
+   3.8%
+  </td>
+</tr>
+<tr>
+<td>
+   Courtyard
+  </td>
+<td>
+   $99.88
+  </td>
+<td>
+   6.1%
+  </td>
+<td>
+   73.1%
+  </td>
+<td>
+   0.8%
+  </td>
+<td>
+   pts.
+  </td>
+<td>
+   $136.58
+  </td>
+<td>
+   5.0%
+  </td>
+</tr>
+<tr>
+<td>
+   Fairfield Inn &amp; Suites
+  </td>
+<td>
+   $76.70
+  </td>
+<td>
+   4.7%
+  </td>
+<td>
+   70.6%
+  </td>
+<td>
+   0.3%
+  </td>
+<td>
+   pts.
+  </td>
+<td>
+   $108.71
+  </td>
+<td>
+   4.2%
+  </td>
+</tr>
+<tr>
+<td>
+   SpringHill Suites
+  </td>
+<td>
+   $88.80
+  </td>
+<td>
+   5.2%
+  </td>
+<td>
+   74.8%
+  </td>
+<td>
+   0.3%
+  </td>
+<td>
+   pts.
+  </td>
+<td>
+   $118.64
+  </td>
+<td>
+   4.8%
+  </td>
+</tr>
+<tr>
+<td>
+   Residence Inn
+  </td>
+<td>
+   $110.75
+  </td>
+<td>
+   5.5%
+  </td>
+<td>
+   79.4%
+  </td>
+<td>
+   0.1%
+  </td>
+<td>
+   pts.
+  </td>
+<td>
+   $139.51
+  </td>
+<td>
+   5.3%
+  </td>
+</tr>
+<tr>
+<td>
+   TownePlace Suites
+  </td>
+<td>
+   $76.15
+  </td>
+<td>
+   5.0%
+  </td>
+<td>
+   74.8%
+  </td>
+<td>
+   0.3%
+  </td>
+<td>
+   pts.
+  </td>
+<td>
+   $101.83
+  </td>
+<td>
+   4.6%
+  </td>
+</tr>
+<tr>
+<td>
+   Composite North American Limited-Service
+   <sup>
+    (2)
+   </sup>
+</td>
+<td>
+   $94.99
+  </td>
+<td>
+   5.6%
+  </td>
+<td>
+   74.4%
+  </td>
+<td>
+   0.5%
+  </td>
+<td>
+   pts.
+  </td>
+<td>
+   $127.65
+  </td>
+<td>
+   4.9%
+  </td>
+</tr>
+<tr>
+<td>
+   Composite North American - All
+  </td>
+<td>
+   $109.83
+  </td>
+<td>
+   5.2%
+  </td>
+<td>
+   73.9%
+  </td>
+<td>
+   0.5%
+  </td>
+<td>
+   pts.
+  </td>
+<td>
+   $148.53
+  </td>
+<td>
+   4.5%
+  </td>
+</tr>
+</table>

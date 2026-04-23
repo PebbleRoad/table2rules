@@ -1,0 +1,340 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$453.6",
+    "$487.0",
+    "$819.2",
+    "$866.1",
+    "(114.9)",
+    "(127.2)",
+    "1.6",
+    "10.7",
+    "2016",
+    "2017",
+    "3.2",
+    "3.7",
+    "32.8",
+    "368.0",
+    "374.0",
+    "43.6",
+    "5.7%",
+    "5.9%",
+    "57.9",
+    "6.0",
+    "6.2",
+    "6.6",
+    "68.9",
+    "7.4%",
+    "7.7%",
+    "74.4",
+    "8.0",
+    "Corporate (2)",
+    "Dollars inMillions",
+    "Headquarters (4)",
+    "OperatingMargin",
+    "Other (3)",
+    "Percent Changein Incomefrom Operations",
+    "Public",
+    "Segments: (1)",
+    "Small Business (2)",
+    "Total Income from operations",
+    "Years Ended December 31,",
+    "nm*"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Segments: (1)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Corporate (2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2017",
+        "Dollars inMillions"
+      ],
+      "value": "$487.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2017",
+        "OperatingMargin"
+      ],
+      "value": "7.7%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2016",
+        "Dollars inMillions"
+      ],
+      "value": "$453.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2016",
+        "OperatingMargin"
+      ],
+      "value": "7.7%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percent Changein Incomefrom Operations"
+      ],
+      "value": "7.4%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Small Business (2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2017",
+        "Dollars inMillions"
+      ],
+      "value": "74.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2017",
+        "OperatingMargin"
+      ],
+      "value": "6.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2016",
+        "Dollars inMillions"
+      ],
+      "value": "68.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2016",
+        "OperatingMargin"
+      ],
+      "value": "6.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percent Changein Incomefrom Operations"
+      ],
+      "value": "8.0"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Public"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2017",
+        "Dollars inMillions"
+      ],
+      "value": "374.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2017",
+        "OperatingMargin"
+      ],
+      "value": "6.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2016",
+        "Dollars inMillions"
+      ],
+      "value": "368.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2016",
+        "OperatingMargin"
+      ],
+      "value": "6.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percent Changein Incomefrom Operations"
+      ],
+      "value": "1.6"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Other (3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2017",
+        "Dollars inMillions"
+      ],
+      "value": "57.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2017",
+        "OperatingMargin"
+      ],
+      "value": "3.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2016",
+        "Dollars inMillions"
+      ],
+      "value": "43.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2016",
+        "OperatingMargin"
+      ],
+      "value": "3.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percent Changein Incomefrom Operations"
+      ],
+      "value": "32.8"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Headquarters (4)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2017",
+        "Dollars inMillions"
+      ],
+      "value": "(127.2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2017",
+        "OperatingMargin"
+      ],
+      "value": "nm*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2016",
+        "Dollars inMillions"
+      ],
+      "value": "(114.9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2016",
+        "OperatingMargin"
+      ],
+      "value": "nm*"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percent Changein Incomefrom Operations"
+      ],
+      "value": "10.7"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total Income from operations"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2017",
+        "Dollars inMillions"
+      ],
+      "value": "$866.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2017",
+        "OperatingMargin"
+      ],
+      "value": "5.7%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2016",
+        "Dollars inMillions"
+      ],
+      "value": "$819.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2016",
+        "OperatingMargin"
+      ],
+      "value": "5.9%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Percent Changein Incomefrom Operations"
+      ],
+      "value": "5.7%"
+    }
+  ]
+}

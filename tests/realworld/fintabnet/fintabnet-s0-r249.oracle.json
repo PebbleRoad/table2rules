@@ -1,0 +1,617 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "2.2%",
+    "2.3%",
+    "2.4%",
+    "2.5%",
+    "2.8%",
+    "2.9%",
+    "2016",
+    "2017",
+    "2018",
+    "2022",
+    "2025",
+    "3.0%",
+    "3.2%",
+    "3.3%",
+    "3.4%",
+    "3.5%",
+    "3.6%",
+    "3.7%",
+    "3.9%",
+    "4.0%",
+    "4.2%",
+    "4.5%",
+    "5.0%",
+    "5.2%",
+    "5.9%",
+    "6.1%",
+    "6.3%",
+    "6.6%",
+    "6.7%",
+    "6.9%",
+    "7.5%",
+    "Discount rate",
+    "Discount rate used to measure interest cost",
+    "Discount rate used to measure service cost",
+    "Expected rate of return on plan assets",
+    "Health care cost trend rates at year-end:",
+    "Health care trend rate assumed for next year",
+    "Non-U.S. Pension Benefits",
+    "Other Postretirement Benefits",
+    "Rate of compensation increase",
+    "Rate that the cost trend rate gradually declines to",
+    "U.S. Pension Benefits",
+    "Weighted-average assumptions used to determine benefit obligations, end of year:",
+    "Weighted-average assumptions used to determine net cost:",
+    "Year that the cost trend rate reaches ultimate rate"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Weighted-average assumptions used to determine benefit obligations, end of year:"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Discount rate"
+    },
+    {
+      "row": [],
+      "col": [
+        "U.S. Pension Benefits",
+        "2018"
+      ],
+      "value": "4.2%"
+    },
+    {
+      "row": [],
+      "col": [
+        "U.S. Pension Benefits",
+        "2017"
+      ],
+      "value": "3.5%"
+    },
+    {
+      "row": [],
+      "col": [
+        "U.S. Pension Benefits",
+        "2016"
+      ],
+      "value": "4.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-U.S. Pension Benefits",
+        "2018"
+      ],
+      "value": "2.5%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-U.S. Pension Benefits",
+        "2017"
+      ],
+      "value": "2.4%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-U.S. Pension Benefits",
+        "2016"
+      ],
+      "value": "2.5%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Postretirement Benefits",
+        "2018"
+      ],
+      "value": "4.2%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Postretirement Benefits",
+        "2017"
+      ],
+      "value": "3.6%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Postretirement Benefits",
+        "2016"
+      ],
+      "value": "4.0%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Rate of compensation increase"
+    },
+    {
+      "row": [],
+      "col": [
+        "U.S. Pension Benefits",
+        "2018"
+      ],
+      "value": "4.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "U.S. Pension Benefits",
+        "2017"
+      ],
+      "value": "4.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "U.S. Pension Benefits",
+        "2016"
+      ],
+      "value": "4.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-U.S. Pension Benefits",
+        "2018"
+      ],
+      "value": "3.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-U.S. Pension Benefits",
+        "2017"
+      ],
+      "value": "4.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-U.S. Pension Benefits",
+        "2016"
+      ],
+      "value": "4.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Postretirement Benefits",
+        "2018"
+      ],
+      "value": "4.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Postretirement Benefits",
+        "2017"
+      ],
+      "value": "4.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Postretirement Benefits",
+        "2016"
+      ],
+      "value": "4.0%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Weighted-average assumptions used to determine net cost:"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Discount rate used to measure service cost"
+    },
+    {
+      "row": [],
+      "col": [
+        "U.S. Pension Benefits",
+        "2018"
+      ],
+      "value": "3.7%"
+    },
+    {
+      "row": [],
+      "col": [
+        "U.S. Pension Benefits",
+        "2017"
+      ],
+      "value": "4.2%"
+    },
+    {
+      "row": [],
+      "col": [
+        "U.S. Pension Benefits",
+        "2016"
+      ],
+      "value": "4.5%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-U.S. Pension Benefits",
+        "2018"
+      ],
+      "value": "2.3%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-U.S. Pension Benefits",
+        "2017"
+      ],
+      "value": "2.4%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-U.S. Pension Benefits",
+        "2016"
+      ],
+      "value": "2.9%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Postretirement Benefits",
+        "2018"
+      ],
+      "value": "3.5%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Postretirement Benefits",
+        "2017"
+      ],
+      "value": "3.9%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Postretirement Benefits",
+        "2016"
+      ],
+      "value": "4.2%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Discount rate used to measure interest cost"
+    },
+    {
+      "row": [],
+      "col": [
+        "U.S. Pension Benefits",
+        "2018"
+      ],
+      "value": "3.2%"
+    },
+    {
+      "row": [],
+      "col": [
+        "U.S. Pension Benefits",
+        "2017"
+      ],
+      "value": "3.3%"
+    },
+    {
+      "row": [],
+      "col": [
+        "U.S. Pension Benefits",
+        "2016"
+      ],
+      "value": "3.4%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-U.S. Pension Benefits",
+        "2018"
+      ],
+      "value": "2.2%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-U.S. Pension Benefits",
+        "2017"
+      ],
+      "value": "2.3%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-U.S. Pension Benefits",
+        "2016"
+      ],
+      "value": "2.8%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Postretirement Benefits",
+        "2018"
+      ],
+      "value": "3.2%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Postretirement Benefits",
+        "2017"
+      ],
+      "value": "3.3%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Postretirement Benefits",
+        "2016"
+      ],
+      "value": "3.3%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Expected rate of return on plan assets"
+    },
+    {
+      "row": [],
+      "col": [
+        "U.S. Pension Benefits",
+        "2018"
+      ],
+      "value": "6.3%"
+    },
+    {
+      "row": [],
+      "col": [
+        "U.S. Pension Benefits",
+        "2017"
+      ],
+      "value": "6.7%"
+    },
+    {
+      "row": [],
+      "col": [
+        "U.S. Pension Benefits",
+        "2016"
+      ],
+      "value": "6.9%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-U.S. Pension Benefits",
+        "2018"
+      ],
+      "value": "5.2%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-U.S. Pension Benefits",
+        "2017"
+      ],
+      "value": "5.9%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-U.S. Pension Benefits",
+        "2016"
+      ],
+      "value": "6.1%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Postretirement Benefits",
+        "2018"
+      ],
+      "value": "7.5%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Postretirement Benefits",
+        "2017"
+      ],
+      "value": "7.5%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Postretirement Benefits",
+        "2016"
+      ],
+      "value": "7.5%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Rate of compensation increase"
+    },
+    {
+      "row": [],
+      "col": [
+        "U.S. Pension Benefits",
+        "2018"
+      ],
+      "value": "4.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "U.S. Pension Benefits",
+        "2017"
+      ],
+      "value": "4.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "U.S. Pension Benefits",
+        "2016"
+      ],
+      "value": "4.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-U.S. Pension Benefits",
+        "2018"
+      ],
+      "value": "4.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-U.S. Pension Benefits",
+        "2017"
+      ],
+      "value": "4.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Non-U.S. Pension Benefits",
+        "2016"
+      ],
+      "value": "3.6%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Postretirement Benefits",
+        "2018"
+      ],
+      "value": "4.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Postretirement Benefits",
+        "2017"
+      ],
+      "value": "4.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Postretirement Benefits",
+        "2016"
+      ],
+      "value": "4.0%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Health care cost trend rates at year-end:"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Health care trend rate assumed for next year"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Postretirement Benefits",
+        "2018"
+      ],
+      "value": "6.1%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Postretirement Benefits",
+        "2017"
+      ],
+      "value": "6.1%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Postretirement Benefits",
+        "2016"
+      ],
+      "value": "6.6%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Rate that the cost trend rate gradually declines to"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Postretirement Benefits",
+        "2018"
+      ],
+      "value": "5.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Postretirement Benefits",
+        "2017"
+      ],
+      "value": "5.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Postretirement Benefits",
+        "2016"
+      ],
+      "value": "5.0%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Year that the cost trend rate reaches ultimate rate"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Postretirement Benefits",
+        "2018"
+      ],
+      "value": "2025"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Postretirement Benefits",
+        "2017"
+      ],
+      "value": "2022"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Postretirement Benefits",
+        "2016"
+      ],
+      "value": "2022"
+    }
+  ]
+}

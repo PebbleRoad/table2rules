@@ -1,0 +1,522 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$(32)",
+    "$(62)",
+    "$16,463",
+    "$17,023",
+    "$19",
+    "$22",
+    "$302",
+    "$377",
+    "$5",
+    "$560",
+    "$595",
+    "$7,972",
+    "$8,274",
+    "(1)",
+    "(10)",
+    "(19)",
+    "(231)",
+    "(241)",
+    "(6)",
+    "(7)",
+    "(in millions)",
+    "1,468",
+    "1,556",
+    "10",
+    "112",
+    "151",
+    "2,830",
+    "2,859",
+    "2013",
+    "2014",
+    "29",
+    "30",
+    "4,424",
+    "4,575",
+    "40",
+    "5",
+    "88",
+    "95",
+    "Commodity Pass-through",
+    "Electrical/Electronic Architecture",
+    "Electronics and Safety",
+    "Eliminations and Other",
+    "FX",
+    "Favorable/(unfavorable)",
+    "Other",
+    "Powertrain Systems",
+    "Thermal Systems",
+    "Total",
+    "Variance Due To:",
+    "Volume, net of contractual price reductions",
+    "Year Ended December 31,",
+    "\u2014"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Electrical/Electronic Architecture"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2014",
+        "(in millions)"
+      ],
+      "value": "$8,274"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2013",
+        "(in millions)"
+      ],
+      "value": "$7,972"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "Favorable/(unfavorable)",
+        "(in millions)"
+      ],
+      "value": "$302"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variance Due To:",
+        "Volume, net of contractual price reductions",
+        "(in millions)"
+      ],
+      "value": "$377"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variance Due To:",
+        "FX",
+        "(in millions)"
+      ],
+      "value": "$(32)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variance Due To:",
+        "Commodity Pass-through",
+        "(in millions)"
+      ],
+      "value": "$(62)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variance Due To:",
+        "Other",
+        "(in millions)"
+      ],
+      "value": "$19"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variance Due To:",
+        "Total",
+        "(in millions)"
+      ],
+      "value": "$302"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Powertrain Systems"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2014",
+        "(in millions)"
+      ],
+      "value": "4,575"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2013",
+        "(in millions)"
+      ],
+      "value": "4,424"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "Favorable/(unfavorable)",
+        "(in millions)"
+      ],
+      "value": "151"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variance Due To:",
+        "Volume, net of contractual price reductions",
+        "(in millions)"
+      ],
+      "value": "112"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variance Due To:",
+        "FX",
+        "(in millions)"
+      ],
+      "value": "40"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variance Due To:",
+        "Commodity Pass-through",
+        "(in millions)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variance Due To:",
+        "Other",
+        "(in millions)"
+      ],
+      "value": "(1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variance Due To:",
+        "Total",
+        "(in millions)"
+      ],
+      "value": "151"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Electronics and Safety"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2014",
+        "(in millions)"
+      ],
+      "value": "2,859"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2013",
+        "(in millions)"
+      ],
+      "value": "2,830"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "Favorable/(unfavorable)",
+        "(in millions)"
+      ],
+      "value": "29"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variance Due To:",
+        "Volume, net of contractual price reductions",
+        "(in millions)"
+      ],
+      "value": "30"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variance Due To:",
+        "FX",
+        "(in millions)"
+      ],
+      "value": "5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variance Due To:",
+        "Commodity Pass-through",
+        "(in millions)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variance Due To:",
+        "Other",
+        "(in millions)"
+      ],
+      "value": "(6)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variance Due To:",
+        "Total",
+        "(in millions)"
+      ],
+      "value": "29"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Thermal Systems"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2014",
+        "(in millions)"
+      ],
+      "value": "1,556"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2013",
+        "(in millions)"
+      ],
+      "value": "1,468"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "Favorable/(unfavorable)",
+        "(in millions)"
+      ],
+      "value": "88"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variance Due To:",
+        "Volume, net of contractual price reductions",
+        "(in millions)"
+      ],
+      "value": "95"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variance Due To:",
+        "FX",
+        "(in millions)"
+      ],
+      "value": "(7)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variance Due To:",
+        "Commodity Pass-through",
+        "(in millions)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variance Due To:",
+        "Other",
+        "(in millions)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variance Due To:",
+        "Total",
+        "(in millions)"
+      ],
+      "value": "88"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Eliminations and Other"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2014",
+        "(in millions)"
+      ],
+      "value": "(241)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2013",
+        "(in millions)"
+      ],
+      "value": "(231)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "Favorable/(unfavorable)",
+        "(in millions)"
+      ],
+      "value": "(10)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variance Due To:",
+        "Volume, net of contractual price reductions",
+        "(in millions)"
+      ],
+      "value": "(19)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variance Due To:",
+        "FX",
+        "(in millions)"
+      ],
+      "value": "(1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variance Due To:",
+        "Commodity Pass-through",
+        "(in millions)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variance Due To:",
+        "Other",
+        "(in millions)"
+      ],
+      "value": "10"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variance Due To:",
+        "Total",
+        "(in millions)"
+      ],
+      "value": "(10)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2014",
+        "(in millions)"
+      ],
+      "value": "$17,023"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2013",
+        "(in millions)"
+      ],
+      "value": "$16,463"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "Favorable/(unfavorable)",
+        "(in millions)"
+      ],
+      "value": "$560"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variance Due To:",
+        "Volume, net of contractual price reductions",
+        "(in millions)"
+      ],
+      "value": "$595"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variance Due To:",
+        "FX",
+        "(in millions)"
+      ],
+      "value": "$5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variance Due To:",
+        "Commodity Pass-through",
+        "(in millions)"
+      ],
+      "value": "$(62)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variance Due To:",
+        "Other",
+        "(in millions)"
+      ],
+      "value": "$22"
+    },
+    {
+      "row": [],
+      "col": [
+        "Variance Due To:",
+        "Total",
+        "(in millions)"
+      ],
+      "value": "$560"
+    }
+  ]
+}

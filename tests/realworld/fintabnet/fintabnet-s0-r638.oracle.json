@@ -1,0 +1,590 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$(1,430)",
+    "$(1,930)",
+    "$(227)",
+    "$(248)",
+    "$211",
+    "$227",
+    "$8,086",
+    "$8,387",
+    "(1)",
+    "(10)",
+    "(2)",
+    "(226)",
+    "(240)",
+    "(259)",
+    "(329)",
+    "(93)",
+    "(in millions)",
+    "1",
+    "108",
+    "12",
+    "146",
+    "15",
+    "191",
+    "2016",
+    "2017",
+    "207",
+    "208",
+    "227",
+    "23",
+    "248",
+    "3",
+    "322",
+    "39",
+    "4",
+    "40",
+    "427",
+    "519",
+    "6,404",
+    "6,457",
+    "621",
+    "66",
+    "7",
+    "7,598",
+    "742",
+    "8",
+    "8,387",
+    "9",
+    "9,028",
+    "91",
+    "Actual return on plan assets",
+    "Actuarial losses (gains)",
+    "Benefit obligation at December 31,",
+    "Benefit obligation at January 1,",
+    "Benefits paid",
+    "Currency",
+    "Employee contributions",
+    "Employer contributions",
+    "Fair value of plan assets at December 31,",
+    "Fair value of plan assets at January 1,",
+    "Interest cost",
+    "Net pension and postretirement liability recognized at December 31,",
+    "Other",
+    "Pension (1)",
+    "Postretirement",
+    "Service cost",
+    "Settlement and curtailment",
+    "\u2014"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "(in millions)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension (1)"
+      ],
+      "value": "2017"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension (1)"
+      ],
+      "value": "2016"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement"
+      ],
+      "value": "2017"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement"
+      ],
+      "value": "2016"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Benefit obligation at January 1,"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension (1)"
+      ],
+      "value": "$8,387"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension (1)"
+      ],
+      "value": "$8,086"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement"
+      ],
+      "value": "$227"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement"
+      ],
+      "value": "$211"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Service cost"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension (1)"
+      ],
+      "value": "208"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension (1)"
+      ],
+      "value": "207"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Interest cost"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension (1)"
+      ],
+      "value": "108"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension (1)"
+      ],
+      "value": "146"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement"
+      ],
+      "value": "8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement"
+      ],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Benefits paid"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension (1)"
+      ],
+      "value": "(226)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension (1)"
+      ],
+      "value": "(240)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement"
+      ],
+      "value": "(10)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement"
+      ],
+      "value": "(10)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Settlement and curtailment"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension (1)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension (1)"
+      ],
+      "value": "(1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Actuarial losses (gains)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension (1)"
+      ],
+      "value": "(93)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension (1)"
+      ],
+      "value": "427"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement"
+      ],
+      "value": "12"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement"
+      ],
+      "value": "15"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Currency"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension (1)"
+      ],
+      "value": "621"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension (1)"
+      ],
+      "value": "(329)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement"
+      ],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement"
+      ],
+      "value": "(2)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Other"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension (1)"
+      ],
+      "value": "23"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension (1)"
+      ],
+      "value": "91"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement"
+      ],
+      "value": "1"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Benefit obligation at December 31,"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension (1)"
+      ],
+      "value": "9,028"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension (1)"
+      ],
+      "value": "8,387"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement"
+      ],
+      "value": "248"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement"
+      ],
+      "value": "227"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Fair value of plan assets at January 1,"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension (1)"
+      ],
+      "value": "6,457"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension (1)"
+      ],
+      "value": "6,404"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Actual return on plan assets"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension (1)"
+      ],
+      "value": "742"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension (1)"
+      ],
+      "value": "322"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Employer contributions"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension (1)"
+      ],
+      "value": "66"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension (1)"
+      ],
+      "value": "191"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Employee contributions"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension (1)"
+      ],
+      "value": "40"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension (1)"
+      ],
+      "value": "39"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Benefits paid"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension (1)"
+      ],
+      "value": "(226)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension (1)"
+      ],
+      "value": "(240)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Settlement and curtailment"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension (1)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension (1)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Currency"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension (1)"
+      ],
+      "value": "519"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension (1)"
+      ],
+      "value": "(259)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Fair value of plan assets at December 31,"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension (1)"
+      ],
+      "value": "7,598"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension (1)"
+      ],
+      "value": "6,457"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Net pension and postretirement liability recognized at December 31,"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension (1)"
+      ],
+      "value": "$(1,430)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension (1)"
+      ],
+      "value": "$(1,930)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement"
+      ],
+      "value": "$(248)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement"
+      ],
+      "value": "$(227)"
+    }
+  ]
+}

@@ -1,0 +1,350 @@
+<!-- source: FinTabNet s0-r249 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="3">
+   U.S. Pension Benefits
+  </td>
+<td colspan="3">
+   Non-U.S. Pension Benefits
+  </td>
+<td colspan="3">
+   Other Postretirement Benefits
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   2018
+  </td>
+<td>
+   2017
+  </td>
+<td>
+   2016
+  </td>
+<td>
+   2018
+  </td>
+<td>
+   2017
+  </td>
+<td>
+   2016
+  </td>
+<td>
+   2018
+  </td>
+<td>
+   2017
+  </td>
+<td>
+   2016
+  </td>
+</tr>
+<tr>
+<td>
+   Weighted-average assumptions used to determine benefit obligations, end of year:
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Discount rate
+  </td>
+<td>
+   4.2%
+  </td>
+<td>
+   3.5%
+  </td>
+<td>
+   4.0%
+  </td>
+<td>
+   2.5%
+  </td>
+<td>
+   2.4%
+  </td>
+<td>
+   2.5%
+  </td>
+<td>
+   4.2%
+  </td>
+<td>
+   3.6%
+  </td>
+<td>
+   4.0%
+  </td>
+</tr>
+<tr>
+<td>
+   Rate of compensation increase
+  </td>
+<td>
+   4.0%
+  </td>
+<td>
+   4.0%
+  </td>
+<td>
+   4.0%
+  </td>
+<td>
+   3.0%
+  </td>
+<td>
+   4.0%
+  </td>
+<td>
+   4.0%
+  </td>
+<td>
+   4.0%
+  </td>
+<td>
+   4.0%
+  </td>
+<td>
+   4.0%
+  </td>
+</tr>
+<tr>
+<td>
+   Weighted-average assumptions used to determine net cost:
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Discount rate used to measure service cost
+  </td>
+<td>
+   3.7%
+  </td>
+<td>
+   4.2%
+  </td>
+<td>
+   4.5%
+  </td>
+<td>
+   2.3%
+  </td>
+<td>
+   2.4%
+  </td>
+<td>
+   2.9%
+  </td>
+<td>
+   3.5%
+  </td>
+<td>
+   3.9%
+  </td>
+<td>
+   4.2%
+  </td>
+</tr>
+<tr>
+<td>
+   Discount rate used to measure interest cost
+  </td>
+<td>
+   3.2%
+  </td>
+<td>
+   3.3%
+  </td>
+<td>
+   3.4%
+  </td>
+<td>
+   2.2%
+  </td>
+<td>
+   2.3%
+  </td>
+<td>
+   2.8%
+  </td>
+<td>
+   3.2%
+  </td>
+<td>
+   3.3%
+  </td>
+<td>
+   3.3%
+  </td>
+</tr>
+<tr>
+<td>
+   Expected rate of return on plan assets
+  </td>
+<td>
+   6.3%
+  </td>
+<td>
+   6.7%
+  </td>
+<td>
+   6.9%
+  </td>
+<td>
+   5.2%
+  </td>
+<td>
+   5.9%
+  </td>
+<td>
+   6.1%
+  </td>
+<td>
+   7.5%
+  </td>
+<td>
+   7.5%
+  </td>
+<td>
+   7.5%
+  </td>
+</tr>
+<tr>
+<td>
+   Rate of compensation increase
+  </td>
+<td>
+   4.0%
+  </td>
+<td>
+   4.0%
+  </td>
+<td>
+   4.0%
+  </td>
+<td>
+   4.0%
+  </td>
+<td>
+   4.0%
+  </td>
+<td>
+   3.6%
+  </td>
+<td>
+   4.0%
+  </td>
+<td>
+   4.0%
+  </td>
+<td>
+   4.0%
+  </td>
+</tr>
+<tr>
+<td>
+   Health care cost trend rates at year-end:
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td colspan="7">
+   Health care trend rate assumed for next year
+  </td>
+<td>
+   6.1%
+  </td>
+<td>
+   6.1%
+  </td>
+<td>
+   6.6%
+  </td>
+</tr>
+<tr>
+<td colspan="7">
+   Rate that the cost trend rate gradually declines to
+  </td>
+<td>
+   5.0%
+  </td>
+<td>
+   5.0%
+  </td>
+<td>
+   5.0%
+  </td>
+</tr>
+<tr>
+<td colspan="7">
+   Year that the cost trend rate reaches ultimate rate
+  </td>
+<td>
+   2025
+  </td>
+<td>
+   2022
+  </td>
+<td>
+   2022
+  </td>
+</tr>
+</table>

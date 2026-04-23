@@ -1,0 +1,776 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$1,194",
+    "$1,276,720",
+    "$1,627,980",
+    "$105,900",
+    "$132,544",
+    "$138,185",
+    "$141,067",
+    "$141,253",
+    "$157,289",
+    "$2,235,592",
+    "$209,200",
+    "$225,653",
+    "$250,912",
+    "$264,869",
+    "$266,459",
+    "$290,041",
+    "$306,009",
+    "$4,883",
+    "$420,842",
+    "$433,049",
+    "$485,986",
+    "$494,548",
+    "$79,087",
+    "$84,615",
+    "(1,590)",
+    "(15,968)",
+    "(2,882)",
+    "(219,527)",
+    "(22,542)",
+    "(22,821)",
+    "(332,128)",
+    "(4,102)",
+    "(5,528)",
+    "(84,531)",
+    "(Dollars in thousands)",
+    "1,194",
+    "1,228",
+    "1,295,852",
+    "11,061",
+    "110,002",
+    "131",
+    "141,067",
+    "141,122",
+    "15,599",
+    "161,543",
+    "250,912",
+    "266,459",
+    "3,689",
+    "306,009",
+    "313,714",
+    "342,901",
+    "42,964",
+    "437",
+    "59,954",
+    "65,161",
+    "79,087",
+    "893,711",
+    "Accumulated impairment losses",
+    "All other",
+    "Anesthesia North America",
+    "Asia",
+    "Balance as of December 31, 2015",
+    "Balance as of December 31, 2016",
+    "Balance as of December 31, 2017",
+    "EMEA",
+    "Goodwill",
+    "Goodwill related to acquisitions",
+    "Interventional North America",
+    "OEM",
+    "Surgical North America",
+    "Total",
+    "Translation adjustment",
+    "Translation and other adjustments",
+    "Vascular North America",
+    "\u2014"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Balance as of December 31, 2015"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Goodwill"
+    },
+    {
+      "row": [],
+      "col": [
+        "Vascular North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "$485,986"
+    },
+    {
+      "row": [],
+      "col": [
+        "Interventional North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "$84,615"
+    },
+    {
+      "row": [],
+      "col": [
+        "Anesthesia North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "$225,653"
+    },
+    {
+      "row": [],
+      "col": [
+        "Surgical North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "$250,912"
+    },
+    {
+      "row": [],
+      "col": [
+        "EMEA",
+        "(Dollars in thousands)"
+      ],
+      "value": "$306,009"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asia",
+        "(Dollars in thousands)"
+      ],
+      "value": "$141,067"
+    },
+    {
+      "row": [],
+      "col": [
+        "OEM",
+        "(Dollars in thousands)"
+      ],
+      "value": "$1,194"
+    },
+    {
+      "row": [],
+      "col": [
+        "All other",
+        "(Dollars in thousands)"
+      ],
+      "value": "$132,544"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "(Dollars in thousands)"
+      ],
+      "value": "$1,627,980"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Accumulated impairment losses"
+    },
+    {
+      "row": [],
+      "col": [
+        "Vascular North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "(219,527)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Interventional North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "(5,528)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Anesthesia North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "(84,531)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Surgical North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "EMEA",
+        "(Dollars in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asia",
+        "(Dollars in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "OEM",
+        "(Dollars in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "All other",
+        "(Dollars in thousands)"
+      ],
+      "value": "(22,542)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "(Dollars in thousands)"
+      ],
+      "value": "(332,128)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Vascular North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "266,459"
+    },
+    {
+      "row": [],
+      "col": [
+        "Interventional North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "79,087"
+    },
+    {
+      "row": [],
+      "col": [
+        "Anesthesia North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "141,122"
+    },
+    {
+      "row": [],
+      "col": [
+        "Surgical North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "250,912"
+    },
+    {
+      "row": [],
+      "col": [
+        "EMEA",
+        "(Dollars in thousands)"
+      ],
+      "value": "306,009"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asia",
+        "(Dollars in thousands)"
+      ],
+      "value": "141,067"
+    },
+    {
+      "row": [],
+      "col": [
+        "OEM",
+        "(Dollars in thousands)"
+      ],
+      "value": "1,194"
+    },
+    {
+      "row": [],
+      "col": [
+        "All other",
+        "(Dollars in thousands)"
+      ],
+      "value": "110,002"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "(Dollars in thousands)"
+      ],
+      "value": "1,295,852"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Goodwill related to acquisitions"
+    },
+    {
+      "row": [],
+      "col": [
+        "Vascular North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Interventional North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Anesthesia North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Surgical North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "EMEA",
+        "(Dollars in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asia",
+        "(Dollars in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "OEM",
+        "(Dollars in thousands)"
+      ],
+      "value": "3,689"
+    },
+    {
+      "row": [],
+      "col": [
+        "All other",
+        "(Dollars in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "(Dollars in thousands)"
+      ],
+      "value": "3,689"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Translation adjustment"
+    },
+    {
+      "row": [],
+      "col": [
+        "Vascular North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Interventional North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Anesthesia North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "131"
+    },
+    {
+      "row": [],
+      "col": [
+        "Surgical North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "EMEA",
+        "(Dollars in thousands)"
+      ],
+      "value": "(15,968)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asia",
+        "(Dollars in thousands)"
+      ],
+      "value": "(2,882)"
+    },
+    {
+      "row": [],
+      "col": [
+        "OEM",
+        "(Dollars in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "All other",
+        "(Dollars in thousands)"
+      ],
+      "value": "(4,102)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "(Dollars in thousands)"
+      ],
+      "value": "(22,821)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Balance as of December 31, 2016"
+    },
+    {
+      "row": [],
+      "col": [
+        "Vascular North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "$266,459"
+    },
+    {
+      "row": [],
+      "col": [
+        "Interventional North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "$79,087"
+    },
+    {
+      "row": [],
+      "col": [
+        "Anesthesia North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "$141,253"
+    },
+    {
+      "row": [],
+      "col": [
+        "Surgical North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "$250,912"
+    },
+    {
+      "row": [],
+      "col": [
+        "EMEA",
+        "(Dollars in thousands)"
+      ],
+      "value": "$290,041"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asia",
+        "(Dollars in thousands)"
+      ],
+      "value": "$138,185"
+    },
+    {
+      "row": [],
+      "col": [
+        "OEM",
+        "(Dollars in thousands)"
+      ],
+      "value": "$4,883"
+    },
+    {
+      "row": [],
+      "col": [
+        "All other",
+        "(Dollars in thousands)"
+      ],
+      "value": "$105,900"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "(Dollars in thousands)"
+      ],
+      "value": "$1,276,720"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Goodwill related to acquisitions"
+    },
+    {
+      "row": [],
+      "col": [
+        "Vascular North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Interventional North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "342,901"
+    },
+    {
+      "row": [],
+      "col": [
+        "Anesthesia North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "15,599"
+    },
+    {
+      "row": [],
+      "col": [
+        "Surgical North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "EMEA",
+        "(Dollars in thousands)"
+      ],
+      "value": "161,543"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asia",
+        "(Dollars in thousands)"
+      ],
+      "value": "59,954"
+    },
+    {
+      "row": [],
+      "col": [
+        "OEM",
+        "(Dollars in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "All other",
+        "(Dollars in thousands)"
+      ],
+      "value": "313,714"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "(Dollars in thousands)"
+      ],
+      "value": "893,711"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Translation and other adjustments"
+    },
+    {
+      "row": [],
+      "col": [
+        "Vascular North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "(1,590)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Interventional North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "11,061"
+    },
+    {
+      "row": [],
+      "col": [
+        "Anesthesia North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "437"
+    },
+    {
+      "row": [],
+      "col": [
+        "Surgical North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "EMEA",
+        "(Dollars in thousands)"
+      ],
+      "value": "42,964"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asia",
+        "(Dollars in thousands)"
+      ],
+      "value": "11,061"
+    },
+    {
+      "row": [],
+      "col": [
+        "OEM",
+        "(Dollars in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "All other",
+        "(Dollars in thousands)"
+      ],
+      "value": "1,228"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "(Dollars in thousands)"
+      ],
+      "value": "65,161"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Balance as of December 31, 2017"
+    },
+    {
+      "row": [],
+      "col": [
+        "Vascular North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "$264,869"
+    },
+    {
+      "row": [],
+      "col": [
+        "Interventional North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "$433,049"
+    },
+    {
+      "row": [],
+      "col": [
+        "Anesthesia North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "$157,289"
+    },
+    {
+      "row": [],
+      "col": [
+        "Surgical North America",
+        "(Dollars in thousands)"
+      ],
+      "value": "$250,912"
+    },
+    {
+      "row": [],
+      "col": [
+        "EMEA",
+        "(Dollars in thousands)"
+      ],
+      "value": "$494,548"
+    },
+    {
+      "row": [],
+      "col": [
+        "Asia",
+        "(Dollars in thousands)"
+      ],
+      "value": "$209,200"
+    },
+    {
+      "row": [],
+      "col": [
+        "OEM",
+        "(Dollars in thousands)"
+      ],
+      "value": "$4,883"
+    },
+    {
+      "row": [],
+      "col": [
+        "All other",
+        "(Dollars in thousands)"
+      ],
+      "value": "$420,842"
+    },
+    {
+      "row": [],
+      "col": [
+        "Total",
+        "(Dollars in thousands)"
+      ],
+      "value": "$2,235,592"
+    }
+  ]
+}

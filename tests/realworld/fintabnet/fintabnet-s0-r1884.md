@@ -1,0 +1,145 @@
+<!-- source: FinTabNet s0-r1884 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="4">
+   Years Ended December 31,
+  </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="2">
+   2014
+  </td>
+<td colspan="2">
+   2013
+  </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   Dollars inMillions
+  </td>
+<td>
+   Percentage ofTotal Net Sales
+  </td>
+<td>
+   Dollars inMillions
+  </td>
+<td>
+   Percentage ofTotal Net Sales
+  </td>
+<td>
+   Dollar Change
+  </td>
+<td>
+   PercentChange
+   <sup>
+    (1)
+   </sup>
+</td>
+</tr>
+<tr>
+<td>
+   Corporate
+  </td>
+<td>
+   $6,475.5
+  </td>
+<td>
+   53.6%
+  </td>
+<td>
+   $5,960.1
+  </td>
+<td>
+   55.3%
+  </td>
+<td>
+   $515.4
+  </td>
+<td>
+   8.6%
+  </td>
+</tr>
+<tr>
+<td>
+   Public
+  </td>
+<td>
+   4,879.4
+  </td>
+<td>
+   40.4
+  </td>
+<td>
+   4,164.5
+  </td>
+<td>
+   38.7
+  </td>
+<td>
+   714.9
+  </td>
+<td>
+   17.2
+  </td>
+</tr>
+<tr>
+<td>
+   Other
+  </td>
+<td>
+   719.6
+  </td>
+<td>
+   6.0
+  </td>
+<td>
+   644.0
+  </td>
+<td>
+   6.0
+  </td>
+<td>
+   75.6
+  </td>
+<td>
+   11.7
+  </td>
+</tr>
+<tr>
+<td>
+   Total net sales
+  </td>
+<td>
+   $12,074.5
+  </td>
+<td>
+   100.0%
+  </td>
+<td>
+   $10,768.6
+  </td>
+<td>
+   100.0%
+  </td>
+<td>
+   $1,305.9
+  </td>
+<td>
+   12.1%
+  </td>
+</tr>
+</table>

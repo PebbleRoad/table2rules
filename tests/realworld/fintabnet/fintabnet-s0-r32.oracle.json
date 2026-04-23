@@ -1,0 +1,359 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$",
+    "$101,652",
+    "$158,570",
+    "$189,964",
+    "$197,881",
+    "$205,250",
+    "$244,561",
+    "$291,616",
+    "$330,661",
+    "$403,131",
+    "$432,313",
+    "$46,680",
+    "$622,277",
+    "%",
+    "1,874",
+    "104%",
+    "107%",
+    "12%",
+    "123,294",
+    "152,814",
+    "24%",
+    "29,520",
+    "3%",
+    "31%",
+    "44%",
+    "49,648",
+    "5,324",
+    "59,134",
+    "64,458",
+    "65%",
+    "66,332",
+    "67%",
+    "7,198",
+    "73,646",
+    "79,168",
+    "88%",
+    "9%",
+    "December 31, 2014",
+    "December 31, 2015",
+    "New development",
+    "One Year Change",
+    "Recurring capital expenditures, tenant improvements and lease commissions",
+    "Renovations, redevelopments and other capital improvements",
+    "Total",
+    "Two Year Change",
+    "Year Ended",
+    "Year Ended December 31, 2016"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "New development"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended",
+        "December 31, 2014"
+      ],
+      "value": "$197,881"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended",
+        "December 31, 2015"
+      ],
+      "value": "$244,561"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "$"
+      ],
+      "value": "$46,680"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "%"
+      ],
+      "value": "24%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2016"
+      ],
+      "value": "$403,131"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "$"
+      ],
+      "value": "$158,570"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "%"
+      ],
+      "value": "65%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Two Year Change",
+        "$"
+      ],
+      "value": "$205,250"
+    },
+    {
+      "row": [],
+      "col": [
+        "Two Year Change",
+        "%"
+      ],
+      "value": "104%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Recurring capital expenditures, tenant improvements and lease commissions"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended",
+        "December 31, 2014"
+      ],
+      "value": "59,134"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended",
+        "December 31, 2015"
+      ],
+      "value": "64,458"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "$"
+      ],
+      "value": "5,324"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "%"
+      ],
+      "value": "9%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2016"
+      ],
+      "value": "66,332"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "$"
+      ],
+      "value": "1,874"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "%"
+      ],
+      "value": "3%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Two Year Change",
+        "$"
+      ],
+      "value": "7,198"
+    },
+    {
+      "row": [],
+      "col": [
+        "Two Year Change",
+        "%"
+      ],
+      "value": "12%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Renovations, redevelopments and other capital improvements"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended",
+        "December 31, 2014"
+      ],
+      "value": "73,646"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended",
+        "December 31, 2015"
+      ],
+      "value": "123,294"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "$"
+      ],
+      "value": "49,648"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "%"
+      ],
+      "value": "67%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2016"
+      ],
+      "value": "152,814"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "$"
+      ],
+      "value": "29,520"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "%"
+      ],
+      "value": "24%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Two Year Change",
+        "$"
+      ],
+      "value": "79,168"
+    },
+    {
+      "row": [],
+      "col": [
+        "Two Year Change",
+        "%"
+      ],
+      "value": "107%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended",
+        "December 31, 2014"
+      ],
+      "value": "$330,661"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended",
+        "December 31, 2015"
+      ],
+      "value": "$432,313"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "$"
+      ],
+      "value": "$101,652"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "%"
+      ],
+      "value": "31%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2016"
+      ],
+      "value": "$622,277"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "$"
+      ],
+      "value": "$189,964"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "%"
+      ],
+      "value": "44%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Two Year Change",
+        "$"
+      ],
+      "value": "$291,616"
+    },
+    {
+      "row": [],
+      "col": [
+        "Two Year Change",
+        "%"
+      ],
+      "value": "88%"
+    }
+  ]
+}

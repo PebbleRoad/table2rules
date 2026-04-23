@@ -1,0 +1,460 @@
+<!-- source: FinTabNet s0-r2127 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="2">
+   Common Stock
+  </td>
+<td colspan="2">
+   Preferred Stock
+  </td>
+<td colspan="2">
+   Treasury Stock
+  </td>
+</tr>
+<tr>
+<td>
+   ($ and shares in millions)
+  </td>
+<td>
+   Value
+  </td>
+<td>
+   Shares
+  </td>
+<td>
+   Value
+  </td>
+<td>
+   Shares
+   <i>
+</i>
+<i>
+    (a)
+   </i>
+<i>
+</i>
+</td>
+<td>
+   Value
+  </td>
+<td>
+   Shares
+  </td>
+</tr>
+<tr>
+<td>
+   Shares at December 31, 2005
+  </td>
+<td>
+   $1,295
+  </td>
+<td>
+   583
+  </td>
+<td>
+   $9
+  </td>
+<td>
+   -
+  </td>
+<td>
+   $1,279
+  </td>
+<td>
+   28
+  </td>
+</tr>
+<tr>
+<td>
+   Shares acquired for treasury
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+<td>
+   82
+  </td>
+<td>
+   2
+  </td>
+</tr>
+<tr>
+<td>
+   Stock-based awards exercised, including shares issued
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+<td>
+   (84)
+  </td>
+<td>
+   (2)
+  </td>
+</tr>
+<tr>
+<td>
+   Restricted stock grants
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+<td>
+   (45)
+  </td>
+<td>
+   (1)
+  </td>
+</tr>
+<tr>
+<td>
+   Shares at December 31, 2006
+  </td>
+<td>
+   $1,295
+  </td>
+<td>
+   583
+  </td>
+<td>
+   $9
+  </td>
+<td>
+   -
+  </td>
+<td>
+   $1,232
+  </td>
+<td>
+   27
+  </td>
+</tr>
+<tr>
+<td>
+   Shares acquired for treasury
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+<td>
+   1,084
+  </td>
+<td>
+   27
+  </td>
+</tr>
+<tr>
+<td>
+   Stock-based awards exercised, including treasury shares issued
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+<td>
+   (86)
+  </td>
+<td>
+   (2)
+  </td>
+</tr>
+<tr>
+<td>
+   Restricted stock grants
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+<td>
+   (59)
+  </td>
+<td>
+   (1)
+  </td>
+</tr>
+<tr>
+<td>
+   Employee stock ownership through benefit plans
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+<td>
+   38
+  </td>
+<td>
+   1
+  </td>
+</tr>
+<tr>
+<td>
+   Shares at December 31, 2007
+  </td>
+<td>
+   $1,295
+  </td>
+<td>
+   583
+  </td>
+<td>
+   $9
+  </td>
+<td>
+   -
+  </td>
+<td>
+   $2,209
+  </td>
+<td>
+   52
+  </td>
+</tr>
+<tr>
+<td>
+   Issuance of preferred shares, Series G
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+<td>
+   1,072
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+</tr>
+<tr>
+<td>
+   Issuance of preferred shares, Series F
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+<td>
+   3,169
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+</tr>
+<tr>
+<td>
+   Redemption of preferred shares, Series D, E
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+<td>
+   (9)
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+</tr>
+<tr>
+<td>
+   Stock-based awards exercised, including treasury shares issued
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+<td>
+   (2)
+  </td>
+<td>
+   -
+  </td>
+</tr>
+<tr>
+<td>
+   Restricted stock grants
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+<td>
+   (136)
+  </td>
+<td>
+   (3)
+  </td>
+</tr>
+<tr>
+<td>
+   Shares issued in business combinations
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+<td>
+   (1,841)
+  </td>
+<td>
+   (43)
+  </td>
+</tr>
+<tr>
+<td>
+   Employee stock ownership through benefit plans
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+<td>
+   (1)
+  </td>
+<td>
+   -
+  </td>
+</tr>
+<tr>
+<td>
+   Shares at December 31, 2008
+  </td>
+<td>
+   $1,295
+  </td>
+<td>
+   583
+  </td>
+<td>
+   $4,241
+  </td>
+<td>
+   -
+  </td>
+<td>
+   $229
+  </td>
+<td>
+   6
+  </td>
+</tr>
+</table>

@@ -1,0 +1,218 @@
+<!-- source: FinTabNet s0-r1508 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="6">
+   Payments due by Period
+  </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   2014
+  </td>
+<td>
+   2015
+  </td>
+<td>
+   2016
+  </td>
+<td>
+   2017
+  </td>
+<td>
+   2018
+  </td>
+<td>
+   2019 and Thereafter
+  </td>
+<td>
+   Total
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="7">
+   (In millions)
+  </td>
+</tr>
+<tr>
+<td>
+   Debt and capital lease obligations
+   <sup>
+    1
+   </sup>
+</td>
+<td>
+   $1,446
+  </td>
+<td>
+   $1,325
+  </td>
+<td>
+   $2,733
+  </td>
+<td>
+   $1,223
+  </td>
+<td>
+   $1,756
+  </td>
+<td>
+   $8,412
+  </td>
+<td>
+   $16,895
+  </td>
+</tr>
+<tr>
+<td>
+   Interest obligations
+   <sup>
+    2
+   </sup>
+</td>
+<td>
+   830
+  </td>
+<td>
+   787
+  </td>
+<td>
+   660
+  </td>
+<td>
+   585
+  </td>
+<td>
+   556
+  </td>
+<td>
+   1,392
+  </td>
+<td>
+   4,810
+  </td>
+</tr>
+<tr>
+<td>
+   Commitments for aircraft and engine purchases and operating leases
+   <sup>
+    3,4
+   </sup>
+</td>
+<td>
+   6,061
+  </td>
+<td>
+   5,459
+  </td>
+<td>
+   5,132
+  </td>
+<td>
+   5,532
+  </td>
+<td>
+   6,387
+  </td>
+<td>
+   23,010
+  </td>
+<td>
+   51,581
+  </td>
+</tr>
+<tr>
+<td>
+   Regional capacity purchase agreements
+   <sup>
+    5
+   </sup>
+</td>
+<td>
+   1,666
+  </td>
+<td>
+   1,678
+  </td>
+<td>
+   1,537
+  </td>
+<td>
+   1,249
+  </td>
+<td>
+   1,061
+  </td>
+<td>
+   5,005
+  </td>
+<td>
+   12,196
+  </td>
+</tr>
+<tr>
+<td>
+   Other purchase obligations and long-term liabilities
+   <sup>
+    6,7
+   </sup>
+</td>
+<td>
+   443
+  </td>
+<td>
+   325
+  </td>
+<td>
+   299
+  </td>
+<td>
+   278
+  </td>
+<td>
+   274
+  </td>
+<td>
+   3,962
+  </td>
+<td>
+   5,581
+  </td>
+</tr>
+<tr>
+<td>
+   Total AAG Contractual Obligations
+   <sup>
+    8
+   </sup>
+</td>
+<td>
+   $10,446
+  </td>
+<td>
+   $9,574
+  </td>
+<td>
+   $10,361
+  </td>
+<td>
+   $8,867
+  </td>
+<td>
+   $10,034
+  </td>
+<td>
+   $41,781
+  </td>
+<td>
+   $91,063
+  </td>
+</tr>
+</table>

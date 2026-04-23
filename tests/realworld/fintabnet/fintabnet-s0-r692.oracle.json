@@ -1,0 +1,399 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$11,169",
+    "$15,758",
+    "$24,458",
+    "$31,268",
+    "$4,054",
+    "$4,358",
+    "$51,162",
+    "$6,792",
+    "$7,098",
+    "$8,743",
+    "(in millions)",
+    "1,044",
+    "1,070",
+    "1,165",
+    "1,258",
+    "1,542",
+    "1,916",
+    "10,360",
+    "147",
+    "154",
+    "176",
+    "2,007",
+    "2,492",
+    "2,629",
+    "2019",
+    "2020-2021",
+    "2022-2023",
+    "2024 andThereafter",
+    "227",
+    "3,562",
+    "346",
+    "354",
+    "4,217",
+    "406",
+    "448",
+    "490",
+    "6,658",
+    "6,846",
+    "633",
+    "644",
+    "772",
+    "78",
+    "842",
+    "902",
+    "95",
+    "Interest on borrowings (2)",
+    "Inventory and production costs",
+    "Long-term debt (1)",
+    "Operating leases (3)",
+    "Other",
+    "Other long-term liabilities (5)",
+    "Payments Due",
+    "Purchase obligations (4) :",
+    "Total"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "(in millions)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due"
+      ],
+      "value": "2019"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due"
+      ],
+      "value": "2020-2021"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due"
+      ],
+      "value": "2022-2023"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due"
+      ],
+      "value": "2024 andThereafter"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Long-term debt (1)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "$31,268"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due"
+      ],
+      "value": "$4,054"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due"
+      ],
+      "value": "$7,098"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due"
+      ],
+      "value": "$4,358"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due"
+      ],
+      "value": "$15,758"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Interest on borrowings (2)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "10,360"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due"
+      ],
+      "value": "902"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due"
+      ],
+      "value": "1,542"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due"
+      ],
+      "value": "1,258"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due"
+      ],
+      "value": "6,658"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Operating leases (3)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "772"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due"
+      ],
+      "value": "147"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due"
+      ],
+      "value": "176"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due"
+      ],
+      "value": "95"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due"
+      ],
+      "value": "354"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Purchase obligations (4) :"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Inventory and production costs"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "4,217"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due"
+      ],
+      "value": "2,492"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due"
+      ],
+      "value": "1,165"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due"
+      ],
+      "value": "406"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due"
+      ],
+      "value": "154"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Other"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "2,629"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due"
+      ],
+      "value": "1,070"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due"
+      ],
+      "value": "842"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due"
+      ],
+      "value": "227"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due"
+      ],
+      "value": "490"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "6,846"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due"
+      ],
+      "value": "3,562"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due"
+      ],
+      "value": "2,007"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due"
+      ],
+      "value": "633"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due"
+      ],
+      "value": "644"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Other long-term liabilities (5)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "1,916"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due"
+      ],
+      "value": "78"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due"
+      ],
+      "value": "346"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due"
+      ],
+      "value": "448"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due"
+      ],
+      "value": "1,044"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "$51,162"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due"
+      ],
+      "value": "$8,743"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due"
+      ],
+      "value": "$11,169"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due"
+      ],
+      "value": "$6,792"
+    },
+    {
+      "row": [],
+      "col": [
+        "Payments Due"
+      ],
+      "value": "$24,458"
+    }
+  ]
+}

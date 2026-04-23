@@ -1,0 +1,358 @@
+<!-- source: FinTabNet s0-r39 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="2">
+   Year Ended
+  </td>
+<td colspan="2">
+   One Year Change
+  </td>
+<td rowspan="2">
+   Year Ended December 31, 2016
+  </td>
+<td colspan="2">
+   One Year Change
+  </td>
+<td colspan="2">
+   Two Year Change
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   December 31, 2014
+  </td>
+<td>
+   December 31, 2015
+  </td>
+<td>
+   Amount%
+  </td>
+<td>
+</td>
+<td>
+   Amount%
+  </td>
+<td>
+</td>
+<td>
+   Amount%
+  </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Net income attributable to common stockholders
+  </td>
+<td>
+   $446,745
+  </td>
+<td>
+   $818,344
+  </td>
+<td>
+   $371,599
+  </td>
+<td>
+   83%
+  </td>
+<td>
+   $1,012,397
+  </td>
+<td>
+   $194,053
+  </td>
+<td>
+   24%
+  </td>
+<td>
+   $565,652
+  </td>
+<td>
+   127%
+  </td>
+</tr>
+<tr>
+<td>
+   Funds from operations attributable to common stockholders
+  </td>
+<td>
+   1,174,081
+  </td>
+<td>
+   1,409,640
+  </td>
+<td>
+   235,559
+  </td>
+<td>
+   20%
+  </td>
+<td>
+   1,593,143
+  </td>
+<td>
+   183,503
+  </td>
+<td>
+   13%
+  </td>
+<td>
+   419,062
+  </td>
+<td>
+   36%
+  </td>
+</tr>
+<tr>
+<td>
+   Adjusted EBITDA
+  </td>
+<td>
+   1,813,241
+  </td>
+<td>
+   2,091,754
+  </td>
+<td>
+   278,513
+  </td>
+<td>
+   15%
+  </td>
+<td>
+   2,246,507
+  </td>
+<td>
+   154,753
+  </td>
+<td>
+   7%
+  </td>
+<td>
+   433,266
+  </td>
+<td>
+   24%
+  </td>
+</tr>
+<tr>
+<td>
+   Net operating income from continuing operations
+  </td>
+<td>
+   1,940,188
+  </td>
+<td>
+   2,237,569
+  </td>
+<td>
+   297,381
+  </td>
+<td>
+   15%
+  </td>
+<td>
+   2,404,177
+  </td>
+<td>
+   166,608
+  </td>
+<td>
+   7%
+  </td>
+<td>
+   463,989
+  </td>
+<td>
+   24%
+  </td>
+</tr>
+<tr>
+<td>
+   Same store NOI
+  </td>
+<td>
+   1,404,158
+  </td>
+<td>
+   1,425,795
+  </td>
+<td>
+   21,637
+  </td>
+<td>
+   2%
+  </td>
+<td>
+   1,445,748
+  </td>
+<td>
+   19,953
+  </td>
+<td>
+   1%
+  </td>
+<td>
+   41,590
+  </td>
+<td>
+   3%
+  </td>
+</tr>
+<tr>
+<td>
+   Per share data (fully diluted):
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Net income attributable to common stockholders
+  </td>
+<td>
+   $1.45
+  </td>
+<td>
+   $2.34
+  </td>
+<td>
+   $0.89
+  </td>
+<td>
+   61%
+  </td>
+<td>
+   $2.81
+  </td>
+<td>
+   $0.47
+  </td>
+<td>
+   20%
+  </td>
+<td>
+   $1.36
+  </td>
+<td>
+   94%
+  </td>
+</tr>
+<tr>
+<td>
+   Funds from operations attributable to common stockholders
+  </td>
+<td>
+   3.82
+  </td>
+<td>
+   4.03
+  </td>
+<td>
+   0.21
+  </td>
+<td>
+   5%
+  </td>
+<td>
+   4.42
+  </td>
+<td>
+   0.39
+  </td>
+<td>
+   10%
+  </td>
+<td>
+   0.60
+  </td>
+<td>
+   16%
+  </td>
+</tr>
+<tr>
+<td>
+   Adjusted interest coverage ratio
+  </td>
+<td>
+   3.73x
+  </td>
+<td>
+   4.20x
+  </td>
+<td>
+   0.47x
+  </td>
+<td>
+   13%
+  </td>
+<td>
+   4.19x
+  </td>
+<td>
+   -0.01x
+  </td>
+<td>
+   0%
+  </td>
+<td>
+   0.46x
+  </td>
+<td>
+   12%
+  </td>
+</tr>
+<tr>
+<td>
+   Adjusted fixed charge coverage ratio
+  </td>
+<td>
+   2.96x
+  </td>
+<td>
+   3.32x
+  </td>
+<td>
+   0.36x
+  </td>
+<td>
+   12%
+  </td>
+<td>
+   3.32x
+  </td>
+<td>
+   0.00x
+  </td>
+<td>
+   0%
+  </td>
+<td>
+   0.36x
+  </td>
+<td>
+   12%
+  </td>
+</tr>
+</table>

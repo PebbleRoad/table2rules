@@ -1,0 +1,245 @@
+<!-- source: FinTabNet s0-r2528 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td>
+   First Quarter
+  </td>
+<td>
+   Second Quarter
+  </td>
+<td>
+   Third Quarter
+  </td>
+<td>
+   Fourth Quarter
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="4">
+   (In thousands, except per share data)
+  </td>
+</tr>
+<tr>
+<td>
+   2006
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Rental income (1)
+  </td>
+<td>
+   $104,964
+  </td>
+<td>
+   $105,533
+  </td>
+<td>
+   $110,511
+  </td>
+<td>
+   $117,193
+  </td>
+</tr>
+<tr>
+<td>
+   Net income
+  </td>
+<td>
+   $31,031
+  </td>
+<td>
+   $38,256
+  </td>
+<td>
+   $24,984
+  </td>
+<td>
+   $24,441
+  </td>
+</tr>
+<tr>
+<td>
+   Net income available for common shareholders
+  </td>
+<td>
+   $28,162
+  </td>
+<td>
+   $35,387
+  </td>
+<td>
+   $22,115
+  </td>
+<td>
+   $17,850
+  </td>
+</tr>
+<tr>
+<td>
+   Earnings per common share — basic
+  </td>
+<td>
+   $0.53
+  </td>
+<td>
+   $0.67
+  </td>
+<td>
+   $0.42
+  </td>
+<td>
+   $0.32
+  </td>
+</tr>
+<tr>
+<td>
+   Earnings per common share — diluted
+  </td>
+<td>
+   $0.53
+  </td>
+<td>
+   $0.66
+  </td>
+<td>
+   $0.41
+  </td>
+<td>
+   $0.32
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   First Quarter
+  </td>
+<td>
+   Second Quarter
+  </td>
+<td>
+   Third Quarter
+  </td>
+<td>
+   Fourth Quarter
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="4">
+   (In thousands, except per share data)
+  </td>
+</tr>
+<tr>
+<td>
+   2005
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Rental income (1)
+  </td>
+<td>
+   $97,783
+  </td>
+<td>
+   $95,762
+  </td>
+<td>
+   $96,772
+  </td>
+<td>
+   $103,231
+  </td>
+</tr>
+<tr>
+<td>
+   Net income
+  </td>
+<td>
+   $23,997
+  </td>
+<td>
+   $24,807
+  </td>
+<td>
+   $30,680
+  </td>
+<td>
+   $35,128
+  </td>
+</tr>
+<tr>
+<td>
+   Net income available for common shareholders
+  </td>
+<td>
+   $21,128
+  </td>
+<td>
+   $21,938
+  </td>
+<td>
+   $27,811
+  </td>
+<td>
+   $32,260
+  </td>
+</tr>
+<tr>
+<td>
+   Earnings per common share — basic
+  </td>
+<td>
+   $0.40
+  </td>
+<td>
+   $0.42
+  </td>
+<td>
+   $0.53
+  </td>
+<td>
+   $0.61
+  </td>
+</tr>
+<tr>
+<td>
+   Earnings per common share — diluted
+  </td>
+<td>
+   $0.40
+  </td>
+<td>
+   $0.41
+  </td>
+<td>
+   $0.52
+  </td>
+<td>
+   $0.61
+  </td>
+</tr>
+</table>

@@ -1,0 +1,233 @@
+<!-- source: FinTabNet s0-r1906 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="2">
+   Year Ended December 31, 2014
+  </td>
+<td colspan="2">
+   Year Ended December 31, 2013
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   Dollars inMillions
+  </td>
+<td>
+   Percentage ofNet Sales
+  </td>
+<td>
+   Dollars inMillions
+  </td>
+<td>
+   Percentage ofNet Sales
+  </td>
+</tr>
+<tr>
+<td>
+   Net sales
+  </td>
+<td>
+   $12,074.5
+  </td>
+<td>
+   100.0%
+  </td>
+<td>
+   $10,768.6
+  </td>
+<td>
+   100.0%
+  </td>
+</tr>
+<tr>
+<td>
+   Cost of sales
+  </td>
+<td>
+   10,153.2
+  </td>
+<td>
+   84.1
+  </td>
+<td>
+   9,008.3
+  </td>
+<td>
+   83.7
+  </td>
+</tr>
+<tr>
+<td>
+   Gross profit
+  </td>
+<td>
+   1,921.3
+  </td>
+<td>
+   15.9
+  </td>
+<td>
+   1,760.3
+  </td>
+<td>
+   16.3
+  </td>
+</tr>
+<tr>
+<td>
+   Selling and administrative expenses
+  </td>
+<td>
+   1,110.3
+  </td>
+<td>
+   9.2
+  </td>
+<td>
+   1,120.9
+  </td>
+<td>
+   10.4
+  </td>
+</tr>
+<tr>
+<td>
+   Advertising expense
+  </td>
+<td>
+   138.0
+  </td>
+<td>
+   1.1
+  </td>
+<td>
+   130.8
+  </td>
+<td>
+   1.2
+  </td>
+</tr>
+<tr>
+<td>
+   Income from operations
+  </td>
+<td>
+   673.0
+  </td>
+<td>
+   5.6
+  </td>
+<td>
+   508.6
+  </td>
+<td>
+   4.7
+  </td>
+</tr>
+<tr>
+<td>
+   Interest expense, net
+  </td>
+<td>
+   (197.3)
+  </td>
+<td>
+   (1.6)
+  </td>
+<td>
+   (250.1)
+  </td>
+<td>
+   (2.3)
+  </td>
+</tr>
+<tr>
+<td>
+   Net loss on extinguishments of long-term debt
+  </td>
+<td>
+   (90.7)
+  </td>
+<td>
+   (0.8)
+  </td>
+<td>
+   (64.0)
+  </td>
+<td>
+   (0.6)
+  </td>
+</tr>
+<tr>
+<td>
+   Other income, net
+  </td>
+<td>
+   2.7
+  </td>
+<td>
+   —
+  </td>
+<td>
+   1.0
+  </td>
+<td>
+   —
+  </td>
+</tr>
+<tr>
+<td>
+   Income before income taxes
+  </td>
+<td>
+   387.7
+  </td>
+<td>
+   3.2
+  </td>
+<td>
+   195.5
+  </td>
+<td>
+   1.8
+  </td>
+</tr>
+<tr>
+<td>
+   Income tax expense
+  </td>
+<td>
+   (142.8)
+  </td>
+<td>
+   (1.2)
+  </td>
+<td>
+   (62.7)
+  </td>
+<td>
+   (0.6)
+  </td>
+</tr>
+<tr>
+<td>
+   Net income
+  </td>
+<td>
+   $244.9
+  </td>
+<td>
+   2.0%
+  </td>
+<td>
+   $132.8
+  </td>
+<td>
+   1.2%
+  </td>
+</tr>
+</table>

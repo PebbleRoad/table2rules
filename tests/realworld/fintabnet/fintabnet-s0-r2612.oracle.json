@@ -1,0 +1,234 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$0.767",
+    "$1.106",
+    "$1.753",
+    "$2.125",
+    "$2.284",
+    "$2.320",
+    "$2.335",
+    "$2.370",
+    "$2.440",
+    "$2.460",
+    "$\u2014",
+    "(1)",
+    "2005",
+    "2006",
+    "2007",
+    "5.417% Series 1 Cumulative Convertible Preferred (2)",
+    "8.5% Series B Cumulative Redeemable Preferred (3)",
+    "Common shares",
+    "Declared",
+    "Paid",
+    "Year Ended December 31,"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Common shares"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2007",
+        "Declared"
+      ],
+      "value": "$2.370"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2007",
+        "Paid"
+      ],
+      "value": "$2.335"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2006",
+        "Declared"
+      ],
+      "value": "$2.460"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2006"
+      ],
+      "value": "(1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2006",
+        "Paid"
+      ],
+      "value": "$2.440"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,"
+      ],
+      "value": "(1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2005",
+        "Declared"
+      ],
+      "value": "$2.370"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2005"
+      ],
+      "value": "(1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2005",
+        "Paid"
+      ],
+      "value": "$2.320"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "(1)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "5.417% Series 1 Cumulative Convertible Preferred (2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2007",
+        "Declared"
+      ],
+      "value": "$1.106"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2007",
+        "Paid"
+      ],
+      "value": "$0.767"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2006",
+        "Declared"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2006",
+        "Paid"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2005",
+        "Declared"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2005",
+        "Paid"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "8.5% Series B Cumulative Redeemable Preferred (3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2007",
+        "Declared"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2007",
+        "Paid"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2006",
+        "Declared"
+      ],
+      "value": "$1.753"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2006",
+        "Paid"
+      ],
+      "value": "$2.284"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2005",
+        "Declared"
+      ],
+      "value": "$2.125"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31,",
+        "2005",
+        "Paid"
+      ],
+      "value": "$2.125"
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+<!-- source: FinTabNet s0-r58 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="3">
+   Fiscal Years Ended
+  </td>
+<td colspan="3">
+   Percentage of Revenues
+  </td>
+</tr>
+<tr>
+<td>
+   (in millions)
+  </td>
+<td>
+   March 31, 2018
+  </td>
+<td>
+   March 31, 2017
+   <sup>
+    (1)
+   </sup>
+</td>
+<td>
+   April 1, 2016
+   <sup>
+    (1)
+   </sup>
+</td>
+<td>
+   2018
+  </td>
+<td>
+   2017
+   <sup>
+    (1)
+   </sup>
+</td>
+<td>
+   2016
+   <sup>
+    (1)
+   </sup>
+</td>
+</tr>
+<tr>
+<td>
+   Costs of services (excludes depreciation and amortization and restructuring costs)
+  </td>
+<td>
+   $17,944
+  </td>
+<td>
+   $5,545
+  </td>
+<td>
+   $5,185
+  </td>
+<td>
+   73.0%
+  </td>
+<td>
+   72.9%
+  </td>
+<td>
+   73.0%
+  </td>
+</tr>
+<tr>
+<td>
+   Selling, general and administrative (excludes depreciation and amortization and restructuring costs)
+  </td>
+<td>
+   2,010
+  </td>
+<td>
+   1,279
+  </td>
+<td>
+   1,059
+  </td>
+<td>
+   8.2
+  </td>
+<td>
+   16.8
+  </td>
+<td>
+   14.9
+  </td>
+</tr>
+<tr>
+<td>
+   Depreciation and amortization
+  </td>
+<td>
+   1,964
+  </td>
+<td>
+   647
+  </td>
+<td>
+   658
+  </td>
+<td>
+   8.0
+  </td>
+<td>
+   8.5
+  </td>
+<td>
+   9.3
+  </td>
+</tr>
+<tr>
+<td>
+   Restructuring costs
+  </td>
+<td>
+   803
+  </td>
+<td>
+   238
+  </td>
+<td>
+   23
+  </td>
+<td>
+   3.3
+  </td>
+<td>
+   3.1
+  </td>
+<td>
+   0.3
+  </td>
+</tr>
+<tr>
+<td>
+   Interest expense, net
+  </td>
+<td>
+   246
+  </td>
+<td>
+   82
+  </td>
+<td>
+   85
+  </td>
+<td>
+   1.0
+  </td>
+<td>
+   1.1
+  </td>
+<td>
+   1.2
+  </td>
+</tr>
+<tr>
+<td>
+   Debt extinguishment costs
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   95
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   1.3
+  </td>
+</tr>
+<tr>
+<td>
+   Other income, net
+  </td>
+<td>
+   (82)
+  </td>
+<td>
+   (10)
+  </td>
+<td>
+   (9)
+  </td>
+<td>
+   (0.3)
+  </td>
+<td>
+   (0.1)
+  </td>
+<td>
+   (0.1)
+  </td>
+</tr>
+<tr>
+<td>
+   Total costs and expenses
+  </td>
+<td>
+   $22,885
+  </td>
+<td>
+   $7,781
+  </td>
+<td>
+   $7,096
+  </td>
+<td>
+   93.2%
+  </td>
+<td>
+   102.3%
+  </td>
+<td>
+   99.9%
+  </td>
+</tr>
+</table>

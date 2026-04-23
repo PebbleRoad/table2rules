@@ -1,0 +1,318 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$(1,022)",
+    "$(1,026)",
+    "$(1,809)",
+    "$(1,890)",
+    "$(653)",
+    "$(849)",
+    "$185",
+    "$3",
+    "$43",
+    "$\u2014",
+    "(1,022)",
+    "(1,055)",
+    "(1,766)",
+    "(1,846)",
+    "(10)",
+    "(3)",
+    "(4)",
+    "(46)",
+    "(47)",
+    "(828)",
+    "(846)",
+    "(Millions)",
+    "2014",
+    "2015",
+    "Accrued benefit cost",
+    "Amounts recognized in the Consolidated Balance Sheet as of Dec. 31,",
+    "Benefits",
+    "Current liabilities",
+    "Ending balance",
+    "International",
+    "Non-current assets",
+    "Non-current liabilities",
+    "Postretirement",
+    "Qualified and Non-qualified Pension Benefits",
+    "United States"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "(Millions)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Qualified and Non-qualified Pension Benefits",
+        "United States"
+      ],
+      "value": "2015"
+    },
+    {
+      "row": [],
+      "col": [
+        "Qualified and Non-qualified Pension Benefits",
+        "United States"
+      ],
+      "value": "2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Qualified and Non-qualified Pension Benefits",
+        "International"
+      ],
+      "value": "2015"
+    },
+    {
+      "row": [],
+      "col": [
+        "Qualified and Non-qualified Pension Benefits",
+        "International"
+      ],
+      "value": "2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement",
+        "Benefits"
+      ],
+      "value": "2015"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement",
+        "Benefits"
+      ],
+      "value": "2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Amounts recognized in the Consolidated Balance Sheet as of Dec. 31,"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Non-current assets"
+    },
+    {
+      "row": [],
+      "col": [
+        "Qualified and Non-qualified Pension Benefits",
+        "United States"
+      ],
+      "value": "$3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Qualified and Non-qualified Pension Benefits",
+        "United States"
+      ],
+      "value": "$3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Qualified and Non-qualified Pension Benefits",
+        "International"
+      ],
+      "value": "$185"
+    },
+    {
+      "row": [],
+      "col": [
+        "Qualified and Non-qualified Pension Benefits",
+        "International"
+      ],
+      "value": "$43"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement",
+        "Benefits"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement",
+        "Benefits"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Accrued benefit cost"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Current liabilities"
+    },
+    {
+      "row": [],
+      "col": [
+        "Qualified and Non-qualified Pension Benefits",
+        "United States"
+      ],
+      "value": "(47)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Qualified and Non-qualified Pension Benefits",
+        "United States"
+      ],
+      "value": "(46)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Qualified and Non-qualified Pension Benefits",
+        "International"
+      ],
+      "value": "(10)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Qualified and Non-qualified Pension Benefits",
+        "International"
+      ],
+      "value": "(10)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement",
+        "Benefits"
+      ],
+      "value": "(3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement",
+        "Benefits"
+      ],
+      "value": "(4)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Non-current liabilities"
+    },
+    {
+      "row": [],
+      "col": [
+        "Qualified and Non-qualified Pension Benefits",
+        "United States"
+      ],
+      "value": "(1,846)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Qualified and Non-qualified Pension Benefits",
+        "United States"
+      ],
+      "value": "(1,766)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Qualified and Non-qualified Pension Benefits",
+        "International"
+      ],
+      "value": "(828)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Qualified and Non-qualified Pension Benefits",
+        "International"
+      ],
+      "value": "(1,055)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement",
+        "Benefits"
+      ],
+      "value": "(846)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement",
+        "Benefits"
+      ],
+      "value": "(1,022)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Ending balance"
+    },
+    {
+      "row": [],
+      "col": [
+        "Qualified and Non-qualified Pension Benefits",
+        "United States"
+      ],
+      "value": "$(1,890)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Qualified and Non-qualified Pension Benefits",
+        "United States"
+      ],
+      "value": "$(1,809)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Qualified and Non-qualified Pension Benefits",
+        "International"
+      ],
+      "value": "$(653)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Qualified and Non-qualified Pension Benefits",
+        "International"
+      ],
+      "value": "$(1,022)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement",
+        "Benefits"
+      ],
+      "value": "$(849)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement",
+        "Benefits"
+      ],
+      "value": "$(1,026)"
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+<!-- source: FinTabNet s0-r3277 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="2">
+   2013
+  </td>
+<td colspan="2">
+   2012
+  </td>
+<td colspan="2">
+   2011
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   Number of Awards
+  </td>
+<td>
+   Weighted Average  Grant Date  Fair Value
+  </td>
+<td>
+   Number of Awards
+  </td>
+<td>
+   Weighted Average  Grant Date  Fair Value
+  </td>
+<td>
+   Number of Awards
+  </td>
+<td>
+   Weighted Average  Grant Date  Fair Value
+  </td>
+</tr>
+<tr>
+<td>
+   Nonvested balance —
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   As of January 1
+  </td>
+<td>
+   3,261,562
+  </td>
+<td>
+   $85.17
+  </td>
+<td>
+   4,858,972
+  </td>
+<td>
+   $73.02
+  </td>
+<td>
+   4,812,657
+  </td>
+<td>
+   $68.75
+  </td>
+</tr>
+<tr>
+<td>
+   Granted
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Annual
+  </td>
+<td>
+   946,774
+  </td>
+<td>
+   101.57
+  </td>
+<td>
+   968,522
+  </td>
+<td>
+   87.92
+  </td>
+<td>
+   889,448
+  </td>
+<td>
+   89.46
+  </td>
+</tr>
+<tr>
+<td>
+   Other
+  </td>
+<td>
+   44,401
+  </td>
+<td>
+   111.19
+  </td>
+<td>
+   99,337
+  </td>
+<td>
+   85.07
+  </td>
+<td>
+   351,624
+  </td>
+<td>
+   87.07
+  </td>
+</tr>
+<tr>
+<td>
+   Vested
+  </td>
+<td>
+   (1,100,095)
+  </td>
+<td>
+   79.93
+  </td>
+<td>
+   (2,594,468)
+  </td>
+<td>
+   63.51
+  </td>
+<td>
+   (1,077,816)
+  </td>
+<td>
+   72.21
+  </td>
+</tr>
+<tr>
+<td>
+   Forfeited
+  </td>
+<td>
+   (47,281)
+  </td>
+<td>
+   90.82
+  </td>
+<td>
+   (70,801)
+  </td>
+<td>
+   82.65
+  </td>
+<td>
+   (116,941)
+  </td>
+<td>
+   72.01
+  </td>
+</tr>
+<tr>
+<td>
+   As of December 31
+  </td>
+<td>
+   3,105,361
+  </td>
+<td>
+   $92.31
+  </td>
+<td>
+   3,261,562
+  </td>
+<td>
+   $85.17
+  </td>
+<td>
+   4,858,972
+  </td>
+<td>
+   $73.02
+  </td>
+</tr>
+</table>

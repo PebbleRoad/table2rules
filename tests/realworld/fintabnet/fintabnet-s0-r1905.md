@@ -1,0 +1,225 @@
+<!-- source: FinTabNet s0-r1905 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="2">
+   Year EndedDecember 31, 2015
+  </td>
+<td colspan="2">
+   Year EndedDecember 31, 2014
+  </td>
+<td colspan="2">
+   Year EndedDecember 31, 2013
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   Dollars inMillions
+  </td>
+<td>
+   Percentageof Total NetSales
+  </td>
+<td>
+   Dollars inMillions
+  </td>
+<td>
+   Percentageof Total NetSales
+  </td>
+<td>
+   Dollars inMillions
+  </td>
+<td>
+   Percentageof Total NetSales
+  </td>
+</tr>
+<tr>
+<td>
+   Notebooks/Mobile Devices
+  </td>
+<td>
+   $2,539.4
+  </td>
+<td>
+   19.6%
+  </td>
+<td>
+   $2,354.0
+  </td>
+<td>
+   19.5%
+  </td>
+<td>
+   $1,696.5
+  </td>
+<td>
+   15.8%
+  </td>
+</tr>
+<tr>
+<td>
+   Netcomm Products
+  </td>
+<td>
+   1,914.9
+  </td>
+<td>
+   14.7
+  </td>
+<td>
+   1,613.3
+  </td>
+<td>
+   13.4
+  </td>
+<td>
+   1,482.7
+  </td>
+<td>
+   13.8
+  </td>
+</tr>
+<tr>
+<td>
+   Enterprise and Data Storage (Including Drives)
+  </td>
+<td>
+   1,065.2
+  </td>
+<td>
+   8.2
+  </td>
+<td>
+   1,024.2
+  </td>
+<td>
+   8.5
+  </td>
+<td>
+   999.3
+  </td>
+<td>
+   9.3
+  </td>
+</tr>
+<tr>
+<td>
+   Other Hardware
+  </td>
+<td>
+   4,756.4
+  </td>
+<td>
+   36.6
+  </td>
+<td>
+   4,551.1
+  </td>
+<td>
+   37.6
+  </td>
+<td>
+   4,184.1
+  </td>
+<td>
+   38.8
+  </td>
+</tr>
+<tr>
+<td>
+   Software
+  </td>
+<td>
+   2,163.6
+  </td>
+<td>
+   16.7
+  </td>
+<td>
+   2,064.1
+  </td>
+<td>
+   17.1
+  </td>
+<td>
+   1,982.4
+  </td>
+<td>
+   18.4
+  </td>
+</tr>
+<tr>
+<td>
+   Services
+  </td>
+<td>
+   478.0
+  </td>
+<td>
+   3.7
+  </td>
+<td>
+   371.9
+  </td>
+<td>
+   3.1
+  </td>
+<td>
+   332.7
+  </td>
+<td>
+   3.1
+  </td>
+</tr>
+<tr>
+<td>
+   Other
+   <sup>
+    (1)
+   </sup>
+</td>
+<td>
+   71.2
+  </td>
+<td>
+   0.5
+  </td>
+<td>
+   95.9
+  </td>
+<td>
+   0.8
+  </td>
+<td>
+   90.9
+  </td>
+<td>
+   0.8
+  </td>
+</tr>
+<tr>
+<td>
+   Total Net sales
+  </td>
+<td>
+   $12,988.7
+  </td>
+<td>
+   100.0%
+  </td>
+<td>
+   $12,074.5
+  </td>
+<td>
+   100.0%
+  </td>
+<td>
+   $10,768.6
+  </td>
+<td>
+   100.0%
+  </td>
+</tr>
+</table>

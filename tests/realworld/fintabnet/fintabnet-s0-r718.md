@@ -1,0 +1,358 @@
+<!-- source: FinTabNet s0-r718 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="5">
+   Successor
+  </td>
+<td colspan="2">
+   Predecessor(H. J. Heinz Company)
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   December 30,2017(52 weeks)
+  </td>
+<td>
+   December 31,2016(52 weeks)
+   <sup>
+    (a)
+   </sup>
+</td>
+<td>
+   January 3,2016(53 weeks)
+  </td>
+<td>
+   December 28,2014(52 weeks)
+  </td>
+<td>
+   February 8 - December 29,2013(29 weeks)
+  </td>
+<td>
+   April 29 - June 7,2013(6 weeks)
+  </td>
+<td>
+   April 28,2013(52 weeks)
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="7">
+   (in millions, except per share data)
+  </td>
+</tr>
+<tr>
+<td>
+   Period Ended:
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Net sales
+   <sup>
+    (b)(d)
+   </sup>
+</td>
+<td>
+   $26,232
+  </td>
+<td>
+   $26,487
+  </td>
+<td>
+   $18,338
+  </td>
+<td>
+   $10,922
+  </td>
+<td>
+   $6,240
+  </td>
+<td>
+   $1,113
+  </td>
+<td>
+   $11,529
+  </td>
+</tr>
+<tr>
+<td>
+   Income/(loss) from continuing operations
+   <sup>
+    (b)
+   </sup>
+</td>
+<td>
+   10,990
+  </td>
+<td>
+   3,642
+  </td>
+<td>
+   647
+  </td>
+<td>
+   672
+  </td>
+<td>
+   (66)
+  </td>
+<td>
+   (191)
+  </td>
+<td>
+   1,102
+  </td>
+</tr>
+<tr>
+<td>
+   Income/(loss) from continuing operations attributable to common shareholders
+   <sup>
+    (b)
+   </sup>
+</td>
+<td>
+   10,999
+  </td>
+<td>
+   3,452
+  </td>
+<td>
+   (266)
+  </td>
+<td>
+   (63)
+  </td>
+<td>
+   (1,118)
+  </td>
+<td>
+   (194)
+  </td>
+<td>
+   1,088
+  </td>
+</tr>
+<tr>
+<td>
+   Income/(loss) from continuing operations per common share
+   <sup>
+    (b)
+   </sup>
+   :
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Basic
+  </td>
+<td>
+   9.03
+  </td>
+<td>
+   2.84
+  </td>
+<td>
+   (0.34)
+  </td>
+<td>
+   (0.17)
+  </td>
+<td>
+   (2.97)
+  </td>
+<td>
+   (0.60)
+  </td>
+<td>
+   3.39
+  </td>
+</tr>
+<tr>
+<td>
+   Diluted
+  </td>
+<td>
+   8.95
+  </td>
+<td>
+   2.81
+  </td>
+<td>
+   (0.34)
+  </td>
+<td>
+   (0.17)
+  </td>
+<td>
+   (2.97)
+  </td>
+<td>
+   (0.60)
+  </td>
+<td>
+   3.37
+  </td>
+</tr>
+<tr>
+<td>
+   As of:
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Total assets
+   <sup>
+    (d)
+   </sup>
+</td>
+<td>
+   120,232
+  </td>
+<td>
+   120,480
+  </td>
+<td>
+   122,973
+  </td>
+<td>
+   36,571
+  </td>
+<td>
+   38,681
+  </td>
+<td>
+   NA
+  </td>
+<td>
+   12,920
+  </td>
+</tr>
+<tr>
+<td>
+   Long-term debt
+   <sup>
+    (c)(d)
+   </sup>
+</td>
+<td>
+   28,333
+  </td>
+<td>
+   29,713
+  </td>
+<td>
+   25,151
+  </td>
+<td>
+   13,358
+  </td>
+<td>
+   14,326
+  </td>
+<td>
+   NA
+  </td>
+<td>
+   3,830
+  </td>
+</tr>
+<tr>
+<td>
+   Redeemable preferred stock
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   8,320
+  </td>
+<td>
+   8,320
+  </td>
+<td>
+   8,320
+  </td>
+<td>
+   NA
+  </td>
+<td>
+   —
+  </td>
+</tr>
+<tr>
+<td>
+   Cash dividends per common share
+  </td>
+<td>
+   2.45
+  </td>
+<td>
+   2.35
+  </td>
+<td>
+   1.70
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   2.06
+  </td>
+</tr>
+</table>

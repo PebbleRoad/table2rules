@@ -1,0 +1,271 @@
+<!-- source: FinTabNet s0-r999 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td>
+   Weighted-Average
+  </td>
+<td>
+</td>
+<td>
+   Weighted-Average
+  </td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   Exercise Price
+  </td>
+<td>
+   Number of Shares (In Thousands)
+  </td>
+<td>
+   Fair Value RSUs
+  </td>
+<td>
+   Number of Shares (In Thousands)
+  </td>
+</tr>
+<tr>
+<td>
+   Outstanding at December 31, 2005
+  </td>
+<td>
+   $19.29
+  </td>
+<td>
+   6,354
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+</tr>
+<tr>
+<td>
+   Granted
+  </td>
+<td>
+   $48.54
+  </td>
+<td>
+   2,413
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+</tr>
+<tr>
+<td>
+   Exercised
+  </td>
+<td>
+   $12.59
+  </td>
+<td>
+   (994)
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+</tr>
+<tr>
+<td>
+   Forfeited
+  </td>
+<td>
+   $28.57
+  </td>
+<td>
+   (47)
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+</tr>
+<tr>
+<td>
+   Outstanding at December 30, 2006
+  </td>
+<td>
+   $29.24
+  </td>
+<td>
+   7,726
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+</tr>
+<tr>
+<td>
+   Granted
+  </td>
+<td>
+   $84.61
+  </td>
+<td>
+   2,864
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+</tr>
+<tr>
+<td>
+   Exercised
+  </td>
+<td>
+   $18.29
+  </td>
+<td>
+   (934)
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+</tr>
+<tr>
+<td>
+   Forfeited
+  </td>
+<td>
+   $38.11
+  </td>
+<td>
+   (125)
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+</tr>
+<tr>
+<td>
+   Outstanding at December 29, 2007
+  </td>
+<td>
+   $46.82
+  </td>
+<td>
+   9,531
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+</tr>
+<tr>
+<td>
+   Granted
+  </td>
+<td>
+   $51.00
+  </td>
+<td>
+   1,470
+  </td>
+<td>
+   $19.59
+  </td>
+<td>
+   1,044
+  </td>
+</tr>
+<tr>
+<td>
+   Exercised
+  </td>
+<td>
+   $22.35
+  </td>
+<td>
+   (226)
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+</tr>
+<tr>
+<td>
+   Forfeited
+  </td>
+<td>
+   $53.89
+  </td>
+<td>
+   (249)
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+</tr>
+<tr>
+<td>
+   Outstanding at December 27, 2008
+  </td>
+<td>
+   $47.76
+  </td>
+<td>
+   10,526
+  </td>
+<td>
+   $19.59
+  </td>
+<td>
+   1,044
+  </td>
+</tr>
+<tr>
+<td>
+   Exercisable at December 27, 2008
+  </td>
+<td>
+   $33.27
+  </td>
+<td>
+   4,656
+  </td>
+<td>
+   -
+  </td>
+<td>
+   -
+  </td>
+</tr>
+</table>

@@ -1,0 +1,614 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$(1,578)",
+    "$(932)",
+    "$(992)",
+    "$\u2014",
+    "(132)",
+    "(173)",
+    "(200)",
+    "(207)",
+    "(209)",
+    "(268)",
+    "(295)",
+    "(338)",
+    "(34)",
+    "(38)",
+    "(40)",
+    "(42)",
+    "(5)",
+    "(577)",
+    "(6)",
+    "(61)",
+    "(7)",
+    "(74)",
+    "(75)",
+    "(78)",
+    "(81)",
+    "(85)",
+    "(87)",
+    "(9)",
+    "1,500",
+    "120",
+    "131",
+    "158",
+    "195",
+    "2",
+    "226",
+    "23",
+    "32",
+    "336",
+    "38",
+    "4",
+    "40",
+    "426",
+    "46",
+    "47",
+    "506",
+    "545",
+    "6",
+    "65",
+    "801",
+    "9",
+    "923",
+    "95",
+    "97",
+    "Before Tax Amount",
+    "December 28,2014(52 weeks)",
+    "December 31,2016(52 weeks)",
+    "Foreign currency translation adjustments",
+    "January 3,2016(53 weeks)",
+    "Net actuarial gains/(losses) arising during the period",
+    "Net deferred gains/(losses) on cash flow hedges",
+    "Net deferred gains/(losses) on net investment hedges",
+    "Net deferred losses/(gains) on cash flow hedges reclassified to net income",
+    "Net of Tax Amount",
+    "Prior service credits/(costs) arising during the period",
+    "Reclassification of net postemployment benefit losses/(gains)",
+    "Tax",
+    "\u2014"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Foreign currency translation adjustments"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 31,2016(52 weeks)",
+        "Before Tax Amount"
+      ],
+      "value": "$(992)"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 31,2016(52 weeks)",
+        "Tax"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 31,2016(52 weeks)",
+        "Net of Tax Amount"
+      ],
+      "value": "$(992)"
+    },
+    {
+      "row": [],
+      "col": [
+        "January 3,2016(53 weeks)",
+        "Before Tax Amount"
+      ],
+      "value": "$(1,578)"
+    },
+    {
+      "row": [],
+      "col": [
+        "January 3,2016(53 weeks)",
+        "Tax"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "January 3,2016(53 weeks)",
+        "Net of Tax Amount"
+      ],
+      "value": "$(1,578)"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 28,2014(52 weeks)",
+        "Before Tax Amount"
+      ],
+      "value": "$(932)"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 28,2014(52 weeks)",
+        "Tax"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 28,2014(52 weeks)",
+        "Net of Tax Amount"
+      ],
+      "value": "$(932)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Net deferred gains/(losses) on net investment hedges"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 31,2016(52 weeks)",
+        "Before Tax Amount"
+      ],
+      "value": "426"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 31,2016(52 weeks)",
+        "Tax"
+      ],
+      "value": "(200)"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 31,2016(52 weeks)",
+        "Net of Tax Amount"
+      ],
+      "value": "226"
+    },
+    {
+      "row": [],
+      "col": [
+        "January 3,2016(53 weeks)",
+        "Before Tax Amount"
+      ],
+      "value": "801"
+    },
+    {
+      "row": [],
+      "col": [
+        "January 3,2016(53 weeks)",
+        "Tax"
+      ],
+      "value": "(295)"
+    },
+    {
+      "row": [],
+      "col": [
+        "January 3,2016(53 weeks)",
+        "Net of Tax Amount"
+      ],
+      "value": "506"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 28,2014(52 weeks)",
+        "Before Tax Amount"
+      ],
+      "value": "545"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 28,2014(52 weeks)",
+        "Tax"
+      ],
+      "value": "(209)"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 28,2014(52 weeks)",
+        "Net of Tax Amount"
+      ],
+      "value": "336"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Net actuarial gains/(losses) arising during the period"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 31,2016(52 weeks)",
+        "Before Tax Amount"
+      ],
+      "value": "(78)"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 31,2016(52 weeks)",
+        "Tax"
+      ],
+      "value": "38"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 31,2016(52 weeks)",
+        "Net of Tax Amount"
+      ],
+      "value": "(40)"
+    },
+    {
+      "row": [],
+      "col": [
+        "January 3,2016(53 weeks)",
+        "Before Tax Amount"
+      ],
+      "value": "65"
+    },
+    {
+      "row": [],
+      "col": [
+        "January 3,2016(53 weeks)",
+        "Tax"
+      ],
+      "value": "(42)"
+    },
+    {
+      "row": [],
+      "col": [
+        "January 3,2016(53 weeks)",
+        "Net of Tax Amount"
+      ],
+      "value": "23"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 28,2014(52 weeks)",
+        "Before Tax Amount"
+      ],
+      "value": "(74)"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 28,2014(52 weeks)",
+        "Tax"
+      ],
+      "value": "40"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 28,2014(52 weeks)",
+        "Net of Tax Amount"
+      ],
+      "value": "(34)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Prior service credits/(costs) arising during the period"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 31,2016(52 weeks)",
+        "Before Tax Amount"
+      ],
+      "value": "158"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 31,2016(52 weeks)",
+        "Tax"
+      ],
+      "value": "(61)"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 31,2016(52 weeks)",
+        "Net of Tax Amount"
+      ],
+      "value": "97"
+    },
+    {
+      "row": [],
+      "col": [
+        "January 3,2016(53 weeks)",
+        "Before Tax Amount"
+      ],
+      "value": "1,500"
+    },
+    {
+      "row": [],
+      "col": [
+        "January 3,2016(53 weeks)",
+        "Tax"
+      ],
+      "value": "(577)"
+    },
+    {
+      "row": [],
+      "col": [
+        "January 3,2016(53 weeks)",
+        "Net of Tax Amount"
+      ],
+      "value": "923"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 28,2014(52 weeks)",
+        "Before Tax Amount"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 28,2014(52 weeks)",
+        "Tax"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 28,2014(52 weeks)",
+        "Net of Tax Amount"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Reclassification of net postemployment benefit losses/(gains)"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 31,2016(52 weeks)",
+        "Before Tax Amount"
+      ],
+      "value": "(338)"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 31,2016(52 weeks)",
+        "Tax"
+      ],
+      "value": "131"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 31,2016(52 weeks)",
+        "Net of Tax Amount"
+      ],
+      "value": "(207)"
+    },
+    {
+      "row": [],
+      "col": [
+        "January 3,2016(53 weeks)",
+        "Before Tax Amount"
+      ],
+      "value": "(132)"
+    },
+    {
+      "row": [],
+      "col": [
+        "January 3,2016(53 weeks)",
+        "Tax"
+      ],
+      "value": "47"
+    },
+    {
+      "row": [],
+      "col": [
+        "January 3,2016(53 weeks)",
+        "Net of Tax Amount"
+      ],
+      "value": "(85)"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 28,2014(52 weeks)",
+        "Before Tax Amount"
+      ],
+      "value": "(9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 28,2014(52 weeks)",
+        "Tax"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 28,2014(52 weeks)",
+        "Net of Tax Amount"
+      ],
+      "value": "(7)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Net deferred gains/(losses) on cash flow hedges"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 31,2016(52 weeks)",
+        "Before Tax Amount"
+      ],
+      "value": "40"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 31,2016(52 weeks)",
+        "Tax"
+      ],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 31,2016(52 weeks)",
+        "Net of Tax Amount"
+      ],
+      "value": "46"
+    },
+    {
+      "row": [],
+      "col": [
+        "January 3,2016(53 weeks)",
+        "Before Tax Amount"
+      ],
+      "value": "(38)"
+    },
+    {
+      "row": [],
+      "col": [
+        "January 3,2016(53 weeks)",
+        "Tax"
+      ],
+      "value": "32"
+    },
+    {
+      "row": [],
+      "col": [
+        "January 3,2016(53 weeks)",
+        "Net of Tax Amount"
+      ],
+      "value": "(6)"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 28,2014(52 weeks)",
+        "Before Tax Amount"
+      ],
+      "value": "(268)"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 28,2014(52 weeks)",
+        "Tax"
+      ],
+      "value": "95"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 28,2014(52 weeks)",
+        "Net of Tax Amount"
+      ],
+      "value": "(173)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Net deferred losses/(gains) on cash flow hedges reclassified to net income"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 31,2016(52 weeks)",
+        "Before Tax Amount"
+      ],
+      "value": "(81)"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 31,2016(52 weeks)",
+        "Tax"
+      ],
+      "value": "(6)"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 31,2016(52 weeks)",
+        "Net of Tax Amount"
+      ],
+      "value": "(87)"
+    },
+    {
+      "row": [],
+      "col": [
+        "January 3,2016(53 weeks)",
+        "Before Tax Amount"
+      ],
+      "value": "195"
+    },
+    {
+      "row": [],
+      "col": [
+        "January 3,2016(53 weeks)",
+        "Tax"
+      ],
+      "value": "(75)"
+    },
+    {
+      "row": [],
+      "col": [
+        "January 3,2016(53 weeks)",
+        "Net of Tax Amount"
+      ],
+      "value": "120"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 28,2014(52 weeks)",
+        "Before Tax Amount"
+      ],
+      "value": "(5)"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 28,2014(52 weeks)",
+        "Tax"
+      ],
+      "value": "9"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 28,2014(52 weeks)",
+        "Net of Tax Amount"
+      ],
+      "value": "4"
+    }
+  ]
+}

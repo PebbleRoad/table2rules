@@ -1,0 +1,309 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "% Change in NII (FTE)",
+    "(1.39)",
+    "(1.43)",
+    "(2.41)",
+    "(2.49)",
+    "(4.00)",
+    "(6.00)",
+    "+100",
+    "+200",
+    "-",
+    "-25",
+    "1.12",
+    "1.16",
+    "12 Months",
+    "13-24 Months",
+    "2.05%",
+    "2.19",
+    "2014",
+    "2015",
+    "3.87",
+    "4.18",
+    "5.93",
+    "6.49",
+    "ALCO Policy Limits",
+    "Change in Interest Rates (bps)"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Change in Interest Rates (bps)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "% Change in NII (FTE)"
+      ],
+      "value": "12 Months"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "% Change in NII (FTE)"
+      ],
+      "value": "13-24 Months"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "ALCO Policy Limits"
+      ],
+      "value": "12 Months"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "ALCO Policy Limits"
+      ],
+      "value": "13-24 Months"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "% Change in NII (FTE)"
+      ],
+      "value": "12 Months"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "% Change in NII (FTE)"
+      ],
+      "value": "13-24 Months"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "ALCO Policy Limits"
+      ],
+      "value": "12 Months"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "ALCO Policy Limits"
+      ],
+      "value": "13-24 Months"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "+200"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "% Change in NII (FTE)"
+      ],
+      "value": "2.05%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "% Change in NII (FTE)"
+      ],
+      "value": "5.93"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "ALCO Policy Limits"
+      ],
+      "value": "(4.00)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "ALCO Policy Limits"
+      ],
+      "value": "(6.00)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "% Change in NII (FTE)"
+      ],
+      "value": "2.19"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "% Change in NII (FTE)"
+      ],
+      "value": "6.49"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "ALCO Policy Limits"
+      ],
+      "value": "(4.00)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "ALCO Policy Limits"
+      ],
+      "value": "(6.00)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "+100"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "% Change in NII (FTE)"
+      ],
+      "value": "1.12"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "% Change in NII (FTE)"
+      ],
+      "value": "3.87"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "ALCO Policy Limits"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "ALCO Policy Limits"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "% Change in NII (FTE)"
+      ],
+      "value": "1.16"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "% Change in NII (FTE)"
+      ],
+      "value": "4.18"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "ALCO Policy Limits"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "ALCO Policy Limits"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "-25"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "% Change in NII (FTE)"
+      ],
+      "value": "(1.39)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "% Change in NII (FTE)"
+      ],
+      "value": "(2.49)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "ALCO Policy Limits"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "2015",
+        "ALCO Policy Limits"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "% Change in NII (FTE)"
+      ],
+      "value": "(1.43)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "% Change in NII (FTE)"
+      ],
+      "value": "(2.41)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "ALCO Policy Limits"
+      ],
+      "value": "-"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "ALCO Policy Limits"
+      ],
+      "value": "-"
+    }
+  ]
+}

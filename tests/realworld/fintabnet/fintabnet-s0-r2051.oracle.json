@@ -1,0 +1,781 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$101.83",
+    "$108.71",
+    "$109.83",
+    "$110.75",
+    "$118.64",
+    "$121.20",
+    "$127.52",
+    "$127.65",
+    "$136.58",
+    "$136.95",
+    "$139.51",
+    "$148.53",
+    "$164.02",
+    "$175.53",
+    "$178.16",
+    "$187.40",
+    "$229.90",
+    "$259.41",
+    "$359.92",
+    "$76.15",
+    "$76.70",
+    "$88.80",
+    "$94.99",
+    "$99.88",
+    "(0.1)%",
+    "0.1%",
+    "0.3%",
+    "0.5%",
+    "0.6%",
+    "0.8%",
+    "1.1%",
+    "1.9%",
+    "2.7%",
+    "2.9%",
+    "2015",
+    "3.5%",
+    "3.8%",
+    "4.2%",
+    "4.3%",
+    "4.5%",
+    "4.6%",
+    "4.7%",
+    "4.8%",
+    "4.9%",
+    "5.0%",
+    "5.2%",
+    "5.3%",
+    "5.4%",
+    "5.5%",
+    "5.6%",
+    "6.1%",
+    "70.6%",
+    "72.1%",
+    "72.6%",
+    "73.1%",
+    "73.9%",
+    "74.4%",
+    "74.8%",
+    "77.5%",
+    "79.4%",
+    "Autograph Collection Hotels",
+    "Average Daily Rate",
+    "Change vs. 2014",
+    "Composite North American - All",
+    "Composite North American Full-Service (1)",
+    "Composite North American Limited-Service (2)",
+    "Courtyard",
+    "Fairfield Inn & Suites",
+    "Legacy-Marriott",
+    "Marriott Hotels",
+    "Occupancy",
+    "Renaissance Hotels",
+    "Residence Inn",
+    "RevPAR",
+    "SpringHill Suites",
+    "The Ritz-Carlton",
+    "TownePlace Suites",
+    "pts."
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Legacy-Marriott"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR"
+      ],
+      "value": "2015"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR"
+      ],
+      "value": "Change vs. 2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy"
+      ],
+      "value": "2015"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy"
+      ],
+      "value": "Change vs. 2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate"
+      ],
+      "value": "2015"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate"
+      ],
+      "value": "Change vs. 2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Marriott Hotels"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR"
+      ],
+      "value": "$127.52"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR"
+      ],
+      "value": "5.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy"
+      ],
+      "value": "72.6%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy"
+      ],
+      "value": "0.6%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy"
+      ],
+      "value": "pts."
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate"
+      ],
+      "value": "$175.53"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate"
+      ],
+      "value": "4.2%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Renaissance Hotels"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR"
+      ],
+      "value": "$121.20"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR"
+      ],
+      "value": "5.4%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy"
+      ],
+      "value": "73.9%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy"
+      ],
+      "value": "0.8%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy"
+      ],
+      "value": "pts."
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate"
+      ],
+      "value": "$164.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate"
+      ],
+      "value": "4.3%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Autograph Collection Hotels"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR"
+      ],
+      "value": "$178.16"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR"
+      ],
+      "value": "3.5%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy"
+      ],
+      "value": "77.5%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy"
+      ],
+      "value": "1.1%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy"
+      ],
+      "value": "pts."
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate"
+      ],
+      "value": "$229.90"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate"
+      ],
+      "value": "1.9%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "The Ritz-Carlton"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR"
+      ],
+      "value": "$259.41"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR"
+      ],
+      "value": "2.7%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy"
+      ],
+      "value": "72.1%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy"
+      ],
+      "value": "(0.1)%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy"
+      ],
+      "value": "pts."
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate"
+      ],
+      "value": "$359.92"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate"
+      ],
+      "value": "2.9%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Composite North American Full-Service (1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR"
+      ],
+      "value": "$136.95"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR"
+      ],
+      "value": "4.6%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy"
+      ],
+      "value": "73.1%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy"
+      ],
+      "value": "0.6%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy"
+      ],
+      "value": "pts."
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate"
+      ],
+      "value": "$187.40"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate"
+      ],
+      "value": "3.8%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Courtyard"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR"
+      ],
+      "value": "$99.88"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR"
+      ],
+      "value": "6.1%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy"
+      ],
+      "value": "73.1%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy"
+      ],
+      "value": "0.8%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy"
+      ],
+      "value": "pts."
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate"
+      ],
+      "value": "$136.58"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate"
+      ],
+      "value": "5.0%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Fairfield Inn & Suites"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR"
+      ],
+      "value": "$76.70"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR"
+      ],
+      "value": "4.7%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy"
+      ],
+      "value": "70.6%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy"
+      ],
+      "value": "0.3%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy"
+      ],
+      "value": "pts."
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate"
+      ],
+      "value": "$108.71"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate"
+      ],
+      "value": "4.2%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "SpringHill Suites"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR"
+      ],
+      "value": "$88.80"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR"
+      ],
+      "value": "5.2%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy"
+      ],
+      "value": "74.8%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy"
+      ],
+      "value": "0.3%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy"
+      ],
+      "value": "pts."
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate"
+      ],
+      "value": "$118.64"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate"
+      ],
+      "value": "4.8%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Residence Inn"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR"
+      ],
+      "value": "$110.75"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR"
+      ],
+      "value": "5.5%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy"
+      ],
+      "value": "79.4%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy"
+      ],
+      "value": "0.1%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy"
+      ],
+      "value": "pts."
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate"
+      ],
+      "value": "$139.51"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate"
+      ],
+      "value": "5.3%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "TownePlace Suites"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR"
+      ],
+      "value": "$76.15"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR"
+      ],
+      "value": "5.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy"
+      ],
+      "value": "74.8%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy"
+      ],
+      "value": "0.3%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy"
+      ],
+      "value": "pts."
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate"
+      ],
+      "value": "$101.83"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate"
+      ],
+      "value": "4.6%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Composite North American Limited-Service (2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR"
+      ],
+      "value": "$94.99"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR"
+      ],
+      "value": "5.6%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy"
+      ],
+      "value": "74.4%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy"
+      ],
+      "value": "0.5%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy"
+      ],
+      "value": "pts."
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate"
+      ],
+      "value": "$127.65"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate"
+      ],
+      "value": "4.9%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Composite North American - All"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR"
+      ],
+      "value": "$109.83"
+    },
+    {
+      "row": [],
+      "col": [
+        "RevPAR"
+      ],
+      "value": "5.2%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy"
+      ],
+      "value": "73.9%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy"
+      ],
+      "value": "0.5%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Occupancy"
+      ],
+      "value": "pts."
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate"
+      ],
+      "value": "$148.53"
+    },
+    {
+      "row": [],
+      "col": [
+        "Average Daily Rate"
+      ],
+      "value": "4.5%"
+    }
+  ]
+}

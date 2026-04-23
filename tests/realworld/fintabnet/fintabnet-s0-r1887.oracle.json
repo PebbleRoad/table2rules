@@ -1,0 +1,488 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$1,462.8",
+    "$1,698.4",
+    "$10,128.2",
+    "$10,768.6",
+    "$12,074.5",
+    "$2,352.3",
+    "0.7",
+    "1,024.3",
+    "1,351.5",
+    "1,486.3",
+    "1,615.9",
+    "1,877.7",
+    "1,993.1",
+    "1.0",
+    "100.0%",
+    "13.3",
+    "13.4",
+    "13.8",
+    "14.4%",
+    "15.8%",
+    "17.2",
+    "18.5",
+    "19.5%",
+    "2,076.7",
+    "2.8",
+    "285.0",
+    "3.1",
+    "332.7",
+    "37.6",
+    "371.4",
+    "38.8",
+    "4,075.7",
+    "4,178.5",
+    "4,549.2",
+    "40.3",
+    "8.5",
+    "80.4",
+    "84.7",
+    "9.3",
+    "9.7",
+    "94.0",
+    "981.5",
+    "999.2",
+    "Dollars inMillions",
+    "Enterprise and Data Storage (Including Drives)",
+    "NetComm Products",
+    "Notebooks/Mobile Devices",
+    "Other (3)",
+    "Other Hardware",
+    "Percentageof Total Net Sales",
+    "Services",
+    "Software (2)",
+    "Total net sales",
+    "Year Ended December 31, 2012 (1)",
+    "Year Ended December 31, 2013 (1)",
+    "Year Ended December 31, 2014"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Notebooks/Mobile Devices"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2014",
+        "Dollars inMillions"
+      ],
+      "value": "$2,352.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2014",
+        "Percentageof Total Net Sales"
+      ],
+      "value": "19.5%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2013 (1)",
+        "Dollars inMillions"
+      ],
+      "value": "$1,698.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2013 (1)",
+        "Percentageof Total Net Sales"
+      ],
+      "value": "15.8%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2012 (1)",
+        "Dollars inMillions"
+      ],
+      "value": "$1,462.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2012 (1)",
+        "Percentageof Total Net Sales"
+      ],
+      "value": "14.4%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "NetComm Products"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2014",
+        "Dollars inMillions"
+      ],
+      "value": "1,615.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2014",
+        "Percentageof Total Net Sales"
+      ],
+      "value": "13.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2013 (1)",
+        "Dollars inMillions"
+      ],
+      "value": "1,486.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2013 (1)",
+        "Percentageof Total Net Sales"
+      ],
+      "value": "13.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2012 (1)",
+        "Dollars inMillions"
+      ],
+      "value": "1,351.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2012 (1)",
+        "Percentageof Total Net Sales"
+      ],
+      "value": "13.3"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Enterprise and Data Storage (Including Drives)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2014",
+        "Dollars inMillions"
+      ],
+      "value": "1,024.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2014",
+        "Percentageof Total Net Sales"
+      ],
+      "value": "8.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2013 (1)",
+        "Dollars inMillions"
+      ],
+      "value": "999.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2013 (1)",
+        "Percentageof Total Net Sales"
+      ],
+      "value": "9.3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2012 (1)",
+        "Dollars inMillions"
+      ],
+      "value": "981.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2012 (1)",
+        "Percentageof Total Net Sales"
+      ],
+      "value": "9.7"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Other Hardware"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2014",
+        "Dollars inMillions"
+      ],
+      "value": "4,549.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2014",
+        "Percentageof Total Net Sales"
+      ],
+      "value": "37.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2013 (1)",
+        "Dollars inMillions"
+      ],
+      "value": "4,178.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2013 (1)",
+        "Percentageof Total Net Sales"
+      ],
+      "value": "38.8"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2012 (1)",
+        "Dollars inMillions"
+      ],
+      "value": "4,075.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2012 (1)",
+        "Percentageof Total Net Sales"
+      ],
+      "value": "40.3"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Software (2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2014",
+        "Dollars inMillions"
+      ],
+      "value": "2,076.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2014",
+        "Percentageof Total Net Sales"
+      ],
+      "value": "17.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2013 (1)",
+        "Dollars inMillions"
+      ],
+      "value": "1,993.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2013 (1)",
+        "Percentageof Total Net Sales"
+      ],
+      "value": "18.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2012 (1)",
+        "Dollars inMillions"
+      ],
+      "value": "1,877.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2012 (1)",
+        "Percentageof Total Net Sales"
+      ],
+      "value": "18.5"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Services"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2014",
+        "Dollars inMillions"
+      ],
+      "value": "371.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2014",
+        "Percentageof Total Net Sales"
+      ],
+      "value": "3.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2013 (1)",
+        "Dollars inMillions"
+      ],
+      "value": "332.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2013 (1)",
+        "Percentageof Total Net Sales"
+      ],
+      "value": "3.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2012 (1)",
+        "Dollars inMillions"
+      ],
+      "value": "285.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2012 (1)",
+        "Percentageof Total Net Sales"
+      ],
+      "value": "2.8"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Other (3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2014",
+        "Dollars inMillions"
+      ],
+      "value": "84.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2014",
+        "Percentageof Total Net Sales"
+      ],
+      "value": "0.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2013 (1)",
+        "Dollars inMillions"
+      ],
+      "value": "80.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2013 (1)",
+        "Percentageof Total Net Sales"
+      ],
+      "value": "0.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2012 (1)",
+        "Dollars inMillions"
+      ],
+      "value": "94.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2012 (1)",
+        "Percentageof Total Net Sales"
+      ],
+      "value": "1.0"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total net sales"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2014",
+        "Dollars inMillions"
+      ],
+      "value": "$12,074.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2014",
+        "Percentageof Total Net Sales"
+      ],
+      "value": "100.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2013 (1)",
+        "Dollars inMillions"
+      ],
+      "value": "$10,768.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2013 (1)",
+        "Percentageof Total Net Sales"
+      ],
+      "value": "100.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2012 (1)",
+        "Dollars inMillions"
+      ],
+      "value": "$10,128.2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2012 (1)",
+        "Percentageof Total Net Sales"
+      ],
+      "value": "100.0%"
+    }
+  ]
+}

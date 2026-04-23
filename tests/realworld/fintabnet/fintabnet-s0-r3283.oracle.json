@@ -1,0 +1,312 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$(2)",
+    "$(3)",
+    "$1,540",
+    "$2,104",
+    "$5,139",
+    "$5,211",
+    "$545",
+    "$812",
+    "$\u2014",
+    "(102)",
+    "(227)",
+    "(251)",
+    "(270)",
+    "(68)",
+    "(93)",
+    "(Millions)",
+    "1,610",
+    "2,200",
+    "2014",
+    "2015",
+    "5,366",
+    "5,462",
+    "815",
+    "914",
+    "Amounts recognized in accumulated other comprehensive income as of Dec. 31,",
+    "Benefits",
+    "Ending balance",
+    "International",
+    "Net actuarial loss (gain)",
+    "Net transition obligation (asset)",
+    "Postretirement",
+    "Prior service cost (credit)",
+    "Qualified and Non-qualified Pension Benefits",
+    "United States"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "(Millions)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Qualified and Non-qualified Pension Benefits",
+        "United States"
+      ],
+      "value": "2015"
+    },
+    {
+      "row": [],
+      "col": [
+        "Qualified and Non-qualified Pension Benefits",
+        "United States"
+      ],
+      "value": "2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Qualified and Non-qualified Pension Benefits",
+        "International"
+      ],
+      "value": "2015"
+    },
+    {
+      "row": [],
+      "col": [
+        "Qualified and Non-qualified Pension Benefits",
+        "International"
+      ],
+      "value": "2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement",
+        "Benefits"
+      ],
+      "value": "2015"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement",
+        "Benefits"
+      ],
+      "value": "2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Amounts recognized in accumulated other comprehensive income as of Dec. 31,"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Net transition obligation (asset)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Qualified and Non-qualified Pension Benefits",
+        "United States"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Qualified and Non-qualified Pension Benefits",
+        "United States"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Qualified and Non-qualified Pension Benefits",
+        "International"
+      ],
+      "value": "$(2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Qualified and Non-qualified Pension Benefits",
+        "International"
+      ],
+      "value": "$(3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement",
+        "Benefits"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement",
+        "Benefits"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Net actuarial loss (gain)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Qualified and Non-qualified Pension Benefits",
+        "United States"
+      ],
+      "value": "5,366"
+    },
+    {
+      "row": [],
+      "col": [
+        "Qualified and Non-qualified Pension Benefits",
+        "United States"
+      ],
+      "value": "5,462"
+    },
+    {
+      "row": [],
+      "col": [
+        "Qualified and Non-qualified Pension Benefits",
+        "International"
+      ],
+      "value": "1,610"
+    },
+    {
+      "row": [],
+      "col": [
+        "Qualified and Non-qualified Pension Benefits",
+        "International"
+      ],
+      "value": "2,200"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement",
+        "Benefits"
+      ],
+      "value": "815"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement",
+        "Benefits"
+      ],
+      "value": "914"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Prior service cost (credit)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Qualified and Non-qualified Pension Benefits",
+        "United States"
+      ],
+      "value": "(227)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Qualified and Non-qualified Pension Benefits",
+        "United States"
+      ],
+      "value": "(251)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Qualified and Non-qualified Pension Benefits",
+        "International"
+      ],
+      "value": "(68)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Qualified and Non-qualified Pension Benefits",
+        "International"
+      ],
+      "value": "(93)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement",
+        "Benefits"
+      ],
+      "value": "(270)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement",
+        "Benefits"
+      ],
+      "value": "(102)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Ending balance"
+    },
+    {
+      "row": [],
+      "col": [
+        "Qualified and Non-qualified Pension Benefits",
+        "United States"
+      ],
+      "value": "$5,139"
+    },
+    {
+      "row": [],
+      "col": [
+        "Qualified and Non-qualified Pension Benefits",
+        "United States"
+      ],
+      "value": "$5,211"
+    },
+    {
+      "row": [],
+      "col": [
+        "Qualified and Non-qualified Pension Benefits",
+        "International"
+      ],
+      "value": "$1,540"
+    },
+    {
+      "row": [],
+      "col": [
+        "Qualified and Non-qualified Pension Benefits",
+        "International"
+      ],
+      "value": "$2,104"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement",
+        "Benefits"
+      ],
+      "value": "$545"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement",
+        "Benefits"
+      ],
+      "value": "$812"
+    }
+  ]
+}

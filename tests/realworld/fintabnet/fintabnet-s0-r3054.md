@@ -1,0 +1,213 @@
+<!-- source: FinTabNet s0-r3054 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td>
+   Cost
+  </td>
+<td>
+   Gross Unrealized Gains
+  </td>
+<td>
+   Gross Unrealized Losses Less Than 12 Months
+  </td>
+<td>
+   Gross Unrealized Losses 12 Months or Longer
+  </td>
+<td>
+   Estimated Fair Value
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="5">
+   (in thousands)
+  </td>
+</tr>
+<tr>
+<td>
+   Balance at October 31, 2009
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Classified as current assets:
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Non-interest bearing cash (U.S. and International)
+  </td>
+<td>
+   $40,390
+  </td>
+<td>
+   $—
+  </td>
+<td>
+   $—
+  </td>
+<td>
+   $—
+  </td>
+<td>
+   $40,390
+  </td>
+</tr>
+<tr>
+<td>
+   Money market funds (U.S.)
+  </td>
+<td>
+   141,418
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   141,418
+  </td>
+</tr>
+<tr>
+<td>
+   Cash deposits and money market funds (International)
+  </td>
+<td>
+   519,805
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   519,805
+  </td>
+</tr>
+<tr>
+<td>
+   Municipal obligations
+  </td>
+<td>
+   463,966
+  </td>
+<td>
+   2,827
+  </td>
+<td>
+   (80)
+  </td>
+<td>
+   —
+  </td>
+<td>
+   466,713
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   1,165,579
+  </td>
+<td>
+   2,827
+  </td>
+<td>
+   (80)
+  </td>
+<td>
+   —
+  </td>
+<td>
+   1,168,326
+  </td>
+</tr>
+<tr>
+<td>
+   Classified as non-current assets:
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Strategic investments
+  </td>
+<td>
+   8,002
+  </td>
+<td>
+   1,796
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   9,798
+  </td>
+</tr>
+<tr>
+<td>
+   Total
+  </td>
+<td>
+   $1,173,581
+  </td>
+<td>
+   $4,623
+  </td>
+<td>
+   $(80)
+  </td>
+<td>
+   $—
+  </td>
+<td>
+   $1,178,124
+  </td>
+</tr>
+</table>

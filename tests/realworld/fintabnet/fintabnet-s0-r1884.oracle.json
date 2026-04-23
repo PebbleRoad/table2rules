@@ -1,0 +1,261 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$1,305.9",
+    "$10,768.6",
+    "$12,074.5",
+    "$5,960.1",
+    "$515.4",
+    "$6,475.5",
+    "100.0%",
+    "11.7",
+    "12.1%",
+    "17.2",
+    "2013",
+    "2014",
+    "38.7",
+    "4,164.5",
+    "4,879.4",
+    "40.4",
+    "53.6%",
+    "55.3%",
+    "6.0",
+    "644.0",
+    "714.9",
+    "719.6",
+    "75.6",
+    "8.6%",
+    "Corporate",
+    "Dollar Change",
+    "Dollars inMillions",
+    "Other",
+    "PercentChange (1)",
+    "Percentage ofTotal Net Sales",
+    "Public",
+    "Total net sales",
+    "Years Ended December 31,"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Corporate"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2014",
+        "Dollars inMillions"
+      ],
+      "value": "$6,475.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2014",
+        "Percentage ofTotal Net Sales"
+      ],
+      "value": "53.6%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2013",
+        "Dollars inMillions"
+      ],
+      "value": "$5,960.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2013",
+        "Percentage ofTotal Net Sales"
+      ],
+      "value": "55.3%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Dollar Change"
+      ],
+      "value": "$515.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "PercentChange (1)"
+      ],
+      "value": "8.6%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Public"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2014",
+        "Dollars inMillions"
+      ],
+      "value": "4,879.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2014",
+        "Percentage ofTotal Net Sales"
+      ],
+      "value": "40.4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2013",
+        "Dollars inMillions"
+      ],
+      "value": "4,164.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2013",
+        "Percentage ofTotal Net Sales"
+      ],
+      "value": "38.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Dollar Change"
+      ],
+      "value": "714.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "PercentChange (1)"
+      ],
+      "value": "17.2"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Other"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2014",
+        "Dollars inMillions"
+      ],
+      "value": "719.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2014",
+        "Percentage ofTotal Net Sales"
+      ],
+      "value": "6.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2013",
+        "Dollars inMillions"
+      ],
+      "value": "644.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2013",
+        "Percentage ofTotal Net Sales"
+      ],
+      "value": "6.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Dollar Change"
+      ],
+      "value": "75.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "PercentChange (1)"
+      ],
+      "value": "11.7"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total net sales"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2014",
+        "Dollars inMillions"
+      ],
+      "value": "$12,074.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2014",
+        "Percentage ofTotal Net Sales"
+      ],
+      "value": "100.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2013",
+        "Dollars inMillions"
+      ],
+      "value": "$10,768.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Years Ended December 31,",
+        "2013",
+        "Percentage ofTotal Net Sales"
+      ],
+      "value": "100.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Dollar Change"
+      ],
+      "value": "$1,305.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "PercentChange (1)"
+      ],
+      "value": "12.1%"
+    }
+  ]
+}

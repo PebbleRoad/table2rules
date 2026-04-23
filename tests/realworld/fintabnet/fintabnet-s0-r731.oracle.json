@@ -1,0 +1,251 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$26,076",
+    "$26,268",
+    "$26,300",
+    "% Change",
+    "(0.9)%",
+    "(10,192)",
+    "(10,220)",
+    "(193.2)%",
+    "(193.8)%",
+    "(268.7)%",
+    "(8.36)",
+    "(in millions, except per share data)",
+    "0.7%",
+    "10,941",
+    "2.78",
+    "220.3%",
+    "220.5%",
+    "3,416",
+    "5,601",
+    "6,057",
+    "8.1%",
+    "8.91",
+    "As Restated & Recast",
+    "As Restated & Recast December 30,2017",
+    "December 29,2018",
+    "December 30,2017",
+    "December 31,2016",
+    "Diluted EPS",
+    "Net income/(loss) attributable to common shareholders",
+    "Net sales",
+    "Operating income/(loss)"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Net sales"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 29,2018",
+        "(in millions, except per share data)"
+      ],
+      "value": "$26,268"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated & Recast December 30,2017",
+        "(in millions, except per share data)"
+      ],
+      "value": "$26,076"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change"
+      ],
+      "value": "0.7%"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated & Recast",
+        "December 30,2017",
+        "(in millions, except per share data)"
+      ],
+      "value": "$26,076"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated & Recast",
+        "December 31,2016",
+        "(in millions, except per share data)"
+      ],
+      "value": "$26,300"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change"
+      ],
+      "value": "(0.9)%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Operating income/(loss)"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 29,2018",
+        "(in millions, except per share data)"
+      ],
+      "value": "(10,220)"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated & Recast December 30,2017",
+        "(in millions, except per share data)"
+      ],
+      "value": "6,057"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change"
+      ],
+      "value": "(268.7)%"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated & Recast",
+        "December 30,2017",
+        "(in millions, except per share data)"
+      ],
+      "value": "6,057"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated & Recast",
+        "December 31,2016",
+        "(in millions, except per share data)"
+      ],
+      "value": "5,601"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change"
+      ],
+      "value": "8.1%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Net income/(loss) attributable to common shareholders"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 29,2018",
+        "(in millions, except per share data)"
+      ],
+      "value": "(10,192)"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated & Recast December 30,2017",
+        "(in millions, except per share data)"
+      ],
+      "value": "10,941"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change"
+      ],
+      "value": "(193.2)%"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated & Recast",
+        "December 30,2017",
+        "(in millions, except per share data)"
+      ],
+      "value": "10,941"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated & Recast",
+        "December 31,2016",
+        "(in millions, except per share data)"
+      ],
+      "value": "3,416"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change"
+      ],
+      "value": "220.3%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Diluted EPS"
+    },
+    {
+      "row": [],
+      "col": [
+        "December 29,2018",
+        "(in millions, except per share data)"
+      ],
+      "value": "(8.36)"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated & Recast December 30,2017",
+        "(in millions, except per share data)"
+      ],
+      "value": "8.91"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change"
+      ],
+      "value": "(193.8)%"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated & Recast",
+        "December 30,2017",
+        "(in millions, except per share data)"
+      ],
+      "value": "8.91"
+    },
+    {
+      "row": [],
+      "col": [
+        "As Restated & Recast",
+        "December 31,2016",
+        "(in millions, except per share data)"
+      ],
+      "value": "2.78"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change"
+      ],
+      "value": "220.5%"
+    }
+  ]
+}

@@ -1,0 +1,419 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$173,622",
+    "$174,040",
+    "$186,136",
+    "$223,018",
+    "$244,094",
+    "$55,287",
+    "$60,523",
+    "$68,756",
+    "$84,156",
+    "$94,497",
+    "(1,274)",
+    "(1,380)",
+    "(1,506)",
+    "(14,052)",
+    "(19,101)",
+    "(2,662)",
+    "(2,897)",
+    "(20,053)",
+    "(3,681)",
+    "(9,185)",
+    "(In thousands)",
+    "177,303",
+    "183,494",
+    "195,321",
+    "2000",
+    "2001",
+    "2002",
+    "2003",
+    "2004",
+    "243,071",
+    "258,146",
+    "53,259",
+    "59,914",
+    "64,529",
+    "65,058",
+    "66,418",
+    "69,313",
+    "74,616",
+    "75,232",
+    "85,058",
+    "9,647",
+    "90,438",
+    "Adjusted EBITDA",
+    "Depreciation and amortization",
+    "EBITDA",
+    "Gain loss on sale of real estate",
+    "Interest expense",
+    "Loss on abandoned developments held for sale",
+    "Net income",
+    "Other interest income",
+    "\u2014"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Net income"
+    },
+    {
+      "row": [],
+      "col": [
+        "2004",
+        "(In thousands)"
+      ],
+      "value": "$84,156"
+    },
+    {
+      "row": [],
+      "col": [
+        "2003",
+        "(In thousands)"
+      ],
+      "value": "$94,497"
+    },
+    {
+      "row": [],
+      "col": [
+        "2002",
+        "(In thousands)"
+      ],
+      "value": "$55,287"
+    },
+    {
+      "row": [],
+      "col": [
+        "2001",
+        "(In thousands)"
+      ],
+      "value": "$68,756"
+    },
+    {
+      "row": [],
+      "col": [
+        "2000",
+        "(In thousands)"
+      ],
+      "value": "$60,523"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Depreciation and amortization"
+    },
+    {
+      "row": [],
+      "col": [
+        "2004",
+        "(In thousands)"
+      ],
+      "value": "90,438"
+    },
+    {
+      "row": [],
+      "col": [
+        "2003",
+        "(In thousands)"
+      ],
+      "value": "74,616"
+    },
+    {
+      "row": [],
+      "col": [
+        "2002",
+        "(In thousands)"
+      ],
+      "value": "64,529"
+    },
+    {
+      "row": [],
+      "col": [
+        "2001",
+        "(In thousands)"
+      ],
+      "value": "59,914"
+    },
+    {
+      "row": [],
+      "col": [
+        "2000",
+        "(In thousands)"
+      ],
+      "value": "53,259"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Interest expense"
+    },
+    {
+      "row": [],
+      "col": [
+        "2004",
+        "(In thousands)"
+      ],
+      "value": "85,058"
+    },
+    {
+      "row": [],
+      "col": [
+        "2003",
+        "(In thousands)"
+      ],
+      "value": "75,232"
+    },
+    {
+      "row": [],
+      "col": [
+        "2002",
+        "(In thousands)"
+      ],
+      "value": "65,058"
+    },
+    {
+      "row": [],
+      "col": [
+        "2001",
+        "(In thousands)"
+      ],
+      "value": "69,313"
+    },
+    {
+      "row": [],
+      "col": [
+        "2000",
+        "(In thousands)"
+      ],
+      "value": "66,418"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Other interest income"
+    },
+    {
+      "row": [],
+      "col": [
+        "2004",
+        "(In thousands)"
+      ],
+      "value": "(1,506)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2003",
+        "(In thousands)"
+      ],
+      "value": "(1,274)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2002",
+        "(In thousands)"
+      ],
+      "value": "(1,380)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2001",
+        "(In thousands)"
+      ],
+      "value": "(2,662)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2000",
+        "(In thousands)"
+      ],
+      "value": "(2,897)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "EBITDA"
+    },
+    {
+      "row": [],
+      "col": [
+        "2004",
+        "(In thousands)"
+      ],
+      "value": "258,146"
+    },
+    {
+      "row": [],
+      "col": [
+        "2003",
+        "(In thousands)"
+      ],
+      "value": "243,071"
+    },
+    {
+      "row": [],
+      "col": [
+        "2002",
+        "(In thousands)"
+      ],
+      "value": "183,494"
+    },
+    {
+      "row": [],
+      "col": [
+        "2001",
+        "(In thousands)"
+      ],
+      "value": "195,321"
+    },
+    {
+      "row": [],
+      "col": [
+        "2000",
+        "(In thousands)"
+      ],
+      "value": "177,303"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Gain loss on sale of real estate"
+    },
+    {
+      "row": [],
+      "col": [
+        "2004",
+        "(In thousands)"
+      ],
+      "value": "(14,052)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2003",
+        "(In thousands)"
+      ],
+      "value": "(20,053)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2002",
+        "(In thousands)"
+      ],
+      "value": "(19,101)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2001",
+        "(In thousands)"
+      ],
+      "value": "(9,185)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2000",
+        "(In thousands)"
+      ],
+      "value": "(3,681)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Loss on abandoned developments held for sale"
+    },
+    {
+      "row": [],
+      "col": [
+        "2004",
+        "(In thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "2003",
+        "(In thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "2002",
+        "(In thousands)"
+      ],
+      "value": "9,647"
+    },
+    {
+      "row": [],
+      "col": [
+        "2001",
+        "(In thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "2000",
+        "(In thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Adjusted EBITDA"
+    },
+    {
+      "row": [],
+      "col": [
+        "2004",
+        "(In thousands)"
+      ],
+      "value": "$244,094"
+    },
+    {
+      "row": [],
+      "col": [
+        "2003",
+        "(In thousands)"
+      ],
+      "value": "$223,018"
+    },
+    {
+      "row": [],
+      "col": [
+        "2002",
+        "(In thousands)"
+      ],
+      "value": "$174,040"
+    },
+    {
+      "row": [],
+      "col": [
+        "2001",
+        "(In thousands)"
+      ],
+      "value": "$186,136"
+    },
+    {
+      "row": [],
+      "col": [
+        "2000",
+        "(In thousands)"
+      ],
+      "value": "$173,622"
+    }
+  ]
+}

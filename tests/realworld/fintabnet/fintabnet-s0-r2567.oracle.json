@@ -1,0 +1,380 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$1,126",
+    "$106,877",
+    "$111,365",
+    "$117,554",
+    "$125,259",
+    "$16,358",
+    "$22,258",
+    "$44,297",
+    "$5,098(1)",
+    "$76,449",
+    "$77,957",
+    "$79,987",
+    "$81,617",
+    "$82",
+    "$84,242",
+    "$9,997",
+    "$91,612",
+    "$94,257",
+    "$95,234",
+    "$\u2014",
+    "(4,069)",
+    "(5,691)",
+    "(6,029)",
+    "(6,949)",
+    "(7,574)",
+    "(7,865)",
+    "(In thousands)",
+    "2005",
+    "2006",
+    "2007",
+    "Cash paid for income taxes",
+    "Cash paid for interest, net of amounts capitalized",
+    "Common shares issued with acquisitions",
+    "DownREIT operating partnership units issued with acquisitions",
+    "Extinguishment of capital lease obligations",
+    "Interest capitalized",
+    "Interest expense",
+    "Interest expense related to discontinued operations",
+    "Mortgage loans assumed with acquisitions",
+    "NON-CASH INVESTING AND FINANCING TRANSACTIONS:",
+    "Preferred shares issued with acquisitions",
+    "SUPPLEMENTAL DISCLOSURES:",
+    "Total interest costs incurred"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "SUPPLEMENTAL DISCLOSURES:"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total interest costs incurred"
+    },
+    {
+      "row": [],
+      "col": [
+        "2007",
+        "(In thousands)"
+      ],
+      "value": "$125,259"
+    },
+    {
+      "row": [],
+      "col": [
+        "2006",
+        "(In thousands)"
+      ],
+      "value": "$106,877"
+    },
+    {
+      "row": [],
+      "col": [
+        "2005",
+        "(In thousands)"
+      ],
+      "value": "$94,257"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Interest capitalized"
+    },
+    {
+      "row": [],
+      "col": [
+        "2007",
+        "(In thousands)"
+      ],
+      "value": "(7,865)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2006",
+        "(In thousands)"
+      ],
+      "value": "(4,069)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2005",
+        "(In thousands)"
+      ],
+      "value": "(5,691)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Interest expense related to discontinued operations"
+    },
+    {
+      "row": [],
+      "col": [
+        "2007",
+        "(In thousands)"
+      ],
+      "value": "(6,029)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2006",
+        "(In thousands)"
+      ],
+      "value": "(7,574)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2005",
+        "(In thousands)"
+      ],
+      "value": "(6,949)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Interest expense"
+    },
+    {
+      "row": [],
+      "col": [
+        "2007",
+        "(In thousands)"
+      ],
+      "value": "$111,365"
+    },
+    {
+      "row": [],
+      "col": [
+        "2006",
+        "(In thousands)"
+      ],
+      "value": "$95,234"
+    },
+    {
+      "row": [],
+      "col": [
+        "2005",
+        "(In thousands)"
+      ],
+      "value": "$81,617"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Cash paid for interest, net of amounts capitalized"
+    },
+    {
+      "row": [],
+      "col": [
+        "2007",
+        "(In thousands)"
+      ],
+      "value": "$117,554"
+    },
+    {
+      "row": [],
+      "col": [
+        "2006",
+        "(In thousands)"
+      ],
+      "value": "$91,612"
+    },
+    {
+      "row": [],
+      "col": [
+        "2005",
+        "(In thousands)"
+      ],
+      "value": "$84,242"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Cash paid for income taxes"
+    },
+    {
+      "row": [],
+      "col": [
+        "2007",
+        "(In thousands)"
+      ],
+      "value": "$1,126"
+    },
+    {
+      "row": [],
+      "col": [
+        "2006",
+        "(In thousands)"
+      ],
+      "value": "$5,098(1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2005",
+        "(In thousands)"
+      ],
+      "value": "$82"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "NON-CASH INVESTING AND FINANCING TRANSACTIONS:"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Mortgage loans assumed with acquisitions"
+    },
+    {
+      "row": [],
+      "col": [
+        "2007",
+        "(In thousands)"
+      ],
+      "value": "$79,987"
+    },
+    {
+      "row": [],
+      "col": [
+        "2006",
+        "(In thousands)"
+      ],
+      "value": "$44,297"
+    },
+    {
+      "row": [],
+      "col": [
+        "2005",
+        "(In thousands)"
+      ],
+      "value": "$22,258"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Common shares issued with acquisitions"
+    },
+    {
+      "row": [],
+      "col": [
+        "2007",
+        "(In thousands)"
+      ],
+      "value": "$77,957"
+    },
+    {
+      "row": [],
+      "col": [
+        "2006",
+        "(In thousands)"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "2005",
+        "(In thousands)"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Extinguishment of capital lease obligations"
+    },
+    {
+      "row": [],
+      "col": [
+        "2007",
+        "(In thousands)"
+      ],
+      "value": "$76,449"
+    },
+    {
+      "row": [],
+      "col": [
+        "2006",
+        "(In thousands)"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "2005",
+        "(In thousands)"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "DownREIT operating partnership units issued with acquisitions"
+    },
+    {
+      "row": [],
+      "col": [
+        "2007",
+        "(In thousands)"
+      ],
+      "value": "$16,358"
+    },
+    {
+      "row": [],
+      "col": [
+        "2006",
+        "(In thousands)"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "2005",
+        "(In thousands)"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Preferred shares issued with acquisitions"
+    },
+    {
+      "row": [],
+      "col": [
+        "2007",
+        "(In thousands)"
+      ],
+      "value": "$9,997"
+    },
+    {
+      "row": [],
+      "col": [
+        "2006",
+        "(In thousands)"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "2005",
+        "(In thousands)"
+      ],
+      "value": "$\u2014"
+    }
+  ]
+}

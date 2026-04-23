@@ -1,0 +1,213 @@
+<!-- source: FinTabNet s0-r2704 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td>
+   2010
+  </td>
+<td>
+   2009
+  </td>
+<td>
+   2008
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="3">
+   (In thousands)
+  </td>
+</tr>
+<tr>
+<td>
+   SUPPLEMENTAL DISCLOSURES:
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Total interest costs incurred
+  </td>
+<td>
+   $108,167
+  </td>
+<td>
+   $114,330
+  </td>
+<td>
+   $104,464
+  </td>
+</tr>
+<tr>
+<td>
+   Interest capitalized
+  </td>
+<td>
+   (6,285)
+  </td>
+<td>
+   (5,549)
+  </td>
+<td>
+   (5,301)
+  </td>
+</tr>
+<tr>
+<td>
+   Interest expense
+  </td>
+<td>
+   $101,882
+  </td>
+<td>
+   $108,781
+  </td>
+<td>
+   $99,163
+  </td>
+</tr>
+<tr>
+<td>
+   Cash paid for interest, net of amounts capitalized
+  </td>
+<td>
+   $98,932
+  </td>
+<td>
+   $102,106
+  </td>
+<td>
+   $95,897
+  </td>
+</tr>
+<tr>
+<td>
+   Cash paid for income taxes
+  </td>
+<td>
+   $255
+  </td>
+<td>
+   $324
+  </td>
+<td>
+   $444
+  </td>
+</tr>
+<tr>
+<td>
+   NON-CASH INVESTING AND FINANCING TRANSACTIONS:
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Extinguishment of deferred ground rent liability
+  </td>
+<td>
+   $8,832
+  </td>
+<td>
+   $—
+  </td>
+<td>
+   $—
+  </td>
+</tr>
+<tr>
+<td>
+   Extinguishment of capital lease obligations
+  </td>
+<td>
+   $1,031
+  </td>
+<td>
+   $—
+  </td>
+<td>
+   $11,545
+  </td>
+</tr>
+<tr>
+<td>
+   Acquisition of real estate through exchange transaction
+  </td>
+<td>
+   $—
+  </td>
+<td>
+   $30,100
+  </td>
+<td>
+   $—
+  </td>
+</tr>
+<tr>
+<td>
+   Proceeds from sale of real estate through exchange transaction
+  </td>
+<td>
+   $—
+  </td>
+<td>
+   $25,100
+  </td>
+<td>
+   $—
+  </td>
+</tr>
+<tr>
+<td>
+   Liability assumed through exchange transaction
+  </td>
+<td>
+   $—
+  </td>
+<td>
+   $5,000
+  </td>
+<td>
+   $—
+  </td>
+</tr>
+<tr>
+<td>
+   Mortgage loans assumed with acquisitions
+  </td>
+<td>
+   $—
+  </td>
+<td>
+   $—
+  </td>
+<td>
+   $32,452
+  </td>
+</tr>
+<tr>
+<td>
+   Note payable issued with acquisitions
+  </td>
+<td>
+   $—
+  </td>
+<td>
+   $—
+  </td>
+<td>
+   $2,221
+  </td>
+</tr>
+</table>

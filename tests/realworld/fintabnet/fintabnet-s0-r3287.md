@@ -1,0 +1,220 @@
+<!-- source: FinTabNet s0-r3287 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="3">
+   Net Sales
+  </td>
+<td colspan="3">
+   Operating Income
+  </td>
+</tr>
+<tr>
+<td>
+   (Millions)
+  </td>
+<td>
+   2015
+  </td>
+<td>
+   2014
+  </td>
+<td>
+   2013
+  </td>
+<td>
+   2015
+  </td>
+<td>
+   2014
+  </td>
+<td>
+   2013
+  </td>
+</tr>
+<tr>
+<td>
+   Industrial
+  </td>
+<td>
+   $10,328
+  </td>
+<td>
+   $10,990
+  </td>
+<td>
+   $10,657
+  </td>
+<td>
+   $2,263
+  </td>
+<td>
+   $2,389
+  </td>
+<td>
+   $2,307
+  </td>
+</tr>
+<tr>
+<td>
+   Safety and Graphics
+  </td>
+<td>
+   5,515
+  </td>
+<td>
+   5,732
+  </td>
+<td>
+   5,584
+  </td>
+<td>
+   1,305
+  </td>
+<td>
+   1,296
+  </td>
+<td>
+   1,227
+  </td>
+</tr>
+<tr>
+<td>
+   Health Care
+  </td>
+<td>
+   5,420
+  </td>
+<td>
+   5,572
+  </td>
+<td>
+   5,334
+  </td>
+<td>
+   1,724
+  </td>
+<td>
+   1,724
+  </td>
+<td>
+   1,672
+  </td>
+</tr>
+<tr>
+<td>
+   Electronics and Energy
+  </td>
+<td>
+   5,220
+  </td>
+<td>
+   5,604
+  </td>
+<td>
+   5,393
+  </td>
+<td>
+   1,102
+  </td>
+<td>
+   1,115
+  </td>
+<td>
+   954
+  </td>
+</tr>
+<tr>
+<td>
+   Consumer
+  </td>
+<td>
+   4,422
+  </td>
+<td>
+   4,523
+  </td>
+<td>
+   4,435
+  </td>
+<td>
+   1,046
+  </td>
+<td>
+   995
+  </td>
+<td>
+   945
+  </td>
+</tr>
+<tr>
+<td>
+   Corporate and Unallocated
+  </td>
+<td>
+   1
+  </td>
+<td>
+   4
+  </td>
+<td>
+   8
+  </td>
+<td>
+   (355)
+  </td>
+<td>
+   (251)
+  </td>
+<td>
+   (321)
+  </td>
+</tr>
+<tr>
+<td>
+   Elimination of Dual Credit
+  </td>
+<td>
+   (632)
+  </td>
+<td>
+   (604)
+  </td>
+<td>
+   (540)
+  </td>
+<td>
+   (139)
+  </td>
+<td>
+   (133)
+  </td>
+<td>
+   (118)
+  </td>
+</tr>
+<tr>
+<td>
+   Total Company
+  </td>
+<td>
+   $30,274
+  </td>
+<td>
+   $31,821
+  </td>
+<td>
+   $30,871
+  </td>
+<td>
+   $6,946
+  </td>
+<td>
+   $7,135
+  </td>
+<td>
+   $6,666
+  </td>
+</tr>
+</table>

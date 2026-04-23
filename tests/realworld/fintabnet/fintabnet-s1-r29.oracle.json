@@ -1,0 +1,879 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "2.33%",
+    "2.94%",
+    "2014",
+    "2015",
+    "2016",
+    "2020",
+    "2021",
+    "3.00%",
+    "3.10%",
+    "3.24%",
+    "3.25%",
+    "3.26%",
+    "3.33%",
+    "3.42%",
+    "3.49%",
+    "3.50%",
+    "3.75%",
+    "3.80%",
+    "3.89%",
+    "3.91%",
+    "4.13%",
+    "4.17%",
+    "4.18%",
+    "4.57%",
+    "4.59%",
+    "4.75%",
+    "5.00%",
+    "5.11%",
+    "5.50%",
+    "5.78%",
+    "7.00%",
+    "7.50%",
+    "7.60%",
+    "7.78%",
+    "7.83%",
+    "8.00%",
+    "Decreasing to ultimate trend of",
+    "Discount rate",
+    "Discount rate for interest cost",
+    "Discount rate for service cost",
+    "Expected return on assets",
+    "Health care cost trend",
+    "Initial",
+    "Non-U.S.",
+    "Pension Plans",
+    "Postretirement Benefit Plans",
+    "Rate of compensation increase",
+    "U.S.",
+    "Weighted-average assumptions used to determine benefit obligations for years ended December 31:",
+    "Weighted-average assumptions used to determine net periodic cost for years ended December 31:",
+    "in year"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Weighted-average assumptions used to determine benefit obligations for years ended December 31:"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "2016"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "2015"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement Benefit Plans"
+      ],
+      "value": "2016"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement Benefit Plans"
+      ],
+      "value": "2015"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement Benefit Plans"
+      ],
+      "value": "2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "U.S."
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "Non-U.S."
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "U.S."
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "Non-U.S."
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "U.S."
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "Non-U.S."
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Discount rate"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "3.89%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "2.33%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "4.13%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "3.26%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "3.80%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "3.10%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement Benefit Plans"
+      ],
+      "value": "3.91%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement Benefit Plans"
+      ],
+      "value": "4.17%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement Benefit Plans"
+      ],
+      "value": "3.91%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Rate of compensation increase"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "3.25%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "2.94%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "3.50%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "3.00%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "3.50%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "3.24%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement Benefit Plans"
+      ],
+      "value": "3.25%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement Benefit Plans"
+      ],
+      "value": "3.50%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement Benefit Plans"
+      ],
+      "value": "3.50%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Health care cost trend"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Initial"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement Benefit Plans"
+      ],
+      "value": "7.00%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement Benefit Plans"
+      ],
+      "value": "7.50%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement Benefit Plans"
+      ],
+      "value": "7.50%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Decreasing to ultimate trend of"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement Benefit Plans"
+      ],
+      "value": "5.00%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement Benefit Plans"
+      ],
+      "value": "5.00%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement Benefit Plans"
+      ],
+      "value": "5.00%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "in year"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement Benefit Plans"
+      ],
+      "value": "2021"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement Benefit Plans"
+      ],
+      "value": "2021"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement Benefit Plans"
+      ],
+      "value": "2020"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Weighted-average assumptions used to determine net periodic cost for years ended December 31:"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "2016"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "2015"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement Benefit Plans"
+      ],
+      "value": "2016"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement Benefit Plans"
+      ],
+      "value": "2015"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement Benefit Plans"
+      ],
+      "value": "2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "U.S."
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "Non-U.S."
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "U.S."
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "Non-U.S."
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "U.S."
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "Non-U.S."
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Discount rate"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "4.13%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "3.26%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "3.80%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "3.10%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "4.59%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "4.18%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement Benefit Plans"
+      ],
+      "value": "4.17%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement Benefit Plans"
+      ],
+      "value": "3.91%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement Benefit Plans"
+      ],
+      "value": "4.75%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Discount rate for service cost"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "4.13%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "3.26%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "3.80%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "3.10%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "4.59%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "4.18%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement Benefit Plans"
+      ],
+      "value": "4.57%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement Benefit Plans"
+      ],
+      "value": "3.91%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement Benefit Plans"
+      ],
+      "value": "4.75%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Discount rate for interest cost"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "3.33%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "3.26%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "3.80%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "3.10%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "4.59%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "4.18%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement Benefit Plans"
+      ],
+      "value": "3.42%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement Benefit Plans"
+      ],
+      "value": "3.91%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement Benefit Plans"
+      ],
+      "value": "4.75%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Expected return on assets"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "7.60%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "5.11%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "7.78%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "5.50%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "7.83%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "5.78%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement Benefit Plans"
+      ],
+      "value": "3.75%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement Benefit Plans"
+      ],
+      "value": "3.75%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement Benefit Plans"
+      ],
+      "value": "3.75%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Rate of compensation increase"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "3.50%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "3.00%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "3.50%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "3.24%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "3.50%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Plans"
+      ],
+      "value": "3.49%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement Benefit Plans"
+      ],
+      "value": "3.50%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement Benefit Plans"
+      ],
+      "value": "3.50%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement Benefit Plans"
+      ],
+      "value": "3.50%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Health care cost trend"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Initial"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement Benefit Plans"
+      ],
+      "value": "7.50%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement Benefit Plans"
+      ],
+      "value": "7.50%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement Benefit Plans"
+      ],
+      "value": "8.00%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Decreasing to ultimate trend of"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement Benefit Plans"
+      ],
+      "value": "5.00%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement Benefit Plans"
+      ],
+      "value": "5.00%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement Benefit Plans"
+      ],
+      "value": "5.00%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "in year"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement Benefit Plans"
+      ],
+      "value": "2021"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement Benefit Plans"
+      ],
+      "value": "2020"
+    },
+    {
+      "row": [],
+      "col": [
+        "Postretirement Benefit Plans"
+      ],
+      "value": "2020"
+    }
+  ]
+}

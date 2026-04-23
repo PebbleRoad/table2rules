@@ -1,0 +1,620 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$103,872",
+    "$128,237",
+    "$135,153",
+    "$149,612",
+    "$201,127",
+    "$206,037",
+    "$211,065",
+    "$228,397",
+    "$239,210",
+    "$251,576",
+    "(1,071)",
+    "(1,298)",
+    "(1,410)",
+    "(12,572)",
+    "(15,075)",
+    "(2,026)",
+    "(442)",
+    "(5,366)",
+    "(5,447)",
+    "(5,568)",
+    "(5,590)",
+    "(5,695)",
+    "(541)",
+    "(687)",
+    "(725)",
+    "(779)",
+    "(847)",
+    "(94,768)",
+    "(In thousands)",
+    "1,156",
+    "1,241",
+    "1,331",
+    "1,388",
+    "1,499",
+    "1,771",
+    "10,432",
+    "101,450",
+    "103,104",
+    "107,187",
+    "113,188",
+    "2007",
+    "2008",
+    "2009",
+    "2010",
+    "2011",
+    "206,048",
+    "211,319",
+    "228,767",
+    "239,618",
+    "252,207",
+    "8,473",
+    "8,771",
+    "9,552",
+    "9,821",
+    "95,565",
+    "950",
+    "974",
+    "980",
+    "981",
+    "Amortization of initial direct costs of leases",
+    "Depreciation and amortization of real estate assets",
+    "Depreciation of joint venture real estate assets",
+    "Dividends on preferred shares",
+    "Funds from operations",
+    "Funds from operations available for common shareholders",
+    "Gain on deconsolidation of VIE",
+    "Gain on sale of real estate",
+    "Income attributable to operating partnership units",
+    "Income attributable to unvested shares",
+    "Net income",
+    "Net income attributable to noncontrolling interests",
+    "\u2014"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Net income"
+    },
+    {
+      "row": [],
+      "col": [
+        "2011",
+        "(In thousands)"
+      ],
+      "value": "$149,612"
+    },
+    {
+      "row": [],
+      "col": [
+        "2010",
+        "(In thousands)"
+      ],
+      "value": "$128,237"
+    },
+    {
+      "row": [],
+      "col": [
+        "2009",
+        "(In thousands)"
+      ],
+      "value": "$103,872"
+    },
+    {
+      "row": [],
+      "col": [
+        "2008",
+        "(In thousands)"
+      ],
+      "value": "$135,153"
+    },
+    {
+      "row": [],
+      "col": [
+        "2007",
+        "(In thousands)"
+      ],
+      "value": "$201,127"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Net income attributable to noncontrolling interests"
+    },
+    {
+      "row": [],
+      "col": [
+        "2011",
+        "(In thousands)"
+      ],
+      "value": "(5,695)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2010",
+        "(In thousands)"
+      ],
+      "value": "(5,447)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2009",
+        "(In thousands)"
+      ],
+      "value": "(5,568)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2008",
+        "(In thousands)"
+      ],
+      "value": "(5,366)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2007",
+        "(In thousands)"
+      ],
+      "value": "(5,590)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Gain on sale of real estate"
+    },
+    {
+      "row": [],
+      "col": [
+        "2011",
+        "(In thousands)"
+      ],
+      "value": "(15,075)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2010",
+        "(In thousands)"
+      ],
+      "value": "(1,410)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2009",
+        "(In thousands)"
+      ],
+      "value": "(1,298)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2008",
+        "(In thousands)"
+      ],
+      "value": "(12,572)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2007",
+        "(In thousands)"
+      ],
+      "value": "(94,768)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Gain on deconsolidation of VIE"
+    },
+    {
+      "row": [],
+      "col": [
+        "2011",
+        "(In thousands)"
+      ],
+      "value": "(2,026)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2010",
+        "(In thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "2009",
+        "(In thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "2008",
+        "(In thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "2007",
+        "(In thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Depreciation and amortization of real estate assets"
+    },
+    {
+      "row": [],
+      "col": [
+        "2011",
+        "(In thousands)"
+      ],
+      "value": "113,188"
+    },
+    {
+      "row": [],
+      "col": [
+        "2010",
+        "(In thousands)"
+      ],
+      "value": "107,187"
+    },
+    {
+      "row": [],
+      "col": [
+        "2009",
+        "(In thousands)"
+      ],
+      "value": "103,104"
+    },
+    {
+      "row": [],
+      "col": [
+        "2008",
+        "(In thousands)"
+      ],
+      "value": "101,450"
+    },
+    {
+      "row": [],
+      "col": [
+        "2007",
+        "(In thousands)"
+      ],
+      "value": "95,565"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Amortization of initial direct costs of leases"
+    },
+    {
+      "row": [],
+      "col": [
+        "2011",
+        "(In thousands)"
+      ],
+      "value": "10,432"
+    },
+    {
+      "row": [],
+      "col": [
+        "2010",
+        "(In thousands)"
+      ],
+      "value": "9,552"
+    },
+    {
+      "row": [],
+      "col": [
+        "2009",
+        "(In thousands)"
+      ],
+      "value": "9,821"
+    },
+    {
+      "row": [],
+      "col": [
+        "2008",
+        "(In thousands)"
+      ],
+      "value": "8,771"
+    },
+    {
+      "row": [],
+      "col": [
+        "2007",
+        "(In thousands)"
+      ],
+      "value": "8,473"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Depreciation of joint venture real estate assets"
+    },
+    {
+      "row": [],
+      "col": [
+        "2011",
+        "(In thousands)"
+      ],
+      "value": "1,771"
+    },
+    {
+      "row": [],
+      "col": [
+        "2010",
+        "(In thousands)"
+      ],
+      "value": "1,499"
+    },
+    {
+      "row": [],
+      "col": [
+        "2009",
+        "(In thousands)"
+      ],
+      "value": "1,388"
+    },
+    {
+      "row": [],
+      "col": [
+        "2008",
+        "(In thousands)"
+      ],
+      "value": "1,331"
+    },
+    {
+      "row": [],
+      "col": [
+        "2007",
+        "(In thousands)"
+      ],
+      "value": "1,241"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Funds from operations"
+    },
+    {
+      "row": [],
+      "col": [
+        "2011",
+        "(In thousands)"
+      ],
+      "value": "252,207"
+    },
+    {
+      "row": [],
+      "col": [
+        "2010",
+        "(In thousands)"
+      ],
+      "value": "239,618"
+    },
+    {
+      "row": [],
+      "col": [
+        "2009",
+        "(In thousands)"
+      ],
+      "value": "211,319"
+    },
+    {
+      "row": [],
+      "col": [
+        "2008",
+        "(In thousands)"
+      ],
+      "value": "228,767"
+    },
+    {
+      "row": [],
+      "col": [
+        "2007",
+        "(In thousands)"
+      ],
+      "value": "206,048"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Dividends on preferred shares"
+    },
+    {
+      "row": [],
+      "col": [
+        "2011",
+        "(In thousands)"
+      ],
+      "value": "(541)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2010",
+        "(In thousands)"
+      ],
+      "value": "(541)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2009",
+        "(In thousands)"
+      ],
+      "value": "(541)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2008",
+        "(In thousands)"
+      ],
+      "value": "(541)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2007",
+        "(In thousands)"
+      ],
+      "value": "(442)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Income attributable to operating partnership units"
+    },
+    {
+      "row": [],
+      "col": [
+        "2011",
+        "(In thousands)"
+      ],
+      "value": "981"
+    },
+    {
+      "row": [],
+      "col": [
+        "2010",
+        "(In thousands)"
+      ],
+      "value": "980"
+    },
+    {
+      "row": [],
+      "col": [
+        "2009",
+        "(In thousands)"
+      ],
+      "value": "974"
+    },
+    {
+      "row": [],
+      "col": [
+        "2008",
+        "(In thousands)"
+      ],
+      "value": "950"
+    },
+    {
+      "row": [],
+      "col": [
+        "2007",
+        "(In thousands)"
+      ],
+      "value": "1,156"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Income attributable to unvested shares"
+    },
+    {
+      "row": [],
+      "col": [
+        "2011",
+        "(In thousands)"
+      ],
+      "value": "(1,071)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2010",
+        "(In thousands)"
+      ],
+      "value": "(847)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2009",
+        "(In thousands)"
+      ],
+      "value": "(687)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2008",
+        "(In thousands)"
+      ],
+      "value": "(779)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2007",
+        "(In thousands)"
+      ],
+      "value": "(725)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Funds from operations available for common shareholders"
+    },
+    {
+      "row": [],
+      "col": [
+        "2011",
+        "(In thousands)"
+      ],
+      "value": "$251,576"
+    },
+    {
+      "row": [],
+      "col": [
+        "2010",
+        "(In thousands)"
+      ],
+      "value": "$239,210"
+    },
+    {
+      "row": [],
+      "col": [
+        "2009",
+        "(In thousands)"
+      ],
+      "value": "$211,065"
+    },
+    {
+      "row": [],
+      "col": [
+        "2008",
+        "(In thousands)"
+      ],
+      "value": "$228,397"
+    },
+    {
+      "row": [],
+      "col": [
+        "2007",
+        "(In thousands)"
+      ],
+      "value": "$206,037"
+    }
+  ]
+}

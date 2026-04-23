@@ -1,0 +1,614 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$(209)",
+    "$(226)",
+    "$(58)",
+    "$1",
+    "$3",
+    "$341",
+    "$384",
+    "$46",
+    "$584",
+    "$891",
+    "$\u2014",
+    "(1)",
+    "(124)",
+    "(16)",
+    "(17)",
+    "(19)",
+    "(209)",
+    "(226)",
+    "(244)",
+    "(251)",
+    "(58)",
+    "(676)",
+    "(720)",
+    "(786)",
+    "(8)",
+    "(82)",
+    "(9)",
+    "10",
+    "128",
+    "2",
+    "2012",
+    "2013",
+    "2014",
+    "211",
+    "218",
+    "28",
+    "328",
+    "38",
+    "4",
+    "43",
+    "50",
+    "546",
+    "56",
+    "58",
+    "61",
+    "654",
+    "673",
+    "729",
+    "746",
+    "90",
+    "Amortization of:",
+    "Components of net periodic benefit cost:",
+    "Curtailments",
+    "Defined benefit plans:",
+    "Defined contribution plans",
+    "Expected return on assets",
+    "Interest cost",
+    "N/A",
+    "Net periodic benefit cost for defined benefit plans",
+    "Pension Benefits",
+    "Prior service cost (1)",
+    "Retiree Medical and Other Benefits",
+    "Service cost",
+    "Settlements",
+    "Unrecognized net loss (gain)",
+    "\u2014"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Components of net periodic benefit cost:"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Defined benefit plans:"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Service cost"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2014"
+      ],
+      "value": "$3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2013"
+      ],
+      "value": "$3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2012"
+      ],
+      "value": "$341"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Benefits",
+        "2014"
+      ],
+      "value": "$1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Benefits",
+        "2013"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Benefits",
+        "2012"
+      ],
+      "value": "$46"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Interest cost"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2014"
+      ],
+      "value": "746"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2013"
+      ],
+      "value": "654"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2012"
+      ],
+      "value": "729"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Benefits",
+        "2014"
+      ],
+      "value": "61"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Benefits",
+        "2013"
+      ],
+      "value": "50"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Benefits",
+        "2012"
+      ],
+      "value": "128"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Expected return on assets"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2014"
+      ],
+      "value": "(786)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2013"
+      ],
+      "value": "(720)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2012"
+      ],
+      "value": "(676)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Benefits",
+        "2014"
+      ],
+      "value": "(19)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Benefits",
+        "2013"
+      ],
+      "value": "(16)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Benefits",
+        "2012"
+      ],
+      "value": "(17)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Curtailments"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2014"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2013"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2012"
+      ],
+      "value": "58"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Benefits",
+        "2014"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Benefits",
+        "2013"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Benefits",
+        "2012"
+      ],
+      "value": "(124)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Settlements"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2014"
+      ],
+      "value": "4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2013"
+      ],
+      "value": "(1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2012"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Benefits",
+        "2014"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Benefits",
+        "2013"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Benefits",
+        "2012"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Amortization of:"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Prior service cost (1)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2014"
+      ],
+      "value": "28"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2013"
+      ],
+      "value": "28"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2012"
+      ],
+      "value": "10"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Benefits",
+        "2014"
+      ],
+      "value": "(244)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Benefits",
+        "2013"
+      ],
+      "value": "(251)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Benefits",
+        "2012"
+      ],
+      "value": "(82)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Unrecognized net loss (gain)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2014"
+      ],
+      "value": "43"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2013"
+      ],
+      "value": "90"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2012"
+      ],
+      "value": "211"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Benefits",
+        "2014"
+      ],
+      "value": "(8)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Benefits",
+        "2013"
+      ],
+      "value": "(9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Benefits",
+        "2012"
+      ],
+      "value": "(9)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Net periodic benefit cost for defined benefit plans"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2014"
+      ],
+      "value": "38"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2013"
+      ],
+      "value": "56"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2012"
+      ],
+      "value": "673"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Benefits",
+        "2014"
+      ],
+      "value": "(209)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Benefits",
+        "2013"
+      ],
+      "value": "(226)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Benefits",
+        "2012"
+      ],
+      "value": "(58)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Defined contribution plans"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2014"
+      ],
+      "value": "546"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2013"
+      ],
+      "value": "328"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2012"
+      ],
+      "value": "218"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Benefits",
+        "2014"
+      ],
+      "value": "N/A"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Benefits",
+        "2013"
+      ],
+      "value": "N/A"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Benefits",
+        "2012"
+      ],
+      "value": "N/A"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2014"
+      ],
+      "value": "$584"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2013"
+      ],
+      "value": "$384"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2012"
+      ],
+      "value": "$891"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Benefits",
+        "2014"
+      ],
+      "value": "$(209)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Benefits",
+        "2013"
+      ],
+      "value": "$(226)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Benefits",
+        "2012"
+      ],
+      "value": "$(58)"
+    }
+  ]
+}

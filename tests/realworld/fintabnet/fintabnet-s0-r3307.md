@@ -1,0 +1,326 @@
+<!-- source: FinTabNet s0-r3307 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="3">
+   2015
+  </td>
+<td colspan="3">
+   2014
+  </td>
+<td colspan="2">
+   2015 vs 2014 % change
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   Net
+  </td>
+<td>
+   % of
+  </td>
+<td>
+   Oper.
+  </td>
+<td>
+   Net
+  </td>
+<td>
+   % of
+  </td>
+<td>
+   Oper.
+  </td>
+<td>
+   Net
+  </td>
+<td>
+   Oper.
+  </td>
+</tr>
+<tr>
+<td>
+   (Dollars in millions)
+  </td>
+<td>
+   Sales
+  </td>
+<td>
+   Total
+  </td>
+<td>
+   Income
+  </td>
+<td>
+   Sales
+  </td>
+<td>
+   Total
+  </td>
+<td>
+   Income
+  </td>
+<td>
+   Sales
+  </td>
+<td>
+   Income
+  </td>
+</tr>
+<tr>
+<td>
+   Business Segments
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Industrial
+  </td>
+<td>
+   $10,328
+  </td>
+<td>
+   34.1%
+  </td>
+<td>
+   $2,263
+  </td>
+<td>
+   $10,990
+  </td>
+<td>
+   34.5%
+  </td>
+<td>
+   $2,389
+  </td>
+<td>
+   (6.0)%
+  </td>
+<td>
+   (5.3)%
+  </td>
+</tr>
+<tr>
+<td>
+   Safety and Graphics
+  </td>
+<td>
+   5,515
+  </td>
+<td>
+   18.2%
+  </td>
+<td>
+   1,305
+  </td>
+<td>
+   5,732
+  </td>
+<td>
+   18.0%
+  </td>
+<td>
+   1,296
+  </td>
+<td>
+   (3.8)%
+  </td>
+<td>
+   0.7%
+  </td>
+</tr>
+<tr>
+<td>
+   Health Care
+  </td>
+<td>
+   5,420
+  </td>
+<td>
+   17.9%
+  </td>
+<td>
+   1,724
+  </td>
+<td>
+   5,572
+  </td>
+<td>
+   17.5%
+  </td>
+<td>
+   1,724
+  </td>
+<td>
+   (2.7)%
+  </td>
+<td>
+   —%
+  </td>
+</tr>
+<tr>
+<td>
+   Electronics and Energy
+  </td>
+<td>
+   5,220
+  </td>
+<td>
+   17.2%
+  </td>
+<td>
+   1,102
+  </td>
+<td>
+   5,604
+  </td>
+<td>
+   17.6%
+  </td>
+<td>
+   1,115
+  </td>
+<td>
+   (6.8)%
+  </td>
+<td>
+   (1.1)%
+  </td>
+</tr>
+<tr>
+<td>
+   Consumer
+  </td>
+<td>
+   4,422
+  </td>
+<td>
+   14.6%
+  </td>
+<td>
+   1,046
+  </td>
+<td>
+   4,523
+  </td>
+<td>
+   14.2%
+  </td>
+<td>
+   995
+  </td>
+<td>
+   (2.2)%
+  </td>
+<td>
+   5.2%
+  </td>
+</tr>
+<tr>
+<td>
+   Corporate and Unallocated
+  </td>
+<td>
+   1
+  </td>
+<td>
+   —%
+  </td>
+<td>
+   (355)
+  </td>
+<td>
+   4
+  </td>
+<td>
+   —%
+  </td>
+<td>
+   (251)
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+</tr>
+<tr>
+<td>
+   Elimination of Dual Credit
+  </td>
+<td>
+   (632)
+  </td>
+<td>
+   (2.0)%
+  </td>
+<td>
+   (139)
+  </td>
+<td>
+   (604)
+  </td>
+<td>
+   (1.8)%
+  </td>
+<td>
+   (133)
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+</tr>
+<tr>
+<td>
+   Total Company
+  </td>
+<td>
+   $30,274
+  </td>
+<td>
+   100.0%
+  </td>
+<td>
+   $6,946
+  </td>
+<td>
+   $31,821
+  </td>
+<td>
+   100.0%
+  </td>
+<td>
+   $7,135
+  </td>
+<td>
+   (4.9)%
+  </td>
+<td>
+   (2.6)%
+  </td>
+</tr>
+</table>

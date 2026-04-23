@@ -1,0 +1,622 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$1,000",
+    "$16,960",
+    "$28,987",
+    "(40)",
+    "(52)",
+    "0",
+    "0.30%",
+    "0.31%",
+    "0.51%",
+    "0.53%",
+    "0.54%",
+    "0.79%",
+    "0.90%",
+    "1,000",
+    "1,500",
+    "1.08%",
+    "1.10%",
+    "17,000",
+    "2,000",
+    "2,500",
+    "2.44%",
+    "2013",
+    "2014",
+    "29,000",
+    "3,000",
+    "3.91%",
+    "39",
+    "4,000",
+    "4.48%",
+    "5,500",
+    "Amount (in millions)",
+    "Effective Interest Rate",
+    "Fixed-rate 0.45% notes due 2016",
+    "Fixed-rate 1.00% notes due 2018",
+    "Fixed-rate 1.05% notes due 2017",
+    "Fixed-rate 2.10% notes due 2019",
+    "Fixed-rate 2.40% notes due 2023",
+    "Fixed-rate 2.85% notes due 2021",
+    "Fixed-rate 3.45% notes due 2024",
+    "Fixed-rate 3.85% notes due 2043",
+    "Fixed-rate 4.45% notes due 2044",
+    "Floating-rate notes due 2016",
+    "Floating-rate notes due 2017",
+    "Floating-rate notes due 2018",
+    "Floating-rate notes due 2019",
+    "Hedge accounting fair value adjustments",
+    "Total borrowings",
+    "Total long-term debt",
+    "Unamortized discount"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Floating-rate notes due 2016"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Amount (in millions)"
+      ],
+      "value": "$1,000"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Effective Interest Rate"
+      ],
+      "value": "0.51%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Amount (in millions)"
+      ],
+      "value": "$1,000"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Effective Interest Rate"
+      ],
+      "value": "0.51%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Floating-rate notes due 2017"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Amount (in millions)"
+      ],
+      "value": "1,000"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Effective Interest Rate"
+      ],
+      "value": "0.31%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Amount (in millions)"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Effective Interest Rate"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Floating-rate notes due 2018"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Amount (in millions)"
+      ],
+      "value": "2,000"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Effective Interest Rate"
+      ],
+      "value": "1.10%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Amount (in millions)"
+      ],
+      "value": "2,000"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Effective Interest Rate"
+      ],
+      "value": "1.10%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Floating-rate notes due 2019"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Amount (in millions)"
+      ],
+      "value": "1,000"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Effective Interest Rate"
+      ],
+      "value": "0.54%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Amount (in millions)"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Effective Interest Rate"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Fixed-rate 0.45% notes due 2016"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Amount (in millions)"
+      ],
+      "value": "1,500"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Effective Interest Rate"
+      ],
+      "value": "0.51%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Amount (in millions)"
+      ],
+      "value": "1,500"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Effective Interest Rate"
+      ],
+      "value": "0.51%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Fixed-rate 1.05% notes due 2017"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Amount (in millions)"
+      ],
+      "value": "1,500"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Effective Interest Rate"
+      ],
+      "value": "0.30%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Amount (in millions)"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Effective Interest Rate"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Fixed-rate 1.00% notes due 2018"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Amount (in millions)"
+      ],
+      "value": "4,000"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Effective Interest Rate"
+      ],
+      "value": "1.08%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Amount (in millions)"
+      ],
+      "value": "4,000"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Effective Interest Rate"
+      ],
+      "value": "1.08%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Fixed-rate 2.10% notes due 2019"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Amount (in millions)"
+      ],
+      "value": "2,000"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Effective Interest Rate"
+      ],
+      "value": "0.53%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Amount (in millions)"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Effective Interest Rate"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Fixed-rate 2.85% notes due 2021"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Amount (in millions)"
+      ],
+      "value": "3,000"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Effective Interest Rate"
+      ],
+      "value": "0.79%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Amount (in millions)"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Effective Interest Rate"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Fixed-rate 2.40% notes due 2023"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Amount (in millions)"
+      ],
+      "value": "5,500"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Effective Interest Rate"
+      ],
+      "value": "2.44%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Amount (in millions)"
+      ],
+      "value": "5,500"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Effective Interest Rate"
+      ],
+      "value": "2.44%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Fixed-rate 3.45% notes due 2024"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Amount (in millions)"
+      ],
+      "value": "2,500"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Effective Interest Rate"
+      ],
+      "value": "0.90%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Amount (in millions)"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Effective Interest Rate"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Fixed-rate 3.85% notes due 2043"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Amount (in millions)"
+      ],
+      "value": "3,000"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Effective Interest Rate"
+      ],
+      "value": "3.91%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Amount (in millions)"
+      ],
+      "value": "3,000"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Effective Interest Rate"
+      ],
+      "value": "3.91%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Fixed-rate 4.45% notes due 2044"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Amount (in millions)"
+      ],
+      "value": "1,000"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Effective Interest Rate"
+      ],
+      "value": "4.48%"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Amount (in millions)"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Effective Interest Rate"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total borrowings"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Amount (in millions)"
+      ],
+      "value": "29,000"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Amount (in millions)"
+      ],
+      "value": "17,000"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Unamortized discount"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Amount (in millions)"
+      ],
+      "value": "(52)"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Amount (in millions)"
+      ],
+      "value": "(40)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Hedge accounting fair value adjustments"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Amount (in millions)"
+      ],
+      "value": "39"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Amount (in millions)"
+      ],
+      "value": "0"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total long-term debt"
+    },
+    {
+      "row": [],
+      "col": [
+        "2014",
+        "Amount (in millions)"
+      ],
+      "value": "$28,987"
+    },
+    {
+      "row": [],
+      "col": [
+        "2013",
+        "Amount (in millions)"
+      ],
+      "value": "$16,960"
+    }
+  ]
+}

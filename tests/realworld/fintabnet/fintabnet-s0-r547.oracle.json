@@ -1,0 +1,442 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$(0.02)",
+    "$(0.13)",
+    "$(45)",
+    "$(8)",
+    "$0.04",
+    "$0.05",
+    "$0.09",
+    "$0.11",
+    "$0.12",
+    "$1,375",
+    "$1,429",
+    "$1,443",
+    "$1,472",
+    "$1,475",
+    "$1,495",
+    "$1,545",
+    "$1,715",
+    "$14",
+    "$19",
+    "$32",
+    "$38",
+    "$381",
+    "$391",
+    "$40",
+    "$406",
+    "$409",
+    "$418",
+    "$422",
+    "$428",
+    "$44",
+    "$456",
+    "(Tabular amounts in millions, except per share amounts)",
+    "2002",
+    "2003",
+    "Basic",
+    "Diluted",
+    "Earnings (loss) per common share:",
+    "First Quarter",
+    "Fourth Quarter",
+    "Gross margin",
+    "Net income (loss)",
+    "Net sales",
+    "Second Quarter",
+    "Third Quarter"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "2003"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Net sales"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fourth Quarter",
+        "(Tabular amounts in millions, except per share amounts)"
+      ],
+      "value": "$1,715"
+    },
+    {
+      "row": [],
+      "col": [
+        "Third Quarter",
+        "(Tabular amounts in millions, except per share amounts)"
+      ],
+      "value": "$1,545"
+    },
+    {
+      "row": [],
+      "col": [
+        "Second Quarter",
+        "(Tabular amounts in millions, except per share amounts)"
+      ],
+      "value": "$1,475"
+    },
+    {
+      "row": [],
+      "col": [
+        "First Quarter",
+        "(Tabular amounts in millions, except per share amounts)"
+      ],
+      "value": "$1,472"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Gross margin"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fourth Quarter",
+        "(Tabular amounts in millions, except per share amounts)"
+      ],
+      "value": "$456"
+    },
+    {
+      "row": [],
+      "col": [
+        "Third Quarter",
+        "(Tabular amounts in millions, except per share amounts)"
+      ],
+      "value": "$428"
+    },
+    {
+      "row": [],
+      "col": [
+        "Second Quarter",
+        "(Tabular amounts in millions, except per share amounts)"
+      ],
+      "value": "$418"
+    },
+    {
+      "row": [],
+      "col": [
+        "First Quarter",
+        "(Tabular amounts in millions, except per share amounts)"
+      ],
+      "value": "$406"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Net income (loss)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fourth Quarter",
+        "(Tabular amounts in millions, except per share amounts)"
+      ],
+      "value": "$44"
+    },
+    {
+      "row": [],
+      "col": [
+        "Third Quarter",
+        "(Tabular amounts in millions, except per share amounts)"
+      ],
+      "value": "$19"
+    },
+    {
+      "row": [],
+      "col": [
+        "Second Quarter",
+        "(Tabular amounts in millions, except per share amounts)"
+      ],
+      "value": "$14"
+    },
+    {
+      "row": [],
+      "col": [
+        "First Quarter",
+        "(Tabular amounts in millions, except per share amounts)"
+      ],
+      "value": "$(8)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Earnings (loss) per common share:"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Basic"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fourth Quarter",
+        "(Tabular amounts in millions, except per share amounts)"
+      ],
+      "value": "$0.12"
+    },
+    {
+      "row": [],
+      "col": [
+        "Third Quarter",
+        "(Tabular amounts in millions, except per share amounts)"
+      ],
+      "value": "$0.05"
+    },
+    {
+      "row": [],
+      "col": [
+        "Second Quarter",
+        "(Tabular amounts in millions, except per share amounts)"
+      ],
+      "value": "$0.04"
+    },
+    {
+      "row": [],
+      "col": [
+        "First Quarter",
+        "(Tabular amounts in millions, except per share amounts)"
+      ],
+      "value": "$(0.02)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Diluted"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fourth Quarter",
+        "(Tabular amounts in millions, except per share amounts)"
+      ],
+      "value": "$0.12"
+    },
+    {
+      "row": [],
+      "col": [
+        "Third Quarter",
+        "(Tabular amounts in millions, except per share amounts)"
+      ],
+      "value": "$0.05"
+    },
+    {
+      "row": [],
+      "col": [
+        "Second Quarter",
+        "(Tabular amounts in millions, except per share amounts)"
+      ],
+      "value": "$0.04"
+    },
+    {
+      "row": [],
+      "col": [
+        "First Quarter",
+        "(Tabular amounts in millions, except per share amounts)"
+      ],
+      "value": "$(0.02)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "2002"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Net sales"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fourth Quarter",
+        "(Tabular amounts in millions, except per share amounts)"
+      ],
+      "value": "$1,443"
+    },
+    {
+      "row": [],
+      "col": [
+        "Third Quarter",
+        "(Tabular amounts in millions, except per share amounts)"
+      ],
+      "value": "$1,429"
+    },
+    {
+      "row": [],
+      "col": [
+        "Second Quarter",
+        "(Tabular amounts in millions, except per share amounts)"
+      ],
+      "value": "$1,495"
+    },
+    {
+      "row": [],
+      "col": [
+        "First Quarter",
+        "(Tabular amounts in millions, except per share amounts)"
+      ],
+      "value": "$1,375"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Gross margin"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fourth Quarter",
+        "(Tabular amounts in millions, except per share amounts)"
+      ],
+      "value": "$381"
+    },
+    {
+      "row": [],
+      "col": [
+        "Third Quarter",
+        "(Tabular amounts in millions, except per share amounts)"
+      ],
+      "value": "$391"
+    },
+    {
+      "row": [],
+      "col": [
+        "Second Quarter",
+        "(Tabular amounts in millions, except per share amounts)"
+      ],
+      "value": "$409"
+    },
+    {
+      "row": [],
+      "col": [
+        "First Quarter",
+        "(Tabular amounts in millions, except per share amounts)"
+      ],
+      "value": "$422"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Net income (loss)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fourth Quarter",
+        "(Tabular amounts in millions, except per share amounts)"
+      ],
+      "value": "$(45)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Third Quarter",
+        "(Tabular amounts in millions, except per share amounts)"
+      ],
+      "value": "$32"
+    },
+    {
+      "row": [],
+      "col": [
+        "Second Quarter",
+        "(Tabular amounts in millions, except per share amounts)"
+      ],
+      "value": "$40"
+    },
+    {
+      "row": [],
+      "col": [
+        "First Quarter",
+        "(Tabular amounts in millions, except per share amounts)"
+      ],
+      "value": "$38"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Earnings (loss) per common share:"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Basic"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fourth Quarter",
+        "(Tabular amounts in millions, except per share amounts)"
+      ],
+      "value": "$(0.13)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Third Quarter",
+        "(Tabular amounts in millions, except per share amounts)"
+      ],
+      "value": "$0.09"
+    },
+    {
+      "row": [],
+      "col": [
+        "Second Quarter",
+        "(Tabular amounts in millions, except per share amounts)"
+      ],
+      "value": "$0.11"
+    },
+    {
+      "row": [],
+      "col": [
+        "First Quarter",
+        "(Tabular amounts in millions, except per share amounts)"
+      ],
+      "value": "$0.11"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Diluted"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fourth Quarter",
+        "(Tabular amounts in millions, except per share amounts)"
+      ],
+      "value": "$(0.13)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Third Quarter",
+        "(Tabular amounts in millions, except per share amounts)"
+      ],
+      "value": "$0.09"
+    },
+    {
+      "row": [],
+      "col": [
+        "Second Quarter",
+        "(Tabular amounts in millions, except per share amounts)"
+      ],
+      "value": "$0.11"
+    },
+    {
+      "row": [],
+      "col": [
+        "First Quarter",
+        "(Tabular amounts in millions, except per share amounts)"
+      ],
+      "value": "$0.11"
+    }
+  ]
+}

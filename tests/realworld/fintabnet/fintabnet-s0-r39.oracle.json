@@ -1,0 +1,755 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$0.47",
+    "$0.89",
+    "$1,012,397",
+    "$1.36",
+    "$1.45",
+    "$194,053",
+    "$2.34",
+    "$2.81",
+    "$371,599",
+    "$446,745",
+    "$565,652",
+    "$818,344",
+    "-0.01x",
+    "0%",
+    "0.00x",
+    "0.21",
+    "0.36x",
+    "0.39",
+    "0.46x",
+    "0.47x",
+    "0.60",
+    "1%",
+    "1,174,081",
+    "1,404,158",
+    "1,409,640",
+    "1,425,795",
+    "1,445,748",
+    "1,593,143",
+    "1,813,241",
+    "1,940,188",
+    "10%",
+    "12%",
+    "127%",
+    "13%",
+    "15%",
+    "154,753",
+    "16%",
+    "166,608",
+    "183,503",
+    "19,953",
+    "2%",
+    "2,091,754",
+    "2,237,569",
+    "2,246,507",
+    "2,404,177",
+    "2.96x",
+    "20%",
+    "21,637",
+    "235,559",
+    "24%",
+    "278,513",
+    "297,381",
+    "3%",
+    "3.32x",
+    "3.73x",
+    "3.82",
+    "36%",
+    "4.03",
+    "4.19x",
+    "4.20x",
+    "4.42",
+    "41,590",
+    "419,062",
+    "433,266",
+    "463,989",
+    "5%",
+    "61%",
+    "7%",
+    "83%",
+    "94%",
+    "Adjusted EBITDA",
+    "Adjusted fixed charge coverage ratio",
+    "Adjusted interest coverage ratio",
+    "Amount%",
+    "December 31, 2014",
+    "December 31, 2015",
+    "Funds from operations attributable to common stockholders",
+    "Net income attributable to common stockholders",
+    "Net operating income from continuing operations",
+    "One Year Change",
+    "Per share data (fully diluted):",
+    "Same store NOI",
+    "Two Year Change",
+    "Year Ended",
+    "Year Ended December 31, 2016"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Net income attributable to common stockholders"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended",
+        "December 31, 2014"
+      ],
+      "value": "$446,745"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended",
+        "December 31, 2015"
+      ],
+      "value": "$818,344"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "Amount%"
+      ],
+      "value": "$371,599"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change"
+      ],
+      "value": "83%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2016"
+      ],
+      "value": "$1,012,397"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "Amount%"
+      ],
+      "value": "$194,053"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change"
+      ],
+      "value": "24%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Two Year Change",
+        "Amount%"
+      ],
+      "value": "$565,652"
+    },
+    {
+      "row": [],
+      "col": [
+        "Two Year Change"
+      ],
+      "value": "127%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Funds from operations attributable to common stockholders"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended",
+        "December 31, 2014"
+      ],
+      "value": "1,174,081"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended",
+        "December 31, 2015"
+      ],
+      "value": "1,409,640"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "Amount%"
+      ],
+      "value": "235,559"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change"
+      ],
+      "value": "20%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2016"
+      ],
+      "value": "1,593,143"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "Amount%"
+      ],
+      "value": "183,503"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change"
+      ],
+      "value": "13%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Two Year Change",
+        "Amount%"
+      ],
+      "value": "419,062"
+    },
+    {
+      "row": [],
+      "col": [
+        "Two Year Change"
+      ],
+      "value": "36%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Adjusted EBITDA"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended",
+        "December 31, 2014"
+      ],
+      "value": "1,813,241"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended",
+        "December 31, 2015"
+      ],
+      "value": "2,091,754"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "Amount%"
+      ],
+      "value": "278,513"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change"
+      ],
+      "value": "15%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2016"
+      ],
+      "value": "2,246,507"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "Amount%"
+      ],
+      "value": "154,753"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change"
+      ],
+      "value": "7%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Two Year Change",
+        "Amount%"
+      ],
+      "value": "433,266"
+    },
+    {
+      "row": [],
+      "col": [
+        "Two Year Change"
+      ],
+      "value": "24%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Net operating income from continuing operations"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended",
+        "December 31, 2014"
+      ],
+      "value": "1,940,188"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended",
+        "December 31, 2015"
+      ],
+      "value": "2,237,569"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "Amount%"
+      ],
+      "value": "297,381"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change"
+      ],
+      "value": "15%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2016"
+      ],
+      "value": "2,404,177"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "Amount%"
+      ],
+      "value": "166,608"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change"
+      ],
+      "value": "7%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Two Year Change",
+        "Amount%"
+      ],
+      "value": "463,989"
+    },
+    {
+      "row": [],
+      "col": [
+        "Two Year Change"
+      ],
+      "value": "24%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Same store NOI"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended",
+        "December 31, 2014"
+      ],
+      "value": "1,404,158"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended",
+        "December 31, 2015"
+      ],
+      "value": "1,425,795"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "Amount%"
+      ],
+      "value": "21,637"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change"
+      ],
+      "value": "2%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2016"
+      ],
+      "value": "1,445,748"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "Amount%"
+      ],
+      "value": "19,953"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change"
+      ],
+      "value": "1%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Two Year Change",
+        "Amount%"
+      ],
+      "value": "41,590"
+    },
+    {
+      "row": [],
+      "col": [
+        "Two Year Change"
+      ],
+      "value": "3%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Per share data (fully diluted):"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Net income attributable to common stockholders"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended",
+        "December 31, 2014"
+      ],
+      "value": "$1.45"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended",
+        "December 31, 2015"
+      ],
+      "value": "$2.34"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "Amount%"
+      ],
+      "value": "$0.89"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change"
+      ],
+      "value": "61%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2016"
+      ],
+      "value": "$2.81"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "Amount%"
+      ],
+      "value": "$0.47"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change"
+      ],
+      "value": "20%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Two Year Change",
+        "Amount%"
+      ],
+      "value": "$1.36"
+    },
+    {
+      "row": [],
+      "col": [
+        "Two Year Change"
+      ],
+      "value": "94%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Funds from operations attributable to common stockholders"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended",
+        "December 31, 2014"
+      ],
+      "value": "3.82"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended",
+        "December 31, 2015"
+      ],
+      "value": "4.03"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "Amount%"
+      ],
+      "value": "0.21"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change"
+      ],
+      "value": "5%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2016"
+      ],
+      "value": "4.42"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "Amount%"
+      ],
+      "value": "0.39"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change"
+      ],
+      "value": "10%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Two Year Change",
+        "Amount%"
+      ],
+      "value": "0.60"
+    },
+    {
+      "row": [],
+      "col": [
+        "Two Year Change"
+      ],
+      "value": "16%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Adjusted interest coverage ratio"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended",
+        "December 31, 2014"
+      ],
+      "value": "3.73x"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended",
+        "December 31, 2015"
+      ],
+      "value": "4.20x"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "Amount%"
+      ],
+      "value": "0.47x"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change"
+      ],
+      "value": "13%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2016"
+      ],
+      "value": "4.19x"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "Amount%"
+      ],
+      "value": "-0.01x"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change"
+      ],
+      "value": "0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Two Year Change",
+        "Amount%"
+      ],
+      "value": "0.46x"
+    },
+    {
+      "row": [],
+      "col": [
+        "Two Year Change"
+      ],
+      "value": "12%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Adjusted fixed charge coverage ratio"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended",
+        "December 31, 2014"
+      ],
+      "value": "2.96x"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended",
+        "December 31, 2015"
+      ],
+      "value": "3.32x"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "Amount%"
+      ],
+      "value": "0.36x"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change"
+      ],
+      "value": "12%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended December 31, 2016"
+      ],
+      "value": "3.32x"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change",
+        "Amount%"
+      ],
+      "value": "0.00x"
+    },
+    {
+      "row": [],
+      "col": [
+        "One Year Change"
+      ],
+      "value": "0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Two Year Change",
+        "Amount%"
+      ],
+      "value": "0.36x"
+    },
+    {
+      "row": [],
+      "col": [
+        "Two Year Change"
+      ],
+      "value": "12%"
+    }
+  ]
+}

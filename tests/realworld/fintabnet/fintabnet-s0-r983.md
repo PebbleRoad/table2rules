@@ -1,0 +1,171 @@
+<!-- source: FinTabNet s0-r983 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="2">
+   Fiscal year ended December 29, 2007
+  </td>
+<td colspan="2">
+   Fiscal year ended December 30, 2006
+  </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   Selling, General &amp;
+  </td>
+<td>
+</td>
+<td>
+   Selling, General &amp;
+  </td>
+<td>
+</td>
+<td colspan="2">
+   Year over Year
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   Admin. Expenses
+  </td>
+<td>
+   % of Revenues
+  </td>
+<td>
+   Admin. Expenses
+  </td>
+<td>
+   % of Revenues
+  </td>
+<td>
+   $ Change
+  </td>
+<td>
+   % Change
+  </td>
+</tr>
+<tr>
+<td>
+   Outdoor/Fitness
+  </td>
+<td>
+   $41,119
+  </td>
+<td>
+   12.1%
+  </td>
+<td>
+   $30,176
+  </td>
+<td>
+   10.6%
+  </td>
+<td>
+   $10,943
+  </td>
+<td>
+   36.3%
+  </td>
+</tr>
+<tr>
+<td>
+   Marine
+  </td>
+<td>
+   25,914
+  </td>
+<td>
+   12.7%
+  </td>
+<td>
+   19,307
+  </td>
+<td>
+   11.6%
+  </td>
+<td>
+   6,607
+  </td>
+<td>
+   34.2%
+  </td>
+</tr>
+<tr>
+<td>
+   Automotive/Mobile
+  </td>
+<td>
+   305,065
+  </td>
+<td>
+   13.0%
+  </td>
+<td>
+   145,113
+  </td>
+<td>
+   13.3%
+  </td>
+<td>
+   159,952
+  </td>
+<td>
+   110.2%
+  </td>
+</tr>
+<tr>
+<td>
+   Aviation
+  </td>
+<td>
+   24,400
+  </td>
+<td>
+   8.3%
+  </td>
+<td>
+   19,917
+  </td>
+<td>
+   8.6%
+  </td>
+<td>
+   4,483
+  </td>
+<td>
+   22.5%
+  </td>
+</tr>
+<tr>
+<td>
+   Total
+  </td>
+<td>
+   $396,498
+  </td>
+<td>
+   12.5%
+  </td>
+<td>
+   $214,513
+  </td>
+<td>
+   12.1%
+  </td>
+<td>
+   $181,985
+  </td>
+<td>
+   84.8%
+  </td>
+</tr>
+</table>

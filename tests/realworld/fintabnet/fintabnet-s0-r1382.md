@@ -1,0 +1,157 @@
+<!-- source: FinTabNet s0-r1382 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="3">
+   Pension
+  </td>
+<td colspan="3">
+   Other Benefits
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   2017
+  </td>
+<td>
+   2016
+  </td>
+<td>
+   2015
+  </td>
+<td>
+   2017
+  </td>
+<td>
+   2016
+  </td>
+<td>
+   2015
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="6">
+   (Dollars in thousands)
+  </td>
+</tr>
+<tr>
+<td>
+   Service cost
+  </td>
+<td>
+   $2,887
+  </td>
+<td>
+   $2,615
+  </td>
+<td>
+   $1,880
+  </td>
+<td>
+   $279
+  </td>
+<td>
+   $355
+  </td>
+<td>
+   $495
+  </td>
+</tr>
+<tr>
+<td>
+   Interest cost
+  </td>
+<td>
+   15,137
+  </td>
+<td>
+   15,711
+  </td>
+<td>
+   17,948
+  </td>
+<td>
+   1,577
+  </td>
+<td>
+   1,595
+  </td>
+<td>
+   1,967
+  </td>
+</tr>
+<tr>
+<td>
+   Expected return on plan assets
+  </td>
+<td>
+   (26,809)
+  </td>
+<td>
+   (24,786)
+  </td>
+<td>
+   (25,940)
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+</tr>
+<tr>
+<td>
+   Net amortization and deferral
+  </td>
+<td>
+   6,734
+  </td>
+<td>
+   6,567
+  </td>
+<td>
+   6,159
+  </td>
+<td>
+   275
+  </td>
+<td>
+   454
+  </td>
+<td>
+   216
+  </td>
+</tr>
+<tr>
+<td>
+   Net benefit expense (income)
+  </td>
+<td>
+   $(2,051)
+  </td>
+<td>
+   $107
+  </td>
+<td>
+   $47
+  </td>
+<td>
+   $2,131
+  </td>
+<td>
+   $2,404
+  </td>
+<td>
+   $2,678
+  </td>
+</tr>
+</table>

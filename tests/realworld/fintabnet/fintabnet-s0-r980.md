@@ -1,0 +1,171 @@
+<!-- source: FinTabNet s0-r980 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="2">
+   Fiscal year ended December 29, 2007
+  </td>
+<td colspan="2">
+   Fiscal year ended December 30, 2006
+  </td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   Research &amp;
+  </td>
+<td>
+</td>
+<td>
+   Research &amp;
+  </td>
+<td>
+</td>
+<td colspan="2">
+   Year over Year
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   Development
+  </td>
+<td>
+   % of Revenues
+  </td>
+<td>
+   Development
+  </td>
+<td>
+   % of Revenues
+  </td>
+<td>
+   $ Change
+  </td>
+<td>
+   % Change
+  </td>
+</tr>
+<tr>
+<td>
+   Outdoor/Fitness
+  </td>
+<td>
+   $23,302
+  </td>
+<td>
+   6.9%
+  </td>
+<td>
+   $16,697
+  </td>
+<td>
+   5.9%
+  </td>
+<td>
+   $6,605
+  </td>
+<td>
+   39.6%
+  </td>
+</tr>
+<tr>
+<td>
+   Marine
+  </td>
+<td>
+   16,879
+  </td>
+<td>
+   8.3%
+  </td>
+<td>
+   13,121
+  </td>
+<td>
+   7.9%
+  </td>
+<td>
+   3,758
+  </td>
+<td>
+   28.6%
+  </td>
+</tr>
+<tr>
+<td>
+   Automotive/Mobile
+  </td>
+<td>
+   59,390
+  </td>
+<td>
+   2.5%
+  </td>
+<td>
+   37,125
+  </td>
+<td>
+   3.4%
+  </td>
+<td>
+   22,265
+  </td>
+<td>
+   60.0%
+  </td>
+</tr>
+<tr>
+<td>
+   Aviation
+  </td>
+<td>
+   59,835
+  </td>
+<td>
+   20.3%
+  </td>
+<td>
+   46,371
+  </td>
+<td>
+   19.9%
+  </td>
+<td>
+   13,464
+  </td>
+<td>
+   29.0%
+  </td>
+</tr>
+<tr>
+<td>
+   Total
+  </td>
+<td>
+   $159,406
+  </td>
+<td>
+   5.0%
+  </td>
+<td>
+   $113,314
+  </td>
+<td>
+   6.4%
+  </td>
+<td>
+   $46,092
+  </td>
+<td>
+   40.7%
+  </td>
+</tr>
+</table>

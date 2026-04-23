@@ -1,0 +1,342 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$(2,051)",
+    "$1,880",
+    "$107",
+    "$2,131",
+    "$2,404",
+    "$2,615",
+    "$2,678",
+    "$2,887",
+    "$279",
+    "$355",
+    "$47",
+    "$495",
+    "(24,786)",
+    "(25,940)",
+    "(26,809)",
+    "(Dollars in thousands)",
+    "1,577",
+    "1,595",
+    "1,967",
+    "15,137",
+    "15,711",
+    "17,948",
+    "2015",
+    "2016",
+    "2017",
+    "216",
+    "275",
+    "454",
+    "6,159",
+    "6,567",
+    "6,734",
+    "Expected return on plan assets",
+    "Interest cost",
+    "Net amortization and deferral",
+    "Net benefit expense (income)",
+    "Other Benefits",
+    "Pension",
+    "Service cost",
+    "\u2014"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Service cost"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension",
+        "2017",
+        "(Dollars in thousands)"
+      ],
+      "value": "$2,887"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension",
+        "2016",
+        "(Dollars in thousands)"
+      ],
+      "value": "$2,615"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension",
+        "2015",
+        "(Dollars in thousands)"
+      ],
+      "value": "$1,880"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Benefits",
+        "2017",
+        "(Dollars in thousands)"
+      ],
+      "value": "$279"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Benefits",
+        "2016",
+        "(Dollars in thousands)"
+      ],
+      "value": "$355"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Benefits",
+        "2015",
+        "(Dollars in thousands)"
+      ],
+      "value": "$495"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Interest cost"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension",
+        "2017",
+        "(Dollars in thousands)"
+      ],
+      "value": "15,137"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension",
+        "2016",
+        "(Dollars in thousands)"
+      ],
+      "value": "15,711"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension",
+        "2015",
+        "(Dollars in thousands)"
+      ],
+      "value": "17,948"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Benefits",
+        "2017",
+        "(Dollars in thousands)"
+      ],
+      "value": "1,577"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Benefits",
+        "2016",
+        "(Dollars in thousands)"
+      ],
+      "value": "1,595"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Benefits",
+        "2015",
+        "(Dollars in thousands)"
+      ],
+      "value": "1,967"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Expected return on plan assets"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension",
+        "2017",
+        "(Dollars in thousands)"
+      ],
+      "value": "(26,809)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension",
+        "2016",
+        "(Dollars in thousands)"
+      ],
+      "value": "(24,786)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension",
+        "2015",
+        "(Dollars in thousands)"
+      ],
+      "value": "(25,940)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Benefits",
+        "2017",
+        "(Dollars in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Benefits",
+        "2016",
+        "(Dollars in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Benefits",
+        "2015",
+        "(Dollars in thousands)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Net amortization and deferral"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension",
+        "2017",
+        "(Dollars in thousands)"
+      ],
+      "value": "6,734"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension",
+        "2016",
+        "(Dollars in thousands)"
+      ],
+      "value": "6,567"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension",
+        "2015",
+        "(Dollars in thousands)"
+      ],
+      "value": "6,159"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Benefits",
+        "2017",
+        "(Dollars in thousands)"
+      ],
+      "value": "275"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Benefits",
+        "2016",
+        "(Dollars in thousands)"
+      ],
+      "value": "454"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Benefits",
+        "2015",
+        "(Dollars in thousands)"
+      ],
+      "value": "216"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Net benefit expense (income)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension",
+        "2017",
+        "(Dollars in thousands)"
+      ],
+      "value": "$(2,051)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension",
+        "2016",
+        "(Dollars in thousands)"
+      ],
+      "value": "$107"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension",
+        "2015",
+        "(Dollars in thousands)"
+      ],
+      "value": "$47"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Benefits",
+        "2017",
+        "(Dollars in thousands)"
+      ],
+      "value": "$2,131"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Benefits",
+        "2016",
+        "(Dollars in thousands)"
+      ],
+      "value": "$2,404"
+    },
+    {
+      "row": [],
+      "col": [
+        "Other Benefits",
+        "2015",
+        "(Dollars in thousands)"
+      ],
+      "value": "$2,678"
+    }
+  ]
+}

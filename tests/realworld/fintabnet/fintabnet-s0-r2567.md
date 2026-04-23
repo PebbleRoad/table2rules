@@ -1,0 +1,199 @@
+<!-- source: FinTabNet s0-r2567 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td>
+   2007
+  </td>
+<td>
+   2006
+  </td>
+<td>
+   2005
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="3">
+   (In thousands)
+  </td>
+</tr>
+<tr>
+<td>
+   SUPPLEMENTAL DISCLOSURES:
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Total interest costs incurred
+  </td>
+<td>
+   $125,259
+  </td>
+<td>
+   $106,877
+  </td>
+<td>
+   $94,257
+  </td>
+</tr>
+<tr>
+<td>
+   Interest capitalized
+  </td>
+<td>
+   (7,865)
+  </td>
+<td>
+   (4,069)
+  </td>
+<td>
+   (5,691)
+  </td>
+</tr>
+<tr>
+<td>
+   Interest expense related to discontinued operations
+  </td>
+<td>
+   (6,029)
+  </td>
+<td>
+   (7,574)
+  </td>
+<td>
+   (6,949)
+  </td>
+</tr>
+<tr>
+<td>
+   Interest expense
+  </td>
+<td>
+   $111,365
+  </td>
+<td>
+   $95,234
+  </td>
+<td>
+   $81,617
+  </td>
+</tr>
+<tr>
+<td>
+   Cash paid for interest, net of amounts capitalized
+  </td>
+<td>
+   $117,554
+  </td>
+<td>
+   $91,612
+  </td>
+<td>
+   $84,242
+  </td>
+</tr>
+<tr>
+<td>
+   Cash paid for income taxes
+  </td>
+<td>
+   $1,126
+  </td>
+<td>
+   $5,098(1)
+  </td>
+<td>
+   $82
+  </td>
+</tr>
+<tr>
+<td>
+   NON-CASH INVESTING AND FINANCING TRANSACTIONS:
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Mortgage loans assumed with acquisitions
+  </td>
+<td>
+   $79,987
+  </td>
+<td>
+   $44,297
+  </td>
+<td>
+   $22,258
+  </td>
+</tr>
+<tr>
+<td>
+   Common shares issued with acquisitions
+  </td>
+<td>
+   $77,957
+  </td>
+<td>
+   $—
+  </td>
+<td>
+   $—
+  </td>
+</tr>
+<tr>
+<td>
+   Extinguishment of capital lease obligations
+  </td>
+<td>
+   $76,449
+  </td>
+<td>
+   $—
+  </td>
+<td>
+   $—
+  </td>
+</tr>
+<tr>
+<td>
+   DownREIT operating partnership units issued with acquisitions
+  </td>
+<td>
+   $16,358
+  </td>
+<td>
+   $—
+  </td>
+<td>
+   $—
+  </td>
+</tr>
+<tr>
+<td>
+   Preferred shares issued with acquisitions
+  </td>
+<td>
+   $9,997
+  </td>
+<td>
+   $—
+  </td>
+<td>
+   $—
+  </td>
+</tr>
+</table>

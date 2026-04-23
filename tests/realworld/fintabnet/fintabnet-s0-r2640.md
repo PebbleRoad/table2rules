@@ -1,0 +1,313 @@
+<!-- source: FinTabNet s0-r2640 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td>
+   First Quarter
+  </td>
+<td>
+   Second Quarter
+  </td>
+<td>
+   Third Quarter
+  </td>
+<td>
+   Fourth Quarter
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="4">
+   (In thousands, except per share data)
+  </td>
+</tr>
+<tr>
+<td>
+   2009
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Revenue(1)
+  </td>
+<td>
+   $131,076
+  </td>
+<td>
+   $130,338
+  </td>
+<td>
+   $130,992
+  </td>
+<td>
+   $138,613
+  </td>
+</tr>
+<tr>
+<td>
+   Operating Income
+  </td>
+<td>
+   $34,178
+  </td>
+<td>
+   $55,403
+  </td>
+<td>
+   $57,651
+  </td>
+<td>
+   $63,328
+  </td>
+</tr>
+<tr>
+<td>
+   Net income
+  </td>
+<td>
+   $11,873
+  </td>
+<td>
+   $29,794
+  </td>
+<td>
+   $28,839
+  </td>
+<td>
+   $33,366
+  </td>
+</tr>
+<tr>
+<td>
+   Net income attributable to the Trust
+  </td>
+<td>
+   $10,484
+  </td>
+<td>
+   $28,417
+  </td>
+<td>
+   $27,433
+  </td>
+<td>
+   $31,970
+  </td>
+</tr>
+<tr>
+<td>
+   Net income available for common shareholders
+  </td>
+<td>
+   $10,349
+  </td>
+<td>
+   $28,282
+  </td>
+<td>
+   $27,297
+  </td>
+<td>
+   $31,835
+  </td>
+</tr>
+<tr>
+<td>
+   Earnings per common share—basic
+  </td>
+<td>
+   $0.17
+  </td>
+<td>
+   $0.48
+  </td>
+<td>
+   $0.45
+  </td>
+<td>
+   $0.52
+  </td>
+</tr>
+<tr>
+<td>
+   Earnings per common share—diluted
+  </td>
+<td>
+   $0.17
+  </td>
+<td>
+   $0.48
+  </td>
+<td>
+   $0.45
+  </td>
+<td>
+   $0.52
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   First Quarter
+  </td>
+<td>
+   Second Quarter
+  </td>
+<td>
+   Third Quarter
+  </td>
+<td>
+   Fourth Quarter
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="4">
+   (In thousands, except per share data)
+  </td>
+</tr>
+<tr>
+<td>
+   2008
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Revenue(1)
+  </td>
+<td>
+   $126,242
+  </td>
+<td>
+   $128,712
+  </td>
+<td>
+   $131,707
+  </td>
+<td>
+   $133,527
+  </td>
+</tr>
+<tr>
+<td>
+   Operating Income
+  </td>
+<td>
+   $54,319
+  </td>
+<td>
+   $53,515
+  </td>
+<td>
+   $55,446
+  </td>
+<td>
+   $53,955
+  </td>
+</tr>
+<tr>
+<td>
+   Net income
+  </td>
+<td>
+   $31,318
+  </td>
+<td>
+   $30,383
+  </td>
+<td>
+   $38,417
+  </td>
+<td>
+   $35,035
+  </td>
+</tr>
+<tr>
+<td>
+   Net income attributable to the Trust
+  </td>
+<td>
+   $29,986
+  </td>
+<td>
+   $28,974
+  </td>
+<td>
+   $37,102
+  </td>
+<td>
+   $33,725
+  </td>
+</tr>
+<tr>
+<td>
+   Net income available for common shareholders
+  </td>
+<td>
+   $29,851
+  </td>
+<td>
+   $28,839
+  </td>
+<td>
+   $36,966
+  </td>
+<td>
+   $33,590
+  </td>
+</tr>
+<tr>
+<td>
+   Earnings per common share—basic
+  </td>
+<td>
+   $0.51
+  </td>
+<td>
+   $0.49
+  </td>
+<td>
+   $0.63
+  </td>
+<td>
+   $0.57
+  </td>
+</tr>
+<tr>
+<td>
+   Earnings per common share—diluted
+  </td>
+<td>
+   $0.51
+  </td>
+<td>
+   $0.49
+  </td>
+<td>
+   $0.63
+  </td>
+<td>
+   $0.57
+  </td>
+</tr>
+</table>

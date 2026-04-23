@@ -1,0 +1,368 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$(0.09)",
+    "$(0.11)",
+    "$(0.18)",
+    "$(2.00)",
+    "$(2.18)",
+    "$0.24",
+    "$0.26",
+    "$0.31",
+    "$0.45",
+    "$0.83",
+    "$0.98",
+    "$1.14",
+    "$1.15",
+    "$1.16",
+    "$1.26",
+    "$1.68",
+    "$2.16",
+    "$3.42",
+    "$3.91",
+    "$3.95",
+    "$6.88",
+    "$\u2014",
+    "1 At statutory tax rates prior to consideration of U.S. tax reform. Full year 2017 also includes $15 million increase to prior year taxes related to non-U.S. restructuring costs.",
+    "2 At statutory tax rates prior to consideration of U.S. tax reform.",
+    "2016",
+    "2017",
+    "3 Net of U.S. federal tax at 35 percent.",
+    "4 Includes a $17 million tax benefit.",
+    "Adjusted profit per share",
+    "Per share U.S. tax reform impact",
+    "Per share amounts computed using fully diluted shares outstanding except for consolidated loss per share, which was computed using basic shares outstanding.",
+    "Per share gain on sale of equity investment 2",
+    "Per share goodwill impairment 4",
+    "Per share mark-to-market losses 2",
+    "Per share restructuring costs 1",
+    "Per share state deferred tax valuation allowance (reversal) 3",
+    "Profit (Loss) per share - diluted",
+    "Three Months Ended December 31,",
+    "Twelve Months Ended December 31,"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Profit (Loss) per share - diluted"
+    },
+    {
+      "row": [],
+      "col": [
+        "Three Months Ended December 31,",
+        "2017"
+      ],
+      "value": "$(2.18)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Three Months Ended December 31,",
+        "2016"
+      ],
+      "value": "$(2.00)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Twelve Months Ended December 31,",
+        "2017"
+      ],
+      "value": "$1.26"
+    },
+    {
+      "row": [],
+      "col": [
+        "Twelve Months Ended December 31,",
+        "2016"
+      ],
+      "value": "$(0.11)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Per share restructuring costs 1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Three Months Ended December 31,",
+        "2017"
+      ],
+      "value": "$0.31"
+    },
+    {
+      "row": [],
+      "col": [
+        "Three Months Ended December 31,",
+        "2016"
+      ],
+      "value": "$0.45"
+    },
+    {
+      "row": [],
+      "col": [
+        "Twelve Months Ended December 31,",
+        "2017"
+      ],
+      "value": "$1.68"
+    },
+    {
+      "row": [],
+      "col": [
+        "Twelve Months Ended December 31,",
+        "2016"
+      ],
+      "value": "$1.16"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Per share mark-to-market losses 2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Three Months Ended December 31,",
+        "2017"
+      ],
+      "value": "$0.26"
+    },
+    {
+      "row": [],
+      "col": [
+        "Three Months Ended December 31,",
+        "2016"
+      ],
+      "value": "$1.14"
+    },
+    {
+      "row": [],
+      "col": [
+        "Twelve Months Ended December 31,",
+        "2017"
+      ],
+      "value": "$0.26"
+    },
+    {
+      "row": [],
+      "col": [
+        "Twelve Months Ended December 31,",
+        "2016"
+      ],
+      "value": "$1.15"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Per share state deferred tax valuation allowance (reversal) 3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Three Months Ended December 31,",
+        "2017"
+      ],
+      "value": "$(0.18)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Three Months Ended December 31,",
+        "2016"
+      ],
+      "value": "$0.24"
+    },
+    {
+      "row": [],
+      "col": [
+        "Twelve Months Ended December 31,",
+        "2017"
+      ],
+      "value": "$(0.18)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Twelve Months Ended December 31,",
+        "2016"
+      ],
+      "value": "$0.24"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Per share gain on sale of equity investment 2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Three Months Ended December 31,",
+        "2017"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Three Months Ended December 31,",
+        "2016"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Twelve Months Ended December 31,",
+        "2017"
+      ],
+      "value": "$(0.09)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Twelve Months Ended December 31,",
+        "2016"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Per share U.S. tax reform impact"
+    },
+    {
+      "row": [],
+      "col": [
+        "Three Months Ended December 31,",
+        "2017"
+      ],
+      "value": "$3.91"
+    },
+    {
+      "row": [],
+      "col": [
+        "Three Months Ended December 31,",
+        "2016"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Twelve Months Ended December 31,",
+        "2017"
+      ],
+      "value": "$3.95"
+    },
+    {
+      "row": [],
+      "col": [
+        "Twelve Months Ended December 31,",
+        "2016"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Per share goodwill impairment 4"
+    },
+    {
+      "row": [],
+      "col": [
+        "Three Months Ended December 31,",
+        "2017"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Three Months Ended December 31,",
+        "2016"
+      ],
+      "value": "$0.98"
+    },
+    {
+      "row": [],
+      "col": [
+        "Twelve Months Ended December 31,",
+        "2017"
+      ],
+      "value": "$\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Twelve Months Ended December 31,",
+        "2016"
+      ],
+      "value": "$0.98"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Adjusted profit per share"
+    },
+    {
+      "row": [],
+      "col": [
+        "Three Months Ended December 31,",
+        "2017"
+      ],
+      "value": "$2.16"
+    },
+    {
+      "row": [],
+      "col": [
+        "Three Months Ended December 31,",
+        "2016"
+      ],
+      "value": "$0.83"
+    },
+    {
+      "row": [],
+      "col": [
+        "Twelve Months Ended December 31,",
+        "2017"
+      ],
+      "value": "$6.88"
+    },
+    {
+      "row": [],
+      "col": [
+        "Twelve Months Ended December 31,",
+        "2016"
+      ],
+      "value": "$3.42"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "1 At statutory tax rates prior to consideration of U.S. tax reform. Full year 2017 also includes $15 million increase to prior year taxes related to non-U.S. restructuring costs."
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "2 At statutory tax rates prior to consideration of U.S. tax reform."
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "3 Net of U.S. federal tax at 35 percent."
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "4 Includes a $17 million tax benefit."
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Per share amounts computed using fully diluted shares outstanding except for consolidated loss per share, which was computed using basic shares outstanding."
+    }
+  ]
+}

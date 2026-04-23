@@ -1,0 +1,269 @@
+<!-- source: FinTabNet s0-r2041 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="2">
+   Managed
+  </td>
+<td colspan="2">
+   Franchised/Licensed
+  </td>
+<td colspan="2">
+   Owned/Leased
+  </td>
+<td colspan="2">
+   Other
+   <sup>
+    (1)
+   </sup>
+</td>
+<td colspan="2">
+   Total
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   Properties
+  </td>
+<td>
+   Rooms
+  </td>
+<td>
+   Properties
+  </td>
+<td>
+   Rooms
+  </td>
+<td>
+   Properties
+  </td>
+<td>
+   Rooms
+  </td>
+<td>
+   Properties
+  </td>
+<td>
+   Rooms
+  </td>
+<td>
+   Properties
+  </td>
+<td>
+   Rooms
+  </td>
+</tr>
+<tr>
+<td>
+   North American Full-Service
+  </td>
+<td>
+   413
+  </td>
+<td>
+   184,541
+  </td>
+<td>
+   705
+  </td>
+<td>
+   202,204
+  </td>
+<td>
+   9
+  </td>
+<td>
+   5,275
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   1,127
+  </td>
+<td>
+   392,020
+  </td>
+</tr>
+<tr>
+<td>
+   North American Limited-Service
+  </td>
+<td>
+   408
+  </td>
+<td>
+   64,372
+  </td>
+<td>
+   3,432
+  </td>
+<td>
+   395,522
+  </td>
+<td>
+   20
+  </td>
+<td>
+   3,006
+  </td>
+<td>
+   49
+  </td>
+<td>
+   8,447
+  </td>
+<td>
+   3,909
+  </td>
+<td>
+   471,347
+  </td>
+</tr>
+<tr>
+<td>
+   Asia Pacific
+  </td>
+<td>
+   612
+  </td>
+<td>
+   179,243
+  </td>
+<td>
+   98
+  </td>
+<td>
+   27,258
+  </td>
+<td>
+   2
+  </td>
+<td>
+   410
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   712
+  </td>
+<td>
+   206,911
+  </td>
+</tr>
+<tr>
+<td>
+   Other International
+  </td>
+<td>
+   524
+  </td>
+<td>
+   121,508
+  </td>
+<td>
+   411
+  </td>
+<td>
+   82,243
+  </td>
+<td>
+   32
+  </td>
+<td>
+   8,404
+  </td>
+<td>
+   102
+  </td>
+<td>
+   12,749
+  </td>
+<td>
+   1,069
+  </td>
+<td>
+   224,904
+  </td>
+</tr>
+<tr>
+<td>
+   Timeshare
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   89
+  </td>
+<td>
+   22,186
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   89
+  </td>
+<td>
+   22,186
+  </td>
+</tr>
+<tr>
+<td>
+   Total
+  </td>
+<td>
+   1,957
+  </td>
+<td>
+   549,664
+  </td>
+<td>
+   4,735
+  </td>
+<td>
+   729,413
+  </td>
+<td>
+   63
+  </td>
+<td>
+   17,095
+  </td>
+<td>
+   151
+  </td>
+<td>
+   21,196
+  </td>
+<td>
+   6,906
+  </td>
+<td>
+   1,317,368
+  </td>
+</tr>
+</table>

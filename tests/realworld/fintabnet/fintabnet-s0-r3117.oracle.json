@@ -1,0 +1,280 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$ Change",
+    "$(21.9)",
+    "$(26.0)",
+    "$102.1",
+    "$107.7",
+    "$125.6",
+    "$129.6",
+    "$17.9",
+    "$7.9",
+    "$76.1",
+    "$84.0",
+    "% Change",
+    "(17)%",
+    "(25)%",
+    "(dollars in millions)",
+    "10%",
+    "10.0",
+    "15%",
+    "17%",
+    "2016",
+    "2016 to 2017",
+    "2017",
+    "2017 to 2018",
+    "2018",
+    "27.5",
+    "31.6",
+    "32%",
+    "4%",
+    "4.1",
+    "41.6",
+    "5%",
+    "Included in cost of revenue",
+    "Included in operating expenses",
+    "Percentage of total revenue",
+    "Total",
+    "Year Ended October 31,"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Included in cost of revenue"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2018",
+        "(dollars in millions)"
+      ],
+      "value": "$84.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2017",
+        "(dollars in millions)"
+      ],
+      "value": "$76.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2016",
+        "(dollars in millions)"
+      ],
+      "value": "$102.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2017 to 2018",
+        "(dollars in millions)"
+      ],
+      "value": "$7.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2017 to 2018",
+        "(dollars in millions)"
+      ],
+      "value": "10%"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2016 to 2017",
+        "(dollars in millions)"
+      ],
+      "value": "$(26.0)"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2016 to 2017",
+        "(dollars in millions)"
+      ],
+      "value": "(25)%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Included in operating expenses"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2018",
+        "(dollars in millions)"
+      ],
+      "value": "41.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2017",
+        "(dollars in millions)"
+      ],
+      "value": "31.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2016",
+        "(dollars in millions)"
+      ],
+      "value": "27.5"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2017 to 2018",
+        "(dollars in millions)"
+      ],
+      "value": "10.0"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2017 to 2018",
+        "(dollars in millions)"
+      ],
+      "value": "32%"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2016 to 2017",
+        "(dollars in millions)"
+      ],
+      "value": "4.1"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2016 to 2017",
+        "(dollars in millions)"
+      ],
+      "value": "15%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2018",
+        "(dollars in millions)"
+      ],
+      "value": "$125.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2017",
+        "(dollars in millions)"
+      ],
+      "value": "$107.7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2016",
+        "(dollars in millions)"
+      ],
+      "value": "$129.6"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2017 to 2018",
+        "(dollars in millions)"
+      ],
+      "value": "$17.9"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2017 to 2018",
+        "(dollars in millions)"
+      ],
+      "value": "17%"
+    },
+    {
+      "row": [],
+      "col": [
+        "$ Change",
+        "2016 to 2017",
+        "(dollars in millions)"
+      ],
+      "value": "$(21.9)"
+    },
+    {
+      "row": [],
+      "col": [
+        "% Change",
+        "2016 to 2017",
+        "(dollars in millions)"
+      ],
+      "value": "(17)%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Percentage of total revenue"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2018",
+        "(dollars in millions)"
+      ],
+      "value": "4%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2017",
+        "(dollars in millions)"
+      ],
+      "value": "4%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year Ended October 31,",
+        "2016",
+        "(dollars in millions)"
+      ],
+      "value": "5%"
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+<!-- source: FinTabNet s0-r869 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="2">
+   Class A
+  </td>
+<td colspan="2">
+   Class A Special
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   High
+  </td>
+<td>
+   Low
+  </td>
+<td>
+   High
+  </td>
+<td>
+   Low
+  </td>
+</tr>
+<tr>
+<td>
+   2015
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   First Quarter
+  </td>
+<td>
+   $60.70
+  </td>
+<td>
+   $52.45
+  </td>
+<td>
+   $60.19
+  </td>
+<td>
+   $52.23
+  </td>
+</tr>
+<tr>
+<td>
+   Second Quarter
+  </td>
+<td>
+   $61.64
+  </td>
+<td>
+   $56.05
+  </td>
+<td>
+   $61.38
+  </td>
+<td>
+   $55.74
+  </td>
+</tr>
+<tr>
+<td>
+   Third Quarter
+  </td>
+<td>
+   $64.99
+  </td>
+<td>
+   $50.00
+  </td>
+<td>
+   $64.70
+  </td>
+<td>
+   $51.26
+  </td>
+</tr>
+<tr>
+<td>
+   FourthQuarter
+   <sup>
+    (a)
+   </sup>
+</td>
+<td>
+   $63.38
+  </td>
+<td>
+   $55.39
+  </td>
+<td>
+   $63.48
+  </td>
+<td>
+   $56.88
+  </td>
+</tr>
+<tr>
+<td>
+   2014
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   First Quarter
+  </td>
+<td>
+   $55.28
+  </td>
+<td>
+   $49.00
+  </td>
+<td>
+   $53.10
+  </td>
+<td>
+   $47.87
+  </td>
+</tr>
+<tr>
+<td>
+   Second Quarter
+  </td>
+<td>
+   $54.26
+  </td>
+<td>
+   $47.74
+  </td>
+<td>
+   $53.88
+  </td>
+<td>
+   $47.21
+  </td>
+</tr>
+<tr>
+<td>
+   Third Quarter
+  </td>
+<td>
+   $57.49
+  </td>
+<td>
+   $52.52
+  </td>
+<td>
+   $57.16
+  </td>
+<td>
+   $52.43
+  </td>
+</tr>
+<tr>
+<td>
+   Fourth Quarter
+  </td>
+<td>
+   $59.30
+  </td>
+<td>
+   $49.33
+  </td>
+<td>
+   $58.94
+  </td>
+<td>
+   $49.26
+  </td>
+</tr>
+</table>

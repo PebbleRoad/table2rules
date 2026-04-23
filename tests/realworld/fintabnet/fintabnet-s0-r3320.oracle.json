@@ -1,0 +1,495 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$11,151",
+    "$11,714",
+    "$12,049",
+    "$2,210",
+    "$2,540",
+    "$2,647",
+    "$30,274",
+    "$30,871",
+    "$31,821",
+    "$4,619",
+    "$4,838",
+    "$6,666",
+    "$6,946",
+    "$7,135",
+    "$8,489",
+    "$8,515",
+    "(13)",
+    "(23)",
+    "(26)",
+    "(4)",
+    "(6)",
+    "(Millions)",
+    "1,017",
+    "1,168",
+    "1,234",
+    "1,502",
+    "1,531",
+    "1,647",
+    "1,798",
+    "2,386",
+    "2,487",
+    "2,580",
+    "2,982",
+    "2013",
+    "2014",
+    "2015",
+    "3,504",
+    "3,611",
+    "499",
+    "570",
+    "6,228",
+    "7",
+    "7,085",
+    "7,198",
+    "706",
+    "867",
+    "9,041",
+    "9,047",
+    "9,418",
+    "908",
+    "Asia Pacific",
+    "Europe, Middle East and Africa",
+    "Latin America and Canada",
+    "Net Sales",
+    "Operating Income",
+    "Other Unallocated",
+    "Property, Plant and Equipment - net",
+    "Total Company",
+    "United States",
+    "\u2014"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "(Millions)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Sales"
+      ],
+      "value": "2015"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Sales"
+      ],
+      "value": "2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Sales"
+      ],
+      "value": "2013"
+    },
+    {
+      "row": [],
+      "col": [
+        "Operating Income"
+      ],
+      "value": "2015"
+    },
+    {
+      "row": [],
+      "col": [
+        "Operating Income"
+      ],
+      "value": "2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Operating Income"
+      ],
+      "value": "2013"
+    },
+    {
+      "row": [],
+      "col": [
+        "Property, Plant and Equipment - net"
+      ],
+      "value": "2015"
+    },
+    {
+      "row": [],
+      "col": [
+        "Property, Plant and Equipment - net"
+      ],
+      "value": "2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "United States"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Sales"
+      ],
+      "value": "$12,049"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Sales"
+      ],
+      "value": "$11,714"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Sales"
+      ],
+      "value": "$11,151"
+    },
+    {
+      "row": [],
+      "col": [
+        "Operating Income"
+      ],
+      "value": "$2,647"
+    },
+    {
+      "row": [],
+      "col": [
+        "Operating Income"
+      ],
+      "value": "$2,540"
+    },
+    {
+      "row": [],
+      "col": [
+        "Operating Income"
+      ],
+      "value": "$2,210"
+    },
+    {
+      "row": [],
+      "col": [
+        "Property, Plant and Equipment - net"
+      ],
+      "value": "$4,838"
+    },
+    {
+      "row": [],
+      "col": [
+        "Property, Plant and Equipment - net"
+      ],
+      "value": "$4,619"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Asia Pacific"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Sales"
+      ],
+      "value": "9,041"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Sales"
+      ],
+      "value": "9,418"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Sales"
+      ],
+      "value": "9,047"
+    },
+    {
+      "row": [],
+      "col": [
+        "Operating Income"
+      ],
+      "value": "2,580"
+    },
+    {
+      "row": [],
+      "col": [
+        "Operating Income"
+      ],
+      "value": "2,487"
+    },
+    {
+      "row": [],
+      "col": [
+        "Operating Income"
+      ],
+      "value": "2,386"
+    },
+    {
+      "row": [],
+      "col": [
+        "Property, Plant and Equipment - net"
+      ],
+      "value": "1,647"
+    },
+    {
+      "row": [],
+      "col": [
+        "Property, Plant and Equipment - net"
+      ],
+      "value": "1,798"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Europe, Middle East and Africa"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Sales"
+      ],
+      "value": "6,228"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Sales"
+      ],
+      "value": "7,198"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Sales"
+      ],
+      "value": "7,085"
+    },
+    {
+      "row": [],
+      "col": [
+        "Operating Income"
+      ],
+      "value": "1,017"
+    },
+    {
+      "row": [],
+      "col": [
+        "Operating Income"
+      ],
+      "value": "1,234"
+    },
+    {
+      "row": [],
+      "col": [
+        "Operating Income"
+      ],
+      "value": "1,168"
+    },
+    {
+      "row": [],
+      "col": [
+        "Property, Plant and Equipment - net"
+      ],
+      "value": "1,531"
+    },
+    {
+      "row": [],
+      "col": [
+        "Property, Plant and Equipment - net"
+      ],
+      "value": "1,502"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Latin America and Canada"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Sales"
+      ],
+      "value": "2,982"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Sales"
+      ],
+      "value": "3,504"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Sales"
+      ],
+      "value": "3,611"
+    },
+    {
+      "row": [],
+      "col": [
+        "Operating Income"
+      ],
+      "value": "706"
+    },
+    {
+      "row": [],
+      "col": [
+        "Operating Income"
+      ],
+      "value": "867"
+    },
+    {
+      "row": [],
+      "col": [
+        "Operating Income"
+      ],
+      "value": "908"
+    },
+    {
+      "row": [],
+      "col": [
+        "Property, Plant and Equipment - net"
+      ],
+      "value": "499"
+    },
+    {
+      "row": [],
+      "col": [
+        "Property, Plant and Equipment - net"
+      ],
+      "value": "570"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Other Unallocated"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Sales"
+      ],
+      "value": "(26)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Sales"
+      ],
+      "value": "(13)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Sales"
+      ],
+      "value": "(23)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Operating Income"
+      ],
+      "value": "(4)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Operating Income"
+      ],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Operating Income"
+      ],
+      "value": "(6)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Property, Plant and Equipment - net"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Property, Plant and Equipment - net"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total Company"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Sales"
+      ],
+      "value": "$30,274"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Sales"
+      ],
+      "value": "$31,821"
+    },
+    {
+      "row": [],
+      "col": [
+        "Net Sales"
+      ],
+      "value": "$30,871"
+    },
+    {
+      "row": [],
+      "col": [
+        "Operating Income"
+      ],
+      "value": "$6,946"
+    },
+    {
+      "row": [],
+      "col": [
+        "Operating Income"
+      ],
+      "value": "$7,135"
+    },
+    {
+      "row": [],
+      "col": [
+        "Operating Income"
+      ],
+      "value": "$6,666"
+    },
+    {
+      "row": [],
+      "col": [
+        "Property, Plant and Equipment - net"
+      ],
+      "value": "$8,515"
+    },
+    {
+      "row": [],
+      "col": [
+        "Property, Plant and Equipment - net"
+      ],
+      "value": "$8,489"
+    }
+  ]
+}

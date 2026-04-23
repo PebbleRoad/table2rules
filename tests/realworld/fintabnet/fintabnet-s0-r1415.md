@@ -1,0 +1,179 @@
+<!-- source: FinTabNet s0-r1415 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td>
+   Cash FlowHedges
+  </td>
+<td>
+   Pension andOtherPostretirementBenefit Plans
+  </td>
+<td>
+   ForeignCurrencyTranslationAdjustment
+  </td>
+<td>
+   AccumulatedOtherComprehensiveIncome (Loss)
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="4">
+   (Dollars in thousands)
+  </td>
+</tr>
+<tr>
+<td>
+   Balance at December 31, 2016
+  </td>
+<td>
+   $(2,424)
+  </td>
+<td>
+   $(136,596)
+  </td>
+<td>
+   $(299,697)
+  </td>
+<td>
+   $(438,717)
+  </td>
+</tr>
+<tr>
+<td>
+   Other comprehensive income (loss) before reclassifications
+  </td>
+<td>
+   2,775
+  </td>
+<td>
+   (6,725)
+  </td>
+<td>
+   173,074
+  </td>
+<td>
+   169,124
+  </td>
+</tr>
+<tr>
+<td>
+   Amounts reclassified from accumulated other comprehensive income (loss)
+  </td>
+<td>
+   (11)
+  </td>
+<td>
+   4,513
+  </td>
+<td>
+   —
+  </td>
+<td>
+   4,502
+  </td>
+</tr>
+<tr>
+<td>
+   Net current-year other comprehensive income (loss)
+  </td>
+<td>
+   2,764
+  </td>
+<td>
+   (2,212)
+  </td>
+<td>
+   173,074
+  </td>
+<td>
+   173,626
+  </td>
+</tr>
+<tr>
+<td>
+   Balance at December 31, 2017
+  </td>
+<td>
+   340
+  </td>
+<td>
+   (138,808)
+  </td>
+<td>
+   (126,623)
+  </td>
+<td>
+   (265,091)
+  </td>
+</tr>
+<tr>
+<td>
+   Other comprehensive income (loss) before reclassifications
+  </td>
+<td>
+   2,574
+  </td>
+<td>
+   1,605
+  </td>
+<td>
+   (83,889)
+  </td>
+<td>
+   (79,710)
+  </td>
+</tr>
+<tr>
+<td>
+   Amounts reclassified from accumulated other comprehensive income
+  </td>
+<td>
+   (2,107)
+  </td>
+<td>
+   5,823
+  </td>
+<td>
+   —
+  </td>
+<td>
+   3,716
+  </td>
+</tr>
+<tr>
+<td>
+   Net current-year other comprehensive (loss) income
+  </td>
+<td>
+   467
+  </td>
+<td>
+   7,428
+  </td>
+<td>
+   (83,889)
+  </td>
+<td>
+   (75,994)
+  </td>
+</tr>
+<tr>
+<td>
+   Balance at December 31, 2018
+  </td>
+<td>
+   $807
+  </td>
+<td>
+   $(131,380)
+  </td>
+<td>
+   $(210,512)
+  </td>
+<td>
+   $(341,085)
+  </td>
+</tr>
+</table>

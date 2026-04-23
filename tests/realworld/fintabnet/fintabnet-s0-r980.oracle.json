@@ -1,0 +1,326 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$ Change",
+    "$113,314",
+    "$159,406",
+    "$16,697",
+    "$23,302",
+    "$46,092",
+    "$6,605",
+    "% Change",
+    "% of Revenues",
+    "13,121",
+    "13,464",
+    "16,879",
+    "19.9%",
+    "2.5%",
+    "20.3%",
+    "22,265",
+    "28.6%",
+    "29.0%",
+    "3,758",
+    "3.4%",
+    "37,125",
+    "39.6%",
+    "40.7%",
+    "46,371",
+    "5.0%",
+    "5.9%",
+    "59,390",
+    "59,835",
+    "6.4%",
+    "6.9%",
+    "60.0%",
+    "7.9%",
+    "8.3%",
+    "Automotive/Mobile",
+    "Aviation",
+    "Development",
+    "Fiscal year ended December 29, 2007",
+    "Fiscal year ended December 30, 2006",
+    "Marine",
+    "Outdoor/Fitness",
+    "Research &",
+    "Total",
+    "Year over Year"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Outdoor/Fitness"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal year ended December 29, 2007",
+        "Research &",
+        "Development"
+      ],
+      "value": "$23,302"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal year ended December 29, 2007",
+        "% of Revenues"
+      ],
+      "value": "6.9%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal year ended December 30, 2006",
+        "Research &",
+        "Development"
+      ],
+      "value": "$16,697"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal year ended December 30, 2006",
+        "% of Revenues"
+      ],
+      "value": "5.9%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year over Year",
+        "$ Change"
+      ],
+      "value": "$6,605"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year over Year",
+        "% Change"
+      ],
+      "value": "39.6%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Marine"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal year ended December 29, 2007",
+        "Research &",
+        "Development"
+      ],
+      "value": "16,879"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal year ended December 29, 2007",
+        "% of Revenues"
+      ],
+      "value": "8.3%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal year ended December 30, 2006",
+        "Research &",
+        "Development"
+      ],
+      "value": "13,121"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal year ended December 30, 2006",
+        "% of Revenues"
+      ],
+      "value": "7.9%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year over Year",
+        "$ Change"
+      ],
+      "value": "3,758"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year over Year",
+        "% Change"
+      ],
+      "value": "28.6%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Automotive/Mobile"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal year ended December 29, 2007",
+        "Research &",
+        "Development"
+      ],
+      "value": "59,390"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal year ended December 29, 2007",
+        "% of Revenues"
+      ],
+      "value": "2.5%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal year ended December 30, 2006",
+        "Research &",
+        "Development"
+      ],
+      "value": "37,125"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal year ended December 30, 2006",
+        "% of Revenues"
+      ],
+      "value": "3.4%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year over Year",
+        "$ Change"
+      ],
+      "value": "22,265"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year over Year",
+        "% Change"
+      ],
+      "value": "60.0%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Aviation"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal year ended December 29, 2007",
+        "Research &",
+        "Development"
+      ],
+      "value": "59,835"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal year ended December 29, 2007",
+        "% of Revenues"
+      ],
+      "value": "20.3%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal year ended December 30, 2006",
+        "Research &",
+        "Development"
+      ],
+      "value": "46,371"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal year ended December 30, 2006",
+        "% of Revenues"
+      ],
+      "value": "19.9%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year over Year",
+        "$ Change"
+      ],
+      "value": "13,464"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year over Year",
+        "% Change"
+      ],
+      "value": "29.0%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal year ended December 29, 2007",
+        "Research &",
+        "Development"
+      ],
+      "value": "$159,406"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal year ended December 29, 2007",
+        "% of Revenues"
+      ],
+      "value": "5.0%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal year ended December 30, 2006",
+        "Research &",
+        "Development"
+      ],
+      "value": "$113,314"
+    },
+    {
+      "row": [],
+      "col": [
+        "Fiscal year ended December 30, 2006",
+        "% of Revenues"
+      ],
+      "value": "6.4%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year over Year",
+        "$ Change"
+      ],
+      "value": "$46,092"
+    },
+    {
+      "row": [],
+      "col": [
+        "Year over Year",
+        "% Change"
+      ],
+      "value": "40.7%"
+    }
+  ]
+}

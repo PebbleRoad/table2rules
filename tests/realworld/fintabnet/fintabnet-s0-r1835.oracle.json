@@ -1,0 +1,768 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$(6,650)",
+    "$(7,180)",
+    "$(724)",
+    "$(876)",
+    "$1,129",
+    "$1,324",
+    "$10,935",
+    "$16,310",
+    "$17,148",
+    "$17,504",
+    "$244",
+    "$253",
+    "$266",
+    "$9,660",
+    "$9,968",
+    "$990",
+    "(1,153)",
+    "(10)",
+    "(104)",
+    "(178)",
+    "(2)",
+    "(3)",
+    "(505)",
+    "(633)",
+    "(773)",
+    "(92)",
+    "(94)",
+    "(In millions)",
+    "2",
+    "2015",
+    "2016",
+    "22",
+    "24",
+    "3",
+    "32",
+    "47",
+    "50",
+    "6",
+    "7",
+    "725",
+    "733",
+    "746",
+    "83",
+    "89",
+    "911",
+    "Actual return on plan assets",
+    "Actuarial (gain) loss (1) (2)",
+    "Benefit obligation at beginning of period",
+    "Benefit obligation at end of period",
+    "Benefit payments",
+    "Employer contributions",
+    "Fair value of plan assets at beginning of period",
+    "Fair value of plan assets at end of period",
+    "Funded status at end of period",
+    "Interest cost",
+    "Other",
+    "Other (3)",
+    "Pension Benefits",
+    "Plan amendments",
+    "Retiree Medical and Other Postretirement Benefits",
+    "Service cost",
+    "Settlements",
+    "\u2014"
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Benefit obligation at beginning of period"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2016",
+        "(In millions)"
+      ],
+      "value": "$16,310"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2015",
+        "(In millions)"
+      ],
+      "value": "$17,504"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Postretirement Benefits",
+        "2016",
+        "(In millions)"
+      ],
+      "value": "$1,129"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Postretirement Benefits",
+        "2015",
+        "(In millions)"
+      ],
+      "value": "$1,324"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Service cost"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2016",
+        "(In millions)"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2015",
+        "(In millions)"
+      ],
+      "value": "2"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Postretirement Benefits",
+        "2016",
+        "(In millions)"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Postretirement Benefits",
+        "2015",
+        "(In millions)"
+      ],
+      "value": "3"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Interest cost"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2016",
+        "(In millions)"
+      ],
+      "value": "746"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2015",
+        "(In millions)"
+      ],
+      "value": "733"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Postretirement Benefits",
+        "2016",
+        "(In millions)"
+      ],
+      "value": "47"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Postretirement Benefits",
+        "2015",
+        "(In millions)"
+      ],
+      "value": "50"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Actuarial (gain) loss (1) (2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2016",
+        "(In millions)"
+      ],
+      "value": "725"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2015",
+        "(In millions)"
+      ],
+      "value": "(1,153)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Postretirement Benefits",
+        "2016",
+        "(In millions)"
+      ],
+      "value": "(104)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Postretirement Benefits",
+        "2015",
+        "(In millions)"
+      ],
+      "value": "(178)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Plan amendments"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2016",
+        "(In millions)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2015",
+        "(In millions)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Postretirement Benefits",
+        "2016",
+        "(In millions)"
+      ],
+      "value": "7"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Postretirement Benefits",
+        "2015",
+        "(In millions)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Settlements"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2016",
+        "(In millions)"
+      ],
+      "value": "(2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2015",
+        "(In millions)"
+      ],
+      "value": "(3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Postretirement Benefits",
+        "2016",
+        "(In millions)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Postretirement Benefits",
+        "2015",
+        "(In millions)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Benefit payments"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2016",
+        "(In millions)"
+      ],
+      "value": "(633)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2015",
+        "(In millions)"
+      ],
+      "value": "(773)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Postretirement Benefits",
+        "2016",
+        "(In millions)"
+      ],
+      "value": "(92)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Postretirement Benefits",
+        "2015",
+        "(In millions)"
+      ],
+      "value": "(94)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Other"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2016",
+        "(In millions)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2015",
+        "(In millions)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Postretirement Benefits",
+        "2016",
+        "(In millions)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Postretirement Benefits",
+        "2015",
+        "(In millions)"
+      ],
+      "value": "24"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Benefit obligation at end of period"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2016",
+        "(In millions)"
+      ],
+      "value": "$17,148"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2015",
+        "(In millions)"
+      ],
+      "value": "$16,310"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Postretirement Benefits",
+        "2016",
+        "(In millions)"
+      ],
+      "value": "$990"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Postretirement Benefits",
+        "2015",
+        "(In millions)"
+      ],
+      "value": "$1,129"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Fair value of plan assets at beginning of period"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2016",
+        "(In millions)"
+      ],
+      "value": "$9,660"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2015",
+        "(In millions)"
+      ],
+      "value": "$10,935"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Postretirement Benefits",
+        "2016",
+        "(In millions)"
+      ],
+      "value": "$253"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Postretirement Benefits",
+        "2015",
+        "(In millions)"
+      ],
+      "value": "$244"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Actual return on plan assets"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2016",
+        "(In millions)"
+      ],
+      "value": "911"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2015",
+        "(In millions)"
+      ],
+      "value": "(505)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Postretirement Benefits",
+        "2016",
+        "(In millions)"
+      ],
+      "value": "22"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Postretirement Benefits",
+        "2015",
+        "(In millions)"
+      ],
+      "value": "(10)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Employer contributions"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2016",
+        "(In millions)"
+      ],
+      "value": "32"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2015",
+        "(In millions)"
+      ],
+      "value": "6"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Postretirement Benefits",
+        "2016",
+        "(In millions)"
+      ],
+      "value": "83"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Postretirement Benefits",
+        "2015",
+        "(In millions)"
+      ],
+      "value": "89"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Settlements"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2016",
+        "(In millions)"
+      ],
+      "value": "(2)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2015",
+        "(In millions)"
+      ],
+      "value": "(3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Postretirement Benefits",
+        "2016",
+        "(In millions)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Postretirement Benefits",
+        "2015",
+        "(In millions)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Benefit payments"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2016",
+        "(In millions)"
+      ],
+      "value": "(633)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2015",
+        "(In millions)"
+      ],
+      "value": "(773)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Postretirement Benefits",
+        "2016",
+        "(In millions)"
+      ],
+      "value": "(92)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Postretirement Benefits",
+        "2015",
+        "(In millions)"
+      ],
+      "value": "(94)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Other (3)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2016",
+        "(In millions)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2015",
+        "(In millions)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Postretirement Benefits",
+        "2016",
+        "(In millions)"
+      ],
+      "value": "\u2014"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Postretirement Benefits",
+        "2015",
+        "(In millions)"
+      ],
+      "value": "24"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Fair value of plan assets at end of period"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2016",
+        "(In millions)"
+      ],
+      "value": "$9,968"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2015",
+        "(In millions)"
+      ],
+      "value": "$9,660"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Postretirement Benefits",
+        "2016",
+        "(In millions)"
+      ],
+      "value": "$266"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Postretirement Benefits",
+        "2015",
+        "(In millions)"
+      ],
+      "value": "$253"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Funded status at end of period"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2016",
+        "(In millions)"
+      ],
+      "value": "$(7,180)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Pension Benefits",
+        "2015",
+        "(In millions)"
+      ],
+      "value": "$(6,650)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Postretirement Benefits",
+        "2016",
+        "(In millions)"
+      ],
+      "value": "$(724)"
+    },
+    {
+      "row": [],
+      "col": [
+        "Retiree Medical and Other Postretirement Benefits",
+        "2015",
+        "(In millions)"
+      ],
+      "value": "$(876)"
+    }
+  ]
+}

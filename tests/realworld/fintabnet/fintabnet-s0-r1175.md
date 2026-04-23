@@ -1,0 +1,261 @@
+<!-- source: FinTabNet s0-r1175 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td colspan="4">
+   Year Ended December 31,
+  </td>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="2">
+   2018
+  </td>
+<td colspan="2">
+   2017
+  </td>
+<td colspan="2">
+   Change in
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   $
+  </td>
+<td>
+   % ofRevenue
+  </td>
+<td>
+   $
+  </td>
+<td>
+   % ofRevenue
+  </td>
+<td>
+   $
+  </td>
+<td>
+   %
+  </td>
+</tr>
+<tr>
+<td>
+   Revenue
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Product
+  </td>
+<td>
+   $1,841,100
+  </td>
+<td>
+   85.6%
+  </td>
+<td>
+   $1,432,810
+  </td>
+<td>
+   87.0%
+  </td>
+<td>
+   $408,290
+  </td>
+<td>
+   28.5%
+  </td>
+</tr>
+<tr>
+<td>
+   Service
+  </td>
+<td>
+   310,269
+  </td>
+<td>
+   14.4
+  </td>
+<td>
+   213,376
+  </td>
+<td>
+   13.0
+  </td>
+<td>
+   96,893
+  </td>
+<td>
+   45.4
+  </td>
+</tr>
+<tr>
+<td>
+   Total revenue
+  </td>
+<td>
+   2,151,369
+  </td>
+<td>
+   100.0
+  </td>
+<td>
+   1,646,186
+  </td>
+<td>
+   100.0
+  </td>
+<td>
+   505,183
+  </td>
+<td>
+   30.7
+  </td>
+</tr>
+<tr>
+<td>
+   Cost of revenue
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Product
+  </td>
+<td>
+   720,584
+  </td>
+<td>
+   33.5
+  </td>
+<td>
+   538,035
+  </td>
+<td>
+   32.7
+  </td>
+<td>
+   182,549
+  </td>
+<td>
+   33.9
+  </td>
+</tr>
+<tr>
+<td>
+   Service
+  </td>
+<td>
+   57,408
+  </td>
+<td>
+   2.7
+  </td>
+<td>
+   46,382
+  </td>
+<td>
+   2.8
+  </td>
+<td>
+   11,026
+  </td>
+<td>
+   23.8
+  </td>
+</tr>
+<tr>
+<td>
+   Total cost of revenue
+  </td>
+<td>
+   777,992
+  </td>
+<td>
+   36.2
+  </td>
+<td>
+   584,417
+  </td>
+<td>
+   35.5
+  </td>
+<td>
+   193,575
+  </td>
+<td>
+   33.1
+  </td>
+</tr>
+<tr>
+<td>
+   Gross profit
+  </td>
+<td>
+   $1,373,377
+  </td>
+<td>
+   63.8%
+  </td>
+<td>
+   $1,061,769
+  </td>
+<td>
+   64.5%
+  </td>
+<td>
+   $311,608
+  </td>
+<td>
+   29.3%
+  </td>
+</tr>
+<tr>
+<td>
+   Gross margin
+  </td>
+<td>
+   63.8%
+  </td>
+<td>
+</td>
+<td>
+   64.5%
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+</table>

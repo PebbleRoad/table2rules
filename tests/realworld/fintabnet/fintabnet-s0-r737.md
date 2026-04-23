@@ -1,0 +1,380 @@
+<!-- source: FinTabNet s0-r737 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td colspan="6">
+   As Restated
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="3">
+   December 29,2018
+  </td>
+<td colspan="3">
+   December 30,2017
+  </td>
+<td colspan="3">
+   December 31,2016
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+   Before Tax Amount
+  </td>
+<td>
+   Tax
+  </td>
+<td>
+   Net of Tax Amount
+  </td>
+<td>
+   Before Tax Amount
+  </td>
+<td>
+   Tax
+  </td>
+<td>
+   Net of Tax Amount
+  </td>
+<td>
+   Before Tax Amount
+  </td>
+<td>
+   Tax
+  </td>
+<td>
+   Net of Tax Amount
+  </td>
+</tr>
+<tr>
+<td>
+   Foreign currency translation adjustments
+  </td>
+<td>
+   $(1,173)
+  </td>
+<td>
+   $—
+  </td>
+<td>
+   $(1,173)
+  </td>
+<td>
+   $1,179
+  </td>
+<td>
+   $—
+  </td>
+<td>
+   $1,179
+  </td>
+<td>
+   $(985)
+  </td>
+<td>
+   $—
+  </td>
+<td>
+   $(985)
+  </td>
+</tr>
+<tr>
+<td>
+   Net deferred gains/(losses) on net investment hedges
+  </td>
+<td>
+   377
+  </td>
+<td>
+   (93)
+  </td>
+<td>
+   284
+  </td>
+<td>
+   (632)
+  </td>
+<td>
+   279
+  </td>
+<td>
+   (353)
+  </td>
+<td>
+   426
+  </td>
+<td>
+   (200)
+  </td>
+<td>
+   226
+  </td>
+</tr>
+<tr>
+<td>
+   Amounts excluded from the effectiveness assessment of net investment hedges
+  </td>
+<td>
+   10
+  </td>
+<td>
+   (3)
+  </td>
+<td>
+   7
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+</tr>
+<tr>
+<td>
+   Net deferred losses/(gains) on net investment hedges reclassified to net income/(loss)
+  </td>
+<td>
+   (10)
+  </td>
+<td>
+   3
+  </td>
+<td>
+   (7)
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+</tr>
+<tr>
+<td>
+   Net deferred gains/(losses) on cash flow hedges
+  </td>
+<td>
+   116
+  </td>
+<td>
+   (17)
+  </td>
+<td>
+   99
+  </td>
+<td>
+   (123)
+  </td>
+<td>
+   10
+  </td>
+<td>
+   (113)
+  </td>
+<td>
+   40
+  </td>
+<td>
+   6
+  </td>
+<td>
+   46
+  </td>
+</tr>
+<tr>
+<td>
+   Amounts excluded from the effectiveness assessment of cash flow hedges
+  </td>
+<td>
+   2
+  </td>
+<td>
+   —
+  </td>
+<td>
+   2
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+<td>
+   —
+  </td>
+</tr>
+<tr>
+<td>
+   Net deferred losses/(gains) on cash flow hedges reclassified to net income/(loss)
+  </td>
+<td>
+   (45)
+  </td>
+<td>
+   1
+  </td>
+<td>
+   (44)
+  </td>
+<td>
+   85
+  </td>
+<td>
+   —
+  </td>
+<td>
+   85
+  </td>
+<td>
+   (81)
+  </td>
+<td>
+   (6)
+  </td>
+<td>
+   (87)
+  </td>
+</tr>
+<tr>
+<td>
+   Net actuarial gains/(losses) arising during the period
+  </td>
+<td>
+   74
+  </td>
+<td>
+   (16)
+  </td>
+<td>
+   58
+  </td>
+<td>
+   116
+  </td>
+<td>
+   (47)
+  </td>
+<td>
+   69
+  </td>
+<td>
+   (78)
+  </td>
+<td>
+   38
+  </td>
+<td>
+   (40)
+  </td>
+</tr>
+<tr>
+<td>
+   Prior service credits/(costs) arising during the period
+  </td>
+<td>
+   6
+  </td>
+<td>
+   (3)
+  </td>
+<td>
+   3
+  </td>
+<td>
+   25
+  </td>
+<td>
+   (8)
+  </td>
+<td>
+   17
+  </td>
+<td>
+   51
+  </td>
+<td>
+   (20)
+  </td>
+<td>
+   31
+  </td>
+</tr>
+<tr>
+<td>
+   Net postemployment benefit losses/(gains) reclassified to net income/(loss)
+  </td>
+<td>
+   (156)
+  </td>
+<td>
+   38
+  </td>
+<td>
+   (118)
+  </td>
+<td>
+   (502)
+  </td>
+<td>
+   193
+  </td>
+<td>
+   (309)
+  </td>
+<td>
+   (331)
+  </td>
+<td>
+   127
+  </td>
+<td>
+   (204)
+  </td>
+</tr>
+</table>

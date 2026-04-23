@@ -3,6 +3,7 @@ from bs4 import NavigableString
 import re
 
 from .errors import TableTooLargeError
+from .simple_repair import detect_header_block
 
 # Guards against adversarial HTML. Normal tables never approach these.
 MAX_SPAN = 1000              # per-cell rowspan/colspan cap
@@ -112,7 +113,16 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
     else:
         # --- Logic for "Headless" tables (NO <thead>) ---
 
-        # Step 1: Prefer an explicit header row that uses <th>
+        # Step 1: Prefer an explicit header row that uses <th>.
+        # A column-header row has <th> cells whose scope is NOT 'row':
+        # scope='row' marks a row-stub header (row label), not a
+        # column label, so those cells cannot make a row qualify as the
+        # primary column-header row. Otherwise a single mid-body
+        # <th scope='row'> summary row (produced by Fix 5 on "Total"
+        # labels) would be mistaken for the table header.
+        def _is_col_header_cell(cell):
+            return cell.name == 'th' and cell.get('scope') != 'row'
+
         header_row_idx = None
         for idx, row in enumerate(actual_rows):
             cells = get_row_cells(row, table)
@@ -120,13 +130,13 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
                 # Skip empty or title rows
                 continue
 
-            has_th = any(cell.name == 'th' for cell in cells)
-            all_th_or_empty = all(
-                (cell.name == 'th') or not cell.get_text(strip=True)
+            has_col_th = any(_is_col_header_cell(cell) for cell in cells)
+            all_col_th_or_empty = all(
+                _is_col_header_cell(cell) or not cell.get_text(strip=True)
                 for cell in cells
             )
 
-            if has_th and all_th_or_empty:
+            if has_col_th and all_col_th_or_empty:
                 header_row_idx = idx
                 break
 
@@ -164,48 +174,19 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
             if found_header_row:
                 data_start_row_idx = main_header_row_idx + header_row_span
             else:
-                # Last-resort fallback: promote row 0 to header only if it
-                # LOOKS like a header row (all cells non-empty, no numeric
-                # values). Otherwise leave data_start_row_idx = 0 so every
-                # row is treated as data; the confidence gate will then
-                # reject the parse for low header attachment and the flat
-                # exporter will emit readable pipe-joined rows instead of
-                # smearing a bogus header across real data.
-                first_multi_cell_idx = None
-                for idx, row in enumerate(actual_rows):
-                    cells = get_row_cells(row, table)
-                    if len(cells) > 1:
-                        first_multi_cell_idx = idx
-                        break
-
-                # Only treat row 0 as a header if every cell is non-empty.
-                # Empty cells in row 0 signal a header-less table (receipts
-                # where columns shift between rows); smearing such a row
-                # across every data cell produces garbage.
-                def _looks_like_header_row(cells) -> bool:
-                    texts = [c.get_text(strip=True) for c in cells]
-                    return bool(texts) and all(t for t in texts)
-
-                # Structural contrast check: require at least one subsequent
-                # multi-cell row to have at least one empty cell. See the
-                # matching rule in simple_repair.Fix 4 for the rationale.
-                def _any_subsequent_sparse(start_idx):
-                    for r in actual_rows[start_idx + 1:]:
-                        cs = get_row_cells(r, table)
-                        if len(cs) <= 1:
-                            continue
-                        if any(not c.get_text(strip=True) for c in cs):
-                            return True
-                    return False
-
-                if (
-                    first_multi_cell_idx is not None
-                    and _looks_like_header_row(
-                        get_row_cells(actual_rows[first_multi_cell_idx], table)
-                    )
-                    and _any_subsequent_sparse(first_multi_cell_idx)
-                ):
-                    data_start_row_idx = first_multi_cell_idx + 1
+                # Step 3: structural fallback via the same universal rule
+                # that simple_repair.Fix 4 uses. This path runs only when
+                # simple_repair didn't promote (e.g. upstream repairs left
+                # the table in a shape Fix 4 couldn't normalize) — it
+                # keeps the parser aligned with the repair's structural
+                # definition rather than reintroducing a separate
+                # "row 0 all non-empty" heuristic. If no header block is
+                # confidently identified, leave data_start_row_idx = 0 so
+                # every row is treated as data and the confidence gate
+                # decides whether to emit rules or flat.
+                detection = detect_header_block(actual_rows)
+                if detection is not None:
+                    data_start_row_idx = detection[0]
                 else:
                     data_start_row_idx = 0
 

@@ -1,0 +1,248 @@
+<!-- source: FinTabNet s0-r547 (https://huggingface.co/datasets/apoidea/fintabnet-html, CDLA-Permissive-1.0) -->
+<table>
+<tr>
+<td>
+</td>
+<td>
+   Fourth Quarter
+  </td>
+<td>
+   Third Quarter
+  </td>
+<td>
+   Second Quarter
+  </td>
+<td>
+   First Quarter
+  </td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="4">
+   (Tabular amounts in millions, except per share amounts)
+  </td>
+</tr>
+<tr>
+<td>
+   2003
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Net sales
+  </td>
+<td>
+   $1,715
+  </td>
+<td>
+   $1,545
+  </td>
+<td>
+   $1,475
+  </td>
+<td>
+   $1,472
+  </td>
+</tr>
+<tr>
+<td>
+   Gross margin
+  </td>
+<td>
+   $456
+  </td>
+<td>
+   $428
+  </td>
+<td>
+   $418
+  </td>
+<td>
+   $406
+  </td>
+</tr>
+<tr>
+<td>
+   Net income (loss)
+  </td>
+<td>
+   $44
+  </td>
+<td>
+   $19
+  </td>
+<td>
+   $14
+  </td>
+<td>
+   $(8)
+  </td>
+</tr>
+<tr>
+<td>
+   Earnings (loss) per common share:
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Basic
+  </td>
+<td>
+   $0.12
+  </td>
+<td>
+   $0.05
+  </td>
+<td>
+   $0.04
+  </td>
+<td>
+   $(0.02)
+  </td>
+</tr>
+<tr>
+<td>
+   Diluted
+  </td>
+<td>
+   $0.12
+  </td>
+<td>
+   $0.05
+  </td>
+<td>
+   $0.04
+  </td>
+<td>
+   $(0.02)
+  </td>
+</tr>
+<tr>
+<td>
+   2002
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Net sales
+  </td>
+<td>
+   $1,443
+  </td>
+<td>
+   $1,429
+  </td>
+<td>
+   $1,495
+  </td>
+<td>
+   $1,375
+  </td>
+</tr>
+<tr>
+<td>
+   Gross margin
+  </td>
+<td>
+   $381
+  </td>
+<td>
+   $391
+  </td>
+<td>
+   $409
+  </td>
+<td>
+   $422
+  </td>
+</tr>
+<tr>
+<td>
+   Net income (loss)
+  </td>
+<td>
+   $(45)
+  </td>
+<td>
+   $32
+  </td>
+<td>
+   $40
+  </td>
+<td>
+   $38
+  </td>
+</tr>
+<tr>
+<td>
+   Earnings (loss) per common share:
+  </td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+   Basic
+  </td>
+<td>
+   $(0.13)
+  </td>
+<td>
+   $0.09
+  </td>
+<td>
+   $0.11
+  </td>
+<td>
+   $0.11
+  </td>
+</tr>
+<tr>
+<td>
+   Diluted
+  </td>
+<td>
+   $(0.13)
+  </td>
+<td>
+   $0.09
+  </td>
+<td>
+   $0.11
+  </td>
+<td>
+   $0.11
+  </td>
+</tr>
+</table>

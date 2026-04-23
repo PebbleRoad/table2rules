@@ -1,0 +1,300 @@
+{
+  "source_url": "https://huggingface.co/datasets/apoidea/fintabnet-html",
+  "source_license": "CDLA-Permissive-1.0",
+  "source_tokens": [
+    "$101.48",
+    "$119.88",
+    "$146.02",
+    "$170.20",
+    "$225.87",
+    "$326.63",
+    "-0.1%",
+    "-1.1%",
+    "-1.5%",
+    "-1.9%",
+    "-2.3%",
+    "-2.6%",
+    "2.1%",
+    "2.2%",
+    "2.7%",
+    "2008",
+    "69.2%",
+    "69.5%",
+    "70.4%",
+    "Average Daily Rate",
+    "Change vs. 2007",
+    "Comparable Company-Operated Properties (1)",
+    "Comparable Systemwide Properties (1)",
+    "Composite Luxury (2)",
+    "Occupancy",
+    "RevPAR",
+    "Total Worldwide (3)",
+    "pts."
+  ],
+  "triples": [
+    {
+      "row": [],
+      "col": [],
+      "value": "Composite Luxury (2)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Occupancy"
+    },
+    {
+      "row": [],
+      "col": [
+        "Comparable Company-Operated Properties (1)",
+        "2008"
+      ],
+      "value": "69.2%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Comparable Company-Operated Properties (1)",
+        "Change vs. 2007"
+      ],
+      "value": "-1.9%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Comparable Company-Operated Properties (1)",
+        "Change vs. 2007"
+      ],
+      "value": "pts."
+    },
+    {
+      "row": [],
+      "col": [
+        "Comparable Systemwide Properties (1)",
+        "2008"
+      ],
+      "value": "69.2%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Comparable Systemwide Properties (1)",
+        "Change vs. 2007"
+      ],
+      "value": "-1.9%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Comparable Systemwide Properties (1)",
+        "Change vs. 2007"
+      ],
+      "value": "pts."
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Average Daily Rate"
+    },
+    {
+      "row": [],
+      "col": [
+        "Comparable Company-Operated Properties (1)",
+        "2008"
+      ],
+      "value": "$326.63"
+    },
+    {
+      "row": [],
+      "col": [
+        "Comparable Company-Operated Properties (1)",
+        "Change vs. 2007"
+      ],
+      "value": "2.7%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Comparable Systemwide Properties (1)",
+        "2008"
+      ],
+      "value": "$326.63"
+    },
+    {
+      "row": [],
+      "col": [
+        "Comparable Systemwide Properties (1)",
+        "Change vs. 2007"
+      ],
+      "value": "2.7%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "RevPAR"
+    },
+    {
+      "row": [],
+      "col": [
+        "Comparable Company-Operated Properties (1)",
+        "2008"
+      ],
+      "value": "$225.87"
+    },
+    {
+      "row": [],
+      "col": [
+        "Comparable Company-Operated Properties (1)",
+        "Change vs. 2007"
+      ],
+      "value": "-0.1%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Comparable Systemwide Properties (1)",
+        "2008"
+      ],
+      "value": "$225.87"
+    },
+    {
+      "row": [],
+      "col": [
+        "Comparable Systemwide Properties (1)",
+        "Change vs. 2007"
+      ],
+      "value": "-0.1%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Total Worldwide (3)"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Occupancy"
+    },
+    {
+      "row": [],
+      "col": [
+        "Comparable Company-Operated Properties (1)",
+        "2008"
+      ],
+      "value": "70.4%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Comparable Company-Operated Properties (1)",
+        "Change vs. 2007"
+      ],
+      "value": "-2.3%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Comparable Company-Operated Properties (1)",
+        "Change vs. 2007"
+      ],
+      "value": "pts."
+    },
+    {
+      "row": [],
+      "col": [
+        "Comparable Systemwide Properties (1)",
+        "2008"
+      ],
+      "value": "69.5%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Comparable Systemwide Properties (1)",
+        "Change vs. 2007"
+      ],
+      "value": "-2.6%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Comparable Systemwide Properties (1)",
+        "Change vs. 2007"
+      ],
+      "value": "pts."
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "Average Daily Rate"
+    },
+    {
+      "row": [],
+      "col": [
+        "Comparable Company-Operated Properties (1)",
+        "2008"
+      ],
+      "value": "$170.20"
+    },
+    {
+      "row": [],
+      "col": [
+        "Comparable Company-Operated Properties (1)",
+        "Change vs. 2007"
+      ],
+      "value": "2.1%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Comparable Systemwide Properties (1)",
+        "2008"
+      ],
+      "value": "$146.02"
+    },
+    {
+      "row": [],
+      "col": [
+        "Comparable Systemwide Properties (1)",
+        "Change vs. 2007"
+      ],
+      "value": "2.2%"
+    },
+    {
+      "row": [],
+      "col": [],
+      "value": "RevPAR"
+    },
+    {
+      "row": [],
+      "col": [
+        "Comparable Company-Operated Properties (1)",
+        "2008"
+      ],
+      "value": "$119.88"
+    },
+    {
+      "row": [],
+      "col": [
+        "Comparable Company-Operated Properties (1)",
+        "Change vs. 2007"
+      ],
+      "value": "-1.1%"
+    },
+    {
+      "row": [],
+      "col": [
+        "Comparable Systemwide Properties (1)",
+        "2008"
+      ],
+      "value": "$101.48"
+    },
+    {
+      "row": [],
+      "col": [
+        "Comparable Systemwide Properties (1)",
+        "Change vs. 2007"
+      ],
+      "value": "-1.5%"
+    }
+  ]
+}
