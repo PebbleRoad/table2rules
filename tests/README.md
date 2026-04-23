@@ -55,7 +55,7 @@ Meta (not a Crestan & Pantel class):
 
 ### Structural invariants enforced by the pipeline
 
-Five universal rules govern whether a table emits rules-format output.
+Six universal rules govern whether a table emits rules-format output.
 Violating any of them forces flat fallback — never partial rules.
 
 1. **Header-block boundary is geometrically determined.** The header
@@ -105,10 +105,23 @@ Violating any of them forces flat fallback — never partial rules.
    single summary row like "Total" (promoted by Fix 5) could be
    mistaken for the table header. Enforced in `grid_parser` Step 1.
 
-These rules are all deterministic properties of the markup — cell type,
+6. **Unlabeled descriptor columns promote via alphabetic majority.**
+   When a body column has no thead text but its non-empty body cells
+   are *strictly majority textual* — any Unicode letter counts, via
+   `str.isalpha()` — it is treated as a row-stub (dimensional) column,
+   provided it sits at the left edge or is contiguous with another
+   promoted descriptor column. This is the one principled exception
+   to "no content analysis": the alphabetic-vs-numeric distinction
+   is universal across writing systems (letters label, digits measure),
+   and counts — not ratios — make the rule deterministic. Enforced in
+   `grid_parser` Phase 3.5 Signal B.
+
+Rules 1–5 are deterministic properties of the markup only — cell type,
 span values, empty-vs-non-empty, row count, per-column fill patterns.
-No content analysis, no percentage thresholds; the only comparisons are
-integer counts (row totals, "more than", strict majority).
+Rule 6 reads cell text solely to ask "does this character classify as
+a letter in any writing system?" — a Unicode-level structural question,
+not semantic content. All numeric comparisons are integer counts
+(row totals, "more than", strict majority); no percentage thresholds.
 
 ## Layer 2 — Correctness (oracle)
 

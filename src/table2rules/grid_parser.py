@@ -49,6 +49,20 @@ def clean_text(text: str) -> str:
     return text
 
 
+def _is_textualish(text: str) -> bool:
+    """Return True when text carries alphabetic descriptor content.
+
+    Uses ``str.isalpha`` on individual characters so the check is Unicode-aware
+    — a cell containing any letter in any writing system (Latin, Cyrillic, CJK,
+    Arabic, Devanagari, etc.) counts as textual. This is the single content
+    signal the parser relies on; the alphabetic-vs-numeric distinction is
+    universal across writing systems ("letters label, digits measure").
+    """
+    if not text:
+        return False
+    return any(ch.isalpha() for ch in text)
+
+
 def get_row_cells(row, table) -> List:
     """
     Return logical cells for a row, including malformed sibling cells that may
@@ -340,21 +354,58 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
                             grid[target_row][target_col] = span_ref
             logical_col += colspan
     
-    # Phase 3.5: Promote leading dimensional body columns to row headers
-    # For tables with <thead>, detect leading body columns that contain
-    # cells with rowspan > 1.  These are grouping/dimensional columns
-    # whose values serve as row identifiers, not data.
+    # Phase 3.5: Promote dimensional body columns to row headers.
     #
-    # Two signals (intersected):
-    #   A) Body signal: leading columns where at least one cell has rowspan > 1.
-    #   B) Header signal (multi-row thead only): in the first header row,
-    #      columns whose cell spans the full header depth (rowspan == depth)
-    #      are row-identifier columns.  Columns with sub-headers below them
-    #      are data columns.  This caps how many columns can be promoted.
+    # Universal structural signals:
+    #   A) Rowspan signal: leading body columns with rowspan>1 origins are
+    #      dimensional/grouping columns.
+    #   B) Unlabeled descriptor signal: a body column has non-empty cells but
+    #      no non-empty <thead> header text at that column and is text-like.
     #
-    # Only promote when at least 2 columns qualify.
+    # Signal B is guarded to avoid over-promotion: only contiguous descriptor
+    # columns from the left edge (or directly after a promoted descriptor
+    # column) are promoted.
     if has_thead and data_start_row_idx < len(grid):
-        # --- Signal A: body rowspan patterns ---
+        # --- Per-column stats over body origins ---
+        body_nonempty = [0] * max_cols
+        body_textual = [0] * max_cols
+        body_th = [0] * max_cols
+        has_thead_text = [False] * max_cols
+
+        for c in range(max_cols):
+            for r in range(len(grid)):
+                cell = grid[r][c]
+                if not cell or cell.get('is_span_copy'):
+                    continue
+                txt = (cell.get('text') or '').strip()
+                if cell.get('is_thead', False):
+                    if txt:
+                        has_thead_text[c] = True
+                    continue
+                if r < data_start_row_idx:
+                    continue
+                if cell.get('is_footer', False):
+                    continue
+                if not txt:
+                    continue
+                body_nonempty[c] += 1
+                if cell.get('type') == 'th':
+                    body_th[c] += 1
+                if _is_textualish(txt):
+                    body_textual[c] += 1
+
+        def _descriptor_like(col: int) -> bool:
+            # A column is "descriptor-like" iff strictly more of its
+            # non-empty body cells are textual than non-textual. Using a
+            # strict-majority count (integer comparison) instead of a
+            # fixed ratio keeps the rule deterministic and aligned with
+            # the stub-column rule in simple_repair.detect_header_block.
+            n = body_nonempty[col]
+            if n < 2:
+                return False
+            return body_textual[col] * 2 > n
+
+        # --- Signal A: rowspan-driven leading dimensional columns ---
         body_dimensional = []
         for c in range(max_cols):
             col_has_rowspan = False
@@ -383,12 +434,50 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
             # Cap body signal at the header-derived count
             body_dimensional = body_dimensional[:full_depth_count]
 
+        promote_cols = set()
         if len(body_dimensional) >= 2:
-            for c in body_dimensional:
+            promote_cols.update(body_dimensional)
+        elif len(body_dimensional) == 1:
+            c0 = body_dimensional[0]
+            if not has_thead_text[c0]:
+                promote_cols.add(c0)
+
+        # Seed only strong pre-promotions from upstream repair on unlabeled
+        # columns. A single summary-row <th> should not turn a labeled data
+        # column into a row-header column.
+        for c in range(max_cols):
+            if (
+                body_nonempty[c] >= 2
+                and not has_thead_text[c]
+                and (body_th[c] / max(1, body_nonempty[c])) >= 0.60
+            ):
+                promote_cols.add(c)
+
+        # --- Signal B: unlabeled descriptor columns ---
+        for c in range(max_cols):
+            if c in promote_cols:
+                continue
+            if has_thead_text[c]:
+                continue
+            if not _descriptor_like(c):
+                continue
+
+            left_is_dimensional = (c == 0) or ((c - 1) in promote_cols)
+            left_is_descriptor = (c > 0) and _descriptor_like(c - 1)
+            if not (left_is_dimensional or left_is_descriptor):
+                continue
+            promote_cols.add(c)
+
+        if promote_cols:
+            for c in sorted(promote_cols):
                 for r in range(data_start_row_idx, len(grid)):
                     cell = grid[r][c]
-                    if cell and cell['type'] == 'td':
+                    if not cell or cell.get('is_footer', False):
+                        continue
+                    if cell['type'] == 'td' and (cell.get('text') or '').strip():
                         cell['type'] = 'th'
+                        if not cell.get('scope'):
+                            cell['scope'] = 'row'
 
     # Phase 4: Fill gaps
     for r in range(len(grid)):
