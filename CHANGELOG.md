@@ -3,6 +3,91 @@
 All notable changes to `table2rules` are documented here. Dates are in
 `YYYY-MM-DD`. This project follows semantic versioning.
 
+## [0.3.0] — 2026-04-23
+
+Three structural invariants tighten when the parser emits rules-format
+output, closing a cluster of bugs where non-genuine table types
+(enumeration, navigation, form-layout, sectioned A/V) silently produced
+fabricated rules. Also broadens the fixture corpus along the Crestan &
+Pantel semantic taxonomy and adds 10 financial-table fixtures for
+FinTabNet-style idioms.
+
+**Behavior change:** some inputs that previously emitted rules-format
+output now correctly degrade to flat mode. If you were consuming the old
+rules output on these inputs, expect different string output. See the
+invariants below to predict which inputs are affected.
+
+### Structural invariants enforced
+
+Three deterministic, universal rules — no thresholds, no content
+inspection, only markup properties:
+
+1. **Row-0 promotion requires structural contrast.** `simple_repair.Fix 4`
+   and `grid_parser` step 3 previously converted row 0's `<td>`s to `<th>`
+   whenever all cells were non-empty. Now require at least one subsequent
+   multi-cell row to have at least one empty cell — a real header
+   uniquely labels every column, so structural contrast with sparse data
+   rows is the signal. Uniform lists (glossaries, country enumerations,
+   checkbox grids) no longer get row 0 fabricated into a header.
+2. **Rules mode requires every rule to carry at least one header.** The
+   `low_header_attachment` gate check previously fired only at
+   `header_ratio < 0.25`. Now fires universally at `header_ratio < 1.0`
+   — a rule with zero headers is indistinguishable from flat text.
+   Mixed-header tables (bare data rows interleaved with labeled summary
+   rows) now route to flat mode instead of producing visually incoherent
+   hybrids.
+3. **Section-title rows are not header rows.** A `<tr>` whose sole cell
+   is a `<th>` with colspan covering the grid width is a section label,
+   not a header or data row. `simple_repair.Fix 1` already moved the
+   first-row instance to `<caption>`; new `Fix 1b` decomposes mid-table
+   instances so span-expanded section labels don't get fabricated into
+   column headers for subsequent rows.
+
+### Added
+
+- **Shape heuristics (`numeric_column_headers`, `placeholder_column_headers`)
+  now trust source-authored `<thead>`.** Previously, the gate fired on
+  any table where rules' column headers were entirely numeric — rejecting
+  legitimate financial tables with year columns like
+  `<thead><tr><th>2024</th><th>2023</th></tr></thead>`. The checks now
+  skip when any grid cell was placed inside a `<thead>` by the source.
+  Inferred headers are still subject to the shape checks.
+- **Fixture taxonomy under
+  [`tests/fixtures/`](tests/fixtures/)** organized by Crestan & Pantel
+  (WSDM 2011) semantic class: `relational/`, `matrix/`,
+  `attribute-value/`, `listing/`, `form/`, `enumeration/`,
+  `navigational/`, `formatting/`, plus `multi-table/` (meta). Filenames
+  now capture the parser-stress quirk being exercised
+  (`malformed-nesting`, `tfoot-before-tbody`, etc.); no more `evilN-`
+  prefixes. 13 new fixtures close coverage gaps on A/V, listing, form,
+  enumeration, navigational, and formatting classes.
+- **10 FinTabNet-pattern fixtures** under `tests/fixtures/matrix/`
+  exercising financial-reporting idioms: parenthesized negatives,
+  footnote markers in headers and data, em-dash placeholders, multi-year
+  column groups, `Year Ended December 31,` nested headers, `&nbsp;`
+  indented row labels, interspersed group totals, `<br>` inside
+  headers, mixed currency symbols, 3-level nested headers.
+- **Structural invariants section** in [`tests/README.md`](tests/README.md)
+  citing Crestan & Pantel and documenting the three rules.
+
+### Changed
+
+- **`low_header_attachment` reason** now fires universally (any rule
+  with zero headers) rather than at a 25% threshold. The reason code and
+  severity bucket are unchanged; the description text was updated. No
+  API break.
+- **Fixture layout.** Old folders (`tests/{adversarial,headerless,`
+  `regression,smoke,structured}/`) removed; all 44 existing fixtures
+  moved under `tests/fixtures/<class>/` via `git mv` (history preserved).
+
+### Test status
+
+1,913 pass, 444 skip (oracle/mutation layers skip fixtures that
+legitimately don't emit rules). Zero regressions on the 200 PubTabNet
+oracle fixtures — none of the three invariants or the `<thead>` trust
+change affected a single PubTabNet table (they all have explicit
+`<thead>` and well-formed data rows).
+
 ## [0.2.0] — 2026-04-21
 
 Observability, safety caps, and a harder public-API contract. The existing
