@@ -102,8 +102,9 @@ Violating any of them forces flat fallback — never partial rules.
 5. **Column-header detection ignores row-scoped `<th>`.** A
    `<th scope="row">` labels a row, not a column, so it cannot make a
    body row qualify as the primary column-header row — otherwise a
-   single summary row like "Total" (promoted by Fix 5) could be
-   mistaken for the table header. Enforced in `grid_parser` Step 1.
+   single source-authored row-label like `<th scope="row">Total</th>`
+   could be mistaken for the table header. Enforced in `grid_parser`
+   Step 1.
 
 6. **Unlabeled descriptor columns promote via alphabetic majority.**
    When a body column has no thead text but its non-empty body cells

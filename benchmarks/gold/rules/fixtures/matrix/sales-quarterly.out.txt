@@ -57,6 +57,7 @@ APAC > Beta | Notes: Marketing pullback.
 APAC > APAC Subtotal (Alpha + Beta) | H1 (Q1 + Q2) > Actual: 12.4
 APAC > APAC Subtotal (Alpha + Beta) | H1 (Q1 + Q2) > Target: 12.2
 APAC > APAC Subtotal (Alpha + Beta) | Variance: +0.2
+APAC > APAC Subtotal (Alpha + Beta) | Notes: Subtotal row merges cells.
 Grand Total | Quarter > Q1 > Actual: —
 Grand Total | Quarter > Q1 > Target: —
 Grand Total | Quarter > Q2 > Actual: —

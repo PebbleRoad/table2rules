@@ -244,7 +244,6 @@ def simple_repair(html: str) -> str:
     2. Fix <td> headers in <tfoot> (for totals)
     3. Move footer legends to tfoot
     4. Convert first data row to proper header row (<th> tags)
-    5. Promote summary labels (Total, Subtotal) in <tbody> to <th>
     6. Merge "hanging" description rows (e.g. Dates below items)
     """
     # --- Fix 0: Repair mismatched opening/closing tags ---
@@ -565,24 +564,20 @@ def simple_repair(html: str) -> str:
     # (merge loop intentionally disabled — see commit log for context)
 
 
-    # --- Fix 2, 3, 5: Iterate remaining rows ---
-    # Re-fetch rows just in case, though pop() should keep list valid
-    # (Safe to use existing list references if we were careful, but let's be safe)
+    # --- Fix 2, 3: Iterate remaining rows ---
     actual_rows = get_top_level_rows(table)
-    
-    summary_keywords = ['total', 'subtotal', 'sub total', 'amount due', 'amount payable', 'balance', 'tax', 'vat', 'gst']
 
-    for idx, row in enumerate(actual_rows):
+    for row in actual_rows:
         cells = row.find_all(['td', 'th'], recursive=False)
         if not cells:
             continue
-            
+
         # --- Fix 2: Fix <tfoot> row headers ---
         if row.find_parent('tfoot') and cells[0].name == 'td':
             if int(cells[0].get('colspan', 1)) > 1:
                 cells[0].name = 'th'
                 cells[0]['scope'] = 'colgroup'
-        
+
         # --- Fix 3: Move footer legends to tfoot ---
         if not row.find_parent('tfoot'):
             if len(cells) == 1:
@@ -596,19 +591,6 @@ def simple_repair(html: str) -> str:
                             table.append(tfoot)
                         row.extract()
                         tfoot.append(row)
-                        continue 
-
-        # --- Fix 5: Promote Summary Labels ---
-        # Only applies in tbody — 'Total', 'Subtotal', etc. inside <thead>
-        # are legitimate column headers (PubTabNet-style financial tables
-        # have a 'Total' column under a 'Year Ended' grouping), and marking
-        # them scope="row" would hide them from the column-header walk.
-        if idx > 0 and not row.find_parent('thead'):
-            for cell in cells:
-                if cell.name == 'td':
-                    txt = cell.get_text(strip=True).lower()
-                    if any(txt.startswith(kw) for kw in summary_keywords):
-                        cell.name = 'th'
-                        cell['scope'] = 'row'
+                        continue
 
     return str(soup)

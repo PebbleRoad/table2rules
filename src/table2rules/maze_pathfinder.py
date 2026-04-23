@@ -11,7 +11,6 @@ def find_headers_for_cell(grid: List[List[Dict]], row: int, col: int) -> Tuple[L
     1. Walk LEFT on same row - collect all <th> cells
     2. Walk UP from data cell's column - collect all <th> cells
     3. Walk UP from each row header's column - collect their column headers
-       (EXCEPTION: Summary rows like "Total" do not inherit column headers)
     """
     if not grid or not grid[0]:
         return [], []
@@ -86,23 +85,11 @@ def find_headers_for_cell(grid: List[List[Dict]], row: int, col: int) -> Tuple[L
     col_headers.reverse()
     
     # --- 3. Walk UP from each row header column ---
-    # This finds context for the row headers (e.g. "Region" for "North")
+    # Find ancestor headers for the row headers (e.g. "Region" for "North").
+    # Peer row labels are skipped via the scope='row' check below; group
+    # ancestors are bounded by their rowspan/divider extent. No text-level
+    # check is needed.
     for header_col in row_header_columns:
-        
-        # === FIX: SUMMARY ROW SUPPRESSION ===
-        # If the row header is a "Total" or "Subtotal", it defines the row entirely.
-        # It should NOT inherit the column header (e.g. "Qty") of the column it sits in.
-        # This prevents "Qty | Subtotal".
-        idx = row_header_columns.index(header_col)
-        header_text = row_headers[idx].lower()
-        
-        summary_keywords = ['total', 'subtotal', 'sub total', 'amount due', 'amount payable', 'balance', 'tax', 'vat', 'gst']
-        
-        # Check if the row header starts with any summary keyword
-        if any(header_text.startswith(kw) for kw in summary_keywords):
-            continue
-        # ====================================
-
         for r in range(row - 1, -1, -1):
             cell = grid[r][header_col]
 

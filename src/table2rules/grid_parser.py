@@ -132,8 +132,9 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
         # scope='row' marks a row-stub header (row label), not a
         # column label, so those cells cannot make a row qualify as the
         # primary column-header row. Otherwise a single mid-body
-        # <th scope='row'> summary row (produced by Fix 5 on "Total"
-        # labels) would be mistaken for the table header.
+        # <th scope='row'> summary row (e.g. an explicit-markup totals
+        # line like <tr><th scope="row">Total</th>...</tr>) would be
+        # mistaken for the table header.
         def _is_col_header_cell(cell):
             return cell.name == 'th' and cell.get('scope') != 'row'
 

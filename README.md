@@ -84,6 +84,10 @@ Three pressures RAG teams are under right now, and what table2rules does about e
 
 **3) No chunk configuration.** Teams typically spend meaningful time tuning how long tables are chunked: recursive-character splitter, token splitter, markdown-header-aware splitter, `"don't split in the middle of a table"` heuristics. With table2rules output, every line is a self-contained fact — **any chunker can split anywhere** without orphaning a row from its headers. The chunking question stops being about tables.
 
+### Language coverage
+
+**table2rules operates on table geometry, not cell text.** Header detection, span resolution, row-group propagation, and every other parsing decision is a deterministic property of the markup — cell type, span values, empty-vs-non-empty, row/column fill patterns. The one content-level question the pipeline asks is *"does this cell contain any letter?"* via Unicode `str.isalpha()`, used to distinguish descriptor columns from numeric ones. Every writing system answers identically: Latin, Cyrillic, CJK, Arabic, Devanagari, Thai, Hebrew. No language-specific lexicons, no keyword lists, no English bias — a financial table in 合計 / итого / المجموع parses by the same rules as one in English.
+
 ---
 
 ## Output Format
@@ -194,7 +198,7 @@ and a JSONL example.
 ## Safety contract
 
 - Parse and transform well-formed tables deterministically.
-- Apply bounded generic repair for common breakage (mismatched tags, missing `<thead>`, summary rows).
+- Apply bounded generic repair for common breakage (mismatched tags, missing `<thead>`, malformed spans).
 - If invariants / confidence fail, degrade to header-free flat rows, then to passthrough of the original HTML — never fabricate content.
 - Clamp per-cell `rowspan` / `colspan` to 1000 and refuse tables whose expanded grid would exceed 1,000,000 cells. Adversarial span values surface as a `TableReport` with `render_mode="skipped"` rather than an OOM.
 - Surface the per-table verdict via `process_tables_with_stats` so callers can route flagged tables through their own policy instead of discovering lossy output downstream.
