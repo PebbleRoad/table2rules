@@ -2,25 +2,8 @@ from typing import List, Dict
 from bs4 import NavigableString
 import re
 
-from .errors import TableTooLargeError
 from .simple_repair import detect_header_block
-
-# Guards against adversarial HTML. Normal tables never approach these.
-MAX_SPAN = 1000              # per-cell rowspan/colspan cap
-MAX_GRID_CELLS = 1_000_000   # total expanded grid size cap
-
-
-def _clamped_span(raw) -> int:
-    """Coerce a raw rowspan/colspan attribute to a safe int in [1, MAX_SPAN]."""
-    try:
-        value = int(raw)
-    except (TypeError, ValueError):
-        return 1
-    if value < 1:
-        return 1
-    if value > MAX_SPAN:
-        return MAX_SPAN
-    return value
+from .spans import assert_grid_size, clamped_span
 
 
 def clean_text(text: str) -> str:
@@ -162,7 +145,7 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
             # If some cells in this header row span multiple body rows,
             # use the maximum rowspan to determine how many header rows exist.
             cells = get_row_cells(actual_rows[main_header_row_idx], table)
-            header_row_span = max(_clamped_span(cell.get('rowspan', 1)) for cell in cells) or 1
+            header_row_span = max(clamped_span(cell.get('rowspan', 1)) for cell in cells) or 1
 
             # Data starts after the header row span
             data_start_row_idx = main_header_row_idx + header_row_span
@@ -179,7 +162,7 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
                 if not cells or len(cells) == 1:
                     continue
 
-                first_cell_rowspan = _clamped_span(cells[0].get('rowspan', 1))
+                first_cell_rowspan = clamped_span(cells[0].get('rowspan', 1))
                 if first_cell_rowspan > 1:
                     main_header_row_idx = idx
                     header_row_span = first_cell_rowspan
@@ -228,10 +211,10 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
                 is_key_value_table = False
                 break
             # No colspan/rowspan (keep it simple)
-            if _clamped_span(cells[0].get('colspan', 1)) > 1 or _clamped_span(cells[0].get('rowspan', 1)) > 1:
+            if clamped_span(cells[0].get('colspan', 1)) > 1 or clamped_span(cells[0].get('rowspan', 1)) > 1:
                 is_key_value_table = False
                 break
-            if _clamped_span(cells[1].get('colspan', 1)) > 1 or _clamped_span(cells[1].get('rowspan', 1)) > 1:
+            if clamped_span(cells[1].get('colspan', 1)) > 1 or clamped_span(cells[1].get('rowspan', 1)) > 1:
                 is_key_value_table = False
                 break
     # Key-value tables have no header rows — every row is data.
@@ -250,9 +233,10 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
         for cell in cells:
             while (row_idx, logical_col) in occupied:
                 logical_col += 1
-            rowspan = _clamped_span(cell.get('rowspan', 1))
-            colspan = _clamped_span(cell.get('colspan', 1))
-            for r in range(rowspan):
+            rowspan = clamped_span(cell.get('rowspan', 1))
+            colspan = clamped_span(cell.get('colspan', 1))
+            assert_grid_size(len(actual_rows), logical_col + colspan)
+            for r in range(min(rowspan, len(actual_rows) - row_idx)):
                 for c in range(colspan):
                     occupied[(row_idx + r, logical_col + c)] = True
             logical_col += colspan
@@ -261,12 +245,7 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
     if max_cols == 0:
         return []
 
-    total_cells = len(actual_rows) * max_cols
-    if total_cells > MAX_GRID_CELLS:
-        raise TableTooLargeError(
-            f"expanded grid would be {len(actual_rows)} x {max_cols} "
-            f"= {total_cells} cells (cap {MAX_GRID_CELLS})"
-        )
+    assert_grid_size(len(actual_rows), max_cols)
     
     # Clamp inferred structure to valid ranges
     data_start_row_idx = max(0, min(data_start_row_idx, len(actual_rows)))
@@ -288,8 +267,8 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
             if logical_col >= max_cols:
                 break
             
-            rowspan = _clamped_span(cell.get('rowspan', 1))
-            colspan = _clamped_span(cell.get('colspan', 1))
+            rowspan = clamped_span(cell.get('rowspan', 1))
+            colspan = clamped_span(cell.get('colspan', 1))
 
             # Universal cell_type logic
             cell_type = cell.name
@@ -330,7 +309,7 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
                 'header_depth': data_start_row_idx if has_thead else 0
             }
             
-            for r_offset in range(rowspan):
+            for r_offset in range(min(rowspan, len(grid) - row_idx)):
                 for c_offset in range(colspan):
                     target_row = row_idx + r_offset
                     target_col = logical_col + c_offset

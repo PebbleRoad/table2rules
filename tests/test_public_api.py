@@ -110,6 +110,20 @@ def _span_bomb() -> str:
 SPAN_BOMB = _span_bomb()
 
 
+def _pre_repair_span_bomb() -> str:
+    """Oversized after per-cell clamping, before parser grid allocation.
+
+    This exercises the repair-time logical grid used by header detection. The
+    parser has its own cap, but repair must refuse the same shape before it
+    expands span-derived occupancy structures.
+    """
+    row = '<tr><td colspan="2000">a</td><td colspan="2000">b</td></tr>'
+    return "<table>" + row * 501 + "</table>"
+
+
+PRE_REPAIR_SPAN_BOMB = _pre_repair_span_bomb()
+
+
 def test_clean_table_produces_rules_mode() -> None:
     text, report = process_tables_with_stats(CLEAN_TABLE)
     assert text  # non-empty
@@ -144,9 +158,38 @@ def test_span_bomb_is_skipped_with_input_too_large() -> None:
     assert tr.error is not None  # carries the message
 
 
+def test_pre_repair_span_bomb_is_skipped_with_input_too_large() -> None:
+    text, report = process_tables_with_stats(PRE_REPAIR_SPAN_BOMB)
+    assert text == ""
+    assert len(report.tables) == 1
+    tr = report.tables[0]
+    assert tr.render_mode == "skipped"
+    assert tr.reasons == ("input_too_large",)
+    assert tr.error is not None
+
+
+def test_malformed_span_values_are_bounded_without_processing_error() -> None:
+    html = (
+        '<table><tr><td colspan="bogus">Title</td></tr>'
+        '<tr><td>A</td><td>B</td></tr></table>'
+    )
+    text, report = process_tables_with_stats(html)
+    assert text == "Title\nA | B"
+    assert len(report.tables) == 1
+    tr = report.tables[0]
+    assert tr.render_mode == "flat"
+    assert "processing_error" not in tr.reasons
+    assert tr.error is None
+
+
 def test_strict_mode_raises_too_large() -> None:
     with pytest.raises(TableTooLargeError):
         process_tables_with_stats(SPAN_BOMB, strict=True)
+
+
+def test_strict_mode_raises_pre_repair_too_large() -> None:
+    with pytest.raises(TableTooLargeError):
+        process_tables_with_stats(PRE_REPAIR_SPAN_BOMB, strict=True)
 
 
 def test_multiple_tables_indexed_and_ordered() -> None:

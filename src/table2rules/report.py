@@ -16,7 +16,7 @@ from typing import Dict, FrozenSet, Iterable, Literal, Optional, Tuple
 #   rules       — gate passed; exporter-native output (one rule per line).
 #   flat        — gate failed; header-free pipe-joined cell rows.
 #   passthrough — neither rules nor flat produced anything; raw HTML emitted.
-#   skipped     — input was refused (too large, or raised under strict=False).
+#   skipped     — input was refused before fallback output (currently too large).
 #
 # Adding new values is a minor-version bump; renaming/removing is breaking.
 RenderMode = Literal["rules", "flat", "passthrough", "skipped"]

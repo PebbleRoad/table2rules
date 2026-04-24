@@ -1,6 +1,9 @@
 from bs4 import BeautifulSoup
 import re
 
+from .spans import assert_grid_size, clamped_span
+
+
 def get_top_level_rows(table):
     """
     Helper function to robustly get ONLY the rows
@@ -14,20 +17,6 @@ def get_top_level_rows(table):
             top_level_rows.append(row)
 
     return top_level_rows
-
-
-def _safe_span(raw):
-    """Coerce a rowspan/colspan attribute to an int ≥ 1.
-
-    Adversarial HTML can carry non-numeric span values like `rowspan="foo"`
-    or zero / negative values. Normalize these the same way grid_parser does
-    so the header-detection helpers don't raise on that input.
-    """
-    try:
-        value = int(raw)
-    except (TypeError, ValueError):
-        return 1
-    return value if value >= 1 else 1
 
 
 def _build_logical_grid(rows):
@@ -46,9 +35,10 @@ def _build_logical_grid(rows):
         for cell in cells:
             while (r_idx, col) in occupied:
                 col += 1
-            rs = _safe_span(cell.get('rowspan', 1))
-            cs = _safe_span(cell.get('colspan', 1))
-            for dr in range(rs):
+            rs = clamped_span(cell.get('rowspan', 1))
+            cs = clamped_span(cell.get('colspan', 1))
+            assert_grid_size(len(rows), col + cs)
+            for dr in range(min(rs, len(rows) - r_idx)):
                 for dc in range(cs):
                     occupied[(r_idx + dr, col + dc)] = True
             col += cs
@@ -70,12 +60,12 @@ def _build_logical_grid(rows):
                 col += 1
             if col >= max_cols:
                 break
-            rs = _safe_span(cell.get('rowspan', 1))
-            cs = _safe_span(cell.get('colspan', 1))
+            rs = clamped_span(cell.get('rowspan', 1))
+            cs = clamped_span(cell.get('colspan', 1))
             txt = cell.get_text(strip=True)
             nonempty = bool(txt)
             origin_cells[(r_idx, col)] = cell
-            for dr in range(rs):
+            for dr in range(min(rs, n - r_idx)):
                 for dc in range(cs):
                     tr, tc = r_idx + dr, col + dc
                     if tr < n and tc < max_cols:
@@ -296,7 +286,7 @@ def simple_repair(html: str) -> str:
             for r in actual_rows[first_meaningful_row_index + 1:]
         ]
         max_later_width = max(later_widths, default=0)
-        first_cell_span = int(cells[0].get('colspan', 1))
+        first_cell_span = clamped_span(cells[0].get('colspan', 1))
         if (
             len(cells) == 1
             and max_later_width >= 2
@@ -337,7 +327,7 @@ def simple_repair(html: str) -> str:
                 cell = cells[0]
                 if cell.name != 'th':
                     continue
-                colspan = int(cell.get('colspan', 1))
+                colspan = clamped_span(cell.get('colspan', 1))
                 if colspan >= max_width:
                     row.decompose()
         actual_rows = get_top_level_rows(table)
@@ -540,7 +530,7 @@ def simple_repair(html: str) -> str:
                     if first.name == 'td':
                         first.name = 'th'
                         first['scope'] = 'row'
-                    rowspan = _safe_span(first.get('rowspan', 1))
+                    rowspan = clamped_span(first.get('rowspan', 1))
                     if rowspan > 1:
                         active_rowspan = rowspan - 1
 
@@ -574,7 +564,7 @@ def simple_repair(html: str) -> str:
 
         # --- Fix 2: Fix <tfoot> row headers ---
         if row.find_parent('tfoot') and cells[0].name == 'td':
-            if int(cells[0].get('colspan', 1)) > 1:
+            if clamped_span(cells[0].get('colspan', 1)) > 1:
                 cells[0].name = 'th'
                 cells[0]['scope'] = 'colgroup'
 
@@ -583,7 +573,7 @@ def simple_repair(html: str) -> str:
             if len(cells) == 1:
                 text = cells[0].get_text(strip=True).lower()
                 if 'legend' in text or 'footnote' in text:
-                    colspan = int(cells[0].get('colspan', 1))
+                    colspan = clamped_span(cells[0].get('colspan', 1))
                     if colspan >= 3:
                         tfoot = table.find('tfoot')
                         if not tfoot:
