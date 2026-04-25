@@ -161,9 +161,13 @@ def assess_confidence(grid: List[List[Dict]], rules: List[LogicRule]) -> GateRes
         reasons.append("low_header_attachment")
     if echo_ratio > 0.50:
         reasons.append("high_self_echo")
-    if duplicate_ratio > 0.40:
+    # One logical grid position must not carry multiple source cells. A valid
+    # rowspan/colspan expands one origin across many positions, but two origins
+    # at the same position means the source geometry overlaps. Fail open instead
+    # of emitting a rule for an ambiguous slot.
+    if duplicate_ratio > 0:
         reasons.append("high_duplicate_positions")
-    if conflict_ratio > 0.15:
+    if conflict_ratio > 0:
         reasons.append("high_position_conflict")
     if not has_source_thead and numeric_header_ratio > 0.30:
         reasons.append("numeric_column_headers")

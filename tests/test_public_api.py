@@ -182,6 +182,24 @@ def test_malformed_span_values_are_bounded_without_processing_error() -> None:
     assert tr.error is None
 
 
+def test_overlapping_spans_fail_open_to_flat_rows() -> None:
+    html = (
+        "<table>"
+        "<thead><tr><th>Row</th><th>A</th><th>B</th><th>C</th></tr></thead>"
+        "<tbody>"
+        "<tr><th>r1</th><td>a</td><td rowspan='2'>carry</td><td>c</td></tr>"
+        "<tr><th>r2</th><td colspan='3'>wide</td></tr>"
+        "</tbody></table>"
+    )
+    text, report = process_tables_with_stats(html)
+    assert text == "Row | A | B | C\nr1 | a | carry | c\nr2 | wide"
+    assert len(report.tables) == 1
+    tr = report.tables[0]
+    assert tr.render_mode == "flat"
+    assert "high_duplicate_positions" in tr.reasons
+    assert "high_position_conflict" in tr.reasons
+
+
 def test_strict_mode_raises_too_large() -> None:
     with pytest.raises(TableTooLargeError):
         process_tables_with_stats(SPAN_BOMB, strict=True)

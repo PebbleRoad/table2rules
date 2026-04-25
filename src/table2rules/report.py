@@ -47,8 +47,8 @@ REASONS: Dict[str, str] = {
     "low_coverage": "Fewer than 60% of data cells produced a rule.",
     "low_header_attachment": "At least one rule lacked any header context; rules mode requires every rule to carry at least one header.",
     "high_self_echo": "More than 50% of rules repeat a column header as their value.",
-    "high_duplicate_positions": "More than 40% of rules share a position with another rule.",
-    "high_position_conflict": "More than 15% of positions carry conflicting outcomes.",
+    "high_duplicate_positions": "At least one logical grid position produced multiple rules.",
+    "high_position_conflict": "At least one logical grid position carried conflicting outcomes.",
     "numeric_column_headers": "More than 30% of rules have all-numeric column headers — likely a data row misread as a header.",
     "placeholder_column_headers": "More than 30% of rules have placeholder-only column headers (underscores, dashes).",
     # --- Report-level signals ---

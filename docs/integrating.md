@@ -238,8 +238,8 @@ tracking as metrics.
 - `low_coverage` — fewer than 60% of data cells produced rules
 - `low_header_attachment` — fewer than 25% of rules have header context
 - `high_self_echo` — >50% of rules repeat their column header as value
-- `high_duplicate_positions` — >40% of rules share a position
-- `high_position_conflict` — >15% of positions carry conflicting outcomes
+- `high_duplicate_positions` — at least one logical grid position produced multiple rules
+- `high_position_conflict` — at least one logical grid position carried conflicting outcomes
 - `numeric_column_headers` — first row likely misread as header
 - `placeholder_column_headers` — column headers are underscores/dashes
 

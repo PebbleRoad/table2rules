@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 from .cleanup import clean_rules
 from .errors import TableTooLargeError
 from .exporters import DEFAULT_FORMAT, Exporter, get_exporter
-from .grid_parser import parse_table_to_grid
+from .grid_parser import clean_text, parse_table_to_grid
 from .maze_pathfinder import find_headers_for_cell
 from .models import LogicRule
 from .quality_gate import GateResult, assess_confidence
@@ -107,7 +107,7 @@ def _extract_cell_rows(table_html: str) -> List[List[str]]:
         out: List[List[str]] = []
         for row in rows:
             cells = row.find_all(['td', 'th'], recursive=False)
-            texts = [c.get_text(strip=True) for c in cells]
+            texts = [clean_text(c.get_text(" ", strip=True)) for c in cells]
             if any(texts):
                 out.append(texts)
         return out

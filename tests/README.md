@@ -93,20 +93,28 @@ Violating any of them forces flat fallback — never partial rules.
    otherwise. Enforced in `quality_gate.low_header_attachment` (fires
    universally at `header_ratio < 1.0`, not on a threshold).
 
-4. **Section-title rows are not header rows.** A `<tr>` whose sole cell
+4. **One logical position maps to at most one source value.** A valid
+   span can project one source cell across many positions, but two
+   source cells occupying the same `(row, col)` is an overlapping-span
+   geometry conflict. Rules mode rejects any duplicate or conflicting
+   rule position and falls back to flat rows. Enforced in
+   `quality_gate.high_duplicate_positions` and
+   `quality_gate.high_position_conflict`.
+
+5. **Section-title rows are not header rows.** A `<tr>` whose sole cell
    is a `<th>` with colspan covering the grid width is a section label,
    not a header or data row. First-row instances are moved to
    `<caption>`; mid-table instances are decomposed. Enforced in
    `simple_repair.Fix 1` (first row) and `Fix 1b` (mid-table).
 
-5. **Column-header detection ignores row-scoped `<th>`.** A
+6. **Column-header detection ignores row-scoped `<th>`.** A
    `<th scope="row">` labels a row, not a column, so it cannot make a
    body row qualify as the primary column-header row — otherwise a
    single source-authored row-label like `<th scope="row">Total</th>`
    could be mistaken for the table header. Enforced in `grid_parser`
    Step 1.
 
-6. **Unlabeled descriptor columns promote via alphabetic majority.**
+7. **Unlabeled descriptor columns promote via alphabetic majority.**
    When a body column has no thead text but its non-empty body cells
    are *strictly majority textual* — any Unicode letter counts, via
    `str.isalpha()` — it is treated as a row-stub (dimensional) column,

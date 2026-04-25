@@ -1,5 +1,5 @@
 First name | 
 Last name | 
 Email | 
-Country | --Select--SingaporeUnited States
+Country | --Select-- Singapore United States
 Submit
