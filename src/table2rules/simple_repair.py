@@ -1,5 +1,6 @@
-from bs4 import BeautifulSoup
 import re
+
+from bs4 import BeautifulSoup, NavigableString, Tag
 
 from .spans import assert_grid_size, clamped_span
 
@@ -9,11 +10,11 @@ def get_top_level_rows(table):
     Helper function to robustly get ONLY the rows
     belonging to the main table, skipping nested tables.
     """
-    all_rows_in_dom = table.find_all('tr')
+    all_rows_in_dom = table.find_all("tr")
     top_level_rows = []
 
     for row in all_rows_in_dom:
-        if row.find_parent('table') is table:
+        if row.find_parent("table") is table:
             top_level_rows.append(row)
 
     return top_level_rows
@@ -30,13 +31,13 @@ def _build_logical_grid(rows):
     occupied = {}
     max_cols = 0
     for r_idx, row in enumerate(rows):
-        cells = row.find_all(['td', 'th'], recursive=False)
+        cells = row.find_all(["td", "th"], recursive=False)
         col = 0
         for cell in cells:
             while (r_idx, col) in occupied:
                 col += 1
-            rs = clamped_span(cell.get('rowspan', 1))
-            cs = clamped_span(cell.get('colspan', 1))
+            rs = clamped_span(cell.get("rowspan", 1))
+            cs = clamped_span(cell.get("colspan", 1))
             assert_grid_size(len(rows), col + cs)
             for dr in range(min(rs, len(rows) - r_idx)):
                 for dc in range(cs):
@@ -46,22 +47,21 @@ def _build_logical_grid(rows):
 
     n = len(rows)
     grid = [
-        [{"nonempty": False, "origin": (r, c), "rs": 1, "cs": 1}
-         for c in range(max_cols)]
+        [{"nonempty": False, "origin": (r, c), "rs": 1, "cs": 1} for c in range(max_cols)]
         for r in range(n)
     ]
     origin_cells = {}
     filled_at = {}
     for r_idx, row in enumerate(rows):
-        cells = row.find_all(['td', 'th'], recursive=False)
+        cells = row.find_all(["td", "th"], recursive=False)
         col = 0
         for cell in cells:
             while col < max_cols and (r_idx, col) in filled_at:
                 col += 1
             if col >= max_cols:
                 break
-            rs = clamped_span(cell.get('rowspan', 1))
-            cs = clamped_span(cell.get('colspan', 1))
+            rs = clamped_span(cell.get("rowspan", 1))
+            cs = clamped_span(cell.get("colspan", 1))
             txt = cell.get_text(strip=True)
             nonempty = bool(txt)
             origin_cells[(r_idx, col)] = cell
@@ -174,16 +174,14 @@ def detect_header_block(rows):
 
     # Header rows = non-divider, non-empty rows in the header region.
     header_row_indices = [
-        r for r in range(first_data_idx)
-        if sum(1 for c in grid[r] if c["nonempty"]) >= 2
+        r for r in range(first_data_idx) if sum(1 for c in grid[r] if c["nonempty"]) >= 2
     ]
     if not header_row_indices:
         return None
 
     # Body rows = non-divider rows from first_data_idx down.
     body_rows = [
-        grid[r] for r in range(first_data_idx, n)
-        if sum(1 for c in grid[r] if c["nonempty"]) >= 2
+        grid[r] for r in range(first_data_idx, n) if sum(1 for c in grid[r] if c["nonempty"]) >= 2
     ]
     if not body_rows:
         return None
@@ -201,9 +199,7 @@ def detect_header_block(rows):
     # refuses to promote a sparsely-filled data column.
     stub_cols = set()
     for c in range(max_cols):
-        all_empty_in_header = all(
-            not grid[r][c]["nonempty"] for r in header_row_indices
-        )
+        all_empty_in_header = all(not grid[r][c]["nonempty"] for r in header_row_indices)
         if not all_empty_in_header:
             continue
         filled = sum(1 for br in body_rows if br[c]["nonempty"])
@@ -217,9 +213,7 @@ def detect_header_block(rows):
     # header region and body region disagree geometrically — there is
     # no consistent story for what that column is, so reject.
     for c in range(max_cols):
-        all_empty_in_header = all(
-            not grid[r][c]["nonempty"] for r in header_row_indices
-        )
+        all_empty_in_header = all(not grid[r][c]["nonempty"] for r in header_row_indices)
         if all_empty_in_header and c not in stub_cols:
             return None
 
@@ -241,26 +235,30 @@ def simple_repair(html: str) -> str:
     # subsequent sibling cells inside the unclosed element.
     # Fix by normalising closing tags to match their opener.
     # [^<]* restricts to plain-text content so we never span across tags.
-    html = re.sub(r'(<td\b[^>]*>)([^<]*)</th>', r'\1\2</td>', html)
-    html = re.sub(r'(<th\b[^>]*>)([^<]*)</td>', r'\1\2</th>', html)
+    html = re.sub(r"(<td\b[^>]*>)([^<]*)</th>", r"\1\2</td>", html)
+    html = re.sub(r"(<th\b[^>]*>)([^<]*)</td>", r"\1\2</th>", html)
 
-    soup = BeautifulSoup(html, 'html.parser')
-    table = soup.find('table')
-    if not table:
+    soup = BeautifulSoup(html, "html.parser")
+    table = soup.find("table")
+    if not isinstance(table, Tag):
         return html
-    
+
     # --- Fix 9: Inline nested tables ---
     # Replace <table> elements inside cells with their flattened text
     # so the outer grid parser sees clean content instead of nested markup.
-    for nested in table.find_all('table'):
-        rows = nested.find_all('tr')
+    for nested in table.find_all("table"):
+        if not isinstance(nested, Tag):
+            continue
+        rows = nested.find_all("tr")
         lines = []
         for row in rows:
-            cells = row.find_all(['td', 'th'], recursive=False)
+            if not isinstance(row, Tag):
+                continue
+            cells = row.find_all(["td", "th"], recursive=False)
             texts = [c.get_text(strip=True) for c in cells]
             if any(texts):
                 lines.append(", ".join(t for t in texts if t))
-        nested.replace_with("; ".join(lines))
+        nested.replace_with(NavigableString("; ".join(lines)))
 
     actual_rows = get_top_level_rows(table)
     if not actual_rows:
@@ -270,40 +268,35 @@ def simple_repair(html: str) -> str:
     first_meaningful_row = None
     first_meaningful_row_index = 0
     for idx, row in enumerate(actual_rows):
-        cells = row.find_all(['td', 'th'], recursive=False)
+        cells = row.find_all(["td", "th"], recursive=False)
         if cells:
             first_meaningful_row = row
             first_meaningful_row_index = idx
             break
-            
+
     if first_meaningful_row:
-        cells = first_meaningful_row.find_all(['td', 'th'], recursive=False)
+        cells = first_meaningful_row.find_all(["td", "th"], recursive=False)
         # Treat the first row as a title iff it is a single cell whose colspan
         # covers the full width of the remaining rows (width >= 2). This
         # captures 2-col and 3-col tables correctly without over-promoting.
         later_widths = [
-            len(r.find_all(['td', 'th'], recursive=False))
-            for r in actual_rows[first_meaningful_row_index + 1:]
+            len(r.find_all(["td", "th"], recursive=False))
+            for r in actual_rows[first_meaningful_row_index + 1 :]
         ]
         max_later_width = max(later_widths, default=0)
-        first_cell_span = clamped_span(cells[0].get('colspan', 1))
-        if (
-            len(cells) == 1
-            and max_later_width >= 2
-            and first_cell_span >= max_later_width
-        ):
+        first_cell_span = clamped_span(cells[0].get("colspan", 1))
+        if len(cells) == 1 and max_later_width >= 2 and first_cell_span >= max_later_width:
             title_text = cells[0].get_text(strip=True)
-            caption = table.find('caption')
-            if caption:
+            caption = table.find("caption")
+            if isinstance(caption, Tag):
                 caption.string = title_text
             else:
-                new_caption = soup.new_tag('caption')
+                new_caption = soup.new_tag("caption")
                 new_caption.string = title_text
                 table.insert(0, new_caption)
             for i in range(first_meaningful_row_index + 1):
                 actual_rows[i].decompose()
         actual_rows = get_top_level_rows(table)
-
 
     # --- Fix 1b: Decompose mid-table section-title rows ---
     # A <tr> whose sole cell is a <th> with colspan covering the grid
@@ -314,24 +307,20 @@ def simple_repair(html: str) -> str:
     # don't pollute the header walk. Fix 1 already handles the first-row
     # instance by moving it to <caption>; this handles mid-table ones.
     if actual_rows:
-        row_widths = [
-            len(r.find_all(['td', 'th'], recursive=False))
-            for r in actual_rows
-        ]
+        row_widths = [len(r.find_all(["td", "th"], recursive=False)) for r in actual_rows]
         max_width = max(row_widths, default=0)
         if max_width >= 2:
             for row in list(actual_rows):
-                cells = row.find_all(['td', 'th'], recursive=False)
+                cells = row.find_all(["td", "th"], recursive=False)
                 if len(cells) != 1:
                     continue
                 cell = cells[0]
-                if cell.name != 'th':
+                if cell.name != "th":
                     continue
-                colspan = clamped_span(cell.get('colspan', 1))
+                colspan = clamped_span(cell.get("colspan", 1))
                 if colspan >= max_width:
                     row.decompose()
         actual_rows = get_top_level_rows(table)
-
 
     # --- Fix 4: Structural header-block promotion ---
     # Universal structural rule (replaces the old row-0-only "all cells
@@ -355,7 +344,7 @@ def simple_repair(html: str) -> str:
     # them in <thead>. Promotes stub-column body cells to <th scope="row">
     # so dimensional columns are recognized even in single-row-header
     # tables (Fix 8 only covers multi-row <thead>).
-    if not table.find('thead') and actual_rows:
+    if not table.find("thead") and actual_rows:
         detection = detect_header_block(actual_rows)
         if detection is not None:
             first_data_idx, stub_cols, origin_cells, grid = detection
@@ -367,15 +356,13 @@ def simple_repair(html: str) -> str:
             # in thousands)" sub-header — is recognized as a multi-cell
             # row rather than mis-classified as a divider.
             for r_idx in range(first_data_idx):
-                logical_nonempty = sum(
-                    1 for cell in grid[r_idx] if cell["nonempty"]
-                )
+                logical_nonempty = sum(1 for cell in grid[r_idx] if cell["nonempty"])
                 if logical_nonempty <= 1:
                     continue
                 row = actual_rows[r_idx]
-                for cell in row.find_all(['td', 'th'], recursive=False):
-                    if cell.name == 'td':
-                        cell.name = 'th'
+                for cell in row.find_all(["td", "th"], recursive=False):
+                    if cell.name == "td":
+                        cell.name = "th"
             # Promote stub-column body cells to <th scope="row"> at origin.
             for c in stub_cols:
                 for r_idx in range(first_data_idx, len(actual_rows)):
@@ -387,10 +374,10 @@ def simple_repair(html: str) -> str:
                     cell = origin_cells.get(origin)
                     if cell is None:
                         continue
-                    if cell.name == 'td':
-                        cell.name = 'th'
-                        if not cell.get('scope'):
-                            cell['scope'] = 'row'
+                    if cell.name == "td":
+                        cell.name = "th"
+                        if not cell.get("scope"):
+                            cell["scope"] = "row"
             # Row-group divider promotion. A row with exactly one
             # non-empty logical cell whose column is in stub_cols is a
             # row-group header for the body rows that follow until the
@@ -419,9 +406,7 @@ def simple_repair(html: str) -> str:
                 if r_idx >= len(grid):
                     break
                 row = grid[r_idx]
-                non_empty_cols = [
-                    c for c in range(len(row)) if row[c]["nonempty"]
-                ]
+                non_empty_cols = [c for c in range(len(row)) if row[c]["nonempty"]]
                 if len(non_empty_cols) != 1:
                     continue
                 only_col = non_empty_cols[0]
@@ -433,20 +418,20 @@ def simple_repair(html: str) -> str:
                 cell = origin_cells.get(origin)
                 if cell is None:
                     continue
-                if cell.name == 'td':
-                    cell.name = 'th'
-                cell['scope'] = 'rowgroup'
+                if cell.name == "td":
+                    cell.name = "th"
+                cell["scope"] = "rowgroup"
 
     # --- Fix 7: Wrap header rows in <thead> ---
     # If table lacks <thead>, detect contiguous leading rows that are "header-like"
     # (all <th> cells, or all <th>/empty cells) and wrap them in <thead>.
     # This ensures downstream logic can rely on is_thead to identify column headers.
-    if not table.find('thead') and actual_rows:
+    if not table.find("thead") and actual_rows:
         header_rows = []
         seen_non_empty = False
 
         for row in actual_rows:
-            cells = row.find_all(['td', 'th'], recursive=False)
+            cells = row.find_all(["td", "th"], recursive=False)
 
             # Ignore leading empty rows; do not treat them as headers
             if not cells and not seen_non_empty:
@@ -460,8 +445,7 @@ def simple_repair(html: str) -> str:
 
             # A row is "header-like" if all cells are <th> or empty
             is_header_like = all(
-                cell.name == 'th' or not cell.get_text(strip=True)
-                for cell in cells
+                cell.name == "th" or not cell.get_text(strip=True) for cell in cells
             )
 
             if is_header_like:
@@ -469,49 +453,50 @@ def simple_repair(html: str) -> str:
             else:
                 # Stop at first non-header row
                 break
-        
+
         # Only wrap if we found header rows (and they're not ALL the rows)
         if header_rows and len(header_rows) < len(actual_rows):
-            thead = soup.new_tag('thead')
-            
+            new_thead = soup.new_tag("thead")
+
             # Insert thead at the beginning of the table
             # (after caption if present)
-            caption = table.find('caption')
-            if caption:
-                caption.insert_after(thead)
+            caption = table.find("caption")
+            if isinstance(caption, Tag):
+                caption.insert_after(new_thead)
             else:
-                table.insert(0, thead)
-            
+                table.insert(0, new_thead)
+
             # Move header rows into thead
             for row in header_rows:
                 row.extract()
-                thead.append(row)
-            
-            actual_rows = get_top_level_rows(table)
+                new_thead.append(row)
 
+            actual_rows = get_top_level_rows(table)
 
     # --- Fix 8: Promote row headers based on <thead> structure ---
     # If <thead> has multi-row structure (hierarchical column headers), the first
-    # column typically contains row identifiers. Promote first-column <td> cells 
+    # column typically contains row identifiers. Promote first-column <td> cells
     # in <tbody> to <th scope="row">.
-    # 
+    #
     # We only promote cells that:
     # 1. Are the first cell in their DOM row, AND
     # 2. Either have rowspan > 1 (explicit row group identifier), OR
     # 3. Are not "covered" by a rowspan from a previous row
-    thead = table.find('thead')
-    if thead:
-        thead_rows = thead.find_all('tr', recursive=False)
+    thead = table.find("thead")
+    if isinstance(thead, Tag):
+        thead_rows = thead.find_all("tr", recursive=False)
         header_depth = len(thead_rows)
-        
+
         if header_depth > 1:
             # Multi-row header structure suggests dimensional table
-            tbody = table.find('tbody')
-            if tbody:
+            tbody = table.find("tbody")
+            if isinstance(tbody, Tag):
                 active_rowspan = 0  # Track if a rowspan from above covers first column
 
-                for row in tbody.find_all('tr', recursive=False):
-                    cells = row.find_all(['td', 'th'], recursive=False)
+                for row in tbody.find_all("tr", recursive=False):
+                    if not isinstance(row, Tag):
+                        continue
+                    cells = row.find_all(["td", "th"], recursive=False)
 
                     if active_rowspan > 0:
                         # First column is covered by rowspan from above.
@@ -521,19 +506,20 @@ def simple_repair(html: str) -> str:
                         continue
 
                     first = cells[0]
+                    if not isinstance(first, Tag):
+                        continue
                     # Promote to row-header if not already. Fix 4 may have
                     # pre-promoted this cell via its stub-column path — in
                     # that case we still need to track the rowspan so the
                     # counter stays in sync with the grid, otherwise a cell
                     # at logical col > 0 in a subsequent row would be
                     # mistaken for the first-column cell.
-                    if first.name == 'td':
-                        first.name = 'th'
-                        first['scope'] = 'row'
-                    rowspan = clamped_span(first.get('rowspan', 1))
+                    if first.name == "td":
+                        first.name = "th"
+                        first["scope"] = "row"
+                    rowspan = clamped_span(first.get("rowspan"))
                     if rowspan > 1:
                         active_rowspan = rowspan - 1
-
 
     # --- Fix 6: Merge "Hanging" Description Rows ---
     # Detects "wrap continuation" rows: a row with text in only the first cell
@@ -553,31 +539,30 @@ def simple_repair(html: str) -> str:
 
     # (merge loop intentionally disabled — see commit log for context)
 
-
     # --- Fix 2, 3: Iterate remaining rows ---
     actual_rows = get_top_level_rows(table)
 
     for row in actual_rows:
-        cells = row.find_all(['td', 'th'], recursive=False)
+        cells = row.find_all(["td", "th"], recursive=False)
         if not cells:
             continue
 
         # --- Fix 2: Fix <tfoot> row headers ---
-        if row.find_parent('tfoot') and cells[0].name == 'td':
-            if clamped_span(cells[0].get('colspan', 1)) > 1:
-                cells[0].name = 'th'
-                cells[0]['scope'] = 'colgroup'
+        if row.find_parent("tfoot") and cells[0].name == "td":
+            if clamped_span(cells[0].get("colspan", 1)) > 1:
+                cells[0].name = "th"
+                cells[0]["scope"] = "colgroup"
 
         # --- Fix 3: Move footer legends to tfoot ---
-        if not row.find_parent('tfoot'):
+        if not row.find_parent("tfoot"):
             if len(cells) == 1:
                 text = cells[0].get_text(strip=True).lower()
-                if 'legend' in text or 'footnote' in text:
-                    colspan = clamped_span(cells[0].get('colspan', 1))
+                if "legend" in text or "footnote" in text:
+                    colspan = clamped_span(cells[0].get("colspan", 1))
                     if colspan >= 3:
-                        tfoot = table.find('tfoot')
-                        if not tfoot:
-                            tfoot = soup.new_tag('tfoot')
+                        tfoot = table.find("tfoot")
+                        if not isinstance(tfoot, Tag):
+                            tfoot = soup.new_tag("tfoot")
                             table.append(tfoot)
                         row.extract()
                         tfoot.append(row)

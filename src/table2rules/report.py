@@ -10,7 +10,6 @@ from dataclasses import dataclass
 from itertools import chain
 from typing import Dict, FrozenSet, Iterable, Literal, Optional, Tuple
 
-
 # The four values ``render_mode`` can take. Order = descending output quality.
 #
 #   rules       — gate passed; exporter-native output (one rule per line).
@@ -70,28 +69,34 @@ REASONS: Dict[str, str] = {
 # and switch statements without hardcoding the buckets from the docs. Every
 # key in ``REASONS`` appears in exactly one bucket — enforced by tests.
 REASONS_BY_SEVERITY: Dict[str, FrozenSet[str]] = {
-    "defensive": frozenset({
-        "empty_grid",
-        "position_out_of_bounds",
-        "non_td_rule_cell",
-        "header_cell_emitted",
-        "empty_rule_outcome",
-        "empty_header_text",
-    }),
-    "confidence": frozenset({
-        "no_candidate_data_cells",
-        "low_coverage",
-        "low_header_attachment",
-        "high_self_echo",
-        "high_duplicate_positions",
-        "high_position_conflict",
-        "numeric_column_headers",
-        "placeholder_column_headers",
-    }),
-    "input": frozenset({
-        "input_too_large",
-        "processing_error",
-    }),
+    "defensive": frozenset(
+        {
+            "empty_grid",
+            "position_out_of_bounds",
+            "non_td_rule_cell",
+            "header_cell_emitted",
+            "empty_rule_outcome",
+            "empty_header_text",
+        }
+    ),
+    "confidence": frozenset(
+        {
+            "no_candidate_data_cells",
+            "low_coverage",
+            "low_header_attachment",
+            "high_self_echo",
+            "high_duplicate_positions",
+            "high_position_conflict",
+            "numeric_column_headers",
+            "placeholder_column_headers",
+        }
+    ),
+    "input": frozenset(
+        {
+            "input_too_large",
+            "processing_error",
+        }
+    ),
 }
 
 

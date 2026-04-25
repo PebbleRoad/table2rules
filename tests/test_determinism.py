@@ -23,17 +23,14 @@ def _fixtures() -> list[Path]:
     return [
         p
         for p in sorted(TESTS_DIR.rglob("*.md"))
-        if not (skip_prefixes & set(p.relative_to(TESTS_DIR).parts))
-        and p.parent != TESTS_DIR
+        if not (skip_prefixes & set(p.relative_to(TESTS_DIR).parts)) and p.parent != TESTS_DIR
     ]
 
 
 FIXTURES = _fixtures()
 
 
-@pytest.mark.parametrize(
-    "fixture", FIXTURES, ids=[str(p.relative_to(TESTS_DIR)) for p in FIXTURES]
-)
+@pytest.mark.parametrize("fixture", FIXTURES, ids=[str(p.relative_to(TESTS_DIR)) for p in FIXTURES])
 def test_text_output_is_deterministic(fixture: Path) -> None:
     html = fixture.read_text(encoding="utf-8")
     first = process_tables_to_text(html)

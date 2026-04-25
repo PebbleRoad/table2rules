@@ -29,7 +29,22 @@
       "Bash(git reset HEAD *)",
       "Bash(wait *)",
       "Bash(N_FINTABNET=20 SCAN_LIMIT=800 FINTABNET_CACHE=/tmp/fintabnet_shards python scripts/build_fintabnet_fixtures.py)",
-      "Bash(N_FINTABNET=200 SCAN_LIMIT=5000 FINTABNET_CACHE=/tmp/fintabnet_shards python scripts/build_fintabnet_fixtures.py)"
+      "Bash(N_FINTABNET=200 SCAN_LIMIT=5000 FINTABNET_CACHE=/tmp/fintabnet_shards python scripts/build_fintabnet_fixtures.py)",
+      "Bash(unzip -l /Users/pebbleroad/Documents/table2rules/dist/table2rules-0.3.0-py3-none-any.whl)",
+      "Bash(/tmp/t2r-fresh/bin/pip install *)",
+      "Bash(/tmp/t2r-fresh/bin/pip list *)",
+      "Bash(/tmp/t2r-fresh/bin/python /tmp/t2r-fresh/smoke.py)",
+      "Bash(/tmp/t2r-fresh/bin/table2rules)",
+      "Bash(/tmp/t2r-fresh/bin/python -m table2rules --help)",
+      "Bash(/tmp/t2r-fresh/bin/python -c ' *)",
+      "Bash(ruff check *)",
+      "Bash(ruff format *)",
+      "Bash(mypy src/table2rules)",
+      "Bash(sed -n '80,90p' /Users/pebbleroad/Documents/table2rules/src/table2rules/grid_parser.py)",
+      "Bash(sed -n '255,265p' /Users/pebbleroad/Documents/table2rules/src/table2rules/grid_parser.py)",
+      "Bash(/tmp/t2r-final/bin/pip install *)",
+      "Bash(/tmp/t2r-final/bin/python /tmp/t2r-fresh/smoke.py)",
+      "Bash(/tmp/t2r-final/bin/table2rules)"
     ],
     "ask": [
       "Bash(git commit:*)",

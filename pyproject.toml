@@ -35,6 +35,12 @@ classifiers = [
 [project.optional-dependencies]
 dev = [
     "pytest>=8.0",
+    "ruff>=0.6",
+    "mypy>=1.10",
+    "types-html5lib",
+    "lxml-stubs",
+    "build>=1.2",
+    "twine>=5.0",
 ]
 
 [project.scripts]
@@ -55,4 +61,33 @@ table2rules = ["py.typed"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py39"
+line-length = 100
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B"]
+ignore = [
+    "E501",
+    "B008",
+    "E741",
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["B", "E402"]
+
+[tool.mypy]
+python_version = "3.9"
+files = ["src/table2rules"]
+strict_equality = true
+warn_unused_ignores = true
+warn_redundant_casts = true
+no_implicit_optional = true
+check_untyped_defs = true
+
+[[tool.mypy.overrides]]
+module = ["bs4.*"]
+ignore_missing_imports = true
 

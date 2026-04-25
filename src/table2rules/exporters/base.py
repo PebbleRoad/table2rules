@@ -15,11 +15,9 @@ from ..models import LogicRule
 class Exporter(Protocol):
     name: str
 
-    def export_rules(self, rules: List[LogicRule]) -> List[str]:
-        ...
+    def export_rules(self, rules: List[LogicRule]) -> List[str]: ...
 
-    def export_flat(self, cell_rows: List[List[str]]) -> List[str]:
-        ...
+    def export_flat(self, cell_rows: List[List[str]]) -> List[str]: ...
 
 
 _REGISTRY: Dict[str, Exporter] = {}
@@ -33,8 +31,7 @@ def get_exporter(name_or_instance) -> Exporter:
     if isinstance(name_or_instance, str):
         if name_or_instance not in _REGISTRY:
             raise ValueError(
-                f"unknown exporter {name_or_instance!r}; "
-                f"registered: {sorted(_REGISTRY)}"
+                f"unknown exporter {name_or_instance!r}; registered: {sorted(_REGISTRY)}"
             )
         return _REGISTRY[name_or_instance]
     return name_or_instance

@@ -1,6 +1,7 @@
-from typing import List, Dict
-from bs4 import NavigableString
 import re
+from typing import Any, Dict, List, Optional, cast
+
+from bs4 import NavigableString, Tag
 
 from .simple_repair import detect_header_block
 from .spans import assert_grid_size, clamped_span
@@ -9,26 +10,26 @@ from .spans import assert_grid_size, clamped_span
 def clean_text(text: str) -> str:
     if not text:
         return ""
-    
+
     # Basic HTML entity cleanup
-    text = text.replace('&nbsp;', ' ')
-    text = text.replace('&amp;', '&')
+    text = text.replace("&nbsp;", " ")
+    text = text.replace("&amp;", "&")
 
     # Strip residual HTML tags if any slipped through
-    text = re.sub(r'<[^>]+>', ' ', text)
+    text = re.sub(r"<[^>]+>", " ", text)
 
     # 1) Fix double dollar patterns like "$$200,000" or "S$$3,000"
     #    Turn them into "$200,000" or "S$3,000"
-    text = re.sub(r'\bS\$\$(\d)', r'S$\1', text)
-    text = re.sub(r'\$\$(\d)', r'$\1', text)
+    text = re.sub(r"\bS\$\$(\d)", r"S$\1", text)
+    text = re.sub(r"\$\$(\d)", r"$\1", text)
 
     # 2) Remove a trailing standalone "$" after a word/number
     #    e.g. "per Sickness$" -> "per Sickness"
-    text = re.sub(r'(\w)\$(\s|$)', r'\1\2', text)
+    text = re.sub(r"(\w)\$(\s|$)", r"\1\2", text)
 
     # Collapse whitespace
-    text = re.sub(r'\s+', ' ', text).strip()
-    
+    text = re.sub(r"\s+", " ", text).strip()
+
     return text
 
 
@@ -51,10 +52,11 @@ def get_row_cells(row, table) -> List:
     Return logical cells for a row, including malformed sibling cells that may
     be nested due to broken closing tags, while excluding nested-table cells.
     """
-    cells = row.find_all(['td', 'th'])
+    cells = row.find_all(["td", "th"])
     return [
-        cell for cell in cells
-        if cell.find_parent('tr') is row and cell.find_parent('table') is table
+        cell
+        for cell in cells
+        if cell.find_parent("tr") is row and cell.find_parent("table") is table
     ]
 
 
@@ -76,10 +78,12 @@ def extract_cell_text(cell) -> str:
         if parent is None:
             continue
 
-        if parent.name in ('td', 'th'):
+        nearest_cell: Optional[Tag]
+        if parent.name in ("td", "th"):
             nearest_cell = parent
         else:
-            nearest_cell = parent.find_parent(['td', 'th'])
+            ancestor = parent.find_parent(["td", "th"])
+            nearest_cell = ancestor if isinstance(ancestor, Tag) else None
 
         if nearest_cell is cell:
             parts.append(text)
@@ -87,25 +91,25 @@ def extract_cell_text(cell) -> str:
     return clean_text(" ".join(parts))
 
 
-def parse_table_to_grid(table) -> List[List[Dict]]:
+def parse_table_to_grid(table: Tag) -> List[List[Dict[str, Any]]]:
     # 1. Get all top-level rows
-    all_rows_in_dom = table.find_all('tr')
+    all_rows_in_dom = table.find_all("tr")
     actual_rows = []
     for row in all_rows_in_dom:
-        if row.find_parent('table') is table:
+        if row.find_parent("table") is table:
             actual_rows.append(row)
     if not actual_rows:
         return []
 
     # --- UNIVERSAL HEADER LOGIC ---
-    
-    data_start_row_idx = 0
-    has_thead = table.find('thead') is not None
 
-    if has_thead:
+    data_start_row_idx = 0
+    thead = table.find("thead")
+    has_thead = isinstance(thead, Tag)
+
+    if isinstance(thead, Tag):
         # --- Logic for tables WITH <thead> ---
-        thead = table.find('thead')
-        data_start_row_idx = len(thead.find_all('tr', recursive=False))
+        data_start_row_idx = len(thead.find_all("tr", recursive=False))
 
     else:
         # --- Logic for "Headless" tables (NO <thead>) ---
@@ -119,7 +123,7 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
         # line like <tr><th scope="row">Total</th>...</tr>) would be
         # mistaken for the table header.
         def _is_col_header_cell(cell):
-            return cell.name == 'th' and cell.get('scope') != 'row'
+            return cell.name == "th" and cell.get("scope") != "row"
 
         header_row_idx = None
         for idx, row in enumerate(actual_rows):
@@ -130,8 +134,7 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
 
             has_col_th = any(_is_col_header_cell(cell) for cell in cells)
             all_col_th_or_empty = all(
-                _is_col_header_cell(cell) or not cell.get_text(strip=True)
-                for cell in cells
+                _is_col_header_cell(cell) or not cell.get_text(strip=True) for cell in cells
             )
 
             if has_col_th and all_col_th_or_empty:
@@ -145,7 +148,7 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
             # If some cells in this header row span multiple body rows,
             # use the maximum rowspan to determine how many header rows exist.
             cells = get_row_cells(actual_rows[main_header_row_idx], table)
-            header_row_span = max(clamped_span(cell.get('rowspan', 1)) for cell in cells) or 1
+            header_row_span = max(clamped_span(cell.get("rowspan", 1)) for cell in cells) or 1
 
             # Data starts after the header row span
             data_start_row_idx = main_header_row_idx + header_row_span
@@ -162,7 +165,7 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
                 if not cells or len(cells) == 1:
                     continue
 
-                first_cell_rowspan = clamped_span(cells[0].get('rowspan', 1))
+                first_cell_rowspan = clamped_span(cells[0].get("rowspan", 1))
                 if first_cell_rowspan > 1:
                     main_header_row_idx = idx
                     header_row_span = first_cell_rowspan
@@ -207,14 +210,20 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
                 is_key_value_table = False
                 break
             # First must be th, second must be td
-            if cells[0].name != 'th' or cells[1].name != 'td':
+            if cells[0].name != "th" or cells[1].name != "td":
                 is_key_value_table = False
                 break
             # No colspan/rowspan (keep it simple)
-            if clamped_span(cells[0].get('colspan', 1)) > 1 or clamped_span(cells[0].get('rowspan', 1)) > 1:
+            if (
+                clamped_span(cells[0].get("colspan", 1)) > 1
+                or clamped_span(cells[0].get("rowspan", 1)) > 1
+            ):
                 is_key_value_table = False
                 break
-            if clamped_span(cells[1].get('colspan', 1)) > 1 or clamped_span(cells[1].get('rowspan', 1)) > 1:
+            if (
+                clamped_span(cells[1].get("colspan", 1)) > 1
+                or clamped_span(cells[1].get("rowspan", 1)) > 1
+            ):
                 is_key_value_table = False
                 break
     # Key-value tables have no header rows — every row is data.
@@ -233,8 +242,8 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
         for cell in cells:
             while (row_idx, logical_col) in occupied:
                 logical_col += 1
-            rowspan = clamped_span(cell.get('rowspan', 1))
-            colspan = clamped_span(cell.get('colspan', 1))
+            rowspan = clamped_span(cell.get("rowspan", 1))
+            colspan = clamped_span(cell.get("colspan", 1))
             assert_grid_size(len(actual_rows), logical_col + colspan)
             for r in range(min(rowspan, len(actual_rows) - row_idx)):
                 for c in range(colspan):
@@ -246,38 +255,39 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
         return []
 
     assert_grid_size(len(actual_rows), max_cols)
-    
+
     # Clamp inferred structure to valid ranges
     data_start_row_idx = max(0, min(data_start_row_idx, len(actual_rows)))
 
     # Phase 2: Create empty grid
-    grid = [[None for _ in range(max_cols)] for _ in range(len(actual_rows))]
-    
+    grid: List[List[Optional[Dict[str, Any]]]] = [
+        [None for _ in range(max_cols)] for _ in range(len(actual_rows))
+    ]
+
     # Phase 3: Fill grid
     for row_idx, row in enumerate(actual_rows):
         cells = get_row_cells(row, table)
         logical_col = 0
-        
+
         # A row is a "header row" if it's before the data start (headless only)
         is_header_row = (row_idx < data_start_row_idx) and not has_thead
-        
+
         for cell in cells:
             while logical_col < max_cols and grid[row_idx][logical_col] is not None:
                 logical_col += 1
             if logical_col >= max_cols:
                 break
-            
-            rowspan = clamped_span(cell.get('rowspan', 1))
-            colspan = clamped_span(cell.get('colspan', 1))
+
+            rowspan = clamped_span(cell.get("rowspan", 1))
+            colspan = clamped_span(cell.get("colspan", 1))
 
             # Universal cell_type logic
             cell_type = cell.name
-            is_body_row = not (cell.find_parent('thead') or cell.find_parent('tfoot'))
 
             # Heuristic 1: header row (for headless)
             # Skip this for key-value tables - they don't have header rows
-            if is_header_row and cell.name == 'td' and not is_key_value_table:
-                cell_type = 'th'
+            if is_header_row and cell.name == "td" and not is_key_value_table:
+                cell_type = "th"
 
             # Heuristic 1b: <td> cells inside <thead> are structural headers
             # regardless of tag. Word / Markdown-to-HTML converters, and many
@@ -285,30 +295,30 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
             # — the <thead> wrapper is the authoritative signal. Promote to
             # <th> so downstream header-walking treats these as column
             # headers.
-            if cell.name == 'td' and cell.find_parent('thead') is not None:
-                cell_type = 'th'
+            if cell.name == "td" and cell.find_parent("thead") is not None:
+                cell_type = "th"
 
-            is_footer = cell.find_parent('tfoot') is not None
-            is_thead = cell.find_parent('thead') is not None
+            is_footer = cell.find_parent("tfoot") is not None
+            is_thead = cell.find_parent("thead") is not None
 
             # Override scope for key-value tables
-            cell_scope = cell.get('scope')
-            if is_key_value_table and logical_col == 0 and cell_type == 'th':
-                cell_scope = 'row'
+            cell_scope = cell.get("scope")
+            if is_key_value_table and logical_col == 0 and cell_type == "th":
+                cell_scope = "row"
 
             cell_data = {
-                'text': extract_cell_text(cell),
-                'type': cell_type,
-                'rowspan': rowspan,
-                'colspan': colspan,
-                'scope': cell_scope,
-                'is_footer': is_footer,
-                'is_thead': is_thead,
-                'has_thead': has_thead,
-                'is_header_row': is_header_row,
-                'header_depth': data_start_row_idx if has_thead else 0
+                "text": extract_cell_text(cell),
+                "type": cell_type,
+                "rowspan": rowspan,
+                "colspan": colspan,
+                "scope": cell_scope,
+                "is_footer": is_footer,
+                "is_thead": is_thead,
+                "has_thead": has_thead,
+                "is_header_row": is_header_row,
+                "header_depth": data_start_row_idx if has_thead else 0,
             }
-            
+
             for r_offset in range(min(rowspan, len(grid) - row_idx)):
                 for c_offset in range(colspan):
                     target_row = row_idx + r_offset
@@ -318,22 +328,22 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
                             grid[target_row][target_col] = cell_data
                         else:
                             span_ref = {
-                                'text': cell_data['text'],
-                                'type': cell_data['type'],
-                                'rowspan': 1,
-                                'colspan': 1,
-                                'scope': cell_data.get('scope'),
-                                'is_footer': cell_data['is_footer'],
-                                'is_thead': cell_data['is_thead'],
-                                'has_thead': cell_data['has_thead'],
-                                'is_header_row': cell_data['is_header_row'],
-                                'is_span_copy': True,
-                                'origin': (row_idx, logical_col),
-                                'header_depth': cell_data.get('header_depth', 0),
+                                "text": cell_data["text"],
+                                "type": cell_data["type"],
+                                "rowspan": 1,
+                                "colspan": 1,
+                                "scope": cell_data.get("scope"),
+                                "is_footer": cell_data["is_footer"],
+                                "is_thead": cell_data["is_thead"],
+                                "has_thead": cell_data["has_thead"],
+                                "is_header_row": cell_data["is_header_row"],
+                                "is_span_copy": True,
+                                "origin": (row_idx, logical_col),
+                                "header_depth": cell_data.get("header_depth", 0),
                             }
                             grid[target_row][target_col] = span_ref
             logical_col += colspan
-    
+
     # Phase 3.5: Promote dimensional body columns to row headers.
     #
     # Universal structural signals:
@@ -355,21 +365,21 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
         for c in range(max_cols):
             for r in range(len(grid)):
                 cell = grid[r][c]
-                if not cell or cell.get('is_span_copy'):
+                if not cell or cell.get("is_span_copy"):
                     continue
-                txt = (cell.get('text') or '').strip()
-                if cell.get('is_thead', False):
+                txt = (cell.get("text") or "").strip()
+                if cell.get("is_thead", False):
                     if txt:
                         has_thead_text[c] = True
                     continue
                 if r < data_start_row_idx:
                     continue
-                if cell.get('is_footer', False):
+                if cell.get("is_footer", False):
                     continue
                 if not txt:
                     continue
                 body_nonempty[c] += 1
-                if cell.get('type') == 'th':
+                if cell.get("type") == "th":
                     body_th[c] += 1
                 if _is_textualish(txt):
                     body_textual[c] += 1
@@ -391,8 +401,7 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
             col_has_rowspan = False
             for r in range(data_start_row_idx, len(grid)):
                 cell = grid[r][c]
-                if (cell and not cell.get('is_span_copy')
-                        and cell.get('rowspan', 1) > 1):
+                if cell and not cell.get("is_span_copy") and cell.get("rowspan", 1) > 1:
                     col_has_rowspan = True
                     break
             if col_has_rowspan:
@@ -405,9 +414,12 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
             full_depth_count = 0
             for c in range(max_cols):
                 cell = grid[0][c]
-                if (cell and cell.get('is_thead')
-                        and not cell.get('is_span_copy')
-                        and cell.get('rowspan', 1) == data_start_row_idx):
+                if (
+                    cell
+                    and cell.get("is_thead")
+                    and not cell.get("is_span_copy")
+                    and cell.get("rowspan", 1) == data_start_row_idx
+                ):
                     full_depth_count += 1
                 else:
                     break  # Stop at first non-full-depth header
@@ -452,23 +464,24 @@ def parse_table_to_grid(table) -> List[List[Dict]]:
             for c in sorted(promote_cols):
                 for r in range(data_start_row_idx, len(grid)):
                     cell = grid[r][c]
-                    if not cell or cell.get('is_footer', False):
+                    if not cell or cell.get("is_footer", False):
                         continue
-                    if cell['type'] == 'td' and (cell.get('text') or '').strip():
-                        cell['type'] = 'th'
-                        if not cell.get('scope'):
-                            cell['scope'] = 'row'
+                    if cell["type"] == "td" and (cell.get("text") or "").strip():
+                        cell["type"] = "th"
+                        if not cell.get("scope"):
+                            cell["scope"] = "row"
 
     # Phase 4: Fill gaps
     for r in range(len(grid)):
         for c in range(max_cols):
             if grid[r][c] is None:
                 grid[r][c] = {
-                    'text': '',
-                    'type': 'td',
-                    'rowspan': 1,
-                    'colspan': 1,
-                    'has_thead': has_thead,
+                    "text": "",
+                    "type": "td",
+                    "rowspan": 1,
+                    "colspan": 1,
+                    "has_thead": has_thead,
                 }
 
-    return grid
+    # Phase 4 guarantees every cell is non-None; cast for the public type.
+    return cast(List[List[Dict[str, Any]]], grid)

@@ -193,6 +193,10 @@ line). Third parties can add custom exporters by registering an object with
 [docs/integrating.md](docs/integrating.md) for the full exporter protocol
 and a JSONL example.
 
+### Public API and stability
+
+The public API is exactly the names listed in `table2rules.__all__` (and re-exported at the package root). Anything else — submodules like `table2rules.grid_parser`, internal helpers, undocumented attributes — is implementation detail and may change in any release without notice. SemVer compatibility guarantees apply only to the documented public surface.
+
 ---
 
 ## Safety contract

@@ -104,12 +104,7 @@ def assess_confidence(grid: List[List[Dict]], rules: List[LogicRule]) -> GateRes
     # financial reports legitimately label columns with years like "2024",
     # and the gate must not second-guess source-authored <th>. Skip the
     # shape heuristics for tables that have any <thead> cell in the grid.
-    has_source_thead = any(
-        cell.get('is_thead', False)
-        for row in grid
-        for cell in row
-        if cell
-    )
+    has_source_thead = any(cell.get("is_thead", False) for row in grid for cell in row if cell)
 
     # Penalize numeric column headers — real headers are text labels, not values.
     # A column header like "25.000" or "· 12,000" signals the first row was
@@ -122,11 +117,11 @@ def assess_confidence(grid: List[List[Dict]], rules: List[LogicRule]) -> GateRes
     import re
 
     def _is_numeric_token(h: str) -> bool:
-        stripped = re.sub(r'[\s\$€£¥·•\-\+,.]', '', h.strip())
+        stripped = re.sub(r"[\s\$€£¥·•\-\+,.]", "", h.strip())
         return bool(stripped) and stripped.isdigit()
 
     def _is_placeholder_token(h: str) -> bool:
-        return bool(re.match(r'^[_\-.\s]+$', h.strip()))
+        return bool(re.match(r"^[_\-.\s]+$", h.strip()))
 
     rules_all_numeric_col = 0
     rules_all_placeholder_col = 0

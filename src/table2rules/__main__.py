@@ -21,12 +21,14 @@ def main() -> None:
         help="Input file (default: stdin)",
     )
     parser.add_argument(
-        "-o", "--output",
+        "-o",
+        "--output",
         default="-",
         help="Output file (default: stdout)",
     )
     parser.add_argument(
-        "-f", "--format",
+        "-f",
+        "--format",
         default=DEFAULT_FORMAT,
         choices=available_exporters(),
         help=f"Output exporter (default: {DEFAULT_FORMAT})",
@@ -37,7 +39,8 @@ def main() -> None:
         help="Fail on parse errors or oversized tables instead of degrading.",
     )
     parser.add_argument(
-        "-V", "--version",
+        "-V",
+        "--version",
         action="version",
         version=f"%(prog)s {__version__}",
     )

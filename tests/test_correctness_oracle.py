@@ -35,12 +35,12 @@ import pytest
 from table2rules import process_tables_to_text
 from table2rules.exporters.rules import PATH_SEP, ROW_COL_SEP
 
-
 _WS = re.compile(r"\s+")
 
 
 def _norm(s: str) -> str:
     return _WS.sub(" ", s).strip()
+
 
 ROOT = Path(__file__).resolve().parent.parent
 REALWORLD_DIR = ROOT / "tests" / "realworld"
@@ -84,9 +84,7 @@ def _smart_split(path_str: str, source_tokens: frozenset[str]) -> tuple[str, ...
     return tuple(merged)
 
 
-def _smart_value_split(
-    line: str, source_tokens: frozenset[str]
-) -> tuple[str, str] | None:
+def _smart_value_split(line: str, source_tokens: frozenset[str]) -> tuple[str, str] | None:
     """Split 'lhs: value' where the cell content itself may contain ': '.
 
     Prefer the leftmost ': ' whose value-side is a known source token —
@@ -102,11 +100,11 @@ def _smart_value_split(
     """
     if ": " not in line:
         return None
-    positions = [i for i in range(len(line) - 1) if line[i:i + 2] == ": "]
+    positions = [i for i in range(len(line) - 1) if line[i : i + 2] == ": "]
     # Leftmost-first: the first source-token match yields the longest value.
     for pos in positions:
         lhs = line[:pos]
-        value = line[pos + 2:].strip()
+        value = line[pos + 2 :].strip()
         if not value:
             continue
         if ROW_COL_SEP in value or value.startswith("|"):

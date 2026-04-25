@@ -23,7 +23,6 @@ from table2rules import (
     LogicRule,
     RenderReport,
     Table2RulesError,
-    TableReport,
     TableTooLargeError,
     process_table,
     process_tables_to_text,
@@ -169,10 +168,7 @@ def test_pre_repair_span_bomb_is_skipped_with_input_too_large() -> None:
 
 
 def test_malformed_span_values_are_bounded_without_processing_error() -> None:
-    html = (
-        '<table><tr><td colspan="bogus">Title</td></tr>'
-        '<tr><td>A</td><td>B</td></tr></table>'
-    )
+    html = '<table><tr><td colspan="bogus">Title</td></tr><tr><td>A</td><td>B</td></tr></table>'
     text, report = process_tables_with_stats(html)
     assert text == "Title\nA | B"
     assert len(report.tables) == 1
@@ -246,8 +242,13 @@ def test_reasons_catalogue_shape() -> None:
         assert isinstance(key, str) and key
         assert isinstance(description, str) and description
     # Report-level reasons that this test file reaches must be documented.
-    for required in ("input_too_large", "processing_error", "low_coverage",
-                     "low_header_attachment", "no_candidate_data_cells"):
+    for required in (
+        "input_too_large",
+        "processing_error",
+        "low_coverage",
+        "low_header_attachment",
+        "no_candidate_data_cells",
+    ):
         assert required in REASONS, f"{required} missing from REASONS catalogue"
 
 
@@ -258,7 +259,8 @@ def test_every_reason_emitted_by_corpus_is_documented() -> None:
     test fails until the author also updates REASONS with a description.
     """
     fixtures = [
-        p for p in (ROOT / "tests").rglob("*.md")
+        p
+        for p in (ROOT / "tests").rglob("*.md")
         if "realworld" not in p.parts and p.parent != ROOT / "tests"
     ]
     seen: set[str] = set()
@@ -306,9 +308,7 @@ def test_tablereport_render_mode_values_are_from_literal_set() -> None:
     # Exhaustive list — any new value requires documentation here and a
     # matching minor-version bump of the library.
     allowed = {"rules", "flat", "passthrough", "skipped"}
-    _, report = process_tables_with_stats(
-        CLEAN_TABLE + "<table><tr><td>lone</td></tr></table>"
-    )
+    _, report = process_tables_with_stats(CLEAN_TABLE + "<table><tr><td>lone</td></tr></table>")
     for t in report.tables:
         assert t.render_mode in allowed
 
@@ -327,8 +327,10 @@ def test_render_mode_constants_match_literal_values() -> None:
 
     # And they must cover every value in the Literal type.
     assert {
-        RENDER_MODE_RULES, RENDER_MODE_FLAT,
-        RENDER_MODE_PASSTHROUGH, RENDER_MODE_SKIPPED,
+        RENDER_MODE_RULES,
+        RENDER_MODE_FLAT,
+        RENDER_MODE_PASSTHROUGH,
+        RENDER_MODE_SKIPPED,
     } == {"rules", "flat", "passthrough", "skipped"}
 
 
@@ -346,14 +348,12 @@ def test_reasons_by_severity_partitions_catalogue() -> None:
 
     missing_from_buckets = set(REASONS) - grouped
     assert not missing_from_buckets, (
-        f"codes in REASONS but not in REASONS_BY_SEVERITY: "
-        f"{sorted(missing_from_buckets)}"
+        f"codes in REASONS but not in REASONS_BY_SEVERITY: {sorted(missing_from_buckets)}"
     )
 
     missing_from_catalogue = grouped - set(REASONS)
     assert not missing_from_catalogue, (
-        f"codes in REASONS_BY_SEVERITY but not in REASONS: "
-        f"{sorted(missing_from_catalogue)}"
+        f"codes in REASONS_BY_SEVERITY but not in REASONS: {sorted(missing_from_catalogue)}"
     )
 
 

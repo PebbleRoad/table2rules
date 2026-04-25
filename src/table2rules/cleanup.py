@@ -17,14 +17,18 @@ def clean_rules(rules: List[LogicRule]) -> List[LogicRule]:
     cleaned: List[LogicRule] = []
 
     for rule in rules:
-
         if rule.is_footer:
             text = rule.outcome.lower()
 
-            if text.startswith('note:') or text.startswith('footnote') or 'legend:' in text or 'months indicate' in text:
+            if (
+                text.startswith("note:")
+                or text.startswith("footnote")
+                or "legend:" in text
+                or "months indicate" in text
+            ):
                 continue
 
-            if re.search(r'^\d+\s+\w+.*?\d+\s+\w+', text):
+            if re.search(r"^\d+\s+\w+.*?\d+\s+\w+", text):
                 continue
 
         # Drop self-echo rules: value identical to its column header.
@@ -35,11 +39,13 @@ def clean_rules(rules: List[LogicRule]) -> List[LogicRule]:
         ):
             continue
 
-        cleaned.append(replace(
-            rule,
-            row_headers=deduplicate_headers(rule.row_headers),
-            col_headers=deduplicate_headers(rule.col_headers),
-        ))
+        cleaned.append(
+            replace(
+                rule,
+                row_headers=deduplicate_headers(rule.row_headers),
+                col_headers=deduplicate_headers(rule.col_headers),
+            )
+        )
 
     return cleaned
 

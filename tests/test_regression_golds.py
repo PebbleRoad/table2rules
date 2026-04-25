@@ -55,8 +55,7 @@ def test_corpus_matches_gold(case_path: Path) -> None:
     gold_path = _gold_path(case_path)
     if not gold_path.exists():
         pytest.fail(
-            f"missing gold file: {gold_path}\n"
-            "run: python scripts/benchmark.py --update-gold"
+            f"missing gold file: {gold_path}\nrun: python scripts/benchmark.py --update-gold"
         )
 
     html = case_path.read_text(encoding="utf-8")

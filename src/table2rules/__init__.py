@@ -1,6 +1,7 @@
 """table2rules — convert HTML tables to flat, LLM-friendly rules."""
 
-from importlib.metadata import PackageNotFoundError, version as _pkg_version
+from importlib.metadata import PackageNotFoundError
+from importlib.metadata import version as _pkg_version
 
 from ._core import process_table, process_tables_to_text, process_tables_with_stats
 from .errors import Table2RulesError, TableTooLargeError

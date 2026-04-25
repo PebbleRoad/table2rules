@@ -24,7 +24,7 @@ import json
 import random
 import re
 from pathlib import Path
-from typing import Callable, Iterable
+from typing import Callable
 
 import pytest
 from bs4 import BeautifulSoup
@@ -65,10 +65,10 @@ def _smart_value_split(line: str, source_tokens: frozenset[str]):
     # test_correctness_oracle.py for the rationale.
     if ": " not in line:
         return None
-    positions = [i for i in range(len(line) - 1) if line[i:i + 2] == ": "]
+    positions = [i for i in range(len(line) - 1) if line[i : i + 2] == ": "]
     for pos in positions:
         lhs = line[:pos]
-        value = line[pos + 2:].strip()
+        value = line[pos + 2 :].strip()
         if not value or ROW_COL_SEP in value or value.startswith("|"):
             continue
         if source_tokens and _norm(value) in source_tokens:
@@ -80,9 +80,7 @@ def _smart_value_split(line: str, source_tokens: frozenset[str]):
     return lhs, _norm(value)
 
 
-def _parse_rule_line(
-    line: str, source_tokens: frozenset[str] = frozenset()
-):
+def _parse_rule_line(line: str, source_tokens: frozenset[str] = frozenset()):
     split = _smart_value_split(line, source_tokens)
     if split is None:
         return None
@@ -201,6 +199,7 @@ def mut_repeat_header_in_body(html: str, rng: random.Random) -> str:
     # Insert a copy of the header row roughly in the middle of tbody
     insertion_idx = len(body_rows) // 2
     import copy
+
     clone = copy.copy(first_header_row)
     body_rows[insertion_idx].insert_before(clone)
     return str(soup)
@@ -226,8 +225,7 @@ def mut_br_in_cells(html: str, rng: random.Random) -> str:
         split_pos = text.find(" ")
     if split_pos == -1:
         return html
-    before, after = text[:split_pos], text[split_pos + 1:]
-    parent = victim.parent
+    before, after = text[:split_pos], text[split_pos + 1 :]
     new_before = NavigableString(before)
     br = soup.new_tag("br")
     new_after = NavigableString(after)
@@ -262,7 +260,7 @@ def mut_mismatched_cell_close(html: str, rng: random.Random) -> str:
         return html
     pos, token = rng.choice(candidates)
     flipped = "</th>" if token == "</td>" else "</td>"
-    return html[:pos] + flipped + html[pos + len(token):]
+    return html[:pos] + flipped + html[pos + len(token) :]
 
 
 def mut_drop_thead_wrapper(html: str, rng: random.Random) -> str:
@@ -327,9 +325,7 @@ def _case_id(case: tuple[Path, Path]) -> str:
 
 @pytest.mark.parametrize("mutation_name", list(MUTATIONS))
 @pytest.mark.parametrize("case", CASES, ids=[_case_id(c) for c in CASES])
-def test_robustness_under_mutation(
-    case: tuple[Path, Path], mutation_name: str
-) -> None:
+def test_robustness_under_mutation(case: tuple[Path, Path], mutation_name: str) -> None:
     md_path, oracle_path = case
     html = md_path.read_text(encoding="utf-8")
     oracle = json.loads(oracle_path.read_text(encoding="utf-8"))
