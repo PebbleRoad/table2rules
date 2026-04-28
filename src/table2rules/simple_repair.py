@@ -285,7 +285,29 @@ def simple_repair(html: str) -> str:
         ]
         max_later_width = max(later_widths, default=0)
         first_cell_span = clamped_span(cells[0].get("colspan", 1))
-        if len(cells) == 1 and max_later_width >= 2 and first_cell_span >= max_later_width:
+        # If two or more rows in the table share this "single full-width
+        # <th>" shape, they are a section-divider series (e.g. <tbody>
+        # groups labelled "Personal" / "Work"), not a title. Treating the
+        # first as a caption while the others survive into Fix 1b would
+        # delete the matched siblings and leave the document with one
+        # arbitrarily-promoted label and the rest erased.
+        sibling_full_width_count = 0
+        for r in actual_rows:
+            r_cells = r.find_all(["td", "th"], recursive=False)
+            if len(r_cells) != 1:
+                continue
+            only = r_cells[0]
+            if only.name != "th":
+                continue
+            if clamped_span(only.get("colspan", 1)) >= max_later_width and max_later_width >= 2:
+                sibling_full_width_count += 1
+        is_section_divider_series = sibling_full_width_count >= 2
+        if (
+            len(cells) == 1
+            and max_later_width >= 2
+            and first_cell_span >= max_later_width
+            and not is_section_divider_series
+        ):
             title_text = cells[0].get_text(strip=True)
             caption = table.find("caption")
             if isinstance(caption, Tag):
@@ -298,14 +320,32 @@ def simple_repair(html: str) -> str:
                 actual_rows[i].decompose()
         actual_rows = get_top_level_rows(table)
 
-    # --- Fix 1b: Decompose mid-table section-title rows ---
+    # --- Fix 1b: Mark section-divider rows as scope="rowgroup" ---
     # A <tr> whose sole cell is a <th> with colspan covering the grid
-    # width is structurally a section label (e.g. "Personal" / "Work"
-    # delimiting A/V blocks in two <tbody>s). If it survives into the
-    # grid, the span expansion turns the label into a fabricated column
-    # header for the rows below. Decompose these rows so section labels
-    # don't pollute the header walk. Fix 1 already handles the first-row
-    # instance by moving it to <caption>; this handles mid-table ones.
+    # width is structurally a row-group label (e.g. "Personal" / "Work"
+    # delimiting attribute-value blocks across two <tbody>s, or
+    # "Operating Expenses" / "Non-Operating Items" partitioning a P&L
+    # statement). The maze pathfinder already understands
+    # <th scope="rowgroup"> as an ancestor label whose extent runs from
+    # its origin row to the next rowgroup divider in the same column —
+    # we just need to mark the cell honestly instead of deleting it.
+    #
+    # Two structural side-effects of the divider survive into downstream:
+    #   1. The col-header walk (maze_pathfinder.find_headers_for_cell)
+    #      already skips cells (and span copies) whose origin scope is
+    #      "rowgroup", so the colspan-expanded divider can never be
+    #      mistaken for a fabricated column header for the rows below.
+    #   2. The row-header walk picks the divider up as a row-group
+    #      ancestor — but only if col 0 of the body rows is itself a
+    #      row-header column. A divider series is a structural witness
+    #      that col 0 names individual rows within each group; promote
+    #      <td> col-0 cells in non-divider, non-thead rows to
+    #      <th scope="row"> so the maze can walk up from there.
+    #
+    # The earlier behaviour (row.decompose()) silently destroyed the
+    # group label. Outputs scored gate_ok with no signal that context
+    # had been lost — see issue #1.
+    rowgroup_divider_rows: list = []
     if actual_rows:
         row_widths = [len(r.find_all(["td", "th"], recursive=False)) for r in actual_rows]
         max_width = max(row_widths, default=0)
@@ -319,8 +359,32 @@ def simple_repair(html: str) -> str:
                     continue
                 colspan = clamped_span(cell.get("colspan", 1))
                 if colspan >= max_width:
-                    row.decompose()
+                    cell["scope"] = "rowgroup"
+                    rowgroup_divider_rows.append(row)
         actual_rows = get_top_level_rows(table)
+
+    # If any rowgroup dividers were marked, col 0 of the surrounding
+    # rows is the row-label column by structural implication (the
+    # divider partitions row identities, which must live in some
+    # column; the canonical placement is col 0). Promote <td> col-0
+    # cells outside <thead> and outside divider rows to
+    # <th scope="row"> so the row-header walk picks up both the row
+    # label and its rowgroup ancestor.
+    if rowgroup_divider_rows:
+        divider_set = {id(r) for r in rowgroup_divider_rows}
+        for row in actual_rows:
+            if id(row) in divider_set:
+                continue
+            if row.find_parent("thead") is not None:
+                continue
+            cells = row.find_all(["td", "th"], recursive=False)
+            if not cells:
+                continue
+            first = cells[0]
+            if first.name == "td" and first.get_text(strip=True):
+                first.name = "th"
+                if not first.get("scope"):
+                    first["scope"] = "row"
 
     # --- Fix 4: Structural header-block promotion ---
     # Universal structural rule (replaces the old row-0-only "all cells
@@ -442,6 +506,16 @@ def simple_repair(html: str) -> str:
                 break
 
             seen_non_empty = True
+
+            # A row carrying a <th scope="rowgroup"> is a body section
+            # divider (Fix 1b marker), not a thead row. Stop the leading
+            # header chain here so the divider stays in <tbody>; pulling
+            # it into <thead> would mis-classify it as a column header.
+            is_rowgroup_divider = any(
+                cell.name == "th" and cell.get("scope") == "rowgroup" for cell in cells
+            )
+            if is_rowgroup_divider:
+                break
 
             # A row is "header-like" if all cells are <th> or empty
             is_header_like = all(

@@ -1,4 +1,4 @@
-Name: Ada Lovelace
-Email: ada@example.com
-Employer: Analytical Engines Ltd
-Role: Lead Engineer
+Personal > Name: Ada Lovelace
+Personal > Email: ada@example.com
+Work > Employer: Analytical Engines Ltd
+Work > Role: Lead Engineer
