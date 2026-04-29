@@ -1,0 +1,46 @@
+Total gene pairs sharing one regulator: 24,833
+Gene pairs sharing one regulator and both are in the same deacetylation partition group: 141
+Threshold for correlations: 0.5
+Number of gene pairs sharing one regulator above the threshold: 4,676
+Number of gene pairs sharing one regulator and both are in the same deacetylation partition group above the threshold: 80
+P-values based on the hypergeometric tests: 3.43e-011
+Threshold for correlations: 0.6
+Number of gene pairs sharing one regulator above the threshold: 2,925
+Number of gene pairs sharing one regulator and both are in the same deacetylation partition group above the threshold: 54
+P-values based on the hypergeometric tests: 2.37e-011
+Threshold for correlations: 0.7
+Number of gene pairs sharing one regulator above the threshold: 1,519
+Number of gene pairs sharing one regulator and both are in the same deacetylation partition group above the threshold: 45
+P-values based on the hypergeometric tests: 2.24e-011
+Threshold for correlations: 0.8
+Number of gene pairs sharing one regulator above the threshold: 422
+Number of gene pairs sharing one regulator and both are in the same deacetylation partition group above the threshold: 20
+P-values based on the hypergeometric tests: 2.92e-011
+Threshold for correlations: 0.9
+Number of gene pairs sharing one regulator above the threshold: 30
+Number of gene pairs sharing one regulator and both are in the same deacetylation partition group above the threshold: 3
+P-values based on the hypergeometric tests: 0.0000243
+Gene pairs sharing one regulator and both are in the same deacetylation partition group: Gene pairs sharing one regulator and they belong to neighboring deacetylation partition groups
+Number of gene pairs sharing one regulator and both are in the same deacetylation partition group above the threshold: Number of gene pairs sharing one regulator and they belong to neighboring deacetylation partition groups above the threshold
+Total gene pairs sharing one regulator: 24,833
+Gene pairs sharing one regulator and both are in the same deacetylation partition group: 46
+Threshold for correlations: 0.5
+Number of gene pairs sharing one regulator above the threshold: 4,676
+Number of gene pairs sharing one regulator and both are in the same deacetylation partition group above the threshold: 12
+P-values based on the hypergeometric tests: 0.0784
+Threshold for correlations: 0.6
+Number of gene pairs sharing one regulator above the threshold: 2,925
+Number of gene pairs sharing one regulator and both are in the same deacetylation partition group above the threshold: 8
+P-values based on the hypergeometric tests: 0.0853
+Threshold for correlations: 0.7
+Number of gene pairs sharing one regulator above the threshold: 1,519
+Number of gene pairs sharing one regulator and both are in the same deacetylation partition group above the threshold: 8
+P-values based on the hypergeometric tests: 0.00165
+Threshold for correlations: 0.8
+Number of gene pairs sharing one regulator above the threshold: 422
+Number of gene pairs sharing one regulator and both are in the same deacetylation partition group above the threshold: 2
+P-values based on the hypergeometric tests: 0.0432
+Threshold for correlations: 0.9
+Number of gene pairs sharing one regulator above the threshold: 30
+Number of gene pairs sharing one regulator and both are in the same deacetylation partition group above the threshold: 0
+P-values based on the hypergeometric tests: 0.0541

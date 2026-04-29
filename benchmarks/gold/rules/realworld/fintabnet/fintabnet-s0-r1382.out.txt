@@ -1,0 +1,30 @@
+Service cost | Pension > 2017 > (Dollars in thousands): $2,887
+Service cost | Pension > 2016 > (Dollars in thousands): $2,615
+Service cost | Pension > 2015 > (Dollars in thousands): $1,880
+Service cost | Other Benefits > 2017 > (Dollars in thousands): $279
+Service cost | Other Benefits > 2016 > (Dollars in thousands): $355
+Service cost | Other Benefits > 2015 > (Dollars in thousands): $495
+Interest cost | Pension > 2017 > (Dollars in thousands): 15,137
+Interest cost | Pension > 2016 > (Dollars in thousands): 15,711
+Interest cost | Pension > 2015 > (Dollars in thousands): 17,948
+Interest cost | Other Benefits > 2017 > (Dollars in thousands): 1,577
+Interest cost | Other Benefits > 2016 > (Dollars in thousands): 1,595
+Interest cost | Other Benefits > 2015 > (Dollars in thousands): 1,967
+Expected return on plan assets | Pension > 2017 > (Dollars in thousands): (26,809)
+Expected return on plan assets | Pension > 2016 > (Dollars in thousands): (24,786)
+Expected return on plan assets | Pension > 2015 > (Dollars in thousands): (25,940)
+Expected return on plan assets | Other Benefits > 2017 > (Dollars in thousands): —
+Expected return on plan assets | Other Benefits > 2016 > (Dollars in thousands): —
+Expected return on plan assets | Other Benefits > 2015 > (Dollars in thousands): —
+Net amortization and deferral | Pension > 2017 > (Dollars in thousands): 6,734
+Net amortization and deferral | Pension > 2016 > (Dollars in thousands): 6,567
+Net amortization and deferral | Pension > 2015 > (Dollars in thousands): 6,159
+Net amortization and deferral | Other Benefits > 2017 > (Dollars in thousands): 275
+Net amortization and deferral | Other Benefits > 2016 > (Dollars in thousands): 454
+Net amortization and deferral | Other Benefits > 2015 > (Dollars in thousands): 216
+Net benefit expense (income) | Pension > 2017 > (Dollars in thousands): $(2,051)
+Net benefit expense (income) | Pension > 2016 > (Dollars in thousands): $107
+Net benefit expense (income) | Pension > 2015 > (Dollars in thousands): $47
+Net benefit expense (income) | Other Benefits > 2017 > (Dollars in thousands): $2,131
+Net benefit expense (income) | Other Benefits > 2016 > (Dollars in thousands): $2,404
+Net benefit expense (income) | Other Benefits > 2015 > (Dollars in thousands): $2,678

@@ -1,0 +1,24 @@
+Corporate | Years Ended December 31, > 2014 > Dollars inMillions: $6,475.5
+Corporate | Years Ended December 31, > 2014 > Percentage ofTotal Net Sales: 53.6%
+Corporate | Years Ended December 31, > 2013 > Dollars inMillions: $5,960.1
+Corporate | Years Ended December 31, > 2013 > Percentage ofTotal Net Sales: 55.3%
+Corporate | Dollar Change: $515.4
+Corporate | PercentChange (1): 8.6%
+Public | Years Ended December 31, > 2014 > Dollars inMillions: 4,879.4
+Public | Years Ended December 31, > 2014 > Percentage ofTotal Net Sales: 40.4
+Public | Years Ended December 31, > 2013 > Dollars inMillions: 4,164.5
+Public | Years Ended December 31, > 2013 > Percentage ofTotal Net Sales: 38.7
+Public | Dollar Change: 714.9
+Public | PercentChange (1): 17.2
+Other | Years Ended December 31, > 2014 > Dollars inMillions: 719.6
+Other | Years Ended December 31, > 2014 > Percentage ofTotal Net Sales: 6.0
+Other | Years Ended December 31, > 2013 > Dollars inMillions: 644.0
+Other | Years Ended December 31, > 2013 > Percentage ofTotal Net Sales: 6.0
+Other | Dollar Change: 75.6
+Other | PercentChange (1): 11.7
+Total net sales | Years Ended December 31, > 2014 > Dollars inMillions: $12,074.5
+Total net sales | Years Ended December 31, > 2014 > Percentage ofTotal Net Sales: 100.0%
+Total net sales | Years Ended December 31, > 2013 > Dollars inMillions: $10,768.6
+Total net sales | Years Ended December 31, > 2013 > Percentage ofTotal Net Sales: 100.0%
+Total net sales | Dollar Change: $1,305.9
+Total net sales | PercentChange (1): 12.1%

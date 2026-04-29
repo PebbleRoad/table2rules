@@ -1,0 +1,45 @@
+Physical HRQL composite score (PCS) | Score > Pre PI-ART Median (IQR): 79.3 (64.5–92.5)
+Physical HRQL composite score (PCS) | Score > Follow-up Median (IQR): 77.2 (58.4–92.9)
+Physical HRQL composite score (PCS) | P -value a: NS
+Emotional HRQL composite score (ECS) | Score > Pre PI-ART Median (IQR): 71.2 (47.1–86.9)
+Emotional HRQL composite score (ECS) | Score > Follow-up Median (IQR): 63.6 (41.0–77.3)
+Emotional HRQL composite score (ECS) | P -value a: <0.01
+Physical functioning | Score > Pre PI-ART Median (IQR): 95.2 (81.0–95.2)
+Physical functioning | Score > Follow-up Median (IQR): 95.2 (84.5–100)
+Physical functioning | P -value a: NS
+Mobility | Score > Pre PI-ART Median (IQR): 100 (66.7–100)
+Mobility | Score > Follow-up Median (IQR): 100 (66.7–100)
+Mobility | P -value a: NS
+Satisfaction with physical ability | Score > Pre PI-ART Median (IQR): 66.7 (33.3–83.3)
+Satisfaction with physical ability | Score > Follow-up Median (IQR): 66.7 (33.3–100)
+Satisfaction with physical ability | P -value a: NS
+Pain | Score > Pre PI-ART Median (IQR): 100 (53.8–100)
+Pain | Score > Follow-up Median (IQR): 100 (84.7–100)
+Pain | P -value a: NS
+Role limitations due to physical health | Score > Pre PI-ART Median (IQR): 66.7 (55.6–100)
+Role limitations due to physical health | Score > Follow-up Median (IQR): 88.9 (50.0–100)
+Role limitations due to physical health | P -value a: NS
+Sexual functioning | Score > Pre PI-ART Median (IQR): 75.0 (41.7–91.7)
+Sexual functioning | Score > Follow-up Median (IQR): 58.3 (41.7–91.7)
+Sexual functioning | P -value a: NS
+Role limitations due to emotional health | Score > Pre PI-ART Median (IQR): 88.9 (66.7–100)
+Role limitations due to emotional health | Score > Follow-up Median (IQR): 77.8 (50.0–100)
+Role limitations due to emotional health | P -value a: <0.05
+Emotional well-being, positive affect | Score > Pre PI-ART Median (IQR): 72.9 (47.9–83.3)
+Emotional well-being, positive affect | Score > Follow-up Median (IQR): 62.5 (37.5–83.3)
+Emotional well-being, positive affect | P -value a: NS
+Emotional well-being, negative affect | Score > Pre PI-ART Median (IQR): 62.5 (37.5–94.8)
+Emotional well-being, negative affect | Score > Follow-up Median (IQR): 50.0 (25.0–75.0)
+Emotional well-being, negative affect | P -value a: <0.01
+Sleep problems | Score > Pre PI-ART Median (IQR): 67.9 (39.3–87.5)
+Sleep problems | Score > Follow-up Median (IQR): 57.1 (36.6–75.0)
+Sleep problems | P -value a: NS
+Satisfaction with family life | Score > Pre PI-ART Median (IQR): 72.9 (49.5–90.6)
+Satisfaction with family life | Score > Follow-up Median (IQR): 72.9 (55.7–85.4)
+Satisfaction with family life | P -value a: NS
+Relation to partner | Score > Pre PI-ART Median (IQR): 87.5 (75.0–100)
+Relation to partner | Score > Follow-up Median (IQR): 79.2 (52.1–95.8)
+Relation to partner | P -value a: NS
+General health perception | Score > Pre PI-ART Median (IQR): 55.6 (36.1–75.0)
+General health perception | Score > Follow-up Median (IQR): 63.9 (38.9–80.6)
+General health perception | P -value a: NS

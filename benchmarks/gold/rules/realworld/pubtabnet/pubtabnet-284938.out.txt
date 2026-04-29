@@ -1,0 +1,24 @@
+SSCP > Positive | Direct sequencing > Positive: 0
+SSCP > Positive | Direct sequencing > Negative: 5
+Negative | Direct sequencing > Positive: 0
+Negative | Direct sequencing > Negative: 15
+SSCP > Positive | Direct sequencing > Positive: 2
+SSCP > Positive | Direct sequencing > Negative: 0
+Negative | Direct sequencing > Positive: 0
+Negative | Direct sequencing > Negative: 18
+SSCP > Positive | Direct sequencing > Positive: 4
+SSCP > Positive | Direct sequencing > Negative: 2
+Negative | Direct sequencing > Positive: 0
+Negative | Direct sequencing > Negative: 14
+SSCP > Positive | Direct sequencing > Positive: 3
+SSCP > Positive | Direct sequencing > Negative: 0
+Negative | Direct sequencing > Positive: 0
+Negative | Direct sequencing > Negative: 17
+SSCP > Positive | Direct sequencing > Positive: 4
+SSCP > Positive | Direct sequencing > Negative: 1
+Negative | Direct sequencing > Positive: 0
+Negative | Direct sequencing > Negative: 15
+SSCP > Positive | Direct sequencing > Positive: 2
+SSCP > Positive | Direct sequencing > Negative: 0
+Negative | Direct sequencing > Positive: 0
+Negative | Direct sequencing > Negative: 18

@@ -1,0 +1,50 @@
+TACC3 a > Tumor grades c: I
+TACC3 a > Tumor grades c: II
+TACC3 a > Tumor grades c: III
+TACC3 a > Tumor grades c: all
+TACC1 a > Tumor grades c: I
+TACC1 a > Tumor grades c: II
+TACC1 a > Tumor grades c: III
+TACC1 a > Tumor grades c: all
+TACC3 & TACC1 b > Tumor grades c: all
+serous papillary | TACC3 a > Tumor grades c: 1 d (7) e 14.3% f
+serous papillary | TACC3 a > Tumor grades c: 6 (18) 33.3%
+serous papillary | TACC3 a > Tumor grades c: 2 (17) 11.8%
+serous papillary | TACC3 a > Tumor grades c: 9 (42) 21.4%
+serous papillary | TACC1 a > Tumor grades c: 6 (7) 85.7%
+serous papillary | TACC1 a > Tumor grades c: 13 (18) 72.2%
+serous papillary | TACC1 a > Tumor grades c: 11 (17) 64.7%
+serous papillary | TACC1 a > Tumor grades c: 30 (42) 71.4%
+serous papillary | TACC3 & TACC1 b > Tumor grades c: 6 (42) 14.3%
+mucinous | TACC3 a > Tumor grades c: 1 (3) 33.3%
+mucinous | TACC3 a > Tumor grades c: 0 (1) 0%
+mucinous | TACC3 a > Tumor grades c: 1 (1) 100%
+mucinous | TACC3 a > Tumor grades c: 2 (5) 40%
+mucinous | TACC1 a > Tumor grades c: 1 (3) 33.3%
+mucinous | TACC1 a > Tumor grades c: 1 (1) 100%
+mucinous | TACC1 a > Tumor grades c: 1 (1) 100%
+mucinous | TACC1 a > Tumor grades c: 3 (5) 60%
+mucinous | TACC3 & TACC1 b > Tumor grades c: 2 (5) 40%
+endometroid | TACC3 a > Tumor grades c: 3 (5) 60%
+endometroid | TACC3 a > Tumor grades c: 0 (1) 0%
+endometroid | TACC3 a > Tumor grades c: 0 (1) 0%
+endometroid | TACC3 a > Tumor grades c: 3 (7) 42.8%
+endometroid | TACC1 a > Tumor grades c: 2 (5) 40%
+endometroid | TACC1 a > Tumor grades c: 0 (1) 0%
+endometroid | TACC1 a > Tumor grades c: 0 (1) 0%
+endometroid | TACC1 a > Tumor grades c: 2 (7) 28.6%
+endometroid | TACC3 & TACC1 b > Tumor grades c: 1 (7) 14.3%
+clear cell g | TACC3 a > Tumor grades c: 7(11) 63.6%
+clear cell g | TACC3 a > Tumor grades c: 7 (11) 63.6%
+clear cell g | TACC1 a > Tumor grades c: 6 (11) 54.5%
+clear cell g | TACC1 a > Tumor grades c: 6 (11) 54.5%
+clear cell g | TACC3 & TACC1 b > Tumor grades c: 5 (11) 45.5%
+all types | TACC3 a > Tumor grades c: 5 (15) 33.3%
+all types | TACC3 a > Tumor grades c: 6 (20) 30.0%
+all types | TACC3 a > Tumor grades c: 10 (30) 33.3%
+all types | TACC3 a > Tumor grades c: 21(65) 32.3%
+all types | TACC1 a > Tumor grades c: 9 (15) 60.0%
+all types | TACC1 a > Tumor grades c: 14 (20) 70.0%
+all types | TACC1 a > Tumor grades c: 18 (30) 60.0%
+all types | TACC1 a > Tumor grades c: 41 (65) 63.1%
+all types | TACC3 & TACC1 b > Tumor grades c: 14 (65) 21.5%

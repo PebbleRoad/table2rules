@@ -1,0 +1,72 @@
+Never active/passive | SULT1A1*1 / *1 genotype > Cases: 6
+Never active/passive | SULT1A1*1 / *1 genotype > Controls: 20
+Never active/passive | SULT1A1*1 / *1 genotype > OR b (95% CI): 1 (ref)
+Never active/passive | SULT1A1*2 allele carrier a > Cases: 8
+Never active/passive | SULT1A1*2 allele carrier a > Controls: 18
+Never active/passive | SULT1A1*2 allele carrier a > OR b (95% CI): 1 (ref)
+Never active/passive | Total > Cases: 14
+Never active/passive | Total > Controls: 38
+Never active/passive | Total > OR b (95% CI): 1 (ref)
+Passive only | SULT1A1*1 / *1 genotype > Cases: 30
+Passive only | SULT1A1*1 / *1 genotype > Controls: 37
+Passive only | SULT1A1*1 / *1 genotype > OR b (95% CI): 3.23 (1.05–9.92)
+Passive only | SULT1A1*2 allele carrier a > Cases: 37
+Passive only | SULT1A1*2 allele carrier a > Controls: 59
+Passive only | SULT1A1*2 allele carrier a > OR b (95% CI): 1.28 (0.50–3.31)
+Passive only | Total > Cases: 67
+Passive only | Total > Controls: 96
+Passive only | Total > OR b (95% CI): 1.95 (0.97–3.91)
+1–10 pack-years | SULT1A1*1 / *1 genotype > Cases: 22
+1–10 pack-years | SULT1A1*1 / *1 genotype > Controls: 53
+1–10 pack-years | SULT1A1*1 / *1 genotype > OR b (95% CI): 1.26 (0.40–3.95)
+1–10 pack-years | SULT1A1*2 allele carrier a > Cases: 30
+1–10 pack-years | SULT1A1*2 allele carrier a > Controls: 74
+1–10 pack-years | SULT1A1*2 allele carrier a > OR b (95% CI): 0.76 (0.29–1.96)
+1–10 pack-years | Total > Cases: 52
+1–10 pack-years | Total > Controls: 127
+1–10 pack-years | Total > OR b (95% CI): 0.98 (0.48–1.98)
+11+ pack-years | SULT1A1*1 / *1 genotype > Cases: 23
+11+ pack-years | SULT1A1*1 / *1 genotype > Controls: 38
+11+ pack-years | SULT1A1*1 / *1 genotype > OR b (95% CI): 2.21 (0.68–7.12)
+11+ pack-years | SULT1A1*2 allele carrier a > Cases: 20
+11+ pack-years | SULT1A1*2 allele carrier a > Controls: 50
+11+ pack-years | SULT1A1*2 allele carrier a > OR b (95% CI): 0.75 (0.27–2.06)
+11+ pack-years | Total > Cases: 43
+11+ pack-years | Total > Controls: 88
+11+ pack-years | Total > OR b (95% CI): 1.22 (0.59–2.54)
+Never active/passive | SULT1A1*1 / *1 genotype > Cases: 14
+Never active/passive | SULT1A1*1 / *1 genotype > Controls: 33
+Never active/passive | SULT1A1*1 / *1 genotype > OR b (95% CI): 1 (ref)
+Never active/passive | SULT1A1*2 allele carrier a > Cases: 11
+Never active/passive | SULT1A1*2 allele carrier a > Controls: 39
+Never active/passive | SULT1A1*2 allele carrier a > OR b (95% CI): 1 (ref)
+Never active/passive | Total > Cases: 25
+Never active/passive | Total > Controls: 75
+Never active/passive | Total > OR b (95% CI): 1 (ref)
+Passive only | SULT1A1*1 / *1 genotype > Cases: 36
+Passive only | SULT1A1*1 / *1 genotype > Controls: 65
+Passive only | SULT1A1*1 / *1 genotype > OR b (95% CI): 1.35 (0.62–2.91)
+Passive only | SULT1A1*2 allele carrier a > Cases: 32
+Passive only | SULT1A1*2 allele carrier a > Controls: 93
+Passive only | SULT1A1*2 allele carrier a > OR b (95% CI): 1.18 (0.53–2.66)
+Passive only | Total > Cases: 68
+Passive only | Total > Controls: 158
+Passive only | Total > OR b (95% CI): 1.25 (0.72–2.16)
+1–10 pack-years | SULT1A1*1 / *1 genotype > Cases: 37
+1–10 pack-years | SULT1A1*1 / *1 genotype > Controls: 76
+1–10 pack-years | SULT1A1*1 / *1 genotype > OR b (95% CI): 1.24 (0.57–2.69)
+1–10 pack-years | SULT1A1*2 allele carrier a > Cases: 46
+1–10 pack-years | SULT1A1*2 allele carrier a > Controls: 117
+1–10 pack-years | SULT1A1*2 allele carrier a > OR b (95% CI): 1.34 (0.62–2.92)
+1–10 pack-years | Total > Cases: 83
+1–10 pack-years | Total > Controls: 193
+1–10 pack-years | Total > OR b (95% CI): 1.24 (0.72–2.12)
+11+ pack-years | SULT1A1*1 / *1 genotype > Cases: 30
+11+ pack-years | SULT1A1*1 / *1 genotype > Controls: 46
+11+ pack-years | SULT1A1*1 / *1 genotype > OR b (95% CI): 1.83 (0.79–4.26)
+11+ pack-years | SULT1A1*2 allele carrier a > Cases: 36
+11+ pack-years | SULT1A1*2 allele carrier a > Controls: 60
+11+ pack-years | SULT1A1*2 allele carrier a > OR b (95% CI): 2.07 (0.91–4.72)
+11+ pack-years | Total > Cases: 66
+11+ pack-years | Total > Controls: 106
+11+ pack-years | Total > OR b (95% CI): 1.85 (1.04–3.30)

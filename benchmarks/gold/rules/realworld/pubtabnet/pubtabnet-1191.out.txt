@@ -1,0 +1,29 @@
+< 18 | Larsen group > n: 32
+< 18 | Larsen score > Minimum: 0.0
+< 18 | Larsen score > Median: 7.5
+< 18 | Larsen score > Maximum: 17.0
+< 18 | Cathepsin K > Minimum: 0.0
+< 18 | Cathepsin K > Median: 26.5
+< 18 | Cathepsin K > Maximum: 3352.0
+≥ 19 and < 74 | Larsen group > n: 34
+≥ 19 and < 74 | Larsen score > Minimum: 18.0
+≥ 19 and < 74 | Larsen score > Median: 38.0
+≥ 19 and < 74 | Larsen score > Maximum: 67.0
+≥ 19 and < 74 | Cathepsin K > Minimum: 0.0
+≥ 19 and < 74 | Cathepsin K > Median: 70.9
+≥ 19 and < 74 | Cathepsin K > Maximum: 1721.6
+≥ 75 | Larsen group > n: 34
+≥ 75 | Larsen score > Minimum: 75.0
+≥ 75 | Larsen score > Median: 105.5
+≥ 75 | Larsen score > Maximum: 164.0
+≥ 75 | Cathepsin K > Minimum: 0.0
+≥ 75 | Cathepsin K > Median: 88.8
+≥ 75 | Cathepsin K > Maximum: 3453.2
+Total | Larsen group > n: 100
+Total | Larsen score > Minimum: 0.0
+Total | Larsen score > Median: 39.0
+Total | Larsen score > Maximum: 164.0
+Total | Cathepsin K > Minimum: 0.0
+Total | Cathepsin K > Median: 54.8
+Total | Cathepsin K > Maximum: 3453.2
+Total | Kruskal–Wallis test: P = 0.035

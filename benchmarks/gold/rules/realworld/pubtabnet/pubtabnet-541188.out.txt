@@ -1,0 +1,52 @@
+Normal patients | Number: 76
+Normal patients | Male/Female: 47/29
+Normal patients | Mean age(years): 39 ± 12
+Normal patients | CFR: 3,32 ± 0,3
+Syndrome X | Number: 97
+Syndrome X | Male/Female: 24/73
+Syndrome X | Mean age(years): 57 ± 17
+Syndrome X | CFR: 2,27 ± 0,3
+LAD (≥ 70%) | Number: 223
+LAD (≥ 70%) | Male/Female: 171/152
+LAD (≥ 70%) | Mean age(years): 63 ± 16
+LAD (≥ 70%) | CFR: 1,38 ± 0,2
+LAD (<70%) | Number: 128
+LAD (<70%) | Male/Female: 84/44
+LAD (<70%) | Mean age(years): 62 ± 16
+LAD (<70%) | CFR: 2,2 ± 0,24
+Hypertensive pts | Number: 323
+Hypertensive pts | Male/Female: 72/251
+Hypertensive pts | Mean age(years): 56 ± 17
+Hypertensive pts | CFR: 2,46 ± 0,44
+DC | Number: 48
+DC | Male/Female: 29/19
+DC | Mean age(years): 64 ± 112
+DC | CFR: 1,94 ± 0,24
+HCM | Number: 44
+HCM | Male/Female: 35/9
+HCM | Mean age(years): 53 ± 11
+HCM | CFR: 2,21 ± 0,23
+Aortic stenosis | Number: 22
+Aortic stenosis | Male/Female: 6/14
+Aortic stenosis | Mean age(years): 74 ± 13
+Aortic stenosis | CFR: 2,18 ± 0,34
+Aortic insufficiency | Number: 12
+Aortic insufficiency | Male/Female: 5/7
+Aortic insufficiency | Mean age(years): 68 ± 12
+Aortic insufficiency | CFR: 2,57 ± 0,40
+PCI- LAD (>3 mo.) | Number: 72
+PCI- LAD (>3 mo.) | Male/Female: 51/21
+PCI- LAD (>3 mo.) | Mean age(years): 61 ± 16
+PCI- LAD (>3 mo.) | CFR: 2,52 ± 0,45
+Graft-IMA (>3 mo.) | Number: 56
+Graft-IMA (>3 mo.) | Male/Female: 41/15
+Graft-IMA (>3 mo.) | Mean age(years): 64 ± 14
+Graft-IMA (>3 mo.) | CFR: 2,60 ± 0,38
+Post-AMI (>3 mo.) | Number: 93
+Post-AMI (>3 mo.) | Male/Female: 69/24
+Post-AMI (>3 mo.) | Mean age(years): 68 ± 17
+Post-AMI (>3 mo.) | CFR: 1,98 ± 0,41
+Athletes | Number: 41
+Athletes | Male/Female: 41
+Athletes | Mean age(years): 34 ± 12
+Athletes | CFR: 4,5 ± 0,45

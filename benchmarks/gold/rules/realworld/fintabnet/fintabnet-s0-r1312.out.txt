@@ -1,0 +1,30 @@
+Service cost | Pension > 2015 > (Dollars in thousands): $1,880
+Service cost | Pension > 2014 > (Dollars in thousands): $1,794
+Service cost | Pension > 2013 > (Dollars in thousands): $1,819
+Service cost | Other Benefits > 2015 > (Dollars in thousands): $495
+Service cost | Other Benefits > 2014 > (Dollars in thousands): $424
+Service cost | Other Benefits > 2013 > (Dollars in thousands): $663
+Interest cost | Pension > 2015 > (Dollars in thousands): 17,948
+Interest cost | Pension > 2014 > (Dollars in thousands): 18,000
+Interest cost | Pension > 2013 > (Dollars in thousands): 16,842
+Interest cost | Other Benefits > 2015 > (Dollars in thousands): 1,967
+Interest cost | Other Benefits > 2014 > (Dollars in thousands): 2,169
+Interest cost | Other Benefits > 2013 > (Dollars in thousands): 2,707
+Expected return on plan assets | Pension > 2015 > (Dollars in thousands): (25,940)
+Expected return on plan assets | Pension > 2014 > (Dollars in thousands): (25,006)
+Expected return on plan assets | Pension > 2013 > (Dollars in thousands): (23,122)
+Expected return on plan assets | Other Benefits > 2015 > (Dollars in thousands): —
+Expected return on plan assets | Other Benefits > 2014 > (Dollars in thousands): —
+Expected return on plan assets | Other Benefits > 2013 > (Dollars in thousands): —
+Net amortization and deferral | Pension > 2015 > (Dollars in thousands): 6,159
+Net amortization and deferral | Pension > 2014 > (Dollars in thousands): 4,371
+Net amortization and deferral | Pension > 2013 > (Dollars in thousands): 5,847
+Net amortization and deferral | Other Benefits > 2015 > (Dollars in thousands): 216
+Net amortization and deferral | Other Benefits > 2014 > (Dollars in thousands): (7)
+Net amortization and deferral | Other Benefits > 2013 > (Dollars in thousands): 1,348
+Net benefit expense (income) | Pension > 2015 > (Dollars in thousands): $47
+Net benefit expense (income) | Pension > 2014 > (Dollars in thousands): $(841)
+Net benefit expense (income) | Pension > 2013 > (Dollars in thousands): $1,386
+Net benefit expense (income) | Other Benefits > 2015 > (Dollars in thousands): $2,678
+Net benefit expense (income) | Other Benefits > 2014 > (Dollars in thousands): $2,586
+Net benefit expense (income) | Other Benefits > 2013 > (Dollars in thousands): $4,718

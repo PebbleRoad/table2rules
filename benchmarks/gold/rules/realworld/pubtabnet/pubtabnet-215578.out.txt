@@ -1,0 +1,98 @@
+K: SPC
+cases: SPC
+clusters: SPC
+true positive: SPC
+false positive: SPC
+false negative: SPC
+specificity: SPC
+a posteriori sensitivity: SPC
+a priori sensitivity: SPC
+K: 2
+cases: 646
+clusters: 157
+true positive: 5365
+false positive: 357
+false negative: 99
+specificity: 93.8
+a posteriori sensitivity: 98.2
+a priori sensitivity: 12.1
+K: 6
+cases: 4652
+clusters: 794
+true positive: 34699
+false positive: 2635
+false negative: 2624
+specificity: 92.9
+a posteriori sensitivity: 93.0
+a priori sensitivity: 78.2
+K: 20
+cases: 5072
+clusters: 637
+true positive: 35862
+false positive: 3840
+false negative: 5396
+specificity: 86.9
+a posteriori sensitivity: 90.3
+a priori sensitivity: 80.1
+K: all NN
+cases: 4993
+clusters: 592
+true positive: 34375
+false positive: 4160
+false negative: 6241
+specificity: 89.2
+a posteriori sensitivity: 84.6
+a priori sensitivity: 77.5
+K: TRIBE-MCL
+cases: TRIBE-MCL
+clusters: TRIBE-MCL
+true positive: TRIBE-MCL
+false positive: TRIBE-MCL
+false negative: TRIBE-MCL
+specificity: TRIBE-MCL
+a posteriori sensitivity: TRIBE-MCL
+a priori sensitivity: TRIBE-MCL
+cases: 4517
+clusters: 704
+true positive: 34563
+false positive: 2475
+false negative: 3042
+specificity: 93.3
+a posteriori sensitivity: 91.9
+a priori sensitivity: 77.9
+K: gSPC
+cases: gSPC
+clusters: gSPC
+true positive: gSPC
+false positive: gSPC
+false negative: gSPC
+specificity: gSPC
+a posteriori sensitivity: gSPC
+a priori sensitivity: gSPC
+K: 6
+cases: 4612
+clusters: 710
+true positive: 34631
+false positive: 2472
+false negative: 2365
+specificity: 93.3
+a posteriori sensitivity: 93.6
+a priori sensitivity: 78.2
+K: 20
+cases: 4988
+clusters: 115
+true positive: 37574
+false positive: 2836
+false negative: 2948
+specificity: 93.0
+a posteriori sensitivity: 92.7
+a priori sensitivity: 84.7
+K: All NN
+cases: 5043
+clusters: 18
+true positive: 37862
+false positive: 2968
+false negative: 3105
+specificity: 92.7
+a posteriori sensitivity: 92.4
+a priori sensitivity: 85.4

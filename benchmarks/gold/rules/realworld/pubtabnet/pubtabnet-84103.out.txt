@@ -1,0 +1,72 @@
+Lungs /slices: 4/9
+Diameter [μm]: 212 ± 3
+Area [%] 1: Mus
+Area [%] 2: Mus
+Area [%] 3: Mus/SKF
+Area [%] 4: Mus/SKF
+p (1 vs. 3): p < 0.05
+p (2 vs. 4): p < 0.05
+Area [%] 1: 60 ± 7
+Area [%] 2: 49 ± 7
+Area [%] 3: 76 ± 7
+Area [%] 4: 86 ± 3
+Lungs /slices: 4/8
+Diameter [μm]: 193 ± 12
+Area [%] 1: Mus
+Area [%] 2: Mus
+Area [%] 3: Mus/SKF/DHS
+Area [%] 4: Mus/SKF/DHS
+p (1 vs. 3): p < 0.05
+p (2 vs. 4): p < 0.05
+Area [%] 1: 51 ± 5
+Area [%] 2: 43 ± 6
+Area [%] 3: 82 ± 6
+Area [%] 4: 86 ± 3
+Lungs /slices: 5/6
+Diameter [μm]: 207 ± 11
+Area [%] 1: Mus
+Area [%] 2: Mus
+Area [%] 3: Mus/SKF/DMS
+Area [%] 4: Mus/SKF/DMS
+p (1 vs. 3): p < 0.05
+p (2 vs. 4): p < 0.05
+Area [%] 1: 65 ± 3
+Area [%] 2: 53 ± 6
+Area [%] 3: 88 ± 2
+Area [%] 4: 85 ± 8
+Lungs /slices: 4/7
+Diameter [μm]: 180 ± 8
+Area [%] 1: Mus
+Area [%] 2: Mus
+Area [%] 3: Mus/La 3+
+Area [%] 4: Mus/La 3+
+p (1 vs. 3): p < 0.05
+p (2 vs. 4): p < 0.05
+Area [%] 1: 39 ± 8
+Area [%] 2: 49 ± 12
+Area [%] 3: 65 ± 7
+Area [%] 4: 89 ± 2
+Lungs /slices: 4/7
+Diameter [μm]: 211 ± 12
+Area [%] 1: Mus
+Area [%] 2: Mus
+Area [%] 3: Mus/La 3+ /DHS
+Area [%] 4: Mus/La 3+ /DHS
+p (1 vs. 3): p < 0.05
+p (2 vs. 4): p < 0.05
+Area [%] 1: 40 ± 4
+Area [%] 2: 33 ± 3
+Area [%] 3: 85 ± 2
+Area [%] 4: 89 ± 2
+Lungs /slices: 4/5
+Diameter [μm]: 210 ± 15
+Area [%] 1: Mus
+Area [%] 2: Mus
+Area [%] 3: Mus/La 3+ /DMS
+Area [%] 4: Mus/La 3+ /DMS
+p (1 vs. 3): p < 0.05
+p (2 vs. 4): p < 0.05
+Area [%] 1: 45 ± 9
+Area [%] 2: 38 ± 9
+Area [%] 3: 94 ± 2
+Area [%] 4: 95 ± 1

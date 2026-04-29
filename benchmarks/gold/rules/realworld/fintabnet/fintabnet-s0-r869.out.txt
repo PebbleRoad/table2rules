@@ -1,0 +1,32 @@
+2015 > First Quarter | Class A > High: $60.70
+2015 > First Quarter | Class A > Low: $52.45
+2015 > First Quarter | Class A Special > High: $60.19
+2015 > First Quarter | Class A Special > Low: $52.23
+2015 > Second Quarter | Class A > High: $61.64
+2015 > Second Quarter | Class A > Low: $56.05
+2015 > Second Quarter | Class A Special > High: $61.38
+2015 > Second Quarter | Class A Special > Low: $55.74
+2015 > Third Quarter | Class A > High: $64.99
+2015 > Third Quarter | Class A > Low: $50.00
+2015 > Third Quarter | Class A Special > High: $64.70
+2015 > Third Quarter | Class A Special > Low: $51.26
+2015 > FourthQuarter (a) | Class A > High: $63.38
+2015 > FourthQuarter (a) | Class A > Low: $55.39
+2015 > FourthQuarter (a) | Class A Special > High: $63.48
+2015 > FourthQuarter (a) | Class A Special > Low: $56.88
+2014 > First Quarter | Class A > High: $55.28
+2014 > First Quarter | Class A > Low: $49.00
+2014 > First Quarter | Class A Special > High: $53.10
+2014 > First Quarter | Class A Special > Low: $47.87
+2014 > Second Quarter | Class A > High: $54.26
+2014 > Second Quarter | Class A > Low: $47.74
+2014 > Second Quarter | Class A Special > High: $53.88
+2014 > Second Quarter | Class A Special > Low: $47.21
+2014 > Third Quarter | Class A > High: $57.49
+2014 > Third Quarter | Class A > Low: $52.52
+2014 > Third Quarter | Class A Special > High: $57.16
+2014 > Third Quarter | Class A Special > Low: $52.43
+2014 > Fourth Quarter | Class A > High: $59.30
+2014 > Fourth Quarter | Class A > Low: $49.33
+2014 > Fourth Quarter | Class A Special > High: $58.94
+2014 > Fourth Quarter | Class A Special > Low: $49.26

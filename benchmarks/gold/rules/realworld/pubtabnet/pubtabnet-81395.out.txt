@@ -1,0 +1,28 @@
+Yes | Univariate analysis > Number of patients ( n = 110): 24
+Yes | Univariate analysis > Number of patients with MV duration ≥ 14 days (%): 18 (75)
+Yes | Univariate analysis > P: 0.002
+Yes | Multivariate analysis > OR (95% CI): 4.9 (1.6–14.6)
+Yes | Multivariate analysis > P: 0.004
+No | Univariate analysis > Number of patients ( n = 110): 86
+No | Univariate analysis > Number of patients with MV duration ≥ 14 days (%): 34 (39)
+Yes | Univariate analysis > Number of patients ( n = 110): 17
+Yes | Univariate analysis > Number of patients with MV duration ≥ 14 days (%): 13 (76)
+Yes | Univariate analysis > P: 0.009
+Yes | Multivariate analysis > OR (95% CI): 4.0 (1.1–14.5)
+Yes | Multivariate analysis > P: 0.032
+No | Univariate analysis > Number of patients ( n = 110): 93
+No | Univariate analysis > Number of patients with MV duration ≥ 14 days (%): 39 (41)
+Yes | Univariate analysis > Number of patients ( n = 110): 31
+Yes | Univariate analysis > Number of patients with MV duration ≥ 14 days (%): 22 (70)
+Yes | Univariate analysis > P: 0.002
+Yes | Multivariate analysis > OR (95% CI): -
+Yes | Multivariate analysis > P: -
+No | Univariate analysis > Number of patients ( n = 110): 79
+No | Univariate analysis > Number of patients with MV duration ≥ 14 days (%): 30 (37)
+Yes | Univariate analysis > Number of patients ( n = 110): 55
+Yes | Univariate analysis > Number of patients with MV duration ≥ 14 days (%): 35 (63)
+Yes | Univariate analysis > P: 0.001
+Yes | Multivariate analysis > OR (95% CI): 3.5 (1.5–8.3)
+Yes | Multivariate analysis > P: 0.004
+No | Univariate analysis > Number of patients ( n = 110): 55
+No | Univariate analysis > Number of patients with MV duration ≥ 14 days (%): 17 (30)

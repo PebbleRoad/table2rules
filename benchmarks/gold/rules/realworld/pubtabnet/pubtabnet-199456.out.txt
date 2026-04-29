@@ -1,0 +1,38 @@
+Total adenocarcinoma | Focal adhesion kinase expression > Negative: 13 (8%)
+Total adenocarcinoma | Focal adhesion kinase expression > Strong: 30 (18.5%)
+Total adenocarcinoma | Focal adhesion kinase expression > Intermediate: 119 (73.5%)
+Tumor type | P value*: Not significant
+Invasive ductal | Focal adhesion kinase expression > Negative: 5 (4.1%)
+Invasive ductal | Focal adhesion kinase expression > Strong: 27 (22.5%)
+Invasive ductal | Focal adhesion kinase expression > Intermediate: 88 (72.7%)
+Invasive lobular | Focal adhesion kinase expression > Negative: 3 (13%)
+Invasive lobular | Focal adhesion kinase expression > Strong: 2 (8.7%)
+Invasive lobular | Focal adhesion kinase expression > Intermediate: 18 (78.3%)
+Mucinous | Focal adhesion kinase expression > Negative: 5 (62.5%)
+Mucinous | Focal adhesion kinase expression > Strong: /
+Mucinous | Focal adhesion kinase expression > Intermediate: 3 (37.5%)
+Tubulo/tubulo-lobular | Focal adhesion kinase expression > Negative: /
+Tubulo/tubulo-lobular | Focal adhesion kinase expression > Strong: /
+Tubulo/tubulo-lobular | Focal adhesion kinase expression > Intermediate: 5 (100%)
+Others | Focal adhesion kinase expression > Negative: /
+Others | Focal adhesion kinase expression > Strong: 1 (16.7%)
+Others | Focal adhesion kinase expression > Intermediate: 5 (88.3%)
+Histological grade | P value*: P = 0.038*
+Well differentiated | Focal adhesion kinase expression > Negative: 4 (11.4%)
+Well differentiated | Focal adhesion kinase expression > Strong: 3 (8.6%)
+Well differentiated | Focal adhesion kinase expression > Intermediate: 28 (80%)
+Moderately differentiated | Focal adhesion kinase expression > Negative: 6 (7%)
+Moderately differentiated | Focal adhesion kinase expression > Strong: 13 (15.1%)
+Moderately differentiated | Focal adhesion kinase expression > Intermediate: 67 (77.9%)
+Poorly differentiated | Focal adhesion kinase expression > Negative: 3 (7.3%)
+Poorly differentiated | Focal adhesion kinase expression > Strong: 14 (34.1%)
+Poorly differentiated | Focal adhesion kinase expression > Intermediate: 24 (58.5%)
+Tumor size | P value*: Not significant
+pT1(a,b,c) | Focal adhesion kinase expression > Negative: 7 (7.2%)
+pT1(a,b,c) | Focal adhesion kinase expression > Strong: 21 (21.6%)
+pT1(a,b,c) | Focal adhesion kinase expression > Intermediate: 69 (71.1%)
+pT2 | Focal adhesion kinase expression > Negative: 5 (7.9%)
+pT2 | Focal adhesion kinase expression > Strong: 9 (14.3%)
+pT2 | Focal adhesion kinase expression > Intermediate: 49 (77.8%)
+pT3 and pT4 | Focal adhesion kinase expression > Negative: 1 (50%)
+pT3 and pT4 | Focal adhesion kinase expression > Intermediate: 1 (50%)

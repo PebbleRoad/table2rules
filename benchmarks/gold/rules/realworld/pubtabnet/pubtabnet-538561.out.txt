@@ -1,0 +1,54 @@
+EVLW (ml/kg) | Non-ARDS > Chronic alcohol abuse ( n = 8): 7.0 (5.0–8.0)
+EVLW (ml/kg) | Non-ARDS > Nonalcoholic ( n = 6): 6.5 (4.8–8.8)
+EVLW (ml/kg) | Non-ARDS > P: NS
+EVLW (ml/kg) | ARDS > Chronic alcohol abuse ( n = 8): 20.3 (16.0–26.7)
+EVLW (ml/kg) | ARDS > Nonalcoholic ( n = 6): 9.5 (7.1–15.4)
+EVLW (ml/kg) | ARDS > P: 0.009
+Source ( n [% pulmonary]) | Non-ARDS > Chronic alcohol abuse ( n = 8): 2/8 (25%)
+Source ( n [% pulmonary]) | Non-ARDS > Nonalcoholic ( n = 6): 1/6 (17%)
+Source ( n [% pulmonary]) | Non-ARDS > P: NS
+Source ( n [% pulmonary]) | ARDS > Chronic alcohol abuse ( n = 8): 5/5 (100%)
+Source ( n [% pulmonary]) | ARDS > Nonalcoholic ( n = 6): 7/10 (70%)
+Source ( n [% pulmonary]) | ARDS > P: 0.17
+APACHE II score | Non-ARDS > Chronic alcohol abuse ( n = 8): 28.7 ± 9.3
+APACHE II score | Non-ARDS > Nonalcoholic ( n = 6): 26.5 ± 7.7
+APACHE II score | Non-ARDS > P: NS
+APACHE II score | ARDS > Chronic alcohol abuse ( n = 8): 27.0 ± 6.7
+APACHE II score | ARDS > Nonalcoholic ( n = 6): 22.4 ± 6.1
+APACHE II score | ARDS > P: NS
+PaO 2 /FiO 2 index (mmHg) | Non-ARDS > Chronic alcohol abuse ( n = 8): 369.7 ± 140.8
+PaO 2 /FiO 2 index (mmHg) | Non-ARDS > Nonalcoholic ( n = 6): 215.7 ± 116.7
+PaO 2 /FiO 2 index (mmHg) | Non-ARDS > P: NS
+PaO 2 /FiO 2 index (mmHg) | ARDS > Chronic alcohol abuse ( n = 8): 96.7 ± 21.7
+PaO 2 /FiO 2 index (mmHg) | ARDS > Nonalcoholic ( n = 6): 148.0 ± 95.1
+PaO 2 /FiO 2 index (mmHg) | ARDS > P: NS
+LIS | Non-ARDS > Chronic alcohol abuse ( n = 8): 0.9 ± 0.6
+LIS | Non-ARDS > Nonalcoholic ( n = 6): 0.8 ± 0.7
+LIS | Non-ARDS > P: NS
+LIS | ARDS > Chronic alcohol abuse ( n = 8): 3.2 ± 0.5
+LIS | ARDS > Nonalcoholic ( n = 6): 2.4 ± 1.4
+LIS | ARDS > P: NS
+CXR score | Non-ARDS > Chronic alcohol abuse ( n = 8): 0.5 (0.0–1.3)
+CXR score | Non-ARDS > Nonalcoholic ( n = 6): 1.0 (0.5–1.5)
+CXR score | Non-ARDS > P: NS
+CXR score | ARDS > Chronic alcohol abuse ( n = 8): 4.0 (2.5–4.0)
+CXR score | ARDS > Nonalcoholic ( n = 6): 3.5 (2.5–4.0)
+CXR score | ARDS > P: NS
+GEDV index (ml/m 2 ) | Non-ARDS > Chronic alcohol abuse ( n = 8): 750.3 ± 142.7
+GEDV index (ml/m 2 ) | Non-ARDS > Nonalcoholic ( n = 6): 681.7 ± 81.6
+GEDV index (ml/m 2 ) | Non-ARDS > P: NS
+GEDV index (ml/m 2 ) | ARDS > Chronic alcohol abuse ( n = 8): 714.7 ± 149.7
+GEDV index (ml/m 2 ) | ARDS > Nonalcoholic ( n = 6): 614.2 ± 197.9
+GEDV index (ml/m 2 ) | ARDS > P: NS
+Fluid balance (prior 24 hours; ml) | Non-ARDS > Chronic alcohol abuse ( n = 8): 4703 ± 3310
+Fluid balance (prior 24 hours; ml) | Non-ARDS > Nonalcoholic ( n = 6): 6004 ± 6064
+Fluid balance (prior 24 hours; ml) | Non-ARDS > P: NS
+Fluid balance (prior 24 hours; ml) | ARDS > Chronic alcohol abuse ( n = 8): 4758 ± 3240
+Fluid balance (prior 24 hours; ml) | ARDS > Nonalcoholic ( n = 6): 1504 ± 1550
+Fluid balance (prior 24 hours; ml) | ARDS > P: 0.03
+28-Day mortality ( n [%]) | Non-ARDS > Chronic alcohol abuse ( n = 8): 4/8 (50%)
+28-Day mortality ( n [%]) | Non-ARDS > Nonalcoholic ( n = 6): 1/6 (17%)
+28-Day mortality ( n [%]) | Non-ARDS > P: 0.19
+28-Day mortality ( n [%]) | ARDS > Chronic alcohol abuse ( n = 8): 3/5 (60%)
+28-Day mortality ( n [%]) | ARDS > Nonalcoholic ( n = 6): 4/10 (40%)
+28-Day mortality ( n [%]) | ARDS > P: NS

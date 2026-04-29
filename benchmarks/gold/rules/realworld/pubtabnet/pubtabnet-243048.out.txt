@@ -1,0 +1,66 @@
+Genome size (Mb) | Nature (12/00): 115.410
+Genome size (Mb) | Release 1 (8/01): 116.238
+Genome size (Mb) | Release 2 (1/02): 117.227
+Genome size (Mb) | Release 3 (8/02): 117.077
+Genome size (Mb) | Release 4 (4/03): 119.055
+Genome size (Mb) | Release 5 (1/04): 118.998
+protein-coding genes | Nature (12/00): 25,498
+protein-coding genes | Release 1 (8/01): 25,554
+protein-coding genes | Release 2 (1/02): 26,156
+protein-coding genes | Release 3 (8/02): 27,117
+protein-coding genes | Release 4 (4/03): 27,170
+protein-coding genes | Release 5 (1/04): 26,207
+transposons and pseudogenes | Nature (12/00): NA
+transposons and pseudogenes | Release 1 (8/01): 1,274
+transposons and pseudogenes | Release 2 (1/02): 1,305
+transposons and pseudogenes | Release 3 (8/02): 1,967
+transposons and pseudogenes | Release 4 (4/03): 2,218
+transposons and pseudogenes | Release 5 (1/04): 3,786
+Genes annotated as alternatively spliced | Nature (12/00): NA
+Genes annotated as alternatively spliced | Release 1 (8/01): 0
+Genes annotated as alternatively spliced | Release 2 (1/02): 28
+Genes annotated as alternatively spliced | Release 3 (8/02): 162
+Genes annotated as alternatively spliced | Release 4 (4/03): 1,267
+Genes annotated as alternatively spliced | Release 5 (1/04): 2,330
+genes with UTRs | Nature (12/00): NA
+genes with UTRs | Release 1 (8/01): 4,140
+genes with UTRs | Release 2 (1/02): 10,219
+genes with UTRs | Release 3 (8/02): 11,691
+genes with UTRs | Release 4 (4/03): 17,060
+genes with UTRs | Release 5 (1/04): 18,099
+Protein-coding genes similar to transposon ORFs a | Nature (12/00): NA
+Protein-coding genes similar to transposon ORFs a | Release 1 (8/01): 487
+Protein-coding genes similar to transposon ORFs a | Release 2 (1/02): 485
+Protein-coding genes similar to transposon ORFs a | Release 3 (8/02): 528
+Protein-coding genes similar to transposon ORFs a | Release 4 (4/03): 531
+Protein-coding genes similar to transposon ORFs a | Release 5 (1/04): 6
+gene density (kb per gene) | Nature (12/00): 4.5
+gene density (kb per gene) | Release 1 (8/01): 4.55
+gene density (kb per gene) | Release 2 (1/02): 4.48
+gene density (kb per gene) | Release 3 (8/02): 4.32
+gene density (kb per gene) | Release 4 (4/03): 4.38
+gene density (kb per gene) | Release 5 (1/04): 4.54
+exons / gene | Nature (12/00): 5.2
+exons / gene | Release 1 (8/01): 5.23
+exons / gene | Release 2 (1/02): 5.25
+exons / gene | Release 3 (8/02): 5.24
+exons / gene | Release 4 (4/03): 5.31
+exons / gene | Release 5 (1/04): 5.42
+average exon length (bp) | Nature (12/00): 250
+average exon length (bp) | Release 1 (8/01): 256
+average exon length (bp) | Release 2 (1/02): 265
+average exon length (bp) | Release 3 (8/02): 266
+average exon length (bp) | Release 4 (4/03): 279
+average exon length (bp) | Release 5 (1/04): 276
+average intron length (bp) | Nature (12/00): 168
+average intron length (bp) | Release 1 (8/01): 168
+average intron length (bp) | Release 2 (1/02): 167
+average intron length (bp) | Release 3 (8/02): 166
+average intron length (bp) | Release 4 (4/03): 166
+average intron length (bp) | Release 5 (1/04): 164
+Gene structures altered since previous release.(u,a,d,m,s) | Nature (12/00): NA
+Gene structures altered since previous release.(u,a,d,m,s) | Release 1 (8/01): -
+Gene structures altered since previous release.(u,a,d,m,s) | Release 2 (1/02): u: 2,853a: 690d: 231m: 14s: 167
+Gene structures altered since previous release.(u,a,d,m,s) | Release 3 (8/02): u:1,366a: 1,906d: 221m: 62s: 14
+Gene structures altered since previous release.(u,a,d,m,s) | Release 4 (4/03): u: 2,347a: 527d: 143m: 153s: 24
+Gene structures altered since previous release.(u,a,d,m,s) | Release 5 (1/04): u: 2,858a: 1,393d: 730m: 169s: 28

@@ -1,0 +1,55 @@
+Balance as of December 31, 2013 > Goodwill | Vascular North America > (Dollars in thousands): $459,696
+Balance as of December 31, 2013 > Goodwill | Anesthesia/Respiratory North America > (Dollars in thousands): $167,195
+Balance as of December 31, 2013 > Goodwill | Surgical North America > (Dollars in thousands): $250,506
+Balance as of December 31, 2013 > Goodwill | EMEA > (Dollars in thousands): $373,417
+Balance as of December 31, 2013 > Goodwill | Asia > (Dollars in thousands): $136,946
+Balance as of December 31, 2013 > Goodwill | All Other > (Dollars in thousands): $298,571
+Balance as of December 31, 2013 > Goodwill | Total > (Dollars in thousands): $1,686,331
+Balance as of December 31, 2013 > Accumulated impairment losses | Vascular North America > (Dollars in thousands): (219,527)
+Balance as of December 31, 2013 > Accumulated impairment losses | Anesthesia/Respiratory North America > (Dollars in thousands): (107,073)
+Balance as of December 31, 2013 > Accumulated impairment losses | Surgical North America > (Dollars in thousands): —
+Balance as of December 31, 2013 > Accumulated impairment losses | EMEA > (Dollars in thousands): —
+Balance as of December 31, 2013 > Accumulated impairment losses | Asia > (Dollars in thousands): —
+Balance as of December 31, 2013 > Accumulated impairment losses | All Other > (Dollars in thousands): (5,528)
+Balance as of December 31, 2013 > Accumulated impairment losses | Total > (Dollars in thousands): (332,128)
+Vascular North America > (Dollars in thousands): 240,169
+Anesthesia/Respiratory North America > (Dollars in thousands): 60,122
+Surgical North America > (Dollars in thousands): 250,506
+EMEA > (Dollars in thousands): 373,417
+Asia > (Dollars in thousands): 136,946
+All Other > (Dollars in thousands): 293,043
+Total > (Dollars in thousands): 1,354,203
+Balance as of December 31, 2013 > Goodwill related to acquisitions | Vascular North America > (Dollars in thousands): —
+Balance as of December 31, 2013 > Goodwill related to acquisitions | Anesthesia/Respiratory North America > (Dollars in thousands): —
+Balance as of December 31, 2013 > Goodwill related to acquisitions | Surgical North America > (Dollars in thousands): 406
+Balance as of December 31, 2013 > Goodwill related to acquisitions | Asia > (Dollars in thousands): 15,986
+Balance as of December 31, 2013 > Goodwill related to acquisitions | All Other > (Dollars in thousands): —
+Balance as of December 31, 2013 > Goodwill related to acquisitions | Total > (Dollars in thousands): $16,392
+Balance as of December 31, 2013 > Translation adjustment | Vascular North America > (Dollars in thousands): —
+Balance as of December 31, 2013 > Translation adjustment | Anesthesia/Respiratory North America > (Dollars in thousands): (681)
+Balance as of December 31, 2013 > Translation adjustment | Surgical North America > (Dollars in thousands): —
+Balance as of December 31, 2013 > Translation adjustment | EMEA > (Dollars in thousands): (34,388)
+Balance as of December 31, 2013 > Translation adjustment | Asia > (Dollars in thousands): (8,220)
+Balance as of December 31, 2013 > Translation adjustment | All Other > (Dollars in thousands): (3,753)
+Balance as of December 31, 2013 > Translation adjustment | Total > (Dollars in thousands): (47,042)
+Balance as of December 31, 2014 > Goodwill | Vascular North America > (Dollars in thousands): 459,696
+Balance as of December 31, 2014 > Goodwill | Anesthesia/Respiratory North America > (Dollars in thousands): 166,514
+Balance as of December 31, 2014 > Goodwill | Surgical North America > (Dollars in thousands): 250,912
+Balance as of December 31, 2014 > Goodwill | EMEA > (Dollars in thousands): 339,029
+Balance as of December 31, 2014 > Goodwill | Asia > (Dollars in thousands): 144,712
+Balance as of December 31, 2014 > Goodwill | All Other > (Dollars in thousands): 294,818
+Balance as of December 31, 2014 > Goodwill | Total > (Dollars in thousands): 1,655,681
+Balance as of December 31, 2014 > Accumulated impairment losses | Vascular North America > (Dollars in thousands): (219,527)
+Balance as of December 31, 2014 > Accumulated impairment losses | Anesthesia/Respiratory North America > (Dollars in thousands): (107,073)
+Balance as of December 31, 2014 > Accumulated impairment losses | Surgical North America > (Dollars in thousands): —
+Balance as of December 31, 2014 > Accumulated impairment losses | EMEA > (Dollars in thousands): —
+Balance as of December 31, 2014 > Accumulated impairment losses | Asia > (Dollars in thousands): —
+Balance as of December 31, 2014 > Accumulated impairment losses | All Other > (Dollars in thousands): (5,528)
+Balance as of December 31, 2014 > Accumulated impairment losses | Total > (Dollars in thousands): (332,128)
+Vascular North America > (Dollars in thousands): $240,169
+Anesthesia/Respiratory North America > (Dollars in thousands): $59,441
+Surgical North America > (Dollars in thousands): $250,912
+EMEA > (Dollars in thousands): $339,029
+Asia > (Dollars in thousands): $144,712
+All Other > (Dollars in thousands): $289,290
+Total > (Dollars in thousands): $1,323,553

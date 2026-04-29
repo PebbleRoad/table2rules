@@ -1,0 +1,67 @@
+Validation slide: 1
+2 > 3 | 5 % low spot filter: CV (%)
+2 > 3 | 5 % low spot filter: Spots (%)
+2 > 3 | 40 % low spot filter: CV (%)
+Validation: A-I
+Validation slide: x
+x | 5 % low spot filter: 27.3
+x | 5 % low spot filter: 89.5
+x | 40 % low spot filter: 17.4
+Validation: A-I
+Validation slide: x
+5 % low spot filter: 21.6
+5 % low spot filter: 88.7
+40 % low spot filter: 13.4
+Validation: A-I
+x | 5 % low spot filter: 26.1
+x | 5 % low spot filter: 88.9
+x | 40 % low spot filter: 17.3
+Validation: A-I
+x | 5 % low spot filter: 24.6
+x | 5 % low spot filter: 91.1
+x | 40 % low spot filter: 16.5
+Validation: A
+Validation slide: x
+x | 5 % low spot filter: 16.4
+x | 5 % low spot filter: 86
+x | 40 % low spot filter: 12.5
+Validation: B
+Validation slide: x
+x | 5 % low spot filter: 13
+x | 5 % low spot filter: 84.3
+x | 40 % low spot filter: 9.4
+Validation: C
+Validation slide: x
+x | 5 % low spot filter: 14
+x | 5 % low spot filter: 94.5
+x | 40 % low spot filter: 8.6
+Validation: D
+Validation slide: x
+x | 5 % low spot filter: 16.7
+x | 5 % low spot filter: 92.1
+x | 40 % low spot filter: 11.1
+Validation: E
+Validation slide: x
+x | 5 % low spot filter: 9.2
+x | 5 % low spot filter: 90.4
+x | 40 % low spot filter: 6.7
+Validation: F
+Validation slide: x
+x | 5 % low spot filter: 27.5
+x | 5 % low spot filter: 87.3
+x | 40 % low spot filter: 20.2
+Validation: G
+Validation slide: x
+x | 5 % low spot filter: 16.5
+x | 5 % low spot filter: 88.5
+x | 40 % low spot filter: 10.3
+Validation: H
+Validation slide: x
+x | 5 % low spot filter: 23.8
+x | 5 % low spot filter: 91
+x | 40 % low spot filter: 15.1
+Validation: I
+Validation slide: x
+x | 5 % low spot filter: 18.1
+x | 5 % low spot filter: 92.2
+x | 40 % low spot filter: 12.4

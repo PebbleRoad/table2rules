@@ -1,0 +1,58 @@
+MTHFR: 677 CC/1298 AA
+Cases (n = 443) Number (%): 49
+Cases (n = 443) Number (%): (11.1)
+Controls (n = 379) Number (%): 45
+Controls (n = 379) Number (%): (11.9)
+Odds ratio (95% CI): 1.00 a
+MTHFR: 677 CT/1298 AA
+Cases (n = 443) Number (%): 101
+Cases (n = 443) Number (%): (22.8)
+Controls (n = 379) Number (%): 67
+Controls (n = 379) Number (%): (17.7)
+Odds ratio (95% CI): 1.38 (0.83–2.30)
+P: 0.21
+MTHFR: 677 TT/1298 AA
+Cases (n = 443) Number (%): 44
+Cases (n = 443) Number (%): (9.9)
+Controls (n = 379) Number (%): 41
+Controls (n = 379) Number (%): (10.8)
+Odds ratio (95% CI): 0.99 (0.55–1.77)
+P: 0.96
+MTHFR: 677 CC/1298 AC
+Cases (n = 443) Number (%): 101
+Cases (n = 443) Number (%): (22.8)
+Controls (n = 379) Number (%): 87
+Controls (n = 379) Number (%): (23.0)
+Odds ratio (95% CI): 1.07 (0.65–1.75)
+P: 0.80
+MTHFR: 677 CT/1298 AC
+Cases (n = 443) Number (%): 100
+Cases (n = 443) Number (%): (22.6)
+Controls (n = 379) Number (%): 85
+Controls (n = 379) Number (%): (22.4)
+Odds ratio (95% CI): 1.08 (0.66–1.78)
+P: 0.76
+MTHFR: 677 TT/1298 AC
+Cases (n = 443) Number (%): 3
+Cases (n = 443) Number (%): (0.7)
+Controls (n = 379) Number (%): 2
+Controls (n = 379) Number (%): (0.5)
+Odds ratio (95% CI): 1.38 (0.22–8.63)
+P: 0.73
+MTHFR: 677 CC/1298 CC
+Cases (n = 443) Number (%): 45
+Cases (n = 443) Number (%): (10.2)
+Controls (n = 379) Number (%): 52
+Controls (n = 379) Number (%): (13.7)
+Odds ratio (95% CI): 0.79 (0.45–1.40)
+P: 0.43
+MTHFR: 677 CT/1298 CC
+Cases (n = 443) Number (%): n.d.
+Controls (n = 379) Number (%): n.d.
+Odds ratio (95% CI): -
+P: -
+MTHFR: 677 TT/1298 CC
+Cases (n = 443) Number (%): n.d.
+Controls (n = 379) Number (%): n.d.
+Odds ratio (95% CI): -
+P: -

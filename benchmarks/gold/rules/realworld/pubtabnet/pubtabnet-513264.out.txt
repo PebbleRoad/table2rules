@@ -1,0 +1,72 @@
+Parameter: Patient characteristics
+Early surgery a ( n = 22): Patient characteristics
+Late surgery a ( n = 34): Patient characteristics
+P: Patient characteristics
+Parameter: Age, years (mean ± SD)
+Early surgery a ( n = 22): 54 ± 14.8
+Late surgery a ( n = 34): 56 ± 12.8
+P: 0.58
+Parameter: Male sex
+Early surgery a ( n = 22): 16 (72.7%)
+Late surgery a ( n = 34): 19 (55.9%)
+P: 0.20
+Parameter: APACHE II score (mean ± SD)
+Early surgery a ( n = 22): 22 ± 12.1
+Late surgery a ( n = 34): 19 ± 8.9
+P: 0.47
+Parameter: Ranson score (mean ± SD)
+Early surgery a ( n = 22): 6.2 ± 2.46
+Late surgery a ( n = 34): 5.8 ± 1.80
+P: 0.59
+Parameter: Sterile necrosis at first surgical intervention
+Early surgery a ( n = 22): 13 (59.1%)
+Late surgery a ( n = 34): 17 (50%)
+P: 0.50
+Parameter: Interval from diagnosis to surgery, days (median and IQR)
+Early surgery a ( n = 22): 5 (3–9)
+Late surgery a ( n = 34): 20 (17–31)
+P: <0.001
+Parameter: SOFA score at surgical intervention (median and IQR)
+Early surgery a ( n = 22): 4 (2–8)
+Late surgery a ( n = 34): 4 (2–8)
+P: 0.78
+Parameter: Indications for surgery
+Early surgery a ( n = 22): Indications for surgery
+Late surgery a ( n = 34): Indications for surgery
+P: Indications for surgery
+Parameter: Documented infection of pancreatic necrosis
+Early surgery a ( n = 22): 5 (22.7%)
+Late surgery a ( n = 34): 14 (41.2%)
+P: 0.25
+Parameter: Deteriorating clinical condition
+Early surgery a ( n = 22): 9 (40.9%)
+Late surgery a ( n = 34): 3 (8.8%)
+P: 0.007
+Parameter: Unresolving pancreatitis or suspected infection of pancreatic necrosis
+Early surgery a ( n = 22): 8 (36.4%)
+Late surgery a ( n = 34): 17 (50%)
+P: 0.41
+Parameter: Outcome
+Early surgery a ( n = 22): Outcome
+Late surgery a ( n = 34): Outcome
+P: Outcome
+Parameter: LOS in ICU, days (median and IQR)
+Early surgery a ( n = 22): 14 (5–33)
+Late surgery a ( n = 34): 14 (6–35)
+P: 0.75
+Parameter: LOS in hospital, days (median and IQR)
+Early surgery a ( n = 22): 29 (15–58)
+Late surgery a ( n = 34): 87 (54–106)
+P: <0.001
+Parameter: LOS in ICU in hospital survivors, days (median and IQR) b
+Early surgery a ( n = 22): 16 (4–46)
+Late surgery a ( n = 34): 12 (5–31)
+P: 0.92
+Parameter: LOS in hospital in hospital survivors, days (median and IQR) b
+Early surgery a ( n = 22): 44 (30–107)
+Late surgery a ( n = 34): 88 (60–106)
+P: 0.034
+Parameter: Mortality
+Early surgery a ( n = 22): 12 (54.5%)
+Late surgery a ( n = 34): 10 (29.4%)
+P: 0.06

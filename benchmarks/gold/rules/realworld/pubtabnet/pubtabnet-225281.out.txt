@@ -1,0 +1,90 @@
+Organisms: 1. (Borr, Trep) (Chlor, Bac) (Campy, Bruc)
+# Clades: 3
+# Genes: 8
+Trees: 8*
+Trees: 2
+Consensus: 24*
+Consensus: 12
+Concatenation: 299
+Concatenation: 112
+Organisms: 2. (Neiss, Rals) (Xyl, Haem) (Rick, Meso)
+# Clades: 3
+# Genes: 8
+Trees: 5*
+Trees: 3
+Consensus: 21*
+Consensus: 19
+Concatenation: 247
+Concatenation: 207
+Organisms: 3. (Clost, Lacto) (Mycob, Bifid) (Campy, Rick)
+# Clades: 3
+# Genes: 8
+Trees: 6*
+Trees: 4*
+Consensus: 18*
+Consensus: 18*
+Concatenation: 294
+Concatenation: 283
+Organisms: 4. (Buch, Rick) (Mycob, Bifid) (Staph, Mycop)
+# Clades: 3
+# Genes: 8
+Trees: 2
+Trees: 1*
+Consensus: 13
+Consensus: 15*
+Concatenation: 235
+Concatenation: 297
+Organisms: 5. (Urea, Mycop) (Strep, Lacto) (Staph, List)
+# Clades: 3
+# Genes: 8
+Trees: 8*
+Trees: 5*
+Consensus: 24*
+Consensus: 21*
+Concatenation: 300
+Concatenation: 300
+Organisms: 6. (Syn, Pro) (Rick, Buch) (Chlor, Bac) (Staph, Strep) (Borr, Trep)
+# Clades: 5
+# Genes: 8
+Trees: 7*
+Trees: 2*
+Consensus: 37*
+Consensus: 26*
+Concatenation: 481
+Concatenation: 472
+Organisms: 7. ((Rick, Bruc) ((Vib, Esch, Haem), Neiss) (Heli, Campy)) (Syn, Pro) (Clost, Staph) (Borr, Trep)
+# Clades: 8
+# Genes: 17
+Trees: 3*
+Trees: 3
+Consensus: 129*
+Consensus: 108
+Concatenation: 762
+Concatenation: 741
+Organisms: 8. ((Caul, Meso), Esch) (Chlor, Bac) (Pro, Nos)
+# Clades: 4
+# Genes: 8
+Trees: 7*
+Trees: 3*
+Consensus: 30*
+Consensus: 27*
+Concatenation: 400
+Concatenation: 398
+Organisms: 9. ((Geo, Desulf), (Wol, Campy), (Caul, Rick)) (Borr, Lep) (Chlor, Bac)
+# Clades: 6
+# Genes: 8
+Trees: 1
+Trees: 2
+Consensus: 31*
+Consensus: 32
+Concatenation: 554
+Concatenation: 512
+Organisms: 10. (Chlor, Bac) (Mycop, Strep, Clost) (Mycob, Bifid)
+# Clades: 3
+# Genes: 8
+Trees: 1*
+Trees: 2*
+Consensus: 15*
+Consensus: 13
+Concatenation: 255
+Concatenation: 245

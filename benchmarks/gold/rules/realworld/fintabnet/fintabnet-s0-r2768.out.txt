@@ -1,0 +1,45 @@
+Net income | 2011 > (In thousands): $149,612
+Net income | 2010 > (In thousands): $128,237
+Net income | 2009 > (In thousands): $103,872
+Net income | 2008 > (In thousands): $135,153
+Net income | 2007 > (In thousands): $201,127
+Depreciation and amortization | 2011 > (In thousands): 126,568
+Depreciation and amortization | 2010 > (In thousands): 119,817
+Depreciation and amortization | 2009 > (In thousands): 115,093
+Depreciation and amortization | 2008 > (In thousands): 111,068
+Depreciation and amortization | 2007 > (In thousands): 105,966
+Interest expense | 2011 > (In thousands): 98,465
+Interest expense | 2010 > (In thousands): 101,882
+Interest expense | 2009 > (In thousands): 108,781
+Interest expense | 2008 > (In thousands): 99,163
+Interest expense | 2007 > (In thousands): 117,394
+Early extinguishment of debt | 2011 > (In thousands): (296)
+Early extinguishment of debt | 2010 > (In thousands): 2,801
+Early extinguishment of debt | 2009 > (In thousands): 2,639
+Early extinguishment of debt | 2008 > (In thousands): —
+Early extinguishment of debt | 2007 > (In thousands): —
+Other interest income | 2011 > (In thousands): (218)
+Other interest income | 2010 > (In thousands): (256)
+Other interest income | 2009 > (In thousands): (1,894)
+Other interest income | 2008 > (In thousands): (919)
+Other interest income | 2007 > (In thousands): (1,337)
+EBITDA | 2011 > (In thousands): 374,131
+EBITDA | 2010 > (In thousands): 352,481
+EBITDA | 2009 > (In thousands): 328,491
+EBITDA | 2008 > (In thousands): 344,465
+EBITDA | 2007 > (In thousands): 423,150
+Gain on deconsolidation of VIE | 2011 > (In thousands): (2,026)
+Gain on deconsolidation of VIE | 2010 > (In thousands): —
+Gain on deconsolidation of VIE | 2009 > (In thousands): —
+Gain on deconsolidation of VIE | 2008 > (In thousands): —
+Gain on deconsolidation of VIE | 2007 > (In thousands): —
+Gain on sale of real estate | 2011 > (In thousands): (15,075)
+Gain on sale of real estate | 2010 > (In thousands): (1,410)
+Gain on sale of real estate | 2009 > (In thousands): (1,298)
+Gain on sale of real estate | 2008 > (In thousands): (12,572)
+Gain on sale of real estate | 2007 > (In thousands): (94,768)
+Adjusted EBITDA | 2011 > (In thousands): $357,030
+Adjusted EBITDA | 2010 > (In thousands): $351,071
+Adjusted EBITDA | 2009 > (In thousands): $327,193
+Adjusted EBITDA | 2008 > (In thousands): $331,893
+Adjusted EBITDA | 2007 > (In thousands): $328,382

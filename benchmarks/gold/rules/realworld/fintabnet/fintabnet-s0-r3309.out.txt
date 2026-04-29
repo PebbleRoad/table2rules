@@ -1,0 +1,48 @@
+(Millions, except Employees) | Employees as of December 31,: 2015
+(Millions, except Employees) | Employees as of December 31,: 2014
+(Millions, except Employees) | Employees as of December 31,: 2013
+(Millions, except Employees) | Capital Spending: 2015
+(Millions, except Employees) | Capital Spending: 2014
+(Millions, except Employees) | Capital Spending: 2013
+(Millions, except Employees) | Property, Plant and Equipment - net > as of December 31,: 2015
+(Millions, except Employees) | Property, Plant and Equipment - net > as of December 31,: 2014
+United States | Employees as of December 31,: 35,973
+United States | Employees as of December 31,: 35,581
+United States | Employees as of December 31,: 34,719
+United States | Capital Spending: $936
+United States | Capital Spending: $909
+United States | Capital Spending: $941
+United States | Property, Plant and Equipment - net > as of December 31,: $4,838
+United States | Property, Plant and Equipment - net > as of December 31,: $4,619
+Asia Pacific | Employees as of December 31,: 17,642
+Asia Pacific | Employees as of December 31,: 17,854
+Asia Pacific | Employees as of December 31,: 18,417
+Asia Pacific | Capital Spending: 172
+Asia Pacific | Capital Spending: 184
+Asia Pacific | Capital Spending: 284
+Asia Pacific | Property, Plant and Equipment - net > as of December 31,: 1,647
+Asia Pacific | Property, Plant and Equipment - net > as of December 31,: 1,798
+Europe, Middle East and Africa | Employees as of December 31,: 20,563
+Europe, Middle East and Africa | Employees as of December 31,: 20,506
+Europe, Middle East and Africa | Employees as of December 31,: 20,504
+Europe, Middle East and Africa | Capital Spending: 249
+Europe, Middle East and Africa | Capital Spending: 288
+Europe, Middle East and Africa | Capital Spending: 290
+Europe, Middle East and Africa | Property, Plant and Equipment - net > as of December 31,: 1,531
+Europe, Middle East and Africa | Property, Plant and Equipment - net > as of December 31,: 1,502
+Latin America and Canada | Employees as of December 31,: 15,268
+Latin America and Canada | Employees as of December 31,: 15,859
+Latin America and Canada | Employees as of December 31,: 15,027
+Latin America and Canada | Capital Spending: 104
+Latin America and Canada | Capital Spending: 112
+Latin America and Canada | Capital Spending: 150
+Latin America and Canada | Property, Plant and Equipment - net > as of December 31,: 499
+Latin America and Canada | Property, Plant and Equipment - net > as of December 31,: 570
+Total Company | Employees as of December 31,: 89,446
+Total Company | Employees as of December 31,: 89,800
+Total Company | Employees as of December 31,: 88,667
+Total Company | Capital Spending: $1,461
+Total Company | Capital Spending: $1,493
+Total Company | Capital Spending: $1,665
+Total Company | Property, Plant and Equipment - net > as of December 31,: $8,515
+Total Company | Property, Plant and Equipment - net > as of December 31,: $8,489

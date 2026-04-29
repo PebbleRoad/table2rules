@@ -1,0 +1,42 @@
+Net Sales: United States (2)
+Year EndedDecember 31, 2015 > (in millions) > NetProperty (1): $5,536
+Year EndedDecember 31, 2015 > NetProperty (1): $898
+Year EndedDecember 31, 2014 > Net Sales > NetProperty (1): $5,160
+Year EndedDecember 31, 2014 > NetProperty (1): $675
+Year EndedDecember 31, 2013 > Net Sales > NetProperty (1): $4,850
+Year EndedDecember 31, 2013 > NetProperty (1): $583
+Net Sales: Other North America
+Year EndedDecember 31, 2015 > (in millions) > NetProperty (1): 146
+Year EndedDecember 31, 2015 > NetProperty (1): 147
+Year EndedDecember 31, 2014 > Net Sales > NetProperty (1): 208
+Year EndedDecember 31, 2014 > NetProperty (1): 135
+Year EndedDecember 31, 2013 > Net Sales > NetProperty (1): 213
+Year EndedDecember 31, 2013 > NetProperty (1): 135
+Net Sales: Europe, Middle East & Africa (3)
+Year EndedDecember 31, 2015 > (in millions) > NetProperty (1): 5,275
+Year EndedDecember 31, 2015 > NetProperty (1): 1,469
+Year EndedDecember 31, 2014 > Net Sales > NetProperty (1): 5,940
+Year EndedDecember 31, 2014 > NetProperty (1): 1,395
+Year EndedDecember 31, 2013 > Net Sales > NetProperty (1): 5,999
+Year EndedDecember 31, 2013 > NetProperty (1): 1,513
+Net Sales: Asia Pacific (4)
+Year EndedDecember 31, 2015 > (in millions) > NetProperty (1): 3,839
+Year EndedDecember 31, 2015 > NetProperty (1): 809
+Year EndedDecember 31, 2014 > Net Sales > NetProperty (1): 3,552
+Year EndedDecember 31, 2014 > NetProperty (1): 732
+Year EndedDecember 31, 2013 > Net Sales > NetProperty (1): 3,171
+Year EndedDecember 31, 2013 > NetProperty (1): 602
+Net Sales: South America
+Year EndedDecember 31, 2015 > (in millions) > NetProperty (1): 369
+Year EndedDecember 31, 2015 > NetProperty (1): 54
+Year EndedDecember 31, 2014 > Net Sales > NetProperty (1): 639
+Year EndedDecember 31, 2014 > NetProperty (1): 84
+Year EndedDecember 31, 2013 > Net Sales > NetProperty (1): 818
+Year EndedDecember 31, 2013 > NetProperty (1): 97
+Net Sales: Total
+Year EndedDecember 31, 2015 > (in millions) > NetProperty (1): $15,165
+Year EndedDecember 31, 2015 > NetProperty (1): $3,377
+Year EndedDecember 31, 2014 > Net Sales > NetProperty (1): $15,499
+Year EndedDecember 31, 2014 > NetProperty (1): $3,021
+Year EndedDecember 31, 2013 > Net Sales > NetProperty (1): $15,051
+Year EndedDecember 31, 2013 > NetProperty (1): $2,930

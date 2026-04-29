@@ -1,0 +1,70 @@
+Accession no.: NM_178144
+Gene: AMIGO3
+Delta: Nd/Nd/5.9
+Rat CL: 8q32
+Rat QTLs: Cia6
+Human CL: 3p21.31
+Human QTLs: Asthma
+Accession no.: NM_130411
+Gene: CORO1A
+Delta: 3.1/2.7/6.6
+Rat CL: 1q36
+Rat QTLs: Pia11
+Human CL: 16p12.1
+Human QTLs: Blau syndrome, asthma
+Accession no.: NM_024381
+Gene: GYK
+Delta: 6.7/Nd/Nd
+Rat CL: Xq22
+Rat QTLs: Cia19
+Human CL: Xp21.3
+Human QTLs: Allergic rhinitis
+Accession no.: NM_031670
+Gene: KDAP
+Delta: 18.8/6.6/48.2
+Rat CL: 1q22
+Rat QTLs: _
+Human CL: 19q13.3
+Human QTLs: Asthma, SLE, MS, SD
+Accession no.: NM_569105
+Gene: LCP2
+Delta: 2.6/3.3/6.2
+Rat CL: 10q12
+Rat QTLs: Cia16, Pia15
+Human CL: 5q33.1
+Human QTLs: RA, PDB, asthma, IBD, psoriasis, ATD
+Accession no.: NM_021586
+Gene: LTBP2
+Delta: Nd/Nd/6.5
+Rat CL: 6q31
+Rat QTLs: Pia3, Pia24
+Human CL: 14q24
+Human QTLs: SLE, MODY3
+Accession no.: NM_198746
+Gene: Ly-49.9
+Delta: Nd/2.0/5.6
+Rat CL: 4q42
+Rat QTLs: Cia13, Cia24, Pia7, Pia23, Oia2, Oia7, Oia8, Ciaa4
+Human CL: 12p13-p12
+Human QTLs: RA, allergic rhinitis, hypophosphataemic rickets
+Accession no.: NM_022667
+Gene: MATR1
+Delta: 1.7/1.9/5.7
+Rat CL: 8q32
+Rat QTLs: Cia6
+Human CL: 3q21
+Human QTLs: Atopic dermatitis, asthma, psoriasis
+Accession no.: NM_133306
+Gene: OLR1
+Delta: 8.3/2.8/3.7
+Rat CL: 4q42
+Rat QTLs: Cia13, Cia24, Pia7, Pia23, Oia2, Oia7, Oia8, Ciaa4
+Human CL: 12p13.2-p12.3
+Human QTLs: RA, hypophosphataemic rickets, allergic rhinitis
+Accession no.: NM_053687
+Gene: SLFN4
+Delta: 5.8/4.6/4.8
+Rat CL: 10q26
+Rat QTLs: Cia16, Cia21, Cia22, Cia23, Oia4, Ciaa2
+Human CL: 17q11.2-q21.1
+Human QTLs: SLE, MS

@@ -1,0 +1,108 @@
+Month: 0
+Polio Cases: 494
+H1: 494
+H2: 494
+Weibull: 494
+H3: 494
+Richards: 494
+Logistic: 494
+Gompertz: 494
+Month: 1
+Polio Cases: 759
+H1: 242.47
+H2: 544.99
+Weibull: 494.15
+H3: 467.57
+Richards: 838.76
+Logistic: 901.13
+Gompertz: 1112.71
+Month: 2
+Polio Cases: 1016
+H1: 278.44
+H2: 720.94
+Weibull: 505.28
+H3: 452.96
+Richards: 1424.12
+Logistic: 1632.93
+Gompertz: 2224.48
+Month: 3
+Polio Cases: 1215
+H1: 526.24
+H2: 1153.82
+Weibull: 635.10
+H3: 563.29
+Richards: 2418.00
+Logistic: 2924.19
+Gompertz: 4016.77
+Month: 4
+Polio Cases: 1619
+H1: 1279.87
+H2: 2218.78
+Weibull: 1334.67
+H3: 1262.75
+Richards: 4105.48
+Logistic: 5130.07
+Gompertz: 6649.96
+Month: 5
+Polio Cases: 2964
+H1: 3506.99
+H2: 4917.77
+Weibull: 3769.25
+H3: 3730.08
+Richards: 6970.11
+Logistic: 8697.85
+Gompertz: 10223.41
+Month: 6
+Polio Cases: 8489
+H1: 9510.12
+H2: 11444.30
+Weibull: 9859.95
+H3: 9872.33
+Richards: 11824.88
+Logistic: 13987.47
+Gompertz: 14754.76
+Month: 7
+Polio Cases: 22377
+H1: 21110.00
+H2: 23267.60
+Weibull: 20665.19
+H3: 20687.08
+Richards: 19913.74
+Logistic: 20898.37
+Gompertz: 20177.15
+Month: 8
+Polio Cases: 32618
+H1: 33011.70
+H2: 34655.40
+Weibull: 32802.34
+H3: 32777.73
+Richards: 31513.43
+Logistic: 28575.53
+Gompertz: 26352.24
+Month: 9
+Polio Cases: 38153
+H1: 39160.25
+H2: 39855.70
+Weibull: 39775.43
+H3: 39753.72
+Richards: 39660.86
+Logistic: 35708.48
+Gompertz: 33093.26
+Month: 10
+Polio Cases: 41462
+H1: 41203.34
+H2: 41247.00
+Weibull: 41264.73
+H3: 41277.59
+Richards: 41382.42
+Logistic: 41316.48
+Gompertz: 40190.97
+Month: 11
+Polio Cases: 42375
+H1: 41763.32
+H2: 41522.90
+Weibull: 41339.95
+H3: 41358.99
+Richards: 41573.16
+Logistic: 45174.27
+Gompertz: 47437.25

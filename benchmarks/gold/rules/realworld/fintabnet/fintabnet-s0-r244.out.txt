@@ -1,0 +1,144 @@
+(Millions of dollars) | U.S. Pension Benefits: 2017
+(Millions of dollars) | U.S. Pension Benefits: 2016
+(Millions of dollars) | U.S. Pension Benefits: 2015
+(Millions of dollars) | Non-U.S. Pension Benefits: 2017
+(Millions of dollars) | Non-U.S. Pension Benefits: 2016
+(Millions of dollars) | Non-U.S. Pension Benefits: 2015
+(Millions of dollars) | Other Postretirement Benefits: 2017
+(Millions of dollars) | Other Postretirement Benefits: 2016
+(Millions of dollars) | Other Postretirement Benefits: 2015
+Components of net periodic benefit cost: > Service cost | U.S. Pension Benefits: $115
+Components of net periodic benefit cost: > Service cost | U.S. Pension Benefits: $119
+Components of net periodic benefit cost: > Service cost | U.S. Pension Benefits: $181
+Components of net periodic benefit cost: > Service cost | Non-U.S. Pension Benefits: $95
+Components of net periodic benefit cost: > Service cost | Non-U.S. Pension Benefits: $92
+Components of net periodic benefit cost: > Service cost | Non-U.S. Pension Benefits: $110
+Components of net periodic benefit cost: > Service cost | Other Postretirement Benefits: $78
+Components of net periodic benefit cost: > Service cost | Other Postretirement Benefits: $82
+Components of net periodic benefit cost: > Service cost | Other Postretirement Benefits: $101
+Components of net periodic benefit cost: > Interest cost | U.S. Pension Benefits: 525
+Components of net periodic benefit cost: > Interest cost | U.S. Pension Benefits: 517
+Components of net periodic benefit cost: > Interest cost | U.S. Pension Benefits: 608
+Components of net periodic benefit cost: > Interest cost | Non-U.S. Pension Benefits: 101
+Components of net periodic benefit cost: > Interest cost | Non-U.S. Pension Benefits: 117
+Components of net periodic benefit cost: > Interest cost | Non-U.S. Pension Benefits: 146
+Components of net periodic benefit cost: > Interest cost | Other Postretirement Benefits: 130
+Components of net periodic benefit cost: > Interest cost | Other Postretirement Benefits: 131
+Components of net periodic benefit cost: > Interest cost | Other Postretirement Benefits: 181
+Components of net periodic benefit cost: > Expected return on plan assets 1 | U.S. Pension Benefits: (734)
+Components of net periodic benefit cost: > Expected return on plan assets 1 | U.S. Pension Benefits: (757)
+Components of net periodic benefit cost: > Expected return on plan assets 1 | U.S. Pension Benefits: (890)
+Components of net periodic benefit cost: > Expected return on plan assets 1 | Non-U.S. Pension Benefits: (231)
+Components of net periodic benefit cost: > Expected return on plan assets 1 | Non-U.S. Pension Benefits: (227)
+Components of net periodic benefit cost: > Expected return on plan assets 1 | Non-U.S. Pension Benefits: (273)
+Components of net periodic benefit cost: > Expected return on plan assets 1 | Other Postretirement Benefits: (37)
+Components of net periodic benefit cost: > Expected return on plan assets 1 | Other Postretirement Benefits: (44)
+Components of net periodic benefit cost: > Expected return on plan assets 1 | Other Postretirement Benefits: (56)
+Components of net periodic benefit cost: > Curtailments and termination benefits 2 | U.S. Pension Benefits: 9
+Components of net periodic benefit cost: > Curtailments and termination benefits 2 | U.S. Pension Benefits: 6
+Components of net periodic benefit cost: > Curtailments and termination benefits 2 | U.S. Pension Benefits: 32
+Components of net periodic benefit cost: > Curtailments and termination benefits 2 | Non-U.S. Pension Benefits: 15
+Components of net periodic benefit cost: > Curtailments and termination benefits 2 | Non-U.S. Pension Benefits: 1
+Components of net periodic benefit cost: > Curtailments and termination benefits 2 | Non-U.S. Pension Benefits: (1)
+Components of net periodic benefit cost: > Curtailments and termination benefits 2 | Other Postretirement Benefits: —
+Components of net periodic benefit cost: > Curtailments and termination benefits 2 | Other Postretirement Benefits: (9)
+Components of net periodic benefit cost: > Curtailments and termination benefits 2 | Other Postretirement Benefits: 27
+Components of net periodic benefit cost: > Amortization of prior service cost (credit) 3 | U.S. Pension Benefits: —
+Components of net periodic benefit cost: > Amortization of prior service cost (credit) 3 | U.S. Pension Benefits: —
+Components of net periodic benefit cost: > Amortization of prior service cost (credit) 3 | U.S. Pension Benefits: 1
+Components of net periodic benefit cost: > Amortization of prior service cost (credit) 3 | Non-U.S. Pension Benefits: (2)
+Components of net periodic benefit cost: > Amortization of prior service cost (credit) 3 | Non-U.S. Pension Benefits: 3
+Components of net periodic benefit cost: > Amortization of prior service cost (credit) 3 | Non-U.S. Pension Benefits: —
+Components of net periodic benefit cost: > Amortization of prior service cost (credit) 3 | Other Postretirement Benefits: (23)
+Components of net periodic benefit cost: > Amortization of prior service cost (credit) 3 | Other Postretirement Benefits: (59)
+Components of net periodic benefit cost: > Amortization of prior service cost (credit) 3 | Other Postretirement Benefits: (54)
+Components of net periodic benefit cost: > Actuarial loss (gain) 4 | U.S. Pension Benefits: 481
+Components of net periodic benefit cost: > Actuarial loss (gain) 4 | U.S. Pension Benefits: 664
+Components of net periodic benefit cost: > Actuarial loss (gain) 4 | U.S. Pension Benefits: 732
+Components of net periodic benefit cost: > Actuarial loss (gain) 4 | Non-U.S. Pension Benefits: (195)
+Components of net periodic benefit cost: > Actuarial loss (gain) 4 | Non-U.S. Pension Benefits: 262
+Components of net periodic benefit cost: > Actuarial loss (gain) 4 | Non-U.S. Pension Benefits: 8
+Components of net periodic benefit cost: > Actuarial loss (gain) 4 | Other Postretirement Benefits: 15
+Components of net periodic benefit cost: > Actuarial loss (gain) 4 | Other Postretirement Benefits: 59
+Components of net periodic benefit cost: > Actuarial loss (gain) 4 | Other Postretirement Benefits: (561)
+Components of net periodic benefit cost: > Total cost (benefit) included in operating profit | U.S. Pension Benefits: $396
+Components of net periodic benefit cost: > Total cost (benefit) included in operating profit | U.S. Pension Benefits: $549
+Components of net periodic benefit cost: > Total cost (benefit) included in operating profit | U.S. Pension Benefits: $664
+Components of net periodic benefit cost: > Total cost (benefit) included in operating profit | Non-U.S. Pension Benefits: $(217)
+Components of net periodic benefit cost: > Total cost (benefit) included in operating profit | Non-U.S. Pension Benefits: $248
+Components of net periodic benefit cost: > Total cost (benefit) included in operating profit | Non-U.S. Pension Benefits: $(10)
+Components of net periodic benefit cost: > Total cost (benefit) included in operating profit | Other Postretirement Benefits: $163
+Components of net periodic benefit cost: > Total cost (benefit) included in operating profit | Other Postretirement Benefits: $160
+Components of net periodic benefit cost: > Total cost (benefit) included in operating profit | Other Postretirement Benefits: $(362)
+Other changes in plan assets and benefit obligations recognized in other comprehensive income (pre-tax): > Current year prior service cost (credit) | U.S. Pension Benefits: $—
+Other changes in plan assets and benefit obligations recognized in other comprehensive income (pre-tax): > Current year prior service cost (credit) | U.S. Pension Benefits: $—
+Other changes in plan assets and benefit obligations recognized in other comprehensive income (pre-tax): > Current year prior service cost (credit) | U.S. Pension Benefits: $—
+Other changes in plan assets and benefit obligations recognized in other comprehensive income (pre-tax): > Current year prior service cost (credit) | Non-U.S. Pension Benefits: $3
+Other changes in plan assets and benefit obligations recognized in other comprehensive income (pre-tax): > Current year prior service cost (credit) | Non-U.S. Pension Benefits: $(3)
+Other changes in plan assets and benefit obligations recognized in other comprehensive income (pre-tax): > Current year prior service cost (credit) | Non-U.S. Pension Benefits: $(8)
+Other changes in plan assets and benefit obligations recognized in other comprehensive income (pre-tax): > Current year prior service cost (credit) | Other Postretirement Benefits: $(77)
+Other changes in plan assets and benefit obligations recognized in other comprehensive income (pre-tax): > Current year prior service cost (credit) | Other Postretirement Benefits: $(184)
+Other changes in plan assets and benefit obligations recognized in other comprehensive income (pre-tax): > Current year prior service cost (credit) | Other Postretirement Benefits: $16
+Other changes in plan assets and benefit obligations recognized in other comprehensive income (pre-tax): > Amortization of prior service (cost) credit | U.S. Pension Benefits: —
+Other changes in plan assets and benefit obligations recognized in other comprehensive income (pre-tax): > Amortization of prior service (cost) credit | U.S. Pension Benefits: —
+Other changes in plan assets and benefit obligations recognized in other comprehensive income (pre-tax): > Amortization of prior service (cost) credit | U.S. Pension Benefits: (1)
+Other changes in plan assets and benefit obligations recognized in other comprehensive income (pre-tax): > Amortization of prior service (cost) credit | Non-U.S. Pension Benefits: 2
+Other changes in plan assets and benefit obligations recognized in other comprehensive income (pre-tax): > Amortization of prior service (cost) credit | Non-U.S. Pension Benefits: (3)
+Other changes in plan assets and benefit obligations recognized in other comprehensive income (pre-tax): > Amortization of prior service (cost) credit | Non-U.S. Pension Benefits: —
+Other changes in plan assets and benefit obligations recognized in other comprehensive income (pre-tax): > Amortization of prior service (cost) credit | Other Postretirement Benefits: 23
+Other changes in plan assets and benefit obligations recognized in other comprehensive income (pre-tax): > Amortization of prior service (cost) credit | Other Postretirement Benefits: 59
+Other changes in plan assets and benefit obligations recognized in other comprehensive income (pre-tax): > Amortization of prior service (cost) credit | Other Postretirement Benefits: 54
+Other changes in plan assets and benefit obligations recognized in other comprehensive income (pre-tax): > Total recognized in other comprehensive income | U.S. Pension Benefits: —
+Other changes in plan assets and benefit obligations recognized in other comprehensive income (pre-tax): > Total recognized in other comprehensive income | U.S. Pension Benefits: —
+Other changes in plan assets and benefit obligations recognized in other comprehensive income (pre-tax): > Total recognized in other comprehensive income | U.S. Pension Benefits: (1)
+Other changes in plan assets and benefit obligations recognized in other comprehensive income (pre-tax): > Total recognized in other comprehensive income | Non-U.S. Pension Benefits: 5
+Other changes in plan assets and benefit obligations recognized in other comprehensive income (pre-tax): > Total recognized in other comprehensive income | Non-U.S. Pension Benefits: (6)
+Other changes in plan assets and benefit obligations recognized in other comprehensive income (pre-tax): > Total recognized in other comprehensive income | Non-U.S. Pension Benefits: (8)
+Other changes in plan assets and benefit obligations recognized in other comprehensive income (pre-tax): > Total recognized in other comprehensive income | Other Postretirement Benefits: (54)
+Other changes in plan assets and benefit obligations recognized in other comprehensive income (pre-tax): > Total recognized in other comprehensive income | Other Postretirement Benefits: (125)
+Other changes in plan assets and benefit obligations recognized in other comprehensive income (pre-tax): > Total recognized in other comprehensive income | Other Postretirement Benefits: 70
+Other changes in plan assets and benefit obligations recognized in other comprehensive income (pre-tax): > Total recognized in net periodic cost and other comprehensive income | U.S. Pension Benefits: $396
+Other changes in plan assets and benefit obligations recognized in other comprehensive income (pre-tax): > Total recognized in net periodic cost and other comprehensive income | U.S. Pension Benefits: $549
+Other changes in plan assets and benefit obligations recognized in other comprehensive income (pre-tax): > Total recognized in net periodic cost and other comprehensive income | U.S. Pension Benefits: $663
+Other changes in plan assets and benefit obligations recognized in other comprehensive income (pre-tax): > Total recognized in net periodic cost and other comprehensive income | Non-U.S. Pension Benefits: $(212)
+Other changes in plan assets and benefit obligations recognized in other comprehensive income (pre-tax): > Total recognized in net periodic cost and other comprehensive income | Non-U.S. Pension Benefits: $242
+Other changes in plan assets and benefit obligations recognized in other comprehensive income (pre-tax): > Total recognized in net periodic cost and other comprehensive income | Non-U.S. Pension Benefits: $(18)
+Other changes in plan assets and benefit obligations recognized in other comprehensive income (pre-tax): > Total recognized in net periodic cost and other comprehensive income | Other Postretirement Benefits: $109
+Other changes in plan assets and benefit obligations recognized in other comprehensive income (pre-tax): > Total recognized in net periodic cost and other comprehensive income | Other Postretirement Benefits: $35
+Other changes in plan assets and benefit obligations recognized in other comprehensive income (pre-tax): > Total recognized in net periodic cost and other comprehensive income | Other Postretirement Benefits: $(292)
+Weighted-average assumptions used to determine net cost: > Discount rate used to measure service cost | U.S. Pension Benefits: 4.2%
+Weighted-average assumptions used to determine net cost: > Discount rate used to measure service cost | U.S. Pension Benefits: 4.5%
+Weighted-average assumptions used to determine net cost: > Discount rate used to measure service cost | U.S. Pension Benefits: 3.8%
+Weighted-average assumptions used to determine net cost: > Discount rate used to measure service cost | Non-U.S. Pension Benefits: 2.4%
+Weighted-average assumptions used to determine net cost: > Discount rate used to measure service cost | Non-U.S. Pension Benefits: 2.9%
+Weighted-average assumptions used to determine net cost: > Discount rate used to measure service cost | Non-U.S. Pension Benefits: 3.3%
+Weighted-average assumptions used to determine net cost: > Discount rate used to measure service cost | Other Postretirement Benefits: 3.9%
+Weighted-average assumptions used to determine net cost: > Discount rate used to measure service cost | Other Postretirement Benefits: 4.2%
+Weighted-average assumptions used to determine net cost: > Discount rate used to measure service cost | Other Postretirement Benefits: 3.9%
+Weighted-average assumptions used to determine net cost: > Discount rate used to measure interest cost | U.S. Pension Benefits: 3.3%
+Weighted-average assumptions used to determine net cost: > Discount rate used to measure interest cost | U.S. Pension Benefits: 3.4%
+Weighted-average assumptions used to determine net cost: > Discount rate used to measure interest cost | U.S. Pension Benefits: 3.8%
+Weighted-average assumptions used to determine net cost: > Discount rate used to measure interest cost | Non-U.S. Pension Benefits: 2.3%
+Weighted-average assumptions used to determine net cost: > Discount rate used to measure interest cost | Non-U.S. Pension Benefits: 2.8%
+Weighted-average assumptions used to determine net cost: > Discount rate used to measure interest cost | Non-U.S. Pension Benefits: 3.3%
+Weighted-average assumptions used to determine net cost: > Discount rate used to measure interest cost | Other Postretirement Benefits: 3.3%
+Weighted-average assumptions used to determine net cost: > Discount rate used to measure interest cost | Other Postretirement Benefits: 3.3%
+Weighted-average assumptions used to determine net cost: > Discount rate used to measure interest cost | Other Postretirement Benefits: 3.9%
+Weighted-average assumptions used to determine net cost: > Expected rate of return on plan assets 5 | U.S. Pension Benefits: 6.7%
+Weighted-average assumptions used to determine net cost: > Expected rate of return on plan assets 5 | U.S. Pension Benefits: 6.9%
+Weighted-average assumptions used to determine net cost: > Expected rate of return on plan assets 5 | U.S. Pension Benefits: 7.4%
+Weighted-average assumptions used to determine net cost: > Expected rate of return on plan assets 5 | Non-U.S. Pension Benefits: 5.9%
+Weighted-average assumptions used to determine net cost: > Expected rate of return on plan assets 5 | Non-U.S. Pension Benefits: 6.1%
+Weighted-average assumptions used to determine net cost: > Expected rate of return on plan assets 5 | Non-U.S. Pension Benefits: 6.8%
+Weighted-average assumptions used to determine net cost: > Expected rate of return on plan assets 5 | Other Postretirement Benefits: 7.5%
+Weighted-average assumptions used to determine net cost: > Expected rate of return on plan assets 5 | Other Postretirement Benefits: 7.5%
+Weighted-average assumptions used to determine net cost: > Expected rate of return on plan assets 5 | Other Postretirement Benefits: 7.8%
+Weighted-average assumptions used to determine net cost: > Rate of compensation increase | U.S. Pension Benefits: 4.0%
+Weighted-average assumptions used to determine net cost: > Rate of compensation increase | U.S. Pension Benefits: 4.0%
+Weighted-average assumptions used to determine net cost: > Rate of compensation increase | U.S. Pension Benefits: 4.0%
+Weighted-average assumptions used to determine net cost: > Rate of compensation increase | Non-U.S. Pension Benefits: 4.0%
+Weighted-average assumptions used to determine net cost: > Rate of compensation increase | Non-U.S. Pension Benefits: 3.6%
+Weighted-average assumptions used to determine net cost: > Rate of compensation increase | Non-U.S. Pension Benefits: 4.0%
+Weighted-average assumptions used to determine net cost: > Rate of compensation increase | Other Postretirement Benefits: 4.0%
+Weighted-average assumptions used to determine net cost: > Rate of compensation increase | Other Postretirement Benefits: 4.0%
+Weighted-average assumptions used to determine net cost: > Rate of compensation increase | Other Postretirement Benefits: 4.0%

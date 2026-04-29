@@ -1,0 +1,81 @@
+Balance as of December 31, 2015 > Goodwill | Vascular North America > (Dollars in thousands): $485,986
+Balance as of December 31, 2015 > Goodwill | Interventional North America > (Dollars in thousands): $84,615
+Balance as of December 31, 2015 > Goodwill | Anesthesia North America > (Dollars in thousands): $225,653
+Balance as of December 31, 2015 > Goodwill | Surgical North America > (Dollars in thousands): $250,912
+Balance as of December 31, 2015 > Goodwill | EMEA > (Dollars in thousands): $306,009
+Balance as of December 31, 2015 > Goodwill | Asia > (Dollars in thousands): $141,067
+Balance as of December 31, 2015 > Goodwill | OEM > (Dollars in thousands): $1,194
+Balance as of December 31, 2015 > Goodwill | All other > (Dollars in thousands): $132,544
+Balance as of December 31, 2015 > Goodwill | Total > (Dollars in thousands): $1,627,980
+Balance as of December 31, 2015 > Accumulated impairment losses | Vascular North America > (Dollars in thousands): (219,527)
+Balance as of December 31, 2015 > Accumulated impairment losses | Interventional North America > (Dollars in thousands): (5,528)
+Balance as of December 31, 2015 > Accumulated impairment losses | Anesthesia North America > (Dollars in thousands): (84,531)
+Balance as of December 31, 2015 > Accumulated impairment losses | Surgical North America > (Dollars in thousands): —
+Balance as of December 31, 2015 > Accumulated impairment losses | EMEA > (Dollars in thousands): —
+Balance as of December 31, 2015 > Accumulated impairment losses | Asia > (Dollars in thousands): —
+Balance as of December 31, 2015 > Accumulated impairment losses | OEM > (Dollars in thousands): —
+Balance as of December 31, 2015 > Accumulated impairment losses | All other > (Dollars in thousands): (22,542)
+Balance as of December 31, 2015 > Accumulated impairment losses | Total > (Dollars in thousands): (332,128)
+Vascular North America > (Dollars in thousands): 266,459
+Interventional North America > (Dollars in thousands): 79,087
+Anesthesia North America > (Dollars in thousands): 141,122
+Surgical North America > (Dollars in thousands): 250,912
+EMEA > (Dollars in thousands): 306,009
+Asia > (Dollars in thousands): 141,067
+OEM > (Dollars in thousands): 1,194
+All other > (Dollars in thousands): 110,002
+Total > (Dollars in thousands): 1,295,852
+Balance as of December 31, 2015 > Goodwill related to acquisitions | Vascular North America > (Dollars in thousands): —
+Balance as of December 31, 2015 > Goodwill related to acquisitions | Interventional North America > (Dollars in thousands): —
+Balance as of December 31, 2015 > Goodwill related to acquisitions | Anesthesia North America > (Dollars in thousands): —
+Balance as of December 31, 2015 > Goodwill related to acquisitions | Surgical North America > (Dollars in thousands): —
+Balance as of December 31, 2015 > Goodwill related to acquisitions | EMEA > (Dollars in thousands): —
+Balance as of December 31, 2015 > Goodwill related to acquisitions | Asia > (Dollars in thousands): —
+Balance as of December 31, 2015 > Goodwill related to acquisitions | OEM > (Dollars in thousands): 3,689
+Balance as of December 31, 2015 > Goodwill related to acquisitions | All other > (Dollars in thousands): —
+Balance as of December 31, 2015 > Goodwill related to acquisitions | Total > (Dollars in thousands): 3,689
+Balance as of December 31, 2015 > Translation adjustment | Vascular North America > (Dollars in thousands): —
+Balance as of December 31, 2015 > Translation adjustment | Interventional North America > (Dollars in thousands): —
+Balance as of December 31, 2015 > Translation adjustment | Anesthesia North America > (Dollars in thousands): 131
+Balance as of December 31, 2015 > Translation adjustment | Surgical North America > (Dollars in thousands): —
+Balance as of December 31, 2015 > Translation adjustment | EMEA > (Dollars in thousands): (15,968)
+Balance as of December 31, 2015 > Translation adjustment | Asia > (Dollars in thousands): (2,882)
+Balance as of December 31, 2015 > Translation adjustment | OEM > (Dollars in thousands): —
+Balance as of December 31, 2015 > Translation adjustment | All other > (Dollars in thousands): (4,102)
+Balance as of December 31, 2015 > Translation adjustment | Total > (Dollars in thousands): (22,821)
+Balance as of December 31, 2015 > Balance as of December 31, 2016 | Vascular North America > (Dollars in thousands): $266,459
+Balance as of December 31, 2015 > Balance as of December 31, 2016 | Interventional North America > (Dollars in thousands): $79,087
+Balance as of December 31, 2015 > Balance as of December 31, 2016 | Anesthesia North America > (Dollars in thousands): $141,253
+Balance as of December 31, 2015 > Balance as of December 31, 2016 | Surgical North America > (Dollars in thousands): $250,912
+Balance as of December 31, 2015 > Balance as of December 31, 2016 | EMEA > (Dollars in thousands): $290,041
+Balance as of December 31, 2015 > Balance as of December 31, 2016 | Asia > (Dollars in thousands): $138,185
+Balance as of December 31, 2015 > Balance as of December 31, 2016 | OEM > (Dollars in thousands): $4,883
+Balance as of December 31, 2015 > Balance as of December 31, 2016 | All other > (Dollars in thousands): $105,900
+Balance as of December 31, 2015 > Balance as of December 31, 2016 | Total > (Dollars in thousands): $1,276,720
+Balance as of December 31, 2015 > Goodwill related to acquisitions | Vascular North America > (Dollars in thousands): —
+Balance as of December 31, 2015 > Goodwill related to acquisitions | Interventional North America > (Dollars in thousands): 342,901
+Balance as of December 31, 2015 > Goodwill related to acquisitions | Anesthesia North America > (Dollars in thousands): 15,599
+Balance as of December 31, 2015 > Goodwill related to acquisitions | Surgical North America > (Dollars in thousands): —
+Balance as of December 31, 2015 > Goodwill related to acquisitions | EMEA > (Dollars in thousands): 161,543
+Balance as of December 31, 2015 > Goodwill related to acquisitions | Asia > (Dollars in thousands): 59,954
+Balance as of December 31, 2015 > Goodwill related to acquisitions | OEM > (Dollars in thousands): —
+Balance as of December 31, 2015 > Goodwill related to acquisitions | All other > (Dollars in thousands): 313,714
+Balance as of December 31, 2015 > Goodwill related to acquisitions | Total > (Dollars in thousands): 893,711
+Balance as of December 31, 2015 > Translation and other adjustments | Vascular North America > (Dollars in thousands): (1,590)
+Balance as of December 31, 2015 > Translation and other adjustments | Interventional North America > (Dollars in thousands): 11,061
+Balance as of December 31, 2015 > Translation and other adjustments | Anesthesia North America > (Dollars in thousands): 437
+Balance as of December 31, 2015 > Translation and other adjustments | Surgical North America > (Dollars in thousands): —
+Balance as of December 31, 2015 > Translation and other adjustments | EMEA > (Dollars in thousands): 42,964
+Balance as of December 31, 2015 > Translation and other adjustments | Asia > (Dollars in thousands): 11,061
+Balance as of December 31, 2015 > Translation and other adjustments | OEM > (Dollars in thousands): —
+Balance as of December 31, 2015 > Translation and other adjustments | All other > (Dollars in thousands): 1,228
+Balance as of December 31, 2015 > Translation and other adjustments | Total > (Dollars in thousands): 65,161
+Balance as of December 31, 2015 > Balance as of December 31, 2017 | Vascular North America > (Dollars in thousands): $264,869
+Balance as of December 31, 2015 > Balance as of December 31, 2017 | Interventional North America > (Dollars in thousands): $433,049
+Balance as of December 31, 2015 > Balance as of December 31, 2017 | Anesthesia North America > (Dollars in thousands): $157,289
+Balance as of December 31, 2015 > Balance as of December 31, 2017 | Surgical North America > (Dollars in thousands): $250,912
+Balance as of December 31, 2015 > Balance as of December 31, 2017 | EMEA > (Dollars in thousands): $494,548
+Balance as of December 31, 2015 > Balance as of December 31, 2017 | Asia > (Dollars in thousands): $209,200
+Balance as of December 31, 2015 > Balance as of December 31, 2017 | OEM > (Dollars in thousands): $4,883
+Balance as of December 31, 2015 > Balance as of December 31, 2017 | All other > (Dollars in thousands): $420,842
+Balance as of December 31, 2015 > Balance as of December 31, 2017 | Total > (Dollars in thousands): $2,235,592

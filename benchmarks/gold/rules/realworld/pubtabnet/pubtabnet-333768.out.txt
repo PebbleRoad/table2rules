@@ -1,0 +1,98 @@
+Caucasian > Hungarian (Szantai et al., 2005) | Allele frequency (%) > 2N: 1196
+Caucasian > Hungarian (Szantai et al., 2005) | Allele frequency (%) > C: 46.5
+Caucasian > Hungarian (Szantai et al., 2005) | Allele frequency (%) > T: 53.5
+Caucasian > Hungarian (Szantai et al., 2005) | Genotype frequency (%) > N: 598
+Caucasian > Hungarian (Szantai et al., 2005) | Genotype frequency (%) > CC: 21.4
+Caucasian > Hungarian (Szantai et al., 2005) | Genotype frequency (%) > CT: 50.0
+Caucasian > Hungarian (Szantai et al., 2005) | Genotype frequency (%) > TT: 28.6
+European-mixed (Barr et al., 2001) | Allele frequency (%) > 2N: 308
+European-mixed (Barr et al., 2001) | Allele frequency (%) > C: 45.8
+European-mixed (Barr et al., 2001) | Allele frequency (%) > T: 54.2
+European-mixed (Barr et al., 2001) | Genotype frequency (%) > N: 154
+German (Strobel et al., 2003) | Allele frequency (%) > 2N: 230
+German (Strobel et al., 2003) | Allele frequency (%) > C: 40.0
+German (Strobel et al., 2003) | Allele frequency (%) > T: 60.0
+German (Strobel et al., 2003) | Genotype frequency (%) > N: 115
+German (Strobel et al., 2003) | Genotype frequency (%) > CC: 20.9
+German (Strobel et al., 2003) | Genotype frequency (%) > CT: 38.3
+German (Strobel et al., 2003) | Genotype frequency (%) > TT: 40.8
+Swedish (Jönsson et al., 2001) | Allele frequency (%) > 2N: 776
+Swedish (Jönsson et al., 2001) | Allele frequency (%) > C: 42.0
+Swedish (Jönsson et al., 2001) | Allele frequency (%) > T: 58.0
+Swedish (Jönsson et al., 2001) | Genotype frequency (%) > N: 388
+Swedish (Jönsson et al., 2001) | Genotype frequency (%) > CC: 15.0
+Swedish (Jönsson et al., 2001) | Genotype frequency (%) > CT: 54.0
+Swedish (Jönsson et al., 2001) | Genotype frequency (%) > TT: 31.0
+mean | Allele frequency (%) > C: 44.4
+mean | Allele frequency (%) > T: 55.6
+mean | Genotype frequency (%) > CC: 19.1
+mean | Genotype frequency (%) > CT: 50.2
+mean | Genotype frequency (%) > TT: 30.7
+Standard deviation | Allele frequency (%) > C: 2.4
+Standard deviation | Allele frequency (%) > T: 2.4
+Standard deviation | Genotype frequency (%) > CC: 3.0
+Standard deviation | Genotype frequency (%) > CT: 4.5
+Standard deviation | Genotype frequency (%) > TT: 3.6
+Asian > Japanese (Okuyama et al., 1999) | Allele frequency (%) > 2N: 538
+Asian > Japanese (Okuyama et al., 1999) | Allele frequency (%) > C: 41.0
+Asian > Japanese (Okuyama et al., 1999) | Allele frequency (%) > T: 59.0
+Asian > Japanese (Okuyama et al., 1999) | Genotype frequency (%) > N: 269
+Asian > Japanese (Okuyama et al., 1999) | Genotype frequency (%) > CC: 14.0
+Asian > Japanese (Okuyama et al., 1999) | Genotype frequency (%) > CT: 53.0
+Asian > Japanese (Okuyama et al., 1999) | Genotype frequency (%) > TT: 33.0
+Japanese (Ishiguro et al., 2000) | Allele frequency (%) > 2N: 538
+Japanese (Ishiguro et al., 2000) | Allele frequency (%) > C: 41.0
+Japanese (Ishiguro et al., 2000) | Allele frequency (%) > T: 60.0
+Japanese (Ishiguro et al., 2000) | Genotype frequency (%) > N: 269
+Japanese (Ishiguro et al., 2000) | Genotype frequency (%) > CC: 14.0
+Japanese (Ishiguro et al., 2000) | Genotype frequency (%) > CT: 53.0
+Japanese (Ishiguro et al., 2000) | Genotype frequency (%) > TT: 33.0
+Japanese (Mitsuyasu et al., 1999) | Allele frequency (%) > 2N: 294
+Japanese (Mitsuyasu et al., 1999) | Allele frequency (%) > C: 41.0
+Japanese (Mitsuyasu et al., 1999) | Allele frequency (%) > T: 59.0
+Japanese (Mitsuyasu et al., 1999) | Genotype frequency (%) > N: 147
+Japanese (Mitsuyasu et al., 1999) | Genotype frequency (%) > CC: 17.9
+Japanese (Mitsuyasu et al., 1999) | Genotype frequency (%) > CT: 46.3
+Japanese (Mitsuyasu et al., 1999) | Genotype frequency (%) > TT: 35.8
+Japanese (Okuyama et al., 2000) | Allele frequency (%) > 2N: 172
+Japanese (Okuyama et al., 2000) | Allele frequency (%) > C: 53.5
+Japanese (Okuyama et al., 2000) | Allele frequency (%) > T: 46.5
+Japanese (Okuyama et al., 2000) | Genotype frequency (%) > N: 86
+Japanese (Okuyama et al., 2000) | Genotype frequency (%) > CC: 32.5
+Japanese (Okuyama et al., 2000) | Genotype frequency (%) > CT: 41.9
+Japanese (Okuyama et al., 2000) | Genotype frequency (%) > TT: 25.6
+Chinese (Xing et al., 2003) | Allele frequency (%) > 2N: 412
+Chinese (Xing et al., 2003) | Allele frequency (%) > C: 39.1
+Chinese (Xing et al., 2003) | Allele frequency (%) > T: 60.9
+Chinese (Xing et al., 2003) | Genotype frequency (%) > N: 206
+Chinese (Xing et al., 2003) | Genotype frequency (%) > CC: 12.1
+Chinese (Xing et al., 2003) | Genotype frequency (%) > CT: 53.9
+Chinese (Xing et al., 2003) | Genotype frequency (%) > TT: 34.0
+Chinese (Li et al., 2000) | Allele frequency (%) > 2N: 422
+Chinese (Li et al., 2000) | Allele frequency (%) > C: 40.3
+Chinese (Li et al., 2000) | Allele frequency (%) > T: 59.7
+Chinese (Li et al., 2000) | Genotype frequency (%) > N: 211
+Chinese (Li et al., 2000) | Genotype frequency (%) > CC: 27.5
+Chinese (Li et al., 2000) | Genotype frequency (%) > CT: 25.6
+Chinese (Li et al., 2000) | Genotype frequency (%) > TT: 46.9
+Korean (Lee et al., 2003) | Allele frequency (%) > 2N: 202
+Korean (Lee et al., 2003) | Allele frequency (%) > C: 46.0
+Korean (Lee et al., 2003) | Allele frequency (%) > T: 54.0
+Korean (Lee et al., 2003) | Genotype frequency (%) > N: 101
+mean | Allele frequency (%) > C: 41.8
+mean | Allele frequency (%) > T: 58.4
+mean | Genotype frequency (%) > CC: 17.9
+mean | Genotype frequency (%) > CT: 46.7
+mean | Genotype frequency (%) > TT: 35.5
+Standard deviation | Allele frequency (%) > C: 3.5
+Standard deviation | Allele frequency (%) > T: 3.6
+Standard deviation | Genotype frequency (%) > CC: 6.7
+Standard deviation | Genotype frequency (%) > CT: 10.4
+Standard deviation | Genotype frequency (%) > TT: 5.8
+American > Afro-American (Bookman et al., 2002) | Allele frequency (%) > 2N: 142
+American > Afro-American (Bookman et al., 2002) | Allele frequency (%) > C: 55.0
+American > Afro-American (Bookman et al., 2002) | Allele frequency (%) > T: 45.0
+American > Afro-American (Bookman et al., 2002) | Genotype frequency (%) > N: 71
+American > Afro-American (Bookman et al., 2002) | Genotype frequency (%) > CC: 32.0
+American > Afro-American (Bookman et al., 2002) | Genotype frequency (%) > CT: 42.0
+American > Afro-American (Bookman et al., 2002) | Genotype frequency (%) > TT: 26.0

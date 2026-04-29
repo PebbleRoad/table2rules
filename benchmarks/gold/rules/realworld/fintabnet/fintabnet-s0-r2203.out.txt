@@ -1,0 +1,68 @@
+Derivatives designated as hedging contracts > Natural gas and crude derivative contracts | Balance sheet location: Other current assets/(Other current liabilities)
+Derivatives designated as hedging contracts > Natural gas and crude derivative contracts | Asset derivatives December 31, > 2014 > Fair value: $309
+Derivatives designated as hedging contracts > Natural gas and crude derivative contracts | Asset derivatives December 31, > 2013 > Fair value: $18
+Derivatives designated as hedging contracts > Natural gas and crude derivative contracts | Liability derivatives December 31, > 2014 > Fair value: $(34)
+Derivatives designated as hedging contracts > Natural gas and crude derivative contracts | Liability derivatives December 31, > 2013 > Fair value: $(33)
+Balance sheet location: Deferred charges and other assets/(Other long-term liabilities and deferred credits)
+Asset derivatives December 31, > 2014 > Fair value: 6
+Asset derivatives December 31, > 2013 > Fair value: 58
+Liability derivatives December 31, > 2014 > Fair value: —
+Liability derivatives December 31, > 2013 > Fair value: (30)
+Derivatives designated as hedging contracts > Subtotal | Asset derivatives December 31, > 2014 > Fair value: 315
+Derivatives designated as hedging contracts > Subtotal | Asset derivatives December 31, > 2013 > Fair value: 76
+Derivatives designated as hedging contracts > Subtotal | Liability derivatives December 31, > 2014 > Fair value: (34)
+Derivatives designated as hedging contracts > Subtotal | Liability derivatives December 31, > 2013 > Fair value: (63)
+Derivatives designated as hedging contracts > Interest rate swap agreements | Balance sheet location: Other current assets/(Other current liabilities)
+Derivatives designated as hedging contracts > Interest rate swap agreements | Asset derivatives December 31, > 2014 > Fair value: 143
+Derivatives designated as hedging contracts > Interest rate swap agreements | Asset derivatives December 31, > 2013 > Fair value: 87
+Derivatives designated as hedging contracts > Interest rate swap agreements | Liability derivatives December 31, > 2014 > Fair value: —
+Derivatives designated as hedging contracts > Interest rate swap agreements | Liability derivatives December 31, > 2013 > Fair value: —
+Balance sheet location: Deferred charges and other assets/(Other long-term liabilities and deferred credits)
+Asset derivatives December 31, > 2014 > Fair value: 260
+Asset derivatives December 31, > 2013 > Fair value: 172
+Liability derivatives December 31, > 2014 > Fair value: (53)
+Liability derivatives December 31, > 2013 > Fair value: (116)
+Derivatives designated as hedging contracts > Subtotal | Asset derivatives December 31, > 2014 > Fair value: 403
+Derivatives designated as hedging contracts > Subtotal | Asset derivatives December 31, > 2013 > Fair value: 259
+Derivatives designated as hedging contracts > Subtotal | Liability derivatives December 31, > 2014 > Fair value: (53)
+Derivatives designated as hedging contracts > Subtotal | Liability derivatives December 31, > 2013 > Fair value: (116)
+Derivatives designated as hedging contracts > Total | Asset derivatives December 31, > 2014 > Fair value: 718
+Derivatives designated as hedging contracts > Total | Asset derivatives December 31, > 2013 > Fair value: 335
+Derivatives designated as hedging contracts > Total | Liability derivatives December 31, > 2014 > Fair value: (87)
+Derivatives designated as hedging contracts > Total | Liability derivatives December 31, > 2013 > Fair value: (179)
+Derivatives not designated as hedging contracts > Natural gas, crude and NGL derivative contracts | Balance sheet location: Other current assets/(Other current liabilities)
+Derivatives not designated as hedging contracts > Natural gas, crude and NGL derivative contracts | Asset derivatives December 31, > 2014 > Fair value: 73
+Derivatives not designated as hedging contracts > Natural gas, crude and NGL derivative contracts | Asset derivatives December 31, > 2013 > Fair value: 4
+Derivatives not designated as hedging contracts > Natural gas, crude and NGL derivative contracts | Liability derivatives December 31, > 2014 > Fair value: (2)
+Derivatives not designated as hedging contracts > Natural gas, crude and NGL derivative contracts | Liability derivatives December 31, > 2013 > Fair value: (5)
+Balance sheet location: Deferred charges and other assets/(Other long-term liabilities and deferred credits)
+Asset derivatives December 31, > 2014 > Fair value: 196
+Asset derivatives December 31, > 2013 > Fair value: —
+Liability derivatives December 31, > 2014 > Fair value: —
+Liability derivatives December 31, > 2013 > Fair value: —
+Derivatives not designated as hedging contracts > Subtotal | Asset derivatives December 31, > 2014 > Fair value: 269
+Derivatives not designated as hedging contracts > Subtotal | Asset derivatives December 31, > 2013 > Fair value: 4
+Derivatives not designated as hedging contracts > Subtotal | Liability derivatives December 31, > 2014 > Fair value: (2)
+Derivatives not designated as hedging contracts > Subtotal | Liability derivatives December 31, > 2013 > Fair value: (5)
+Derivatives not designated as hedging contracts > Power derivative contracts | Balance sheet location: Other current assets/(Other current liabilities)
+Derivatives not designated as hedging contracts > Power derivative contracts | Asset derivatives December 31, > 2014 > Fair value: 10
+Derivatives not designated as hedging contracts > Power derivative contracts | Asset derivatives December 31, > 2013 > Fair value: 7
+Derivatives not designated as hedging contracts > Power derivative contracts | Liability derivatives December 31, > 2014 > Fair value: (57)
+Derivatives not designated as hedging contracts > Power derivative contracts | Liability derivatives December 31, > 2013 > Fair value: (54)
+Balance sheet location: Deferred charges and other assets/(Other long-term liabilities and deferred credits)
+Asset derivatives December 31, > 2014 > Fair value: —
+Asset derivatives December 31, > 2013 > Fair value: 11
+Liability derivatives December 31, > 2014 > Fair value: (16)
+Liability derivatives December 31, > 2013 > Fair value: (73)
+Derivatives not designated as hedging contracts > Subtotal | Asset derivatives December 31, > 2014 > Fair value: 10
+Derivatives not designated as hedging contracts > Subtotal | Asset derivatives December 31, > 2013 > Fair value: 18
+Derivatives not designated as hedging contracts > Subtotal | Liability derivatives December 31, > 2014 > Fair value: (73)
+Derivatives not designated as hedging contracts > Subtotal | Liability derivatives December 31, > 2013 > Fair value: (127)
+Derivatives not designated as hedging contracts > Total | Asset derivatives December 31, > 2014 > Fair value: 279
+Derivatives not designated as hedging contracts > Total | Asset derivatives December 31, > 2013 > Fair value: 22
+Derivatives not designated as hedging contracts > Total | Liability derivatives December 31, > 2014 > Fair value: (75)
+Derivatives not designated as hedging contracts > Total | Liability derivatives December 31, > 2013 > Fair value: (132)
+Derivatives not designated as hedging contracts > Total derivatives | Asset derivatives December 31, > 2014 > Fair value: $997
+Derivatives not designated as hedging contracts > Total derivatives | Asset derivatives December 31, > 2013 > Fair value: $357
+Derivatives not designated as hedging contracts > Total derivatives | Liability derivatives December 31, > 2014 > Fair value: $(162)
+Derivatives not designated as hedging contracts > Total derivatives | Liability derivatives December 31, > 2013 > Fair value: $(311)

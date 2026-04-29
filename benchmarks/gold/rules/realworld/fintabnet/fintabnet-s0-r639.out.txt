@@ -1,0 +1,36 @@
+(in millions) > Total | Payments Due: 2018
+(in millions) > Total | Payments Due: 2019-2020
+(in millions) > Total | Payments Due: 2021-2022
+(in millions) > Total | Payments Due: 2023 andThereafter
+Long-term debt (1) > $34,120 | Payments Due: $2,506
+Long-term debt (1) > $34,120 | Payments Due: $8,221
+Long-term debt (1) > $34,120 | Payments Due: $5,811
+Long-term debt (1) > $34,120 | Payments Due: $17,582
+Interest on borrowings (2) > 11,131 | Payments Due: 981
+Interest on borrowings (2) > 11,131 | Payments Due: 1,656
+Interest on borrowings (2) > 11,131 | Payments Due: 1,372
+Interest on borrowings (2) > 11,131 | Payments Due: 7,122
+Operating leases (3) > 849 | Payments Due: 179
+Operating leases (3) > 849 | Payments Due: 219
+Operating leases (3) > 849 | Payments Due: 95
+Operating leases (3) > 849 | Payments Due: 356
+Purchase obligations (4) : > Inventory and production costs > 5,040 | Payments Due: 2,696
+Purchase obligations (4) : > Inventory and production costs > 5,040 | Payments Due: 1,255
+Purchase obligations (4) : > Inventory and production costs > 5,040 | Payments Due: 687
+Purchase obligations (4) : > Inventory and production costs > 5,040 | Payments Due: 402
+Purchase obligations (4) : > Other > 2,230 | Payments Due: 1,437
+Purchase obligations (4) : > Other > 2,230 | Payments Due: 588
+Purchase obligations (4) : > Other > 2,230 | Payments Due: 194
+Purchase obligations (4) : > Other > 2,230 | Payments Due: 11
+7,270 | Payments Due: 4,133
+7,270 | Payments Due: 1,843
+7,270 | Payments Due: 881
+7,270 | Payments Due: 413
+Purchase obligations (4) : > Other long-term liabilities (5) > 468 | Payments Due: 58
+Purchase obligations (4) : > Other long-term liabilities (5) > 468 | Payments Due: 60
+Purchase obligations (4) : > Other long-term liabilities (5) > 468 | Payments Due: 42
+Purchase obligations (4) : > Other long-term liabilities (5) > 468 | Payments Due: 308
+$53,838 | Payments Due: $7,857
+$53,838 | Payments Due: $11,999
+$53,838 | Payments Due: $8,201
+$53,838 | Payments Due: $25,781

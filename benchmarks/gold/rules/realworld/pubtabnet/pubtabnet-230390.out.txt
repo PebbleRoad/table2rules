@@ -1,0 +1,51 @@
+Mutation rates*: Can r × 10 -7
+Mutation rates*: Ade + × 10 -8
+Mutation rates*: Trp + × 10 -8
+Mutation rates*: Ura+ × 10 -8
+Mutation rates*: His + × 10 -8
+Strain: wild-type
+Plasmid: vector
+Mutation rates*: 2.5
+Mutation rates*: 24
+Mutation rates*: 4.1
+Mutation rates*: 4.0
+Mutation rates*: 2.4
+Mutation rates*: 1.2–6.5
+Mutation rates*: 21–34
+Mutation rates*: 1.3–14
+Mutation rates*: 2.2–6.6
+Mutation rates*: 1.9–2.9
+Plasmid: hAIDSc
+Mutation rates*: 19
+Mutation rates*: 72
+Mutation rates*: 24
+Mutation rates*: 4.0
+Mutation rates*: 2.3
+Mutation rates*: 14–25
+Mutation rates*: 60–124
+Mutation rates*: 21–38
+Mutation rates*: 2.8–7.8
+Mutation rates*: 1.1–4.2
+Strain: ung1::hygB
+Plasmid: vector
+Mutation rates*: 13
+Mutation rates*: 210
+Mutation rates*: 134
+Mutation rates*: 23
+Mutation rates*: 3.0
+Mutation rates*: 10–31
+Mutation rates*: 190–290
+Mutation rates*: 110–170
+Mutation rates*: 20–35
+Mutation rates*: 1.9–4.5
+Plasmid: hAIDSc
+Mutation rates*: 205
+Mutation rates*: 9700
+Mutation rates*: 5300
+Mutation rates*: 52
+Mutation rates*: 4.0
+Mutation rates*: 170–220
+Mutation rates*: 7500–12600
+Mutation rates*: 4400–6600
+Mutation rates*: 43–77
+Mutation rates*: 2–-7.1

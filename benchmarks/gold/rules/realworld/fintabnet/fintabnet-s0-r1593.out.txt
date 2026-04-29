@@ -1,0 +1,60 @@
+Defined benefit plans: > Service cost | Pension Benefits > 2014: $3
+Defined benefit plans: > Service cost | Pension Benefits > 2013: $3
+Defined benefit plans: > Service cost | Pension Benefits > 2012: $341
+Defined benefit plans: > Service cost | Retiree Medical and Other Benefits > 2014: $1
+Defined benefit plans: > Service cost | Retiree Medical and Other Benefits > 2013: $—
+Defined benefit plans: > Service cost | Retiree Medical and Other Benefits > 2012: $46
+Defined benefit plans: > Interest cost | Pension Benefits > 2014: 746
+Defined benefit plans: > Interest cost | Pension Benefits > 2013: 654
+Defined benefit plans: > Interest cost | Pension Benefits > 2012: 729
+Defined benefit plans: > Interest cost | Retiree Medical and Other Benefits > 2014: 61
+Defined benefit plans: > Interest cost | Retiree Medical and Other Benefits > 2013: 50
+Defined benefit plans: > Interest cost | Retiree Medical and Other Benefits > 2012: 128
+Defined benefit plans: > Expected return on assets | Pension Benefits > 2014: (786)
+Defined benefit plans: > Expected return on assets | Pension Benefits > 2013: (720)
+Defined benefit plans: > Expected return on assets | Pension Benefits > 2012: (676)
+Defined benefit plans: > Expected return on assets | Retiree Medical and Other Benefits > 2014: (19)
+Defined benefit plans: > Expected return on assets | Retiree Medical and Other Benefits > 2013: (16)
+Defined benefit plans: > Expected return on assets | Retiree Medical and Other Benefits > 2012: (17)
+Defined benefit plans: > Curtailments | Pension Benefits > 2014: —
+Defined benefit plans: > Curtailments | Pension Benefits > 2013: 2
+Defined benefit plans: > Curtailments | Pension Benefits > 2012: 58
+Defined benefit plans: > Curtailments | Retiree Medical and Other Benefits > 2014: —
+Defined benefit plans: > Curtailments | Retiree Medical and Other Benefits > 2013: —
+Defined benefit plans: > Curtailments | Retiree Medical and Other Benefits > 2012: (124)
+Defined benefit plans: > Settlements | Pension Benefits > 2014: 4
+Defined benefit plans: > Settlements | Pension Benefits > 2013: (1)
+Defined benefit plans: > Settlements | Pension Benefits > 2012: —
+Defined benefit plans: > Settlements | Retiree Medical and Other Benefits > 2014: —
+Defined benefit plans: > Settlements | Retiree Medical and Other Benefits > 2013: —
+Defined benefit plans: > Settlements | Retiree Medical and Other Benefits > 2012: —
+Amortization of: > Prior service cost (1) | Pension Benefits > 2014: 28
+Amortization of: > Prior service cost (1) | Pension Benefits > 2013: 28
+Amortization of: > Prior service cost (1) | Pension Benefits > 2012: 10
+Amortization of: > Prior service cost (1) | Retiree Medical and Other Benefits > 2014: (244)
+Amortization of: > Prior service cost (1) | Retiree Medical and Other Benefits > 2013: (251)
+Amortization of: > Prior service cost (1) | Retiree Medical and Other Benefits > 2012: (82)
+Amortization of: > Unrecognized net loss (gain) | Pension Benefits > 2014: 43
+Amortization of: > Unrecognized net loss (gain) | Pension Benefits > 2013: 90
+Amortization of: > Unrecognized net loss (gain) | Pension Benefits > 2012: 211
+Amortization of: > Unrecognized net loss (gain) | Retiree Medical and Other Benefits > 2014: (8)
+Amortization of: > Unrecognized net loss (gain) | Retiree Medical and Other Benefits > 2013: (9)
+Amortization of: > Unrecognized net loss (gain) | Retiree Medical and Other Benefits > 2012: (9)
+Amortization of: > Net periodic benefit cost for defined benefit plans | Pension Benefits > 2014: 38
+Amortization of: > Net periodic benefit cost for defined benefit plans | Pension Benefits > 2013: 56
+Amortization of: > Net periodic benefit cost for defined benefit plans | Pension Benefits > 2012: 673
+Amortization of: > Net periodic benefit cost for defined benefit plans | Retiree Medical and Other Benefits > 2014: (209)
+Amortization of: > Net periodic benefit cost for defined benefit plans | Retiree Medical and Other Benefits > 2013: (226)
+Amortization of: > Net periodic benefit cost for defined benefit plans | Retiree Medical and Other Benefits > 2012: (58)
+Amortization of: > Defined contribution plans | Pension Benefits > 2014: 546
+Amortization of: > Defined contribution plans | Pension Benefits > 2013: 328
+Amortization of: > Defined contribution plans | Pension Benefits > 2012: 218
+Amortization of: > Defined contribution plans | Retiree Medical and Other Benefits > 2014: N/A
+Amortization of: > Defined contribution plans | Retiree Medical and Other Benefits > 2013: N/A
+Amortization of: > Defined contribution plans | Retiree Medical and Other Benefits > 2012: N/A
+Pension Benefits > 2014: $584
+Pension Benefits > 2013: $384
+Pension Benefits > 2012: $891
+Retiree Medical and Other Benefits > 2014: $(209)
+Retiree Medical and Other Benefits > 2013: $(226)
+Retiree Medical and Other Benefits > 2012: $(58)

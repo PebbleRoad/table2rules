@@ -1,0 +1,56 @@
+(Millions) | Net Sales: 2015
+(Millions) | Net Sales: 2014
+(Millions) | Net Sales: 2013
+(Millions) | Operating Income: 2015
+(Millions) | Operating Income: 2014
+(Millions) | Operating Income: 2013
+(Millions) | Property, Plant and Equipment - net: 2015
+(Millions) | Property, Plant and Equipment - net: 2014
+United States | Net Sales: $12,049
+United States | Net Sales: $11,714
+United States | Net Sales: $11,151
+United States | Operating Income: $2,647
+United States | Operating Income: $2,540
+United States | Operating Income: $2,210
+United States | Property, Plant and Equipment - net: $4,838
+United States | Property, Plant and Equipment - net: $4,619
+Asia Pacific | Net Sales: 9,041
+Asia Pacific | Net Sales: 9,418
+Asia Pacific | Net Sales: 9,047
+Asia Pacific | Operating Income: 2,580
+Asia Pacific | Operating Income: 2,487
+Asia Pacific | Operating Income: 2,386
+Asia Pacific | Property, Plant and Equipment - net: 1,647
+Asia Pacific | Property, Plant and Equipment - net: 1,798
+Europe, Middle East and Africa | Net Sales: 6,228
+Europe, Middle East and Africa | Net Sales: 7,198
+Europe, Middle East and Africa | Net Sales: 7,085
+Europe, Middle East and Africa | Operating Income: 1,017
+Europe, Middle East and Africa | Operating Income: 1,234
+Europe, Middle East and Africa | Operating Income: 1,168
+Europe, Middle East and Africa | Property, Plant and Equipment - net: 1,531
+Europe, Middle East and Africa | Property, Plant and Equipment - net: 1,502
+Latin America and Canada | Net Sales: 2,982
+Latin America and Canada | Net Sales: 3,504
+Latin America and Canada | Net Sales: 3,611
+Latin America and Canada | Operating Income: 706
+Latin America and Canada | Operating Income: 867
+Latin America and Canada | Operating Income: 908
+Latin America and Canada | Property, Plant and Equipment - net: 499
+Latin America and Canada | Property, Plant and Equipment - net: 570
+Other Unallocated | Net Sales: (26)
+Other Unallocated | Net Sales: (13)
+Other Unallocated | Net Sales: (23)
+Other Unallocated | Operating Income: (4)
+Other Unallocated | Operating Income: 7
+Other Unallocated | Operating Income: (6)
+Other Unallocated | Property, Plant and Equipment - net: —
+Other Unallocated | Property, Plant and Equipment - net: —
+Total Company | Net Sales: $30,274
+Total Company | Net Sales: $31,821
+Total Company | Net Sales: $30,871
+Total Company | Operating Income: $6,946
+Total Company | Operating Income: $7,135
+Total Company | Operating Income: $6,666
+Total Company | Property, Plant and Equipment - net: $8,515
+Total Company | Property, Plant and Equipment - net: $8,489

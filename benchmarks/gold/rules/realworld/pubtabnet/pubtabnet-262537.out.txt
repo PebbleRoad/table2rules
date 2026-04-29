@@ -1,0 +1,48 @@
+Lornoxicam | Baseline: 25.2 ± 4.1
+Lornoxicam | Hours after the start of infusion > 24: 25.0 ± 3.9
+Lornoxicam | Hours after the start of infusion > 48: 25.9 ± 5.2
+Lornoxicam | Hours after the start of infusion > 72: 26.2 ± 3.7
+Placebo | Baseline: 26.3 ± 3.8
+Placebo | Hours after the start of infusion > 24: 26.7 ± 2.9
+Placebo | Hours after the start of infusion > 48: 27.0 ± 3.1
+Placebo | Hours after the start of infusion > 72: 26.9 ± 4.8
+Lornoxicam | Baseline: 192.9 ± 16.5
+Lornoxicam | Hours after the start of infusion > 24: 193.5 ± 15.0
+Lornoxicam | Hours after the start of infusion > 48: 178.1 ± 15.4
+Lornoxicam | Hours after the start of infusion > 72: 182.9 ± 15.6
+Placebo | Baseline: 188.5 ± 14.4
+Placebo | Hours after the start of infusion > 24: 190.8 ± 15.1
+Placebo | Hours after the start of infusion > 48: 188.7 ± 13.3
+Placebo | Hours after the start of infusion > 72: 190.5 ± 16.7
+Lornoxicam | Baseline: 14 ± 8.3
+Lornoxicam | Hours after the start of infusion > 24: 15.8 ± 8.3
+Lornoxicam | Hours after the start of infusion > 48: 16.0 ± 7.8
+Lornoxicam | Hours after the start of infusion > 72: 15.9 ± 6.2
+Placebo | Baseline: 13.5 ± 6.6
+Placebo | Hours after the start of infusion > 24: 14.7 ± 4.7
+Placebo | Hours after the start of infusion > 48: 15.7 ± 6.7
+Placebo | Hours after the start of infusion > 72: 14.8 ± 7.4
+Lornoxicam | Baseline: 0.89 ± 0.38
+Lornoxicam | Hours after the start of infusion > 24: 0.90 ± 0.45
+Lornoxicam | Hours after the start of infusion > 48: 0.93 ± 0.33
+Lornoxicam | Hours after the start of infusion > 72: 0.90 ± 0.34
+Placebo | Baseline: 0.90 ± 0.62
+Placebo | Hours after the start of infusion > 24: 0.91 ± 0.38
+Placebo | Hours after the start of infusion > 48: 0.92 ± 0.28
+Placebo | Hours after the start of infusion > 72: 0.91 ± 0.36
+Lornoxicam | Baseline: 35.4 ± 5.5
+Lornoxicam | Hours after the start of infusion > 24: 36.0 ± 10.8
+Lornoxicam | Hours after the start of infusion > 48: 35.1 ± 8.6
+Lornoxicam | Hours after the start of infusion > 72: 36.7 ± 8.4
+Placebo | Baseline: 35.4 ± 7.4
+Placebo | Hours after the start of infusion > 24: 35.5 ± 5.2
+Placebo | Hours after the start of infusion > 48: 36.2 ± 6.0
+Placebo | Hours after the start of infusion > 72: 37.4 ± 4.9
+Lornoxicam | Baseline: 1.13 ± 0.96
+Lornoxicam | Hours after the start of infusion > 24: 1.15 ± 0.85
+Lornoxicam | Hours after the start of infusion > 48: 1.2 ± 0.3
+Lornoxicam | Hours after the start of infusion > 72: 1.28 ± 0.8
+Placebo | Baseline: 1.01 ± 0.91
+Placebo | Hours after the start of infusion > 24: 1.1 ± 0.65
+Placebo | Hours after the start of infusion > 48: 1.08 ± 0.7
+Placebo | Hours after the start of infusion > 72: 1.1 ± 0.8

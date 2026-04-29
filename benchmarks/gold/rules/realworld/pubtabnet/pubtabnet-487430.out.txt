@@ -1,0 +1,88 @@
+Populations: NGT non obese adults (n = 865)
+Genotypes: P/P = 673
+Fasting insulin (UI/l): 6.28 ± 0.24
+Fasting glucose (mmol/l): 4.92 ± 0.02
+Body Mass Index (Kg/m 2 ): 23.61 ± 0.14
+Z score of BMI: -
+HOMA-IR: 1.39 ± 0.05
+HOMA-B: 92.99 ± 3.44
+Genotypes: P/A+AA = 192
+Fasting insulin (UI/l): 6.23 ± 0.31
+Fasting glucose (mmol/l): 4.94 ± 0.03
+Body Mass Index (Kg/m 2 ): 24.02 ± 0.26
+Z score of BMI: -
+HOMA-IR: 1.38 ± 0.07
+HOMA-B: 95.11 ± 7.19
+Genotypes: P-value
+Fasting insulin (UI/l): 0.92
+Fasting glucose (mmol/l): 0.65
+Body Mass Index (Kg/m 2 ): 0.16
+Z score of BMI: -
+HOMA-IR: 0.90
+HOMA-B: 0.78
+Populations: NGT non obese children (n = 362)
+Genotypes: P/P = 291
+Fasting insulin (UI/l): 5.39 ± 0.17
+Fasting glucose (mmol/l): 4.70 ± 0.21
+Body Mass Index (Kg/m 2 ): 18.12 ± 0.15
+Z score of BMI: - 0.24 ± 0.06
+HOMA-IR: 1.13 ± 0.04
+HOMA-B: 95.84 ± 3.47
+Genotypes: P/A+AA = 71
+Fasting insulin (UI/l): 6.21 ± 0.42
+Fasting glucose (mmol/l): 4.71 ± 0.04
+Body Mass Index (Kg/m 2 ): 18.19 ± 0.28
+Z score of BMI: - 0.27 ± 0.12
+HOMA-IR: 1.315 ± 0.09
+HOMA-B: 111.58 ± 9.62
+Genotypes: P-value
+Fasting insulin (UI/l): 0.06
+Fasting glucose (mmol/l): 0.67
+Body Mass Index (Kg/m 2 ): 0.84
+Z score of BMI: 0.84
+HOMA-IR: 0.06
+HOMA-B: 0.62
+Populations: NGT obese adults (n = 507)
+Genotypes: P/P = 397
+Fasting insulin (UI/l): 14.35 ± 0.60
+Fasting glucose (mmol/l): 5.30 ± 0.02
+Body Mass Index (Kg/m 2 ): 40.82 ± 0.42
+Z score of BMI: -
+HOMA-IR: 3.41 ± 0.15
+HOMA-B: 171.07 ± 7.60
+Genotypes: P/A+AA = 110
+Fasting insulin (UI/l): 11.93 ± 0.72
+Fasting glucose (mmol/l): 5.19 ± 0.05
+Body Mass Index (Kg/m 2 ): 40.08 ± 0.70
+Z score of BMI: -
+HOMA-IR: 2.75 ± 0.16
+HOMA-B: 165.89 ± 17.31
+Genotypes: P-value
+Fasting insulin (UI/l): 0.01
+Fasting glucose (mmol/l): 0.04
+Body Mass Index (Kg/m 2 ): 0.40
+Z score of BMI: -
+HOMA-IR: 0.003
+HOMA-B: 0.76
+Populations: NGT obese children (n = 525)
+Genotypes: P/P = 402
+Fasting insulin (UI/l): 12.00 ± 0.59
+Fasting glucose (mmol/l): 4.90 ± 0.22
+Body Mass Index (Kg/m 2 ): 27.92 ± 0.30
+Z score of BMI: 4.06 ± 0.06
+HOMA-IR: 2.659 ± 0.14
+HOMA-B: 178.71 ± 8.66
+Genotypes: P/A+AA = 123
+Fasting insulin (UI/l): 10.77 ± 0.74
+Fasting glucose (mmol/l): 4.89 ± 0.42
+Body Mass Index (Kg/m 2 ): 28.55 ± 0.62
+Z score of BMI: 4.20 ± 0.14
+HOMA-IR: 2.368 ± 0.16
+HOMA-B: 169.31 ± 16.48
+Genotypes: P-value
+Fasting insulin (UI/l): 0.18
+Fasting glucose (mmol/l): 0.61
+Body Mass Index (Kg/m 2 ): 0.33
+Z score of BMI: 0.37
+HOMA-IR: 0.18
+HOMA-B: 0.37

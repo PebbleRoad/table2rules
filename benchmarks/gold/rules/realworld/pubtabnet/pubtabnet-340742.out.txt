@@ -1,0 +1,32 @@
+Median age, years 2) | Interested > (n = 225) > (% = 11): 51
+Median age, years 2) | Want more information > (n = 163) > (% = 8): 53
+Median age, years 2) | Do not know > (n = 371) > (% = 19): 53*
+Median age, years 2) | Non-interested > (n = 553) > (% = 28): 56***
+Median age, years 2) | All respondents > (n = 1312) > (% = 66): 54
+Median age, years 2) | No reply > (n = 688) > (% = 34): 53*
+Lives in the capital, % | Interested > (n = 225) > (% = 11): 68
+Lives in the capital, % | Want more information > (n = 163) > (% = 8): 64
+Lives in the capital, % | Do not know > (n = 371) > (% = 19): 67
+Lives in the capital, % | Non-interested > (n = 553) > (% = 28): 62
+Lives in the capital, % | All respondents > (n = 1312) > (% = 66): 65
+Lives in the capital, % | No reply > (n = 688) > (% = 34): 76 3)
+Married or cohabiting, % | Interested > (n = 225) > (% = 11): 62
+Married or cohabiting, % | Want more information > (n = 163) > (% = 8): 64
+Married or cohabiting, % | Do not know > (n = 371) > (% = 19): 63
+Married or cohabiting, % | Non-interested > (n = 553) > (% = 28): 58
+Married or cohabiting, % | All respondents > (n = 1312) > (% = 66): 61
+≥ 12 years of education, % | Interested > (n = 225) > (% = 11): 64
+≥ 12 years of education, % | Want more information > (n = 163) > (% = 8): 62
+≥ 12 years of education, % | Do not know > (n = 371) > (% = 19): 60
+≥ 12 years of education, % | Non-interested > (n = 553) > (% = 28): 61
+≥ 12 years of education, % | All respondents > (n = 1312) > (% = 66): 61
+In employment, % | Interested > (n = 225) > (% = 11): 78
+In employment, % | Want more information > (n = 163) > (% = 8): 72
+In employment, % | Do not know > (n = 371) > (% = 19): 73
+In employment, % | Non-interested > (n = 553) > (% = 28): 67
+In employment, % | All respondents > (n = 1312) > (% = 66): 70
+Given birth, % | Interested > (n = 225) > (% = 11): 92
+Given birth, % | Want more information > (n = 163) > (% = 8): 92
+Given birth, % | Do not know > (n = 371) > (% = 19): 89
+Given birth, % | Non-interested > (n = 553) > (% = 28): 85 4)
+Given birth, % | All respondents > (n = 1312) > (% = 66): 87

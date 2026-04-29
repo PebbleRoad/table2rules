@@ -1,0 +1,60 @@
+North American Full-Service | Managed > Properties: 423
+North American Full-Service | Managed > Rooms: 187,814
+North American Full-Service | Franchised/Licensed > Properties: 670
+North American Full-Service | Franchised/Licensed > Rooms: 195,196
+North American Full-Service | Owned/Leased > Properties: 10
+North American Full-Service | Owned/Leased > Rooms: 5,235
+North American Full-Service | Other (1) > Properties: —
+North American Full-Service | Other (1) > Rooms: —
+North American Full-Service | Total > Properties: 1,103
+North American Full-Service | Total > Rooms: 388,245
+North American Limited-Service | Managed > Properties: 404
+North American Limited-Service | Managed > Rooms: 63,807
+North American Limited-Service | Franchised/Licensed > Properties: 3,211
+North American Limited-Service | Franchised/Licensed > Rooms: 369,347
+North American Limited-Service | Owned/Leased > Properties: 20
+North American Limited-Service | Owned/Leased > Rooms: 3,006
+North American Limited-Service | Other (1) > Properties: 31
+North American Limited-Service | Other (1) > Rooms: 5,288
+North American Limited-Service | Total > Properties: 3,666
+North American Limited-Service | Total > Rooms: 441,448
+Asia Pacific | Managed > Properties: 545
+Asia Pacific | Managed > Rooms: 163,437
+Asia Pacific | Franchised/Licensed > Properties: 92
+Asia Pacific | Franchised/Licensed > Rooms: 25,802
+Asia Pacific | Owned/Leased > Properties: 4
+Asia Pacific | Owned/Leased > Rooms: 953
+Asia Pacific | Other (1) > Properties: —
+Asia Pacific | Other (1) > Rooms: —
+Asia Pacific | Total > Properties: 641
+Asia Pacific | Total > Rooms: 190,192
+Other International | Managed > Properties: 520
+Other International | Managed > Rooms: 121,315
+Other International | Franchised/Licensed > Properties: 370
+Other International | Franchised/Licensed > Rooms: 72,866
+Other International | Owned/Leased > Properties: 33
+Other International | Owned/Leased > Rooms: 9,075
+Other International | Other (1) > Properties: 98
+Other International | Other (1) > Rooms: 12,371
+Other International | Total > Properties: 1,021
+Other International | Total > Rooms: 215,627
+Timeshare | Managed > Properties: —
+Timeshare | Managed > Rooms: —
+Timeshare | Franchised/Licensed > Properties: 89
+Timeshare | Franchised/Licensed > Rooms: 22,154
+Timeshare | Owned/Leased > Properties: —
+Timeshare | Owned/Leased > Rooms: —
+Timeshare | Other (1) > Properties: —
+Timeshare | Other (1) > Rooms: —
+Timeshare | Total > Properties: 89
+Timeshare | Total > Rooms: 22,154
+Total | Managed > Properties: 1,892
+Total | Managed > Rooms: 536,373
+Total | Franchised/Licensed > Properties: 4,432
+Total | Franchised/Licensed > Rooms: 685,365
+Total | Owned/Leased > Properties: 67
+Total | Owned/Leased > Rooms: 18,269
+Total | Other (1) > Properties: 129
+Total | Other (1) > Rooms: 17,659
+Total | Total > Properties: 6,520
+Total | Total > Rooms: 1,257,666

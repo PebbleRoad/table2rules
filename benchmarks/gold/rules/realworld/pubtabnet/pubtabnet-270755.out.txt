@@ -1,0 +1,66 @@
+A | Total revenues ($): 187,000
+A | Percentage from: > User fees (outpatients): 8
+A | Percentage from: > User fees (inpatients): 11
+A | Percentage from: > Government subsidies: 18
+A | Percentage from: > External aid: 40
+A | Percentage from: > Other sources: 22
+B | Total revenues ($): 260,000
+B | Percentage from: > User fees (outpatients): 6
+B | Percentage from: > User fees (inpatients): 12
+B | Percentage from: > Government subsidies: 16
+B | Percentage from: > External aid: 18
+B | Percentage from: > Other sources: 48
+C | Total revenues ($): 355,000
+C | Percentage from: > User fees (outpatients): 3
+C | Percentage from: > User fees (inpatients): 3
+C | Percentage from: > Government subsidies: 8
+C | Percentage from: > External aid: 70
+C | Percentage from: > Other sources: 17
+D | Total revenues ($): 584,000
+D | Percentage from: > User fees (outpatients): 6
+D | Percentage from: > User fees (inpatients): 5
+D | Percentage from: > Government subsidies: 14
+D | Percentage from: > External aid: 23
+D | Percentage from: > Other sources: 52
+E | Total revenues ($): 1,183,000
+E | Percentage from: > User fees (outpatients): 27
+E | Percentage from: > User fees (inpatients): 38
+E | Percentage from: > Government subsidies: 1
+E | Percentage from: > External aid: 25
+E | Percentage from: > Other sources: 8
+F | Total revenues ($): 72,000
+F | Percentage from: > User fees (outpatients): 17
+F | Percentage from: > User fees (inpatients): 57
+F | Percentage from: > Government subsidies: 25
+F | Percentage from: > External aid: 0
+F | Percentage from: > Other sources: 1
+G | Total revenues ($): 112,000
+G | Percentage from: > User fees (outpatients): 39
+G | Percentage from: > User fees (inpatients): 50
+G | Percentage from: > Government subsidies: 3
+G | Percentage from: > External aid: 6
+G | Percentage from: > Other sources: 3
+H | Total revenues ($): 143,000
+H | Percentage from: > User fees (outpatients): 14
+H | Percentage from: > User fees (inpatients): 15
+H | Percentage from: > Government subsidies: 26
+H | Percentage from: > External aid: 32
+H | Percentage from: > Other sources: 14
+I | Total revenues ($): 218,000
+I | Percentage from: > User fees (outpatients): 9
+I | Percentage from: > User fees (inpatients): 60
+I | Percentage from: > Government subsidies: 12
+I | Percentage from: > External aid: 0
+I | Percentage from: > Other sources: 19
+J | Total revenues ($): 145,000
+J | Percentage from: > User fees (outpatients): 23
+J | Percentage from: > User fees (inpatients): 55
+J | Percentage from: > Government subsidies: 18
+J | Percentage from: > External aid: 0
+J | Percentage from: > Other sources: 3
+Average | Total revenues ($): 349,000
+Average | Percentage from: > User fees (outpatients): 15
+Average | Percentage from: > User fees (inpatients): 25
+Average | Percentage from: > Government subsidies: 10
+Average | Percentage from: > External aid: 28
+Average | Percentage from: > Other sources: 22

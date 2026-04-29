@@ -1,0 +1,48 @@
+OA | Nucleotides sequenced: 18489
+OA | Number of mutations > Initial: 38
+OA | Number of mutations > Published polymorphisms removed: 20
+OA | Total mutational burden (mutations/kbp) > Initial: 2.055
+OA | Total mutational burden (mutations/kbp) > Published polymorphisms removed: 1.082
+RA | Nucleotides sequenced: 30503
+RA | Number of mutations > Initial: 101
+RA | Number of mutations > Published polymorphisms removed: 65
+RA | Total mutational burden (mutations/kbp) > Initial: 3.311
+RA | Total mutational burden (mutations/kbp) > Published polymorphisms removed: 2.131
+RA | OA vs RA a > Initial: ρ = 0.01
+RA | OA vs RA a > Published Polymorphisms removed: ρ = 6.9 × 10 -3
+OA | Nucleotides sequenced: 37145
+OA | Number of mutations > Initial: 67
+OA | Number of mutations > Published polymorphisms removed: 40
+OA | Total mutational burden (mutations/kbp) > Initial: 1.804
+OA | Total mutational burden (mutations/kbp) > Published polymorphisms removed: 1.077
+RA | Nucleotides sequenced: 17663
+RA | Number of mutations > Initial: 60
+RA | Number of mutations > Published polymorphisms removed: 42
+RA | Total mutational burden (mutations/kbp) > Initial: 3.397
+RA | Total mutational burden (mutations/kbp) > Published polymorphisms removed: 2.378
+RA | OA vs RA a > Initial: ρ = 4 × 10 -4
+RA | OA vs RA a > Published Polymorphisms removed: ρ = 5.1 × 10 -4
+OA | Nucleotides sequenced: 6956
+OA | Number of mutations > Initial: 12
+OA | Number of mutations > Published polymorphisms removed: 7
+OA | Total mutational burden (mutations/kbp) > Initial: 1.725
+OA | Total mutational burden (mutations/kbp) > Published polymorphisms removed: 1.006
+RA | Nucleotides sequenced: 12394
+RA | Number of mutations > Initial: 28
+RA | Number of mutations > Published polymorphisms removed: 26
+RA | Total mutational burden (mutations/kbp) > Initial: 2.259
+RA | Total mutational burden (mutations/kbp) > Published polymorphisms removed: 2.098
+RA | OA vs RA a > Initial: ρ = 0.5
+RA | OA vs RA a > Published Polymorphisms removed: ρ = 0.10
+OA | Nucleotides sequenced: 15805
+OA | Number of mutations > Initial: 10
+OA | Number of mutations > Published polymorphisms removed: 10
+OA | Total mutational burden (mutations/kbp) > Initial: 0.633
+OA | Total mutational burden (mutations/kbp) > Published polymorphisms removed: 0.633
+RA | Nucleotides sequenced: 6397
+RA | Number of mutations > Initial: 16
+RA | Number of mutations > Published polymorphisms removed: 14
+RA | Total mutational burden (mutations/kbp) > Initial: 2.501
+RA | Total mutational burden (mutations/kbp) > Published polymorphisms removed: 2.189
+RA | OA vs RA a > Initial: ρ = 6 × 10 -4
+RA | OA vs RA a > Published Polymorphisms removed: ρ = 2.7 × 10 -3

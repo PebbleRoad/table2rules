@@ -1,0 +1,75 @@
+Stomach pain | Number* > Yes: 130
+Stomach pain | Number* > No: 339
+Stomach pain | PPH % > Yes: 60.3
+Stomach pain | PPH % > No: 41.3
+Stomach pain | P-value: <0.0005
+Back pain | Number* > Yes: 218
+Back pain | Number* > No: 251
+Back pain | PPH % > Yes: 59.0
+Back pain | PPH % > No: 35.5
+Back pain | P-value: <0.0001
+Pain in arms, legs & joints | Number* > Yes: 288
+Pain in arms, legs & joints | Number* > No: 181
+Pain in arms, legs & joints | PPH % > Yes: 52.4
+Pain in arms, legs & joints | PPH % > No: 37.0
+Pain in arms, legs & joints | P-value: <0.005
+Menstrual cramps | Number* > Yes: 46
+Menstrual cramps | Number* > No: 210
+Menstrual cramps | PPH % > Yes: 50.0
+Menstrual cramps | PPH % > No: 46.2
+Menstrual cramps | P-value: NS
+Headaches | Number* > Yes: 176
+Headaches | Number* > No: 291
+Headaches | PPH % > Yes: 57.0
+Headaches | PPH % > No: 40.2
+Headaches | P-value: <0.001
+Chest pain | Number* > Yes: 100
+Chest pain | Number* > No: 368
+Chest pain | PPH % > Yes: 66.7
+Chest pain | PPH % > No: 41.0
+Chest pain | P-value: <0.0001
+Dizziness | Number* > Yes: 133
+Dizziness | Number* > No: 333
+Dizziness | PPH % > Yes: 64.9
+Dizziness | PPH % > No: 39.3
+Dizziness | P-value: <0.0001
+Fainting spells | Number* > Yes: 23
+Fainting spells | Number* > No: 446
+Fainting spells | PPH % > Yes: 87.0
+Fainting spells | PPH % > No: 44.4
+Fainting spells | P-value: <0.0001
+Palpitations | Number* > Yes: 88
+Palpitations | Number* > No: 381
+Palpitations | PPH % > Yes: 63.6
+Palpitations | PPH % > No: 42.5
+Palpitations | P-value: <0.001
+Shortness of breath | Number* > Yes: 86
+Shortness of breath | Number* > No: 383
+Shortness of breath | PPH % > Yes: 65.1
+Shortness of breath | PPH % > No: 42.3
+Shortness of breath | P-value: <0.0005
+Pain or problems during sexual intercourse | Number* > Yes: 27
+Pain or problems during sexual intercourse | Number* > No: 238
+Pain or problems during sexual intercourse | PPH % > Yes: 57.7
+Pain or problems during sexual intercourse | PPH % > No: 45.4
+Pain or problems during sexual intercourse | P-value: NS
+Constipation, loose bowels, or diarrhoea | Number* > Yes: 117
+Constipation, loose bowels, or diarrhoea | Number* > No: 352
+Constipation, loose bowels, or diarrhoea | PPH % > Yes: 62.4
+Constipation, loose bowels, or diarrhoea | PPH % > No: 41.2
+Constipation, loose bowels, or diarrhoea | P-value: <0.0001
+Nausea, gas, or indigestion | Number* > Yes: 145
+Nausea, gas, or indigestion | Number* > No: 324
+Nausea, gas, or indigestion | PPH % > Yes: 58.6
+Nausea, gas, or indigestion | PPH % > No: 41.1
+Nausea, gas, or indigestion | P-value: <0.001
+Feeling tired or having low energy | Number* > Yes: 263
+Feeling tired or having low energy | Number* > No: 206
+Feeling tired or having low energy | PPH % > Yes: 62.6
+Feeling tired or having low energy | PPH % > No: 26.2
+Feeling tired or having low energy | P-value: <0.0001
+Trouble sleeping | Number* > Yes: 202
+Trouble sleeping | Number* > No: 265
+Trouble sleeping | PPH % > Yes: 62.9
+Trouble sleeping | PPH % > No: 33.6
+Trouble sleeping | P-value: <0.0001

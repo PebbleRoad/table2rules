@@ -1,0 +1,63 @@
+Foreign currency translation adjustments | December 31,2016(52 weeks) > Before Tax Amount: $(992)
+Foreign currency translation adjustments | December 31,2016(52 weeks) > Tax: $—
+Foreign currency translation adjustments | December 31,2016(52 weeks) > Net of Tax Amount: $(992)
+Foreign currency translation adjustments | January 3,2016(53 weeks) > Before Tax Amount: $(1,578)
+Foreign currency translation adjustments | January 3,2016(53 weeks) > Tax: $—
+Foreign currency translation adjustments | January 3,2016(53 weeks) > Net of Tax Amount: $(1,578)
+Foreign currency translation adjustments | December 28,2014(52 weeks) > Before Tax Amount: $(932)
+Foreign currency translation adjustments | December 28,2014(52 weeks) > Tax: $—
+Foreign currency translation adjustments | December 28,2014(52 weeks) > Net of Tax Amount: $(932)
+Net deferred gains/(losses) on net investment hedges | December 31,2016(52 weeks) > Before Tax Amount: 426
+Net deferred gains/(losses) on net investment hedges | December 31,2016(52 weeks) > Tax: (200)
+Net deferred gains/(losses) on net investment hedges | December 31,2016(52 weeks) > Net of Tax Amount: 226
+Net deferred gains/(losses) on net investment hedges | January 3,2016(53 weeks) > Before Tax Amount: 801
+Net deferred gains/(losses) on net investment hedges | January 3,2016(53 weeks) > Tax: (295)
+Net deferred gains/(losses) on net investment hedges | January 3,2016(53 weeks) > Net of Tax Amount: 506
+Net deferred gains/(losses) on net investment hedges | December 28,2014(52 weeks) > Before Tax Amount: 545
+Net deferred gains/(losses) on net investment hedges | December 28,2014(52 weeks) > Tax: (209)
+Net deferred gains/(losses) on net investment hedges | December 28,2014(52 weeks) > Net of Tax Amount: 336
+Net actuarial gains/(losses) arising during the period | December 31,2016(52 weeks) > Before Tax Amount: (78)
+Net actuarial gains/(losses) arising during the period | December 31,2016(52 weeks) > Tax: 38
+Net actuarial gains/(losses) arising during the period | December 31,2016(52 weeks) > Net of Tax Amount: (40)
+Net actuarial gains/(losses) arising during the period | January 3,2016(53 weeks) > Before Tax Amount: 65
+Net actuarial gains/(losses) arising during the period | January 3,2016(53 weeks) > Tax: (42)
+Net actuarial gains/(losses) arising during the period | January 3,2016(53 weeks) > Net of Tax Amount: 23
+Net actuarial gains/(losses) arising during the period | December 28,2014(52 weeks) > Before Tax Amount: (74)
+Net actuarial gains/(losses) arising during the period | December 28,2014(52 weeks) > Tax: 40
+Net actuarial gains/(losses) arising during the period | December 28,2014(52 weeks) > Net of Tax Amount: (34)
+Prior service credits/(costs) arising during the period | December 31,2016(52 weeks) > Before Tax Amount: 158
+Prior service credits/(costs) arising during the period | December 31,2016(52 weeks) > Tax: (61)
+Prior service credits/(costs) arising during the period | December 31,2016(52 weeks) > Net of Tax Amount: 97
+Prior service credits/(costs) arising during the period | January 3,2016(53 weeks) > Before Tax Amount: 1,500
+Prior service credits/(costs) arising during the period | January 3,2016(53 weeks) > Tax: (577)
+Prior service credits/(costs) arising during the period | January 3,2016(53 weeks) > Net of Tax Amount: 923
+Prior service credits/(costs) arising during the period | December 28,2014(52 weeks) > Before Tax Amount: —
+Prior service credits/(costs) arising during the period | December 28,2014(52 weeks) > Tax: —
+Prior service credits/(costs) arising during the period | December 28,2014(52 weeks) > Net of Tax Amount: —
+Reclassification of net postemployment benefit losses/(gains) | December 31,2016(52 weeks) > Before Tax Amount: (338)
+Reclassification of net postemployment benefit losses/(gains) | December 31,2016(52 weeks) > Tax: 131
+Reclassification of net postemployment benefit losses/(gains) | December 31,2016(52 weeks) > Net of Tax Amount: (207)
+Reclassification of net postemployment benefit losses/(gains) | January 3,2016(53 weeks) > Before Tax Amount: (132)
+Reclassification of net postemployment benefit losses/(gains) | January 3,2016(53 weeks) > Tax: 47
+Reclassification of net postemployment benefit losses/(gains) | January 3,2016(53 weeks) > Net of Tax Amount: (85)
+Reclassification of net postemployment benefit losses/(gains) | December 28,2014(52 weeks) > Before Tax Amount: (9)
+Reclassification of net postemployment benefit losses/(gains) | December 28,2014(52 weeks) > Tax: 2
+Reclassification of net postemployment benefit losses/(gains) | December 28,2014(52 weeks) > Net of Tax Amount: (7)
+Net deferred gains/(losses) on cash flow hedges | December 31,2016(52 weeks) > Before Tax Amount: 40
+Net deferred gains/(losses) on cash flow hedges | December 31,2016(52 weeks) > Tax: 6
+Net deferred gains/(losses) on cash flow hedges | December 31,2016(52 weeks) > Net of Tax Amount: 46
+Net deferred gains/(losses) on cash flow hedges | January 3,2016(53 weeks) > Before Tax Amount: (38)
+Net deferred gains/(losses) on cash flow hedges | January 3,2016(53 weeks) > Tax: 32
+Net deferred gains/(losses) on cash flow hedges | January 3,2016(53 weeks) > Net of Tax Amount: (6)
+Net deferred gains/(losses) on cash flow hedges | December 28,2014(52 weeks) > Before Tax Amount: (268)
+Net deferred gains/(losses) on cash flow hedges | December 28,2014(52 weeks) > Tax: 95
+Net deferred gains/(losses) on cash flow hedges | December 28,2014(52 weeks) > Net of Tax Amount: (173)
+Net deferred losses/(gains) on cash flow hedges reclassified to net income | December 31,2016(52 weeks) > Before Tax Amount: (81)
+Net deferred losses/(gains) on cash flow hedges reclassified to net income | December 31,2016(52 weeks) > Tax: (6)
+Net deferred losses/(gains) on cash flow hedges reclassified to net income | December 31,2016(52 weeks) > Net of Tax Amount: (87)
+Net deferred losses/(gains) on cash flow hedges reclassified to net income | January 3,2016(53 weeks) > Before Tax Amount: 195
+Net deferred losses/(gains) on cash flow hedges reclassified to net income | January 3,2016(53 weeks) > Tax: (75)
+Net deferred losses/(gains) on cash flow hedges reclassified to net income | January 3,2016(53 weeks) > Net of Tax Amount: 120
+Net deferred losses/(gains) on cash flow hedges reclassified to net income | December 28,2014(52 weeks) > Before Tax Amount: (5)
+Net deferred losses/(gains) on cash flow hedges reclassified to net income | December 28,2014(52 weeks) > Tax: 9
+Net deferred losses/(gains) on cash flow hedges reclassified to net income | December 28,2014(52 weeks) > Net of Tax Amount: 4

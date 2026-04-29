@@ -1,0 +1,30 @@
+Segments: (1) > Corporate (2)(3)(4) | Years Ended December 31, > 2016 > Dollars inMillions: $453.6
+Segments: (1) > Corporate (2)(3)(4) | Years Ended December 31, > 2016 > OperatingMargin: 7.7%
+Segments: (1) > Corporate (2)(3)(4) | Years Ended December 31, > 2015 > Dollars inMillions: $432.5
+Segments: (1) > Corporate (2)(3)(4) | Years Ended December 31, > 2015 > OperatingMargin: 7.4%
+Segments: (1) > Corporate (2)(3)(4) | Percent Changein Incomefrom Operations: 4.9%
+Segments: (1) > Small Business (2)(3)(4) | Years Ended December 31, > 2016 > Dollars inMillions: 68.9
+Segments: (1) > Small Business (2)(3)(4) | Years Ended December 31, > 2016 > OperatingMargin: 6.0
+Segments: (1) > Small Business (2)(3)(4) | Years Ended December 31, > 2015 > Dollars inMillions: 68.3
+Segments: (1) > Small Business (2)(3)(4) | Years Ended December 31, > 2015 > OperatingMargin: 6.3
+Segments: (1) > Small Business (2)(3)(4) | Percent Changein Incomefrom Operations: 0.9
+Segments: (1) > Public (2)(4) | Years Ended December 31, > 2016 > Dollars inMillions: 368.0
+Segments: (1) > Public (2)(4) | Years Ended December 31, > 2016 > OperatingMargin: 6.6
+Segments: (1) > Public (2)(4) | Years Ended December 31, > 2015 > Dollars inMillions: 328.6
+Segments: (1) > Public (2)(4) | Years Ended December 31, > 2015 > OperatingMargin: 6.3
+Segments: (1) > Public (2)(4) | Percent Changein Incomefrom Operations: 12.0
+Segments: (1) > Other (4)(5) | Years Ended December 31, > 2016 > Dollars inMillions: 43.6
+Segments: (1) > Other (4)(5) | Years Ended December 31, > 2016 > OperatingMargin: 3.2
+Segments: (1) > Other (4)(5) | Years Ended December 31, > 2015 > Dollars inMillions: 27.1
+Segments: (1) > Other (4)(5) | Years Ended December 31, > 2015 > OperatingMargin: 3.2
+Segments: (1) > Other (4)(5) | Percent Changein Incomefrom Operations: 60.9
+Segments: (1) > Headquarters (6) | Years Ended December 31, > 2016 > Dollars inMillions: (114.9)
+Segments: (1) > Headquarters (6) | Years Ended December 31, > 2016 > OperatingMargin: nm*
+Segments: (1) > Headquarters (6) | Years Ended December 31, > 2015 > Dollars inMillions: (114.5)
+Segments: (1) > Headquarters (6) | Years Ended December 31, > 2015 > OperatingMargin: nm*
+Segments: (1) > Headquarters (6) | Percent Changein Incomefrom Operations: 0.3
+Segments: (1) > Total Income from operations | Years Ended December 31, > 2016 > Dollars inMillions: $819.2
+Segments: (1) > Total Income from operations | Years Ended December 31, > 2016 > OperatingMargin: 5.9%
+Segments: (1) > Total Income from operations | Years Ended December 31, > 2015 > Dollars inMillions: $742.0
+Segments: (1) > Total Income from operations | Years Ended December 31, > 2015 > OperatingMargin: 5.7%
+Segments: (1) > Total Income from operations | Percent Changein Incomefrom Operations: 10.4%

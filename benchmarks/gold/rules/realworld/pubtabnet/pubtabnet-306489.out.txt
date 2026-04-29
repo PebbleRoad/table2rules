@@ -1,0 +1,24 @@
+Observed gene counts | Total testis (TT 1+2) > 1 300 > in tight clusters: 44
+Observed gene counts | Total testis (TT 1+2) > 1 300 > in loose clusters: 230
+Observed gene counts | Adult testis somatic cells (ATSC) > 1 050 > in tight clusters: 36
+Observed gene counts | Adult testis somatic cells (ATSC) > 1 050 > in loose clusters: 120
+Proportion of preferentially expressed genes | Total testis (TT 1+2) > 1 300 > in tight clusters: 3.4 %
+Proportion of preferentially expressed genes | Total testis (TT 1+2) > 1 300 > in loose clusters: 17.7 %
+Proportion of preferentially expressed genes | Adult testis somatic cells (ATSC) > 1 050 > in tight clusters: 3.4 %
+Proportion of preferentially expressed genes | Adult testis somatic cells (ATSC) > 1 050 > in loose clusters: 11.4 %
+Gene counts in randomized genomes (mean ± std. dev.) | Total testis (TT 1+2) > 1 300 > in tight clusters: 21.9 ± 8.1
+Gene counts in randomized genomes (mean ± std. dev.) | Total testis (TT 1+2) > 1 300 > in loose clusters: 168.4 ± 20.1
+Gene counts in randomized genomes (mean ± std. dev.) | Adult testis somatic cells (ATSC) > 1 050 > in tight clusters: 11.7 ± 5.9
+Gene counts in randomized genomes (mean ± std. dev.) | Adult testis somatic cells (ATSC) > 1 050 > in loose clusters: 94.2 ± 15.6
+Ratio observed/mean in randomized genomes | Total testis (TT 1+2) > 1 300 > in tight clusters: 2.0
+Ratio observed/mean in randomized genomes | Total testis (TT 1+2) > 1 300 > in loose clusters: 1.4
+Ratio observed/mean in randomized genomes | Adult testis somatic cells (ATSC) > 1 050 > in tight clusters: 3.1
+Ratio observed/mean in randomized genomes | Adult testis somatic cells (ATSC) > 1 050 > in loose clusters: 1.3
+Permutations yielding > = observed gene counts | Total testis (TT 1+2) > 1 300 > in tight clusters: 741
+Permutations yielding > = observed gene counts | Total testis (TT 1+2) > 1 300 > in loose clusters: 180
+Permutations yielding > = observed gene counts | Adult testis somatic cells (ATSC) > 1 050 > in tight clusters: 52
+Permutations yielding > = observed gene counts | Adult testis somatic cells (ATSC) > 1 050 > in loose clusters: 5 722
+p-value (one tailed) | Total testis (TT 1+2) > 1 300 > in tight clusters: 0.0074
+p-value (one tailed) | Total testis (TT 1+2) > 1 300 > in loose clusters: 0.0018
+p-value (one tailed) | Adult testis somatic cells (ATSC) > 1 050 > in tight clusters: 0.0005
+p-value (one tailed) | Adult testis somatic cells (ATSC) > 1 050 > in loose clusters: 0.0572

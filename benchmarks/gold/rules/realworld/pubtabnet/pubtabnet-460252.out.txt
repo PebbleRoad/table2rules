@@ -1,0 +1,84 @@
+Life span [22] | QTL † > Number: 5
+Life span [22] | QTL † > Probe sets ‡: 125
+Life span [22] | QTL † > kb: 25,351
+Life span [22] | Not QTL > Probe sets ‡: 350
+Life span [22] | Not QTL > kb: 92,625
+Life span [22] | χ 2 1: 6.58*
+Sternopleural bristle number [25] | QTL † > Number: 5
+Sternopleural bristle number [25] | QTL † > Probe sets ‡: 250
+Sternopleural bristle number [25] | QTL † > kb: 54,150
+Sternopleural bristle number [25] | Not QTL > Probe sets ‡: 225
+Sternopleural bristle number [25] | Not QTL > kb: 63,853
+Sternopleural bristle number [25] | χ 2 1: 8.70**
+Abdominal bristle number [25] | QTL † > Number: 7
+Abdominal bristle number [25] | QTL † > Probe sets ‡: 154
+Abdominal bristle number [25] | QTL † > kb: 34,038
+Abdominal bristle number [25] | Not QTL > Probe sets ‡: 321
+Abdominal bristle number [25] | Not QTL > kb: 83,965
+Abdominal bristle number [25] | χ 2 1: 2.96 NS
+Starvation resistance [21] | QTL † > Number: 5
+Starvation resistance [21] | QTL † > Probe sets ‡: 110
+Starvation resistance [21] | QTL † > kb: 26,532
+Starvation resistance [21] | Not QTL > Probe sets ‡: 365
+Starvation resistance [21] | Not QTL > kb: 91,471
+Starvation resistance [21] | χ 2 1: 0.12 NS
+Life span [21] | QTL † > Number: 4
+Life span [21] | QTL † > Probe sets ‡: 98
+Life span [21] | QTL † > kb: 24,305
+Life span [21] | Not QTL > Probe sets ‡: 377
+Life span [21] | Not QTL > kb: 93,698
+Life span [21] | χ 2 1: 0.00 NS
+Life span [23] | QTL † > Number: 4
+Life span [23] | QTL † > Probe sets ‡: 133
+Life span [23] | QTL † > kb: 32,899
+Life span [23] | Not QTL > Probe sets ‡: 342
+Life span [23] | Not QTL > kb: 85,104
+Life span [23] | χ 2 1: 0.00 NS
+Ovariole number [26] | QTL † > Number: 2
+Ovariole number [26] | QTL † > Probe sets ‡: 70
+Ovariole number [26] | QTL † > kb: 13,162
+Ovariole number [26] | Not QTL > Probe sets ‡: 405
+Ovariole number [26] | Not QTL > kb: 104,841
+Ovariole number [26] | χ 2 1: 6.15*
+Life span [24] | QTL † > Number: 5
+Life span [24] | QTL † > Probe sets ‡: 82
+Life span [24] | QTL † > kb: 19,637
+Life span [24] | Not QTL > Probe sets ‡: 393
+Life span [24] | Not QTL > kb: 98,366
+Life span [24] | χ 2 1: 0.13 NS
+Olfactory behavior [28] | QTL † > Number: 1
+Olfactory behavior [28] | QTL † > Probe sets ‡: 36
+Olfactory behavior [28] | QTL † > kb: 7,944
+Olfactory behavior [28] | Not QTL > Probe sets ‡: 439
+Olfactory behavior [28] | Not QTL > kb: 110,059
+Olfactory behavior [28] | χ 2 1: 0.54 NS
+Courtship signal [27] | QTL † > Number: 3
+Courtship signal [27] | QTL † > Probe sets ‡: 67
+Courtship signal [27] | QTL † > kb: 15,859
+Courtship signal [27] | Not QTL > Probe sets ‡: 408
+Courtship signal [27] | Not QTL > kb: 102,144
+Courtship signal [27] | χ 2 1: 0.18 NS
+Flight [29] | QTL † > Number: 2
+Flight [29] | QTL † > Probe sets ‡: 119
+Flight [29] | QTL † > kb: 27,860
+Flight [29] | Not QTL > Probe sets ‡: 356
+Flight [29] | Not QTL > kb: 90,143
+Flight [29] | χ 2 1: 0.55 NS
+Metabolic rate [29] | QTL † > Number: 2
+Metabolic rate [29] | QTL † > Probe sets ‡: 41
+Metabolic rate [29] | QTL † > kb: 8,232
+Metabolic rate [29] | Not QTL > Probe sets ‡: 434
+Metabolic rate [29] | Not QTL > kb: 109,771
+Metabolic rate [29] | χ 2 1: 2.01 NS
+Glycogen [29] | QTL † > Number: 2
+Glycogen [29] | QTL † > Probe sets ‡: 5
+Glycogen [29] | QTL † > kb: 4,683
+Glycogen [29] | Not QTL > Probe sets ‡: 470
+Glycogen [29] | Not QTL > kb: 113,320
+Glycogen [29] | χ 2 1: 10.60 ** ‡
+Triglycerides [29] | QTL † > Number: 2
+Triglycerides [29] | QTL † > Probe sets ‡: 30
+Triglycerides [29] | QTL † > kb: 6,044
+Triglycerides [29] | Not QTL > Probe sets ‡: 445
+Triglycerides [29] | Not QTL > kb: 111,959
+Triglycerides [29] | χ 2 1: 1.39 NS

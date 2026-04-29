@@ -1,0 +1,40 @@
+Net income | 2004 > (In thousands): $84,156
+Net income | 2003 > (In thousands): $94,497
+Net income | 2002 > (In thousands): $55,287
+Net income | 2001 > (In thousands): $68,756
+Net income | 2000 > (In thousands): $60,523
+Depreciation and amortization | 2004 > (In thousands): 90,438
+Depreciation and amortization | 2003 > (In thousands): 74,616
+Depreciation and amortization | 2002 > (In thousands): 64,529
+Depreciation and amortization | 2001 > (In thousands): 59,914
+Depreciation and amortization | 2000 > (In thousands): 53,259
+Interest expense | 2004 > (In thousands): 85,058
+Interest expense | 2003 > (In thousands): 75,232
+Interest expense | 2002 > (In thousands): 65,058
+Interest expense | 2001 > (In thousands): 69,313
+Interest expense | 2000 > (In thousands): 66,418
+Other interest income | 2004 > (In thousands): (1,506)
+Other interest income | 2003 > (In thousands): (1,274)
+Other interest income | 2002 > (In thousands): (1,380)
+Other interest income | 2001 > (In thousands): (2,662)
+Other interest income | 2000 > (In thousands): (2,897)
+EBITDA | 2004 > (In thousands): 258,146
+EBITDA | 2003 > (In thousands): 243,071
+EBITDA | 2002 > (In thousands): 183,494
+EBITDA | 2001 > (In thousands): 195,321
+EBITDA | 2000 > (In thousands): 177,303
+Gain loss on sale of real estate | 2004 > (In thousands): (14,052)
+Gain loss on sale of real estate | 2003 > (In thousands): (20,053)
+Gain loss on sale of real estate | 2002 > (In thousands): (19,101)
+Gain loss on sale of real estate | 2001 > (In thousands): (9,185)
+Gain loss on sale of real estate | 2000 > (In thousands): (3,681)
+Loss on abandoned developments held for sale | 2004 > (In thousands): —
+Loss on abandoned developments held for sale | 2003 > (In thousands): —
+Loss on abandoned developments held for sale | 2002 > (In thousands): 9,647
+Loss on abandoned developments held for sale | 2001 > (In thousands): —
+Loss on abandoned developments held for sale | 2000 > (In thousands): —
+Adjusted EBITDA | 2004 > (In thousands): $244,094
+Adjusted EBITDA | 2003 > (In thousands): $223,018
+Adjusted EBITDA | 2002 > (In thousands): $174,040
+Adjusted EBITDA | 2001 > (In thousands): $186,136
+Adjusted EBITDA | 2000 > (In thousands): $173,622

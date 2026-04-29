@@ -1,0 +1,78 @@
+Localization: Epidural catheter (C6/7 - T2/3)
+Total number of catheters: 29
+Duration of catheter use (days): 6 (5 / 8)
+Not colonized n (%): 29 (100%)
+Colonized n (%): 0 (0%)
+Colonized and local infectious signs; n (%): 0 (0%)
+Localization: Epidural catheter (T3/4 - T 12/L1)
+Total number of catheters: 59
+Duration of catheter use (days): 4 (3 / 6)
+Not colonized n (%): 51 (86.4%)
+Colonized n (%): 8 (13.6%)
+Colonized and local infectious signs; n (%): 4 (6.8%)
+Localization: Epidural catheter (L1/2 - L4/5)
+Total number of catheters: 8
+Duration of catheter use (days): 4 (3 / 6)
+Not colonized n (%): 7 (87.5%)
+Colonized n (%): 1 (12.5%)
+Colonized and local infectious signs; n (%): 0 (0%)
+Localization: Paravertebral catheter (level T3 - T8)
+Total number of catheters: 4
+Duration of catheter use (days): 1 (1 / 3)
+Not colonized n (%): 4 (100%)
+Colonized n (%): 0 (0%)
+Colonized and local infectious signs; n (%): 0 (0%)
+Localization: Psoas compartment
+Total number of catheters: 5
+Duration of catheter use (days): 4 (3 / 4)
+Not colonized n (%): 4 (80%)
+Colonized n (%): 1 (20%)
+Colonized and local infectious signs; n (%): 1 (20%)
+Localization: Posterior sciatic (gluteal)
+Total number of catheters: 1
+Duration of catheter use (days): 2
+Not colonized n (%): 1 (100%)
+Colonized n (%): 0 (0%)
+Colonized and local infectious signs; n (%): 0 (0%)
+Localization: Distal sciatic (popliteal)
+Total number of catheters: 1
+Duration of catheter use (days): 2
+Not colonized n (%): 1 (100%)
+Colonized n (%): 0 (0%)
+Colonized and local infectious signs; n (%): 0 (0%)
+Localization: Anterior sciatic (proximal)
+Total number of catheters: 7
+Duration of catheter use (days): 2 (1 / 3)
+Not colonized n (%): 4 (57.1%)
+Colonized n (%): 3 (42.9%)
+Colonized and local infectious signs; n (%): 1 (14.3%)
+Localization: Femoral nerve
+Total number of catheters: 68
+Duration of catheter use (days): 3 (1 / 3)
+Not colonized n (%): 50 (73.5%)
+Colonized n (%): 18 (26.5%)
+Colonized and local infectious signs; n (%): 10 (14.7%)
+Localization: Interscalene plexus
+Total number of catheters: 9
+Duration of catheter use (days): 2 (1 / 3)
+Not colonized n (%): 8 (88.9%)
+Colonized n (%): 1 (11.1%)
+Colonized and local infectious signs; n (%): 1 (11.1%)
+Localization: Infraclavicular plexus
+Total number of catheters: 5
+Duration of catheter use (days): 3 (2 / 6)
+Not colonized n (%): 4 (80%)
+Colonized n (%): 1 (20%)
+Colonized and local infectious signs; n (%): 1 (20%)
+Localization: Axillary plexus
+Total number of catheters: 2
+Duration of catheter use (days): 3 (1 / 4)
+Not colonized n (%): 2 (100%)
+Colonized n (%): 0 (0%)
+Colonized and local infectious signs; n (%): 0 (0%)
+Localization: Total
+Total number of catheters: 198
+Duration of catheter use (days): 3 (2 / 5)
+Not colonized n (%): 151 (83.3%)
+Colonized n (%): 33 (16.7%)
+Colonized and local infectious signs; n (%): 18 (9.1%)

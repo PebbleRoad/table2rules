@@ -1,0 +1,44 @@
+LDL-C | Least-squares mean percentage change from baseline to 4 weeks > Rosuvastatin 10 mg (n = 232): -47.6
+LDL-C | Least-squares mean percentage change from baseline to 4 weeks > Atorvastatin 10 mg (n = 231): -38.5 a
+LDL-C | Difference (95% CI): -9.1 (-11.4, -6.7)
+LDL-C | p-value: < 0.0001
+TC | Least-squares mean percentage change from baseline to 4 weeks > Rosuvastatin 10 mg (n = 232): -33.6
+TC | Least-squares mean percentage change from baseline to 4 weeks > Atorvastatin 10 mg (n = 231): -27.9
+TC | Difference (95% CI): -5.7 (-7.4, -4.0)
+TC | p-value: < 0.0001
+HDL-C | Least-squares mean percentage change from baseline to 4 weeks > Rosuvastatin 10 mg (n = 232): 4.4
+HDL-C | Least-squares mean percentage change from baseline to 4 weeks > Atorvastatin 10 mg (n = 231): 2.6
+HDL-C | Difference (95% CI): 1.8 (-0.5, 4.0)
+HDL-C | p-value: NS
+TG | Least-squares mean percentage change from baseline to 4 weeks > Rosuvastatin 10 mg (n = 232): -19.2
+TG | Least-squares mean percentage change from baseline to 4 weeks > Atorvastatin 10 mg (n = 231): -15.5
+TG | Difference (95% CI): -3.7 (-9.5, 2.2)
+TG | p-value: NS
+Non-HDL-C | Least-squares mean percentage change from baseline to 4 weeks > Rosuvastatin 10 mg (n = 232): -42.6
+Non-HDL-C | Least-squares mean percentage change from baseline to 4 weeks > Atorvastatin 10 mg (n = 231): -35.0
+Non-HDL-C | Difference (95% CI): -7.6 (-9.6, -5.7)
+Non-HDL-C | p-value: < 0.0001
+LDL-C/HDL-C ratio | Least-squares mean percentage change from baseline to 4 weeks > Rosuvastatin 10 mg (n = 232): -49.3
+LDL-C/HDL-C ratio | Least-squares mean percentage change from baseline to 4 weeks > Atorvastatin 10 mg (n = 231): -39.5
+LDL-C/HDL-C ratio | Difference (95% CI): -9.8 (-12.2, -7.4)
+LDL-C/HDL-C ratio | p-value: < 0.0001
+Non-HDL-C/HDL-C ratio | Least-squares mean percentage change from baseline to 4 weeks > Rosuvastatin 10 mg (n = 232): -44.4
+Non-HDL-C/HDL-C ratio | Least-squares mean percentage change from baseline to 4 weeks > Atorvastatin 10 mg (n = 231): -35.9
+Non-HDL-C/HDL-C ratio | Difference (95% CI): -8.5 (-10.8, -6.2)
+Non-HDL-C/HDL-C ratio | p-value: < 0.0001
+TC/HDL-C ratio | Least-squares mean percentage change from baseline to 4 weeks > Rosuvastatin 10 mg (n = 232): -35.8
+TC/HDL-C ratio | Least-squares mean percentage change from baseline to 4 weeks > Atorvastatin 10 mg (n = 231): -29.0
+TC/HDL-C ratio | Difference (95% CI): -6.7 (-8.7, -4.8)
+TC/HDL-C ratio | p-value: < 0.0001
+Apo B | Least-squares mean percentage change from baseline to 4 weeks > Rosuvastatin 10 mg (n = 232): -42.9
+Apo B | Least-squares mean percentage change from baseline to 4 weeks > Atorvastatin 10 mg (n = 231): -35.3
+Apo B | Difference (95% CI): -7.6 (-9.7, -5.6)
+Apo B | p-value: < 0.0001
+Apo A-I | Least-squares mean percentage change from baseline to 4 weeks > Rosuvastatin 10 mg (n = 232): 2.6
+Apo A-I | Least-squares mean percentage change from baseline to 4 weeks > Atorvastatin 10 mg (n = 231): 0.8
+Apo A-I | Difference (95% CI): 1.8 (0, 3.5)
+Apo A-I | p-value: 0.05
+Apo B/apo A-I ratio | Least-squares mean percentage change from baseline to 4 weeks > Rosuvastatin 10 mg (n = 232): -43.9
+Apo B/apo A-I ratio | Least-squares mean percentage change from baseline to 4 weeks > Atorvastatin 10 mg (n = 231): -35.4
+Apo B/apo A-I ratio | Difference (95% CI): -8.5 (-10.6, -6.4)
+Apo B/apo A-I ratio | p-value: < 0.0001

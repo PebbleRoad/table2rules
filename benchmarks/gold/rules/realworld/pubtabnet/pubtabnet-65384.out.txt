@@ -1,0 +1,39 @@
+C | Estimated allele frequency (%): 42.46
+C | Nonfounder statistic > Recessive model: - 1.01
+C | Nonfounder statistic > Dominant model: - 1.52
+C | Nonfounder statistic > Additive model: - 1.85
+C | Founder statistic > Recessive model: 0.40
+C | Founder statistic > Dominant model: 1.08
+C | Founder statistic > Additive model: 1.01
+P | Nonfounder statistic > Recessive model: 0.16
+P | Nonfounder statistic > Dominant model: 0.06
+P | Nonfounder statistic > Additive model: 0.03
+P | Founder statistic > Recessive model: 0.34
+P | Founder statistic > Dominant model: 0.14
+P | Founder statistic > Additive model: 0.16
+(TTTA) ≥10 | Estimated allele frequency (%): 33.71
+(TTTA) ≥10 | Nonfounder statistic > Recessive model: - 1.24
+(TTTA) ≥10 | Nonfounder statistic > Dominant model: 1.26
+(TTTA) ≥10 | Nonfounder statistic > Additive model: 0.32
+(TTTA) ≥10 | Founder statistic > Recessive model: - 0.32
+(TTTA) ≥10 | Founder statistic > Dominant model: 1.66
+(TTTA) ≥10 | Founder statistic > Additive model: 1.13
+P | Nonfounder statistic > Recessive model: 0.11
+P | Nonfounder statistic > Dominant model: 0.10
+P | Nonfounder statistic > Additive model: 0.38
+P | Founder statistic > Recessive model: 0.37
+P | Founder statistic > Dominant model: 0.05
+P | Founder statistic > Additive model: 0.13
+(TTTA) 11 | Estimated allele frequency (%): 28.78
+(TTTA) 11 | Nonfounder statistic > Recessive model: - 1.09
+(TTTA) 11 | Nonfounder statistic > Dominant model: 1.83
+(TTTA) 11 | Nonfounder statistic > Additive model: 0.97
+(TTTA) 11 | Founder statistic > Recessive model: - 1.50
+(TTTA) 11 | Founder statistic > Dominant model: 1.96
+(TTTA) 11 | Founder statistic > Additive model: 0.89
+P | Nonfounder statistic > Recessive model: 0.14
+P | Nonfounder statistic > Dominant model: 0.03
+P | Nonfounder statistic > Additive model: 0.17
+P | Founder statistic > Recessive model: 0.07
+P | Founder statistic > Dominant model: 0.03
+P | Founder statistic > Additive model: 0.19

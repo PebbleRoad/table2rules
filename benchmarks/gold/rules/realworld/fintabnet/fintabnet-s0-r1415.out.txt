@@ -1,0 +1,36 @@
+Balance at December 31, 2016 | Cash FlowHedges > (Dollars in thousands): $(2,424)
+Balance at December 31, 2016 | Pension andOtherPostretirementBenefit Plans > (Dollars in thousands): $(136,596)
+Balance at December 31, 2016 | ForeignCurrencyTranslationAdjustment > (Dollars in thousands): $(299,697)
+Balance at December 31, 2016 | AccumulatedOtherComprehensiveIncome (Loss) > (Dollars in thousands): $(438,717)
+Other comprehensive income (loss) before reclassifications | Cash FlowHedges > (Dollars in thousands): 2,775
+Other comprehensive income (loss) before reclassifications | Pension andOtherPostretirementBenefit Plans > (Dollars in thousands): (6,725)
+Other comprehensive income (loss) before reclassifications | ForeignCurrencyTranslationAdjustment > (Dollars in thousands): 173,074
+Other comprehensive income (loss) before reclassifications | AccumulatedOtherComprehensiveIncome (Loss) > (Dollars in thousands): 169,124
+Amounts reclassified from accumulated other comprehensive income (loss) | Cash FlowHedges > (Dollars in thousands): (11)
+Amounts reclassified from accumulated other comprehensive income (loss) | Pension andOtherPostretirementBenefit Plans > (Dollars in thousands): 4,513
+Amounts reclassified from accumulated other comprehensive income (loss) | ForeignCurrencyTranslationAdjustment > (Dollars in thousands): —
+Amounts reclassified from accumulated other comprehensive income (loss) | AccumulatedOtherComprehensiveIncome (Loss) > (Dollars in thousands): 4,502
+Net current-year other comprehensive income (loss) | Cash FlowHedges > (Dollars in thousands): 2,764
+Net current-year other comprehensive income (loss) | Pension andOtherPostretirementBenefit Plans > (Dollars in thousands): (2,212)
+Net current-year other comprehensive income (loss) | ForeignCurrencyTranslationAdjustment > (Dollars in thousands): 173,074
+Net current-year other comprehensive income (loss) | AccumulatedOtherComprehensiveIncome (Loss) > (Dollars in thousands): 173,626
+Balance at December 31, 2017 | Cash FlowHedges > (Dollars in thousands): 340
+Balance at December 31, 2017 | Pension andOtherPostretirementBenefit Plans > (Dollars in thousands): (138,808)
+Balance at December 31, 2017 | ForeignCurrencyTranslationAdjustment > (Dollars in thousands): (126,623)
+Balance at December 31, 2017 | AccumulatedOtherComprehensiveIncome (Loss) > (Dollars in thousands): (265,091)
+Other comprehensive income (loss) before reclassifications | Cash FlowHedges > (Dollars in thousands): 2,574
+Other comprehensive income (loss) before reclassifications | Pension andOtherPostretirementBenefit Plans > (Dollars in thousands): 1,605
+Other comprehensive income (loss) before reclassifications | ForeignCurrencyTranslationAdjustment > (Dollars in thousands): (83,889)
+Other comprehensive income (loss) before reclassifications | AccumulatedOtherComprehensiveIncome (Loss) > (Dollars in thousands): (79,710)
+Amounts reclassified from accumulated other comprehensive income | Cash FlowHedges > (Dollars in thousands): (2,107)
+Amounts reclassified from accumulated other comprehensive income | Pension andOtherPostretirementBenefit Plans > (Dollars in thousands): 5,823
+Amounts reclassified from accumulated other comprehensive income | ForeignCurrencyTranslationAdjustment > (Dollars in thousands): —
+Amounts reclassified from accumulated other comprehensive income | AccumulatedOtherComprehensiveIncome (Loss) > (Dollars in thousands): 3,716
+Net current-year other comprehensive (loss) income | Cash FlowHedges > (Dollars in thousands): 467
+Net current-year other comprehensive (loss) income | Pension andOtherPostretirementBenefit Plans > (Dollars in thousands): 7,428
+Net current-year other comprehensive (loss) income | ForeignCurrencyTranslationAdjustment > (Dollars in thousands): (83,889)
+Net current-year other comprehensive (loss) income | AccumulatedOtherComprehensiveIncome (Loss) > (Dollars in thousands): (75,994)
+Balance at December 31, 2018 | Cash FlowHedges > (Dollars in thousands): $807
+Balance at December 31, 2018 | Pension andOtherPostretirementBenefit Plans > (Dollars in thousands): $(131,380)
+Balance at December 31, 2018 | ForeignCurrencyTranslationAdjustment > (Dollars in thousands): $(210,512)
+Balance at December 31, 2018 | AccumulatedOtherComprehensiveIncome (Loss) > (Dollars in thousands): $(341,085)

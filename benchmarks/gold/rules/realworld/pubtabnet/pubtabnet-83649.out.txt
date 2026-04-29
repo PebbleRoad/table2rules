@@ -1,0 +1,98 @@
+all pathways | Enzyme total > Total: 1 952
+all pathways | Enzyme total > with str.: 508
+all pathways | Enzyme total > coverage: 26,0
+all pathways | CATH class > a / b: 443
+all pathways | CATH class > a: 114
+all pathways | CATH class > b: 107
+all pathways | CATH class > Few: 15
+Fatty acid biosynthesis (path 1) | Enzyme total > Total: 14
+Fatty acid biosynthesis (path 1) | Enzyme total > with str.: 7
+Fatty acid biosynthesis (path 1) | Enzyme total > coverage: 50,0
+Fatty acid biosynthesis (path 1) | CATH class > a / b: 6
+Fatty acid biosynthesis (path 1) | CATH class > a: 0
+Fatty acid biosynthesis (path 1) | CATH class > b: 2
+Fatty acid biosynthesis (path 1) | CATH class > Few: 0
+Oxidative phosphorylation | Enzyme total > Total: 10
+Oxidative phosphorylation | Enzyme total > with str.: 5
+Oxidative phosphorylation | Enzyme total > coverage: 50,0
+Oxidative phosphorylation | CATH class > a / b: 3
+Oxidative phosphorylation | CATH class > a: 3
+Oxidative phosphorylation | CATH class > b: 3
+Oxidative phosphorylation | CATH class > Few: 1
+Streptomycin biosynthesis | Enzyme total > Total: 14
+Streptomycin biosynthesis | Enzyme total > with str.: 7
+Streptomycin biosynthesis | Enzyme total > coverage: 50,0
+Streptomycin biosynthesis | CATH class > a / b: 6
+Streptomycin biosynthesis | CATH class > a: 0
+Streptomycin biosynthesis | CATH class > b: 1
+Streptomycin biosynthesis | CATH class > Few: 0
+Pyrimidine metabolism | Enzyme total > Total: 59
+Pyrimidine metabolism | Enzyme total > with str.: 30
+Pyrimidine metabolism | Enzyme total > coverage: 50,8
+Pyrimidine metabolism | CATH class > a / b: 29
+Pyrimidine metabolism | CATH class > a: 6
+Pyrimidine metabolism | CATH class > b: 5
+Pyrimidine metabolism | CATH class > Few: 0
+Selenoamino acid metabolism | Enzyme total > Total: 21
+Selenoamino acid metabolism | Enzyme total > with str.: 11
+Selenoamino acid metabolism | Enzyme total > coverage: 52,3
+Selenoamino acid metabolism | CATH class > a / b: 11
+Selenoamino acid metabolism | CATH class > a: 2
+Selenoamino acid metabolism | CATH class > b: 2
+Selenoamino acid metabolism | CATH class > Few: 1
+Pentose phosphate pathway | Enzyme total > Total: 33
+Pentose phosphate pathway | Enzyme total > with str.: 18
+Pentose phosphate pathway | Enzyme total > coverage: 54,5
+Pentose phosphate pathway | CATH class > a / b: 17
+Pentose phosphate pathway | CATH class > a: 2
+Pentose phosphate pathway | CATH class > b: 2
+Pentose phosphate pathway | CATH class > Few: 2
+Methionine metabolism | Enzyme total > Total: 23
+Methionine metabolism | Enzyme total > with str.: 13
+Methionine metabolism | Enzyme total > coverage: 56,5
+Methionine metabolism | CATH class > a / b: 13
+Methionine metabolism | CATH class > a: 3
+Methionine metabolism | CATH class > b: 1
+Methionine metabolism | CATH class > Few: 1
+One carbon pool by folate | Enzyme total > Total: 23
+One carbon pool by folate | Enzyme total > with str.: 13
+One carbon pool by folate | Enzyme total > coverage: 56,5
+One carbon pool by folate | CATH class > a / b: 13
+One carbon pool by folate | CATH class > a: 2
+One carbon pool by folate | CATH class > b: 1
+One carbon pool by folate | CATH class > Few: 0
+Phe, Tyr and Trp biosynthesis | Enzyme total > Total: 31
+Phe, Tyr and Trp biosynthesis | Enzyme total > with str.: 19
+Phe, Tyr and Trp biosynthesis | Enzyme total > coverage: 61,2
+Phe, Tyr and Trp biosynthesis | CATH class > a / b: 18
+Phe, Tyr and Trp biosynthesis | CATH class > a: 6
+Phe, Tyr and Trp biosynthesis | CATH class > b: 2
+Phe, Tyr and Trp biosynthesis | CATH class > Few: 0
+Glycolysis / Gluconeogenesis | Enzyme total > Total: 38
+Glycolysis / Gluconeogenesis | Enzyme total > with str.: 24
+Glycolysis / Gluconeogenesis | Enzyme total > coverage: 63,1
+Glycolysis / Gluconeogenesis | CATH class > a / b: 24
+Glycolysis / Gluconeogenesis | CATH class > a: 2
+Glycolysis / Gluconeogenesis | CATH class > b: 5
+Glycolysis / Gluconeogenesis | CATH class > Few: 2
+Reductive carboxylate cycle (CO2 fixation) | Enzyme total > Total: 13
+Reductive carboxylate cycle (CO2 fixation) | Enzyme total > with str.: 9
+Reductive carboxylate cycle (CO2 fixation) | Enzyme total > coverage: 69,2
+Reductive carboxylate cycle (CO2 fixation) | CATH class > a / b: 8
+Reductive carboxylate cycle (CO2 fixation) | CATH class > a: 3
+Reductive carboxylate cycle (CO2 fixation) | CATH class > b: 1
+Reductive carboxylate cycle (CO2 fixation) | CATH class > Few: 1
+Aminoacyl-tRNA biosynthesis | Enzyme total > Total: 21
+Aminoacyl-tRNA biosynthesis | Enzyme total > with str.: 16
+Aminoacyl-tRNA biosynthesis | Enzyme total > coverage: 76,1
+Aminoacyl-tRNA biosynthesis | CATH class > a / b: 16
+Aminoacyl-tRNA biosynthesis | CATH class > a: 8
+Aminoacyl-tRNA biosynthesis | CATH class > b: 6
+Aminoacyl-tRNA biosynthesis | CATH class > Few: 0
+Carbon fixation | Enzyme total > Total: 23
+Carbon fixation | Enzyme total > with str.: 18
+Carbon fixation | Enzyme total > coverage: 78,2
+Carbon fixation | CATH class > a / b: 18
+Carbon fixation | CATH class > a: 2
+Carbon fixation | CATH class > b: 3
+Carbon fixation | CATH class > Few: 0

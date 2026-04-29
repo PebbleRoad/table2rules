@@ -1,0 +1,144 @@
+Infection | Events > No. (%): 33 (25.8)
+Infection | Time to event (months) > Median a: 9.1
+Infection | Time to event (months) > Range: 1.1–61.1
+Infection | Events during treatment > No. (%): 24 (73)
+Infection | Major events > No. (%): 0
+Infection | Histology > No. (%): 5 (15)
+Infection | DMARDs b > No. (%): 20 (61)
+Infection | Prednisolone b > No. (%): 21 (64)
+Infection | Permanent withdrawal of anti-TNF-α c > No. (%): 4 (12)
+Eczema | Events > No. (%): 20 (15.6)
+Eczema | Time to event (months) > Median a: 7.1
+Eczema | Time to event (months) > Range: 0.2–49.9
+Eczema | Events during treatment > No. (%): 16 (80)
+Eczema | Major events > No. (%): 1 (5)
+Eczema | Histology > No. (%): 4 (20)
+Eczema | DMARDs b > No. (%): 8 (40)
+Eczema | Prednisolone b > No. (%): 7 (35)
+Eczema | Permanent withdrawal of anti-TNF-α c > No. (%): 3 (15)
+Drug-related eruption | Events > No. (%): 15 (11.7)
+Drug-related eruption | Time to event (months) > Median a: 1.9
+Drug-related eruption | Time to event (months) > Range: 0.1–18.8
+Drug-related eruption | Events during treatment > No. (%): 15 (100)
+Drug-related eruption | Major events > No. (%): 1 (7)
+Drug-related eruption | Histology > No. (%): 12 (80)
+Drug-related eruption | DMARDs b > No. (%): 6 (40)
+Drug-related eruption | Prednisolone b > No. (%): 6 (40)
+Drug-related eruption | Permanent withdrawal of anti-TNF-α c > No. (%): 7 47)
+Ulcers | Events > No. (%): 9 (7.0)
+Ulcers | Time to event (months) > Median a: 13.6
+Ulcers | Time to event (months) > Range: 0.3–52.5
+Ulcers | Events during treatment > No. (%): 3 (33)
+Ulcers | Major events > No. (%): 1 (11)
+Ulcers | Histology > No. (%): 2 (22)
+Ulcers | DMARDs b > No. (%): 7 (78)
+Ulcers | Prednisolone b > No. (%): 4 (44)
+Ulcers | Permanent withdrawal of anti-TNF-α c > No. (%): 1 (11)
+Skin tumor, benign | Events > No. (%): 7 (5.5)
+Skin tumor, benign | Time to event (months) > Median a: 12.9
+Skin tumor, benign | Time to event (months) > Range: 2.0–18.1
+Skin tumor, benign | Events during treatment > No. (%): 7 (100)
+Skin tumor, benign | Major events > No. (%): 0
+Skin tumor, benign | Histology > No. (%): 2 (29)
+Skin tumor, benign | DMARDs b > No. (%): 5 (71)
+Skin tumor, benign | Prednisolone b > No. (%): 4 (57)
+Skin tumor, benign | Permanent withdrawal of anti-TNF-α c > No. (%): 0
+Skin tumor, malignant | Events > No. (%): 5 (3.9)
+Skin tumor, malignant | Time to event (months) > Median a: 4.5
+Skin tumor, malignant | Time to event (months) > Range: 1.1–38.0
+Skin tumor, malignant | Events during treatment > No. (%): 4 (80)
+Skin tumor, malignant | Major events > No. (%): 0
+Skin tumor, malignant | Histology > No. (%): 5 (100)
+Skin tumor, malignant | DMARDs b > No. (%): 2 (40)
+Skin tumor, malignant | Prednisolone b > No. (%): 2 (40)
+Skin tumor, malignant | Permanent withdrawal of anti-TNF-α c > No. (%): 1 (20)
+Xerosis cutis | Events > No. (%): 6 (4.7)
+Xerosis cutis | Time to event (months) > Median a: 8.9
+Xerosis cutis | Time to event (months) > Range: 4.2–26.3
+Xerosis cutis | Events during treatment > No. (%): 6 (100)
+Xerosis cutis | Major events > No. (%): 0
+Xerosis cutis | Histology > No. (%): 1 (16)
+Xerosis cutis | DMARDs b > No. (%): 4 (67)
+Xerosis cutis | Prednisolone b > No. (%): 1 (17)
+Xerosis cutis | Permanent withdrawal of anti-TNF-α c > No. (%): 1 (17)
+Vasculitis | Events > No. (%): 5 (3.9)
+Vasculitis | Time to event (months) > Median a: 12.0
+Vasculitis | Time to event (months) > Range: 1.5–49.9
+Vasculitis | Events during treatment > No. (%): 4 (80)
+Vasculitis | Major events > No. (%): 0
+Vasculitis | Histology > No. (%): 4 (80)
+Vasculitis | DMARDs b > No. (%): 3 (60)
+Vasculitis | Prednisolone b > No. (%): 5 (100)
+Vasculitis | Permanent withdrawal of anti-TNF-α c > No. (%): 1 (20)
+Actinic keratosis | Events > No. (%): 5 (3.9)
+Actinic keratosis | Time to event (months) > Median a: 26.3
+Actinic keratosis | Time to event (months) > Range: 4.5–112.9
+Actinic keratosis | Events during treatment > No. (%): 2 (40)
+Actinic keratosis | Major events > No. (%): 0
+Actinic keratosis | Histology > No. (%): 3 (60)
+Actinic keratosis | DMARDs b > No. (%): 5 (100)
+Actinic keratosis | Prednisolone b > No. (%): 2 (40)
+Actinic keratosis | Permanent withdrawal of anti-TNF-α c > No. (%): 0
+CVI/varices | Events > No. (%): 4 (3.0)
+CVI/varices | Time to event (months) > Median a: 24.0
+CVI/varices | Time to event (months) > Range: 1.7–33.6
+CVI/varices | Events during treatment > No. (%): 3 (75)
+CVI/varices | Major events > No. (%): 0
+CVI/varices | Histology > No. (%): 0
+CVI/varices | DMARDs b > No. (%): 3 (75)
+CVI/varices | Prednisolone b > No. (%): 2 (50)
+CVI/varices | Permanent withdrawal of anti-TNF-α c > No. (%): 0
+Psoriasis/psoriasiform | Events > No. (%): 3 (2.3)
+Psoriasis/psoriasiform | Time to event (months) > Median a: 15.5
+Psoriasis/psoriasiform | Time to event (months) > Range: 8.4–50.1
+Psoriasis/psoriasiform | Events during treatment > No. (%): 3 (100)
+Psoriasis/psoriasiform | Major events > No. (%): 0
+Psoriasis/psoriasiform | Histology > No. (%): 3 (100)
+Psoriasis/psoriasiform | DMARDs b > No. (%): 0
+Psoriasis/psoriasiform | Prednisolone b > No. (%): 2 (67)
+Psoriasis/psoriasiform | Permanent withdrawal of anti-TNF-α c > No. (%): 1 (33)
+Edema | Events > No. (%): 3 (2.2)
+Edema | Time to event (months) > Median a: 8.2
+Edema | Time to event (months) > Range: 4.0–39.6
+Edema | Events during treatment > No. (%): 2 (67)
+Edema | Major events > No. (%): 0
+Edema | Histology > No. (%): 1 (33)
+Edema | DMARDs b > No. (%): 1 (33)
+Edema | Prednisolone b > No. (%): 1 (33)
+Edema | Permanent withdrawal of anti-TNF-α c > No. (%): 0
+Stasis dermatitis | Events > No. (%): 3 (2.2)
+Stasis dermatitis | Time to event (months) > Median a: 17.5
+Stasis dermatitis | Time to event (months) > Range: 14.6–42.1
+Stasis dermatitis | Events during treatment > No. (%): 3 (100)
+Stasis dermatitis | Major events > No. (%): 0
+Stasis dermatitis | Histology > No. (%): 1 (33)
+Stasis dermatitis | DMARDs b > No. (%): 1 (33)
+Stasis dermatitis | Prednisolone b > No. (%): 1 (33)
+Stasis dermatitis | Permanent withdrawal of anti-TNF-α c > No. (%): 0
+Seborrheic dermatitis | Events > No. (%): 2 (1.5)
+Seborrheic dermatitis | Time to event (months) > Median a: 0.4, 19.8
+Seborrheic dermatitis | Time to event (months) > Range: –
+Seborrheic dermatitis | Events during treatment > No. (%): 2 (100)
+Seborrheic dermatitis | Major events > No. (%): 0
+Seborrheic dermatitis | Histology > No. (%): 0
+Seborrheic dermatitis | DMARDs b > No. (%): 0
+Seborrheic dermatitis | Prednisolone b > No. (%): 0
+Seborrheic dermatitis | Permanent withdrawal of anti-TNF-α c > No. (%): 0
+Other event | Events > No. (%): 8 (6.0)
+Other event | Time to event (months) > Median a: 5.0
+Other event | Time to event (months) > Range: 1.9–25.9
+Other event | Events during treatment > No. (%): 6 (75)
+Other event | Major events > No. (%): 0
+Other event | Histology > No. (%): 4 (50)
+Other event | DMARDs b > No. (%): 4 (50)
+Other event | Prednisolone b > No. (%): 2 (25)
+Other event | Permanent withdrawal of anti-TNF-α c > No. (%): 2 (25)
+Total | Events > No. (%): 128 (100)
+Total | Time to event (months) > Median a: 9.1
+Total | Time to event (months) > Range: 0.1–112.9
+Total | Events during treatment > No. (%): 100 (78)
+Total | Major events > No. (%): 3 (2)
+Total | Histology > No. (%): 47 (37)
+Total | DMARDs b > No. (%): 69 (54)
+Total | Prednisolone b > No. (%): 60 (47)
+Total | Permanent withdrawal of anti-TNF-α c > No. (%): 21 (16)

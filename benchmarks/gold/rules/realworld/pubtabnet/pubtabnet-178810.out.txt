@@ -1,0 +1,32 @@
+Age [mean (S.D.)] | Group I > Controls (n = 10): 40.5 (9.6)
+Age [mean (S.D.)] | Group II > Renal Dysfunction (n = 13): 46.5 (15.0)
+Age [mean (S.D.)] | Group III > Diabetes and Renal Dysfunction (n = 7): 45.1 (11.1)
+Age [mean (S.D.)] | P-value: NS
+Caucasian | Group I > Controls (n = 10): 5 (50)
+Caucasian | Group II > Renal Dysfunction (n = 13): 1 (8)
+Caucasian | Group III > Diabetes and Renal Dysfunction (n = 7): 0
+Black | Group I > Controls (n = 10): 3 (30)
+Black | Group II > Renal Dysfunction (n = 13): 12 (92)
+Black | Group III > Diabetes and Renal Dysfunction (n = 7): 6 (86)
+Black | P-value: 0.02 §
+Other | Group I > Controls (n = 10): 2 (20)
+Other | Group II > Renal Dysfunction (n = 13): 0
+Other | Group III > Diabetes and Renal Dysfunction (n = 7): 1 (14)
+Male | Group I > Controls (n = 10): 5 (50)
+Male | Group II > Renal Dysfunction (n = 13): 7 (54)
+Male | Group III > Diabetes and Renal Dysfunction (n = 7): 3 (43)
+Male | P-value: NS
+Female | Group I > Controls (n = 10): 5 (50)
+Female | Group II > Renal Dysfunction (n = 13): 6 (46)
+Female | Group III > Diabetes and Renal Dysfunction (n = 7): 4 (57)
+[mean kg (S.D.)] | Group I > Controls (n = 10): 75.0 (13.4)
+[mean kg (S.D.)] | Group II > Renal Dysfunction (n = 13): 83.9 (23.1)
+[mean kg (S.D.)] | Group III > Diabetes and Renal Dysfunction (n = 7): 86.0 (25.0)
+[mean kg (S.D.)] | P-value: NS
+Yes | Group I > Controls (n = 10): 1 (10)
+Yes | Group II > Renal Dysfunction (n = 13): 2 (15)
+Yes | Group III > Diabetes and Renal Dysfunction (n = 7): 3 (43)
+Yes | P-value: NS
+No | Group I > Controls (n = 10): 9 (90)
+No | Group II > Renal Dysfunction (n = 13): 11 (85)
+No | Group III > Diabetes and Renal Dysfunction (n = 7): 4 (57)

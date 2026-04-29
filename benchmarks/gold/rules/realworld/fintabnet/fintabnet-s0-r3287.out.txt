@@ -1,0 +1,54 @@
+(Millions) | Net Sales: 2015
+(Millions) | Net Sales: 2014
+(Millions) | Net Sales: 2013
+(Millions) | Operating Income: 2015
+(Millions) | Operating Income: 2014
+(Millions) | Operating Income: 2013
+Industrial | Net Sales: $10,328
+Industrial | Net Sales: $10,990
+Industrial | Net Sales: $10,657
+Industrial | Operating Income: $2,263
+Industrial | Operating Income: $2,389
+Industrial | Operating Income: $2,307
+Safety and Graphics | Net Sales: 5,515
+Safety and Graphics | Net Sales: 5,732
+Safety and Graphics | Net Sales: 5,584
+Safety and Graphics | Operating Income: 1,305
+Safety and Graphics | Operating Income: 1,296
+Safety and Graphics | Operating Income: 1,227
+Health Care | Net Sales: 5,420
+Health Care | Net Sales: 5,572
+Health Care | Net Sales: 5,334
+Health Care | Operating Income: 1,724
+Health Care | Operating Income: 1,724
+Health Care | Operating Income: 1,672
+Electronics and Energy | Net Sales: 5,220
+Electronics and Energy | Net Sales: 5,604
+Electronics and Energy | Net Sales: 5,393
+Electronics and Energy | Operating Income: 1,102
+Electronics and Energy | Operating Income: 1,115
+Electronics and Energy | Operating Income: 954
+Consumer | Net Sales: 4,422
+Consumer | Net Sales: 4,523
+Consumer | Net Sales: 4,435
+Consumer | Operating Income: 1,046
+Consumer | Operating Income: 995
+Consumer | Operating Income: 945
+Corporate and Unallocated | Net Sales: 1
+Corporate and Unallocated | Net Sales: 4
+Corporate and Unallocated | Net Sales: 8
+Corporate and Unallocated | Operating Income: (355)
+Corporate and Unallocated | Operating Income: (251)
+Corporate and Unallocated | Operating Income: (321)
+Elimination of Dual Credit | Net Sales: (632)
+Elimination of Dual Credit | Net Sales: (604)
+Elimination of Dual Credit | Net Sales: (540)
+Elimination of Dual Credit | Operating Income: (139)
+Elimination of Dual Credit | Operating Income: (133)
+Elimination of Dual Credit | Operating Income: (118)
+Total Company | Net Sales: $30,274
+Total Company | Net Sales: $31,821
+Total Company | Net Sales: $30,871
+Total Company | Operating Income: $6,946
+Total Company | Operating Income: $7,135
+Total Company | Operating Income: $6,666

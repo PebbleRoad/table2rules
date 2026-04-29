@@ -1,0 +1,42 @@
+Naive | Expt no.: 1
+Naive | Organ: Thymus
+Naive | 100 × CD4 + CD25 + /CD4 + ( N ) > IFN-γR KO: 3.2 ± 0.6 (5)
+Naive | 100 × CD4 + CD25 + /CD4 + ( N ) > WT: 2.2 ± 0.7 (5)
+Organ: Spleen
+100 × CD4 + CD25 + /CD4 + ( N ) > IFN-γR KO: 10.1 ± 0.9 (3) *
+100 × CD4 + CD25 + /CD4 + ( N ) > WT: 7.4 ± 0.2 (3)
+Organ: Lymph nodes
+100 × CD4 + CD25 + /CD4 + ( N ) > IFN-γR KO: 6.9 ± 1.1 (5)
+100 × CD4 + CD25 + /CD4 + ( N ) > WT: 5.1 ± 1.1 (5)
+Expt no.: 2
+Organ: Spleen
+100 × CD4 + CD25 + /CD4 + ( N ) > IFN-γR KO: 14.4 (1)
+100 × CD4 + CD25 + /CD4 + ( N ) > WT: 9.9 (1)
+Organ: Lymph nodes
+100 × CD4 + CD25 + /CD4 + ( N ) > IFN-γR KO: 9.1 ± 0.9 (4)
+100 × CD4 + CD25 + /CD4 + ( N ) > WT: 6.6 ± 0.7 (4)
+Expt no.: 3
+Organ: Lymph nodes
+100 × CD4 + CD25 + /CD4 + ( N ) > IFN-γR KO: 11.2 (1)
+100 × CD4 + CD25 + /CD4 + ( N ) > WT: 7.0 (1)
+CIA | Expt no.: 4
+CIA | Organ: Thymus
+CIA | 100 × CD4 + CD25 + /CD4 + ( N ) > IFN-γR KO: 3.5 ± 0.9 (3)
+CIA | 100 × CD4 + CD25 + /CD4 + ( N ) > WT: 4.0 ± 1.6 (3)
+Organ: Spleen
+100 × CD4 + CD25 + /CD4 + ( N ) > IFN-γR KO: 11.0 ± 1.3 (2)
+100 × CD4 + CD25 + /CD4 + ( N ) > WT: 7.9 ± 0.7 (2)
+Organ: Lymph nodes
+100 × CD4 + CD25 + /CD4 + ( N ) > IFN-γR KO: 10.2 ± 0.8 (6)
+100 × CD4 + CD25 + /CD4 + ( N ) > WT: 7.7 ± 0.6 (6)
+Expt no.: 5
+Organ: Spleen
+100 × CD4 + CD25 + /CD4 + ( N ) > IFN-γR KO: 12.1 ± 2.9 (3)
+100 × CD4 + CD25 + /CD4 + ( N ) > WT: 9.2 ± 0.8 (3)
+Organ: Lymph nodes
+100 × CD4 + CD25 + /CD4 + ( N ) > IFN-γR KO: 12.9 ± 1.4 (4)
+100 × CD4 + CD25 + /CD4 + ( N ) > WT: 10.3 ± 1.1 (4)
+Expt no.: 6
+Organ: Lymph nodes
+100 × CD4 + CD25 + /CD4 + ( N ) > IFN-γR KO: 13.4 ± 0.4 (4) *
+100 × CD4 + CD25 + /CD4 + ( N ) > WT: 9.2 ± 0.7 (4)

@@ -1,0 +1,56 @@
+2010 > Revenue(1) | First Quarter > (In thousands, except per share data): $138,324
+2010 > Revenue(1) | Second Quarter > (In thousands, except per share data): $133,689
+2010 > Revenue(1) | Third Quarter > (In thousands, except per share data): $133,913
+2010 > Revenue(1) | Fourth Quarter > (In thousands, except per share data): $138,748
+2010 > Operating Income(2) | First Quarter > (In thousands, except per share data): $58,982
+2010 > Operating Income(2) | Second Quarter > (In thousands, except per share data): $56,116
+2010 > Operating Income(2) | Third Quarter > (In thousands, except per share data): $56,164
+2010 > Operating Income(2) | Fourth Quarter > (In thousands, except per share data): $59,212
+2010 > Net income(2) | First Quarter > (In thousands, except per share data): $30,554
+2010 > Net income(2) | Second Quarter > (In thousands, except per share data): $32,368
+2010 > Net income(2) | Third Quarter > (In thousands, except per share data): $31,010
+2010 > Net income(2) | Fourth Quarter > (In thousands, except per share data): $34,305
+2010 > Net income attributable to the Trust(2) | First Quarter > (In thousands, except per share data): $29,220
+2010 > Net income attributable to the Trust(2) | Second Quarter > (In thousands, except per share data): $31,114
+2010 > Net income attributable to the Trust(2) | Third Quarter > (In thousands, except per share data): $29,640
+2010 > Net income attributable to the Trust(2) | Fourth Quarter > (In thousands, except per share data): $32,816
+2010 > Net income available for common shareholders(2) | First Quarter > (In thousands, except per share data): $29,085
+2010 > Net income available for common shareholders(2) | Second Quarter > (In thousands, except per share data): $30,979
+2010 > Net income available for common shareholders(2) | Third Quarter > (In thousands, except per share data): $29,504
+2010 > Net income available for common shareholders(2) | Fourth Quarter > (In thousands, except per share data): $32,681
+2010 > Earnings per common share—basic(2) | First Quarter > (In thousands, except per share data): $0.47
+2010 > Earnings per common share—basic(2) | Second Quarter > (In thousands, except per share data): $0.50
+2010 > Earnings per common share—basic(2) | Third Quarter > (In thousands, except per share data): $0.48
+2010 > Earnings per common share—basic(2) | Fourth Quarter > (In thousands, except per share data): $0.53
+2010 > Earnings per common share—diluted(2) | First Quarter > (In thousands, except per share data): $0.47
+2010 > Earnings per common share—diluted(2) | Second Quarter > (In thousands, except per share data): $0.50
+2010 > Earnings per common share—diluted(2) | Third Quarter > (In thousands, except per share data): $0.48
+2010 > Earnings per common share—diluted(2) | Fourth Quarter > (In thousands, except per share data): $0.53
+2009 > Revenue(1) | First Quarter > (In thousands, except per share data): $131,031
+2009 > Revenue(1) | Second Quarter > (In thousands, except per share data): $130,225
+2009 > Revenue(1) | Third Quarter > (In thousands, except per share data): $130,841
+2009 > Revenue(1) | Fourth Quarter > (In thousands, except per share data): $138,421
+2009 > Operating Income(2) | First Quarter > (In thousands, except per share data): $34,279
+2009 > Operating Income(2) | Second Quarter > (In thousands, except per share data): $55,423
+2009 > Operating Income(2) | Third Quarter > (In thousands, except per share data): $57,577
+2009 > Operating Income(2) | Fourth Quarter > (In thousands, except per share data): $63,304
+2009 > Net income(2) | First Quarter > (In thousands, except per share data): $11,873
+2009 > Net income(2) | Second Quarter > (In thousands, except per share data): $29,794
+2009 > Net income(2) | Third Quarter > (In thousands, except per share data): $28,839
+2009 > Net income(2) | Fourth Quarter > (In thousands, except per share data): $33,366
+2009 > Net income attributable to the Trust(2) | First Quarter > (In thousands, except per share data): $10,484
+2009 > Net income attributable to the Trust(2) | Second Quarter > (In thousands, except per share data): $28,417
+2009 > Net income attributable to the Trust(2) | Third Quarter > (In thousands, except per share data): $27,433
+2009 > Net income attributable to the Trust(2) | Fourth Quarter > (In thousands, except per share data): $31,970
+2009 > Net income available for common shareholders(2) | First Quarter > (In thousands, except per share data): $10,349
+2009 > Net income available for common shareholders(2) | Second Quarter > (In thousands, except per share data): $28,282
+2009 > Net income available for common shareholders(2) | Third Quarter > (In thousands, except per share data): $27,297
+2009 > Net income available for common shareholders(2) | Fourth Quarter > (In thousands, except per share data): $31,835
+2009 > Earnings per common share—basic(2) | First Quarter > (In thousands, except per share data): $0.17
+2009 > Earnings per common share—basic(2) | Second Quarter > (In thousands, except per share data): $0.48
+2009 > Earnings per common share—basic(2) | Third Quarter > (In thousands, except per share data): $0.45
+2009 > Earnings per common share—basic(2) | Fourth Quarter > (In thousands, except per share data): $0.52
+2009 > Earnings per common share—diluted(2) | First Quarter > (In thousands, except per share data): $0.17
+2009 > Earnings per common share—diluted(2) | Second Quarter > (In thousands, except per share data): $0.48
+2009 > Earnings per common share—diluted(2) | Third Quarter > (In thousands, except per share data): $0.45
+2009 > Earnings per common share—diluted(2) | Fourth Quarter > (In thousands, except per share data): $0.52

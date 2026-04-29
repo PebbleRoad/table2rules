@@ -1,0 +1,64 @@
+1 – 3 | Ala > Genes*: 163
+1 – 3 | Ala > E. Level**: 2.59
+1 – 3 | Gly > Genes: 339
+1 – 3 | Gly > E. Level: 2.96
+1 – 3 | Arg > Genes: 558
+1 – 3 | Arg > E. Level: 3.77
+1 – 3 | Val > Genes: 106
+1 – 3 | Val > E. Level: 2.93
+3 – 5 | Ala > Genes*: 1074
+3 – 5 | Ala > E. Level**: 2.11
+3 – 5 | Gly > Genes: 1180
+3 – 5 | Gly > E. Level: 2.43
+3 – 5 | Arg > Genes: 1741
+3 – 5 | Arg > E. Level: 2.92
+3 – 5 | Val > Genes: 941
+3 – 5 | Val > E. Level: 2.48
+5 – 7 | Ala > Genes*: 1212
+5 – 7 | Ala > E. Level**: 2.80
+5 – 7 | Gly > Genes: 1193
+5 – 7 | Gly > E. Level: 3.81
+5 – 7 | Arg > Genes: 802
+5 – 7 | Arg > E. Level: 2.86
+5 – 7 | Val > Genes: 1498
+5 – 7 | Val > E. Level: 3.00
+7 – 9 | Ala > Genes*: 626
+7 – 9 | Ala > E. Level**: 5.36
+7 – 9 | Gly > Genes: 523
+7 – 9 | Gly > E. Level: 6.55
+7 – 9 | Arg > Genes: 201
+7 – 9 | Arg > E. Level: 8.03
+7 – 9 | Val > Genes: 705
+7 – 9 | Val > E. Level: 5.37
+9 – 11 | Ala > Genes*: 246
+9 – 11 | Ala > E. Level**: 9.41
+9 – 11 | Gly > Genes: 158
+9 – 11 | Gly > E. Level: 7.82
+9 – 11 | Arg > Genes: 58
+9 – 11 | Arg > E. Level: 20.34
+9 – 11 | Val > Genes: 171
+9 – 11 | Val > E. Level: 13.22
+11 – 13 | Ala > Genes*: 64
+11 – 13 | Ala > E. Level**: 15.25
+11 – 13 | Gly > Genes: 36
+11 – 13 | Gly > E. Level: 12.79
+11 – 13 | Arg > Genes: 27
+11 – 13 | Arg > E. Level: 17.56
+11 – 13 | Val > Genes: 24
+11 – 13 | Val > E. Level: 16.45
+13 – 15 | Ala > Genes*: 31
+13 – 15 | Ala > E. Level**: 15.76
+13 – 15 | Gly > Genes: 15
+13 – 15 | Gly > E. Level: 12.73
+13 – 15 | Arg > Genes: 9
+13 – 15 | Arg > E. Level: 29.74
+13 – 15 | Val > Genes: 5
+13 – 15 | Val > E. Level: 22.04
+>15 | Ala > Genes*: 35
+>15 | Ala > E. Level**: 15.78
+>15 | Gly > Genes: 7
+>15 | Gly > E. Level: 13.54
+>15 | Arg > Genes: 3
+>15 | Arg > E. Level: 23.90
+>15 | Val > Genes: 2
+>15 | Val > E. Level: 19.55

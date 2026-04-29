@@ -1,0 +1,114 @@
+($ and shares in millions) | Common Stock: Value
+($ and shares in millions) | Common Stock: Shares
+($ and shares in millions) | Preferred Stock: Value
+($ and shares in millions) | Preferred Stock: Shares (a)
+($ and shares in millions) | Treasury Stock: Value
+($ and shares in millions) | Treasury Stock: Shares
+Shares at December 31, 2005 | Common Stock: $1,295
+Shares at December 31, 2005 | Common Stock: 583
+Shares at December 31, 2005 | Preferred Stock: $9
+Shares at December 31, 2005 | Preferred Stock: -
+Shares at December 31, 2005 | Treasury Stock: $1,279
+Shares at December 31, 2005 | Treasury Stock: 28
+Shares acquired for treasury | Common Stock: -
+Shares acquired for treasury | Common Stock: -
+Shares acquired for treasury | Preferred Stock: -
+Shares acquired for treasury | Preferred Stock: -
+Shares acquired for treasury | Treasury Stock: 82
+Shares acquired for treasury | Treasury Stock: 2
+Stock-based awards exercised, including shares issued | Common Stock: -
+Stock-based awards exercised, including shares issued | Common Stock: -
+Stock-based awards exercised, including shares issued | Preferred Stock: -
+Stock-based awards exercised, including shares issued | Preferred Stock: -
+Stock-based awards exercised, including shares issued | Treasury Stock: (84)
+Stock-based awards exercised, including shares issued | Treasury Stock: (2)
+Restricted stock grants | Common Stock: -
+Restricted stock grants | Common Stock: -
+Restricted stock grants | Preferred Stock: -
+Restricted stock grants | Preferred Stock: -
+Restricted stock grants | Treasury Stock: (45)
+Restricted stock grants | Treasury Stock: (1)
+Shares at December 31, 2006 | Common Stock: $1,295
+Shares at December 31, 2006 | Common Stock: 583
+Shares at December 31, 2006 | Preferred Stock: $9
+Shares at December 31, 2006 | Preferred Stock: -
+Shares at December 31, 2006 | Treasury Stock: $1,232
+Shares at December 31, 2006 | Treasury Stock: 27
+Shares acquired for treasury | Common Stock: -
+Shares acquired for treasury | Common Stock: -
+Shares acquired for treasury | Preferred Stock: -
+Shares acquired for treasury | Preferred Stock: -
+Shares acquired for treasury | Treasury Stock: 1,084
+Shares acquired for treasury | Treasury Stock: 27
+Stock-based awards exercised, including treasury shares issued | Common Stock: -
+Stock-based awards exercised, including treasury shares issued | Common Stock: -
+Stock-based awards exercised, including treasury shares issued | Preferred Stock: -
+Stock-based awards exercised, including treasury shares issued | Preferred Stock: -
+Stock-based awards exercised, including treasury shares issued | Treasury Stock: (86)
+Stock-based awards exercised, including treasury shares issued | Treasury Stock: (2)
+Restricted stock grants | Common Stock: -
+Restricted stock grants | Common Stock: -
+Restricted stock grants | Preferred Stock: -
+Restricted stock grants | Preferred Stock: -
+Restricted stock grants | Treasury Stock: (59)
+Restricted stock grants | Treasury Stock: (1)
+Employee stock ownership through benefit plans | Common Stock: -
+Employee stock ownership through benefit plans | Common Stock: -
+Employee stock ownership through benefit plans | Preferred Stock: -
+Employee stock ownership through benefit plans | Preferred Stock: -
+Employee stock ownership through benefit plans | Treasury Stock: 38
+Employee stock ownership through benefit plans | Treasury Stock: 1
+Shares at December 31, 2007 | Common Stock: $1,295
+Shares at December 31, 2007 | Common Stock: 583
+Shares at December 31, 2007 | Preferred Stock: $9
+Shares at December 31, 2007 | Preferred Stock: -
+Shares at December 31, 2007 | Treasury Stock: $2,209
+Shares at December 31, 2007 | Treasury Stock: 52
+Issuance of preferred shares, Series G | Common Stock: -
+Issuance of preferred shares, Series G | Common Stock: -
+Issuance of preferred shares, Series G | Preferred Stock: 1,072
+Issuance of preferred shares, Series G | Preferred Stock: -
+Issuance of preferred shares, Series G | Treasury Stock: -
+Issuance of preferred shares, Series G | Treasury Stock: -
+Issuance of preferred shares, Series F | Common Stock: -
+Issuance of preferred shares, Series F | Common Stock: -
+Issuance of preferred shares, Series F | Preferred Stock: 3,169
+Issuance of preferred shares, Series F | Preferred Stock: -
+Issuance of preferred shares, Series F | Treasury Stock: -
+Issuance of preferred shares, Series F | Treasury Stock: -
+Redemption of preferred shares, Series D, E | Common Stock: -
+Redemption of preferred shares, Series D, E | Common Stock: -
+Redemption of preferred shares, Series D, E | Preferred Stock: (9)
+Redemption of preferred shares, Series D, E | Preferred Stock: -
+Redemption of preferred shares, Series D, E | Treasury Stock: -
+Redemption of preferred shares, Series D, E | Treasury Stock: -
+Stock-based awards exercised, including treasury shares issued | Common Stock: -
+Stock-based awards exercised, including treasury shares issued | Common Stock: -
+Stock-based awards exercised, including treasury shares issued | Preferred Stock: -
+Stock-based awards exercised, including treasury shares issued | Preferred Stock: -
+Stock-based awards exercised, including treasury shares issued | Treasury Stock: (2)
+Stock-based awards exercised, including treasury shares issued | Treasury Stock: -
+Restricted stock grants | Common Stock: -
+Restricted stock grants | Common Stock: -
+Restricted stock grants | Preferred Stock: -
+Restricted stock grants | Preferred Stock: -
+Restricted stock grants | Treasury Stock: (136)
+Restricted stock grants | Treasury Stock: (3)
+Shares issued in business combinations | Common Stock: -
+Shares issued in business combinations | Common Stock: -
+Shares issued in business combinations | Preferred Stock: -
+Shares issued in business combinations | Preferred Stock: -
+Shares issued in business combinations | Treasury Stock: (1,841)
+Shares issued in business combinations | Treasury Stock: (43)
+Employee stock ownership through benefit plans | Common Stock: -
+Employee stock ownership through benefit plans | Common Stock: -
+Employee stock ownership through benefit plans | Preferred Stock: -
+Employee stock ownership through benefit plans | Preferred Stock: -
+Employee stock ownership through benefit plans | Treasury Stock: (1)
+Employee stock ownership through benefit plans | Treasury Stock: -
+Shares at December 31, 2008 | Common Stock: $1,295
+Shares at December 31, 2008 | Common Stock: 583
+Shares at December 31, 2008 | Preferred Stock: $4,241
+Shares at December 31, 2008 | Preferred Stock: -
+Shares at December 31, 2008 | Treasury Stock: $229
+Shares at December 31, 2008 | Treasury Stock: 6

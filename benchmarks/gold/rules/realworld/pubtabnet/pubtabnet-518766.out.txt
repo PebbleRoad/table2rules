@@ -1,0 +1,30 @@
+Q3: strength of belief | Men > N: 83
+Q3: strength of belief | Men > M (SD): 6.95 (2.21)
+Q3: strength of belief | Women > N: 183
+Q3: strength of belief | Women > M (SD): 7.10 (2.12)
+Q3: strength of belief | t-test (Sig.): .593
+Q7: practice of faith | Men > N: 83
+Q7: practice of faith | Men > M (SD): 4.94 (2.87)
+Q7: practice of faith | Women > N: 180
+Q7: practice of faith | Women > M (SD): 5.91 (2.64)
+Q7: practice of faith | t-test (Sig.): .008
+Q8: influence of power or force | Men > N: 85
+Q8: influence of power or force | Men > M (SD): 5.36 (3.14)
+Q8: influence of power or force | Women > N: 182
+Q8: influence of power or force | Women > M (SD): 6.66 (2.38)
+Q8: influence of power or force | t-test (Sig.): <.001
+Q9: enable you to cope | Men > N: 85
+Q9: enable you to cope | Men > M (SD): 5.44 (3.10)
+Q9: enable you to cope | Women > N: 180
+Q9: enable you to cope | Women > M (SD): 6.72 (2.29)
+Q9: enable you to cope | t-test (Sig.): <.001
+Q10: influence on world affairs | Men > N: 85
+Q10: influence on world affairs | Men > M (SD): 3.48 (2.90)
+Q10: influence on world affairs | Women > N: 181
+Q10: influence on world affairs | Women > M (SD): 4.69 (2.77)
+Q10: influence on world affairs | t-test (Sig.): .001
+Q11: natural disasters | Men > N: 85
+Q11: natural disasters | Men > M (SD): 4.26 (3.27)
+Q11: natural disasters | Women > N: 182
+Q11: natural disasters | Women > M (SD): 5.45 (2.93)
+Q11: natural disasters | t-test (Sig.): .003

@@ -1,0 +1,30 @@
+Depressive disorders | Number > Yes: 216
+Depressive disorders | Number > No: 249
+Depressive disorders | % PPH > Yes: 73.8
+Depressive disorders | % PPH > No: 34.6
+Depressive disorders | P-value: <0.0001
+Anxiety | Number > Yes: 216
+Anxiety | Number > No: 380
+Anxiety | % PPH > Yes: 76.5
+Anxiety | % PPH > No: 39.7
+Anxiety | P-value: <0.0001
+Compulsive disorders | Number > Yes: 23
+Compulsive disorders | Number > No: 441
+Compulsive disorders | % PPH > Yes: 76.5
+Compulsive disorders | % PPH > No: 44.4
+Compulsive disorders | P-value: 0.0001
+Social phobia | Number > Yes: 10
+Social phobia | Number > No: 455
+Social phobia | % PPH > Yes: 60.0
+Social phobia | % PPH > No: 46.2
+Social phobia | P-value: NS
+Probable alcohol abuse/dependent | Number > Yes: 32
+Probable alcohol abuse/dependent | Number > No: 433
+Probable alcohol abuse/dependent | % PPH > Yes: 46.9
+Probable alcohol abuse/dependent | % PPH > No: 46.4
+Probable alcohol abuse/dependent | P-value: NS
+Eating disorders | Number > Yes: 11
+Eating disorders | Number > No: 454
+Eating disorders | % PPH > Yes: 54.5
+Eating disorders | % PPH > No: 46.3
+Eating disorders | P-value: NS

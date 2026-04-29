@@ -1,0 +1,32 @@
+CLDN1 | Forward > Sequence 5'–3': ttcgtacctggcattgactgg
+CLDN1 | Forward > Size (bp): 378–399
+CLDN1 | Forward: 22
+CLDN1 | Reverse > Sequence 5'–3': ttc gta cct ggc att gac tgg
+CLDN1 | Reverse > Size (bp): 470–490
+CLDN1 | Reverse: 21
+CLDN1 | Product size (bp): 112
+CLDN1 | GI number: 4559277
+CLDN3 | Forward > Sequence 5'–3': ctgctctgctgctcgtgtcc
+CLDN3 | Forward > Size (bp): 732–751
+CLDN3 | Forward: 20
+CLDN3 | Reverse > Sequence 5'–3': ttagacgtagtccttgcggtcgtag
+CLDN3 | Reverse > Size (bp): 836–860
+CLDN3 | Reverse: 25
+CLDN3 | Product size (bp): 128
+CLDN3 | GI number: 21536298
+CLDN4 | Forward > Sequence 5'–3': ggctgctttgctgcaactgtc
+CLDN4 | Forward > Size (bp): 741–761
+CLDN4 | Forward: 21
+CLDN4 | Reverse > Sequence 5'–3': gagccgtggcaccttacacg
+CLDN4 | Reverse > Size (bp): 829–848
+CLDN4 | Reverse: 20
+CLDN4 | Product size (bp): 107
+CLDN4 | GI number: 14790131
+GAPDH | Forward > Sequence 5'–3': gaagatggtgatgggatttc
+GAPDH | Forward > Size (bp): 81–98
+GAPDH | Forward: 20
+GAPDH | Reverse > Sequence 5'–3': gaaggtgaaggtcggagt
+GAPDH | Reverse > Size (bp): 287–306
+GAPDH | Reverse: 18
+GAPDH | Product size (bp): 225
+GAPDH | GI number: 7669491

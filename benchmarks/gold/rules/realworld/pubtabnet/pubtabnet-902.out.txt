@@ -1,0 +1,84 @@
+Example: 1
+Do it: 4/16
+Probably do it: 7/16
+Toss up: 3/16
+Probably don't do it: -
+Don't do it: 2/16
+Consensus: Probably do it
+Example: 2
+Do it: 6/16
+Probably do it: 8/16
+Toss up: 2/16
+Probably don't do it: -
+Don't do it: -
+Consensus: Do it
+Example: 3
+Do it: -
+Probably do it: 6/15
+Toss up: 7/15
+Probably don't do it: 2/15
+Don't do it: -
+Consensus: Need more information
+Example: 4
+Do it: 13/15
+Probably do it: 2/15
+Toss up: -
+Probably don't do it: -
+Don't do it: -
+Consensus: Do it
+Example: 5
+Do it: 11/16
+Probably do it: 5/16
+Toss up: -
+Probably don't do it: -
+Don't do it: -
+Consensus: Do it
+Example: 6
+Do it: 11/17
+Probably do it: 5/17
+Toss up: 1/17
+Probably don't do it: -
+Don't do it: -
+Consensus: Do it
+Example: 7
+Do it: 1/17
+Probably do it: 7/17
+Toss up: 2/17
+Probably don't do it: 6/17
+Don't do it: 1/17
+Consensus: Probably do it
+Example: 8
+Do it: 2/15
+Probably do it: 7/15
+Toss up: 4/15
+Probably don't do it: 2/15
+Don't do it: -
+Consensus: Do it
+Example: 9
+Do it: 1/17
+Probably do it: 4/17
+Toss up: 8/17
+Probably don't do it: 4/17
+Don't do it: -
+Consensus: Probably don't do it/Tossup
+Example: 10
+Do it: -
+Probably do it: 2/17
+Toss up: 6/17
+Probably don't do it: 7/17
+Don't do it: 2/17
+Consensus: No consensus
+Example: 11
+Do it: 7/17
+Probably do it: 8/17
+Toss up: 2/17
+Probably don't do it: -
+Don't do it: -
+Consensus: Do it
+Example: 12
+Do it: -
+Probably do it: -
+Toss up: -
+Probably don't do it: 4/13
+Don't do it: 9/13
+Consensus: No consensus

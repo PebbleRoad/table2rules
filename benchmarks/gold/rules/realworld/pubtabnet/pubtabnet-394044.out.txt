@@ -1,0 +1,28 @@
+CD3 + CD56 - | Donor > NSL: 73 ± 30
+CD3 + CD56 - | Donor > NSL + DC-Tu per: 76 ± 24
+CD3 + CD56 - | Breast cancer > NSL: 75 ± 17
+CD3 + CD56 - | Breast cancer > NSL + DC-Tu per: 73 ± 15
+CD3 - CD56 + | Donor > NSL: 6 + 8
+CD3 - CD56 + | Donor > NSL + DC-Tu per: 5 ± 6
+CD3 - CD56 + | Breast cancer > NSL: 10 ± 13
+CD3 - CD56 + | Breast cancer > NSL + DC-Tu per: 5 ± 5
+CD3 + CD56 + | Donor > NSL: 18 ± 21
+CD3 + CD56 + | Donor > NSL + DC-Tu per: 18 ± 18
+CD3 + CD56 + | Breast cancer > NSL: 11 ± 5
+CD3 + CD56 + | Breast cancer > NSL + DC-Tu per: 20 ± 13
+CD4 + T cell | Donor > NSL: 28 ± 30
+CD4 + T cell | Donor > NSL + DC-Tu per: 24 ± 27
+CD4 + T cell | Breast cancer > NSL: 29 ± 21
+CD4 + T cell | Breast cancer > NSL + DC-Tu per: 31 ± 22
+CD8 + T cell | Donor > NSL: 51 ± 21
+CD8 + T cell | Donor > NSL + DC-Tu per: 57 ± 18
+CD8 + T cell | Breast cancer > NSL: 51 ± 19
+CD8 + T cell | Breast cancer > NSL + DC-Tu per: 59 ± 18
+TCR α/β | Donor > NSL: 75 ± 23
+TCR α/β | Donor > NSL + DC-Tu per: 77 ± 23
+TCR α/β | Breast cancer > NSL: 70 ± 20
+TCR α/β | Breast cancer > NSL + DC-Tu per: 83 ± 12
+TCR γ/δ | Donor > NSL: 14 ± 15
+TCR γ/δ | Donor > NSL + DC-Tu per: 13 ± 18
+TCR γ/δ | Breast cancer > NSL: 14 ± 11
+TCR γ/δ | Breast cancer > NSL + DC-Tu per: 11 ± 12

@@ -1,0 +1,42 @@
+Multivariate RR (95% CI) a | Average childhood figure (ages 5–10 years) > 1: 1.00
+Multivariate RR (95% CI) a | Average childhood figure (ages 5–10 years) > 1.5–2: 0.93 (0.79–1.08)
+Multivariate RR (95% CI) a | Average childhood figure (ages 5–10 years) > 2.5–3: 0.90 (0.76–1.06)
+Multivariate RR (95% CI) a | Average childhood figure (ages 5–10 years) > 3.5–4.5: 0.81 (0.68–0.96)
+Multivariate RR (95% CI) a | Average childhood figure (ages 5–10 years) > ≥ 5: 0.48 (0.35–0.65)
+Multivariate RR (95% CI) a | P for trend d: <0.0001
+BMI at age 18 years | Average childhood figure (ages 5–10 years) > 1: 1.00
+BMI at age 18 years | Average childhood figure (ages 5–10 years) > 1.5–2: 0.95 (0.81–1.11)
+BMI at age 18 years | Average childhood figure (ages 5–10 years) > 2.5–3: 0.95 (0.80–1.12)
+BMI at age 18 years | Average childhood figure (ages 5–10 years) > 3.5–4.5: 0.87 (0.72–1.05)
+BMI at age 18 years | Average childhood figure (ages 5–10 years) > ≥ 5: 0.53 (0.38–0.73)
+BMI at age 18 years | P for trend d: 0.004
+Current BMI | Average childhood figure (ages 5–10 years) > 1: 1.00
+Current BMI | Average childhood figure (ages 5–10 years) > 1.5–2: 0.93 (0.80–1.09)
+Current BMI | Average childhood figure (ages 5–10 years) > 2.5–3: 0.92 (0.78–1.08)
+Current BMI | Average childhood figure (ages 5–10 years) > 3.5–4.5: 0.84 (0.70–1.01)
+Current BMI | Average childhood figure (ages 5–10 years) > ≥ 5: 0.51 (0.37–0.69)
+Current BMI | P for trend d: 0.0003
+Cumulatively averaged BMI | Average childhood figure (ages 5–10 years) > 1: 1.00
+Cumulatively averaged BMI | Average childhood figure (ages 5–10 years) > 1.5–2: 0.94 (0.81–1.10)
+Cumulatively averaged BMI | Average childhood figure (ages 5–10 years) > 2.5–3: 0.93 (0.79–1.10)
+Cumulatively averaged BMI | Average childhood figure (ages 5–10 years) > 3.5–4.5: 0.86 (0.72–1.03)
+Cumulatively averaged BMI | Average childhood figure (ages 5–10 years) > ≥ 5: 0.52 (0.38–0.71)
+Cumulatively averaged BMI | P for trend d: 0.001
+Age at menarche | Average childhood figure (ages 5–10 years) > 1: 1.00
+Age at menarche | Average childhood figure (ages 5–10 years) > 1.5–2: 0.93 (0.80–1.09)
+Age at menarche | Average childhood figure (ages 5–10 years) > 2.5–3: 0.89 (0.76–1.05)
+Age at menarche | Average childhood figure (ages 5–10 years) > 3.5–4.5: 0.80 (0.67–0.95)
+Age at menarche | Average childhood figure (ages 5–10 years) > ≥ 5: 0.47 (0.34–0.64)
+Age at menarche | P for trend d: <0.0001
+Age at menarche, time until regular cycles | Average childhood figure (ages 5–10 years) > 1: 1.00
+Age at menarche, time until regular cycles | Average childhood figure (ages 5–10 years) > 1.5–2: 0.93 (0.80–1.09)
+Age at menarche, time until regular cycles | Average childhood figure (ages 5–10 years) > 2.5–3: 0.89 (0.76–1.05)
+Age at menarche, time until regular cycles | Average childhood figure (ages 5–10 years) > 3.5–4.5: 0.80 (0.67–0.95)
+Age at menarche, time until regular cycles | Average childhood figure (ages 5–10 years) > ≥ 5: 0.47 (0.34–0.64)
+Age at menarche, time until regular cycles | P for trend d: <0.0001
+Age at menarche, regularity/length of cycles, ages 18–22 years | Average childhood figure (ages 5–10 years) > 1: 1.00
+Age at menarche, regularity/length of cycles, ages 18–22 years | Average childhood figure (ages 5–10 years) > 1.5–2: 0.93 (0.80–1.09)
+Age at menarche, regularity/length of cycles, ages 18–22 years | Average childhood figure (ages 5–10 years) > 2.5–3: 0.89 (0.76–1.05)
+Age at menarche, regularity/length of cycles, ages 18–22 years | Average childhood figure (ages 5–10 years) > 3.5–4.5: 0.79 (0.67–0.95)
+Age at menarche, regularity/length of cycles, ages 18–22 years | Average childhood figure (ages 5–10 years) > ≥ 5: 0.47 (0.34–0.64)
+Age at menarche, regularity/length of cycles, ages 18–22 years | P for trend d: <0.0001

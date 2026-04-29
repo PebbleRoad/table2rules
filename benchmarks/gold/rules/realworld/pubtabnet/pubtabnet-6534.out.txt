@@ -1,0 +1,137 @@
+Quality of outcome: Depression severity
+Transient side effects > Poisining fatalities | Relative importance of outcome: Depression severity
+Transient side effects > Poisining fatalities: Transient side effects
+Transient side effects > Poisining fatalities: Poisining fatalities
+Rater: 1
+Quality of outcome: H
+H > Vl | Relative importance of outcome: 7
+H > Vl: 9
+H > Vl: 9
+H > Vl | Overall quality: H or Vl
+H > Vl | Balance benefits vs harm: Uncertain net benefit
+H > Vl | Recommendation: Don't do it
+Rater: 2
+Quality of outcome: M
+M > Vl | Relative importance of outcome: 9
+M > Vl: 6
+M > Vl: 7
+M > Vl | Overall quality: Vl
+M > Vl | Balance benefits vs harm: Net benefit
+M > Vl | Recommendation: Probably do it
+Rater: 3
+Quality of outcome: H
+H > M | Relative importance of outcome: 8
+H > M: 7
+H > M: 9
+H > M | Overall quality: H
+H > M | Balance benefits vs harm: Uncertain net benefit
+H > M | Recommendation: Toss up
+Rater: 4
+Quality of outcome: H
+H > L | Relative importance of outcome: 6
+H > L: 5
+H > L: 6
+Rater: 5
+Quality of outcome: M
+M | Relative importance of outcome: 9
+M: 6
+M: 8
+M | Overall quality: M
+M | Balance benefits vs harm: Net benefit
+M | Recommendation: Do it
+Rater: 6
+Quality of outcome: M
+M > Vl | Relative importance of outcome: 9
+M > Vl: 6
+M > Vl: 9
+M > Vl | Overall quality: Vl
+M > Vl | Balance benefits vs harm: Net benefit
+M > Vl | Recommendation: Do it
+Rater: 7
+Quality of outcome: M
+M > L | Relative importance of outcome: 8
+M > L: 7
+M > L: 8
+M > L | Overall quality: L
+M > L | Balance benefits vs harm: Net benefit
+M > L | Recommendation: Do it
+Rater: 8
+Quality of outcome: H
+H > Vl | Relative importance of outcome: 9
+H > Vl: 5
+H > Vl: 3
+H > Vl | Overall quality: H
+H > Vl | Balance benefits vs harm: Net benefit
+H > Vl | Recommendation: Probably do it
+Rater: 9
+Quality of outcome: M
+M > L | Relative importance of outcome: 9
+M > L: 6
+M > L: 8
+M > L | Overall quality: L
+M > L | Balance benefits vs harm: Net benefit
+M > L | Recommendation: Probably do it
+Rater: 10
+Quality of outcome: M
+M > L | Relative importance of outcome: 9
+M > L: 7
+M > L: 8
+M > L | Overall quality: L
+M > L | Balance benefits vs harm: Net benefit
+M > L | Recommendation: Probably do it
+Rater: 11
+Quality of outcome: H
+H > L | Relative importance of outcome: 8
+H > L: 5
+H > L: 7
+H > L | Overall quality: L
+H > L | Balance benefits vs harm: Trade offs
+H > L | Recommendation: Probably do it
+Rater: 12
+Quality of outcome: H
+H > L | Relative importance of outcome: 8
+H > L: 5
+H > L: 7
+H > L | Overall quality: L
+H > L | Balance benefits vs harm: Trade offs
+H > L | Recommendation: Probably do it
+Rater: 13
+Quality of outcome: M
+H > M | Relative importance of outcome: 9
+H > M: 7
+H > M: 9
+H > M | Overall quality: M
+H > M | Balance benefits vs harm: Net benefit
+H > M | Recommendation: Do it
+Rater: 14
+Quality of outcome: M
+M > L | Relative importance of outcome: 9
+M > L: 9
+M > L: 5 OR 9
+M > L | Overall quality: M
+M > L | Balance benefits vs harm: Net benefit
+M > L | Recommendation: Probably do it
+Rater: 15
+Quality of outcome: M
+M > Vl | Relative importance of outcome: 9
+M > Vl: 6
+M > Vl: 8
+M > Vl | Overall quality: Vl
+M > Vl | Balance benefits vs harm: Uncertain net benefit
+M > Vl | Recommendation: Toss up
+Rater: 16
+Quality of outcome: M
+M > Vl | Relative importance of outcome: 9
+M > Vl: 5
+M > Vl: 9
+M > Vl | Overall quality: Vl
+M > Vl | Balance benefits vs harm: Not net benefit
+M > Vl | Recommendation: Don't do it
+Rater: 17
+Quality of outcome: M
+M | Relative importance of outcome: 9
+M: 9
+M: 9
+M | Overall quality: M
+M | Balance benefits vs harm: Net benefit
+M | Recommendation: Toss up

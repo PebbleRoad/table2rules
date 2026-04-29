@@ -1,0 +1,128 @@
+α 1 = 0.005 | Radial Score Test: 0.02
+α 1 = 0.005 | DIR Score Test: 0.02
+α 1 = 0.005 | Besag and Newell's Test ( k = 7): 0.01
+α 1 = 0.005 | Cuzick and Edwards' Test ( k = 7): 0.02
+α 1 = 0.005 | Tango's Test ( τ = 5): 0.02
+α 1 = 0.005 | LRS DIR Test: 0.02
+α 1 = 0.005 | LRS DD Test: 0.02
+α 1 = 0.005 | Stone's Test: 0.02
+α 1 = 0.05 | Radial Score Test: 0.02
+α 1 = 0.05 | DIR Score Test: 0.02
+α 1 = 0.05 | Besag and Newell's Test ( k = 7): 0.01
+α 1 = 0.05 | Cuzick and Edwards' Test ( k = 7): 0.02
+α 1 = 0.05 | Tango's Test ( τ = 5): 0.03
+α 1 = 0.05 | LRS DIR Test: 0.02
+α 1 = 0.05 | LRS DD Test: 0.03
+α 1 = 0.05 | Stone's Test: 0.02
+α 1 = 0.1 | Radial Score Test: 0.02
+α 1 = 0.1 | DIR Score Test: 0.02
+α 1 = 0.1 | Besag and Newell's Test ( k = 7): 0.01
+α 1 = 0.1 | Cuzick and Edwards' Test ( k = 7): 0.02
+α 1 = 0.1 | Tango's Test ( τ = 5): 0.03
+α 1 = 0.1 | LRS DIR Test: 0.02
+α 1 = 0.1 | LRS DD Test: 0.03
+α 1 = 0.1 | Stone's Test: 0.03
+α 1 = 1 | Radial Score Test: 0.05
+α 1 = 1 | DIR Score Test: 0.02
+α 1 = 1 | Besag and Newell's Test ( k = 7): 0.01
+α 1 = 1 | Cuzick and Edwards' Test ( k = 7): 0.03
+α 1 = 1 | Tango's Test ( τ = 5): 0.04
+α 1 = 1 | LRS DIR Test: 0.02
+α 1 = 1 | LRS DD Test: 0.04
+α 1 = 1 | Stone's Test: 0.05
+α 1 = 2 | Radial Score Test: 0.03
+α 1 = 2 | DIR Score Test: 0.02
+α 1 = 2 | Besag and Newell's Test ( k = 7): 0.01
+α 1 = 2 | Cuzick and Edwards' Test ( k = 7): 0.04
+α 1 = 2 | Tango's Test ( τ = 5): 0.02
+α 1 = 2 | LRS DIR Test: 0.03
+α 1 = 2 | LRS DD Test: 0.01
+α 1 = 2 | Stone's Test: 0.03
+α 1 = 10 | Radial Score Test: 0.04
+α 1 = 10 | DIR Score Test: 0.02
+α 1 = 10 | Besag and Newell's Test ( k = 7): 0.01
+α 1 = 10 | Cuzick and Edwards' Test ( k = 7): 0.05
+α 1 = 10 | Tango's Test ( τ = 5): 0.03
+α 1 = 10 | LRS DIR Test: 0.02
+α 1 = 10 | LRS DD Test: 0.03
+α 1 = 10 | Stone's Test: 0.03
+α 3 and α 4 = 0.005 | Radial Score Test: 0.03
+α 3 and α 4 = 0.005 | DIR Score Test: 0.04
+α 3 and α 4 = 0.005 | Besag and Newell's Test ( k = 7): 0.01
+α 3 and α 4 = 0.005 | Cuzick and Edwards' Test ( k = 7): 0.02
+α 3 and α 4 = 0.005 | Tango's Test ( τ = 5): 0.03
+α 3 and α 4 = 0.005 | LRS DIR Test: 0.04
+α 3 and α 4 = 0.005 | LRS DD Test: 0.03
+α 3 and α 4 = 0.005 | Stone's Test: 0.02
+α 3 and α 4 = 0.1 | Radial Score Test: 0.03
+α 3 and α 4 = 0.1 | DIR Score Test: 0.04
+α 3 and α 4 = 0.1 | Besag and Newell's Test ( k = 7): 0.02
+α 3 and α 4 = 0.1 | Cuzick and Edwards' Test ( k = 7): 0.02
+α 3 and α 4 = 0.1 | Tango's Test ( τ = 5): 0.02
+α 3 and α 4 = 0.1 | LRS DIR Test: 0.05
+α 3 and α 4 = 0.1 | LRS DD Test: 0.02
+α 3 and α 4 = 0.1 | Stone's Test: 0.02
+α 3 and α 4 = 0.2 | Radial Score Test: 0.03
+α 3 and α 4 = 0.2 | DIR Score Test: 0.03
+α 3 and α 4 = 0.2 | Besag and Newell's Test ( k = 7): 0.01
+α 3 and α 4 = 0.2 | Cuzick and Edwards' Test ( k = 7): 0.01
+α 3 and α 4 = 0.2 | Tango's Test ( τ = 5): 0.03
+α 3 and α 4 = 0.2 | LRS DIR Test: 0.01
+α 3 and α 4 = 0.2 | LRS DD Test: 0.03
+α 3 and α 4 = 0.2 | Stone's Test: 0.02
+α 3 and α 4 = 0.5 | Radial Score Test: 0.03
+α 3 and α 4 = 0.5 | DIR Score Test: 0.00
+α 3 and α 4 = 0.5 | Besag and Newell's Test ( k = 7): 0.02
+α 3 and α 4 = 0.5 | Cuzick and Edwards' Test ( k = 7): 0.01
+α 3 and α 4 = 0.5 | Tango's Test ( τ = 5): 0.02
+α 3 and α 4 = 0.5 | LRS DIR Test: 0.00
+α 3 and α 4 = 0.5 | LRS DD Test: 0.02
+α 3 and α 4 = 0.5 | Stone's Test: 0.02
+α 3 and α 4 = 1 | Radial Score Test: 0.03
+α 3 and α 4 = 1 | DIR Score Test: 0.00
+α 3 and α 4 = 1 | Besag and Newell's Test ( k = 7): 0.03
+α 3 and α 4 = 1 | Cuzick and Edwards' Test ( k = 7): 0.00
+α 3 and α 4 = 1 | Tango's Test ( τ = 5): 0.03
+α 3 and α 4 = 1 | LRS DIR Test: 0.00
+α 3 and α 4 = 1 | LRS DD Test: 0.03
+α 3 and α 4 = 1 | Stone's Test: 0.02
+α 3 and α 4 = 2 | Radial Score Test: 0.03
+α 3 and α 4 = 2 | DIR Score Test: 0.00
+α 3 and α 4 = 2 | Besag and Newell's Test ( k = 7): 0.04
+α 3 and α 4 = 2 | Cuzick and Edwards' Test ( k = 7): 0.00
+α 3 and α 4 = 2 | Tango's Test ( τ = 5): 0.04
+α 3 and α 4 = 2 | LRS DIR Test: 0.00
+α 3 and α 4 = 2 | LRS DD Test: 0.04
+α 3 and α 4 = 2 | Stone's Test: 0.03
+α 2 = 0.05 | Radial Score Test: 0.03
+α 2 = 0.05 | DIR Score Test: 0.02
+α 2 = 0.05 | Besag and Newell's Test ( k = 7): 0.02
+α 2 = 0.05 | Cuzick and Edwards' Test ( k = 7): 0.02
+α 2 = 0.05 | Tango's Test ( τ = 5): 0.01
+α 2 = 0.05 | LRS DIR Test: 0.02
+α 2 = 0.05 | LRS DD Test: 0.02
+α 2 = 0.05 | Stone's Test: 0.01
+α 2 = 0.1 | Radial Score Test: 0.04
+α 2 = 0.1 | DIR Score Test: 0.02
+α 2 = 0.1 | Besag and Newell's Test ( k = 7): 0.02
+α 2 = 0.1 | Cuzick and Edwards' Test ( k = 7): 0.01
+α 2 = 0.1 | Tango's Test ( τ = 5): 0.01
+α 2 = 0.1 | LRS DIR Test: 0.02
+α 2 = 0.1 | LRS DD Test: 0.01
+α 2 = 0.1 | Stone's Test: 0.00
+α 2 = 0.5 | Radial Score Test: 0.03
+α 2 = 0.5 | DIR Score Test: 0.02
+α 2 = 0.5 | Besag and Newell's Test ( k = 7): 0.04
+α 2 = 0.5 | Cuzick and Edwards' Test ( k = 7): 0.01
+α 2 = 0.5 | Tango's Test ( τ = 5): 0.00
+α 2 = 0.5 | LRS DIR Test: 0.02
+α 2 = 0.5 | LRS DD Test: 0.00
+α 2 = 0.5 | Stone's Test: 0.00
+α 2 = 1 | Radial Score Test: 0.01
+α 2 = 1 | DIR Score Test: 0.02
+α 2 = 1 | Besag and Newell's Test ( k = 7): 0.04
+α 2 = 1 | Cuzick and Edwards' Test ( k = 7): 0.01
+α 2 = 1 | Tango's Test ( τ = 5): 0.00
+α 2 = 1 | LRS DIR Test: 0.02
+α 2 = 1 | LRS DD Test: 0.00
+α 2 = 1 | Stone's Test: 0.00

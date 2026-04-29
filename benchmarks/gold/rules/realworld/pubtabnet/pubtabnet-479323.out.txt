@@ -1,0 +1,61 @@
+Age (years) | Placebo ( n = 98): 63.2 (0.82)
+Age (years) | Risedronate > 5 mg/day ( n = 96): 62.9 (0.90)
+Age (years) | Risedronate > 15 mg/day ( n = 90): 63.8 (0.88)
+Age (years) | P: 0.652 a
+Height (cm) | Placebo ( n = 98): 164.3 (0.90)
+Height (cm) | Risedronate > 5 mg/day ( n = 96): 165.3 (0.97)
+Height (cm) | Risedronate > 15 mg/day ( n = 90): 165.1 (0.93)
+Height (cm) | P: 0.614 a
+Body mass index (kg/m 2 ) | Placebo ( n = 98): 29.2 (0.38)
+Body mass index (kg/m 2 ) | Risedronate > 5 mg/day ( n = 96): 29.0 (0.40)
+Body mass index (kg/m 2 ) | Risedronate > 15 mg/day ( n = 90): 29.2 (0.42)
+Body mass index (kg/m 2 ) | P: 0.799 a
+Sex (no. (%)) | P: 0.307 b
+Male | Placebo ( n = 98): 34 (35%)
+Male | Risedronate > 5 mg/day ( n = 96): 40 (42%)
+Male | Risedronate > 15 mg/day ( n = 90): 41 (46%)
+Female | Placebo ( n = 98): 64 (65%)
+Female | Risedronate > 5 mg/day ( n = 96): 56 (58%)
+Female | Risedronate > 15 mg/day ( n = 90): 49 (54%)
+Post-menopausal (no. (%)) | Placebo ( n = 98): 54 (84%)
+Post-menopausal (no. (%)) | Risedronate > 5 mg/day ( n = 96): 49 (88%)
+Post-menopausal (no. (%)) | Risedronate > 15 mg/day ( n = 90): 43 (88%)
+Post-menopausal (no. (%)) | P: 0.985 b
+Years since menopause | Placebo ( n = 98): 14.4 (1.22)
+Years since menopause | Risedronate > 5 mg/day ( n = 96): 16.5 (1.57)
+Years since menopause | Risedronate > 15 mg/day ( n = 90): 17.4 (1.42)
+Years since menopause | P: 0.273 a
+Oestrogen or SERM use (no. (%)) | Placebo ( n = 98): 18 (28%)
+Oestrogen or SERM use (no. (%)) | Risedronate > 5 mg/day ( n = 96): 15 (27%)
+Oestrogen or SERM use (no. (%)) | Risedronate > 15 mg/day ( n = 90): 10 (20%)
+Oestrogen or SERM use (no. (%)) | P: 0.380 b
+Race (no.) | P: 0.385 b
+Asian Oriental | Placebo ( n = 98): 1
+Asian Oriental | Risedronate > 5 mg/day ( n = 96): 0
+Asian Oriental | Risedronate > 15 mg/day ( n = 90): 0
+Asian Indian | Placebo ( n = 98): 1
+Asian Indian | Risedronate > 5 mg/day ( n = 96): 0
+Asian Indian | Risedronate > 15 mg/day ( n = 90): 2
+Caucasian | Placebo ( n = 98): 96
+Caucasian | Risedronate > 5 mg/day ( n = 96): 96
+Caucasian | Risedronate > 15 mg/day ( n = 90): 88
+Joint-space width (mm) | Placebo ( n = 98): 3.03 (0.05)
+Joint-space width (mm) | Risedronate > 5 mg/day ( n = 96): 2.95 (0.05)
+Joint-space width (mm) | Risedronate > 15 mg/day ( n = 90): 3.01 (0.06)
+Joint-space width (mm) | P: 0.577 a
+WOMAC – weighted total score | Placebo ( n = 98): 50.3 (2.0)
+WOMAC – weighted total score | Risedronate > 5 mg/day ( n = 96): 46.1 (2.0)
+WOMAC – weighted total score | Risedronate > 15 mg/day ( n = 90): 49.4 (2.4)
+WOMAC – weighted total score | P: 0.281 a
+Use of walking aids (no. (%)) | Placebo ( n = 98): 16 (16)
+Use of walking aids (no. (%)) | Risedronate > 5 mg/day ( n = 96): 22 (23)
+Use of walking aids (no. (%)) | Risedronate > 15 mg/day ( n = 90): 12 (13)
+Use of walking aids (no. (%)) | P: 0.224 b
+uCTX-II (ng/mmol creatinine) | Placebo ( n = 98): 312.5 (19.9)
+uCTX-II (ng/mmol creatinine) | Risedronate > 5 mg/day ( n = 96): 328.9 (29.7)
+uCTX-II (ng/mmol creatinine) | Risedronate > 15 mg/day ( n = 90): 340.1 (24.0)
+uCTX-II (ng/mmol creatinine) | P: 0.748 a
+uNTX-I (nmol/mmol creatinine) | Placebo ( n = 98): 40.3 (2.8)
+uNTX-I (nmol/mmol creatinine) | Risedronate > 5 mg/day ( n = 96): 42.3 (4.5)
+uNTX-I (nmol/mmol creatinine) | Risedronate > 15 mg/day ( n = 90): 38.6 (2.2)
+uNTX-I (nmol/mmol creatinine) | P: 0.954 a

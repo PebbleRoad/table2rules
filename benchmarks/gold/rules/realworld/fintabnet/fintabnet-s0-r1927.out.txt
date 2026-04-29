@@ -1,0 +1,40 @@
+(dollars in millions) | Years Ended December 31, > 2014: Net Sales
+(dollars in millions) | Years Ended December 31, > 2014: Percentageof Total Net sales
+(dollars in millions) | Years Ended December 31, > 2013: Net Sales
+(dollars in millions) | Years Ended December 31, > 2013: Percentageof Total Net Sales
+Corporate: > Medium / Large | Years Ended December 31, > 2014: $5,485.4
+Corporate: > Medium / Large | Years Ended December 31, > 2014: 45.4%
+Corporate: > Medium / Large | Years Ended December 31, > 2013: $5,052.7
+Corporate: > Medium / Large | Years Ended December 31, > 2013: 46.9%
+Corporate: > Small Business | Years Ended December 31, > 2014: 990.1
+Corporate: > Small Business | Years Ended December 31, > 2014: 8.2
+Corporate: > Small Business | Years Ended December 31, > 2013: 907.4
+Corporate: > Small Business | Years Ended December 31, > 2013: 8.4
+Corporate: > Total Corporate | Years Ended December 31, > 2014: 6,475.5
+Corporate: > Total Corporate | Years Ended December 31, > 2014: 53.6
+Corporate: > Total Corporate | Years Ended December 31, > 2013: 5,960.1
+Corporate: > Total Corporate | Years Ended December 31, > 2013: 55.3
+Public: > Government | Years Ended December 31, > 2014: 1,449.4
+Public: > Government | Years Ended December 31, > 2014: 12.0
+Public: > Government | Years Ended December 31, > 2013: 1,250.6
+Public: > Government | Years Ended December 31, > 2013: 11.6
+Public: > Education | Years Ended December 31, > 2014: 1,824.0
+Public: > Education | Years Ended December 31, > 2014: 15.1
+Public: > Education | Years Ended December 31, > 2013: 1,449.0
+Public: > Education | Years Ended December 31, > 2013: 13.5
+Public: > Healthcare | Years Ended December 31, > 2014: 1,606.0
+Public: > Healthcare | Years Ended December 31, > 2014: 13.3
+Public: > Healthcare | Years Ended December 31, > 2013: 1,464.9
+Public: > Healthcare | Years Ended December 31, > 2013: 13.6
+Public: > Total Public | Years Ended December 31, > 2014: 4,879.4
+Public: > Total Public | Years Ended December 31, > 2014: 40.4
+Public: > Total Public | Years Ended December 31, > 2013: 4,164.5
+Public: > Total Public | Years Ended December 31, > 2013: 38.7
+Public: > Other | Years Ended December 31, > 2014: 719.6
+Public: > Other | Years Ended December 31, > 2014: 6.0
+Public: > Other | Years Ended December 31, > 2013: 644.0
+Public: > Other | Years Ended December 31, > 2013: 6.0
+Public: > Total Net sales | Years Ended December 31, > 2014: $12,074.5
+Public: > Total Net sales | Years Ended December 31, > 2014: 100.0%
+Public: > Total Net sales | Years Ended December 31, > 2013: $10,768.6
+Public: > Total Net sales | Years Ended December 31, > 2013: 100.0%

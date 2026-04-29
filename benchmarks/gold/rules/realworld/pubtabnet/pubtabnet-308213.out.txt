@@ -1,0 +1,73 @@
+Variable: Independent variables:
+Variable: WTP amounts 1
+Variable: Dependent variables:
+Variable: Baseline 2
+Type of variable: Constant
+Impact on WTP: 0.9368
+95 % CI: (0.3763, 2.3324)
+P value: 0.8864
+Variable: Age 3
+Variable: 18–34
+Type of variable: Binary
+Impact on WTP: 1.1458
+95 % CI: (0.5055, 2.5974)
+P value: 0.7401
+Variable: 35–49
+Type of variable: Binary
+Impact on WTP: 1.6824
+95 % CI: (0.8564, 3.3049)
+P value: 0.1265
+Variable: 50–64
+Type of variable: Binary
+Impact on WTP: 1.3450
+95 % CI: (0.6492, 2.7865)
+P value: 0.4177
+Variable: Female
+Type of variable: Binary
+Impact on WTP: 0.7866
+95 % CI: (0.5222, 1.1851)
+P value: 0.2444
+Variable: Education: Some college or less
+Type of variable: Binary
+Impact on WTP: 0.9690
+95 % CI: (0.6066, 1.5479)
+P value: 0.8934
+Variable: Not married
+Type of variable: Binary
+Impact on WTP: 0.7606
+95 % CI: (0.4610, 1.2551)
+P value: 0.2773
+Variable: Health (Worse than average)
+Type of variable: Binary
+Impact on WTP: 1.1183
+95 % CI: (0.7166, 1.7451)
+P value: 0.6166
+Variable: No children under 18 in household
+Type of variable: Binary
+Impact on WTP: 1.1254
+95 % CI: (0.6360, 1.9911)
+P value: 0.6797
+Variable: Version (initial bid) 4
+Variable: 1 ($100)
+Type of variable: 4 binary variables, one for each initial bid
+Impact on WTP: 1.3809
+95 % CI: (0.7945, 2.4001)
+P value: 0.2460
+Variable: 2 ($200)
+Impact on WTP: 1.0257
+95 % CI: (0.5832, 1.8040)
+P value: 0.9286
+Variable: 3 ($25)
+Impact on WTP: 0.7572
+95 % CI: (0.4293, 1.3355)
+P value: 0.3293
+Variable: Income (less than 3X poverty level)
+Type of variable: Binary
+Impact on WTP: 0.9811
+95 % CI: (0.4957, 1.9416)
+P value: 0.9554
+Variable: Number of disease experienced: None
+Type of variable: Binary (0 v. 1 or more)
+Impact on WTP: 0.6862
+95 % CI: (0.4216, 1.1169)
+P value: 0.1254

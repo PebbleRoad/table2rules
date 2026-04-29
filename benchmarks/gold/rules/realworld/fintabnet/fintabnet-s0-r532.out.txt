@@ -1,0 +1,36 @@
+Foreign exchange instruments qualifying as accounting hedges: > Spot/Forward contracts | September 24, 2005 > Notional Principal: $662
+Foreign exchange instruments qualifying as accounting hedges: > Spot/Forward contracts | September 24, 2005 > Fair Value: $10
+Foreign exchange instruments qualifying as accounting hedges: > Spot/Forward contracts | September 24, 2005 > Credit Risk Amounts: $10
+Foreign exchange instruments qualifying as accounting hedges: > Spot/Forward contracts | September 25, 2004 > Notional Principal: $598
+Foreign exchange instruments qualifying as accounting hedges: > Spot/Forward contracts | September 25, 2004 > Fair Value: $(3)
+Foreign exchange instruments qualifying as accounting hedges: > Spot/Forward contracts | September 25, 2004 > Credit Risk Amounts: $3
+Foreign exchange instruments qualifying as accounting hedges: > Purchased options | September 24, 2005 > Notional Principal: $1,668
+Foreign exchange instruments qualifying as accounting hedges: > Purchased options | September 24, 2005 > Fair Value: $17
+Foreign exchange instruments qualifying as accounting hedges: > Purchased options | September 24, 2005 > Credit Risk Amounts: $17
+Foreign exchange instruments qualifying as accounting hedges: > Purchased options | September 25, 2004 > Notional Principal: $482
+Foreign exchange instruments qualifying as accounting hedges: > Purchased options | September 25, 2004 > Fair Value: $4
+Foreign exchange instruments qualifying as accounting hedges: > Purchased options | September 25, 2004 > Credit Risk Amounts: $4
+Foreign exchange instruments qualifying as accounting hedges: > Sold options | September 24, 2005 > Notional Principal: $1,087
+Foreign exchange instruments qualifying as accounting hedges: > Sold options | September 24, 2005 > Fair Value: $(5)
+Foreign exchange instruments qualifying as accounting hedges: > Sold options | September 24, 2005 > Credit Risk Amounts: $—
+Foreign exchange instruments qualifying as accounting hedges: > Sold options | September 25, 2004 > Notional Principal: $521
+Foreign exchange instruments qualifying as accounting hedges: > Sold options | September 25, 2004 > Fair Value: $(3)
+Foreign exchange instruments qualifying as accounting hedges: > Sold options | September 25, 2004 > Credit Risk Amounts: $—
+Foreign exchange instruments other than accounting hedges: > Spot/Forward contracts | September 24, 2005 > Notional Principal: $833
+Foreign exchange instruments other than accounting hedges: > Spot/Forward contracts | September 24, 2005 > Fair Value: $(3)
+Foreign exchange instruments other than accounting hedges: > Spot/Forward contracts | September 24, 2005 > Credit Risk Amounts: $1
+Foreign exchange instruments other than accounting hedges: > Spot/Forward contracts | September 25, 2004 > Notional Principal: $609
+Foreign exchange instruments other than accounting hedges: > Spot/Forward contracts | September 25, 2004 > Fair Value: $3
+Foreign exchange instruments other than accounting hedges: > Spot/Forward contracts | September 25, 2004 > Credit Risk Amounts: $4
+Foreign exchange instruments other than accounting hedges: > Purchased options | September 24, 2005 > Notional Principal: $115
+Foreign exchange instruments other than accounting hedges: > Purchased options | September 24, 2005 > Fair Value: $—
+Foreign exchange instruments other than accounting hedges: > Purchased options | September 24, 2005 > Credit Risk Amounts: $—
+Foreign exchange instruments other than accounting hedges: > Purchased options | September 25, 2004 > Notional Principal: $—
+Foreign exchange instruments other than accounting hedges: > Purchased options | September 25, 2004 > Fair Value: $—
+Foreign exchange instruments other than accounting hedges: > Purchased options | September 25, 2004 > Credit Risk Amounts: $—
+Foreign exchange instruments other than accounting hedges: > Sold options | September 24, 2005 > Notional Principal: $—
+Foreign exchange instruments other than accounting hedges: > Sold options | September 24, 2005 > Fair Value: $—
+Foreign exchange instruments other than accounting hedges: > Sold options | September 24, 2005 > Credit Risk Amounts: $—
+Foreign exchange instruments other than accounting hedges: > Sold options | September 25, 2004 > Notional Principal: $—
+Foreign exchange instruments other than accounting hedges: > Sold options | September 25, 2004 > Fair Value: $—
+Foreign exchange instruments other than accounting hedges: > Sold options | September 25, 2004 > Credit Risk Amounts: $—

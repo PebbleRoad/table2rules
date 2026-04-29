@@ -1,0 +1,33 @@
+Less than 5 | 1999 > No. of persons discharged from public hospitals in past 6 months*: 44.6%
+Less than 5 | 2001 > No. of persons discharged from public hospitals in past 6 months*: 51.8%
+Less than 5 | 2002 > No. of persons discharged from public hospitals in past 12 months*: 65.0%
+5 – 24 | 1999 > No. of persons discharged from public hospitals in past 6 months*: 36.2%
+5 – 24 | 2001 > No. of persons discharged from public hospitals in past 6 months*: 40.9%
+5 – 24 | 2002 > No. of persons discharged from public hospitals in past 12 months*: 38.2%
+25 – 44 | 1999 > No. of persons discharged from public hospitals in past 6 months*: 31.6%
+25 – 44 | 2001 > No. of persons discharged from public hospitals in past 6 months*: 31.9%
+25 – 44 | 2002 > No. of persons discharged from public hospitals in past 12 months*: 37.6%
+45 – 64 | 1999 > No. of persons discharged from public hospitals in past 6 months*: 27.3%
+45 – 64 | 2001 > No. of persons discharged from public hospitals in past 6 months*: 28.6%
+45 – 64 | 2002 > No. of persons discharged from public hospitals in past 12 months*: 38.0%
+65 or above | 1999 > No. of persons discharged from public hospitals in past 6 months*: 25.7%
+65 or above | 2001 > No. of persons discharged from public hospitals in past 6 months*: 32.2%
+65 or above | 2002 > No. of persons discharged from public hospitals in past 12 months*: 31.7%
+Female | 1999 > No. of persons discharged from public hospitals in past 6 months*: 34.7%
+Female | 2001 > No. of persons discharged from public hospitals in past 6 months*: 36.3%
+Female | 2002 > No. of persons discharged from public hospitals in past 12 months*: 39.4%
+Male | 1999 > No. of persons discharged from public hospitals in past 6 months*: 26.1%
+Male | 2001 > No. of persons discharged from public hospitals in past 6 months*: 31.4%
+Male | 2002 > No. of persons discharged from public hospitals in past 12 months*: 36.8%
+Overall | 1999 > No. of persons discharged from public hospitals in past 6 months*: 30.7%
+Overall | 2001 > No. of persons discharged from public hospitals in past 6 months*: 34.1%
+Overall | 2002 > No. of persons discharged from public hospitals in past 12 months*: 38.2%
+Including the 'less than 5' age group (p-value) | 1999 > No. of persons discharged from public hospitals in past 6 months*: 0.47
+Including the 'less than 5' age group (p-value) | 2001 > No. of persons discharged from public hospitals in past 6 months*: 0.18
+Including the 'less than 5' age group (p-value) | 2002 > No. of persons discharged from public hospitals in past 12 months*: 0.02
+Excluding the 'less than 5' age group (p-value) | 1999 > No. of persons discharged from public hospitals in past 6 months*: 0.53
+Excluding the 'less than 5' age group (p-value) | 2001 > No. of persons discharged from public hospitals in past 6 months*: 0.28
+Excluding the 'less than 5' age group (p-value) | 2002 > No. of persons discharged from public hospitals in past 12 months*: 0.60
+Sex difference (p-value) | 1999 > No. of persons discharged from public hospitals in past 6 months*: 0.04
+Sex difference (p-value) | 2001 > No. of persons discharged from public hospitals in past 6 months*: 0.23
+Sex difference (p-value) | 2002 > No. of persons discharged from public hospitals in past 12 months*: 0.10

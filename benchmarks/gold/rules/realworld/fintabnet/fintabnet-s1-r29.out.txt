@@ -1,0 +1,97 @@
+Weighted-average assumptions used to determine benefit obligations for years ended December 31:: Discount rate
+Pension Plans > 2016 > U.S.: 3.89%
+Pension Plans > 2016 > Non-U.S.: 2.33%
+Pension Plans > 2015 > U.S.: 4.13%
+Pension Plans > 2015 > Non-U.S.: 3.26%
+Pension Plans > 2014 > U.S.: 3.80%
+Pension Plans > 2014 > Non-U.S.: 3.10%
+Postretirement Benefit Plans > 2016: 3.91%
+Postretirement Benefit Plans > 2015: 4.17%
+Postretirement Benefit Plans > 2014: 3.91%
+Weighted-average assumptions used to determine benefit obligations for years ended December 31:: Rate of compensation increase
+Pension Plans > 2016 > U.S.: 3.25%
+Pension Plans > 2016 > Non-U.S.: 2.94%
+Pension Plans > 2015 > U.S.: 3.50%
+Pension Plans > 2015 > Non-U.S.: 3.00%
+Pension Plans > 2014 > U.S.: 3.50%
+Pension Plans > 2014 > Non-U.S.: 3.24%
+Postretirement Benefit Plans > 2016: 3.25%
+Postretirement Benefit Plans > 2015: 3.50%
+Postretirement Benefit Plans > 2014: 3.50%
+Weighted-average assumptions used to determine benefit obligations for years ended December 31:: Health care cost trend
+Weighted-average assumptions used to determine benefit obligations for years ended December 31:: Initial
+Postretirement Benefit Plans > 2016: 7.00%
+Postretirement Benefit Plans > 2015: 7.50%
+Postretirement Benefit Plans > 2014: 7.50%
+Weighted-average assumptions used to determine benefit obligations for years ended December 31:: Decreasing to ultimate trend of
+Postretirement Benefit Plans > 2016: 5.00%
+Postretirement Benefit Plans > 2015: 5.00%
+Postretirement Benefit Plans > 2014: 5.00%
+Weighted-average assumptions used to determine benefit obligations for years ended December 31:: in year
+Postretirement Benefit Plans > 2016: 2021
+Postretirement Benefit Plans > 2015: 2021
+Postretirement Benefit Plans > 2014: 2020
+Weighted-average assumptions used to determine benefit obligations for years ended December 31:: Weighted-average assumptions used to determine net periodic cost for years ended December 31:
+Weighted-average assumptions used to determine benefit obligations for years ended December 31:: Discount rate
+Pension Plans > 2016 > U.S.: 4.13%
+Pension Plans > 2016 > Non-U.S.: 3.26%
+Pension Plans > 2015 > U.S.: 3.80%
+Pension Plans > 2015 > Non-U.S.: 3.10%
+Pension Plans > 2014 > U.S.: 4.59%
+Pension Plans > 2014 > Non-U.S.: 4.18%
+Postretirement Benefit Plans > 2016: 4.17%
+Postretirement Benefit Plans > 2015: 3.91%
+Postretirement Benefit Plans > 2014: 4.75%
+Weighted-average assumptions used to determine benefit obligations for years ended December 31:: Discount rate for service cost
+Pension Plans > 2016 > U.S.: 4.13%
+Pension Plans > 2016 > Non-U.S.: 3.26%
+Pension Plans > 2015 > U.S.: 3.80%
+Pension Plans > 2015 > Non-U.S.: 3.10%
+Pension Plans > 2014 > U.S.: 4.59%
+Pension Plans > 2014 > Non-U.S.: 4.18%
+Postretirement Benefit Plans > 2016: 4.57%
+Postretirement Benefit Plans > 2015: 3.91%
+Postretirement Benefit Plans > 2014: 4.75%
+Weighted-average assumptions used to determine benefit obligations for years ended December 31:: Discount rate for interest cost
+Pension Plans > 2016 > U.S.: 3.33%
+Pension Plans > 2016 > Non-U.S.: 3.26%
+Pension Plans > 2015 > U.S.: 3.80%
+Pension Plans > 2015 > Non-U.S.: 3.10%
+Pension Plans > 2014 > U.S.: 4.59%
+Pension Plans > 2014 > Non-U.S.: 4.18%
+Postretirement Benefit Plans > 2016: 3.42%
+Postretirement Benefit Plans > 2015: 3.91%
+Postretirement Benefit Plans > 2014: 4.75%
+Weighted-average assumptions used to determine benefit obligations for years ended December 31:: Expected return on assets
+Pension Plans > 2016 > U.S.: 7.60%
+Pension Plans > 2016 > Non-U.S.: 5.11%
+Pension Plans > 2015 > U.S.: 7.78%
+Pension Plans > 2015 > Non-U.S.: 5.50%
+Pension Plans > 2014 > U.S.: 7.83%
+Pension Plans > 2014 > Non-U.S.: 5.78%
+Postretirement Benefit Plans > 2016: 3.75%
+Postretirement Benefit Plans > 2015: 3.75%
+Postretirement Benefit Plans > 2014: 3.75%
+Weighted-average assumptions used to determine benefit obligations for years ended December 31:: Rate of compensation increase
+Pension Plans > 2016 > U.S.: 3.50%
+Pension Plans > 2016 > Non-U.S.: 3.00%
+Pension Plans > 2015 > U.S.: 3.50%
+Pension Plans > 2015 > Non-U.S.: 3.24%
+Pension Plans > 2014 > U.S.: 3.50%
+Pension Plans > 2014 > Non-U.S.: 3.49%
+Postretirement Benefit Plans > 2016: 3.50%
+Postretirement Benefit Plans > 2015: 3.50%
+Postretirement Benefit Plans > 2014: 3.50%
+Weighted-average assumptions used to determine benefit obligations for years ended December 31:: Health care cost trend
+Weighted-average assumptions used to determine benefit obligations for years ended December 31:: Initial
+Postretirement Benefit Plans > 2016: 7.50%
+Postretirement Benefit Plans > 2015: 7.50%
+Postretirement Benefit Plans > 2014: 8.00%
+Weighted-average assumptions used to determine benefit obligations for years ended December 31:: Decreasing to ultimate trend of
+Postretirement Benefit Plans > 2016: 5.00%
+Postretirement Benefit Plans > 2015: 5.00%
+Postretirement Benefit Plans > 2014: 5.00%
+Weighted-average assumptions used to determine benefit obligations for years ended December 31:: in year
+Postretirement Benefit Plans > 2016: 2021
+Postretirement Benefit Plans > 2015: 2020
+Postretirement Benefit Plans > 2014: 2020

@@ -1,0 +1,42 @@
+Primer and probe: HAS-1
+855F | Sequence: GACTCCTGGGTCAGCTTCCTAAG
+855F | Position: 855 – 877
+995R | Sequence: AAACTGCTGCAAGAGGTTATTCCT
+995R | Position: 995 – 972
+probe | Sequence: TATCCTGCATCAGCGGTCCTCTAGGC
+probe | Position: 940 – 965
+Primer and probe: HAS-2
+20F | Sequence: CTATGCTTGACCCAGCCTCATC
+20F | Position: 20 – 41
+149R | Sequence: ACACTGCTGAGGAATGAGATCCA
+149R | Position: 149 – 127
+MGB probe a | Sequence: AGATGTCCAGATTTTA
+MGB probe a | Position: 96 – 111
+Primer and probe: HAS-3
+888F | Sequence: TGTCCAGATCCTCAACAAGTACGA
+888F | Position: 888 – 911
+1005R | Sequence: AATACACTGCACACAGCCAAAGTAG
+1005R | Position: 1005 – 981
+probe | Sequence: TCATGGATTTCCTTCCTGAGCAGCGT
+probe | Position: 913 – 938
+Primer and probe: HYAL-1
+1561F | Sequence: AGTGGTGCTCTGGGTGAGCT
+1561F | Position: 1561 – 1580
+1667R | Sequence: TGGTCACGTTCAGGATGAAGG
+1667R | Position: 1667 – 1647
+probe | Sequence: CCAAGGAATCATGTCAGGCCATCAAGG
+probe | Position: 1596 – 1622
+Primer and probe: HYAL-2
+1069F | Sequence: CGCAGCTGGTGTCATCCTCT
+1069F | Position: 1069 – 1088
+1159R | Sequence: CAGCAGCCGTGTCAGGTAATC
+1159R | Position: 1159 – 1139
+probe | Sequence: TACACCACAAGCACGGAGACCTGCC
+probe | Position: 1103 – 1127
+Primer and probe: HYAL-3
+1130F | Sequence: GCCTCACACACCGGAGATCT
+1130F | Position: 1130 – 1149
+1202R | Sequence: GCTGCACTCACACCAATGGA
+1202R | Position: 1202 – 1183
+probe | Sequence: TCCTGTCCCAGGATGACCTTGTGCA
+probe | Position: 1157 – 1181

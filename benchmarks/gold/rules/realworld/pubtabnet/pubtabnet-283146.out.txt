@@ -1,0 +1,42 @@
+Registration: period
+Priority 1: N
+Priority 1: (%)
+Priority 2: N
+Priority 2: (%)
+Priority 3: N
+Priority 3: (%)
+Registration: 1991–1992
+Priority 1: 116
+Priority 1: (6.7)
+Priority 2: 1221
+Priority 2: (70.8)
+Priority 3: 334
+Priority 3: (19.4)
+Registration: 1993–1994
+Priority 1: 110
+Priority 1: (5.8)
+Priority 2: 1381
+Priority 2: (73.1)
+Priority 3: 388
+Priority 3: (20.5)
+Registration: 1995–1996
+Priority 1: 249
+Priority 1: (12.4)
+Priority 2: 1363
+Priority 2: (67.8)
+Priority 3: 374
+Priority 3: (18.6)
+Registration: 1997–1998
+Priority 1: 117
+Priority 1: (6.2)
+Priority 2: 1327
+Priority 2: (70.3)
+Priority 3: 428
+Priority 3: (22.7)
+Registration: 1999–2000
+Priority 1: 67
+Priority 1: (3.9)
+Priority 2: 1204
+Priority 2: (70.0)
+Priority 3: 439
+Priority 3: (25.5)

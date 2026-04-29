@@ -1,0 +1,30 @@
+East > Rental income | 2007 > (Dollars and square feet in thousands): $363,698
+East > Rental income | 2006 > (Dollars and square feet in thousands): $318,176
+East > Rental income | 2005 > (Dollars and square feet in thousands): $292,688
+East > Total revenue | 2007 > (Dollars and square feet in thousands): $375,857
+East > Total revenue | 2006 > (Dollars and square feet in thousands): $325,928
+East > Total revenue | 2005 > (Dollars and square feet in thousands): $299,658
+East > Property operating income(1) | 2007 > (Dollars and square feet in thousands): $267,704
+East > Property operating income(1) | 2006 > (Dollars and square feet in thousands): $236,968
+East > Property operating income(1) | 2005 > (Dollars and square feet in thousands): $214,352
+East > Property operating income as a percent of total revenue | 2007 > (Dollars and square feet in thousands): 71.2%
+East > Property operating income as a percent of total revenue | 2006 > (Dollars and square feet in thousands): 72.7%
+East > Property operating income as a percent of total revenue | 2005 > (Dollars and square feet in thousands): 71.5%
+East > Gross leasable square feet | 2007 > (Dollars and square feet in thousands): 15,568
+East > Gross leasable square feet | 2006 > (Dollars and square feet in thousands): 16,195
+East > Gross leasable square feet | 2005 > (Dollars and square feet in thousands): 14,941
+West > Rental income | 2007 > (Dollars and square feet in thousands): $104,800
+West > Rental income | 2006 > (Dollars and square feet in thousands): $96,803
+West > Rental income | 2005 > (Dollars and square feet in thousands): $83,239
+West > Total revenue | 2007 > (Dollars and square feet in thousands): $110,035
+West > Total revenue | 2006 > (Dollars and square feet in thousands): $101,607
+West > Total revenue | 2005 > (Dollars and square feet in thousands): $91,150
+West > Property operating income(1) | 2007 > (Dollars and square feet in thousands): $70,565
+West > Property operating income(1) | 2006 > (Dollars and square feet in thousands): $64,606
+West > Property operating income(1) | 2005 > (Dollars and square feet in thousands): $57,952
+West > Property operating income as a percent of total revenue | 2007 > (Dollars and square feet in thousands): 64.1%
+West > Property operating income as a percent of total revenue | 2006 > (Dollars and square feet in thousands): 63.6%
+West > Property operating income as a percent of total revenue | 2005 > (Dollars and square feet in thousands): 63.6%
+West > Gross leasable square feet | 2007 > (Dollars and square feet in thousands): 2,627
+West > Gross leasable square feet | 2006 > (Dollars and square feet in thousands): 2,605
+West > Gross leasable square feet | 2005 > (Dollars and square feet in thousands): 2,610

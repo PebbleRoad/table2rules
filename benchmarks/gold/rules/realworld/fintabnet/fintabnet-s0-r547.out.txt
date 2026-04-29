@@ -1,0 +1,40 @@
+2003 > Net sales | Fourth Quarter > (Tabular amounts in millions, except per share amounts): $1,715
+2003 > Net sales | Third Quarter > (Tabular amounts in millions, except per share amounts): $1,545
+2003 > Net sales | Second Quarter > (Tabular amounts in millions, except per share amounts): $1,475
+2003 > Net sales | First Quarter > (Tabular amounts in millions, except per share amounts): $1,472
+2003 > Gross margin | Fourth Quarter > (Tabular amounts in millions, except per share amounts): $456
+2003 > Gross margin | Third Quarter > (Tabular amounts in millions, except per share amounts): $428
+2003 > Gross margin | Second Quarter > (Tabular amounts in millions, except per share amounts): $418
+2003 > Gross margin | First Quarter > (Tabular amounts in millions, except per share amounts): $406
+2003 > Net income (loss) | Fourth Quarter > (Tabular amounts in millions, except per share amounts): $44
+2003 > Net income (loss) | Third Quarter > (Tabular amounts in millions, except per share amounts): $19
+2003 > Net income (loss) | Second Quarter > (Tabular amounts in millions, except per share amounts): $14
+2003 > Net income (loss) | First Quarter > (Tabular amounts in millions, except per share amounts): $(8)
+Earnings (loss) per common share: > Basic | Fourth Quarter > (Tabular amounts in millions, except per share amounts): $0.12
+Earnings (loss) per common share: > Basic | Third Quarter > (Tabular amounts in millions, except per share amounts): $0.05
+Earnings (loss) per common share: > Basic | Second Quarter > (Tabular amounts in millions, except per share amounts): $0.04
+Earnings (loss) per common share: > Basic | First Quarter > (Tabular amounts in millions, except per share amounts): $(0.02)
+Earnings (loss) per common share: > Diluted | Fourth Quarter > (Tabular amounts in millions, except per share amounts): $0.12
+Earnings (loss) per common share: > Diluted | Third Quarter > (Tabular amounts in millions, except per share amounts): $0.05
+Earnings (loss) per common share: > Diluted | Second Quarter > (Tabular amounts in millions, except per share amounts): $0.04
+Earnings (loss) per common share: > Diluted | First Quarter > (Tabular amounts in millions, except per share amounts): $(0.02)
+2002 > Net sales | Fourth Quarter > (Tabular amounts in millions, except per share amounts): $1,443
+2002 > Net sales | Third Quarter > (Tabular amounts in millions, except per share amounts): $1,429
+2002 > Net sales | Second Quarter > (Tabular amounts in millions, except per share amounts): $1,495
+2002 > Net sales | First Quarter > (Tabular amounts in millions, except per share amounts): $1,375
+2002 > Gross margin | Fourth Quarter > (Tabular amounts in millions, except per share amounts): $381
+2002 > Gross margin | Third Quarter > (Tabular amounts in millions, except per share amounts): $391
+2002 > Gross margin | Second Quarter > (Tabular amounts in millions, except per share amounts): $409
+2002 > Gross margin | First Quarter > (Tabular amounts in millions, except per share amounts): $422
+2002 > Net income (loss) | Fourth Quarter > (Tabular amounts in millions, except per share amounts): $(45)
+2002 > Net income (loss) | Third Quarter > (Tabular amounts in millions, except per share amounts): $32
+2002 > Net income (loss) | Second Quarter > (Tabular amounts in millions, except per share amounts): $40
+2002 > Net income (loss) | First Quarter > (Tabular amounts in millions, except per share amounts): $38
+Earnings (loss) per common share: > Basic | Fourth Quarter > (Tabular amounts in millions, except per share amounts): $(0.13)
+Earnings (loss) per common share: > Basic | Third Quarter > (Tabular amounts in millions, except per share amounts): $0.09
+Earnings (loss) per common share: > Basic | Second Quarter > (Tabular amounts in millions, except per share amounts): $0.11
+Earnings (loss) per common share: > Basic | First Quarter > (Tabular amounts in millions, except per share amounts): $0.11
+Earnings (loss) per common share: > Diluted | Fourth Quarter > (Tabular amounts in millions, except per share amounts): $(0.13)
+Earnings (loss) per common share: > Diluted | Third Quarter > (Tabular amounts in millions, except per share amounts): $0.09
+Earnings (loss) per common share: > Diluted | Second Quarter > (Tabular amounts in millions, except per share amounts): $0.11
+Earnings (loss) per common share: > Diluted | First Quarter > (Tabular amounts in millions, except per share amounts): $0.11

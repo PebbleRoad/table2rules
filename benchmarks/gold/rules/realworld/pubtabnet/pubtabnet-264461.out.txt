@@ -1,0 +1,119 @@
+MCP-1 (pg/ml) | Control > Unstimulated: 456
+MCP-1 (pg/ml) | Control > IL-1β: 4,754
+MCP-1 (pg/ml) | P *: 0.001
+MCP-1 (pg/ml) | MP-free synovial fluid: 469
+MCP-1 (pg/ml) | MP (1×): 488
+MCP-1 (pg/ml) | N x / N t: 6/11
+MCP-1 (pg/ml) | P †: 0.010
+MCP-1 (pg/ml) | MP (3×): 900
+MCP-1 (pg/ml) | N x / N t: 4/6
+MCP-1 (pg/ml) | P ‡: 0.156
+Control > Unstimulated: (355–1,292)
+Control > IL-1β: (2,492–6,081)
+MP-free synovial fluid: (293–1,241)
+MP (1×): (338–1,481)
+N x / N t: higher
+MP (3×): (346–2,326)
+N x / N t: higher
+sICAM-1 (ng/ml) | Control > Unstimulated: 0.09
+sICAM-1 (ng/ml) | Control > IL-1β: 0.40
+sICAM-1 (ng/ml) | P *: 0.007
+sICAM-1 (ng/ml) | MP-free synovial fluid: 1.04
+sICAM-1 (ng/ml) | MP (1×): 2.00
+sICAM-1 (ng/ml) | N x / N t: 8/11
+sICAM-1 (ng/ml) | P †: 0.010
+sICAM-1 (ng/ml) | MP (3×): 6.07
+sICAM-1 (ng/ml) | N x / N t: 6/6
+sICAM-1 (ng/ml) | P ‡: 0.031
+Control > Unstimulated: (0–0.3)
+Control > IL-1β: (0–0.76)
+MP-free synovial fluid: (0.34–1.84)
+MP (1×): (0.35–4.07)
+N x / N t: higher
+MP (3×): (0.91–11.75)
+N x / N t: higher
+IL-8 (pg/ml) | Control > Unstimulated: 0
+IL-8 (pg/ml) | Control > IL-1β: 8,642
+IL-8 (pg/ml) | P *: 0.001
+IL-8 (pg/ml) | MP-free synovial fluid: 26
+IL-8 (pg/ml) | MP (1×): 301
+IL-8 (pg/ml) | N x / N t: 5/11
+IL-8 (pg/ml) | P †: 0.008
+IL-8 (pg/ml) | MP (3×): 790
+IL-8 (pg/ml) | N x / N t: 6/6
+IL-8 (pg/ml) | P ‡: 0.031
+Control > Unstimulated: (0–564)
+Control > IL-1β: (2,954–18,330)
+MP-free synovial fluid: (0–528)
+MP (1×): (0–707)
+N x / N t: higher
+MP (3×): (0–2,100)
+N x / N t: higher
+IL-6 (pg/ml) | Control > Unstimulated: 74
+IL-6 (pg/ml) | Control > IL-1β: 4949
+IL-6 (pg/ml) | P *: 0.001
+IL-6 (pg/ml) | MP-free synovial fluid: 110
+IL-6 (pg/ml) | MP (1×): 136
+IL-6 (pg/ml) | N x / N t: 7/11
+IL-6 (pg/ml) | P †: 0.042
+IL-6 (pg/ml) | MP (3×): 436
+IL-6 (pg/ml) | N x / N t: 6/6
+IL-6 (pg/ml) | P ‡: 0.031
+Control > Unstimulated: (24–1,710)
+Control > IL-1β: (1,870–22,797)
+MP-free synovial fluid: (30–1,176)
+MP (1×): (34–1,937)
+N x / N t: higher
+MP (3×): (44–3,766)
+N x / N t: higher
+VEGF (pg/ml) | Control > Unstimulated: 48
+VEGF (pg/ml) | Control > IL-1β: 79
+VEGF (pg/ml) | P *: 0.014
+VEGF (pg/ml) | MP-free synovial fluid: 34
+VEGF (pg/ml) | MP (1×): 74
+VEGF (pg/ml) | N x / N t: 10/11
+VEGF (pg/ml) | P †: 0.001
+VEGF (pg/ml) | MP (3×): 111
+VEGF (pg/ml) | N x / N t: 6/6
+VEGF (pg/ml) | P ‡: 0.078
+Control > Unstimulated: (11–102)
+Control > IL-1β: (7–141)
+MP-free synovial fluid: (1–97)
+MP (1×): (28–138)
+N x / N t: higher
+MP (3×): (27–161)
+N x / N t: higher
+GM-CSF (pg/ml) | Control > Unstimulated: 32
+GM-CSF (pg/ml) | Control > IL-1β: 53
+GM-CSF (pg/ml) | P *: 0.004
+GM-CSF (pg/ml) | MP-free synovial fluid: 31
+GM-CSF (pg/ml) | MP (1×): 22
+GM-CSF (pg/ml) | N x / N t: 10/11
+GM-CSF (pg/ml) | P †: 0.002
+GM-CSF (pg/ml) | MP (3×): 18
+GM-CSF (pg/ml) | N x / N t: 6/6
+GM-CSF (pg/ml) | P ‡: 0.016
+Control > Unstimulated: (28–40)
+Control > IL-1β: (40–72)
+MP-free synovial fluid: (26–70)
+MP (1×): (14–43)
+N x / N t: lower
+MP (3×): (14–25)
+N x / N t: lower
+RANTES (pg/ml) | Control > Unstimulated: 0
+RANTES (pg/ml) | Control > IL-1β: 138
+RANTES (pg/ml) | P *: 0.001
+RANTES (pg/ml) | MP-free synovial fluid: 0
+RANTES (pg/ml) | MP (1×): 0.2
+RANTES (pg/ml) | N x / N t: 4/11
+RANTES (pg/ml) | P †: 0.031
+RANTES (pg/ml) | MP (3×): 4.2
+RANTES (pg/ml) | N x / N t: 5/6
+RANTES (pg/ml) | P ‡: 0.062
+Control > Unstimulated: (0–74)
+Control > IL-1β: (46–277)
+MP-free synovial fluid: (0–58)
+MP (1×): (0–86)
+N x / N t: higher
+MP (3×): (0–32)
+N x / N t: higher

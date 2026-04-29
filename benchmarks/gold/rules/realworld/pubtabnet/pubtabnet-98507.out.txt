@@ -1,0 +1,33 @@
+Spontaneous can1 mutations in the wild-type yeast | Sequence motif (mutable positions are underlined) > D G YW / WR C H: 0.5 / 0.5
+Spontaneous can1 mutations in the wild-type yeast | Sequence motif (mutable positions are underlined) > N G YW / WR C N: 0.7/0.5
+Spontaneous can1 mutations in the wild-type yeast | Reference: [52]
+Spontaneous SUP4-o mutations in ung1 yeast strain | Sequence motif (mutable positions are underlined) > D G YW / WR C H: 0.9/1.1
+Spontaneous SUP4-o mutations in ung1 yeast strain | Sequence motif (mutable positions are underlined) > N G YW / WR C N: 0.9/1.1
+Spontaneous SUP4-o mutations in ung1 yeast strain | Reference: [60]
+hAIDSc in the CAN1 in wild-type yeast | Sequence motif (mutable positions are underlined) > D G YW / WR C H: 1.2 / 5.2
+hAIDSc in the CAN1 in wild-type yeast | Sequence motif (mutable positions are underlined) > N G YW / WR C N: 1.5 / 4.8
+hAIDSc in the CAN1 in wild-type yeast | Reference: This work
+hAIDSc in the CAN1 in ung1 yeast | Sequence motif (mutable positions are underlined) > D G YW / WR C H: 2.0 / 1.8
+hAIDSc in the CAN1 in ung1 yeast | Sequence motif (mutable positions are underlined) > N G YW / WR C N: 3.2 / 1.6
+hAIDSc in the CAN1 in ung1 yeast | Reference: This work
+SHM in V κ Ox1 in mouse | Sequence motif (mutable positions are underlined) > D G YW / WR C H: 3.5 / 2.5
+SHM in V κ Ox1 in mouse | Sequence motif (mutable positions are underlined) > N G YW / WR C N: 3.4 / 2.5
+SHM in V κ Ox1 in mouse | Reference: [47]
+SHM in J H 4 region in wild-type mouse | Sequence motif (mutable positions are underlined) > D G YW / WR C H: 4.4 / 3.2
+SHM in J H 4 region in wild-type mouse | Sequence motif (mutable positions are underlined) > N G YW / WR C N: 4.4 / 3.2
+SHM in J H 4 region in wild-type mouse | Reference: [26]
+SHM in J H 4 region in Ung1 -/- mouse | Sequence motif (mutable positions are underlined) > D G YW / WR C H: 4.5 / 3.6
+SHM in J H 4 region in Ung1 -/- mouse | Sequence motif (mutable positions are underlined) > N G YW / WR C N: 4.5 / 3.6
+SHM in J H 4 region in Ung1 -/- mouse | Reference: [26]
+SHM in J H 4 region in Ung1 -/- Msh2 -/- mouse | Sequence motif (mutable positions are underlined) > D G YW / WR C H: 3.3 / 5.0
+SHM in J H 4 region in Ung1 -/- Msh2 -/- mouse | Sequence motif (mutable positions are underlined) > N G YW / WR C N: 3.2 / 5.0
+SHM in J H 4 region in Ung1 -/- Msh2 -/- mouse | Reference: [67]
+AID in GFP in human fibroblasts | Sequence motif (mutable positions are underlined) > D G YW / WR C H: 7.6 / 4.8
+AID in GFP in human fibroblasts | Sequence motif (mutable positions are underlined) > N G YW / WR C N: 7.1 / 4.1
+AID in GFP in human fibroblasts | Reference: [13]
+AID in sacB in E.coli | Sequence motif (mutable positions are underlined) > D G YW / WR C H: 2.3 / 3.7
+AID in sacB in E.coli | Sequence motif (mutable positions are underlined) > N G YW / WR C N: 1.6 / 4.6
+AID in sacB in E.coli | Reference: [36]
+AID in lacZ in vitro | Sequence motif (mutable positions are underlined) > D G YW / WR C H: -- / 2.1
+AID in lacZ in vitro | Sequence motif (mutable positions are underlined) > N G YW / WR C N: -- / 2.2
+AID in lacZ in vitro | Reference: [40]

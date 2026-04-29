@@ -1,0 +1,19 @@
+Steps in Meta-Analysis |  | IPD | APD
+Explicit and Relevant Clinical Question | √ | √
+Exhaustive Search | All published studies | √ | √
+ | All presented studies | √ | √
+ | All completed studies | √ | ±
+Screening: inclusion/exclusion criteria | √ | √
+Data Acquisition (extraction/transfer) | Aggregate data | √ | √
+ | Individual patient data | √ | -
+Data Checking | Source data | ± | -
+ | Submitted data | √ | √
+ | Published/presented | √ | √
+Data Updating | √ | ±
+Missing Studies/Data | ± | ±
+Uniform outcomes | √ | -
+Tests for heterogeneity | √ | √
+Estimating Summary Effect Measures | Binomial data | √ | √
+ | Time-to-event data | √ | ±
+Exploring Heterogeneity Subgroup analyses | Study Level | √ | √
+ | Patient Level | √ | -

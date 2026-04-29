@@ -1,0 +1,44 @@
+Revenue > Product | Year Ended December 31, > 2015 > $: $744,877
+Revenue > Product | Year Ended December 31, > 2015 > % ofrevenue: 88.9%
+Revenue > Product | Year Ended December 31, > 2014 > $: $531,543
+Revenue > Product | Year Ended December 31, > 2014 > % ofrevenue: 91.0%
+Revenue > Product | Change in > $: $213,334
+Revenue > Product | Change in > %: 40.1%
+Revenue > Service | Year Ended December 31, > 2015 > $: 92,714
+Revenue > Service | Year Ended December 31, > 2015 > % ofrevenue: 11.1
+Revenue > Service | Year Ended December 31, > 2014 > $: 52,563
+Revenue > Service | Year Ended December 31, > 2014 > % ofrevenue: 9.0
+Revenue > Service | Change in > $: 40,151
+Revenue > Service | Change in > %: 76.4
+Revenue > Total revenue | Year Ended December 31, > 2015 > $: 837,591
+Revenue > Total revenue | Year Ended December 31, > 2015 > % ofrevenue: 100.0
+Revenue > Total revenue | Year Ended December 31, > 2014 > $: 584,106
+Revenue > Total revenue | Year Ended December 31, > 2014 > % ofrevenue: 100.0
+Revenue > Total revenue | Change in > $: 253,485
+Revenue > Total revenue | Change in > %: 43.4
+Cost of revenue > Product | Year Ended December 31, > 2015 > $: 263,585
+Cost of revenue > Product | Year Ended December 31, > 2015 > % ofrevenue: 31.5
+Cost of revenue > Product | Year Ended December 31, > 2014 > $: 174,004
+Cost of revenue > Product | Year Ended December 31, > 2014 > % ofrevenue: 29.8
+Cost of revenue > Product | Change in > $: 89,581
+Cost of revenue > Product | Change in > %: 51.5
+Cost of revenue > Service | Year Ended December 31, > 2015 > $: 30,446
+Cost of revenue > Service | Year Ended December 31, > 2015 > % ofrevenue: 3.6
+Cost of revenue > Service | Year Ended December 31, > 2014 > $: 18,011
+Cost of revenue > Service | Year Ended December 31, > 2014 > % ofrevenue: 3.1
+Cost of revenue > Service | Change in > $: 12,435
+Cost of revenue > Service | Change in > %: 69.0
+Cost of revenue > Total cost of revenue | Year Ended December 31, > 2015 > $: 294,031
+Cost of revenue > Total cost of revenue | Year Ended December 31, > 2015 > % ofrevenue: 35.1
+Cost of revenue > Total cost of revenue | Year Ended December 31, > 2014 > $: 192,015
+Cost of revenue > Total cost of revenue | Year Ended December 31, > 2014 > % ofrevenue: 32.9
+Cost of revenue > Total cost of revenue | Change in > $: 102,016
+Cost of revenue > Total cost of revenue | Change in > %: 53.1
+Cost of revenue > Gross profit | Year Ended December 31, > 2015 > $: $543,560
+Cost of revenue > Gross profit | Year Ended December 31, > 2015 > % ofrevenue: 64.9%
+Cost of revenue > Gross profit | Year Ended December 31, > 2014 > $: $392,091
+Cost of revenue > Gross profit | Year Ended December 31, > 2014 > % ofrevenue: 67.1%
+Cost of revenue > Gross profit | Change in > $: $151,469
+Cost of revenue > Gross profit | Change in > %: 38.6%
+Cost of revenue > Gross margin | Year Ended December 31, > 2015 > $: 64.9%
+Cost of revenue > Gross margin | Year Ended December 31, > 2014 > $: 67.1%

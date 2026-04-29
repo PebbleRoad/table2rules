@@ -1,0 +1,110 @@
+Premature Mortality: Rank
+Premature Mortality: Disease/ injury
+Premature Mortality: YLLs (000s)
+Premature Mortality: Cumulative %
+Disability: Disease/injury
+Disability: YLDs (000s)
+Disability: Cumulative%
+Disease Burden: Disease/injury
+Disease Burden: DALYs (000s)
+Disease Burden: % of Total
+Premature Mortality: 1
+Premature Mortality: Lower res. inf.
+Premature Mortality: 108601
+Premature Mortality: 12.0
+Disability: Depression
+Disability: 50810
+Disability: 10.7
+Disease Burden: Lower res. inf.
+Disease Burden: 112898
+Disease Burden: 8.2
+Premature Mortality: 2
+Premature Mortality: Diarrhoeal dis.
+Premature Mortality: 94434
+Premature Mortality: 22.4
+Disability: Iron def. anaem.
+Disability: 21987
+Disability: 15.4
+Disease Burden: Diarrhoeal dis.
+Disease Burden: 99633
+Disease Burden: 7.2
+Premature Mortality: 3
+Premature Mortality: Perinatal cond.
+Premature Mortality: 82681
+Premature Mortality: 31.5
+Disability: Falls
+Disability: 21949
+Disability: 20.0
+Disease Burden: Perinatal cond.
+Disease Burden: 92313
+Disease Burden: 6.7
+Premature Mortality: 4
+Premature Mortality: Isch. heart dis.
+Premature Mortality: 41595
+Premature Mortality: 36.1
+Disability: Alcohol use
+Disability: 15770
+Disability: 23.4
+Disease Burden: Depression
+Disease Burden: 50810
+Disease Burden: 3.7
+Premature Mortality: 5
+Premature Mortality: Measles
+Premature Mortality: 36450
+Premature Mortality: 40.1
+Disability: COPD 1
+Disability: 14692
+Disability: 26.5
+Disease Burden: Isch. heart dis.
+Disease Burden: 46699
+Disease Burden: 3.4
+Premature Mortality: 6
+Premature Mortality: Tuberculosis
+Premature Mortality: 34304
+Premature Mortality: 43.9
+Disability: Bipolar dis.
+Disability: 14141
+Disability: 29.5
+Disease Burden: Cerebrovas. dis.
+Disease Burden: 38523
+Disease Burden: 2.8
+Premature Mortality: 7
+Premature Mortality: Cerebrovas. Dis.
+Premature Mortality: 32115
+Premature Mortality: 47.5
+Disability: Congenital anom
+Disability: 13507
+Disability: 32.3
+Disease Burden: Tuberculosis
+Disease Burden: 38426
+Disease Burden: 2.8
+Premature Mortality: 8
+Premature Mortality: Malaria
+Premature Mortality: 28038
+Premature Mortality: 50.5
+Disability: Osteoarthritis
+Disability: 13275
+Disability: 35.1
+Disease Burden: Measles
+Disease Burden: 36520
+Disease Burden: 2.7
+Premature Mortality: 9
+Premature Mortality: Road traffic acc.
+Premature Mortality: 26162
+Premature Mortality: 53.4
+Disability: Schizophrenia
+Disability: 12183
+Disability: 37.7
+Disease Burden: Road traffic acc.
+Disease Burden: 34317
+Disease Burden: 2.5
+Premature Mortality: 10
+Premature Mortality: Congenital anom.
+Premature Mortality: 19414
+Premature Mortality: 55.6
+Disability: Obs.-comp dis 2
+Disability: 10213
+Disability: 39.9
+Disease Burden: Congenital anom.
+Disease Burden: 32921
+Disease Burden: 2.4

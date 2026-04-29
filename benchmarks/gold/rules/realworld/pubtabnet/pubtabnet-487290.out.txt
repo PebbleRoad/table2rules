@@ -1,0 +1,60 @@
+Example: 1
+No of outcomes: 3
+P: 0.436
+Kappa: 0.149
+(SE): 0.031
+Example: 2
+No of outcomes: 3
+P: 0.769
+Kappa: 0.075
+(SE): 0.053
+Example: 3
+No of outcomes: 6
+P: 0.643
+Kappa: 0.441
+(SE): 0.024
+Example: 4
+No of outcomes: 3
+P: 0.926
+Kappa: 0.823
+(SE): 0.050
+Example: 5
+No of outcomes: 2
+P: 0.608
+Kappa: -0.044
+(SE): 0.065
+Example: 6
+No of outcomes: 3
+P: 0.618
+Kappa: 0.163
+(SE): 0.050
+Example: 7
+No of outcomes: 3
+P: 0.520
+Kappa: -0.028
+(SE): 0.044
+Example: 8
+No of outcomes: 3
+P: 0.451
+Kappa: 0.146
+(SE): 0.036
+Example: 9
+No of outcomes: 4
+P: 0.441
+Kappa: -0.022
+(SE): 0.037
+Example: 10
+No of outcomes: 5
+P: 0.579
+Kappa: 0.005
+(SE): 0.034
+Example: 11
+No of outcomes: 4
+P: 0.377
+Kappa: 0.112
+(SE): 0.027
+Example: 12
+No of outcomes: 7
+P: 0.718
+Kappa: -0.083
+(SE): 0.043

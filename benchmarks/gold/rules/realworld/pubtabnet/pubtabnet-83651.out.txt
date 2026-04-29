@@ -1,0 +1,43 @@
+Clearance (L/h) | Population average > Estimate: 39.3
+Clearance (L/h) | Population average > (RSE%) 1: (4.9)
+Clearance (L/h) | Interindividual variability > Estimate %: 54
+Clearance (L/h) | Interindividual variability > (RSE%): (17)
+V1 (L) | Population average > Estimate: 71.7
+V1 (L) | Population average > (RSE%) 1: (13)
+V1 (L) | Interindividual variability > Estimate %: 34
+V1 (L) | Interindividual variability > (RSE%): (62)
+Q2 (L/h) | Population average > Estimate: 51.1
+Q2 (L/h) | Population average > (RSE%) 1: (6.8)
+Q2 (L/h) | Interindividual variability > Estimate %: 61
+Q2 (L/h) | Interindividual variability > (RSE%): (17)
+V2 (L) | Population average > Estimate: 475
+V2 (L) | Population average > (RSE%) 1: (1.8)
+V2 (L) | Interindividual variability > Estimate %: 70
+V2 (L) | Interindividual variability > (RSE%): (31)
+Q3 (L/h) | Population average > Estimate: 105
+Q3 (L/h) | Population average > (RSE%) 1: (21)
+Q3 (L/h) | Interindividual variability > Estimate %: 61
+Q3 (L/h) | Interindividual variability > (RSE%): (17)
+V3 (L) | Population average > Estimate: 73.6
+V3 (L) | Population average > (RSE%) 1: (13)
+V3 (L) | Interindividual variability > Estimate %: 61
+V3 (L) | Interindividual variability > (RSE%): (17)
+Oral Ka (h -1 ) | Population average > Estimate: 1.31
+Oral Ka (h -1 ) | Population average > (RSE%) 1: (14)
+Oral Ka (h -1 ) | Interindividual variability > Estimate %: 75
+Oral Ka (h -1 ) | Interindividual variability > (RSE%): (50)
+Oral F | Population average > Estimate: 0.353
+Oral F | Population average > (RSE%) 1: (7.9)
+Oral F | Interindividual variability > Estimate %: 4.1
+Oral F | Interindividual variability > (RSE%): (63)
+Subcutaneous Ka (h -1 ) | Population average > Estimate: 2.48
+Subcutaneous Ka (h -1 ) | Population average > (RSE%) 1: (9,6)
+Subcutaneous Ka (h -1 ) | Interindividual variability > Estimate %: N.E.
+Parameter | Population average > Estimate: Infusion (RSE %)
+Parameter | Population average > (RSE%) 1: Oral (RSE %)
+Parameter | Interindividual variability > Estimate %: Subcutaneous (RSE %)
+Parameter | Interindividual variability > (RSE%): IIV 3 (RSE %)
+Proportional | Population average > Estimate: 0.191 (8.2)
+Proportional | Population average > (RSE%) 1: 0.232(9.8)
+Proportional | Interindividual variability > Estimate %: 0.162 (8.8)
+Proportional | Interindividual variability > (RSE%): 24 (28)

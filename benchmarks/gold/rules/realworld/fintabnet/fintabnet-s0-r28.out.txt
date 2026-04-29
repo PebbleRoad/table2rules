@@ -1,0 +1,54 @@
+Beginning cash and cash equivalents | Year Ended > December 31, 2014: $158,780
+Beginning cash and cash equivalents | Year Ended > December 31, 2015: $473,726
+Beginning cash and cash equivalents | One Year Change > $: $314,946
+Beginning cash and cash equivalents | One Year Change > %: 198%
+Beginning cash and cash equivalents | Year Ended December 31, 2016: $360,908
+Beginning cash and cash equivalents | One Year Change > $: $(112,818)
+Beginning cash and cash equivalents | One Year Change > %: -24%
+Beginning cash and cash equivalents | Two Year Change > $: $202,128
+Beginning cash and cash equivalents | Two Year Change > %: 127%
+Cash provided from (used in): > Operating activities | Year Ended > December 31, 2014: 1,138,670
+Cash provided from (used in): > Operating activities | Year Ended > December 31, 2015: 1,373,468
+Cash provided from (used in): > Operating activities | One Year Change > $: 234,798
+Cash provided from (used in): > Operating activities | One Year Change > %: 21%
+Cash provided from (used in): > Operating activities | Year Ended December 31, 2016: 1,628,695
+Cash provided from (used in): > Operating activities | One Year Change > $: 255,227
+Cash provided from (used in): > Operating activities | One Year Change > %: 19%
+Cash provided from (used in): > Operating activities | Two Year Change > $: 490,025
+Cash provided from (used in): > Operating activities | Two Year Change > %: 43%
+Cash provided from (used in): > Investing activities | Year Ended > December 31, 2014: (2,126,206)
+Cash provided from (used in): > Investing activities | Year Ended > December 31, 2015: (3,484,160)
+Cash provided from (used in): > Investing activities | One Year Change > $: (1,357,954)
+Cash provided from (used in): > Investing activities | One Year Change > %: 64%
+Cash provided from (used in): > Investing activities | Year Ended December 31, 2016: (309,503)
+Cash provided from (used in): > Investing activities | One Year Change > $: 3,174,657
+Cash provided from (used in): > Investing activities | One Year Change > %: -91%
+Cash provided from (used in): > Investing activities | Two Year Change > $: 1,816,703
+Cash provided from (used in): > Investing activities | Two Year Change > %: -85%
+Cash provided from (used in): > Financing activities | Year Ended > December 31, 2014: 1,303,172
+Cash provided from (used in): > Financing activities | Year Ended > December 31, 2015: 2,006,449
+Cash provided from (used in): > Financing activities | One Year Change > $: 703,277
+Cash provided from (used in): > Financing activities | One Year Change > %: 54%
+Cash provided from (used in): > Financing activities | Year Ended December 31, 2016: (1,240,448)
+Cash provided from (used in): > Financing activities | One Year Change > $: (3,246,897)
+Cash provided from (used in): > Financing activities | One Year Change > %: n/a
+Cash provided from (used in): > Financing activities | Two Year Change > $: (2,543,620)
+Cash provided from (used in): > Financing activities | Two Year Change > %: n/a
+Cash provided from (used in): > Effect of foreign currency translation on cash and cash equivalents | Year Ended > December 31, 2014: (690)
+Cash provided from (used in): > Effect of foreign currency translation on cash and cash equivalents | Year Ended > December 31, 2015: (8,575)
+Cash provided from (used in): > Effect of foreign currency translation on cash and cash equivalents | One Year Change > $: (7,885)
+Cash provided from (used in): > Effect of foreign currency translation on cash and cash equivalents | One Year Change > %: 1,143%
+Cash provided from (used in): > Effect of foreign currency translation on cash and cash equivalents | Year Ended December 31, 2016: (20,274)
+Cash provided from (used in): > Effect of foreign currency translation on cash and cash equivalents | One Year Change > $: (11,699)
+Cash provided from (used in): > Effect of foreign currency translation on cash and cash equivalents | One Year Change > %: 136%
+Cash provided from (used in): > Effect of foreign currency translation on cash and cash equivalents | Two Year Change > $: (19,584)
+Cash provided from (used in): > Effect of foreign currency translation on cash and cash equivalents | Two Year Change > %: 2,838%
+Cash provided from (used in): > Ending cash and cash equivalents | Year Ended > December 31, 2014: $473,726
+Cash provided from (used in): > Ending cash and cash equivalents | Year Ended > December 31, 2015: $360,908
+Cash provided from (used in): > Ending cash and cash equivalents | One Year Change > $: $(112,818)
+Cash provided from (used in): > Ending cash and cash equivalents | One Year Change > %: -24%
+Cash provided from (used in): > Ending cash and cash equivalents | Year Ended December 31, 2016: $419,378
+Cash provided from (used in): > Ending cash and cash equivalents | One Year Change > $: $58,470
+Cash provided from (used in): > Ending cash and cash equivalents | One Year Change > %: 16%
+Cash provided from (used in): > Ending cash and cash equivalents | Two Year Change > $: $(54,348)
+Cash provided from (used in): > Ending cash and cash equivalents | Two Year Change > %: -11%

@@ -1,0 +1,80 @@
+RNA (undil.) b | Control c: 21.26
+RNA (undil.) b | 0.1 U UNG > C T: 22.30
+RNA (undil.) b | 0.1 U UNG > incr.: 1.04
+RNA (undil.) b | 0.25 U UNG > C T: 22.79
+RNA (undil.) b | 0.25 U UNG > incr.: 1.53
+RNA (undil.) b | 0.5 U UNG > C T: 23.09
+RNA (undil.) b | 0.5 U UNG > incr.: 1.83
+RNA (undil.) b | 1.0 U UNG > C T: 23.86
+RNA (undil.) b | 1.0 U UNG > incr.: 2.60
+RNA (1:10) | Control c: 26.25
+RNA (1:10) | 0.1 U UNG > C T: 26.86
+RNA (1:10) | 0.1 U UNG > incr.: 0.61
+RNA (1:10) | 0.25 U UNG > C T: 27.57
+RNA (1:10) | 0.25 U UNG > incr.: 1.32
+RNA (1:10) | 0.5 U UNG > C T: 27.95
+RNA (1:10) | 0.5 U UNG > incr.: 1.70
+RNA (1:10) | 1.0 U UNG > C T: 27.31
+RNA (1:10) | 1.0 U UNG > incr.: 1.06
+RNA (1:100) | Control c: 31.99
+RNA (1:100) | 0.1 U UNG > C T: 32.52
+RNA (1:100) | 0.1 U UNG > incr.: 0.53
+RNA (1:100) | 0.25 U UNG > C T: 33.15
+RNA (1:100) | 0.25 U UNG > incr.: 1.16
+RNA (1:100) | 0.5 U UNG > C T: 33.47
+RNA (1:100) | 0.5 U UNG > incr.: 1.48
+RNA (1:100) | 1.0 U UNG > C T: 34.04
+RNA (1:100) | 1.0 U UNG > incr.: 2.05
+RNA (1:1000) | Control c: 35.08
+RNA (1:1000) | 0.1 U UNG > C T: 35.25
+RNA (1:1000) | 0.1 U UNG > incr.: 0.17
+RNA (1:1000) | 0.25 U UNG > C T: 36.73
+RNA (1:1000) | 0.25 U UNG > incr.: 1.65
+RNA (1:1000) | 0.5 U UNG > C T: 36.86
+RNA (1:1000) | 0.5 U UNG > incr.: 1.78
+RNA (1:1000) | 1.0 U UNG > C T: No Ct
+RNA (1:1000) | 1.0 U UNG > incr.: -
+DNA (1:10 7 ) b | Control c: 21.53
+DNA (1:10 7 ) b | 0.1 U UNG > C T: 26.56
+DNA (1:10 7 ) b | 0.1 U UNG > incr.: 5.03
+DNA (1:10 7 ) b | 0.25 U UNG > C T: 35.04
+DNA (1:10 7 ) b | 0.25 U UNG > incr.: 13.51
+DNA (1:10 7 ) b | 0.5 U UNG > C T: No Ct
+DNA (1:10 7 ) b | 0.5 U UNG > incr.: -
+DNA (1:10 7 ) b | 1.0 U UNG > C T: No Ct
+DNA (1:10 7 ) b | 1.0 U UNG > incr.: -
+DNA (1:10 8 ) | Control c: 24.53
+DNA (1:10 8 ) | 0.1 U UNG > C T: 30.24
+DNA (1:10 8 ) | 0.1 U UNG > incr.: 5.71
+DNA (1:10 8 ) | 0.25 U UNG > C T: 38.34
+DNA (1:10 8 ) | 0.25 U UNG > incr.: 13.81
+DNA (1:10 8 ) | 0.5 U UNG > C T: No Ct
+DNA (1:10 8 ) | 0.5 U UNG > incr.: -
+DNA (1:10 8 ) | 1.0 U UNG > C T: No Ct
+DNA (1:10 8 ) | 1.0 U UNG > incr.: -
+DNA (1:10 9 ) | Control c: 28.01
+DNA (1:10 9 ) | 0.1 U UNG > C T: 33.38
+DNA (1:10 9 ) | 0.1 U UNG > incr.: 5.37
+DNA (1:10 9 ) | 0.25 U UNG > C T: No Ct e
+DNA (1:10 9 ) | 0.25 U UNG > incr.: -
+DNA (1:10 9 ) | 0.5 U UNG > C T: No Ct
+DNA (1:10 9 ) | 0.5 U UNG > incr.: -
+DNA (1:10 9 ) | 1.0 U UNG > C T: No Ct
+DNA (1:10 9 ) | 1.0 U UNG > incr.: -
+DNA (1:10 10 ) | Control c: 30.82
+DNA (1:10 10 ) | 0.1 U UNG > C T: 36.44
+DNA (1:10 10 ) | 0.1 U UNG > incr.: 5.62
+DNA (1:10 10 ) | 0.25 U UNG > C T: No Ct
+DNA (1:10 10 ) | 0.25 U UNG > incr.: -
+DNA (1:10 10 ) | 0.5 U UNG > C T: No Ct
+DNA (1:10 10 ) | 0.5 U UNG > incr.: -
+DNA (1:10 10 ) | 1.0 U UNG > C T: No Ct
+DNA (1:10 10 ) | 1.0 U UNG > incr.: -
+Mean C T increase for RNA | 0.1 U UNG > incr.: 0.59 d
+Mean C T increase for RNA | 0.25 U UNG > incr.: 1.42 d
+Mean C T increase for RNA | 0.5 U UNG > incr.: 1.70 d
+Mean C T increase for RNA | 1.0 U UNG > incr.: 1.90 d
+Mean C T increase for DNA | 0.1 U UNG > incr.: 5.43
+Mean C T increase for DNA | 0.25 U UNG > incr.: 13.66
+Mean C T increase for DNA | 0.5 U UNG > incr.: N/A
+Mean C T increase for DNA | 1.0 U UNG > incr.: N/A

@@ -1,0 +1,52 @@
+MMP-3 | General trend: Increase (5- to 10-fold)
+MMP-3 | Tissues affected > Origin of cells: NP, AF
+MMP-3 | Tissues affected > Disease state: N, D
+MMP-3 | Significant changes a ( P < 0.05): Non-degenerate NP and AF
+MMP-13 | General trend: Increase (5- to 10-fold)
+MMP-13 | Tissues affected > Origin of cells: NP
+MMP-13 | Tissues affected > Disease state: N, D
+MMP-13 | Significant changes a ( P < 0.05): Non-degenerate NP
+ADAMTS-4 | General trend: Increase (8-fold)
+ADAMTS-4 | Tissues affected > Origin of cells: NP
+ADAMTS-4 | Tissues affected > Disease state: D
+ADAMTS-4 | Significant changes a ( P < 0.05): Degenerate NP
+ADAMTS-5 | General trend: No real trend
+ADAMTS-5 | Tissues affected > Origin of cells: -
+ADAMTS-5 | Tissues affected > Disease state: -
+ADAMTS-5 | Significant changes a ( P < 0.05): None
+SOX6 | General trend: Decrease (3- to 9-fold)
+SOX6 | Tissues affected > Origin of cells: NP, AF
+SOX6 | Tissues affected > Disease state: N
+SOX6 | Significant changes a ( P < 0.05): Non-degenerate NP
+SOX9 | General trend: Decrease (3-fold)
+SOX9 | Tissues affected > Origin of cells: NP, AF
+SOX9 | Tissues affected > Disease state: N
+SOX9 | Significant changes a ( P < 0.05): None
+Collagen I | General trend: Decrease (5- to 10-fold)
+Collagen I | Tissues affected > Origin of cells: NP, AF
+Collagen I | Tissues affected > Disease state: N, D
+Collagen I | Significant changes a ( P < 0.05): Degenerate NP
+Collagen II | General trend: Decrease (5- to 50-fold)
+Collagen II | Tissues affected > Origin of cells: AF
+Collagen II | Tissues affected > Disease state: N, D
+Collagen II | Significant changes a ( P < 0.05): None
+Aggrecan | General trend: Decrease (3- to 7-fold)
+Aggrecan | Tissues affected > Origin of cells: NP, AF
+Aggrecan | Tissues affected > Disease state: N, D
+Aggrecan | Significant changes a ( P < 0.05): Non-degenerate NP and AF
+IL-1α | General trend: Increase (100-fold)
+IL-1α | Tissues affected > Origin of cells: NP, AF
+IL-1α | Tissues affected > Disease state: D
+IL-1α | Significant changes a ( P < 0.05): Degenerate NP
+IL-1β | General trend: Increase (100-fold)
+IL-1β | Tissues affected > Origin of cells: NP, AF
+IL-1β | Tissues affected > Disease state: D
+IL-1β | Significant changes a ( P < 0.05): Degenerate NP
+IL-1Ra | General trend: No real trend
+IL-1Ra | Tissues affected > Origin of cells: -
+IL-1Ra | Tissues affected > Disease state: -
+IL-1Ra | Significant changes a ( P < 0.05): None
+IL-1RI | General trend: Decrease (2- to 10-fold)
+IL-1RI | Tissues affected > Origin of cells: NP, AF
+IL-1RI | Tissues affected > Disease state: N
+IL-1RI | Significant changes a ( P < 0.05): None

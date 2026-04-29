@@ -1,0 +1,48 @@
+Age | Hypertensives > M/M (n = 33): 55.5 (8.9)
+Age | Hypertensives > M/T (n = 46): 55.1 (9.0)
+Age | Hypertensives > T/T (n = 22): 52.7 (9.0)
+Age | Hypertensives > p *: 0.498
+Age | Normotensives > M/M (n = 59): 48.2 (10.2)
+Age | Normotensives > M/T (n = 18): 53.7 (9.0)
+Age | Normotensives > T/T (n = 10): 48.5 (12.4)
+Age | Normotensives > p *: 0.136
+SBP, mmHg | Hypertensives > M/M (n = 33): 151.5 (16.2)
+SBP, mmHg | Hypertensives > M/T (n = 46): 150.8 (25.9)
+SBP, mmHg | Hypertensives > T/T (n = 22): 147.6 (20.6)
+SBP, mmHg | Hypertensives > p *: 0.795
+SBP, mmHg | Normotensives > M/M (n = 59): 122.0 (18.0)
+SBP, mmHg | Normotensives > M/T (n = 18): 129.1 (15.8)
+SBP, mmHg | Normotensives > T/T (n = 10): 126.9 (17.8)
+SBP, mmHg | Normotensives > p *: 0.283
+Adjusted SBP, mmHg | Hypertensives > M/M (n = 33): 150.9 (3.7)
+Adjusted SBP, mmHg | Hypertensives > M/T (n = 46): 149.6 (3.1)
+Adjusted SBP, mmHg | Hypertensives > T/T (n = 22): 150.8 (4.6)
+Adjusted SBP, mmHg | Hypertensives > p *: 0.014 ψ
+Adjusted SBP, mmHg | Normotensives > M/M (n = 59): 122.6 (1.9)
+Adjusted SBP, mmHg | Normotensives > M/T (n = 18): 126.5 (3.5)
+Adjusted SBP, mmHg | Normotensives > T/T (n = 10): 128.1 (4.5)
+Adjusted SBP, mmHg | Normotensives > p *: 0.123 ψ
+DBP, mmHg | Hypertensives > M/M (n = 33): 81.7 (14.7)
+DBP, mmHg | Hypertensives > M/T (n = 46): 85.4 (12.3)
+DBP, mmHg | Hypertensives > T/T (n = 22): 85.9 (9.3)
+DBP, mmHg | Hypertensives > p *: 0.352
+DBP, mmHg | Normotensives > M/M (n = 59): 74.4 (12.0)
+DBP, mmHg | Normotensives > M/T (n = 18): 73.7 (11.4)
+DBP, mmHg | Normotensives > T/T (n = 10): 73.0 (4.6)
+DBP, mmHg | Normotensives > p *: 0.930
+Adjusted DBP, mmHg | Hypertensives > M/M (n = 33): 81.6 (2.2)
+Adjusted DBP, mmHg | Hypertensives > M/T (n = 46): 85.1 (1.9)
+Adjusted DBP, mmHg | Hypertensives > T/T (n = 22): 86.7 (2.8)
+Adjusted DBP, mmHg | Hypertensives > p *: 0.382 ψ
+Adjusted DBP, mmHg | Normotensives > M/M (n = 59): 74.4 (1.4)
+Adjusted DBP, mmHg | Normotensives > M/T (n = 18): 73.0 (2.6)
+Adjusted DBP, mmHg | Normotensives > T/T (n = 10): 73.8 (3.4)
+Adjusted DBP, mmHg | Normotensives > p *: 0.106 ψ
+BMI | Hypertensives > M/M (n = 33): 27.9 (4.7)
+BMI | Hypertensives > M/T (n = 46): 30.0 (4.9)
+BMI | Hypertensives > T/T (n = 22): 27.6 (6.3)
+BMI | Hypertensives > p *: 0.098
+BMI | Normotensives > M/M (n = 59): 25.9 (3.4)
+BMI | Normotensives > M/T (n = 18): 25.7 (3.3)
+BMI | Normotensives > T/T (n = 10): 25.3 (4.9)
+BMI | Normotensives > p *: 0.860

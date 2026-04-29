@@ -1,0 +1,50 @@
+Number Enrolled 88-00 | Decompressed > Raw: 63
+Number Enrolled 88-00 | Repeated > Raw: 44
+Number Graduated | Decompressed > Raw: 37
+Number Graduated | %: 58.7
+Number Graduated | Repeated > Raw: 12
+Number Graduated | %: 27.2
+Five Years to Graduate | Decompressed > Raw: 29
+Five Years to Graduate | %: 46
+Five Years to Graduate | Repeated > Raw: 8
+Five Years to Graduate | %: 18
+Six Years to Graduate | Decompressed > Raw: 4
+Six Years to Graduate | %: 6
+Six Years to Graduate | Repeated > Raw: 3
+Six Years to Graduate | %: 7
+Seven Years to Graduate | Decompressed > Raw: 3
+Seven Years to Graduate | %: 5
+Seven Years to Graduate | Repeated > Raw: 0
+Seven Years to Graduate | %: 0
+Eight Years to Graduate | Decompressed > Raw: 1
+Eight Years to Graduate | %: 2
+Eight Years to Graduate | Repeated > Raw: 0
+Eight Years to Graduate | %: 0
+Twelve Years to Graduate | Decompressed > Raw: 0
+Twelve Years to Graduate | %: 0
+Twelve Years to Graduate | Repeated > Raw: 1
+Twelve Years to Graduate | %: 2
+1 Attempt to Pass Step 1 | Decompressed > Raw: 29
+1 Attempt to Pass Step 1 | %: 46
+1 Attempt to Pass Step 1 | Repeated > Raw: 7
+1 Attempt to Pass Step 1 | %: 15.9
+2 Attempts to Pass Step 1 | Decompressed > Raw: 7
+2 Attempts to Pass Step 1 | %: 11
+2 Attempts to Pass Step 1 | Repeated > Raw: 1
+2 Attempts to Pass Step 1 | %: 2
+3 Attempts to Pass Step 1 | Decompressed > Raw: 1
+3 Attempts to Pass Step 1 | %: 2
+3 Attempts to Pass Step 1 | Repeated > Raw: 4
+3 Attempts to Pass Step 1 | %: 9
+1 Attempt to Pass Step 2 | Decompressed > Raw: 32
+1 Attempt to Pass Step 2 | %: 50.8
+1 Attempt to Pass Step 2 | Repeated > Raw: 9
+1 Attempt to Pass Step 2 | %: 20.5
+2 Attempts to Pass Step 2 | Decompressed > Raw: 3
+2 Attempts to Pass Step 2 | %: 4.8
+2 Attempts to Pass Step 2 | Repeated > Raw: 2
+2 Attempts to Pass Step 2 | %: 4.5
+3 Attempts to Pass Step 2 | Decompressed > Raw: 2
+3 Attempts to Pass Step 2 | %: 3
+3 Attempts to Pass Step 2 | Repeated > Raw: 1
+3 Attempts to Pass Step 2 | %: 2.3

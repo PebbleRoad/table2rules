@@ -1,0 +1,192 @@
+Cysteine | Cluster: 11539
+Cysteine | Transcript: Cysteine endopeptidase CysEP
+Cysteine | Most similar Arabidopsis gene: At5g50260
+Cysteine | E: 7.1e-146
+Cysteine | Number of ESTs in each library > I: 0
+Cysteine | Number of ESTs in each library > X: 4
+Cysteine | Number of ESTs in each library > Y: 0
+Cysteine | Number of ESTs in each library > G: 0
+Cysteine | Number of ESTs in each library > Tot: 30
+Cysteine | Expression ratio B/A: *14.9
+Cluster: 1250
+Transcript: Papain-like cysteine proteinase RD19A
+Most similar Arabidopsis gene: At4g39090
+E: 1.4e-133
+Number of ESTs in each library > I: 51
+Number of ESTs in each library > X: 23
+Number of ESTs in each library > Y: 2
+Number of ESTs in each library > G: 3
+Number of ESTs in each library > Tot: 211
+Expression ratio B/A: 1.2
+Expression ratio B/A: *3.0
+Expression ratio B/A: 1.1
+Expression ratio B/A: *3.4
+Expression ratio B/A: *4.1
+Expression ratio B/A: 1.4
+Cluster: 289
+Transcript: Papain-like cysteine proteinase
+Most similar Arabidopsis gene: At5g43060
+E: 1.3e-103
+Number of ESTs in each library > I: 16
+Number of ESTs in each library > X: 1
+Number of ESTs in each library > Y: 1
+Number of ESTs in each library > G: 1
+Number of ESTs in each library > Tot: 32
+Expression ratio B/A: 0.9
+Expression ratio B/A: 1.4
+Expression ratio B/A: 1.4
+Cluster: 3027
+Transcript: Vacuolar processing enzyme
+Most similar Arabidopsis gene: At4g32940
+E: 9.2e-200
+Number of ESTs in each library > I: 4
+Number of ESTs in each library > X: 8
+Number of ESTs in each library > Y: 1
+Number of ESTs in each library > G: 1
+Number of ESTs in each library > Tot: 34
+Expression ratio B/A: *3.0
+Expression ratio B/A: *3.8
+Expression ratio B/A: *3.1
+Expression ratio B/A: *3.3
+Cluster: 3310
+Transcript: Papain-like cysteine endopeptidase XCP2
+Most similar Arabidopsis gene: At1g20850
+E: 1.7e-144
+Number of ESTs in each library > I: 0
+Number of ESTs in each library > X: 5
+Number of ESTs in each library > Y: 1
+Number of ESTs in each library > G: 2
+Number of ESTs in each library > Tot: 14
+Expression ratio B/A: *0.7
+Expression ratio B/A: *0.2
+Cluster: 4102
+Transcript: Papain-like cysteine proteinase SAG12
+Most similar Arabidopsis gene: At5g45890
+E: 8.8e-111
+Number of ESTs in each library > I: 13
+Number of ESTs in each library > X: 0
+Number of ESTs in each library > Y: 0
+Number of ESTs in each library > G: 0
+Number of ESTs in each library > Tot: 14
+Expression ratio B/A: 1.0
+Expression ratio B/A: 0.9
+Cluster: 5498
+Transcript: Papain-like cysteine proteinase AALP
+Most similar Arabidopsis gene: At5g60360
+E: 3.4e-129
+Number of ESTs in each library > I: 4
+Number of ESTs in each library > X: 1
+Number of ESTs in each library > Y: 0
+Number of ESTs in each library > G: 0
+Number of ESTs in each library > Tot: 18
+Expression ratio B/A: 1.3
+Expression ratio B/A: *1.8
+Expression ratio B/A: *2.3
+Cluster: 7212
+Transcript: Papain-like cysteine proteinase RD21A
+Most similar Arabidopsis gene: At1g47128
+E: 2.6e-169
+Number of ESTs in each library > I: 28
+Number of ESTs in each library > X: 5
+Number of ESTs in each library > Y: 2
+Number of ESTs in each library > G: 3
+Number of ESTs in each library > Tot: 59
+Expression ratio B/A: 2.2
+Serine | Cluster: 10138
+Serine | Transcript: Subtilisin-like serine protease
+Serine | Most similar Arabidopsis gene: At1g01900
+Serine | E: 9.1e-107
+Serine | Number of ESTs in each library > I: 0
+Serine | Number of ESTs in each library > X: 3
+Serine | Number of ESTs in each library > Y: 0
+Serine | Number of ESTs in each library > G: 0
+Serine | Number of ESTs in each library > Tot: 5
+Serine | Expression ratio B/A: *5.0
+Cluster: 4702
+Transcript: Prolyl endopeptidase
+Most similar Arabidopsis gene: At1g76140
+E: 1.6e-52
+Number of ESTs in each library > I: 4
+Number of ESTs in each library > X: 0
+Number of ESTs in each library > Y: 0
+Number of ESTs in each library > G: 0
+Number of ESTs in each library > Tot: 9
+Expression ratio B/A: 1.1
+Expression ratio B/A: 1.2
+Cluster: 4905
+Transcript: Serine carboxypeptidase III-like protein
+Most similar Arabidopsis gene: At3g10410
+E: 9.8e-194
+Number of ESTs in each library > I: 0
+Number of ESTs in each library > X: 4
+Number of ESTs in each library > Y: 0
+Number of ESTs in each library > G: 2
+Number of ESTs in each library > Tot: 16
+Expression ratio B/A: 1.6
+Expression ratio B/A: 1.3
+Cluster: 4995
+Transcript: Subtilisin-like serine protease
+Most similar Arabidopsis gene: At1g20160
+E: 7.0e-68
+Number of ESTs in each library > I: 0
+Number of ESTs in each library > X: 5
+Number of ESTs in each library > Y: 0
+Number of ESTs in each library > G: 0
+Number of ESTs in each library > Tot: 6
+Expression ratio B/A: *12.2
+Cluster: 8771
+Transcript: DegP protease
+Most similar Arabidopsis gene: At3g27925
+E: 6.2e-60
+Number of ESTs in each library > I: 9
+Number of ESTs in each library > X: 0
+Number of ESTs in each library > Y: 0
+Number of ESTs in each library > G: 0
+Number of ESTs in each library > Tot: 9
+Expression ratio B/A: 1.6
+Aspartic | Cluster: 3648
+Aspartic | Transcript: Aspartic-type endopeptidase (phytepsin)
+Aspartic | Most similar Arabidopsis gene: At1g11910
+Aspartic | E: 3.5e-208
+Aspartic | Number of ESTs in each library > I: 6
+Aspartic | Number of ESTs in each library > X: 3
+Aspartic | Number of ESTs in each library > Y: 0
+Aspartic | Number of ESTs in each library > G: 1
+Aspartic | Number of ESTs in each library > Tot: 26
+Aspartic | Expression ratio B/A: 0.9
+Aspartic | Expression ratio B/A: *2.5
+Cluster: 4286
+Transcript: Aspartic-type endopeptidase (family A1)
+Most similar Arabidopsis gene: At5g43100
+E: 3.5e-41
+Number of ESTs in each library > I: 3
+Number of ESTs in each library > X: 1
+Number of ESTs in each library > Y: 0
+Number of ESTs in each library > G: 0
+Number of ESTs in each library > Tot: 4
+Expression ratio B/A: 1.0
+Expression ratio B/A: 1.2
+Expression ratio B/A: 1.2
+Cluster: 541
+Transcript: Aspartic-type endopeptidase (family A1)
+Most similar Arabidopsis gene: At2g03200
+E: 3.0e-124
+Number of ESTs in each library > I: 0
+Number of ESTs in each library > X: 6
+Number of ESTs in each library > Y: 0
+Number of ESTs in each library > G: 10
+Number of ESTs in each library > Tot: 19
+Expression ratio B/A: 1.1
+Expression ratio B/A: 0.7
+Cluster: 915
+Transcript: Aspartic-type endopeptidase (phytepsin)
+Most similar Arabidopsis gene: At1g11910
+E: 1.3e-105
+Number of ESTs in each library > I: 3
+Number of ESTs in each library > X: 3
+Number of ESTs in each library > Y: 1
+Number of ESTs in each library > G: 1
+Number of ESTs in each library > Tot: 35
+Expression ratio B/A: 1.2
+Expression ratio B/A: 1.0
+Expression ratio B/A: 1.3

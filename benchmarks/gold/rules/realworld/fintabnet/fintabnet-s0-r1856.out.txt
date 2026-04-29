@@ -1,0 +1,48 @@
+Notebooks/Mobile Devices | Year EndedDecember 31, 2013 > Dollars inMillions: $1,706.0
+Notebooks/Mobile Devices | Year EndedDecember 31, 2013 > Percentageof Total NetSales: 15.8%
+Notebooks/Mobile Devices | Year EndedDecember 31, 2012 > Dollars inMillions: $1,470.1
+Notebooks/Mobile Devices | Year EndedDecember 31, 2012 > Percentageof Total NetSales: 14.5%
+Notebooks/Mobile Devices | Year EndedDecember 31, 2011 > Dollars inMillions: $1,336.9
+Notebooks/Mobile Devices | Year EndedDecember 31, 2011 > Percentageof Total NetSales: 13.9%
+NetComm Products | Year EndedDecember 31, 2013 > Dollars inMillions: 1,489.1
+NetComm Products | Year EndedDecember 31, 2013 > Percentageof Total NetSales: 13.8
+NetComm Products | Year EndedDecember 31, 2012 > Dollars inMillions: 1,351.1
+NetComm Products | Year EndedDecember 31, 2012 > Percentageof Total NetSales: 13.3
+NetComm Products | Year EndedDecember 31, 2011 > Dollars inMillions: 1,237.7
+NetComm Products | Year EndedDecember 31, 2011 > Percentageof Total NetSales: 12.9
+Enterprise and Data Storage (Including Drives) | Year EndedDecember 31, 2013 > Dollars inMillions: 998.1
+Enterprise and Data Storage (Including Drives) | Year EndedDecember 31, 2013 > Percentageof Total NetSales: 9.3
+Enterprise and Data Storage (Including Drives) | Year EndedDecember 31, 2012 > Dollars inMillions: 979.4
+Enterprise and Data Storage (Including Drives) | Year EndedDecember 31, 2012 > Percentageof Total NetSales: 9.7
+Enterprise and Data Storage (Including Drives) | Year EndedDecember 31, 2011 > Dollars inMillions: 929.9
+Enterprise and Data Storage (Including Drives) | Year EndedDecember 31, 2011 > Percentageof Total NetSales: 9.7
+Other Hardware | Year EndedDecember 31, 2013 > Dollars inMillions: 4,173.3
+Other Hardware | Year EndedDecember 31, 2013 > Percentageof Total NetSales: 38.8
+Other Hardware | Year EndedDecember 31, 2012 > Dollars inMillions: 4,068.8
+Other Hardware | Year EndedDecember 31, 2012 > Percentageof Total NetSales: 40.2
+Other Hardware | Year EndedDecember 31, 2011 > Dollars inMillions: 3,988.3
+Other Hardware | Year EndedDecember 31, 2011 > Percentageof Total NetSales: 41.5
+Software | Year EndedDecember 31, 2013 > Dollars inMillions: 1,994.7
+Software | Year EndedDecember 31, 2013 > Percentageof Total NetSales: 18.5
+Software | Year EndedDecember 31, 2012 > Dollars inMillions: 1,849.4
+Software | Year EndedDecember 31, 2012 > Percentageof Total NetSales: 18.3
+Software | Year EndedDecember 31, 2011 > Dollars inMillions: 1,767.2
+Software | Year EndedDecember 31, 2011 > Percentageof Total NetSales: 18.4
+Services | Year EndedDecember 31, 2013 > Dollars inMillions: 327.1
+Services | Year EndedDecember 31, 2013 > Percentageof Total NetSales: 3.0
+Services | Year EndedDecember 31, 2012 > Dollars inMillions: 284.6
+Services | Year EndedDecember 31, 2012 > Percentageof Total NetSales: 2.8
+Services | Year EndedDecember 31, 2011 > Dollars inMillions: 254.3
+Services | Year EndedDecember 31, 2011 > Percentageof Total NetSales: 2.6
+Other (1) | Year EndedDecember 31, 2013 > Dollars inMillions: 80.3
+Other (1) | Year EndedDecember 31, 2013 > Percentageof Total NetSales: 0.8
+Other (1) | Year EndedDecember 31, 2012 > Dollars inMillions: 124.8
+Other (1) | Year EndedDecember 31, 2012 > Percentageof Total NetSales: 1.2
+Other (1) | Year EndedDecember 31, 2011 > Dollars inMillions: 88.1
+Other (1) | Year EndedDecember 31, 2011 > Percentageof Total NetSales: 1.0
+Total net sales | Year EndedDecember 31, 2013 > Dollars inMillions: $10,768.6
+Total net sales | Year EndedDecember 31, 2013 > Percentageof Total NetSales: 100.0%
+Total net sales | Year EndedDecember 31, 2012 > Dollars inMillions: $10,128.2
+Total net sales | Year EndedDecember 31, 2012 > Percentageof Total NetSales: 100.0%
+Total net sales | Year EndedDecember 31, 2011 > Dollars inMillions: $9,602.4
+Total net sales | Year EndedDecember 31, 2011 > Percentageof Total NetSales: 100.0%

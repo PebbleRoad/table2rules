@@ -1,0 +1,56 @@
+Ceftazidime | % Discrepance > Very Major > Agar-disc: 5.8
+Ceftazidime | % Discrepance > Very Major > Agar-E-test: 5.8
+Ceftazidime | % Discrepance > Major Error > Agar-disc: 0
+Ceftazidime | % Discrepance > Major Error > Agar-E-test: 0
+Ceftazidime | % Discrepance > Minor Error > Agar-disc: 17.3
+Ceftazidime | % Discrepance > Minor Error > Agar-E-test: 13.4
+Ceftazidime | % Correlation > Agar-disc: 76.9
+Ceftazidime | % Correlation > Agar-E-test: 80.8
+Cefepime | % Discrepance > Very Major > Agar-disc: 0
+Cefepime | % Discrepance > Very Major > Agar-E-test: 1.9
+Cefepime | % Discrepance > Major Error > Agar-disc: 0
+Cefepime | % Discrepance > Major Error > Agar-E-test: 0
+Cefepime | % Discrepance > Minor Error > Agar-disc: 11.5
+Cefepime | % Discrepance > Minor Error > Agar-E-test: 23.1
+Cefepime | % Correlation > Agar-disc: 88.5
+Cefepime | % Correlation > Agar-E-test: 75.0
+Piperacillin | % Discrepance > Very Major > Agar-disc: 0
+Piperacillin | % Discrepance > Very Major > Agar-E-test: 0
+Piperacillin | % Discrepance > Major Error > Agar-disc: 1.9
+Piperacillin | % Discrepance > Major Error > Agar-E-test: 1.9
+Piperacillin | % Discrepance > Minor Error > Agar-disc: 38.5
+Piperacillin | % Discrepance > Minor Error > Agar-E-test: 38.5
+Piperacillin | % Correlation > Agar-disc: 59.6
+Piperacillin | % Correlation > Agar-E-test: 59.6
+PTZ | % Discrepance > Very Major > Agar-disc: 1.9
+PTZ | % Discrepance > Very Major > Agar-E-test: 0
+PTZ | % Discrepance > Major Error > Agar-disc: 0
+PTZ | % Discrepance > Major Error > Agar-E-test: 1.9
+PTZ | % Discrepance > Minor Error > Agar-disc: 34.6
+PTZ | % Discrepance > Minor Error > Agar-E-test: 23.1
+PTZ | % Correlation > Agar-disc: 63.5
+PTZ | % Correlation > Agar-E-test: 75.0
+TLc | % Discrepance > Very Major > Agar-disc: 0
+TLc | % Discrepance > Very Major > Agar-E-test: 1.9
+TLc | % Discrepance > Major Error > Agar-disc: 1.9
+TLc | % Discrepance > Major Error > Agar-E-test: 0
+TLc | % Discrepance > Minor Error > Agar-disc: 17.3
+TLc | % Discrepance > Minor Error > Agar-E-test: 19.2
+TLc | % Correlation > Agar-disc: 80.8
+TLc | % Correlation > Agar-E-test: 78.9
+Ciprofloxacin | % Discrepance > Very Major > Agar-disc: 5.8
+Ciprofloxacin | % Discrepance > Very Major > Agar-E-test: 5.8
+Ciprofloxacin | % Discrepance > Major Error > Agar-disc: 0
+Ciprofloxacin | % Discrepance > Major Error > Agar-E-test: 0
+Ciprofloxacin | % Discrepance > Minor Error > Agar-disc: 32.7
+Ciprofloxacin | % Discrepance > Minor Error > Agar-E-test: 32.7
+Ciprofloxacin | % Correlation > Agar-disc: 61.5
+Ciprofloxacin | % Correlation > Agar-E-test: 61.5
+SXT | % Discrepance > Very Major > Agar-disc: 0
+SXT | % Discrepance > Very Major > Agar-E-test: 0
+SXT | % Discrepance > Major Error > Agar-disc: 0
+SXT | % Discrepance > Major Error > Agar-E-test: 0
+SXT | % Discrepance > Minor Error > Agar-disc: 0
+SXT | % Discrepance > Minor Error > Agar-E-test: 0
+SXT | % Correlation > Agar-disc: 100
+SXT | % Correlation > Agar-E-test: 100

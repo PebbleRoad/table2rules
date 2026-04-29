@@ -1,0 +1,90 @@
+Sex > Male | Individuals > Number: 522167
+Sex > Male | Individuals > % of Dataset: 44.1
+Sex > Male | Episodes > Number: 3156438
+Sex > Male | Episodes > % of Dataset: 41.7
+Sex > Male | Couplets (2 nd Episode) > Number: 2634271
+Sex > Male | Couplets (2 nd Episode) > % of Dataset: 41.3
+Female | Individuals > Number: 662841
+Female | Individuals > % of Dataset: 55.9
+Female | Episodes > Number: 4405035
+Female | Episodes > % of Dataset: 58.3
+Female | Couplets (2 nd Episode) > Number: 3742194
+Female | Couplets (2 nd Episode) > % of Dataset: 58.7
+Indeterminate | Individuals > Number: 4
+Indeterminate | Individuals > % of Dataset: 0.0
+Indeterminate | Episodes > Number: 13
+Indeterminate | Episodes > % of Dataset: 0.0
+Indeterminate | Couplets (2 nd Episode) > Number: 7
+Indeterminate | Couplets (2 nd Episode) > % of Dataset: 0.0
+TOTAL | Individuals > Number: 1185014
+TOTAL | Individuals > % of Dataset: 100
+TOTAL | Episodes > Number: 7561486
+TOTAL | Episodes > % of Dataset: 100
+TOTAL | Couplets (2 nd Episode) > Number: 6376472
+TOTAL | Couplets (2 nd Episode) > % of Dataset: 100
+Age Group > 0–16 Years | Individuals > Number: 313244
+Age Group > 0–16 Years | Individuals > % of Dataset: 26.4
+Age Group > 0–16 Years | Episodes > Number: 1045092
+Age Group > 0–16 Years | Episodes > % of Dataset: 13.9
+Age Group > 0–16 Years | Couplets (2 nd Episode) > Number: 731848
+Age Group > 0–16 Years | Couplets (2 nd Episode) > % of Dataset: 11.5
+17–39 Years | Individuals > Number: 443602
+17–39 Years | Individuals > % of Dataset: 37.4
+17–39 Years | Episodes > Number: 2495039
+17–39 Years | Episodes > % of Dataset: 33.1
+17–39 Years | Couplets (2 nd Episode) > Number: 2051437
+17–39 Years | Couplets (2 nd Episode) > % of Dataset: 32.3
+40–69 Years | Individuals > Number: 326974
+40–69 Years | Individuals > % of Dataset: 27.6
+40–69 Years | Episodes > Number: 2708572
+40–69 Years | Episodes > % of Dataset: 35.9
+40–69 Years | Couplets (2 nd Episode) > Number: 2381598
+40–69 Years | Couplets (2 nd Episode) > % of Dataset: 37.5
+70+ Years | Individuals > Number: 100870
+70+ Years | Individuals > % of Dataset: 8.5
+70+ Years | Episodes > Number: 1292462
+70+ Years | Episodes > % of Dataset: 17.1
+70+ Years | Couplets (2 nd Episode) > Number: 1191592
+70+ Years | Couplets (2 nd Episode) > % of Dataset: 18.7
+TOTAL | Individuals > Number: 1184690
+TOTAL | Individuals > % of Dataset: 100 1
+TOTAL | Episodes > Number: 7541165
+TOTAL | Episodes > % of Dataset: 100 2
+TOTAL | Couplets (2 nd Episode) > Number: 6356475
+TOTAL | Couplets (2 nd Episode) > % of Dataset: 100 3
+Hospital > Teaching | Individuals > Number: 367964
+Hospital > Teaching | Individuals > % of Dataset: 31.1
+Hospital > Teaching | Episodes > Number: 2852257
+Hospital > Teaching | Episodes > % of Dataset: 37.7
+Hospital > Teaching | Couplets (2 nd Episode) > Number: 2484293
+Hospital > Teaching | Couplets (2 nd Episode) > % of Dataset: 39.0
+Type > Public Metropolitan | Individuals > Number: 198456
+Type > Public Metropolitan | Individuals > % of Dataset: 16.7
+Type > Public Metropolitan | Episodes > Number: 902286
+Type > Public Metropolitan | Episodes > % of Dataset: 11.9
+Type > Public Metropolitan | Couplets (2 nd Episode) > Number: 703830
+Type > Public Metropolitan | Couplets (2 nd Episode) > % of Dataset: 11.0
+Private Metropolitan | Individuals > Number: 313563
+Private Metropolitan | Individuals > % of Dataset: 26.5
+Private Metropolitan | Episodes > Number: 1838354
+Private Metropolitan | Episodes > % of Dataset: 24.3
+Private Metropolitan | Couplets (2 nd Episode) > Number: 1524791
+Private Metropolitan | Couplets (2 nd Episode) > % of Dataset: 23.9
+Public Country | Individuals > Number: 279315
+Public Country | Individuals > % of Dataset: 23.6
+Public Country | Episodes > Number: 1745527
+Public Country | Episodes > % of Dataset: 23.1
+Public Country | Couplets (2 nd Episode) > Number: 1466212
+Public Country | Couplets (2 nd Episode) > % of Dataset: 23.0
+Private Country | Individuals > Number: 25097
+Private Country | Individuals > % of Dataset: 2.1
+Private Country | Episodes > Number: 208883
+Private Country | Episodes > % of Dataset: 2.8
+Private Country | Couplets (2 nd Episode) > Number: 183786
+Private Country | Couplets (2 nd Episode) > % of Dataset: 2.9
+TOTAL | Individuals > Number: 1184395
+TOTAL | Individuals > % of Dataset: 100 4
+TOTAL | Episodes > Number: 7547307
+TOTAL | Episodes > % of Dataset: 100 5
+TOTAL | Couplets (2 nd Episode) > Number: 6362912
+TOTAL | Couplets (2 nd Episode) > % of Dataset: 100 6

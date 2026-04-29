@@ -1,0 +1,62 @@
+RNA (undil.) b | Control c: 21.22
+RNA (undil.) b | 25°C > C T: 22.40
+RNA (undil.) b | 25°C > incr.: 1.18
+RNA (undil.) b | 30°C > C T: 23.17
+RNA (undil.) b | 30°C > incr.: 1.95
+RNA (undil.) b | 35°C > C T: 23.79
+RNA (undil.) b | 35°C > incr.: 2.57
+RNA (1:10) | Control c: 26.15
+RNA (1:10) | 25°C > C T: 26.93
+RNA (1:10) | 25°C > incr.: 0.78
+RNA (1:10) | 30°C > C T: 27.54
+RNA (1:10) | 30°C > incr.: 1.39
+RNA (1:10) | 35°C > C T: 28.25
+RNA (1:10) | 35°C > incr.: 2.10
+RNA (1:100) | Control c: 31.37
+RNA (1:100) | 25°C > C T: 32.51
+RNA (1:100) | 25°C > incr.: 1.14
+RNA (1:100) | 30°C > C T: 32.05
+RNA (1:100) | 30°C > incr.: 0.68
+RNA (1:100) | 35°C > C T: 33.79
+RNA (1:100) | 35°C > incr.: 2.42
+RNA (1:1000) | Control c: 33.62
+RNA (1:1000) | 25°C > C T: 35.46
+RNA (1:1000) | 25°C > incr.: 1.84
+RNA (1:1000) | 30°C > C T: 35.24
+RNA (1:1000) | 30°C > incr.: 1.62
+RNA (1:1000) | 35°C > C T: 37.43
+RNA (1:1000) | 35°C > incr.: 3.81
+DNA (1:10 7 ) b | Control c: 21.48
+DNA (1:10 7 ) b | 25°C > C T: 32.11
+DNA (1:10 7 ) b | 25°C > incr.: 10.63
+DNA (1:10 7 ) b | 30°C > C T: 37.51
+DNA (1:10 7 ) b | 30°C > incr.: 16.03
+DNA (1:10 7 ) b | 35°C > C T: 38.57
+DNA (1:10 7 ) b | 35°C > incr.: 17.09
+DNA (1:10 8 ) | Control c: 24.89
+DNA (1:10 8 ) | 25°C > C T: 34.33
+DNA (1:10 8 ) | 25°C > incr.: 9.44
+DNA (1:10 8 ) | 30°C > C T: No Ct e
+DNA (1:10 8 ) | 30°C > incr.: -
+DNA (1:10 8 ) | 35°C > C T: No Ct
+DNA (1:10 8 ) | 35°C > incr.: -
+DNA (1:10 9 ) | Control c: 28.22
+DNA (1:10 9 ) | 25°C > C T: 36.08
+DNA (1:10 9 ) | 25°C > incr.: 7.86
+DNA (1:10 9 ) | 30°C > C T: No Ct
+DNA (1:10 9 ) | 30°C > incr.: -
+DNA (1:10 9 ) | 35°C > C T: No Ct
+DNA (1:10 9 ) | 35°C > incr.: -
+DNA (1:10 10 ) | Control c: 31.75
+DNA (1:10 10 ) | 25°C > C T: 38.48
+DNA (1:10 10 ) | 25°C > incr.: 6.73
+DNA (1:10 10 ) | 30°C > C T: No Ct
+DNA (1:10 10 ) | 30°C > incr.: -
+DNA (1:10 10 ) | 35°C > C T: No Ct
+DNA (1:10 10 ) | 35°C > incr.: -
+Mean C T increase for RNA | 25°C > incr.: 1.24 d
+Mean C T increase for RNA | 30°C > incr.: 1.41 d
+Mean C T increase for RNA | 35°C > incr.: 2.73 d
+Mean C T increase for DNA | 25°C > incr.: 8.67
+Mean C T increase for DNA | 30°C > incr.: 16.03
+Mean C T increase for DNA | 35°C > incr.: 17.09

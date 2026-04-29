@@ -1,0 +1,48 @@
+PA alone | Sense > Resistance (Ω*cm 2 ): 229.0 ± 13.8
+PA alone | Sense > LDH (u): 4.08 ± 0.4
+PA alone | Sense > GFP-PA01 (RFU): 0.6056 ± 0.078
+PA alone | AntiSense > Resistance (Ω*cm 2 ): 217.85 ± 8.0
+PA alone | AntiSense > LDH (u): 2.12 ± 0.2*
+PA alone | AntiSense > GFP-PA01 (RFU): 0.5753 ± 0.021
+PA + EGTA | Sense > Resistance (Ω*cm 2 ): 136.14 ± 6.1
+PA + EGTA | Sense > LDH (u): 2.42 ± 0.3
+PA + EGTA | Sense > GFP-PA01 (RFU): ND
+PA + EGTA | AntiSense > Resistance (Ω*cm 2 ): 142.43 ± 5.9
+PA + EGTA | AntiSense > LDH (u): 2.78 ± 0.6
+PA + EGTA | AntiSense > GFP-PA01 (RFU): ND
+PA + ECAD | Sense > Resistance (Ω*cm 2 ): 126.0 ± 2.3
+PA + ECAD | Sense > LDH (u): 2.95 ± 0.3
+PA + ECAD | Sense > GFP-PA01 (RFU): ND
+PA + ECAD | AntiSense > Resistance (Ω*cm 2 ): 131.0 ± 1.3
+PA + ECAD | AntiSense > LDH (u): 2.99 ± 0.4
+PA + ECAD | AntiSense > GFP-PA01 (RFU): ND
+PA + aGM1 | Sense > Resistance (Ω*cm 2 ): ND
+PA + aGM1 | Sense > LDH (u): ND
+PA + aGM1 | Sense > GFP-PA01 (RFU): 0.6456 ± 0.051
+PA + aGM1 | AntiSense > Resistance (Ω*cm 2 ): ND
+PA + aGM1 | AntiSense > LDH (u): ND
+PA + aGM1 | AntiSense > GFP-PA01 (RFU): 0.7437 ± 0.165†
+PA + C.p. | Sense > Resistance (Ω*cm 2 ): ND
+PA + C.p. | Sense > LDH (u): ND
+PA + C.p. | Sense > GFP-PA01 (RFU): 0.5851 ± 0.031
+PA + C.p. | AntiSense > Resistance (Ω*cm 2 ): ND
+PA + C.p. | AntiSense > LDH (u): ND
+PA + C.p. | AntiSense > GFP-PA01 (RFU): 0.5154 ± 0.031
+No treatment | Sense > Resistance (Ω*cm 2 ): 316.54 ± 10.5
+No treatment | Sense > LDH (u): 4.31 ± 0.7
+No treatment | Sense > GFP-PA01 (RFU): ND
+No treatment | AntiSense > Resistance (Ω*cm 2 ): 225.72 ± 2.9
+No treatment | AntiSense > LDH (u): 1.24 ± 0.1*
+No treatment | AntiSense > GFP-PA01 (RFU): ND
+EGTA alone | Sense > Resistance (Ω*cm 2 ): 213.58 ± 15.2
+EGTA alone | Sense > LDH (u): 3.22 ± 0.0
+EGTA alone | Sense > GFP-PA01 (RFU): ND
+EGTA alone | AntiSense > Resistance (Ω*cm 2 ): 202.4 ± 4.3
+EGTA alone | AntiSense > LDH (u): 0.86 ± 0.0
+EGTA alone | AntiSense > GFP-PA01 (RFU): ND
+ECAD alone | Sense > Resistance (Ω*cm 2 ): 147.186 ± 14.4
+ECAD alone | Sense > LDH (u): 3.73 ± 0.0
+ECAD alone | Sense > GFP-PA01 (RFU): ND
+ECAD alone | AntiSense > Resistance (Ω*cm 2 ): 151.09 ± 6.2
+ECAD alone | AntiSense > LDH (u): 1.07 ± 0.2
+ECAD alone | AntiSense > GFP-PA01 (RFU): ND

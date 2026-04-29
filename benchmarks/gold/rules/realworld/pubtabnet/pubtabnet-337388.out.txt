@@ -1,0 +1,85 @@
+Chronic disease | Number* > Yes: 394
+Chronic disease | Number* > No: 76
+Chronic disease | PPH % > Yes: 50.3
+Chronic disease | PPH % > No: 28.5
+Chronic disease | P-value: <0.005
+Blood pressure | Number* > Yes: 84
+Blood pressure | Number* > No: 354
+Blood pressure | PPH % > Yes: 49.6
+Blood pressure | PPH % > No: 45.8
+Blood pressure | P-value: NS
+Angina | Number* > Yes: 38
+Angina | Number* > No: 429
+Angina | PPH % > Yes: 52.6
+Angina | PPH % > No: 46.1
+Angina | P-value: NS
+Heart failure | Number* > Yes: 15
+Heart failure | Number* > No: 452
+Heart failure | PPH % > Yes: 73.3
+Heart failure | PPH % > No: 45.8
+Heart failure | P-value: <0.01
+Diabetes | Number* > Yes: 44
+Diabetes | Number* > No: 422
+Diabetes | PPH % > Yes: 54.5
+Diabetes | PPH % > No: 45.7
+Diabetes | P-value: NS
+Asthma | Number* > Yes: 59
+Asthma | Number* > No: 408
+Asthma | PPH % > Yes: 67.8
+Asthma | PPH % > No: 43.6
+Asthma | P-value: <0.005
+Chronic obstructive disease | Number* > Yes: 13
+Chronic obstructive disease | Number* > No: 454
+Chronic obstructive disease | PPH % > Yes: 38.5
+Chronic obstructive disease | PPH % > No: 46.9
+Chronic obstructive disease | P-value: NS
+Neurological disease | Number* > Yes: 25
+Neurological disease | Number* > No: 441
+Neurological disease | PPH % > Yes: 68.0
+Neurological disease | PPH % > No: 45.6
+Neurological disease | P-value: <0.0005
+Musculoskeletal disease | Number* > Yes: 89
+Musculoskeletal disease | Number* > No: 378
+Musculoskeletal disease | PPH % > Yes: 68.5
+Musculoskeletal disease | PPH % > No: 41.5
+Musculoskeletal disease | P-value: <0.0001
+Joint disease | Number* > Yes: 255
+Joint disease | Number* > No: 212
+Joint disease | PPH % > Yes: 55.3
+Joint disease | PPH % > No: 36.3
+Joint disease | P-value: <0.0005
+Pain syndrome | Number* > Yes: 112
+Pain syndrome | Number* > No: 355
+Pain syndrome | PPH % > Yes: 65.1
+Pain syndrome | PPH % > No: 39.4
+Pain syndrome | P-value: <0.0001
+Cancer | Number* > Yes: 18
+Cancer | Number* > No: 448
+Cancer | PPH % > Yes: 44.4
+Cancer | PPH % > No: 46.9
+Cancer | P-value: NS
+Psychiatric disorder | Number* > Yes: 40
+Psychiatric disorder | Number* > No: 427
+Psychiatric disorder | PPH % > Yes: 80.0
+Psychiatric disorder | PPH % > No: 43.6
+Psychiatric disorder | P-value: <0.0001
+Eye disease | Number* > Yes: 65
+Eye disease | Number* > No: 402
+Eye disease | PPH % > Yes: 53.8
+Eye disease | PPH % > No: 45.5
+Eye disease | P-value: NS
+Ear disease | Number* > Yes: 39
+Ear disease | Number* > No: 427
+Ear disease | PPH % > Yes: 46.1
+Ear disease | PPH % > No: 46.8
+Ear disease | P-value: NS
+Gastrointestinal disorders | Number* > Yes: 120
+Gastrointestinal disorders | Number* > No: 347
+Gastrointestinal disorders | PPH % > Yes: 59.2
+Gastrointestinal disorders | PPH % > No: 42.4
+Gastrointestinal disorders | P-value: <0.0005
+Urinary tract disease | Number* > Yes: 59
+Urinary tract disease | Number* > No: 406
+Urinary tract disease | PPH % > Yes: 55.9
+Urinary tract disease | PPH % > No: 45.1
+Urinary tract disease | P-value: <0.05

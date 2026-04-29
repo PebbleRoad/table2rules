@@ -1,0 +1,40 @@
+Company | Low-flux HD: Gambro
+Company | Low-flux HD: Fresenius
+Company | Online HDF: Gambro
+Company | Online HDF: Fresenius
+Dialyser | Low-flux HD: Polyflux 17L
+Dialyser | Low-flux HD: F8HPS
+Dialyser | Online HDF: Polyflux 170H
+Dialyser | Online HDF: FX80
+Membrane material | Low-flux HD: polyamide
+Membrane material | Low-flux HD: polysulfone
+Membrane material | Online HDF: polyamide
+Membrane material | Online HDF: polysulfone (helixone)
+Sterilisation method | Low-flux HD: heat
+Sterilisation method | Low-flux HD: heat
+Sterilisation method | Online HDF: heat
+Sterilisation method | Online HDF: heat
+Surface area (m 2 ) | Low-flux HD: 1.7
+Surface area (m 2 ) | Low-flux HD: 1.8
+Surface area (m 2 ) | Online HDF: 1.7
+Surface area (m 2 ) | Online HDF: 1.8
+Membrane thickness (μm) | Low-flux HD: 50
+Membrane thickness (μm) | Low-flux HD: 40
+Membrane thickness (μm) | Online HDF: 50
+Membrane thickness (μm) | Online HDF: 35
+UF coefficient (ml/mmHg/h) | Low-flux HD: 13
+UF coefficient (ml/mmHg/h) | Low-flux HD: 18
+UF coefficient (ml/mmHg/h) | Online HDF: 65
+UF coefficient (ml/mmHg/h) | Online HDF: 59
+Urea | Low-flux HD: 260
+Urea | Low-flux HD: 251
+Urea | Online HDF: 268
+Urea | Online HDF: 276
+Phosphate | Low-flux HD: 198
+Phosphate | Low-flux HD: 193
+Phosphate | Online HDF: 229
+Phosphate | Online HDF: 239
+Vit B12 | Low-flux HD: 111
+Vit B12 | Low-flux HD: 118
+Vit B12 | Online HDF: 158
+Vit B12 | Online HDF: 175

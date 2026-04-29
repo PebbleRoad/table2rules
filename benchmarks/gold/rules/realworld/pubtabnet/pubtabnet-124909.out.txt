@@ -1,0 +1,39 @@
+Actual Sample: WMD [95% CI]
+Actual Sample: % Weight
+Our Estimate: WMD [95% CI]
+Our Estimate: % Weight
+Pooled WMD | Actual Sample: -0.37 [-37.17, 36.44]
+Pooled WMD | Actual Sample: 42.00
+Pooled WMD | Our Estimate: 0.41 [-30.92, 31.73]
+Pooled WMD | Our Estimate: 58.00
+Overall pooled WMD | Actual Sample: 0.08
+Overall pooled WMD | Our Estimate: 0.08
+Overall pooled WMD | Our Estimate: 100.00
+Actual Sample: Heterogeneity statistic
+Actual Sample: degrees of freedom
+Our Estimate: P
+Our Estimate: I-squared
+Sample | Actual Sample: 0.04
+Sample | Actual Sample: 9
+Sample | Our Estimate: 1.000
+Sample | Our Estimate: 0.0%
+Estimate | Actual Sample: 0.04
+Estimate | Actual Sample: 9
+Estimate | Our Estimate: 1.000
+Estimate | Our Estimate: 0.0%
+Overall | Actual Sample: 0.08
+Overall | Actual Sample: 19
+Overall | Our Estimate: 1.000
+Overall | Our Estimate: 0.0%
+Actual Sample: 0.00
+Actual Sample: 1
+Our Estimate: 0.975
+Significance test(s) of WMD = 0 | Actual Sample: Sample
+Significance test(s) of WMD = 0 | Our Estimate: z = 0.02
+Significance test(s) of WMD = 0 | Our Estimate: p = 0.984
+Actual Sample: Estimate
+Our Estimate: z = 0.03
+Our Estimate: p = 0.980
+Actual Sample: Overall
+Our Estimate: z = 0.01
+Our Estimate: p = 0.995

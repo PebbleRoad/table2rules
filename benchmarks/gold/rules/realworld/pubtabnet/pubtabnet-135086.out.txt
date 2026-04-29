@@ -1,0 +1,42 @@
+All participants: Patients/controls
+All participants: OR (95% CI) b
+Premenopausal: Patients/controls
+Premenopausal: OR (95% CI) b
+Postmenopausal: Patients/controls
+Postmenopausal: OR (95% CI) b
+Total PCBs a: <0.430
+CYP1A1 M3 genotype: Non-M3
+All participants: 95/95
+All participants: Referent
+Premenopausal: 73/70
+Premenopausal: Referent
+Postmenopausal: 22/25
+Postmenopausal: Referent
+Total PCBs a: ≥0.430
+CYP1A1 M3 genotype: Non-M3
+All participants: 105/100
+All participants: 1.3 (0.8–2.0)
+Premenopausal: 31/24
+Premenopausal: 1.6 (0.8–3.2)
+Postmenopausal: 74/76
+Postmenopausal: 1.0 (0.5–2.0)
+Total PCBs a: <0.430
+CYP1A1 M3 genotype: Any M3
+All participants: 13/26
+All participants: 0.6 (0.3–1.2)
+Premenopausal: 8/14
+Premenopausal: 0.7 (0.3–1.7)
+Postmenopausal: 5/12
+Postmenopausal: 0.5 (0.2–1.6)
+Total PCBs a: ≥0.430
+CYP1A1 M3 genotype: Any M3
+All participants: 29/21
+All participants: 1.6 (0.8–3.2)
+Premenopausal: 7/6
+Premenopausal: 1.5 (0.5–4.7)
+Postmenopausal: 22/15
+Postmenopausal: 1.5 (0.6–3.6)
+Total PCBs a: ICR (95% CI)
+All participants: 0.8 (-0.3,1.9)
+Premenopausal: 0.2 (-1.7,2.1)
+Postmenopausal: 1.0 (-0.2,2.1)

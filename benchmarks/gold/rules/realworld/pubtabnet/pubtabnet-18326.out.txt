@@ -1,0 +1,82 @@
+Haplotype a: TAGTAAGACA
+Patient: 0.340
+Normal: 0.359
+Fisher's Exact Test ( P value) b: 0.755
+OR b,c,d: 0.919
+95% CI d: 0.61–1.38
+Haplotype a: TAGAGACCTG
+Patient: 0.145
+Normal: 0.140
+Fisher's Exact Test ( P value) b: 1.000
+OR b,c,d: 1.035
+95% CI d: 0.59–1.80
+Haplotype a: GGTTGCCCTA
+Patient: 0.095
+Normal: 0.068
+Fisher's Exact Test ( P value) b: 0.366
+OR b,c,d: 1.439
+95% CI d: 0.70–2.96
+Haplotype a: TAGTAACACA
+Patient: 0.010
+Normal: 0.039
+Fisher's Exact Test ( P value) b: 0.105
+OR b,c,d: 0.250
+95% CI d: 0.05–1.19
+Haplotype a: TAGTAAGATA
+Patient: 0.025
+Normal: 0.010
+Fisher's Exact Test ( P value) b: 0.278
+OR b,c,d: 2.615
+95% CI d: 0.50–13.64
+Haplotype a: TAGTGCGACA
+Patient: 0.025
+Normal: 0.015
+Fisher's Exact Test ( P value) b: 0.498
+OR b,c,d: 1.735
+95% CI d: 0.41–7.36
+Haplotype a: GGGAGACCCA
+Patient: 0.025
+Normal: 0
+Fisher's Exact Test ( P value) b: 0.028
+OR b,c,d: --
+95% CI d: --
+Haplotype a: TAGTAACCTG
+Patient: 0.020
+Normal: 0
+Fisher's Exact Test ( P value) b: 0.058
+OR b,c,d: --
+95% CI d: --
+Haplotype a: TAGTGACCTG
+Patient: 0.020
+Normal: 0.010
+Fisher's Exact Test ( P value) b: 0.443
+OR b,c,d: 2.081
+95% CI d: 0.38–11.49
+Haplotype a: TAGAGACATG
+Patient: 0.020
+Normal: 0.019
+Fisher's Exact Test ( P value) b: 1.000
+OR b,c,d: 1.031
+95% CI d: 0.25–4.18
+Haplotype a: GGTTGCCCTG
+Patient: 0.020
+Normal: 0.010
+Fisher's Exact Test ( P value) b: 0.443
+OR b,c,d: 2.082
+95% CI d: 0.38–11.49
+Haplotype a: GGTAGACCCA
+Patient: 0.015
+Normal: 0.024
+Fisher's Exact Test ( P value) b: 0.724
+OR b,c,d: 0.612
+95% CI d: 0.14–2.59
+Haplotype a: Others
+Patient: 0.240
+Normal: 0.306
+Fisher's Exact Test ( P value) b: 0.149
+OR b,c,d: 0.717
+95% CI d: 0.46–1.11
+Haplotype a: Total
+Fisher's Exact Test ( P value) b: 0.082
+Haplotype a: P value of permutation test
+Patient: 0.602

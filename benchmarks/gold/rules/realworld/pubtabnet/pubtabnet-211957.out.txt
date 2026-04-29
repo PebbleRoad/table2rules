@@ -1,0 +1,54 @@
+Risk-based N = 245 | Dental hygienist > Preventive > Mean: 177
+Risk-based N = 245 | Dental hygienist > Preventive > S.D.: 86
+Risk-based N = 245 | Dentist- dental assistant team > Preventive > Mean: 216
+Risk-based N = 245 | Dentist- dental assistant team > Preventive > S.D.: 129
+Risk-based N = 245 | Dentist- dental assistant team > Restorative > Mean: 111
+Risk-based N = 245 | Dentist- dental assistant team > Restorative > S.D.: 160
+Low-risk | n: 166
+Low-risk | Dental hygienist > Preventive > Mean: 161
+Low-risk | Dental hygienist > Preventive > S.D.: 79
+Low-risk | Dentist- dental assistant team > Preventive > Mean: 215
+Low-risk | Dentist- dental assistant team > Preventive > S.D.: 132
+Low-risk | Dentist- dental assistant team > Restorative > Mean: 99
+Low-risk | Dentist- dental assistant team > Restorative > S.D.: 142
+Intermediate | n: 52
+Intermediate | Dental hygienist > Preventive > Mean: 190
+Intermediate | Dental hygienist > Preventive > S.D.: 84
+Intermediate | Dentist- dental assistant team > Preventive > Mean: 220
+Intermediate | Dentist- dental assistant team > Preventive > S.D.: 114
+Intermediate | Dentist- dental assistant team > Restorative > Mean: 130
+Intermediate | Dentist- dental assistant team > Restorative > S.D.: 188
+High-risk | n: 27
+High-risk | Dental hygienist > Preventive > Mean: 251
+High-risk | Dental hygienist > Preventive > S.D.: 90
+High-risk | Dentist- dental assistant team > Preventive > Mean: 214
+High-risk | Dentist- dental assistant team > Preventive > S.D.: 143
+High-risk | Dentist- dental assistant team > Restorative > Mean: 149
+High-risk | Dentist- dental assistant team > Restorative > S.D.: 200
+Routine N = 202 | Dental hygienist > Preventive > Mean: 156
+Routine N = 202 | Dental hygienist > Preventive > S.D.: 56
+Routine N = 202 | Dentist- dental assistant team > Preventive > Mean: 312
+Routine N = 202 | Dentist- dental assistant team > Preventive > S.D.: 84
+Routine N = 202 | Dentist- dental assistant team > Restorative > Mean: 188
+Routine N = 202 | Dentist- dental assistant team > Restorative > S.D.: 244
+Low-risk | n: 134
+Low-risk | Dental hygienist > Preventive > Mean: 140
+Low-risk | Dental hygienist > Preventive > S.D.: 49
+Low-risk | Dentist- dental assistant team > Preventive > Mean: 305
+Low-risk | Dentist- dental assistant team > Preventive > S.D.: 85
+Low-risk | Dentist- dental assistant team > Restorative > Mean: 133
+Low-risk | Dentist- dental assistant team > Restorative > S.D.: 188
+Intermediate | n: 50
+Intermediate | Dental hygienist > Preventive > Mean: 186
+Intermediate | Dental hygienist > Preventive > S.D.: 50
+Intermediate | Dentist- dental assistant team > Preventive > Mean: 319
+Intermediate | Dentist- dental assistant team > Preventive > S.D.: 88
+Intermediate | Dentist- dental assistant team > Restorative > Mean: 263
+Intermediate | Dentist- dental assistant team > Restorative > S.D.: 249
+High-risk | n: 18
+High-risk | Dental hygienist > Preventive > Mean: 192
+High-risk | Dental hygienist > Preventive > S.D.: 72
+High-risk | Dentist- dental assistant team > Preventive > Mean: 346
+High-risk | Dentist- dental assistant team > Preventive > S.D.: 59
+High-risk | Dentist- dental assistant team > Restorative > Mean: 388
+High-risk | Dentist- dental assistant team > Restorative > S.D.: 406

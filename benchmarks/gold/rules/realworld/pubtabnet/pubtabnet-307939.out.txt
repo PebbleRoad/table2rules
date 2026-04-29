@@ -1,0 +1,56 @@
+Characteristic: Age, years (mean ± SD)
+Non-survivors ( n = 22): 62 ± 12.0
+Survivors ( n = 34): 51 ± 12.8
+P: 0.002
+Characteristic: APACHE II score (mean ± SD)
+Non-survivors ( n = 22): 25 ± 8.5
+Survivors ( n = 34): 18 ± 10.6
+P: 0.019
+Characteristic: Ranson score (mean ± SD)
+Non-survivors ( n = 22): 6.3 ± 2.03
+Survivors ( n = 34): 5.7 ± 2.09
+P: 0.36
+Characteristic: Male gender
+Non-survivors ( n = 22): 15 (68%)
+Survivors ( n = 34): 20 (59%)
+P: 0.48
+Characteristic: CRP at admission, mg/dl (mean ± SD)
+Non-survivors ( n = 22): 176 ± 162.3
+Survivors ( n = 34): 170 ± 142.2
+P: 0.90
+Characteristic: Organ dysfunction
+Non-survivors ( n = 22): Organ dysfunction
+Survivors ( n = 34): Organ dysfunction
+P: Organ dysfunction
+Characteristic: Respiratory insufficiency
+Non-survivors ( n = 22): 22 (100%)
+Survivors ( n = 34): 21 (62%)
+P: 0.001
+Characteristic: Acute renal failure
+Non-survivors ( n = 22): 22 (100%)
+Survivors ( n = 34): 17 (50%)
+P: <0.001
+Characteristic: Cardiovascular failure
+Non-survivors ( n = 22): 20 (91%)
+Survivors ( n = 34): 12 (35%)
+P: <0.001
+Characteristic: Sterile necrosis
+Non-survivors ( n = 22): 17 (77%)
+Survivors ( n = 34): 13 (38.2%)
+P: 0.004
+Characteristic: SOFA score at surgery (median and IQR)
+Non-survivors ( n = 22): 4 (9–13)
+Survivors ( n = 34): 2 (2–7)
+P: 0.005
+Characteristic: MODS as indication for surgery
+Non-survivors ( n = 22): 8 (36%)
+Survivors ( n = 34): 4 (12%)
+P: 0.045
+Characteristic: Early surgical intervention
+Non-survivors ( n = 22): 12 (55%)
+Survivors ( n = 34): 10 (29%)
+P: 0.06
+Characteristic: Interval from diagnosis to surgery, days (median and IQR)
+Non-survivors ( n = 22): 11 (4–22)
+Survivors ( n = 34): 18 (12–29)
+P: 0.09

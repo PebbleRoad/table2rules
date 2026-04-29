@@ -1,0 +1,48 @@
+Notebooks/Mobile Devices | Year EndedDecember 31, 2015 > Dollars inMillions: $2,539.4
+Notebooks/Mobile Devices | Year EndedDecember 31, 2015 > Percentageof Total NetSales: 19.6%
+Notebooks/Mobile Devices | Year EndedDecember 31, 2014 > Dollars inMillions: $2,354.0
+Notebooks/Mobile Devices | Year EndedDecember 31, 2014 > Percentageof Total NetSales: 19.5%
+Notebooks/Mobile Devices | Year EndedDecember 31, 2013 > Dollars inMillions: $1,696.5
+Notebooks/Mobile Devices | Year EndedDecember 31, 2013 > Percentageof Total NetSales: 15.8%
+Netcomm Products | Year EndedDecember 31, 2015 > Dollars inMillions: 1,914.9
+Netcomm Products | Year EndedDecember 31, 2015 > Percentageof Total NetSales: 14.7
+Netcomm Products | Year EndedDecember 31, 2014 > Dollars inMillions: 1,613.3
+Netcomm Products | Year EndedDecember 31, 2014 > Percentageof Total NetSales: 13.4
+Netcomm Products | Year EndedDecember 31, 2013 > Dollars inMillions: 1,482.7
+Netcomm Products | Year EndedDecember 31, 2013 > Percentageof Total NetSales: 13.8
+Enterprise and Data Storage (Including Drives) | Year EndedDecember 31, 2015 > Dollars inMillions: 1,065.2
+Enterprise and Data Storage (Including Drives) | Year EndedDecember 31, 2015 > Percentageof Total NetSales: 8.2
+Enterprise and Data Storage (Including Drives) | Year EndedDecember 31, 2014 > Dollars inMillions: 1,024.2
+Enterprise and Data Storage (Including Drives) | Year EndedDecember 31, 2014 > Percentageof Total NetSales: 8.5
+Enterprise and Data Storage (Including Drives) | Year EndedDecember 31, 2013 > Dollars inMillions: 999.3
+Enterprise and Data Storage (Including Drives) | Year EndedDecember 31, 2013 > Percentageof Total NetSales: 9.3
+Other Hardware | Year EndedDecember 31, 2015 > Dollars inMillions: 4,756.4
+Other Hardware | Year EndedDecember 31, 2015 > Percentageof Total NetSales: 36.6
+Other Hardware | Year EndedDecember 31, 2014 > Dollars inMillions: 4,551.1
+Other Hardware | Year EndedDecember 31, 2014 > Percentageof Total NetSales: 37.6
+Other Hardware | Year EndedDecember 31, 2013 > Dollars inMillions: 4,184.1
+Other Hardware | Year EndedDecember 31, 2013 > Percentageof Total NetSales: 38.8
+Software | Year EndedDecember 31, 2015 > Dollars inMillions: 2,163.6
+Software | Year EndedDecember 31, 2015 > Percentageof Total NetSales: 16.7
+Software | Year EndedDecember 31, 2014 > Dollars inMillions: 2,064.1
+Software | Year EndedDecember 31, 2014 > Percentageof Total NetSales: 17.1
+Software | Year EndedDecember 31, 2013 > Dollars inMillions: 1,982.4
+Software | Year EndedDecember 31, 2013 > Percentageof Total NetSales: 18.4
+Services | Year EndedDecember 31, 2015 > Dollars inMillions: 478.0
+Services | Year EndedDecember 31, 2015 > Percentageof Total NetSales: 3.7
+Services | Year EndedDecember 31, 2014 > Dollars inMillions: 371.9
+Services | Year EndedDecember 31, 2014 > Percentageof Total NetSales: 3.1
+Services | Year EndedDecember 31, 2013 > Dollars inMillions: 332.7
+Services | Year EndedDecember 31, 2013 > Percentageof Total NetSales: 3.1
+Other (1) | Year EndedDecember 31, 2015 > Dollars inMillions: 71.2
+Other (1) | Year EndedDecember 31, 2015 > Percentageof Total NetSales: 0.5
+Other (1) | Year EndedDecember 31, 2014 > Dollars inMillions: 95.9
+Other (1) | Year EndedDecember 31, 2014 > Percentageof Total NetSales: 0.8
+Other (1) | Year EndedDecember 31, 2013 > Dollars inMillions: 90.9
+Other (1) | Year EndedDecember 31, 2013 > Percentageof Total NetSales: 0.8
+Total Net sales | Year EndedDecember 31, 2015 > Dollars inMillions: $12,988.7
+Total Net sales | Year EndedDecember 31, 2015 > Percentageof Total NetSales: 100.0%
+Total Net sales | Year EndedDecember 31, 2014 > Dollars inMillions: $12,074.5
+Total Net sales | Year EndedDecember 31, 2014 > Percentageof Total NetSales: 100.0%
+Total Net sales | Year EndedDecember 31, 2013 > Dollars inMillions: $10,768.6
+Total Net sales | Year EndedDecember 31, 2013 > Percentageof Total NetSales: 100.0%

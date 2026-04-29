@@ -1,0 +1,93 @@
+Weighted-average assumptions used to determine benefit obligations for years ended December 31: | Pension Plans > 2018: U.S.
+Weighted-average assumptions used to determine benefit obligations for years ended December 31: | Pension Plans > 2018: Non-U.S.
+Weighted-average assumptions used to determine benefit obligations for years ended December 31: | Pension Plans > 2017: U.S.
+Weighted-average assumptions used to determine benefit obligations for years ended December 31: | Pension Plans > 2017: Non-U.S.
+Weighted-average assumptions used to determine benefit obligations for years ended December 31: | Pension Plans > 2016: U.S.
+Weighted-average assumptions used to determine benefit obligations for years ended December 31: | Pension Plans > 2016: Non-U.S.
+Discount rate | Pension Plans > 2018: 4.29%
+Discount rate | Pension Plans > 2018: 2.35%
+Discount rate | Pension Plans > 2017: 3.57%
+Discount rate | Pension Plans > 2017: 2.25%
+Discount rate | Pension Plans > 2016: 3.89%
+Discount rate | Pension Plans > 2016: 2.33%
+Discount rate | Postretirement Benefit Plans > 2018: 4.26%
+Discount rate | Postretirement Benefit Plans > 2017: 3.54%
+Discount rate | Postretirement Benefit Plans > 2016: 3.91%
+Rate of compensation increase | Pension Plans > 2018: 3.25%
+Rate of compensation increase | Pension Plans > 2018: 2.94%
+Rate of compensation increase | Pension Plans > 2017: 3.25%
+Rate of compensation increase | Pension Plans > 2017: 2.95%
+Rate of compensation increase | Pension Plans > 2016: 3.25%
+Rate of compensation increase | Pension Plans > 2016: 2.94%
+Rate of compensation increase | Postretirement Benefit Plans > 2018: 3.25%
+Rate of compensation increase | Postretirement Benefit Plans > 2017: 3.25%
+Rate of compensation increase | Postretirement Benefit Plans > 2016: 3.25%
+Health care cost trend > Initial | Postretirement Benefit Plans > 2018: 6.50%
+Health care cost trend > Initial | Postretirement Benefit Plans > 2017: 6.75%
+Health care cost trend > Initial | Postretirement Benefit Plans > 2016: 7.00%
+Health care cost trend > Decreasing to ultimate trend of | Postretirement Benefit Plans > 2018: 5.00%
+Health care cost trend > Decreasing to ultimate trend of | Postretirement Benefit Plans > 2017: 5.00%
+Health care cost trend > Decreasing to ultimate trend of | Postretirement Benefit Plans > 2016: 5.00%
+Health care cost trend > in year | Postretirement Benefit Plans > 2018: 2025
+Health care cost trend > in year | Postretirement Benefit Plans > 2017: 2025
+Health care cost trend > in year | Postretirement Benefit Plans > 2016: 2021
+Health care cost trend > Weighted-average assumptions used to determine net periodic cost for years ended December 31: | Pension Plans > 2018: U.S.
+Health care cost trend > Weighted-average assumptions used to determine net periodic cost for years ended December 31: | Pension Plans > 2018: Non-U.S.
+Health care cost trend > Weighted-average assumptions used to determine net periodic cost for years ended December 31: | Pension Plans > 2017: U.S.
+Health care cost trend > Weighted-average assumptions used to determine net periodic cost for years ended December 31: | Pension Plans > 2017: Non-U.S.
+Health care cost trend > Weighted-average assumptions used to determine net periodic cost for years ended December 31: | Pension Plans > 2016: U.S.
+Health care cost trend > Weighted-average assumptions used to determine net periodic cost for years ended December 31: | Pension Plans > 2016: Non-U.S.
+Health care cost trend > Discount rate | Pension Plans > 2018: 3.57%
+Health care cost trend > Discount rate | Pension Plans > 2018: 2.25%
+Health care cost trend > Discount rate | Pension Plans > 2017: 3.89%
+Health care cost trend > Discount rate | Pension Plans > 2017: 2.33%
+Health care cost trend > Discount rate | Pension Plans > 2016: 4.13%
+Health care cost trend > Discount rate | Pension Plans > 2016: 3.26%
+Health care cost trend > Discount rate | Postretirement Benefit Plans > 2018: 3.54%
+Health care cost trend > Discount rate | Postretirement Benefit Plans > 2017: 3.91%
+Health care cost trend > Discount rate | Postretirement Benefit Plans > 2016: 4.17%
+Health care cost trend > Discount rate for service cost | Pension Plans > 2018: 3.64%
+Health care cost trend > Discount rate for service cost | Pension Plans > 2018: 2.25%
+Health care cost trend > Discount rate for service cost | Pension Plans > 2017: 3.89%
+Health care cost trend > Discount rate for service cost | Pension Plans > 2017: 2.33%
+Health care cost trend > Discount rate for service cost | Pension Plans > 2016: 4.13%
+Health care cost trend > Discount rate for service cost | Pension Plans > 2016: 3.26%
+Health care cost trend > Discount rate for service cost | Postretirement Benefit Plans > 2018: 3.28%
+Health care cost trend > Discount rate for service cost | Postretirement Benefit Plans > 2017: 4.31%
+Health care cost trend > Discount rate for service cost | Postretirement Benefit Plans > 2016: 4.57%
+Health care cost trend > Discount rate for interest cost | Pension Plans > 2018: 3.18%
+Health care cost trend > Discount rate for interest cost | Pension Plans > 2018: 2.25%
+Health care cost trend > Discount rate for interest cost | Pension Plans > 2017: 3.24%
+Health care cost trend > Discount rate for interest cost | Pension Plans > 2017: 2.33%
+Health care cost trend > Discount rate for interest cost | Pension Plans > 2016: 3.33%
+Health care cost trend > Discount rate for interest cost | Pension Plans > 2016: 3.26%
+Health care cost trend > Discount rate for interest cost | Postretirement Benefit Plans > 2018: 3.14%
+Health care cost trend > Discount rate for interest cost | Postretirement Benefit Plans > 2017: 3.28%
+Health care cost trend > Discount rate for interest cost | Postretirement Benefit Plans > 2016: 3.42%
+Health care cost trend > Expected return on assets | Pension Plans > 2018: 7.48%
+Health care cost trend > Expected return on assets | Pension Plans > 2018: 4.83%
+Health care cost trend > Expected return on assets | Pension Plans > 2017: 7.49%
+Health care cost trend > Expected return on assets | Pension Plans > 2017: 5.02%
+Health care cost trend > Expected return on assets | Pension Plans > 2016: 7.60%
+Health care cost trend > Expected return on assets | Pension Plans > 2016: 5.11%
+Health care cost trend > Expected return on assets | Postretirement Benefit Plans > 2018: 3.75%
+Health care cost trend > Expected return on assets | Postretirement Benefit Plans > 2017: 3.75%
+Health care cost trend > Expected return on assets | Postretirement Benefit Plans > 2016: 3.75%
+Health care cost trend > Rate of compensation increase | Pension Plans > 2018: 3.25%
+Health care cost trend > Rate of compensation increase | Pension Plans > 2018: 2.95%
+Health care cost trend > Rate of compensation increase | Pension Plans > 2017: 3.25%
+Health care cost trend > Rate of compensation increase | Pension Plans > 2017: 2.94%
+Health care cost trend > Rate of compensation increase | Pension Plans > 2016: 3.50%
+Health care cost trend > Rate of compensation increase | Pension Plans > 2016: 3.00%
+Health care cost trend > Rate of compensation increase | Postretirement Benefit Plans > 2018: 3.25%
+Health care cost trend > Rate of compensation increase | Postretirement Benefit Plans > 2017: 3.25%
+Health care cost trend > Rate of compensation increase | Postretirement Benefit Plans > 2016: 3.50%
+Health care cost trend > Initial | Postretirement Benefit Plans > 2018: 6.75%
+Health care cost trend > Initial | Postretirement Benefit Plans > 2017: 7.00%
+Health care cost trend > Initial | Postretirement Benefit Plans > 2016: 7.50%
+Health care cost trend > Decreasing to ultimate trend of | Postretirement Benefit Plans > 2018: 5.00%
+Health care cost trend > Decreasing to ultimate trend of | Postretirement Benefit Plans > 2017: 5.00%
+Health care cost trend > Decreasing to ultimate trend of | Postretirement Benefit Plans > 2016: 5.00%
+Health care cost trend > in year | Postretirement Benefit Plans > 2018: 2025
+Health care cost trend > in year | Postretirement Benefit Plans > 2017: 2021
+Health care cost trend > in year | Postretirement Benefit Plans > 2016: 2021

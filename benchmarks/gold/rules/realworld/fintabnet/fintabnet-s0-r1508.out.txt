@@ -1,0 +1,42 @@
+Debt and capital lease obligations 1 | Payments due by Period > 2014 > (In millions): $1,446
+Debt and capital lease obligations 1 | Payments due by Period > 2015 > (In millions): $1,325
+Debt and capital lease obligations 1 | Payments due by Period > 2016 > (In millions): $2,733
+Debt and capital lease obligations 1 | Payments due by Period > 2017 > (In millions): $1,223
+Debt and capital lease obligations 1 | Payments due by Period > 2018 > (In millions): $1,756
+Debt and capital lease obligations 1 | Payments due by Period > 2019 and Thereafter > (In millions): $8,412
+Debt and capital lease obligations 1 | Total > (In millions): $16,895
+Interest obligations 2 | Payments due by Period > 2014 > (In millions): 830
+Interest obligations 2 | Payments due by Period > 2015 > (In millions): 787
+Interest obligations 2 | Payments due by Period > 2016 > (In millions): 660
+Interest obligations 2 | Payments due by Period > 2017 > (In millions): 585
+Interest obligations 2 | Payments due by Period > 2018 > (In millions): 556
+Interest obligations 2 | Payments due by Period > 2019 and Thereafter > (In millions): 1,392
+Interest obligations 2 | Total > (In millions): 4,810
+Commitments for aircraft and engine purchases and operating leases 3,4 | Payments due by Period > 2014 > (In millions): 6,061
+Commitments for aircraft and engine purchases and operating leases 3,4 | Payments due by Period > 2015 > (In millions): 5,459
+Commitments for aircraft and engine purchases and operating leases 3,4 | Payments due by Period > 2016 > (In millions): 5,132
+Commitments for aircraft and engine purchases and operating leases 3,4 | Payments due by Period > 2017 > (In millions): 5,532
+Commitments for aircraft and engine purchases and operating leases 3,4 | Payments due by Period > 2018 > (In millions): 6,387
+Commitments for aircraft and engine purchases and operating leases 3,4 | Payments due by Period > 2019 and Thereafter > (In millions): 23,010
+Commitments for aircraft and engine purchases and operating leases 3,4 | Total > (In millions): 51,581
+Regional capacity purchase agreements 5 | Payments due by Period > 2014 > (In millions): 1,666
+Regional capacity purchase agreements 5 | Payments due by Period > 2015 > (In millions): 1,678
+Regional capacity purchase agreements 5 | Payments due by Period > 2016 > (In millions): 1,537
+Regional capacity purchase agreements 5 | Payments due by Period > 2017 > (In millions): 1,249
+Regional capacity purchase agreements 5 | Payments due by Period > 2018 > (In millions): 1,061
+Regional capacity purchase agreements 5 | Payments due by Period > 2019 and Thereafter > (In millions): 5,005
+Regional capacity purchase agreements 5 | Total > (In millions): 12,196
+Other purchase obligations and long-term liabilities 6,7 | Payments due by Period > 2014 > (In millions): 443
+Other purchase obligations and long-term liabilities 6,7 | Payments due by Period > 2015 > (In millions): 325
+Other purchase obligations and long-term liabilities 6,7 | Payments due by Period > 2016 > (In millions): 299
+Other purchase obligations and long-term liabilities 6,7 | Payments due by Period > 2017 > (In millions): 278
+Other purchase obligations and long-term liabilities 6,7 | Payments due by Period > 2018 > (In millions): 274
+Other purchase obligations and long-term liabilities 6,7 | Payments due by Period > 2019 and Thereafter > (In millions): 3,962
+Other purchase obligations and long-term liabilities 6,7 | Total > (In millions): 5,581
+Total AAG Contractual Obligations 8 | Payments due by Period > 2014 > (In millions): $10,446
+Total AAG Contractual Obligations 8 | Payments due by Period > 2015 > (In millions): $9,574
+Total AAG Contractual Obligations 8 | Payments due by Period > 2016 > (In millions): $10,361
+Total AAG Contractual Obligations 8 | Payments due by Period > 2017 > (In millions): $8,867
+Total AAG Contractual Obligations 8 | Payments due by Period > 2018 > (In millions): $10,034
+Total AAG Contractual Obligations 8 | Payments due by Period > 2019 and Thereafter > (In millions): $41,781
+Total AAG Contractual Obligations 8 | Total > (In millions): $91,063

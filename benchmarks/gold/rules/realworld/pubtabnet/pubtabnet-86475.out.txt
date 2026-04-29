@@ -1,0 +1,58 @@
+Protein Name: Acetylcholinesterase precursor
+Abbreviation: ACES
+Accession #: O62763
+Functional Category: Membrane Enzyme
+Protein Name: Beta-2 adrenergic receptor
+Abbreviation: B2AR
+Accession #: Q9TST5
+Functional Category: Membrane Receptor
+Protein Name: Beta-hexosaminidase beta chain precursor
+Abbreviation: HEXB
+Accession #: P49614
+Functional Category: Lysosomal Enzyme
+Protein Name: Interleukin-1 receptor beta precursor
+Abbreviation: IL1B
+Accession #: P41687
+Functional Category: Cytokine Receptor
+Protein Name: Interleukin-2 receptor alpha chain precursor
+Abbreviation: IL2A*
+Accession #: P41690
+Functional Category: Cytokine Receptor
+Protein Name: Interleukin-6 precursor
+Abbreviation: IL6*
+Accession #: P41683
+Functional Category: Cytokine
+Protein Name: Interferon gamma precursor
+Abbreviation: ING
+Accession #: P46402
+Functional Category: Cytokine
+Protein Name: Macrophage colony stimulating factor I receptor precursor
+Abbreviation: KFMS
+Accession #: P13369
+Functional Category: Membrane tyrosine kinase Receptor
+Protein Name: Major allergen I polypeptide chain 2 precursor
+Abbreviation: FEL2
+Accession #: P30440
+Functional Category: Cytoplasmic Cat Allergen
+Protein Name: Lipoprotein lipase precursor
+Abbreviation: LIPL
+Accession #: P55031
+Functional Category: Membrane Enzyme
+Protein Name: Red-sensitve opsin
+Abbreviation: OPSR
+Accession #: O18913
+Functional Category: Sensory Retinal protein
+Protein Name: Proto-oncogene serine/threonine-protein kinase pim-1
+Abbreviation: PIM1*
+Accession #: Q95LJ0
+Functional Category: Serine Threonine Kinase
+Protein Name: B:
+Protein Name: Proteins Expressed Exclusively in Melanoma cells
+Protein Name: Cyclin-dependent kinase inhibitor 1
+Abbreviation: CDNA**
+Accession #: O19002
+Functional Category: Nuclear Cell Cycle Protein
+Protein Name: Matrilysin precursor
+Abbreviation: MMO7
+Accession #: P55032
+Functional Category: Membrane Enzyme

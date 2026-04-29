@@ -1,0 +1,44 @@
+Revenue > Product | Year Ended December 31, > 2018 > $: $1,841,100
+Revenue > Product | Year Ended December 31, > 2018 > % ofRevenue: 85.6%
+Revenue > Product | Year Ended December 31, > 2017 > $: $1,432,810
+Revenue > Product | Year Ended December 31, > 2017 > % ofRevenue: 87.0%
+Revenue > Product | Change in > $: $408,290
+Revenue > Product | Change in > %: 28.5%
+Revenue > Service | Year Ended December 31, > 2018 > $: 310,269
+Revenue > Service | Year Ended December 31, > 2018 > % ofRevenue: 14.4
+Revenue > Service | Year Ended December 31, > 2017 > $: 213,376
+Revenue > Service | Year Ended December 31, > 2017 > % ofRevenue: 13.0
+Revenue > Service | Change in > $: 96,893
+Revenue > Service | Change in > %: 45.4
+Revenue > Total revenue | Year Ended December 31, > 2018 > $: 2,151,369
+Revenue > Total revenue | Year Ended December 31, > 2018 > % ofRevenue: 100.0
+Revenue > Total revenue | Year Ended December 31, > 2017 > $: 1,646,186
+Revenue > Total revenue | Year Ended December 31, > 2017 > % ofRevenue: 100.0
+Revenue > Total revenue | Change in > $: 505,183
+Revenue > Total revenue | Change in > %: 30.7
+Cost of revenue > Product | Year Ended December 31, > 2018 > $: 720,584
+Cost of revenue > Product | Year Ended December 31, > 2018 > % ofRevenue: 33.5
+Cost of revenue > Product | Year Ended December 31, > 2017 > $: 538,035
+Cost of revenue > Product | Year Ended December 31, > 2017 > % ofRevenue: 32.7
+Cost of revenue > Product | Change in > $: 182,549
+Cost of revenue > Product | Change in > %: 33.9
+Cost of revenue > Service | Year Ended December 31, > 2018 > $: 57,408
+Cost of revenue > Service | Year Ended December 31, > 2018 > % ofRevenue: 2.7
+Cost of revenue > Service | Year Ended December 31, > 2017 > $: 46,382
+Cost of revenue > Service | Year Ended December 31, > 2017 > % ofRevenue: 2.8
+Cost of revenue > Service | Change in > $: 11,026
+Cost of revenue > Service | Change in > %: 23.8
+Cost of revenue > Total cost of revenue | Year Ended December 31, > 2018 > $: 777,992
+Cost of revenue > Total cost of revenue | Year Ended December 31, > 2018 > % ofRevenue: 36.2
+Cost of revenue > Total cost of revenue | Year Ended December 31, > 2017 > $: 584,417
+Cost of revenue > Total cost of revenue | Year Ended December 31, > 2017 > % ofRevenue: 35.5
+Cost of revenue > Total cost of revenue | Change in > $: 193,575
+Cost of revenue > Total cost of revenue | Change in > %: 33.1
+Cost of revenue > Gross profit | Year Ended December 31, > 2018 > $: $1,373,377
+Cost of revenue > Gross profit | Year Ended December 31, > 2018 > % ofRevenue: 63.8%
+Cost of revenue > Gross profit | Year Ended December 31, > 2017 > $: $1,061,769
+Cost of revenue > Gross profit | Year Ended December 31, > 2017 > % ofRevenue: 64.5%
+Cost of revenue > Gross profit | Change in > $: $311,608
+Cost of revenue > Gross profit | Change in > %: 29.3%
+Cost of revenue > Gross margin | Year Ended December 31, > 2018 > $: 63.8%
+Cost of revenue > Gross margin | Year Ended December 31, > 2017 > $: 64.5%

@@ -1,0 +1,72 @@
+Competitive funding bodies | 1 st choice > Frequency: 90
+Competitive funding bodies | 1 st choice > Percentage: 60.8
+Competitive funding bodies | 2 nd choice > Frequency: 45
+Competitive funding bodies | 2 nd choice > Percentage: 30.4
+Competitive funding bodies | 3 rd choice > Frequency: 29
+Competitive funding bodies | 3 rd choice > Percentage: 19.6
+Government departments | 1 st choice > Frequency: 52
+Government departments | 1 st choice > Percentage: 35.1
+Government departments | 2 nd choice > Frequency: 64
+Government departments | 2 nd choice > Percentage: 43.2
+Government departments | 3 rd choice > Frequency: 26
+Government departments | 3 rd choice > Percentage: 17.6
+Universities and institutes | 1 st choice > Frequency: 2
+Universities and institutes | 1 st choice > Percentage: 1.4
+Universities and institutes | 2 nd choice > Frequency: 4
+Universities and institutes | 2 nd choice > Percentage: 2.7
+Universities and institutes | 3 rd choice > Frequency: 5
+Universities and institutes | 3 rd choice > Percentage: 3.4
+Health foundations | 1 st choice > Frequency: 1
+Health foundations | 1 st choice > Percentage: 0.7
+Health foundations | 2 nd choice > Frequency: 6
+Health foundations | 2 nd choice > Percentage: 4.1
+Health foundations | 3 rd choice > Frequency: 7
+Health foundations | 3 rd choice > Percentage: 4.7
+Local services | 1 st choice > Frequency: 1
+Local services | 1 st choice > Percentage: 0.7
+Local services | 2 nd choice > Frequency: 1
+Local services | 2 nd choice > Percentage: 0.7
+Local services | 3 rd choice > Frequency: 1
+Local services | 3 rd choice > Percentage: 0.7
+Professional bodies | 1 st choice > Frequency: 1
+Professional bodies | 1 st choice > Percentage: 0.7
+Professional bodies | 2 nd choice > Frequency: 1
+Professional bodies | 2 nd choice > Percentage: 0.7
+Professional bodies | 3 rd choice > Frequency: 0
+Professional bodies | 3 rd choice > Percentage: 0.0
+Non-government organisations | 1 st choice > Frequency: 1
+Non-government organisations | 1 st choice > Percentage: 0.7
+Non-government organisations | 2 nd choice > Frequency: 0
+Non-government organisations | 2 nd choice > Percentage: 0.0
+Non-government organisations | 3 rd choice > Frequency: 4
+Non-government organisations | 3 rd choice > Percentage: 2.7
+Other | 1 st choice > Frequency: 0
+Other | 1 st choice > Percentage: 0.0
+Other | 2 nd choice > Frequency: 2
+Other | 2 nd choice > Percentage: 1.4
+Other | 3 rd choice > Frequency: 2
+Other | 3 rd choice > Percentage: 1.4
+Philanthropic trusts | 1 st choice > Frequency: 0
+Philanthropic trusts | 1 st choice > Percentage: 0.0
+Philanthropic trusts | 2 nd choice > Frequency: 2
+Philanthropic trusts | 2 nd choice > Percentage: 1.4
+Philanthropic trusts | 3 rd choice > Frequency: 2
+Philanthropic trusts | 3 rd choice > Percentage: 1.4
+Drug companies | 1 st choice > Frequency: 0
+Drug companies | 1 st choice > Percentage: 0.0
+Drug companies | 2 nd choice > Frequency: 1
+Drug companies | 2 nd choice > Percentage: 0.7
+Drug companies | 3 rd choice > Frequency: 1
+Drug companies | 3 rd choice > Percentage: 0.7
+Private companies | 1 st choice > Frequency: 0
+Private companies | 1 st choice > Percentage: 0.0
+Private companies | 2 nd choice > Frequency: 1
+Private companies | 2 nd choice > Percentage: 0.7
+Private companies | 3 rd choice > Frequency: 1
+Private companies | 3 rd choice > Percentage: 0.7
+Insurers | 1 st choice > Frequency: 0
+Insurers | 1 st choice > Percentage: 0.0
+Insurers | 2 nd choice > Frequency: 0
+Insurers | 2 nd choice > Percentage: 0.0
+Insurers | 3 rd choice > Frequency: 2
+Insurers | 3 rd choice > Percentage: 1.4

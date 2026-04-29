@@ -1,0 +1,78 @@
+Age (65+ years = reference) > 16–44 | Perceived poor health (scores 1–4) > Model 1 > OR: 0.96
+Age (65+ years = reference) > 16–44 | Perceived poor health (scores 1–4) > Model 1 > 95% CI: 0.59–1.57
+Age (65+ years = reference) > 16–44 | Perceived poor health (scores 1–4) > Model 2 > OR: 1.51
+Age (65+ years = reference) > 16–44 | Perceived poor health (scores 1–4) > Model 2 > 95% CI: 0.83–2.76
+Age (65+ years = reference) > 16–44 | Perceived poor health (scores 1–4) > Model 3 > OR: 0.65
+Age (65+ years = reference) > 16–44 | Perceived poor health (scores 1–4) > Model 3 > 95% CI: 0.31–1.33
+Age (65+ years = reference) > 16–44 | Perceived poor health (scores 1–4) > Model 4 > OR: 0.65
+Age (65+ years = reference) > 16–44 | Perceived poor health (scores 1–4) > Model 4 > 95% CI: 0.29–1.45
+45–64 | Perceived poor health (scores 1–4) > Model 1 > OR: 1.62
+45–64 | Perceived poor health (scores 1–4) > Model 1 > 95% CI: 1.05–2.50
+45–64 | Perceived poor health (scores 1–4) > Model 2 > OR: 2.47
+45–64 | Perceived poor health (scores 1–4) > Model 2 > 95% CI: 1.45–4.21
+45–64 | Perceived poor health (scores 1–4) > Model 3 > OR: 1.73
+45–64 | Perceived poor health (scores 1–4) > Model 3 > 95% CI: 0.95–3.18
+45–64 | Perceived poor health (scores 1–4) > Model 4 > OR: 1.44
+45–64 | Perceived poor health (scores 1–4) > Model 4 > 95% CI: 0.74–2.81
+Male (female= ref) | Perceived poor health (scores 1–4) > Model 1 > OR: 0.52
+Male (female= ref) | Perceived poor health (scores 1–4) > Model 1 > 95% CI: 0.35–0.76
+Male (female= ref) | Perceived poor health (scores 1–4) > Model 2 > OR: 0.56
+Male (female= ref) | Perceived poor health (scores 1–4) > Model 2 > 95% CI: 0,37–0.84
+Male (female= ref) | Perceived poor health (scores 1–4) > Model 3 > OR: 0.86
+Male (female= ref) | Perceived poor health (scores 1–4) > Model 3 > 95% CI: 0.54–1.37
+Male (female= ref) | Perceived poor health (scores 1–4) > Model 4 > OR: 0.87
+Male (female= ref) | Perceived poor health (scores 1–4) > Model 4 > 95% CI: 0.52–1.46
+Living alone (no = ref) | Perceived poor health (scores 1–4) > Model 2 > OR: 0.52
+Living alone (no = ref) | Perceived poor health (scores 1–4) > Model 2 > 95% CI: 0.33–0.83
+Living alone (no = ref) | Perceived poor health (scores 1–4) > Model 3 > OR: 0.67
+Living alone (no = ref) | Perceived poor health (scores 1–4) > Model 3 > 95% CI: 0.40–1.11
+Living alone (no = ref) | Perceived poor health (scores 1–4) > Model 4 > OR: 0.74
+Living alone (no = ref) | Perceived poor health (scores 1–4) > Model 4 > 95% CI: 0.42–1.30
+Working (yes =ref) | Perceived poor health (scores 1–4) > Model 2 > OR: 2.10
+Working (yes =ref) | Perceived poor health (scores 1–4) > Model 2 > 95% CI: 1.35–3.26
+Working (yes =ref) | Perceived poor health (scores 1–4) > Model 3 > OR: 1.42
+Working (yes =ref) | Perceived poor health (scores 1–4) > Model 3 > 95% CI: 0.86–2.34
+Working (yes =ref) | Perceived poor health (scores 1–4) > Model 4 > OR: 1.21
+Working (yes =ref) | Perceived poor health (scores 1–4) > Model 4 > 95% CI: 0.69–2.11
+Country of birth (other = ref) > Sweden | Perceived poor health (scores 1–4) > Model 2 > OR: 0.50
+Country of birth (other = ref) > Sweden | Perceived poor health (scores 1–4) > Model 2 > 95% CI: 0.28–0.88
+Country of birth (other = ref) > Sweden | Perceived poor health (scores 1–4) > Model 3 > OR: 0.52
+Country of birth (other = ref) > Sweden | Perceived poor health (scores 1–4) > Model 3 > 95% CI: 0.26–1.02
+Country of birth (other = ref) > Sweden | Perceived poor health (scores 1–4) > Model 4 > OR: 0.41
+Country of birth (other = ref) > Sweden | Perceived poor health (scores 1–4) > Model 4 > 95% CI: 0.20–0.84
+Nordic | Perceived poor health (scores 1–4) > Model 2 > OR: 0.57
+Nordic | Perceived poor health (scores 1–4) > Model 2 > 95% CI: 0.27–1.21
+Nordic | Perceived poor health (scores 1–4) > Model 3 > OR: 0.44
+Nordic | Perceived poor health (scores 1–4) > Model 3 > 95% CI: 0.19–1.02
+Nordic | Perceived poor health (scores 1–4) > Model 4 > OR: 0.26
+Nordic | Perceived poor health (scores 1–4) > Model 4 > 95% CI: 0.10–0.66
+Europe | Perceived poor health (scores 1–4) > Model 2 > OR: 1.19
+Europe | Perceived poor health (scores 1–4) > Model 2 > 95% CI: 0.55–2.57
+Europe | Perceived poor health (scores 1–4) > Model 3 > OR: 0.96
+Europe | Perceived poor health (scores 1–4) > Model 3 > 95% CI: 0.40–2.31
+Europe | Perceived poor health (scores 1–4) > Model 4 > OR: 0.68
+Europe | Perceived poor health (scores 1–4) > Model 4 > 95% CI: 0.26–1.80
+Smoking (yes = ref) | Perceived poor health (scores 1–4) > Model 3 > OR: 0.81
+Smoking (yes = ref) | Perceived poor health (scores 1–4) > Model 3 > 95% CI: 0.50–1.32
+Smoking (yes = ref) | Perceived poor health (scores 1–4) > Model 4 > OR: 0.97
+Smoking (yes = ref) | Perceived poor health (scores 1–4) > Model 4 > 95% CI: 0.56–1.66
+Chronic disease (yes = ref) | Perceived poor health (scores 1–4) > Model 3 > OR: 0.68
+Chronic disease (yes = ref) | Perceived poor health (scores 1–4) > Model 3 > 95% CI: 0.36–1.27
+Chronic disease (yes = ref) | Perceived poor health (scores 1–4) > Model 4 > OR: 0.97
+Chronic disease (yes = ref) | Perceived poor health (scores 1–4) > Model 4 > 95% CI: 0.56–1.27
+Depression (yes = ref) | Perceived poor health (scores 1–4) > Model 3 > OR: 0.29
+Depression (yes = ref) | Perceived poor health (scores 1–4) > Model 3 > 95% CI: 0.17–0.48
+Depression (yes = ref) | Perceived poor health (scores 1–4) > Model 4 > OR: 0.55
+Depression (yes = ref) | Perceived poor health (scores 1–4) > Model 4 > 95% CI: 0.31–0.98
+Number of symptoms (>6 ref) > 1–3 symptoms | Perceived poor health (scores 1–4) > Model 3 > OR: 0.25
+Number of symptoms (>6 ref) > 1–3 symptoms | Perceived poor health (scores 1–4) > Model 3 > 95% CI: 0.13–0.48
+Number of symptoms (>6 ref) > 1–3 symptoms | Perceived poor health (scores 1–4) > Model 4 > OR: 0.30
+Number of symptoms (>6 ref) > 1–3 symptoms | Perceived poor health (scores 1–4) > Model 4 > 95% CI: 0.15–0.60
+4–6 symptoms | Perceived poor health (scores 1–4) > Model 3 > OR: 0.85
+4–6 symptoms | Perceived poor health (scores 1–4) > Model 3 > 95% CI: 0.46–1.58
+4–6 symptoms | Perceived poor health (scores 1–4) > Model 4 > OR: 0.98
+4–6 symptoms | Perceived poor health (scores 1–4) > Model 4 > 95% CI: 0.50–1.92
+Life satisfaction* (high = ref) > Low | Perceived poor health (scores 1–4) > Model 4 > OR: 15.40
+Life satisfaction* (high = ref) > Low | Perceived poor health (scores 1–4) > Model 4 > 95% CI: 5.28–44.97
+Fair | Perceived poor health (scores 1–4) > Model 4 > OR: 7.02
+Fair | Perceived poor health (scores 1–4) > Model 4 > 95% CI: 3.98–12.38

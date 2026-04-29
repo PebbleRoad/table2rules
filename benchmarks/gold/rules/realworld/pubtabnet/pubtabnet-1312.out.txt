@@ -1,0 +1,70 @@
+1 | Before anti-TNF alpha treatment > Disease: RA, erosive
+1 | Before anti-TNF alpha treatment > Autoantibody: RF+
+1 | Before anti-TNF alpha treatment > Clinical signs of lupus: None
+1 | Treatment: ETA
+1 | During onset of symptoms > Duration of treatment (months): 36
+1 | During onset of symptoms > Clinical signs of lupus: Skin
+1 | During onset of symptoms > Biological signs of lupus: ANA+, dsDNA+
+2 | Before anti-TNF alpha treatment > Disease: RA, erosive
+2 | Before anti-TNF alpha treatment > Autoantibody: RF+
+2 | Before anti-TNF alpha treatment > Clinical signs of lupus: None
+2 | Treatment: INF
+2 | During onset of symptoms > Duration of treatment (months): 6
+2 | During onset of symptoms > Clinical signs of lupus: Skin
+2 | During onset of symptoms > Biological signs of lupus: ANA+, dsDNA+
+3 | Before anti-TNF alpha treatment > Disease: RA, erosive
+3 | Before anti-TNF alpha treatment > Autoantibody: RF+, ANA+ 1:160°
+3 | Before anti-TNF alpha treatment > Clinical signs of lupus: None
+3 | Treatment: INF
+3 | During onset of symptoms > Duration of treatment (months): 18
+3 | During onset of symptoms > Clinical signs of lupus: Skin
+3 | During onset of symptoms > Biological signs of lupus: ANA+, dsDNA+
+4 | Before anti-TNF alpha treatment > Disease: RA, erosive
+4 | Before anti-TNF alpha treatment > Autoantibody: RF-
+4 | Before anti-TNF alpha treatment > Clinical signs of lupus: None
+4 | Treatment: ETA
+4 | During onset of symptoms > Duration of treatment (months): 5
+4 | During onset of symptoms > Clinical signs of lupus: Skin
+4 | During onset of symptoms > Biological signs of lupus: ANA+, dsDNA+
+5 | Before anti-TNF alpha treatment > Disease: RA, erosive
+5 | Before anti-TNF alpha treatment > Autoantibody: RF+
+5 | Before anti-TNF alpha treatment > Clinical signs of lupus: None
+5 | Treatment: INF
+5 | During onset of symptoms > Duration of treatment (months): 7
+5 | During onset of symptoms > Clinical signs of lupus: Skin
+5 | During onset of symptoms > Biological signs of lupus: ANA+, dsDNA+
+6 | Before anti-TNF alpha treatment > Disease: RA erosive
+6 | Before anti-TNF alpha treatment > Autoantibody: RF+
+6 | Before anti-TNF alpha treatment > Clinical signs of lupus: None
+6 | Treatment: ETA
+6 | During onset of symptoms > Duration of treatment (months): 5
+6 | During onset of symptoms > Clinical signs of lupus: Skin
+6 | During onset of symptoms > Biological signs of lupus: ANA+, dsDNA+
+7 | Before anti-TNF alpha treatment > Disease: RA, erosive
+7 | Before anti-TNF alpha treatment > Autoantibody: RF+
+7 | Before anti-TNF alpha treatment > Clinical signs of lupus: None
+7 | Treatment: INF
+7 | During onset of symptoms > Duration of treatment (months): 11
+7 | During onset of symptoms > Clinical signs of lupus: Skin
+7 | During onset of symptoms > Biological signs of lupus: ANA+, dsDNA+
+8 | Before anti-TNF alpha treatment > Disease: RA, erosive
+8 | Before anti-TNF alpha treatment > Autoantibody: RF+
+8 | Before anti-TNF alpha treatment > Clinical signs of lupus: None
+8 | Treatment: INF
+8 | During onset of symptoms > Duration of treatment (months): 3
+8 | During onset of symptoms > Clinical signs of lupus: Skin
+8 | During onset of symptoms > Biological signs of lupus: ANA+, dsDNA+
+9 | Before anti-TNF alpha treatment > Disease: RA, erosive
+9 | Before anti-TNF alpha treatment > Autoantibody: RF+
+9 | Before anti-TNF alpha treatment > Clinical signs of lupus: None
+9 | Treatment: ETA
+9 | During onset of symptoms > Duration of treatment (months): 12
+9 | During onset of symptoms > Clinical signs of lupus: Skin
+9 | During onset of symptoms > Biological signs of lupus: ANA+, dsDNA+
+10 | Before anti-TNF alpha treatment > Disease: RA, erosive
+10 | Before anti-TNF alpha treatment > Autoantibody: RF+
+10 | Before anti-TNF alpha treatment > Clinical signs of lupus: None
+10 | Treatment: INF
+10 | During onset of symptoms > Duration of treatment (months): 13
+10 | During onset of symptoms > Clinical signs of lupus: Skin
+10 | During onset of symptoms > Biological signs of lupus: ANA+, dsDNA+

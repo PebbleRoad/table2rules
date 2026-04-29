@@ -1,0 +1,32 @@
+2011 > Fourth Quarter | NYSE Common Stock > High: $30.99
+2011 > Fourth Quarter | NYSE Common Stock > Low: $18.70
+2011 > Fourth Quarter | OSE Common Stock (1) > High: 168.00
+2011 > Fourth Quarter | OSE Common Stock (1) > Low: 111.60
+2011 > Third Quarter | NYSE Common Stock > High: 39.43
+2011 > Third Quarter | NYSE Common Stock > Low: 21.50
+2011 > Third Quarter | OSE Common Stock (1) > High: 214.30
+2011 > Third Quarter | OSE Common Stock (1) > Low: 121.10
+2011 > Second Quarter | NYSE Common Stock > High: 42.30
+2011 > Second Quarter | NYSE Common Stock > Low: 32.68
+2011 > Second Quarter | OSE Common Stock (1) > High: 232.60
+2011 > Second Quarter | OSE Common Stock (1) > Low: 180.00
+2011 > First Quarter | NYSE Common Stock > High: 49.99
+2011 > First Quarter | NYSE Common Stock > Low: 40.26
+2011 > First Quarter | OSE Common Stock (1) > High: 293.10
+2011 > First Quarter | OSE Common Stock (1) > Low: 226.30
+2010 > Fourth Quarter | NYSE Common Stock > High: $47.83
+2010 > Fourth Quarter | NYSE Common Stock > Low: $30.87
+2010 > Fourth Quarter | OSE Common Stock (1) > High: 284.70
+2010 > Fourth Quarter | OSE Common Stock (1) > Low: 180.50
+2010 > Third Quarter | NYSE Common Stock > High: 32.73
+2010 > Third Quarter | NYSE Common Stock > Low: 21.97
+2010 > Third Quarter | OSE Common Stock (1) > High: 197.00
+2010 > Third Quarter | OSE Common Stock (1) > Low: 142.00
+2010 > Second Quarter | NYSE Common Stock > High: 38.12
+2010 > Second Quarter | NYSE Common Stock > Low: 22.55
+2010 > Second Quarter | OSE Common Stock (1) > High: 225.50
+2010 > Second Quarter | OSE Common Stock (1) > Low: 146.50
+2010 > First Quarter | NYSE Common Stock > High: 33.93
+2010 > First Quarter | NYSE Common Stock > Low: 24.14
+2010 > First Quarter | OSE Common Stock (1) > High: 205.10
+2010 > First Quarter | OSE Common Stock (1) > Low: 142.00

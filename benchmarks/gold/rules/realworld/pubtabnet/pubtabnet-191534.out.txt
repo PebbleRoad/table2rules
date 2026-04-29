@@ -1,0 +1,18 @@
+Total CVD events† | Allocated treatment > Fenofibrate: 298
+Total CVD events† | Allocated treatment > Placebo: 385
+Total CVD events† | Power to detect effect at 2 P < 0.05*: 93%
+Total CVD events | Allocated treatment > Fenofibrate: 229
+Total CVD events | Allocated treatment > Placebo: 288
+Total CVD events | Power to detect effect at 2 P < 0.05*: 83%
+Total CVD events | Allocated treatment > Fenofibrate: 392
+Total CVD events | Allocated treatment > Placebo: 503
+Total CVD events | Power to detect effect at 2 P < 0.05*: 98%
+Total CVD events | Allocated treatment > Fenofibrate: 133
+Total CVD events | Allocated treatment > Placebo: 171
+Total CVD events | Power to detect effect at 2 P < 0.05*: 60%
+Total CVD events | Allocated treatment > Fenofibrate: 525
+Total CVD events | Allocated treatment > Placebo: 675
+Total CVD events | Power to detect effect at 2 P < 0.05*: 99%
+Total CHD events | Allocated treatment > Fenofibrate: 219
+Total CHD events | Allocated treatment > Placebo: 281
+Total CHD events | Power to detect effect at 2 P < 0.05*: 80%

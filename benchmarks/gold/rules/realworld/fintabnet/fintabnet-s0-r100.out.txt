@@ -1,0 +1,32 @@
+2014 > Fourth Quarter | NYSECommon Stock > High: $83.90
+2014 > Fourth Quarter | NYSECommon Stock > Low: $52.32
+2014 > Fourth Quarter | OSECommon Stock (1) > High: 638.00
+2014 > Fourth Quarter | OSECommon Stock (1) > Low: 347.00
+2014 > Third Quarter | NYSECommon Stock > High: $69.31
+2014 > Third Quarter | NYSECommon Stock > Low: $53.66
+2014 > Third Quarter | OSECommon Stock (1) > High: 439.60
+2014 > Third Quarter | OSECommon Stock (1) > Low: 332.00
+2014 > Second Quarter | NYSECommon Stock > High: $57.38
+2014 > Second Quarter | NYSECommon Stock > Low: $49.65
+2014 > Second Quarter | OSECommon Stock (1) > High: 349.00
+2014 > Second Quarter | OSECommon Stock (1) > Low: 300.00
+2014 > First Quarter | NYSECommon Stock > High: $54.93
+2014 > First Quarter | NYSECommon Stock > Low: $45.95
+2014 > First Quarter | OSECommon Stock (1) > High: 332.60
+2014 > First Quarter | OSECommon Stock (1) > Low: 284.20
+2013 > Fourth Quarter | NYSECommon Stock > High: $47.66
+2013 > Fourth Quarter | NYSECommon Stock > Low: $35.97
+2013 > Fourth Quarter | OSECommon Stock (1) > High: 292.60
+2013 > Fourth Quarter | OSECommon Stock (1) > Low: 216.10
+2013 > Third Quarter | NYSECommon Stock > High: $40.71
+2013 > Third Quarter | NYSECommon Stock > Low: $33.31
+2013 > Third Quarter | OSECommon Stock (1) > High: 241.80
+2013 > Third Quarter | OSECommon Stock (1) > Low: 201.40
+2013 > Second Quarter | NYSECommon Stock > High: $38.62
+2013 > Second Quarter | NYSECommon Stock > Low: $31.35
+2013 > Second Quarter | OSECommon Stock (1) > High: 224.90
+2013 > Second Quarter | OSECommon Stock (1) > Low: 178.00
+2013 > First Quarter | NYSECommon Stock > High: $38.56
+2013 > First Quarter | NYSECommon Stock > Low: $31.72
+2013 > First Quarter | OSECommon Stock (1) > High: 213.50
+2013 > First Quarter | OSECommon Stock (1) > Low: 184.10

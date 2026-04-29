@@ -1,0 +1,42 @@
+Age (years) | Total > N (744): 26.6(9.9)
+Age (years) | Primi-gravidae > N (220): 21.2(2.9)
+Age (years) | Secundi-gravidae > N (131): 25.7(2.3)
+Age (years) | Multi-gravidae > N (322): 28.2(3.8)
+Age (years) | Grand-multigravidae > N (71): 34.9 (3.2)
+Age (years) | P Value: < 0.001
+Gestation (weeks) | Total > N (744): 27.7 (7.7)
+Gestation (weeks) | Primi-gravidae > N (220): 27.3(8.09)
+Gestation (weeks) | Secundi-gravidae > N (131): 28.1(6.9)
+Gestation (weeks) | Multi-gravidae > N (322): 27.6(7.6)
+Gestation (weeks) | Grand-multigravidae > N (71): 28.3(28.3)
+Gestation (weeks) | P Value: 0.18
+Haemoglobin (g/dl) | Total > N (744): 10.5(1.4)
+Haemoglobin (g/dl) | Primi-gravidae > N (220): 10.5(1.3)
+Haemoglobin (g/dl) | Secundi-gravidae > N (131): 10.3(1.6)
+Haemoglobin (g/dl) | Multi-gravidae > N (322): 10.6(1.3)
+Haemoglobin (g/dl) | Grand-multigravidae > N (71): 10.3(1.2)
+Haemoglobin (g/dl) | P Value: 0.2
+Malaria (total) | Total > N (744): 102(13.7)
+Malaria (total) | Primi-gravidae > N (220): 32(14.5)
+Malaria (total) | Secundi-gravidae > N (131): 14(10.7)
+Malaria (total) | Multi-gravidae > N (322): 43(13.4)
+Malaria (total) | Grand-multigravidae > N (71): 13(18.3)
+Malaria (total) | P Value: 0.4
+Non severe | Total > N (744): 84(11.3)
+Non severe | Primi-gravidae > N (220): 28(12.7)
+Non severe | Secundi-gravidae > N (131): 9(6.9)
+Non severe | Multi-gravidae > N (322): 34(10.6)
+Non severe | Grand-multigravidae > N (71): 13 (18.3)
+Non severe | P Value: 0.08
+Severe | Total > N (744): 18(2.4)
+Severe | Primi-gravidae > N (220): 4(1.8)
+Severe | Secundi-gravidae > N (131): 5(3.8)
+Severe | Multi-gravidae > N (322): 9 (2.8)
+Severe | Grand-multigravidae > N (71): 0
+Severe | P Value: 0.3
+Parasite count (parasites/μl) | Total > N (744): 6,586 (19,640.2)
+Parasite count (parasites/μl) | Primi-gravidae > N (220): 11,511 (3,222)
+Parasite count (parasites/μl) | Secundi-gravidae > N (131): 6,817 (14,383)
+Parasite count (parasites/μl) | Multi-gravidae > N (322): 3,504 (7,729)
+Parasite count (parasites/μl) | Grand-multigravidae > N (71): 4,497 (7,748)
+Parasite count (parasites/μl) | P Value: 0.4

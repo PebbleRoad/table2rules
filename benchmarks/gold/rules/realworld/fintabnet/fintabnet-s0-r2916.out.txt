@@ -1,0 +1,24 @@
+Cost of revenue | Year Ended October 31, > 2014 > (dollars in millions): $456.9
+Cost of revenue | Year Ended October 31, > 2013 > (dollars in millions): $453.6
+Cost of revenue | Year Ended October 31, > 2012 > (dollars in millions): $392.7
+Cost of revenue | $ Change > 2013 to 2014 > (dollars in millions): $3.3
+Cost of revenue | % Change > 2013 to 2014 > (dollars in millions): 1%
+Cost of revenue | $ Change > 2012 to 2013 > (dollars in millions): $60.9
+Cost of revenue | % Change > 2012 to 2013 > (dollars in millions): 16%
+Operating expenses | Year Ended October 31, > 2014 > (dollars in millions): 1,351.9
+Operating expenses | Year Ended October 31, > 2013 > (dollars in millions): 1,262.2
+Operating expenses | Year Ended October 31, > 2012 > (dollars in millions): 1,173.3
+Operating expenses | $ Change > 2013 to 2014 > (dollars in millions): $89.7
+Operating expenses | % Change > 2013 to 2014 > (dollars in millions): 7%
+Operating expenses | $ Change > 2012 to 2013 > (dollars in millions): $88.9
+Operating expenses | % Change > 2012 to 2013 > (dollars in millions): 8%
+Total | Year Ended October 31, > 2014 > (dollars in millions): $1,808.8
+Total | Year Ended October 31, > 2013 > (dollars in millions): $1,715.8
+Total | Year Ended October 31, > 2012 > (dollars in millions): $1,566.0
+Total | $ Change > 2013 to 2014 > (dollars in millions): $93.0
+Total | % Change > 2013 to 2014 > (dollars in millions): 5%
+Total | $ Change > 2012 to 2013 > (dollars in millions): $149.8
+Total | % Change > 2012 to 2013 > (dollars in millions): 10%
+Total expenses as a percentage of total revenue | Year Ended October 31, > 2014 > (dollars in millions): 88%
+Total expenses as a percentage of total revenue | Year Ended October 31, > 2013 > (dollars in millions): 87%
+Total expenses as a percentage of total revenue | Year Ended October 31, > 2012 > (dollars in millions): 89%

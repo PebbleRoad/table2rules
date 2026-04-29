@@ -1,0 +1,66 @@
+Assumed preventive Power against NBPD: 0% effectiveness against NBPD
+Belgium: 25907
+France: 19182
+Scotland: 14892
+Spain: 10511
+Sweden: 32675
+Assumed preventive Power against NBPD: Step 1 (10% increase)
+Belgium: 13678
+France: 15801
+Scotland: 6858
+Spain: 4383
+Sweden: 10158
+Assumed preventive Power against NBPD: Step 2 (20% increase)
+Belgium: 8313
+France: 13085
+Scotland: 4167
+Spain: 2126
+Sweden: 4217
+Assumed preventive Power against NBPD: Step 3 (30% increase)
+Belgium: 5300
+France: 10857
+Scotland: 2820
+Spain: 954
+Sweden: 1473
+Assumed preventive Power against NBPD: Step 4 (40% increase)
+Belgium: 3370
+France: 8995
+Scotland: 2010
+Spain: 235
+Sweden: Cost saving
+Assumed preventive Power against NBPD: Step 5 (50% increase)
+Belgium: 2028
+France: 7415
+Scotland: 1470
+Spain: Cost saving
+Sweden: Cost saving
+Assumed preventive Power against NBPD: Step 6 (60% increase)
+Belgium: 1041
+France: 6058
+Scotland: 1084
+Spain: Cost saving
+Sweden: Cost saving
+Assumed preventive Power against NBPD: Step 7 (70% increase)
+Belgium: 285
+France: 4881
+Scotland: 795
+Spain: Cost saving
+Sweden: Cost saving
+Assumed preventive Power against NBPD: Step 8 (80% increase)
+Belgium: Cost saving
+France: 3849
+Scotland: 570
+Spain: Cost saving
+Sweden: Cost saving
+Assumed preventive Power against NBPD: Step 9 (90% increase)
+Belgium: Cost saving
+France: 2938
+Scotland: 390
+Spain: Cost saving
+Sweden: Cost saving
+Assumed preventive Power against NBPD: Step 10 (same effectiveness against NBPD as against BPD)
+Belgium: Cost saving
+France: 2127
+Scotland: 242
+Spain: Cost saving
+Sweden: Cost saving

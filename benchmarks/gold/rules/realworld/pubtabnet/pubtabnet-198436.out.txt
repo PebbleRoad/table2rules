@@ -1,0 +1,107 @@
+BG 934178 | Putative gene: Elongation factor 2
+BG 934178 | No. of positive BACs identified: 79
+BG 934178 | Singletons: 19
+BG 934178 | No. of contigs: 3
+BG 934178 | No. of BAC clones in each contig > 1: 28
+BG 934178 | No. of BAC clones in each contig > 2: 18
+BG 934178 | No. of BAC clones in each contig > 3: 14
+BG934439 | Putative gene: Eukaryotic translation initiation factor 5
+BG934439 | No. of positive BACs identified: 91
+BG934439 | Singletons: 3
+BG934439 | No. of contigs: 2
+BG934439 | No. of BAC clones in each contig > 1: 78
+BG934439 | No. of BAC clones in each contig > 2: 10
+BG935804 | Putative gene: Ubiquitin
+BG935804 | No. of positive BACs identified: 69
+BG935804 | Singletons: 8
+BG935804 | No. of contigs: 2
+BG935804 | No. of BAC clones in each contig > 1: 54
+BG935804 | No. of BAC clones in each contig > 2: 3
+BG934353 | Putative gene: Phosphate transfer protein
+BG934353 | No. of positive BACs identified: 108
+BG934353 | Singletons: 14
+BG934353 | No. of contigs: 4
+BG934353 | No. of BAC clones in each contig > 1: 47
+BG934353 | No. of BAC clones in each contig > 2: 31
+BG934353 | No. of BAC clones in each contig > 3: 8
+BG935917 | Putative gene: cyclin L ania-6a
+BG935917 | No. of positive BACs identified: 6
+BG935917 | Singletons: 6
+BG935917 | No. of contigs: 0
+AF201470 | Putative gene: Retinal rod opsin
+AF201470 | No. of positive BACs identified: 100
+AF201470 | Singletons: 16
+AF201470 | No. of contigs: 3
+AF201470 | No. of BAC clones in each contig > 1: 64
+AF201470 | No. of BAC clones in each contig > 2: 17
+AJ344158 | Putative gene: Myostatin, isoform II
+AJ344158 | No. of positive BACs identified: 104
+AJ344158 | Singletons: 10
+AJ344158 | No. of contigs: 4
+AJ344158 | No. of BAC clones in each contig > 1: 42
+AJ344158 | No. of BAC clones in each contig > 2: 22
+AJ344158 | No. of BAC clones in each contig > 3: 17
+AJ344158 | No. of BAC clones in each contig > 4: 10
+BG936489 | Putative gene: Actin related protein (P16arc)
+BG936489 | No. of positive BACs identified: 122
+BG936489 | Singletons: 10
+BG936489 | No. of contigs: 3
+BG936489 | No. of BAC clones in each contig > 1: 51
+BG936489 | No. of BAC clones in each contig > 2: 39
+BG936489 | No. of BAC clones in each contig > 3: 20
+BG933799 | Putative gene: AMP deaminase
+BG933799 | No. of positive BACs identified: 76
+BG933799 | Singletons: 12
+BG933799 | No. of contigs: 5
+BG933799 | No. of BAC clones in each contig > 1: 38
+BG933799 | No. of BAC clones in each contig > 2: 7
+BG933799 | No. of BAC clones in each contig > 3: 7
+BG933799 | No. of BAC clones in each contig > 5: 3
+BG933794 | Putative gene: TAR DNA-binding protein
+BG933794 | No. of positive BACs identified: 69
+BG933794 | Singletons: 11
+BG933794 | No. of contigs: 2
+BG933794 | No. of BAC clones in each contig > 1: 35
+BG933794 | No. of BAC clones in each contig > 2: 22
+BG934675 | Putative gene: Helicase
+BG934675 | No. of positive BACs identified: 142
+BG934675 | Singletons: 25
+BG934675 | No. of contigs: 7
+BG934675 | No. of BAC clones in each contig > 1: 35
+BG934675 | No. of BAC clones in each contig > 2: 25
+BG934675 | No. of BAC clones in each contig > 3: 22
+BG934675 | No. of BAC clones in each contig > 4: 16
+BG934675 | No. of BAC clones in each contig > 5: 9
+BG934675 | No. of BAC clones in each contig > 6: 5
+BG934675 | No. of BAC clones in each contig > 7: 4
+BE518514 | Putative gene: Translation initiation factor 3
+BE518514 | No. of positive BACs identified: 17
+BE518514 | Singletons: 0
+BE518514 | No. of contigs: 2
+BE518514 | No. of BAC clones in each contig > 1: 13
+BE518514 | No. of BAC clones in each contig > 2: 4
+X14305 | Putative gene: Growth hormone
+X14305 | No. of positive BACs identified: 74
+X14305 | Singletons: 8
+X14305 | No. of contigs: 3
+X14305 | No. of BAC clones in each contig > 1: 42
+X14305 | No. of BAC clones in each contig > 2: 20
+BG935839 | Putative gene: Collagen type I
+BG935839 | No. of positive BACs identified: 97
+BG935839 | Singletons: 7
+BG935839 | No. of contigs: 6
+BG935839 | No. of BAC clones in each contig > 1: 37
+BG935839 | No. of BAC clones in each contig > 2: 28
+BG935839 | No. of BAC clones in each contig > 3: 12
+BG935839 | No. of BAC clones in each contig > 5: 4
+BG935839 | No. of BAC clones in each contig > 6: 3
+BG935084 | Putative gene: Transducin alpha subunit
+BG935084 | No. of positive BACs identified: 49
+BG935084 | Singletons: 11
+BG935084 | No. of contigs: 3
+BG935084 | No. of BAC clones in each contig > 1: 15
+BG935084 | No. of BAC clones in each contig > 2: 12
+BG935084 | No. of BAC clones in each contig > 3: 9
+Average: | No. of positive BACs identified: 80.2
+Average: | Singletons: 10.7
+Average: | No. of contigs: 3.3

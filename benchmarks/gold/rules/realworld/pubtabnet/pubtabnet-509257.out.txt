@@ -1,0 +1,105 @@
+Age at baseline mammogram, years (mean ± SEM) | EPAT ( n = 127) > Placebo ( n = 57): 62.3 ± 1.0
+Age at baseline mammogram, years (mean ± SEM) | EPAT ( n = 127) > ET ( n = 70): 60.2 ± 0.8
+Age at baseline mammogram, years (mean ± SEM) | P: 0.10
+Age at baseline mammogram, years (mean ± SEM) | WELL-HART ( n = 105) > Placebo ( n = 37): 64.7 ± 1.0
+Age at baseline mammogram, years (mean ± SEM) | WELL-HART ( n = 105) > ET ( n = 34): 61.8 ± 1.2
+Age at baseline mammogram, years (mean ± SEM) | WELL-HART ( n = 105) > EPT ( n = 34): 64.1 ± 1.1
+Age at baseline mammogram, years (mean ± SEM) | P *: 0.15
+Age at baseline mammogram, years (mean ± SEM) | P †: 0.005
+Years since menopause at baseline (mean ± SEM) | EPAT ( n = 127) > Placebo ( n = 57): 15.1 ± 1.4
+Years since menopause at baseline (mean ± SEM) | EPAT ( n = 127) > ET ( n = 70): 12.5 ± 1.0
+Years since menopause at baseline (mean ± SEM) | P: 0.12
+Years since menopause at baseline (mean ± SEM) | WELL-HART ( n = 105) > Placebo ( n = 37): 18.6 ± 1.6
+Years since menopause at baseline (mean ± SEM) | WELL-HART ( n = 105) > ET ( n = 34): 15.9 ± 1.4
+Years since menopause at baseline (mean ± SEM) | WELL-HART ( n = 105) > EPT ( n = 34): 19.5 ± 1.9
+Years since menopause at baseline (mean ± SEM) | P *: 0.28
+Years since menopause at baseline (mean ± SEM) | P †: 0.001
+Number of deliveries (live and stillbirths) (mean ± SEM) | EPAT ( n = 127) > Placebo ( n = 57): 2.4 ± 0.2
+Number of deliveries (live and stillbirths) (mean ± SEM) | EPAT ( n = 127) > ET ( n = 70): 2.3 ± 0.2
+Number of deliveries (live and stillbirths) (mean ± SEM) | P: 0.75
+Number of deliveries (live and stillbirths) (mean ± SEM) | WELL-HART ( n = 105) > Placebo ( n = 37): 4.5 ± 0.6
+Number of deliveries (live and stillbirths) (mean ± SEM) | WELL-HART ( n = 105) > ET ( n = 34): 3.6 ± 0.4
+Number of deliveries (live and stillbirths) (mean ± SEM) | WELL-HART ( n = 105) > EPT ( n = 34): 4.1 ± 0.5
+Number of deliveries (live and stillbirths) (mean ± SEM) | P *: 0.47
+Number of deliveries (live and stillbirths) (mean ± SEM) | P †: 0.0001
+White, non-latina | EPAT ( n = 127) > Placebo ( n = 57): 34 (59.7)
+White, non-latina | EPAT ( n = 127) > ET ( n = 70): 40 (57.1)
+White, non-latina | WELL-HART ( n = 105) > Placebo ( n = 37): 12 (32.4)
+White, non-latina | WELL-HART ( n = 105) > ET ( n = 34): 7 (20.6)
+White, non-latina | WELL-HART ( n = 105) > EPT ( n = 34): 14 (41.2)
+Black, non-latina | EPAT ( n = 127) > Placebo ( n = 57): 6 (10.5)
+Black, non-latina | EPAT ( n = 127) > ET ( n = 70): 10 (14.3)
+Black, non-latina | WELL-HART ( n = 105) > Placebo ( n = 37): 4 (10.8)
+Black, non-latina | WELL-HART ( n = 105) > ET ( n = 34): 10 (29.4)
+Black, non-latina | WELL-HART ( n = 105) > EPT ( n = 34): 5 (14.7)
+Latina | EPAT ( n = 127) > Placebo ( n = 57): 10 (17.5)
+Latina | EPAT ( n = 127) > ET ( n = 70): 13 (18.6)
+Latina | WELL-HART ( n = 105) > Placebo ( n = 37): 20 (54.1)
+Latina | WELL-HART ( n = 105) > ET ( n = 34): 9 (26.5)
+Latina | WELL-HART ( n = 105) > EPT ( n = 34): 11 (32.4)
+Asian or Pacific Islander | EPAT ( n = 127) > Placebo ( n = 57): 7 (12.3)
+Asian or Pacific Islander | EPAT ( n = 127) > ET ( n = 70): 7 (10.0)
+Asian or Pacific Islander | P: 0.91
+Asian or Pacific Islander | WELL-HART ( n = 105) > Placebo ( n = 37): 1 (2.7)
+Asian or Pacific Islander | WELL-HART ( n = 105) > ET ( n = 34): 8 (23.5)
+Asian or Pacific Islander | WELL-HART ( n = 105) > EPT ( n = 34): 4 (11.8)
+Asian or Pacific Islander | P *: 0.01 ‡
+Asian or Pacific Islander | P †: 0.0005
+High school graduate or less | EPAT ( n = 127) > Placebo ( n = 57): 8 (14.0)
+High school graduate or less | EPAT ( n = 127) > ET ( n = 70): 9 (12.9)
+High school graduate or less | WELL-HART ( n = 105) > Placebo ( n = 37): 20 (54.1)
+High school graduate or less | WELL-HART ( n = 105) > ET ( n = 34): 15 (44.1)
+High school graduate or less | WELL-HART ( n = 105) > EPT ( n = 34): 15 (44.1)
+Trade or business school/some college | EPAT ( n = 127) > Placebo ( n = 57): 29 (50.9)
+Trade or business school/some college | EPAT ( n = 127) > ET ( n = 70): 33 (48.6)
+Trade or business school/some college | WELL-HART ( n = 105) > Placebo ( n = 37): 11 (29.7)
+Trade or business school/some college | WELL-HART ( n = 105) > ET ( n = 34): 12 (35.3)
+Trade or business school/some college | WELL-HART ( n = 105) > EPT ( n = 34): 13 (38.2)
+Bachelor's degree or more | EPAT ( n = 127) > Placebo ( n = 57): 20 (35.1)
+Bachelor's degree or more | EPAT ( n = 127) > ET ( n = 70): 27 (38.6)
+Bachelor's degree or more | P: 0.92
+Bachelor's degree or more | WELL-HART ( n = 105) > Placebo ( n = 37): 6 (16.2)
+Bachelor's degree or more | WELL-HART ( n = 105) > ET ( n = 34): 7 (20.6)
+Bachelor's degree or more | WELL-HART ( n = 105) > EPT ( n = 34): 6 (17.7)
+Bachelor's degree or more | P *: 0.90
+Bachelor's degree or more | P †: 0.0001
+Family history of breast cancer (first-degree relative), n (%) | EPAT ( n = 127) > Placebo ( n = 57): 9 (15.8)
+Family history of breast cancer (first-degree relative), n (%) | EPAT ( n = 127) > ET ( n = 70): 6 (8.6)
+Family history of breast cancer (first-degree relative), n (%) | P: 0.21
+Family history of breast cancer (first-degree relative), n (%) | WELL-HART ( n = 105) > Placebo ( n = 37): 2 (5.4)
+Family history of breast cancer (first-degree relative), n (%) | WELL-HART ( n = 105) > ET ( n = 34): 7 (20.6)
+Family history of breast cancer (first-degree relative), n (%) | WELL-HART ( n = 105) > EPT ( n = 34): 3 (8.8)
+Family history of breast cancer (first-degree relative), n (%) | P *: 0.14 ‡
+Family history of breast cancer (first-degree relative), n (%) | P †: 0.91
+Age at menarche, years (mean ± SEM) | EPAT ( n = 127) > Placebo ( n = 57): 12.7 ± 0.2
+Age at menarche, years (mean ± SEM) | EPAT ( n = 127) > ET ( n = 70): 12.6 ± 0.2
+Age at menarche, years (mean ± SEM) | P: 0.86
+Age at menarche, years (mean ± SEM) | WELL-HART ( n = 105) > Placebo ( n = 37): 12.7 ± 0.3
+Age at menarche, years (mean ± SEM) | WELL-HART ( n = 105) > ET ( n = 34): 12.8 ± 0.3
+Age at menarche, years (mean ± SEM) | WELL-HART ( n = 105) > EPT ( n = 34): 13.3 ± 0.3
+Age at menarche, years (mean ± SEM) | P *: 0.32
+Age at menarche, years (mean ± SEM) | P †: 0.21
+Ever used postmenopausal hormones, n (%) | EPAT ( n = 127) > Placebo ( n = 57): 36 (63.2)
+Ever used postmenopausal hormones, n (%) | EPAT ( n = 127) > ET ( n = 70): 42 (60.0)
+Ever used postmenopausal hormones, n (%) | P: 0.72
+Ever used postmenopausal hormones, n (%) | WELL-HART ( n = 105) > Placebo ( n = 37): 13 (35.1)
+Ever used postmenopausal hormones, n (%) | WELL-HART ( n = 105) > ET ( n = 34): 15 (44.1)
+Ever used postmenopausal hormones, n (%) | WELL-HART ( n = 105) > EPT ( n = 34): 21 (61.8)
+Ever used postmenopausal hormones, n (%) | P *: 0.08
+Ever used postmenopausal hormones, n (%) | P †: 0.02
+BMI, kg/m 2 (mean ± SEM) | EPAT ( n = 127) > Placebo ( n = 57): 28.7 ± 0.7
+BMI, kg/m 2 (mean ± SEM) | EPAT ( n = 127) > ET ( n = 70): 28.7 ± 0.7
+BMI, kg/m 2 (mean ± SEM) | P: 0.96
+BMI, kg/m 2 (mean ± SEM) | WELL-HART ( n = 105) > Placebo ( n = 37): 30.8 ± 1.0
+BMI, kg/m 2 (mean ± SEM) | WELL-HART ( n = 105) > ET ( n = 34): 31.4 ± 1.0
+BMI, kg/m 2 (mean ± SEM) | WELL-HART ( n = 105) > EPT ( n = 34): 30.2 ± 1.1
+BMI, kg/m 2 (mean ± SEM) | P *: 0.73
+BMI, kg/m 2 (mean ± SEM) | P †: 0.007
+Mammographic density at baseline, % (mean ± SEM) | EPAT ( n = 127) > Placebo ( n = 57): 17.8 ± 2.3
+Mammographic density at baseline, % (mean ± SEM) | EPAT ( n = 127) > ET ( n = 70): 22.3 ± 1.9
+Mammographic density at baseline, % (mean ± SEM) | P: 0.13
+Mammographic density at baseline, % (mean ± SEM) | WELL-HART ( n = 105) > Placebo ( n = 37): 7.9 ± 1.8
+Mammographic density at baseline, % (mean ± SEM) | WELL-HART ( n = 105) > ET ( n = 34): 10.8 ± 2.1
+Mammographic density at baseline, % (mean ± SEM) | WELL-HART ( n = 105) > EPT ( n = 34): 13.3 ± 2.3
+Mammographic density at baseline, % (mean ± SEM) | P *: 0.19
+Mammographic density at baseline, % (mean ± SEM) | P †: 0.0001

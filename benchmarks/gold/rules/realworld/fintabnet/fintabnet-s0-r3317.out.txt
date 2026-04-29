@@ -1,0 +1,30 @@
+(Millions) | Qualified and Non-qualified Pension Benefits > United States: 2015
+(Millions) | Qualified and Non-qualified Pension Benefits > United States: 2014
+(Millions) | Qualified and Non-qualified Pension Benefits > International: 2015
+(Millions) | Qualified and Non-qualified Pension Benefits > International: 2014
+(Millions) | Postretirement > Benefits: 2015
+(Millions) | Postretirement > Benefits: 2014
+Amounts recognized in the Consolidated Balance Sheet as of Dec. 31, > Non-current assets | Qualified and Non-qualified Pension Benefits > United States: $3
+Amounts recognized in the Consolidated Balance Sheet as of Dec. 31, > Non-current assets | Qualified and Non-qualified Pension Benefits > United States: $3
+Amounts recognized in the Consolidated Balance Sheet as of Dec. 31, > Non-current assets | Qualified and Non-qualified Pension Benefits > International: $185
+Amounts recognized in the Consolidated Balance Sheet as of Dec. 31, > Non-current assets | Qualified and Non-qualified Pension Benefits > International: $43
+Amounts recognized in the Consolidated Balance Sheet as of Dec. 31, > Non-current assets | Postretirement > Benefits: $—
+Amounts recognized in the Consolidated Balance Sheet as of Dec. 31, > Non-current assets | Postretirement > Benefits: $—
+Accrued benefit cost > Current liabilities | Qualified and Non-qualified Pension Benefits > United States: (47)
+Accrued benefit cost > Current liabilities | Qualified and Non-qualified Pension Benefits > United States: (46)
+Accrued benefit cost > Current liabilities | Qualified and Non-qualified Pension Benefits > International: (10)
+Accrued benefit cost > Current liabilities | Qualified and Non-qualified Pension Benefits > International: (10)
+Accrued benefit cost > Current liabilities | Postretirement > Benefits: (3)
+Accrued benefit cost > Current liabilities | Postretirement > Benefits: (4)
+Accrued benefit cost > Non-current liabilities | Qualified and Non-qualified Pension Benefits > United States: (1,846)
+Accrued benefit cost > Non-current liabilities | Qualified and Non-qualified Pension Benefits > United States: (1,766)
+Accrued benefit cost > Non-current liabilities | Qualified and Non-qualified Pension Benefits > International: (828)
+Accrued benefit cost > Non-current liabilities | Qualified and Non-qualified Pension Benefits > International: (1,055)
+Accrued benefit cost > Non-current liabilities | Postretirement > Benefits: (846)
+Accrued benefit cost > Non-current liabilities | Postretirement > Benefits: (1,022)
+Accrued benefit cost > Ending balance | Qualified and Non-qualified Pension Benefits > United States: $(1,890)
+Accrued benefit cost > Ending balance | Qualified and Non-qualified Pension Benefits > United States: $(1,809)
+Accrued benefit cost > Ending balance | Qualified and Non-qualified Pension Benefits > International: $(653)
+Accrued benefit cost > Ending balance | Qualified and Non-qualified Pension Benefits > International: $(1,022)
+Accrued benefit cost > Ending balance | Postretirement > Benefits: $(849)
+Accrued benefit cost > Ending balance | Postretirement > Benefits: $(1,026)

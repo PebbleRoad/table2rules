@@ -1,0 +1,45 @@
+Daily smoker | Interested > (n = 225) > %: 18
+Daily smoker | Non-interested > (n = 553) > %: 14
+Daily smoker | OR (95% CI) 1): 0.87 (0.56–1.34)
+No alcohol | Interested > (n = 225) > %: 13
+No alcohol | Non-interested > (n = 553) > %: 20
+No alcohol | OR (95% CI) 1): 1.40 (0.88–2.20)
+Plenty of exercise in leisure-time | Interested > (n = 225) > %: 25
+Plenty of exercise in leisure-time | Non-interested > (n = 553) > %: 28
+Plenty of exercise in leisure-time | OR (95% CI) 1): 1.13 (0.78–1.62)
+BMI 25–29.9 2) | Interested > (n = 225) > %: 55
+BMI 25–29.9 2) | Non-interested > (n = 553) > %: 59
+BMI 25–29.9 2) | OR (95% CI) 1): 0.96 (0.69–1.34)
+BMI ≥ 30 2) | Interested > (n = 225) > %: 26
+BMI ≥ 30 2) | Non-interested > (n = 553) > %: 21
+BMI ≥ 30 2) | OR (95% CI) 1): 0.68 (0.47–0.99)
+Current health good | Interested > (n = 225) > %: 24
+Current health good | Non-interested > (n = 553) > %: 24
+Current health good | OR (95% CI) 1): 1.27 (0.87–1.86)
+Some chronic disease | Interested > (n = 225) > %: 73
+Some chronic disease | Non-interested > (n = 553) > %: 67
+Some chronic disease | OR (95% CI) 1): 0.70 (0.49–1.00)
+Tiredness | Interested > (n = 225) > %: 50
+Tiredness | Non-interested > (n = 553) > %: 45
+Tiredness | OR (95% CI) 1): 0.83 (0.60–1.15)
+Irritability | Interested > (n = 225) > %: 29
+Irritability | Non-interested > (n = 553) > %: 23
+Irritability | OR (95% CI) 1): 0.80 (0.56–1.16)
+Depression | Interested > (n = 225) > %: 26
+Depression | Non-interested > (n = 553) > %: 19
+Depression | OR (95% CI) 1): 0.65 (0.45–0.96)
+Headache | Interested > (n = 225) > %: 36
+Headache | Non-interested > (n = 553) > %: 32
+Headache | OR (95% CI) 1): 0.96 (0.68–1.34)
+Sweating | Interested > (n = 225) > %: 32
+Sweating | Non-interested > (n = 553) > %: 27
+Sweating | OR (95% CI) 1): 0.78 (0.55–1.11)
+Hot flashes | Interested > (n = 225) > %: 28
+Hot flashes | Non-interested > (n = 553) > %: 22
+Hot flashes | OR (95% CI) 1): 0.74 (0.51–1.07)
+Sleeplessness | Interested > (n = 225) > %: 26
+Sleeplessness | Non-interested > (n = 553) > %: 20
+Sleeplessness | OR (95% CI) 1): 0.67 (0.46–0.97)
+No symptoms | Interested > (n = 225) > %: 2
+No symptoms | Non-interested > (n = 553) > %: 9
+No symptoms | OR (95% CI) 1): 4.04 (1.57–10.44)

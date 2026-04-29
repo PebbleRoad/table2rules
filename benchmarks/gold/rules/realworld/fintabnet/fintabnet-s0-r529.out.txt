@@ -1,0 +1,40 @@
+2005 > Net sales | Fourth Quarter > (Tabular amounts in millions, except per share amounts): $3,678
+2005 > Net sales | Third Quarter > (Tabular amounts in millions, except per share amounts): $3,520
+2005 > Net sales | Second Quarter > (Tabular amounts in millions, except per share amounts): $3,243
+2005 > Net sales | First Quarter > (Tabular amounts in millions, except per share amounts): $3,490
+2005 > Gross margin | Fourth Quarter > (Tabular amounts in millions, except per share amounts): $1,035
+2005 > Gross margin | Third Quarter > (Tabular amounts in millions, except per share amounts): $1,044
+2005 > Gross margin | Second Quarter > (Tabular amounts in millions, except per share amounts): $968
+2005 > Gross margin | First Quarter > (Tabular amounts in millions, except per share amounts): $996
+2005 > Net income | Fourth Quarter > (Tabular amounts in millions, except per share amounts): $430
+2005 > Net income | Third Quarter > (Tabular amounts in millions, except per share amounts): $320
+2005 > Net income | Second Quarter > (Tabular amounts in millions, except per share amounts): $290
+2005 > Net income | First Quarter > (Tabular amounts in millions, except per share amounts): $295
+Earnings per common share: > Basic | Fourth Quarter > (Tabular amounts in millions, except per share amounts): $0.52
+Earnings per common share: > Basic | Third Quarter > (Tabular amounts in millions, except per share amounts): $0.39
+Earnings per common share: > Basic | Second Quarter > (Tabular amounts in millions, except per share amounts): $0.36
+Earnings per common share: > Basic | First Quarter > (Tabular amounts in millions, except per share amounts): $0.37
+Earnings per common share: > Diluted | Fourth Quarter > (Tabular amounts in millions, except per share amounts): $0.50
+Earnings per common share: > Diluted | Third Quarter > (Tabular amounts in millions, except per share amounts): $0.37
+Earnings per common share: > Diluted | Second Quarter > (Tabular amounts in millions, except per share amounts): $0.34
+Earnings per common share: > Diluted | First Quarter > (Tabular amounts in millions, except per share amounts): $0.35
+2004 > Net sales | Fourth Quarter > (Tabular amounts in millions, except per share amounts): $2,350
+2004 > Net sales | Third Quarter > (Tabular amounts in millions, except per share amounts): $2,014
+2004 > Net sales | Second Quarter > (Tabular amounts in millions, except per share amounts): $1,909
+2004 > Net sales | First Quarter > (Tabular amounts in millions, except per share amounts): $2,006
+2004 > Gross margin | Fourth Quarter > (Tabular amounts in millions, except per share amounts): $634
+2004 > Gross margin | Third Quarter > (Tabular amounts in millions, except per share amounts): $559
+2004 > Gross margin | Second Quarter > (Tabular amounts in millions, except per share amounts): $530
+2004 > Gross margin | First Quarter > (Tabular amounts in millions, except per share amounts): $536
+2004 > Net income | Fourth Quarter > (Tabular amounts in millions, except per share amounts): $106
+2004 > Net income | Third Quarter > (Tabular amounts in millions, except per share amounts): $61
+2004 > Net income | Second Quarter > (Tabular amounts in millions, except per share amounts): $46
+2004 > Net income | First Quarter > (Tabular amounts in millions, except per share amounts): $63
+Earnings per common share: > Basic | Fourth Quarter > (Tabular amounts in millions, except per share amounts): $0.14
+Earnings per common share: > Basic | Third Quarter > (Tabular amounts in millions, except per share amounts): $0.08
+Earnings per common share: > Basic | Second Quarter > (Tabular amounts in millions, except per share amounts): $0.06
+Earnings per common share: > Basic | First Quarter > (Tabular amounts in millions, except per share amounts): $0.09
+Earnings per common share: > Diluted | Fourth Quarter > (Tabular amounts in millions, except per share amounts): $0.13
+Earnings per common share: > Diluted | Third Quarter > (Tabular amounts in millions, except per share amounts): $0.08
+Earnings per common share: > Diluted | Second Quarter > (Tabular amounts in millions, except per share amounts): $0.06
+Earnings per common share: > Diluted | First Quarter > (Tabular amounts in millions, except per share amounts): $0.08

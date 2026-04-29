@@ -1,0 +1,30 @@
+Reliable single match | NCBI SAGEmap reliable mapping > tags: 4 061
+Reliable single match | NCBI SAGEmap reliable mapping > %: 54.3
+Reliable single match | Mouse SAGE Site reliable mapping > tags: 3 553
+Reliable single match | Mouse SAGE Site reliable mapping > %: 47.5
+Reliable single match | RNA evidence mapping > tags: 3 367
+Reliable single match | RNA evidence mapping > %: 45.0
+Reliable multiple matches | NCBI SAGEmap reliable mapping > tags: 2 865
+Reliable multiple matches | NCBI SAGEmap reliable mapping > %: 38.3
+Reliable multiple matches | Mouse SAGE Site reliable mapping > tags: 1 157
+Reliable multiple matches | Mouse SAGE Site reliable mapping > %: 15.5
+Reliable multiple matches | RNA evidence mapping > tags: 472
+Reliable multiple matches | RNA evidence mapping > %: 6.3
+Unreliable match(es)* | NCBI SAGEmap reliable mapping > tags: -
+Unreliable match(es)* | NCBI SAGEmap reliable mapping > %: -
+Unreliable match(es)* | Mouse SAGE Site reliable mapping > tags: 2 216
+Unreliable match(es)* | Mouse SAGE Site reliable mapping > %: 29.6
+Unreliable match(es)* | RNA evidence mapping > tags: 3 087
+Unreliable match(es)* | RNA evidence mapping > %: 41.3
+No match | NCBI SAGEmap reliable mapping > tags: 555
+No match | NCBI SAGEmap reliable mapping > %: 7.4
+No match | Mouse SAGE Site reliable mapping > tags: 555
+No match | Mouse SAGE Site reliable mapping > %: 7.4
+No match | RNA evidence mapping > tags: 555
+No match | RNA evidence mapping > %: 7.4
+Total tags (tag count > 1) | NCBI SAGEmap reliable mapping > tags: 7 481
+Total tags (tag count > 1) | NCBI SAGEmap reliable mapping > %: 100.0
+Total tags (tag count > 1) | Mouse SAGE Site reliable mapping > tags: 7 481
+Total tags (tag count > 1) | Mouse SAGE Site reliable mapping > %: 100.0
+Total tags (tag count > 1) | RNA evidence mapping > tags: 7 481
+Total tags (tag count > 1) | RNA evidence mapping > %: 100.0

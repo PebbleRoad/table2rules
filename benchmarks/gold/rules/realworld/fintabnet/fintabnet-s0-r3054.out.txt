@@ -1,0 +1,35 @@
+Classified as current assets: > Non-interest bearing cash (U.S. and International) | Cost > (in thousands): $40,390
+Classified as current assets: > Non-interest bearing cash (U.S. and International) | Gross Unrealized Gains > (in thousands): $—
+Classified as current assets: > Non-interest bearing cash (U.S. and International) | Gross Unrealized Losses Less Than 12 Months > (in thousands): $—
+Classified as current assets: > Non-interest bearing cash (U.S. and International) | Gross Unrealized Losses 12 Months or Longer > (in thousands): $—
+Classified as current assets: > Non-interest bearing cash (U.S. and International) | Estimated Fair Value > (in thousands): $40,390
+Classified as current assets: > Money market funds (U.S.) | Cost > (in thousands): 141,418
+Classified as current assets: > Money market funds (U.S.) | Gross Unrealized Gains > (in thousands): —
+Classified as current assets: > Money market funds (U.S.) | Gross Unrealized Losses Less Than 12 Months > (in thousands): —
+Classified as current assets: > Money market funds (U.S.) | Gross Unrealized Losses 12 Months or Longer > (in thousands): —
+Classified as current assets: > Money market funds (U.S.) | Estimated Fair Value > (in thousands): 141,418
+Classified as current assets: > Cash deposits and money market funds (International) | Cost > (in thousands): 519,805
+Classified as current assets: > Cash deposits and money market funds (International) | Gross Unrealized Gains > (in thousands): —
+Classified as current assets: > Cash deposits and money market funds (International) | Gross Unrealized Losses Less Than 12 Months > (in thousands): —
+Classified as current assets: > Cash deposits and money market funds (International) | Gross Unrealized Losses 12 Months or Longer > (in thousands): —
+Classified as current assets: > Cash deposits and money market funds (International) | Estimated Fair Value > (in thousands): 519,805
+Classified as current assets: > Municipal obligations | Cost > (in thousands): 463,966
+Classified as current assets: > Municipal obligations | Gross Unrealized Gains > (in thousands): 2,827
+Classified as current assets: > Municipal obligations | Gross Unrealized Losses Less Than 12 Months > (in thousands): (80)
+Classified as current assets: > Municipal obligations | Gross Unrealized Losses 12 Months or Longer > (in thousands): —
+Classified as current assets: > Municipal obligations | Estimated Fair Value > (in thousands): 466,713
+Cost > (in thousands): 1,165,579
+Gross Unrealized Gains > (in thousands): 2,827
+Gross Unrealized Losses Less Than 12 Months > (in thousands): (80)
+Gross Unrealized Losses 12 Months or Longer > (in thousands): —
+Estimated Fair Value > (in thousands): 1,168,326
+Classified as non-current assets: > Strategic investments | Cost > (in thousands): 8,002
+Classified as non-current assets: > Strategic investments | Gross Unrealized Gains > (in thousands): 1,796
+Classified as non-current assets: > Strategic investments | Gross Unrealized Losses Less Than 12 Months > (in thousands): —
+Classified as non-current assets: > Strategic investments | Gross Unrealized Losses 12 Months or Longer > (in thousands): —
+Classified as non-current assets: > Strategic investments | Estimated Fair Value > (in thousands): 9,798
+Classified as non-current assets: > Total | Cost > (in thousands): $1,173,581
+Classified as non-current assets: > Total | Gross Unrealized Gains > (in thousands): $4,623
+Classified as non-current assets: > Total | Gross Unrealized Losses Less Than 12 Months > (in thousands): $(80)
+Classified as non-current assets: > Total | Gross Unrealized Losses 12 Months or Longer > (in thousands): $—
+Classified as non-current assets: > Total | Estimated Fair Value > (in thousands): $1,178,124

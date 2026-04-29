@@ -1,0 +1,59 @@
+2 | Number of factors: 3
+2 | Number of genes > Noise: 100
+2 | Number of genes > Each factor: 30
+2 | Correlation (ρ): 0.8
+2 | Effect size: 0.2,0.4,0.6
+2 | Factors clearly identified: Y
+2 | Proportion correct: 1.00
+Effect size: 0.02,0.04,0.06
+Factors clearly identified: Y
+Proportion correct: 1.00
+Correlation (ρ): 0.4
+Effect size: 0.2,0.4,0.6
+Factors clearly identified: Y
+Proportion correct: 0.84
+Effect size: 0.02,0.04,0.06
+Factors clearly identified: Y
+Proportion correct: 0.66
+2 | Number of factors: 3
+2 | Number of genes > Noise: 1000
+2 | Number of genes > Each factor: 300
+2 | Correlation (ρ): 0.8
+2 | Effect size: 0.2,0.4,0.6
+2 | Factors clearly identified: Y
+2 | Proportion correct: 1.00
+Correlation (ρ): 0.4
+Effect size: 0.2,0.4,0.6
+Factors clearly identified: Y
+Proportion correct: 0.66
+10 | Number of factors: 3
+10 | Number of genes > Noise: 100
+10 | Number of genes > Each factor: 30
+10 | Correlation (ρ): 0.8
+10 | Effect size: 1,2,3
+10 | Factors clearly identified: N
+10 | Proportion correct: 0.81
+Correlation (ρ): 0.4
+Effect size: 1,2,3
+Factors clearly identified: N
+Proportion correct: 0.64
+Number of genes > Noise: 0
+Number of genes > Each factor: 30
+Correlation (ρ): 0.8
+Effect size: 1,2,3
+Factors clearly identified: Y
+Proportion correct: 1.00
+Correlation (ρ): 0.4
+Effect size: 1,2,3
+Factors clearly identified: N
+Proportion correct: 0.63
+10 | Number of factors: 20
+10 | Number of genes > Noise: 100
+10 | Number of genes > Each factor: 30
+10 | Correlation (ρ): 0.4
+10 | Effect size: 1,2,...,20
+10 | Factors clearly identified: N
+10 | Proportion correct: -
+Effect size: 0.1,0.2,...,2
+Factors clearly identified: N
+Proportion correct: -

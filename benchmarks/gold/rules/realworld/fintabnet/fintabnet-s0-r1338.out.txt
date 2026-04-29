@@ -1,0 +1,31 @@
+Fixed rate debt | Year of Maturity > 2007 > (Dollars in thousands): $6,515
+Fixed rate debt | Year of Maturity > 2008 > (Dollars in thousands): $19,189
+Fixed rate debt | Year of Maturity > 2009 > (Dollars in thousands): $—
+Fixed rate debt | Year of Maturity > 2010 > (Dollars in thousands): $—
+Fixed rate debt | Year of Maturity > 2011 > (Dollars in thousands): $150,000
+Fixed rate debt | Thereafter > (Dollars in thousands): $250,000
+Fixed rate debt | Total > (Dollars in thousands): $425,704
+Average interest rate | Year of Maturity > 2007 > (Dollars in thousands): 7.1%
+Average interest rate | Year of Maturity > 2008 > (Dollars in thousands): 6.0%
+Average interest rate | Year of Maturity > 2009 > (Dollars in thousands): —
+Average interest rate | Year of Maturity > 2010 > (Dollars in thousands): —
+Average interest rate | Year of Maturity > 2011 > (Dollars in thousands): 5.2%
+Average interest rate | Thereafter > (Dollars in thousands): 5.8%
+Average interest rate | Total > (Dollars in thousands): 5.6%
+Variable rate debt | Year of Maturity > 2007 > (Dollars in thousands): $24,507
+Variable rate debt | Year of Maturity > 2008 > (Dollars in thousands): $47,299
+Variable rate debt | Year of Maturity > 2009 > (Dollars in thousands): $1,291
+Variable rate debt | Year of Maturity > 2010 > (Dollars in thousands): $—
+Variable rate debt | Year of Maturity > 2011 > (Dollars in thousands): $19,591
+Variable rate debt | Thereafter > (Dollars in thousands): $—
+Variable rate debt | Total > (Dollars in thousands): $92,688
+Average interest rate | Year of Maturity > 2007 > (Dollars in thousands): 5.2%
+Average interest rate | Year of Maturity > 2008 > (Dollars in thousands): 4.6%
+Average interest rate | Year of Maturity > 2009 > (Dollars in thousands): 7.0%
+Average interest rate | Year of Maturity > 2010 > (Dollars in thousands): —
+Average interest rate | Year of Maturity > 2011 > (Dollars in thousands): 5.6%
+Average interest rate | Thereafter > (Dollars in thousands): —
+Average interest rate | Total > (Dollars in thousands): 5.0%
+Amount subject to swaps: > Variable to fixed | Year of Maturity > 2008 > (Dollars in thousands): $59,200
+Amount subject to swaps: > Average rate to be received | Year of Maturity > 2008 > (Dollars in thousands): 4.8%
+Amount subject to swaps: > Average rate to be paid | Year of Maturity > 2008 > (Dollars in thousands): 5.6%

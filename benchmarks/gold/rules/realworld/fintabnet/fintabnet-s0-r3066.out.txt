@@ -1,0 +1,33 @@
+Balance at October 31, 2014 | RestrictedStock Units > (in thousands, except per share and life amounts): 3,947
+Balance at October 31, 2014 | WeightedAverageGrant DateFair Value > (in thousands, except per share and life amounts): $35.29
+Balance at October 31, 2014 | WeightedAverageRemainingContractualLife (In Years) > (in thousands, except per share and life amounts): 1.53
+Granted | RestrictedStock Units > (in thousands, except per share and life amounts): 1,707
+Granted | WeightedAverageGrant DateFair Value > (in thousands, except per share and life amounts): $48.13
+Vested(1) | RestrictedStock Units > (in thousands, except per share and life amounts): (1,522)
+Vested(1) | WeightedAverageGrant DateFair Value > (in thousands, except per share and life amounts): $33.05
+Vested(1) | AggregateFairValue > (in thousands, except per share and life amounts): $73,677
+Forfeited | RestrictedStock Units > (in thousands, except per share and life amounts): (204)
+Forfeited | WeightedAverageGrant DateFair Value > (in thousands, except per share and life amounts): $37.68
+Balance at October 31, 2015 | RestrictedStock Units > (in thousands, except per share and life amounts): 3,928
+Balance at October 31, 2015 | WeightedAverageGrant DateFair Value > (in thousands, except per share and life amounts): $41.61
+Balance at October 31, 2015 | WeightedAverageRemainingContractualLife (In Years) > (in thousands, except per share and life amounts): 1.54
+Granted | RestrictedStock Units > (in thousands, except per share and life amounts): 1,765
+Granted | WeightedAverageGrant DateFair Value > (in thousands, except per share and life amounts): $49.59
+Vested(1) | RestrictedStock Units > (in thousands, except per share and life amounts): (1,547)
+Vested(1) | WeightedAverageGrant DateFair Value > (in thousands, except per share and life amounts): $38.33
+Vested(1) | AggregateFairValue > (in thousands, except per share and life amounts): $79,558
+Forfeited | RestrictedStock Units > (in thousands, except per share and life amounts): (111)
+Forfeited | WeightedAverageGrant DateFair Value > (in thousands, except per share and life amounts): $43.12
+Balance at October 31, 2016 | RestrictedStock Units > (in thousands, except per share and life amounts): 4,035
+Balance at October 31, 2016 | WeightedAverageGrant DateFair Value > (in thousands, except per share and life amounts): $46.37
+Balance at October 31, 2016 | WeightedAverageRemainingContractualLife (In Years) > (in thousands, except per share and life amounts): 1.56
+Granted | RestrictedStock Units > (in thousands, except per share and life amounts): 1,584
+Granted | WeightedAverageGrant DateFair Value > (in thousands, except per share and life amounts): $70.49
+Vested(1) | RestrictedStock Units > (in thousands, except per share and life amounts): (1,536)
+Vested(1) | WeightedAverageGrant DateFair Value > (in thousands, except per share and life amounts): $43.53
+Vested(1) | AggregateFairValue > (in thousands, except per share and life amounts): $110,103
+Forfeited | RestrictedStock Units > (in thousands, except per share and life amounts): (240)
+Forfeited | WeightedAverageGrant DateFair Value > (in thousands, except per share and life amounts): $49.36
+Balance at October 31, 2017 | RestrictedStock Units > (in thousands, except per share and life amounts): 3,843
+Balance at October 31, 2017 | WeightedAverageGrant DateFair Value > (in thousands, except per share and life amounts): $57.26
+Balance at October 31, 2017 | WeightedAverageRemainingContractualLife (In Years) > (in thousands, except per share and life amounts): 1.54

@@ -1,0 +1,101 @@
+Rank: 15
+Cosmid: F33D4.3
+Gene: flp-13
+Protein: neuropeptide
+UNC-4 neuron: I5
+Other cells: ASE, ASG, ASK, BAG, DD, M3, M5, head neurons [67]
+Rank: 17
+Cosmid: C11D2.6
+Gene: nca-1
+Protein: Ca ++ channel
+UNC-4 neuron: DA
+Other cells: DB, VA, VB, head/tail neurons
+Rank: 56
+Cosmid: F09C3.2
+Protein: phosphatase
+UNC-4 neuron: DA
+Other cells: VA, VB, VD, DB, intestine, hypodermis
+Rank: 98
+Cosmid: T19C4.5
+Protein: novel
+Other cells: no GFP
+Rank: 161
+Cosmid: T23D8.2
+Gene: tsp-7
+Protein: tetraspanin
+UNC-4 neuron: DA
+Other cells: all VNC motor neurons, head/tail neurons, touch neurons
+Rank: 165
+Cosmid: CC4.2
+Gene: nlp-15
+Protein: neuropeptide
+Other cells: DD, head/tail neurons, body muscles, pharyngeal muscle [105]
+Rank: 210
+Cosmid: F29G6.2
+Protein: novel
+UNC-4 neuron: DA
+Other cells: DB, touch neurons, pharyngeal neurons, head neurons
+Rank: 215
+Cosmid: F39G3.8
+Gene: tig-2
+Protein: TGF-β
+UNC-4 neuron: DA
+Other cells: VA, VB, DB, body wall muscle, touch neurons, pharyngeal muscle
+Rank: 233
+Cosmid: F55C12.4
+Protein: novel
+UNC-4 neuron: DA
+Other cells: VB, DB, DD, AS, VD
+Rank: 234
+Cosmid: E03D2.2
+Gene: nlp-9
+Protein: neuropeptide
+Other cells: VA, intestine, head neurons [105]
+Rank: 239
+Cosmid: ZC21.2
+Gene: trp-1
+Protein: Ca ++ channel
+UNC-4 neuron: DA
+Other cells: DB, VA, VB
+Rank: 254
+Cosmid: Y47D3B.2A
+Gene: nlp-21
+Protein: neuropeptide
+UNC-4 neuron: DA
+Other cells: DB, VA, VB, AS, body muscle, head neurons, intestine [72]
+Rank: 329
+Cosmid: F36A2.4
+Gene: twk-30
+Protein: K + channel
+UNC-4 neuron: DA
+Other cells: all VNC motor neurons [106]
+Rank: 377
+Cosmid: C18H9.7
+Gene: rpy-1
+Protein: rapsyn
+UNC-4 neuron: DA
+Other cells: VD, AS, VB, DB, body muscles
+Rank: 593
+Cosmid: F43C9.4a
+Gene: mig-13
+Protein: CUB domain
+UNC-4 neuron: DA
+Other cells: DB, ant. VNC motor neurons, pharyngeal/intestinal valves, hypodermis [107]
+Rank: 782
+Cosmid: T05C12.2
+Gene: acr-14
+Protein: nAChR
+UNC-4 neuron: DA
+Other cells: VB, AS, DB, DD, HSN, VC4 & 5, AIY, head neurons, muscles, intestine
+Rank: 788
+Cosmid: T27A1.6
+Gene: mab-9
+Protein: transcrip. factor
+UNC-4 neuron: DA
+Other cells: DD, DB, VD, AS
+Rank: 877
+Cosmid: K02E10.8
+Gene: syg-1
+Protein: Ig Domain
+UNC-4 neuron: DA
+Other cells: VA, HSN and other neurons

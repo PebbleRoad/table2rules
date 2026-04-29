@@ -1,0 +1,40 @@
+Men | Population size a: Total
+Men | LE65 > Mean ± S.D.: 17.56 ± 0.58
+Men | LE65 > (range): (14.9 – 20.3)
+Men | HE65 > Mean ± S.D.: 15.53 ± 0.52
+Men | HE65 > (range): (13.13 – 17.39)
+Population size a: Small
+LE65 > Mean ± S.D.: 17.61 ± 0.59
+LE65 > (range): (15.0 – 19.8)
+HE65 > Mean ± S.D.: 15.56 ± 0.53
+HE65 > (range): (13.63 – 17.39)
+Population size a: Medium
+LE65 > Mean ± S.D.: 17.46 ± 0.58
+LE65 > (range): (15.8 – 20.3)
+HE65 > Mean ± S.D.: 15.53 ± 0.51
+HE65 > (range): (13.48 – 17.08)
+Population size a: Large
+LE65 > Mean ± S.D.: 17.58 ± 0.57
+LE65 > (range): (14.9 – 19.5)
+HE65 > Mean ± S.D.: 15.42 ± 0.49
+HE65 > (range): (13.13 – 16.84)
+Women | Population size a: Total
+Women | LE65 > Mean ± S.D.: 22.54 ± 0.68
+Women | LE65 > (range): (20.1 – 27.2)
+Women | HE65 > Mean ± S.D.: 18.01 ± 0.77
+Women | HE65 > (range): (14.84 – 20.53)
+Population size a: Small
+LE65 > Mean ± S.D.: 22.64 ± 0.66
+LE65 > (range): (20.1 – 26.3)
+HE65 > Mean ± S.D.: 18.03 ± 0.78
+HE65 > (range): (14.83 – 20.53)
+Population size a: Medium
+LE65 > Mean ± S.D.: 22.48 ± 0.72
+LE65 > (range): (20.2 – 27.3)
+HE65 > Mean ± S.D.: 18.09 ± 0.77
+HE65 > (range): (15.45 – 20.11)
+Population size a: Large
+LE65 > Mean ± S.D.: 22.40 ± 0.57
+LE65 > (range): (20.6 – 24.5)
+HE65 > Mean ± S.D.: 17.62 ± 0.62
+HE65 > (range): (14.84 – 18.94)

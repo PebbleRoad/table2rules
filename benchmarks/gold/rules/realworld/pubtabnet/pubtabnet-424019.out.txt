@@ -1,0 +1,78 @@
+Example: 1
+High: 2/15
+Moderate: 4/15
+Low: 5/15
+Very low: 4/15
+Consensus: Moderate
+Example: 2
+High: 12/17
+Moderate: 5/17
+Low: -
+Very low: -
+Consensus: High
+Example: 3
+High: 1/17
+Moderate: 6/17
+Low: 5/17
+Very low: 5/17
+Consensus: Need more information before consensus
+Comments: Need more information before consensus
+Example: 4
+High: 4/17
+Moderate: 13/17
+Low: -
+Very low: -
+Consensus: High
+Comments: Based on the new rule
+Example: 5
+High: 12/16
+Moderate: 4/16
+Low: -
+Very low: -
+Consensus: High
+Example: 6
+High: 7/17
+Moderate: 10/17
+Low: -
+Very low: -
+Consensus: High
+Comments: Based on new rule
+Example: 7
+High: -
+Moderate: 11/17
+Low: 6/17
+Very low: -
+Consensus: Moderate
+Example: 8
+High: -
+Moderate: 6/17
+Low: 3/17
+Very low: 8/17
+Consensus: High
+Comments: Based on new rule
+Example: 9
+High: 2/16
+Moderate: 3/16
+Low: 5/16
+Very low: 6/16
+Consensus: High/Moderate depending if there are fatal flaws
+Comments: High/Moderate depending if there are fatal flaws
+Example: 10
+High: -
+Moderate: 1/17
+Low: 4/17
+Very low: 12/17
+Consensus: Very low
+Example: 11
+High: 1/17
+Moderate: 3/17
+Low: 8/17
+Very low: 5/17
+Consensus: High
+Comments: Changed question
+Example: 12
+High: 11/13
+Moderate: 2/13
+Low: -
+Very low: -
+Consensus: High

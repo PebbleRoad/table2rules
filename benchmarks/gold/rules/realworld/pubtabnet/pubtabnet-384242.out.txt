@@ -1,0 +1,84 @@
+1 | Before anti-TNF alpha treatment > Disease: RA, RF+, erosive
+1 | Before anti-TNF alpha treatment > Autoantibody: None
+1 | Before anti-TNF alpha treatment > Clinical signs of lupus: None
+1 | Treatment: INF
+1 | During onset of symptoms > Duration of treatment (months): 27
+1 | During onset of symptoms > Clinical signs of lupus a: General, skin, serositis, lung
+1 | During onset of symptoms > Biological signs of lupus: ANA+, dsDNA+, ACL+, leucopenia, thrombopenia, ENA+
+2 | Before anti-TNF alpha treatment > Disease: RA, RF+, erosive
+2 | Before anti-TNF alpha treatment > Autoantibody: ANA+, Ro+
+2 | Before anti-TNF alpha treatment > Clinical signs of lupus: None
+2 | Treatment: INF
+2 | During onset of symptoms > Duration of treatment (months): 4
+2 | During onset of symptoms > Clinical signs of lupus a: General, skin (3), arthritis
+2 | During onset of symptoms > Biological signs of lupus: ANA+, dsDNA+, histone +
+3 | Before anti-TNF alpha treatment > Disease: RA, RF+, erosive
+3 | Before anti-TNF alpha treatment > Autoantibody: ANA+, Ro+
+3 | Before anti-TNF alpha treatment > Clinical signs of lupus: None
+3 | Treatment: INF
+3 | During onset of symptoms > Duration of treatment (months): 2
+3 | During onset of symptoms > Clinical signs of lupus a: Skin, myalgias, arthritis
+3 | During onset of symptoms > Biological signs of lupus: ANA+, dsDNA+, ENA+,
+4 | Before anti-TNF alpha treatment > Disease: RA, RF-, erosive
+4 | Before anti-TNF alpha treatment > Autoantibody: None
+4 | Before anti-TNF alpha treatment > Clinical signs of lupus: None
+4 | Treatment: ETA
+4 | During onset of symptoms > Duration of treatment (months): 4
+4 | During onset of symptoms > Clinical signs of lupus a: General, skin (2), myositis
+4 | During onset of symptoms > Biological signs of lupus: ANA+, dsDNA+, ACL+, low C4, ENA+
+5 | Before anti-TNF alpha treatment > Disease: RA, RF+, erosive
+5 | Before anti-TNF alpha treatment > Autoantibody: None
+5 | Before anti-TNF alpha treatment > Clinical signs of lupus: None
+5 | Treatment: INF
+5 | During onset of symptoms > Duration of treatment (months): 4
+5 | During onset of symptoms > Clinical signs of lupus a: Skin (3), myositis, arthritis, pericarditis
+5 | During onset of symptoms > Biological signs of lupus: ANA+, dsDNA+, ACL+, CPK, lymphopenia
+6 | Before anti-TNF alpha treatment > Disease: RA, RF+, erosive
+6 | Before anti-TNF alpha treatment > Autoantibody: ANA+, dsDNA+ limit value
+6 | Before anti-TNF alpha treatment > Clinical signs of lupus: None
+6 | Treatment: ETA
+6 | During onset of symptoms > Duration of treatment (months): 5
+6 | During onset of symptoms > Clinical signs of lupus a: General, skin
+6 | During onset of symptoms > Biological signs of lupus: ANA+, dsDNA+, thrombopenia, leucopenia
+7 | Before anti-TNF alpha treatment > Disease: RA, RF+, erosive
+7 | Before anti-TNF alpha treatment > Autoantibody: None
+7 | Before anti-TNF alpha treatment > Clinical signs of lupus: None
+7 | Treatment: INF
+7 | During onset of symptoms > Duration of treatment (months): 10
+7 | During onset of symptoms > Clinical signs of lupus a: General, serositis, myositis
+7 | During onset of symptoms > Biological signs of lupus: ANA+, dsDNA+, ACL+, leucopenia, thrombopenia, CPK,
+8 | Before anti-TNF alpha treatment > Disease: RA, RF+
+8 | Before anti-TNF alpha treatment > Autoantibody: None
+8 | Before anti-TNF alpha treatment > Clinical signs of lupus: None
+8 | Treatment: ETA
+8 | During onset of symptoms > Duration of treatment (months): 2
+8 | During onset of symptoms > Clinical signs of lupus a: Phlebitis, skin
+8 | During onset of symptoms > Biological signs of lupus: ANA+, dsDNA+, leucopenia, ACL+, thrombopenia
+9 | Before anti-TNF alpha treatment > Disease: Psoriatic arthritis
+9 | Before anti-TNF alpha treatment > Autoantibody: None
+9 | Before anti-TNF alpha treatment > Clinical signs of lupus: None
+9 | Treatment: INF
+9 | During onset of symptoms > Duration of treatment (months): 14
+9 | During onset of symptoms > Clinical signs of lupus a: General, skin, neurological
+9 | During onset of symptoms > Biological signs of lupus: ANA+, dsDNA+
+10 | Before anti-TNF alpha treatment > Disease: RA, RF+, erosive
+10 | Before anti-TNF alpha treatment > Autoantibody: None
+10 | Before anti-TNF alpha treatment > Clinical signs of lupus: None
+10 | Treatment: INF
+10 | During onset of symptoms > Duration of treatment (months): 16
+10 | During onset of symptoms > Clinical signs of lupus a: General, Skin, arthritis
+10 | During onset of symptoms > Biological signs of lupus: ANA+, dsDNA+
+11 | Before anti-TNF alpha treatment > Disease: RA, RF+, erosive
+11 | Before anti-TNF alpha treatment > Autoantibody: None
+11 | Before anti-TNF alpha treatment > Clinical signs of lupus: None
+11 | Treatment: INF
+11 | During onset of symptoms > Duration of treatment (months): 12
+11 | During onset of symptoms > Clinical signs of lupus a: General, skin (3), arthritis, myositis
+11 | During onset of symptoms > Biological signs of lupus: ANA+, dsDNA+, ENA+, CPK
+12 | Before anti-TNF alpha treatment > Disease: RA, RF+, erosive
+12 | Before anti-TNF alpha treatment > Autoantibody: None
+12 | Before anti-TNF alpha treatment > Clinical signs of lupus: None
+12 | Treatment: INF
+12 | During onset of symptoms > Duration of treatment (months): 10
+12 | During onset of symptoms > Clinical signs of lupus a: General, skin, arthritis
+12 | During onset of symptoms > Biological signs of lupus: ANA+, dsDNA+, CPK, ENA+, ACL+, low C4, histone+, leucopenia, lymphopenia, Coombs test+

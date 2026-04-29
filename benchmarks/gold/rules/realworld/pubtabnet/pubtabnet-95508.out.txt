@@ -1,0 +1,54 @@
+Risk-based N = 245 | DMF > Mean: 0.2
+Risk-based N = 245 | DMF > S.D.: 0.6
+Risk-based N = 245 | I+DMFS > Mean: 2.8
+Risk-based N = 245 | I+DMFS > S.D.: 4.4
+Risk-based N = 245 | Sealants > Mean: 2.6
+Risk-based N = 245 | Sealants > S.D.: 2.5
+Low-risk | n: 166
+Low-risk | DMF > Mean: 0.2
+Low-risk | DMF > S.D.: 0.6
+Low-risk | I+DMFS > Mean: 2.4
+Low-risk | I+DMFS > S.D.: 3.8
+Low-risk | Sealants > Mean: 2.4
+Low-risk | Sealants > S.D.: 2.5
+Intermediate | n: 52
+Intermediate | DMF > Mean: 0.2
+Intermediate | DMF > S.D.: 0.7
+Intermediate | I+DMFS > Mean: 3.1
+Intermediate | I+DMFS > S.D.: 4.7
+Intermediate | Sealants > Mean: 2.8
+Intermediate | Sealants > S.D.: 2.2
+High-risk | n: 27
+High-risk | DMF > Mean: 0.4
+High-risk | DMF > S.D.: 0.8
+High-risk | I+DMFS > Mean: 4.7
+High-risk | I+DMFS > S.D.: 6.4
+High-risk | Sealants > Mean: 3.4
+High-risk | Sealants > S.D.: 2.9
+Routine N = 202 | DMF > Mean: 0.4
+Routine N = 202 | DMF > S.D.: 0.9
+Routine N = 202 | I+DMFS > Mean: 2.9
+Routine N = 202 | I+DMFS > S.D.: 4.0
+Routine N = 202 | Sealants > Mean: 1.6
+Routine N = 202 | Sealants > S.D.: 1.8
+Low-risk | n: 134
+Low-risk | DMF > Mean: 0.3
+Low-risk | DMF > S.D.: 0.7
+Low-risk | I+DMFS > Mean: 2.3
+Low-risk | I+DMFS > S.D.: 3.8
+Low-risk | Sealants > Mean: 1.5
+Low-risk | Sealants > S.D.: 1.6
+Intermediate | n: 50
+Intermediate | DMF > Mean: 0.6
+Intermediate | DMF > S.D.: 0.9
+Intermediate | I+DMFS > Mean: 4.1
+Intermediate | I+DMFS > S.D.: 3.8
+Intermediate | Sealants > Mean: 1.5
+Intermediate | Sealants > S.D.: 1.8
+High-risk | n: 18
+High-risk | DMF > Mean: 0.9
+High-risk | DMF > S.D.: 1.4
+High-risk | I+DMFS > Mean: 4.6
+High-risk | I+DMFS > S.D.: 4.7
+High-risk | Sealants > Mean: 2.2
+High-risk | Sealants > S.D.: 2.9

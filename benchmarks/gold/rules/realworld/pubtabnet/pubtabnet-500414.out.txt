@@ -1,0 +1,42 @@
+All sentences | Matched relations: 133
+All sentences | All relations: 912
+All sentences | Precision: 0.14
+All sentences | Recall: 1.00 *
+All sentences | F measure: 0.24
+All sentences | Sample size: 451
+Exclude genes | Matched relations: 110
+Exclude genes | All relations: 660
+Exclude genes | Precision: 0.17
+Exclude genes | Recall: 1.00 *
+Exclude genes | F measure: 0.25
+Exclude genes | Sample size: 451
+Require verbs | Matched relations: 94
+Require verbs | All relations: 437
+Require verbs | Precision: 0.21
+Require verbs | Recall: 1.00 *
+Require verbs | F measure: 0.34
+Require verbs | Sample size: 451
+Discovering relations not in MIPS table | Matched relations: 234
+Discovering relations not in MIPS table | All relations: 437
+Discovering relations not in MIPS table | Precision: 0.53
+Discovering relations not in MIPS table | Recall: 1.00 *
+Discovering relations not in MIPS table | F measure: 0.69
+Discovering relations not in MIPS table | Sample size: 451
+Exclude negatives, alleles | Matched relations: 239
+Exclude negatives, alleles | All relations: 381
+Exclude negatives, alleles | Precision: 0.61
+Exclude negatives, alleles | Recall: 1.00 *
+Exclude negatives, alleles | F measure: 0.75
+Exclude negatives, alleles | Sample size: 451
+Exclude proteins not part of true relations table. | Matched relations: 239
+Exclude proteins not part of true relations table. | All relations: 343
+Exclude proteins not part of true relations table. | Precision: 0.70
+Exclude proteins not part of true relations table. | Recall: 0.97 *
+Exclude proteins not part of true relations table. | F measure: 0.81
+Exclude proteins not part of true relations table. | Sample size: 581
+Include only validated 2-hop relations | Matched relations: 254
+Include only validated 2-hop relations | All relations: 343
+Include only validated 2-hop relations | Precision: 0.74
+Include only validated 2-hop relations | Recall: 0.97 *
+Include only validated 2-hop relations | F measure: 0.83
+Include only validated 2-hop relations | Sample size: 581

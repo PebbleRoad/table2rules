@@ -1,0 +1,36 @@
+NOI | Year Ended > December 31, 2015: $701,262
+NOI | Year Ended > December 31, 2016: $814,114
+NOI | One Year Change > $: $112,852
+NOI | One Year Change > %: 16%
+NOI | Year Ended December 31, 2017: $880,026
+NOI | One Year Change > $: $65,912
+NOI | One Year Change > %: 8%
+NOI | Two Year Change > $: $178,764
+NOI | Two Year Change > %: 25%
+Non-cash NOI attributable to same store properties (1) | Year Ended > December 31, 2015: 1,003
+Non-cash NOI attributable to same store properties (1) | Year Ended > December 31, 2016: 1,990
+Non-cash NOI attributable to same store properties (1) | One Year Change > $: 987
+Non-cash NOI attributable to same store properties (1) | One Year Change > %: 98%
+Non-cash NOI attributable to same store properties (1) | Year Ended December 31, 2017: 1,242
+Non-cash NOI attributable to same store properties (1) | One Year Change > $: (748)
+Non-cash NOI attributable to same store properties (1) | One Year Change > %: -38%
+Non-cash NOI attributable to same store properties (1) | Two Year Change > $: 239
+Non-cash NOI attributable to same store properties (1) | Two Year Change > %: 24%
+NOI attributable to non same store properties (2) | Year Ended > December 31, 2015: (83,880)
+NOI attributable to non same store properties (2) | Year Ended > December 31, 2016: (190,459)
+NOI attributable to non same store properties (2) | One Year Change > $: (106,579)
+NOI attributable to non same store properties (2) | One Year Change > %: 127%
+NOI attributable to non same store properties (2) | Year Ended December 31, 2017: (246,731)
+NOI attributable to non same store properties (2) | One Year Change > $: (56,272)
+NOI attributable to non same store properties (2) | One Year Change > %: 30%
+NOI attributable to non same store properties (2) | Two Year Change > $: (162,851)
+NOI attributable to non same store properties (2) | Two Year Change > %: 194%
+SSNOI (1) | Year Ended > December 31, 2015: $618,385
+SSNOI (1) | Year Ended > December 31, 2016: $625,645
+SSNOI (1) | One Year Change > $: $7,260
+SSNOI (1) | One Year Change > %: 1%
+SSNOI (1) | Year Ended December 31, 2017: $634,537
+SSNOI (1) | One Year Change > $: $8,892
+SSNOI (1) | One Year Change > %: 1%
+SSNOI (1) | Two Year Change > $: $16,152
+SSNOI (1) | Two Year Change > %: 3%

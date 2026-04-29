@@ -1,0 +1,88 @@
+(Millions of dollars) | U.S. Pension Benefits: 2017
+(Millions of dollars) | U.S. Pension Benefits: 2016
+(Millions of dollars) | Non-U.S.Pension Benefits: 2017
+(Millions of dollars) | Non-U.S.Pension Benefits: 2016
+(Millions of dollars) | Other PostretirementBenefits: 2017
+(Millions of dollars) | Other PostretirementBenefits: 2016
+Change in benefit obligation: > Benefit obligation, beginning of year | U.S. Pension Benefits: $16,218
+Change in benefit obligation: > Benefit obligation, beginning of year | U.S. Pension Benefits: $15,792
+Change in benefit obligation: > Benefit obligation, beginning of year | Non-U.S.Pension Benefits: $4,472
+Change in benefit obligation: > Benefit obligation, beginning of year | Non-U.S.Pension Benefits: $4,355
+Change in benefit obligation: > Benefit obligation, beginning of year | Other PostretirementBenefits: $4,088
+Change in benefit obligation: > Benefit obligation, beginning of year | Other PostretirementBenefits: $4,313
+Change in benefit obligation: > Service cost | U.S. Pension Benefits: 115
+Change in benefit obligation: > Service cost | U.S. Pension Benefits: 119
+Change in benefit obligation: > Service cost | Non-U.S.Pension Benefits: 95
+Change in benefit obligation: > Service cost | Non-U.S.Pension Benefits: 92
+Change in benefit obligation: > Service cost | Other PostretirementBenefits: 78
+Change in benefit obligation: > Service cost | Other PostretirementBenefits: 82
+Change in benefit obligation: > Interest cost | U.S. Pension Benefits: 525
+Change in benefit obligation: > Interest cost | U.S. Pension Benefits: 517
+Change in benefit obligation: > Interest cost | Non-U.S.Pension Benefits: 101
+Change in benefit obligation: > Interest cost | Non-U.S.Pension Benefits: 117
+Change in benefit obligation: > Interest cost | Other PostretirementBenefits: 130
+Change in benefit obligation: > Interest cost | Other PostretirementBenefits: 131
+Change in benefit obligation: > Plan amendments | U.S. Pension Benefits: —
+Change in benefit obligation: > Plan amendments | U.S. Pension Benefits: —
+Change in benefit obligation: > Plan amendments | Non-U.S.Pension Benefits: (1)
+Change in benefit obligation: > Plan amendments | Non-U.S.Pension Benefits: (5)
+Change in benefit obligation: > Plan amendments | Other PostretirementBenefits: (79)
+Change in benefit obligation: > Plan amendments | Other PostretirementBenefits: (188)
+Change in benefit obligation: > Actuarial losses (gains) | U.S. Pension Benefits: 1,439
+Change in benefit obligation: > Actuarial losses (gains) | U.S. Pension Benefits: 767
+Change in benefit obligation: > Actuarial losses (gains) | Non-U.S.Pension Benefits: (75)
+Change in benefit obligation: > Actuarial losses (gains) | Non-U.S.Pension Benefits: 512
+Change in benefit obligation: > Actuarial losses (gains) | Other PostretirementBenefits: 71
+Change in benefit obligation: > Actuarial losses (gains) | Other PostretirementBenefits: 60
+Change in benefit obligation: > Foreign currency exchange rates | U.S. Pension Benefits: —
+Change in benefit obligation: > Foreign currency exchange rates | U.S. Pension Benefits: —
+Change in benefit obligation: > Foreign currency exchange rates | Non-U.S.Pension Benefits: 312
+Change in benefit obligation: > Foreign currency exchange rates | Non-U.S.Pension Benefits: (369)
+Change in benefit obligation: > Foreign currency exchange rates | Other PostretirementBenefits: 4
+Change in benefit obligation: > Foreign currency exchange rates | Other PostretirementBenefits: 14
+Change in benefit obligation: > Participant contributions | U.S. Pension Benefits: —
+Change in benefit obligation: > Participant contributions | U.S. Pension Benefits: —
+Change in benefit obligation: > Participant contributions | Non-U.S.Pension Benefits: 6
+Change in benefit obligation: > Participant contributions | Non-U.S.Pension Benefits: 7
+Change in benefit obligation: > Participant contributions | Other PostretirementBenefits: 59
+Change in benefit obligation: > Participant contributions | Other PostretirementBenefits: 57
+Change in benefit obligation: > Benefits paid - gross | U.S. Pension Benefits: (977)
+Change in benefit obligation: > Benefits paid - gross | U.S. Pension Benefits: (970)
+Change in benefit obligation: > Benefits paid - gross | Non-U.S.Pension Benefits: (203)
+Change in benefit obligation: > Benefits paid - gross | Non-U.S.Pension Benefits: (238)
+Change in benefit obligation: > Benefits paid - gross | Other PostretirementBenefits: (361)
+Change in benefit obligation: > Benefits paid - gross | Other PostretirementBenefits: (388)
+Change in benefit obligation: > Less: federal subsidy on benefits paid | U.S. Pension Benefits: —
+Change in benefit obligation: > Less: federal subsidy on benefits paid | U.S. Pension Benefits: —
+Change in benefit obligation: > Less: federal subsidy on benefits paid | Non-U.S.Pension Benefits: —
+Change in benefit obligation: > Less: federal subsidy on benefits paid | Non-U.S.Pension Benefits: —
+Change in benefit obligation: > Less: federal subsidy on benefits paid | Other PostretirementBenefits: 10
+Change in benefit obligation: > Less: federal subsidy on benefits paid | Other PostretirementBenefits: 11
+Change in benefit obligation: > Curtailments, settlements and termination benefits | U.S. Pension Benefits: 6
+Change in benefit obligation: > Curtailments, settlements and termination benefits | U.S. Pension Benefits: (7)
+Change in benefit obligation: > Curtailments, settlements and termination benefits | Non-U.S.Pension Benefits: (101)
+Change in benefit obligation: > Curtailments, settlements and termination benefits | Non-U.S.Pension Benefits: 1
+Change in benefit obligation: > Curtailments, settlements and termination benefits | Other PostretirementBenefits: 2
+Change in benefit obligation: > Curtailments, settlements and termination benefits | Other PostretirementBenefits: (4)
+Change in benefit obligation: > Benefit obligation, end of year | U.S. Pension Benefits: $17,326
+Change in benefit obligation: > Benefit obligation, end of year | U.S. Pension Benefits: $16,218
+Change in benefit obligation: > Benefit obligation, end of year | Non-U.S.Pension Benefits: $4,606
+Change in benefit obligation: > Benefit obligation, end of year | Non-U.S.Pension Benefits: $4,472
+Change in benefit obligation: > Benefit obligation, end of year | Other PostretirementBenefits: $4,002
+Change in benefit obligation: > Benefit obligation, end of year | Other PostretirementBenefits: $4,088
+Change in benefit obligation: > Accumulated benefit obligation, end of year | U.S. Pension Benefits: $17,175
+Change in benefit obligation: > Accumulated benefit obligation, end of year | U.S. Pension Benefits: $16,034
+Change in benefit obligation: > Accumulated benefit obligation, end of year | Non-U.S.Pension Benefits: $4,335
+Change in benefit obligation: > Accumulated benefit obligation, end of year | Non-U.S.Pension Benefits: $4,163
+Weighted-average assumptions used todetermine benefit obligation: > Discount rate | U.S. Pension Benefits: 3.5%
+Weighted-average assumptions used todetermine benefit obligation: > Discount rate | U.S. Pension Benefits: 4.0%
+Weighted-average assumptions used todetermine benefit obligation: > Discount rate | Non-U.S.Pension Benefits: 2.4%
+Weighted-average assumptions used todetermine benefit obligation: > Discount rate | Non-U.S.Pension Benefits: 2.5%
+Weighted-average assumptions used todetermine benefit obligation: > Discount rate | Other PostretirementBenefits: 3.6%
+Weighted-average assumptions used todetermine benefit obligation: > Discount rate | Other PostretirementBenefits: 4.0%
+Weighted-average assumptions used todetermine benefit obligation: > Rate of compensation increase | U.S. Pension Benefits: 4.0%
+Weighted-average assumptions used todetermine benefit obligation: > Rate of compensation increase | U.S. Pension Benefits: 4.0%
+Weighted-average assumptions used todetermine benefit obligation: > Rate of compensation increase | Non-U.S.Pension Benefits: 4.0%
+Weighted-average assumptions used todetermine benefit obligation: > Rate of compensation increase | Non-U.S.Pension Benefits: 4.0%
+Weighted-average assumptions used todetermine benefit obligation: > Rate of compensation increase | Other PostretirementBenefits: 4.6%
+Weighted-average assumptions used todetermine benefit obligation: > Rate of compensation increase | Other PostretirementBenefits: 4.0%

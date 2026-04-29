@@ -1,0 +1,40 @@
+Blood | Survivin high, erosive RA ( n = 27): 1180 ± 309
+Blood | P: <0.0001
+Blood | Survivin low, erosive RA ( n = 61): 97 ± 9
+Blood | P: 0.013
+Blood | Survivin low, non-erosive RA ( n = 42) †: 127 ± 5
+Synovial fluid | Survivin high, erosive RA ( n = 27): 1039 ± 523
+Synovial fluid | P: 0.016
+Synovial fluid | Survivin low, erosive RA ( n = 61): 132 ± 4
+Synovial fluid | P: n.s.
+Synovial fluid | Survivin low, non-erosive RA ( n = 42) †: 124 ± 2
+Disease duration (years) | Survivin high, erosive RA ( n = 27): 15.5 ± 2.4
+Disease duration (years) | P: n.s.
+Disease duration (years) | Survivin low, erosive RA ( n = 61): 13.6 ± 1.2
+Disease duration (years) | P: 0.0002
+Disease duration (years) | Survivin low, non-erosive RA ( n = 42) †: 8.3 ± 1.4
+Age (years) | Survivin high, erosive RA ( n = 27): 58 ± 3
+Age (years) | P: n.s.
+Age (years) | Survivin low, erosive RA ( n = 61): 60 ± 2
+Age (years) | P: 0.05
+Age (years) | Survivin low, non-erosive RA ( n = 42) †: 53 ± 3
+Rheumatoid factor-positive ( n ) | Survivin high, erosive RA ( n = 27): 25
+Rheumatoid factor-positive ( n ) | P: n.s.
+Rheumatoid factor-positive ( n ) | Survivin low, erosive RA ( n = 61): 53
+Rheumatoid factor-positive ( n ) | P: <0.0001
+Rheumatoid factor-positive ( n ) | Survivin low, non-erosive RA ( n = 42) †: 10
+C-reactive protein (mg/l) | Survivin high, erosive RA ( n = 27): 45 ± 9
+C-reactive protein (mg/l) | P: 0.035
+C-reactive protein (mg/l) | Survivin low, erosive RA ( n = 61): 29 ± 5
+C-reactive protein (mg/l) | P: n.s.
+C-reactive protein (mg/l) | Survivin low, non-erosive RA ( n = 42) †: 39 ± 7
+Blood | Survivin high, erosive RA ( n = 27): 8.7 ± 0.6
+Blood | P: 0.038
+Blood | Survivin low, erosive RA ( n = 61): 7.2 ± 0.3
+Blood | P: n.s.
+Blood | Survivin low, non-erosive RA ( n = 42) †: 7.1 ± 0.3
+Synovial fluid | Survivin high, erosive RA ( n = 27): 10.8 ± 1.9
+Synovial fluid | P: n.s.
+Synovial fluid | Survivin low, erosive RA ( n = 61): 11.2 ± 2.9
+Synovial fluid | P: n.s.
+Synovial fluid | Survivin low, non-erosive RA ( n = 42) †: 13.1 ± 2.8

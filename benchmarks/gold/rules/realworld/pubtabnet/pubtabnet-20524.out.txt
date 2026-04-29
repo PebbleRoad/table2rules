@@ -1,0 +1,80 @@
+Enzyme: Pyrroline carboxylate reductase
+EC number: 1.5.1.2
+PfID: MAL13P1.284
+Peak (HPI): 18
+Metabolic function: Methionine polyamine metabolism
+Enzyme: Ferrodoxin reductase-like protein
+EC number: 1.7.1.4
+PfID: PF07_0085
+Peak (HPI): 21
+Metabolic function: Nitrogen metabolism
+Enzyme: Glutamate dehydrogenase
+EC number: 1.4.1.2
+PfID: PF08_0132
+Peak (HPI): 20
+Metabolic function: Glutamine metabolism
+Enzyme: Aminomethyltransferase
+EC number: 2.1.2.10
+PfID: PF13 0345
+Peak (HPI): 22
+Metabolic function: Folate biosynthesis
+Enzyme: L-lactate dehydrogenase
+EC number: 1.1.1.27
+PfID: PF13 0141
+Peak (HPI): 22
+Metabolic function: Glycolysis
+Enzyme: Enoyl-acyl carrier reductase
+EC number: 1.3.1.9
+PfID: MAL6P 1.275
+Peak (HPI): 30
+Metabolic function: Fatty acid synthesis
+Enzyme: 2-oxoglutarate dehydrogenase el component
+EC number: 1.2.4.2
+PfID: PF08_0045
+Peak (HPI): 30
+Metabolic function: TCA cycle
+Enzyme: Lipoamide dehydrogenase, putative
+EC number: 1.8.1.4
+PfID: PF08_0066
+Peak (HPI): 28
+Metabolic function: TCA cycle
+Enzyme: Pyruvate dehydrogenase El component, ?-subunit
+EC number: 1.2.4.1
+PfID: PF11_0256
+Peak (HPI): 28
+Metabolic function: Fatty acid synthesis
+Enzyme: NADH-cytochrome b5 reductase
+EC number: 1.6.2.2
+PfID: PF13_0353
+Peak (HPI): 32
+Metabolic function: Electron transport
+Enzyme: Malate dehydrogenase, putative
+EC number: 1.1.1.37
+PfID: MAL6P 1.242
+Peak (HPI): 34
+Metabolic function: Pyruvate metabolism
+Enzyme: Glycerol-3-phosphate dehydrogenase
+EC number: 1.1.1.8
+PfID: PF11 0157 PFL0780w
+Peak (HPI): 37 19
+Metabolic function: Glycolysis; Glycerol metabolism
+Enzyme: GDP-mannose 4,6-dehydratase
+EC number: 1.1.1.187
+PfID: PF08_0077
+Peak (HPI): 39
+Metabolic function: Mannose and fructose metabolism
+Enzyme: Inosine-5 '-monophosphate dehydrogenase
+EC number: 1.1.1.205
+PfID: PFI1020c
+Peak (HPI): 12
+Metabolic function: Purine metabolism
+Enzyme: 3-methyl-2-oxobutanoate dehydrogenase (lipoamide)
+EC number: 1.2.4.4
+PfID: PFE0225w
+Peak (HPI): 32
+Metabolic function: Leucine, isoleucine and valine degradation
+Enzyme: Nitrate reductase
+EC number: 1.7.1.1
+PfID: chr13.glm_739
+Peak (HPI): 32
+Metabolic function: Nitrogen metabolism

@@ -1,0 +1,56 @@
+Tissues: RA1
+Lymphocytic infiltration: Follicular
+MECA-79: +
+GlcNAc6ST-2: +
+Tissues: RA2
+Lymphocytic infiltration: Follicular
+MECA-79: +
+GlcNAc6ST-2: +
+Tissues: RA3
+Lymphocytic infiltration: Follicular
+MECA-79: +
+GlcNAc6ST-2: +
+Tissues: RA4
+Lymphocytic infiltration: Follicular
+MECA-79: +
+GlcNAc6ST-2: +
+Tissues: RA5
+Lymphocytic infiltration: Diffuse
+MECA-79: +
+GlcNAc6ST-2: +
+Tissues: RA6
+Lymphocytic infiltration: Negative
+MECA-79: +
+GlcNAc6ST-2: +
+Tissues: RA7
+Lymphocytic infiltration: Negative
+MECA-79: +
+GlcNAc6ST-2: +
+Tissues: RA8
+Lymphocytic infiltration: Follicular
+MECA-79: -
+GlcNAc6ST-2: +
+Tissues: RA9
+Lymphocytic infiltration: Diffuse
+MECA-79: -
+GlcNAc6ST-2: +
+Tissues: RA10
+Lymphocytic infiltration: Negative
+MECA-79: -
+GlcNAc6ST-2: +
+Tissues: RA11
+Lymphocytic infiltration: Diffuse
+MECA-79: -
+GlcNAc6ST-2: -
+Tissues: RA12
+Lymphocytic infiltration: Negative
+MECA-79: -
+GlcNAc6ST-2: -
+Tissues: RA13
+Lymphocytic infiltration: Negative
+MECA-79: -
+GlcNAc6ST-2: -
+Tissues: RA14
+Lymphocytic infiltration: Negative
+MECA-79: -
+GlcNAc6ST-2: -

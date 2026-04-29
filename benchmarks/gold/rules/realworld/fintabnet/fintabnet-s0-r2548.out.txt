@@ -1,0 +1,36 @@
+East > Rental income | 2006 > (Dollars in thousands): $340,968
+East > Rental income | 2005 > (Dollars in thousands): $310,063
+East > Rental income | 2004 > (Dollars in thousands): $293,291
+East > Total revenue | 2006 > (Dollars in thousands): $348,894
+East > Total revenue | 2005 > (Dollars in thousands): $317,044
+East > Total revenue | 2004 > (Dollars in thousands): $300,012
+East > Property operating income(1) | 2006 > (Dollars in thousands): $252,425
+East > Property operating income(1) | 2005 > (Dollars in thousands): $226,086
+East > Property operating income(1) | 2004 > (Dollars in thousands): $207,940
+East > Property operating income as a percent of total revenue | 2006 > (Dollars in thousands): 72.4%
+East > Property operating income as a percent of total revenue | 2005 > (Dollars in thousands): 71.3%
+East > Property operating income as a percent of total revenue | 2004 > (Dollars in thousands): 69.3%
+East > Total assets | 2006 > (Dollars in thousands): $1,725,790
+East > Total assets | 2005 > (Dollars in thousands): $1,368,925
+East > Total assets | 2004 > (Dollars in thousands): $1,264,135
+East > Gross leasable square feet | 2006 > (Dollars in thousands): 16,195
+East > Gross leasable square feet | 2005 > (Dollars in thousands): 14,941
+East > Gross leasable square feet | 2004 > (Dollars in thousands): 14,482
+West > Rental income | 2006 > (Dollars in thousands): $97,233
+West > Rental income | 2005 > (Dollars in thousands): $83,485
+West > Rental income | 2004 > (Dollars in thousands): $75,008
+West > Total revenue | 2006 > (Dollars in thousands): $102,128
+West > Total revenue | 2005 > (Dollars in thousands): $91,425
+West > Total revenue | 2004 > (Dollars in thousands): $83,600
+West > Property operating income(1) | 2006 > (Dollars in thousands): $65,569
+West > Property operating income(1) | 2005 > (Dollars in thousands): $58,275
+West > Property operating income(1) | 2004 > (Dollars in thousands): $48,381
+West > Property operating income as a percent of total revenue | 2006 > (Dollars in thousands): 64.2%
+West > Property operating income as a percent of total revenue | 2005 > (Dollars in thousands): 63.7%
+West > Property operating income as a percent of total revenue | 2004 > (Dollars in thousands): 57.9%
+West > Total assets | 2006 > (Dollars in thousands): $876,400
+West > Total assets | 2005 > (Dollars in thousands): $908,621
+West > Total assets | 2004 > (Dollars in thousands): $911,136
+West > Gross leasable square feet | 2006 > (Dollars in thousands): 2,605
+West > Gross leasable square feet | 2005 > (Dollars in thousands): 2,610
+West > Gross leasable square feet | 2004 > (Dollars in thousands): 2,408

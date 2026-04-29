@@ -1,0 +1,98 @@
+JW Marriott | RevPAR > 2016: $178.91
+JW Marriott | RevPAR > Change vs. 2015: 3.5%
+JW Marriott | Occupancy > 2016: 76.0%
+JW Marriott | Occupancy > Change vs. 2015: 1.3%
+JW Marriott | Occupancy > Change vs. 2015: pts.
+JW Marriott | Average Daily Rate > 2016: $235.47
+JW Marriott | Average Daily Rate > Change vs. 2015: 1.8%
+The Ritz-Carlton | RevPAR > 2016: $252.40
+The Ritz-Carlton | RevPAR > Change vs. 2015: 3.6%
+The Ritz-Carlton | Occupancy > 2016: 71.9%
+The Ritz-Carlton | Occupancy > Change vs. 2015: 1.0%
+The Ritz-Carlton | Occupancy > Change vs. 2015: pts.
+The Ritz-Carlton | Average Daily Rate > 2016: $350.99
+The Ritz-Carlton | Average Daily Rate > Change vs. 2015: 2.2%
+W Hotels | RevPAR > 2016: $239.94
+W Hotels | RevPAR > Change vs. 2015: (2.2)%
+W Hotels | Occupancy > 2016: 81.7%
+W Hotels | Occupancy > Change vs. 2015: 0.2%
+W Hotels | Occupancy > Change vs. 2015: pts.
+W Hotels | Average Daily Rate > 2016: $293.82
+W Hotels | Average Daily Rate > Change vs. 2015: (2.5)%
+Composite North American Luxury (1) | RevPAR > 2016: $231.99
+Composite North American Luxury (1) | RevPAR > Change vs. 2015: 2.8%
+Composite North American Luxury (1) | Occupancy > 2016: 76.0%
+Composite North American Luxury (1) | Occupancy > Change vs. 2015: 1.2%
+Composite North American Luxury (1) | Occupancy > Change vs. 2015: pts.
+Composite North American Luxury (1) | Average Daily Rate > 2016: $305.36
+Composite North American Luxury (1) | Average Daily Rate > Change vs. 2015: 1.2%
+Marriott Hotels | RevPAR > 2016: $124.39
+Marriott Hotels | RevPAR > Change vs. 2015: 2.0%
+Marriott Hotels | Occupancy > 2016: 72.4%
+Marriott Hotels | Occupancy > Change vs. 2015: 0.3%
+Marriott Hotels | Occupancy > Change vs. 2015: pts.
+Marriott Hotels | Average Daily Rate > 2016: $171.92
+Marriott Hotels | Average Daily Rate > Change vs. 2015: 1.5%
+Sheraton | RevPAR > 2016: $115.58
+Sheraton | RevPAR > Change vs. 2015: 2.4%
+Sheraton | Occupancy > 2016: 73.3%
+Sheraton | Occupancy > Change vs. 2015: 0.3%
+Sheraton | Occupancy > Change vs. 2015: pts.
+Sheraton | Average Daily Rate > 2016: $157.73
+Sheraton | Average Daily Rate > Change vs. 2015: 2.0%
+Westin | RevPAR > 2016: $152.94
+Westin | RevPAR > Change vs. 2015: 2.4%
+Westin | Occupancy > 2016: 76.9%
+Westin | Occupancy > Change vs. 2015: 0.1%
+Westin | Occupancy > Change vs. 2015: pts.
+Westin | Average Daily Rate > 2016: $198.98
+Westin | Average Daily Rate > Change vs. 2015: 2.3%
+Composite North American Upper Upscale (2) | RevPAR > 2016: $130.44
+Composite North American Upper Upscale (2) | RevPAR > Change vs. 2015: 2.5%
+Composite North American Upper Upscale (2) | Occupancy > 2016: 73.9%
+Composite North American Upper Upscale (2) | Occupancy > Change vs. 2015: 0.4%
+Composite North American Upper Upscale (2) | Occupancy > Change vs. 2015: pts.
+Composite North American Upper Upscale (2) | Average Daily Rate > 2016: $176.52
+Composite North American Upper Upscale (2) | Average Daily Rate > Change vs. 2015: 1.9%
+North American Full-Service (3) | RevPAR > 2016: $141.11
+North American Full-Service (3) | RevPAR > Change vs. 2015: 2.6%
+North American Full-Service (3) | Occupancy > 2016: 74.1%
+North American Full-Service (3) | Occupancy > Change vs. 2015: 0.5%
+North American Full-Service (3) | Occupancy > Change vs. 2015: pts.
+North American Full-Service (3) | Average Daily Rate > 2016: $190.41
+North American Full-Service (3) | Average Daily Rate > Change vs. 2015: 1.9%
+Courtyard | RevPAR > 2016: $101.49
+Courtyard | RevPAR > Change vs. 2015: 1.9%
+Courtyard | Occupancy > 2016: 72.9%
+Courtyard | Occupancy > Change vs. 2015: —%
+Courtyard | Occupancy > Change vs. 2015: pts.
+Courtyard | Average Daily Rate > 2016: $139.24
+Courtyard | Average Daily Rate > Change vs. 2015: 1.9%
+Residence Inn | RevPAR > 2016: $112.78
+Residence Inn | RevPAR > Change vs. 2015: 2.4%
+Residence Inn | Occupancy > 2016: 79.0%
+Residence Inn | Occupancy > Change vs. 2015: (0.1)%
+Residence Inn | Occupancy > Change vs. 2015: pts.
+Residence Inn | Average Daily Rate > 2016: $142.78
+Residence Inn | Average Daily Rate > Change vs. 2015: 2.6%
+Fairfield Inn & Suites | RevPAR > 2016: $77.96
+Fairfield Inn & Suites | RevPAR > Change vs. 2015: 1.2%
+Fairfield Inn & Suites | Occupancy > 2016: 70.1%
+Fairfield Inn & Suites | Occupancy > Change vs. 2015: (0.5)%
+Fairfield Inn & Suites | Occupancy > Change vs. 2015: pts.
+Fairfield Inn & Suites | Average Daily Rate > 2016: $111.20
+Fairfield Inn & Suites | Average Daily Rate > Change vs. 2015: 1.9%
+Composite North American Limited-Service (4) | RevPAR > 2016: $96.62
+Composite North American Limited-Service (4) | RevPAR > Change vs. 2015: 2.0%
+Composite North American Limited-Service (4) | Occupancy > 2016: 74.2%
+Composite North American Limited-Service (4) | Occupancy > Change vs. 2015: —%
+Composite North American Limited-Service (4) | Occupancy > Change vs. 2015: pts.
+Composite North American Limited-Service (4) | Average Daily Rate > 2016: $130.15
+Composite North American Limited-Service (4) | Average Daily Rate > Change vs. 2015: 2.0%
+North American - All (5) | RevPAR > 2016: $116.47
+North American - All (5) | RevPAR > Change vs. 2015: 2.3%
+North American - All (5) | Occupancy > 2016: 74.2%
+North American - All (5) | Occupancy > Change vs. 2015: 0.2%
+North American - All (5) | Occupancy > Change vs. 2015: pts.
+North American - All (5) | Average Daily Rate > 2016: $157.00
+North American - All (5) | Average Daily Rate > Change vs. 2015: 2.0%

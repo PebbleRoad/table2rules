@@ -1,0 +1,36 @@
+Nonvested balance — > As of January 1 | 2015 > Number of Awards: 2,817,786
+Nonvested balance — > As of January 1 | 2015 > Weighted Average Grant Date Fair Value: $104.41
+Nonvested balance — > As of January 1 | 2014 > Number of Awards: 3,105,361
+Nonvested balance — > As of January 1 | 2014 > Weighted Average Grant Date Fair Value: $92.31
+Nonvested balance — > As of January 1 | 2013 > Number of Awards: 3,261,562
+Nonvested balance — > As of January 1 | 2013 > Weighted Average Grant Date Fair Value: $85.17
+Granted > Annual | 2015 > Number of Awards: 671,204
+Granted > Annual | 2015 > Weighted Average Grant Date Fair Value: 165.86
+Granted > Annual | 2014 > Number of Awards: 798,615
+Granted > Annual | 2014 > Weighted Average Grant Date Fair Value: 126.79
+Granted > Annual | 2013 > Number of Awards: 946,774
+Granted > Annual | 2013 > Weighted Average Grant Date Fair Value: 101.57
+Granted > Other | 2015 > Number of Awards: 26,886
+Granted > Other | 2015 > Weighted Average Grant Date Fair Value: 156.94
+Granted > Other | 2014 > Number of Awards: 78,252
+Granted > Other | 2014 > Weighted Average Grant Date Fair Value: 152.74
+Granted > Other | 2013 > Number of Awards: 44,401
+Granted > Other | 2013 > Weighted Average Grant Date Fair Value: 111.19
+Granted > Vested | 2015 > Number of Awards: (1,010,612)
+Granted > Vested | 2015 > Weighted Average Grant Date Fair Value: 89.99
+Granted > Vested | 2014 > Number of Awards: (1,100,675)
+Granted > Vested | 2014 > Weighted Average Grant Date Fair Value: 90.37
+Granted > Vested | 2013 > Number of Awards: (1,100,095)
+Granted > Vested | 2013 > Weighted Average Grant Date Fair Value: 79.93
+Granted > Forfeited | 2015 > Number of Awards: (64,176)
+Granted > Forfeited | 2015 > Weighted Average Grant Date Fair Value: 118.99
+Granted > Forfeited | 2014 > Number of Awards: (63,767)
+Granted > Forfeited | 2014 > Weighted Average Grant Date Fair Value: 97.23
+Granted > Forfeited | 2013 > Number of Awards: (47,281)
+Granted > Forfeited | 2013 > Weighted Average Grant Date Fair Value: 90.82
+Granted > As of December 31 | 2015 > Number of Awards: 2,441,088
+Granted > As of December 31 | 2015 > Weighted Average Grant Date Fair Value: $127.47
+Granted > As of December 31 | 2014 > Number of Awards: 2,817,786
+Granted > As of December 31 | 2014 > Weighted Average Grant Date Fair Value: $104.41
+Granted > As of December 31 | 2013 > Number of Awards: 3,105,361
+Granted > As of December 31 | 2013 > Weighted Average Grant Date Fair Value: $92.31

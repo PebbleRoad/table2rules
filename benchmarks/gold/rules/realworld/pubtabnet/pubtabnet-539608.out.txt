@@ -1,0 +1,120 @@
+Mean R–R (ms) | Group: CABG
+Mean R–R (ms) | Preoperative: 903 ± 40
+Mean R–R (ms) | After surgery > 3 days: 761 ± 45*
+Mean R–R (ms) | After surgery > 6 days: 781 ± 42*
+Mean R–R (ms) | After surgery > 15 days: 790 ± 36*
+Mean R–R (ms) | After surgery > 30 days: 802 ± 26*
+Mean R–R (ms) | After surgery > 60 days: 801 ± 36
+Mean R–R (ms) | After surgery > 90 days: 802 ± 35
+Group: CAD
+Preoperative: 856 ± 49
+After surgery > 3 days: -
+After surgery > 6 days: -
+After surgery > 15 days: -
+After surgery > 30 days: 842 ± 38
+After surgery > 60 days: 816 ± 33
+After surgery > 90 days: 835 ± 47
+Group: Healthy
+Preoperative: 860 ± 36
+After surgery > 3 days: -
+After surgery > 6 days: -
+After surgery > 15 days: -
+After surgery > 30 days: -
+After surgery > 60 days: -
+After surgery > 90 days: -
+SDNN (ms) | Group: CABG
+SDNN (ms) | Preoperative: 35 ± 3
+SDNN (ms) | After surgery > 3 days: 16 ± 2*
+SDNN (ms) | After surgery > 6 days: 16 ± 2*
+SDNN (ms) | After surgery > 15 days: 19 ± 2*
+SDNN (ms) | After surgery > 30 days: 25 ± 2*
+SDNN (ms) | After surgery > 60 days: 32 ± 3
+SDNN (ms) | After surgery > 90 days: 27 ± 3
+Group: CAD
+Preoperative: 31 ± 4
+After surgery > 3 days: -
+After surgery > 6 days: -
+After surgery > 15 days: -
+After surgery > 30 days: 29 ± 3
+After surgery > 60 days: 30 ± 3
+After surgery > 90 days: 31 ± 2
+Group: Healthy
+Preoperative: 42 ± 5 †
+After surgery > 3 days: -
+After surgery > 6 days: -
+After surgery > 15 days: -
+After surgery > 30 days: -
+After surgery > 60 days: -
+After surgery > 90 days: -
+SDANN (ms) | Group: CABG
+SDANN (ms) | Preoperative: 16 ± 3
+SDANN (ms) | After surgery > 3 days: 6 ± 1*
+SDANN (ms) | After surgery > 6 days: 6 ± 1*
+SDANN (ms) | After surgery > 15 days: 9 ± 1*
+SDANN (ms) | After surgery > 30 days: 15 ± 3
+SDANN (ms) | After surgery > 60 days: 18 ± 3
+SDANN (ms) | After surgery > 90 days: 14 ± 2
+Group: CAD
+Preoperative: 21 ± 4
+After surgery > 3 days: -
+After surgery > 6 days: -
+After surgery > 15 days: -
+After surgery > 30 days: 19 ± 3
+After surgery > 60 days: 20 ± 3
+After surgery > 90 days: 20 ± 3
+Group: Healthy
+Preoperative: 39 ± 7 †
+After surgery > 3 days: -
+After surgery > 6 days: -
+After surgery > 15 days: -
+After surgery > 30 days: -
+After surgery > 60 days: -
+After surgery > 90 days: -
+RMSSD (ms) | Group: CABG
+RMSSD (ms) | Preoperative: 24 ± 4
+RMSSD (ms) | After surgery > 3 days: 10 ± 2*
+RMSSD (ms) | After surgery > 6 days: 10 ± 1*
+RMSSD (ms) | After surgery > 15 days: 12 ± 1*
+RMSSD (ms) | After surgery > 30 days: 19 ± 4
+RMSSD (ms) | After surgery > 60 days: 21 ± 3
+RMSSD (ms) | After surgery > 90 days: 19 ± 2
+Group: CAD
+Preoperative: 22 ± 3
+After surgery > 3 days: -
+After surgery > 6 days: -
+After surgery > 15 days: -
+After surgery > 30 days: 18 ± 3
+After surgery > 60 days: 19 ± 2
+After surgery > 90 days: 20 ± 4
+Group: Healthy
+Preoperative: 27 ± 3
+After surgery > 3 days: -
+After surgery > 6 days: -
+After surgery > 15 days: -
+After surgery > 30 days: -
+After surgery > 60 days: -
+After surgery > 90 days: -
+pNN50 (%) | Group: CABG
+pNN50 (%) | Preoperative: 8 ± 0
+pNN50 (%) | After surgery > 3 days: 3 ± 0*
+pNN50 (%) | After surgery > 6 days: 3 ± 0*
+pNN50 (%) | After surgery > 15 days: 3 ± 0*
+pNN50 (%) | After surgery > 30 days: 4 ± 0*
+pNN50 (%) | After surgery > 60 days: 7 ± 0
+pNN50 (%) | After surgery > 90 days: 6 ± 0
+Group: CAD
+Preoperative: 4 ± 0
+After surgery > 3 days: -
+After surgery > 6 days: -
+After surgery > 15 days: -
+After surgery > 30 days: 3 ± 0
+After surgery > 60 days: 4 ± 0
+After surgery > 90 days: 3 ± 0
+Group: Healthy
+Preoperative: 11 ± 0 b
+After surgery > 3 days: -
+After surgery > 6 days: -
+After surgery > 15 days: -
+After surgery > 30 days: -
+After surgery > 60 days: -
+After surgery > 90 days: -

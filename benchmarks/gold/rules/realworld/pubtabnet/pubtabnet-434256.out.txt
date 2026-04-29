@@ -1,0 +1,45 @@
+Gene: FBXO12B
+Primers: Upper
+ATTTGCCTCGTTTGCCTCTGA | annealing temperature: 49°C
+ATTTGCCTCGTTTGCCTCTGA | fragment size (pb): 890 pb
+Primers: Lower
+Gene: FBXO12D
+Primers: Upper
+AGCCCTGTCCTTTTCCTGTCA | annealing temperature: 50°C
+AGCCCTGTCCTTTTCCTGTCA | fragment size (pb): 491 pb
+Primers: Lower
+Gene: Tcl1b3
+Primers: Upper
+TGGTAGACAGTGGGTAGTTGC | annealing temperature: 54°C
+TGGTAGACAGTGGGTAGTTGC | fragment size (pb): 585 pb
+Primers: Lower
+Gene: Tcl1b4
+Primers: Upper
+TAAGAAGGCAGCCAACCAGAC | annealing temperature: 54°C
+TAAGAAGGCAGCCAACCAGAC | fragment size (pb): 838 pb
+Primers: Lower
+Gene: Tcl1
+Primers: Upper
+TTTTATCACGGACTGGCATTG | annealing temperature: 54°C
+TTTTATCACGGACTGGCATTG | fragment size (pb): 1208 pb
+Primers: Lower
+Gene: SpeerA
+Primers: Upper
+TGAAGCAGGAAAATAGGAGA | annealing temperature: 51°C
+TGAAGCAGGAAAATAGGAGA | fragment size (pb): 900 pb
+Primers: Lower
+Gene: AK076711
+Primers: Upper
+GGCTCCCAGAGGCTGAATCA | annealing temperature: 61°C
+GGCTCCCAGAGGCTGAATCA | fragment size (pb): 769 pb
+Primers: Lower
+Gene: Oosp3
+Primers: Upper
+TATTTGGGATGTGGAGATGTT | annealing temperature: 52°C
+TATTTGGGATGTGGAGATGTT | fragment size (pb): 416 pb
+Primers: Lower
+Gene: Actin
+Primers: Upper
+ACGGAACCACAGTTTATCATC | annealing temperature: 60°C
+ACGGAACCACAGTTTATCATC | fragment size (pb): 180 pb
+Primers: Lower

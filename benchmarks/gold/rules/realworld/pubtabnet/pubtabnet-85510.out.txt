@@ -1,0 +1,42 @@
+1996 | Incoming students > Men: 6 200
+1996 | Incoming students > Women: 6 054
+1996 | Percentage of total attrition > Men: 47
+1996 | Percentage of total attrition > Women: 53
+1996 | Percentage of total graduate students > Men: 51
+1996 | Percentage of total graduate students > Women: 49
+1997 | Incoming students > Men: 6 819
+1997 | Incoming students > Women: 6 820
+1997 | Percentage of total attrition > Men: 49
+1997 | Percentage of total attrition > Women: 51
+1997 | Percentage of total graduate students > Men: 51
+1997 | Percentage of total graduate students > Women: 49
+1998 | Incoming students > Men: 7 456
+1998 | Incoming students > Women: 7 064
+1998 | Percentage of total attrition > Men: 53
+1998 | Percentage of total attrition > Women: 47
+1998 | Percentage of total graduate students > Men: 50
+1998 | Percentage of total graduate students > Women: 50
+1999 | Incoming students > Men: 7 331
+1999 | Incoming students > Women: 7248
+1999 | Percentage of total attrition > Men: 51
+1999 | Percentage of total attrition > Women: 49
+1999 | Percentage of total graduate students > Men: 50
+1999 | Percentage of total graduate students > Women: 50
+2000 | Incoming students > Men: 7 655
+2000 | Incoming students > Women: 7 858
+2000 | Percentage of total attrition > Men: 51
+2000 | Percentage of total attrition > Women: 49
+2000 | Percentage of total graduate students > Men: 49
+2000 | Percentage of total graduate students > Women: 51
+2001 | Incoming students > Men: 7 501
+2001 | Incoming students > Women: 7 962
+2001 | Percentage of total attrition > Men: 45
+2001 | Percentage of total attrition > Women: 55
+2001 | Percentage of total graduate students > Men: 51
+2001 | Percentage of total graduate students > Women: 49
+2002 | Incoming students > Men: 7 746
+2002 | Incoming students > Women: 8 631
+2002 | Percentage of total attrition > Men: n/a
+2002 | Percentage of total attrition > Women: n/a
+2002 | Percentage of total graduate students > Men: n/a
+2002 | Percentage of total graduate students > Women: n/a

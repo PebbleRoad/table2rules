@@ -1,0 +1,37 @@
+Tissue-Specificity b: Duodenum
+Transporter: Abca1
+Segment-Specificity a,M: D=J=I=C
+Segment-Specificity a,R: J=I=C>D
+Tissue-Specificity b: Crypts>Villi
+Transporter: Abcc1
+Segment-Specificity a,M: D=J=I=C
+Segment-Specificity a,R: I=C>D=J
+Tissue-Specificity b: Crypts>Villi
+Transporter: Abcc3
+Segment-Specificity a,M: D=C>J=C>I=C
+Segment-Specificity a,R: I=C>D=J
+Tissue-Specificity b: ND
+Transporter: Abcg8
+Segment-Specificity a,M: J>I=D>C
+Segment-Specificity a,R: D=J=I>C
+Tissue-Specificity b: ND
+Transporter: Slc10a2
+Segment-Specificity a,M: I>C>D=J
+Segment-Specificity a,R: I>C>D=J
+Tissue-Specificity b: ND
+Transporter: Slc28a2
+Segment-Specificity a,M: D>J>I>C
+Segment-Specificity a,R: D=J=I>C
+Tissue-Specificity b: ND
+Transporter: Slc2a1
+Segment-Specificity a,M: C>D=J=I
+Segment-Specificity a,R: C>I>D=J
+Tissue-Specificity b: ND
+Transporter: Slc34a2
+Segment-Specificity a,M: I>C>J>D
+Segment-Specificity a,R: I>C=J>D
+Tissue-Specificity b: ND
+Transporter: Slc5a8
+Segment-Specificity a,M: C>I>D=J
+Segment-Specificity a,R: C=I>J>D
+Tissue-Specificity b: ND

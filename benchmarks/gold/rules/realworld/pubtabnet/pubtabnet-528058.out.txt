@@ -1,0 +1,48 @@
+Name: DS448/1
+Genotype: leu1-32 ura4-d18 ade6-704
+h+ | Source: Lab stock
+Name: DS448/2
+Genotype: leu1-32 ura4-d18 ade6-704
+h- | Source: Lab stock
+Name: C399/3
+Genotype: leu1-32 ura4-d18 ade6-704
+csn5.13myc kan h- | Source: Lab stock
+Name: C485/3
+Genotype: leu1-32 ura4-d18 ade6-704
+eif3m.13myc kan h- | Source: Lab stock
+Name: C617/1
+Genotype: leu1-32 ura4-d18 ade6-704
+eif3m.CBP.tev.5proA kan h- | Source: Lab stock
+Name: C642/1
+Genotype: leu1-32 ura4-d18
+diploid, eif3f/eif3f::ura4 | Source: This study
+Name: C642/2
+Genotype: leu1-32 ura4-d18
+diploid, eif3f/eif3f::ura4 | Source: This study
+Name: C648
+Genotype: leu1-32 ura4-d18 ade6-704
+eif3e.cbp.tev.5proA kan h+ | Source: This study
+Name: C650/1
+Genotype: leu1-32 ura4-d18 ade6-704
+eif3f::ura4 pRep81.6xhis.myc.eif3f h- | Source: This study
+Name: C650/2
+Genotype: leu1-32 ura4-d18 ade6-704
+eif3m::ura4 pRep81.6xhis.myc.eif3m h- | Source: This study
+Name: C652/1
+Genotype: leu1-32 ura4-d18 ade6-704
+eif3e::ura4 h+ | Source: This study
+Name: C663/1
+Genotype: leu1-32 ura4-d18 ade6-704
+eif3m.gfp kan h- | Source: This study
+Name: C663/2
+Genotype: leu1-32 ura4-d18 ade6-704
+eif3e.gfp kan h- | Source: This study
+Name: C665
+Genotype: leu1-32 ura4-d18 ade6-704
+eif3e.13myc kan h- | Source: This study
+Name: C701
+Genotype: leu1-32 ura4-d18 ade6-704
+eif3b.gfp kan, h- | Source: This study
+Name: C702
+Genotype: leu1-32 ura4-d18 ade6-704
+eif3b.cbp.tev.5proA kan h- | Source: This study

@@ -1,0 +1,70 @@
+pertussis | 1998 > BO > %: 95.7
+pertussis | 1998 > ER > %: 96.8
+pertussis | 1999 > BO > %: 94.2
+pertussis | 1999 > ER > %: 96.1
+pertussis | 2000 > BO > %: 95.1
+pertussis | 2000 > ER > %: 96.7
+pertussis | 2001 > BO > %: 94.9
+pertussis | 2001 > ER > %: 96.8
+pertussis | 2002 > BO > %: 94.8
+pertussis | 2002 > ER > %: 96.8
+H. influenzae | 1998 > BO > %: 41.8
+H. influenzae | 1998 > ER > %: 50.6
+H. influenzae | 1999 > BO > %: 45.0
+H. influenzae | 1999 > ER > %: 66.8
+H. influenzae | 2000 > BO > %: 65.9
+H. influenzae | 2000 > ER > %: 81.0
+H. influenzae | 2001 > BO > %: 86.9
+H. influenzae | 2001 > ER > %: 90.6
+H. influenzae | 2002 > BO > %: 93.3
+H. influenzae | 2002 > ER > %: 95.2
+measles | 1998 > BO > %: 79.3
+measles | 1998 > ER > %: 88.2
+measles | 1999 > BO > %: 82.4
+measles | 1999 > ER > %: 89.1
+measles | 2000 > BO > %: 83.5
+measles | 2000 > ER > %: 90.4
+measles | 2001 > BO > %: 86.4
+measles | 2001 > ER > %: 90.7
+measles | 2002 > BO > %: 90.2
+measles | 2002 > ER > %: 92.3
+mumps | 1998 > BO > %: -
+mumps | 1998 > ER > %: -
+mumps | 1999 > BO > %: 78.8
+mumps | 1999 > ER > %: 84.2
+mumps | 2000 > BO > %: 83.3
+mumps | 2000 > ER > %: 89.4
+mumps | 2001 > BO > %: 85.1
+mumps | 2001 > ER > %: 90.1
+mumps | 2002 > BO > %: 88.8
+mumps | 2002 > ER > %: 91.7
+rubella | 1998 > BO > %: 77.2*
+rubella | 1998 > ER > %: 85.2*
+rubella | 1999 > BO > %: 78.6
+rubella | 1999 > ER > %: 88.0
+rubella | 2000 > BO > %: 83.4
+rubella | 2000 > ER > %: 89.4
+rubella | 2001 > BO > %: 85.6
+rubella | 2001 > ER > %: 90.1
+rubella | 2002 > BO > %: 88.8
+rubella | 2002 > ER > %: 91.7
+measles | 1998 > BO > %: 75.1
+measles | 1998 > ER > %: 83.8
+measles | 1999 > BO > %: 72.5
+measles | 1999 > ER > %: 89.1
+measles | 2000 > BO > %: 85.8
+measles | 2000 > ER > %: 84.9
+measles | 2001 > BO > %: 90.1
+measles | 2001 > ER > %: 87.4
+measles | 2002 > BO > %: 92.6
+measles | 2002 > ER > %: 91.3
+rubella | 1998 > BO > %: 84.7*
+rubella | 1998 > ER > %: 85.2*
+rubella | 1999 > BO > %: 49.9
+rubella | 1999 > ER > %: 60.8
+rubella | 2000 > BO > %: 72.6
+rubella | 2000 > ER > %: 66.3
+rubella | 2001 > BO > %: 76.1
+rubella | 2001 > ER > %: 73.4
+rubella | 2002 > BO > %: 84.2
+rubella | 2002 > ER > %: 80.6

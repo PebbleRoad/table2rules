@@ -1,0 +1,61 @@
+Characteristics: Age
+Total ( n = 163): 70.3 ± 15.1
+Successful weaning ( n = 78): 68.6 ± 15.4
+Failure to wean ( n = 85): 71.8 ± 14.8
+P: 0.2
+Characteristics: Sex (male/female)
+Total ( n = 163): 93/70
+Successful weaning ( n = 78): 49/29
+Failure to wean ( n = 85): 44/41
+P: 0.2
+Characteristics: APACHE II score
+Total ( n = 163): 20.0 ± 7.2
+Successful weaning ( n = 78): 19.6 ± 7.1
+Failure to wean ( n = 85): 21.3 ± 7.6
+P: 0.1
+Characteristics: Comorbid conditions
+Characteristics: Hypertension
+Total ( n = 163): 63 (38.7%)
+Successful weaning ( n = 78): 34 (43.6%)
+Failure to wean ( n = 85): 29 (34.1%)
+P: 0.3
+Characteristics: Diabetes mellitus
+Total ( n = 163): 50 (30.7%)
+Successful weaning ( n = 78): 27 (34.6%)
+Failure to wean ( n = 85): 23 (27.1%)
+P: 0.3
+Characteristics: COPD
+Total ( n = 163): 34 (20.9%)
+Successful weaning ( n = 78): 12 (15.4%)
+Failure to wean ( n = 85): 22 (25.9%)
+P: 0.1
+Characteristics: Malignancy
+Total ( n = 163): 34 (20.9%)
+Successful weaning ( n = 78): 14 (17.9%)
+Failure to wean ( n = 85): 20 (23.5%)
+P: 0.4
+Characteristics: Congestive heart failure
+Total ( n = 163): 32 (19.6%)
+Successful weaning ( n = 78): 19 (24.4%)
+Failure to wean ( n = 85): 13 (15.3%)
+P: 0.2
+Characteristics: Renal insufficiency
+Total ( n = 163): 32 (19.6%)
+Successful weaning ( n = 78): 15 (19.2%)
+Failure to wean ( n = 85): 17 (20.0%)
+P: 1.0
+Characteristics: Stroke
+Total ( n = 163): 25 (15.3%)
+Successful weaning ( n = 78): 16 (20.5%)
+Failure to wean ( n = 85): 9 (10.6%)
+P: 0.09
+Characteristics: Autoimmune disease
+Total ( n = 163): 12 (7.4%)
+Successful weaning ( n = 78): 5 (6.4%)
+Failure to wean ( n = 85): 7 (8.2%)
+P: 0.8
+Characteristics: Cancer metastatic to lung
+Total ( n = 163): 8 (4.9%)
+Successful weaning ( n = 78): 1 (0.01%)
+Failure to wean ( n = 85): 7 (4.5%)
+P: 0.07

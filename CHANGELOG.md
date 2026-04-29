@@ -5,6 +5,8 @@ All notable changes to `table2rules` are documented here. Dates are in
 
 ## [Unreleased]
 
+## [0.4.0] — 2026-04-29
+
 Header detection reframed as a set of universal structural rules, and
 the Layer-2 / Layer-3 real-world corpus doubled to add IBM 10-K
 financial tables (FinTabNet). Combined, the rules unlock rules-format

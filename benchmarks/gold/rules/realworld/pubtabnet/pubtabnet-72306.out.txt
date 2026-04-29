@@ -1,0 +1,65 @@
+Enzyme: 3-oxoacy1-[acy1-carrier-protein] reductase
+EC number: 1.1.1.100
+PfID: PFI1125c
+Peak (HPI): 28
+Metabolic function: Fatty acid synthesis
+Enzyme: 1-deoxy-D-xylulose-5-phosphate reductoisomerase
+EC number: 1.1.1.267
+PfID: PF14_0641
+Peak (HPI): 30
+Metabolic function: Isoprenoid metabolism
+Enzyme: Isocitrate dehydrogenase (NADP+);
+EC number: 1.1.1.42
+PfID: PF13_0242
+Peak (HPI): 28
+Metabolic function: TCA cycle
+Enzyme: Phosphogluconate dehydrogenase
+EC number: 1.1.1.44
+PfID: PF14_0520
+Peak (HPI): 26
+Metabolic function: PPP
+Enzyme: Glucose-6-phosphate 1-dehydrogenase;
+EC number: 1.1.1.49
+PfID: PF14_0511
+Peak (HPI): 48
+Metabolic function: PPP
+Enzyme: Pyruvate dehydrogenase (acetyltransferring).
+EC number: 1.2.4.1
+PfID: PF11 0256 PF14 0441
+Peak (HPI): 28 28
+Metabolic function: Pyruvate metabolism
+Enzyme: Glutamate dehydrogenase (NADP)
+EC number: 1.4.1.4
+PfID: PF14 0164 PF14 0286
+Peak (HPI): 1 30
+Metabolic function: Glutamate metabolism
+Enzyme: Pyrroline-5-carboxylate reductase
+EC number: 1.5.1.2
+PfID: MAL13P1.284
+Peak (HPI): 18
+Metabolic function: Proline metabolism
+Enzyme: Dihydrofolate reductase
+EC number: 1.5.1.3
+PfID: PFD0830w
+Peak (HPI): 26
+Metabolic function: Folate synthesis
+Enzyme: NAD(P)+ transhydrogenase (B-specific);
+EC number: 1.6.1.1
+PfID: PF14_0508
+Peak (HPI): 32
+Metabolic function: ?
+Enzyme: NADPH hemoprotein reductase
+EC number: 1.6.2.4
+PfID: PFI1140w
+Peak (HPI): 13
+Metabolic function: Flavoprotein reduction
+Enzyme: Dihydrolipoamide dehydrogenase
+EC number: 1.8.1.4
+PfID: PF08 0066 PFL1550w
+Peak (HPI): 28 11
+Metabolic function: Pyruvate metabolism
+Enzyme: Dihydrolipoamide S-acetyltransferase;
+EC number: 2.3.1.12
+PfID: PF10 0407
+Peak (HPI): 28
+Metabolic function: Pyruvate metabolism

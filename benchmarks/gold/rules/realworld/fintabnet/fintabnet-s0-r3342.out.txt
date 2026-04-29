@@ -1,0 +1,54 @@
+(Millions) | Net Sales: 2007
+(Millions) | Net Sales: 2006
+(Millions) | Net Sales: 2005
+(Millions) | Operating Income: 2007
+(Millions) | Operating Income: 2006
+(Millions) | Operating Income: 2005
+Industrial and Transportation | Net Sales: $7,274
+Industrial and Transportation | Net Sales: $6,640
+Industrial and Transportation | Net Sales: $6,047
+Industrial and Transportation | Operating Income: $1,501
+Industrial and Transportation | Operating Income: $1,342
+Industrial and Transportation | Operating Income: $1,210
+Health Care | Net Sales: 3,968
+Health Care | Net Sales: 4,011
+Health Care | Net Sales: 3,760
+Health Care | Operating Income: 1,882
+Health Care | Operating Income: 1,845
+Health Care | Operating Income: 1,114
+Display and Graphics | Net Sales: 3,892
+Display and Graphics | Net Sales: 3,770
+Display and Graphics | Net Sales: 3,547
+Display and Graphics | Operating Income: 1,174
+Display and Graphics | Operating Income: 1,044
+Display and Graphics | Operating Income: 1,148
+Consumer and Office | Net Sales: 3,403
+Consumer and Office | Net Sales: 3,164
+Consumer and Office | Net Sales: 2,926
+Consumer and Office | Operating Income: 688
+Consumer and Office | Operating Income: 629
+Consumer and Office | Operating Income: 609
+Safety, Security and Protection Services | Net Sales: 3,070
+Safety, Security and Protection Services | Net Sales: 2,663
+Safety, Security and Protection Services | Net Sales: 2,320
+Safety, Security and Protection Services | Operating Income: 611
+Safety, Security and Protection Services | Operating Income: 549
+Safety, Security and Protection Services | Operating Income: 513
+Electro and Communications | Net Sales: 2,775
+Electro and Communications | Net Sales: 2,631
+Electro and Communications | Net Sales: 2,509
+Electro and Communications | Operating Income: 481
+Electro and Communications | Operating Income: 411
+Electro and Communications | Operating Income: 422
+Corporate and Unallocated | Net Sales: 80
+Corporate and Unallocated | Net Sales: 44
+Corporate and Unallocated | Net Sales: 58
+Corporate and Unallocated | Operating Income: (144)
+Corporate and Unallocated | Operating Income: (124)
+Corporate and Unallocated | Operating Income: (162)
+Total Company | Net Sales: $24,462
+Total Company | Net Sales: $22,923
+Total Company | Net Sales: $21,167
+Total Company | Operating Income: $6,193
+Total Company | Operating Income: $5,696
+Total Company | Operating Income: $4,854

@@ -1,0 +1,37 @@
+Derivatives designated as hedging contracts > Energy commodity derivative contracts | Balance sheetlocation: Current
+Derivatives designated as hedging contracts > Energy commodity derivative contracts | Asset derivatives December 31, > 2010 > Fair value: $20.1
+Derivatives designated as hedging contracts > Energy commodity derivative contracts | Asset derivatives December 31, > 2009 > Fair value: $19.1
+Derivatives designated as hedging contracts > Energy commodity derivative contracts | Liability derivatives December 31, > 2010 > Fair value: $(275.9)
+Derivatives designated as hedging contracts > Energy commodity derivative contracts | Liability derivatives December 31, > 2009 > Fair value: $(270.8)
+Balance sheetlocation: Non-current
+Asset derivatives December 31, > 2010 > Fair value: 43.1
+Asset derivatives December 31, > 2009 > Fair value: 57.3
+Liability derivatives December 31, > 2010 > Fair value: (103.0)
+Liability derivatives December 31, > 2009 > Fair value: (241.5)
+Derivatives designated as hedging contracts > Subtotal | Asset derivatives December 31, > 2010 > Fair value: 63.2
+Derivatives designated as hedging contracts > Subtotal | Asset derivatives December 31, > 2009 > Fair value: 76.4
+Derivatives designated as hedging contracts > Subtotal | Liability derivatives December 31, > 2010 > Fair value: (378.9)
+Derivatives designated as hedging contracts > Subtotal | Liability derivatives December 31, > 2009 > Fair value: (512.3)
+Derivatives designated as hedging contracts > Interest rate swap agreements | Balance sheetlocation: Non-current
+Derivatives designated as hedging contracts > Interest rate swap agreements | Asset derivatives December 31, > 2010 > Fair value: 258.6
+Derivatives designated as hedging contracts > Interest rate swap agreements | Asset derivatives December 31, > 2009 > Fair value: 236.0
+Derivatives designated as hedging contracts > Interest rate swap agreements | Liability derivatives December 31, > 2010 > Fair value: (69.2)
+Derivatives designated as hedging contracts > Interest rate swap agreements | Liability derivatives December 31, > 2009 > Fair value: (218.5)
+Derivatives designated as hedging contracts > Cross currency swap agreements | Balance sheetlocation: Non-current
+Derivatives designated as hedging contracts > Cross currency swap agreements | Asset derivatives December 31, > 2010 > Fair value: -
+Derivatives designated as hedging contracts > Cross currency swap agreements | Asset derivatives December 31, > 2009 > Fair value: -
+Derivatives designated as hedging contracts > Cross currency swap agreements | Liability derivatives December 31, > 2010 > Fair value: -
+Derivatives designated as hedging contracts > Cross currency swap agreements | Liability derivatives December 31, > 2009 > Fair value: (9.6)
+Derivatives designated as hedging contracts > Total | Asset derivatives December 31, > 2010 > Fair value: 321.8
+Derivatives designated as hedging contracts > Total | Asset derivatives December 31, > 2009 > Fair value: 312.4
+Derivatives designated as hedging contracts > Total | Liability derivatives December 31, > 2010 > Fair value: (448.1)
+Derivatives designated as hedging contracts > Total | Liability derivatives December 31, > 2009 > Fair value: (740.4)
+Derivatives not designated as hedging contracts > Energy commodity derivative contracts | Balance sheetlocation: Current
+Derivatives not designated as hedging contracts > Energy commodity derivative contracts | Asset derivatives December 31, > 2010 > Fair value: 3.9
+Derivatives not designated as hedging contracts > Energy commodity derivative contracts | Asset derivatives December 31, > 2009 > Fair value: 1.7
+Derivatives not designated as hedging contracts > Energy commodity derivative contracts | Liability derivatives December 31, > 2010 > Fair value: (5.6)
+Derivatives not designated as hedging contracts > Energy commodity derivative contracts | Liability derivatives December 31, > 2009 > Fair value: (1.2)
+Derivatives not designated as hedging contracts > Total derivatives | Asset derivatives December 31, > 2010 > Fair value: $325.7
+Derivatives not designated as hedging contracts > Total derivatives | Asset derivatives December 31, > 2009 > Fair value: $314.1
+Derivatives not designated as hedging contracts > Total derivatives | Liability derivatives December 31, > 2010 > Fair value: $(453.7)
+Derivatives not designated as hedging contracts > Total derivatives | Liability derivatives December 31, > 2009 > Fair value: $(741.6)

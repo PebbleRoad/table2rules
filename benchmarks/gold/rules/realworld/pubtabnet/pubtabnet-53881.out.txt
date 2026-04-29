@@ -1,0 +1,48 @@
+Rank – based > RP | Top 50 > control: 13
+Rank – based > RP | Top 50 > A: 46
+Rank – based > RP | Top 50 > B: 31
+Rank – based > RP | Top 100 > control: 15
+Rank – based > RP | Top 100 > A: 69
+Rank – based > RP | Top 100 > B: 43
+MR | Top 50 > control: 13
+MR | Top 50 > A: 45
+MR | Top 50 > B: 32
+MR | Top 100 > control: 15
+MR | Top 100 > A: 70
+MR | Top 100 > B: 47
+Global Normalization > Mean | Top 50 > control: 20
+Global Normalization > Mean | Top 50 > A: 37
+Global Normalization > Mean | Top 50 > B: 20
+Global Normalization > Mean | Top 100 > control: 23
+Global Normalization > Mean | Top 100 > A: 65
+Global Normalization > Mean | Top 100 > B: 29
+SAM | Top 50 > control: 20
+SAM | Top 50 > A: 38
+SAM | Top 50 > B: 24
+SAM | Top 100 > control: 23
+SAM | Top 100 > A: 65
+SAM | Top 100 > B: 29
+t | Top 50 > control: 20
+t | Top 50 > A: 38
+t | Top 50 > B: 24
+t | Top 100 > control: 23
+t | Top 100 > A: 65
+t | Top 100 > B: 31
+Scale Normalization > Mean | Top 50 > control: 20
+Scale Normalization > Mean | Top 50 > A: 44
+Scale Normalization > Mean | Top 50 > B: 21
+Scale Normalization > Mean | Top 100 > control: 23
+Scale Normalization > Mean | Top 100 > A: 65
+Scale Normalization > Mean | Top 100 > B: 23
+SAM | Top 50 > control: 20
+SAM | Top 50 > A: 40
+SAM | Top 50 > B: 22
+SAM | Top 100 > control: 23
+SAM | Top 100 > A: 63
+SAM | Top 100 > B: 29
+t | Top 50 > control: 20
+t | Top 50 > A: 16
+t | Top 50 > B: 24
+t | Top 100 > control: 23
+t | Top 100 > A: 30
+t | Top 100 > B: 31

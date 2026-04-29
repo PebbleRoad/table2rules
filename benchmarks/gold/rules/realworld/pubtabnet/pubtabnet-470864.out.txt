@@ -1,0 +1,32 @@
+Medial | Total: 36.8 ± 70.7
+Medial | P: <0.001
+Medial | Crude analysis > Men: 38.3 ± 62.6
+Medial | Crude analysis > Women: 35.7 ± 76.1
+Medial | Crude analysis > P a: 0.85
+Medial | Adjusted analysis > Men: 70.8 ± 12.3
+Medial | Adjusted analysis > Women: 13.5 ± 9.6
+Medial | Adjusted analysis > P b: 0.002
+Lateral | Total: 19.1 ± 60.1
+Lateral | P: 0.004
+Lateral | Crude analysis > Men: 16.5 ± 83.9
+Lateral | Crude analysis > Women: 20.4 ± 45.1
+Lateral | Crude analysis > P a: 0.77
+Lateral | Adjusted analysis > Men: 17.2 ± 13.3
+Lateral | Adjusted analysis > Women: 20.1 ± 8.5
+Lateral | Adjusted analysis > P b: 0.87
+Medial | Total: 2.2 ± 6.9
+Medial | P: <0.001
+Medial | Crude analysis > Men: 1.6 ± 2.8
+Medial | Crude analysis > Women: 2.6 ± 8.7
+Medial | Crude analysis > P a: 0.49
+Medial | Adjusted analysis > Men: 5.4 ± 1.1
+Medial | Adjusted analysis > Women: 0.004 ± 0.9
+Medial | Adjusted analysis > P b: 0.001
+Lateral | Total: 1.5 ± 4.3
+Lateral | P: 0.004
+Lateral | Crude analysis > Men: 1.3 ± 5.8
+Lateral | Crude analysis > Women: 1.6 ± 3.4
+Lateral | Crude analysis > P a: 0.79
+Lateral | Adjusted analysis > Men: 1.6 ± 0.9
+Lateral | Adjusted analysis > Women: 1.5 ± 0.6
+Lateral | Adjusted analysis > P b: 0.95

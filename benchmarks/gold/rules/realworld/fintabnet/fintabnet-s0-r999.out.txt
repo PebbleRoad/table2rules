@@ -1,0 +1,56 @@
+Outstanding at December 31, 2005 | Weighted-Average > Exercise Price: $19.29
+Outstanding at December 31, 2005 | Number of Shares (In Thousands): 6,354
+Outstanding at December 31, 2005 | Weighted-Average > Fair Value RSUs: -
+Outstanding at December 31, 2005 | Number of Shares (In Thousands): -
+Granted | Weighted-Average > Exercise Price: $48.54
+Granted | Number of Shares (In Thousands): 2,413
+Granted | Weighted-Average > Fair Value RSUs: -
+Granted | Number of Shares (In Thousands): -
+Exercised | Weighted-Average > Exercise Price: $12.59
+Exercised | Number of Shares (In Thousands): (994)
+Exercised | Weighted-Average > Fair Value RSUs: -
+Exercised | Number of Shares (In Thousands): -
+Forfeited | Weighted-Average > Exercise Price: $28.57
+Forfeited | Number of Shares (In Thousands): (47)
+Forfeited | Weighted-Average > Fair Value RSUs: -
+Forfeited | Number of Shares (In Thousands): -
+Outstanding at December 30, 2006 | Weighted-Average > Exercise Price: $29.24
+Outstanding at December 30, 2006 | Number of Shares (In Thousands): 7,726
+Outstanding at December 30, 2006 | Weighted-Average > Fair Value RSUs: -
+Outstanding at December 30, 2006 | Number of Shares (In Thousands): -
+Granted | Weighted-Average > Exercise Price: $84.61
+Granted | Number of Shares (In Thousands): 2,864
+Granted | Weighted-Average > Fair Value RSUs: -
+Granted | Number of Shares (In Thousands): -
+Exercised | Weighted-Average > Exercise Price: $18.29
+Exercised | Number of Shares (In Thousands): (934)
+Exercised | Weighted-Average > Fair Value RSUs: -
+Exercised | Number of Shares (In Thousands): -
+Forfeited | Weighted-Average > Exercise Price: $38.11
+Forfeited | Number of Shares (In Thousands): (125)
+Forfeited | Weighted-Average > Fair Value RSUs: -
+Forfeited | Number of Shares (In Thousands): -
+Outstanding at December 29, 2007 | Weighted-Average > Exercise Price: $46.82
+Outstanding at December 29, 2007 | Number of Shares (In Thousands): 9,531
+Outstanding at December 29, 2007 | Weighted-Average > Fair Value RSUs: -
+Outstanding at December 29, 2007 | Number of Shares (In Thousands): -
+Granted | Weighted-Average > Exercise Price: $51.00
+Granted | Number of Shares (In Thousands): 1,470
+Granted | Weighted-Average > Fair Value RSUs: $19.59
+Granted | Number of Shares (In Thousands): 1,044
+Exercised | Weighted-Average > Exercise Price: $22.35
+Exercised | Number of Shares (In Thousands): (226)
+Exercised | Weighted-Average > Fair Value RSUs: -
+Exercised | Number of Shares (In Thousands): -
+Forfeited | Weighted-Average > Exercise Price: $53.89
+Forfeited | Number of Shares (In Thousands): (249)
+Forfeited | Weighted-Average > Fair Value RSUs: -
+Forfeited | Number of Shares (In Thousands): -
+Outstanding at December 27, 2008 | Weighted-Average > Exercise Price: $47.76
+Outstanding at December 27, 2008 | Number of Shares (In Thousands): 10,526
+Outstanding at December 27, 2008 | Weighted-Average > Fair Value RSUs: $19.59
+Outstanding at December 27, 2008 | Number of Shares (In Thousands): 1,044
+Exercisable at December 27, 2008 | Weighted-Average > Exercise Price: $33.27
+Exercisable at December 27, 2008 | Number of Shares (In Thousands): 4,656
+Exercisable at December 27, 2008 | Weighted-Average > Fair Value RSUs: -
+Exercisable at December 27, 2008 | Number of Shares (In Thousands): -

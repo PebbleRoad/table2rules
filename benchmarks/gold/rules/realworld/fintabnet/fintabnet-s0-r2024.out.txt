@@ -1,0 +1,56 @@
+Greater China | RevPAR > 2017: $90.26
+Greater China | RevPAR > Change vs. 2016: 8.4%
+Greater China | Occupancy > 2017: 71.5%
+Greater China | Occupancy > Change vs. 2016: 6.0%
+Greater China | Occupancy > Change vs. 2016: pts.
+Greater China | Average Daily Rate > 2017: $126.33
+Greater China | Average Daily Rate > Change vs. 2016: (0.7)%
+Rest of Asia Pacific | RevPAR > 2017: $119.10
+Rest of Asia Pacific | RevPAR > Change vs. 2016: 6.1%
+Rest of Asia Pacific | Occupancy > 2017: 75.4%
+Rest of Asia Pacific | Occupancy > Change vs. 2016: 3.1%
+Rest of Asia Pacific | Occupancy > Change vs. 2016: pts.
+Rest of Asia Pacific | Average Daily Rate > 2017: $158.02
+Rest of Asia Pacific | Average Daily Rate > Change vs. 2016: 1.6%
+Asia Pacific | RevPAR > 2017: $100.39
+Asia Pacific | RevPAR > Change vs. 2016: 7.4%
+Asia Pacific | Occupancy > 2017: 72.8%
+Asia Pacific | Occupancy > Change vs. 2016: 5.0%
+Asia Pacific | Occupancy > Change vs. 2016: pts.
+Asia Pacific | Average Daily Rate > 2017: $137.85
+Asia Pacific | Average Daily Rate > Change vs. 2016: 0.1%
+Caribbean & Latin America | RevPAR > 2017: $130.48
+Caribbean & Latin America | RevPAR > Change vs. 2016: 3.9%
+Caribbean & Latin America | Occupancy > 2017: 66.5%
+Caribbean & Latin America | Occupancy > Change vs. 2016: 2.6%
+Caribbean & Latin America | Occupancy > Change vs. 2016: pts.
+Caribbean & Latin America | Average Daily Rate > 2017: $196.31
+Caribbean & Latin America | Average Daily Rate > Change vs. 2016: (0.2)%
+Europe | RevPAR > 2017: $138.70
+Europe | RevPAR > Change vs. 2016: 6.9%
+Europe | Occupancy > 2017: 73.5%
+Europe | Occupancy > Change vs. 2016: 2.0%
+Europe | Occupancy > Change vs. 2016: pts.
+Europe | Average Daily Rate > 2017: $188.69
+Europe | Average Daily Rate > Change vs. 2016: 3.9%
+Middle East & Africa | RevPAR > 2017: $106.33
+Middle East & Africa | RevPAR > Change vs. 2016: 1.9%
+Middle East & Africa | Occupancy > 2017: 65.7%
+Middle East & Africa | Occupancy > Change vs. 2016: 1.5%
+Middle East & Africa | Occupancy > Change vs. 2016: pts.
+Middle East & Africa | Average Daily Rate > 2017: $161.95
+Middle East & Africa | Average Daily Rate > Change vs. 2016: (0.5)%
+International - All (1) | RevPAR > 2017: $113.32
+International - All (1) | RevPAR > Change vs. 2016: 6.0%
+International - All (1) | Occupancy > 2017: 71.2%
+International - All (1) | Occupancy > Change vs. 2016: 3.5%
+International - All (1) | Occupancy > Change vs. 2016: pts.
+International - All (1) | Average Daily Rate > 2017: $159.14
+International - All (1) | Average Daily Rate > Change vs. 2016: 0.8%
+Worldwide (2) | RevPAR > 2017: $131.14
+Worldwide (2) | RevPAR > Change vs. 2016: 3.8%
+Worldwide (2) | Occupancy > 2017: 73.7%
+Worldwide (2) | Occupancy > Change vs. 2016: 2.0%
+Worldwide (2) | Occupancy > Change vs. 2016: pts.
+Worldwide (2) | Average Daily Rate > 2017: $178.02
+Worldwide (2) | Average Daily Rate > Change vs. 2016: 1.0%

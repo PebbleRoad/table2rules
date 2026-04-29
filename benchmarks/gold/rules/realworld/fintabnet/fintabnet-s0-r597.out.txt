@@ -1,0 +1,50 @@
+(in millions) > Long-term debt (1) | Total: $27,922
+(in millions) > Long-term debt (1) | Payments Due > 2016: $2,405
+(in millions) > Long-term debt (1) | Payments Due > 2017-2018: $5,097
+(in millions) > Long-term debt (1) | Payments Due > 2019-2020: $4,745
+(in millions) > Long-term debt (1) | Payments Due > 2021 andThereafter: $15,675
+(in millions) > RBH Legal Settlement (2) | Total: 78
+(in millions) > RBH Legal Settlement (2) | Payments Due > 2016: 32
+(in millions) > RBH Legal Settlement (2) | Payments Due > 2017-2018: 46
+(in millions) > RBH Legal Settlement (2) | Payments Due > 2019-2020: —
+(in millions) > RBH Legal Settlement (2) | Payments Due > 2021 andThereafter: —
+(in millions) > Colombian Investment and Cooperation Agreement (3) | Total: 107
+(in millions) > Colombian Investment and Cooperation Agreement (3) | Payments Due > 2016: 15
+(in millions) > Colombian Investment and Cooperation Agreement (3) | Payments Due > 2017-2018: 12
+(in millions) > Colombian Investment and Cooperation Agreement (3) | Payments Due > 2019-2020: 12
+(in millions) > Colombian Investment and Cooperation Agreement (3) | Payments Due > 2021 andThereafter: 68
+(in millions) > Interest on borrowings (4) | Total: 10,786
+(in millions) > Interest on borrowings (4) | Payments Due > 2016: 883
+(in millions) > Interest on borrowings (4) | Payments Due > 2017-2018: 1,566
+(in millions) > Interest on borrowings (4) | Payments Due > 2019-2020: 1,236
+(in millions) > Interest on borrowings (4) | Payments Due > 2021 andThereafter: 7,101
+(in millions) > Operating leases (5) | Total: 682
+(in millions) > Operating leases (5) | Payments Due > 2016: 177
+(in millions) > Operating leases (5) | Payments Due > 2017-2018: 207
+(in millions) > Operating leases (5) | Payments Due > 2019-2020: 103
+(in millions) > Operating leases (5) | Payments Due > 2021 andThereafter: 195
+Purchase obligations (6) : > Inventory and production costs | Total: 5,094
+Purchase obligations (6) : > Inventory and production costs | Payments Due > 2016: 2,007
+Purchase obligations (6) : > Inventory and production costs | Payments Due > 2017-2018: 1,586
+Purchase obligations (6) : > Inventory and production costs | Payments Due > 2019-2020: 852
+Purchase obligations (6) : > Inventory and production costs | Payments Due > 2021 andThereafter: 649
+Purchase obligations (6) : > Other | Total: 1,568
+Purchase obligations (6) : > Other | Payments Due > 2016: 1,049
+Purchase obligations (6) : > Other | Payments Due > 2017-2018: 467
+Purchase obligations (6) : > Other | Payments Due > 2019-2020: 50
+Purchase obligations (6) : > Other | Payments Due > 2021 andThereafter: 2
+Total: 6,662
+Payments Due > 2016: 3,056
+Payments Due > 2017-2018: 2,053
+Payments Due > 2019-2020: 902
+Payments Due > 2021 andThereafter: 651
+Purchase obligations (6) : > Other long-term liabilities (7) | Total: 336
+Purchase obligations (6) : > Other long-term liabilities (7) | Payments Due > 2016: 27
+Purchase obligations (6) : > Other long-term liabilities (7) | Payments Due > 2017-2018: 75
+Purchase obligations (6) : > Other long-term liabilities (7) | Payments Due > 2019-2020: 25
+Purchase obligations (6) : > Other long-term liabilities (7) | Payments Due > 2021 andThereafter: 209
+Total: $46,573
+Payments Due > 2016: $6,595
+Payments Due > 2017-2018: $9,056
+Payments Due > 2019-2020: $7,023
+Payments Due > 2021 andThereafter: $23,899

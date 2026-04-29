@@ -1,0 +1,36 @@
+Name | Individual Grants > Number of Securities Underlying Options: Granted(1)
+Name | Individual Grants > Percent of Total Options Granted to: Employees(2)
+Name | Exercise Prices ($/Share) Prices: ($/Share)
+Name | Expiration: Date
+Name | Potential Realizable Value At Assumed Annual Rates Of Stock Price Appreciation For Option Term($)(3): 5%
+Name | Potential Realizable Value At Assumed Annual Rates Of Stock Price Appreciation For Option Term($)(3): 10%
+Aart J. de Geus | Individual Grants > Number of Securities Underlying Options: 140,000
+Aart J. de Geus | Individual Grants > Percent of Total Options Granted to: 3.10%
+Aart J. de Geus | Exercise Prices ($/Share) Prices: $18.55
+Aart J. de Geus | Expiration: 12/17/11
+Aart J. de Geus | Potential Realizable Value At Assumed Annual Rates Of Stock Price Appreciation For Option Term($)(3): $1,057,240
+Aart J. de Geus | Potential Realizable Value At Assumed Annual Rates Of Stock Price Appreciation For Option Term($)(3): $2,463,818
+Chi-Foon Chan | Individual Grants > Number of Securities Underlying Options: 100,000
+Chi-Foon Chan | Individual Grants > Percent of Total Options Granted to: 2.21%
+Chi-Foon Chan | Exercise Prices ($/Share) Prices: $18.55
+Chi-Foon Chan | Expiration: 12/17/11
+Chi-Foon Chan | Potential Realizable Value At Assumed Annual Rates Of Stock Price Appreciation For Option Term($)(3): $755,171
+Chi-Foon Chan | Potential Realizable Value At Assumed Annual Rates Of Stock Price Appreciation For Option Term($)(3): $1,759,870
+Vicki L. Andrews | Individual Grants > Number of Securities Underlying Options: 60,000
+Vicki L. Andrews | Individual Grants > Percent of Total Options Granted to: 1.33%
+Vicki L. Andrews | Exercise Prices ($/Share) Prices: $18.55
+Vicki L. Andrews | Expiration: 12/17/11
+Vicki L. Andrews | Potential Realizable Value At Assumed Annual Rates Of Stock Price Appreciation For Option Term($)(3): $453,103
+Vicki L. Andrews | Potential Realizable Value At Assumed Annual Rates Of Stock Price Appreciation For Option Term($)(3): $1,055,922
+Antun Domic | Individual Grants > Number of Securities Underlying Options: 75,000
+Antun Domic | Individual Grants > Percent of Total Options Granted to: 1.66%
+Antun Domic | Exercise Prices ($/Share) Prices: $18.55
+Antun Domic | Expiration: 12/17/11
+Antun Domic | Potential Realizable Value At Assumed Annual Rates Of Stock Price Appreciation For Option Term($)(3): $566,378
+Antun Domic | Potential Realizable Value At Assumed Annual Rates Of Stock Price Appreciation For Option Term($)(3): $1,319,903
+Raul Camposano | Individual Grants > Number of Securities Underlying Options: 55,000
+Raul Camposano | Individual Grants > Percent of Total Options Granted to: 1.22%
+Raul Camposano | Exercise Prices ($/Share) Prices: $18.55
+Raul Camposano | Expiration: 12/17/11
+Raul Camposano | Potential Realizable Value At Assumed Annual Rates Of Stock Price Appreciation For Option Term($)(3): $415,344
+Raul Camposano | Potential Realizable Value At Assumed Annual Rates Of Stock Price Appreciation For Option Term($)(3): $967,929

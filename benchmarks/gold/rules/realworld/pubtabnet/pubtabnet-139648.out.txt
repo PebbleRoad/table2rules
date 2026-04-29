@@ -1,0 +1,56 @@
+1. Decreased fetal movement and infantile lethargy | Sun et al. 1996: Decreased fetal activity (0.5 pt.)
+1. Decreased fetal movement and infantile lethargy | Kuslich et al. 1999: Decreased fetal movements (0.5pt.)
+1. Decreased fetal movement and infantile lethargy | Conroy et al. 1997: -
+1. Decreased fetal movement and infantile lethargy | Wirth et al. 2001: -
+1. Decreased fetal movement and infantile lethargy | Present case: Slightly reduced fetal movements (0.5pt.)
+2. Typical behaviour problems | Sun et al. 1996: Behavior problems (0.5pt.)
+2. Typical behaviour problems | Kuslich et al. 1999: Temper tantrums, violent outbursts, obsessive-compulsive (0.5 pt.)
+2. Typical behaviour problems | Schulze et al. 1996: Aggressive outbursts, rigid personality, perseveration (0.5pt.)
+2. Typical behaviour problems | Conroy et al. 1997: Behavior problems with temper tantrums and severe aggressiveness (0.5 pt.)
+2. Typical behaviour problems | Wirth et al. 2001: Temper tantrums, violent outbursts after food restrictions (0.5pt.)
+2. Typical behaviour problems | Present case: Temper tantrums, abnormal social behavior (0.5pt.)
+3. Sleep disturbance, sleep apnea | Kuslich et al. 1999: Sleep disturbance, sleep apnea (0.5pt.)
+3. Sleep disturbance, sleep apnea | Schulze et al. 1996: Sleep disturbance (0.5pt.)
+3. Sleep disturbance, sleep apnea | Present case: Sleep disturbance, amphetamine treatment from age 9 ys. (0.5pt.)
+4. Short stature for the family by age 15 years | Schulze et al. 1996: Short stature at the age of 15 (0.5pt.)
+4. Short stature for the family by age 15 years | Conroy et al. 1997: 50–75 th percentile (0.5pt.)
+4. Short stature for the family by age 15 years | Wirth et al. 2001: 151 cm (3 rd %tile) (0.5pt.)
+4. Short stature for the family by age 15 years | Present case: Height 155.7 cm at 16 years < 3 rd %tile (0.5 pt.)
+5. Hypopigmentation | Sun et al. 1996: -
+5. Hypopigmentation | Kuslich et al. 1999: -
+5. Hypopigmentation | Schulze et al. 1996: Hypopigmentation (0.5 pt.)
+5. Hypopigmentation | Wirth et al. 2001: -
+5. Hypopigmentation | Present case: -
+6. Small hands and /or feet for height age | Sun et al. 1996: Hand length 25 th percentile, finger length 10 th %ile (0.5pt.)
+6. Small hands and /or feet for height age | Kuslich et al. 1999: -
+6. Small hands and /or feet for height age | Schulze et al. 1996: Normal hands, but small feet (< 10 th %tile) (0.5 pt.)
+6. Small hands and /or feet for height age | Wirth et al. 2001: Short 3rd finger bilaterally
+6. Small hands and /or feet for height age | Present case: Hands 20 th %ile, feet 5th %ile (0.5pt.)
+7. Narrow hands with straight ulnar border | Kuslich et al. 1999: -
+7. Narrow hands with straight ulnar border | Present case: -
+8. Eye abnormalities: esotropia, myopia | Kuslich et al. 1999: -
+8. Eye abnormalities: esotropia, myopia | Schulze et al. 1996: Esotropia (0.5 pt.)
+8. Eye abnormalities: esotropia, myopia | Conroy et al. 1997: Alternating esotropia in infancy (0.5 pt.)
+8. Eye abnormalities: esotropia, myopia | Wirth et al. 2001: Left esotropia (0.5 pt.)
+8. Eye abnormalities: esotropia, myopia | Present case: Esotropia (0.5pt.)
+9. Thick viscous saliva | Kuslich et al. 1999: Viscous saliva (0.5pt.)
+9. Thick viscous saliva | Conroy et al. 1997: Thick viscous saliva (0.5 pt.)
+9. Thick viscous saliva | Present case: -
+10. Speech articulation defect | Kuslich et al. 1999: Articulation difficulty (0.5 pt.)
+10. Speech articulation defect | Conroy et al. 1997: Poor articulation (0.5pt.)
+10. Speech articulation defect | Present case: -
+11. Skin picking | Kuslich et al. 1999: Skin picking (0.5pt.)
+11. Skin picking | Schulze et al. 1996: Skin picking (0.5pt.)
+11. Skin picking | Present case: Skin picking (0.5pt.)
+Score (minor only) | Sun et al. 1996: 1.5 points
+Score (minor only) | Kuslich et al. 1999: 3 points
+Score (minor only) | Schulze et al. 1996: 3.5 points
+Score (minor only) | Conroy et al. 1997: 2.5 points
+Score (minor only) | Wirth et al. 2001: 1.5 points
+Score (minor only) | Present case: 3.5 points
+Total Score | Sun et al. 1996: 6.5 points
+Total Score | Kuslich et al. 1999: 9 points
+Total Score | Schulze et al. 1996: 8.5 points
+Total Score | Conroy et al. 1997: 8.5 points
+Total Score | Wirth et al. 2001: 4.5 points
+Total Score | Present case: 7.5 points

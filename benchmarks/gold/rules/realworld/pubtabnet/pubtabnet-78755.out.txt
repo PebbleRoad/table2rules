@@ -1,0 +1,27 @@
+Yes: | Case (n = 158) > n: 96
+Yes: | Case (n = 158) > %: 60.7
+Yes: | Control (n = 171) > n: 8
+Yes: | Control (n = 171) > %: 4.7
+Yes: | p-value: <0.0001
+No: | Case (n = 158) > n: 62
+No: | Case (n = 158) > %: 39.2
+No: | Control (n = 171) > n: 163
+No: | Control (n = 171) > %: 95.3
+Yes: | Case (n = 158) > n: 74
+Yes: | Case (n = 158) > %: 46.8
+Yes: | Control (n = 171) > n: 67
+Yes: | Control (n = 171) > %: 39.2
+Yes: | p-value: 0.16
+No: | Case (n = 158) > n: 84
+No: | Case (n = 158) > %: 53.2
+No: | Control (n = 171) > n: 104
+No: | Control (n = 171) > %: 60.8
+Yes: | Case (n = 158) > n: 34
+Yes: | Case (n = 158) > %: 21.5
+Yes: | Control (n = 171) > n: 24
+Yes: | Control (n = 171) > %: 14.0
+Yes: | p-value: 0.075
+No: | Case (n = 158) > n: 124
+No: | Case (n = 158) > %: 78.5
+No: | Control (n = 171) > n: 147
+No: | Control (n = 171) > %: 85.9

@@ -1,0 +1,82 @@
+Predominantly Negative (n = 30): Mean
+Predominantly Negative (n = 30): SD
+Predominantly Positive (n = 40): Mean
+Predominantly Positive (n = 40): SD
+PANSS Factors: Positive
+PANSS Factors: Baseline
+Predominantly Negative (n = 30): 19.5
+Predominantly Negative (n = 30): 6.8
+Predominantly Positive (n = 40): 30.4
+Predominantly Positive (n = 40): 6.8
+Statistic* Between Groups: F = 1.09, df 1, p = 0.29
+Statistic* During the Follow-up: F = 79.58, df 1, p < 0.001
+PANSS Factors: Mean Change
+Predominantly Negative (n = 30): -7.2
+Predominantly Negative (n = 30): 10.1
+Predominantly Positive (n = 40): -16.7
+Predominantly Positive (n = 40): 9.6
+PANSS Factors: Negative
+PANSS Factors: Baseline
+Predominantly Negative (n = 30): 30.8
+Predominantly Negative (n = 30): 8.6
+Predominantly Positive (n = 40): 23.8
+Predominantly Positive (n = 40): 6.8
+Statistic* Between Groups: F = 0.16, df 1, p = 0.68
+Statistic* During the Follow-up: F = 80.18, df 1, p < 0.001
+PANSS Factors: Mean Change
+Predominantly Negative (n = 30): -16.3
+Predominantly Negative (n = 30): 11.2
+Predominantly Positive (n = 40): -10.5
+Predominantly Positive (n = 40): 8.1
+PANSS Factors: Cognitive
+PANSS Factors: Baseline
+Predominantly Negative (n = 30): 18.5
+Predominantly Negative (n = 30): 6.7
+Predominantly Positive (n = 40): 20.7
+Predominantly Positive (n = 40): 5.7
+Statistic* Between Groups: F = 0.01, df 1, p = 0.91
+Statistic* During the Follow-up: F = 111.29, df 1, p < 0.001
+PANSS Factors: Mean Change
+Predominantly Negative (n = 30): -7.1
+Predominantly Negative (n = 30): 9.4
+Predominantly Positive (n = 40): -9.6
+Predominantly Positive (n = 40): 7.3
+PANSS Factors: Excitement
+PANSS Factors: Baseline
+Predominantly Negative (n = 30): 8.0
+Predominantly Negative (n = 30): 4.0
+Predominantly Positive (n = 40): 10.4
+Predominantly Positive (n = 40): 3.9
+Statistic* Between Groups: F = 2.63, df 1, p = 0.10
+Statistic* During the Follow-up: F = 304.76, df 1, p < 0.001
+PANSS Factors: Mean Change
+Predominantly Negative (n = 30): -3.1
+Predominantly Negative (n = 30): 4.7
+Predominantly Positive (n = 40): -4.9
+Predominantly Positive (n = 40): 4.7
+PANSS Factors: Depression-Anxiety
+PANSS Factors: Baseline
+Predominantly Negative (n = 30): 8.9
+Predominantly Negative (n = 30): 4.2
+Predominantly Positive (n = 40): 10.3
+Predominantly Positive (n = 40): 4.2
+Statistic* Between Groups: F = 0.16, df 1, p = 0.68
+Statistic* During the Follow-up: F = 171.77, df 1, p < 0.001
+PANSS Factors: Mean Change
+Predominantly Negative (n = 30): -3.6
+Predominantly Negative (n = 30): 4.9
+Predominantly Positive (n = 40): -4.7
+Predominantly Positive (n = 40): 5.1
+PANSS Factors: Total score
+PANSS Factors: Baseline
+Predominantly Negative (n = 30): 85.8
+Predominantly Negative (n = 30): 25.1
+Predominantly Positive (n = 40): 95.8
+Predominantly Positive (n = 40): 22.1
+Statistic* Between Groups: F = 0.05, df 1, p = 0.82
+Statistic* During the Follow-up: F = 94.80, df 1, p < 0.001
+PANSS Factors: Mean Change
+Predominantly Negative (n = 30): -37.4
+Predominantly Negative (n = 30): 35.3
+Predominantly Positive (n = 40): -46.6
+Predominantly Positive (n = 40): 28.4

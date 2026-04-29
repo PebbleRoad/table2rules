@@ -1,0 +1,116 @@
+K: SPC
+cases: SPC
+clusters: SPC
+true positive: SPC
+false positive: SPC
+false negative: SPC
+specificity: SPC
+a posteriori sensitivity: SPC
+a priori sensitivity: SPC
+K: 2
+cases: 19161
+clusters: 4473
+true positive: 78782
+false positive: 4421
+false negative: 3373
+specificity: 94.7
+a posteriori sensitivity: 95.9
+a priori sensitivity: 16.1
+K: 6
+cases: 79642
+clusters: 11643
+true positive: 308068
+false positive: 20598
+false negative: 261446
+specificity: 93.7
+a posteriori sensitivity: 92.2
+a priori sensitivity: 62.9
+K: 20
+cases: 98276
+clusters: 6875
+true positive: 354980
+false positive: 35282
+false negative: 53628
+specificity: 91.0
+a posteriori sensitivity: 86.9
+a priori sensitivity: 72.4
+K: 64
+cases: 100177
+clusters: 3953
+true positive: 331422
+false positive: 47215
+false negative: 80772
+specificity: 87.5
+a posteriori sensitivity: 80.4
+a priori sensitivity: 67.6
+K: all NN
+cases: 93601
+clusters: 3601
+true positive: 308433
+false positive: 41834
+false negative: 74472
+specificity: 88.1
+a posteriori sensitivity: 80.6
+a priori sensitivity: 62.9
+K: TRIBE-MCL
+cases: TRIBE-MCL
+clusters: TRIBE-MCL
+true positive: TRIBE-MCL
+false positive: TRIBE-MCL
+false negative: TRIBE-MCL
+specificity: TRIBE-MCL
+a posteriori sensitivity: TRIBE-MCL
+a priori sensitivity: TRIBE-MCL
+cases: 99636
+clusters: 7015
+true positive: 364554
+false positive: 36783
+false negative: 49333
+specificity: 90.8
+a posteriori sensitivity: 88.1
+a priori sensitivity: 74.4
+K: gSPC
+cases: gSPC
+clusters: gSPC
+true positive: gSPC
+false positive: gSPC
+false negative: gSPC
+specificity: gSPC
+a posteriori sensitivity: gSPC
+a priori sensitivity: gSPC
+K: 6
+cases: 80617
+clusters: 9755
+true positive: 314537
+false positive: 21080
+false negative: 23838
+specificity: 93.7
+a posteriori sensitivity: 93.0
+a priori sensitivity: 64.1
+K: 20
+cases: 101805
+clusters: 2857
+true positive: 388434
+false positive: 29379
+false negative: 35042
+specificity: 93.0
+a posteriori sensitivity: 91.7
+a priori sensitivity: 79.3
+K: 64
+cases: 105248
+clusters: 445
+true positive: 400100
+false positive: 31061
+false negative: 37325
+specificity: 92.8
+a posteriori sensitivity: 91.5
+a priori sensitivity: 81.6
+K: all NN
+cases: 105339
+clusters: 19
+true positive: 400363
+false positive: 31142
+false negative: 37391
+specificity: 92.8
+a posteriori sensitivity: 91.5
+a priori sensitivity: 81.7

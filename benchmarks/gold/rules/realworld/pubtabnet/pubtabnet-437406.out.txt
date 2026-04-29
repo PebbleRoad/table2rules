@@ -1,0 +1,51 @@
+Parameter: HG
+Parameter: I
+Non-polysomy (%): 15.6
+Polysomy (%): 5.3
+Parameter: II
+Non-polysomy (%): 43.8
+Polysomy (%): 63.2
+P: 0.243
+Parameter: III
+Non-polysomy (%): 40.6
+Polysomy (%): 31.6
+Parameter: Nodal status
+Parameter: pN-
+Non-polysomy (%): 61.3
+Polysomy (%): 35.3
+P: 0.046
+Parameter: pN+
+Non-polysomy (%): 38.7
+Polysomy (%): 64.7
+Parameter: ER
+Parameter: -
+Non-polysomy (%): 41.7
+Polysomy (%): 40.9
+P: 0.947
+Parameter: +
+Non-polysomy (%): 58.3
+Polysomy (%): 59.1
+Parameter: PgR
+Parameter: -
+Non-polysomy (%): 60
+Polysomy (%): 54.5
+P: 0.632
+Parameter: +
+Non-polysomy (%): 40
+Polysomy (%): 45.5
+Parameter: p53
+Parameter: -
+Non-polysomy (%): 61
+Polysomy (%): 63.6
+P: 0.817
+Parameter: +
+Non-polysomy (%): 39
+Polysomy (%): 36.4
+Parameter: Relapse
+Parameter: No
+Non-polysomy (%): 77
+Polysomy (%): 63.6
+P: 0.181
+Parameter: Yes
+Non-polysomy (%): 23
+Polysomy (%): 36.4

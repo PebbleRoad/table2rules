@@ -1,0 +1,78 @@
+Gene: dose level
+Gene | Pre-treat: M
+Gene | Pre-treat: U
+Gene | Post-treat: M
+Gene | Post-treat: U
+Gene | Re-expression: Yes/No
+DAPK: 50
+DAPK | Pre-treat: +
+DAPK | Pre-treat: -
+DAPK | Post-treat: +
+DAPK | Post-treat: -
+DAPK | Re-expression: No
+DAPK: 50
+DAPK | Pre-treat: +
+DAPK | Pre-treat: -
+DAPK | Post-treat: +
+DAPK | Post-treat: -
+DAPK | Re-expression: No
+GSTp1: 50
+GSTp1 | Pre-treat: +
+GSTp1 | Pre-treat: -
+GSTp1 | Post-treat: +
+GSTp1 | Post-treat: -
+GSTp1 | Re-expression: No
+FHIT: 100
+FHIT | Pre-treat: +
+FHIT | Pre-treat: -
+FHIT | Post-treat: +
+FHIT | Post-treat: +
+FHIT | Re-expression: Yes
+FHIT: 150
+FHIT | Pre-treat: +
+FHIT | Pre-treat: -
+FHIT | Post-treat: +
+FHIT | Post-treat: +
+FHIT | Re-expression: Yes
+MGMT: 75
+MGMT | Pre-treat: +
+MGMT | Pre-treat: -
+MGMT | Post-treat: +
+MGMT | Post-treat: +
+MGMT | Re-expression: Yes
+MGMT: 150
+MGMT | Pre-treat: +
+MGMT | Pre-treat: -
+MGMT | Post-treat: +
+MGMT | Post-treat: +
+MGMT | Re-expression: Yes
+GSTp1: 50
+GSTp1 | Pre-treat: +
+GSTp1 | Pre-treat: -
+GSTp1 | Post-treat: +
+GSTp1 | Post-treat: +
+GSTp1 | Re-expression: Yes
+DAPK: 75
+DAPK | Pre-treat: +
+DAPK | Pre-treat: -
+DAPK | Post-treat: -
+DAPK | Post-treat: +
+DAPK | Re-expression: Yes
+ER: 75
+ER | Pre-treat: +
+ER | Pre-treat: -
+ER | Post-treat: -
+ER | Post-treat: +
+ER | Re-expression: Yes
+GSTp1: 150
+GSTp1 | Pre-treat: +
+GSTp1 | Pre-treat: -
+GSTp1 | Post-treat: -
+GSTp1 | Post-treat: +
+GSTp1 | Re-expression: Yes
+GSTp1: 75
+GSTp1 | Pre-treat: +
+GSTp1 | Pre-treat: +
+GSTp1 | Post-treat: -
+GSTp1 | Post-treat: +
+GSTp1 | Re-expression: Yes

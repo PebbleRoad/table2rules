@@ -1,0 +1,60 @@
+Net income | 2011 > (In thousands): $149,612
+Net income | 2010 > (In thousands): $128,237
+Net income | 2009 > (In thousands): $103,872
+Net income | 2008 > (In thousands): $135,153
+Net income | 2007 > (In thousands): $201,127
+Net income attributable to noncontrolling interests | 2011 > (In thousands): (5,695)
+Net income attributable to noncontrolling interests | 2010 > (In thousands): (5,447)
+Net income attributable to noncontrolling interests | 2009 > (In thousands): (5,568)
+Net income attributable to noncontrolling interests | 2008 > (In thousands): (5,366)
+Net income attributable to noncontrolling interests | 2007 > (In thousands): (5,590)
+Gain on sale of real estate | 2011 > (In thousands): (15,075)
+Gain on sale of real estate | 2010 > (In thousands): (1,410)
+Gain on sale of real estate | 2009 > (In thousands): (1,298)
+Gain on sale of real estate | 2008 > (In thousands): (12,572)
+Gain on sale of real estate | 2007 > (In thousands): (94,768)
+Gain on deconsolidation of VIE | 2011 > (In thousands): (2,026)
+Gain on deconsolidation of VIE | 2010 > (In thousands): —
+Gain on deconsolidation of VIE | 2009 > (In thousands): —
+Gain on deconsolidation of VIE | 2008 > (In thousands): —
+Gain on deconsolidation of VIE | 2007 > (In thousands): —
+Depreciation and amortization of real estate assets | 2011 > (In thousands): 113,188
+Depreciation and amortization of real estate assets | 2010 > (In thousands): 107,187
+Depreciation and amortization of real estate assets | 2009 > (In thousands): 103,104
+Depreciation and amortization of real estate assets | 2008 > (In thousands): 101,450
+Depreciation and amortization of real estate assets | 2007 > (In thousands): 95,565
+Amortization of initial direct costs of leases | 2011 > (In thousands): 10,432
+Amortization of initial direct costs of leases | 2010 > (In thousands): 9,552
+Amortization of initial direct costs of leases | 2009 > (In thousands): 9,821
+Amortization of initial direct costs of leases | 2008 > (In thousands): 8,771
+Amortization of initial direct costs of leases | 2007 > (In thousands): 8,473
+Depreciation of joint venture real estate assets | 2011 > (In thousands): 1,771
+Depreciation of joint venture real estate assets | 2010 > (In thousands): 1,499
+Depreciation of joint venture real estate assets | 2009 > (In thousands): 1,388
+Depreciation of joint venture real estate assets | 2008 > (In thousands): 1,331
+Depreciation of joint venture real estate assets | 2007 > (In thousands): 1,241
+Funds from operations | 2011 > (In thousands): 252,207
+Funds from operations | 2010 > (In thousands): 239,618
+Funds from operations | 2009 > (In thousands): 211,319
+Funds from operations | 2008 > (In thousands): 228,767
+Funds from operations | 2007 > (In thousands): 206,048
+Dividends on preferred shares | 2011 > (In thousands): (541)
+Dividends on preferred shares | 2010 > (In thousands): (541)
+Dividends on preferred shares | 2009 > (In thousands): (541)
+Dividends on preferred shares | 2008 > (In thousands): (541)
+Dividends on preferred shares | 2007 > (In thousands): (442)
+Income attributable to operating partnership units | 2011 > (In thousands): 981
+Income attributable to operating partnership units | 2010 > (In thousands): 980
+Income attributable to operating partnership units | 2009 > (In thousands): 974
+Income attributable to operating partnership units | 2008 > (In thousands): 950
+Income attributable to operating partnership units | 2007 > (In thousands): 1,156
+Income attributable to unvested shares | 2011 > (In thousands): (1,071)
+Income attributable to unvested shares | 2010 > (In thousands): (847)
+Income attributable to unvested shares | 2009 > (In thousands): (687)
+Income attributable to unvested shares | 2008 > (In thousands): (779)
+Income attributable to unvested shares | 2007 > (In thousands): (725)
+Funds from operations available for common shareholders | 2011 > (In thousands): $251,576
+Funds from operations available for common shareholders | 2010 > (In thousands): $239,210
+Funds from operations available for common shareholders | 2009 > (In thousands): $211,065
+Funds from operations available for common shareholders | 2008 > (In thousands): $228,397
+Funds from operations available for common shareholders | 2007 > (In thousands): $206,037

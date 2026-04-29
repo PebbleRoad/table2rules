@@ -1,0 +1,25 @@
+Mean | Drain group > D1: 3.258 ml
+Mean | Drain group > D7: 1.819 ml
+Mean | Non drain group > D1: 2.345 ml
+Mean | Non drain group > D7: 1.366 ml
+Minimum | Drain group > D1: 0 ml
+Minimum | Drain group > D7: 0 ml
+Minimum | Non drain group > D1: 0 ml
+Minimum | Non drain group > D7: 0 ml
+Maximum | Drain group > D1: 40 ml
+Maximum | Drain group > D7: 35 ml
+Maximum | Non drain group > D1: 19 ml
+Maximum | Non drain group > D7: 14.2 ml
+Total number of patients | Drain group > D1: 51
+Total number of patients | Drain group > D7: 51
+Total number of patients | Non drain group > D1: 51
+Total number of patients | Non drain group > D7: 51
+Unequal variance | Drain group > D1: T
+Unequal variance | Drain group > D7: DF
+Unequal variance | Non drain group > D1: P
+D1 | Drain group > D1: 0.9
+D1 | Drain group > D7: 81.5
+D1 | Non drain group > D1: 0.371
+D7 | Drain group > D1: 0.58
+D7 | Drain group > D7: 72.9
+D7 | Non drain group > D1: 0.577

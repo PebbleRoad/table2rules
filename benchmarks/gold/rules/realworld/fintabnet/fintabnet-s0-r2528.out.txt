@@ -1,0 +1,40 @@
+2006 > Rental income (1) | First Quarter > (In thousands, except per share data): $104,964
+2006 > Rental income (1) | Second Quarter > (In thousands, except per share data): $105,533
+2006 > Rental income (1) | Third Quarter > (In thousands, except per share data): $110,511
+2006 > Rental income (1) | Fourth Quarter > (In thousands, except per share data): $117,193
+2006 > Net income | First Quarter > (In thousands, except per share data): $31,031
+2006 > Net income | Second Quarter > (In thousands, except per share data): $38,256
+2006 > Net income | Third Quarter > (In thousands, except per share data): $24,984
+2006 > Net income | Fourth Quarter > (In thousands, except per share data): $24,441
+2006 > Net income available for common shareholders | First Quarter > (In thousands, except per share data): $28,162
+2006 > Net income available for common shareholders | Second Quarter > (In thousands, except per share data): $35,387
+2006 > Net income available for common shareholders | Third Quarter > (In thousands, except per share data): $22,115
+2006 > Net income available for common shareholders | Fourth Quarter > (In thousands, except per share data): $17,850
+2006 > Earnings per common share — basic | First Quarter > (In thousands, except per share data): $0.53
+2006 > Earnings per common share — basic | Second Quarter > (In thousands, except per share data): $0.67
+2006 > Earnings per common share — basic | Third Quarter > (In thousands, except per share data): $0.42
+2006 > Earnings per common share — basic | Fourth Quarter > (In thousands, except per share data): $0.32
+2006 > Earnings per common share — diluted | First Quarter > (In thousands, except per share data): $0.53
+2006 > Earnings per common share — diluted | Second Quarter > (In thousands, except per share data): $0.66
+2006 > Earnings per common share — diluted | Third Quarter > (In thousands, except per share data): $0.41
+2006 > Earnings per common share — diluted | Fourth Quarter > (In thousands, except per share data): $0.32
+2005 > Rental income (1) | First Quarter > (In thousands, except per share data): $97,783
+2005 > Rental income (1) | Second Quarter > (In thousands, except per share data): $95,762
+2005 > Rental income (1) | Third Quarter > (In thousands, except per share data): $96,772
+2005 > Rental income (1) | Fourth Quarter > (In thousands, except per share data): $103,231
+2005 > Net income | First Quarter > (In thousands, except per share data): $23,997
+2005 > Net income | Second Quarter > (In thousands, except per share data): $24,807
+2005 > Net income | Third Quarter > (In thousands, except per share data): $30,680
+2005 > Net income | Fourth Quarter > (In thousands, except per share data): $35,128
+2005 > Net income available for common shareholders | First Quarter > (In thousands, except per share data): $21,128
+2005 > Net income available for common shareholders | Second Quarter > (In thousands, except per share data): $21,938
+2005 > Net income available for common shareholders | Third Quarter > (In thousands, except per share data): $27,811
+2005 > Net income available for common shareholders | Fourth Quarter > (In thousands, except per share data): $32,260
+2005 > Earnings per common share — basic | First Quarter > (In thousands, except per share data): $0.40
+2005 > Earnings per common share — basic | Second Quarter > (In thousands, except per share data): $0.42
+2005 > Earnings per common share — basic | Third Quarter > (In thousands, except per share data): $0.53
+2005 > Earnings per common share — basic | Fourth Quarter > (In thousands, except per share data): $0.61
+2005 > Earnings per common share — diluted | First Quarter > (In thousands, except per share data): $0.40
+2005 > Earnings per common share — diluted | Second Quarter > (In thousands, except per share data): $0.41
+2005 > Earnings per common share — diluted | Third Quarter > (In thousands, except per share data): $0.52
+2005 > Earnings per common share — diluted | Fourth Quarter > (In thousands, except per share data): $0.61

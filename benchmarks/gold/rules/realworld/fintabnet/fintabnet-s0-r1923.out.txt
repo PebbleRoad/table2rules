@@ -1,0 +1,25 @@
+Segments: (1) > Corporate | Years Ended December 31, > 2014 > Dollars inMillions: $439.8
+Segments: (1) > Corporate | Years Ended December 31, > 2014 > OperatingMargin: 6.8%
+Segments: (1) > Corporate | Years Ended December 31, > 2013 > Dollars inMillions: $363.3
+Segments: (1) > Corporate | Years Ended December 31, > 2013 > OperatingMargin: 6.1%
+Segments: (1) > Corporate | Percent Changein Incomefrom Operations: 21.1%
+Segments: (1) > Public | Years Ended December 31, > 2014 > Dollars inMillions: 313.2
+Segments: (1) > Public | Years Ended December 31, > 2014 > OperatingMargin: 6.4
+Segments: (1) > Public | Years Ended December 31, > 2013 > Dollars inMillions: 246.5
+Segments: (1) > Public | Years Ended December 31, > 2013 > OperatingMargin: 5.9
+Segments: (1) > Public | Percent Changein Incomefrom Operations: 27.1
+Segments: (1) > Other | Years Ended December 31, > 2014 > Dollars inMillions: 32.9
+Segments: (1) > Other | Years Ended December 31, > 2014 > OperatingMargin: 4.6
+Segments: (1) > Other | Years Ended December 31, > 2013 > Dollars inMillions: 27.2
+Segments: (1) > Other | Years Ended December 31, > 2013 > OperatingMargin: 4.2
+Segments: (1) > Other | Percent Changein Incomefrom Operations: 20.9
+Segments: (1) > Headquarters (2) | Years Ended December 31, > 2014 > Dollars inMillions: (112.9)
+Segments: (1) > Headquarters (2) | Years Ended December 31, > 2014 > OperatingMargin: nm*
+Segments: (1) > Headquarters (2) | Years Ended December 31, > 2013 > Dollars inMillions: (128.4)
+Segments: (1) > Headquarters (2) | Years Ended December 31, > 2013 > OperatingMargin: nm*
+Segments: (1) > Headquarters (2) | Percent Changein Incomefrom Operations: 12.0
+Segments: (1) > Total Income from operations | Years Ended December 31, > 2014 > Dollars inMillions: $673.0
+Segments: (1) > Total Income from operations | Years Ended December 31, > 2014 > OperatingMargin: 5.6%
+Segments: (1) > Total Income from operations | Years Ended December 31, > 2013 > Dollars inMillions: $508.6
+Segments: (1) > Total Income from operations | Years Ended December 31, > 2013 > OperatingMargin: 4.7%
+Segments: (1) > Total Income from operations | Percent Changein Incomefrom Operations: 32.3%

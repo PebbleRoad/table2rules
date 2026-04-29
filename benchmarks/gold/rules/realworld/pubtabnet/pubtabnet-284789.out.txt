@@ -1,0 +1,47 @@
+Cathepsin K | Mean: 304.66
+Cathepsin K | Standard deviation: 677.607
+Age (years) | Mean: 62.89
+Age (years) | Standard deviation: 11.1581
+Age (years) | n: 100
+Age (years) | Coeffficient: 0.0543
+Age (years) | Probability > | r |: 0.5915
+Rheumatoid factor (U/l) | Mean: 298.818
+Rheumatoid factor (U/l) | Standard deviation: 1136.49
+Rheumatoid factor (U/l) | n: 100
+Rheumatoid factor (U/l) | Coeffficient: 0.4761
+Rheumatoid factor (U/l) | Probability > | r |: < 0.0001
+Morning stiffness (min) | Mean: 32
+Morning stiffness (min) | Standard deviation: 38.7233
+Morning stiffness (min) | n: 100
+Morning stiffness (min) | Coeffficient: 0.1320
+Morning stiffness (min) | Probability > | r |: 0.1905
+Erythrocyte sedimentation rate (mm/hour) | Mean: 30.27
+Erythrocyte sedimentation rate (mm/hour) | Standard deviation: 20.8404
+Erythrocyte sedimentation rate (mm/hour) | n: 100
+Erythrocyte sedimentation rate (mm/hour) | Coeffficient: 0.2200
+Erythrocyte sedimentation rate (mm/hour) | Probability > | r |: 0.0279
+C-reactive protein (mg/l) | Mean: 24.96
+C-reactive protein (mg/l) | Standard deviation: 23.5032
+C-reactive protein (mg/l) | n: 100
+C-reactive protein (mg/l) | Coeffficient: 0.1121
+C-reactive protein (mg/l) | Probability > | r |: 0.2670
+Ritchie score | Mean: 11.31
+Ritchie score | Standard deviation: 10.3394
+Ritchie score | n: 100
+Ritchie score | Coeffficient: 0.1353
+Ritchie score | Probability > | r |: 0.1797
+Proximal interphalangeal score | Mean: 1.51
+Proximal interphalangeal score | Standard deviation: 2.69865
+Proximal interphalangeal score | n: 100
+Proximal interphalangeal score | Coeffficient: 0.2560
+Proximal interphalangeal score | Probability > | r |: 0.0101
+Disease activity score | Mean: 3.33283
+Disease activity score | Standard deviation: 1.43345
+Disease activity score | n: 100
+Disease activity score | Coeffficient: 0.2093
+Disease activity score | Probability > | r |: 0.0376
+Larsen score | Mean: 54.77
+Larsen score | Standard deviation: 49.3335
+Larsen score | n: 100
+Larsen score | Coeffficient: 0.2856
+Larsen score | Probability > | r |: 0.0040

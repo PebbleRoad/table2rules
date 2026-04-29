@@ -1,0 +1,48 @@
+Genotype: Mutations
+Affected subjects (n = 76): Mutations
+Ethnic affiliation: Mutations
+Genotype: 35delG / 35delG
+Affected subjects (n = 76): 7 (4 independent families)
+Ethnic affiliation: Russians
+Genotype: 235delC / 235delC
+Affected subjects (n = 76): 1
+Ethnic affiliation: Altaian
+Genotype: 312del14 / 312del14
+Affected subjects (n = 76): 1
+Ethnic affiliation: Russian/Tatar
+Genotype: 35delG / 235delC
+Affected subjects (n = 76): 2 (unrelated)
+Ethnic affiliation: 1 – Russian/Altaian, 1 – Russian
+Genotype: 35delG / 312del14
+Affected subjects (n = 76): 1
+Ethnic affiliation: Russian
+Genotype: R75Q a / 235delC
+Affected subjects (n = 76): 1
+Ethnic affiliation: Altaian/Russian
+Genotype: R75Q / 312del14
+Affected subjects (n = 76): 2 (two sibs)
+Ethnic affiliation: mixed ethnicity
+Genotype: R75Q/ +
+Affected subjects (n = 76): 2 (father and daughter)
+Ethnic affiliation: Russians
+Genotype: 235delC / W172C
+Affected subjects (n = 76): 1
+Ethnic affiliation: Altaian
+Genotype: Total
+Affected subjects (n = 76): 18 (23.7%)
+Ethnic affiliation: 18 (23.7%)
+Genotype: Non-pathogenic variants
+Affected subjects (n = 76): Non-pathogenic variants
+Ethnic affiliation: Non-pathogenic variants
+Genotype: V27I / +
+Affected subjects (n = 76): 14 (11 independent families)
+Ethnic affiliation: 13 Altaians, 1 Kazakh
+Genotype: (V27I; E114G) b
+Affected subjects (n = 76): 7 (unrelated)
+Ethnic affiliation: 6 Altaians, 1 Altaian/Russian c
+Genotype: IVS1+27G>C / [V27I; E114G]
+Affected subjects (n = 76): 1
+Ethnic affiliation: Altaian
+Genotype: Total
+Affected subjects (n = 76): 22 (28.9%)
+Ethnic affiliation: 22 (28.9%)

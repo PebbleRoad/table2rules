@@ -1,0 +1,82 @@
+GenBank accession no.: AF256671
+Mic.sat. clone name: BHMS-175
+No. of clones observed in secondary hybridisation: 28
+Verified by PCR: 28
+Positive PCR product on unassigned clones: 7
+Total no. of clones verified by PCR: 35
+GenBank accession no.: AF256676
+Mic.sat. clone name: BHMS-189
+No. of clones observed in secondary hybridisation: 24
+Verified by PCR: 21
+Positive PCR product on unassigned clones: 5
+Total no. of clones verified by PCR: 26
+GenBank accession no.: AF256678
+Mic.sat. clone name: BHMS-201
+No. of clones observed in secondary hybridisation: 9
+Verified by PCR: 9
+Positive PCR product on unassigned clones: 4
+Total no. of clones verified by PCR: 13
+GenBank accession no.: AF256741
+Mic.sat. clone name: BHMS-289
+No. of clones observed in secondary hybridisation: 19
+Verified by PCR: 18
+Positive PCR product on unassigned clones: 5
+Total no. of clones verified by PCR: 23
+GenBank accession no.: AF256698
+Mic.sat. clone name: BHMS-304
+No. of clones observed in secondary hybridisation: 19
+Verified by PCR: 18
+Positive PCR product on unassigned clones: 6
+Total no. of clones verified by PCR: 24
+GenBank accession no.: AF256748
+Mic.sat. clone name: BHMS-330
+No. of clones observed in secondary hybridisation: 12
+Verified by PCR: 12
+Positive PCR product on unassigned clones: 1
+Total no. of clones verified by PCR: 13
+GenBank accession no.: AF256746
+Mic.sat. clone name: BHMS-349
+No. of clones observed in secondary hybridisation: 23
+Verified by PCR: 23
+Positive PCR product on unassigned clones: 4
+Total no. of clones verified by PCR: 27
+GenBank accession no.: AF256719
+Mic.sat. clone name: BHMS-429
+No. of clones observed in secondary hybridisation: 42
+Verified by PCR: 42
+Positive PCR product on unassigned clones: 29
+Total no. of clones verified by PCR: 71
+GenBank accession no.: AF256693
+Mic.sat. clone name: BHMS-278
+No. of clones observed in secondary hybridisation: 8
+Verified by PCR: *
+Positive PCR product on unassigned clones: *
+Total no. of clones verified by PCR: *
+GenBank accession no.: AF256848
+Mic.sat. clone name: BHMS-255
+No. of clones observed in secondary hybridisation: 24
+Verified by PCR: #
+Positive PCR product on unassigned clones: #
+Total no. of clones verified by PCR: #
+GenBank accession no.: AF256750
+Mic.sat. clone name: BHMS-337
+No. of clones observed in secondary hybridisation: 21
+Verified by PCR: 5
+Positive PCR product on unassigned clones: 29
+Total no. of clones verified by PCR: 34
+GenBank accession no.: AF256714
+Mic.sat. clone name: BHMS-396
+No. of clones observed in secondary hybridisation: 4
+Verified by PCR: 3
+Positive PCR product on unassigned clones: 1
+Total no. of clones verified by PCR: 4
+GenBank accession no.: Total number of clones:
+No. of clones observed in secondary hybridisation: 233
+Verified by PCR: 179
+Positive PCR product on unassigned clones: 91
+Total no. of clones verified by PCR: 270
+GenBank accession no.: Average
+No. of clones observed in secondary hybridisation: 19.4
+Verified by PCR: 19.9
+Positive PCR product on unassigned clones: 9.1
+Total no. of clones verified by PCR: 27.0

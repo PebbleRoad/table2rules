@@ -1,0 +1,48 @@
+Outcomes: Mechanical ventilation duration (days)
+Protocol-directed weaning group (cases): Mechanical ventilation duration (days)
+Physician-directed weaning group (controls): Mechanical ventilation duration (days)
+P: Mechanical ventilation duration (days)
+Outcomes: Medicine
+Protocol-directed weaning group (cases): 15.3 ± 13
+Physician-directed weaning group (controls): 23 ± 22.6
+P: 0.02
+Outcomes: Surgery
+Protocol-directed weaning group (cases): 19.1 ± 15.2
+Physician-directed weaning group (controls): 17.4 ± 13.7
+P: 0.72
+Outcomes: Neurosurgery
+Protocol-directed weaning group (cases): 18.9 ± 12.8
+Physician-directed weaning group (controls): 26.3 ± 23.1
+P: 0.29
+Outcomes: COPD
+Protocol-directed weaning group (cases): 14.1 ± 14.6
+Physician-directed weaning group (controls): 24.9 ± 24
+P: 0.33
+Outcomes: Combined
+Protocol-directed weaning group (cases): 16.6 ± 13
+Physician-directed weaning group (controls): 22.5 ± 21
+P: 0.02
+Outcomes: ICU length of stay (days)
+Protocol-directed weaning group (cases): ICU length of stay (days)
+Physician-directed weaning group (controls): ICU length of stay (days)
+P: ICU length of stay (days)
+Outcomes: Medicine
+Protocol-directed weaning group (cases): 20.1 ± 13.7
+Physician-directed weaning group (controls): 27.7 ± 23
+P: 0.02
+Outcomes: Surgery
+Protocol-directed weaning group (cases): 25 ± 17
+Physician-directed weaning group (controls): 23.3 ± 15.4
+P: 0.72
+Outcomes: Neurosurgery
+Protocol-directed weaning group (cases): 23 ± 13
+Physician-directed weaning group (controls): 34 ± 24
+P: 0.09
+Outcomes: COPD
+Protocol-directed weaning group (cases): 20.4 ± 14.6
+Physician-directed weaning group (controls): 28.5 ± 25
+P: 0.47
+Outcomes: Combined
+Protocol-directed weaning group (cases): 21.6 ± 14.3
+Physician-directed weaning group (controls): 27.6 ± 21.7
+P: 0.02

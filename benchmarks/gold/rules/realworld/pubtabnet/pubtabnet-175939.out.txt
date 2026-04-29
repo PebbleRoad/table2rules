@@ -1,0 +1,34 @@
+Prostate Cancers: Cases
+Prostate Cancers: %
+Breast Cancers: Cases
+Breast Cancers: %
+Incident cases with town of residence recorded by the Connecticut Tumor Registry (CTR) | Prostate Cancers: 10,054
+Incident cases with town of residence recorded by the Connecticut Tumor Registry (CTR) | Prostate Cancers: 100
+Incident cases with town of residence recorded by the Connecticut Tumor Registry (CTR) | Breast Cancers: 12,518
+Incident cases with town of residence recorded by the Connecticut Tumor Registry (CTR) | Breast Cancers: 100
+Census tract of residence recorded by CTR | Prostate Cancers: 9,825
+Census tract of residence recorded by CTR | Prostate Cancers: 98
+Census tract of residence recorded by CTR | Breast Cancers: 10,924
+Census tract of residence recorded by CTR | Breast Cancers: 87
+Geocoded block group & street address of residence | Prostate Cancers: 9,207
+Geocoded block group & street address of residence | Prostate Cancers: 92
+Geocoded block group & street address of residence | Breast Cancers: 11,864
+Geocoded block group & street address of residence | Breast Cancers: 95
+Geocoded street address on 1 st try (stringent criteria) | Prostate Cancers: 4,546
+Geocoded street address on 1 st try (stringent criteria) | Breast Cancers: 5,926
+Geocoded street address on 2 nd try (relaxed criteria) | Prostate Cancers: 4,661
+Geocoded street address on 2 nd try (relaxed criteria) | Breast Cancers: 5,938
+Nursing home resident excluded for analysis by block group and exact coordinates | Prostate Cancers: 179
+Nursing home resident excluded for analysis by block group and exact coordinates | Breast Cancers: 111
+Record not geocoded | Prostate Cancers: 847
+Record not geocoded | Prostate Cancers: 8
+Record not geocoded | Breast Cancers: 654
+Record not geocoded | Breast Cancers: 5
+Post Office box listed | Prostate Cancers: 178
+Post Office box listed | Breast Cancers: 64
+No street address listed | Prostate Cancers: 216
+No street address listed | Breast Cancers: 534
+No house number listed | Prostate Cancers: 176
+No house number listed | Breast Cancers: 23
+Listed address unable to geocode | Prostate Cancers: 277
+Listed address unable to geocode | Breast Cancers: 33

@@ -1,0 +1,45 @@
+Balance at October 31, 2005 | Common Stock > Shares: 145,897
+Balance at October 31, 2005 | Common Stock > Amount: $1,459
+Balance at October 31, 2005 | Capital in Excess > of Par > Value: $1,263,258
+Balance at October 31, 2005 | Retained > Earnings: $162,878
+Balance at October 31, 2005 | Treasury > Stock: $(199,482)
+Balance at October 31, 2005 | Deferred > Stock > Compensation: $(1,475)
+Balance at October 31, 2005 | Accumulated Other > Comprehensive > Income (Loss): $(16,001)
+Balance at October 31, 2005 | Total: $1,210,637
+Components of comprehensive income: > Net income | Retained > Earnings: 24,742
+Components of comprehensive income: > Net income | Accumulated Other > Comprehensive > Income (Loss): 24,742
+Components of comprehensive income: > Net income | Total: 24,742
+Components of comprehensive income: > Unrealized gain on investments, net of tax of $(113) | Accumulated Other > Comprehensive > Income (Loss): 192
+Components of comprehensive income: > Deferred loss on cash flow hedges, net of tax of $1,174 | Accumulated Other > Comprehensive > Income (Loss): (2,261)
+Components of comprehensive income: > Reclassification adjustment on deferred (gains) losses of cash flow hedges , net of tax of $(641) | Accumulated Other > Comprehensive > Income (Loss): 791
+Components of comprehensive income: > Foreign currency translation adjustment | Accumulated Other > Comprehensive > Income (Loss): 4,798
+Components of comprehensive income: > Accumulated other comprehensive income | Accumulated Other > Comprehensive > Income (Loss): 3,520
+Components of comprehensive income: > Accumulated other comprehensive income | Total: 3,520
+Components of comprehensive income: > Total comprehensive income | Accumulated Other > Comprehensive > Income (Loss): 28,262
+Components of comprehensive income: > Total comprehensive income | Total: 28,262
+Components of comprehensive income: > Deferred stock compensation | Capital in Excess > of Par > Value: (1,475)
+Components of comprehensive income: > Deferred stock compensation | Deferred > Stock > Compensation: 1,475
+Components of comprehensive income: > Deferred stock compensation | Total: —
+Components of comprehensive income: > Stock compensation expense under SFAS123R | Capital in Excess > of Par > Value: 63,619
+Components of comprehensive income: > Stock compensation expense under SFAS123R | Total: 63,619
+Components of comprehensive income: > Acquisition of treasury stock | Common Stock > Shares: (10,029)
+Components of comprehensive income: > Acquisition of treasury stock | Common Stock > Amount: (100)
+Components of comprehensive income: > Acquisition of treasury stock | Capital in Excess > of Par > Value: 100
+Components of comprehensive income: > Acquisition of treasury stock | Treasury > Stock: (199,992)
+Components of comprehensive income: > Acquisition of treasury stock | Total: (199,992)
+Components of comprehensive income: > Common stock issued | Common Stock > Shares: 4,700
+Components of comprehensive income: > Common stock issued | Common Stock > Amount: 47
+Components of comprehensive income: > Common stock issued | Capital in Excess > of Par > Value: (325)
+Components of comprehensive income: > Common stock issued | Retained > Earnings: (16,877)
+Components of comprehensive income: > Common stock issued | Treasury > Stock: 86,721
+Components of comprehensive income: > Common stock issued | Total: 69,566
+Components of comprehensive income: > Tax impact associated with exercise of assumed stock options in prior years(1) | Capital in Excess > of Par > Value: (8,925)
+Components of comprehensive income: > Tax impact associated with exercise of assumed stock options in prior years(1) | Total: (8,925)
+Components of comprehensive income: > Balance at October 31, 2006 | Common Stock > Shares: 140,568
+Components of comprehensive income: > Balance at October 31, 2006 | Common Stock > Amount: $1,406
+Components of comprehensive income: > Balance at October 31, 2006 | Capital in Excess > of Par > Value: $1,316,252
+Components of comprehensive income: > Balance at October 31, 2006 | Retained > Earnings: $170,743
+Components of comprehensive income: > Balance at October 31, 2006 | Treasury > Stock: $(312,753)
+Components of comprehensive income: > Balance at October 31, 2006 | Deferred > Stock > Compensation: $—
+Components of comprehensive income: > Balance at October 31, 2006 | Accumulated Other > Comprehensive > Income (Loss): $(12,481)
+Components of comprehensive income: > Balance at October 31, 2006 | Total: $1,163,167

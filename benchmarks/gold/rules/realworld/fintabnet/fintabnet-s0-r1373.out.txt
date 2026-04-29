@@ -1,0 +1,35 @@
+Total borrowings | Total: $2,270,001
+Total borrowings | Payments due by period > Less than1 year > (Dollars in thousands): $86,625
+Total borrowings | Payments due by period > 1-3years > (Dollars in thousands): $89,063
+Total borrowings | Payments due by period > 3-5years > (Dollars in thousands): $944,313
+Total borrowings | Payments due by period > More than5 years > (Dollars in thousands): $1,150,000
+Interest obligations (1) | Total: 632,627
+Interest obligations (1) | Payments due by period > Less than1 year > (Dollars in thousands): 96,682
+Interest obligations (1) | Payments due by period > 1-3years > (Dollars in thousands): 187,547
+Interest obligations (1) | Payments due by period > 3-5years > (Dollars in thousands): 149,898
+Interest obligations (1) | Payments due by period > More than5 years > (Dollars in thousands): 198,500
+Operating lease obligations | Total: 139,275
+Operating lease obligations | Payments due by period > Less than1 year > (Dollars in thousands): 30,262
+Operating lease obligations | Payments due by period > 1-3years > (Dollars in thousands): 47,886
+Operating lease obligations | Payments due by period > 3-5years > (Dollars in thousands): 33,960
+Operating lease obligations | Payments due by period > More than5 years > (Dollars in thousands): 27,167
+Purchase and other obligations (2) | Total: 178,792
+Purchase and other obligations (2) | Payments due by period > Less than1 year > (Dollars in thousands): 177,538
+Purchase and other obligations (2) | Payments due by period > 1-3years > (Dollars in thousands): 1,254
+Purchase and other obligations (2) | Payments due by period > 3-5years > (Dollars in thousands): —
+Purchase and other obligations (2) | Payments due by period > More than5 years > (Dollars in thousands): —
+Tax on deemed repatriation of foreign earnings (3) | Total: 153,981
+Tax on deemed repatriation of foreign earnings (3) | Payments due by period > Less than1 year > (Dollars in thousands): 12,887
+Tax on deemed repatriation of foreign earnings (3) | Payments due by period > 1-3years > (Dollars in thousands): 24,538
+Tax on deemed repatriation of foreign earnings (3) | Payments due by period > 3-5years > (Dollars in thousands): 24,538
+Tax on deemed repatriation of foreign earnings (3) | Payments due by period > More than5 years > (Dollars in thousands): 92,018
+Pension and other postretirement benefits | Total: 54,792
+Pension and other postretirement benefits | Payments due by period > Less than1 year > (Dollars in thousands): 5,073
+Pension and other postretirement benefits | Payments due by period > 1-3years > (Dollars in thousands): 10,419
+Pension and other postretirement benefits | Payments due by period > 3-5years > (Dollars in thousands): 10,912
+Pension and other postretirement benefits | Payments due by period > More than5 years > (Dollars in thousands): 28,388
+Total contractual obligations | Total: $3,429,468
+Total contractual obligations | Payments due by period > Less than1 year > (Dollars in thousands): $409,067
+Total contractual obligations | Payments due by period > 1-3years > (Dollars in thousands): $360,707
+Total contractual obligations | Payments due by period > 3-5years > (Dollars in thousands): $1,163,621
+Total contractual obligations | Payments due by period > More than5 years > (Dollars in thousands): $1,496,073

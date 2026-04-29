@@ -1,0 +1,59 @@
+Independent Variable: Intercept
+Parameter Estimate: 5.684
+Standard Error: 0.176
+t value Pr >|t|: 32.30 <.0001
+95% confidence limits: 5.34
+95% confidence limits: 6.03
+Independent Variable: Scaled gestational age squared*
+Parameter Estimate: 209.9
+Standard Error: 3.66
+t value Pr >|t|: 57.31 <.0001
+95% confidence limits: 203
+95% confidence limits: 217
+Independent Variable: Scaled gestational age cubed*
+Parameter Estimate: -318.5
+Standard Error: 6.44
+t value Pr >|t|: -49.43 <.0001
+95% confidence limits: -331
+95% confidence limits: -305
+Independent Variable: Male infant
+Parameter Estimate: 0.2350
+Standard Error: 0.0047
+t value Pr >|t|: 50.08 <.0001
+95% confidence limits: 0.226
+95% confidence limits: 0.244
+Independent Variable: Maternal height c#
+Parameter Estimate: 0.01665
+Standard Error: 0.00042
+t value Pr >|t|: 40.28 <.0001
+95% confidence limits: 0.0158
+95% confidence limits: 0.0174
+Independent Variable: 2nd birth
+Parameter Estimate: 0.07484
+Standard Error: 0.0054
+t value Pr >|t|: 13.89 <.0001
+95% confidence limits: 0.064
+95% confidence limits: 0.085
+Independent Variable: 3rd birth
+Parameter Estimate: 0.1161
+Standard Error: 0.0070
+t value Pr >|t|: 16.62 <.0001
+95% confidence limits: 0.102
+95% confidence limits: 0.130
+Independent Variable: 4th and subsequent birth
+Parameter Estimate: 0.1508
+Standard Error: 0.0094
+t value Pr >|t|: 16.09 <.0001
+95% confidence limits: 0.132
+95% confidence limits: 0.169
+Independent Variable: GA# × Maternal height
+Parameter Estimate: 0.000763
+Standard Error: 0.000215
+t value Pr >|t|: 3.54 0.0004
+95% confidence limits: 0.00034
+95% confidence limits: 0.00120
+Independent Variable: Adjusted R 2 for this model is 0.322
+Parameter Estimate: Adjusted R 2 for this model is 0.322
+Standard Error: Adjusted R 2 for this model is 0.322
+t value Pr >|t|: Adjusted R 2 for this model is 0.322
+95% confidence limits: Adjusted R 2 for this model is 0.322

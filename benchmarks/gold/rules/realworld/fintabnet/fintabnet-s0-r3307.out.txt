@@ -1,0 +1,72 @@
+(Dollars in millions) | 2015 > Net: Sales
+(Dollars in millions) | 2015 > % of: Total
+(Dollars in millions) | 2015 > Oper.: Income
+(Dollars in millions) | 2014 > Net: Sales
+(Dollars in millions) | 2014 > % of: Total
+(Dollars in millions) | 2014 > Oper.: Income
+(Dollars in millions) | 2015 vs 2014 % change > Net: Sales
+(Dollars in millions) | 2015 vs 2014 % change > Oper.: Income
+Business Segments > Industrial | 2015 > Net: $10,328
+Business Segments > Industrial | 2015 > % of: 34.1%
+Business Segments > Industrial | 2015 > Oper.: $2,263
+Business Segments > Industrial | 2014 > Net: $10,990
+Business Segments > Industrial | 2014 > % of: 34.5%
+Business Segments > Industrial | 2014 > Oper.: $2,389
+Business Segments > Industrial | 2015 vs 2014 % change > Net: (6.0)%
+Business Segments > Industrial | 2015 vs 2014 % change > Oper.: (5.3)%
+Business Segments > Safety and Graphics | 2015 > Net: 5,515
+Business Segments > Safety and Graphics | 2015 > % of: 18.2%
+Business Segments > Safety and Graphics | 2015 > Oper.: 1,305
+Business Segments > Safety and Graphics | 2014 > Net: 5,732
+Business Segments > Safety and Graphics | 2014 > % of: 18.0%
+Business Segments > Safety and Graphics | 2014 > Oper.: 1,296
+Business Segments > Safety and Graphics | 2015 vs 2014 % change > Net: (3.8)%
+Business Segments > Safety and Graphics | 2015 vs 2014 % change > Oper.: 0.7%
+Business Segments > Health Care | 2015 > Net: 5,420
+Business Segments > Health Care | 2015 > % of: 17.9%
+Business Segments > Health Care | 2015 > Oper.: 1,724
+Business Segments > Health Care | 2014 > Net: 5,572
+Business Segments > Health Care | 2014 > % of: 17.5%
+Business Segments > Health Care | 2014 > Oper.: 1,724
+Business Segments > Health Care | 2015 vs 2014 % change > Net: (2.7)%
+Business Segments > Health Care | 2015 vs 2014 % change > Oper.: —%
+Business Segments > Electronics and Energy | 2015 > Net: 5,220
+Business Segments > Electronics and Energy | 2015 > % of: 17.2%
+Business Segments > Electronics and Energy | 2015 > Oper.: 1,102
+Business Segments > Electronics and Energy | 2014 > Net: 5,604
+Business Segments > Electronics and Energy | 2014 > % of: 17.6%
+Business Segments > Electronics and Energy | 2014 > Oper.: 1,115
+Business Segments > Electronics and Energy | 2015 vs 2014 % change > Net: (6.8)%
+Business Segments > Electronics and Energy | 2015 vs 2014 % change > Oper.: (1.1)%
+Business Segments > Consumer | 2015 > Net: 4,422
+Business Segments > Consumer | 2015 > % of: 14.6%
+Business Segments > Consumer | 2015 > Oper.: 1,046
+Business Segments > Consumer | 2014 > Net: 4,523
+Business Segments > Consumer | 2014 > % of: 14.2%
+Business Segments > Consumer | 2014 > Oper.: 995
+Business Segments > Consumer | 2015 vs 2014 % change > Net: (2.2)%
+Business Segments > Consumer | 2015 vs 2014 % change > Oper.: 5.2%
+Business Segments > Corporate and Unallocated | 2015 > Net: 1
+Business Segments > Corporate and Unallocated | 2015 > % of: —%
+Business Segments > Corporate and Unallocated | 2015 > Oper.: (355)
+Business Segments > Corporate and Unallocated | 2014 > Net: 4
+Business Segments > Corporate and Unallocated | 2014 > % of: —%
+Business Segments > Corporate and Unallocated | 2014 > Oper.: (251)
+Business Segments > Corporate and Unallocated | 2015 vs 2014 % change > Net: —
+Business Segments > Corporate and Unallocated | 2015 vs 2014 % change > Oper.: —
+Business Segments > Elimination of Dual Credit | 2015 > Net: (632)
+Business Segments > Elimination of Dual Credit | 2015 > % of: (2.0)%
+Business Segments > Elimination of Dual Credit | 2015 > Oper.: (139)
+Business Segments > Elimination of Dual Credit | 2014 > Net: (604)
+Business Segments > Elimination of Dual Credit | 2014 > % of: (1.8)%
+Business Segments > Elimination of Dual Credit | 2014 > Oper.: (133)
+Business Segments > Elimination of Dual Credit | 2015 vs 2014 % change > Net: —
+Business Segments > Elimination of Dual Credit | 2015 vs 2014 % change > Oper.: —
+Business Segments > Total Company | 2015 > Net: $30,274
+Business Segments > Total Company | 2015 > % of: 100.0%
+Business Segments > Total Company | 2015 > Oper.: $6,946
+Business Segments > Total Company | 2014 > Net: $31,821
+Business Segments > Total Company | 2014 > % of: 100.0%
+Business Segments > Total Company | 2014 > Oper.: $7,135
+Business Segments > Total Company | 2015 vs 2014 % change > Net: (4.9)%
+Business Segments > Total Company | 2015 vs 2014 % change > Oper.: (2.6)%

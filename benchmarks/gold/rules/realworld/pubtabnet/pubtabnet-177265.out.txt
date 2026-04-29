@@ -1,0 +1,64 @@
+ATC (first level): A – alimentary tract and metabolism
+ER admissions: 2 (2)
+Specialist visits: 3 (2)
+GP visits: 9 (7)
+ATC (first level): B – blood and blood forming organs
+ER admissions: 5 (5)
+Specialist visits: 2 (2)
+GP visits: =
+ATC (first level): C – cardiovascular system
+ER admissions: 6 (6)
+Specialist visits: =
+GP visits: 5 (5)
+ATC (first level): D – dermatologicals
+ER admissions: 2 (2)
+Specialist visits: =
+GP visits: 1 (1)
+ATC (first level): G – genitourinary system and sex hormones
+ER admissions: 4 (3)
+Specialist visits: =
+GP visits: 1 (1)
+ATC (first level): H – systemic hormonal preparations, excluding sex hormones
+ER admissions: 2 (2)
+Specialist visits: =
+GP visits: =
+ATC (first level): J – general antiinfectives for systemic use
+ER admissions: 6 (5)
+Specialist visits: 4 (4)
+GP visits: 7 (6)
+ATC (first level): L – antineoplastic and immunomodulating agents
+ER admissions: =
+Specialist visits: 3 (3)
+GP visits: =
+ATC (first level): M – musculo-skeletal system
+ER admissions: 6 (5)
+Specialist visits: 5 (4)
+GP visits: 7 (5)
+ATC (first level): N – nervous system
+ER admissions: =
+Specialist visits: 1 (1)
+GP visits: 5 (5)
+ATC (first level): P – antiparasitic products, insecticides and repellents
+ER admissions: =
+Specialist visits: =
+GP visits: =
+ATC (first level): R – respiratory system
+ER admissions: 2 (1)
+Specialist visits: =
+GP visits: 5 (4)
+ATC (first level): S – sensory organs
+ER admissions: 2 (2)
+Specialist visits: =
+GP visits: 2 (1)
+ATC (first level): V – various
+ER admissions: 1 (1)
+Specialist visits: 1 (1)
+GP visits: =
+ATC (first level): Other
+ER admissions: 4 (4)
+Specialist visits: =
+GP visits: 1 (1)
+ATC (first level): Total
+ER admissions: 41 (37)
+Specialist visits: 15 (13)
+GP visits: 43 (36)

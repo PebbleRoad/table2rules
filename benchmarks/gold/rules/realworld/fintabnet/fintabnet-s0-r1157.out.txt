@@ -1,0 +1,44 @@
+Revenue > Product | Year Ended December 31, > 2016 > $: $991,337
+Revenue > Product | Year Ended December 31, > 2016 > % ofRevenue: 87.8%
+Revenue > Product | Year Ended December 31, > 2015 > $: $744,877
+Revenue > Product | Year Ended December 31, > 2015 > % ofRevenue: 88.9%
+Revenue > Product | Change in > $: $246,460
+Revenue > Product | Change in > %: 33.1%
+Revenue > Service | Year Ended December 31, > 2016 > $: 137,830
+Revenue > Service | Year Ended December 31, > 2016 > % ofRevenue: 12.2
+Revenue > Service | Year Ended December 31, > 2015 > $: 92,714
+Revenue > Service | Year Ended December 31, > 2015 > % ofRevenue: 11.1
+Revenue > Service | Change in > $: 45,116
+Revenue > Service | Change in > %: 48.7
+Revenue > Total revenue | Year Ended December 31, > 2016 > $: 1,129,167
+Revenue > Total revenue | Year Ended December 31, > 2016 > % ofRevenue: 100.0
+Revenue > Total revenue | Year Ended December 31, > 2015 > $: 837,591
+Revenue > Total revenue | Year Ended December 31, > 2015 > % ofRevenue: 100.0
+Revenue > Total revenue | Change in > $: 291,576
+Revenue > Total revenue | Change in > %: 34.8
+Cost of revenue > Product | Year Ended December 31, > 2016 > $: 369,768
+Cost of revenue > Product | Year Ended December 31, > 2016 > % ofRevenue: 32.8
+Cost of revenue > Product | Year Ended December 31, > 2015 > $: 263,585
+Cost of revenue > Product | Year Ended December 31, > 2015 > % ofRevenue: 31.5
+Cost of revenue > Product | Change in > $: 106,183
+Cost of revenue > Product | Change in > %: 40.3
+Cost of revenue > Service | Year Ended December 31, > 2016 > $: 36,283
+Cost of revenue > Service | Year Ended December 31, > 2016 > % ofRevenue: 3.2
+Cost of revenue > Service | Year Ended December 31, > 2015 > $: 30,446
+Cost of revenue > Service | Year Ended December 31, > 2015 > % ofRevenue: 3.6
+Cost of revenue > Service | Change in > $: 5,837
+Cost of revenue > Service | Change in > %: 19.2
+Cost of revenue > Total cost of revenue | Year Ended December 31, > 2016 > $: 406,051
+Cost of revenue > Total cost of revenue | Year Ended December 31, > 2016 > % ofRevenue: 36.0
+Cost of revenue > Total cost of revenue | Year Ended December 31, > 2015 > $: 294,031
+Cost of revenue > Total cost of revenue | Year Ended December 31, > 2015 > % ofRevenue: 35.1
+Cost of revenue > Total cost of revenue | Change in > $: 112,020
+Cost of revenue > Total cost of revenue | Change in > %: 38.1
+Cost of revenue > Gross profit | Year Ended December 31, > 2016 > $: $723,116
+Cost of revenue > Gross profit | Year Ended December 31, > 2016 > % ofRevenue: 64.0%
+Cost of revenue > Gross profit | Year Ended December 31, > 2015 > $: $543,560
+Cost of revenue > Gross profit | Year Ended December 31, > 2015 > % ofRevenue: 64.9%
+Cost of revenue > Gross profit | Change in > $: $179,556
+Cost of revenue > Gross profit | Change in > %: 33.0%
+Cost of revenue > Gross margin | Year Ended December 31, > 2016 > $: 64.0%
+Cost of revenue > Gross margin | Year Ended December 31, > 2015 > $: 64.9%

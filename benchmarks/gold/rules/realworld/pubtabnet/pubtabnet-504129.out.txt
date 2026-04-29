@@ -1,0 +1,60 @@
+Outcome: Gestational age at birth (weeks)*
+Number Trials: 2
+Number Participants: 26
+Relative Risk: 0.57
+95% Confidence Intervals: -1.36 to 2.51
+Outcome: Birth <37 weeks gestation
+Number Trials: 2
+Number Participants: 26
+Relative Risk: 0.80
+95% Confidence Intervals: 0.59 to 1.09
+Outcome: Birth <34 weeks gestation
+Number Trials: 2
+Number Participants: 26
+Relative Risk: 0.87
+95% Confidence Intervals: 0.36 to 2.08
+Outcome: Caesarean section
+Number Trials: 2
+Number Participants: 26
+Relative Risk: 1.18
+95% Confidence Intervals: 0.47 to 2.96
+Outcome: Maternal hypertension
+Number Trials: 2
+Number Participants: 26
+Relative Risk: 0.43
+95% Confidence Intervals: 0.11 to 1.72
+Outcome: Birth weight <2500 grams
+Number Trials: 2
+Number Participants: 75
+Relative Risk: 0.87
+95% Confidence Intervals: 0.36 to 2.08
+Outcome: Birth weight <1500 grams
+Number Trials: 2
+Number Participants: 75
+Relative Risk: 1.18
+95% Confidence Intervals: 0.47 to 2.96
+Outcome: Apgar score <7 at 5 mins
+Number Trials: 2
+Number Participants: 75
+Relative Risk: 0.43
+95% Confidence Intervals: 0.11 to 1.72
+Outcome: Neonatal unit admission
+Number Trials: 2
+Number Participants: 71
+Relative Risk: 0.90
+95% Confidence Intervals: 0.74 to 1.09
+Outcome: Neonatal stay >7 days
+Number Trials: 2
+Number Participants: 71
+Relative Risk: 1.39
+95% Confidence Intervals: 0.80 to 2.42
+Outcome: Perinatal Death
+Number Trials: 2
+Number Participants: 78
+Relative Risk: 2.71
+95% Confidence Intervals: 0.12 to 63.84
+Outcome: Neonatal Death
+Number Trials: 2
+Number Participants: 75
+Relative Risk: 0.19
+95% Confidence Intervals: 0.02 to 1.53

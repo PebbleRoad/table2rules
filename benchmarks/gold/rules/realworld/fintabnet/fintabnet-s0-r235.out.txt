@@ -1,0 +1,54 @@
+(Millions of dollars) | U.S. Pension Benefits: 2017
+(Millions of dollars) | U.S. Pension Benefits: 2016
+(Millions of dollars) | Non-U.S.Pension Benefits: 2017
+(Millions of dollars) | Non-U.S.Pension Benefits: 2016
+(Millions of dollars) | Other PostretirementBenefits: 2017
+(Millions of dollars) | Other PostretirementBenefits: 2016
+Change in plan assets: > Fair value of plan assets, beginning of year | U.S. Pension Benefits: $11,354
+Change in plan assets: > Fair value of plan assets, beginning of year | U.S. Pension Benefits: $11,440
+Change in plan assets: > Fair value of plan assets, beginning of year | Non-U.S.Pension Benefits: $3,887
+Change in plan assets: > Fair value of plan assets, beginning of year | Non-U.S.Pension Benefits: $3,890
+Change in plan assets: > Fair value of plan assets, beginning of year | Other PostretirementBenefits: $550
+Change in plan assets: > Fair value of plan assets, beginning of year | Other PostretirementBenefits: $650
+Change in plan assets: > Actual return on plan assets | U.S. Pension Benefits: 1,692
+Change in plan assets: > Actual return on plan assets | U.S. Pension Benefits: 860
+Change in plan assets: > Actual return on plan assets | Non-U.S.Pension Benefits: 350
+Change in plan assets: > Actual return on plan assets | Non-U.S.Pension Benefits: 503
+Change in plan assets: > Actual return on plan assets | Other PostretirementBenefits: 101
+Change in plan assets: > Actual return on plan assets | Other PostretirementBenefits: 55
+Change in plan assets: > Foreign currency exchange rates | U.S. Pension Benefits: —
+Change in plan assets: > Foreign currency exchange rates | U.S. Pension Benefits: —
+Change in plan assets: > Foreign currency exchange rates | Non-U.S.Pension Benefits: 278
+Change in plan assets: > Foreign currency exchange rates | Non-U.S.Pension Benefits: (392)
+Change in plan assets: > Foreign currency exchange rates | Other PostretirementBenefits: —
+Change in plan assets: > Foreign currency exchange rates | Other PostretirementBenefits: —
+Change in plan assets: > Company contributions | U.S. Pension Benefits: 1,350
+Change in plan assets: > Company contributions | U.S. Pension Benefits: 36
+Change in plan assets: > Company contributions | Non-U.S.Pension Benefits: 107
+Change in plan assets: > Company contributions | Non-U.S.Pension Benefits: 117
+Change in plan assets: > Company contributions | Other PostretirementBenefits: 155
+Change in plan assets: > Company contributions | Other PostretirementBenefits: 176
+Change in plan assets: > Participant contributions | U.S. Pension Benefits: —
+Change in plan assets: > Participant contributions | U.S. Pension Benefits: —
+Change in plan assets: > Participant contributions | Non-U.S.Pension Benefits: 6
+Change in plan assets: > Participant contributions | Non-U.S.Pension Benefits: 7
+Change in plan assets: > Participant contributions | Other PostretirementBenefits: 59
+Change in plan assets: > Participant contributions | Other PostretirementBenefits: 57
+Change in plan assets: > Benefits paid | U.S. Pension Benefits: (977)
+Change in plan assets: > Benefits paid | U.S. Pension Benefits: (970)
+Change in plan assets: > Benefits paid | Non-U.S.Pension Benefits: (203)
+Change in plan assets: > Benefits paid | Non-U.S.Pension Benefits: (238)
+Change in plan assets: > Benefits paid | Other PostretirementBenefits: (361)
+Change in plan assets: > Benefits paid | Other PostretirementBenefits: (388)
+Change in plan assets: > Settlements and termination benefits | U.S. Pension Benefits: (3)
+Change in plan assets: > Settlements and termination benefits | U.S. Pension Benefits: (12)
+Change in plan assets: > Settlements and termination benefits | Non-U.S.Pension Benefits: (120)
+Change in plan assets: > Settlements and termination benefits | Non-U.S.Pension Benefits: —
+Change in plan assets: > Settlements and termination benefits | Other PostretirementBenefits: —
+Change in plan assets: > Settlements and termination benefits | Other PostretirementBenefits: —
+Change in plan assets: > Fair value of plan assets, end of year | U.S. Pension Benefits: $13,416
+Change in plan assets: > Fair value of plan assets, end of year | U.S. Pension Benefits: $11,354
+Change in plan assets: > Fair value of plan assets, end of year | Non-U.S.Pension Benefits: $4,305
+Change in plan assets: > Fair value of plan assets, end of year | Non-U.S.Pension Benefits: $3,887
+Change in plan assets: > Fair value of plan assets, end of year | Other PostretirementBenefits: $504
+Change in plan assets: > Fair value of plan assets, end of year | Other PostretirementBenefits: $550

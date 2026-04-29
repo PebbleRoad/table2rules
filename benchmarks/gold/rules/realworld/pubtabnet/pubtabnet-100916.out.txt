@@ -1,0 +1,60 @@
+Symptom | Pulmonary: Definite/probable (N = 9)
+Symptom | Pulmonary: Possible (N = 2)
+Symptom | Hepatic: Definite/probable (N = 11)
+Symptom | Hepatic: Possible (N = 16)
+Asymptomatic | Pulmonary: 0
+Asymptomatic | Pulmonary: 0
+Asymptomatic | Hepatic: 2
+Asymptomatic | Hepatic: 2
+Weight loss | Pulmonary: 2
+Weight loss | Pulmonary: 2
+Weight loss | Hepatic: 1
+Weight loss | Hepatic: 2
+Pleuritic chest pain | Pulmonary: 7
+Pleuritic chest pain | Pulmonary: 2
+Pleuritic chest pain | Hepatic: 1
+Pleuritic chest pain | Hepatic: 2
+Cough | Pulmonary: 6
+Cough | Pulmonary: 2
+Cough | Hepatic: 1
+Cough | Hepatic: 4
+Hemoptysis | Pulmonary: 1
+Hemoptysis | Pulmonary: 1
+Hemoptysis | Hepatic: 0
+Hemoptysis | Hepatic: 1
+Dyspnea | Pulmonary: 5
+Dyspnea | Pulmonary: 1
+Dyspnea | Hepatic: 2
+Dyspnea | Hepatic: 4
+Abdominal pain | Pulmonary: 0
+Abdominal pain | Pulmonary: 0
+Abdominal pain | Hepatic: 9
+Abdominal pain | Hepatic: 9
+Fever | Pulmonary: 3
+Fever | Pulmonary: 0
+Fever | Hepatic: 4
+Fever | Hepatic: 5
+Night sweats | Pulmonary: 2
+Night sweats | Pulmonary: 0
+Night sweats | Hepatic: 1
+Night sweats | Hepatic: 2
+Anorexia | Pulmonary: 4
+Anorexia | Pulmonary: 0
+Anorexia | Hepatic: 1
+Anorexia | Hepatic: 4
+Malaise | Pulmonary: 2
+Malaise | Pulmonary: 1
+Malaise | Hepatic: 1
+Malaise | Hepatic: 2
+Jaundice | Pulmonary: 2
+Jaundice | Pulmonary: 0
+Jaundice | Hepatic: 1
+Jaundice | Hepatic: 2
+Chills | Pulmonary: 1
+Chills | Pulmonary: 0
+Chills | Hepatic: 3
+Chills | Hepatic: 1
+Vomiting | Pulmonary: 4
+Vomiting | Pulmonary: 0
+Vomiting | Hepatic: 2
+Vomiting | Hepatic: 4

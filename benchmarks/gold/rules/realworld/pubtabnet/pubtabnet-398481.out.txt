@@ -1,0 +1,45 @@
+Total screened | Men > 65–74: 2828
+Total screened | Men > 75+: 2329
+Total screened | Women > 65–74: 3506
+Total screened | Women > 75+: 4341
+Total screened | Total: 13004
+Non demented | Men > 65–74: 2750 (97%)
+Non demented | Men > 75+: 2107 (90%)
+Non demented | Women > 65–74: 3432 (98%)
+Non demented | Women > 75+: 3731 (87%)
+Non demented | Total: 12060 (93%)
+Demented | Men > 65–74: 78 (3%)
+Demented | Men > 75+: 222 (10%)
+Demented | Women > 65–74: 74 (2%)
+Demented | Women > 75+: 570 (13%)
+Demented | Total: 944 (7%)
+MMSE score † | Men > 65–74: 2807
+MMSE score † | Men > 75+: 2272
+MMSE score † | Women > 65–74: 3478
+MMSE score † | Women > 75+: 4123
+MMSE score † | Total: 12680
+Non-demented | Men > 65–74: 2735 (97%)
+Non-demented | Men > 75+: 2076 (91%)
+Non-demented | Women > 65–74: 3410 (98%)
+Non-demented | Women > 75+: 3664 (89%)
+Non-demented | Total: 11885 (94%)
+Demented | Men > 65–74: 72 (3%)
+Demented | Men > 75+: 196 (9%)
+Demented | Women > 65–74: 68 (2%)
+Demented | Women > 75+: 459 (11%)
+Demented | Total: 795 (6%)
+EMSE score ‡ | Men > 65–74: 2788
+EMSE score ‡ | Men > 75+: 2216
+EMSE score ‡ | Women > 65–74: 3455
+EMSE score ‡ | Women > 75+: 3935
+EMSE score ‡ | Total: 12394
+Non-demented | Men > 65–74: 2729 (98%)
+Non-demented | Men > 75+: 2062 (93%)
+Non-demented | Women > 65–74: 3400 (98%)
+Non-demented | Women > 75+: 3632 (92%)
+Non-demented | Total: 11823 (95%)
+Demented | Men > 65–74: 59 (2%)
+Demented | Men > 75+: 154 (7%)
+Demented | Women > 65–74: 55 (2%)
+Demented | Women > 75+: 303 (8%)
+Demented | Total: 571 (5%)

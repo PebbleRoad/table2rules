@@ -1,0 +1,102 @@
+3 | Nucleotide change: 268C>T
+3 | Effect on protein: His90Tyr
+3 | Carrier frequency > Familial cases: 12.7% (16/126)
+3 | Carrier frequency > Controls: 10.3% (31/300)
+3 | P: 0.50
+3 | Status a: Novel
+4 | Nucleotide change: 632T>C
+4 | Effect on protein: Met211Thr
+4 | Carrier frequency > Familial cases: 54.0% (68/126)
+4 | Carrier frequency > Controls: 47.3% (142/300)
+4 | P: 0.20
+4 | Status a: Reported
+Nucleotide change: 761A>G
+Effect on protein: Glu254Gly
+Carrier frequency > Familial cases: 0.8% (1/126)
+Carrier frequency > Controls: - (0/300)
+P: 0.30
+Status a: Novel
+Nucleotide change: 891G>C
+Effect on protein: Lys297Asn
+Carrier frequency > Familial cases: 1.6% (2/126)
+Carrier frequency > Controls: 2.3% (7/300)
+P: 1.00
+Status a: Reported
+8 | Nucleotide change: 1776T>A
+8 | Effect on protein: Gly592Gly
+8 | Carrier frequency > Familial cases: 50.8% (64/126)
+8 | Carrier frequency > Controls: 41.0% (41/100)
+8 | P: 0.18
+8 | Status a: Reported
+Nucleotide change: 1815T>C
+Effect on protein: Asp605Asp
+Carrier frequency > Familial cases: 46.8% (59/126)
+Carrier frequency > Controls: 49.0% (49/100)
+P: 0.79
+Status a: Reported
+14 | Nucleotide change: 2946C>T
+14 | Effect on protein: Phe982Phe
+14 | Carrier frequency > Familial cases: 0.8% (1/126)
+14 | Carrier frequency > Controls: 2.0% (6/300)
+14 | P: 0.68
+14 | Status a: Novel
+17 | Nucleotide change: 3424A>G
+17 | Effect on protein: Ser1142Gly
+17 | Carrier frequency > Familial cases: 1.6% (2/126)
+17 | Carrier frequency > Controls: - (0/300)
+17 | P: 0.09
+17 | Status a: Novel
+21 | Nucleotide change: 3893A>T
+21 | Effect on protein: Asp1297Val
+21 | Carrier frequency > Familial cases: 0.8% (1/126)
+21 | Carrier frequency > Controls: 1.0% (3/300)
+21 | P: 1.00
+21 | Status a: Novel
+26 | Nucleotide change: 4576A>G
+26 | Effect on protein: Ile1526Val
+26 | Carrier frequency > Familial cases: 4.0% (5/126)
+26 | Carrier frequency > Controls: 2.0% (6/300)
+26 | P: 0.31
+26 | Status a: Novel
+30 | Nucleotide change: 5208T>C
+30 | Effect on protein: Tyr1736Tyr
+30 | Carrier frequency > Familial cases: 23.8% (30/126)
+30 | Carrier frequency > Controls: 37.0% (37/100)
+30 | P: 0.03
+30 | Status a: Reported
+32 | Nucleotide change: 5459T>C
+32 | Effect on protein: Tyr1820Tyr
+32 | Carrier frequency > Familial cases: 26.2% (33/126)
+32 | Carrier frequency > Controls: 31.0% (31/100)
+32 | P: 0.43
+32 | Status a: Reported
+35 | Nucleotide change: 6023G>T
+35 | Effect on protein: Arg2008Leu
+35 | Carrier frequency > Familial cases: 0.8% (1/ 126)
+35 | Carrier frequency > Controls: 0.3% (1/300)
+35 | P: 0.51
+35 | Status a: Novel
+38 | Nucleotide change: 6394T>G
+38 | Effect on protein: Tyr2132Asp
+38 | Carrier frequency > Familial cases: 0.8% (1/126)
+38 | Carrier frequency > Controls: 0.3% (1/300)
+38 | P: 0.51
+38 | Status a: Novel
+43 | Nucleotide change: 7274G>A
+43 | Effect on protein: Arg2425Gln
+43 | Carrier frequency > Familial cases: 27.8% (35/126)
+43 | Carrier frequency > Controls: 24.0% (72/300)
+43 | P: 0.46
+43 | Status a: Reported
+Nucleotide change: 7303A>G
+Effect on protein: Ile2435Val
+Carrier frequency > Familial cases: 0.8% (1/126)
+Carrier frequency > Controls: 0.3% (1/300)
+P: 0.51
+Status a: Novel
+47 | Nucleotide change: 7875A>G
+47 | Effect on protein: Gln2625Gln
+47 | Carrier frequency > Familial cases: 27.0% (34/126)
+47 | Carrier frequency > Controls: 35.0% (35/100)
+47 | P: 0.19
+47 | Status a: Reported

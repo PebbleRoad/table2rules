@@ -1,0 +1,64 @@
+GenBank # > Name | LNCaP-R: Control ± SE
+GenBank # > Name | LNCaP-R: Treated ± SE
+GenBank # > Name | LNCaP-UR: Control ± SE
+GenBank # > Name | LNCaP-UR: Treated ± SE
+AA663884 > synaptosomal-associated protein | LNCaP-R: 15.18 ± 3.35
+AA663884 > synaptosomal-associated protein | LNCaP-R: 20.67 ± 9.33
+AA663884 > synaptosomal-associated protein | LNCaP-UR: 20.92 ± 1.07
+AA663884 > synaptosomal-associated protein | LNCaP-UR: 11.68 ± 0.61
+AA700604 > sorbitol dehydrogenase | LNCaP-R: 13.73 ± 3.23
+AA700604 > sorbitol dehydrogenase | LNCaP-R: 19.60 ± 6.50
+AA700604 > sorbitol dehydrogenase | LNCaP-UR: 21.08 ± 1.58
+AA700604 > sorbitol dehydrogenase | LNCaP-UR: 11.08 ± 1.39
+T73556 > fatty-acid-Coenzyme A ligase | LNCaP-R: 5.11 ± .34
+T73556 > fatty-acid-Coenzyme A ligase | LNCaP-R: 2.45 ± 0.74
+T73556 > fatty-acid-Coenzyme A ligase | LNCaP-UR: 3.94 ± 0.46
+T73556 > fatty-acid-Coenzyme A ligase | LNCaP-UR: 1.07 ± 0.25
+AA028987 > EST | LNCaP-R: 5.38 ± 6.95
+AA028987 > EST | LNCaP-R: 8.43 ± 5.68
+AA028987 > EST | LNCaP-UR: 6.22 ± 2.05
+AA028987 > EST | LNCaP-UR: 11.00 ± 3.74
+R98851 > membrane metallo-endopeptidase | LNCaP-R: 10.28 ± 5.90
+R98851 > membrane metallo-endopeptidase | LNCaP-R: 55.90 ± 30.2
+R98851 > membrane metallo-endopeptidase | LNCaP-UR: 79.29 ± 16.62
+R98851 > membrane metallo-endopeptidase | LNCaP-UR: 153.50 ± 56.07
+N68465 > UDP-N-acteylglucosamine pyrophosphorylase | LNCaP-R: 4.37 ± 3.73
+N68465 > UDP-N-acteylglucosamine pyrophosphorylase | LNCaP-R: 3.99 ± 1.44
+N68465 > UDP-N-acteylglucosamine pyrophosphorylase | LNCaP-UR: 12.47 ± 2.03
+N68465 > UDP-N-acteylglucosamine pyrophosphorylase | LNCaP-UR: 9.03 ± 2.41
+H84113 > retinal outer segment membrane 1 | LNCaP-R: 8.03 ± 2.06
+H84113 > retinal outer segment membrane 1 | LNCaP-R: 14.73 ± 4.93
+H84113 > retinal outer segment membrane 1 | LNCaP-UR: 9.79 ± 1.39
+H84113 > retinal outer segment membrane 1 | LNCaP-UR: 7.09 ± 0.65
+AA041499 > cell division cycle 4-like | LNCaP-R: 11.66 ± 7.07
+AA041499 > cell division cycle 4-like | LNCaP-R: 10.67 ± 1.84
+AA041499 > cell division cycle 4-like | LNCaP-UR: 3.47 ± 0.44
+AA041499 > cell division cycle 4-like | LNCaP-UR: 3.64 ± 1.14
+AA456695 > H2B histone family, member Q | LNCaP-R: 4.67 ± 3.02
+AA456695 > H2B histone family, member Q | LNCaP-R: 4.23 ± 1.14
+AA456695 > H2B histone family, member Q | LNCaP-UR: 2.56 ± 0.27
+AA456695 > H2B histone family, member Q | LNCaP-UR: 4.67 ± 1.13
+R82299 > S-adenosylmethionine decarboxylase 1 | LNCaP-R: 8.35 ± 2.23
+R82299 > S-adenosylmethionine decarboxylase 1 | LNCaP-R: 14.84 ± 4.06
+R82299 > S-adenosylmethionine decarboxylase 1 | LNCaP-UR: 11.11 ± 2.19
+R82299 > S-adenosylmethionine decarboxylase 1 | LNCaP-UR: 6.98 ± 0.51
+AA063521 > BCL2/adenovirus E1B 19 kD | LNCaP-R: 3.59 ± 3.34
+AA063521 > BCL2/adenovirus E1B 19 kD | LNCaP-R: 13.14 ± 3.94
+AA063521 > BCL2/adenovirus E1B 19 kD | LNCaP-UR: 6.76 ± 1.79
+AA063521 > BCL2/adenovirus E1B 19 kD | LNCaP-UR: 12.46 ± 2.32
+AA419164 > retinoic acid receptor, beta | LNCaP-R: 9.90 ± 3.40
+AA419164 > retinoic acid receptor, beta | LNCaP-R: 11.14 ± 2.23
+AA419164 > retinoic acid receptor, beta | LNCaP-UR: 7.44 ± 0.98
+AA419164 > retinoic acid receptor, beta | LNCaP-UR: 5.01 ± 0.46
+AA459039 > serine protease inhibitor, Kunitz type, | LNCaP-R: 2.89 ± 2.90
+AA459039 > serine protease inhibitor, Kunitz type, | LNCaP-R: 10.44 ± 1.46
+AA459039 > serine protease inhibitor, Kunitz type, | LNCaP-UR: 6.28 ± 0.99
+AA459039 > serine protease inhibitor, Kunitz type, | LNCaP-UR: 9.94 ± 1.44
+AA489752 > cyclin G2 | LNCaP-R: 2.86 ± 2.67
+AA489752 > cyclin G2 | LNCaP-R: 10.97 ± 1.10
+AA489752 > cyclin G2 | LNCaP-UR: 6.92 ± 1.62
+AA489752 > cyclin G2 | LNCaP-UR: 15.14 ± 4.80
+AA412053 > CD9 antigen (p24) | LNCaP-R: 4.80 ± 1.05
+AA412053 > CD9 antigen (p24) | LNCaP-R: 8.78 ± 2.72
+AA412053 > CD9 antigen (p24) | LNCaP-UR: 5.44 ± 0.96
+AA412053 > CD9 antigen (p24) | LNCaP-UR: 6.12 ± 0.84

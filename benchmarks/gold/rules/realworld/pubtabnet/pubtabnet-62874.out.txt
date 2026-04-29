@@ -1,0 +1,30 @@
+≤ 18 | Total cost* per inpatient > n §: 75
+≤ 18 | Total cost* per inpatient > Mean (SE † ): 320 (32.42)
+≤ 18 | Total cost* per inpatient > Median cost: 319
+≤ 18 | Total cost* per outpatient > n §: 224
+≤ 18 | Total cost* per outpatient > Mean (SE † ): 92 (8.64)
+≤ 18 | Total cost* per outpatient > Median cost: 97
+19 – 26 | Total cost* per inpatient > n §: 85
+19 – 26 | Total cost* per inpatient > Mean (SE † ): 303 (6.72)
+19 – 26 | Total cost* per inpatient > Median cost: 304
+19 – 26 | Total cost* per outpatient > n §: 17
+19 – 26 | Total cost* per outpatient > Mean (SE † ): 96 (4.75)
+19 – 26 | Total cost* per outpatient > Median cost: 97
+27 – 34 | Total cost* per inpatient > n §: 25
+27 – 34 | Total cost* per inpatient > Mean (SE † ): 302 (11.25)
+27 – 34 | Total cost* per inpatient > Median cost: 304
+27 – 34 | Total cost* per outpatient > n §: 5
+27 – 34 | Total cost* per outpatient > Mean (SE † ): 111 (11.60)
+27 – 34 | Total cost* per outpatient > Median cost: 111
+≥ 35 | Total cost* per inpatient > n §: 15
+≥ 35 | Total cost* per inpatient > Mean (SE † ): 290 (12.88)
+≥ 35 | Total cost* per inpatient > Median cost: 292
+≥ 35 | Total cost* per outpatient > n §: 5
+≥ 35 | Total cost* per outpatient > Mean (SE † ): 93 (12.95)
+≥ 35 | Total cost* per outpatient > Median cost: 101
+All | Total cost* per inpatient > n §: 200
+All | Total cost* per inpatient > Mean (SE † ): 308.3 (4.90)
+All | Total cost* per inpatient > Median cost: 304
+All | Total cost* per outpatient > n §: 251
+All | Total cost* per outpatient > Mean (SE † ): 94 (4.28)
+All | Total cost* per outpatient > Median cost: 98

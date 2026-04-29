@@ -1,0 +1,68 @@
+Age mean (SD and/or range) years: Treatment group
+Age mean (SD and/or range) years: Control group
+Female:male (% female): Treatment group
+Female:male (% female): Control group
+Mean BMI (SD): Treatment group
+Author: Abt et al [21]
+Age mean (SD and/or range) years: 56.5
+Age mean (SD and/or range) years: 57.4
+Female:male (% female): 11:6 (64.7)
+Female:male (% female): 9:6 (60)
+Mean BMI (SD): 30.1
+Author: Buch et al [27]
+Age mean (SD and/or range) years: 50.4 (10.3, 26–69)
+Age mean (SD and/or range) years: 53.0 (9.7, 31–72)
+Female:male (% female): 61:14 (81.3)
+Female:male (% female): 46:26 (63.9)
+Mean BMI (SD): 28.9
+Author: Buchbinder et al [10]
+Age mean (SD and/or range) years: 52.2 (12.8)
+Age mean (SD and/or range) years: 54.2 (12.0)
+Female:male (% female): 46:3 (57.5)
+Female:male (% female): 47:3 (58.0)
+Mean BMI (SD): 29.5
+Author: Cosentino et al [33]
+Age mean (SD and/or range) years: 55.6 (45–68)
+Female:male (% female): 18:12 (60.0)
+Female:male (% female): 25:5 (83.3)
+Mean BMI (SD): N/a
+Author: Haake et al [11]
+Age mean (SD and/or range) years: 53.1 (10.8)
+Age mean (SD and/or range) years: 52.9 (10.8)
+Female:male (% female): 98:37 (72.6)
+Female:male (% female): 106:30 (77.9)
+Mean BMI (SD): 29.4 (4.9)
+Author: Krischek et al [22]
+Age mean (SD and/or range) years: 54.0
+Age mean (SD and/or range) years: 55.0
+Female:male (% female): (56.0)
+Female:male (% female): (72.0)
+Mean BMI (SD): N/a
+Author: Ogden et al [28]
+Age mean (SD and/or range) years: 49.6 (20–79)
+Female:male (% female): 171 (65.9)
+Mean BMI (SD): N/a
+Author: Rompe et al [32]
+Age mean (SD and/or range) years: 44.0 (26–61)
+Age mean (SD and/or range) years: 49.0 (31–63)
+Female:male (% female): 21:29 (42.0)
+Female:male (% female): 20:30 (40.)
+Mean BMI (SD): N/a
+Author: Rompe et al [30]
+Age mean (SD and/or range) years: 47.0 (26–61)
+Age mean (SD and/or range) years: 51.0 (31–58)
+Female:male (% female): 5:10 (33.3)
+Female:male (% female): 6:9 (40)
+Mean BMI (SD): N/a
+Author: Rompe et al [31]
+Age mean (SD and/or range) years: 43.0 (32–59)
+Age mean (SD and/or range) years: 40.0 (30–61)
+Female:male (% female): 10:12 (45.5)
+Female:male (% female): 13:10 (56.5)
+Mean BMI (SD): N/a
+Author: Speed et al [12]
+Age mean (SD and/or range) years: 51.7 (25–76)
+Age mean (SD and/or range) years: 52.5 (30–73)
+Female:male (% female): 26:20 (56.5)
+Female:male (% female): 25:17 (59.5)
+Mean BMI (SD): N/a

@@ -1,0 +1,135 @@
+Patient no.: 1
+B27: +
+Disease: ReA
+Sex: Male
+Age (years): 18
+Disease duration: 5 months
+Chlamydia in urine (PCR): +
+Synovial T cell proliferation: Chlamydia trachomatis
+Antibodies: n.d.
+Patient no.: 2
+B27: +
+Disease: ReA
+Sex: Male
+Age (years): 20
+Disease duration: 2 months
+Chlamydia in urine (PCR): +
+Synovial T cell proliferation: Chlamydia trachomatis
+Antibodies: n.d.
+Patient no.: 3
+B27: +
+Disease: ReA
+Sex: Male
+Age (years): 32
+Disease duration: 5 months
+Chlamydia in urine (PCR): +
+Synovial T cell proliferation: Chlamydia trachomatis
+Antibodies: +
+Patient no.: 4
+B27: +
+Disease: ReA
+Sex: Male
+Age (years): 34
+Disease duration: 3 months
+Chlamydia in urine (PCR): +
+Synovial T cell proliferation: Chlamydia trachomatis
+Antibodies: n.d.
+Patient no.: 5
+B27: +
+Disease: ReA
+Sex: Male
+Age (years): 20
+Disease duration: 1 month
+Chlamydia in urine (PCR): +
+Synovial T cell proliferation: n.d.
+Antibodies: +
+Patient no.: 6
+B27: +
+Disease: ReA
+Sex: Male
+Age (years): 26
+Disease duration: 1 month
+Chlamydia in urine (PCR): +
+Synovial T cell proliferation: Chlamydia trachomatis
+Antibodies: +
+Patient no.: 7
+B27: -
+Disease: ReA
+Sex: Male
+Age (years): 56
+Disease duration: 1 month
+Chlamydia in urine (PCR): +
+Synovial T cell proliferation: Chlamydia trachomatis
+Antibodies: n.d.
+Patient no.: 8
+B27: -
+Disease: ReA
+Sex: Male
+Age (years): 43
+Disease duration: 3 months
+Chlamydia in urine (PCR): +
+Synovial T cell proliferation: Chlamydia trachomatis
+Antibodies: n.d.
+Patient no.: 9
+B27: -
+Disease: ReA
+Sex: Female
+Age (years): 32
+Disease duration: 6 months
+Chlamydia in urine (PCR): +
+Synovial T cell proliferation: Chlamydia trachomatis
+Antibodies: n.d.
+Patient no.: 10
+B27: +
+Disease: Chronic ReA
+Sex: Male
+Age (years): 20
+Disease duration: 7 years
+Chlamydia in urine (PCR): -
+Synovial T cell proliferation: Enterobacteria
+Antibodies: n.d.
+Patient no.: 11
+B27: +
+Disease: ReA
+Sex: Male
+Age (years): 47
+Disease duration: 3 weeks
+Chlamydia in urine (PCR): -
+Synovial T cell proliferation: Enterobacteria
+Antibodies: n.d.
+Patient no.: 12
+B27: +
+Disease: ReA
+Sex: Female
+Age (years): 49
+Disease duration: 6 months
+Chlamydia in urine (PCR): -
+Synovial T cell proliferation: Enterobacteria
+Antibodies: n.d.
+Patient no.: 13
+B27: n.d.
+Disease: RA
+Sex: Female
+Age (years): 67
+Disease duration: 10 years
+Chlamydia in urine (PCR): n.d.
+Synovial T cell proliferation: n.d.
+Antibodies: n.d.
+Patient no.: 14
+B27: n.d.
+Disease: RA
+Sex: Female
+Age (years): 49
+Disease duration: >1 year
+Chlamydia in urine (PCR): n.d.
+Synovial T cell proliferation: n.d.
+Antibodies: n.d.
+Patient no.: 15
+B27: n.d.
+Disease: RA
+Sex: Female
+Age (years): 62
+Disease duration: 14 years
+Chlamydia in urine (PCR): n.d.
+Synovial T cell proliferation: n.d.
+Antibodies: n.d.

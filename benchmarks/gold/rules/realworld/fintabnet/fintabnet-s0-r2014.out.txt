@@ -1,0 +1,56 @@
+Greater China | RevPAR > 2016: $89.17
+Greater China | RevPAR > Change vs. 2015: 0.4%
+Greater China | Occupancy > 2016: 67.5%
+Greater China | Occupancy > Change vs. 2015: 3.7%
+Greater China | Occupancy > Change vs. 2015: pts.
+Greater China | Average Daily Rate > 2016: $132.16
+Greater China | Average Daily Rate > Change vs. 2015: (5.1)%
+Rest of Asia Pacific | RevPAR > 2016: $112.69
+Rest of Asia Pacific | RevPAR > Change vs. 2015: 3.7%
+Rest of Asia Pacific | Occupancy > 2016: 75.2%
+Rest of Asia Pacific | Occupancy > Change vs. 2015: 3.0%
+Rest of Asia Pacific | Occupancy > Change vs. 2015: pts.
+Rest of Asia Pacific | Average Daily Rate > 2016: $149.80
+Rest of Asia Pacific | Average Daily Rate > Change vs. 2015: (0.5)%
+Asia Pacific | RevPAR > 2016: $97.08
+Asia Pacific | RevPAR > Change vs. 2015: 1.6%
+Asia Pacific | Occupancy > 2016: 70.1%
+Asia Pacific | Occupancy > Change vs. 2015: 3.4%
+Asia Pacific | Occupancy > Change vs. 2015: pts.
+Asia Pacific | Average Daily Rate > 2016: $138.52
+Asia Pacific | Average Daily Rate > Change vs. 2015: (3.4)%
+Caribbean & Latin America | RevPAR > 2016: $139.69
+Caribbean & Latin America | RevPAR > Change vs. 2015: 0.4%
+Caribbean & Latin America | Occupancy > 2016: 65.3%
+Caribbean & Latin America | Occupancy > Change vs. 2015: (0.9)%
+Caribbean & Latin America | Occupancy > Change vs. 2015: pts.
+Caribbean & Latin America | Average Daily Rate > 2016: $213.99
+Caribbean & Latin America | Average Daily Rate > Change vs. 2015: 1.8%
+Europe | RevPAR > 2016: $124.87
+Europe | RevPAR > Change vs. 2015: 0.8%
+Europe | Occupancy > 2016: 71.8%
+Europe | Occupancy > Change vs. 2015: (0.5)%
+Europe | Occupancy > Change vs. 2015: pts.
+Europe | Average Daily Rate > 2016: $173.84
+Europe | Average Daily Rate > Change vs. 2015: 1.5%
+Middle East & Africa | RevPAR > 2016: $106.49
+Middle East & Africa | RevPAR > Change vs. 2015: (3.8)%
+Middle East & Africa | Occupancy > 2016: 64.6%
+Middle East & Africa | Occupancy > Change vs. 2015: 0.6%
+Middle East & Africa | Occupancy > Change vs. 2015: pts.
+Middle East & Africa | Average Daily Rate > 2016: $164.90
+Middle East & Africa | Average Daily Rate > Change vs. 2015: (4.8)%
+International - All (1) | RevPAR > 2016: $109.05
+International - All (1) | RevPAR > Change vs. 2015: 0.3%
+International - All (1) | Occupancy > 2016: 69.2%
+International - All (1) | Occupancy > Change vs. 2015: 1.6%
+International - All (1) | Occupancy > Change vs. 2015: pts.
+International - All (1) | Average Daily Rate > 2016: $157.69
+International - All (1) | Average Daily Rate > Change vs. 2015: (2.1)%
+Worldwide (2) | RevPAR > 2016: $128.37
+Worldwide (2) | RevPAR > Change vs. 2015: 1.6%
+Worldwide (2) | Occupancy > 2016: 72.5%
+Worldwide (2) | Occupancy > Change vs. 2015: 1.1%
+Worldwide (2) | Occupancy > Change vs. 2015: pts.
+Worldwide (2) | Average Daily Rate > 2016: $177.11
+Worldwide (2) | Average Daily Rate > Change vs. 2015: 0.1%

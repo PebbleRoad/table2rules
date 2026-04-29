@@ -1,0 +1,64 @@
+Possum Mortality Risk (R1) > (%): 0–10
+patients > n: 21
+expected death > n: 1
+observed death outcome = 4 > n: 0
+observed death outcome = 4 > %: 0
+Observed morbidity and death outcome = 3+4 > n: 3
+Observed morbidity and death outcome = 3+4 > %: 14,3
+Possum Mortality Risk (R1) > (%): 38675
+patients > n: 51
+expected death > n: 7
+observed death outcome = 4 > n: 1
+observed death outcome = 4 > %: 2,0
+Observed morbidity and death outcome = 3+4 > n: 7
+Observed morbidity and death outcome = 3+4 > %: 13,7
+low risk | Possum Mortality Risk (R1) > (%): 0 – 20
+low risk | patients > n: 72
+low risk | observed death outcome = 4 > n: 1
+low risk | observed death outcome = 4 > %: 1, 0
+low risk | Observed morbidity and death outcome = 3+4 > n: 10
+low risk | Observed morbidity and death outcome = 3+4 > %: 13, 9
+Possum Mortality Risk (R1) > (%): 21–30
+patients > n: 38
+expected death > n: 9
+observed death outcome = 4 > n: 3
+observed death outcome = 4 > %: 7,8
+Observed morbidity and death outcome = 3+4 > n: 9
+Observed morbidity and death outcome = 3+4 > %: 23,7
+Possum Mortality Risk (R1) > (%): 31–40
+patients > n: 19
+expected death > n: 6
+observed death outcome = 4 > n: 2
+observed death outcome = 4 > %: 10,5
+Observed morbidity and death outcome = 3+4 > n: 4
+Observed morbidity and death outcome = 3+4 > %: 21,1
+med risk | Possum Mortality Risk (R1) > (%): 21–40
+med risk | patients > n: 57
+med risk | observed death outcome = 4 > n: 5
+med risk | observed death outcome = 4 > %: 8, 8
+med risk | Observed morbidity and death outcome = 3+4 > n: 13
+med risk | Observed morbidity and death outcome = 3+4 > %: 22, 8
+Possum Mortality Risk (R1) > (%): 41–60
+patients > n: 4
+expected death > n: 1
+observed death outcome = 4 > n: 1
+observed death outcome = 4 > %: 25,0
+Observed morbidity and death outcome = 3+4 > n: 1
+Observed morbidity and death outcome = 3+4 > %: 25,0
+Possum Mortality Risk (R1) > (%): 71–100
+patients > n: 4
+expected death > n: 2
+observed death outcome = 4 > n: 1
+observed death outcome = 4 > %: 25,0
+Observed morbidity and death outcome = 3+4 > n: 3
+Observed morbidity and death outcome = 3+4 > %: 75,0
+high risk | Possum Mortality Risk (R1) > (%): > 40
+high risk | patients > n: 8
+high risk | observed death outcome = 4 > n: 2
+high risk | observed death outcome = 4 > %: 25, 0
+high risk | Observed morbidity and death outcome = 3+4 > n: 4
+high risk | Observed morbidity and death outcome = 3+4 > %: 50, 0
+total | patients > n: 137
+total | expected death > n: 29
+total | observed death outcome = 4 > n: 8
+total | Observed morbidity and death outcome = 3+4 > n: 27

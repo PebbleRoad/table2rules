@@ -1,0 +1,43 @@
+MM | Normotensives > Male: 2.77 ± 1.69 (15)
+MM | Normotensives > Female: 2.54 ± 1.24 (44)
+MM | Hypertensives > Male: 3.68 ± 2.14 (13)
+MM | Hypertensives > Female: 3.29 ± 2.97 (20)
+MM | Total > Male: 3.19 ± 1.93 (28)
+MM | Total > Female: 2.77 ± 1.96 (64)
+MM | p *: 0.118 a
+MT | Normotensives > Male: 3.16 ± 1.29 (6)
+MT | Normotensives > Female: 2.65 ± 1.24 (12)
+MT | Hypertensives > Male: 3.88 ± 2.90 (13)
+MT | Hypertensives > Female: 3.95 ± 2.51 (33)
+MT | Total > Male: 3.65 ± 2.49 (19)
+MT | Total > Female: 3.61 ± 2.31 (45)
+MT | p *: 0.292 e
+TT | Normotensives > Male: 1.47 ± 1.38 (2)
+TT | Normotensives > Female: 2.08 ± 1.28 (8)
+TT | Hypertensives > Male: 2.56 ± 1.47 (7)
+TT | Hypertensives > Female: 4.45 ± 2.34 (15)
+TT | Total > Male: 2.32 ± 1.45 (9)
+TT | Total > Female: 3.63 ± 2.31 (23)
+TT | p *: 0.129 f
+Total | Normotensives > Male: 2.76 ± 1.57 (23)
+Total | Normotensives > Female: 2.50 ± 1.24 (64)
+Total | Hypertensives > Male: 3.52 ± 2.35 (33)
+Total | Hypertensives > Female: 3.87 ± 2.62 (68)
+Total | Total > Male: 3.21 ± 2.09 (56)
+Total | Total > Female: 3.21 ± 2.17 (132)
+Normotensives > Male: 2.57 ± 1.32 (87)
+Normotensives > Female: 2.57 ± 1.32 (87)
+Hypertensives > Male: 3.75 ± 2.53 (101)
+Hypertensives > Female: 3.75 ± 2.53 (101)
+Total > Male: 3.21 ± 2.14 (188)
+Total > Female: 3.21 ± 2.14 (188)
+p § | Normotensives > Male: 0.434 b
+p § | Normotensives > Female: 0.434 b
+p § | Hypertensives > Male: 0.521 c
+p § | Hypertensives > Female: 0.521 c
+p § | Total > Male: 0.997 d
+p § | Total > Female: 0.997 d
+Normotensives > Male: <0.001 g
+Normotensives > Female: <0.001 g
+Hypertensives > Male: <0.001 g
+Hypertensives > Female: <0.001 g

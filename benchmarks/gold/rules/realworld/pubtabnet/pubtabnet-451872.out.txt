@@ -1,0 +1,60 @@
+Search Strategy OVID search*: Top 3-performing combination of terms with best Sensitivity
+Sensitivity (%) (n = 215): Top 3-performing combination of terms with best Sensitivity
+Specificity (%) (n = 27,554): Top 3-performing combination of terms with best Sensitivity
+Precision (%)†: Top 3-performing combination of terms with best Sensitivity
+Accuracy (%) (n = 27,769): Top 3-performing combination of terms with best Sensitivity
+Search Strategy OVID search*: risk:.mp.OR exp methodologyOR exp epidemiology
+Sensitivity (%) (n = 215): 91.6 (87.9 to 95.3)
+Specificity (%) (n = 27,554): 60.9 (60.3 to 61.4)
+Precision (%)†: 1.8 (1.6 to 2.0)
+Accuracy (%) (n = 27,769): 61.1 (60.5 to 61.7)
+Search Strategy OVID search*: risk:.tw.OR exp methodologyOR exp epidemiology
+Sensitivity (%) (n = 215): 91.2 (87.4 to 95.0)
+Specificity (%) (n = 27,554): 63.0 (62.4 to 63.6)
+Precision (%)†: 1.9 (1.6 to 2.2)
+Accuracy (%) (n = 27,769): 63.2 (62.6 to 63.8)
+Search Strategy OVID search*: risk:.mp.OR exp methodologyOR exp mortality
+Sensitivity (%) (n = 215): 90.7 (86.8 to 94.6)
+Specificity (%) (n = 27,554): 65.1 (64.5 to 65.7)
+Precision (%)†: 2.0 (1.7 to 2.3)
+Accuracy (%) (n = 27,769): 65.3 (64.7 to 65.8)
+Search Strategy OVID search*: Top 3-performing combination of terms with best Specificity
+Sensitivity (%) (n = 215): Top 3-performing combination of terms with best Specificity
+Specificity (%) (n = 27,554): Top 3-performing combination of terms with best Specificity
+Precision (%)†: Top 3-performing combination of terms with best Specificity
+Accuracy (%) (n = 27,769): Top 3-performing combination of terms with best Specificity
+Search Strategy OVID search*: cohort.tw.OR relative risk:.tw.
+Sensitivity (%) (n = 215): 53.0 (46.4 to 59.7)
+Specificity (%) (n = 27,554): 94.6 (94.4 to 94.9)
+Precision (%)†: 7.1 (5.9 to 8.4)
+Accuracy (%) (n = 27,769): 94.3 (94.0 to 94.6)
+Search Strategy OVID search*: confidence interval.tw.OR relative risk:.tw.
+Sensitivity (%) (n = 215): 50.7 (44.0 to 57.4)
+Specificity (%) (n = 27,554): 94.5 (94.2 to 94.7)
+Precision (%)†: 6.7 (5.4 to 7.9)
+Accuracy (%) (n = 27,769): 94.1 (93.8 to 94.4)
+Search Strategy OVID search*: OR relative risk:.tw.OR cohort:.tw.
+Sensitivity (%) (n = 215): 53.5 (46.8 to 60.2)
+Specificity (%) (n = 27,554): 94.4 (94.1 to 94.6)
+Precision (%)†: 6.9 (5.7 to 8.1)
+Accuracy (%) (n = 27,769): 94.1 (93.8 to 94.3)
+Search Strategy OVID search*: Top 3-performing combination of terms with best optimization of Sensitivity and Specificity
+Sensitivity (%) (n = 215): Top 3-performing combination of terms with best optimization of Sensitivity and Specificity
+Specificity (%) (n = 27,554): Top 3-performing combination of terms with best optimization of Sensitivity and Specificity
+Precision (%)†: Top 3-performing combination of terms with best optimization of Sensitivity and Specificity
+Accuracy (%) (n = 27,769): Top 3-performing combination of terms with best optimization of Sensitivity and Specificity
+Search Strategy OVID search*: risk.tw.OR mortalit:.tw,OR cohort.tw.
+Sensitivity (%) (n = 215): 81.9 (76.7 to 87.0)
+Specificity (%) (n = 27,554): 81.4 (80.9 to 81.8)
+Precision (%)†: 3.3 (2.8 to 3.8)
+Accuracy (%) (n = 27,769): 81.4 (80.9 to 81.8)
+Search Strategy OVID search*: risk:.tw.OR cohort:.mp.OR confidence interval:.tw.
+Sensitivity (%) (n = 215): 81.9 (76.7 to 87.0)
+Specificity (%) (n = 27,554): 81.2 (80.8 to 81.7)
+Precision (%)†: 3.3 (2.8 to 3.8)
+Accuracy (%) (n = 27,769): 81.3 (80.8 to 81.7)
+Search Strategy OVID search*: risk.tw.OR mortalit:.tw.OR cohort:.tw
+Sensitivity (%) (n = 215): 81.9 (76.7 to 87.0)
+Specificity (%) (n = 27,554): 81.2 (80.8 to 81.7)
+Precision (%)†: 3.3 (2.8 to 3.8)
+Accuracy (%) (n = 27,769): 81.2 (80.8 to 81.7)

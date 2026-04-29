@@ -1,0 +1,99 @@
+PaO 2 /FiO 2 | Foam mattress > Baseline: 142 ± 63
+PaO 2 /FiO 2 | Foam mattress > PP, 1 h: 178 ± 73
+PaO 2 /FiO 2 | Foam mattress > PP, 6 h: 217 ± 69*
+PaO 2 /FiO 2 | Specialist mattress > Baseline: 143 ± 44
+PaO 2 /FiO 2 | Specialist mattress > PP, 1 h: 206 ± 127*
+PaO 2 /FiO 2 | Specialist mattress > PP, 6 h: 243 ± 80*
+PaO 2 /FiO 2 | ANOVA > Time: P < 0.001
+PaO 2 /FiO 2 | ANOVA > Group: NS
+PaO 2 /FiO 2 | ANOVA > Interaction: NS
+PaO 2 (mmHg) | Foam mattress > Baseline: 45 ± 9
+PaO 2 (mmHg) | Foam mattress > PP, 1 h: 44 ± 9
+PaO 2 (mmHg) | Foam mattress > PP, 6 h: 44 ± 1 0
+PaO 2 (mmHg) | Specialist mattress > Baseline: 45 ± 6
+PaO 2 (mmHg) | Specialist mattress > PP, 1 h: 46 ± 10
+PaO 2 (mmHg) | Specialist mattress > PP, 6 h: 44 ± 11
+PaO 2 (mmHg) | ANOVA > Time: NS
+PaO 2 (mmHg) | ANOVA > Group: NS
+PaO 2 (mmHg) | ANOVA > Interaction: NS
+Q VA /Q T (%) | Foam mattress > Baseline: 37 ± 8
+Q VA /Q T (%) | Foam mattress > PP, 1 h: 37 ± 9
+Q VA /Q T (%) | Foam mattress > PP, 6 h: 35 ± 9*
+Q VA /Q T (%) | Specialist mattress > Baseline: 37 ± 8
+Q VA /Q T (%) | Specialist mattress > PP, 1 h: 36 ± 10
+Q VA /Q T (%) | Specialist mattress > PP, 6 h: 34 ± 10*
+Q VA /Q T (%) | ANOVA > Time: P < 0.05
+Q VA /Q T (%) | ANOVA > Group: NS
+Q VA /Q T (%) | ANOVA > Interaction: NS
+Paw (cmH 2 O) | Foam mattress > Baseline: 18 ± 3.5
+Paw (cmH 2 O) | Foam mattress > PP, 1 h: 18.2 ± 3
+Paw (cmH 2 O) | Foam mattress > PP, 6 h: 18 ± 3
+Paw (cmH 2 O) | Specialist mattress > Baseline: 19 ± 4
+Paw (cmH 2 O) | Specialist mattress > PP, 1 h: 19 ± 4
+Paw (cmH 2 O) | Specialist mattress > PP, 6 h: 18.4 ± 4
+Paw (cmH 2 O) | ANOVA > Time: NS
+Paw (cmH 2 O) | ANOVA > Group: NS
+Paw (cmH 2 O) | ANOVA > Interaction: NS
+Cst (ml/cmH 2 O) | Foam mattress > Baseline: 38.4 ± 10
+Cst (ml/cmH 2 O) | Foam mattress > PP, 1 h: 35.4 ± 8*
+Cst (ml/cmH 2 O) | Foam mattress > PP, 6 h: 37.1 ± 9
+Cst (ml/cmH 2 O) | Specialist mattress > Baseline: 38.6 ± 11
+Cst (ml/cmH 2 O) | Specialist mattress > PP, 1 h: 35.8 ± 8*
+Cst (ml/cmH 2 O) | Specialist mattress > PP, 6 h: 37 ± 8
+Cst (ml/cmH 2 O) | ANOVA > Time: P = 0.007
+Cst (ml/cmH 2 O) | ANOVA > Group: NS
+Cst (ml/cmH 2 O) | ANOVA > Interaction: NS
+MPAP (mmHg) | Foam mattress > Baseline: 27 ± 4
+MPAP (mmHg) | Foam mattress > PP, 1 h: 32 ± 7
+MPAP (mmHg) | Foam mattress > PP, 6 h: 30 ± 6
+MPAP (mmHg) | Specialist mattress > Baseline: 27 ± 4
+MPAP (mmHg) | Specialist mattress > PP, 1 h: 31 ± 7
+MPAP (mmHg) | Specialist mattress > PP, 6 h: 32 ± 7
+MPAP (mmHg) | ANOVA > Time: NS
+MPAP (mmHg) | ANOVA > Group: NS
+MPAP (mmHg) | ANOVA > Interaction: NS
+PAOP (mmHg) | Foam mattress > Baseline: 12.2 ± 3.0
+PAOP (mmHg) | Foam mattress > PP, 1 h: 16.7 ± 4.0*
+PAOP (mmHg) | Foam mattress > PP, 6 h: 15.7 ± 4.0*
+PAOP (mmHg) | Specialist mattress > Baseline: 12.5 ± 5.0
+PAOP (mmHg) | Specialist mattress > PP, 1 h: 15.8 ± 4.0*
+PAOP (mmHg) | Specialist mattress > PP, 6 h: 15.9 ± 4.0*
+PAOP (mmHg) | ANOVA > Time: P = 0.02
+PAOP (mmHg) | ANOVA > Group: NS
+PAOP (mmHg) | ANOVA > Interaction: NS
+CVP (mmHg) | Foam mattress > Baseline: 9.6 ± 4.1
+CVP (mmHg) | Foam mattress > PP, 1 h: 13.7 ± 4
+CVP (mmHg) | Foam mattress > PP, 6 h: 13.1 ± 5
+CVP (mmHg) | Specialist mattress > Baseline: 9.4 ± 6
+CVP (mmHg) | Specialist mattress > PP, 1 h: 13 ± 5.0
+CVP (mmHg) | Specialist mattress > PP, 6 h: 13.5 ± 5.0
+CVP (mmHg) | ANOVA > Time: P = 0.02
+CVP (mmHg) | ANOVA > Group: NS
+CVP (mmHg) | ANOVA > Interaction: NS
+CI (l/min per m 2 ) | Foam mattress > Baseline: 4.3 ± 1.1
+CI (l/min per m 2 ) | Foam mattress > PP, 1 h: 4.3 ± 1.2
+CI (l/min per m 2 ) | Foam mattress > PP, 6 h: 4 ± 0.9
+CI (l/min per m 2 ) | Specialist mattress > Baseline: 4.5 ± 0.9
+CI (l/min per m 2 ) | Specialist mattress > PP, 1 h: 4.1 ± 1.3
+CI (l/min per m 2 ) | Specialist mattress > PP, 6 h: 4.1 ± 0.9
+CI (l/min per m 2 ) | ANOVA > Time: NS
+CI (l/min per m 2 ) | ANOVA > Group: NS
+CI (l/min per m 2 ) | ANOVA > Interaction: NS
+EVLWI (ml/kg per m 2 ) | Foam mattress > Baseline: 11.2 ± 6.0
+EVLWI (ml/kg per m 2 ) | Foam mattress > PP, 1 h: 11.1 ± 6.2
+EVLWI (ml/kg per m 2 ) | Foam mattress > PP, 6 h: 10 ± 6.5
+EVLWI (ml/kg per m 2 ) | Specialist mattress > Baseline: 11.5 ± 7.3
+EVLWI (ml/kg per m 2 ) | Specialist mattress > PP, 1 h: 9.5 ± 6.2
+EVLWI (ml/kg per m 2 ) | Specialist mattress > PP, 6 h: 10.6 ± 6.0
+EVLWI (ml/kg per m 2 ) | ANOVA > Time: NS
+EVLWI (ml/kg per m 2 ) | ANOVA > Group: NS
+EVLWI (ml/kg per m 2 ) | ANOVA > Interaction: NS
+ITBV (ml) | Foam mattress > Baseline: 1140 ± 475
+ITBV (ml) | Foam mattress > PP, 1 h: 1100 ± 535
+ITBV (ml) | Foam mattress > PP, 6 h: 942 ± 330
+ITBV (ml) | Specialist mattress > Baseline: 1165 ± 435
+ITBV (ml) | Specialist mattress > PP, 1 h: 972 ± 205
+ITBV (ml) | Specialist mattress > PP, 6 h: 985 ± 225
+ITBV (ml) | ANOVA > Time: NS
+ITBV (ml) | ANOVA > Group: NS
+ITBV (ml) | ANOVA > Interaction: NS

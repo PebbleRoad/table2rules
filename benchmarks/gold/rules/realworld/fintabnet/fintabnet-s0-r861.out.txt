@@ -1,0 +1,51 @@
+December 31 (in thousands) | Total Customers: 2015
+December 31 (in thousands) | Total Customers: 2014
+December 31 (in thousands) | Total Customers: 2013
+December 31 (in thousands) | Net Additional Customers: 2015
+December 31 (in thousands) | Net Additional Customers: 2014
+December 31 (in thousands) | Net Additional Customers: 2013
+Total customer relationships (a) | Total Customers: 27,701
+Total customer relationships (a) | Total Customers: 27,035
+Total customer relationships (a) | Total Customers: 26,677
+Total customer relationships (a) | Net Additional Customers: 666
+Total customer relationships (a) | Net Additional Customers: 358
+Total customer relationships (a) | Net Additional Customers: 215
+Single productcustomers (a) | Total Customers: 8,366
+Single productcustomers (a) | Total Customers: 8,409
+Single productcustomers (a) | Total Customers: 8,752
+Single productcustomers (a) | Net Additional Customers: (43)
+Single productcustomers (a) | Net Additional Customers: (343)
+Single productcustomers (a) | Net Additional Customers: (593)
+Double productcustomers (a) | Total Customers: 9,221
+Double productcustomers (a) | Total Customers: 8,750
+Double productcustomers (a) | Total Customers: 8,541
+Double productcustomers (a) | Net Additional Customers: 472
+Double productcustomers (a) | Net Additional Customers: 209
+Double productcustomers (a) | Net Additional Customers: 34
+Triple product customers (a) | Total Customers: 10,114
+Triple product customers (a) | Total Customers: 9,876
+Triple product customers (a) | Total Customers: 9,384
+Triple product customers (a) | Net Additional Customers: 238
+Triple product customers (a) | Net Additional Customers: 492
+Triple product customers (a) | Net Additional Customers: 774
+Video customers | Total Customers: 22,347
+Video customers | Total Customers: 22,383
+Video customers | Total Customers: 22,577
+Video customers | Net Additional Customers: (36)
+Video customers | Net Additional Customers: (194)
+Video customers | Net Additional Customers: (267)
+High-speed Internet customers | Total Customers: 23,329
+High-speed Internet customers | Total Customers: 21,962
+High-speed Internet customers | Total Customers: 20,685
+High-speed Internet customers | Net Additional Customers: 1,367
+High-speed Internet customers | Net Additional Customers: 1,277
+High-speed Internet customers | Net Additional Customers: 1,296
+Voice customers | Total Customers: 11,475
+Voice customers | Total Customers: 11,193
+Voice customers | Total Customers: 10,723
+Voice customers | Net Additional Customers: 282
+Voice customers | Net Additional Customers: 470
+Voice customers | Net Additional Customers: 768
+Average monthly total revenue per customer relationship | Total Customers: $142.74
+Average monthly total revenue per customer relationship | Total Customers: $136.97
+Average monthly total revenue per customer relationship | Total Customers: $131.22

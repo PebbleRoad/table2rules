@@ -1,0 +1,17 @@
+n = 90 | Perceived degree of competence (%) | 
+Skill | Very | Quite | Not very | Not at all | missing
+Management |  |  |  |  | 
+Negotiation | 7 (8) | 37 (42) | 38 (43) | 6 (7) | 2
+Business planning | 2(2) | 17(19) | 50 (56) | 20 (22) | 1
+Financial skills | 3 (3) | 14 (16) | 48 (54) | 24 (27) | 1
+Leadership | 20 (23) | 54 (60) | 12 (14) | 3 (3) | 1
+Appraisal | 6 (7) | 24 (27) | 42 (48) | 16 (18) | 2
+Presentations | 37 (42) | 46 (52) | 5 (6) | 1 (1) | 1
+Medico-legal (court work, reports) | 8 (9) | 28 (32) | 36 (40) | 17 (19) | 1
+Risk management | 3 (3) | 33 (38) | 41 (47) | 11 (13) | 2
+Managing private practice | 4 (5) | 14 (16) | 39 (44) | 32 (36) | 1
+Research Skills |  |  |  |  | 
+Applying for grants | 6 (7) | 18 (21) | 33 (38) | 31 (35) | 2
+Running research projects | 10 (11) | 33 (37) | 29 (33) | 17 (19) | 1
+Literature review | 26 (29) | 51 (57) | 8 (9) | 4 (5) | 1
+Writing up | 23 (26) | 40 (45) | 19 (21) | 7 (8) | 1

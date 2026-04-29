@@ -1,0 +1,28 @@
+Customer lists | Gross Carrying Amount > 2014 > (Dollars in thousands): $624,574
+Customer lists | Gross Carrying Amount > 2013 > (Dollars in thousands): $628,020
+Customer lists | Accumulated Amortization > 2014 > (Dollars in thousands): $(192,876)
+Customer lists | Accumulated Amortization > 2013 > (Dollars in thousands): $(168,223)
+In-process research and development | Gross Carrying Amount > 2014 > (Dollars in thousands): 68,694
+In-process research and development | Gross Carrying Amount > 2013 > (Dollars in thousands): 68,786
+In-process research and development | Accumulated Amortization > 2014 > (Dollars in thousands): —
+In-process research and development | Accumulated Amortization > 2013 > (Dollars in thousands): —
+Intellectual property | Gross Carrying Amount > 2014 > (Dollars in thousands): 467,068
+Intellectual property | Gross Carrying Amount > 2013 > (Dollars in thousands): 435,869
+Intellectual property | Accumulated Amortization > 2014 > (Dollars in thousands): (146,131)
+Intellectual property | Accumulated Amortization > 2013 > (Dollars in thousands): (118,086)
+Distribution rights | Gross Carrying Amount > 2014 > (Dollars in thousands): 16,101
+Distribution rights | Gross Carrying Amount > 2013 > (Dollars in thousands): 16,797
+Distribution rights | Accumulated Amortization > 2014 > (Dollars in thousands): (14,243)
+Distribution rights | Accumulated Amortization > 2013 > (Dollars in thousands): (14,592)
+Trade names | Gross Carrying Amount > 2014 > (Dollars in thousands): 396,269
+Trade names | Gross Carrying Amount > 2013 > (Dollars in thousands): 407,879
+Trade names | Accumulated Amortization > 2014 > (Dollars in thousands): (2,764)
+Trade names | Accumulated Amortization > 2013 > (Dollars in thousands): (1,148)
+Noncompete agreements | Gross Carrying Amount > 2014 > (Dollars in thousands): 337
+Noncompete agreements | Gross Carrying Amount > 2013 > (Dollars in thousands): 337
+Noncompete agreements | Accumulated Amortization > 2014 > (Dollars in thousands): (309)
+Noncompete agreements | Accumulated Amortization > 2013 > (Dollars in thousands): (42)
+Gross Carrying Amount > 2014 > (Dollars in thousands): $1,573,043
+Gross Carrying Amount > 2013 > (Dollars in thousands): $1,557,688
+Accumulated Amortization > 2014 > (Dollars in thousands): $(356,323)
+Accumulated Amortization > 2013 > (Dollars in thousands): $(302,091)

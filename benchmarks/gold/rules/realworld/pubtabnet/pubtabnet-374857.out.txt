@@ -1,0 +1,30 @@
+Municipality of Bologna | 12 months > DPT > %: 98.7
+Municipality of Bologna | 12 months > Polio > %: 98.5
+Municipality of Bologna | 12 months > Hepatitis B > %: 97.1
+Municipality of Bologna | 24 months > DPT > %: 98.3
+Municipality of Bologna | 24 months > Polio > %: 97.9
+Municipality of Bologna | 24 months > Hepatitis B > %: 96.5
+Emilia Romagna | 12 months > DPT > %: 98.5
+Emilia Romagna | 12 months > Polio > %: 98.4
+Emilia Romagna | 12 months > Hepatitis B > %: 98.1
+Emilia Romagna | 24 months > DPT > %: 98.5
+Emilia Romagna | 24 months > Polio > %: 98.4
+Emilia Romagna | 24 months > Hepatitis B > %: 98.0
+Italy | 24 months > DPT > %: 96.1
+Italy | 24 months > Polio > %: 96.0
+Italy | 24 months > Hepatitis B > %: 94.7
+Municipality of Bologna | 12 months > DPT > %: 96.7
+Municipality of Bologna | 12 months > Polio > %: 96.7
+Municipality of Bologna | 12 months > Hepatitis B > %: 95.9
+Municipality of Bologna | 24 months > DPT > %: 97.5
+Municipality of Bologna | 24 months > Polio > %: 97.4
+Municipality of Bologna | 24 months > Hepatitis B > %: 96.0
+Emilia Romagna | 12 months > DPT > %: 98.2
+Emilia Romagna | 12 months > Polio > %: 98.2
+Emilia Romagna | 12 months > Hepatitis B > %: 97.7
+Emilia Romagna | 24 months > DPT > %: 98.1
+Emilia Romagna | 24 months > Polio > %: 98.0
+Emilia Romagna | 24 months > Hepatitis B > %: 97.5
+Italy* | 24 months > DPT > %: 96.9
+Italy* | 24 months > Polio > %: 96.7
+Italy* | 24 months > Hepatitis B > %: 95.7

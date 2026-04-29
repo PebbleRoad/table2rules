@@ -1,0 +1,30 @@
+(Millions) | Qualified and Non-qualified Pension Benefits > United States: 2015
+(Millions) | Qualified and Non-qualified Pension Benefits > United States: 2014
+(Millions) | Qualified and Non-qualified Pension Benefits > International: 2015
+(Millions) | Qualified and Non-qualified Pension Benefits > International: 2014
+(Millions) | Postretirement > Benefits: 2015
+(Millions) | Postretirement > Benefits: 2014
+Amounts recognized in accumulated other comprehensive income as of Dec. 31, > Net transition obligation (asset) | Qualified and Non-qualified Pension Benefits > United States: $—
+Amounts recognized in accumulated other comprehensive income as of Dec. 31, > Net transition obligation (asset) | Qualified and Non-qualified Pension Benefits > United States: $—
+Amounts recognized in accumulated other comprehensive income as of Dec. 31, > Net transition obligation (asset) | Qualified and Non-qualified Pension Benefits > International: $(2)
+Amounts recognized in accumulated other comprehensive income as of Dec. 31, > Net transition obligation (asset) | Qualified and Non-qualified Pension Benefits > International: $(3)
+Amounts recognized in accumulated other comprehensive income as of Dec. 31, > Net transition obligation (asset) | Postretirement > Benefits: $—
+Amounts recognized in accumulated other comprehensive income as of Dec. 31, > Net transition obligation (asset) | Postretirement > Benefits: $—
+Amounts recognized in accumulated other comprehensive income as of Dec. 31, > Net actuarial loss (gain) | Qualified and Non-qualified Pension Benefits > United States: 5,366
+Amounts recognized in accumulated other comprehensive income as of Dec. 31, > Net actuarial loss (gain) | Qualified and Non-qualified Pension Benefits > United States: 5,462
+Amounts recognized in accumulated other comprehensive income as of Dec. 31, > Net actuarial loss (gain) | Qualified and Non-qualified Pension Benefits > International: 1,610
+Amounts recognized in accumulated other comprehensive income as of Dec. 31, > Net actuarial loss (gain) | Qualified and Non-qualified Pension Benefits > International: 2,200
+Amounts recognized in accumulated other comprehensive income as of Dec. 31, > Net actuarial loss (gain) | Postretirement > Benefits: 815
+Amounts recognized in accumulated other comprehensive income as of Dec. 31, > Net actuarial loss (gain) | Postretirement > Benefits: 914
+Amounts recognized in accumulated other comprehensive income as of Dec. 31, > Prior service cost (credit) | Qualified and Non-qualified Pension Benefits > United States: (227)
+Amounts recognized in accumulated other comprehensive income as of Dec. 31, > Prior service cost (credit) | Qualified and Non-qualified Pension Benefits > United States: (251)
+Amounts recognized in accumulated other comprehensive income as of Dec. 31, > Prior service cost (credit) | Qualified and Non-qualified Pension Benefits > International: (68)
+Amounts recognized in accumulated other comprehensive income as of Dec. 31, > Prior service cost (credit) | Qualified and Non-qualified Pension Benefits > International: (93)
+Amounts recognized in accumulated other comprehensive income as of Dec. 31, > Prior service cost (credit) | Postretirement > Benefits: (270)
+Amounts recognized in accumulated other comprehensive income as of Dec. 31, > Prior service cost (credit) | Postretirement > Benefits: (102)
+Amounts recognized in accumulated other comprehensive income as of Dec. 31, > Ending balance | Qualified and Non-qualified Pension Benefits > United States: $5,139
+Amounts recognized in accumulated other comprehensive income as of Dec. 31, > Ending balance | Qualified and Non-qualified Pension Benefits > United States: $5,211
+Amounts recognized in accumulated other comprehensive income as of Dec. 31, > Ending balance | Qualified and Non-qualified Pension Benefits > International: $1,540
+Amounts recognized in accumulated other comprehensive income as of Dec. 31, > Ending balance | Qualified and Non-qualified Pension Benefits > International: $2,104
+Amounts recognized in accumulated other comprehensive income as of Dec. 31, > Ending balance | Postretirement > Benefits: $545
+Amounts recognized in accumulated other comprehensive income as of Dec. 31, > Ending balance | Postretirement > Benefits: $812

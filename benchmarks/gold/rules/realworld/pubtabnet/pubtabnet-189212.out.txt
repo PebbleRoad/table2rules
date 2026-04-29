@@ -1,0 +1,62 @@
+PTSD N = 9: No.
+PTSD N = 9: %
+NO PTSD N = 11: No.
+NO PTSD N = 11: %
+TRAUMATIC EVENT: Serious Accident, fire or explosion
+PTSD N = 9: 7
+PTSD N = 9: 78%
+NO PTSD N = 11: 4
+NO PTSD N = 11: 36%
+TRAUMATIC EVENT: Natural disaster
+PTSD N = 9: 1
+PTSD N = 9: 11%
+NO PTSD N = 11: 0
+TRAUMATIC EVENT: Non-sexual assault – family member or someone known
+PTSD N = 9: 6
+PTSD N = 9: 67%
+NO PTSD N = 11: 4
+NO PTSD N = 11: 36%
+TRAUMATIC EVENT: Non-sexual assault – stranger
+PTSD N = 9: 3
+PTSD N = 9: 33%
+NO PTSD N = 11: 3
+NO PTSD N = 11: 27%
+TRAUMATIC EVENT: Sexual assault – family member or someone known
+PTSD N = 9: 5
+PTSD N = 9: 55.5%
+NO PTSD N = 11: 3
+NO PTSD N = 11: 27%
+TRAUMATIC EVENT: Sexual assault – stranger
+PTSD N = 9: 3
+PTSD N = 9: 33%
+NO PTSD N = 11: 2
+NO PTSD N = 11: 18%
+TRAUMATIC EVENT: Military combat/war zone
+PTSD N = 9: 1
+PTSD N = 9: 11%
+NO PTSD N = 11: 1
+NO PTSD N = 11: 9%
+TRAUMATIC EVENT: Sexual contact under 18 years with someone 5 or more years older
+PTSD N = 9: 7
+PTSD N = 9: 78%
+NO PTSD N = 11: 4
+NO PTSD N = 11: 36%
+TRAUMATIC EVENT: Imprisonment
+PTSD N = 9: 3
+PTSD N = 9: 33%
+NO PTSD N = 11: 2
+NO PTSD N = 11: 18%
+TRAUMATIC EVENT: Torture
+PTSD N = 9: 1
+PTSD N = 9: 11%
+NO PTSD N = 11: 0
+TRAUMATIC EVENT: Life-threatening Illness
+PTSD N = 9: 4
+PTSD N = 9: 44%
+NO PTSD N = 11: 2
+NO PTSD N = 11: 18%
+TRAUMATIC EVENT: Other type of event
+PTSD N = 9: 4
+PTSD N = 9: 44%
+NO PTSD N = 11: 7
+NO PTSD N = 11: 63%

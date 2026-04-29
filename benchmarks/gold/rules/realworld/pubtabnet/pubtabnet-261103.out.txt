@@ -1,0 +1,90 @@
+Pre-Taper: T30
+Pre-Taper: T50
+Pre-Taper: T80
+Post-Taper: T30
+Post-Taper: T50
+Post-Taper: T80
+Variable: Time (min)
+Pre-Taper: 27:03(1:29)
+Pre-Taper: 26:34(0:56)
+Pre-Taper: 26:10(2:58)
+Post-Taper: 27:40(2:34)
+Post-Taper: 25:25(1:23)#
+Post-Taper: 25:31(2:07)
+Variable: VO 2 (L·min -1 )
+Pre-Taper: 3.28 (0.54)
+Pre-Taper: 4.04 (0.24)
+Pre-Taper: 4.09 (0.59)
+Post-Taper: 3.17 (0.56)
+Post-Taper: 4.22 (0.11)
+Post-Taper: 4.15 (0.39)
+Variable: %VO 2 max
+Pre-Taper: 74.6%
+Pre-Taper: 86.9%
+Pre-Taper: 84.7%
+Post-Taper: 72.1%
+Post-Taper: 90.7%
+Post-Taper: 85.3%
+Variable: VCO 2 (L·min -1 )
+Pre-Taper: 3.39 (0.95)
+Pre-Taper: 3.82 (0.26)
+Pre-Taper: 3.84 (0.49)
+Post-Taper: 3.31 (0.93)
+Post-Taper: 4.07 (0.21)
+Post-Taper: 4.07 (0.31)
+Variable: V E (L·min -1 )
+Pre-Taper: 81.0 (17.2)
+Pre-Taper: 102.1 (12.2)
+Pre-Taper: 103.1(13.2)
+Post-Taper: 81.7 (16.4)
+Post-Taper: 95.0 (5.9)
+Post-Taper: 106.1 (10.2)
+Variable: V E /VO 2
+Pre-Taper: 24.7 (1.9)
+Pre-Taper: 25.3 (2.2)
+Pre-Taper: 25.2 (1.1)
+Post-Taper: 25.8 (1.0)
+Post-Taper: 22.5 (1.7) *
+Post-Taper: 26.1 (1.2)
+Variable: RER
+Pre-Taper: 1.03 (0.07)
+Pre-Taper: 0.95 (0.02)
+Pre-Taper: 0.94 (0.03)
+Post-Taper: 1.04 (0.03)
+Post-Taper: 0.97 (0.04)
+Post-Taper: 0.98 (0.03)
+Variable: HR (b·min -1 )
+Pre-Taper: 169 (5)
+Pre-Taper: 175 (9)
+Pre-Taper: 173 (13)
+Post-Taper: 173 (4)
+Post-Taper: 174 (13)
+Post-Taper: 179 (5)
+Variable: O 2 pulse (mL·b -1 )
+Pre-Taper: 19.3 (2.8)
+Pre-Taper: 23.2 (2.4)
+Pre-Taper: 23.6 (1.8)
+Post-Taper: 18.3 (3.3)
+Post-Taper: 24.3 (2.2)
+Post-Taper: 21.9 (1.4)
+Variable: Hb/Mb-O 2 (mV)
+Pre-Taper: -455 (270)
+Pre-Taper: -731 (155)
+Pre-Taper: -770 (183)
+Post-Taper: -403 (170)
+Post-Taper: -1167 (224) *
+Post-Taper: -847 (106)
+Variable: RPE
+Pre-Taper: 13.9 (2.3)
+Pre-Taper: 16.2 (1.6)
+Pre-Taper: 16.3 (1.3)
+Post-Taper: 14.9 (2.0)
+Post-Taper: 16.8 (1.5)
+Post-Taper: 16.3 (1.2)
+Variable: Thigh Skinfold (mm)
+Pre-Taper: 8.9 (1.8)
+Pre-Taper: 9.2 (1.7)
+Pre-Taper: 9.0 (1.9)
+Post-Taper: 9.0 (1.9)
+Post-Taper: 9.1 (1.6)
+Post-Taper: 9.2 (1.8)

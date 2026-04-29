@@ -1,0 +1,12 @@
+ | VPS | ReplaySuite use
+User | Examinations performed | Total examinations replayed | Own examinations replayed | Other participants examinations replayed | Diagnostic concordance graphs viewed | Examination lists viewed | Total number of functions performed | Survey Submitted
+10 | 10 | 13 | 7 | 6 | 3 | 19 | 35 | Y
+74 | 10 | 12 | 4 | 8 | 11 | 35 | 58 | Y
+55 | 10 | 11 | 10 | 1 | 28 | 69 | 108 | Y
+7 | 10 | 3 | 2 | 1 | 4 | 12 | 19 | Y
+36 | 10 | 2 | 1 | 1 | 0 | 4 | 6 | Y
+39 | 10 | 2 | 2 | 0 | 13 | 9 | 24 | Y
+102 | 10 | 1 | 0 | 1 | 0 | 4 | 5 | Y
+57 | 10 | 0 | 0 | 0 | 9 | 4 | 13 | Y
+60 | 2 | 0 | 0 | 0 | 0 | 1 | 1 | Y
+Total | 92 | 44 | 26 | 18 | 68 | 157 | 269 | 9

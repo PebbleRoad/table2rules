@@ -1,0 +1,84 @@
+Dipstick positive for:: Nitrite
+Number of studies: 23
+Range in LR+: 2.5 – 439.6
+Pooled LR+ (95 % CI)*: 15.9 (10.7, 23.7)
+Range in LR-: 0.12 – 0.86
+Pooled LR- (95 % CI)*: 0.51 (0.43, 0.60)
+Dipstick positive for:: LE
+Number of studies: 14
+Range in LR+: 2.6 – 32.2
+Pooled LR+ (95 % CI)*: 5.5 (4.1, 7.3)
+Range in LR-: 0.02 – 0.66
+Pooled LR- (95 % CI)*: 0.26 (0.18, 0.36)
+Dipstick positive for:: Nitrite or LE
+Number of studies: 15
+Range in LR+: 3.0 – 32.2
+Pooled LR+ (95 % CI)*: 6.1 (4.3, 8.6)
+Range in LR-: 0.03 – 0.39
+Pooled LR- (95 % CI)*: 0.20 (0.16, 0.26)
+Dipstick positive for:: Nitrite and LE
+Number of studies: 9
+Range in LR+: 6.3 – 197.1
+Pooled LR+ (95 % CI)*: 28.2 (17.3–46.0)
+Range in LR-: 0.07 – 0.86
+Pooled LR- (95 % CI)*: 0.37 (0.26, 0.52)
+Dipstick positive for:: Glucose
+Number of studies: 4
+Range in LR+: 25.2 – 156.1
+Pooled LR+ (95 % CI)*: 66.3 (20.0, 219.6)
+Range in LR-: 0.02 – 0.38
+Pooled LR- (95 % CI)*: 0.07 (0.01, 0.83)
+Dipstick positive for:: Protein
+Number of studies: 2
+Range in LR+: 1.7 & 1.8
+Pooled LR+ (95 % CI)*: na
+Range in LR-: 0.78 & 0.96
+Pooled LR- (95 % CI)*: na
+Dipstick positive for:: Blood
+Number of studies: 1
+Range in LR+: 2.3
+Pooled LR+ (95 % CI)*: na
+Range in LR-: 0.84
+Pooled LR- (95 % CI)*: na
+Dipstick positive for:: LE and protein
+Number of studies: 1
+Range in LR+: 17.4
+Pooled LR+ (95 % CI)*: na
+Range in LR-: 0.12
+Pooled LR- (95 % CI)*: na
+Dipstick positive for:: Nitrite, blood, or protein
+Number of studies: 1
+Range in LR+: 2.7
+Pooled LR+ (95 % CI)*: na
+Range in LR-: 0.28
+Pooled LR- (95 % CI)*: na
+Dipstick positive for:: Nitrite, blood, or LE
+Number of studies: 1
+Range in LR+: 1.3
+Pooled LR+ (95 % CI)*: na
+Range in LR-: 0.50
+Pooled LR- (95 % CI)*: na
+Dipstick positive for:: Nitite, blood and LE
+Number of studies: 1
+Range in LR+: 3.5
+Pooled LR+ (95 % CI)*: na
+Range in LR-: 0.19
+Pooled LR- (95 % CI)*: na
+Dipstick positive for:: Nitrite, LE and protein
+Number of studies: 2
+Range in LR+: 3.1 & 69.2
+Pooled LR+ (95 % CI)*: na
+Range in LR-: 0.05 & 0.17
+Pooled LR- (95 % CI)*: na
+Dipstick positive for:: Nitrite, LE, or protein
+Number of studies: 1
+Range in LR+: 1.9
+Pooled LR+ (95 % CI)*: na
+Range in LR-: 0.05
+Pooled LR- (95 % CI)*: na
+Dipstick positive for:: Nitrite, LE, protein, or blood
+Number of studies: 1
+Range in LR+: 8.0
+Pooled LR+ (95 % CI)*: na
+Range in LR-: 0.19
+Pooled LR- (95 % CI)*: na

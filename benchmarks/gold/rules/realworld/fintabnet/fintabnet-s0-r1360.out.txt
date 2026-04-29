@@ -1,0 +1,28 @@
+Customer relationships | Gross Carrying Amount > 2017 > (Dollars in thousands): $1,023,837
+Customer relationships | Gross Carrying Amount > 2016 > (Dollars in thousands): $622,428
+Customer relationships | Accumulated Amortization > 2017 > (Dollars in thousands): $(281,263)
+Customer relationships | Accumulated Amortization > 2016 > (Dollars in thousands): $(239,055)
+In-process research and development | Gross Carrying Amount > 2017 > (Dollars in thousands): 34,672
+In-process research and development | Gross Carrying Amount > 2016 > (Dollars in thousands): 16,532
+In-process research and development | Accumulated Amortization > 2017 > (Dollars in thousands): —
+In-process research and development | Accumulated Amortization > 2016 > (Dollars in thousands): —
+Intellectual property | Gross Carrying Amount > 2017 > (Dollars in thousands): 1,287,487
+Intellectual property | Gross Carrying Amount > 2016 > (Dollars in thousands): 519,962
+Intellectual property | Accumulated Amortization > 2017 > (Dollars in thousands): (258,580)
+Intellectual property | Accumulated Amortization > 2016 > (Dollars in thousands): (203,390)
+Distribution rights | Gross Carrying Amount > 2017 > (Dollars in thousands): 23,697
+Distribution rights | Gross Carrying Amount > 2016 > (Dollars in thousands): 23,021
+Distribution rights | Accumulated Amortization > 2017 > (Dollars in thousands): (16,996)
+Distribution rights | Accumulated Amortization > 2016 > (Dollars in thousands): (15,239)
+Trade names | Gross Carrying Amount > 2017 > (Dollars in thousands): 571,510
+Trade names | Gross Carrying Amount > 2016 > (Dollars in thousands): 379,724
+Trade names | Accumulated Amortization > 2017 > (Dollars in thousands): (22,069)
+Trade names | Accumulated Amortization > 2016 > (Dollars in thousands): (13,974)
+Non-compete agreements | Gross Carrying Amount > 2017 > (Dollars in thousands): 23,429
+Non-compete agreements | Gross Carrying Amount > 2016 > (Dollars in thousands): 2,692
+Non-compete agreements | Accumulated Amortization > 2017 > (Dollars in thousands): (1,976)
+Non-compete agreements | Accumulated Amortization > 2016 > (Dollars in thousands): (1,038)
+Gross Carrying Amount > 2017 > (Dollars in thousands): $2,964,632
+Gross Carrying Amount > 2016 > (Dollars in thousands): $1,564,359
+Accumulated Amortization > 2017 > (Dollars in thousands): $(580,884)
+Accumulated Amortization > 2016 > (Dollars in thousands): $(472,696)

@@ -1,0 +1,75 @@
+Name: Aart J. de Geus
+Individual Grants > Number of Securities Underlying Options Granted: 200,000
+Individual Grants > Number of Securities Underlying Options Granted: (1)
+Individual Grants > Percent of Total Options Granted to Employees(3): 3.74%
+Exercise Prices ($/Share): $20.73
+Expiration Date: 12/06/12
+Potential Realizable Value At Assumed Annual Rates Of Stock Price Appreciation For Option Term($)(4) > 5%: $1,687,838
+Potential Realizable Value At Assumed Annual Rates Of Stock Price Appreciation For Option Term($)(4) > 10%: $3,933,381
+Individual Grants > Number of Securities Underlying Options Granted: 90,000
+Individual Grants > Number of Securities Underlying Options Granted: (2)
+Individual Grants > Percent of Total Options Granted to Employees(3): 1.69%
+Exercise Prices ($/Share): $20.73
+Expiration Date: 12/06/12
+Potential Realizable Value At Assumed Annual Rates Of Stock Price Appreciation For Option Term($)(4) > 5%: $759,527
+Potential Realizable Value At Assumed Annual Rates Of Stock Price Appreciation For Option Term($)(4) > 10%: $1,770,021
+Name: Chi-Foon Chan
+Individual Grants > Number of Securities Underlying Options Granted: 100,000
+Individual Grants > Number of Securities Underlying Options Granted: (1)
+Individual Grants > Percent of Total Options Granted to Employees(3): 1.87%
+Exercise Prices ($/Share): $20.73
+Expiration Date: 12/06/12
+Potential Realizable Value At Assumed Annual Rates Of Stock Price Appreciation For Option Term($)(4) > 5%: $843,919
+Potential Realizable Value At Assumed Annual Rates Of Stock Price Appreciation For Option Term($)(4) > 10%: $1,966,691
+Individual Grants > Number of Securities Underlying Options Granted: 60,000
+Individual Grants > Number of Securities Underlying Options Granted: (2)
+Individual Grants > Percent of Total Options Granted to Employees(3): 1.12%
+Exercise Prices ($/Share): $20.73
+Expiration Date: 12/06/12
+Potential Realizable Value At Assumed Annual Rates Of Stock Price Appreciation For Option Term($)(4) > 5%: $506,352
+Potential Realizable Value At Assumed Annual Rates Of Stock Price Appreciation For Option Term($)(4) > 10%: $1,180,014
+Name: Joseph W. Logan
+Individual Grants > Number of Securities Underlying Options Granted: 13,000
+Individual Grants > Number of Securities Underlying Options Granted: (1)
+Individual Grants > Percent of Total Options Granted to Employees(3): 0.24%
+Exercise Prices ($/Share): $21.10
+Expiration Date: 12/02/12
+Potential Realizable Value At Assumed Annual Rates Of Stock Price Appreciation For Option Term($)(4) > 5%: $111,668
+Potential Realizable Value At Assumed Annual Rates Of Stock Price Appreciation For Option Term($)(4) > 10%: $260,233
+Individual Grants > Number of Securities Underlying Options Granted: 40,000
+Individual Grants > Number of Securities Underlying Options Granted: (1)
+Individual Grants > Percent of Total Options Granted to Employees(3): 0.75%
+Exercise Prices ($/Share): $19.34
+Expiration Date: 09/13/13
+Potential Realizable Value At Assumed Annual Rates Of Stock Price Appreciation For Option Term($)(4) > 5%: $314,933
+Potential Realizable Value At Assumed Annual Rates Of Stock Price Appreciation For Option Term($)(4) > 10%: $733,928
+Name: Deirdre Hanford
+Individual Grants > Number of Securities Underlying Options Granted: 50,000
+Individual Grants > Number of Securities Underlying Options Granted: (1)
+Individual Grants > Percent of Total Options Granted to Employees(3): 0.94%
+Exercise Prices ($/Share): $20.73
+Expiration Date: 12/06/12
+Potential Realizable Value At Assumed Annual Rates Of Stock Price Appreciation For Option Term($)(4) > 5%: $421,960
+Potential Realizable Value At Assumed Annual Rates Of Stock Price Appreciation For Option Term($)(4) > 10%: $983,345
+Individual Grants > Number of Securities Underlying Options Granted: 30,000
+Individual Grants > Number of Securities Underlying Options Granted: (2)
+Individual Grants > Percent of Total Options Granted to Employees(3): 0.56%
+Exercise Prices ($/Share): $20.73
+Expiration Date: 12/06/12
+Potential Realizable Value At Assumed Annual Rates Of Stock Price Appreciation For Option Term($)(4) > 5%: $253,176
+Potential Realizable Value At Assumed Annual Rates Of Stock Price Appreciation For Option Term($)(4) > 10%: $590,007
+Name: Antun Domic
+Individual Grants > Number of Securities Underlying Options Granted: 65,000
+Individual Grants > Number of Securities Underlying Options Granted: (1)
+Individual Grants > Percent of Total Options Granted to Employees(3): 1.22%
+Exercise Prices ($/Share): $20.73
+Expiration Date: 12/06/12
+Potential Realizable Value At Assumed Annual Rates Of Stock Price Appreciation For Option Term($)(4) > 5%: $548,547
+Potential Realizable Value At Assumed Annual Rates Of Stock Price Appreciation For Option Term($)(4) > 10%: $1,278,349
+Individual Grants > Number of Securities Underlying Options Granted: 40,000
+Individual Grants > Number of Securities Underlying Options Granted: (2)
+Individual Grants > Percent of Total Options Granted to Employees(3): 0.75%
+Exercise Prices ($/Share): $20.73
+Expiration Date: 12/06/12
+Potential Realizable Value At Assumed Annual Rates Of Stock Price Appreciation For Option Term($)(4) > 5%: $337,568
+Potential Realizable Value At Assumed Annual Rates Of Stock Price Appreciation For Option Term($)(4) > 10%: $786,676

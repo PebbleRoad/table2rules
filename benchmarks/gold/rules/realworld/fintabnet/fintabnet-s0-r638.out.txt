@@ -1,0 +1,60 @@
+(in millions) | Pension (1): 2017
+(in millions) | Pension (1): 2016
+(in millions) | Postretirement: 2017
+(in millions) | Postretirement: 2016
+Benefit obligation at January 1, | Pension (1): $8,387
+Benefit obligation at January 1, | Pension (1): $8,086
+Benefit obligation at January 1, | Postretirement: $227
+Benefit obligation at January 1, | Postretirement: $211
+Service cost | Pension (1): 208
+Service cost | Pension (1): 207
+Service cost | Postretirement: 4
+Service cost | Postretirement: 3
+Interest cost | Pension (1): 108
+Interest cost | Pension (1): 146
+Interest cost | Postretirement: 8
+Interest cost | Postretirement: 9
+Benefits paid | Pension (1): (226)
+Benefits paid | Pension (1): (240)
+Benefits paid | Postretirement: (10)
+Benefits paid | Postretirement: (10)
+Settlement and curtailment | Pension (1): —
+Settlement and curtailment | Pension (1): (1)
+Settlement and curtailment | Postretirement: —
+Settlement and curtailment | Postretirement: —
+Actuarial losses (gains) | Pension (1): (93)
+Actuarial losses (gains) | Pension (1): 427
+Actuarial losses (gains) | Postretirement: 12
+Actuarial losses (gains) | Postretirement: 15
+Currency | Pension (1): 621
+Currency | Pension (1): (329)
+Currency | Postretirement: 7
+Currency | Postretirement: (2)
+Other | Pension (1): 23
+Other | Pension (1): 91
+Other | Postretirement: —
+Other | Postretirement: 1
+Benefit obligation at December 31, | Pension (1): 9,028
+Benefit obligation at December 31, | Pension (1): 8,387
+Benefit obligation at December 31, | Postretirement: 248
+Benefit obligation at December 31, | Postretirement: 227
+Fair value of plan assets at January 1, | Pension (1): 6,457
+Fair value of plan assets at January 1, | Pension (1): 6,404
+Actual return on plan assets | Pension (1): 742
+Actual return on plan assets | Pension (1): 322
+Employer contributions | Pension (1): 66
+Employer contributions | Pension (1): 191
+Employee contributions | Pension (1): 40
+Employee contributions | Pension (1): 39
+Benefits paid | Pension (1): (226)
+Benefits paid | Pension (1): (240)
+Settlement and curtailment | Pension (1): —
+Settlement and curtailment | Pension (1): —
+Currency | Pension (1): 519
+Currency | Pension (1): (259)
+Fair value of plan assets at December 31, | Pension (1): 7,598
+Fair value of plan assets at December 31, | Pension (1): 6,457
+Net pension and postretirement liability recognized at December 31, | Pension (1): $(1,430)
+Net pension and postretirement liability recognized at December 31, | Pension (1): $(1,930)
+Net pension and postretirement liability recognized at December 31, | Postretirement: $(248)
+Net pension and postretirement liability recognized at December 31, | Postretirement: $(227)

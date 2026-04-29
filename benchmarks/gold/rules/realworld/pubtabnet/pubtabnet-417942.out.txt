@@ -1,0 +1,56 @@
+Burned out | N > Item Nr.: 13
+Burned out | FRANCE 903 > Psych: 0.3
+Burned out | FRANCE 903 > Somat: 0.6
+Burned out | EUROPE, other 5907 > Psych: 0.7
+Depressive, more | N > Item Nr.: 11
+Depressive, more | FRANCE 903 > Psych: 0.5
+Depressive, more | FRANCE 903 > Somat: 0.6
+Depressive, more | EUROPE, other 5907 > Psych: 0.8
+Irritability, increased | N > Item Nr.: 6
+Irritability, increased | FRANCE 903 > Psych: 0.7
+Irritability, increased | EUROPE, other 5907 > Psych: 0.6
+Anxious, more | N > Item Nr.: 8
+Anxious, more | FRANCE 903 > Psych: 0.6
+Anxious, more | EUROPE, other 5907 > Psych: 0.7
+Nervousness, more | N > Item Nr.: 7
+Nervousness, more | FRANCE 903 > Psych: 0.7
+Nervousness, more | EUROPE, other 5907 > Psych: 0.6
+Joint complaints, more | N > Item Nr.: 2
+Joint complaints, more | FRANCE 903 > Somat: 0.6
+Joint complaints, more | EUROPE, other 5907 > Somat: 0.7
+Sweating, increased | N > Item Nr.: 3
+Sweating, increased | FRANCE 903 > Psych: 0.5
+Sweating, increased | FRANCE 903 > Somat: 0.4
+Sweating, increased | EUROPE, other 5907 > Somat: 0.5
+Sleep, need for more | N > Item Nr.: 5
+Sleep, need for more | FRANCE 903 > Somat: 0.7
+Sleep, need for more | EUROPE, other 5907 > Somat: 0.6
+Well-being, impaired | N > Item Nr.: 1
+Well-being, impaired | FRANCE 903 > Somat: 0.7
+Well-being, impaired | EUROPE, other 5907 > Somat: 0.7
+Sleep disturbances, more | N > Item Nr.: 4
+Sleep disturbances, more | FRANCE 903 > Somat: 0.6
+Sleep disturbances, more | EUROPE, other 5907 > Somat: 0.6
+Muscular weakness | N > Item Nr.: 10
+Muscular weakness | FRANCE 903 > Somat: 0.6
+Muscular weakness | EUROPE, other 5907 > Somat: 0.6
+Physical exhaustion | N > Item Nr.: 9
+Physical exhaustion | FRANCE 903 > Somat: 0.6
+Physical exhaustion | EUROPE, other 5907 > Somat: 0.6
+Sexual potency, impaired | N > Item Nr.: 15
+Sexual potency, impaired | FRANCE 903 > Sex: 0.8
+Sexual potency, impaired | EUROPE, other 5907 > Sex: 0.9
+Morning erections, less | N > Item Nr.: 16
+Morning erections, less | FRANCE 903 > Sex: 0.8
+Morning erections, less | EUROPE, other 5907 > Sex: 0.9
+Libido, disturbed | N > Item Nr.: 17
+Libido, disturbed | FRANCE 903 > Sex: 0.8
+Libido, disturbed | EUROPE, other 5907 > Sex: 0.8
+Passed peak | N > Item Nr.: 12
+Passed peak | FRANCE 903 > Sex: 0.5
+Passed peak | EUROPE, other 5907 > Psych: 0.5
+Passed peak | EUROPE, other 5907 > Sex: 0.4
+Decrease of beard growth | N > Item Nr.: 14
+Decrease of beard growth | FRANCE 903 > Sex: 0.2
+Decrease of beard growth | EUROPE, other 5907 > Psych: 0.4
+Decrease of beard growth | EUROPE, other 5907 > Sex: 0.3

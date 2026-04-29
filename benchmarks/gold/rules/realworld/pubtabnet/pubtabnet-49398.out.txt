@@ -1,0 +1,55 @@
+Scoredist – Dayhoff | testset > Dayhoff: 12.68
+Scoredist – Dayhoff | testset > MV: 20.85
+Scoredist – Dayhoff | testset > JTT: 13.67
+Scoredist – Dayhoff | testset > WAG: 12.81
+Scoredist – Dayhoff | average: 15.00
+ML – Dayhoff | testset > Dayhoff: 12.70
+ML – Dayhoff | testset > MV: 28.40
+ML – Dayhoff | testset > JTT: 14.75
+ML – Dayhoff | testset > WAG: 15.15
+ML – Dayhoff | average: 17.75
+ED – Dayhoff | testset > Dayhoff: 13.57
+ED – Dayhoff | testset > MV: 31.36
+ED – Dayhoff | testset > JTT: 16.10
+ED – Dayhoff | testset > WAG: 16.63
+ED – Dayhoff | average: 19.41
+Scoredist – MV | testset > Dayhoff: 19.28
+Scoredist – MV | testset > MV: 13.15
+Scoredist – MV | testset > JTT: 16.29
+Scoredist – MV | testset > WAG: 18.73
+Scoredist – MV | average: 16.86
+ML – MV | testset > Dayhoff: 19.96
+ML – MV | testset > MV: 13.44
+ML – MV | testset > JTT: 19.36
+ML – MV | testset > WAG: 19.21
+ML – MV | average: 17.99
+ED – MV | testset > Dayhoff: 15.68
+ED – MV | testset > MV: 13.35
+ED – MV | testset > JTT: 13.95
+ED – MV | testset > WAG: 14.75
+ED – MV | average: 14.43
+Scoredist – JTT | testset > Dayhoff: 13.67
+Scoredist – JTT | testset > MV: 17.16
+Scoredist – JTT | testset > JTT: 12.89
+Scoredist – JTT | testset > WAG: 13.47
+Scoredist – JTT | average: 14.30
+ML – JTT | testset > Dayhoff: 12.15
+ML – JTT | testset > MV: 25.07
+ML – JTT | testset > JTT: 12.10
+ML – JTT | testset > WAG: 13.44
+ML – JTT | average: 15.69
+ED – JTT | testset > Dayhoff: 12.56
+ED – JTT | testset > MV: 27.71
+ED – JTT | testset > JTT: 12.70
+ED – JTT | testset > WAG: 14.37
+ED – JTT | average: 16.84
+Jukes-Cantor | testset > Dayhoff: 23.92
+Jukes-Cantor | testset > MV: 16.28
+Jukes-Cantor | testset > JTT: 19.88
+Jukes-Cantor | testset > WAG: 22.48
+Jukes-Cantor | average: 20.64
+Kimura | testset > Dayhoff: 16.24
+Kimura | testset > MV: 29.81
+Kimura | testset > JTT: 22.36
+Kimura | testset > WAG: 19.16
+Kimura | average: 21.89

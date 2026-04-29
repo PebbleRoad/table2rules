@@ -1,0 +1,37 @@
+Mainline CASM: > Aircraft fuel and related taxes | 2012 > (In cents): 5.05
+Mainline CASM: > Aircraft fuel and related taxes | 2011 > (In cents): 4.77
+Mainline CASM: > Aircraft fuel and related taxes | Percent Increase (Decrease): 5.9
+Mainline CASM: > Salaries, wages and benefits | 2012 > (In cents): 4.07
+Mainline CASM: > Salaries, wages and benefits | 2011 > (In cents): 4.12
+Mainline CASM: > Salaries, wages and benefits | Percent Increase (Decrease): (1.2)
+Mainline CASM: > Maintenance, materials and repairs | 2012 > (In cents): 0.76
+Mainline CASM: > Maintenance, materials and repairs | 2011 > (In cents): 0.67
+Mainline CASM: > Maintenance, materials and repairs | Percent Increase (Decrease): 13.4
+Mainline CASM: > Other rent and landing fees | 2012 > (In cents): 0.71
+Mainline CASM: > Other rent and landing fees | 2011 > (In cents): 0.77
+Mainline CASM: > Other rent and landing fees | Percent Increase (Decrease): (7.8)
+Mainline CASM: > Aircraft rent | 2012 > (In cents): 0.36
+Mainline CASM: > Aircraft rent | 2011 > (In cents): 0.42
+Mainline CASM: > Aircraft rent | Percent Increase (Decrease): (14.3)
+Mainline CASM: > Selling expenses | 2012 > (In cents): 0.69
+Mainline CASM: > Selling expenses | 2011 > (In cents): 0.71
+Mainline CASM: > Selling expenses | Percent Increase (Decrease): (2.8)
+Mainline CASM: > Depreciation and amortization | 2012 > (In cents): 0.55
+Mainline CASM: > Depreciation and amortization | 2011 > (In cents): 0.59
+Mainline CASM: > Depreciation and amortization | Percent Increase (Decrease): (6.8)
+Mainline CASM: > Special items, net | 2012 > (In cents): 0.25
+Mainline CASM: > Special items, net | 2011 > (In cents): 0.49
+Mainline CASM: > Special items, net | Percent Increase (Decrease): (49.0)
+Mainline CASM: > Other | 2012 > (In cents): 1.75
+Mainline CASM: > Other | 2011 > (In cents): 1.71
+Mainline CASM: > Other | Percent Increase (Decrease): 2.3
+Mainline CASM: > Total mainline CASM | 2012 > (In cents): 14.20
+Mainline CASM: > Total mainline CASM | 2011 > (In cents): 14.25
+Mainline CASM: > Total mainline CASM | Percent Increase (Decrease): (0.4)
+Mainline CASM: > Less: Special items, net | 2012 > (In cents): (0.25)
+Mainline CASM: > Less: Special items, net | 2011 > (In cents): (0.49)
+Mainline CASM: > Less: Aircraft fuel and related taxes | 2012 > (In cents): (5.05)
+Mainline CASM: > Less: Aircraft fuel and related taxes | 2011 > (In cents): (4.77)
+Mainline CASM: > Total mainline CASM excluding special items, fuel and profit sharing 1 | 2012 > (In cents): 8.90
+Mainline CASM: > Total mainline CASM excluding special items, fuel and profit sharing 1 | 2011 > (In cents): 8.99
+Mainline CASM: > Total mainline CASM excluding special items, fuel and profit sharing 1 | Percent Increase (Decrease): (1.0)

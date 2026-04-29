@@ -1,0 +1,80 @@
+1 | Treatment: AOM/DSS
+1 | No. of mice: 10
+1 | Incidence (no. of mice with neoplasms) > Total: 10/10 (100%)
+1 | Incidence (no. of mice with neoplasms) > Adenoma: 10/10 (100%)
+1 | Incidence (no. of mice with neoplasms) > Adeno-carcinoma: 10/10 (100%)
+1 | Multiplicity (no. of tumors/mice, means ± SD) > Total: 5.2 ± 3.0
+1 | Multiplicity (no. of tumors/mice, means ± SD) > Adenoma: 2.1 ± 1.8
+1 | Multiplicity (no. of tumors/mice, means ± SD) > Adeno-carcinoma: 3.0 ± 1.8
+2 | Treatment: AOM/DSS/0.04% Nimesulide
+2 | No. of mice: 10
+2 | Incidence (no. of mice with neoplasms) > Total: 8/10 (80%)
+2 | Incidence (no. of mice with neoplasms) > Adenoma: 6/10 (60%) a
+2 | Incidence (no. of mice with neoplasms) > Adeno-carcinoma: 4/10 (40%) b
+2 | Multiplicity (no. of tumors/mice, means ± SD) > Total: 1.8 ± 1.7 b
+2 | Multiplicity (no. of tumors/mice, means ± SD) > Adenoma: 1.2 ± 1.3
+2 | Multiplicity (no. of tumors/mice, means ± SD) > Adeno-carcinoma: 0.6 ± 1.0 c
+3 | Treatment: AOM/DSS/0.05% Troglitazone
+3 | No. of mice: 10
+3 | Incidence (no. of mice with neoplasms) > Total: 9/10 (90%)
+3 | Incidence (no. of mice with neoplasms) > Adenoma: 9/10 (90%)
+3 | Incidence (no. of mice with neoplasms) > Adeno-carcinoma: 4/10 (40%) b
+3 | Multiplicity (no. of tumors/mice, means ± SD) > Total: 2.5 ± 1.8 a
+3 | Multiplicity (no. of tumors/mice, means ± SD) > Adenoma: 1.6 ± 1.1
+3 | Multiplicity (no. of tumors/mice, means ± SD) > Adeno-carcinoma: 1.2 ± 2.5 a
+4 | Treatment: AOM/DSS/0.05% Bezafibrate
+4 | No. of mice: 10
+4 | Incidence (no. of mice with neoplasms) > Total: 8/10 (80%)
+4 | Incidence (no. of mice with neoplasms) > Adenoma: 7/10 (70%)
+4 | Incidence (no. of mice with neoplasms) > Adeno-carcinoma: 6/10 (60%) a
+4 | Multiplicity (no. of tumors/mice, means ± SD) > Total: 2.6 ± 2.5 a
+4 | Multiplicity (no. of tumors/mice, means ± SD) > Adenoma: 1.1 ± 1.0 a
+4 | Multiplicity (no. of tumors/mice, means ± SD) > Adeno-carcinoma: 1.8 ± 2.6
+5 | Treatment: 0.04% Nimesulide
+5 | No. of mice: 5
+5 | Incidence (no. of mice with neoplasms) > Total: 0/5 (0%)
+5 | Incidence (no. of mice with neoplasms) > Adenoma: 0/5 (0%)
+5 | Incidence (no. of mice with neoplasms) > Adeno-carcinoma: 0/5 (0%)
+5 | Multiplicity (no. of tumors/mice, means ± SD) > Total: 0
+5 | Multiplicity (no. of tumors/mice, means ± SD) > Adenoma: 0
+5 | Multiplicity (no. of tumors/mice, means ± SD) > Adeno-carcinoma: 0
+6 | Treatment: 0.05% Troglitazone
+6 | No. of mice: 5
+6 | Incidence (no. of mice with neoplasms) > Total: 0/5 (0%)
+6 | Incidence (no. of mice with neoplasms) > Adenoma: 0/5 (0%)
+6 | Incidence (no. of mice with neoplasms) > Adeno-carcinoma: 0/5 (0%)
+6 | Multiplicity (no. of tumors/mice, means ± SD) > Total: 0
+6 | Multiplicity (no. of tumors/mice, means ± SD) > Adenoma: 0
+6 | Multiplicity (no. of tumors/mice, means ± SD) > Adeno-carcinoma: 0
+7 | Treatment: 0.05% Bezafibrate
+7 | No. of mice: 5
+7 | Incidence (no. of mice with neoplasms) > Total: 0/5 (0%)
+7 | Incidence (no. of mice with neoplasms) > Adenoma: 0/5 (0%)
+7 | Incidence (no. of mice with neoplasms) > Adeno-carcinoma: 0/5 (0%)
+7 | Multiplicity (no. of tumors/mice, means ± SD) > Total: 0
+7 | Multiplicity (no. of tumors/mice, means ± SD) > Adenoma: 0
+7 | Multiplicity (no. of tumors/mice, means ± SD) > Adeno-carcinoma: 0
+8 | Treatment: AOM
+8 | No. of mice: 5
+8 | Incidence (no. of mice with neoplasms) > Total: 0/5 (0%)
+8 | Incidence (no. of mice with neoplasms) > Adenoma: 0/5 (0%)
+8 | Incidence (no. of mice with neoplasms) > Adeno-carcinoma: 0/5 (0%)
+8 | Multiplicity (no. of tumors/mice, means ± SD) > Total: 0
+8 | Multiplicity (no. of tumors/mice, means ± SD) > Adenoma: 0
+8 | Multiplicity (no. of tumors/mice, means ± SD) > Adeno-carcinoma: 0
+9 | Treatment: DSS
+9 | No. of mice: 6
+9 | Incidence (no. of mice with neoplasms) > Total: 0/6 (0%)
+9 | Incidence (no. of mice with neoplasms) > Adenoma: 0/6 (0%)
+9 | Incidence (no. of mice with neoplasms) > Adeno-carcinoma: 0/6 (0%)
+9 | Multiplicity (no. of tumors/mice, means ± SD) > Total: 0
+9 | Multiplicity (no. of tumors/mice, means ± SD) > Adenoma: 0
+9 | Multiplicity (no. of tumors/mice, means ± SD) > Adeno-carcinoma: 0
+10 | Treatment: None
+10 | No. of mice: 5
+10 | Incidence (no. of mice with neoplasms) > Total: 0/5 (0%)
+10 | Incidence (no. of mice with neoplasms) > Adenoma: 0/5 (0%)
+10 | Incidence (no. of mice with neoplasms) > Adeno-carcinoma: 0/5 (0%)
+10 | Multiplicity (no. of tumors/mice, means ± SD) > Total: 0
+10 | Multiplicity (no. of tumors/mice, means ± SD) > Adenoma: 0
+10 | Multiplicity (no. of tumors/mice, means ± SD) > Adeno-carcinoma: 0

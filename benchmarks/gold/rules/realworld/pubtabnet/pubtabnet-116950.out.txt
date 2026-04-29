@@ -1,0 +1,40 @@
+Malay | Male > M: 28
+Malay | Male > T: 14
+Malay | Female > M: 36
+Malay | Female > T: 26
+Chinese | Male > M: 10
+Chinese | Male > T: 10
+Chinese | Female > M: 28
+Chinese | Female > T: 20
+Indian | Male > M: 1
+Indian | Male > T: 3
+Indian | Female > M: 9
+Indian | Female > T: 17
+Total | Male > M: 39
+Total | Male > T: 27
+Total | Female > M: 73
+Total | Female > T: 63
+Malay | Male > M: 25
+Malay | Male > T: 5
+Malay | Female > M: 48
+Malay | Female > T: 12
+Chinese | Male > M: 4
+Chinese | Male > T: 4
+Chinese | Female > M: 28
+Chinese | Female > T: 8
+Indian | Male > M: 7
+Indian | Male > T: 1
+Indian | Female > M: 24
+Indian | Female > T: 8
+Total | Male > M: 36
+Total | Male > T: 10
+Total | Female > M: 100
+Total | Female > T: 28
+χ 2 value | Male > M: 3.836
+χ 2 value | Male > T: 3.836
+χ 2 value | Female > M: 20.828
+χ 2 value | Female > T: 20.828
+P * value | Male > M: 0.140
+P * value | Male > T: 0.140
+P * value | Female > M: 0.001
+P * value | Female > T: 0.001

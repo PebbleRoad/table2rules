@@ -1,0 +1,48 @@
+Balance at October 31, 2004 | Common Stock > Shares: 147,378
+Balance at October 31, 2004 | Common Stock > Amount: $1,474
+Balance at October 31, 2004 | Capital in Excess > of Par > Value: $1,240,568
+Balance at October 31, 2004 | Retained > Earnings: $195,552
+Balance at October 31, 2004 | Treasury > Stock: $(175,762)
+Balance at October 31, 2004 | Deferred > Stock > Compensation: $(2,732)
+Balance at October 31, 2004 | Accumulated Other > Comprehensive > Income (Loss): $(645)
+Balance at October 31, 2004 | Total: $1,258,455
+Components of comprehensive loss > Net loss | Retained > Earnings: (17,114)
+Components of comprehensive loss > Net loss | Accumulated Other > Comprehensive > Income (Loss): (17,114)
+Components of comprehensive loss > Net loss | Total: (17,114)
+Components of comprehensive loss > Unrealized loss on investments, net of tax of $542 | Accumulated Other > Comprehensive > Income (Loss): (693)
+Components of comprehensive loss > Deferred loss on cash flow hedges, net of tax of $1,185 | Accumulated Other > Comprehensive > Income (Loss): (2,108)
+Components of comprehensive loss > Reclassification adjustment on deferred (gains) losses of cash flow hedges, net of tax of $3,501 | Accumulated Other > Comprehensive > Income (Loss): (6,226)
+Components of comprehensive loss > Correction of an error in accounting for certain hedging transactions, net of tax of $1,150 | Accumulated Other > Comprehensive > Income (Loss): (1,808)
+Components of comprehensive loss > Foreign currency translation adjustment | Accumulated Other > Comprehensive > Income (Loss): (4,521)
+Components of comprehensive loss > Accumulated other comprehensive loss | Accumulated Other > Comprehensive > Income (Loss): (15,356)
+Components of comprehensive loss > Accumulated other comprehensive loss | Total: (15,356)
+Components of comprehensive loss > Total comprehensive loss | Accumulated Other > Comprehensive > Income (Loss): (32,470)
+Components of comprehensive loss > Total comprehensive loss | Total: (32,470)
+Components of comprehensive loss > Deferred stock compensation | Capital in Excess > of Par > Value: 1,490
+Components of comprehensive loss > Deferred stock compensation | Deferred > Stock > Compensation: (1,490)
+Components of comprehensive loss > Stock options assumed in connection with acquisition of Nassda | Capital in Excess > of Par > Value: 12,141
+Components of comprehensive loss > Stock options assumed in connection with acquisition of Nassda | Total: 12,141
+Components of comprehensive loss > Amortization of deferred stock compensation, net of forfeitures | Capital in Excess > of Par > Value: 3,429
+Components of comprehensive loss > Amortization of deferred stock compensation, net of forfeitures | Deferred > Stock > Compensation: 2,747
+Components of comprehensive loss > Amortization of deferred stock compensation, net of forfeitures | Total: 6,176
+Components of comprehensive loss > Acquisition of treasury stock | Common Stock > Shares: (5,140)
+Components of comprehensive loss > Acquisition of treasury stock | Common Stock > Amount: (51)
+Components of comprehensive loss > Acquisition of treasury stock | Capital in Excess > of Par > Value: 51
+Components of comprehensive loss > Acquisition of treasury stock | Treasury > Stock: (88,386)
+Components of comprehensive loss > Acquisition of treasury stock | Total: (88,386)
+Components of comprehensive loss > Common stock issued | Common Stock > Shares: 3,659
+Components of comprehensive loss > Common stock issued | Common Stock > Amount: 36
+Components of comprehensive loss > Common stock issued | Capital in Excess > of Par > Value: (527)
+Components of comprehensive loss > Common stock issued | Retained > Earnings: (15,560)
+Components of comprehensive loss > Common stock issued | Treasury > Stock: 64,666
+Components of comprehensive loss > Common stock issued | Total: 48,615
+Components of comprehensive loss > Tax benefits associated with exercise of stock options | Capital in Excess > of Par > Value: 6,106
+Components of comprehensive loss > Tax benefits associated with exercise of stock options | Total: 6,106
+Components of comprehensive loss > Balance at October 31, 2005 | Common Stock > Shares: 145,897
+Components of comprehensive loss > Balance at October 31, 2005 | Common Stock > Amount: $1,459
+Components of comprehensive loss > Balance at October 31, 2005 | Capital in Excess > of Par > Value: $1,263,258
+Components of comprehensive loss > Balance at October 31, 2005 | Retained > Earnings: $162,878
+Components of comprehensive loss > Balance at October 31, 2005 | Treasury > Stock: $(199,482)
+Components of comprehensive loss > Balance at October 31, 2005 | Deferred > Stock > Compensation: $(1,475)
+Components of comprehensive loss > Balance at October 31, 2005 | Accumulated Other > Comprehensive > Income (Loss): $(16,001)
+Components of comprehensive loss > Balance at October 31, 2005 | Total: $1,210,637

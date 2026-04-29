@@ -1,0 +1,48 @@
+Net sales | Year Ended December 31, 2014 > Dollars inMillions: $12,074.5
+Net sales | Year Ended December 31, 2014 > Percentage ofNet Sales: 100.0%
+Net sales | Year Ended December 31, 2013 > Dollars inMillions: $10,768.6
+Net sales | Year Ended December 31, 2013 > Percentage ofNet Sales: 100.0%
+Cost of sales | Year Ended December 31, 2014 > Dollars inMillions: 10,153.2
+Cost of sales | Year Ended December 31, 2014 > Percentage ofNet Sales: 84.1
+Cost of sales | Year Ended December 31, 2013 > Dollars inMillions: 9,008.3
+Cost of sales | Year Ended December 31, 2013 > Percentage ofNet Sales: 83.7
+Gross profit | Year Ended December 31, 2014 > Dollars inMillions: 1,921.3
+Gross profit | Year Ended December 31, 2014 > Percentage ofNet Sales: 15.9
+Gross profit | Year Ended December 31, 2013 > Dollars inMillions: 1,760.3
+Gross profit | Year Ended December 31, 2013 > Percentage ofNet Sales: 16.3
+Selling and administrative expenses | Year Ended December 31, 2014 > Dollars inMillions: 1,110.3
+Selling and administrative expenses | Year Ended December 31, 2014 > Percentage ofNet Sales: 9.2
+Selling and administrative expenses | Year Ended December 31, 2013 > Dollars inMillions: 1,120.9
+Selling and administrative expenses | Year Ended December 31, 2013 > Percentage ofNet Sales: 10.4
+Advertising expense | Year Ended December 31, 2014 > Dollars inMillions: 138.0
+Advertising expense | Year Ended December 31, 2014 > Percentage ofNet Sales: 1.1
+Advertising expense | Year Ended December 31, 2013 > Dollars inMillions: 130.8
+Advertising expense | Year Ended December 31, 2013 > Percentage ofNet Sales: 1.2
+Income from operations | Year Ended December 31, 2014 > Dollars inMillions: 673.0
+Income from operations | Year Ended December 31, 2014 > Percentage ofNet Sales: 5.6
+Income from operations | Year Ended December 31, 2013 > Dollars inMillions: 508.6
+Income from operations | Year Ended December 31, 2013 > Percentage ofNet Sales: 4.7
+Interest expense, net | Year Ended December 31, 2014 > Dollars inMillions: (197.3)
+Interest expense, net | Year Ended December 31, 2014 > Percentage ofNet Sales: (1.6)
+Interest expense, net | Year Ended December 31, 2013 > Dollars inMillions: (250.1)
+Interest expense, net | Year Ended December 31, 2013 > Percentage ofNet Sales: (2.3)
+Net loss on extinguishments of long-term debt | Year Ended December 31, 2014 > Dollars inMillions: (90.7)
+Net loss on extinguishments of long-term debt | Year Ended December 31, 2014 > Percentage ofNet Sales: (0.8)
+Net loss on extinguishments of long-term debt | Year Ended December 31, 2013 > Dollars inMillions: (64.0)
+Net loss on extinguishments of long-term debt | Year Ended December 31, 2013 > Percentage ofNet Sales: (0.6)
+Other income, net | Year Ended December 31, 2014 > Dollars inMillions: 2.7
+Other income, net | Year Ended December 31, 2014 > Percentage ofNet Sales: —
+Other income, net | Year Ended December 31, 2013 > Dollars inMillions: 1.0
+Other income, net | Year Ended December 31, 2013 > Percentage ofNet Sales: —
+Income before income taxes | Year Ended December 31, 2014 > Dollars inMillions: 387.7
+Income before income taxes | Year Ended December 31, 2014 > Percentage ofNet Sales: 3.2
+Income before income taxes | Year Ended December 31, 2013 > Dollars inMillions: 195.5
+Income before income taxes | Year Ended December 31, 2013 > Percentage ofNet Sales: 1.8
+Income tax expense | Year Ended December 31, 2014 > Dollars inMillions: (142.8)
+Income tax expense | Year Ended December 31, 2014 > Percentage ofNet Sales: (1.2)
+Income tax expense | Year Ended December 31, 2013 > Dollars inMillions: (62.7)
+Income tax expense | Year Ended December 31, 2013 > Percentage ofNet Sales: (0.6)
+Net income | Year Ended December 31, 2014 > Dollars inMillions: $244.9
+Net income | Year Ended December 31, 2014 > Percentage ofNet Sales: 2.0%
+Net income | Year Ended December 31, 2013 > Dollars inMillions: $132.8
+Net income | Year Ended December 31, 2013 > Percentage ofNet Sales: 1.2%

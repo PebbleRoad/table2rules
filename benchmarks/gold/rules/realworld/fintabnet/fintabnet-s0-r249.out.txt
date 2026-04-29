@@ -1,0 +1,63 @@
+Weighted-average assumptions used to determine benefit obligations, end of year: > Discount rate | U.S. Pension Benefits > 2018: 4.2%
+Weighted-average assumptions used to determine benefit obligations, end of year: > Discount rate | U.S. Pension Benefits > 2017: 3.5%
+Weighted-average assumptions used to determine benefit obligations, end of year: > Discount rate | U.S. Pension Benefits > 2016: 4.0%
+Weighted-average assumptions used to determine benefit obligations, end of year: > Discount rate | Non-U.S. Pension Benefits > 2018: 2.5%
+Weighted-average assumptions used to determine benefit obligations, end of year: > Discount rate | Non-U.S. Pension Benefits > 2017: 2.4%
+Weighted-average assumptions used to determine benefit obligations, end of year: > Discount rate | Non-U.S. Pension Benefits > 2016: 2.5%
+Weighted-average assumptions used to determine benefit obligations, end of year: > Discount rate | Other Postretirement Benefits > 2018: 4.2%
+Weighted-average assumptions used to determine benefit obligations, end of year: > Discount rate | Other Postretirement Benefits > 2017: 3.6%
+Weighted-average assumptions used to determine benefit obligations, end of year: > Discount rate | Other Postretirement Benefits > 2016: 4.0%
+Weighted-average assumptions used to determine benefit obligations, end of year: > Rate of compensation increase | U.S. Pension Benefits > 2018: 4.0%
+Weighted-average assumptions used to determine benefit obligations, end of year: > Rate of compensation increase | U.S. Pension Benefits > 2017: 4.0%
+Weighted-average assumptions used to determine benefit obligations, end of year: > Rate of compensation increase | U.S. Pension Benefits > 2016: 4.0%
+Weighted-average assumptions used to determine benefit obligations, end of year: > Rate of compensation increase | Non-U.S. Pension Benefits > 2018: 3.0%
+Weighted-average assumptions used to determine benefit obligations, end of year: > Rate of compensation increase | Non-U.S. Pension Benefits > 2017: 4.0%
+Weighted-average assumptions used to determine benefit obligations, end of year: > Rate of compensation increase | Non-U.S. Pension Benefits > 2016: 4.0%
+Weighted-average assumptions used to determine benefit obligations, end of year: > Rate of compensation increase | Other Postretirement Benefits > 2018: 4.0%
+Weighted-average assumptions used to determine benefit obligations, end of year: > Rate of compensation increase | Other Postretirement Benefits > 2017: 4.0%
+Weighted-average assumptions used to determine benefit obligations, end of year: > Rate of compensation increase | Other Postretirement Benefits > 2016: 4.0%
+Weighted-average assumptions used to determine net cost: > Discount rate used to measure service cost | U.S. Pension Benefits > 2018: 3.7%
+Weighted-average assumptions used to determine net cost: > Discount rate used to measure service cost | U.S. Pension Benefits > 2017: 4.2%
+Weighted-average assumptions used to determine net cost: > Discount rate used to measure service cost | U.S. Pension Benefits > 2016: 4.5%
+Weighted-average assumptions used to determine net cost: > Discount rate used to measure service cost | Non-U.S. Pension Benefits > 2018: 2.3%
+Weighted-average assumptions used to determine net cost: > Discount rate used to measure service cost | Non-U.S. Pension Benefits > 2017: 2.4%
+Weighted-average assumptions used to determine net cost: > Discount rate used to measure service cost | Non-U.S. Pension Benefits > 2016: 2.9%
+Weighted-average assumptions used to determine net cost: > Discount rate used to measure service cost | Other Postretirement Benefits > 2018: 3.5%
+Weighted-average assumptions used to determine net cost: > Discount rate used to measure service cost | Other Postretirement Benefits > 2017: 3.9%
+Weighted-average assumptions used to determine net cost: > Discount rate used to measure service cost | Other Postretirement Benefits > 2016: 4.2%
+Weighted-average assumptions used to determine net cost: > Discount rate used to measure interest cost | U.S. Pension Benefits > 2018: 3.2%
+Weighted-average assumptions used to determine net cost: > Discount rate used to measure interest cost | U.S. Pension Benefits > 2017: 3.3%
+Weighted-average assumptions used to determine net cost: > Discount rate used to measure interest cost | U.S. Pension Benefits > 2016: 3.4%
+Weighted-average assumptions used to determine net cost: > Discount rate used to measure interest cost | Non-U.S. Pension Benefits > 2018: 2.2%
+Weighted-average assumptions used to determine net cost: > Discount rate used to measure interest cost | Non-U.S. Pension Benefits > 2017: 2.3%
+Weighted-average assumptions used to determine net cost: > Discount rate used to measure interest cost | Non-U.S. Pension Benefits > 2016: 2.8%
+Weighted-average assumptions used to determine net cost: > Discount rate used to measure interest cost | Other Postretirement Benefits > 2018: 3.2%
+Weighted-average assumptions used to determine net cost: > Discount rate used to measure interest cost | Other Postretirement Benefits > 2017: 3.3%
+Weighted-average assumptions used to determine net cost: > Discount rate used to measure interest cost | Other Postretirement Benefits > 2016: 3.3%
+Weighted-average assumptions used to determine net cost: > Expected rate of return on plan assets | U.S. Pension Benefits > 2018: 6.3%
+Weighted-average assumptions used to determine net cost: > Expected rate of return on plan assets | U.S. Pension Benefits > 2017: 6.7%
+Weighted-average assumptions used to determine net cost: > Expected rate of return on plan assets | U.S. Pension Benefits > 2016: 6.9%
+Weighted-average assumptions used to determine net cost: > Expected rate of return on plan assets | Non-U.S. Pension Benefits > 2018: 5.2%
+Weighted-average assumptions used to determine net cost: > Expected rate of return on plan assets | Non-U.S. Pension Benefits > 2017: 5.9%
+Weighted-average assumptions used to determine net cost: > Expected rate of return on plan assets | Non-U.S. Pension Benefits > 2016: 6.1%
+Weighted-average assumptions used to determine net cost: > Expected rate of return on plan assets | Other Postretirement Benefits > 2018: 7.5%
+Weighted-average assumptions used to determine net cost: > Expected rate of return on plan assets | Other Postretirement Benefits > 2017: 7.5%
+Weighted-average assumptions used to determine net cost: > Expected rate of return on plan assets | Other Postretirement Benefits > 2016: 7.5%
+Weighted-average assumptions used to determine net cost: > Rate of compensation increase | U.S. Pension Benefits > 2018: 4.0%
+Weighted-average assumptions used to determine net cost: > Rate of compensation increase | U.S. Pension Benefits > 2017: 4.0%
+Weighted-average assumptions used to determine net cost: > Rate of compensation increase | U.S. Pension Benefits > 2016: 4.0%
+Weighted-average assumptions used to determine net cost: > Rate of compensation increase | Non-U.S. Pension Benefits > 2018: 4.0%
+Weighted-average assumptions used to determine net cost: > Rate of compensation increase | Non-U.S. Pension Benefits > 2017: 4.0%
+Weighted-average assumptions used to determine net cost: > Rate of compensation increase | Non-U.S. Pension Benefits > 2016: 3.6%
+Weighted-average assumptions used to determine net cost: > Rate of compensation increase | Other Postretirement Benefits > 2018: 4.0%
+Weighted-average assumptions used to determine net cost: > Rate of compensation increase | Other Postretirement Benefits > 2017: 4.0%
+Weighted-average assumptions used to determine net cost: > Rate of compensation increase | Other Postretirement Benefits > 2016: 4.0%
+Health care trend rate assumed for next year | Other Postretirement Benefits > 2018: 6.1%
+Health care trend rate assumed for next year | Other Postretirement Benefits > 2017: 6.1%
+Health care trend rate assumed for next year | Other Postretirement Benefits > 2016: 6.6%
+Rate that the cost trend rate gradually declines to | Other Postretirement Benefits > 2018: 5.0%
+Rate that the cost trend rate gradually declines to | Other Postretirement Benefits > 2017: 5.0%
+Rate that the cost trend rate gradually declines to | Other Postretirement Benefits > 2016: 5.0%
+Year that the cost trend rate reaches ultimate rate | Other Postretirement Benefits > 2018: 2025
+Year that the cost trend rate reaches ultimate rate | Other Postretirement Benefits > 2017: 2022
+Year that the cost trend rate reaches ultimate rate | Other Postretirement Benefits > 2016: 2022

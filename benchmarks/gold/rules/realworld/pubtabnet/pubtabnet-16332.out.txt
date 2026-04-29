@@ -1,0 +1,60 @@
+factors influencing health status and contact with health services (V01–V83) | Hospital admissions: rehabilitation (4)
+factors influencing health status and contact with health services (V01–V83) | ER admissions: =
+factors influencing health status and contact with health services (V01–V83) | Specialist visits: rehabilitation (5); problems of eye (7), heart (3), diabetes (2), urogenital (2), skin (1); Rx of hip (1)
+factors influencing health status and contact with health services (V01–V83) | GP visits: general control (8); urinary cathether substitution (1)
+factors influencing health status and contact with health services (V01–V83) | Total: 34
+factors influencing health status and contact with health services (V01–V83) | %: 19.3
+symptoms, signs, and ill-defined conditions (780–799) | Hospital admissions: chest pain (2); sleep disturbance (1); epistaxis (1); abdominal pain (1)
+symptoms, signs, and ill-defined conditions (780–799) | ER admissions: abdominal pain (2); dyskinesia (1); epistaxis (1); dysphagia (1)
+symptoms, signs, and ill-defined conditions (780–799) | Specialist visits: abdominal pain (6); hallucination (1); headache (1)
+symptoms, signs, and ill-defined conditions (780–799) | GP visits: abdominal pain (2); hallucination (1); cough (1); nausea, vomiting (1); urinary incontinence (1)
+symptoms, signs, and ill-defined conditions (780–799) | Total: 24
+symptoms, signs, and ill-defined conditions (780–799) | %: 13.7
+injury (800–959) | Hospital admissions: fracture of femur (1), femur plus humerus (1)
+injury (800–959) | ER admissions: injuries due to falls (11); fractures: ribs (2), wrist (1), upper limb (1), foot (1), unspecified (2); open wound (1)
+injury (800–959) | Specialist visits: =
+injury (800–959) | GP visits: fracture unspecified (1); open wound (1)
+injury (800–959) | Total: 23
+injury (800–959) | %: 13.1
+diseases of musculo-skeletal system and connective tissue (710–739) | Hospital admissions: osteoarthrosis (1)
+diseases of musculo-skeletal system and connective tissue (710–739) | ER admissions: pain in joint (1); lumbago (1)
+diseases of musculo-skeletal system and connective tissue (710–739) | Specialist visits: intervertebral discopathy (3); lumbago (3); pain in joint (2); osteoarthrosis (2); spondilosis (1); osteomyelitis (1)
+diseases of musculo-skeletal system and connective tissue (710–739) | GP visits: pain in joint (4); lumbago (2); rheumatism (1)
+diseases of musculo-skeletal system and connective tissue (710–739) | Total: 22
+diseases of musculo-skeletal system and connective tissue (710–739) | %: 12.5
+diseases of the circulatory system (390–459) | Hospital admissions: acute hypotension (2); cerebral ischemia (1); aortic aneurysm (1)
+diseases of the circulatory system (390–459) | ER admissions: =
+diseases of the circulatory system (390–459) | Specialist visits: hypertension (3); ischemic heart disease (2); atrial fibrillation (1); myocardial degeneration (1); aortic aneurysm (1); varicous veins (1)
+diseases of the circulatory system (390–459) | GP visits: hypotension (2); hypertenson (1)
+diseases of the circulatory system (390–459) | Total: 16
+diseases of the circulatory system (390–459) | %: 9.1
+diseases of the nervous system and sense organs (320–389) | Hospital admissions: cataract (3)
+diseases of the nervous system and sense organs (320–389) | ER admissions: hearing loss (1)
+diseases of the nervous system and sense organs (320–389) | Specialist visits: tinnitus (1); presbyopia (1); cataract (1); hearing loss (2); glaucoma (1); impacted cerumen (1)
+diseases of the nervous system and sense organs (320–389) | GP visits: conjunctivitis (2); vertiginous syndrome (1)
+diseases of the nervous system and sense organs (320–389) | Total: 14
+diseases of the nervous system and sense organs (320–389) | %: 7.9
+diseases of the digestive system (520–527) | Hospital admissions: abdominal hernia (2); gastric ulcer (1); constipation (1); cholelithiasis (1)
+diseases of the digestive system (520–527) | ER admissions: pulp disease (1); teeth extraction (1)
+diseases of the digestive system (520–527) | Specialist visits: avulsions of teeth (2); periodontal disease (1)
+diseases of the digestive system (520–527) | GP visits: constipation (2); intestinal obstruction (1); cholelithiasis (1)
+diseases of the digestive system (520–527) | Total: 14
+diseases of the digestive system (520–527) | %: 7.9
+diseases of respiratory system (460–519) | Hospital admissions: pneumonia (1)
+diseases of respiratory system (460–519) | ER admissions: pneumonia (1)
+diseases of respiratory system (460–519) | Specialist visits: asthma (1)
+diseases of respiratory system (460–519) | GP visits: influenza (5); acute laringytis (1)
+diseases of respiratory system (460–519) | Total: 9
+diseases of respiratory system (460–519) | %: 5.1
+other* | Hospital admissions: 4
+other* | ER admissions: 1
+other* | Specialist visits: 13
+other* | GP visits: 2
+other* | Total: 20
+other* | %: 11.4
+Total | Hospital admissions: 29
+Total | ER admissions: 31
+Total | Specialist visits: 74
+Total | GP visits: 42
+Total | Total: 176
+Total | %: 100.0

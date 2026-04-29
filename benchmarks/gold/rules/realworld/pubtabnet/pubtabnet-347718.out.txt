@@ -1,0 +1,90 @@
+SNP: SNP 1
+Series: Cases
+Rare-allele frequency: 0.13
+Common homozygote No. (%): 1618 (77)
+Heterozygote No. (%): 447 (21)
+Rare homozygote No. (%): 42 (2)
+Number genotyped: 2107
+Series: Controls
+Rare-allele frequency: 0.13
+Common homozygote No. (%): 1645 (75)
+Heterozygote No. (%): 511 (23)
+Rare homozygote No. (%): 33 (2)
+Number genotyped: 2189
+P (2df): 0.13
+Series: OR (95% CI)
+Common homozygote No. (%): 1 (ref)
+Heterozygote No. (%): 0.89 (0.77–1.03)
+Rare homozygote No. (%): 1.29 (0.82–2.05)
+SNP: SNP 2
+Series: Cases
+Rare-allele frequency: 0.25
+Common homozygote No. (%): 1151 (57)
+Heterozygote No. (%): 734 (36)
+Rare homozygote No. (%): 140 (7)
+Number genotyped: 2025
+Series: Controls
+Rare-allele frequency: 0.26
+Common homozygote No. (%): 1219 (55)
+Heterozygote No. (%): 839 (38)
+Rare homozygote No. (%): 147 (7)
+Number genotyped: 2205
+P (2df): 0.48
+Series: OR (95% CI)
+Common homozygote No. (%): 1 (ref)
+Heterozygote No. (%): 0.93 (0.82–1.05)
+Rare homozygote No. (%): 1.01 (0.79–1.29)
+SNP: SNP 3
+Series: Cases
+Rare-allele frequency: 0.32
+Common homozygote No. (%): 962 (47)
+Heterozygote No. (%): 855 (42)
+Rare homozygote No. (%): 219 (11)
+Number genotyped: 2036
+Series: Controls
+Rare-allele frequency: 0.32
+Common homozygote No. (%): 1022 (46)
+Heterozygote No. (%): 956 (43)
+Rare homozygote No. (%): 230 (11)
+Number genotyped: 2208
+P (2df): 0.69
+Series: OR (95% CI)
+Common homozygote No. (%): 1 (ref)
+Heterozygote No. (%): 0.95 (0.84–1.08)
+Rare homozygote No. (%): 1.01 (0.82–1.24)
+SNP: SNP 4
+Series: Cases
+Rare-allele frequency: 0.25
+Common homozygote No. (%): 1128 (57)
+Heterozygote No. (%): 748 (37)
+Rare homozygote No. (%): 113 (6)
+Number genotyped: 1989
+Series: Controls
+Rare-allele frequency: 0.25
+Common homozygote No. (%): 1230 (57)
+Heterozygote No. (%): 791 (37)
+Rare homozygote No. (%): 134 (6)
+Number genotyped: 2155
+P (2df): 0.69
+Series: OR (95% CI)
+Common homozygote No. (%): 1 (ref)
+Heterozygote No. (%): 1.03 (0.91–1.17)
+Rare homozygote No. (%): 0.92 (0.71–1.20)
+SNP: SNP 5
+Series: Cases
+Rare-allele frequency: 0.33
+Common homozygote No. (%): 911 (45)
+Heterozygote No. (%): 870 (43)
+Rare homozygote No. (%): 233 (12)
+Number genotyped: 2014
+Series: Controls
+Rare-allele frequency: 0.33
+Common homozygote No. (%): 960 (44)
+Heterozygote No. (%): 983 (45)
+Rare homozygote No. (%): 238 (11)
+Number genotyped: 2181
+P (2df): 0.45
+Series: OR (95% CI)
+Common homozygote No. (%): 1 (ref)
+Heterozygote No. (%): 0.93 (0.82–1.06)
+Rare homozygote No. (%): 1.03 (0.84–1.26)

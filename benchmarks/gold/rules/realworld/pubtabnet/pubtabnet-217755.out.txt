@@ -1,0 +1,49 @@
+Control: I
+Control: II
+Experimental: I
+Experimental: II
+Particulars: Motile (%)
+Control: 100
+Control: 100
+Experimental: 9
+Experimental: 7
+Particulars: Progressive (%)
+Control: 100
+Control: 75
+Experimental: 0
+Experimental: 0
+Particulars: Path velocity (μm/s)
+Control: 53.2
+Control: 48.8
+Experimental: 26.4
+Experimental: 34
+Particulars: Progressive velocity (μm/s)
+Control: 34.2
+Control: 36.1
+Experimental: 24.7
+Experimental: 27.9
+Particulars: Track speed (μm/s)
+Control: 101.7
+Control: 85.1
+Experimental: 33.3
+Experimental: 41.2
+Particulars: Lateral amplitude (μm)
+Control: 10.2
+Control: 8.0
+Experimental: 0
+Experimental: 0
+Particulars: Beat frequency (Hz)
+Control: 24.8
+Control: 19.9
+Experimental: 0
+Experimental: 0
+Particulars: Straightness (%)
+Control: 63
+Control: 64
+Experimental: 94
+Experimental: 76
+Particulars: Linearity (%)
+Control: 37
+Control: 46
+Experimental: 74
+Experimental: 76

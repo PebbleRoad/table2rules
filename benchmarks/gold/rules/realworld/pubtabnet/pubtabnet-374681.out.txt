@@ -1,0 +1,28 @@
+Appetite | Patient scale > Spearman's rho: 0.02
+Appetite | Patient scale > p-value *: N.S
+Appetite | Observer scale > Spearman's rho: -0.20
+Appetite | Observer scale > p-value: N.S.
+Fatigue | Patient scale > Spearman's rho: -0.23
+Fatigue | Patient scale > p-value *: N.S
+Fatigue | Observer scale > Spearman's rho: -0.19
+Fatigue | Observer scale > p-value: N.S.
+Cough | Patient scale > Spearman's rho: -0.16
+Cough | Patient scale > p-value *: N.S
+Cough | Observer scale > Spearman's rho: -0.33
+Cough | Observer scale > p-value: 0.03
+Dyspnea | Patient scale > Spearman's rho: 0.07
+Dyspnea | Patient scale > p-value *: N.S
+Dyspnea | Observer scale > Spearman's rho: -0.26
+Dyspnea | Observer scale > p-value: N.S.
+Pain | Patient scale > Spearman's rho: -0.13
+Pain | Patient scale > p-value *: N.S
+Pain | Observer scale > Spearman's rho: 0.02
+Pain | Observer scale > p-value: N.S.
+Hemoptysis | Patient scale > Spearman's rho: -0.85
+Hemoptysis | Patient scale > p-value *: N.S
+Hemoptysis | Observer scale > Spearman's rho: -0.20
+Hemoptysis | Observer scale > p-value: N.S.
+Global symptom score | Patient scale > Spearman's rho: -0.23
+Global symptom score | Patient scale > p-value *: N.S.
+Global symptom score | Observer scale > Spearman's rho: -0.31
+Global symptom score | Observer scale > p-value: 0.049

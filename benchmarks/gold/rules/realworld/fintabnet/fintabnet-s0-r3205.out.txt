@@ -1,0 +1,92 @@
+Balance at October 31, 2003 | Common Stock > Shares: 155,837
+Balance at October 31, 2003 | Common Stock > Amount: $1,560
+Balance at October 31, 2003 | Capital in Excess > of Par > Value: $1,198,421
+Balance at October 31, 2003 | Retained > Earnings: $251,979
+Balance at October 31, 2003 | Treasury > Stock: $(20,733)
+Balance at October 31, 2003 | Deferred > Stock > Compensation: $(7,170)
+Balance at October 31, 2003 | Accumulated Other > Comprehensive > Income (Loss): $9,353
+Balance at October 31, 2003 | Total: $1,433,410
+Components of comprehensive income: > Net income | Common Stock > Shares: —
+Components of comprehensive income: > Net income | Common Stock > Amount: —
+Components of comprehensive income: > Net income | Capital in Excess > of Par > Value: —
+Components of comprehensive income: > Net income | Retained > Earnings: 74,337
+Components of comprehensive income: > Net income | Treasury > Stock: —
+Components of comprehensive income: > Net income | Deferred > Stock > Compensation: —
+Components of comprehensive income: > Net income | Accumulated Other > Comprehensive > Income (Loss): 74,337
+Components of comprehensive income: > Net income | Total: 74,337
+Components of comprehensive income: > Unrealized gain (loss) on investments, net of tax of $139 | Common Stock > Shares: —
+Components of comprehensive income: > Unrealized gain (loss) on investments, net of tax of $139 | Common Stock > Amount: —
+Components of comprehensive income: > Unrealized gain (loss) on investments, net of tax of $139 | Capital in Excess > of Par > Value: —
+Components of comprehensive income: > Unrealized gain (loss) on investments, net of tax of $139 | Retained > Earnings: —
+Components of comprehensive income: > Unrealized gain (loss) on investments, net of tax of $139 | Treasury > Stock: —
+Components of comprehensive income: > Unrealized gain (loss) on investments, net of tax of $139 | Deferred > Stock > Compensation: —
+Components of comprehensive income: > Unrealized gain (loss) on investments, net of tax of $139 | Accumulated Other > Comprehensive > Income (Loss): 295
+Components of comprehensive income: > Unrealized gain (loss) on investments, net of tax of $139 | Total: —
+Components of comprehensive income: > Deferred gain (loss) on cash flow hedges, net of tax of $1,270 | Common Stock > Shares: —
+Components of comprehensive income: > Deferred gain (loss) on cash flow hedges, net of tax of $1,270 | Common Stock > Amount: —
+Components of comprehensive income: > Deferred gain (loss) on cash flow hedges, net of tax of $1,270 | Capital in Excess > of Par > Value: —
+Components of comprehensive income: > Deferred gain (loss) on cash flow hedges, net of tax of $1,270 | Retained > Earnings: —
+Components of comprehensive income: > Deferred gain (loss) on cash flow hedges, net of tax of $1,270 | Treasury > Stock: —
+Components of comprehensive income: > Deferred gain (loss) on cash flow hedges, net of tax of $1,270 | Deferred > Stock > Compensation: —
+Components of comprehensive income: > Deferred gain (loss) on cash flow hedges, net of tax of $1,270 | Accumulated Other > Comprehensive > Income (Loss): (2,699)
+Components of comprehensive income: > Deferred gain (loss) on cash flow hedges, net of tax of $1,270 | Total: —
+Components of comprehensive income: > Reclassification adjustment on deferred gains on cash flow hedges, net of tax of $2,972 | Common Stock > Shares: —
+Components of comprehensive income: > Reclassification adjustment on deferred gains on cash flow hedges, net of tax of $2,972 | Common Stock > Amount: —
+Components of comprehensive income: > Reclassification adjustment on deferred gains on cash flow hedges, net of tax of $2,972 | Capital in Excess > of Par > Value: —
+Components of comprehensive income: > Reclassification adjustment on deferred gains on cash flow hedges, net of tax of $2,972 | Retained > Earnings: —
+Components of comprehensive income: > Reclassification adjustment on deferred gains on cash flow hedges, net of tax of $2,972 | Treasury > Stock: —
+Components of comprehensive income: > Reclassification adjustment on deferred gains on cash flow hedges, net of tax of $2,972 | Deferred > Stock > Compensation: —
+Components of comprehensive income: > Reclassification adjustment on deferred gains on cash flow hedges, net of tax of $2,972 | Accumulated Other > Comprehensive > Income (Loss): (7,078)
+Components of comprehensive income: > Reclassification adjustment on deferred gains on cash flow hedges, net of tax of $2,972 | Total: —
+Components of comprehensive income: > Foreign currency translation adjustment | Common Stock > Shares: —
+Components of comprehensive income: > Foreign currency translation adjustment | Common Stock > Amount: —
+Components of comprehensive income: > Foreign currency translation adjustment | Capital in Excess > of Par > Value: —
+Components of comprehensive income: > Foreign currency translation adjustment | Retained > Earnings: —
+Components of comprehensive income: > Foreign currency translation adjustment | Treasury > Stock: —
+Components of comprehensive income: > Foreign currency translation adjustment | Deferred > Stock > Compensation: —
+Components of comprehensive income: > Foreign currency translation adjustment | Accumulated Other > Comprehensive > Income (Loss): (516)
+Components of comprehensive income: > Foreign currency translation adjustment | Total: —
+Components of comprehensive income: > Accumulated other comprehensive (loss) | Accumulated Other > Comprehensive > Income (Loss): (9,998)
+Components of comprehensive income: > Accumulated other comprehensive (loss) | Total: (9,998)
+Components of comprehensive income: > Total comprehensive income | Accumulated Other > Comprehensive > Income (Loss): 64,339
+Components of comprehensive income: > Total comprehensive income | Total: 64,339
+Components of comprehensive income: > Amortization of deferred stock compensation, net of forfeitures | Common Stock > Shares: —
+Components of comprehensive income: > Amortization of deferred stock compensation, net of forfeitures | Common Stock > Amount: —
+Components of comprehensive income: > Amortization of deferred stock compensation, net of forfeitures | Capital in Excess > of Par > Value: (1,083)
+Components of comprehensive income: > Amortization of deferred stock compensation, net of forfeitures | Retained > Earnings: —
+Components of comprehensive income: > Amortization of deferred stock compensation, net of forfeitures | Treasury > Stock: —
+Components of comprehensive income: > Amortization of deferred stock compensation, net of forfeitures | Deferred > Stock > Compensation: 4,438
+Components of comprehensive income: > Amortization of deferred stock compensation, net of forfeitures | Accumulated Other > Comprehensive > Income (Loss): —
+Components of comprehensive income: > Amortization of deferred stock compensation, net of forfeitures | Total: 3,355
+Components of comprehensive income: > Acquisition of treasury stock | Common Stock > Shares: (16,916)
+Components of comprehensive income: > Acquisition of treasury stock | Common Stock > Amount: (161)
+Components of comprehensive income: > Acquisition of treasury stock | Capital in Excess > of Par > Value: 161
+Components of comprehensive income: > Acquisition of treasury stock | Retained > Earnings: —
+Components of comprehensive income: > Acquisition of treasury stock | Treasury > Stock: (423,303)
+Components of comprehensive income: > Acquisition of treasury stock | Deferred > Stock > Compensation: —
+Components of comprehensive income: > Acquisition of treasury stock | Accumulated Other > Comprehensive > Income (Loss): —
+Components of comprehensive income: > Acquisition of treasury stock | Total: (423,303)
+Components of comprehensive income: > Stock issued under stock option and stock purchase plans | Common Stock > Shares: 8,457
+Components of comprehensive income: > Stock issued under stock option and stock purchase plans | Common Stock > Amount: 75
+Components of comprehensive income: > Stock issued under stock option and stock purchase plans | Capital in Excess > of Par > Value: 12,537
+Components of comprehensive income: > Stock issued under stock option and stock purchase plans | Retained > Earnings: (124,170)
+Components of comprehensive income: > Stock issued under stock option and stock purchase plans | Treasury > Stock: 268,274
+Components of comprehensive income: > Stock issued under stock option and stock purchase plans | Deferred > Stock > Compensation: —
+Components of comprehensive income: > Stock issued under stock option and stock purchase plans | Accumulated Other > Comprehensive > Income (Loss): —
+Components of comprehensive income: > Stock issued under stock option and stock purchase plans | Total: 156,716
+Components of comprehensive income: > Tax benefits associated with exercise of stock options | Common Stock > Shares: —
+Components of comprehensive income: > Tax benefits associated with exercise of stock options | Common Stock > Amount: —
+Components of comprehensive income: > Tax benefits associated with exercise of stock options | Capital in Excess > of Par > Value: 30,532
+Components of comprehensive income: > Tax benefits associated with exercise of stock options | Retained > Earnings: —
+Components of comprehensive income: > Tax benefits associated with exercise of stock options | Treasury > Stock: —
+Components of comprehensive income: > Tax benefits associated with exercise of stock options | Deferred > Stock > Compensation: —
+Components of comprehensive income: > Tax benefits associated with exercise of stock options | Accumulated Other > Comprehensive > Income (Loss): —
+Components of comprehensive income: > Tax benefits associated with exercise of stock options | Total: 30,532
+Components of comprehensive income: > Balance at October 31, 2004 | Common Stock > Shares: 147,378
+Components of comprehensive income: > Balance at October 31, 2004 | Common Stock > Amount: $1,474
+Components of comprehensive income: > Balance at October 31, 2004 | Capital in Excess > of Par > Value: $1,240,568
+Components of comprehensive income: > Balance at October 31, 2004 | Retained > Earnings: $202,146
+Components of comprehensive income: > Balance at October 31, 2004 | Treasury > Stock: $(175,762)
+Components of comprehensive income: > Balance at October 31, 2004 | Deferred > Stock > Compensation: $(2,732)
+Components of comprehensive income: > Balance at October 31, 2004 | Accumulated Other > Comprehensive > Income (Loss): $(645)
+Components of comprehensive income: > Balance at October 31, 2004 | Total: $1,265,049

@@ -1,0 +1,24 @@
+0–16 Years $ | Rate of Loss (percent per intra-couplet year) > Public > All intervals*: 0.63
+0–16 Years $ | Rate of Loss (percent per intra-couplet year) > Private Insured > All intervals*: 1.77
+0–16 Years $ | Rate of Loss (percent per intra-couplet year) > Private Insured > 0 to 13 yrs: 2.37
+0–16 Years $ | Rate of Loss (percent per intra-couplet year) > Private Insured > 14 to 21 yrs: 0.40
+0–16 Years $ | Difference in Rate (percent per intra-couplet year) > Public vs. Private > All Intervals*: 1.14
+0–16 Years $ | Difference in Rate (percent per intra-couplet year) > Private Insured > 0 to 13 vs. 14 to 21 yrs: 1.97
+17–39 Years | Rate of Loss (percent per intra-couplet year) > Public > All intervals*: 0.49
+17–39 Years | Rate of Loss (percent per intra-couplet year) > Private Insured > All intervals*: 2.27
+17–39 Years | Rate of Loss (percent per intra-couplet year) > Private Insured > 0 to 13 yrs: 2.39
+17–39 Years | Rate of Loss (percent per intra-couplet year) > Private Insured > 14 to 21 yrs: 0.55
+17–39 Years | Difference in Rate (percent per intra-couplet year) > Public vs. Private > All Intervals*: 1.78
+17–39 Years | Difference in Rate (percent per intra-couplet year) > Private Insured > 0 to 13 vs. 14 to 21 yrs: 1.84
+40–69 Years | Rate of Loss (percent per intra-couplet year) > Public > All intervals*: 0.81
+40–69 Years | Rate of Loss (percent per intra-couplet year) > Private Insured > All intervals*: 1.94
+40–69 Years | Rate of Loss (percent per intra-couplet year) > Private Insured > 0 to 13 yrs: 2.56
+40–69 Years | Rate of Loss (percent per intra-couplet year) > Private Insured > 14 to 21 yrs: 0.46
+40–69 Years | Difference in Rate (percent per intra-couplet year) > Public vs. Private > All Intervals*: 1.13
+40–69 Years | Difference in Rate (percent per intra-couplet year) > Private Insured > 0 to 13 vs. 14 to 21 yrs: 2.10
+70+ Years | Rate of Loss (percent per intra-couplet year) > Public > All intervals*: 0.25
+70+ Years | Rate of Loss (percent per intra-couplet year) > Private Insured > All intervals*: 2.64
+70+ Years | Rate of Loss (percent per intra-couplet year) > Private Insured > 0 to 13 yrs: 2.67
+70+ Years | Rate of Loss (percent per intra-couplet year) > Private Insured > 14 to 21 yrs: 1.91
+70+ Years | Difference in Rate (percent per intra-couplet year) > Public vs. Private > All Intervals*: 2.39
+70+ Years | Difference in Rate (percent per intra-couplet year) > Private Insured > 0 to 13 vs. 14 to 21 yrs: 0.76

@@ -1,0 +1,76 @@
+Clinical and laboratory parameters: No. of patients
+FS a = 0: 57
+0 < FS < 1: 11
+1 ≤ FS < 2: 15
+FS ≥ 2: 37
+Clinical and laboratory parameters: Sex
+FS a = 0: 9M/48F
+0 < FS < 1: 1 M/10 F
+1 ≤ FS < 2: 0 M/15 F
+FS ≥ 2: 3 M/34 F
+Clinical and laboratory parameters: Age (years)
+FS a = 0: 46 ± 12
+0 < FS < 1: 46 ± 11
+1 ≤ FS < 2: 54 ± 14
+FS ≥ 2: 56 ± 13
+Clinical and laboratory parameters: Baseline biopsy area (mm 2 )
+FS a = 0: 6.1 ± 5.6
+0 < FS < 1: 8.3 ± 2.8
+1 ≤ FS < 2: 8.6 ± 4.3
+FS ≥ 2: 4.7 ± 2.6
+Clinical and laboratory parameters: Cumulative area of three biopsies (mm 2 )
+FS a = 0: 17.1 ± 15.1
+0 < FS < 1: 21.8 ± 9.3
+1 ≤ FS < 2: 22.6 ± 12.7
+FS ≥ 2: 12.9 ± 6.4
+Clinical and laboratory parameters: Findings [No. (%)]
+Clinical and laboratory parameters: Dry eyes
+FS a = 0: 49 (86)
+0 < FS < 1: 9 (81)
+1 ≤ FS < 2: 14 (93)
+FS ≥ 2: 33 (89)
+Clinical and laboratory parameters: Xerostomia
+FS a = 0: 45 (79)
+0 < FS < 1: 7 (63)
+1 ≤ FS < 2: 14 (93)
+FS ≥ 2: 35 (94)
+Clinical and laboratory parameters: Positive Schirmer's test
+FS a = 0: 24 (42)
+0 < FS < 1: 4 (36)
+1 ≤ FS < 2: 9 (60)
+FS ≥ 2: 18 (51)
+Clinical and laboratory parameters: Reduced salivary flow rate
+FS a = 0: 30 (53)
+0 < FS < 1: 7 (63)
+1 ≤ FS < 2: 13 (86)
+FS ≥ 2: 34 (91)
+Clinical and laboratory parameters: Antinuclear antibodies
+FS a = 0: 29 (51)
+0 < FS < 1: 8 (73)
+1 ≤ FS < 2: 8 (53)
+FS ≥ 2: 31 (83)
+Clinical and laboratory parameters: Ro/SS-A
+FS a = 0: 18 (31)
+0 < FS < 1: 3 (27)
+1 ≤ FS < 2: 6 (40)
+FS ≥ 2: 25 (67)
+Clinical and laboratory parameters: La/SS-B
+FS a = 0: 3 (5)
+0 < FS < 1: 0
+1 ≤ FS < 2: 3 (20)
+FS ≥ 2: 10 (27)
+Clinical and laboratory parameters: Rheumatoid factor
+FS a = 0: 27 (47)
+0 < FS < 1: 5 (45)
+1 ≤ FS < 2: 7 (46)
+FS ≥ 2: 33 (89)
+Clinical and laboratory parameters: SS according to AECG criteria [No. (%)]
+FS a = 0: 7 (12)
+0 < FS < 1: 1 (9)
+1 ≤ FS < 2: 15 (100)
+FS ≥ 2: 34 (92)
+Clinical and laboratory parameters: SS according to clinical re-evaluation [No. (%)]
+FS a = 0: 7 (12)
+0 < FS < 1: 0 (0)
+1 ≤ FS < 2: 8 (53)
+FS ≥ 2: 34 (92)

@@ -1,0 +1,52 @@
+Sera ( n ): SLE (176)
+Number (%) of anti-SMP positive sera: 28 (15.9)
+Mean value (U/ml): 43.0
+Top value (U/ml): 1190.0
+Sera ( n ): Rheumatic diseases (181)
+Number (%) of anti-SMP positive sera: 1 (0.6)
+Mean value (U/ml): 2.2
+Top value (U/ml): 24.6
+Sera ( n ): RA (86)
+Number (%) of anti-SMP positive sera: 1 (1.2)
+Mean value (U/ml): 1.6
+Top value (U/ml): 24.6
+Sera ( n ): pSS (24)
+Number (%) of anti-SMP positive sera: 0
+Mean value (U/ml): 1.9
+Top value (U/ml): 3.9
+Sera ( n ): MCTD (26)
+Number (%) of anti-SMP positive sera: 0
+Mean value (U/ml): 3.1
+Top value (U/ml): 12.8
+Sera ( n ): SSc (26)
+Number (%) of anti-SMP positive sera: 0
+Mean value (U/ml): 2.4
+Top value (U/ml): 4.3
+Sera ( n ): PM/DM (13)
+Number (%) of anti-SMP positive sera: 0
+Mean value (U/ml): 2.8
+Top value (U/ml): 9.6
+Sera ( n ): Overlap syndromes (8)
+Number (%) of anti-SMP positive sera: 0
+Mean value (U/ml): 2.1
+Top value (U/ml): 3.6
+Sera ( n ): Infectious diseases (77)
+Number (%) of anti-SMP positive sera: 0
+Mean value (U/ml): 0.67
+Top value (U/ml): 3.3
+Sera ( n ): HCV (30)
+Number (%) of anti-SMP positive sera: 0
+Mean value (U/ml): 0.42
+Top value (U/ml): 1.1
+Sera ( n ): CMV (22)
+Number (%) of anti-SMP positive sera: 0
+Mean value (U/ml): 0.8
+Top value (U/ml): 3.2
+Sera ( n ): EBV (25)
+Number (%) of anti-SMP positive sera: 0
+Mean value (U/ml): 0.78
+Top value (U/ml): 3.3
+Sera ( n ): Healthy individuals (192)
+Number (%) of anti-SMP positive sera: 0
+Mean value (U/ml): 2.21
+Top value (U/ml): 11.5

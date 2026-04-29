@@ -1,0 +1,56 @@
+IL-13 | Early RA versus all other early synovitis > P: <0.00001
+IL-13 | Early RA versus all other early synovitis > Q: 0.00002
+IL-13 | Early RA versus established RA > P: 0.00008
+IL-13 | Early RA versus established RA > Q: 0.0004
+EGF | Early RA versus all other early synovitis > P: <0.00001
+EGF | Early RA versus all other early synovitis > Q: 0.00002
+EGF | Early RA versus established RA > P: 0.002
+EGF | Early RA versus established RA > Q: 0.007
+bFGF | Early RA versus all other early synovitis > P: <0.00001
+bFGF | Early RA versus all other early synovitis > Q: 0.00002
+bFGF | Early RA versus established RA > P: 0.002
+bFGF | Early RA versus established RA > Q: 0.007
+IL-4 | Early RA versus all other early synovitis > P: <0.00001
+IL-4 | Early RA versus all other early synovitis > Q: 0.00002
+IL-4 | Early RA versus established RA > P: 0.004
+IL-4 | Early RA versus established RA > Q: 0.0097
+IL-2 | Early RA versus all other early synovitis > P: <0.00001
+IL-2 | Early RA versus all other early synovitis > Q: 0.00002
+IL-2 | Early RA versus established RA > P: 0.004
+IL-2 | Early RA versus established RA > Q: 0.0097
+Eotaxin | Early RA versus all other early synovitis > P: 0.00003
+Eotaxin | Early RA versus all other early synovitis > Q: 0.0002
+Eotaxin | Early RA versus established RA > P: NS
+Eotaxin | Early RA versus established RA > Q: NS
+IL-1 | Early RA versus all other early synovitis > P: 0.00003
+IL-1 | Early RA versus all other early synovitis > Q: 0.0002
+IL-1 | Early RA versus established RA > P: NS
+IL-1 | Early RA versus established RA > Q: NS
+IL-17 | Early RA versus all other early synovitis > P: 0.00005
+IL-17 | Early RA versus all other early synovitis > Q: 0.0003
+IL-17 | Early RA versus established RA > P: 0.002
+IL-17 | Early RA versus established RA > Q: 0.007
+IL-15 | Early RA versus all other early synovitis > P: 0.0001
+IL-15 | Early RA versus all other early synovitis > Q: 0.0005
+IL-15 | Early RA versus established RA > P: NS
+IL-15 | Early RA versus established RA > Q: NS
+MIP-1β | Early RA versus all other early synovitis > P: 0.0005
+MIP-1β | Early RA versus all other early synovitis > Q: 0.002
+MIP-1β | Early RA versus established RA > P: NS
+MIP-1β | Early RA versus established RA > Q: NS
+MIP-1α | Early RA versus all other early synovitis > P: 0.0006
+MIP-1α | Early RA versus all other early synovitis > Q: 0.002
+MIP-1α | Early RA versus established RA > P: NS
+MIP-1α | Early RA versus established RA > Q: NS
+IL-12 | Early RA versus all other early synovitis > P: 0.002
+IL-12 | Early RA versus all other early synovitis > Q: 0.006
+IL-12 | Early RA versus established RA > P: NS
+IL-12 | Early RA versus established RA > Q: NS
+GM-CSF | Early RA versus all other early synovitis > P: 0.002
+GM-CSF | Early RA versus all other early synovitis > Q: 0.006
+GM-CSF | Early RA versus established RA > P: NS
+GM-CSF | Early RA versus established RA > Q: NS
+G-CSF | Early RA versus all other early synovitis > P: 0.004
+G-CSF | Early RA versus all other early synovitis > Q: 0.0097
+G-CSF | Early RA versus established RA > P: NS
+G-CSF | Early RA versus established RA > Q: NS

@@ -1,0 +1,47 @@
+Distance to (km):: Division Teaching Hospital
+Distance to (km):: Metropolitan Capital
+Distance to (km):: Nearest Pilot Study Location
+Public Hospital Facilities (2002 -3) [24]: Available beds
+Public Hospital Facilities (2002 -3) [24]: Medical staff [FTE]
+Public Hospital Facilities (2002 -3) [24]: Visiting medical staff [FTE]
+Public Hospital Facilities (2002 -3) [24]: Admitted patients (in 2002)
+Location: A
+RRMA [18]: 5
+ARIA [18]: 4.03
+Distance to (km):: 172
+Distance to (km):: 640
+Distance to (km):: 78
+Public Hospital Facilities (2002 -3) [24]: 10
+Public Hospital Facilities (2002 -3) [24]: 1
+Public Hospital Facilities (2002 -3) [24]: 0
+Public Hospital Facilities (2002 -3) [24]: 463
+Location: B
+RRMA [18]: 5
+ARIA [18]: 4.79
+Distance to (km):: 210
+Distance to (km):: 564
+Distance to (km):: 78
+Public Hospital Facilities (2002 -3) [24]: 10
+Public Hospital Facilities (2002 -3) [24]: 1
+Public Hospital Facilities (2002 -3) [24]: 0
+Public Hospital Facilities (2002 -3) [24]: 291
+Location: C
+RRMA [18]: 6
+ARIA [18]: 5.06
+Distance to (km):: 271
+Distance to (km):: 896
+Distance to (km):: 289
+Public Hospital Facilities (2002 -3) [24]: 37
+Public Hospital Facilities (2002 -3) [24]: 5
+Public Hospital Facilities (2002 -3) [24]: 3
+Public Hospital Facilities (2002 -3) [24]: 2967
+Location: Division Teaching Hospital
+RRMA [18]: 3
+ARIA [18]: 1.49
+Distance to (km):: N/A
+Distance to (km):: 648
+Distance to (km):: 172
+Public Hospital Facilities (2002 -3) [24]: 203
+Public Hospital Facilities (2002 -3) [24]: 73
+Public Hospital Facilities (2002 -3) [24]: 16
+Public Hospital Facilities (2002 -3) [24]: 21,395

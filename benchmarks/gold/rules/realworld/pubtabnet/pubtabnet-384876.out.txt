@@ -1,0 +1,30 @@
+HOMA-IR | Baseline > Losartan: 5.78 ± 3.53
+HOMA-IR | Baseline > Telmisartan: 5.74 ± 3.35
+HOMA-IR | p value: NS
+HOMA-IR | End of treatment > Losartan: 5.82 ± 2.66
+HOMA-IR | End of treatment > Telmisartan: 4.24 ± 2.36
+HOMA-IR | p value: < 0.05
+FPG | Baseline > Losartan: 110.05 ± 14.56
+FPG | Baseline > Telmisartan: 109.08 ± 16.67
+FPG | p value: NS
+FPG | End of treatment > Losartan: 113.20 ± 12.68
+FPG | End of treatment > Telmisartan: 100.00 ± 11.99
+FPG | p value: < 0.05
+FPI | Baseline > Losartan: 20.47 ± 9.64
+FPI | Baseline > Telmisartan: 18.86 ± 10.89
+FPI | p value: NS
+FPI | End of treatment > Losartan: 20.14 ± 9.49
+FPI | End of treatment > Telmisartan: 16.93 ± 8.91
+FPI | p value: < 0.06
+2-hour OGTT | Baseline > Losartan: 137.42 ± 32.5
+2-hour OGTT | Baseline > Telmisartan: 131.31 ± 42.05
+2-hour OGTT | p value: NS
+2-hour OGTT | End of treatment > Losartan: 134.6 ± 26.71
+2-hour OGTT | End of treatment > Telmisartan: 113.85 ± 42.14
+2-hour OGTT | p value: < 0.01
+HbA 1c | Baseline > Losartan: 6.27 ± 0.29
+HbA 1c | Baseline > Telmisartan: 6.45 ± 0.35
+HbA 1c | p value: NS
+HbA 1c | End of treatment > Losartan: 6.28 ± 0.21
+HbA 1c | End of treatment > Telmisartan: 5.85 ± 0.18
+HbA 1c | p value: < 0.05

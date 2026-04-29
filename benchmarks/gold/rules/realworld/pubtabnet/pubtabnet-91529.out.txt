@@ -1,0 +1,97 @@
+M 3 R-wt Lungs /slices: 6/6
+Diameter [μm]: 221 ± 10
+Area [%] 1: Mus
+Area [%] 2: Mus
+Area [%] 3: Mus/DHS 10 -6 M
+Area [%] 4: Mus/DHS 10 -6 M
+p (1 vs. 3): n.s.
+p (2 vs. 4): p ≤ 0.05
+Area [%] 1: 53 ± 7
+Area [%] 2: 47 ± 8
+Area [%] 3: 75 ± 7
+Area [%] 4: 69 ± 11
+M 3 R-wt Lungs /slices: 8/9
+Diameter [μm]: 204 ± 10
+Area [%] 1: Mus
+Area [%] 2: Mus
+Area [%] 3: Mus/DHS 10 -8 M
+Area [%] 4: Mus/DHS 10 -8 M
+p (1 vs. 3): p ≤ 0.05
+p (2 vs. 4): p ≤ 0.01
+Area [%] 1: 40 ± 6
+Area [%] 2: 30 ± 6
+Area [%] 3: 64 ± 9
+Area [%] 4: 55 ± 6
+M 3 R-wt Lungs /slices: 6/7
+Diameter [μm]: 203 ± 6
+Area [%] 1: Mus
+Area [%] 2: Mus
+Area [%] 3: Mus/DMS 10 -6 M
+Area [%] 4: Mus/DMS 10 -6 M
+p (1 vs. 3): p ≤ 0.05
+p (2 vs. 4): p ≤ 0.05
+Area [%] 1: 41 ± 10
+Area [%] 2: 37 ± 8
+Area [%] 3: 64 ± 10
+Area [%] 4: 56 ± 8
+M 3 R-wt Lungs /slices: 5/6
+Diameter [μm]: 197 ± 8
+Area [%] 1: Mus
+Area [%] 2: Mus
+Area [%] 3: Mus/DMS 10 -8 M
+Area [%] 4: Mus/DMS 10 -8 M
+p (1 vs. 3): p ≤ 0.05
+p (2 vs. 4): p ≤ 0.05
+Area [%] 1: 42 ± 5
+Area [%] 2: 41 ± 10
+Area [%] 3: 71 ± 7
+Area [%] 4: 69 ± 9
+M 3 R-wt Lungs /slices: M 3 R-KO
+M 3 R-wt Lungs /slices: 4/4
+Diameter [μm]: 205 ± 18
+Area [%] 1: Mus
+Area [%] 2: Mus
+Area [%] 3: Mus/DHS 10 -6 M
+Area [%] 4: Mus/DHS 10 -6 M
+p (1 vs. 3): n.s.
+p (2 vs. 4): n.s.
+Area [%] 1: 69 ± 2
+Area [%] 2: 51 ± 4
+Area [%] 3: 77 ± 8
+Area [%] 4: 62 ± 12
+M 3 R-wt Lungs /slices: 8/9
+Diameter [μm]: 188 ± 9
+Area [%] 1: Mus
+Area [%] 2: Mus
+Area [%] 3: Mus/DHS 10 -8 M
+Area [%] 4: Mus/DHS 10 -8 M
+p (1 vs. 3): p ≤ 0.05
+p (2 vs. 4): p ≤ 0.05
+Area [%] 1: 75 ± 6
+Area [%] 2: 67 ± 6
+Area [%] 3: 96 ± 2
+Area [%] 4: 88 ± 4
+M 3 R-wt Lungs /slices: 7/7
+Diameter [μm]: 202 ± 12
+Area [%] 1: Mus
+Area [%] 2: Mus
+Area [%] 3: Mus/DMS 10 -6 M
+Area [%] 4: Mus/DMS 10 -6 M
+p (1 vs. 3): p ≤ 0.05
+p (2 vs. 4): p ≤ 0.05
+Area [%] 1: 75 ± 4
+Area [%] 2: 67 ± 6
+Area [%] 3: 97 ± 1
+Area [%] 4: 82 ± 4
+M 3 R-wt Lungs /slices: 9/9
+Diameter [μm]: 196 ± 7
+Area [%] 1: Mus
+Area [%] 2: Mus
+Area [%] 3: Mus/DMS 10 -8 M
+Area [%] 4: Mus/DMS 10 -8 M
+p (1 vs. 3): p ≤ 0.01
+p (2 vs. 4): p ≤ 0.05
+Area [%] 1: 65 ± 5
+Area [%] 2: 56 ± 6
+Area [%] 3: 93 ± 2
+Area [%] 4: 81 ± 3

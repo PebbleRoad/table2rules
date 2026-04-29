@@ -1,0 +1,77 @@
+Taxon: arthropoda
+n: 98
+CV-CV' average: 0.75
+CV-CV' first quartile: 0.51
+Charge average: -0.048
+Turn average: 0.251
+Length average: 606
+Taxon: metazoa
+n: 262
+CV-CV' average: 0.85
+CV-CV' first quartile: 0.56
+Charge average: -0.046
+Turn average: 0.254
+Length average: 649
+Taxon: eukaryota
+n: 279
+CV-CV' average: 0.88
+CV-CV' first quartile: 0.58
+Charge average: -0.045
+Turn average: 0.255
+Length average: 644
+Taxon: mammalia
+n: 95
+CV-CV' average: 0.88
+CV-CV' first quartile: 0.56
+Charge average: -0.046
+Turn average: 0.256
+Length average: 720
+Taxon: chordata
+n: 108
+CV-CV' average: 0.90
+CV-CV' first quartile: 0.58
+Charge average: -0.046
+Turn average: 0.257
+Length average: 705
+Taxon: enterobacteria
+n: 8
+CV-CV' average: 0.99
+CV-CV' first quartile: 0.74
+Charge average: -0.054
+Turn average: 0.279
+Length average: 633
+Taxon: eubacteria
+n: 49
+CV-CV' average: 1.12
+CV-CV' first quartile: 0.76
+Charge average: -0.047
+Turn average: 0.276
+Length average: 654
+Taxon: g-proteobacteria
+n: 32
+CV-CV' average: 1.17
+CV-CV' first quartile: 0.79
+Charge average: -0.049
+Turn average: 0.285
+Length average: 643
+Taxon: ascomycetes
+n: 13
+CV-CV' average: 1.21
+CV-CV' first quartile: 0.88
+Charge average: -0.046
+Turn average: 0.278
+Length average: 552
+Taxon: proteobacteria
+n: 35
+CV-CV' average: 1.22
+CV-CV' first quartile: 0.79
+Charge average: -0.048
+Turn average: 0.286
+Length average: 638
+Taxon: fungi
+n: 14
+CV-CV' average: 1.25
+CV-CV' first quartile: 0.88
+Charge average: -0.045
+Turn average: 0.279
+Length average: 553

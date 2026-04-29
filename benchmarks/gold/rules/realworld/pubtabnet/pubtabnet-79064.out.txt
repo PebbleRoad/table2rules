@@ -1,0 +1,88 @@
+Ambombo | Population*: 250
+Ambombo | No. Examined: 49
+Ambombo | Prevalence (%) > RAPLOA: 24.49
+Ambombo | Prevalence (%) > Thick blood film: 6.12
+Ambombo | Intensity (mf/ml) > Arithmetic Mean Mf +ve & -ve individuals: 1.63
+Ambombo | Intensity (mf/ml) > Arithmetic Mean Mf +ve individuals: 27.67
+Ambombo | Intensity (mf/ml) > William's means > 15: 1.22
+Ambombo | Intensity (mf/ml) > William's means > 20 (CMFL): 1.25
+Bifang | Population*: 1889
+Bifang | No. Examined: 141
+Bifang | Prevalence (%) > RAPLOA: 21.99
+Bifang | Prevalence (%) > Thick blood film: 3.55
+Bifang | Intensity (mf/ml) > Arithmetic Mean Mf +ve & -ve individuals: 81.99
+Bifang | Intensity (mf/ml) > Arithmetic Mean Mf +ve individuals: 2313
+Bifang | Intensity (mf/ml) > William's means > 15: 1.25
+Bifang | Intensity (mf/ml) > William's means > 20 (CMFL): 1.30
+Mbullam | Population*: 65
+Mbullam | No. Examined: 21
+Mbullam | Prevalence (%) > RAPLOA: 19.05
+Mbullam | Prevalence (%) > Thick blood film: 14.29
+Mbullam | Intensity (mf/ml) > Arithmetic Mean Mf +ve & -ve individuals: 86.67
+Mbullam | Intensity (mf/ml) > Arithmetic Mean Mf +ve individuals: 608.67
+Mbullam | Intensity (mf/ml) > William's means > 15: 2.36
+Mbullam | Intensity (mf/ml) > William's means > 20 (CMFL): 2.21
+Dinku | Population*: 516
+Dinku | No. Examined: 159
+Dinku | Prevalence (%) > RAPLOA: 30.82
+Dinku | Prevalence (%) > Thick blood film: 10.69
+Dinku | Intensity (mf/ml) > Arithmetic Mean Mf +ve & -ve individuals: 1.3.77
+Dinku | Intensity (mf/ml) > Arithmetic Mean Mf +ve individuals: 970.79
+Dinku | Intensity (mf/ml) > William's means > 15: 1.83
+Dinku | Intensity (mf/ml) > William's means > 20 (CMFL): 2.02
+Ebendi | Population*: 260
+Ebendi | No. Examined: 120
+Ebendi | Prevalence (%) > RAPLOA: 13.33
+Ebendi | Prevalence (%) > Thick blood film: 3.36
+Ebendi | Intensity (mf/ml) > Arithmetic Mean Mf +ve & -ve individuals: 8.00
+Ebendi | Intensity (mf/ml) > Arithmetic Mean Mf +ve individuals: 240.00
+Ebendi | Intensity (mf/ml) > William's means > 15: 1.18
+Ebendi | Intensity (mf/ml) > William's means > 20 (CMFL): 1.14
+Eka | Population*: 1079
+Eka | No. Examined: 96
+Eka | Prevalence (%) > RAPLOA: 14.58
+Eka | Prevalence (%) > Thick blood film: 9.38
+Eka | Intensity (mf/ml) > Arithmetic Mean Mf +ve & -ve individuals: 418.96
+Eka | Intensity (mf/ml) > Arithmetic Mean Mf +ve individuals: 4468.89
+Eka | Intensity (mf/ml) > William's means > 15: 1.87
+Eka | Intensity (mf/ml) > William's means > 20 (CMFL): 1.96
+Ngalla | Population*: 765
+Ngalla | No. Examined: 138
+Ngalla | Prevalence (%) > RAPLOA: 16.67
+Ngalla | Prevalence (%) > Thick blood film: 7.25
+Ngalla | Intensity (mf/ml) > Arithmetic Mean Mf +ve & -ve individuals: 232.46
+Ngalla | Intensity (mf/ml) > Arithmetic Mean Mf +ve individuals: 3208.00
+Ngalla | Intensity (mf/ml) > William's means > 15: 1.53
+Ngalla | Intensity (mf/ml) > William's means > 20 (CMFL): 1.55
+Oche 1 | Population*: 83
+Oche 1 | No. Examined: 32
+Oche 1 | Prevalence (%) > RAPLOA: 9.38
+Oche 1 | Prevalence (%) > Thick blood film: 12.50
+Oche 1 | Intensity (mf/ml) > Arithmetic Mean Mf +ve & -ve individuals: 293.13
+Oche 1 | Intensity (mf/ml) > Arithmetic Mean Mf +ve individuals: 2345.00
+Oche 1 | Intensity (mf/ml) > William's means > 15: 2.08
+Oche 1 | Intensity (mf/ml) > William's means > 20 (CMFL): 2.13
+Oche 2 | Population*: 77
+Oche 2 | No. Examined: 29
+Oche 2 | Prevalence (%) > RAPLOA: 31.03
+Oche 2 | Prevalence (%) > Thick blood film: 10.34
+Oche 2 | Intensity (mf/ml) > Arithmetic Mean Mf +ve & -ve individuals: 13.10
+Oche 2 | Intensity (mf/ml) > Arithmetic Mean Mf +ve individuals: 126.67
+Oche 2 | Intensity (mf/ml) > William's means > 15: 1.609
+Oche 2 | Intensity (mf/ml) > William's means > 20 (CMFL): 1.93
+Olorunti | Population*: 707
+Olorunti | No. Examined: 192
+Olorunti | Prevalence (%) > RAPLOA: 20.31
+Olorunti | Prevalence (%) > Thick blood film: 4.69
+Olorunti | Intensity (mf/ml) > Arithmetic Mean Mf +ve & -ve individuals: 119.27
+Olorunti | Intensity (mf/ml) > Arithmetic Mean Mf +ve individuals: 2544.44
+Olorunti | Intensity (mf/ml) > William's means > 15: 1.39
+Olorunti | Intensity (mf/ml) > William's means > 20 (CMFL): 1.40
+Total | Population*: 5691
+Total | No. Examined: 977
+Average | Prevalence (%) > RAPLOA: 20.47
+Average | Prevalence (%) > Thick blood film: 6.86
+Average | Intensity (mf/ml) > Arithmetic Mean Mf +ve & -ve individuals: 139.08
+Average | Intensity (mf/ml) > Arithmetic Mean Mf +ve individuals: 2028.06
+Average | Intensity (mf/ml) > William's means > 15: 1.50
+Average | Intensity (mf/ml) > William's means > 20 (CMFL): 1.53

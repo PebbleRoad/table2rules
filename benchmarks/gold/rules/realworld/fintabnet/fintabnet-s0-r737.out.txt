@@ -1,0 +1,90 @@
+Foreign currency translation adjustments | December 29,2018 > Before Tax Amount: $(1,173)
+Foreign currency translation adjustments | December 29,2018 > Tax: $—
+Foreign currency translation adjustments | December 29,2018 > Net of Tax Amount: $(1,173)
+Foreign currency translation adjustments | As Restated > December 30,2017 > Before Tax Amount: $1,179
+Foreign currency translation adjustments | As Restated > December 30,2017 > Tax: $—
+Foreign currency translation adjustments | As Restated > December 30,2017 > Net of Tax Amount: $1,179
+Foreign currency translation adjustments | As Restated > December 31,2016 > Before Tax Amount: $(985)
+Foreign currency translation adjustments | As Restated > December 31,2016 > Tax: $—
+Foreign currency translation adjustments | As Restated > December 31,2016 > Net of Tax Amount: $(985)
+Net deferred gains/(losses) on net investment hedges | December 29,2018 > Before Tax Amount: 377
+Net deferred gains/(losses) on net investment hedges | December 29,2018 > Tax: (93)
+Net deferred gains/(losses) on net investment hedges | December 29,2018 > Net of Tax Amount: 284
+Net deferred gains/(losses) on net investment hedges | As Restated > December 30,2017 > Before Tax Amount: (632)
+Net deferred gains/(losses) on net investment hedges | As Restated > December 30,2017 > Tax: 279
+Net deferred gains/(losses) on net investment hedges | As Restated > December 30,2017 > Net of Tax Amount: (353)
+Net deferred gains/(losses) on net investment hedges | As Restated > December 31,2016 > Before Tax Amount: 426
+Net deferred gains/(losses) on net investment hedges | As Restated > December 31,2016 > Tax: (200)
+Net deferred gains/(losses) on net investment hedges | As Restated > December 31,2016 > Net of Tax Amount: 226
+Amounts excluded from the effectiveness assessment of net investment hedges | December 29,2018 > Before Tax Amount: 10
+Amounts excluded from the effectiveness assessment of net investment hedges | December 29,2018 > Tax: (3)
+Amounts excluded from the effectiveness assessment of net investment hedges | December 29,2018 > Net of Tax Amount: 7
+Amounts excluded from the effectiveness assessment of net investment hedges | As Restated > December 30,2017 > Before Tax Amount: —
+Amounts excluded from the effectiveness assessment of net investment hedges | As Restated > December 30,2017 > Tax: —
+Amounts excluded from the effectiveness assessment of net investment hedges | As Restated > December 30,2017 > Net of Tax Amount: —
+Amounts excluded from the effectiveness assessment of net investment hedges | As Restated > December 31,2016 > Before Tax Amount: —
+Amounts excluded from the effectiveness assessment of net investment hedges | As Restated > December 31,2016 > Tax: —
+Amounts excluded from the effectiveness assessment of net investment hedges | As Restated > December 31,2016 > Net of Tax Amount: —
+Net deferred losses/(gains) on net investment hedges reclassified to net income/(loss) | December 29,2018 > Before Tax Amount: (10)
+Net deferred losses/(gains) on net investment hedges reclassified to net income/(loss) | December 29,2018 > Tax: 3
+Net deferred losses/(gains) on net investment hedges reclassified to net income/(loss) | December 29,2018 > Net of Tax Amount: (7)
+Net deferred losses/(gains) on net investment hedges reclassified to net income/(loss) | As Restated > December 30,2017 > Before Tax Amount: —
+Net deferred losses/(gains) on net investment hedges reclassified to net income/(loss) | As Restated > December 30,2017 > Tax: —
+Net deferred losses/(gains) on net investment hedges reclassified to net income/(loss) | As Restated > December 30,2017 > Net of Tax Amount: —
+Net deferred losses/(gains) on net investment hedges reclassified to net income/(loss) | As Restated > December 31,2016 > Before Tax Amount: —
+Net deferred losses/(gains) on net investment hedges reclassified to net income/(loss) | As Restated > December 31,2016 > Tax: —
+Net deferred losses/(gains) on net investment hedges reclassified to net income/(loss) | As Restated > December 31,2016 > Net of Tax Amount: —
+Net deferred gains/(losses) on cash flow hedges | December 29,2018 > Before Tax Amount: 116
+Net deferred gains/(losses) on cash flow hedges | December 29,2018 > Tax: (17)
+Net deferred gains/(losses) on cash flow hedges | December 29,2018 > Net of Tax Amount: 99
+Net deferred gains/(losses) on cash flow hedges | As Restated > December 30,2017 > Before Tax Amount: (123)
+Net deferred gains/(losses) on cash flow hedges | As Restated > December 30,2017 > Tax: 10
+Net deferred gains/(losses) on cash flow hedges | As Restated > December 30,2017 > Net of Tax Amount: (113)
+Net deferred gains/(losses) on cash flow hedges | As Restated > December 31,2016 > Before Tax Amount: 40
+Net deferred gains/(losses) on cash flow hedges | As Restated > December 31,2016 > Tax: 6
+Net deferred gains/(losses) on cash flow hedges | As Restated > December 31,2016 > Net of Tax Amount: 46
+Amounts excluded from the effectiveness assessment of cash flow hedges | December 29,2018 > Before Tax Amount: 2
+Amounts excluded from the effectiveness assessment of cash flow hedges | December 29,2018 > Tax: —
+Amounts excluded from the effectiveness assessment of cash flow hedges | December 29,2018 > Net of Tax Amount: 2
+Amounts excluded from the effectiveness assessment of cash flow hedges | As Restated > December 30,2017 > Before Tax Amount: —
+Amounts excluded from the effectiveness assessment of cash flow hedges | As Restated > December 30,2017 > Tax: —
+Amounts excluded from the effectiveness assessment of cash flow hedges | As Restated > December 30,2017 > Net of Tax Amount: —
+Amounts excluded from the effectiveness assessment of cash flow hedges | As Restated > December 31,2016 > Before Tax Amount: —
+Amounts excluded from the effectiveness assessment of cash flow hedges | As Restated > December 31,2016 > Tax: —
+Amounts excluded from the effectiveness assessment of cash flow hedges | As Restated > December 31,2016 > Net of Tax Amount: —
+Net deferred losses/(gains) on cash flow hedges reclassified to net income/(loss) | December 29,2018 > Before Tax Amount: (45)
+Net deferred losses/(gains) on cash flow hedges reclassified to net income/(loss) | December 29,2018 > Tax: 1
+Net deferred losses/(gains) on cash flow hedges reclassified to net income/(loss) | December 29,2018 > Net of Tax Amount: (44)
+Net deferred losses/(gains) on cash flow hedges reclassified to net income/(loss) | As Restated > December 30,2017 > Before Tax Amount: 85
+Net deferred losses/(gains) on cash flow hedges reclassified to net income/(loss) | As Restated > December 30,2017 > Tax: —
+Net deferred losses/(gains) on cash flow hedges reclassified to net income/(loss) | As Restated > December 30,2017 > Net of Tax Amount: 85
+Net deferred losses/(gains) on cash flow hedges reclassified to net income/(loss) | As Restated > December 31,2016 > Before Tax Amount: (81)
+Net deferred losses/(gains) on cash flow hedges reclassified to net income/(loss) | As Restated > December 31,2016 > Tax: (6)
+Net deferred losses/(gains) on cash flow hedges reclassified to net income/(loss) | As Restated > December 31,2016 > Net of Tax Amount: (87)
+Net actuarial gains/(losses) arising during the period | December 29,2018 > Before Tax Amount: 74
+Net actuarial gains/(losses) arising during the period | December 29,2018 > Tax: (16)
+Net actuarial gains/(losses) arising during the period | December 29,2018 > Net of Tax Amount: 58
+Net actuarial gains/(losses) arising during the period | As Restated > December 30,2017 > Before Tax Amount: 116
+Net actuarial gains/(losses) arising during the period | As Restated > December 30,2017 > Tax: (47)
+Net actuarial gains/(losses) arising during the period | As Restated > December 30,2017 > Net of Tax Amount: 69
+Net actuarial gains/(losses) arising during the period | As Restated > December 31,2016 > Before Tax Amount: (78)
+Net actuarial gains/(losses) arising during the period | As Restated > December 31,2016 > Tax: 38
+Net actuarial gains/(losses) arising during the period | As Restated > December 31,2016 > Net of Tax Amount: (40)
+Prior service credits/(costs) arising during the period | December 29,2018 > Before Tax Amount: 6
+Prior service credits/(costs) arising during the period | December 29,2018 > Tax: (3)
+Prior service credits/(costs) arising during the period | December 29,2018 > Net of Tax Amount: 3
+Prior service credits/(costs) arising during the period | As Restated > December 30,2017 > Before Tax Amount: 25
+Prior service credits/(costs) arising during the period | As Restated > December 30,2017 > Tax: (8)
+Prior service credits/(costs) arising during the period | As Restated > December 30,2017 > Net of Tax Amount: 17
+Prior service credits/(costs) arising during the period | As Restated > December 31,2016 > Before Tax Amount: 51
+Prior service credits/(costs) arising during the period | As Restated > December 31,2016 > Tax: (20)
+Prior service credits/(costs) arising during the period | As Restated > December 31,2016 > Net of Tax Amount: 31
+Net postemployment benefit losses/(gains) reclassified to net income/(loss) | December 29,2018 > Before Tax Amount: (156)
+Net postemployment benefit losses/(gains) reclassified to net income/(loss) | December 29,2018 > Tax: 38
+Net postemployment benefit losses/(gains) reclassified to net income/(loss) | December 29,2018 > Net of Tax Amount: (118)
+Net postemployment benefit losses/(gains) reclassified to net income/(loss) | As Restated > December 30,2017 > Before Tax Amount: (502)
+Net postemployment benefit losses/(gains) reclassified to net income/(loss) | As Restated > December 30,2017 > Tax: 193
+Net postemployment benefit losses/(gains) reclassified to net income/(loss) | As Restated > December 30,2017 > Net of Tax Amount: (309)
+Net postemployment benefit losses/(gains) reclassified to net income/(loss) | As Restated > December 31,2016 > Before Tax Amount: (331)
+Net postemployment benefit losses/(gains) reclassified to net income/(loss) | As Restated > December 31,2016 > Tax: 127
+Net postemployment benefit losses/(gains) reclassified to net income/(loss) | As Restated > December 31,2016 > Net of Tax Amount: (204)

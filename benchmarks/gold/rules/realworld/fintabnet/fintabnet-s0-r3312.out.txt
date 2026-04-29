@@ -1,0 +1,48 @@
+Under option — > January 1 | 2015 > Number of Options: 39,235,557
+Under option — > January 1 | 2015 > Weighted Average Exercise Price: $90.38
+Under option — > January 1 | 2014 > Number of Options: 43,938,778
+Under option — > January 1 | 2014 > Weighted Average Exercise Price: $83.84
+Under option — > January 1 | 2013 > Number of Options: 56,565,030
+Under option — > January 1 | 2013 > Weighted Average Exercise Price: $80.33
+Granted: > Annual | 2015 > Number of Options: 5,529,544
+Granted: > Annual | 2015 > Weighted Average Exercise Price: 165.91
+Granted: > Annual | 2014 > Number of Options: 5,736,183
+Granted: > Annual | 2014 > Weighted Average Exercise Price: 126.77
+Granted: > Annual | 2013 > Number of Options: 6,220,810
+Granted: > Annual | 2013 > Weighted Average Exercise Price: 101.55
+Granted: > Progressive (Reload) | 2015 > Number of Options: —
+Granted: > Progressive (Reload) | 2015 > Weighted Average Exercise Price: —
+Granted: > Progressive (Reload) | 2014 > Number of Options: —
+Granted: > Progressive (Reload) | 2014 > Weighted Average Exercise Price: —
+Granted: > Progressive (Reload) | 2013 > Number of Options: 140,447
+Granted: > Progressive (Reload) | 2013 > Weighted Average Exercise Price: 109.83
+Granted: > Other | 2015 > Number of Options: —
+Granted: > Other | 2015 > Weighted Average Exercise Price: —
+Granted: > Other | 2014 > Number of Options: —
+Granted: > Other | 2014 > Weighted Average Exercise Price: —
+Granted: > Other | 2013 > Number of Options: 191
+Granted: > Other | 2013 > Weighted Average Exercise Price: 119.62
+Granted: > Exercised | 2015 > Number of Options: (5,978,382)
+Granted: > Exercised | 2015 > Weighted Average Exercise Price: 83.74
+Granted: > Exercised | 2014 > Number of Options: (10,219,261)
+Granted: > Exercised | 2014 > Weighted Average Exercise Price: 82.37
+Granted: > Exercised | 2013 > Number of Options: (18,825,218)
+Granted: > Exercised | 2013 > Weighted Average Exercise Price: 79.25
+Granted: > Canceled | 2015 > Number of Options: (234,274)
+Granted: > Canceled | 2015 > Weighted Average Exercise Price: 128.99
+Granted: > Canceled | 2014 > Number of Options: (220,143)
+Granted: > Canceled | 2014 > Weighted Average Exercise Price: 105.11
+Granted: > Canceled | 2013 > Number of Options: (162,482)
+Granted: > Canceled | 2013 > Weighted Average Exercise Price: 89.92
+Granted: > December 31 | 2015 > Number of Options: 38,552,445
+Granted: > December 31 | 2015 > Weighted Average Exercise Price: $102.01
+Granted: > December 31 | 2014 > Number of Options: 39,235,557
+Granted: > December 31 | 2014 > Weighted Average Exercise Price: $90.38
+Granted: > December 31 | 2013 > Number of Options: 43,938,778
+Granted: > December 31 | 2013 > Weighted Average Exercise Price: $83.84
+Options exercisable > December 31 | 2015 > Number of Options: 27,262,062
+Options exercisable > December 31 | 2015 > Weighted Average Exercise Price: $85.97
+Options exercisable > December 31 | 2014 > Number of Options: 27,502,208
+Options exercisable > December 31 | 2014 > Weighted Average Exercise Price: $81.42
+Options exercisable > December 31 | 2013 > Number of Options: 32,038,228
+Options exercisable > December 31 | 2013 > Weighted Average Exercise Price: $79.58

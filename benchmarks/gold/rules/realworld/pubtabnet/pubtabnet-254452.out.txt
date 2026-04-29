@@ -1,0 +1,50 @@
+Sample ID: ANA 1
+U/ml: 10.3
+Sample ID: SLR Research A
+U/ml: 2.5
+Diagnosis: CREST
+Sample ID: ANA 2
+U/ml: 1.4
+Sample ID: SLR Research B
+U/ml: 2.9
+Diagnosis: Scl
+Sample ID: ANA 3
+U/ml: 1.9
+Sample ID: SLR Research D
+U/ml: 2.8
+Diagnosis: MCTD
+Sample ID: ANA 4
+U/ml: 2.5
+Sample ID: SLR Research E
+U/ml: 3.1
+Diagnosis: SS, SLE
+Sample ID: ANA 5
+U/ml: 910.0
+Sample ID: SLR Research F
+U/ml: 1.5
+Diagnosis: PM
+Sample ID: ANA 6
+U/ml: 3.1
+Sample ID: SLR Research G
+U/ml: 4.5
+Diagnosis: SS
+Sample ID: ANA 7
+U/ml: 0.0
+Sample ID: SLR Research I
+U/ml: 1420.0
+Diagnosis: SLE
+Sample ID: ANA 8
+U/ml: 0.1
+Sample ID: SLR Research J
+U/ml: 13.9
+Diagnosis: SLE
+Sample ID: ANA 9
+U/ml: 1.7
+Sample ID: SLR Research K
+U/ml: 0.0
+Diagnosis: HD
+Sample ID: ANA 10
+U/ml: 0.5
+Sample ID: SLR Research L
+U/ml: 0.2
+Diagnosis: HD

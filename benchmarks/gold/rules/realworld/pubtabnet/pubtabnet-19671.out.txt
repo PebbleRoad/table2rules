@@ -1,0 +1,57 @@
+Age | Haematologic > p*: 0.17
+Age | Other > p*: 0.49
+Age | Any > p*: 1.00
+>60 and <65 years ( n = 100 ) | Haematologic > G0-2: 86%
+>60 and <65 years ( n = 100 ) | Haematologic > G3-4: 14%
+>60 and <65 years ( n = 100 ) | Other > G0-2: 72%
+>60 and <65 years ( n = 100 ) | Other > G3-4: 28%
+>60 and <65 years ( n = 100 ) | Any > G0-2: 62%
+>60 and <65 years ( n = 100 ) | Any > G3-4: 38%
+≥ 65 years ( n = 80 ) | Haematologic > G0-2: 78%
+≥ 65 years ( n = 80 ) | Haematologic > G3-4: 22%
+≥ 65 years ( n = 80 ) | Other > G0-2: 78%
+≥ 65 years ( n = 80 ) | Other > G3-4: 22%
+≥ 65 years ( n = 80 ) | Any > G0-2: 61%
+≥ 65 years ( n = 80 ) | Any > G3-4: 39%
+Radiotherapy | Haematologic > p*: <0.0001
+Radiotherapy | Other > p*: 0.21
+Radiotherapy | Any > p*: 0.27
+No ( n = 114 ) | Haematologic > G0-2: 92%
+No ( n = 114 ) | Haematologic > G3-4: 8%
+No ( n = 114 ) | Other > G0-2: 71%
+No ( n = 114 ) | Other > G3-4: 29%
+No ( n = 114 ) | Any > G0-2: 65%
+No ( n = 114 ) | Any > G3-4: 35%
+Yes ( n = 66 ) | Haematologic > G0-2: 65%
+Yes ( n = 66 ) | Haematologic > G3-4: 35%
+Yes ( n = 66 ) | Other > G0-2: 80%
+Yes ( n = 66 ) | Other > G3-4: 20%
+Yes ( n = 66 ) | Any > G0-2: 56%
+Yes ( n = 66 ) | Any > G3-4: 44%
+Age and radiotherapy | Haematologic > p*: <0.0001
+Age and radiotherapy | Other > p*: 0.42
+Age and radiotherapy | Any > p*: 0.08
+>60 and < 65, no RT ( n = 64 ) | Haematologic > G0-2: 92%
+>60 and < 65, no RT ( n = 64 ) | Haematologic > G3-4: 8%
+>60 and < 65, no RT ( n = 64 ) | Other > G0-2: 67%
+>60 and < 65, no RT ( n = 64 ) | Other > G3-4: 33%
+>60 and < 65, no RT ( n = 64 ) | Any > G0-2: 59%
+>60 and < 65, no RT ( n = 64 ) | Any > G3-4: 41%
+≥ 65, no RT ( n = 50 ) | Haematologic > G0-2: 92%
+≥ 65, no RT ( n = 50 ) | Haematologic > G3-4: 8%
+≥ 65, no RT ( n = 50 ) | Other > G0-2: 76%
+≥ 65, no RT ( n = 50 ) | Other > G3-4: 24%
+≥ 65, no RT ( n = 50 ) | Any > G0-2: 72%
+≥ 65, no RT ( n = 50 ) | Any > G3-4: 28%
+>60 and < 65, RT ( n = 36 ) | Haematologic > G0-2: 75%
+>60 and < 65, RT ( n = 36 ) | Haematologic > G3-4: 25%
+>60 and < 65, RT ( n = 36 ) | Other > G0-2: 81%
+>60 and < 65, RT ( n = 36 ) | Other > G3-4: 19%
+>60 and < 65, RT ( n = 36 ) | Any > G0-2: 67%
+>60 and < 65, RT ( n = 36 ) | Any > G3-4: 33%
+≥ 65, RT ( n = 30 ) | Haematologic > G0-2: 53%
+≥ 65, RT ( n = 30 ) | Haematologic > G3-4: 47%
+≥ 65, RT ( n = 30 ) | Other > G0-2: 80%
+≥ 65, RT ( n = 30 ) | Other > G3-4: 20%
+≥ 65, RT ( n = 30 ) | Any > G0-2: 43%
+≥ 65, RT ( n = 30 ) | Any > G3-4: 57%

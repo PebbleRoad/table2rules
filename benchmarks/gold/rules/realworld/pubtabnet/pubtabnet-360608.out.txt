@@ -1,0 +1,48 @@
+2D Echo | Sensitivity: 74%
+2D Echo | CI 95%: 64–84%
+2D Echo | Specificity: 91%
+2D Echo | CI 95%: 87–96%
+2D Echo | Accuracy: 86%
+2D Echo | CI 95%: 82–91%
+Coronary Flow Reserve (cut-off = 2) | Sensitivity: 89%
+Coronary Flow Reserve (cut-off = 2) | CI 95%: 81–96%
+Coronary Flow Reserve (cut-off = 2) | Specificity: 77%
+Coronary Flow Reserve (cut-off = 2) | CI 95%: 71–84%
+Coronary Flow Reserve (cut-off = 2) | Accuracy: 81%
+Coronary Flow Reserve (cut-off = 2) | CI 95%: 76–86%
+Coronary Flow Reserve (cut-off = 1,9) | Sensitivity: 81%
+Coronary Flow Reserve (cut-off = 1,9) | CI 95%: 72–90%
+Coronary Flow Reserve (cut-off = 1,9) | Specificity: 84%
+Coronary Flow Reserve (cut-off = 1,9) | CI 95%: 79–90%
+Coronary Flow Reserve (cut-off = 1,9) | Accuracy: 83%
+Coronary Flow Reserve (cut-off = 1,9) | CI 95%: 79–88%
+Coronary Flow Reserve (cut-off = 1,8) | Sensitivity: 69%
+Coronary Flow Reserve (cut-off = 1,8) | CI 95%: 58–79%
+Coronary Flow Reserve (cut-off = 1,8) | Specificity: 90%
+Coronary Flow Reserve (cut-off = 1,8) | CI 95%: 85–95%
+Coronary Flow Reserve (cut-off = 1,8) | Accuracy: 83%
+Coronary Flow Reserve (cut-off = 1,8) | CI 95%: 79–88%
+Coronary Flow Reserve (cut-off = 1,7) | Sensitivity: 63%
+Coronary Flow Reserve (cut-off = 1,7) | CI 95%: 52–74%
+Coronary Flow Reserve (cut-off = 1,7) | Specificity: 97%
+Coronary Flow Reserve (cut-off = 1,7) | CI 95%: 94–99%
+Coronary Flow Reserve (cut-off = 1,7) | Accuracy: 86%
+Coronary Flow Reserve (cut-off = 1,7) | CI 95%: 82–91%
+Coronary Flow Reserve (cut-off = 1,6) | Sensitivity: 50%
+Coronary Flow Reserve (cut-off = 1,6) | CI 95%: 38–61%
+Coronary Flow Reserve (cut-off = 1,6) | Specificity: 100%
+Coronary Flow Reserve (cut-off = 1,6) | CI 95%: -
+Coronary Flow Reserve (cut-off = 1,6) | Accuracy: 85%
+Coronary Flow Reserve (cut-off = 1,6) | CI 95%: 80–89%
+Coronary Flow Reserve (cut-off = 1,5) | Sensitivity: 30%
+Coronary Flow Reserve (cut-off = 1,5) | CI 95%: 19–41%
+Coronary Flow Reserve (cut-off = 1,5) | Specificity: 100%
+Coronary Flow Reserve (cut-off = 1,5) | CI 95%: -
+Coronary Flow Reserve (cut-off = 1,5) | Accuracy: 79%
+Coronary Flow Reserve (cut-off = 1,5) | CI 95%: 73–84%
+2D Echo / CFR cut-off = 1,9 | Sensitivity: 90%
+2D Echo / CFR cut-off = 1,9 | CI 95%: 81–98%
+2D Echo / CFR cut-off = 1,9 | Specificity: 94%
+2D Echo / CFR cut-off = 1,9 | CI 95%: 91–98%
+2D Echo / CFR cut-off = 1,9 | Accuracy: 93%
+2D Echo / CFR cut-off = 1,9 | CI 95%: 89–97%

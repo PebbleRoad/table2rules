@@ -1,0 +1,44 @@
+Annual change in mL per pack-year to 1991: Coef
+Annual change in mL per pack-year to 1991: 95%CI
+Annual change in mL per pack-year to 1991: p value
+Annual change in mL per packs per day between 1991 and 2002: Coef
+Men (n = 245) | Term: Linear
+Men (n = 245) | Annual change in mL per pack-year to 1991: -0.1
+Men (n = 245) | Annual change in mL per pack-year to 1991: -0.4, 0.3
+Men (n = 245) | Annual change in mL per pack-year to 1991: 0.78
+Men (n = 245) | Annual change in mL per packs per day between 1991 and 2002: -14.3
+Women (n = 179) | Term: Linear
+Women (n = 179) | Annual change in mL per pack-year to 1991: 1.5
+Women (n = 179) | Annual change in mL per pack-year to 1991: 0.3, 2.6
+Women (n = 179) | Annual change in mL per pack-year to 1991: 0.01
+Women (n = 179) | Annual change in mL per packs per day between 1991 and 2002: -6.4
+Term: Quadratic
+Annual change in mL per pack-year to 1991: -0.04
+Annual change in mL per pack-year to 1991: -0.08,-0.01
+Annual change in mL per pack-year to 1991: 0.01
+Annual change in mL per packs per day between 1991 and 2002: na
+Term: Cubic
+Annual change in mL per pack-year to 1991: 0.0004
+Annual change in mL per pack-year to 1991: 0.0001,0.0006
+Annual change in mL per pack-year to 1991: 0.006
+Annual change in mL per packs per day between 1991 and 2002: na
+Men (n = 595) | Term: Linear
+Men (n = 595) | Annual change in mL per pack-year to 1991: -0.1
+Men (n = 595) | Annual change in mL per pack-year to 1991: -0.3, 0.12
+Men (n = 595) | Annual change in mL per pack-year to 1991: 0.41
+Men (n = 595) | Annual change in mL per packs per day between 1991 and 2002: -9.0
+Women (n = 556) | Term: Linear
+Women (n = 556) | Annual change in mL per pack-year to 1991: 1.4
+Women (n = 556) | Annual change in mL per pack-year to 1991: 0.5, 2.3
+Women (n = 556) | Annual change in mL per pack-year to 1991: 0.001
+Women (n = 556) | Annual change in mL per packs per day between 1991 and 2002: -11.6
+Term: Quadratic
+Annual change in mL per pack-year to 1991: -0.06
+Annual change in mL per pack-year to 1991: -0.08, -0.02
+Annual change in mL per pack-year to 1991: <0.001
+Annual change in mL per packs per day between 1991 and 2002: na
+Term: Cubic
+Annual change in mL per pack-year to 1991: 0.0006
+Annual change in mL per pack-year to 1991: 0.0003, 0.0008
+Annual change in mL per pack-year to 1991: <0.001
+Annual change in mL per packs per day between 1991 and 2002: na

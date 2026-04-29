@@ -1,0 +1,68 @@
+Benefit obligation at beginning of period | Pension Benefits > 2016 > (In millions): $16,395
+Benefit obligation at beginning of period | Pension Benefits > 2015 > (In millions): $17,594
+Benefit obligation at beginning of period | Retiree Medical and Other Postretirement Benefits > 2016 > (In millions): $1,131
+Benefit obligation at beginning of period | Retiree Medical and Other Postretirement Benefits > 2015 > (In millions): $1,325
+Service cost | Pension Benefits > 2016 > (In millions): 2
+Service cost | Pension Benefits > 2015 > (In millions): 2
+Service cost | Retiree Medical and Other Postretirement Benefits > 2016 > (In millions): 3
+Service cost | Retiree Medical and Other Postretirement Benefits > 2015 > (In millions): 3
+Interest cost | Pension Benefits > 2016 > (In millions): 749
+Interest cost | Pension Benefits > 2015 > (In millions): 737
+Interest cost | Retiree Medical and Other Postretirement Benefits > 2016 > (In millions): 47
+Interest cost | Retiree Medical and Other Postretirement Benefits > 2015 > (In millions): 50
+Actuarial (gain) loss (1) (2) | Pension Benefits > 2016 > (In millions): 729
+Actuarial (gain) loss (1) (2) | Pension Benefits > 2015 > (In millions): (1,159)
+Actuarial (gain) loss (1) (2) | Retiree Medical and Other Postretirement Benefits > 2016 > (In millions): (105)
+Actuarial (gain) loss (1) (2) | Retiree Medical and Other Postretirement Benefits > 2015 > (In millions): (177)
+Plan amendments | Pension Benefits > 2016 > (In millions): —
+Plan amendments | Pension Benefits > 2015 > (In millions): —
+Plan amendments | Retiree Medical and Other Postretirement Benefits > 2016 > (In millions): 7
+Plan amendments | Retiree Medical and Other Postretirement Benefits > 2015 > (In millions): —
+Settlements | Pension Benefits > 2016 > (In millions): (2)
+Settlements | Pension Benefits > 2015 > (In millions): (3)
+Settlements | Retiree Medical and Other Postretirement Benefits > 2016 > (In millions): —
+Settlements | Retiree Medical and Other Postretirement Benefits > 2015 > (In millions): —
+Benefit payments | Pension Benefits > 2016 > (In millions): (635)
+Benefit payments | Pension Benefits > 2015 > (In millions): (776)
+Benefit payments | Retiree Medical and Other Postretirement Benefits > 2016 > (In millions): (92)
+Benefit payments | Retiree Medical and Other Postretirement Benefits > 2015 > (In millions): (94)
+Other | Pension Benefits > 2016 > (In millions): —
+Other | Pension Benefits > 2015 > (In millions): —
+Other | Retiree Medical and Other Postretirement Benefits > 2016 > (In millions): —
+Other | Retiree Medical and Other Postretirement Benefits > 2015 > (In millions): 24
+Benefit obligation at end of period | Pension Benefits > 2016 > (In millions): $17,238
+Benefit obligation at end of period | Pension Benefits > 2015 > (In millions): $16,395
+Benefit obligation at end of period | Retiree Medical and Other Postretirement Benefits > 2016 > (In millions): $991
+Benefit obligation at end of period | Retiree Medical and Other Postretirement Benefits > 2015 > (In millions): $1,131
+Fair value of plan assets at beginning of period | Pension Benefits > 2016 > (In millions): $9,707
+Fair value of plan assets at beginning of period | Pension Benefits > 2015 > (In millions): $10,986
+Fair value of plan assets at beginning of period | Retiree Medical and Other Postretirement Benefits > 2016 > (In millions): $253
+Fair value of plan assets at beginning of period | Retiree Medical and Other Postretirement Benefits > 2015 > (In millions): $244
+Actual return on plan assets | Pension Benefits > 2016 > (In millions): 915
+Actual return on plan assets | Pension Benefits > 2015 > (In millions): (506)
+Actual return on plan assets | Retiree Medical and Other Postretirement Benefits > 2016 > (In millions): 22
+Actual return on plan assets | Retiree Medical and Other Postretirement Benefits > 2015 > (In millions): (10)
+Employer contributions | Pension Benefits > 2016 > (In millions): 32
+Employer contributions | Pension Benefits > 2015 > (In millions): 6
+Employer contributions | Retiree Medical and Other Postretirement Benefits > 2016 > (In millions): 83
+Employer contributions | Retiree Medical and Other Postretirement Benefits > 2015 > (In millions): 89
+Settlements | Pension Benefits > 2016 > (In millions): (2)
+Settlements | Pension Benefits > 2015 > (In millions): (3)
+Settlements | Retiree Medical and Other Postretirement Benefits > 2016 > (In millions): —
+Settlements | Retiree Medical and Other Postretirement Benefits > 2015 > (In millions): —
+Benefit payments | Pension Benefits > 2016 > (In millions): (635)
+Benefit payments | Pension Benefits > 2015 > (In millions): (776)
+Benefit payments | Retiree Medical and Other Postretirement Benefits > 2016 > (In millions): (92)
+Benefit payments | Retiree Medical and Other Postretirement Benefits > 2015 > (In millions): (94)
+Other (3) | Pension Benefits > 2016 > (In millions): —
+Other (3) | Pension Benefits > 2015 > (In millions): —
+Other (3) | Retiree Medical and Other Postretirement Benefits > 2016 > (In millions): —
+Other (3) | Retiree Medical and Other Postretirement Benefits > 2015 > (In millions): 24
+Fair value of plan assets at end of period | Pension Benefits > 2016 > (In millions): $10,017
+Fair value of plan assets at end of period | Pension Benefits > 2015 > (In millions): $9,707
+Fair value of plan assets at end of period | Retiree Medical and Other Postretirement Benefits > 2016 > (In millions): $266
+Fair value of plan assets at end of period | Retiree Medical and Other Postretirement Benefits > 2015 > (In millions): $253
+Funded status at end of period | Pension Benefits > 2016 > (In millions): $(7,221)
+Funded status at end of period | Pension Benefits > 2015 > (In millions): $(6,688)
+Funded status at end of period | Retiree Medical and Other Postretirement Benefits > 2016 > (In millions): $(725)
+Funded status at end of period | Retiree Medical and Other Postretirement Benefits > 2015 > (In millions): $(878)
