@@ -169,6 +169,18 @@ def assess_confidence(grid: List[List[Dict]], rules: List[LogicRule]) -> GateRes
     if not has_source_thead and placeholder_header_ratio > 0.30:
         reasons.append("placeholder_column_headers")
 
+    # Detect column-header coverage gaps: the table has column headers for some
+    # rules but not for others. This happens when the header rows cover fewer
+    # columns than the data rows (e.g. a multi-level header that forgets to
+    # allocate a slot for the row-label column, shifting all column labels one
+    # position and leaving the rightmost data column without any label).
+    # Only fires when the table has at least some column headers — a table with
+    # only row headers is fine (zero column headers everywhere is intentional).
+    rules_with_col = sum(1 for r in rules if r.col_headers)
+    rules_without_col = sum(1 for r in rules if not r.col_headers)
+    if rules_with_col > 0 and rules_without_col > 0:
+        reasons.append("partial_column_coverage")
+
     # Keep threshold modest so we only fail on clearly weak parses.
     gate_ok = score >= 0.45 and not reasons
     return GateResult(ok=gate_ok, score=score, reasons=reasons)
