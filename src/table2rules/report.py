@@ -50,6 +50,7 @@ REASONS: Dict[str, str] = {
     "high_position_conflict": "At least one logical grid position carried conflicting outcomes.",
     "numeric_column_headers": "More than 30% of rules have all-numeric column headers — likely a data row misread as a header.",
     "placeholder_column_headers": "More than 30% of rules have placeholder-only column headers (underscores, dashes).",
+    "partial_column_coverage": "The table has column headers for some rules but not for others — the header rows do not fully cover all data columns. Common cause: a multi-level header that does not reserve a column for the row-label, shifting all column labels one position to the right.",
     # --- Report-level signals ---
     "input_too_large": "Expanded grid exceeded the safety cap; the table was skipped.",
     "processing_error": "The parser raised an exception and ``strict=False`` swallowed it; see ``TableReport.error``.",
@@ -89,6 +90,7 @@ REASONS_BY_SEVERITY: Dict[str, FrozenSet[str]] = {
             "high_position_conflict",
             "numeric_column_headers",
             "placeholder_column_headers",
+            "partial_column_coverage",
         }
     ),
     "input": frozenset(
