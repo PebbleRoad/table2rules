@@ -1,11 +1,13 @@
-# Table2Rules — Maze Pathfinder Approach
+# table2rules
 
 [![PyPI](https://img.shields.io/pypi/v/table2rules.svg)](https://pypi.org/project/table2rules/)
 [![Python versions](https://img.shields.io/pypi/pyversions/table2rules.svg)](https://pypi.org/project/table2rules/)
 [![License: MIT](https://img.shields.io/pypi/l/table2rules.svg)](LICENSE)
-[![CI](https://github.com/pebbleroad/table2rules/actions/workflows/test.yml/badge.svg)](https://github.com/pebbleroad/table2rules/actions/workflows/test.yml)
+[![CI](https://github.com/PebbleRoad/table2rules/actions/workflows/test.yml/badge.svg)](https://github.com/PebbleRoad/table2rules/actions/workflows/test.yml)
 
-## The DNA of Table Parsing
+**Convert HTML tables into flat, self-contained facts — one per line — so LLMs and RAG pipelines can chunk, embed, and retrieve them without losing header context.**
+
+## The DNA of Table Parsing — a maze pathfinder approach
 
 **Tables are mazes. Each cell finds its headers by pathfinding.**
 
@@ -69,7 +71,7 @@ This is why we produce rules, not just markdown: rules are the representation ta
 
 ### Where this library fits vs. other tools
 
-- **Unstructured.io, markitdown, docling**: extract tables as markdown/HTML. Excellent at extraction, table2rules-incompatible at chunking without additional work.
+- **Unstructured.io, markitdown, docling**: extract tables as markdown/HTML. Excellent at extraction, but chunking those outputs without losing headers still needs help — that's where table2rules fits.
 - **LlamaParse**: paid, similar intent at a higher level (whole-document parsing).
 - **pandas / lxml**: give you structured data, not RAG-ingestible facts.
 - **table2rules**: narrow scope — HTML table in, self-contained facts out, fail-open on hostile input. Pair it with any of the above in a pipeline: extract with your tool, pass the table HTML through table2rules before chunking.

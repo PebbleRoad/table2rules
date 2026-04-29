@@ -47,11 +47,11 @@ dev = [
 table2rules = "table2rules.__main__:main"
 
 [project.urls]
-Homepage = "https://github.com/pebbleroad/table2rules"
-Repository = "https://github.com/pebbleroad/table2rules"
-Issues = "https://github.com/pebbleroad/table2rules/issues"
-Changelog = "https://github.com/pebbleroad/table2rules/blob/main/CHANGELOG.md"
-Documentation = "https://github.com/pebbleroad/table2rules/tree/main/docs"
+Homepage = "https://github.com/PebbleRoad/table2rules"
+Repository = "https://github.com/PebbleRoad/table2rules"
+Issues = "https://github.com/PebbleRoad/table2rules/issues"
+Changelog = "https://github.com/PebbleRoad/table2rules/blob/main/CHANGELOG.md"
+Documentation = "https://github.com/PebbleRoad/table2rules/tree/main/docs"
 
 [tool.setuptools.packages.find]
 where = ["src"]
