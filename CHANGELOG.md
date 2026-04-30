@@ -116,6 +116,18 @@ promotion to also cover single-row-header tables.
   col 0 is covered by an above rowspan is no longer misclassified as
   a row-subheader.
 
+### Quality gate
+
+- **New gate reason `partial_column_coverage`.** Detects when column
+  headers cover some rules in a table but not others — the silent
+  label-shift failure mode where a multi-level header omits a slot
+  for the row-label column, shifting every column label one position
+  right and leaving the rightmost data column unlabeled. Tables that
+  hit this case now fall back to flat rendering with the reason
+  surfaced in `TableReport`, instead of emitting wrong facts at full
+  confidence. Contributed by @BeastxD7 in
+  [#2](https://github.com/PebbleRoad/table2rules/pull/2).
+
 ## [0.3.0] — 2026-04-23
 
 Three structural invariants tighten when the parser emits rules-format
