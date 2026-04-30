@@ -5,6 +5,14 @@ All notable changes to `table2rules` are documented here. Dates are in
 
 ## [Unreleased]
 
+### Fixed
+
+- `extract_cell_text` now skips text nodes whose direct parent is a `<style>`
+  or `<script>` tag. Wikipedia multi-column list templates inject inline
+  `<style>` blocks directly inside `<td>` cells; previously the raw CSS leaked
+  into emitted rule values while the quality gate still reported
+  `mode=rules, score=1.00` — a silent failure invisible to callers.
+
 ## [0.4.0] — 2026-04-29
 
 Header detection reframed as a set of universal structural rules, and
