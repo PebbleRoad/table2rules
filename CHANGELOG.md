@@ -5,6 +5,8 @@ All notable changes to `table2rules` are documented here. Dates are in
 
 ## [Unreleased]
 
+## [0.4.1] — 2026-04-30
+
 ### Fixed
 
 - `extract_cell_text` now skips text nodes whose direct parent is a `<style>`
