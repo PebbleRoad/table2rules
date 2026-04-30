@@ -452,3 +452,52 @@ def test_reasons_by_severity_partitions_catalogue() -> None:
 def test_reasons_by_severity_has_expected_buckets() -> None:
     # Renaming a bucket is a breaking change — guard it.
     assert set(REASONS_BY_SEVERITY) == {"defensive", "confidence", "input"}
+
+
+# --- Cell text extraction: inline <style> / <script> noise -----------------
+
+
+def test_inline_style_tag_excluded_from_cell_text() -> None:
+    """Inline <style> blocks injected by Wikipedia templates must not appear
+    in emitted rule values. Regression for the CSS-noise silent failure."""
+    html = """
+    <table>
+      <thead>
+        <tr><th>District</th><th>Talukas</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Bagalkot</th>
+          <td><style>.div-col{column-width:30em}</style>Badami Bagalkot Bilagi</td>
+        </tr>
+      </tbody>
+    </table>
+    """
+    text, report = process_tables_with_stats(html, strict=False)
+
+    assert report.tables[0].render_mode == "rules"
+    assert ".div-col" not in text
+    assert "column-width" not in text
+    assert "Badami" in text
+
+
+def test_inline_script_tag_excluded_from_cell_text() -> None:
+    """Inline <script> blocks must not bleed into emitted rule values."""
+    html = """
+    <table>
+      <thead>
+        <tr><th>Region</th><th>Population</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">South</th>
+          <td><script>var x=1;</script>4,200,000</td>
+        </tr>
+      </tbody>
+    </table>
+    """
+    text, report = process_tables_with_stats(html, strict=False)
+
+    assert report.tables[0].render_mode == "rules"
+    assert "var x" not in text
+    assert "4,200,000" in text
