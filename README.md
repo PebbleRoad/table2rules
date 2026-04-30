@@ -82,6 +82,31 @@ This is why we produce rules, not just markdown: rules are the representation ta
 - **pandas / lxml**: give you structured data, not RAG-ingestible facts.
 - **table2rules**: narrow scope — HTML table in, self-contained facts out, fail-open on hostile input. Pair it with any of the above in a pipeline: extract with your tool, pass the table HTML through table2rules before chunking.
 
+### Where it fits in your RAG pipeline
+
+`table2rules` is a single transformation between **table extraction** and **chunking**. It doesn't replace your extractor, vector store, embedder, or LLM — it makes table content survive the chunker:
+
+```python
+from table2rules import process_tables_to_text
+
+# 1. Extract HTML from your source (PDF, scrape, doc parser, etc.)
+html = extract_html_with_unstructured(pdf_bytes)   # or docling, markitdown, ...
+
+# 2. Convert any tables in it to flat, header-inlined facts
+facts = process_tables_to_text(html)
+
+# 3. Hand the facts to *any* chunker — no table-aware splitting needed
+chunks = your_chunker.split(facts)                 # recursive, token, semantic, etc.
+
+# 4. Embed and store as usual
+vectors = embedder.embed(chunks)
+vector_store.add(vectors, chunks)
+```
+
+The output of step 2 is plain text where every line is self-contained, so step 3 can split at any line boundary without losing header context. That's the property that makes the rest of the pipeline boring — exactly what you want it to be.
+
+Works the same way with **LangChain** (`RecursiveCharacterTextSplitter`, `TokenTextSplitter`), **LlamaIndex** (`SentenceSplitter`, `TokenTextSplitter`), **Haystack**, or your own custom splitter — there's no framework integration, just text in and text out.
+
 ### What this buys you on today's stack
 
 Three pressures RAG teams are under right now, and what table2rules does about each:

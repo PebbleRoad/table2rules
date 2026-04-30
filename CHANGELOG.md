@@ -128,6 +128,19 @@ promotion to also cover single-row-header tables.
   confidence. Contributed by @BeastxD7 in
   [#2](https://github.com/PebbleRoad/table2rules/pull/2).
 
+### Public API additions
+
+- **`TableReport.text`** — the rendered output for *this table only*,
+  the same lines that contribute to the concatenated string returned
+  alongside the report. Lets callers passing whole-document HTML keep
+  per-table provenance without having to split the flat blob
+  themselves.
+- **`TableReport.caption`** — text of the table's `<caption>` element
+  when present, otherwise `None`. Only direct `<caption>` children
+  are read; surrounding headings and `id` attributes are intentionally
+  ignored — `table_index` remains the only stable positional
+  identifier.
+
 ## [0.3.0] — 2026-04-23
 
 Three structural invariants tighten when the parser emits rules-format
