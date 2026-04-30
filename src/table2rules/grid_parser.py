@@ -78,6 +78,11 @@ def extract_cell_text(cell) -> str:
         if parent is None:
             continue
 
+        # Skip text content of <style> and <script> tags embedded in cells
+        # (Wikipedia injects inline <style> blocks for multi-column templates).
+        if isinstance(parent, Tag) and parent.name in ("style", "script"):
+            continue
+
         nearest_cell: Optional[Tag]
         if parent.name in ("td", "th"):
             nearest_cell = parent
