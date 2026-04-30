@@ -7,6 +7,12 @@
 
 **Convert HTML tables into flat, self-contained facts — one per line — so LLMs and RAG pipelines can chunk, embed, and retrieve them without losing header context.**
 
+Concretely: HTML `<table>` in, lines of `row-path | col-path: value` out, with the full header ancestry repeated on every line so any chunker can split anywhere without orphaning a row from its headers.
+
+- Pure Python, no network calls
+- No ML models, fully deterministic
+- MIT-licensed, safe for commercial / on-prem use
+
 ## The DNA of Table Parsing — a maze pathfinder approach
 
 **Tables are mazes. Each cell finds its headers by pathfinding.**
@@ -93,6 +99,8 @@ Three pressures RAG teams are under right now, and what table2rules does about e
 ---
 
 ## Output Format
+
+In `table2rules`, "rules" means flat, header-inlined facts — one per line — not Datalog/Prolog clauses, not a business-rule engine. The output is plain text that any chunker, embedder, or LLM can consume directly.
 
 The default `rules` exporter emits **one self-contained rule per line** — every line carries the full row-header path and full column-header path:
 
