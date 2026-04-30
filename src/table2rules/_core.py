@@ -293,9 +293,7 @@ def _run(
             elif error_msg is not None:
                 reasons = ("processing_error",) + reasons
             caption_tag = table.find("caption", recursive=False)
-            caption_text = (
-                clean_text(caption_tag.get_text()) if caption_tag else ""
-            ) or None
+            caption_text = (clean_text(caption_tag.get_text()) if caption_tag else "") or None
             reports.append(
                 TableReport(
                     table_index=table_index,
