@@ -266,8 +266,9 @@ def _run(
             error_msg = f"{type(exc).__name__}: {exc}"
 
         render_mode: RenderMode
+        table_chunks: List[str] = []
         if rules:
-            output_chunks.extend(exporter.export_rules(rules))
+            table_chunks = list(exporter.export_rules(rules))
             render_mode = "rules"
         elif too_large:
             # Refuse to emit anything for span-bomb input — the fallback paths
@@ -278,11 +279,12 @@ def _run(
             cell_rows = _extract_cell_rows(table_html)
             flat = exporter.export_flat(cell_rows) if cell_rows else []
             if flat:
-                output_chunks.extend(flat)
+                table_chunks = list(flat)
                 render_mode = "flat"
             else:
-                output_chunks.append(table_html)
+                table_chunks = [table_html]
                 render_mode = "passthrough"
+        output_chunks.extend(table_chunks)
 
         if collect_report:
             reasons = tuple(gate.reasons)
@@ -290,6 +292,10 @@ def _run(
                 reasons = ("input_too_large",) + reasons
             elif error_msg is not None:
                 reasons = ("processing_error",) + reasons
+            caption_tag = table.find("caption", recursive=False)
+            caption_text = (
+                clean_text(caption_tag.get_text()) if caption_tag else ""
+            ) or None
             reports.append(
                 TableReport(
                     table_index=table_index,
@@ -298,6 +304,8 @@ def _run(
                     gate_score=gate.score,
                     reasons=reasons,
                     error=error_msg,
+                    caption=caption_text,
+                    text="\n".join(table_chunks),
                 )
             )
         table_index += 1

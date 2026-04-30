@@ -215,6 +215,98 @@ def test_multiple_tables_indexed_and_ordered() -> None:
     assert report.tables[1].render_mode in ("flat", "passthrough")
 
 
+# --- Per-table provenance: caption + text -----------------------------------
+
+
+def test_tablereport_text_matches_concatenated_output_for_single_table() -> None:
+    text, report = process_tables_with_stats(CLEAN_TABLE)
+    assert len(report.tables) == 1
+    assert report.tables[0].text == text
+
+
+def test_tablereport_text_partitions_concatenated_output_across_tables() -> None:
+    # Two distinct tables — each report's ``text`` must hold exactly the
+    # lines that table contributed, and re-joining them must reproduce the
+    # flat output. This is the contract callers rely on for provenance.
+    html = CLEAN_TABLE + "<table><tr><td>lone</td></tr></table>"
+    text, report = process_tables_with_stats(html)
+    assert len(report.tables) == 2
+    rejoined = "\n".join(t.text for t in report.tables if t.text)
+    assert rejoined == text
+    # First table's lines are not present in the second's text, and vice versa.
+    assert "Revenue" in report.tables[0].text
+    assert "Revenue" not in report.tables[1].text
+
+
+def test_tablereport_caption_extracted_from_caption_element() -> None:
+    html = (
+        "<table>"
+        "<caption>Quarterly Revenue</caption>"
+        "<thead><tr><th>Metric</th><th>Q1</th></tr></thead>"
+        "<tbody><tr><th>Revenue</th><td>100</td></tr></tbody>"
+        "</table>"
+    )
+    _, report = process_tables_with_stats(html)
+    assert report.tables[0].caption == "Quarterly Revenue"
+
+
+def test_tablereport_caption_is_none_when_absent() -> None:
+    _, report = process_tables_with_stats(CLEAN_TABLE)
+    assert report.tables[0].caption is None
+
+
+def test_tablereport_caption_ignores_html_id_attribute() -> None:
+    # ``id`` is intentionally not used as a table name — only ``<caption>``.
+    html = (
+        '<table id="quarterly-revenue">'
+        "<thead><tr><th>Metric</th><th>Q1</th></tr></thead>"
+        "<tbody><tr><th>Revenue</th><td>100</td></tr></tbody>"
+        "</table>"
+    )
+    _, report = process_tables_with_stats(html)
+    assert report.tables[0].caption is None
+
+
+def test_tablereport_caption_does_not_leak_from_nested_table() -> None:
+    # A caption inside a nested table must not be attributed to the outer
+    # table — ``find("caption", recursive=False)`` enforces direct-child only.
+    html = (
+        "<table>"
+        "<thead><tr><th>Outer</th><th>Col</th></tr></thead>"
+        "<tbody><tr><th>row</th><td>"
+        "<table><caption>Inner Caption</caption>"
+        "<tr><td>x</td></tr></table>"
+        "</td></tr></tbody>"
+        "</table>"
+    )
+    _, report = process_tables_with_stats(html)
+    # Only one top-level table is reported (nested tables are folded in).
+    assert len(report.tables) == 1
+    assert report.tables[0].caption is None
+
+
+def test_tablereport_text_empty_for_skipped_tables() -> None:
+    _, report = process_tables_with_stats(SPAN_BOMB)
+    assert report.tables[0].render_mode == "skipped"
+    assert report.tables[0].text == ""
+
+
+def test_tablereport_default_field_values_back_compat() -> None:
+    # Constructing a TableReport without the new fields must still work,
+    # so existing callers (and pickled records) keep deserialising.
+    from table2rules.report import TableReport
+
+    tr = TableReport(
+        table_index=0,
+        render_mode="rules",
+        gate_ok=True,
+        gate_score=1.0,
+        reasons=(),
+    )
+    assert tr.caption is None
+    assert tr.text == ""
+
+
 # --- process_table (single-table API) ---------------------------------------
 
 

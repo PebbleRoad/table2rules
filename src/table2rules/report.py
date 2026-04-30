@@ -104,7 +104,19 @@ REASONS_BY_SEVERITY: Dict[str, FrozenSet[str]] = {
 
 @dataclass(frozen=True)
 class TableReport:
-    """Observability record for a single top-level table in the input HTML."""
+    """Observability record for a single top-level table in the input HTML.
+
+    ``text`` carries the rendered output for *this* table only — the same lines
+    that contributed to the concatenated string returned alongside the report.
+    Callers passing whole-document HTML in can read ``report.tables[i].text``
+    to keep per-table provenance instead of having to split the flat blob.
+
+    ``caption`` is the text of the table's ``<caption>`` element when present,
+    otherwise ``None``. Only direct ``<caption>`` children are read; the HTML
+    ``id`` attribute, surrounding headings, and other content-derived names
+    are intentionally ignored — ``table_index`` remains the only stable
+    positional identifier.
+    """
 
     table_index: int
     render_mode: RenderMode
@@ -112,6 +124,8 @@ class TableReport:
     gate_score: float
     reasons: Tuple[str, ...]
     error: Optional[str] = None
+    caption: Optional[str] = None
+    text: str = ""
 
 
 @dataclass(frozen=True)

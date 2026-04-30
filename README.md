@@ -169,6 +169,23 @@ for t in report.tables:
         print(f"table {t.table_index}: {t.render_mode} — {t.reasons}")
 ```
 
+Each `TableReport` also carries the rendered output for *that* table only —
+useful when you pass whole-document HTML in and want to keep per-table
+provenance instead of splitting the flat string yourself:
+
+```python
+text, report = process_tables_with_stats(html)
+
+for t in report.tables:
+    name = t.caption or f"table_{t.table_index}"
+    store(name, t.text)   # t.text is just this table's lines
+```
+
+`t.caption` is the text of the table's `<caption>` element when present,
+otherwise `None`. The HTML `id` attribute and surrounding headings are
+intentionally ignored — `t.table_index` is the only stable positional
+identifier.
+
 `render_mode` is one of `"rules"`, `"flat"`, `"passthrough"`, or
 `"skipped"`. The full playbook — what each mode means operationally, how to
 group the 16 reason codes by severity, `gate_score` thresholds, batch
