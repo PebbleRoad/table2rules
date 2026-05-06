@@ -1,0 +1,1 @@
+<table><tbody><tr><td>Engagement</td><th>Date</th><th>Region</th></tr><tr><th>UNESCO Slovenia</th><td>5 Jan</td><td>Europe</td></tr><tr><th>World Economic Forum</th><td>24 Jan</td><td>Europe</td></tr><tr><th>ASEAN Digital Senior Officials</th><td>30 Jan</td><td>Asia</td></tr></tbody></table>
