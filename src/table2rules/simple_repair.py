@@ -181,9 +181,7 @@ def detect_header_block(rows):
         (caller treats that as "no body to compare against" and skips
         the witness).
         """
-        counts = [
-            nonempty_counts[r2] for r2 in range(after_r + 1, n) if nonempty_counts[r2] >= 2
-        ]
+        counts = [nonempty_counts[r2] for r2 in range(after_r + 1, n) if nonempty_counts[r2] >= 2]
         if not counts:
             return -1
         return min(counts)
@@ -295,11 +293,7 @@ def detect_header_block(rows):
                 break
         if is_clean and r == 0:
             body_min = _body_min_nonempty(r)
-            if (
-                body_min >= 0
-                and nonempty_count > body_min
-                and _row_cols_covered_by_body(r)
-            ):
+            if body_min >= 0 and nonempty_count > body_min and _row_cols_covered_by_body(r):
                 is_clean = False
             if is_clean and _is_inverted_relative_to_body(r):
                 is_clean = False
