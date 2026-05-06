@@ -122,6 +122,46 @@ def detect_header_block(rows):
     [0..k-1] range and are left as-is so the downstream thead-wrap naturally
     excludes them via Fix 7's contiguous-<th> chain.
 
+    Two further structural witnesses extend "clean data row" to disqualify
+    rows that look header-shaped relative to the body:
+
+    * **Fuller-than-body**: row r's non-empty cell count is strictly greater
+      than the minimum non-empty count of the non-divider rows below it,
+      AND every column where row r is non-empty has at least one body
+      row that fills the same column. A row that fills more columns
+      than at least one body row is naming columns the body sometimes
+      leaves empty — the structural signature of a column-header row
+      above an implicit-rowspan group-label column, a multi-stub
+      indentation pyramid, or an alternating coefficient/std-error
+      layout. Comparing to the minimum (rather than median or mean)
+      is intentional: the structural distinction is "exists a body
+      row with fewer non-empty cells than row r," and strictly more
+      central statistics misfire on tables where a slim majority of body
+      rows match row r's fullness. The body-coverage clause excludes
+      receipts whose row 0 is a 4-cell line item followed by 2-cell
+      totals — there cols 2 and 3 are filled only in row 0, the body
+      never uses them, and promoting row 0 to header would erase the
+      line-item data. Uniform-dense tables stay out because their min
+      equals row r's count.
+
+    * **Cell-type inversion**: row r contains at least one corner-stub
+      ``<td>`` — a column where row r is ``<td>`` while the body majority
+      is ``<th>`` — and a strict majority of compared columns invert.
+      The corner-stub clause is load-bearing: an all-``<th>`` row above
+      an all-``<td>`` body inverts every column too, but that's the
+      *normal* header pattern (and Fix 7 already wraps it in ``<thead>``
+      via the contiguous-``<th>`` chain). Inversion is only the right
+      witness when row r has a stray ``<td>`` corner cell that the body
+      makes a ``<th scope="row">`` (e.g., header row ``[td, th, th]``
+      above body rows ``[th, td, td]``). Universal: cell tags are
+      markup, not content.
+
+    Both extended witnesses apply only at r == 0 — the literal first
+    row. Beyond row 0, "fuller than the body below" describes regular
+    data rows (regression group labels, alternating coefficient/std-err
+    pairs) and "first row with col 0 non-empty" is already the existing
+    stub-column header pattern handled by the rest of the function.
+
     Returns (k, stub_cols, origin_cells, grid) on success, or None.
     """
     n = len(rows)
@@ -132,6 +172,87 @@ def detect_header_block(rows):
     if max_cols == 0:
         return None
 
+    # Pre-compute per-row non-empty counts (logical, colspan-expanded).
+    nonempty_counts = [sum(1 for c in row if c["nonempty"]) for row in grid]
+
+    def _body_min_nonempty(after_r: int) -> int:
+        """Minimum non-empty count among non-divider rows strictly after
+        ``after_r``. Returns -1 when no qualifying body row exists
+        (caller treats that as "no body to compare against" and skips
+        the witness).
+        """
+        counts = [
+            nonempty_counts[r2] for r2 in range(after_r + 1, n) if nonempty_counts[r2] >= 2
+        ]
+        if not counts:
+            return -1
+        return min(counts)
+
+    def _row_cols_covered_by_body(r: int) -> bool:
+        """True iff every column where row r is non-empty has at least one
+        non-divider body row below that fills the same column. Excludes
+        receipts whose row 0 fills columns the body never uses (line
+        item over totals)."""
+        for c in range(max_cols):
+            if not grid[r][c]["nonempty"]:
+                continue
+            covered = False
+            for r2 in range(r + 1, n):
+                if nonempty_counts[r2] < 2:
+                    continue
+                if grid[r2][c]["nonempty"]:
+                    covered = True
+                    break
+            if not covered:
+                return False
+        return True
+
+    def _is_inverted_relative_to_body(r: int) -> bool:
+        """True iff row r contains a corner-stub ``<td>`` and inverts the
+        body majority at a strict majority of compared columns. Only
+        origin cells with non-empty text on both sides participate.
+
+        The corner-stub clause requires ≥1 column where row r is ``<td>``
+        but body majority is ``<th>``. Without it, an all-``<th>`` row
+        above an all-``<td>`` body would also "invert" every column — but
+        that's the normal header pattern, already handled by Fix 7's
+        contiguous-``<th>`` thead wrap.
+        """
+        has_corner_stub = False
+        inverted = 0
+        checked = 0
+        for c in range(max_cols):
+            row_cell = grid[r][c]
+            if row_cell["origin"] != (r, c) or not row_cell["nonempty"]:
+                continue
+            row_origin = origin_cells.get((r, c))
+            if row_origin is None or row_origin.name not in ("td", "th"):
+                continue
+            row_tag = row_origin.name
+
+            td_count = 0
+            th_count = 0
+            for r2 in range(r + 1, n):
+                body_cell = grid[r2][c]
+                if body_cell["origin"] != (r2, c) or not body_cell["nonempty"]:
+                    continue
+                body_origin = origin_cells.get((r2, c))
+                if body_origin is None:
+                    continue
+                if body_origin.name == "td":
+                    td_count += 1
+                elif body_origin.name == "th":
+                    th_count += 1
+            if td_count + th_count == 0:
+                continue
+            body_majority = "td" if td_count >= th_count else "th"
+            checked += 1
+            if body_majority != row_tag:
+                inverted += 1
+                if row_tag == "td" and body_majority == "th":
+                    has_corner_stub = True
+        return has_corner_stub and checked > 0 and inverted * 2 > checked
+
     # Find the first data row. A data row is one whose shape has no
     # structural feature that would mark it as a header:
     #   - col 0 is non-empty (typical row-label)
@@ -140,6 +261,13 @@ def detect_header_block(rows):
     #     (no rowspan copy from above pulling header content into body)
     #   - every origin cell at row r has rowspan == colspan == 1
     #     (no colspan group or rowspan marker signaling header role)
+    # Plus, only at r == 0 (the literal first row):
+    #   - row 0 is not strictly fuller than at least one body row below
+    #     while every column it fills is covered by some body row
+    #     (the fuller-than-body witness — see docstring)
+    #   - row 0's cell tags are not inverted relative to body majority,
+    #     with at least one corner-stub ``<td>`` versus body ``<th>``
+    #     (the cell-type-inversion witness — see docstring)
     #
     # The "every cell non-empty" requirement was dropped intentionally:
     # real body rows in financial tables are often gappy (a cell has a
@@ -153,7 +281,7 @@ def detect_header_block(rows):
         row = grid[r]
         if not row[0]["nonempty"]:
             continue
-        nonempty_count = sum(1 for c in row if c["nonempty"])
+        nonempty_count = nonempty_counts[r]
         if nonempty_count < 2:
             continue
         is_clean = True
@@ -165,6 +293,16 @@ def detect_header_block(rows):
             if cell["rs"] != 1 or cell["cs"] != 1:
                 is_clean = False
                 break
+        if is_clean and r == 0:
+            body_min = _body_min_nonempty(r)
+            if (
+                body_min >= 0
+                and nonempty_count > body_min
+                and _row_cols_covered_by_body(r)
+            ):
+                is_clean = False
+            if is_clean and _is_inverted_relative_to_body(r):
+                is_clean = False
         if is_clean:
             first_data_idx = r
             break

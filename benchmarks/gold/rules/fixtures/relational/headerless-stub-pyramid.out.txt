@@ -1,0 +1,18 @@
+Selective coding: Technical algorithms
+Sources: 29
+References: 143
+Axis coding: Data accuracy
+Sources: 26
+References: 43
+Open coding: Data sources
+Sources: 19
+References: 19
+Open coding: Data training
+Sources: 8
+References: 8
+Axis coding: Algorithm optimization
+Sources: 24
+References: 49
+Open coding: Decision-making traceability
+Sources: 10
+References: 10

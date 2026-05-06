@@ -5,6 +5,37 @@ All notable changes to `table2rules` are documented here. Dates are in
 
 ## [Unreleased]
 
+### Added
+
+- Two universal structural witnesses extend `simple_repair.detect_header_block`
+  so headless tables whose row 0 was previously misclassified as data now
+  promote correctly to a header block:
+  - **Fuller-than-body.** Row 0 is disqualified as a clean data row when its
+    non-empty cell count is strictly greater than the minimum non-empty
+    count of the non-divider rows below it AND every column row 0 fills is
+    covered by at least one body row. Catches headerless tables with
+    implicit-rowspan group-label columns (a leading column repeated at
+    group starts and left empty in continuation rows), multi-stub
+    indentation pyramids (one of several leading columns filled per row by
+    hierarchy level), and alternating coefficient/std-error layouts. The
+    body-coverage clause excludes receipts whose row 0 is a wider line
+    item over narrower totals — there the body never uses row 0's extra
+    columns.
+  - **Cell-type inversion.** Row 0 is disqualified when it contains at
+    least one corner-stub `<td>` (where the body majority is `<th>`) and a
+    strict majority of compared columns have row 0's cell tag inverted
+    versus the body majority. Catches header rows authored as
+    `[td, th, th]` above body rows `[th, td, td]`. The corner-stub
+    requirement is load-bearing: an all-`<th>` row above an all-`<td>`
+    body would also "invert" every column, but Fix 7 already wraps that
+    case in `<thead>` via the contiguous-`<th>` chain.
+- Both witnesses apply only at row 0 — beyond the first row, "fuller than
+  the body below" and "cell tags differ from body majority" describe normal
+  body geometry, not a header.
+- Fixtures
+  `tests/fixtures/relational/headerless-{corner-stub-inversion,implicit-rowspan-group,stub-pyramid}.md`
+  exercise the three new patterns.
+
 ## [0.4.1] — 2026-04-30
 
 ### Fixed

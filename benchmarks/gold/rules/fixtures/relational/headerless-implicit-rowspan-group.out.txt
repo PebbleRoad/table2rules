@@ -1,0 +1,12 @@
+Regulatory area: Privacy and data protection
+Emerging complexity: Legal basis for training data
+Emerging strategy: Enforcement of data-minimization principles
+Emerging complexity: Incidental collection by web-crawlers
+Emerging strategy: Clarifying terms-of-service agreements
+Emerging complexity: Purpose limitations for data collection
+Emerging strategy: Guidance for purpose thresholds
+Regulatory area: Copyright and IP
+Emerging complexity: Copyright infringement of training data
+Emerging strategy: Clear policy positions
+Emerging complexity: IP rights of AI-generated works
+Emerging strategy: Guidance on protectable elements
