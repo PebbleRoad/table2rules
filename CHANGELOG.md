@@ -5,6 +5,8 @@ All notable changes to `table2rules` are documented here. Dates are in
 
 ## [Unreleased]
 
+## [0.5.0] — 2026-05-06
+
 ### Added
 
 - Two universal structural witnesses extend `simple_repair.detect_header_block`
