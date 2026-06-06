@@ -95,13 +95,22 @@ def _parse_rule_line(line: str, source_tokens: frozenset[str] = frozenset()):
     return row_path, col_path, value
 
 
-def _classify(output: str) -> str:
+def _classify(output: str, source_tokens: frozenset[str] = frozenset()) -> str:
     lines = [l for l in output.splitlines() if l.strip()]
     if not lines:
         return "EMPTY"
     if any("<table" in l for l in lines):
         return "PASSTHROUGH"
-    rule_shaped = sum(1 for l in lines if _parse_rule_line(l) is not None)
+    # A label-preservation line reproduces a whole source cell verbatim (a
+    # de-spanned/echoed section header kept visible). It is not key/value
+    # shaped, but it is legitimate rules-mode output — count it as such so a
+    # table of rules plus section labels stays RULES rather than degrading to
+    # MIXED (which would skip the precision check below).
+    rule_shaped = sum(
+        1
+        for l in lines
+        if _parse_rule_line(l) is not None or (source_tokens and _norm(l) in source_tokens)
+    )
     if rule_shaped == len(lines):
         return "RULES"
     if rule_shaped == 0:
@@ -345,7 +354,7 @@ def test_robustness_under_mutation(case: tuple[Path, Path], mutation_name: str) 
     mutated_html = mutator(html, rng)
 
     output = process_tables_to_text(mutated_html)
-    tier = _classify(output)
+    tier = _classify(output, source_tokens)
     if tier in {"PASSTHROUGH", "FLAT", "EMPTY", "MIXED"}:
         # Safe fallback; not a precision failure.
         pytest.skip(f"tier={tier} after mutation={mutation_name!r}")
