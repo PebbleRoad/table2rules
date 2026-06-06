@@ -124,17 +124,13 @@ def _build_rules(grid) -> List[LogicRule]:
     rules: List[LogicRule] = []
     n_cols = len(grid[0])
 
-    # Pre-pass: which rows carry any data value at all? A value present via a
-    # <td> origin *or* a rowspan/colspan span copy (both keep their text) marks
-    # the row as a real data row. Rows with none are candidates for label-only
-    # preservation below.
-    row_has_value = [False] * len(grid)
-    for row_idx in range(len(grid)):
-        for col_idx in range(n_cols):
-            cell = grid[row_idx][col_idx]
-            if cell["type"] == "td" and (cell.get("text") or "").strip():
-                row_has_value[row_idx] = True
-                break
+    # Rows that carry a *real* value — used below to decide which rows need
+    # label-only preservation. A value that merely echoes its own column header
+    # (a de-spanned or page-break-repeated header cell) carries no independent
+    # data and is dropped downstream by clean_rules; it must not mask an
+    # otherwise label-only row. Tracked at the value's *target* positions so a
+    # rowspan-filled value correctly marks every row it covers.
+    rows_with_value: set = set()
 
     for row_idx in range(len(grid)):
         for col_idx in range(n_cols):
@@ -157,6 +153,7 @@ def _build_rules(grid) -> List[LogicRule]:
 
             rowspan = cell.get("rowspan", 1)
             colspan = cell.get("colspan", 1)
+            outcome_norm = cell["text"].strip().lower()
 
             for r_offset in range(rowspan):
                 for c_offset in range(colspan):
@@ -179,22 +176,27 @@ def _build_rules(grid) -> List[LogicRule]:
                         )
                     )
 
+                    is_header_echo = outcome_norm in {h.strip().lower() for h in col_headers}
+                    if not is_header_echo:
+                        rows_with_value.add(target_row)
+
     # Label-only preservation: a body row whose row-header label is present but
-    # whose data cells are all empty would otherwise vanish entirely — the data
-    # loop above emits nothing for it. This is how de-spanned section headers
-    # arrive when an OCR/HTML pipeline drops the original ``colspan`` (e.g. a
-    # benefits-schedule title row "2. Public transport double indemnity" with an
-    # empty value column). It is structurally indistinguishable from a leaf row
-    # with a genuinely missing value, so we preserve the label verbatim rather
-    # than fabricate a section breadcrumb. Emit the label as its own outcome so
-    # the name survives into the output.
+    # which carries no independent value would otherwise vanish entirely — the
+    # data loop above emits nothing usable for it. This is how de-spanned
+    # section headers arrive when an OCR/HTML pipeline drops the original
+    # ``colspan``: the value column is either empty (a benefits-schedule title
+    # row "2. Public transport double indemnity") or repeats the column header
+    # (a "24. COVID-19 Coverage Extension | Sum Insured" row, whose echoed value
+    # clean_rules strips, taking the label with it). It is structurally
+    # indistinguishable from a leaf row with a genuinely missing value, so we
+    # preserve the label verbatim rather than fabricate a section breadcrumb.
     for row_idx in range(len(grid)):
-        if row_has_value[row_idx]:
+        if row_idx in rows_with_value:
             continue
-        # Anchor the rule at the row's (empty) data column so it satisfies the
-        # quality gate's "rules originate from <td>" invariant. A row with no
-        # <td> at all is a true full-width <th colspan> divider — already
-        # handled as a row-group ancestor upstream — so we leave it alone.
+        # Anchor the rule at the row's data column so it satisfies the quality
+        # gate's "rules originate from <td>" invariant. A row with no <td> at
+        # all is a true full-width <th colspan> divider — already handled as a
+        # row-group ancestor upstream — so we leave it alone.
         anchor_col = next((c for c in range(n_cols) if grid[row_idx][c]["type"] == "td"), None)
         if anchor_col is None:
             continue
@@ -220,6 +222,7 @@ def _build_rules(grid) -> List[LogicRule]:
                 row_headers=(),
                 col_headers=(),
                 origin=(row_idx, anchor_col),
+                is_label=True,
             )
         )
 

@@ -28,6 +28,7 @@ Exclude negatives, alleles | Precision: 0.61
 Exclude negatives, alleles | Recall: 1.00 *
 Exclude negatives, alleles | F measure: 0.75
 Exclude negatives, alleles | Sample size: 451
+Including network analysis data
 Exclude proteins not part of true relations table. | Matched relations: 239
 Exclude proteins not part of true relations table. | All relations: 343
 Exclude proteins not part of true relations table. | Precision: 0.70

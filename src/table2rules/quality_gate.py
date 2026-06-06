@@ -29,23 +29,6 @@ def _candidate_data_positions(grid: List[List[Dict]]) -> List[Tuple[int, int]]:
     return positions
 
 
-def _is_label_only_rule(grid: List[List[Dict]], rule: LogicRule) -> bool:
-    """A label-preservation rule keeps an otherwise-empty row's label visible.
-
-    These rules carry no header and are anchored at an *empty* data cell — a
-    signature no value rule can have, since value rules originate from non-empty
-    cells. They legitimately have no header relationship, so the scoring gate
-    must not count them against header attachment or coverage.
-    """
-    if rule.row_headers or rule.col_headers:
-        return False
-    r, c = rule.position
-    if not (0 <= r < len(grid) and 0 <= c < len(grid[0])):
-        return False
-    cell = grid[r][c]
-    return cell.get("type") == "td" and not str(cell.get("text", "")).strip()
-
-
 def check_invariants(grid: List[List[Dict]], rules: List[LogicRule]) -> Tuple[bool, List[str]]:
     reasons: List[str] = []
     if not grid or not grid[0]:
@@ -91,11 +74,12 @@ def assess_confidence(grid: List[List[Dict]], rules: List[LogicRule]) -> GateRes
     if not candidates:
         return GateResult(ok=False, score=0.0, reasons=["no_candidate_data_cells"])
 
-    # Score only value rules. Label-preservation rules (empty-row labels kept
-    # visible) carry no header by design and sit on empty cells — they are
-    # pass-through, not a parser confidence signal, so they neither help nor
-    # hurt the gate. check_invariants above still validates them.
-    rules = [r for r in rules if not _is_label_only_rule(grid, r)]
+    # Score only value rules. Label-preservation rules (a row's label kept
+    # visible when it carries no independent value) have no header relationship
+    # by design — they are pass-through, not a parser-confidence signal, so they
+    # neither help nor hurt the gate. check_invariants above still validates
+    # them (a valid <td> anchor, non-empty outcome).
+    rules = [r for r in rules if not r.is_label]
 
     rule_positions = {rule.position for rule in rules}
     coverage = len(rule_positions) / max(1, len(candidates))

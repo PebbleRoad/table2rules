@@ -12,6 +12,12 @@ class LogicRule:
     col_headers: Tuple[str, ...] = ()
     origin: Optional[Tuple[int, int]] = None
     is_footer: bool = False
+    # A label-preservation rule: the row carried a label but no independent
+    # value (empty value column, or a value that merely echoes the column
+    # header). The label is preserved verbatim as the outcome with no header
+    # relationship. The confidence gate treats these as pass-through, not a
+    # parser-confidence signal.
+    is_label: bool = False
 
     def to_string(self) -> str:
         """Descriptive format for Graph-RAG: '<rows> → <cols>: <value>'."""
