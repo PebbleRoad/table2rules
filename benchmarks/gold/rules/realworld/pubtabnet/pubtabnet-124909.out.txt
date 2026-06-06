@@ -25,6 +25,7 @@ Overall | Actual Sample: 0.08
 Overall | Actual Sample: 19
 Overall | Our Estimate: 1.000
 Overall | Our Estimate: 0.0%
+Overall Test for heterogeneity between sub-groups
 Actual Sample: 0.00
 Actual Sample: 1
 Our Estimate: 0.975

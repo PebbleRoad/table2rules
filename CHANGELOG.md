@@ -10,20 +10,27 @@ All notable changes to `table2rules` are documented here. Dates are in
 ### Fixed
 
 - **De-spanned section headers are preserved instead of dropped.** A body row
-  whose row-label is present but whose value column(s) are all empty — the
-  shape a full-width section title takes after an OCR/HTML pipeline drops its
-  `colspan` (e.g. a benefits-schedule `1. Accidental death …` row, or a
-  balance-sheet `Current assets:` / FinTabNet `Segments:` group label) — used
-  to vanish entirely, silently losing the label and leaving repeated sub-item
-  rows (`Each child insured person`) context-less. `_build_rules` now emits a
-  label-only rule for such rows, preserving the text verbatim. The label is
-  kept as-is rather than reconstructed into a section breadcrumb, because an
-  empty-value row is structurally indistinguishable from a leaf row with a
-  genuinely missing value. The confidence gate exempts these header-less,
-  empty-cell-anchored rules from header-attachment and coverage scoring so a
+  whose row-label is present but which carries no independent value — the shape
+  a full-width section title takes after an OCR/HTML pipeline drops its
+  `colspan` — used to vanish entirely, silently losing the label and leaving
+  repeated sub-item rows (`Each child insured person`) context-less.
+  `_build_rules` now emits a label-only rule for such rows, preserving the text
+  verbatim. The label is kept as-is rather than reconstructed into a section
+  breadcrumb, because such a row is structurally indistinguishable from a leaf
+  row with a genuinely missing value. Two encodings are covered:
+  - **Empty value column** — e.g. a benefits-schedule `1. Accidental death …`
+    row, or a balance-sheet `Current assets:` / FinTabNet `Segments:` label.
+  - **Value echoes the column header** — e.g. a `24. COVID-19 Coverage
+    Extension | Sum Insured` row. The echoed `Sum Insured` value is a
+    self-echo that `clean_rules` strips; previously that took the section
+    label down with it. The row is now recognised as label-only first, so the
+    label survives while the redundant echo is still dropped.
+
+  A `LogicRule.is_label` flag marks these rows; the confidence gate treats them
+  as pass-through (excluded from header-attachment and coverage scoring) so a
   table does not degrade to flat output merely for carrying them. New fixture
-  `relational/despanned-section-headers`. Affects 103 of the 401 real-world
-  corpus tables, all by recovering previously-dropped labels.
+  `relational/despanned-section-headers` exercises both encodings. Recovers
+  previously-dropped labels across the real-world corpus.
 
 ### Changed
 

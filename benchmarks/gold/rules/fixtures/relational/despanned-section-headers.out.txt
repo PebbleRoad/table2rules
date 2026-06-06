@@ -4,3 +4,6 @@ Each child insured person | Sum Insured: S$100,000
 2. Public transport double indemnity
 Each adult insured person under 70 | Sum Insured: S$500,000
 Each child insured person | Sum Insured: S$200,000
+3. COVID-19 coverage extension
+Each adult insured person under 70 | Sum Insured: S$50,000
+Each child insured person | Sum Insured: S$20,000
