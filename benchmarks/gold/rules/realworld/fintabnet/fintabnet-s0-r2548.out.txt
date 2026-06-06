@@ -1,3 +1,4 @@
+East
 East > Rental income | 2006 > (Dollars in thousands): $340,968
 East > Rental income | 2005 > (Dollars in thousands): $310,063
 East > Rental income | 2004 > (Dollars in thousands): $293,291
@@ -16,6 +17,7 @@ East > Total assets | 2004 > (Dollars in thousands): $1,264,135
 East > Gross leasable square feet | 2006 > (Dollars in thousands): 16,195
 East > Gross leasable square feet | 2005 > (Dollars in thousands): 14,941
 East > Gross leasable square feet | 2004 > (Dollars in thousands): 14,482
+West
 West > Rental income | 2006 > (Dollars in thousands): $97,233
 West > Rental income | 2005 > (Dollars in thousands): $83,485
 West > Rental income | 2004 > (Dollars in thousands): $75,008

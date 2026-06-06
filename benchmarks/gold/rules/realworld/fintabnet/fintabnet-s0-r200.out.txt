@@ -1,3 +1,4 @@
+2011
 2011 > Fourth Quarter | NYSE Common Stock > High: $30.99
 2011 > Fourth Quarter | NYSE Common Stock > Low: $18.70
 2011 > Fourth Quarter | OSE Common Stock (1) > High: 168.00
@@ -14,6 +15,7 @@
 2011 > First Quarter | NYSE Common Stock > Low: 40.26
 2011 > First Quarter | OSE Common Stock (1) > High: 293.10
 2011 > First Quarter | OSE Common Stock (1) > Low: 226.30
+2010
 2010 > Fourth Quarter | NYSE Common Stock > High: $47.83
 2010 > Fourth Quarter | NYSE Common Stock > Low: $30.87
 2010 > Fourth Quarter | OSE Common Stock (1) > High: 284.70

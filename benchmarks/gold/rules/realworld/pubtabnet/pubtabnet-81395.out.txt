@@ -19,6 +19,7 @@ Yes | Multivariate analysis > OR (95% CI): -
 Yes | Multivariate analysis > P: -
 No | Univariate analysis > Number of patients ( n = 110): 79
 No | Univariate analysis > Number of patients with MV duration ≥ 14 days (%): 30 (37)
+VAT
 Yes | Univariate analysis > Number of patients ( n = 110): 55
 Yes | Univariate analysis > Number of patients with MV duration ≥ 14 days (%): 35 (63)
 Yes | Univariate analysis > P: 0.001

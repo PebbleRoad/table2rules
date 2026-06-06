@@ -1,3 +1,4 @@
+Revenue
 Revenue > Product | Year Ended December 31, > 2017 > $: $1,432,810
 Revenue > Product | Year Ended December 31, > 2017 > % ofRevenue: 87.0%
 Revenue > Product | Year Ended December 31, > 2016 > $: $991,337
@@ -16,6 +17,7 @@ Revenue > Total revenue | Year Ended December 31, > 2016 > $: 1,129,167
 Revenue > Total revenue | Year Ended December 31, > 2016 > % ofRevenue: 100.0
 Revenue > Total revenue | Change in > $: 517,019
 Revenue > Total revenue | Change in > %: 45.8
+Cost of revenue
 Cost of revenue > Product | Year Ended December 31, > 2017 > $: 538,035
 Cost of revenue > Product | Year Ended December 31, > 2017 > % ofRevenue: 32.7
 Cost of revenue > Product | Year Ended December 31, > 2016 > $: 369,768

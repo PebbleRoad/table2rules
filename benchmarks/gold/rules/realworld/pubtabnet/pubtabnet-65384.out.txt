@@ -1,3 +1,4 @@
+CYP17
 C | Estimated allele frequency (%): 42.46
 C | Nonfounder statistic > Recessive model: - 1.01
 C | Nonfounder statistic > Dominant model: - 1.52
@@ -11,6 +12,7 @@ P | Nonfounder statistic > Additive model: 0.03
 P | Founder statistic > Recessive model: 0.34
 P | Founder statistic > Dominant model: 0.14
 P | Founder statistic > Additive model: 0.16
+CYP19
 (TTTA) ≥10 | Estimated allele frequency (%): 33.71
 (TTTA) ≥10 | Nonfounder statistic > Recessive model: - 1.24
 (TTTA) ≥10 | Nonfounder statistic > Dominant model: 1.26

@@ -1,3 +1,4 @@
+Derivatives designated as hedging contracts
 Derivatives designated as hedging contracts > Energy commodity derivative contracts | Balance sheetlocation: Current
 Derivatives designated as hedging contracts > Energy commodity derivative contracts | Asset derivatives December 31, > 2010 > Fair value: $20.1
 Derivatives designated as hedging contracts > Energy commodity derivative contracts | Asset derivatives December 31, > 2009 > Fair value: $19.1
@@ -26,6 +27,7 @@ Derivatives designated as hedging contracts > Total | Asset derivatives December
 Derivatives designated as hedging contracts > Total | Asset derivatives December 31, > 2009 > Fair value: 312.4
 Derivatives designated as hedging contracts > Total | Liability derivatives December 31, > 2010 > Fair value: (448.1)
 Derivatives designated as hedging contracts > Total | Liability derivatives December 31, > 2009 > Fair value: (740.4)
+Derivatives not designated as hedging contracts
 Derivatives not designated as hedging contracts > Energy commodity derivative contracts | Balance sheetlocation: Current
 Derivatives not designated as hedging contracts > Energy commodity derivative contracts | Asset derivatives December 31, > 2010 > Fair value: 3.9
 Derivatives not designated as hedging contracts > Energy commodity derivative contracts | Asset derivatives December 31, > 2009 > Fair value: 1.7

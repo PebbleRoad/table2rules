@@ -1,3 +1,4 @@
+Asthma
 No | Case (n = 158) > n: 96
 No | Case (n = 158) > %: 60.7
 No | Control (n = 171) > n: 126
@@ -19,6 +20,7 @@ Sibling | Case (n = 158) > n: 20
 Sibling | Case (n = 158) > %: 12.6
 Sibling | Control (n = 171) > n: 26
 Sibling | Control (n = 171) > %: 15.2
+Allergic rhinitis
 No | Case (n = 158) > n: 67
 No | Case (n = 158) > %: 42.4
 No | Control (n = 171) > n: 91
@@ -40,6 +42,7 @@ Sibling | Case (n = 158) > n: 12
 Sibling | Case (n = 158) > %: 7.6
 Sibling | Control (n = 171) > n: 15
 Sibling | Control (n = 171) > %: 8.8
+Eczema as a Child
 No | Case (n = 158) > n: 80
 No | Case (n = 158) > %: 50.6
 No | Control (n = 171) > n: 87

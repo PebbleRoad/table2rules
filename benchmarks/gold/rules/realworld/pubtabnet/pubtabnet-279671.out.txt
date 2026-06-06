@@ -1,3 +1,4 @@
+DD
 α 1 = 0.005 | Radial Score Test: 0.02
 α 1 = 0.005 | DIR Score Test: 0.02
 α 1 = 0.005 | Besag and Newell's Test ( k = 7): 0.01
@@ -46,6 +47,7 @@
 α 1 = 10 | LRS DIR Test: 0.02
 α 1 = 10 | LRS DD Test: 0.03
 α 1 = 10 | Stone's Test: 0.03
+DIR
 α 3 and α 4 = 0.005 | Radial Score Test: 0.03
 α 3 and α 4 = 0.005 | DIR Score Test: 0.04
 α 3 and α 4 = 0.005 | Besag and Newell's Test ( k = 7): 0.01
@@ -94,6 +96,7 @@
 α 3 and α 4 = 2 | LRS DIR Test: 0.00
 α 3 and α 4 = 2 | LRS DD Test: 0.04
 α 3 and α 4 = 2 | Stone's Test: 0.03
+PKDD α 1 = 0.005
 α 2 = 0.05 | Radial Score Test: 0.03
 α 2 = 0.05 | DIR Score Test: 0.02
 α 2 = 0.05 | Besag and Newell's Test ( k = 7): 0.02

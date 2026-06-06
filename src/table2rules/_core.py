@@ -122,9 +122,22 @@ def _extract_cell_rows(table_html: str) -> List[List[str]]:
 def _build_rules(grid) -> List[LogicRule]:
     """Walk the parsed grid and emit one LogicRule per data cell position."""
     rules: List[LogicRule] = []
+    n_cols = len(grid[0])
+
+    # Pre-pass: which rows carry any data value at all? A value present via a
+    # <td> origin *or* a rowspan/colspan span copy (both keep their text) marks
+    # the row as a real data row. Rows with none are candidates for label-only
+    # preservation below.
+    row_has_value = [False] * len(grid)
+    for row_idx in range(len(grid)):
+        for col_idx in range(n_cols):
+            cell = grid[row_idx][col_idx]
+            if cell["type"] == "td" and (cell.get("text") or "").strip():
+                row_has_value[row_idx] = True
+                break
 
     for row_idx in range(len(grid)):
-        for col_idx in range(len(grid[0])):
+        for col_idx in range(n_cols):
             cell = grid[row_idx][col_idx]
 
             # Only <td> cells are data cells
@@ -165,6 +178,50 @@ def _build_rules(grid) -> List[LogicRule]:
                             origin=(row_idx, col_idx),
                         )
                     )
+
+    # Label-only preservation: a body row whose row-header label is present but
+    # whose data cells are all empty would otherwise vanish entirely — the data
+    # loop above emits nothing for it. This is how de-spanned section headers
+    # arrive when an OCR/HTML pipeline drops the original ``colspan`` (e.g. a
+    # benefits-schedule title row "2. Public transport double indemnity" with an
+    # empty value column). It is structurally indistinguishable from a leaf row
+    # with a genuinely missing value, so we preserve the label verbatim rather
+    # than fabricate a section breadcrumb. Emit the label as its own outcome so
+    # the name survives into the output.
+    for row_idx in range(len(grid)):
+        if row_has_value[row_idx]:
+            continue
+        # Anchor the rule at the row's (empty) data column so it satisfies the
+        # quality gate's "rules originate from <td>" invariant. A row with no
+        # <td> at all is a true full-width <th colspan> divider — already
+        # handled as a row-group ancestor upstream — so we leave it alone.
+        anchor_col = next((c for c in range(n_cols) if grid[row_idx][c]["type"] == "td"), None)
+        if anchor_col is None:
+            continue
+        label_parts: List[str] = []
+        for col_idx in range(n_cols):
+            cell = grid[row_idx][col_idx]
+            if cell["type"] != "th":
+                continue
+            if cell.get("is_thead", False) or cell.get("is_header_row", False):
+                continue
+            if cell.get("is_span_copy", False):
+                continue
+            text = (cell.get("text") or "").strip()
+            if not text:
+                continue
+            label_parts.append(text)
+        if not label_parts:
+            continue
+        rules.append(
+            LogicRule(
+                outcome=" > ".join(label_parts),
+                position=(row_idx, anchor_col),
+                row_headers=(),
+                col_headers=(),
+                origin=(row_idx, anchor_col),
+            )
+        )
 
     return rules
 

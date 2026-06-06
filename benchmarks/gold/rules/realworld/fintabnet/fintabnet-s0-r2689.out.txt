@@ -1,3 +1,4 @@
+2010
 2010 > Revenue(1) | First Quarter > (In thousands, except per share data): $138,324
 2010 > Revenue(1) | Second Quarter > (In thousands, except per share data): $133,689
 2010 > Revenue(1) | Third Quarter > (In thousands, except per share data): $133,913
@@ -26,6 +27,7 @@
 2010 > Earnings per common share—diluted(2) | Second Quarter > (In thousands, except per share data): $0.50
 2010 > Earnings per common share—diluted(2) | Third Quarter > (In thousands, except per share data): $0.48
 2010 > Earnings per common share—diluted(2) | Fourth Quarter > (In thousands, except per share data): $0.53
+2009
 2009 > Revenue(1) | First Quarter > (In thousands, except per share data): $131,031
 2009 > Revenue(1) | Second Quarter > (In thousands, except per share data): $130,225
 2009 > Revenue(1) | Third Quarter > (In thousands, except per share data): $130,841

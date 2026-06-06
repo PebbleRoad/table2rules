@@ -26,6 +26,7 @@ UF coefficient (ml/mmHg/h) | Low-flux HD: 13
 UF coefficient (ml/mmHg/h) | Low-flux HD: 18
 UF coefficient (ml/mmHg/h) | Online HDF: 65
 UF coefficient (ml/mmHg/h) | Online HDF: 59
+In vitro clearance: #
 Urea | Low-flux HD: 260
 Urea | Low-flux HD: 251
 Urea | Online HDF: 268

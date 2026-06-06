@@ -1,3 +1,4 @@
+(in millions)
 (in millions) > Long-term debt (1) | Total: $27,922
 (in millions) > Long-term debt (1) | Payments Due > 2016: $2,405
 (in millions) > Long-term debt (1) | Payments Due > 2017-2018: $5,097
@@ -23,6 +24,7 @@
 (in millions) > Operating leases (5) | Payments Due > 2017-2018: 207
 (in millions) > Operating leases (5) | Payments Due > 2019-2020: 103
 (in millions) > Operating leases (5) | Payments Due > 2021 andThereafter: 195
+Purchase obligations (6) :
 Purchase obligations (6) : > Inventory and production costs | Total: 5,094
 Purchase obligations (6) : > Inventory and production costs | Payments Due > 2016: 2,007
 Purchase obligations (6) : > Inventory and production costs | Payments Due > 2017-2018: 1,586

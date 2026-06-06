@@ -1,3 +1,5 @@
+Balance at October 31, 2009
+Classified as current assets:
 Classified as current assets: > Non-interest bearing cash (U.S. and International) | Cost > (in thousands): $40,390
 Classified as current assets: > Non-interest bearing cash (U.S. and International) | Gross Unrealized Gains > (in thousands): $—
 Classified as current assets: > Non-interest bearing cash (U.S. and International) | Gross Unrealized Losses Less Than 12 Months > (in thousands): $—
@@ -23,6 +25,7 @@ Gross Unrealized Gains > (in thousands): 2,827
 Gross Unrealized Losses Less Than 12 Months > (in thousands): (80)
 Gross Unrealized Losses 12 Months or Longer > (in thousands): —
 Estimated Fair Value > (in thousands): 1,168,326
+Classified as non-current assets:
 Classified as non-current assets: > Strategic investments | Cost > (in thousands): 8,002
 Classified as non-current assets: > Strategic investments | Gross Unrealized Gains > (in thousands): 1,796
 Classified as non-current assets: > Strategic investments | Gross Unrealized Losses Less Than 12 Months > (in thousands): —

@@ -1,3 +1,4 @@
+2009
 2009 > Fourth Quarter | NYSE Common Stock > High: $26.89
 2009 > Fourth Quarter | NYSE Common Stock > Low: $19.75
 2009 > Fourth Quarter | OSE Common Stock(1) > High: 156.30
@@ -14,6 +15,7 @@
 2009 > First Quarter | NYSE Common Stock > Low: 5.50
 2009 > First Quarter | OSE Common Stock(1) > High: 106.50
 2009 > First Quarter | OSE Common Stock(1) > Low: 38.70
+2008
 2008 > Fourth Quarter | NYSE Common Stock > High: $21.26
 2008 > Fourth Quarter | NYSE Common Stock > Low: $6.64
 2008 > Fourth Quarter | OSE Common Stock(1) > High: 133.50

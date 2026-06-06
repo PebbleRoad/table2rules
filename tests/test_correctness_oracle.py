@@ -188,6 +188,14 @@ def test_correctness_oracle(case: tuple[Path, Path]) -> None:
     matched = 0
     emitted_lines = [l for l in output.splitlines() if l.strip()]
     for line in emitted_lines:
+        # Label-preservation lines reproduce a whole source cell verbatim (a
+        # de-spanned section header whose value column is empty, e.g.
+        # "Segments: (1)"). Such a cell may itself contain ": ", which the
+        # rule-line parser would misread as a key/value split. A line equal to
+        # a full source cell is faithful preservation, not misattribution.
+        if source_tokens and _norm(line) in source_tokens:
+            matched += 1
+            continue
         parsed = _parse_rule_line(line, source_tokens)
         if parsed is None:
             continue

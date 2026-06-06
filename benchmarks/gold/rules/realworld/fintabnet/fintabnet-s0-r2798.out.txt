@@ -1,3 +1,4 @@
+2005
 2005 > Rental income (1) | First Quarter > (In thousands, except per share data): $98,306
 2005 > Rental income (1) | Second Quarter > (In thousands, except per share data): $96,175
 2005 > Rental income (1) | Third Quarter > (In thousands, except per share data): $97,233
@@ -18,6 +19,7 @@
 2005 > Earnings per common share — diluted | Second Quarter > (In thousands, except per share data): $0.41
 2005 > Earnings per common share — diluted | Third Quarter > (In thousands, except per share data): $0.52
 2005 > Earnings per common share — diluted | Fourth Quarter > (In thousands, except per share data): $0.61
+2004
 2004 > Rental income (1) | First Quarter > (In thousands, except per share data): $89,388
 2004 > Rental income (1) | Second Quarter > (In thousands, except per share data): $93,243
 2004 > Rental income (1) | Third Quarter > (In thousands, except per share data): $93,459

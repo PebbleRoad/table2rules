@@ -1,3 +1,4 @@
+Survivin levels (pg/ml)
 Blood | Survivin high, erosive RA ( n = 27): 1180 ± 309
 Blood | P: <0.0001
 Blood | Survivin low, erosive RA ( n = 61): 97 ± 9
@@ -28,6 +29,7 @@ C-reactive protein (mg/l) | P: 0.035
 C-reactive protein (mg/l) | Survivin low, erosive RA ( n = 61): 29 ± 5
 C-reactive protein (mg/l) | P: n.s.
 C-reactive protein (mg/l) | Survivin low, non-erosive RA ( n = 42) †: 39 ± 7
+White blood cell count (× 10 9 /ml)
 Blood | Survivin high, erosive RA ( n = 27): 8.7 ± 0.6
 Blood | P: 0.038
 Blood | Survivin low, erosive RA ( n = 61): 7.2 ± 0.3
