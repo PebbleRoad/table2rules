@@ -1,3 +1,4 @@
+Increase, mm 2
 Medial | Total: 36.8 ± 70.7
 Medial | P: <0.001
 Medial | Crude analysis > Men: 38.3 ± 62.6
@@ -14,6 +15,7 @@ Lateral | Crude analysis > P a: 0.77
 Lateral | Adjusted analysis > Men: 17.2 ± 13.3
 Lateral | Adjusted analysis > Women: 20.1 ± 8.5
 Lateral | Adjusted analysis > P b: 0.87
+Change %
 Medial | Total: 2.2 ± 6.9
 Medial | P: <0.001
 Medial | Crude analysis > Men: 1.6 ± 2.8

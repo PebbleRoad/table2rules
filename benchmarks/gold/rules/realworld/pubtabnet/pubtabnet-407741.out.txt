@@ -1,3 +1,5 @@
+24 months
+vaccine against
 pertussis | 1998 > BO > %: 95.7
 pertussis | 1998 > ER > %: 96.8
 pertussis | 1999 > BO > %: 94.2
@@ -48,6 +50,8 @@ rubella | 2001 > BO > %: 85.6
 rubella | 2001 > ER > %: 90.1
 rubella | 2002 > BO > %: 88.8
 rubella | 2002 > ER > %: 91.7
+13 years
+vaccine against
 measles | 1998 > BO > %: 75.1
 measles | 1998 > ER > %: 83.8
 measles | 1999 > BO > %: 72.5

@@ -1,3 +1,4 @@
+Adjusted for
 Sex | Cognition at 7 > OR†: 1.42
 Sex | Cognition at 7 > (95% CI): (1.36 to 1.49)
 Sex | Cognition at 9 > OR†: 1.50

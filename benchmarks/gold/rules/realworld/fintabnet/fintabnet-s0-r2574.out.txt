@@ -1,3 +1,4 @@
+East
 East > Rental income | 2007 > (Dollars and square feet in thousands): $363,698
 East > Rental income | 2006 > (Dollars and square feet in thousands): $318,176
 East > Rental income | 2005 > (Dollars and square feet in thousands): $292,688
@@ -13,6 +14,7 @@ East > Property operating income as a percent of total revenue | 2005 > (Dollars
 East > Gross leasable square feet | 2007 > (Dollars and square feet in thousands): 15,568
 East > Gross leasable square feet | 2006 > (Dollars and square feet in thousands): 16,195
 East > Gross leasable square feet | 2005 > (Dollars and square feet in thousands): 14,941
+West
 West > Rental income | 2007 > (Dollars and square feet in thousands): $104,800
 West > Rental income | 2006 > (Dollars and square feet in thousands): $96,803
 West > Rental income | 2005 > (Dollars and square feet in thousands): $83,239

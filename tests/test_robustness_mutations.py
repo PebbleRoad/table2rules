@@ -363,6 +363,14 @@ def test_robustness_under_mutation(case: tuple[Path, Path], mutation_name: str) 
     for line in output.splitlines():
         if not line.strip():
             continue
+        # Label-preservation lines reproduce a whole source cell verbatim
+        # (a de-spanned section header whose value column is empty, e.g.
+        # "Segments: (1)"). The cell text itself may contain ": ", which the
+        # rule-line parser would misread as a key/value split. A line equal to
+        # a full source cell is faithful preservation, not fabrication — the
+        # contract is "no invented content", and there is none here.
+        if source_tokens and _norm(line) in source_tokens:
+            continue
         parsed = _parse_rule_line(line, source_tokens)
         if parsed is None:
             continue

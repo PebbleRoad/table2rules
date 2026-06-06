@@ -6,6 +6,7 @@ Balance at October 31, 2004 | Treasury > Stock: $(175,762)
 Balance at October 31, 2004 | Deferred > Stock > Compensation: $(2,732)
 Balance at October 31, 2004 | Accumulated Other > Comprehensive > Income (Loss): $(645)
 Balance at October 31, 2004 | Total: $1,258,455
+Components of comprehensive loss
 Components of comprehensive loss > Net loss | Retained > Earnings: (17,114)
 Components of comprehensive loss > Net loss | Accumulated Other > Comprehensive > Income (Loss): (17,114)
 Components of comprehensive loss > Net loss | Total: (17,114)

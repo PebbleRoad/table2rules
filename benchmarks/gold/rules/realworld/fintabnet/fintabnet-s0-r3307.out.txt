@@ -6,6 +6,7 @@
 (Dollars in millions) | 2014 > Oper.: Income
 (Dollars in millions) | 2015 vs 2014 % change > Net: Sales
 (Dollars in millions) | 2015 vs 2014 % change > Oper.: Income
+Business Segments
 Business Segments > Industrial | 2015 > Net: $10,328
 Business Segments > Industrial | 2015 > % of: 34.1%
 Business Segments > Industrial | 2015 > Oper.: $2,263

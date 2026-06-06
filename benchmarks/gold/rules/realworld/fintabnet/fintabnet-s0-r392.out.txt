@@ -1,3 +1,4 @@
+Foreign exchange instruments qualifying as accounting hedges:
 Foreign exchange instruments qualifying as accounting hedges: > Spot/Forward contracts | September 30, 2006 > Notional Principal: $351
 Foreign exchange instruments qualifying as accounting hedges: > Spot/Forward contracts | September 30, 2006 > Fair Value: $6
 Foreign exchange instruments qualifying as accounting hedges: > Spot/Forward contracts | September 30, 2006 > Credit Risk Amounts: $6
@@ -16,6 +17,7 @@ Foreign exchange instruments qualifying as accounting hedges: > Sold options | S
 Foreign exchange instruments qualifying as accounting hedges: > Sold options | September 24, 2005 > Notional Principal: $1,087
 Foreign exchange instruments qualifying as accounting hedges: > Sold options | September 24, 2005 > Fair Value: $(5)
 Foreign exchange instruments qualifying as accounting hedges: > Sold options | September 24, 2005 > Creit Risk Amounts: $—
+Foreign exchange instruments other than accounting hedges:
 Foreign exchange instruments other than accounting hedges: > Spot/Forward contracts | September 30, 2006 > Notional Principal: $1,103
 Foreign exchange instruments other than accounting hedges: > Spot/Forward contracts | September 30, 2006 > Fair Value: $2
 Foreign exchange instruments other than accounting hedges: > Spot/Forward contracts | September 30, 2006 > Credit Risk Amounts: $2

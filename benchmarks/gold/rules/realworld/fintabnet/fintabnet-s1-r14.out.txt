@@ -22,6 +22,7 @@ Rate of compensation increase | Pension Plans > 2016: 2.94%
 Rate of compensation increase | Postretirement Benefit Plans > 2018: 3.25%
 Rate of compensation increase | Postretirement Benefit Plans > 2017: 3.25%
 Rate of compensation increase | Postretirement Benefit Plans > 2016: 3.25%
+Health care cost trend
 Health care cost trend > Initial | Postretirement Benefit Plans > 2018: 6.50%
 Health care cost trend > Initial | Postretirement Benefit Plans > 2017: 6.75%
 Health care cost trend > Initial | Postretirement Benefit Plans > 2016: 7.00%
@@ -82,6 +83,7 @@ Health care cost trend > Rate of compensation increase | Pension Plans > 2016: 3
 Health care cost trend > Rate of compensation increase | Postretirement Benefit Plans > 2018: 3.25%
 Health care cost trend > Rate of compensation increase | Postretirement Benefit Plans > 2017: 3.25%
 Health care cost trend > Rate of compensation increase | Postretirement Benefit Plans > 2016: 3.50%
+Health care cost trend
 Health care cost trend > Initial | Postretirement Benefit Plans > 2018: 6.75%
 Health care cost trend > Initial | Postretirement Benefit Plans > 2017: 7.00%
 Health care cost trend > Initial | Postretirement Benefit Plans > 2016: 7.50%

@@ -2,6 +2,7 @@ Annual change in mL per pack-year to 1991: Coef
 Annual change in mL per pack-year to 1991: 95%CI
 Annual change in mL per pack-year to 1991: p value
 Annual change in mL per packs per day between 1991 and 2002: Coef
+Quitters†
 Men (n = 245) | Term: Linear
 Men (n = 245) | Annual change in mL per pack-year to 1991: -0.1
 Men (n = 245) | Annual change in mL per pack-year to 1991: -0.4, 0.3
@@ -22,6 +23,7 @@ Annual change in mL per pack-year to 1991: 0.0004
 Annual change in mL per pack-year to 1991: 0.0001,0.0006
 Annual change in mL per pack-year to 1991: 0.006
 Annual change in mL per packs per day between 1991 and 2002: na
+Persistent smokers†
 Men (n = 595) | Term: Linear
 Men (n = 595) | Annual change in mL per pack-year to 1991: -0.1
 Men (n = 595) | Annual change in mL per pack-year to 1991: -0.3, 0.12

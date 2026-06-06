@@ -7,6 +7,7 @@
 (Millions of dollars) | Other Postretirement Benefits: 2017
 (Millions of dollars) | Other Postretirement Benefits: 2016
 (Millions of dollars) | Other Postretirement Benefits: 2015
+Components of net periodic benefit cost:
 Components of net periodic benefit cost: > Service cost | U.S. Pension Benefits: $115
 Components of net periodic benefit cost: > Service cost | U.S. Pension Benefits: $119
 Components of net periodic benefit cost: > Service cost | U.S. Pension Benefits: $181
@@ -70,6 +71,7 @@ Components of net periodic benefit cost: > Total cost (benefit) included in oper
 Components of net periodic benefit cost: > Total cost (benefit) included in operating profit | Other Postretirement Benefits: $163
 Components of net periodic benefit cost: > Total cost (benefit) included in operating profit | Other Postretirement Benefits: $160
 Components of net periodic benefit cost: > Total cost (benefit) included in operating profit | Other Postretirement Benefits: $(362)
+Other changes in plan assets and benefit obligations recognized in other comprehensive income (pre-tax):
 Other changes in plan assets and benefit obligations recognized in other comprehensive income (pre-tax): > Current year prior service cost (credit) | U.S. Pension Benefits: $—
 Other changes in plan assets and benefit obligations recognized in other comprehensive income (pre-tax): > Current year prior service cost (credit) | U.S. Pension Benefits: $—
 Other changes in plan assets and benefit obligations recognized in other comprehensive income (pre-tax): > Current year prior service cost (credit) | U.S. Pension Benefits: $—
@@ -106,6 +108,7 @@ Other changes in plan assets and benefit obligations recognized in other compreh
 Other changes in plan assets and benefit obligations recognized in other comprehensive income (pre-tax): > Total recognized in net periodic cost and other comprehensive income | Other Postretirement Benefits: $109
 Other changes in plan assets and benefit obligations recognized in other comprehensive income (pre-tax): > Total recognized in net periodic cost and other comprehensive income | Other Postretirement Benefits: $35
 Other changes in plan assets and benefit obligations recognized in other comprehensive income (pre-tax): > Total recognized in net periodic cost and other comprehensive income | Other Postretirement Benefits: $(292)
+Weighted-average assumptions used to determine net cost:
 Weighted-average assumptions used to determine net cost: > Discount rate used to measure service cost | U.S. Pension Benefits: 4.2%
 Weighted-average assumptions used to determine net cost: > Discount rate used to measure service cost | U.S. Pension Benefits: 4.5%
 Weighted-average assumptions used to determine net cost: > Discount rate used to measure service cost | U.S. Pension Benefits: 3.8%

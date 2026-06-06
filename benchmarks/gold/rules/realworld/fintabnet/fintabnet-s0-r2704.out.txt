@@ -1,3 +1,4 @@
+SUPPLEMENTAL DISCLOSURES:
 SUPPLEMENTAL DISCLOSURES: > Total interest costs incurred | 2010 > (In thousands): $108,167
 SUPPLEMENTAL DISCLOSURES: > Total interest costs incurred | 2009 > (In thousands): $114,330
 SUPPLEMENTAL DISCLOSURES: > Total interest costs incurred | 2008 > (In thousands): $104,464
@@ -13,6 +14,7 @@ SUPPLEMENTAL DISCLOSURES: > Cash paid for interest, net of amounts capitalized |
 SUPPLEMENTAL DISCLOSURES: > Cash paid for income taxes | 2010 > (In thousands): $255
 SUPPLEMENTAL DISCLOSURES: > Cash paid for income taxes | 2009 > (In thousands): $324
 SUPPLEMENTAL DISCLOSURES: > Cash paid for income taxes | 2008 > (In thousands): $444
+NON-CASH INVESTING AND FINANCING TRANSACTIONS:
 NON-CASH INVESTING AND FINANCING TRANSACTIONS: > Extinguishment of deferred ground rent liability | 2010 > (In thousands): $8,832
 NON-CASH INVESTING AND FINANCING TRANSACTIONS: > Extinguishment of deferred ground rent liability | 2009 > (In thousands): $—
 NON-CASH INVESTING AND FINANCING TRANSACTIONS: > Extinguishment of deferred ground rent liability | 2008 > (In thousands): $—

@@ -1,5 +1,7 @@
+Variable 1
 Cathepsin K | Mean: 304.66
 Cathepsin K | Standard deviation: 677.607
+Variable 2
 Age (years) | Mean: 62.89
 Age (years) | Standard deviation: 11.1581
 Age (years) | n: 100

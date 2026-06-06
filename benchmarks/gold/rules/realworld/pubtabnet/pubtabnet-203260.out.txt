@@ -7,6 +7,7 @@ Wheezing | P value for comparison of proportions: 0.43
 Chest retractions | Percentage of children with symptom at one week post-discharge phone call (absolute numbers)* > Racemic epinephrine: 13.3 (4/30)
 Chest retractions | Percentage of children with symptom at one week post-discharge phone call (absolute numbers)* > Salbutamol: 25.8 (8/31)
 Chest retractions | P value for comparison of proportions: 0.33
+Feeding pattern:
 Normal feeding | Percentage of children with symptom at one week post-discharge phone call (absolute numbers)* > Racemic epinephrine: 50 (15/30)
 Normal feeding | Percentage of children with symptom at one week post-discharge phone call (absolute numbers)* > Salbutamol: 54.8 (17/31)
 Normal feeding | P value for comparison of proportions: 0.80

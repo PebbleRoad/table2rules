@@ -4,6 +4,7 @@
 (Millions of dollars) | Non-U.S.Pension Benefits: 2016
 (Millions of dollars) | Other PostretirementBenefits: 2017
 (Millions of dollars) | Other PostretirementBenefits: 2016
+Change in benefit obligation:
 Change in benefit obligation: > Benefit obligation, beginning of year | U.S. Pension Benefits: $16,218
 Change in benefit obligation: > Benefit obligation, beginning of year | U.S. Pension Benefits: $15,792
 Change in benefit obligation: > Benefit obligation, beginning of year | Non-U.S.Pension Benefits: $4,472
@@ -74,6 +75,7 @@ Change in benefit obligation: > Accumulated benefit obligation, end of year | U.
 Change in benefit obligation: > Accumulated benefit obligation, end of year | U.S. Pension Benefits: $16,034
 Change in benefit obligation: > Accumulated benefit obligation, end of year | Non-U.S.Pension Benefits: $4,335
 Change in benefit obligation: > Accumulated benefit obligation, end of year | Non-U.S.Pension Benefits: $4,163
+Weighted-average assumptions used todetermine benefit obligation:
 Weighted-average assumptions used todetermine benefit obligation: > Discount rate | U.S. Pension Benefits: 3.5%
 Weighted-average assumptions used todetermine benefit obligation: > Discount rate | U.S. Pension Benefits: 4.0%
 Weighted-average assumptions used todetermine benefit obligation: > Discount rate | Non-U.S.Pension Benefits: 2.4%

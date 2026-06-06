@@ -1,3 +1,4 @@
+Knows someone with tuberculosis
 Yes | Total delay in treatment > Unacceptable (> 60 days) > N: 305
 Yes | Total delay in treatment > Unacceptable (> 60 days) > %: 63.0
 Yes | Total delay in treatment > Acceptable (≤ 60 days) > N: 179
@@ -48,6 +49,7 @@ Total | Total delay in treatment > Acceptable (≤ 60 days) > %: -
 Total | Crude OR: -
 Total | 95% CI: -
 Total | P value: -
+Household contact with a case of tuberculosis
 Yes | Total delay in treatment > Unacceptable (> 60 days) > N: 104
 Yes | Total delay in treatment > Unacceptable (> 60 days) > %: 62.7
 Yes | Total delay in treatment > Acceptable (≤ 60 days) > N: 62

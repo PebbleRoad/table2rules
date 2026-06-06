@@ -1,3 +1,4 @@
+Age at reference (years)
 < 35 | Cases ( n = 506) > n: 62
 < 35 | Cases ( n = 506) > %: 12.3
 < 35 | Controls ( n = 459) > n: 80
@@ -6,6 +7,7 @@
 35+ | Cases ( n = 506) > %: 87.7
 35+ | Controls ( n = 459) > n: 379
 35+ | Controls ( n = 459) > %: 82.6
+Race
 White | Cases ( n = 506) > n: 450
 White | Cases ( n = 506) > %: 88.9
 White | Controls ( n = 459) > n: 412
@@ -14,6 +16,7 @@ Nonwhite | Cases ( n = 506) > n: 56
 Nonwhite | Cases ( n = 506) > %: 11.1
 Nonwhite | Controls ( n = 459) > n: 47
 Nonwhite | Controls ( n = 459) > %: 10.2
+Family history
 None | Cases ( n = 506) > n: 280
 None | Cases ( n = 506) > %: 56.7
 None | Controls ( n = 459) > n: 294
@@ -28,6 +31,7 @@ Second degree | Controls ( n = 459) > n: 115
 Second degree | Controls ( n = 459) > %: 25.8
 Unknown | Cases ( n = 506) > n: 12
 Unknown | Controls ( n = 459) > n: 14
+Menopausal status
 Premenopausal | Cases ( n = 506) > n: 445
 Premenopausal | Cases ( n = 506) > %: 88.3
 Premenopausal | Controls ( n = 459) > n: 392

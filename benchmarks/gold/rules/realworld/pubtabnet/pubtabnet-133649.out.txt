@@ -4,6 +4,7 @@ Number Graduated | Decompressed > Raw: 37
 Number Graduated | %: 58.7
 Number Graduated | Repeated > Raw: 12
 Number Graduated | %: 27.2
+For those who completed:
 Five Years to Graduate | Decompressed > Raw: 29
 Five Years to Graduate | %: 46
 Five Years to Graduate | Repeated > Raw: 8

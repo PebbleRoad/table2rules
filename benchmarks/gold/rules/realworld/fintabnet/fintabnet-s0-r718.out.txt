@@ -1,3 +1,4 @@
+Period Ended:
 Period Ended: > Net sales (b)(d) | Successor > December 30,2017(52 weeks) > (in millions, except per share data): $26,232
 Period Ended: > Net sales (b)(d) | Successor > December 31,2016(52 weeks) (a) > (in millions, except per share data): $26,487
 Period Ended: > Net sales (b)(d) | Successor > January 3,2016(53 weeks) > (in millions, except per share data): $18,338
@@ -19,6 +20,7 @@ Period Ended: > Income/(loss) from continuing operations attributable to common 
 Period Ended: > Income/(loss) from continuing operations attributable to common shareholders (b) | Successor > February 8 - December 29,2013(29 weeks) > (in millions, except per share data): (1,118)
 Period Ended: > Income/(loss) from continuing operations attributable to common shareholders (b) | Predecessor(H. J. Heinz Company) > April 29 - June 7,2013(6 weeks) > (in millions, except per share data): (194)
 Period Ended: > Income/(loss) from continuing operations attributable to common shareholders (b) | Predecessor(H. J. Heinz Company) > April 28,2013(52 weeks) > (in millions, except per share data): 1,088
+Income/(loss) from continuing operations per common share (b) :
 Income/(loss) from continuing operations per common share (b) : > Basic | Successor > December 30,2017(52 weeks) > (in millions, except per share data): 9.03
 Income/(loss) from continuing operations per common share (b) : > Basic | Successor > December 31,2016(52 weeks) (a) > (in millions, except per share data): 2.84
 Income/(loss) from continuing operations per common share (b) : > Basic | Successor > January 3,2016(53 weeks) > (in millions, except per share data): (0.34)
@@ -33,6 +35,7 @@ Income/(loss) from continuing operations per common share (b) : > Diluted | Succ
 Income/(loss) from continuing operations per common share (b) : > Diluted | Successor > February 8 - December 29,2013(29 weeks) > (in millions, except per share data): (2.97)
 Income/(loss) from continuing operations per common share (b) : > Diluted | Predecessor(H. J. Heinz Company) > April 29 - June 7,2013(6 weeks) > (in millions, except per share data): (0.60)
 Income/(loss) from continuing operations per common share (b) : > Diluted | Predecessor(H. J. Heinz Company) > April 28,2013(52 weeks) > (in millions, except per share data): 3.37
+As of:
 As of: > Total assets (d) | Successor > December 30,2017(52 weeks) > (in millions, except per share data): 120,232
 As of: > Total assets (d) | Successor > December 31,2016(52 weeks) (a) > (in millions, except per share data): 120,480
 As of: > Total assets (d) | Successor > January 3,2016(53 weeks) > (in millions, except per share data): 122,973

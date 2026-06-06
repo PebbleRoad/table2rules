@@ -22,6 +22,7 @@ Number of deliveries (live and stillbirths) (mean ± SEM) | WELL-HART ( n = 105)
 Number of deliveries (live and stillbirths) (mean ± SEM) | WELL-HART ( n = 105) > EPT ( n = 34): 4.1 ± 0.5
 Number of deliveries (live and stillbirths) (mean ± SEM) | P *: 0.47
 Number of deliveries (live and stillbirths) (mean ± SEM) | P †: 0.0001
+Race, n (%)
 White, non-latina | EPAT ( n = 127) > Placebo ( n = 57): 34 (59.7)
 White, non-latina | EPAT ( n = 127) > ET ( n = 70): 40 (57.1)
 White, non-latina | WELL-HART ( n = 105) > Placebo ( n = 37): 12 (32.4)
@@ -45,6 +46,7 @@ Asian or Pacific Islander | WELL-HART ( n = 105) > ET ( n = 34): 8 (23.5)
 Asian or Pacific Islander | WELL-HART ( n = 105) > EPT ( n = 34): 4 (11.8)
 Asian or Pacific Islander | P *: 0.01 ‡
 Asian or Pacific Islander | P †: 0.0005
+Education, n (%)
 High school graduate or less | EPAT ( n = 127) > Placebo ( n = 57): 8 (14.0)
 High school graduate or less | EPAT ( n = 127) > ET ( n = 70): 9 (12.9)
 High school graduate or less | WELL-HART ( n = 105) > Placebo ( n = 37): 20 (54.1)
