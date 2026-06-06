@@ -5,6 +5,38 @@ All notable changes to `table2rules` are documented here. Dates are in
 
 ## [Unreleased]
 
+## [0.5.1] — 2026-06-06
+
+### Fixed
+
+- **De-spanned section headers are preserved instead of dropped.** A body row
+  whose row-label is present but whose value column(s) are all empty — the
+  shape a full-width section title takes after an OCR/HTML pipeline drops its
+  `colspan` (e.g. a benefits-schedule `1. Accidental death …` row, or a
+  balance-sheet `Current assets:` / FinTabNet `Segments:` group label) — used
+  to vanish entirely, silently losing the label and leaving repeated sub-item
+  rows (`Each child insured person`) context-less. `_build_rules` now emits a
+  label-only rule for such rows, preserving the text verbatim. The label is
+  kept as-is rather than reconstructed into a section breadcrumb, because an
+  empty-value row is structurally indistinguishable from a leaf row with a
+  genuinely missing value. The confidence gate exempts these header-less,
+  empty-cell-anchored rules from header-attachment and coverage scoring so a
+  table does not degrade to flat output merely for carrying them. New fixture
+  `relational/despanned-section-headers`. Affects 103 of the 401 real-world
+  corpus tables, all by recovering previously-dropped labels.
+
+### Changed
+
+- **The real-world corpus is now byte-checked in CI.** `test_regression_golds`
+  previously skipped `tests/realworld/`, leaving 401 benchmark golds with
+  nothing asserting them — two had silently drifted out of sync with the code.
+  All real-world golds are now frozen and byte-compared alongside the
+  hand-authored fixtures. The correctness/robustness oracles still assert the
+  output is *right*; the golds now assert it does not *change* unless a human
+  regenerates them, which is what makes a silent-drop regression visible.
+  `scripts/benchmark.py` no longer emits stray golds for top-level `*.md`
+  (README, scratch files), keeping `--update-gold` in lockstep with the test.
+
 ## [0.5.0] — 2026-05-06
 
 ### Added
