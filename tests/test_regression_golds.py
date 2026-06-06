@@ -1,13 +1,20 @@
-"""Regression layer — byte-for-byte gold matching on hand-authored fixtures.
+"""Regression layer — byte-for-byte gold matching on every fixture.
 
-Each .md file beneath tests/{adversarial,structured,headerless,smoke,
-regression}/ is a fixture containing HTML table markup. For every fixture
-we run process_tables_to_text and assert the output matches the committed
-gold file under benchmarks/gold/<format>/.
+Each .md file beneath tests/ (except top-level docs) is a fixture containing
+HTML table markup. For every fixture we run process_tables_to_text and assert
+the output matches the committed gold file under benchmarks/gold/<format>/.
+
+This covers both the hand-authored fixtures AND the real-world corpus
+(tests/realworld/). The two suites play complementary roles: the correctness
+and robustness layers (test_correctness_oracle / test_robustness_mutations)
+assert the output is *right* (no fabricated content, correct attribution,
+stable under mutation); this layer asserts the output does not *change* unless
+a human regenerates the golds. Together they catch a silent-drop regression —
+where the parser quietly stops emitting real content — which neither the
+oracle (it only guards against fabrication) nor an un-asserted benchmark gold
+could catch on its own. See tests/README.md.
 
 This is the strictest of the three test layers — catches any output drift.
-See tests/README.md for the relationship to the correctness and robustness
-suites.
 
 Refresh gold outputs by running:  python scripts/benchmark.py --update-gold
 """
@@ -27,15 +34,14 @@ GOLD_DIR = ROOT / "benchmarks" / "gold" / DEFAULT_FORMAT
 
 
 def _discover_cases() -> list[Path]:
-    # Real-world fixtures (tests/realworld/) are checked against per-fixture
-    # oracle triples, not frozen gold text — see test_correctness_oracle.py.
-    # Top-level docs like README.md are not fixtures.
-    skip_prefixes = {"realworld"}
+    # Every fixture beneath tests/ is byte-checked, including the real-world
+    # corpus (tests/realworld/) — frozen gold text is the tripwire that makes
+    # any output change visible. Top-level docs like tests/README.md are not
+    # fixtures and are excluded.
     return [
         p
         for p in sorted(TESTS_DIR.rglob("*.md"))
-        if not (skip_prefixes & set(p.relative_to(TESTS_DIR).parts))
-        and p.parent != TESTS_DIR  # exclude tests/README.md etc.
+        if p.parent != TESTS_DIR  # exclude tests/README.md, tests/failing_table.md
     ]
 
 

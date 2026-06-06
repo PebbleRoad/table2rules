@@ -28,7 +28,11 @@ class CaseResult:
 
 
 def discover_cases() -> List[Path]:
-    return sorted(TEST_DIR.rglob("*.md"))
+    # Fixtures live in subdirectories of tests/. Top-level *.md files (README,
+    # ad-hoc scratch tables) are not fixtures — excluding them keeps gold
+    # generation in lockstep with tests/test_regression_golds.py and avoids
+    # emitting stray gold files.
+    return sorted(p for p in TEST_DIR.rglob("*.md") if p.parent != TEST_DIR)
 
 
 def rel_case_path(path: Path) -> Path:
