@@ -19,9 +19,6 @@ Non-survivors ( n = 22): 176 ± 162.3
 Survivors ( n = 34): 170 ± 142.2
 P: 0.90
 Characteristic: Organ dysfunction
-Non-survivors ( n = 22): Organ dysfunction
-Survivors ( n = 34): Organ dysfunction
-P: Organ dysfunction
 Characteristic: Respiratory insufficiency
 Non-survivors ( n = 22): 22 (100%)
 Survivors ( n = 34): 21 (62%)

@@ -1,3 +1,4 @@
+Has your child ever had asthma?
 Yes: | Case (n = 158) > n: 96
 Yes: | Case (n = 158) > %: 60.7
 Yes: | Control (n = 171) > n: 8
@@ -7,6 +8,7 @@ No: | Case (n = 158) > n: 62
 No: | Case (n = 158) > %: 39.2
 No: | Control (n = 171) > n: 163
 No: | Control (n = 171) > %: 95.3
+Has your child ever had eczema?
 Yes: | Case (n = 158) > n: 74
 Yes: | Case (n = 158) > %: 46.8
 Yes: | Control (n = 171) > n: 67
@@ -16,6 +18,7 @@ No: | Case (n = 158) > n: 84
 No: | Case (n = 158) > %: 53.2
 No: | Control (n = 171) > n: 104
 No: | Control (n = 171) > %: 60.8
+Has your child ever had hay fever?
 Yes: | Case (n = 158) > n: 34
 Yes: | Case (n = 158) > %: 21.5
 Yes: | Control (n = 171) > n: 24

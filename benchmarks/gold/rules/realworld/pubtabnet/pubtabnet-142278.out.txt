@@ -1,6 +1,4 @@
 Genotype: Mutations
-Affected subjects (n = 76): Mutations
-Ethnic affiliation: Mutations
 Genotype: 35delG / 35delG
 Affected subjects (n = 76): 7 (4 independent families)
 Ethnic affiliation: Russians
@@ -30,10 +28,7 @@ Affected subjects (n = 76): 1
 Ethnic affiliation: Altaian
 Genotype: Total
 Affected subjects (n = 76): 18 (23.7%)
-Ethnic affiliation: 18 (23.7%)
 Genotype: Non-pathogenic variants
-Affected subjects (n = 76): Non-pathogenic variants
-Ethnic affiliation: Non-pathogenic variants
 Genotype: V27I / +
 Affected subjects (n = 76): 14 (11 independent families)
 Ethnic affiliation: 13 Altaians, 1 Kazakh
@@ -45,4 +40,3 @@ Affected subjects (n = 76): 1
 Ethnic affiliation: Altaian
 Genotype: Total
 Affected subjects (n = 76): 22 (28.9%)
-Ethnic affiliation: 22 (28.9%)

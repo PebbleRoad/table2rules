@@ -1,8 +1,4 @@
 Candidate gene: A – Expressed at higher levels in group II than in group I
-Group I b: A – Expressed at higher levels in group II than in group I
-Group II b: A – Expressed at higher levels in group II than in group I
-Q (%): A – Expressed at higher levels in group II than in group I
-P c: A – Expressed at higher levels in group II than in group I
 Candidate gene: CASP9
 Group I b: -0.029 ± 0.018
 Group II b: 0.020 ± 0.014
@@ -34,10 +30,6 @@ Group II b: 0.017 ± 0.021
 Q (%): 0.90
 P c: 0.012
 Candidate gene: B – Expressed at higher levels in group I than in group II
-Group I b: B – Expressed at higher levels in group I than in group II
-Group II b: B – Expressed at higher levels in group I than in group II
-Q (%): B – Expressed at higher levels in group I than in group II
-P c: B – Expressed at higher levels in group I than in group II
 Candidate gene: FN1
 Group I b: 0.023 ± 0.018
 Group II b: -0.030 ± 0.019

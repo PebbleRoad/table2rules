@@ -1,10 +1,4 @@
 Patient: With early RA
-Age: With early RA
-Sex: With early RA
-Disease duration: With early RA
-ACR criterion nos. fulfilled a: With early RA
-Number of samples: With early RA
-Macroscopic signs of synovitis: With early RA
 Patient: E-01
 Age: 51
 Sex: F
@@ -90,12 +84,6 @@ ACR criterion nos. fulfilled a: 1, 2, 3, 4, 6
 Number of samples: 13
 Macroscopic signs of synovitis: Vi, Ve, Gr
 Patient: With long-standing RA
-Age: With long-standing RA
-Sex: With long-standing RA
-Disease duration: With long-standing RA
-ACR criterion nos. fulfilled a: With long-standing RA
-Number of samples: With long-standing RA
-Macroscopic signs of synovitis: With long-standing RA
 Patient: L-01
 Age: 54
 Sex: M

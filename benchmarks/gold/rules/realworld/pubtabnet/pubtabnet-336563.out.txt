@@ -14,6 +14,7 @@ Total number of patients | Drain group > D1: 51
 Total number of patients | Drain group > D7: 51
 Total number of patients | Non drain group > D1: 51
 Total number of patients | Non drain group > D7: 51
+Amount of fluid: Two sample T test for detection of difference in means of fluid collected on D1 & DD7 respectively
 Unequal variance | Drain group > D1: T
 Unequal variance | Drain group > D7: DF
 Unequal variance | Non drain group > D1: P
