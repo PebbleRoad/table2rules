@@ -5,6 +5,44 @@ All notable changes to `table2rules` are documented here. Dates are in
 
 ## [Unreleased]
 
+## [0.5.2] — 2026-06-09
+
+### Fixed
+
+- **Full-width descriptive `<td colspan>` cells no longer replicate across every
+  value column.** In a plan×cover benefit matrix, a row shaped
+  `<td>marker</td><td colspan="7">description…</td>` is a full-width note, not a
+  per-column value. The per-position expansion in `_build_rules` was emitting it
+  once per spanned column, each stamped with that column's header — so a single
+  benefit description ("If the departure of your public transport is delayed…")
+  became the value of six unrelated plan×cover cells. A data cell that reaches
+  the last column and spans a majority of the grid's columns
+  (`spans.is_full_width_note`) is now attributed to its origin column's header at
+  every spanned position, and the exporter's origin-aware dedup collapses it to a
+  single line. The cell is still emitted at every position, so an overlapping-span
+  corruption (a rowspan intruding into the note's row) is still detected by the
+  gate and fails open to flat. Legitimate narrow spans (a right-edge `colspan=2`
+  amount covering two sub-columns of one group) keep their per-column fan-out.
+  New fixture `matrix/full-width-note-colspan`.
+
+- **Body section dividers no longer bleed onto every row as fabricated column
+  headers.** A single full-width `<td colspan="N">` divider (e.g. a benefits
+  schedule `1. PERSONAL ACCIDENT` row) expands to N non-empty logical positions,
+  so the colspan-expanded cell count read it as a full header row —
+  `detect_header_block` swept the first divider *and* the body rows between it and
+  the first clean data row into the `<thead>`, and they then bled onto every line
+  as column headers (observed on a 100-row matrix: a benefit name attached to 474
+  of 478 output lines, including unrelated sections). The header now ends at the
+  first of a *series* (≥ 2) of full-width single-cell dividers — distinguishing
+  body section dividers from a one-off header subtitle like "(Dollars in
+  thousands)". Such dividers stay in the body and render once as full-width notes;
+  Fix 8 no longer promotes a single full-width cell to `<th scope="row">` (which
+  stranded it, since it has no value column to anchor a rule). New fixture
+  `matrix/section-divider-td-colspan`.
+
+- All `mypy` errors in `src/table2rules` resolved (`find_all("table")` result
+  narrowed to `Tag` before use).
+
 ## [0.5.1] — 2026-06-06
 
 ### Fixed
