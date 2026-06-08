@@ -1,7 +1,4 @@
 Parameter: Patient characteristics
-Early surgery a ( n = 22): Patient characteristics
-Late surgery a ( n = 34): Patient characteristics
-P: Patient characteristics
 Parameter: Age, years (mean ± SD)
 Early surgery a ( n = 22): 54 ± 14.8
 Late surgery a ( n = 34): 56 ± 12.8
@@ -31,9 +28,6 @@ Early surgery a ( n = 22): 4 (2–8)
 Late surgery a ( n = 34): 4 (2–8)
 P: 0.78
 Parameter: Indications for surgery
-Early surgery a ( n = 22): Indications for surgery
-Late surgery a ( n = 34): Indications for surgery
-P: Indications for surgery
 Parameter: Documented infection of pancreatic necrosis
 Early surgery a ( n = 22): 5 (22.7%)
 Late surgery a ( n = 34): 14 (41.2%)
@@ -47,9 +41,6 @@ Early surgery a ( n = 22): 8 (36.4%)
 Late surgery a ( n = 34): 17 (50%)
 P: 0.41
 Parameter: Outcome
-Early surgery a ( n = 22): Outcome
-Late surgery a ( n = 34): Outcome
-P: Outcome
 Parameter: LOS in ICU, days (median and IQR)
 Early surgery a ( n = 22): 14 (5–33)
 Late surgery a ( n = 34): 14 (6–35)

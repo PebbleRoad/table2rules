@@ -1,12 +1,4 @@
 K: SPC
-Cases: SPC
-clusters: SPC
-true positive: SPC
-false positive: SPC
-false negative: SPC
-specificity: SPC
-a posteriori sensitivity: SPC
-a priori sensitivity: SPC
 K: 2
 Cases: 2472
 clusters: 479
@@ -44,14 +36,6 @@ specificity: 93.6
 a posteriori sensitivity: 93.9
 a priori sensitivity: 65.1
 K: TRIBE-MCL
-Cases: TRIBE-MCL
-clusters: TRIBE-MCL
-true positive: TRIBE-MCL
-false positive: TRIBE-MCL
-false negative: TRIBE-MCL
-specificity: TRIBE-MCL
-a posteriori sensitivity: TRIBE-MCL
-a priori sensitivity: TRIBE-MCL
 Cases: 9208
 clusters: 964
 true positive: 8654
@@ -61,14 +45,6 @@ specificity: 94.4
 a posteriori sensitivity: 93.4
 a priori sensitivity: 66.2
 K: gSPC
-Cases: gSPC
-clusters: gSPC
-true positive: gSPC
-false positive: gSPC
-false negative: gSPC
-specificity: gSPC
-a posteriori sensitivity: gSPC
-a priori sensitivity: gSPC
 K: 6
 Cases: 7432
 clusters: 880

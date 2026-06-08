@@ -301,6 +301,29 @@ def detect_header_block(rows):
             first_data_idx = r
             break
 
+    # Full-width section dividers cap the header. A row whose only non-empty
+    # content is a single DOM cell spanning the whole width (e.g. a benefits
+    # schedule "1. PERSONAL ACCIDENT" <td colspan="8"> row) reads, under the
+    # colspan-expanded non-empty count used above, as a full multi-cell header
+    # row — so without this the header sweep swallows the divider *and* the
+    # body rows between it and the first clean data row, bleeding them onto
+    # every line as fabricated column headers. When such dividers form a series
+    # (>= 2) they are body section dividers, not a one-off header subtitle like
+    # "(Dollars in thousands)"; the header ends at the first one. They stay in
+    # the body as plain cells (rendered as full-width notes downstream).
+    full_width_divider_idxs = []
+    for r in range(n):
+        origins = {grid[r][c]["origin"] for c in range(max_cols) if grid[r][c]["nonempty"]}
+        if len(origins) != 1:
+            continue
+        (orow, ocol) = next(iter(origins))
+        if grid[orow][ocol]["cs"] >= max_cols:
+            full_width_divider_idxs.append(r)
+    if len(full_width_divider_idxs) >= 2:
+        first_divider = full_width_divider_idxs[0]
+        if first_divider > 0 and (first_data_idx is None or first_divider < first_data_idx):
+            first_data_idx = first_divider
+
     if first_data_idx is None or first_data_idx == 0:
         return None
 
@@ -720,7 +743,16 @@ def simple_repair(html: str) -> str:
                     # counter stays in sync with the grid, otherwise a cell
                     # at logical col > 0 in a subsequent row would be
                     # mistaken for the first-column cell.
-                    if first.name == "td":
+                    #
+                    # A row whose single cell spans multiple columns is a
+                    # section divider / full-width note, not a row label —
+                    # promoting it to <th scope="row"> strands it (it has no
+                    # value column to anchor a rule, so it vanishes). Leave it
+                    # a <td> so it is emitted once as a full-width note.
+                    is_full_width_single = (
+                        len(cells) == 1 and clamped_span(first.get("colspan")) > 1
+                    )
+                    if first.name == "td" and not is_full_width_single:
                         first.name = "th"
                         first["scope"] = "row"
                     rowspan = clamped_span(first.get("rowspan"))

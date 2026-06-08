@@ -1,3 +1,4 @@
+NAT2 fast acetylator c
 Never active/passive | SULT1A1*1 / *1 genotype > Cases: 6
 Never active/passive | SULT1A1*1 / *1 genotype > Controls: 20
 Never active/passive | SULT1A1*1 / *1 genotype > OR b (95% CI): 1 (ref)
@@ -34,6 +35,7 @@ Passive only | Total > OR b (95% CI): 1.95 (0.97–3.91)
 11+ pack-years | Total > Cases: 43
 11+ pack-years | Total > Controls: 88
 11+ pack-years | Total > OR b (95% CI): 1.22 (0.59–2.54)
+NAT2 slow acetylator
 Never active/passive | SULT1A1*1 / *1 genotype > Cases: 14
 Never active/passive | SULT1A1*1 / *1 genotype > Controls: 33
 Never active/passive | SULT1A1*1 / *1 genotype > OR b (95% CI): 1 (ref)

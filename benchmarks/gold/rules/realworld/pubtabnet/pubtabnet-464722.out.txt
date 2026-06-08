@@ -1,3 +1,4 @@
+Mitochondrial mutational burden: Total
 Fibroblasts
 OA | Nucleotides sequenced: 18489
 OA | Number of mutations > Initial: 38
@@ -24,6 +25,7 @@ RA | Total mutational burden (mutations/kbp) > Initial: 3.397
 RA | Total mutational burden (mutations/kbp) > Published polymorphisms removed: 2.378
 RA | OA vs RA a > Initial: ρ = 4 × 10 -4
 RA | OA vs RA a > Published Polymorphisms removed: ρ = 5.1 × 10 -4
+Mitochondrial mutational burden: Expressed
 Fibroblasts
 OA | Nucleotides sequenced: 6956
 OA | Number of mutations > Initial: 12

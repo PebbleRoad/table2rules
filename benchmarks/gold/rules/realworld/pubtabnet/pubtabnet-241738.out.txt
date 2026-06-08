@@ -1,7 +1,4 @@
 Outcomes: Mechanical ventilation duration (days)
-Protocol-directed weaning group (cases): Mechanical ventilation duration (days)
-Physician-directed weaning group (controls): Mechanical ventilation duration (days)
-P: Mechanical ventilation duration (days)
 Outcomes: Medicine
 Protocol-directed weaning group (cases): 15.3 ± 13
 Physician-directed weaning group (controls): 23 ± 22.6
@@ -23,9 +20,6 @@ Protocol-directed weaning group (cases): 16.6 ± 13
 Physician-directed weaning group (controls): 22.5 ± 21
 P: 0.02
 Outcomes: ICU length of stay (days)
-Protocol-directed weaning group (cases): ICU length of stay (days)
-Physician-directed weaning group (controls): ICU length of stay (days)
-P: ICU length of stay (days)
 Outcomes: Medicine
 Protocol-directed weaning group (cases): 20.1 ± 13.7
 Physician-directed weaning group (controls): 27.7 ± 23

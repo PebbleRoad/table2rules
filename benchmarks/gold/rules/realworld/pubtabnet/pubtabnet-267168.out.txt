@@ -1,11 +1,4 @@
 Time point: Inguinal lymph node
-IL-1β: Inguinal lymph node
-IL-6: Inguinal lymph node
-TNF-α: Inguinal lymph node
-IL-2: Inguinal lymph node
-IFN-γ: Inguinal lymph node
-IL-4: Inguinal lymph node
-IL-10: Inguinal lymph node
 Time point: Day 0
 IL-1β: 1.00 (0.27)
 IL-6: 1.00 (0.26)
@@ -47,13 +40,6 @@ IFN-γ: 0.81 (0.12)
 IL-4: 0.91 (0.27)
 IL-10: 0.89 (0.17)
 Time point: Spleen
-IL-1β: Spleen
-IL-6: Spleen
-TNF-α: Spleen
-IL-2: Spleen
-IFN-γ: Spleen
-IL-4: Spleen
-IL-10: Spleen
 Time point: Day 0
 IL-1β: 1.00 (0.12)
 IL-6: 1.00 (0.41)

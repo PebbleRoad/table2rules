@@ -12,6 +12,7 @@ from .models import LogicRule
 from .quality_gate import GateResult, assess_confidence
 from .report import RenderMode, RenderReport, TableReport
 from .simple_repair import simple_repair
+from .spans import is_full_width_note
 
 
 def _split_compound_tables(soup) -> None:
@@ -155,6 +156,22 @@ def _build_rules(grid) -> List[LogicRule]:
             colspan = cell.get("colspan", 1)
             outcome_norm = cell["text"].strip().lower()
 
+            # A wide <td> that reaches the last column AND covers a majority of
+            # the grid's columns is structurally a full-width note/description
+            # (e.g. a benefit name "Accidental death and permanent disability"
+            # or "If the departure of your public transport is delayed…"
+            # spanning the whole value region), not a per-column value. We still
+            # emit at every spanned position — so the gate detects an
+            # overlapping-span corruption (a rowspan intruding into the note's
+            # row) as a conflict and fails open to flat — but attribute every
+            # position to the *origin* column's header path. The exporter's
+            # origin-aware dedup then collapses the identical lines to one,
+            # instead of stamping the sentence under each plan×cover header.
+            # Legitimate narrow spans (a right-edge colspan=2 amount covering
+            # INDIVIDUAL+FAMILY of one plan) fail the majority test and keep
+            # their genuine per-column attribution.
+            note = is_full_width_note(col_idx, colspan, n_cols)
+
             for r_offset in range(rowspan):
                 for c_offset in range(colspan):
                     target_row = row_idx + r_offset
@@ -163,7 +180,8 @@ def _build_rules(grid) -> List[LogicRule]:
                     if target_row >= len(grid) or target_col >= len(grid[0]):
                         continue
 
-                    row_headers, col_headers = find_headers_for_cell(grid, target_row, target_col)
+                    header_col = col_idx if note else target_col
+                    row_headers, col_headers = find_headers_for_cell(grid, target_row, header_col)
 
                     rules.append(
                         LogicRule(
@@ -302,6 +320,8 @@ def _run(
     table_index = 0
 
     for table in all_tables:
+        if not isinstance(table, Tag):
+            continue
         # Skip nested tables — they're folded into their parent's cell text.
         if table.find_parent("table"):
             continue

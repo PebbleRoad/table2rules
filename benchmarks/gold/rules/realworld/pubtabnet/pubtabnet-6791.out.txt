@@ -1,3 +1,4 @@
+Subject No.: Subjects with single-pathogen S pneumoniae isolate
 1 | Isolate (Source): S pneumoniae (sputum)
 1 | MIC Susceptibility* (μg/mL) > TEL: 0.030 (S)
 1 | MIC Susceptibility* (μg/mL) > Pen G: 0.030 (S)
@@ -16,6 +17,7 @@
 3 | MIC Susceptibility* (μg/mL) > Ery A: 8.000 (R)
 3 | Bacteriologic Outcome †: Presumed eradication
 3 | Clinical Outcome: Cure
+Subject No.: Subjects with multiple-pathogen S pneumoniae isolate
 4 | Isolate (Source): S pneumoniae (sputum)
 4 | MIC Susceptibility* (μg/mL) > TEL: 0.060 (S)
 4 | MIC Susceptibility* (μg/mL) > Pen G: 2.000 (R)

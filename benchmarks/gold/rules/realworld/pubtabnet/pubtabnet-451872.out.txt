@@ -1,8 +1,4 @@
 Search Strategy OVID search*: Top 3-performing combination of terms with best Sensitivity
-Sensitivity (%) (n = 215): Top 3-performing combination of terms with best Sensitivity
-Specificity (%) (n = 27,554): Top 3-performing combination of terms with best Sensitivity
-Precision (%)†: Top 3-performing combination of terms with best Sensitivity
-Accuracy (%) (n = 27,769): Top 3-performing combination of terms with best Sensitivity
 Search Strategy OVID search*: risk:.mp.OR exp methodologyOR exp epidemiology
 Sensitivity (%) (n = 215): 91.6 (87.9 to 95.3)
 Specificity (%) (n = 27,554): 60.9 (60.3 to 61.4)
@@ -19,10 +15,6 @@ Specificity (%) (n = 27,554): 65.1 (64.5 to 65.7)
 Precision (%)†: 2.0 (1.7 to 2.3)
 Accuracy (%) (n = 27,769): 65.3 (64.7 to 65.8)
 Search Strategy OVID search*: Top 3-performing combination of terms with best Specificity
-Sensitivity (%) (n = 215): Top 3-performing combination of terms with best Specificity
-Specificity (%) (n = 27,554): Top 3-performing combination of terms with best Specificity
-Precision (%)†: Top 3-performing combination of terms with best Specificity
-Accuracy (%) (n = 27,769): Top 3-performing combination of terms with best Specificity
 Search Strategy OVID search*: cohort.tw.OR relative risk:.tw.
 Sensitivity (%) (n = 215): 53.0 (46.4 to 59.7)
 Specificity (%) (n = 27,554): 94.6 (94.4 to 94.9)
@@ -39,10 +31,6 @@ Specificity (%) (n = 27,554): 94.4 (94.1 to 94.6)
 Precision (%)†: 6.9 (5.7 to 8.1)
 Accuracy (%) (n = 27,769): 94.1 (93.8 to 94.3)
 Search Strategy OVID search*: Top 3-performing combination of terms with best optimization of Sensitivity and Specificity
-Sensitivity (%) (n = 215): Top 3-performing combination of terms with best optimization of Sensitivity and Specificity
-Specificity (%) (n = 27,554): Top 3-performing combination of terms with best optimization of Sensitivity and Specificity
-Precision (%)†: Top 3-performing combination of terms with best optimization of Sensitivity and Specificity
-Accuracy (%) (n = 27,769): Top 3-performing combination of terms with best optimization of Sensitivity and Specificity
 Search Strategy OVID search*: risk.tw.OR mortalit:.tw,OR cohort.tw.
 Sensitivity (%) (n = 215): 81.9 (76.7 to 87.0)
 Specificity (%) (n = 27,554): 81.4 (80.9 to 81.8)
