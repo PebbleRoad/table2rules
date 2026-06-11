@@ -1,98 +1,96 @@
-Subject No.: Subjects with single-pathogen S pneumoniae isolate
-1 | Isolate (Source): S pneumoniae (sputum)
-1 | MIC Susceptibility* (μg/mL) > TEL: 0.030 (S)
-1 | MIC Susceptibility* (μg/mL) > Pen G: 0.030 (S)
-1 | MIC Susceptibility* (μg/mL) > Ery A: b>8.000 (R)
-1 | Bacteriologic Outcome †: Eradication
-1 | Clinical Outcome: Cure
-2 | Isolate (Source): S pneumoniae (sputum)
-2 | MIC Susceptibility* (μg/mL) > TEL: 0.030 (S)
-2 | MIC Susceptibility* (μg/mL) > Pen G: 2.000 (R)
-2 | MIC Susceptibility* (μg/mL) > Ery A: 0.250 (S)
-2 | Bacteriologic Outcome †: Presumed eradication
-2 | Clinical Outcome: Cure
-3 | Isolate (Source): S pneumoniae (sputum)
-3 | MIC Susceptibility* (μg/mL) > TEL: 0.500 (S)
-3 | MIC Susceptibility* (μg/mL) > Pen G: 2.000 (R)
-3 | MIC Susceptibility* (μg/mL) > Ery A: 8.000 (R)
-3 | Bacteriologic Outcome †: Presumed eradication
-3 | Clinical Outcome: Cure
-Subject No.: Subjects with multiple-pathogen S pneumoniae isolate
-4 | Isolate (Source): S pneumoniae (sputum)
-4 | MIC Susceptibility* (μg/mL) > TEL: 0.060 (S)
-4 | MIC Susceptibility* (μg/mL) > Pen G: 2.000 (R)
-4 | MIC Susceptibility* (μg/mL) > Ery A: 4.000 (R)
-4 | Bacteriologic Outcome †: Presumed eradication
-4 | Clinical Outcome: Cure
-Isolate (Source): M catarrhalis
-MIC Susceptibility* (μg/mL) > TEL: 0.120 (S)
-MIC Susceptibility* (μg/mL) > Pen G: ND
-MIC Susceptibility* (μg/mL) > Ery A: 0.120
-Bacteriologic Outcome †: Presumed eradication
-Clinical Outcome: Cure
-5 | Isolate (Source): S pneumoniae (sputum)
-5 | MIC Susceptibility* (μg/mL) > TEL: 0.250 (S)
-5 | MIC Susceptibility* (μg/mL) > Pen G: 2.000 (R)
-5 | MIC Susceptibility* (μg/mL) > Ery A: 8.000 (R)
-5 | Bacteriologic Outcome †: Presumed eradication
-5 | Clinical Outcome: Cure
-6 | Isolate (Source): S pneumoniae (sputum)
-6 | MIC Susceptibility* (μg/mL) > TEL: 0.030 (S)
-6 | MIC Susceptibility* (μg/mL) > Pen G: 2.000 (R)
-6 | MIC Susceptibility* (μg/mL) > Ery A: 0.060 (S)
-6 | Bacteriologic Outcome †: Presumed eradication
-6 | Clinical Outcome: Cure
-Isolate (Source): H influenzae
-MIC Susceptibility* (μg/mL) > TEL: 0.002 (S)
-MIC Susceptibility* (μg/mL) > Pen G: ND
-MIC Susceptibility* (μg/mL) > Ery A: 1.000
-Bacteriologic Outcome †: Presumed eradication
-Clinical Outcome: Cure
-Isolate (Source): M catarrhalis
-MIC Susceptibility* (μg/mL) > TEL: 0.120 (S)
-MIC Susceptibility* (μg/mL) > Pen G: ND
-MIC Susceptibility* (μg/mL) > Ery A: 0.250
-Bacteriologic Outcome †: Presumed eradication
-Clinical Outcome: Cure
-7 | Isolate (Source): S pneumoniae (sputum)
-7 | MIC Susceptibility* (μg/mL) > TEL: 0.500 (S)
-7 | MIC Susceptibility* (μg/mL) > Pen G: 2.000 (R)
-7 | MIC Susceptibility* (μg/mL) > Ery A: 8.000 (R)
-7 | Bacteriologic Outcome †: Presumed eradication
-7 | Clinical Outcome: Cure
-Isolate (Source): H influenzae
-MIC Susceptibility* (μg/mL) > TEL: 2.000 (S)
-MIC Susceptibility* (μg/mL) > Pen G: ND
-MIC Susceptibility* (μg/mL) > Ery A: 4.000
-Bacteriologic Outcome †: Presumed eradication
-Clinical Outcome: Cure
-8 | Isolate (Source): S pneumoniae (blood)
-8 | MIC Susceptibility* (μg/mL) > TEL: 1.000 (S)
-8 | MIC Susceptibility* (μg/mL) > Pen G: 0.250 (I)
-8 | MIC Susceptibility* (μg/mL) > Ery A: 8.000 (R)
-8 | Bacteriologic Outcome †: Presumed eradication
-8 | Clinical Outcome: Cure
-Isolate (Source): H influenzae
-MIC Susceptibility* (μg/mL) > TEL: 1.000 (S)
-MIC Susceptibility* (μg/mL) > Pen G: ND
-MIC Susceptibility* (μg/mL) > Ery A: 4.000
-Bacteriologic Outcome †: Presumed eradication
-Clinical Outcome: Cure
-9 | Isolate (Source): S pneumoniae (blood)
-9 | MIC Susceptibility* (μg/mL) > TEL: 1.000 (S)
-9 | MIC Susceptibility* (μg/mL) > Pen G: 0.500 (I)
-9 | MIC Susceptibility* (μg/mL) > Ery A: 8.000 (R)
-9 | Bacteriologic Outcome †: Presumed eradication
-9 | Clinical Outcome: Cure
-Isolate (Source): H influenzae
-MIC Susceptibility* (μg/mL) > TEL: 8.000 (R)
-MIC Susceptibility* (μg/mL) > Pen G: ND
-MIC Susceptibility* (μg/mL) > Ery A: 4.000
-Bacteriologic Outcome †: Presumed eradication
-Clinical Outcome: Cure
-Isolate (Source): S aureus
-MIC Susceptibility* (μg/mL) > TEL: 0.120 (S)
-MIC Susceptibility* (μg/mL) > Pen G: ND
-MIC Susceptibility* (μg/mL) > Ery A: 0.500
-Bacteriologic Outcome †: Presumed eradication
-Clinical Outcome: Cure
+Subjects with single-pathogen S pneumoniae isolate > 1 | Isolate (Source): S pneumoniae (sputum)
+Subjects with single-pathogen S pneumoniae isolate > 1 | MIC Susceptibility* (μg/mL) > TEL: 0.030 (S)
+Subjects with single-pathogen S pneumoniae isolate > 1 | MIC Susceptibility* (μg/mL) > Pen G: 0.030 (S)
+Subjects with single-pathogen S pneumoniae isolate > 1 | MIC Susceptibility* (μg/mL) > Ery A: b>8.000 (R)
+Subjects with single-pathogen S pneumoniae isolate > 1 | Bacteriologic Outcome †: Eradication
+Subjects with single-pathogen S pneumoniae isolate > 1 | Clinical Outcome: Cure
+Subjects with single-pathogen S pneumoniae isolate > 2 | Isolate (Source): S pneumoniae (sputum)
+Subjects with single-pathogen S pneumoniae isolate > 2 | MIC Susceptibility* (μg/mL) > TEL: 0.030 (S)
+Subjects with single-pathogen S pneumoniae isolate > 2 | MIC Susceptibility* (μg/mL) > Pen G: 2.000 (R)
+Subjects with single-pathogen S pneumoniae isolate > 2 | MIC Susceptibility* (μg/mL) > Ery A: 0.250 (S)
+Subjects with single-pathogen S pneumoniae isolate > 2 | Bacteriologic Outcome †: Presumed eradication
+Subjects with single-pathogen S pneumoniae isolate > 2 | Clinical Outcome: Cure
+Subjects with single-pathogen S pneumoniae isolate > 3 | Isolate (Source): S pneumoniae (sputum)
+Subjects with single-pathogen S pneumoniae isolate > 3 | MIC Susceptibility* (μg/mL) > TEL: 0.500 (S)
+Subjects with single-pathogen S pneumoniae isolate > 3 | MIC Susceptibility* (μg/mL) > Pen G: 2.000 (R)
+Subjects with single-pathogen S pneumoniae isolate > 3 | MIC Susceptibility* (μg/mL) > Ery A: 8.000 (R)
+Subjects with single-pathogen S pneumoniae isolate > 3 | Bacteriologic Outcome †: Presumed eradication
+Subjects with single-pathogen S pneumoniae isolate > 3 | Clinical Outcome: Cure
+Subjects with multiple-pathogen S pneumoniae isolate > 4 | Isolate (Source): S pneumoniae (sputum)
+Subjects with multiple-pathogen S pneumoniae isolate > 4 | MIC Susceptibility* (μg/mL) > TEL: 0.060 (S)
+Subjects with multiple-pathogen S pneumoniae isolate > 4 | MIC Susceptibility* (μg/mL) > Pen G: 2.000 (R)
+Subjects with multiple-pathogen S pneumoniae isolate > 4 | MIC Susceptibility* (μg/mL) > Ery A: 4.000 (R)
+Subjects with multiple-pathogen S pneumoniae isolate > 4 | Bacteriologic Outcome †: Presumed eradication
+Subjects with multiple-pathogen S pneumoniae isolate > 4 | Clinical Outcome: Cure
+Subjects with multiple-pathogen S pneumoniae isolate | Isolate (Source): M catarrhalis
+Subjects with multiple-pathogen S pneumoniae isolate | MIC Susceptibility* (μg/mL) > TEL: 0.120 (S)
+Subjects with multiple-pathogen S pneumoniae isolate | MIC Susceptibility* (μg/mL) > Pen G: ND
+Subjects with multiple-pathogen S pneumoniae isolate | MIC Susceptibility* (μg/mL) > Ery A: 0.120
+Subjects with multiple-pathogen S pneumoniae isolate | Bacteriologic Outcome †: Presumed eradication
+Subjects with multiple-pathogen S pneumoniae isolate | Clinical Outcome: Cure
+Subjects with multiple-pathogen S pneumoniae isolate > 5 | Isolate (Source): S pneumoniae (sputum)
+Subjects with multiple-pathogen S pneumoniae isolate > 5 | MIC Susceptibility* (μg/mL) > TEL: 0.250 (S)
+Subjects with multiple-pathogen S pneumoniae isolate > 5 | MIC Susceptibility* (μg/mL) > Pen G: 2.000 (R)
+Subjects with multiple-pathogen S pneumoniae isolate > 5 | MIC Susceptibility* (μg/mL) > Ery A: 8.000 (R)
+Subjects with multiple-pathogen S pneumoniae isolate > 5 | Bacteriologic Outcome †: Presumed eradication
+Subjects with multiple-pathogen S pneumoniae isolate > 5 | Clinical Outcome: Cure
+Subjects with multiple-pathogen S pneumoniae isolate > 6 | Isolate (Source): S pneumoniae (sputum)
+Subjects with multiple-pathogen S pneumoniae isolate > 6 | MIC Susceptibility* (μg/mL) > TEL: 0.030 (S)
+Subjects with multiple-pathogen S pneumoniae isolate > 6 | MIC Susceptibility* (μg/mL) > Pen G: 2.000 (R)
+Subjects with multiple-pathogen S pneumoniae isolate > 6 | MIC Susceptibility* (μg/mL) > Ery A: 0.060 (S)
+Subjects with multiple-pathogen S pneumoniae isolate > 6 | Bacteriologic Outcome †: Presumed eradication
+Subjects with multiple-pathogen S pneumoniae isolate > 6 | Clinical Outcome: Cure
+Subjects with multiple-pathogen S pneumoniae isolate | Isolate (Source): H influenzae
+Subjects with multiple-pathogen S pneumoniae isolate | MIC Susceptibility* (μg/mL) > TEL: 0.002 (S)
+Subjects with multiple-pathogen S pneumoniae isolate | MIC Susceptibility* (μg/mL) > Pen G: ND
+Subjects with multiple-pathogen S pneumoniae isolate | MIC Susceptibility* (μg/mL) > Ery A: 1.000
+Subjects with multiple-pathogen S pneumoniae isolate | Bacteriologic Outcome †: Presumed eradication
+Subjects with multiple-pathogen S pneumoniae isolate | Clinical Outcome: Cure
+Subjects with multiple-pathogen S pneumoniae isolate | Isolate (Source): M catarrhalis
+Subjects with multiple-pathogen S pneumoniae isolate | MIC Susceptibility* (μg/mL) > TEL: 0.120 (S)
+Subjects with multiple-pathogen S pneumoniae isolate | MIC Susceptibility* (μg/mL) > Pen G: ND
+Subjects with multiple-pathogen S pneumoniae isolate | MIC Susceptibility* (μg/mL) > Ery A: 0.250
+Subjects with multiple-pathogen S pneumoniae isolate | Bacteriologic Outcome †: Presumed eradication
+Subjects with multiple-pathogen S pneumoniae isolate | Clinical Outcome: Cure
+Subjects with multiple-pathogen S pneumoniae isolate > 7 | Isolate (Source): S pneumoniae (sputum)
+Subjects with multiple-pathogen S pneumoniae isolate > 7 | MIC Susceptibility* (μg/mL) > TEL: 0.500 (S)
+Subjects with multiple-pathogen S pneumoniae isolate > 7 | MIC Susceptibility* (μg/mL) > Pen G: 2.000 (R)
+Subjects with multiple-pathogen S pneumoniae isolate > 7 | MIC Susceptibility* (μg/mL) > Ery A: 8.000 (R)
+Subjects with multiple-pathogen S pneumoniae isolate > 7 | Bacteriologic Outcome †: Presumed eradication
+Subjects with multiple-pathogen S pneumoniae isolate > 7 | Clinical Outcome: Cure
+Subjects with multiple-pathogen S pneumoniae isolate | Isolate (Source): H influenzae
+Subjects with multiple-pathogen S pneumoniae isolate | MIC Susceptibility* (μg/mL) > TEL: 2.000 (S)
+Subjects with multiple-pathogen S pneumoniae isolate | MIC Susceptibility* (μg/mL) > Pen G: ND
+Subjects with multiple-pathogen S pneumoniae isolate | MIC Susceptibility* (μg/mL) > Ery A: 4.000
+Subjects with multiple-pathogen S pneumoniae isolate | Bacteriologic Outcome †: Presumed eradication
+Subjects with multiple-pathogen S pneumoniae isolate | Clinical Outcome: Cure
+Subjects with multiple-pathogen S pneumoniae isolate > 8 | Isolate (Source): S pneumoniae (blood)
+Subjects with multiple-pathogen S pneumoniae isolate > 8 | MIC Susceptibility* (μg/mL) > TEL: 1.000 (S)
+Subjects with multiple-pathogen S pneumoniae isolate > 8 | MIC Susceptibility* (μg/mL) > Pen G: 0.250 (I)
+Subjects with multiple-pathogen S pneumoniae isolate > 8 | MIC Susceptibility* (μg/mL) > Ery A: 8.000 (R)
+Subjects with multiple-pathogen S pneumoniae isolate > 8 | Bacteriologic Outcome †: Presumed eradication
+Subjects with multiple-pathogen S pneumoniae isolate > 8 | Clinical Outcome: Cure
+Subjects with multiple-pathogen S pneumoniae isolate | Isolate (Source): H influenzae
+Subjects with multiple-pathogen S pneumoniae isolate | MIC Susceptibility* (μg/mL) > TEL: 1.000 (S)
+Subjects with multiple-pathogen S pneumoniae isolate | MIC Susceptibility* (μg/mL) > Pen G: ND
+Subjects with multiple-pathogen S pneumoniae isolate | MIC Susceptibility* (μg/mL) > Ery A: 4.000
+Subjects with multiple-pathogen S pneumoniae isolate | Bacteriologic Outcome †: Presumed eradication
+Subjects with multiple-pathogen S pneumoniae isolate | Clinical Outcome: Cure
+Subjects with multiple-pathogen S pneumoniae isolate > 9 | Isolate (Source): S pneumoniae (blood)
+Subjects with multiple-pathogen S pneumoniae isolate > 9 | MIC Susceptibility* (μg/mL) > TEL: 1.000 (S)
+Subjects with multiple-pathogen S pneumoniae isolate > 9 | MIC Susceptibility* (μg/mL) > Pen G: 0.500 (I)
+Subjects with multiple-pathogen S pneumoniae isolate > 9 | MIC Susceptibility* (μg/mL) > Ery A: 8.000 (R)
+Subjects with multiple-pathogen S pneumoniae isolate > 9 | Bacteriologic Outcome †: Presumed eradication
+Subjects with multiple-pathogen S pneumoniae isolate > 9 | Clinical Outcome: Cure
+Subjects with multiple-pathogen S pneumoniae isolate | Isolate (Source): H influenzae
+Subjects with multiple-pathogen S pneumoniae isolate | MIC Susceptibility* (μg/mL) > TEL: 8.000 (R)
+Subjects with multiple-pathogen S pneumoniae isolate | MIC Susceptibility* (μg/mL) > Pen G: ND
+Subjects with multiple-pathogen S pneumoniae isolate | MIC Susceptibility* (μg/mL) > Ery A: 4.000
+Subjects with multiple-pathogen S pneumoniae isolate | Bacteriologic Outcome †: Presumed eradication
+Subjects with multiple-pathogen S pneumoniae isolate | Clinical Outcome: Cure
+Subjects with multiple-pathogen S pneumoniae isolate | Isolate (Source): S aureus
+Subjects with multiple-pathogen S pneumoniae isolate | MIC Susceptibility* (μg/mL) > TEL: 0.120 (S)
+Subjects with multiple-pathogen S pneumoniae isolate | MIC Susceptibility* (μg/mL) > Pen G: ND
+Subjects with multiple-pathogen S pneumoniae isolate | MIC Susceptibility* (μg/mL) > Ery A: 0.500
+Subjects with multiple-pathogen S pneumoniae isolate | Bacteriologic Outcome †: Presumed eradication
+Subjects with multiple-pathogen S pneumoniae isolate | Clinical Outcome: Cure

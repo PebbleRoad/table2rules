@@ -116,51 +116,81 @@ def find_headers_for_cell(
             if scope == "row":
                 continue
 
-            # Locate the origin for scope and rowspan lookup.
+            # scope='rowgroup' bands are handled uniformly in Step 4 (which also
+            # reaches bands spanning the data column when the row-label is
+            # empty), so they can be ordered across columns by nesting level.
+            if scope == "rowgroup":
+                continue
+
+            # Non-scope-rowgroup <th> cells outside thead are only accepted from
+            # the explicit header block (headless tables where header detection
+            # promoted a row).
+            if not cell.get("is_header_row", False):
+                continue
+
+            # Locate the origin for dedup.
             if cell.get("is_span_copy", False):
                 origin = cell.get("origin", (r, header_col))
-                origin_cell = grid[origin[0]][origin[1]]
             else:
                 origin = (r, header_col)
-                origin_cell = cell
-
-            if scope == "rowgroup":
-                # A rowgroup header ancestors rows within its extent:
-                #   rowspan > 1  → extent = [origin_row, origin_row + rowspan - 1]
-                #                  (the rowspan itself bounds the group, as in
-                #                  a <th scope="rowgroup" rowspan="2"> pattern)
-                #   rowspan == 1 → extent = [origin_row, next_rowgroup - 1]
-                #                  (a single-cell divider row like a FinTabNet
-                #                  year label runs until the next such divider
-                #                  in the same column)
-                origin_row, origin_col = origin
-                origin_rowspan = origin_cell.get("rowspan", 1)
-                if origin_rowspan > 1:
-                    extent_end = origin_row + origin_rowspan - 1
-                else:
-                    extent_end = len(grid) - 1
-                    for rr in range(origin_row + 1, len(grid)):
-                        other = grid[rr][origin_col]
-                        if (
-                            other
-                            and not other.get("is_span_copy", False)
-                            and other.get("scope") == "rowgroup"
-                        ):
-                            extent_end = rr - 1
-                            break
-                if row > extent_end:
-                    continue
-            else:
-                # Non-scope-rowgroup <th> cells outside thead are only
-                # accepted from the explicit header block (headless
-                # tables where the header detection promoted a row).
-                is_header_row = cell.get("is_header_row", False)
-                if not is_header_row:
-                    continue
 
             if origin not in seen_origins:
                 seen_origins.add(origin)
                 # Insert at the beginning to maintain hierarchy
                 row_headers.insert(row_header_columns.index(header_col), cell["text"])
+
+    # --- 4. Row-group bands ---
+    # A band / group header ancestors the data rows within its extent. Bands are
+    # collected from the data cell's own column AND every row-label column: the
+    # own column reaches bands that span the value region even when this row's
+    # label cell is empty (which would otherwise drop the band, e.g. an
+    # unlabeled continuation row under a group divider); the row-label columns
+    # reach narrow stub-column dividers (a FinTabNet year label). Extent is
+    # bounded by COLSPAN — a band ends at the next band whose span is equal or
+    # wider — so a narrower inner group header does not close an outer one.
+    # Bands are ordered topmost-first (origin row ascending) and prepended, so
+    # the row path reads outer-band > inner-group > row-labels, mirroring the
+    # multi-level column path.
+    bands: List[Tuple[int, str]] = []  # (origin_row, text)
+    for scan_col in [col, *row_header_columns]:
+        for r in range(row - 1, -1, -1):
+            cell = grid[r][scan_col]
+            if not cell or not cell.get("text", "").strip():
+                continue
+            if cell["type"] != "th" or cell.get("is_thead", False):
+                continue
+            if cell.get("scope") != "rowgroup":
+                continue
+            if cell.get("is_span_copy", False):
+                origin = cell.get("origin", (r, scan_col))
+                origin_cell = grid[origin[0]][origin[1]]
+            else:
+                origin = (r, scan_col)
+                origin_cell = cell
+            if origin in seen_origins:
+                continue
+            origin_row, origin_col = origin
+            my_colspan = origin_cell.get("colspan", 1)
+            origin_rowspan = origin_cell.get("rowspan", 1)
+            if origin_rowspan > 1:
+                extent_end = origin_row + origin_rowspan - 1
+            else:
+                extent_end = len(grid) - 1
+                for rr in range(origin_row + 1, len(grid)):
+                    other = grid[rr][origin_col]
+                    if (
+                        other
+                        and not other.get("is_span_copy", False)
+                        and other.get("scope") == "rowgroup"
+                        and other.get("colspan", 1) >= my_colspan
+                    ):
+                        extent_end = rr - 1
+                        break
+            if row > extent_end:
+                continue
+            seen_origins.add(origin)
+            bands.append((origin_row, cell["text"]))
+    bands.sort(key=lambda b: b[0])
+    row_headers[:0] = [text for _row, text in bands]
 
     return row_headers, col_headers

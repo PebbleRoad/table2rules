@@ -1,114 +1,112 @@
-Patient: With early RA
-Patient: E-01
-Age: 51
-Sex: F
-Disease duration: 11 months
-ACR criterion nos. fulfilled a: 1, 2, 3, 4
-Number of samples: 13
-Macroscopic signs of synovitis: Vi, Ve
-Patient: E-02
-Age: 50
-Sex: F
-Disease duration: 2 months
-ACR criterion nos. fulfilled a: 1, 2, 3, 4, 6
-Number of samples: 8
-Macroscopic signs of synovitis: Vi, Ve
-Patient: E-03
-Age: 34
-Sex: F
-Disease duration: 4 months
-ACR criterion nos. fulfilled a: 1, 2, 3, 4, 7
-Number of samples: 8
-Macroscopic signs of synovitis: Vi, Ve
-Patient: E-04
-Age: 34
-Sex: F
-Disease duration: 3 months
-ACR criterion nos. fulfilled a: 1, 2, 3, 4, 6, 7
-Number of samples: 13
-Macroscopic signs of synovitis: Vi, Ve
-Patient: E-05
-Age: 77
-Sex: F
-Disease duration: 2 months
-ACR criterion nos. fulfilled a: 1, 2, 3, 4, 7
-Number of samples: 11
-Macroscopic signs of synovitis: Vi
-Patient: E-06
-Age: 50
-Sex: M
-Disease duration: 4 months
-ACR criterion nos. fulfilled a: 1, 2, 3, 4
-Number of samples: 11
-Macroscopic signs of synovitis: Vi, Ve
-Patient: E-07
-Age: 37
-Sex: F
-Disease duration: 7 months
-ACR criterion nos. fulfilled a: 1, 2, 3, 4, 6
-Number of samples: 6
-Macroscopic signs of synovitis: Ve
-Patient: E-08
-Age: 61
-Sex: F
-Disease duration: 2 months
-ACR criterion nos. fulfilled a: 1, 2, 3, 4
-Number of samples: 7
-Macroscopic signs of synovitis: Vi
-Patient: E-09
-Age: 75
-Sex: F
-Disease duration: 4 months
-ACR criterion nos. fulfilled a: 1, 4, 6
-Number of samples: 12
-Macroscopic signs of synovitis: Vi, Ve, Gr
-Patient: E-10
-Age: 25
-Sex: F
-Disease duration: 12 months
-ACR criterion nos. fulfilled a: 1, 2, 3, 4
-Number of samples: 12
-Macroscopic signs of synovitis: Vi, Ve, Gr
-Patient: E-11
-Age: 54
-Sex: M
-Disease duration: 12 months
-ACR criterion nos. fulfilled a: 1, 2, 3, 4, 6
-Number of samples: 11
-Macroscopic signs of synovitis: Ve
-Patient: E-12
-Age: 60
-Sex: F
-Disease duration: 4 months
-ACR criterion nos. fulfilled a: 1, 2, 3, 4, 6
-Number of samples: 13
-Macroscopic signs of synovitis: Vi, Ve, Gr
-Patient: With long-standing RA
-Patient: L-01
-Age: 54
-Sex: M
-Disease duration: 9 years
-ACR criterion nos. fulfilled a: 1, 2, 3, 4, 6, 7
-Number of samples: 6
-Macroscopic signs of synovitis: Vi, Ve, Gr
-Patient: L-02
-Age: 77
-Sex: M
-Disease duration: 5 years
-ACR criterion nos. fulfilled a: 1, 2, 3, 4, 5, 6, 7
-Number of samples: 8
-Macroscopic signs of synovitis: Vi, Ve, Gr
-Patient: L-03
-Age: 54
-Sex: F
-Disease duration: 7 years
-ACR criterion nos. fulfilled a: 1, 2, 3, 4, 6, 7
-Number of samples: 6
-Macroscopic signs of synovitis: Vi, Ve
-Patient: L-04
-Age: 55
-Sex: F
-Disease duration: 3 years
-ACR criterion nos. fulfilled a: 1, 2, 3, 4, 6, 7
-Number of samples: 11
-Macroscopic signs of synovitis: Vi, Ve, Gr
+With early RA | Patient: E-01
+With early RA | Age: 51
+With early RA | Sex: F
+With early RA | Disease duration: 11 months
+With early RA | ACR criterion nos. fulfilled a: 1, 2, 3, 4
+With early RA | Number of samples: 13
+With early RA | Macroscopic signs of synovitis: Vi, Ve
+With early RA | Patient: E-02
+With early RA | Age: 50
+With early RA | Sex: F
+With early RA | Disease duration: 2 months
+With early RA | ACR criterion nos. fulfilled a: 1, 2, 3, 4, 6
+With early RA | Number of samples: 8
+With early RA | Macroscopic signs of synovitis: Vi, Ve
+With early RA | Patient: E-03
+With early RA | Age: 34
+With early RA | Sex: F
+With early RA | Disease duration: 4 months
+With early RA | ACR criterion nos. fulfilled a: 1, 2, 3, 4, 7
+With early RA | Number of samples: 8
+With early RA | Macroscopic signs of synovitis: Vi, Ve
+With early RA | Patient: E-04
+With early RA | Age: 34
+With early RA | Sex: F
+With early RA | Disease duration: 3 months
+With early RA | ACR criterion nos. fulfilled a: 1, 2, 3, 4, 6, 7
+With early RA | Number of samples: 13
+With early RA | Macroscopic signs of synovitis: Vi, Ve
+With early RA | Patient: E-05
+With early RA | Age: 77
+With early RA | Sex: F
+With early RA | Disease duration: 2 months
+With early RA | ACR criterion nos. fulfilled a: 1, 2, 3, 4, 7
+With early RA | Number of samples: 11
+With early RA | Macroscopic signs of synovitis: Vi
+With early RA | Patient: E-06
+With early RA | Age: 50
+With early RA | Sex: M
+With early RA | Disease duration: 4 months
+With early RA | ACR criterion nos. fulfilled a: 1, 2, 3, 4
+With early RA | Number of samples: 11
+With early RA | Macroscopic signs of synovitis: Vi, Ve
+With early RA | Patient: E-07
+With early RA | Age: 37
+With early RA | Sex: F
+With early RA | Disease duration: 7 months
+With early RA | ACR criterion nos. fulfilled a: 1, 2, 3, 4, 6
+With early RA | Number of samples: 6
+With early RA | Macroscopic signs of synovitis: Ve
+With early RA | Patient: E-08
+With early RA | Age: 61
+With early RA | Sex: F
+With early RA | Disease duration: 2 months
+With early RA | ACR criterion nos. fulfilled a: 1, 2, 3, 4
+With early RA | Number of samples: 7
+With early RA | Macroscopic signs of synovitis: Vi
+With early RA | Patient: E-09
+With early RA | Age: 75
+With early RA | Sex: F
+With early RA | Disease duration: 4 months
+With early RA | ACR criterion nos. fulfilled a: 1, 4, 6
+With early RA | Number of samples: 12
+With early RA | Macroscopic signs of synovitis: Vi, Ve, Gr
+With early RA | Patient: E-10
+With early RA | Age: 25
+With early RA | Sex: F
+With early RA | Disease duration: 12 months
+With early RA | ACR criterion nos. fulfilled a: 1, 2, 3, 4
+With early RA | Number of samples: 12
+With early RA | Macroscopic signs of synovitis: Vi, Ve, Gr
+With early RA | Patient: E-11
+With early RA | Age: 54
+With early RA | Sex: M
+With early RA | Disease duration: 12 months
+With early RA | ACR criterion nos. fulfilled a: 1, 2, 3, 4, 6
+With early RA | Number of samples: 11
+With early RA | Macroscopic signs of synovitis: Ve
+With early RA | Patient: E-12
+With early RA | Age: 60
+With early RA | Sex: F
+With early RA | Disease duration: 4 months
+With early RA | ACR criterion nos. fulfilled a: 1, 2, 3, 4, 6
+With early RA | Number of samples: 13
+With early RA | Macroscopic signs of synovitis: Vi, Ve, Gr
+With long-standing RA | Patient: L-01
+With long-standing RA | Age: 54
+With long-standing RA | Sex: M
+With long-standing RA | Disease duration: 9 years
+With long-standing RA | ACR criterion nos. fulfilled a: 1, 2, 3, 4, 6, 7
+With long-standing RA | Number of samples: 6
+With long-standing RA | Macroscopic signs of synovitis: Vi, Ve, Gr
+With long-standing RA | Patient: L-02
+With long-standing RA | Age: 77
+With long-standing RA | Sex: M
+With long-standing RA | Disease duration: 5 years
+With long-standing RA | ACR criterion nos. fulfilled a: 1, 2, 3, 4, 5, 6, 7
+With long-standing RA | Number of samples: 8
+With long-standing RA | Macroscopic signs of synovitis: Vi, Ve, Gr
+With long-standing RA | Patient: L-03
+With long-standing RA | Age: 54
+With long-standing RA | Sex: F
+With long-standing RA | Disease duration: 7 years
+With long-standing RA | ACR criterion nos. fulfilled a: 1, 2, 3, 4, 6, 7
+With long-standing RA | Number of samples: 6
+With long-standing RA | Macroscopic signs of synovitis: Vi, Ve
+With long-standing RA | Patient: L-04
+With long-standing RA | Age: 55
+With long-standing RA | Sex: F
+With long-standing RA | Disease duration: 3 years
+With long-standing RA | ACR criterion nos. fulfilled a: 1, 2, 3, 4, 6, 7
+With long-standing RA | Number of samples: 11
+With long-standing RA | Macroscopic signs of synovitis: Vi, Ve, Gr

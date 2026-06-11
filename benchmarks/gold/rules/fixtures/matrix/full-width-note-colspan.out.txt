@@ -1,16 +1,12 @@
-1 | SECTION: Accidental death and permanent disability
-1 | SECTION: Each adult insured person under 70
-1 | MAXIMUM LIMIT OF BENEFIT (S$) > VALUE PLAN > INDIVIDUAL COVER: 150,000
-1 | MAXIMUM LIMIT OF BENEFIT (S$) > VALUE PLAN > FAMILY COVER: 300,000 in total
-1 | MAXIMUM LIMIT OF BENEFIT (S$) > ECONOMY PLAN > INDIVIDUAL COVER: 250,000
-1 | MAXIMUM LIMIT OF BENEFIT (S$) > ECONOMY PLAN > FAMILY COVER: 650,000 in total
-1 | MAXIMUM LIMIT OF BENEFIT (S$) > PREMIUM PLAN > INDIVIDUAL COVER: 500,000
-1 | MAXIMUM LIMIT OF BENEFIT (S$) > PREMIUM PLAN > FAMILY COVER: 1,250,000 in total
-17 | SECTION: Automatic extension of cover
-17 | SECTION: Extended period of cover
-17 | MAXIMUM LIMIT OF BENEFIT (S$) > VALUE PLAN > INDIVIDUAL COVER: Up to 30 days
-17 | MAXIMUM LIMIT OF BENEFIT (S$) > VALUE PLAN > FAMILY COVER: Up to 30 days
-17 | MAXIMUM LIMIT OF BENEFIT (S$) > ECONOMY PLAN > INDIVIDUAL COVER: Up to 30 days
-17 | MAXIMUM LIMIT OF BENEFIT (S$) > ECONOMY PLAN > FAMILY COVER: Up to 30 days
-17 | MAXIMUM LIMIT OF BENEFIT (S$) > PREMIUM PLAN > INDIVIDUAL COVER: Up to 30 days
-17 | MAXIMUM LIMIT OF BENEFIT (S$) > PREMIUM PLAN > FAMILY COVER: Up to 30 days
+Accidental death and permanent disability > 1 > Each adult insured person under 70 | MAXIMUM LIMIT OF BENEFIT (S$) > VALUE PLAN > INDIVIDUAL COVER: 150,000
+Accidental death and permanent disability > 1 > Each adult insured person under 70 | MAXIMUM LIMIT OF BENEFIT (S$) > VALUE PLAN > FAMILY COVER: 300,000 in total
+Accidental death and permanent disability > 1 > Each adult insured person under 70 | MAXIMUM LIMIT OF BENEFIT (S$) > ECONOMY PLAN > INDIVIDUAL COVER: 250,000
+Accidental death and permanent disability > 1 > Each adult insured person under 70 | MAXIMUM LIMIT OF BENEFIT (S$) > ECONOMY PLAN > FAMILY COVER: 650,000 in total
+Accidental death and permanent disability > 1 > Each adult insured person under 70 | MAXIMUM LIMIT OF BENEFIT (S$) > PREMIUM PLAN > INDIVIDUAL COVER: 500,000
+Accidental death and permanent disability > 1 > Each adult insured person under 70 | MAXIMUM LIMIT OF BENEFIT (S$) > PREMIUM PLAN > FAMILY COVER: 1,250,000 in total
+Automatic extension of cover > 17 > Extended period of cover | MAXIMUM LIMIT OF BENEFIT (S$) > VALUE PLAN > INDIVIDUAL COVER: Up to 30 days
+Automatic extension of cover > 17 > Extended period of cover | MAXIMUM LIMIT OF BENEFIT (S$) > VALUE PLAN > FAMILY COVER: Up to 30 days
+Automatic extension of cover > 17 > Extended period of cover | MAXIMUM LIMIT OF BENEFIT (S$) > ECONOMY PLAN > INDIVIDUAL COVER: Up to 30 days
+Automatic extension of cover > 17 > Extended period of cover | MAXIMUM LIMIT OF BENEFIT (S$) > ECONOMY PLAN > FAMILY COVER: Up to 30 days
+Automatic extension of cover > 17 > Extended period of cover | MAXIMUM LIMIT OF BENEFIT (S$) > PREMIUM PLAN > INDIVIDUAL COVER: Up to 30 days
+Automatic extension of cover > 17 > Extended period of cover | MAXIMUM LIMIT OF BENEFIT (S$) > PREMIUM PLAN > FAMILY COVER: Up to 30 days

@@ -1,110 +1,99 @@
 Premature Mortality: Rank
-Premature Mortality: Disease/ injury
-Premature Mortality: YLLs (000s)
-Premature Mortality: Cumulative %
-Disability: Disease/injury
-Disability: YLDs (000s)
-Disability: Cumulative%
-Disease Burden: Disease/injury
-Disease Burden: DALYs (000s)
-Disease Burden: % of Total
+Disease/ injury | Premature Mortality: YLLs (000s)
+Disease/ injury | Premature Mortality: Cumulative %
+Disease/ injury | Disability: Disease/injury
+Disease/ injury | Disability: YLDs (000s)
+Disease/ injury | Disability: Cumulative%
+Disease/ injury | Disease Burden: Disease/injury
+Disease/ injury | Disease Burden: DALYs (000s)
+Disease/ injury | Disease Burden: % of Total
 Premature Mortality: 1
-Premature Mortality: Lower res. inf.
-Premature Mortality: 108601
-Premature Mortality: 12.0
-Disability: Depression
-Disability: 50810
-Disability: 10.7
-Disease Burden: Lower res. inf.
-Disease Burden: 112898
-Disease Burden: 8.2
+Lower res. inf. | Premature Mortality: 108601
+Lower res. inf. | Premature Mortality: 12.0
+Lower res. inf. | Disability: Depression
+Lower res. inf. | Disability: 50810
+Lower res. inf. | Disability: 10.7
+Lower res. inf. | Disease Burden: Lower res. inf.
+Lower res. inf. | Disease Burden: 112898
+Lower res. inf. | Disease Burden: 8.2
 Premature Mortality: 2
-Premature Mortality: Diarrhoeal dis.
-Premature Mortality: 94434
-Premature Mortality: 22.4
-Disability: Iron def. anaem.
-Disability: 21987
-Disability: 15.4
-Disease Burden: Diarrhoeal dis.
-Disease Burden: 99633
-Disease Burden: 7.2
+Diarrhoeal dis. | Premature Mortality: 94434
+Diarrhoeal dis. | Premature Mortality: 22.4
+Diarrhoeal dis. | Disability: Iron def. anaem.
+Diarrhoeal dis. | Disability: 21987
+Diarrhoeal dis. | Disability: 15.4
+Diarrhoeal dis. | Disease Burden: Diarrhoeal dis.
+Diarrhoeal dis. | Disease Burden: 99633
+Diarrhoeal dis. | Disease Burden: 7.2
 Premature Mortality: 3
-Premature Mortality: Perinatal cond.
-Premature Mortality: 82681
-Premature Mortality: 31.5
-Disability: Falls
-Disability: 21949
-Disability: 20.0
-Disease Burden: Perinatal cond.
-Disease Burden: 92313
-Disease Burden: 6.7
+Perinatal cond. | Premature Mortality: 82681
+Perinatal cond. | Premature Mortality: 31.5
+Perinatal cond. | Disability: Falls
+Perinatal cond. | Disability: 21949
+Perinatal cond. | Disability: 20.0
+Perinatal cond. | Disease Burden: Perinatal cond.
+Perinatal cond. | Disease Burden: 92313
+Perinatal cond. | Disease Burden: 6.7
 Premature Mortality: 4
-Premature Mortality: Isch. heart dis.
-Premature Mortality: 41595
-Premature Mortality: 36.1
-Disability: Alcohol use
-Disability: 15770
-Disability: 23.4
-Disease Burden: Depression
-Disease Burden: 50810
-Disease Burden: 3.7
+Isch. heart dis. | Premature Mortality: 41595
+Isch. heart dis. | Premature Mortality: 36.1
+Isch. heart dis. | Disability: Alcohol use
+Isch. heart dis. | Disability: 15770
+Isch. heart dis. | Disability: 23.4
+Isch. heart dis. | Disease Burden: Depression
+Isch. heart dis. | Disease Burden: 50810
+Isch. heart dis. | Disease Burden: 3.7
 Premature Mortality: 5
-Premature Mortality: Measles
-Premature Mortality: 36450
-Premature Mortality: 40.1
-Disability: COPD 1
-Disability: 14692
-Disability: 26.5
-Disease Burden: Isch. heart dis.
-Disease Burden: 46699
-Disease Burden: 3.4
+Measles | Premature Mortality: 36450
+Measles | Premature Mortality: 40.1
+Measles | Disability: COPD 1
+Measles | Disability: 14692
+Measles | Disability: 26.5
+Measles | Disease Burden: Isch. heart dis.
+Measles | Disease Burden: 46699
+Measles | Disease Burden: 3.4
 Premature Mortality: 6
-Premature Mortality: Tuberculosis
-Premature Mortality: 34304
-Premature Mortality: 43.9
-Disability: Bipolar dis.
-Disability: 14141
-Disability: 29.5
-Disease Burden: Cerebrovas. dis.
-Disease Burden: 38523
-Disease Burden: 2.8
+Tuberculosis | Premature Mortality: 34304
+Tuberculosis | Premature Mortality: 43.9
+Tuberculosis | Disability: Bipolar dis.
+Tuberculosis | Disability: 14141
+Tuberculosis | Disability: 29.5
+Tuberculosis | Disease Burden: Cerebrovas. dis.
+Tuberculosis | Disease Burden: 38523
+Tuberculosis | Disease Burden: 2.8
 Premature Mortality: 7
-Premature Mortality: Cerebrovas. Dis.
-Premature Mortality: 32115
-Premature Mortality: 47.5
-Disability: Congenital anom
-Disability: 13507
-Disability: 32.3
-Disease Burden: Tuberculosis
-Disease Burden: 38426
-Disease Burden: 2.8
+Cerebrovas. Dis. | Premature Mortality: 32115
+Cerebrovas. Dis. | Premature Mortality: 47.5
+Cerebrovas. Dis. | Disability: Congenital anom
+Cerebrovas. Dis. | Disability: 13507
+Cerebrovas. Dis. | Disability: 32.3
+Cerebrovas. Dis. | Disease Burden: Tuberculosis
+Cerebrovas. Dis. | Disease Burden: 38426
+Cerebrovas. Dis. | Disease Burden: 2.8
 Premature Mortality: 8
-Premature Mortality: Malaria
-Premature Mortality: 28038
-Premature Mortality: 50.5
-Disability: Osteoarthritis
-Disability: 13275
-Disability: 35.1
-Disease Burden: Measles
-Disease Burden: 36520
-Disease Burden: 2.7
+Malaria | Premature Mortality: 28038
+Malaria | Premature Mortality: 50.5
+Malaria | Disability: Osteoarthritis
+Malaria | Disability: 13275
+Malaria | Disability: 35.1
+Malaria | Disease Burden: Measles
+Malaria | Disease Burden: 36520
+Malaria | Disease Burden: 2.7
 Premature Mortality: 9
-Premature Mortality: Road traffic acc.
-Premature Mortality: 26162
-Premature Mortality: 53.4
-Disability: Schizophrenia
-Disability: 12183
-Disability: 37.7
-Disease Burden: Road traffic acc.
-Disease Burden: 34317
-Disease Burden: 2.5
+Road traffic acc. | Premature Mortality: 26162
+Road traffic acc. | Premature Mortality: 53.4
+Road traffic acc. | Disability: Schizophrenia
+Road traffic acc. | Disability: 12183
+Road traffic acc. | Disability: 37.7
+Road traffic acc. | Disease Burden: Road traffic acc.
+Road traffic acc. | Disease Burden: 34317
+Road traffic acc. | Disease Burden: 2.5
 Premature Mortality: 10
-Premature Mortality: Congenital anom.
-Premature Mortality: 19414
-Premature Mortality: 55.6
-Disability: Obs.-comp dis 2
-Disability: 10213
-Disability: 39.9
-Disease Burden: Congenital anom.
-Disease Burden: 32921
-Disease Burden: 2.4
+Congenital anom. | Premature Mortality: 19414
+Congenital anom. | Premature Mortality: 55.6
+Congenital anom. | Disability: Obs.-comp dis 2
+Congenital anom. | Disability: 10213
+Congenital anom. | Disability: 39.9
+Congenital anom. | Disease Burden: Congenital anom.
+Congenital anom. | Disease Burden: 32921
+Congenital anom. | Disease Burden: 2.4

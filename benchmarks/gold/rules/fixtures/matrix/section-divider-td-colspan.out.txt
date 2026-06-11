@@ -1,14 +1,12 @@
-No.: Section One
-1 | Item: alpha
-1 | Values > X: 10
-1 | Values > Y: 20
-2 | Item: beta
-2 | Values > X: 11
-2 | Values > Y: 21
-No.: Section Two
-3 | Item: gamma
-3 | Values > X: 30
-3 | Values > Y: 40
-4 | Item: delta
-4 | Values > X: 31
-4 | Values > Y: 41
+Section One > 1 | Item: alpha
+Section One > 1 | Values > X: 10
+Section One > 1 | Values > Y: 20
+Section One > 2 | Item: beta
+Section One > 2 | Values > X: 11
+Section One > 2 | Values > Y: 21
+Section Two > 3 | Item: gamma
+Section Two > 3 | Values > X: 30
+Section Two > 3 | Values > Y: 40
+Section Two > 4 | Item: delta
+Section Two > 4 | Values > X: 31
+Section Two > 4 | Values > Y: 41

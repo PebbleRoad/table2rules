@@ -1,16 +1,54 @@
-Variables | Formulation A | Formulation B | Total | p
-N | 17 | 17 | 34 | 
-Age (years) | 52 ± 15 (19–72) | 52 ± 16 (23–75) | 52 ± 15 (19–75) | 0.90*
-Weight (Kg) | 60 ± 12 (40–87) | 59 ± 13 (42–83) | 59 ± 12 (40–87) | 0.82*
-Sex | Male | 11 (64.7%) | 8 (47.1%) | 19 (55.9%) | 0.30 Δ
- | Female | 6 (35.3%) | 9 (52.9%) | 15 (44.1%) | 
-Race | White | 8 (47.1%) | 10 (58.8%) | 18 (52.9%) | 0.73 !
- | Non-white | 9 (52.9%) | 7 (41.2%) | 16 (47.1%) | 
-Smoking | 4 (23.5%) | 1 (5.9%) | 5 (14.7%) | 0.33 !
-Alcohol consumption | 4 (23.5%) | 1 (5.9%) | 5 (14.7%) | 0.33 !
-Coffee drinking | 7 (41.2%) | 7 (41.2%) | 14 (41.2%) | 1.00 Δ
-Causes of renal failure |  |  |  | 
-Diabetes Mellitus | 7 (46.7%) | 6 (40.0%) | 13 (43.3%) | 0.71 Δ
-Hypertension | 5 (33.3%) | 4 (26.7%) | 9 (30.0%) | 1.00 !
-Other glomerulopathies | 1 (6.7%) | 1 (6.7%) | 2 (6.7%) | 1.00 !
-Cystic disease | 1 (6.7%) | 3 (20.0%) | 4 (5.6%) | 0.60 !
+N | Formulation A: 17
+N | Formulation B: 17
+N | Total: 34
+Age (years) | Formulation A: 52 ± 15 (19–72)
+Age (years) | Formulation B: 52 ± 16 (23–75)
+Age (years) | Total: 52 ± 15 (19–75)
+Age (years) | p: 0.90*
+Weight (Kg) | Formulation A: 60 ± 12 (40–87)
+Weight (Kg) | Formulation B: 59 ± 13 (42–83)
+Weight (Kg) | Total: 59 ± 12 (40–87)
+Weight (Kg) | p: 0.82*
+Sex > Male | Formulation A: 11 (64.7%)
+Sex > Male | Formulation B: 8 (47.1%)
+Sex > Male | Total: 19 (55.9%)
+Sex > Male | p: 0.30 Δ
+Female | Formulation A: 6 (35.3%)
+Female | Formulation B: 9 (52.9%)
+Female | Total: 15 (44.1%)
+Race > White | Formulation A: 8 (47.1%)
+Race > White | Formulation B: 10 (58.8%)
+Race > White | Total: 18 (52.9%)
+Race > White | p: 0.73 !
+Non-white | Formulation A: 9 (52.9%)
+Non-white | Formulation B: 7 (41.2%)
+Non-white | Total: 16 (47.1%)
+Smoking | Formulation A: 4 (23.5%)
+Smoking | Formulation B: 1 (5.9%)
+Smoking | Total: 5 (14.7%)
+Smoking | p: 0.33 !
+Alcohol consumption | Formulation A: 4 (23.5%)
+Alcohol consumption | Formulation B: 1 (5.9%)
+Alcohol consumption | Total: 5 (14.7%)
+Alcohol consumption | p: 0.33 !
+Coffee drinking | Formulation A: 7 (41.2%)
+Coffee drinking | Formulation B: 7 (41.2%)
+Coffee drinking | Total: 14 (41.2%)
+Coffee drinking | p: 1.00 Δ
+Causes of renal failure
+Diabetes Mellitus | Formulation A: 7 (46.7%)
+Diabetes Mellitus | Formulation B: 6 (40.0%)
+Diabetes Mellitus | Total: 13 (43.3%)
+Diabetes Mellitus | p: 0.71 Δ
+Hypertension | Formulation A: 5 (33.3%)
+Hypertension | Formulation B: 4 (26.7%)
+Hypertension | Total: 9 (30.0%)
+Hypertension | p: 1.00 !
+Other glomerulopathies | Formulation A: 1 (6.7%)
+Other glomerulopathies | Formulation B: 1 (6.7%)
+Other glomerulopathies | Total: 2 (6.7%)
+Other glomerulopathies | p: 1.00 !
+Cystic disease | Formulation A: 1 (6.7%)
+Cystic disease | Formulation B: 3 (20.0%)
+Cystic disease | Total: 4 (5.6%)
+Cystic disease | p: 0.60 !
