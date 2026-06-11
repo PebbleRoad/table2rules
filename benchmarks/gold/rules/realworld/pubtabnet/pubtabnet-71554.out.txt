@@ -1,50 +1,44 @@
-Marker: Proliferation
-Marker: BrdU
-Species: Mouse IgG
-Working dilution: 1:500
-Vendor or productor: Novo Castra (Newcastle, UK)
-Marker: BrdU
-Species: Rat IgG
-Working dilution: 1:500
-Vendor or productor: Accurate Chemicals (New York, USA)
-Marker: Magnocellular neurons
-Marker: OT
-Species: Rabbit IgG
-Working dilution: 1:2000
-Vendor or productor: Produced by G. Alonso
-Marker: VP
-Species: Rabbit IgG
-Working dilution: 1:2000
-Vendor or productor: Produced by G. Alonso
-Marker: Astrocytes
-Marker: GFAP
-Species: Rabbit IgG
-Working dilution: 1:5000
-Vendor or productor: Dakko (Glostrup, Denmark)
-Marker: Microglia and endothelial cells
-Marker: Lectin from bandeirae
-Working dilution: 1:2000
-Vendor or productor: Sigma
-Marker: Simplifolia (IsoB4)
-Marker: Oligodendrocyte progenitors
-Marker: NG2
-Species: Rabbit IgG
-Working dilution: 1:500
-Vendor or productor: Chemicon (Temecula, USA)
-Marker: Vessels
-Marker: Rat IgG-Alexa 488 conjugated
-Species: Goat IgG
-Working dilution: 1:2000
-Vendor or productor: Molecular Probes (Eugene, USA)
-Marker: EBA
-Species: Mouse IGM
-Working dilution: 1:5000
-Vendor or productor: Sternberger Monoclonals (Lutherville, USA)
-Marker: Nestin
-Species: Mouse IgG
-Working dilution: 1:100
-Vendor or productor: Hybridoma Bank (Iowa city, USA)
-Marker: Vimentin
-Species: Mouse IgG
-Working dilution: 1:5000
-Vendor or productor: Sigma
+Proliferation | Marker: BrdU
+Proliferation | Species: Mouse IgG
+Proliferation | Working dilution: 1:500
+Proliferation | Vendor or productor: Novo Castra (Newcastle, UK)
+Proliferation | Marker: BrdU
+Proliferation | Species: Rat IgG
+Proliferation | Working dilution: 1:500
+Proliferation | Vendor or productor: Accurate Chemicals (New York, USA)
+Magnocellular neurons | Marker: OT
+Magnocellular neurons | Species: Rabbit IgG
+Magnocellular neurons | Working dilution: 1:2000
+Magnocellular neurons | Vendor or productor: Produced by G. Alonso
+Magnocellular neurons | Marker: VP
+Magnocellular neurons | Species: Rabbit IgG
+Magnocellular neurons | Working dilution: 1:2000
+Magnocellular neurons | Vendor or productor: Produced by G. Alonso
+Astrocytes | Marker: GFAP
+Astrocytes | Species: Rabbit IgG
+Astrocytes | Working dilution: 1:5000
+Astrocytes | Vendor or productor: Dakko (Glostrup, Denmark)
+Microglia and endothelial cells | Marker: Lectin from bandeirae
+Microglia and endothelial cells | Working dilution: 1:2000
+Microglia and endothelial cells | Vendor or productor: Sigma
+Microglia and endothelial cells | Marker: Simplifolia (IsoB4)
+Oligodendrocyte progenitors | Marker: NG2
+Oligodendrocyte progenitors | Species: Rabbit IgG
+Oligodendrocyte progenitors | Working dilution: 1:500
+Oligodendrocyte progenitors | Vendor or productor: Chemicon (Temecula, USA)
+Vessels | Marker: Rat IgG-Alexa 488 conjugated
+Vessels | Species: Goat IgG
+Vessels | Working dilution: 1:2000
+Vessels | Vendor or productor: Molecular Probes (Eugene, USA)
+Vessels | Marker: EBA
+Vessels | Species: Mouse IGM
+Vessels | Working dilution: 1:5000
+Vessels | Vendor or productor: Sternberger Monoclonals (Lutherville, USA)
+Vessels | Marker: Nestin
+Vessels | Species: Mouse IgG
+Vessels | Working dilution: 1:100
+Vessels | Vendor or productor: Hybridoma Bank (Iowa city, USA)
+Vessels | Marker: Vimentin
+Vessels | Species: Mouse IgG
+Vessels | Working dilution: 1:5000
+Vessels | Vendor or productor: Sigma

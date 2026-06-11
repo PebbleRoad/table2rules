@@ -1,39 +1,36 @@
-Cytokine: Synovial membrane
-Cytokine: IL-1β
-Day(s): 0–6
-Correlation a: +
-P a: 0.05
-ρ a: 0.527
-n: 25
-Cytokine: IL-6
-Day(s): 0–6
-Correlation a: +
-P a: 0.03
-ρ a: 0.405
-n: 28
-Cytokine: Inguinal lymph node
-Cytokine: IL-6
-Day(s): 3
-Correlation a: +
-P a: 0.02
-ρ a: 0.886
-n: 6
-Cytokine: Spleen
-Cytokine: IL-6
-Day(s): 0–6
-Correlation a: +
-P a: 0.01
-ρ a: 0.511
-n: 25
-Cytokine: IL-5
-Day(s): 6
-Correlation a: -
-P a: <0.001
-ρ a: 1.000
-n: 4
-Cytokine: IL-10
-Day(s): 6
-Correlation a: -
-P a: 0.04
-ρ a: 0.829
-n: 6
+Synovial membrane | Cytokine: IL-1β
+Synovial membrane | Day(s): 0–6
+Synovial membrane | Correlation a: +
+Synovial membrane | P a: 0.05
+Synovial membrane | ρ a: 0.527
+Synovial membrane | n: 25
+Synovial membrane | Cytokine: IL-6
+Synovial membrane | Day(s): 0–6
+Synovial membrane | Correlation a: +
+Synovial membrane | P a: 0.03
+Synovial membrane | ρ a: 0.405
+Synovial membrane | n: 28
+Inguinal lymph node | Cytokine: IL-6
+Inguinal lymph node | Day(s): 3
+Inguinal lymph node | Correlation a: +
+Inguinal lymph node | P a: 0.02
+Inguinal lymph node | ρ a: 0.886
+Inguinal lymph node | n: 6
+Spleen | Cytokine: IL-6
+Spleen | Day(s): 0–6
+Spleen | Correlation a: +
+Spleen | P a: 0.01
+Spleen | ρ a: 0.511
+Spleen | n: 25
+Spleen | Cytokine: IL-5
+Spleen | Day(s): 6
+Spleen | Correlation a: -
+Spleen | P a: <0.001
+Spleen | ρ a: 1.000
+Spleen | n: 4
+Spleen | Cytokine: IL-10
+Spleen | Day(s): 6
+Spleen | Correlation a: -
+Spleen | P a: 0.04
+Spleen | ρ a: 0.829
+Spleen | n: 6

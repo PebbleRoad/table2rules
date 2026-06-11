@@ -247,6 +247,78 @@ def _build_rules(grid) -> List[LogicRule]:
     return rules
 
 
+def _mark_rowgroup_bands(grid) -> None:
+    """Promote value-region-wide body dividers to ``<th scope="rowgroup">`` so
+    the maze threads them into each value line's row path as bounded, nested
+    row-group ancestors — the row-side counterpart of the multi-level column
+    header path.
+
+    A candidate is a body cell whose span reaches the last column and covers a
+    majority of the grid (``is_full_width_note`` geometry): a section band
+    (full width) or a group header / description spanning the value region. A
+    candidate is promoted only when its extent contains at least one real data
+    row — so a standalone trailing note (which groups nothing) is left as a
+    note and still emitted, never stranded as an empty-extent rowgroup. Nested
+    candidates are bounded by colspan: a band's extent ends at the next
+    candidate whose span is equal or wider. Cells already marked
+    ``scope="rowgroup"`` by the source are honored as-is.
+    """
+    if not grid or not grid[0]:
+        return
+    n_cols = len(grid[0])
+    # Column-header texts. A full-width body cell that merely repeats a column
+    # header (a units caption like "(In thousands, except per share data)"
+    # reprinted between sections) is an annotation, not a row-group divider —
+    # promoting it would stamp it onto every row path (where it is already noise
+    # in the column path). Exclude such echoes.
+    header_texts = {
+        (cell.get("text") or "").strip().lower()
+        for row in grid
+        for cell in row
+        if cell and cell.get("is_thead") and (cell.get("text") or "").strip()
+    }
+    candidates = []  # (row, col, colspan)
+    for r in range(len(grid)):
+        for c in range(n_cols):
+            cell = grid[r][c]
+            if not cell or cell.get("is_span_copy"):
+                continue
+            if cell.get("is_thead") or cell.get("is_header_row"):
+                continue
+            text = (cell.get("text") or "").strip()
+            if not text:
+                continue
+            if text.lower() in header_texts:
+                continue
+            if is_full_width_note(c, cell.get("colspan", 1), n_cols):
+                candidates.append((r, c, cell.get("colspan", 1)))
+    candidate_rows = {r for (r, _c, _cs) in candidates}
+
+    def _next_band_below(after_row: int, min_colspan: int) -> int:
+        for rr in range(after_row + 1, len(grid)):
+            if any(r == rr and cs >= min_colspan for (r, _c, cs) in candidates):
+                return rr
+        return len(grid)
+
+    for r, c, cs in candidates:
+        extent_end = _next_band_below(r, cs) - 1
+        has_data_row = False
+        for rr in range(r + 1, extent_end + 1):
+            if rr in candidate_rows:
+                continue
+            if any(
+                grid[rr][cc]["type"] == "td" and (grid[rr][cc].get("text") or "").strip()
+                for cc in range(n_cols)
+            ):
+                has_data_row = True
+                break
+        if not has_data_row:
+            continue
+        for cc in range(c, min(c + cs, n_cols)):
+            grid[r][cc]["type"] = "th"
+            grid[r][cc]["scope"] = "rowgroup"
+
+
 def _process_table_with_gate(table_html: str) -> Tuple[List[LogicRule], GateResult]:
     """Runs the full pipeline and returns rules plus the gate verdict.
 
@@ -264,6 +336,7 @@ def _process_table_with_gate(table_html: str) -> Tuple[List[LogicRule], GateResu
     if not grid:
         return [], GateResult(ok=False, score=0.0, reasons=["empty_grid"])
 
+    _mark_rowgroup_bands(grid)
     rules = clean_rules(_build_rules(grid))
     gate = assess_confidence(grid, rules)
     if not gate.ok:

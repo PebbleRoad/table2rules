@@ -8,9 +8,10 @@
      divider and the data row beneath it into the <thead>, and they then bleed
      onto every body line as fabricated column headers. With the cap, a series
      of >= 2 full-width single-cell rows is recognised as body section dividers:
-     the header ends at the first one, and the dividers stay in the body as
-     full-width notes (emitted once each), never promoted to <th scope="row">
-     (which would strand them, as they have no value column to anchor a rule). -->
+     the header ends at the first one. Each divider becomes a row-group band
+     whose label threads into the row path of the rows it groups, so every value
+     line carries its section ("Section One > 1 | Values > X: 10") instead of
+     the section leaking onto unrelated rows. -->
 <table>
   <tbody>
     <tr><th rowspan="2">No.</th><th rowspan="2">Item</th><th colspan="2">Values</th></tr>

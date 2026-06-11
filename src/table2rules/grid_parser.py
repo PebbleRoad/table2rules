@@ -465,6 +465,28 @@ def parse_table_to_grid(table: Tag) -> List[List[Dict[str, Any]]]:
                 continue
             promote_cols.add(c)
 
+        # --- Signal C: stub-dimension columns under the leftmost top-level
+        # header group ---
+        # When the leftmost top-level (row 0) header spans more than one column
+        # AND a distinct value-header group exists to its right, that leftmost
+        # group is the row-label dimension (e.g. a "SECTION" header spanning the
+        # rownum and person-class columns, beside a "MAXIMUM LIMIT" value group).
+        # Its descriptor columns are row labels even though they carry thead text
+        # — promoting them threads the row identity (the person-class) into each
+        # value line, not just the leading rownum, mirroring the column path.
+        top0 = grid[0][0] if grid and grid[0] else None
+        if top0 and top0.get("is_thead"):
+            stub_origin = top0.get("origin", (0, 0)) if top0.get("is_span_copy") else (0, 0)
+            stub_cell = grid[stub_origin[0]][stub_origin[1]]
+            stub_width = stub_cell.get("colspan", 1) if stub_cell else 1
+            has_value_group_right = stub_width < max_cols and any(
+                has_thead_text[c] for c in range(stub_width, max_cols)
+            )
+            if stub_width >= 2 and has_value_group_right:
+                for c in range(stub_width):
+                    if _descriptor_like(c):
+                        promote_cols.add(c)
+
         if promote_cols:
             for c in sorted(promote_cols):
                 for r in range(data_start_row_idx, len(grid)):

@@ -1,0 +1,8 @@
+1. ACCIDENT > Accidental death and disability > 1 > Adult under 70 | PLANS > BASIC: 100
+1. ACCIDENT > Accidental death and disability > 1 > Adult under 70 | PLANS > ELITE: 200
+1. ACCIDENT > Accidental death and disability > 1 > Child | PLANS > BASIC: 50
+1. ACCIDENT > Accidental death and disability > 1 > Child | PLANS > ELITE: 100
+2. MEDICAL > Overseas expenses > 2 > Adult under 70 | PLANS > BASIC: 300
+2. MEDICAL > Overseas expenses > 2 > Adult under 70 | PLANS > ELITE: 400
+2. MEDICAL > Overseas expenses > Child | PLANS > BASIC: 150
+2. MEDICAL > Overseas expenses > Child | PLANS > ELITE: 250

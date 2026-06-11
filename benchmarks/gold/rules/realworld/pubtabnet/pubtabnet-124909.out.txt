@@ -25,16 +25,15 @@ Overall | Actual Sample: 0.08
 Overall | Actual Sample: 19
 Overall | Our Estimate: 1.000
 Overall | Our Estimate: 0.0%
-Overall Test for heterogeneity between sub-groups
-Actual Sample: 0.00
-Actual Sample: 1
-Our Estimate: 0.975
-Significance test(s) of WMD = 0 | Actual Sample: Sample
-Significance test(s) of WMD = 0 | Our Estimate: z = 0.02
-Significance test(s) of WMD = 0 | Our Estimate: p = 0.984
-Actual Sample: Estimate
-Our Estimate: z = 0.03
-Our Estimate: p = 0.980
-Actual Sample: Overall
-Our Estimate: z = 0.01
-Our Estimate: p = 0.995
+Overall Test for heterogeneity between sub-groups | Actual Sample: 0.00
+Overall Test for heterogeneity between sub-groups | Actual Sample: 1
+Overall Test for heterogeneity between sub-groups | Our Estimate: 0.975
+Overall Test for heterogeneity between sub-groups > Significance test(s) of WMD = 0 | Actual Sample: Sample
+Overall Test for heterogeneity between sub-groups > Significance test(s) of WMD = 0 | Our Estimate: z = 0.02
+Overall Test for heterogeneity between sub-groups > Significance test(s) of WMD = 0 | Our Estimate: p = 0.984
+Overall Test for heterogeneity between sub-groups | Actual Sample: Estimate
+Overall Test for heterogeneity between sub-groups | Our Estimate: z = 0.03
+Overall Test for heterogeneity between sub-groups | Our Estimate: p = 0.980
+Overall Test for heterogeneity between sub-groups | Actual Sample: Overall
+Overall Test for heterogeneity between sub-groups | Our Estimate: z = 0.01
+Overall Test for heterogeneity between sub-groups | Our Estimate: p = 0.995
