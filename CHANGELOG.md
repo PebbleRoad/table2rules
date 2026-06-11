@@ -5,6 +5,51 @@ All notable changes to `table2rules` are documented here. Dates are in
 
 ## [Unreleased]
 
+## [0.6.0] — 2026-06-11
+
+### Added
+
+- **Hierarchical row-groups are threaded into every value line, symmetric with
+  the multi-level column header path.** Previously rules-mode fully qualified
+  the *column* side of each value (`… | A > B > C: value`) but dropped the *row*
+  hierarchy — section bands, group headers, and the data-row label were emitted
+  as separate, indistinguishable lines, and value lines carried none of that
+  row context. A consumer feeding the text to an LLM had to reconstruct "which
+  group / which sub-class does this value belong to" by stateful inference
+  across lines, which is non-deterministic. Now each value line carries its full
+  row path, so one line maps to exactly one record:
+
+  ```
+  1. PERSONAL ACCIDENT > Accidental death and permanent disability > 1 > Each adult insured person under 70 | MAXIMUM LIMIT OF BENEFIT (S$) > VALUE PLAN > INDIVIDUAL COVER: 150,000
+  ```
+
+  Detection is geometric and honors explicit markup:
+  - A value-region-wide body cell (`is_full_width_note` geometry — reaches the
+    last column, spans a majority) is a **row-group band**: a full-width section
+    band, or a group header / description spanning the value region. It is
+    promoted to `scope="rowgroup"` and threaded as a bounded ancestor of the
+    rows it groups. **Nested** bands are bounded by colspan — a band's extent
+    ends at the next band of equal-or-wider span — so an inner group header does
+    not close an outer section band. Source cells already marked
+    `scope="rowgroup"` are honored as-is.
+  - The maze walks the data cell's **own column** (which a value-region-wide
+    band spans) in addition to the row-label columns, so a band is found even
+    when the row's label cell is empty — fixing the case where a group's
+    unlabeled continuation row previously lost its band entirely.
+  - Columns under the leftmost top-level header group (the row-label / stub
+    dimension, e.g. a `SECTION` header spanning the rownum and person-class
+    columns beside a separate value-header group) are threaded as row labels
+    even though they carry header text, so the row identity — not just the
+    leading number — appears on each value line.
+
+  Guards keep it faithful: a band is promoted only when its extent contains a
+  real data row (so a standalone trailing note is left as a note, never
+  stranded), and a full-width body cell that merely repeats a column header (a
+  units caption like "(In thousands…)" reprinted between sections) is not
+  treated as a band. Existing `scope="rowgroup"` tables (e.g. FinTabNet year
+  bands) are unchanged. New fixtures `matrix/rowgroup-nested-bands`,
+  `matrix/full-width-note-colspan`, `matrix/section-divider-td-colspan`.
+
 ## [0.5.2] — 2026-06-09
 
 ### Fixed
