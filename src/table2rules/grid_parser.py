@@ -487,6 +487,24 @@ def parse_table_to_grid(table: Tag) -> List[List[Dict[str, Any]]]:
                     if _descriptor_like(c):
                         promote_cols.add(c)
 
+        # --- Signal D: stub column in a 2-column Label|Value schedule ---
+        # In a two-column table the left column is the row-label/stub and the
+        # right column is its value — even when col 0 carries a thead header,
+        # which Signals A/C/B all skip (they need a multi-row/rowspan header or
+        # an unlabeled column). This is the single-row-thead
+        # "Benefit | Maximum limit (S$)" schedule shape. Scoped to exactly two
+        # columns so multi-column property tables (where col 0 is one data field
+        # among several) are untouched; col 0 must be descriptor-like and col 1
+        # must carry values, so a two-column all-text table is left alone.
+        if (
+            max_cols == 2
+            and 0 not in promote_cols
+            and _descriptor_like(0)
+            and body_nonempty[1] >= 1
+            and not _descriptor_like(1)
+        ):
+            promote_cols.add(0)
+
         if promote_cols:
             for c in sorted(promote_cols):
                 for r in range(data_start_row_idx, len(grid)):

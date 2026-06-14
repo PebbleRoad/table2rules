@@ -1,0 +1,16 @@
+Trip Cancellation > If your trip is cancelled due to specified events. > 9 > 1. Adult insured person | Value Plan > Individual: 5,000
+Trip Cancellation > If your trip is cancelled due to specified events. > 9 > 1. Adult insured person | Value Plan > Family: 10,000
+Trip Cancellation > If your trip is cancelled due to specified events. > 9 > 1. Adult insured person | Economy Plan > Individual: 3,000
+Trip Cancellation > If your trip is cancelled due to specified events. > 9 > 1. Adult insured person | Economy Plan > Family: 6,000
+Trip Cancellation > If your trip is cancelled due to specified events. > 9 > 2. Child insured person | Value Plan > Individual: 2,500
+Trip Cancellation > If your trip is cancelled due to specified events. > 9 > 2. Child insured person | Value Plan > Family: 5,000
+Trip Cancellation > If your trip is cancelled due to specified events. > 9 > 2. Child insured person | Economy Plan > Individual: 1,500
+Trip Cancellation > If your trip is cancelled due to specified events. > 9 > 2. Child insured person | Economy Plan > Family: 3,000
+Travel delay > If the departure of your public transport is delayed by six hours. > 10 > 1. Adult insured person | Value Plan > Individual: 100
+Travel delay > If the departure of your public transport is delayed by six hours. > 10 > 1. Adult insured person | Value Plan > Family: 200
+Travel delay > If the departure of your public transport is delayed by six hours. > 10 > 1. Adult insured person | Economy Plan > Individual: 150
+Travel delay > If the departure of your public transport is delayed by six hours. > 10 > 1. Adult insured person | Economy Plan > Family: 300
+Travel delay > If the departure of your public transport is delayed by six hours. > 10 > 2. Child insured person | Value Plan > Individual: 50
+Travel delay > If the departure of your public transport is delayed by six hours. > 10 > 2. Child insured person | Value Plan > Family: 100
+Travel delay > If the departure of your public transport is delayed by six hours. > 10 > 2. Child insured person | Economy Plan > Individual: 75
+Travel delay > If the departure of your public transport is delayed by six hours. > 10 > 2. Child insured person | Economy Plan > Family: 150

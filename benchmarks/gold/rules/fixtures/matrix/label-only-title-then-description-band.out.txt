@@ -1,0 +1,5 @@
+9. Trip Cancellation > If your trip is cancelled due to specified events before departure. > 1. Adult insured person | Maximum limit (S$): 5,000
+9. Trip Cancellation > If your trip is cancelled due to specified events before departure. > 2. Child insured person | Maximum limit (S$): 2,500
+10. Travel Delay > If the departure of your public transport is delayed by at least six hours. > 1. Adult insured person | Maximum limit (S$): 100 per six hours up to 1,500
+10. Travel Delay > If the departure of your public transport is delayed by at least six hours. > 2. Child insured person | Maximum limit (S$): 50 per six hours up to 1,500
+11. Trip Postponement

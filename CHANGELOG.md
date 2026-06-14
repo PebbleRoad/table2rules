@@ -5,6 +5,38 @@ All notable changes to `table2rules` are documented here. Dates are in
 
 ## [Unreleased]
 
+### Fixed
+
+- **Label-only row-group headers now thread through real docling schedule
+  shapes.** Three additional shapes from real `TableItem.export_to_html` output
+  were dropping the line-item title from grouped values' `row_headers`:
+  - *Narrow title → full-width description band → values.* The title's row-group
+    extent now extends *through* an immediately-following full-width description
+    band (a nested member of the header block, not a boundary), so the title
+    threads as the outer ancestor instead of being dropped:
+    `9. Trip Cancellation > If your trip is cancelled… > 1. Adult insured person | …`.
+  - *Multi-cell title rows* (a leading item number/key plus a textual title, e.g.
+    `10 | Travel delay`) are now recognized as group headers. A row is a title
+    when at most one of its label cells is numeric-only — this admits the
+    number+title shape while still rejecting a data row whose value columns merely
+    happen to be empty (`Average: | 80.2 | 10.7 | 3.3`, ≥2 numeric). A repeating
+    key column is excluded from the promoted title so it is not duplicated.
+  - *Two-column `Label | Value` schedules.* The left column is now promoted to the
+    row-label/stub even under a single-row thead header (`Benefit | Maximum limit`)
+    — Signal D, scoped to exactly two columns so multi-column property tables are
+    untouched. This also produces proper one-record-per-line output for plain
+    two-column relational tables (`North | Sales: 100`) instead of splitting each
+    row into two disconnected `Header: value` lines.
+
+  New fixtures `matrix/label-only-title-then-description-band` and
+  `matrix/label-only-title-number-key-matrix`.
+
+  *Known limitation:* a sub-grouped header of the form `<n>. | Group: | (empty)`
+  with a `colspan` title over a promoted descriptor column still falls back to
+  flat (the spanned cell trips the gate's "rules originate from `<td>`"
+  invariant). This is a pre-existing, separate gate interaction — not the
+  label-only-threading path — and is tracked for a follow-up.
+
 ## [0.6.2] — 2026-06-14
 
 ### Fixed

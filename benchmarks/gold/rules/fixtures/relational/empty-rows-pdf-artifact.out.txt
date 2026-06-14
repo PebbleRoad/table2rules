@@ -1,4 +1,2 @@
-Item: Widget
-Qty: 10
-Item: Gadget
-Qty: 20
+Widget | Qty: 10
+Gadget | Qty: 20
