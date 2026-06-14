@@ -172,7 +172,14 @@ def find_headers_for_cell(
             origin_row, origin_col = origin
             my_colspan = origin_cell.get("colspan", 1)
             origin_rowspan = origin_cell.get("rowspan", 1)
-            if origin_rowspan > 1:
+            stored_extent = origin_cell.get("rowgroup_extent_end")
+            if stored_extent is not None:
+                # Label-only bands carry an explicit extent (the run of value
+                # rows they group, bounded by the next stack or section band),
+                # because their colspan=1 label cannot encode nesting depth the
+                # way a full-width band's width does.
+                extent_end = stored_extent
+            elif origin_rowspan > 1:
                 extent_end = origin_row + origin_rowspan - 1
             else:
                 extent_end = len(grid) - 1

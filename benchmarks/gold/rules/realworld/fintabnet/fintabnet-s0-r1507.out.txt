@@ -1,4 +1,3 @@
-Mainline CASM:
 Mainline CASM: > Aircraft fuel and related taxes | 2012 > (In cents): 5.05
 Mainline CASM: > Aircraft fuel and related taxes | 2011 > (In cents): 4.77
 Mainline CASM: > Aircraft fuel and related taxes | Percent Increase (Decrease): 5.9

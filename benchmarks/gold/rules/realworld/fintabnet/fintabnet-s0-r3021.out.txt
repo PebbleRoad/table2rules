@@ -6,7 +6,6 @@ Balance at October 31, 2003 | Treasury > Stock: $(20,733)
 Balance at October 31, 2003 | Deferred > Stock > Compensation: $(7,170)
 Balance at October 31, 2003 | Accumulated Other > Comprehensive > Income (Loss): $9,353
 Balance at October 31, 2003 | Total: $1,426,069
-Components of comprehensive income:
 Components of comprehensive income: > Net income | Retained > Earnings: 75,084
 Components of comprehensive income: > Net income | Accumulated Other > Comprehensive > Income (Loss): 75,084
 Components of comprehensive income: > Net income | Total: 75,084

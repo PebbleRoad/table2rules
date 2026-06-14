@@ -1,4 +1,3 @@
-Fixed rate debt:
 Fixed rate debt: > Senior notes | Interest Rate: 2.65% to 7.50%
 Fixed rate debt: > Senior notes | Maturities Through: 2020 - 2028
 Fixed rate debt: > Senior notes | As of December 31, > 2018: $1,724,194
@@ -13,7 +12,6 @@ Fixed rate debt: > Unsecured term loans | As of December 31, > 2018: 2,148,351
 Fixed rate debt: > Unsecured term loans | As of December 31, > 2017: 333,351
 Fixed rate debt: > Total fixed rate debt | As of December 31, > 2018: 4,542,982
 Fixed rate debt: > Total fixed rate debt | As of December 31, > 2017: 2,199,710
-Variable rate debt (1) :
 Variable rate debt (1) : > Unsecured revolving credit facilities (2) | Interest Rate: 3.54% to 3.61%
 Variable rate debt (1) : > Unsecured revolving credit facilities (2) | Maturities Through: 2020 - 2022
 Variable rate debt (1) : > Unsecured revolving credit facilities (2) | As of December 31, > 2018: 795,000

@@ -7,28 +7,27 @@ Wheezing | P value for comparison of proportions: 0.43
 Chest retractions | Percentage of children with symptom at one week post-discharge phone call (absolute numbers)* > Racemic epinephrine: 13.3 (4/30)
 Chest retractions | Percentage of children with symptom at one week post-discharge phone call (absolute numbers)* > Salbutamol: 25.8 (8/31)
 Chest retractions | P value for comparison of proportions: 0.33
-Feeding pattern:
-Normal feeding | Percentage of children with symptom at one week post-discharge phone call (absolute numbers)* > Racemic epinephrine: 50 (15/30)
-Normal feeding | Percentage of children with symptom at one week post-discharge phone call (absolute numbers)* > Salbutamol: 54.8 (17/31)
-Normal feeding | P value for comparison of proportions: 0.80
-Less than normal | Percentage of children with symptom at one week post-discharge phone call (absolute numbers)* > Racemic epinephrine: 50 (15/30)
-Less than normal | Percentage of children with symptom at one week post-discharge phone call (absolute numbers)* > Salbutamol: 41.9 (13/31)
-Less than normal | P value for comparison of proportions: 0.61
-Unable to feed | Percentage of children with symptom at one week post-discharge phone call (absolute numbers)* > Racemic epinephrine: 0 (0/31)
-Unable to feed | Percentage of children with symptom at one week post-discharge phone call (absolute numbers)* > Salbutamol: 3.2 (1/31)
-Unable to feed | P value for comparison of proportions: 1.00
-Vomiting | Percentage of children with symptom at one week post-discharge phone call (absolute numbers)* > Racemic epinephrine: 20 (6/30)
-Vomiting | Percentage of children with symptom at one week post-discharge phone call (absolute numbers)* > Salbutamol: 35.5 (11/31)
-Vomiting | P value for comparison of proportions: 0.25
-Tremors | Percentage of children with symptom at one week post-discharge phone call (absolute numbers)* > Racemic epinephrine: 0 (0/31)
-Tremors | Percentage of children with symptom at one week post-discharge phone call (absolute numbers)* > Salbutamol: 0 (0/31)
-Tremors | P value for comparison of proportions: N/A
-Pallor | Percentage of children with symptom at one week post-discharge phone call (absolute numbers)* > Racemic epinephrine: 13.3 (4/30)
-Pallor | Percentage of children with symptom at one week post-discharge phone call (absolute numbers)* > Salbutamol: 6.5 (2/31)
-Pallor | P value for comparison of proportions: 0
-Has had a visit to a physician | Percentage of children with symptom at one week post-discharge phone call (absolute numbers)* > Racemic epinephrine: 23.3 (7/30)
-Has had a visit to a physician | Percentage of children with symptom at one week post-discharge phone call (absolute numbers)* > Salbutamol: 19.4 (6/31)
-Has had a visit to a physician | P value for comparison of proportions: 0.42
-Has visited an emergency department or been hospitalized | Percentage of children with symptom at one week post-discharge phone call (absolute numbers)* > Racemic epinephrine: 3.3 (1/30)
-Has visited an emergency department or been hospitalized | Percentage of children with symptom at one week post-discharge phone call (absolute numbers)* > Salbutamol: 3.2 (1/31)
-Has visited an emergency department or been hospitalized | P value for comparison of proportions: 1.00
+Feeding pattern: > Normal feeding | Percentage of children with symptom at one week post-discharge phone call (absolute numbers)* > Racemic epinephrine: 50 (15/30)
+Feeding pattern: > Normal feeding | Percentage of children with symptom at one week post-discharge phone call (absolute numbers)* > Salbutamol: 54.8 (17/31)
+Feeding pattern: > Normal feeding | P value for comparison of proportions: 0.80
+Feeding pattern: > Less than normal | Percentage of children with symptom at one week post-discharge phone call (absolute numbers)* > Racemic epinephrine: 50 (15/30)
+Feeding pattern: > Less than normal | Percentage of children with symptom at one week post-discharge phone call (absolute numbers)* > Salbutamol: 41.9 (13/31)
+Feeding pattern: > Less than normal | P value for comparison of proportions: 0.61
+Feeding pattern: > Unable to feed | Percentage of children with symptom at one week post-discharge phone call (absolute numbers)* > Racemic epinephrine: 0 (0/31)
+Feeding pattern: > Unable to feed | Percentage of children with symptom at one week post-discharge phone call (absolute numbers)* > Salbutamol: 3.2 (1/31)
+Feeding pattern: > Unable to feed | P value for comparison of proportions: 1.00
+Feeding pattern: > Vomiting | Percentage of children with symptom at one week post-discharge phone call (absolute numbers)* > Racemic epinephrine: 20 (6/30)
+Feeding pattern: > Vomiting | Percentage of children with symptom at one week post-discharge phone call (absolute numbers)* > Salbutamol: 35.5 (11/31)
+Feeding pattern: > Vomiting | P value for comparison of proportions: 0.25
+Feeding pattern: > Tremors | Percentage of children with symptom at one week post-discharge phone call (absolute numbers)* > Racemic epinephrine: 0 (0/31)
+Feeding pattern: > Tremors | Percentage of children with symptom at one week post-discharge phone call (absolute numbers)* > Salbutamol: 0 (0/31)
+Feeding pattern: > Tremors | P value for comparison of proportions: N/A
+Feeding pattern: > Pallor | Percentage of children with symptom at one week post-discharge phone call (absolute numbers)* > Racemic epinephrine: 13.3 (4/30)
+Feeding pattern: > Pallor | Percentage of children with symptom at one week post-discharge phone call (absolute numbers)* > Salbutamol: 6.5 (2/31)
+Feeding pattern: > Pallor | P value for comparison of proportions: 0
+Feeding pattern: > Has had a visit to a physician | Percentage of children with symptom at one week post-discharge phone call (absolute numbers)* > Racemic epinephrine: 23.3 (7/30)
+Feeding pattern: > Has had a visit to a physician | Percentage of children with symptom at one week post-discharge phone call (absolute numbers)* > Salbutamol: 19.4 (6/31)
+Feeding pattern: > Has had a visit to a physician | P value for comparison of proportions: 0.42
+Feeding pattern: > Has visited an emergency department or been hospitalized | Percentage of children with symptom at one week post-discharge phone call (absolute numbers)* > Racemic epinephrine: 3.3 (1/30)
+Feeding pattern: > Has visited an emergency department or been hospitalized | Percentage of children with symptom at one week post-discharge phone call (absolute numbers)* > Salbutamol: 3.2 (1/31)
+Feeding pattern: > Has visited an emergency department or been hospitalized | P value for comparison of proportions: 1.00

@@ -4,7 +4,6 @@
 (Millions of dollars) | Non-U.S.Pension Benefits: 2016
 (Millions of dollars) | Other PostretirementBenefits: 2017
 (Millions of dollars) | Other PostretirementBenefits: 2016
-Change in plan assets:
 Change in plan assets: > Fair value of plan assets, beginning of year | U.S. Pension Benefits: $11,354
 Change in plan assets: > Fair value of plan assets, beginning of year | U.S. Pension Benefits: $11,440
 Change in plan assets: > Fair value of plan assets, beginning of year | Non-U.S.Pension Benefits: $3,887

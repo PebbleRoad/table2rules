@@ -26,16 +26,15 @@ UF coefficient (ml/mmHg/h) | Low-flux HD: 13
 UF coefficient (ml/mmHg/h) | Low-flux HD: 18
 UF coefficient (ml/mmHg/h) | Online HDF: 65
 UF coefficient (ml/mmHg/h) | Online HDF: 59
-In vitro clearance: #
-Urea | Low-flux HD: 260
-Urea | Low-flux HD: 251
-Urea | Online HDF: 268
-Urea | Online HDF: 276
-Phosphate | Low-flux HD: 198
-Phosphate | Low-flux HD: 193
-Phosphate | Online HDF: 229
-Phosphate | Online HDF: 239
-Vit B12 | Low-flux HD: 111
-Vit B12 | Low-flux HD: 118
-Vit B12 | Online HDF: 158
-Vit B12 | Online HDF: 175
+In vitro clearance: # > Urea | Low-flux HD: 260
+In vitro clearance: # > Urea | Low-flux HD: 251
+In vitro clearance: # > Urea | Online HDF: 268
+In vitro clearance: # > Urea | Online HDF: 276
+In vitro clearance: # > Phosphate | Low-flux HD: 198
+In vitro clearance: # > Phosphate | Low-flux HD: 193
+In vitro clearance: # > Phosphate | Online HDF: 229
+In vitro clearance: # > Phosphate | Online HDF: 239
+In vitro clearance: # > Vit B12 | Low-flux HD: 111
+In vitro clearance: # > Vit B12 | Low-flux HD: 118
+In vitro clearance: # > Vit B12 | Online HDF: 158
+In vitro clearance: # > Vit B12 | Online HDF: 175

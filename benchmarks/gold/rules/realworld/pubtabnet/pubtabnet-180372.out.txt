@@ -1,4 +1,3 @@
-1998
 Municipality of Bologna | resident population > N.: 2398
 Municipality of Bologna | living abroad > %: 0.71
 Municipality of Bologna | no fixed abode > %: 0.12
@@ -13,7 +12,6 @@ Emilia Romagna | refusals objectors > %: 0.29
 Emilia Romagna | immigrated > %: 0.22
 Emilia Romagna | delays > %: 0.51
 Emilia Romagna | other* > %: 0.22
-1999
 Municipality of Bologna | resident population > N.: 2560
 Municipality of Bologna | living abroad > %: 1.09
 Municipality of Bologna | no fixed abode > %: 0.43
@@ -28,7 +26,6 @@ Emilia Romagna | refusals objectors > %: 0.35
 Emilia Romagna | immigrated > %: 0.22
 Emilia Romagna | delays > %: 0.37
 Emilia Romagna | other* > %: 0.11
-2000
 Municipality of Bologna | resident population > N.: 2429
 Municipality of Bologna | living abroad > %: 0,00
 Municipality of Bologna | no fixed abode > %: 0.08
@@ -43,7 +40,6 @@ Emilia Romagna | refusals objectors > %: 0.20
 Emilia Romagna | immigrated > %: 0.40
 Emilia Romagna | delays > %: 0.50
 Emilia Romagna | other* > %: 0.2
-2001
 Municipality of Bologna | resident population > N.: 2619
 Municipality of Bologna | living abroad > %: 0.04
 Municipality of Bologna | no fixed abode > %: 0.19
@@ -58,7 +54,6 @@ Emilia Romagna | refusals objectors > %: 0.60
 Emilia Romagna | immigrated > %: 0.26
 Emilia Romagna | delays > %: 0.58
 Emilia Romagna | other* > %: 0.25
-2002
 Municipality of Bologna | resident population > N.: 2706
 Municipality of Bologna | living abroad > %: 0.00
 Municipality of Bologna | no fixed abode > %: 0.04

@@ -2,7 +2,6 @@
 (dollars in millions) | Years Ended December 31, > 2015: Percentageof Total Net Sales
 (dollars in millions) | Years Ended December 31, > 2014: Net Sales
 (dollars in millions) | Years Ended December 31, > 2014: Percentageof Total Net Sales
-Corporate:
 Corporate: > Medium/Large | Years Ended December 31, > 2015: $5,758.2
 Corporate: > Medium/Large | Years Ended December 31, > 2015: 44.3%
 Corporate: > Medium/Large | Years Ended December 31, > 2014: $5,485.4
@@ -15,7 +14,6 @@ Corporate: > Total Corporate | Years Ended December 31, > 2015: 6,816.4
 Corporate: > Total Corporate | Years Ended December 31, > 2015: 52.5
 Corporate: > Total Corporate | Years Ended December 31, > 2014: 6,475.5
 Corporate: > Total Corporate | Years Ended December 31, > 2014: 53.6
-Public:
 Public: > Government | Years Ended December 31, > 2015: 1,675.9
 Public: > Government | Years Ended December 31, > 2015: 12.9
 Public: > Government | Years Ended December 31, > 2014: 1,449.4

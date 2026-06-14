@@ -1,16 +1,14 @@
-Current assets:
-Cash and equivalents | 2024: 4,210
-Cash and equivalents | 2023: 3,850
-Accounts receivable | 2024: 12,400
-Accounts receivable | 2023: 11,200
-Inventory | 2024: 8,900
-Inventory | 2023: 9,100
-Total current assets | 2024: 25,510
-Total current assets | 2023: 24,150
-Non-current assets:
-Property, plant & equipment | 2024: 42,100
-Property, plant & equipment | 2023: 38,900
-Goodwill | 2024: 18,200
-Goodwill | 2023: 18,200
-Total non-current assets | 2024: 60,300
-Total non-current assets | 2023: 57,100
+Current assets: > Cash and equivalents | 2024: 4,210
+Current assets: > Cash and equivalents | 2023: 3,850
+Current assets: > Accounts receivable | 2024: 12,400
+Current assets: > Accounts receivable | 2023: 11,200
+Current assets: > Inventory | 2024: 8,900
+Current assets: > Inventory | 2023: 9,100
+Current assets: > Total current assets | 2024: 25,510
+Current assets: > Total current assets | 2023: 24,150
+Non-current assets: > Property, plant & equipment | 2024: 42,100
+Non-current assets: > Property, plant & equipment | 2023: 38,900
+Non-current assets: > Goodwill | 2024: 18,200
+Non-current assets: > Goodwill | 2023: 18,200
+Non-current assets: > Total non-current assets | 2024: 60,300
+Non-current assets: > Total non-current assets | 2023: 57,100

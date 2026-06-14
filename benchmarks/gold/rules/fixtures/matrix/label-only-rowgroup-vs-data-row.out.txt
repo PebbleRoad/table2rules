@@ -1,0 +1,5 @@
+Region X > Asia > Japan | A: 10
+Region X > Asia > Japan | B: 20
+Region X > Asia > Korea | A: 30
+Region X > Asia > Korea | B: 40
+Total > n=4

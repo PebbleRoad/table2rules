@@ -1,0 +1,7 @@
+9. Trip Cancellation > If the trip is cancelled | Maximum limit (S$) > Value Plan: 5,000
+9. Trip Cancellation > If the trip is cancelled | Maximum limit (S$) > Economy Plan: 10,000
+10. Travel Delay > If the departure is delayed > 1. Adult insured person | Maximum limit (S$) > Value Plan: 100
+10. Travel Delay > If the departure is delayed > 1. Adult insured person | Maximum limit (S$) > Economy Plan: 150
+10. Travel Delay > If the departure is delayed > 2. Child insured person | Maximum limit (S$) > Value Plan: 50
+10. Travel Delay > If the departure is delayed > 2. Child insured person | Maximum limit (S$) > Economy Plan: 75
+11. Trip Postponement

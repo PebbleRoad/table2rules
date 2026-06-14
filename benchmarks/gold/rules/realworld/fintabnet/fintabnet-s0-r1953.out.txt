@@ -1,4 +1,3 @@
-Segments: (1)
 Segments: (1) > Corporate (2) | Years Ended December 31, > 2017 > Dollars inMillions: $487.0
 Segments: (1) > Corporate (2) | Years Ended December 31, > 2017 > OperatingMargin: 7.7%
 Segments: (1) > Corporate (2) | Years Ended December 31, > 2016 > Dollars inMillions: $453.6
