@@ -1,11 +1,9 @@
-Nonvested balance —
 Nonvested balance — > As of January 1 | 2013 > Number of Awards: 3,261,562
 Nonvested balance — > As of January 1 | 2013 > Weighted Average Grant Date Fair Value: $85.17
 Nonvested balance — > As of January 1 | 2012 > Number of Awards: 4,858,972
 Nonvested balance — > As of January 1 | 2012 > Weighted Average Grant Date Fair Value: $73.02
 Nonvested balance — > As of January 1 | 2011 > Number of Awards: 4,812,657
 Nonvested balance — > As of January 1 | 2011 > Weighted Average Grant Date Fair Value: $68.75
-Granted
 Granted > Annual | 2013 > Number of Awards: 946,774
 Granted > Annual | 2013 > Weighted Average Grant Date Fair Value: 101.57
 Granted > Annual | 2012 > Number of Awards: 968,522

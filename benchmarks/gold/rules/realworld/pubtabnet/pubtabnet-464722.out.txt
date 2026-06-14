@@ -1,52 +1,48 @@
-Fibroblasts
-Total > OA | Nucleotides sequenced: 18489
-Total > OA | Number of mutations > Initial: 38
-Total > OA | Number of mutations > Published polymorphisms removed: 20
-Total > OA | Total mutational burden (mutations/kbp) > Initial: 2.055
-Total > OA | Total mutational burden (mutations/kbp) > Published polymorphisms removed: 1.082
-Total > RA | Nucleotides sequenced: 30503
-Total > RA | Number of mutations > Initial: 101
-Total > RA | Number of mutations > Published polymorphisms removed: 65
-Total > RA | Total mutational burden (mutations/kbp) > Initial: 3.311
-Total > RA | Total mutational burden (mutations/kbp) > Published polymorphisms removed: 2.131
-Total > RA | OA vs RA a > Initial: ρ = 0.01
-Total > RA | OA vs RA a > Published Polymorphisms removed: ρ = 6.9 × 10 -3
-Tissue
-Total > OA | Nucleotides sequenced: 37145
-Total > OA | Number of mutations > Initial: 67
-Total > OA | Number of mutations > Published polymorphisms removed: 40
-Total > OA | Total mutational burden (mutations/kbp) > Initial: 1.804
-Total > OA | Total mutational burden (mutations/kbp) > Published polymorphisms removed: 1.077
-Total > RA | Nucleotides sequenced: 17663
-Total > RA | Number of mutations > Initial: 60
-Total > RA | Number of mutations > Published polymorphisms removed: 42
-Total > RA | Total mutational burden (mutations/kbp) > Initial: 3.397
-Total > RA | Total mutational burden (mutations/kbp) > Published polymorphisms removed: 2.378
-Total > RA | OA vs RA a > Initial: ρ = 4 × 10 -4
-Total > RA | OA vs RA a > Published Polymorphisms removed: ρ = 5.1 × 10 -4
-Fibroblasts
-Expressed > OA | Nucleotides sequenced: 6956
-Expressed > OA | Number of mutations > Initial: 12
-Expressed > OA | Number of mutations > Published polymorphisms removed: 7
-Expressed > OA | Total mutational burden (mutations/kbp) > Initial: 1.725
-Expressed > OA | Total mutational burden (mutations/kbp) > Published polymorphisms removed: 1.006
-Expressed > RA | Nucleotides sequenced: 12394
-Expressed > RA | Number of mutations > Initial: 28
-Expressed > RA | Number of mutations > Published polymorphisms removed: 26
-Expressed > RA | Total mutational burden (mutations/kbp) > Initial: 2.259
-Expressed > RA | Total mutational burden (mutations/kbp) > Published polymorphisms removed: 2.098
-Expressed > RA | OA vs RA a > Initial: ρ = 0.5
-Expressed > RA | OA vs RA a > Published Polymorphisms removed: ρ = 0.10
-Tissue
-Expressed > OA | Nucleotides sequenced: 15805
-Expressed > OA | Number of mutations > Initial: 10
-Expressed > OA | Number of mutations > Published polymorphisms removed: 10
-Expressed > OA | Total mutational burden (mutations/kbp) > Initial: 0.633
-Expressed > OA | Total mutational burden (mutations/kbp) > Published polymorphisms removed: 0.633
-Expressed > RA | Nucleotides sequenced: 6397
-Expressed > RA | Number of mutations > Initial: 16
-Expressed > RA | Number of mutations > Published polymorphisms removed: 14
-Expressed > RA | Total mutational burden (mutations/kbp) > Initial: 2.501
-Expressed > RA | Total mutational burden (mutations/kbp) > Published polymorphisms removed: 2.189
-Expressed > RA | OA vs RA a > Initial: ρ = 6 × 10 -4
-Expressed > RA | OA vs RA a > Published Polymorphisms removed: ρ = 2.7 × 10 -3
+Total > Fibroblasts > OA | Nucleotides sequenced: 18489
+Total > Fibroblasts > OA | Number of mutations > Initial: 38
+Total > Fibroblasts > OA | Number of mutations > Published polymorphisms removed: 20
+Total > Fibroblasts > OA | Total mutational burden (mutations/kbp) > Initial: 2.055
+Total > Fibroblasts > OA | Total mutational burden (mutations/kbp) > Published polymorphisms removed: 1.082
+Total > Fibroblasts > RA | Nucleotides sequenced: 30503
+Total > Fibroblasts > RA | Number of mutations > Initial: 101
+Total > Fibroblasts > RA | Number of mutations > Published polymorphisms removed: 65
+Total > Fibroblasts > RA | Total mutational burden (mutations/kbp) > Initial: 3.311
+Total > Fibroblasts > RA | Total mutational burden (mutations/kbp) > Published polymorphisms removed: 2.131
+Total > Fibroblasts > RA | OA vs RA a > Initial: ρ = 0.01
+Total > Fibroblasts > RA | OA vs RA a > Published Polymorphisms removed: ρ = 6.9 × 10 -3
+Total > Tissue > OA | Nucleotides sequenced: 37145
+Total > Tissue > OA | Number of mutations > Initial: 67
+Total > Tissue > OA | Number of mutations > Published polymorphisms removed: 40
+Total > Tissue > OA | Total mutational burden (mutations/kbp) > Initial: 1.804
+Total > Tissue > OA | Total mutational burden (mutations/kbp) > Published polymorphisms removed: 1.077
+Total > Tissue > RA | Nucleotides sequenced: 17663
+Total > Tissue > RA | Number of mutations > Initial: 60
+Total > Tissue > RA | Number of mutations > Published polymorphisms removed: 42
+Total > Tissue > RA | Total mutational burden (mutations/kbp) > Initial: 3.397
+Total > Tissue > RA | Total mutational burden (mutations/kbp) > Published polymorphisms removed: 2.378
+Total > Tissue > RA | OA vs RA a > Initial: ρ = 4 × 10 -4
+Total > Tissue > RA | OA vs RA a > Published Polymorphisms removed: ρ = 5.1 × 10 -4
+Expressed > Fibroblasts > OA | Nucleotides sequenced: 6956
+Expressed > Fibroblasts > OA | Number of mutations > Initial: 12
+Expressed > Fibroblasts > OA | Number of mutations > Published polymorphisms removed: 7
+Expressed > Fibroblasts > OA | Total mutational burden (mutations/kbp) > Initial: 1.725
+Expressed > Fibroblasts > OA | Total mutational burden (mutations/kbp) > Published polymorphisms removed: 1.006
+Expressed > Fibroblasts > RA | Nucleotides sequenced: 12394
+Expressed > Fibroblasts > RA | Number of mutations > Initial: 28
+Expressed > Fibroblasts > RA | Number of mutations > Published polymorphisms removed: 26
+Expressed > Fibroblasts > RA | Total mutational burden (mutations/kbp) > Initial: 2.259
+Expressed > Fibroblasts > RA | Total mutational burden (mutations/kbp) > Published polymorphisms removed: 2.098
+Expressed > Fibroblasts > RA | OA vs RA a > Initial: ρ = 0.5
+Expressed > Fibroblasts > RA | OA vs RA a > Published Polymorphisms removed: ρ = 0.10
+Expressed > Tissue > OA | Nucleotides sequenced: 15805
+Expressed > Tissue > OA | Number of mutations > Initial: 10
+Expressed > Tissue > OA | Number of mutations > Published polymorphisms removed: 10
+Expressed > Tissue > OA | Total mutational burden (mutations/kbp) > Initial: 0.633
+Expressed > Tissue > OA | Total mutational burden (mutations/kbp) > Published polymorphisms removed: 0.633
+Expressed > Tissue > RA | Nucleotides sequenced: 6397
+Expressed > Tissue > RA | Number of mutations > Initial: 16
+Expressed > Tissue > RA | Number of mutations > Published polymorphisms removed: 14
+Expressed > Tissue > RA | Total mutational burden (mutations/kbp) > Initial: 2.501
+Expressed > Tissue > RA | Total mutational burden (mutations/kbp) > Published polymorphisms removed: 2.189
+Expressed > Tissue > RA | OA vs RA a > Initial: ρ = 6 × 10 -4
+Expressed > Tissue > RA | OA vs RA a > Published Polymorphisms removed: ρ = 2.7 × 10 -3

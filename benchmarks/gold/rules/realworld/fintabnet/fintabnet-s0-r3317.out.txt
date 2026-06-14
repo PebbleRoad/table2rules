@@ -4,14 +4,12 @@
 (Millions) | Qualified and Non-qualified Pension Benefits > International: 2014
 (Millions) | Postretirement > Benefits: 2015
 (Millions) | Postretirement > Benefits: 2014
-Amounts recognized in the Consolidated Balance Sheet as of Dec. 31,
 Amounts recognized in the Consolidated Balance Sheet as of Dec. 31, > Non-current assets | Qualified and Non-qualified Pension Benefits > United States: $3
 Amounts recognized in the Consolidated Balance Sheet as of Dec. 31, > Non-current assets | Qualified and Non-qualified Pension Benefits > United States: $3
 Amounts recognized in the Consolidated Balance Sheet as of Dec. 31, > Non-current assets | Qualified and Non-qualified Pension Benefits > International: $185
 Amounts recognized in the Consolidated Balance Sheet as of Dec. 31, > Non-current assets | Qualified and Non-qualified Pension Benefits > International: $43
 Amounts recognized in the Consolidated Balance Sheet as of Dec. 31, > Non-current assets | Postretirement > Benefits: $—
 Amounts recognized in the Consolidated Balance Sheet as of Dec. 31, > Non-current assets | Postretirement > Benefits: $—
-Accrued benefit cost
 Accrued benefit cost > Current liabilities | Qualified and Non-qualified Pension Benefits > United States: (47)
 Accrued benefit cost > Current liabilities | Qualified and Non-qualified Pension Benefits > United States: (46)
 Accrued benefit cost > Current liabilities | Qualified and Non-qualified Pension Benefits > International: (10)

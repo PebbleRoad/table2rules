@@ -1,4 +1,3 @@
-Revenue
 Revenue > Product | Year Ended December 31, > 2016 > $: $991,337
 Revenue > Product | Year Ended December 31, > 2016 > % ofRevenue: 87.8%
 Revenue > Product | Year Ended December 31, > 2015 > $: $744,877
@@ -17,7 +16,6 @@ Revenue > Total revenue | Year Ended December 31, > 2015 > $: 837,591
 Revenue > Total revenue | Year Ended December 31, > 2015 > % ofRevenue: 100.0
 Revenue > Total revenue | Change in > $: 291,576
 Revenue > Total revenue | Change in > %: 34.8
-Cost of revenue
 Cost of revenue > Product | Year Ended December 31, > 2016 > $: 369,768
 Cost of revenue > Product | Year Ended December 31, > 2016 > % ofRevenue: 32.8
 Cost of revenue > Product | Year Ended December 31, > 2015 > $: 263,585

@@ -1,4 +1,3 @@
-Weighted-average assumptions used to determine benefit obligations, end of year:
 Weighted-average assumptions used to determine benefit obligations, end of year: > Discount rate | U.S. Pension Benefits > 2018: 4.2%
 Weighted-average assumptions used to determine benefit obligations, end of year: > Discount rate | U.S. Pension Benefits > 2017: 3.5%
 Weighted-average assumptions used to determine benefit obligations, end of year: > Discount rate | U.S. Pension Benefits > 2016: 4.0%
@@ -17,7 +16,6 @@ Weighted-average assumptions used to determine benefit obligations, end of year:
 Weighted-average assumptions used to determine benefit obligations, end of year: > Rate of compensation increase | Other Postretirement Benefits > 2018: 4.0%
 Weighted-average assumptions used to determine benefit obligations, end of year: > Rate of compensation increase | Other Postretirement Benefits > 2017: 4.0%
 Weighted-average assumptions used to determine benefit obligations, end of year: > Rate of compensation increase | Other Postretirement Benefits > 2016: 4.0%
-Weighted-average assumptions used to determine net cost:
 Weighted-average assumptions used to determine net cost: > Discount rate used to measure service cost | U.S. Pension Benefits > 2018: 3.7%
 Weighted-average assumptions used to determine net cost: > Discount rate used to measure service cost | U.S. Pension Benefits > 2017: 4.2%
 Weighted-average assumptions used to determine net cost: > Discount rate used to measure service cost | U.S. Pension Benefits > 2016: 4.5%
@@ -54,7 +52,6 @@ Weighted-average assumptions used to determine net cost: > Rate of compensation 
 Weighted-average assumptions used to determine net cost: > Rate of compensation increase | Other Postretirement Benefits > 2018: 4.0%
 Weighted-average assumptions used to determine net cost: > Rate of compensation increase | Other Postretirement Benefits > 2017: 4.0%
 Weighted-average assumptions used to determine net cost: > Rate of compensation increase | Other Postretirement Benefits > 2016: 4.0%
-Health care cost trend rates at year-end:
 Health care trend rate assumed for next year | Other Postretirement Benefits > 2018: 6.1%
 Health care trend rate assumed for next year | Other Postretirement Benefits > 2017: 6.1%
 Health care trend rate assumed for next year | Other Postretirement Benefits > 2016: 6.6%

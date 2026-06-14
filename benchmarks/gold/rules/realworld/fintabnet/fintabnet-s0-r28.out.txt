@@ -7,7 +7,6 @@ Beginning cash and cash equivalents | One Year Change > $: $(112,818)
 Beginning cash and cash equivalents | One Year Change > %: -24%
 Beginning cash and cash equivalents | Two Year Change > $: $202,128
 Beginning cash and cash equivalents | Two Year Change > %: 127%
-Cash provided from (used in):
 Cash provided from (used in): > Operating activities | Year Ended > December 31, 2014: 1,138,670
 Cash provided from (used in): > Operating activities | Year Ended > December 31, 2015: 1,373,468
 Cash provided from (used in): > Operating activities | One Year Change > $: 234,798

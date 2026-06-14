@@ -1,4 +1,3 @@
-SUPPLEMENTAL DISCLOSURES:
 SUPPLEMENTAL DISCLOSURES: > Total interest costs incurred | 2007 > (In thousands): $125,259
 SUPPLEMENTAL DISCLOSURES: > Total interest costs incurred | 2006 > (In thousands): $106,877
 SUPPLEMENTAL DISCLOSURES: > Total interest costs incurred | 2005 > (In thousands): $94,257
@@ -17,7 +16,6 @@ SUPPLEMENTAL DISCLOSURES: > Cash paid for interest, net of amounts capitalized |
 SUPPLEMENTAL DISCLOSURES: > Cash paid for income taxes | 2007 > (In thousands): $1,126
 SUPPLEMENTAL DISCLOSURES: > Cash paid for income taxes | 2006 > (In thousands): $5,098(1)
 SUPPLEMENTAL DISCLOSURES: > Cash paid for income taxes | 2005 > (In thousands): $82
-NON-CASH INVESTING AND FINANCING TRANSACTIONS:
 NON-CASH INVESTING AND FINANCING TRANSACTIONS: > Mortgage loans assumed with acquisitions | 2007 > (In thousands): $79,987
 NON-CASH INVESTING AND FINANCING TRANSACTIONS: > Mortgage loans assumed with acquisitions | 2006 > (In thousands): $44,297
 NON-CASH INVESTING AND FINANCING TRANSACTIONS: > Mortgage loans assumed with acquisitions | 2005 > (In thousands): $22,258

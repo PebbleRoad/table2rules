@@ -211,6 +211,11 @@ def _build_rules(grid) -> List[LogicRule]:
     for row_idx in range(len(grid)):
         if row_idx in rows_with_value:
             continue
+        # A label-only row promoted to a row-group ancestor (scope="rowgroup")
+        # is threaded into the value lines beneath it — emitting it here too
+        # would duplicate it as an orphan label.
+        if any(grid[row_idx][c].get("scope") == "rowgroup" for c in range(n_cols)):
+            continue
         # Anchor the rule at the row's data column so it satisfies the quality
         # gate's "rules originate from <td>" invariant. A row with no <td> at
         # all is a true full-width <th colspan> divider — already handled as a
@@ -319,6 +324,148 @@ def _mark_rowgroup_bands(grid) -> None:
             grid[r][cc]["scope"] = "rowgroup"
 
 
+def _mark_label_only_rowgroups(grid) -> None:
+    """Promote *label-only rows* to ``<th scope="rowgroup">`` so the maze threads
+    them into each value line's row path, the row-side counterpart of the
+    full-width band handled by :func:`_mark_rowgroup_bands`.
+
+    A label-only row is a body row whose value (``<td>``) columns are all empty
+    while a leading label column carries text — the ``Label | Value`` form
+    pervasive in financial/insurance schedules (``9. Trip Cancellation | (empty)``
+    above its value rows). Unlike a full-width band the label cell does *not*
+    span the value region; the other columns are simply empty, so
+    ``is_full_width_note`` geometry never sees it. Without this pass the row is
+    emitted as an orphaned ``is_label`` rule and the values beneath it lose their
+    group identity.
+
+    Detection is geometric, not flag-based: a row with no value-bearing ``<td>``
+    but exactly one non-empty body ``<th>`` label source cell. (Row-label
+    columns are already promoted to ``<th scope="row">`` upstream — Signal A/B/C
+    in grid_parser and simple_repair — so "no non-empty ``<td>``" means "no
+    value".)
+
+    The single-label-cell requirement is what separates a group header from a
+    data row whose *designated* value columns merely happen to be empty. A genuine
+    group header carries one title ("9. Trip Cancellation", possibly spanning the
+    first N>1 columns via one ``colspan`` cell). A data row whose value columns
+    are blank ("Average: | 80.2 | 10.7 | 3.3", or a summary row under a header
+    that over-promoted numeric columns to row labels) spreads several distinct
+    values across its label cells — threading those as a group path would invent
+    a breadcrumb and misattribute it to the rows below. Such rows stay on the
+    ``is_label`` preservation path, unchanged.
+
+    Stacking and extent (no content-aware level inference):
+
+    * A maximal run of *consecutive* label-only rows forms one header stack. Its
+      members are threaded as nested ancestors in row order — a title followed by
+      a description (``10. Travel Delay`` then ``If the departure…``) both land in
+      the path, title first.
+    * A stack's extent runs from just below the stack down to the row before the
+      next stack OR the next full-width band, whichever comes first — so a group
+      never leaks into the next line-item or across a section divider.
+    * A stack is promoted only when its extent holds a real value row (parity
+      with the full-width-note guard): a trailing label that groups nothing is
+      left for the ``is_label`` preservation path, never stranded as an
+      empty-extent rowgroup.
+
+    The stored ``rowgroup_extent_end`` is what the maze honors for these bands;
+    full-width bands keep their colspan-bounded extent. The two compose: a
+    section band (wider) and a label-only group (narrower) nest consistently.
+    """
+    if not grid or not grid[0]:
+        return
+    n_rows = len(grid)
+    n_cols = len(grid[0])
+
+    def _is_body_row(r: int) -> bool:
+        return not any(
+            grid[r][c].get("is_thead") or grid[r][c].get("is_header_row") for c in range(n_cols)
+        )
+
+    def _has_value(r: int) -> bool:
+        return any(
+            grid[r][c]["type"] == "td" and (grid[r][c].get("text") or "").strip()
+            for c in range(n_cols)
+        )
+
+    def _label_cols(r: int) -> List[int]:
+        cols: List[int] = []
+        for c in range(n_cols):
+            cell = grid[r][c]
+            if cell.get("is_thead") or cell.get("is_header_row"):
+                continue
+            if cell["type"] != "th":
+                continue
+            if cell.get("is_span_copy"):
+                # A span copy of a label cell originating in this same row is
+                # part of a multi-column label (label spans the first N>1
+                # columns); promote it too. A span copy reaching down from a
+                # row above is not a label of this row.
+                origin = cell.get("origin", (r, c))
+                if origin[0] != r:
+                    continue
+                if not (grid[origin[0]][origin[1]].get("text") or "").strip():
+                    continue
+            elif not (cell.get("text") or "").strip():
+                continue
+            cols.append(c)
+        return cols
+
+    def _single_label_origin(r: int) -> bool:
+        # A group header is exactly one label source cell (a title, possibly
+        # colspan'd). More than one distinct non-empty label cell means a data
+        # row, not a divider — do not thread it.
+        origins = set()
+        for c in _label_cols(r):
+            cell = grid[r][c]
+            origins.add(cell.get("origin", (r, c)) if cell.get("is_span_copy") else (r, c))
+        return len(origins) == 1
+
+    # A row already carrying a rowgroup cell (a full-width band promoted above,
+    # or a source scope="rowgroup") is a boundary, not a label-only candidate.
+    band_rows = {
+        r for r in range(n_rows) for c in range(n_cols) if grid[r][c].get("scope") == "rowgroup"
+    }
+
+    is_label_row = [
+        _is_body_row(r)
+        and r not in band_rows
+        and not _has_value(r)
+        and bool(_label_cols(r))
+        and _single_label_origin(r)
+        for r in range(n_rows)
+    ]
+
+    r = 0
+    while r < n_rows:
+        if not is_label_row[r]:
+            r += 1
+            continue
+        # Gather the maximal consecutive run of label-only rows.
+        s_start = r
+        while r + 1 < n_rows and is_label_row[r + 1]:
+            r += 1
+        s_end = r
+        r += 1  # advance past the stack for the outer loop
+
+        # Extent: down to the row before the next boundary (next label stack or
+        # full-width band). Bounded by a value row's presence.
+        extent_end = n_rows - 1
+        for rr in range(s_end + 1, n_rows):
+            if is_label_row[rr] or rr in band_rows:
+                extent_end = rr - 1
+                break
+        has_data_row = any(_has_value(rr) for rr in range(s_end + 1, extent_end + 1))
+        if not has_data_row:
+            continue
+
+        for rr in range(s_start, s_end + 1):
+            for c in _label_cols(rr):
+                grid[rr][c]["type"] = "th"
+                grid[rr][c]["scope"] = "rowgroup"
+                grid[rr][c]["rowgroup_extent_end"] = extent_end
+
+
 def _process_table_with_gate(table_html: str) -> Tuple[List[LogicRule], GateResult]:
     """Runs the full pipeline and returns rules plus the gate verdict.
 
@@ -337,6 +484,7 @@ def _process_table_with_gate(table_html: str) -> Tuple[List[LogicRule], GateResu
         return [], GateResult(ok=False, score=0.0, reasons=["empty_grid"])
 
     _mark_rowgroup_bands(grid)
+    _mark_label_only_rowgroups(grid)
     rules = clean_rules(_build_rules(grid))
     gate = assess_confidence(grid, rules)
     if not gate.ok:

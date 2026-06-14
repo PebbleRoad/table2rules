@@ -6,7 +6,6 @@ Balance at October 31, 2002 | Treasury > Stock: $(116,499)
 Balance at October 31, 2002 | Deferred Stock > Compensation: $(8,858)
 Balance at October 31, 2002 | Accumulated Other Comprehensive > Income (Loss): $(146)
 Balance at October 31, 2002 | Total: $1,113,481
-Components of comprehensive income:
 Components of comprehensive income: > Net income | Common Stock > Shares: —
 Components of comprehensive income: > Net income | Common Stock > Amount: —
 Components of comprehensive income: > Net income | Capital in Excess of Par > Value: —

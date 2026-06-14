@@ -5,6 +5,36 @@ All notable changes to `table2rules` are documented here. Dates are in
 
 ## [Unreleased]
 
+### Fixed
+
+- **Label-only rows are now threaded as row-group headers.** 0.6.0's row-group
+  threading only handled the *full-width band* form (a cell spanning the value
+  region / `scope="rowgroup"`). The **label-only-row** form — a body row whose
+  value columns are empty while a single leading label cell carries text
+  (`9. Trip Cancellation | (empty) | (empty)`), pervasive in `Label | Value`
+  financial/insurance schedules — was missed: it was emitted as an orphaned
+  `is_label` rule and the values beneath it lost their group identity. Such a
+  row is now promoted to a row-group ancestor and threaded into every value line
+  under it, until the next label-only row at the same level:
+
+  ```
+  10. Travel Delay > If the departure is delayed > 1. Adult insured person | Maximum limit (S$) > Value Plan: 100
+  ```
+
+  Detection stays geometric and additive to the existing band path:
+  - A row with no value-bearing `<td>` but exactly **one** non-empty label
+    source cell is a group header. Consecutive label-only rows nest in order
+    (a title followed by a description), and the two forms compose — a
+    full-width section band and a label-only group nest consistently.
+  - The **single-label-cell** requirement separates a group header from a data
+    row whose designated value columns merely happen to be empty: a summary row
+    spreading several values across its label cells (`Total | n=4`, or a row
+    under a header that over-promoted numeric columns to row labels) keeps the
+    `is_label` preservation path, so its cells are never invented into a
+    breadcrumb and misattributed onto the rows below.
+  - A trailing label-only row with no value rows beneath it stays a label
+    (parity with the full-width-note guard) — no empty group is created.
+
 ## [0.6.0] — 2026-06-11
 
 ### Added

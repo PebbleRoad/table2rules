@@ -14,7 +14,6 @@ Operating leases (3) > 772 | Payments Due: 147
 Operating leases (3) > 772 | Payments Due: 176
 Operating leases (3) > 772 | Payments Due: 95
 Operating leases (3) > 772 | Payments Due: 354
-Purchase obligations (4) :
 Purchase obligations (4) : > Inventory and production costs > 4,217 | Payments Due: 2,492
 Purchase obligations (4) : > Inventory and production costs > 4,217 | Payments Due: 1,165
 Purchase obligations (4) : > Inventory and production costs > 4,217 | Payments Due: 406

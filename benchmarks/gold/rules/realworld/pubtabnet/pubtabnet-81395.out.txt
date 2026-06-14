@@ -19,11 +19,10 @@ VAT related to multidrug-resistant bacteria > Yes | Multivariate analysis > OR (
 VAT related to multidrug-resistant bacteria > Yes | Multivariate analysis > P: -
 VAT related to multidrug-resistant bacteria > No | Univariate analysis > Number of patients ( n = 110): 79
 VAT related to multidrug-resistant bacteria > No | Univariate analysis > Number of patients with MV duration ≥ 14 days (%): 30 (37)
-VAT
-VAT related to multidrug-resistant bacteria > Yes | Univariate analysis > Number of patients ( n = 110): 55
-VAT related to multidrug-resistant bacteria > Yes | Univariate analysis > Number of patients with MV duration ≥ 14 days (%): 35 (63)
-VAT related to multidrug-resistant bacteria > Yes | Univariate analysis > P: 0.001
-VAT related to multidrug-resistant bacteria > Yes | Multivariate analysis > OR (95% CI): 3.5 (1.5–8.3)
-VAT related to multidrug-resistant bacteria > Yes | Multivariate analysis > P: 0.004
-VAT related to multidrug-resistant bacteria > No | Univariate analysis > Number of patients ( n = 110): 55
-VAT related to multidrug-resistant bacteria > No | Univariate analysis > Number of patients with MV duration ≥ 14 days (%): 17 (30)
+VAT related to multidrug-resistant bacteria > VAT > Yes | Univariate analysis > Number of patients ( n = 110): 55
+VAT related to multidrug-resistant bacteria > VAT > Yes | Univariate analysis > Number of patients with MV duration ≥ 14 days (%): 35 (63)
+VAT related to multidrug-resistant bacteria > VAT > Yes | Univariate analysis > P: 0.001
+VAT related to multidrug-resistant bacteria > VAT > Yes | Multivariate analysis > OR (95% CI): 3.5 (1.5–8.3)
+VAT related to multidrug-resistant bacteria > VAT > Yes | Multivariate analysis > P: 0.004
+VAT related to multidrug-resistant bacteria > VAT > No | Univariate analysis > Number of patients ( n = 110): 55
+VAT related to multidrug-resistant bacteria > VAT > No | Univariate analysis > Number of patients with MV duration ≥ 14 days (%): 17 (30)

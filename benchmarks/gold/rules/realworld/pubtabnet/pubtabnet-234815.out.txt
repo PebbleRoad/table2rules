@@ -35,20 +35,19 @@ Coffee drinking | Formulation A: 7 (41.2%)
 Coffee drinking | Formulation B: 7 (41.2%)
 Coffee drinking | Total: 14 (41.2%)
 Coffee drinking | p: 1.00 Δ
-Causes of renal failure
-Diabetes Mellitus | Formulation A: 7 (46.7%)
-Diabetes Mellitus | Formulation B: 6 (40.0%)
-Diabetes Mellitus | Total: 13 (43.3%)
-Diabetes Mellitus | p: 0.71 Δ
-Hypertension | Formulation A: 5 (33.3%)
-Hypertension | Formulation B: 4 (26.7%)
-Hypertension | Total: 9 (30.0%)
-Hypertension | p: 1.00 !
-Other glomerulopathies | Formulation A: 1 (6.7%)
-Other glomerulopathies | Formulation B: 1 (6.7%)
-Other glomerulopathies | Total: 2 (6.7%)
-Other glomerulopathies | p: 1.00 !
-Cystic disease | Formulation A: 1 (6.7%)
-Cystic disease | Formulation B: 3 (20.0%)
-Cystic disease | Total: 4 (5.6%)
-Cystic disease | p: 0.60 !
+Causes of renal failure > Diabetes Mellitus | Formulation A: 7 (46.7%)
+Causes of renal failure > Diabetes Mellitus | Formulation B: 6 (40.0%)
+Causes of renal failure > Diabetes Mellitus | Total: 13 (43.3%)
+Causes of renal failure > Diabetes Mellitus | p: 0.71 Δ
+Causes of renal failure > Hypertension | Formulation A: 5 (33.3%)
+Causes of renal failure > Hypertension | Formulation B: 4 (26.7%)
+Causes of renal failure > Hypertension | Total: 9 (30.0%)
+Causes of renal failure > Hypertension | p: 1.00 !
+Causes of renal failure > Other glomerulopathies | Formulation A: 1 (6.7%)
+Causes of renal failure > Other glomerulopathies | Formulation B: 1 (6.7%)
+Causes of renal failure > Other glomerulopathies | Total: 2 (6.7%)
+Causes of renal failure > Other glomerulopathies | p: 1.00 !
+Causes of renal failure > Cystic disease | Formulation A: 1 (6.7%)
+Causes of renal failure > Cystic disease | Formulation B: 3 (20.0%)
+Causes of renal failure > Cystic disease | Total: 4 (5.6%)
+Causes of renal failure > Cystic disease | p: 0.60 !
