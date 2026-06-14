@@ -35,3 +35,6 @@ build/
 
 # Local benchmark outputs (gold should be versioned)
 benchmarks/current/
+
+# Claude Code local config (settings, skills) — never commit
+/.claude/
