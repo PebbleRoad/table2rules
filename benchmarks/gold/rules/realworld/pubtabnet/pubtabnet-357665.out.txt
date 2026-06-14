@@ -12,16 +12,16 @@ Quitters† > Women (n = 179) | Annual change in mL per pack-year to 1991: 1.5
 Quitters† > Women (n = 179) | Annual change in mL per pack-year to 1991: 0.3, 2.6
 Quitters† > Women (n = 179) | Annual change in mL per pack-year to 1991: 0.01
 Quitters† > Women (n = 179) | Annual change in mL per packs per day between 1991 and 2002: -6.4
-Term: Quadratic
-Annual change in mL per pack-year to 1991: -0.04
-Annual change in mL per pack-year to 1991: -0.08,-0.01
-Annual change in mL per pack-year to 1991: 0.01
-Annual change in mL per packs per day between 1991 and 2002: na
-Term: Cubic
-Annual change in mL per pack-year to 1991: 0.0004
-Annual change in mL per pack-year to 1991: 0.0001,0.0006
-Annual change in mL per pack-year to 1991: 0.006
-Annual change in mL per packs per day between 1991 and 2002: na
+Quitters† | Term: Quadratic
+Quitters† | Annual change in mL per pack-year to 1991: -0.04
+Quitters† | Annual change in mL per pack-year to 1991: -0.08,-0.01
+Quitters† | Annual change in mL per pack-year to 1991: 0.01
+Quitters† | Annual change in mL per packs per day between 1991 and 2002: na
+Quitters† | Term: Cubic
+Quitters† | Annual change in mL per pack-year to 1991: 0.0004
+Quitters† | Annual change in mL per pack-year to 1991: 0.0001,0.0006
+Quitters† | Annual change in mL per pack-year to 1991: 0.006
+Quitters† | Annual change in mL per packs per day between 1991 and 2002: na
 Persistent smokers† > Men (n = 595) | Term: Linear
 Persistent smokers† > Men (n = 595) | Annual change in mL per pack-year to 1991: -0.1
 Persistent smokers† > Men (n = 595) | Annual change in mL per pack-year to 1991: -0.3, 0.12
@@ -32,13 +32,13 @@ Persistent smokers† > Women (n = 556) | Annual change in mL per pack-year to 1
 Persistent smokers† > Women (n = 556) | Annual change in mL per pack-year to 1991: 0.5, 2.3
 Persistent smokers† > Women (n = 556) | Annual change in mL per pack-year to 1991: 0.001
 Persistent smokers† > Women (n = 556) | Annual change in mL per packs per day between 1991 and 2002: -11.6
-Term: Quadratic
-Annual change in mL per pack-year to 1991: -0.06
-Annual change in mL per pack-year to 1991: -0.08, -0.02
-Annual change in mL per pack-year to 1991: <0.001
-Annual change in mL per packs per day between 1991 and 2002: na
-Term: Cubic
-Annual change in mL per pack-year to 1991: 0.0006
-Annual change in mL per pack-year to 1991: 0.0003, 0.0008
-Annual change in mL per pack-year to 1991: <0.001
-Annual change in mL per packs per day between 1991 and 2002: na
+Persistent smokers† | Term: Quadratic
+Persistent smokers† | Annual change in mL per pack-year to 1991: -0.06
+Persistent smokers† | Annual change in mL per pack-year to 1991: -0.08, -0.02
+Persistent smokers† | Annual change in mL per pack-year to 1991: <0.001
+Persistent smokers† | Annual change in mL per packs per day between 1991 and 2002: na
+Persistent smokers† | Term: Cubic
+Persistent smokers† | Annual change in mL per pack-year to 1991: 0.0006
+Persistent smokers† | Annual change in mL per pack-year to 1991: 0.0003, 0.0008
+Persistent smokers† | Annual change in mL per pack-year to 1991: <0.001
+Persistent smokers† | Annual change in mL per packs per day between 1991 and 2002: na
