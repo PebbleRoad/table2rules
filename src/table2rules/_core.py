@@ -411,15 +411,33 @@ def _mark_label_only_rowgroups(grid) -> None:
             cols.append(c)
         return cols
 
-    def _single_label_origin(r: int) -> bool:
-        # A group header is exactly one label source cell (a title, possibly
-        # colspan'd). More than one distinct non-empty label cell means a data
-        # row, not a divider — do not thread it.
-        origins = set()
-        for c in _label_cols(r):
-            cell = grid[r][c]
-            origins.add(cell.get("origin", (r, c)) if cell.get("is_span_copy") else (r, c))
-        return len(origins) == 1
+    def _cell_text(r: int, c: int) -> str:
+        cell = grid[r][c]
+        if cell.get("is_span_copy"):
+            o = cell.get("origin", (r, c))
+            return (grid[o[0]][o[1]].get("text") or "").strip()
+        return (cell.get("text") or "").strip()
+
+    def _is_numeric_only(text: str) -> bool:
+        # No alphabetic character but at least one digit — a bare item number
+        # ("3.", "10"), reusing the parser's universal "letters label, digits
+        # measure" signal. A group title carries text; a mis-promoted value cell
+        # is a number.
+        return (
+            bool(text) and not any(ch.isalpha() for ch in text) and any(ch.isdigit() for ch in text)
+        )
+
+    def _title_like(r: int) -> bool:
+        # A group-header title carries at most ONE numeric-only label cell (a
+        # leading item number, e.g. "10 | Travel delay" or "3. | Permanent loss
+        # of:"). Two or more numeric label cells means a data row whose value
+        # columns merely happen to be empty (e.g. a header that over-promoted
+        # numeric columns to row labels, "Average: | 80.2 | 10.7 | 3.3") —
+        # threading it would invent a breadcrumb, so it stays an is_label.
+        cols = _label_cols(r)
+        if not cols:
+            return False
+        return sum(1 for c in cols if _is_numeric_only(_cell_text(r, c))) <= 1
 
     # A row already carrying a rowgroup cell (a full-width band promoted above,
     # or a source scope="rowgroup") is a boundary, not a label-only candidate.
@@ -432,7 +450,7 @@ def _mark_label_only_rowgroups(grid) -> None:
         and r not in band_rows
         and not _has_value(r)
         and bool(_label_cols(r))
-        and _single_label_origin(r)
+        and _title_like(r)
         for r in range(n_rows)
     ]
 
@@ -448,22 +466,55 @@ def _mark_label_only_rowgroups(grid) -> None:
         s_end = r
         r += 1  # advance past the stack for the outer loop
 
-        # Extent: down to the row before the next boundary (next label stack or
-        # full-width band). Bounded by a value row's presence.
+        # Absorb a run of full-width band rows immediately following the title
+        # stack (a description band under the title) into this header block —
+        # they are nested members, not a boundary. Without this the title's
+        # extent would terminate at the band and the title would be dropped (the
+        # narrow-title-then-full-width-description shape).
+        header_end = s_end
+        while header_end + 1 < n_rows and (header_end + 1) in band_rows:
+            header_end += 1
+
+        # Extent: from the first row after the header block to the row before the
+        # next group start — the next title, or a full-width band that begins a
+        # new section (one appearing AFTER a value row). A band absorbed above is
+        # part of this header, not a boundary.
         extent_end = n_rows - 1
-        for rr in range(s_end + 1, n_rows):
-            if is_label_row[rr] or rr in band_rows:
+        saw_value = False
+        for rr in range(header_end + 1, n_rows):
+            if is_label_row[rr]:
                 extent_end = rr - 1
                 break
-        has_data_row = any(_has_value(rr) for rr in range(s_end + 1, extent_end + 1))
-        if not has_data_row:
+            if rr in band_rows and saw_value:
+                extent_end = rr - 1
+                break
+            if _has_value(rr):
+                saw_value = True
+        value_rows = [rr for rr in range(header_end + 1, extent_end + 1) if _has_value(rr)]
+        if not value_rows:
             continue
 
+        # Promote each title cell, EXCLUDING a key column whose (column, text)
+        # repeats on a value row of the group — a repeating item-number/key
+        # already threads via the value rows' own labels; promoting it again
+        # would duplicate it in the path. The remaining cells are the title.
         for rr in range(s_start, s_end + 1):
             for c in _label_cols(rr):
+                text = _cell_text(rr, c)
+                if any(_cell_text(vr, c) == text for vr in value_rows):
+                    continue
                 grid[rr][c]["type"] = "th"
                 grid[rr][c]["scope"] = "rowgroup"
                 grid[rr][c]["rowgroup_extent_end"] = extent_end
+
+        # Bound the absorbed description band(s) by the same extent so a
+        # full-width description does not leak past the next narrow title (its
+        # colspan is wider, so the maze's colspan rule would not close it).
+        for rr in range(s_end + 1, header_end + 1):
+            for c in range(n_cols):
+                cell = grid[rr][c]
+                if cell.get("scope") == "rowgroup":
+                    cell["rowgroup_extent_end"] = extent_end
 
 
 def _process_table_with_gate(table_html: str) -> Tuple[List[LogicRule], GateResult]:

@@ -1,8 +1,4 @@
-Region: North
-Sales: 100
-Region: South
-Sales: 200
-Region: East
-Sales: 150
-Region: West
-Sales: 180
+North | Sales: 100
+South | Sales: 200
+East | Sales: 150
+West | Sales: 180
