@@ -1,0 +1,6 @@
+9. Trip Cancellation > If the trip is cancelled | PLANS > BASIC: 5,000
+9. Trip Cancellation > If the trip is cancelled | PLANS > ELITE: 10,000
+10. Travel Delay > Adult under 70 | PLANS > BASIC: 100
+10. Travel Delay > Adult under 70 | PLANS > ELITE: 200
+10. Travel Delay > Child | PLANS > BASIC: 50
+10. Travel Delay > Child | PLANS > ELITE: 100

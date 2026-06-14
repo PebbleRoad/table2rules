@@ -151,8 +151,18 @@ def find_headers_for_cell(
     # Bands are ordered topmost-first (origin row ascending) and prepended, so
     # the row path reads outer-band > inner-group > row-labels, mirroring the
     # multi-level column path.
+    #
+    # A *label-only* band (one carrying an explicit ``rowgroup_extent_end``)
+    # groups a ROW RANGE, so it must reach every value row in its extent
+    # regardless of which column its single label cell sits in — e.g. a numbered
+    # schedule whose group header is in the line-number/stub column while the
+    # sub-rows leave that column empty and carry their identity in a different
+    # column. Such bands are therefore scanned across ALL columns. Full-width and
+    # source ``scope="rowgroup"`` bands keep the column-restricted scan (own
+    # column + row-label columns) so unrelated stub dividers don't cross-attach.
+    own_cols = {col, *row_header_columns}
     bands: List[Tuple[int, str]] = []  # (origin_row, text)
-    for scan_col in [col, *row_header_columns]:
+    for scan_col in range(len(grid[0])):
         for r in range(row - 1, -1, -1):
             cell = grid[r][scan_col]
             if not cell or not cell.get("text", "").strip():
@@ -167,6 +177,11 @@ def find_headers_for_cell(
             else:
                 origin = (r, scan_col)
                 origin_cell = cell
+            # A column-restricted band (no stored extent) is only honored from
+            # the value's own column or a row-label column; a label-only band
+            # (stored extent) is honored from any column.
+            if origin_cell.get("rowgroup_extent_end") is None and scan_col not in own_cols:
+                continue
             if origin in seen_origins:
                 continue
             origin_row, origin_col = origin

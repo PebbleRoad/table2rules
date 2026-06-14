@@ -5,6 +5,28 @@ All notable changes to `table2rules` are documented here. Dates are in
 
 ## [Unreleased]
 
+### Fixed
+
+- **Label-only row-group headers are now threaded across columns** (multi-column
+  matrix variant). A label-only band groups a *row range*, but 0.6.1 only reached
+  it from the value cell's own column and the row-label columns. When a group
+  header sits in a leading stub / line-number column while the sub-rows leave
+  that column empty and carry their identity in a different column (a numbered
+  schedule with `plan × cover` value columns), the band was unreachable — so the
+  header was **dropped entirely** rather than threaded. The maze now scans all
+  columns for label-only bands (full-width and source `scope="rowgroup"` bands
+  keep the column-restricted scan, so unrelated stub dividers don't cross-attach),
+  and each group's extent still closes at the next group:
+
+  ```
+  10. Travel Delay > Adult under 70 | PLANS > BASIC: 100
+  ```
+
+  This also recovers data in three real-world corpus tables (`pubtabnet-180372`,
+  `-357665`, `-374857`) whose year / cohort group headers — in a stub column the
+  data rows leave empty — were silently dropped in 0.6.1. New fixture
+  `matrix/label-only-rowgroup-stub-column`.
+
 ## [0.6.1] — 2026-06-14
 
 ### Fixed
