@@ -5,6 +5,8 @@ All notable changes to `table2rules` are documented here. Dates are in
 
 ## [Unreleased]
 
+## [0.6.1] — 2026-06-14
+
 ### Fixed
 
 - **Label-only rows are now threaded as row-group headers.** 0.6.0's row-group
