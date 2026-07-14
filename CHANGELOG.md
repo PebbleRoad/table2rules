@@ -5,6 +5,8 @@ All notable changes to `table2rules` are documented here. Dates are in
 
 ## [Unreleased]
 
+## [0.6.4] — 2026-07-15
+
 ### Fixed
 
 - **Headless left-header and transposed tables no longer degrade to flat with
