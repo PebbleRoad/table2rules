@@ -365,7 +365,9 @@ def detect_header_block(rows):
         # Fall back to single-cell rows so the stub-column computation still
         # has a body to measure.
         body_rows = [
-            grid[r] for r in range(first_data_idx, n) if sum(1 for c in grid[r] if c["nonempty"]) >= 1
+            grid[r]
+            for r in range(first_data_idx, n)
+            if sum(1 for c in grid[r] if c["nonempty"]) >= 1
         ]
     if not body_rows:
         return None
