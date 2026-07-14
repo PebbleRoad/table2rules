@@ -542,20 +542,26 @@ def parse_table_to_grid(table: Tag) -> List[List[Dict[str, Any]]]:
     # textual value column, so promoting past col 0 would risk consuming
     # values as labels.
     elif not has_thead and data_start_row_idx == 0 and not is_key_value_table and max_cols >= 2:
+
+        def _text_at(r: int, c: int) -> str:
+            cell = grid[r][c]
+            if not cell:
+                return ""
+            return (cell.get("text") or "").strip()
+
         content_rows = []
         for r in range(len(grid)):
-            if any(grid[r][c] and (grid[r][c].get("text") or "").strip() for c in range(max_cols)):
+            if any(_text_at(r, c) for c in range(max_cols)):
                 content_rows.append(r)
 
-        col0_texts = [
-            (grid[r][0].get("text") or "").strip()
-            for r in content_rows
-            if grid[r][0] and not grid[r][0].get("is_span_copy")
-        ]
-        col0_texts = [t for t in col0_texts if t]
-        col0_filled = sum(
-            1 for r in content_rows if grid[r][0] and (grid[r][0].get("text") or "").strip()
-        )
+        col0_texts = []
+        for r in content_rows:
+            cell = grid[r][0]
+            if cell and not cell.get("is_span_copy"):
+                text = (cell.get("text") or "").strip()
+                if text:
+                    col0_texts.append(text)
+        col0_filled = sum(1 for r in content_rows if _text_at(r, 0))
         col0_textual = sum(1 for t in col0_texts if _is_textualish(t))
 
         value_nonempty = 0
