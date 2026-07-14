@@ -218,9 +218,26 @@ def _build_rules(grid) -> List[LogicRule]:
             continue
         # Anchor the rule at the row's data column so it satisfies the quality
         # gate's "rules originate from <td>" invariant. A row with no <td> at
-        # all is a true full-width <th colspan> divider — already handled as a
-        # row-group ancestor upstream — so we leave it alone.
+        # all can still be a *label*, not a divider: a full-width
+        # <th scope="row" colspan> footnote/annotation line whose span
+        # swallowed every value column (promoted rowgroup dividers were
+        # already excluded above). Anchor those on the label cell itself —
+        # the gate accepts body-<th> anchors for is_label rules — so the
+        # text survives instead of vanishing.
         anchor_col = next((c for c in range(n_cols) if grid[row_idx][c]["type"] == "td"), None)
+        if anchor_col is None:
+            anchor_col = next(
+                (
+                    c
+                    for c in range(n_cols)
+                    if grid[row_idx][c]["type"] == "th"
+                    and not grid[row_idx][c].get("is_thead", False)
+                    and not grid[row_idx][c].get("is_header_row", False)
+                    and not grid[row_idx][c].get("is_span_copy", False)
+                    and (grid[row_idx][c].get("text") or "").strip()
+                ),
+                None,
+            )
         if anchor_col is None:
             continue
         label_parts: List[str] = []
@@ -445,12 +462,21 @@ def _mark_label_only_rowgroups(grid) -> None:
         r for r in range(n_rows) for c in range(n_cols) if grid[r][c].get("scope") == "rowgroup"
     }
 
+    def _headless_stub_label(r: int) -> bool:
+        # A label promoted by the headless leading-stub-column pass carries
+        # row identity only — with no header structure anywhere in the table
+        # there is no evidence for hierarchy, and a bare label line is just as
+        # likely a modifier/continuation of the row above as a group title.
+        # Keep such rows on the peer-label (is_label) path.
+        return any(grid[r][c].get("headless_stub") for c in range(n_cols))
+
     is_label_row = [
         _is_body_row(r)
         and r not in band_rows
         and not _has_value(r)
         and bool(_label_cols(r))
         and _title_like(r)
+        and not _headless_stub_label(r)
         for r in range(n_rows)
     ]
 

@@ -324,6 +324,27 @@ def detect_header_block(rows):
         if first_divider > 0 and (first_data_idx is None or first_divider < first_data_idx):
             first_data_idx = first_divider
 
+    # Empty-corner matrix fallback. When NO clean data row exists anywhere —
+    # every body row is label-only (one non-empty cell), so the loop above
+    # classifies them all as dividers — the row-stub-column header signature
+    # can still identify row 0 as the column-header row: an empty col-0
+    # corner beside ≥2 distinct non-empty header cells, over a body whose
+    # col 0 is filled in a strict majority of content rows. This is the
+    # transposed matrix / roster-form shape (an attribute-per-row form with
+    # one column per entity, values left blank): the corner is empty because
+    # the label column needs no name, and the labels below fill it on every
+    # row. Purely geometric — same signature the docstring already documents
+    # for FinTabNet single-row headers, extended to bodies with no multi-cell
+    # rows. Requiring ≥2 distinct origins in row 0 keeps a full-width
+    # divider with an empty lead cell from qualifying as a header row.
+    if first_data_idx is None and max_cols >= 2 and not grid[0][0]["nonempty"]:
+        row0_origins = {grid[0][c]["origin"] for c in range(max_cols) if grid[0][c]["nonempty"]}
+        content_rows = [r for r in range(1, n) if nonempty_counts[r] >= 1]
+        if len(row0_origins) >= 2 and content_rows:
+            col0_filled = sum(1 for r in content_rows if grid[r][0]["nonempty"])
+            if col0_filled * 2 > len(content_rows):
+                first_data_idx = 1
+
     if first_data_idx is None or first_data_idx == 0:
         return None
 
@@ -338,6 +359,14 @@ def detect_header_block(rows):
     body_rows = [
         grid[r] for r in range(first_data_idx, n) if sum(1 for c in grid[r] if c["nonempty"]) >= 2
     ]
+    if not body_rows:
+        # Label-only body (reachable only via the empty-corner fallback: the
+        # normal path's first clean data row would itself qualify above).
+        # Fall back to single-cell rows so the stub-column computation still
+        # has a body to measure.
+        body_rows = [
+            grid[r] for r in range(first_data_idx, n) if sum(1 for c in grid[r] if c["nonempty"]) >= 1
+        ]
     if not body_rows:
         return None
 
@@ -630,6 +659,41 @@ def simple_repair(html: str) -> str:
                     continue
                 only_col = non_empty_cols[0]
                 if only_col not in stub_cols:
+                    continue
+                # A divider is a rowgroup ANCESTOR only when it actually
+                # groups something: at least one multi-origin body row before
+                # the next divider. Without this, a run of label-only rows
+                # (a form whose value cells are all blank, or trailing
+                # footnote lines) would each be promoted to scope="rowgroup"
+                # with an empty extent — the maze can never reach such a band
+                # from a value row, so its label would be dropped silently.
+                # Groupless dividers keep the <th scope="row"> promotion from
+                # the stub-column pass above and survive via the
+                # label-preservation path.
+                #
+                # Counting distinct ORIGINS (not colspan-expanded positions)
+                # is load-bearing: a full-width single-cell note row expands
+                # to every column but is still one label, not a grouped data
+                # row. A single-origin row with colspan == 1 is the next
+                # label/divider — stop; a single-origin row with a wider span
+                # is a note — scan past it (a units caption between a year
+                # divider and its value rows does not end the group).
+                groups_a_row = False
+                for r2 in range(r_idx + 1, len(grid)):
+                    r2_origins = {
+                        grid[r2][c]["origin"]
+                        for c in range(len(grid[r2]))
+                        if grid[r2][c]["nonempty"]
+                    }
+                    if not r2_origins:
+                        continue
+                    if len(r2_origins) >= 2:
+                        groups_a_row = True
+                        break
+                    (orow2, ocol2) = next(iter(r2_origins))
+                    if grid[orow2][ocol2]["cs"] == 1:
+                        break
+                if not groups_a_row:
                     continue
                 origin = row[only_col]["origin"]
                 if origin[0] < thead_end:

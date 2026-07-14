@@ -46,7 +46,13 @@ def check_invariants(grid: List[List[Dict]], rules: List[LogicRule]) -> Tuple[bo
 
         cell = grid[r][c]
         if cell.get("type") != "td":
-            reasons.append("non_td_rule_cell")
+            # Value rules must originate from <td>. Label-preservation rules
+            # may anchor on the body-<th> label cell itself — a full-width
+            # <th scope="row" colspan> annotation row has no <td> to anchor
+            # on, and its text is a label, not data. Explicit/implicit header
+            # cells stay forbidden for both kinds via the check below.
+            if not rule.is_label:
+                reasons.append("non_td_rule_cell")
         if cell.get("is_thead", False) or cell.get("is_header_row", False):
             reasons.append("header_cell_emitted")
 

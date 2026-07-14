@@ -4,3 +4,5 @@ Widget B | Qty: 20
 Widget B | Remark: Priority
 Total Exposure | Qty: 30
 Total Exposure | Remark: Real business label, not a legend
+Footnote: Quantities include carry-over from prior week.
+Legend: Qty is net of cancellations.

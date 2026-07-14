@@ -70,3 +70,4 @@ Program Nimbus > Orion Suite | Notes: Pilot feedback gates launch.
 Program Nimbus > Program Nimbus — Subtotal | FY Total: 13.6
 Program Nimbus > Program Nimbus — Subtotal | Status: —
 Program Nimbus > Program Nimbus — Subtotal | Notes: Shared CapEx counted once.
+Months indicate target/actual milestone months for each gate. “—” means not applicable or not yet set. † Carina paused per board decision on 14 Mar 2025; minimal OpEx covers compliance & caretaking.

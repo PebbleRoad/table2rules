@@ -516,6 +516,83 @@ def parse_table_to_grid(table: Tag) -> List[List[Dict[str, Any]]]:
                         if not cell.get("scope"):
                             cell["scope"] = "row"
 
+    # Phase 3.6: Headless leading stub column (left-header tables).
+    #
+    # A headless table where NO header row was detected (data_start_row_idx
+    # stayed 0) can still carry row identity in its leading column — the
+    # Label|Value... form where each row is "question | answer(s)" and no
+    # column-header row exists at all (e.g. a form fragment whose rows are
+    # attribute labels beside value columns). Without promotion every value
+    # rule loses its only header and the gate fails the whole table to flat.
+    #
+    # Universal structural signals, mirroring Phase 3.5's Signal B/D but for
+    # the no-header case:
+    #   * col 0 is descriptor-like (strict majority of its non-empty origin
+    #     cells are textual, ≥2 of them) and filled in a strict majority of
+    #     content rows — the row-label signature;
+    #   * the value region is GAPPY: some content row leaves a cell to the
+    #     right of col 0 empty. A fully dense grid stays untouched — a dense
+    #     headless table's first row/column is structurally indistinguishable
+    #     from data (the documented receipts/relational deferral), so the
+    #     pipeline keeps deferring to the confidence gate;
+    #   * at least one non-empty value cell exists right of col 0 (a table
+    #     with no values gains nothing from promotion).
+    # Only the leftmost column is ever promoted: with no header text anywhere
+    # there is no structural boundary between a second label column and a
+    # textual value column, so promoting past col 0 would risk consuming
+    # values as labels.
+    elif not has_thead and data_start_row_idx == 0 and not is_key_value_table and max_cols >= 2:
+        content_rows = []
+        for r in range(len(grid)):
+            if any(grid[r][c] and (grid[r][c].get("text") or "").strip() for c in range(max_cols)):
+                content_rows.append(r)
+
+        col0_texts = [
+            (grid[r][0].get("text") or "").strip()
+            for r in content_rows
+            if grid[r][0] and not grid[r][0].get("is_span_copy")
+        ]
+        col0_texts = [t for t in col0_texts if t]
+        col0_filled = sum(
+            1 for r in content_rows if grid[r][0] and (grid[r][0].get("text") or "").strip()
+        )
+        col0_textual = sum(1 for t in col0_texts if _is_textualish(t))
+
+        value_nonempty = 0
+        value_gap = False
+        for r in content_rows:
+            for c in range(1, max_cols):
+                cell = grid[r][c]
+                if cell and (cell.get("text") or "").strip():
+                    value_nonempty += 1
+                else:
+                    value_gap = True
+
+        if (
+            len(col0_texts) >= 2
+            and col0_textual * 2 > len(col0_texts)
+            and col0_filled * 2 > len(content_rows)
+            and value_nonempty >= 1
+            and value_gap
+        ):
+            for r in range(len(grid)):
+                cell = grid[r][0]
+                if not cell or cell.get("is_span_copy") or cell.get("is_footer", False):
+                    continue
+                if cell["type"] == "td" and (cell.get("text") or "").strip():
+                    cell["type"] = "th"
+                    if not cell.get("scope"):
+                        cell["scope"] = "row"
+                    # With no header structure anywhere, promotion is evidence
+                    # for row IDENTITY only, not row HIERARCHY. Mark the cell
+                    # so a label-only row is preserved as a peer label rather
+                    # than threaded as a rowgroup ancestor over the rows below
+                    # it — in a headless no-header table a bare label line is
+                    # just as likely a trailing modifier/continuation of the
+                    # row above (receipt "+Hot" under a line item) as a group
+                    # title, and misattributing it corrupts every row beneath.
+                    cell["headless_stub"] = True
+
     # Phase 4: Fill gaps
     for r in range(len(grid)):
         for c in range(max_cols):

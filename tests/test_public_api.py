@@ -170,10 +170,13 @@ def test_pre_repair_span_bomb_is_skipped_with_input_too_large() -> None:
 def test_malformed_span_values_are_bounded_without_processing_error() -> None:
     html = '<table><tr><td colspan="bogus">Title</td></tr><tr><td>A</td><td>B</td></tr></table>'
     text, report = process_tables_with_stats(html)
-    assert text == "Title\nA | B"
+    # The bogus colspan is clamped to 1; the headless leading stub column then
+    # reads "A" as the row label. "Title" stays a peer label line (headless
+    # promotion never claims hierarchy), so both rows survive in order.
+    assert text == "Title\nA: B"
     assert len(report.tables) == 1
     tr = report.tables[0]
-    assert tr.render_mode == "flat"
+    assert tr.render_mode == "rules"
     assert "processing_error" not in tr.reasons
     assert tr.error is None
 

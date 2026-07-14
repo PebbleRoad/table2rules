@@ -1,7 +1,7 @@
-1 Viet Milk Coffee | 25.000
-+Hot | 
-+M | 
-Subtotal | 25.000
-Total | 25.000
-CASH | 30.000
-Kembalian | 5.000
+1 Viet Milk Coffee: 25.000
++Hot
++M
+Subtotal: 25.000
+Total: 25.000
+CASH: 30.000
+Kembalian: 5.000

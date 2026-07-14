@@ -5,6 +5,53 @@ All notable changes to `table2rules` are documented here. Dates are in
 
 ## [Unreleased]
 
+### Fixed
+
+- **Headless left-header and transposed tables no longer degrade to flat with
+  `low_header_attachment`.** Docling `TableItem.export_to_html` emits form
+  fragments as all-`<td>` tables with no header markup anywhere; two structural
+  gaps made every such table fail the gate:
+  - *Left-header rows* (`Label | value | … | (empty)`): row-header-column
+    promotion was gated on `<thead>`, so the label column was never promoted
+    and every rule carried zero headers. A new headless leading-stub-column
+    pass (Phase 3.6) promotes col 0 to `th scope="row"` when it is
+    descriptor-like, filled in a strict majority of content rows, and the
+    value region is *gappy*. Fully dense headless grids
+    (`Company | Contact | Email`) are untouched — the documented clean-data-row
+    deferral to the confidence gate still applies.
+  - *Transposed empty-corner matrices* (an empty corner beside per-entity
+    column labels, over label-only body rows): `detect_header_block` classified
+    every label-only body row as a section divider and found no header. A new
+    empty-corner fallback recognizes row 0 as the column-header row via the
+    existing row-stub signature, extended to bodies with no multi-cell rows.
+    All-empty forms now report an honest `no_candidate_data_cells` instead of
+    `low_header_attachment`, and render flat faithfully (rules cannot represent
+    an empty matrix without fabrication).
+- **Groupless dividers no longer drop their labels silently.** Fix 4's
+  rowgroup-divider promotion now requires a multi-*origin* body row before the
+  next divider; a divider that groups nothing (trailing footnote lines, a run
+  of blank-valued form fields) stays a `th scope="row"` label and survives via
+  label preservation. This recovers previously-dropped group labels in real
+  FinTabNet tables (`Components of net periodic benefit cost:`,
+  `Balance at October 31, 2009`) whose row-group extent was closed immediately
+  by the next divider.
+- **Full-width `colspan` annotation rows are preserved.** A
+  `th scope="row" colspan` footnote/legend line has no `<td>` to anchor on and
+  was dropped with no signal; label-preservation rules may now anchor on the
+  body-`<th>` label cell itself (the gate accepts body-`<th>` anchors for
+  `is_label` rules only). Recovers footnote and legend lines in existing
+  fixtures and FinTabNet tables.
+- **Headless stub promotion never claims hierarchy.** Labels promoted by the
+  new Phase 3.6 pass are marked `headless_stub` and stay *peer* labels: in a
+  table with no header structure, a bare label line is as likely a trailing
+  modifier of the row above (receipt `+Hot` under a line item) as a group
+  title, so threading it as a rowgroup ancestor would misattribute every row
+  beneath it.
+
+  New fixtures: `form/left-header-multivalue`, `form/left-header-question-answer`,
+  `matrix/transposed-empty-corner-roster`, `matrix/transposed-empty-corner-filled`,
+  `matrix/footnote-tail-annotations`.
+
 ## [0.6.3] — 2026-06-14
 
 ### Fixed

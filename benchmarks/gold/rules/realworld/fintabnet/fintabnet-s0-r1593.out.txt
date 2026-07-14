@@ -1,33 +1,33 @@
-Defined benefit plans: > Service cost | Pension Benefits > 2014: $3
-Defined benefit plans: > Service cost | Pension Benefits > 2013: $3
-Defined benefit plans: > Service cost | Pension Benefits > 2012: $341
-Defined benefit plans: > Service cost | Retiree Medical and Other Benefits > 2014: $1
-Defined benefit plans: > Service cost | Retiree Medical and Other Benefits > 2013: $—
-Defined benefit plans: > Service cost | Retiree Medical and Other Benefits > 2012: $46
-Defined benefit plans: > Interest cost | Pension Benefits > 2014: 746
-Defined benefit plans: > Interest cost | Pension Benefits > 2013: 654
-Defined benefit plans: > Interest cost | Pension Benefits > 2012: 729
-Defined benefit plans: > Interest cost | Retiree Medical and Other Benefits > 2014: 61
-Defined benefit plans: > Interest cost | Retiree Medical and Other Benefits > 2013: 50
-Defined benefit plans: > Interest cost | Retiree Medical and Other Benefits > 2012: 128
-Defined benefit plans: > Expected return on assets | Pension Benefits > 2014: (786)
-Defined benefit plans: > Expected return on assets | Pension Benefits > 2013: (720)
-Defined benefit plans: > Expected return on assets | Pension Benefits > 2012: (676)
-Defined benefit plans: > Expected return on assets | Retiree Medical and Other Benefits > 2014: (19)
-Defined benefit plans: > Expected return on assets | Retiree Medical and Other Benefits > 2013: (16)
-Defined benefit plans: > Expected return on assets | Retiree Medical and Other Benefits > 2012: (17)
-Defined benefit plans: > Curtailments | Pension Benefits > 2014: —
-Defined benefit plans: > Curtailments | Pension Benefits > 2013: 2
-Defined benefit plans: > Curtailments | Pension Benefits > 2012: 58
-Defined benefit plans: > Curtailments | Retiree Medical and Other Benefits > 2014: —
-Defined benefit plans: > Curtailments | Retiree Medical and Other Benefits > 2013: —
-Defined benefit plans: > Curtailments | Retiree Medical and Other Benefits > 2012: (124)
-Defined benefit plans: > Settlements | Pension Benefits > 2014: 4
-Defined benefit plans: > Settlements | Pension Benefits > 2013: (1)
-Defined benefit plans: > Settlements | Pension Benefits > 2012: —
-Defined benefit plans: > Settlements | Retiree Medical and Other Benefits > 2014: —
-Defined benefit plans: > Settlements | Retiree Medical and Other Benefits > 2013: —
-Defined benefit plans: > Settlements | Retiree Medical and Other Benefits > 2012: —
+Components of net periodic benefit cost: > Defined benefit plans: > Service cost | Pension Benefits > 2014: $3
+Components of net periodic benefit cost: > Defined benefit plans: > Service cost | Pension Benefits > 2013: $3
+Components of net periodic benefit cost: > Defined benefit plans: > Service cost | Pension Benefits > 2012: $341
+Components of net periodic benefit cost: > Defined benefit plans: > Service cost | Retiree Medical and Other Benefits > 2014: $1
+Components of net periodic benefit cost: > Defined benefit plans: > Service cost | Retiree Medical and Other Benefits > 2013: $—
+Components of net periodic benefit cost: > Defined benefit plans: > Service cost | Retiree Medical and Other Benefits > 2012: $46
+Components of net periodic benefit cost: > Defined benefit plans: > Interest cost | Pension Benefits > 2014: 746
+Components of net periodic benefit cost: > Defined benefit plans: > Interest cost | Pension Benefits > 2013: 654
+Components of net periodic benefit cost: > Defined benefit plans: > Interest cost | Pension Benefits > 2012: 729
+Components of net periodic benefit cost: > Defined benefit plans: > Interest cost | Retiree Medical and Other Benefits > 2014: 61
+Components of net periodic benefit cost: > Defined benefit plans: > Interest cost | Retiree Medical and Other Benefits > 2013: 50
+Components of net periodic benefit cost: > Defined benefit plans: > Interest cost | Retiree Medical and Other Benefits > 2012: 128
+Components of net periodic benefit cost: > Defined benefit plans: > Expected return on assets | Pension Benefits > 2014: (786)
+Components of net periodic benefit cost: > Defined benefit plans: > Expected return on assets | Pension Benefits > 2013: (720)
+Components of net periodic benefit cost: > Defined benefit plans: > Expected return on assets | Pension Benefits > 2012: (676)
+Components of net periodic benefit cost: > Defined benefit plans: > Expected return on assets | Retiree Medical and Other Benefits > 2014: (19)
+Components of net periodic benefit cost: > Defined benefit plans: > Expected return on assets | Retiree Medical and Other Benefits > 2013: (16)
+Components of net periodic benefit cost: > Defined benefit plans: > Expected return on assets | Retiree Medical and Other Benefits > 2012: (17)
+Components of net periodic benefit cost: > Defined benefit plans: > Curtailments | Pension Benefits > 2014: —
+Components of net periodic benefit cost: > Defined benefit plans: > Curtailments | Pension Benefits > 2013: 2
+Components of net periodic benefit cost: > Defined benefit plans: > Curtailments | Pension Benefits > 2012: 58
+Components of net periodic benefit cost: > Defined benefit plans: > Curtailments | Retiree Medical and Other Benefits > 2014: —
+Components of net periodic benefit cost: > Defined benefit plans: > Curtailments | Retiree Medical and Other Benefits > 2013: —
+Components of net periodic benefit cost: > Defined benefit plans: > Curtailments | Retiree Medical and Other Benefits > 2012: (124)
+Components of net periodic benefit cost: > Defined benefit plans: > Settlements | Pension Benefits > 2014: 4
+Components of net periodic benefit cost: > Defined benefit plans: > Settlements | Pension Benefits > 2013: (1)
+Components of net periodic benefit cost: > Defined benefit plans: > Settlements | Pension Benefits > 2012: —
+Components of net periodic benefit cost: > Defined benefit plans: > Settlements | Retiree Medical and Other Benefits > 2014: —
+Components of net periodic benefit cost: > Defined benefit plans: > Settlements | Retiree Medical and Other Benefits > 2013: —
+Components of net periodic benefit cost: > Defined benefit plans: > Settlements | Retiree Medical and Other Benefits > 2012: —
 Amortization of: > Prior service cost (1) | Pension Benefits > 2014: 28
 Amortization of: > Prior service cost (1) | Pension Benefits > 2013: 28
 Amortization of: > Prior service cost (1) | Pension Benefits > 2012: 10
